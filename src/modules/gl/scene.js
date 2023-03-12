@@ -1,10 +1,8 @@
 import SquareMatrix from "../math/square-matrix.js";
 
-const DEFAULT_AMBIENT_LIGHT_COLOR = [0.2, 0.2, 0.2, 1.0];
 const DEFAULT_MATERIAL_AMBIENT_COLOR = [0.0, 0.0, 0.4, 1.0];
 const DEFAULT_MATERIAL_DIFFUSE_COLOR = [0.0, 0.0, 0.4, 1.0];
 const DEFAULT_MATERIAL_EMISSION_COLOR = [0.4, 0.1, 0.1, 1.0];
-const DEFAULT_MATERIAL_SPECULAR_COLOR = [0.1, 1.0, 0.1, 1.0];
 
 export default class Scene 
 {
@@ -80,6 +78,9 @@ export default class Scene
             model.hasTextures = true;
             texture.SetSampler(model.shader, tNumber);
             //TODO: apply texture specific uniforms
+            texture.uniforms.forEach(uniform =>{
+                uniform.set();
+            });
             tNumber++;
         });
 

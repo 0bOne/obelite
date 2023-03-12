@@ -4,10 +4,12 @@ export default class Texture
 {
     gl;
     glTexture;
+    uniforms;
 
     constructor(gl)
     {
         this.gl = gl;
+        this.uniforms = [];
     }
 
     async Load(url)

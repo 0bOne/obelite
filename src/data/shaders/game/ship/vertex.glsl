@@ -23,14 +23,16 @@ void main() {
 	vUv = aTextureCoord.xy;
 	vNormal = aVertexNormal;
 
+
 	// Apply lighting effect
-  vec3 ambientLight = vec3(0.9, 0.9, 0.9);
-  vec3 directionalLightColor = vec3(1.0, 1.0, 1.0);
-  vec3 directionalVector = normalize(vec3(0.5, 1.0, 0.75));
-  vec4 transformedNormal = uNormalMatrix * vec4(aVertexNormal, 1.0);
-  float directional = max(dot(transformedNormal.xyz, directionalVector), 0.0);
-  vLighting = ambientLight + (directionalLightColor * directional);
+	vec3 ambientLight = vec3(0.9, 0.9, 0.9);
+	vec3 directionalLightColor = vec3(1.0, 1.0, 1.0);
+	vec3 directionalVector = normalize(vec3(0.5, 1.0, 0.75));
+	vec4 transformedNormal = uNormalMatrix * vec4(aVertexNormal, 1.0);
+	float directional = max(dot(transformedNormal.xyz, directionalVector), 0.0);
+	vLighting = ambientLight + (directionalLightColor * directional);
 	
+
 	vec3 transformed = vec3( aVertexPosition );
 	vec4 mvPosition = vec4( transformed, 1.0 );
 	mvPosition = uModelViewMatrix * mvPosition;

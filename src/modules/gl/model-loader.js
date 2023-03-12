@@ -6,6 +6,7 @@ import IndicesAttribute from "./attributes/indices-attribute.js";
 import NormalsAttribute from "./attributes/normals-attribute.js";
 import Texture from "./texture.js";
 import STsAttribute from "./attributes/sts-ttribute.js";
+import SpecularColor from "./uniforms/specular-color.js";
 
 export default class ModelLoader
 {
@@ -84,6 +85,13 @@ export default class ModelLoader
                     await texture.Load(modelFolder + "/" + textureData.file);
                     model.textures.push(texture);
                     model.hasTextures = true;
+
+                    if (textureData.specularColor)
+                    {
+                        // debugger;
+                        // const uniform = new SpecularColor(this.gl, model, textureData.specularColor);
+                        // texture.uniforms.push(uniform);
+                    }
                 }
                 else
                 {
@@ -96,6 +104,13 @@ export default class ModelLoader
                 const attribute = new STsAttribute(this.gl, modelData.sts);
                 model.attributes.push(attribute);
                 model.hasSTs = true;
+            }
+            else
+            {
+                //no textures, so add a default specular color uniform
+                // debugger;
+                // const uniform = new SpecularColor(this.gl, model);
+                // model.uniforms.push(uniform);
             }
         }
 

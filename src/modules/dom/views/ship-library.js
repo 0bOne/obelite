@@ -8,7 +8,7 @@ export default class ShipLibrary extends ViewBase
  
         this.AddPanel();
         this.AddTitle("Ship Library");
-        this.AddInfo(["(ship library coming soon"]);
+        this.AddInfo(["(ship library coming soon)"]);
         this.AddMenu(MenuMain);
     }
 }

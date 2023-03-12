@@ -3719,7 +3719,9 @@ normals:
     ]
 textures:
 - file: hull.png
+  specularColor: [0.25, 0.25, 0.25]
 - file: guns.png
+  specularColor: [0.25, 0.25, 0.25]
 sts:
     [
         0.86488, 0.94149, 0.86488, 0.8467, 0.9969, 0.94149,      # #0

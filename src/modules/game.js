@@ -52,13 +52,52 @@ export default class Game
     async addCobra()
     {
         const modelLoader = new ModelLoader(this.gameCtx);
-        this.gameCtx.demoShip = await modelLoader.Load("ships/detailed/cobra3")
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/adder");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/anaconda");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/asp");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/boa");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/boa-mk2");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/cobra-mk1");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/cobra-mk3");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/constrictor");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/ferdelance");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/viper");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/viper-interceptor");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/gecko");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/krait");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/mamba");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/moray");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/shuttle");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/python");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/sidewinder");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/transporter");
+        //this.gameCtx.demoShip = await modelLoader.Load("ships/worm");
+    
+        //this.gameCtx.demoShip = await modelLoader.Load("thargoids/thargoid");
+        //this.gameCtx.demoShip = await modelLoader.Load("thargoids/thargon");
+        
+        //this.gameCtx.demoShip = await modelLoader.Load("weapons/missile");
+        //this.gameCtx.demoShip = await modelLoader.Load("weapons/missile-hardhead");
+        //this.gameCtx.demoShip = await modelLoader.Load("weapons/qbomb");
+    
+        //TODO: figure out why stations are partially complete
+        //this.gameCtx.demoShip = await modelLoader.Load("stations/coriolis");
+        //this.gameCtx.demoShip = await modelLoader.Load("stations/dodo");
+        //this.gameCtx.demoShip = await modelLoader.Load("stations/ico");
+        //this.gameCtx.demoShip = await modelLoader.Load("stations/rock-hermit");
+        
+        //this.gameCtx.demoShip = await modelLoader.Load("misc/asteroid");
+        //this.gameCtx.demoShip = await modelLoader.Load("misc/barrel");
+        //this.gameCtx.demoShip = await modelLoader.Load("misc/escape-capsule");
+        this.gameCtx.demoShip = await modelLoader.Load("misc/buoy");
 
-        this.gameCtx.demoShip.Rotation = -3.8;
-        this.gameCtx.demoShip.isVisible = true;
-        this.gameCtx.demoShip.animator = new Rotator(this.gameCtx.demoShip, 0.5);
-
-        this.gameCtx.scene.models.push(this.gameCtx.demoShip);
+        if (this.gameCtx.demoShip)
+        {
+            this.gameCtx.demoShip.Rotation = -3.8;
+            this.gameCtx.demoShip.isVisible = true;
+            this.gameCtx.demoShip.animator = new Rotator(this.gameCtx.demoShip, 0.5);
+            this.gameCtx.scene.models.push(this.gameCtx.demoShip);
+        }
     }
 
     onResize(event)
