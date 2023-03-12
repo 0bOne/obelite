@@ -4,17 +4,28 @@ const DEFAULT_MATERIAL_DIFFUSE_COLOR = [0.0, 0.0, 0.4, 1.0];
 const DEFAULT_MATERIAL_EMISSION_COLOR = [0.4, 0.1, 0.1, 1.0];
 const DEFAULT_MATERIAL_SPECULAR_COLOR = [0.1, 1.0, 0.1, 1.0];
 
+
 export default class Scene {
-    
-    static Draw(shape)
+
+    shapes;
+
+    constructor(gameCtx)
     {
-        $gl.clearColor(0.0, 0.0, 0.0, 1.0); // Clear to black, fully opaque
-        $gl.clearDepth(1.0); // Clear everything
-        $gl.enable($gl.DEPTH_TEST); // Enable depth testing
-        $gl.depthFunc($gl.LEQUAL); // Near things obscure far things
+        this.gl = gameCtx.gl;
+        this.gameCtx = gameCtx;
+        this.shapes = [];
+    }
+    
+    Draw()
+    {
+        const shape = this.shapes[0];
+        this.gl.clearColor(0.0, 0.0, 0.0, 1.0); // Clear to black, fully opaque
+        this.gl.clearDepth(1.0); // Clear everything
+        this.gl.enable(this.gl.DEPTH_TEST); // Enable depth testing
+        this.gl.depthFunc(this.gl.LEQUAL); // Near things obscure far things
   
         // Clear the canvas before we start drawing on it.
-        $gl.clear($gl.COLOR_BUFFER_BIT | $gl.DEPTH_BUFFER_BIT);
+        this.gl.clear(this.gl.COLOR_BUFFER_BIT | this.gl.DEPTH_BUFFER_BIT);
   
         // Create a perspective matrix, a special matrix that is
         // used to simulate the distortion of perspective in a camera.
@@ -23,7 +34,7 @@ export default class Scene {
         // and we only want to see objects between 0.1 units
         // and 100 units away from the camera.  
         const fieldOfView = (45 * Math.PI) / 180; // in radians
-        const aspect = $gl.canvas.clientWidth / $gl.canvas.clientHeight;
+        const aspect = this.gl.canvas.clientWidth / this.gl.canvas.clientHeight;
         const zNear = 0.1;
         const zFar = 100.0;
 
@@ -72,14 +83,9 @@ export default class Scene {
         shape.attributes.forEach(attribute => {
             attribute.Set(shape.Shader);
         });
-
-        // shape.textures.forEach(texture => {
-        //     shape.hasTextures = true;
-        //     texture.SetBuffer(shape.Shader);
-        // });
         
         ///////////////////////////////////
-        $gl.useProgram(shape.Shader.program);
+        this.gl.useProgram(shape.Shader.program);
         ///////////////////////////////////
   
         this.setUniforms(shape.Shader.locations, projectionMatrix, modelViewMatrix)
@@ -99,24 +105,24 @@ export default class Scene {
         if (shape.hasIndices === true)
         {
             //shape has indices (therefore faces) so draw as triangles
-            $gl.drawElements($gl.TRIANGLES, shape.vertices, $gl.UNSIGNED_SHORT, offset);
+            this.gl.drawElements(this.gl.TRIANGLES, shape.vertices, this.gl.UNSIGNED_SHORT, offset);
         }
         else if (shape.hasTextures === true)
         {
-            $gl.drawArrays($gl.TRIANGLES, offset, shape.vertices);
+            this.gl.drawArrays(this.gl.TRIANGLES, offset, shape.vertices);
         }
         else 
         {
             //no indices, so draw triangle strip
-            $gl.drawArrays($gl.TRIANGLE_STRIP, offset, shape.vertices);
+            this.gl.drawArrays(this.gl.TRIANGLE_STRIP, offset, shape.vertices);
         }
     }
 
-    static setUniforms(locations, projectionMatrix, modelViewMatrix)
+    setUniforms(locations, projectionMatrix, modelViewMatrix)
     {
         //always set these two:
-        $gl.uniformMatrix4fv(locations.uProjectionMatrix, false,projectionMatrix);   
-        $gl.uniformMatrix4fv(locations.uModelViewMatrix, false, modelViewMatrix);
+        this.gl.uniformMatrix4fv(locations.uProjectionMatrix, false,projectionMatrix);   
+        this.gl.uniformMatrix4fv(locations.uModelViewMatrix, false, modelViewMatrix);
 
                 // "no-textures-material" =
         // {
@@ -136,10 +142,8 @@ export default class Scene {
         this.conditionalSetUniform(locations.uMaterialEmissionColor, DEFAULT_MATERIAL_EMISSION_COLOR);
         this.conditionalSetUniform(locations.uMaterialSpecularColor, DEFAULT_MATERIAL_SPECULAR_COLOR);
         
-
-
-
-        // "Hull" = 
+        // "Hull" =  (cobra 3)
+        //TODO: pull these from texture yaml
         // { 
         //     diffuse_map = "oolite_cobra3_diffuse.png"; 
         //     specular_color = ( 0.25, 0.25, 0.25 );
@@ -150,11 +154,9 @@ export default class Scene {
         // };
         
         this.conditionalSetUniform(locations.uMaterialSpecularColor, [0.25, 0.25, 0.25, 1.0]);
-
-
     }
 
-    static conditionalSetUniform(location, values)
+    conditionalSetUniform(location, values)
     {
         //TODO: convert to attributes of the scene, camera, ship, etc.
 
@@ -163,20 +165,17 @@ export default class Scene {
             switch(values.length)
             {
                 case 4:
-                    $gl.uniform4f(location, ...values);
+                    this.gl.uniform4f(location, ...values);
                     break;
                 case 3:
-                    $gl.uniform3f(location, ...values);
+                    this.gl.uniform3f(location, ...values);
                     break;
                 case 2: 
-                    $gl.uniform2f(location, ...values);      
+                    this.gl.uniform2f(location, ...values);      
                     break;
                 default: 
                     console.error("unsupported number of uniform values");
             }
         }
-
     }
-
-
 }

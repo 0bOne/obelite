@@ -4,18 +4,21 @@ export default class ShaderCache
 {
     shaders;
 
-    constructor()
+    constructor(gameCtx)
     {
+        this.gameCtx = gameCtx;
+        this.gl = gameCtx.gl;
         this.shaders = {};
     }
 
     async Get(name)
     {
+        const shaderLoader = new ShaderLoader(this.gameCtx);
         let programInfo = this.shaders[name];
         if (programInfo === undefined || programInfo === null)
         {
-            const sources = await ShaderLoader.LoadSources(name); 
-            programInfo = ShaderLoader.CreateProgram(sources);
+            const sources = await shaderLoader.LoadSources(name); 
+            programInfo = shaderLoader.CreateProgram(sources);
             this.shaders[name] = programInfo;
         }
         return programInfo

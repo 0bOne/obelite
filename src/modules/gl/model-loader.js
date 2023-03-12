@@ -9,9 +9,15 @@ import STsAttribute from "./attributes/stsAttribute.js";
 
 export default class ModelLoader
 {
-    static async Load(name)
+    constructor(gameCtx)
     {
-        const modelFolder = $g.dataPath + "/models/" + name;
+        this.gameCtx = gameCtx;
+        this.gl = this.gameCtx.gl;
+    }
+
+    async Load(name)
+    {
+        const modelFolder = this.gameCtx.dataPath + "/models/" + name;
         const modelData = await jsYaml.fetch(modelFolder + "/geometry.yaml");
 
         if (modelData.textures && modelData.textures.length > 0 
@@ -26,38 +32,38 @@ export default class ModelLoader
         return model;
     }
 
-    static async hydrateModel(modelData, modelFolder)
+    async hydrateModel(modelData, modelFolder)
     {
         const model = {
             Rotation: 0,
             Dimensions: modelData.dimensions || 3,
             Buffers: {},
-            Shader: await $g.shaderCache.Get(modelData.shader),
+            Shader: await this.gameCtx.shaderCache.Get(modelData.shader),
             attributes: [],
             textures: []
         };
 
         if (modelData.positions)
         {
-            const attribute = new VerticesAttribute($gl, modelData.positions, modelData.dimensions)
+            const attribute = new VerticesAttribute(this.gl, modelData.positions, modelData.dimensions)
             model.attributes.push(attribute);
             model.vertices = attribute.vertices;
         }
 
         if (modelData.colors)
         {
-            const attribute = new ColorsAttribute($gl, modelData.colors);
+            const attribute = new ColorsAttribute(this.gl, modelData.colors);
             model.attributes.push(attribute);
         }
         else if (modelData.faceColors)
         {
-            const attribute = ColorsAttribute.FromFaceColors($gl, modelData.faceColors);
+            const attribute = ColorsAttribute.FromFaceColors(this.gl, modelData.faceColors);
             model.attributes.push(attribute);
         }
 
         if (modelData.indices)
         {
-            const attribute = new IndicesAttribute($gl, modelData.indices);
+            const attribute = new IndicesAttribute(this.gl, modelData.indices);
             model.attributes.push(attribute);
             model.vertices = modelData.indices.length;
             model.hasIndices = true;
@@ -70,7 +76,7 @@ export default class ModelLoader
                 const textureData = modelData.textures[t];
                 if (textureData.file.endsWith(".png"))
                 {
-                    const texture = new Texture($gl, textureData);
+                    const texture = new Texture(this.gl, textureData);
                     await texture.Load(modelFolder + "/" + textureData.file);
                     model.textures.push(texture);
                 }
@@ -82,27 +88,27 @@ export default class ModelLoader
 
             if (modelData.textures.length > 0)
             {
-                const attribute = new STsAttribute($gl, modelData.sts);
+                const attribute = new STsAttribute(this.gl, modelData.sts);
                 model.attributes.push(attribute);
             }
         }
 
         if (modelData.faceNormals)
         {
-            const attribute = NormalsAttribute.FromFaceNormals($gl, modelData.faceNormals);
+            const attribute = NormalsAttribute.FromFaceNormals(this.gl, modelData.faceNormals);
             model.attributes.push(attribute);            
         }
 
         if (modelData.normals)
         {
-            const attribute = new NormalsAttribute($gl, modelData.normals);
+            const attribute = new NormalsAttribute(this.gl, modelData.normals);
             model.attributes.push(attribute);
         }
 
         return model;
     }
 
-    static expandIndices(modelData)
+    expandIndices(modelData)
     {
         //expand positions
         // console.log("before expansion: ");
