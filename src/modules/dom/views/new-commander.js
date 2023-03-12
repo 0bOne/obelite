@@ -8,11 +8,17 @@ export default class NewCommander extends ViewBase
  
         this.AddPanel();
         this.AddTitle("New Commander");
+        this.AddInfo(["(new commander view coming soon)"]);
         this.AddMenu(MenuItems);
     }
 }
 
 const MenuItems = [
+    {
+        caption: "Back",
+        event: "changeView",
+        detail: {to: "Welcome"}
+    },
     {
         caption: "Start New Commander",
         event: "changeView",
@@ -33,4 +39,6 @@ const MenuItems = [
         event: "changeView",
         detail: {to: "GameOptions"}
     }
+
+
 ];

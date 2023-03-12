@@ -1,127 +1,64 @@
 import ViewController from "./dom/view-controller.js";
-import DomHelper from "./utilities/dom-helper.js";
+import DomHelper from "./dom/utilities/dom-helper.js";
 
-import ShapeLoader from "./gl/model-loader.js";
 import ShaderCache from "./gl/shader-cache.js";
 import Scene from "./gl/scene.js";
 import ModelLoader from "./gl/model-loader.js";
-//import Ship from "./entities/ship.js";
-//import Display3d from "./dom/display/display-3d.js";
-
-//import TextureDebugger from "./debug/textures/debugger.js";
-//import GlInterceptor from "./gl/gl_interceptor.js";
+import Rotator from "./logic/animators/rotator.js";
+import AnimationManager from "./logic/animation-manager.js";
 
 export default class Game
 {
-    _viewController;
-    _boundRenderFunction;
-    _rotating;
+    viewController;
+    boundRenderFunction;
+    animationManager;
 
     constructor()
     {
+        this.gameCtx = {
+            id: "gameContext",
+            basePath:  document.location.pathname.split("index.html")[0],
+            canvas: DomHelper.AppendElement(document.body, Elements.Canvas),
+            content: DomHelper.AppendElement(document.body, Elements.Content),
+        };
+
+        this.gameCtx.shaderCache = new ShaderCache(this.gameCtx);
+
+        this.gameCtx.canvas.width = document.body.clientWidth;
+        this.gameCtx.canvas.height = document.body.clientHeight;
+
+        this.gameCtx.gl = this.gameCtx.canvas.getContext("webgl2");
+        this.gameCtx.gl.clearColor(0.0, 0.0, 0.0, 1.0);
+        this.gameCtx.gl.clear(this.gameCtx.gl.COLOR_BUFFER_BIT);
+
+        this.gameCtx.dataPath = this.gameCtx.basePath + "data";
+        this.gameCtx.scene = new Scene(this.gameCtx);
     }
 
     async Begin()
     {
-        this.BeginNative();
-    }
-
-    async BeginNative()
-    {
+        this.viewController = new ViewController(this.gameCtx);
+        this.viewController.ChangeView("Welcome");
         document.body.addEventListener("keypress", this.onKeyPress.bind(this));
-        //setup context and gl context as window-global references
-        const gameCtx = {
-            id: "gameContext",
-            basePath:  document.location.pathname.split("index.html")[0],
-            content: DomHelper.AppendElement(document.body, Elements.Content),
-            canvas: DomHelper.AppendElement(document.body, Elements.Canvas),
-        };
+        
+        await this.addCobra();
 
-        gameCtx.shaderCache = new ShaderCache(gameCtx);
+        this.gameCtx.animationManager = new AnimationManager(this.gameCtx);
+        this.gameCtx.animationManager.start();
 
-        gameCtx.canvas.width = document.body.clientWidth;
-        gameCtx.canvas.height = document.body.clientHeight;
-
-        gameCtx.dataPath = gameCtx.basePath + "data";
-
-        gameCtx.gl = gameCtx.canvas.getContext("webgl2");
-        gameCtx.gl.$instance = "main instance";
-
-        //GlInterceptor.ObserveFunctions(window.$gl);
-
-        gameCtx.t = {
-            id: "time",
-            then: 0,
-            now: 0,
-            delta: 0,
-        };
-
-        gameCtx.fps = {
-            id: "frame rate",
-            delta: 0,
-            then: 0,
-            now: 0,
-            frames: 0
-        }
-
-        gameCtx.gl.clearColor(1.0, 0.0, 0.0, 1.0);
-        gameCtx.gl.clear(gameCtx.gl.COLOR_BUFFER_BIT);
-
-        //this.shape = await ShapeLoader.Load("basics/white-square");
-        //this.shape = await ShapeLoader.Load("basics/colored-square");
-        //this.shape = await ShapeLoader.Load("basics/colored-cube");
-        //this.shape = await ShapeLoader.Load("basics/colored-cube-lit");
-        //this.shape = await ShapeLoader.Load("basics/textured-cube");
-        //this.shape = await ShapeLoader.Load("basics/textured-cube-lit");
-        //this.shape = await ShapeLoader.Load("ships/redux/cobra3");
-
-        gameCtx.scene = new Scene(gameCtx);
-
-        const modelLoader = new ModelLoader(gameCtx);
-
-        gameCtx.scene.shapes.push(await modelLoader.Load("ships/detailed/cobra3"));
-        gameCtx.scene.shapes[0].Rotation = -3.8;
-
-        this._boundRenderFunction = this.renderNative.bind(this);
-        requestAnimationFrame(this._boundRenderFunction);
-
-        this.gameCtx = gameCtx;
         console.log("game initialization time: ", new Date().getTime() - window.$started, "milliseconds");
     }
 
-    renderNative(now)
+    async addCobra()
     {
-        //update global animation times
-        this.gameCtx.t.now = now * 0.001; // convert to seconds
-        this.gameCtx.t.delta = this.gameCtx.t.now - this.gameCtx.t.then; 
-        this.gameCtx.t.then = this.gameCtx.t.now;
+        const modelLoader = new ModelLoader(this.gameCtx);
+        this.gameCtx.demoShip = await modelLoader.Load("ships/detailed/cobra3")
 
-        this.updateFrameRate();
+        this.gameCtx.demoShip.Rotation = -3.8;
+        this.gameCtx.demoShip.isVisible = true;
+        this.gameCtx.demoShip.animator = new Rotator(this.gameCtx.demoShip, 0.5);
 
-        //randering
-        this.gameCtx.scene.Draw();
-
-        //animation calculations
-        if (this._rotating === true)
-        {
-            this.gameCtx.scene.shapes[0].Rotation -= this.gameCtx.t.delta * 0.5;
-        }
-        //this.shape.Rotation = 0;
-
-        requestAnimationFrame(this._boundRenderFunction);
-    }
-
-    updateFrameRate(now)
-    {
-        this.gameCtx.fps.frames++;
-        this.gameCtx.fps.delta += this.gameCtx.t.delta;
-        if (this.gameCtx.fps.delta > 1.0)
-        {
-            //console.log($fps.frames, $fps.delta);
-            document.title = "fps: " + (this.gameCtx.fps.frames/this.gameCtx.fps.delta).toFixed(1);
-            this.gameCtx.fps.frames = 0;
-            this.gameCtx.fps.delta = 0;
-        }       
+        this.gameCtx.scene.models.push(this.gameCtx.demoShip);
     }
 
     onResize(event)
@@ -129,22 +66,9 @@ export default class Game
         document.body.dispatchEvent(new CustomEvent("viewResize", { detail: {}}));
     }
 
-    async BeginTextureDebug()
-    {
-        const dataPath = document.location.pathname.split("index.html")[0] + "data";
-        const modelPath = dataPath + "/models/ships/redux/cobra3";
-
-        const d = new TextureDebugger();
-        await d.display(modelPath);
-    }
-
     onKeyPress(event)
     {
-        if (event.key === " ")
-        {
-            this._rotating = !this._rotating;
-            console.log("rotation", this.gameCtx.scene.shapes[0].Rotation);
-        }
+        this.gameCtx.demoShip.animator.onKeyPress(event);
     }
 }
 

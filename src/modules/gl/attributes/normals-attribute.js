@@ -1,3 +1,4 @@
+import SquareMatrix from "../../math/square-matrix.js";
 
 export default class NormalsAttribute
 {
@@ -44,9 +45,10 @@ export default class NormalsAttribute
 
     Position(shader, modelViewMatrix)
     {
-        const normalMatrix = mat4.create();
-        mat4.invert(normalMatrix, modelViewMatrix);
-        mat4.transpose(normalMatrix, normalMatrix);
+        const normalMatrix = new SquareMatrix(4);
+        normalMatrix.setIdentity();
+        normalMatrix.setInverted(modelViewMatrix);
+        normalMatrix.setTransposed(normalMatrix);
 
         this.gl.uniformMatrix4fv(
             shader.locations.uNormalMatrix,
@@ -67,6 +69,4 @@ export default class NormalsAttribute
         
         return new NormalsAttribute(gl, vertexNormals);
     }
-
-
 }

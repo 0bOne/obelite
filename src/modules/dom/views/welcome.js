@@ -10,21 +10,9 @@ export default class WelcomeView extends ViewBase
 
         this.AddPanel();
         this.AddTitle("Obelite");
-
-        //TODO: add flex-grow info area
-        //TODO: display in info area:
-        //<p class="info-text centered"></p>
-
-        //TODO: switch out Cobra redux for snazzy cobra
-
-
-        //setTimeout(this.DisplayCobra.bind(this), 200);
-
         this.AddInfo([INFO_LICENSE]);
         this.AddMenu(MenuItems);
-
     }
-
 }
 
 const MenuItems = [

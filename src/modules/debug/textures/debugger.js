@@ -2,6 +2,16 @@ import DomHelper from "../../utilities/dom-helper.js";
 import jsYaml from "../../utilities/js-yaml.js";
 
 
+// how to use the texture debugger
+// async BeginTextureDebug()
+// {
+//     const dataPath = document.location.pathname.split("index.html")[0] + "data";
+//     const modelPath = dataPath + "/models/ships/redux/cobra3";
+//     const d = new TextureDebugger();
+//     await d.display(modelPath);
+// }
+
+//texture debugger. draws triangs and verties on a texture
 export default class TextureDebugger
 {
     constructor()

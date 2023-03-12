@@ -1,11 +1,11 @@
 
-import jsYaml from "../utilities/js-yaml.js";
+import jsYaml from "../dom/utilities/js-yaml.js";
 import VerticesAttribute from "./attributes/vertices-attribute.js";
 import ColorsAttribute from "./attributes/colors-attribute.js";
 import IndicesAttribute from "./attributes/indices-attribute.js";
 import NormalsAttribute from "./attributes/normals-attribute.js";
 import Texture from "./texture.js";
-import STsAttribute from "./attributes/stsAttribute.js";
+import STsAttribute from "./attributes/sts-ttribute.js";
 
 export default class ModelLoader
 {
@@ -35,13 +35,17 @@ export default class ModelLoader
     async hydrateModel(modelData, modelFolder)
     {
         const model = {
-            Rotation: 0,
-            Dimensions: modelData.dimensions || 3,
-            Buffers: {},
-            Shader: await this.gameCtx.shaderCache.Get(modelData.shader),
+            dimensions: modelData.dimensions || 3,
+            shader: await this.gameCtx.shaderCache.Get(modelData.shader),
             attributes: [],
-            textures: []
+            textures: [],
+            uniforms: [],
+            hasIndices: false,
+            hasSTs: false,
+            worldPosition: {x: 0.0, y: 0.0, z: -3.0},
+            rotation: 0
         };
+
 
         if (modelData.positions)
         {
@@ -79,6 +83,7 @@ export default class ModelLoader
                     const texture = new Texture(this.gl, textureData);
                     await texture.Load(modelFolder + "/" + textureData.file);
                     model.textures.push(texture);
+                    model.hasTextures = true;
                 }
                 else
                 {
@@ -90,6 +95,7 @@ export default class ModelLoader
             {
                 const attribute = new STsAttribute(this.gl, modelData.sts);
                 model.attributes.push(attribute);
+                model.hasSTs = true;
             }
         }
 

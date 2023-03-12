@@ -8,11 +8,17 @@ export default class LoadCommander extends ViewBase
  
         this.AddPanel();
         this.AddTitle("Load Commander");
+        this.AddInfo(["(load commander view coming soon)"]);
         this.AddMenu(MenuItems);
     }
 }
 
 const MenuItems = [
+    {
+        caption: "Back",
+        event: "changeView",
+        detail: {to: "Welcome"}
+    },
     {
         caption: "Start New Commander",
         event: "changeView",

@@ -1,22 +1,22 @@
-import DomHelper from "../../utilities/dom-helper.js";
+import DomHelper from "../utilities/dom-helper.js";
 import Menu from "./components/menu.js";
 
 export default class ViewBase
 {
-    _gameContext;
-    _menu;
-    _boundAnimateFunc;
+    gameCtx;
+    menu;
+    boundAnimateFunc;
 
-    constructor(gameContext, viewId)
+    constructor(gameCtx, viewId)
     {
-        this._gameContext = gameContext;
-        DomHelper.EraseChildren(this._gameContext.ContentEl);
-        this._gameContext.ContentEl.id = "view-" + viewId;
+        this.gameCtx = gameCtx;
+        DomHelper.EraseChildren(this.gameCtx.content);
+        this.gameCtx.content.id = "view-" + viewId;
     }
 
     AddPanel()
     {
-        this._panel = DomHelper.AppendElement(this._gameContext.ContentEl, Elements.NarrowPane);
+        this._panel = DomHelper.AppendElement(this.gameCtx.content, Elements.NarrowPane);
     }
 
     AddTitle(titleText)
@@ -27,7 +27,7 @@ export default class ViewBase
 
     AddMenu(menuItems)
     {
-        this._menu = new Menu(this._panel, menuItems);
+        this.menu = new Menu(this._panel, menuItems);
     }
 
     AddInfo(lines)
@@ -40,15 +40,15 @@ export default class ViewBase
 
     async Create()
     {
-        if (this._menu)
+        if (this.menu)
         {
-            this._menu.SetFocusButton(0);
+            this.menu.SetFocusButton(0);
         }
     }
 
     Destroy()
     {
-        DomHelper.EraseChildren(this._gameContext.ContentEl);
+        DomHelper.EraseChildren(this.gameCtx.content);
     }
 }
 

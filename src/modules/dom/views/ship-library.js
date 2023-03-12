@@ -8,6 +8,7 @@ export default class ShipLibrary extends ViewBase
  
         this.AddPanel();
         this.AddTitle("Ship Library");
+        this.AddInfo(["(ship library coming soon"]);
         this.AddMenu(MenuMain);
     }
 }
@@ -66,6 +67,11 @@ const MenuMisc = [
 ];
 
 const MenuMain = [
+    {
+        caption: "Back",
+        event: "changeView",
+        detail: {to: "Welcome"}
+    },
     {
         caption: "Ships",
         event: "changeMenu",

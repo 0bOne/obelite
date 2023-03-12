@@ -8,11 +8,17 @@ export default class GameOptions extends ViewBase
  
         this.AddPanel();
         this.AddTitle("Game Options");
+        this.AddInfo(["(game options view coming soon)"]);
         this.AddMenu(MenuItems);
     }
 }
 
 const MenuItems = [
+    {
+        caption: "Back",
+        event: "changeView",
+        detail: {to: "Welcome"}
+    },
     {
         caption: "Start New Commander",
         event: "changeView",
