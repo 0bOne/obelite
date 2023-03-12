@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system207",
+	"position": [
+		2,
+		44
+	],
+	"space": {
+		"blurs": 80,
+		"stars": 9766,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Veceised",
+			"name": "Veceised",
+			"seed": "231 44 41 2 40 214",
+			"body": {
+				"radius": 4354,
+				"rotation_v": 0.001387,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 522480
+			},
+			"land": {
+				"color": [
+					0.161636,
+					0.0747656,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.757685,
+					0.726951,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.533203,
+					0.454759,
+					0.424063,
+					1
+				],
+				"polar": [
+					0.94668,
+					0.911861,
+					0.898236,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.690893,
+					0.596765,
+					0.860467,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.583984,
+					0.396927,
+					0.567909,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.762793,
+					0.610085,
+					0.74967,
+					1
+				]
+			},
+			"demographics": {
+				"type": 42,
+				"productivity": 18144,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 5,
+				"description": "This world is a tedious place.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.808807,
+				0.721279,
+				0.577711,
+				1
+			],
+			"radius": 142682.923889,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 348320,
+				"vector": [
+					0.358,
+					-0.155,
+					-0.921
+				]
+			},
+			"corona": {
+				"shimmer": 0.472338,
+				"hues": 0.644722,
+				"flare": 0.053218
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Veceised",
+				"radius": 8708
+			}
+		}
+	]
+}

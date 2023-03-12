@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system124",
+	"position": [
+		149,
+		51
+	],
+	"space": {
+		"blurs": 78,
+		"stars": 8375,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Isbior",
+			"name": "Isbior",
+			"seed": "50 51 34 149 244 61",
+			"body": {
+				"radius": 6293,
+				"rotation_v": 0.004972,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 818090
+			},
+			"land": {
+				"color": [
+					0.505859,
+					0.484123,
+					0.488708,
+					1
+				],
+				"polar_color": [
+					0.949414,
+					0.939215,
+					0.941367,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.568359,
+					0.486444,
+					0.442033,
+					1
+				],
+				"polar": [
+					0.943164,
+					0.909181,
+					0.890756,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.737297,
+					0.734177,
+					0.964529,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.797173,
+					0.791428,
+					0.896484,
+					1
+				],
+				"fraction": 0.52,
+				"polar_color": [
+					0.840868,
+					0.83725,
+					0.903418,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 16128,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 4,
+				"description": "This world is plagued by deadly earthquakes.",
+				"inhabitants": "Red Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.533099,
+				0.585685,
+				0.736264,
+				1
+			],
+			"radius": 136360.176239,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 440510,
+				"vector": [
+					-0.197,
+					-0.116,
+					-0.974
+				]
+			},
+			"corona": {
+				"shimmer": 0.315724,
+				"hues": 0.757027,
+				"flare": 0.046359
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Isbior",
+				"radius": 12586
+			}
+		}
+	]
+}

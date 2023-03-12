@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system239",
+	"position": [
+		4,
+		126
+	],
+	"space": {
+		"blurs": 191,
+		"stars": 7868,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zasoer",
+			"name": "Zasoer",
+			"seed": "56 126 172 4 125 36",
+			"body": {
+				"radius": 3844,
+				"rotation_v": 0.001384,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 499720
+			},
+			"land": {
+				"color": [
+					0.126999,
+					0.560547,
+					0.164257,
+					1
+				],
+				"polar_color": [
+					0.761425,
+					0.943945,
+					0.77711,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.519531,
+					0.389445,
+					0.493108,
+					1
+				],
+				"polar": [
+					0.948047,
+					0.888701,
+					0.935992,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.624873,
+					0.894287,
+					0.837228,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.685547,
+					0.554998,
+					0.476669,
+					1
+				],
+				"fraction": 0.55,
+				"polar_color": [
+					0.808496,
+					0.71227,
+					0.654534,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 8064,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 5,
+				"description": "Zasoer is mildly well known for its exotic night life.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.71304,
+				0.68748,
+				0.675006,
+				1
+			],
+			"radius": 95640.146484,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 269080,
+				"vector": [
+					-0.556,
+					0.418,
+					-0.719
+				]
+			},
+			"corona": {
+				"shimmer": 0.539187,
+				"hues": 0.523232,
+				"flare": 0.06803
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Zasoer",
+				"radius": 7688
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system0",
+	"position": [
+		32,
+		165
+	],
+	"space": {
+		"blurs": 119,
+		"stars": 5746,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anleis",
+			"name": "Anleis",
+			"seed": "164 165 132 32 53 123",
+			"body": {
+				"radius": 5664,
+				"rotation_v": 0.001428,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 566400
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.314531,
+					0.355016,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.811777,
+					0.8261,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.568359,
+					0.530882,
+					0.451357,
+					1
+				],
+				"polar": [
+					0.943164,
+					0.927616,
+					0.894624,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.56493,
+					0.956793,
+					0.975586,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.838047,
+					0.929688,
+					0.312317,
+					1
+				],
+				"fraction": 0.25,
+				"polar_color": [
+					0.861782,
+					0.918359,
+					0.537204,
+					1
+				]
+			},
+			"demographics": {
+				"type": 8,
+				"productivity": 768,
+				"techLevel": 0,
+				"economy": 7,
+				"government": 0,
+				"description": "This planet is mildly fabled for its inhabitants’ eccentric love for tourists but plagued by lethal disease.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.388173,
+				0.445679,
+				0.838184,
+				1
+			],
+			"radius": 131019.755859,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 339840,
+				"vector": [
+					0.51,
+					-0.537,
+					-0.672
+				]
+			},
+			"corona": {
+				"shimmer": 0.528857,
+				"hues": 0.823219,
+				"flare": 0.042007
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anleis",
+				"radius": 11328
+			}
+		}
+	]
+}

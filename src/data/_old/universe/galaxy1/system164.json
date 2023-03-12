@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system164",
+	"position": [
+		193,
+		86
+	],
+	"space": {
+		"blurs": 41,
+		"stars": 9991,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Dicela",
+			"name": "Dicela",
+			"seed": "180 86 192 193 102 109",
+			"body": {
+				"radius": 6337,
+				"rotation_v": 0.004532,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 823810
+			},
+			"land": {
+				"color": [
+					0.02314,
+					0.658203,
+					0.0926,
+					1
+				],
+				"polar_color": [
+					0.708845,
+					0.93418,
+					0.733491,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.602894,
+					0.716797,
+					0.538998,
+					1
+				],
+				"polar": [
+					0.891442,
+					0.92832,
+					0.870754,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.693461,
+					0.543801,
+					0.914449,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.746094,
+					0.285614,
+					0.641766,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.835742,
+					0.513361,
+					0.762703,
+					1
+				]
+			},
+			"demographics": {
+				"type": 15,
+				"productivity": 1920,
+				"techLevel": 2,
+				"economy": 6,
+				"government": 0,
+				"description": "Dicela is an unremarkable planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.287366,
+				0.50113,
+				0.816403,
+				1
+			],
+			"radius": 153720.790863,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 570330,
+				"vector": [
+					-0.427,
+					0.816,
+					-0.389
+				]
+			},
+			"corona": {
+				"shimmer": 0.402788,
+				"hues": 0.972618,
+				"flare": 0.059612
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Dicela",
+				"radius": 12674
+			}
+		}
+	]
+}

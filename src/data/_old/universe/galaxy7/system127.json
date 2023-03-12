@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system127",
+	"position": [
+		158,
+		122
+	],
+	"space": {
+		"blurs": 158,
+		"stars": 9697,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esxear",
+			"name": "Esxear",
+			"seed": "155 122 38 158 159 73",
+			"body": {
+				"radius": 5278,
+				"rotation_v": 0.000174,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 686140
+			},
+			"land": {
+				"color": [
+					0.529724,
+					0.66,
+					0.319688,
+					1
+				],
+				"polar_color": [
+					0.88791,
+					0.934,
+					0.813602,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.563878,
+					0.646484,
+					0.512642,
+					1
+				],
+				"polar": [
+					0.905472,
+					0.935352,
+					0.88694,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.712908,
+					0.55843,
+					0.907295,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.724609,
+					0.322678,
+					0.586445,
+					1
+				],
+				"fraction": 0.5,
+				"polar_color": [
+					0.826074,
+					0.539691,
+					0.72763,
+					1
+				]
+			},
+			"demographics": {
+				"type": 43,
+				"productivity": 22016,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 4,
+				"description": "This world is ravaged by occasional solar activity.",
+				"inhabitants": "Small Yellow Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.631825,
+				0.705097,
+				0.715176,
+				1
+			],
+			"radius": 129286.678162,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 369460,
+				"vector": [
+					0.269,
+					-0.538,
+					-0.799
+				]
+			},
+			"corona": {
+				"shimmer": 0.420286,
+				"hues": 0.528839,
+				"flare": 0.081541
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esxear",
+				"radius": 10556
+			}
+		}
+	]
+}

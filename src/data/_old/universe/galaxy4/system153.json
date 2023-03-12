@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system153",
+	"position": [
+		97,
+		37
+	],
+	"space": {
+		"blurs": 58,
+		"stars": 9261,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Usaorer",
+			"name": "Usaorer",
+			"seed": "118 37 120 97 91 72",
+			"body": {
+				"radius": 4961,
+				"rotation_v": 0.000399,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 595320
+			},
+			"land": {
+				"color": [
+					0.453589,
+					0.226875,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.860974,
+					0.780766,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.535156,
+					0.458992,
+					0.425616,
+					1
+				],
+				"polar": [
+					0.946484,
+					0.912808,
+					0.898051,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.75616,
+					0.650794,
+					0.836402,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.511719,
+					0.477737,
+					0.487295,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.730273,
+					0.699964,
+					0.708489,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 18040,
+				"techLevel": 7,
+				"economy": 5,
+				"government": 7,
+				"description": "This planet is reasonably famous for its inhabitants’ exceptional loathing of sit coms.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.713196,
+				0.678742,
+				0.305616,
+				1
+			],
+			"radius": 104509.835815,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 248050,
+				"vector": [
+					0.734,
+					-0.644,
+					0.219
+				]
+			},
+			"corona": {
+				"shimmer": 0.553168,
+				"hues": 0.661636,
+				"flare": 0.007445
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Usaorer",
+				"radius": 9922
+			}
+		}
+	]
+}

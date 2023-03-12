@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system165",
+	"position": [
+		79,
+		200
+	],
+	"space": {
+		"blurs": 93,
+		"stars": 9857,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Enarines",
+			"name": "Enarines",
+			"seed": "103 200 194 79 99 210",
+			"body": {
+				"radius": 3407,
+				"rotation_v": 0.004287,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 374770
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.415078,
+					0.432299,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.84735,
+					0.853442,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.708573,
+					0.728516,
+					0.532158,
+					1
+				],
+				"polar": [
+					0.920803,
+					0.927148,
+					0.864675,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.660529,
+					0.485813,
+					0.954773,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.867188,
+					0.108398,
+					0.766411,
+					1
+				],
+				"fraction": 0.47,
+				"polar_color": [
+					0.890234,
+					0.403387,
+					0.825575,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 8960,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 0,
+				"description": "Enarines is ravaged by dreadful civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.441033,
+				0.632845,
+				0.783942,
+				1
+			],
+			"radius": 90806.718597,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 272560,
+				"vector": [
+					0.893,
+					-0.424,
+					-0.152
+				]
+			},
+			"corona": {
+				"shimmer": 0.269217,
+				"hues": 0.582977,
+				"flare": 0.091399
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Enarines",
+				"radius": 6814
+			}
+		}
+	]
+}

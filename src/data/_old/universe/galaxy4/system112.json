@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system112",
+	"position": [
+		169,
+		164
+	],
+	"space": {
+		"blurs": 149,
+		"stars": 9750,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Onditi",
+			"name": "Onditi",
+			"seed": "36 164 228 169 245 223",
+			"body": {
+				"radius": 6825,
+				"rotation_v": 0.002745,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 887250
+			},
+			"land": {
+				"color": [
+					0.554186,
+					0.317574,
+					0.650391,
+					1
+				],
+				"polar_color": [
+					0.900386,
+					0.815352,
+					0.934961,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.574219,
+					0.479583,
+					0.442552,
+					1
+				],
+				"polar": [
+					0.942578,
+					0.903742,
+					0.888546,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.480784,
+					0.585435,
+					0.883881,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.150795,
+					0.536289,
+					0.654297,
+					1
+				],
+				"fraction": 0.4,
+				"polar_color": [
+					0.412345,
+					0.704882,
+					0.794434,
+					1
+				]
+			},
+			"demographics": {
+				"type": 33,
+				"productivity": 12672,
+				"techLevel": 6,
+				"economy": 4,
+				"government": 4,
+				"description": "The world Onditi is reasonably noted for mud tennis and its ancient mountains.",
+				"inhabitants": "Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.807562,
+				0.622847,
+				0.621524,
+				1
+			],
+			"radius": 189593.284607,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 477750,
+				"vector": [
+					-0.766,
+					-0.634,
+					0.103
+				]
+			},
+			"corona": {
+				"shimmer": 0.349686,
+				"hues": 0.658501,
+				"flare": 0.077214
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Onditi",
+				"radius": 13650
+			}
+		}
+	]
+}

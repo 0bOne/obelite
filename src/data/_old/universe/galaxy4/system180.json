@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system180",
+	"position": [
+		140,
+		175
+	],
+	"space": {
+		"blurs": 143,
+		"stars": 8208,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Bilera",
+			"name": "Bilera",
+			"seed": "36 175 44 140 101 230",
+			"body": {
+				"radius": 4492,
+				"rotation_v": 0.003681,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 404280
+			},
+			"land": {
+				"color": [
+					0.0902344,
+					0.499753,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.732424,
+					0.877307,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.533203,
+					0.460714,
+					0.425313,
+					1
+				],
+				"polar": [
+					0.94668,
+					0.914505,
+					0.898791,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.661676,
+					0.857941,
+					0.922904,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.625324,
+					0.771484,
+					0.578613,
+					1
+				],
+				"fraction": 0.26,
+				"polar_color": [
+					0.746856,
+					0.847168,
+					0.714798,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 5400,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 5,
+				"description": "The world Bilera is a dull place.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.6547,
+				0.647331,
+				0.622789,
+				1
+			],
+			"radius": 146439.638672,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 583960,
+				"vector": [
+					-0.022,
+					0.176,
+					-0.984
+				]
+			},
+			"corona": {
+				"shimmer": 0.518998,
+				"hues": 0.789101,
+				"flare": 0.06638
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Bilera",
+				"radius": 8984
+			}
+		}
+	]
+}

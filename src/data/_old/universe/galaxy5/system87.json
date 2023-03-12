@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system87",
+	"position": [
+		179,
+		247
+	],
+	"space": {
+		"blurs": 44,
+		"stars": 8289,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Vexeince",
+			"name": "Vexeince",
+			"seed": "103 247 185 179 232 214",
+			"body": {
+				"radius": 4531,
+				"rotation_v": 0.004539,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 543720
+			},
+			"land": {
+				"color": [
+					0.619141,
+					0.509967,
+					0.488541,
+					1
+				],
+				"polar_color": [
+					0.938086,
+					0.896733,
+					0.888617,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.174957,
+					0.574219,
+					0.461926,
+					1
+				],
+				"polar": [
+					0.778732,
+					0.942578,
+					0.896496,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.534008,
+					0.513946,
+					0.895588,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.301383,
+					0.22084,
+					0.689453,
+					1
+				],
+				"fraction": 0.58,
+				"polar_color": [
+					0.525214,
+					0.466054,
+					0.810254,
+					1
+				]
+			},
+			"demographics": {
+				"type": 43,
+				"productivity": 11352,
+				"techLevel": 7,
+				"economy": 7,
+				"government": 7,
+				"description": "The world Vexeince is reasonably fabled for its exciting sit coms and its inhabitants’ ancient loathing of casinos.",
+				"inhabitants": "Fat Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.729285,
+				0.583617,
+				0.542384,
+				1
+			],
+			"radius": 140576.044922,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 407790,
+				"vector": [
+					-0.622,
+					0.633,
+					0.461
+				]
+			},
+			"corona": {
+				"shimmer": 0.38764,
+				"hues": 0.729126,
+				"flare": 0.054659
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Vexeince",
+				"radius": 9062
+			}
+		}
+	]
+}

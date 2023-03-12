@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system208",
+	"position": [
+		243,
+		145
+	],
+	"space": {
+		"blurs": 81,
+		"stars": 9912,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Maera",
+			"name": "Maera",
+			"seed": "36 145 164 243 117 11",
+			"body": {
+				"radius": 5875,
+				"rotation_v": 0.000159,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 763750
+			},
+			"land": {
+				"color": [
+					0.550781,
+					0.488388,
+					0.492775,
+					1
+				],
+				"polar_color": [
+					0.944922,
+					0.918161,
+					0.920043,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.695074,
+					0.773438,
+					0.522675,
+					1
+				],
+				"polar": [
+					0.899286,
+					0.922656,
+					0.847871,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.698646,
+					0.717013,
+					0.983391,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.696228,
+					0.742389,
+					0.953125,
+					1
+				],
+				"fraction": 0.15,
+				"polar_color": [
+					0.772425,
+					0.800543,
+					0.928906,
+					1
+				]
+			},
+			"demographics": {
+				"type": 50,
+				"productivity": 28800,
+				"techLevel": 11,
+				"economy": 1,
+				"government": 4,
+				"description": "This world is a revolting dump.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.721888,
+				0.808674,
+				0.835675,
+				1
+			],
+			"radius": 125608.42514,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 352500,
+				"vector": [
+					-0.064,
+					0.549,
+					-0.834
+				]
+			},
+			"corona": {
+				"shimmer": 0.352651,
+				"hues": 0.800621,
+				"flare": 0.055096
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Maera",
+				"radius": 11750
+			}
+		}
+	]
+}

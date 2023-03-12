@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system85",
+	"position": [
+		70,
+		134
+	],
+	"space": {
+		"blurs": 178,
+		"stars": 5755,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Enonedar",
+			"name": "Enonedar",
+			"seed": "222 134 122 70 64 146",
+			"body": {
+				"radius": 3398,
+				"rotation_v": 0.002342,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 407760
+			},
+			"land": {
+				"color": [
+					0.12375,
+					0.609727,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.744281,
+					0.916214,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.621094,
+					0.581157,
+					0.47504,
+					1
+				],
+				"polar": [
+					0.937891,
+					0.922814,
+					0.882753,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.601666,
+					0.906645,
+					0.823011,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.722656,
+					0.48183,
+					0.426254,
+					1
+				],
+				"fraction": 0.6,
+				"polar_color": [
+					0.825195,
+					0.653322,
+					0.613658,
+					1
+				]
+			},
+			"demographics": {
+				"type": 42,
+				"productivity": 14784,
+				"techLevel": 7,
+				"economy": 6,
+				"government": 7,
+				"description": "This world is fabled for its ancient mountains.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.388988,
+				0.544312,
+				0.689789,
+				1
+			],
+			"radius": 95539.714355,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 271840,
+				"vector": [
+					0.062,
+					0.815,
+					0.576
+				]
+			},
+			"corona": {
+				"shimmer": 0.505937,
+				"hues": 0.514023,
+				"flare": 0.042531
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Enonedar",
+				"radius": 6796
+			}
+		}
+	]
+}

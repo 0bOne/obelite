@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system81",
+	"position": [
+		238,
+		145
+	],
+	"space": {
+		"blurs": 153,
+		"stars": 8292,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Oredonat",
+			"name": "Oredonat",
+			"seed": "69 145 41 238 5 57",
+			"body": {
+				"radius": 5358,
+				"rotation_v": 0.002249,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 482220
+			},
+			"land": {
+				"color": [
+					0.592365,
+					0.541406,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.910071,
+					0.892043,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.560547,
+					0.512767,
+					0.445153,
+					1
+				],
+				"polar": [
+					0.943945,
+					0.92383,
+					0.895365,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.741838,
+					0.733092,
+					0.969732,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.806112,
+					0.79097,
+					0.912109,
+					1
+				],
+				"fraction": 0.12,
+				"polar_color": [
+					0.844322,
+					0.834875,
+					0.910449,
+					1
+				]
+			},
+			"demographics": {
+				"type": 51,
+				"productivity": 33048,
+				"techLevel": 11,
+				"economy": 1,
+				"government": 5,
+				"description": "Oredonat is mildly notable for its inhabitants’ unusual silliness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.728943,
+				0.665047,
+				0.604062,
+				1
+			],
+			"radius": 96817.791138,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 750120,
+				"vector": [
+					0.118,
+					0.929,
+					0.351
+				]
+			},
+			"corona": {
+				"shimmer": 0.388753,
+				"hues": 0.715477,
+				"flare": 0.022276
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Oredonat",
+				"radius": 10716
+			}
+		}
+	]
+}

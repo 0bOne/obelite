@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system156",
+	"position": [
+		91,
+		47
+	],
+	"space": {
+		"blurs": 120,
+		"stars": 6458,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Aanbiat",
+			"name": "Aanbiat",
+			"seed": "122 47 240 91 179 111",
+			"body": {
+				"radius": 6747,
+				"rotation_v": 0.000416,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 809640
+			},
+			"land": {
+				"color": [
+					0.625,
+					0.463867,
+					0.47142,
+					1
+				],
+				"polar_color": [
+					0.9375,
+					0.877075,
+					0.879908,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.677734,
+					0.513554,
+					0.463295,
+					1
+				],
+				"polar": [
+					0.932227,
+					0.875769,
+					0.858486,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.547035,
+					0.948944,
+					0.993797,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.753662,
+					0.984375,
+					0.246094,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.804839,
+					0.942969,
+					0.500952,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 9120,
+				"techLevel": 6,
+				"economy": 7,
+				"government": 6,
+				"description": "This planet is fabled for its ancient Aanbiatian Alinet banana plantations.",
+				"inhabitants": "Blue Fat Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.204001,
+				0.575332,
+				0.680005,
+				1
+			],
+			"radius": 159421.759644,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 742170,
+				"vector": [
+					-0.119,
+					-0.99,
+					-0.077
+				]
+			},
+			"corona": {
+				"shimmer": 0.345166,
+				"hues": 0.92778,
+				"flare": 0.004817
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Aanbiat",
+				"radius": 13494
+			}
+		}
+	]
+}

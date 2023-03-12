@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system200",
+	"position": [
+		119,
+		201
+	],
+	"space": {
+		"blurs": 116,
+		"stars": 7992,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zabixedi",
+			"name": "Zabixedi",
+			"seed": "117 201 244 119 153 228",
+			"body": {
+				"radius": 3959,
+				"rotation_v": 0.002583,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 514670
+			},
+			"land": {
+				"color": [
+					0.61454,
+					0.564609,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.917917,
+					0.900252,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.410121,
+					0.529297,
+					0.0806351,
+					1
+				],
+				"polar": [
+					0.89376,
+					0.94707,
+					0.746373,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.646155,
+					0.877377,
+					0.83382,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.634766,
+					0.567372,
+					0.513268,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.785645,
+					0.733512,
+					0.691659,
+					1
+				]
+			},
+			"demographics": {
+				"type": 56,
+				"productivity": 40320,
+				"techLevel": 12,
+				"economy": 1,
+				"government": 6,
+				"description": "The planet Zabixedi is an unremarkable planet.",
+				"inhabitants": "Fierce Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.785532,
+				0.778106,
+				0.775958,
+				1
+			],
+			"radius": 98742.423248,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 277130,
+				"vector": [
+					0.208,
+					0.978,
+					0.011
+				]
+			},
+			"corona": {
+				"shimmer": 0.279781,
+				"hues": 0.719299,
+				"flare": 0.021974
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "icosahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Zabixedi",
+				"radius": 7918
+			}
+		}
+	]
+}

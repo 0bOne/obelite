@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system67",
+	"position": [
+		132,
+		19
+	],
+	"space": {
+		"blurs": 78,
+		"stars": 5391,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esdi",
+			"name": "Esdi",
+			"seed": "48 19 40 132 26 169",
+			"body": {
+				"radius": 5252,
+				"rotation_v": 0.004706,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 577720
+			},
+			"land": {
+				"color": [
+					0.451555,
+					0.66,
+					0.322266,
+					1
+				],
+				"polar_color": [
+					0.860255,
+					0.934,
+					0.814514,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.567388,
+					0.693359,
+					0.536812,
+					1
+				],
+				"polar": [
+					0.888393,
+					0.930664,
+					0.878132,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.508932,
+					0.639949,
+					0.842906,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.217896,
+					0.53125,
+					0.47984,
+					1
+				],
+				"fraction": 0.59,
+				"polar_color": [
+					0.466605,
+					0.739062,
+					0.694363,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 18648,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 5,
+				"description": "Esdi is well known for its inhabitants’ ancient mating traditions but ravaged by unpredictable solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.738037,
+				0.687142,
+				0.62295,
+				1
+			],
+			"radius": 158289.266357,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 367640,
+				"vector": [
+					0.782,
+					-0.428,
+					0.453
+				]
+			},
+			"corona": {
+				"shimmer": 0.266236,
+				"hues": 0.868477,
+				"flare": 0.054033
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esdi",
+				"radius": 10504
+			}
+		}
+	]
+}

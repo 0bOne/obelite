@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system11",
+	"position": [
+		210,
+		100
+	],
+	"space": {
+		"blurs": 189,
+		"stars": 7875,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Vees",
+			"name": "Vees",
+			"seed": "13 100 33 210 149 64",
+			"body": {
+				"radius": 3026,
+				"rotation_v": 0.003811,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 302600
+			},
+			"land": {
+				"color": [
+					0.378984,
+					0.554619,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.83458,
+					0.896718,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.552734,
+					0.497933,
+					0.439597,
+					1
+				],
+				"polar": [
+					0.944727,
+					0.92131,
+					0.896383,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.616594,
+					0.89437,
+					0.951522,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.652303,
+					0.857422,
+					0.465553,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.753392,
+					0.88584,
+					0.632805,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 14208,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 4,
+				"description": "Vees is a revolting dump.",
+				"inhabitants": "Large Yellow Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.842334,
+				0.646889,
+				0.432221,
+				1
+			],
+			"radius": 63527.715454,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 332860,
+				"vector": [
+					-0.328,
+					-0.678,
+					0.658
+				]
+			},
+			"corona": {
+				"shimmer": 0.521211,
+				"hues": 0.779976,
+				"flare": 0.036768
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Vees",
+				"radius": 6052
+			}
+		}
+	]
+}

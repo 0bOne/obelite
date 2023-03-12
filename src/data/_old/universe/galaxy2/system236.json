@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system236",
+	"position": [
+		210,
+		225
+	],
+	"space": {
+		"blurs": 102,
+		"stars": 5869,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Onbezati",
+			"name": "Onbezati",
+			"seed": "249 225 81 210 13 255",
+			"body": {
+				"radius": 6866,
+				"rotation_v": 0.004836,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 617940
+			},
+			"land": {
+				"color": [
+					0.639375,
+					0.643564,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.926703,
+					0.928185,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.779297,
+					0.569918,
+					0.401825,
+					1
+				],
+				"polar": [
+					0.92207,
+					0.860136,
+					0.810413,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.701928,
+					0.837091,
+					0.891686,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.65457,
+					0.677734,
+					0.65126,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.787784,
+					0.80498,
+					0.785328,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 17280,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 2,
+				"description": "This world is most fabled for its inhabitants’ ingrained silliness but scourged by deadly civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.571173,
+				0.608418,
+				0.708249,
+				1
+			],
+			"radius": 190408.503723,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 686600,
+				"vector": [
+					0.595,
+					0.781,
+					0.188
+				]
+			},
+			"corona": {
+				"shimmer": 0.324262,
+				"hues": 0.922913,
+				"flare": 0.081844
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Onbezati",
+				"radius": 13732
+			}
+		}
+	]
+}

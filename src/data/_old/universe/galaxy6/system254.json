@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system254",
+	"position": [
+		126,
+		155
+	],
+	"space": {
+		"blurs": 172,
+		"stars": 9159,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Onorti",
+			"name": "Onorti",
+			"seed": "18 155 138 126 212 191",
+			"body": {
+				"radius": 6782,
+				"rotation_v": 0.000341,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 813840
+			},
+			"land": {
+				"color": [
+					0.403425,
+					0.535156,
+					0.0794373,
+					1
+				],
+				"polar_color": [
+					0.888239,
+					0.946484,
+					0.744987,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.964844,
+					0.771875,
+					0.857806,
+					1
+				],
+				"polar": [
+					0.903516,
+					0.85834,
+					0.878457,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.726133,
+					0.718486,
+					0.980789,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.772798,
+					0.753296,
+					0.945312,
+					1
+				],
+				"fraction": 0.46,
+				"polar_color": [
+					0.819841,
+					0.807909,
+					0.925391,
+					1
+				]
+			},
+			"demographics": {
+				"type": 33,
+				"productivity": 9240,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 1,
+				"description": "The planet Onorti is famous for Onortiian shrew steak but ravaged by unpredictable solar activity.",
+				"inhabitants": "Harmless Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.686649,
+				0.625495,
+				0.279687,
+				1
+			],
+			"radius": 164791.754761,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 542560,
+				"vector": [
+					-0.461,
+					-0.541,
+					0.703
+				]
+			},
+			"corona": {
+				"shimmer": 0.415347,
+				"hues": 0.810577,
+				"flare": 0.035158
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Onorti",
+				"radius": 13564
+			}
+		}
+	]
+}

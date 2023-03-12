@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system62",
+	"position": [
+		232,
+		27
+	],
+	"space": {
+		"blurs": 116,
+		"stars": 9099,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Reenesma",
+			"name": "Reenesma",
+			"seed": "241 27 137 232 109 206",
+			"body": {
+				"radius": 6632,
+				"rotation_v": 0.003254,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 862160
+			},
+			"land": {
+				"color": [
+					0.190781,
+					0.198113,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.767996,
+					0.77059,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.580078,
+					0.47564,
+					0.443669,
+					1
+				],
+				"polar": [
+					0.941992,
+					0.899593,
+					0.886613,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.72443,
+					0.790543,
+					0.924855,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.737869,
+					0.776419,
+					0.777344,
+					1
+				],
+				"fraction": 0.28,
+				"polar_color": [
+					0.822833,
+					0.849173,
+					0.849805,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 7000,
+				"techLevel": 5,
+				"economy": 3,
+				"government": 1,
+				"description": "This planet is mildly noted for the Reenesmaian mountain lobstoid but plagued by occasional solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.537122,
+				0.634894,
+				0.671304,
+				1
+			],
+			"radius": 121122.850342,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 265280,
+				"vector": [
+					0.682,
+					0.095,
+					0.725
+				]
+			},
+			"corona": {
+				"shimmer": 0.282702,
+				"hues": 0.886002,
+				"flare": 0.003271
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Reenesma",
+				"radius": 13264
+			}
+		}
+	]
+}

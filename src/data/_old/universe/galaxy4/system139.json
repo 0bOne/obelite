@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system139",
+	"position": [
+		232,
+		219
+	],
+	"space": {
+		"blurs": 71,
+		"stars": 5985,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Somate",
+			"name": "Somate",
+			"seed": "38 219 172 232 243 39",
+			"body": {
+				"radius": 4840,
+				"rotation_v": 0.000248,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 677600
+			},
+			"land": {
+				"color": [
+					0.472237,
+					0.297989,
+					0.646484,
+					1
+				],
+				"polar_color": [
+					0.872325,
+					0.809298,
+					0.935352,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.582031,
+					0.529031,
+					0.45403,
+					1
+				],
+				"polar": [
+					0.941797,
+					0.920357,
+					0.890016,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.439716,
+					0.680178,
+					0.884531,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.05896,
+					0.65625,
+					0.292276,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.342901,
+					0.795313,
+					0.519624,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 18648,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 5,
+				"description": "Somate is an unremarkable planet.",
+				"inhabitants": "Fierce Red Bony Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.699924,
+				0.5534,
+				0.503326,
+				1
+			],
+			"radius": 107304.046631,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 338800,
+				"vector": [
+					0.017,
+					-0.993,
+					-0.12
+				]
+			},
+			"corona": {
+				"shimmer": 0.699125,
+				"hues": 0.557938,
+				"flare": 0.005736
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Somate",
+				"radius": 9680
+			}
+		}
+	]
+}

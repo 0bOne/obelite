@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system233",
+	"position": [
+		189,
+		9
+	],
+	"space": {
+		"blurs": 60,
+		"stars": 5527,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tegete",
+			"name": "Tegete",
+			"seed": "128 9 16 189 122 188",
+			"body": {
+				"radius": 6077,
+				"rotation_v": 0.000036,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 668470
+			},
+			"land": {
+				"color": [
+					0.313705,
+					0.341301,
+					0.521484,
+					1
+				],
+				"polar_color": [
+					0.853437,
+					0.865976,
+					0.947852,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.585507,
+					0.613281,
+					0.486313,
+					1
+				],
+				"polar": [
+					0.928044,
+					0.938672,
+					0.890088,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.592463,
+					0.556875,
+					0.86632,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.419412,
+					0.31723,
+					0.601562,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.62485,
+					0.54303,
+					0.770703,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 15552,
+				"techLevel": 8,
+				"economy": 1,
+				"government": 2,
+				"description": "The world Tegete is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained shyness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.73584,
+				0.705013,
+				0.340945,
+				1
+			],
+			"radius": 109807.169037,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 425390,
+				"vector": [
+					-0.019,
+					-0.956,
+					-0.291
+				]
+			},
+			"corona": {
+				"shimmer": 0.326592,
+				"hues": 0.85836,
+				"flare": 0.09449
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tegete",
+				"radius": 12154
+			}
+		}
+	]
+}

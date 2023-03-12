@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system32",
+	"position": [
+		121,
+		11
+	],
+	"space": {
+		"blurs": 155,
+		"stars": 7205,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Rigete",
+			"name": "Rigete",
+			"seed": "146 11 146 121 212 62",
+			"body": {
+				"radius": 6521,
+				"rotation_v": 0.000593,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 847730
+			},
+			"land": {
+				"color": [
+					0.649526,
+					0.634219,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.930295,
+					0.924879,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.289814,
+					0.53125,
+					0.10791,
+					1
+				],
+				"polar": [
+					0.839294,
+					0.946875,
+					0.75824,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.758006,
+					0.58924,
+					0.894938,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.6875,
+					0.394775,
+					0.490826,
+					1
+				],
+				"fraction": 0.45,
+				"polar_color": [
+					0.809375,
+					0.59399,
+					0.664663,
+					1
+				]
+			},
+			"demographics": {
+				"type": 30,
+				"productivity": 10080,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 2,
+				"description": "This planet is fabled for its ancient Rigeteian On banana plantations.",
+				"inhabitants": "Red Horned Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.206757,
+				0.26516,
+				0.719092,
+				1
+			],
+			"radius": 211685.733643,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 391260,
+				"vector": [
+					-0.197,
+					-0.738,
+					0.646
+				]
+			},
+			"corona": {
+				"shimmer": 0.528329,
+				"hues": 0.654282,
+				"flare": 0.005794
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Rigete",
+				"radius": 13042
+			}
+		}
+	]
+}

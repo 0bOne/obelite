@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system63",
+	"position": [
+		214,
+		21
+	],
+	"space": {
+		"blurs": 178,
+		"stars": 7814,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Rean",
+			"name": "Rean",
+			"seed": "186 21 98 214 234 14",
+			"body": {
+				"radius": 6614,
+				"rotation_v": 0.001289,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 793680
+			},
+			"land": {
+				"color": [
+					0.215332,
+					0.52375,
+					0.574219,
+					1
+				],
+				"polar_color": [
+					0.7953,
+					0.921867,
+					0.942578,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.610843,
+					0.792969,
+					0.573044,
+					1
+				],
+				"polar": [
+					0.867837,
+					0.920703,
+					0.856865,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.556884,
+					0.519359,
+					0.896889,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.376811,
+					0.232925,
+					0.693359,
+					1
+				],
+				"fraction": 0.51,
+				"polar_color": [
+					0.580313,
+					0.474995,
+					0.812012,
+					1
+				]
+			},
+			"demographics": {
+				"type": 34,
+				"productivity": 10880,
+				"techLevel": 6,
+				"economy": 5,
+				"government": 4,
+				"description": "This world is reasonably notable for its exotic night life but cursed by deadly civil war.",
+				"inhabitants": "Green Bony Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.361827,
+				0.519735,
+				0.832718,
+				1
+			],
+			"radius": 184243.538513,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 529120,
+				"vector": [
+					-0.418,
+					-0.616,
+					-0.668
+				]
+			},
+			"corona": {
+				"shimmer": 0.310874,
+				"hues": 0.756882,
+				"flare": 0.045851
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Rean",
+				"radius": 13228
+			}
+		}
+	]
+}

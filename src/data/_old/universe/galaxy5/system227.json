@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system227",
+	"position": [
+		11,
+		125
+	],
+	"space": {
+		"blurs": 99,
+		"stars": 9283,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atquti",
+			"name": "Atquti",
+			"seed": "7 125 113 11 232 17",
+			"body": {
+				"radius": 3083,
+				"rotation_v": 0.001611,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 339130
+			},
+			"land": {
+				"color": [
+					0.152109,
+					0.290986,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.754314,
+					0.803447,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.562928,
+					0.658203,
+					0.519621,
+					1
+				],
+				"polar": [
+					0.900374,
+					0.93418,
+					0.885008,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.446409,
+					0.532337,
+					0.919652,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0416565,
+					0.42419,
+					0.761719,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.344846,
+					0.60937,
+					0.842773,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 17600,
+				"techLevel": 8,
+				"economy": 5,
+				"government": 6,
+				"description": "Atquti is mildly well known for killer Xeones gargle blasters.",
+				"inhabitants": "Green Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.728326,
+				0.824182,
+				0.824942,
+				1
+			],
+			"radius": 88886.517944,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 339130,
+				"vector": [
+					-0.124,
+					-0.974,
+					-0.19
+				]
+			},
+			"corona": {
+				"shimmer": 0.523593,
+				"hues": 0.513443,
+				"flare": 0.034032
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atquti",
+				"radius": 6166
+			}
+		}
+	]
+}

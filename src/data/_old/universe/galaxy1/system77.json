@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system77",
+	"position": [
+		37,
+		254
+	],
+	"space": {
+		"blurs": 143,
+		"stars": 5964,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Somaed",
+			"name": "Somaed",
+			"seed": "128 254 224 37 90 7",
+			"body": {
+				"radius": 4645,
+				"rotation_v": 0.004305,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 603850
+			},
+			"land": {
+				"color": [
+					0.58894,
+					0.66,
+					0.335156,
+					1
+				],
+				"polar_color": [
+					0.90886,
+					0.934,
+					0.819074,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.505859,
+					0.397574,
+					0.420415,
+					1
+				],
+				"polar": [
+					0.949414,
+					0.898606,
+					0.909323,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.634232,
+					0.905994,
+					0.890858,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.720703,
+					0.686832,
+					0.503929,
+					1
+				],
+				"fraction": 0.39,
+				"polar_color": [
+					0.824316,
+					0.800104,
+					0.669355,
+					1
+				]
+			},
+			"demographics": {
+				"type": 27,
+				"productivity": 6912,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 4,
+				"description": "Somaed is most noted for the Somaedian evil poet and Somaedian Ilrebedi brandy.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.460751,
+				0.61652,
+				0.759552,
+				1
+			],
+			"radius": 126486.519623,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 418050,
+				"vector": [
+					-0.059,
+					-0.383,
+					0.922
+				]
+			},
+			"corona": {
+				"shimmer": 0.313033,
+				"hues": 0.960068,
+				"flare": 0.05258
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Somaed",
+				"radius": 9290
+			}
+		}
+	]
+}

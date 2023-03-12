@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system92",
+	"position": [
+		222,
+		4
+	],
+	"space": {
+		"blurs": 116,
+		"stars": 8487,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Diaquti",
+			"name": "Diaquti",
+			"seed": "114 4 34 222 26 45",
+			"body": {
+				"radius": 6366,
+				"rotation_v": 0.004429,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 572940
+			},
+			"land": {
+				"color": [
+					0.497175,
+					0.66,
+					0.175313,
+					1
+				],
+				"polar_color": [
+					0.876395,
+					0.934,
+					0.762523,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.595703,
+					0.55969,
+					0.463997,
+					1
+				],
+				"polar": [
+					0.94043,
+					0.926216,
+					0.888449,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.706242,
+					0.572762,
+					0.891035,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.675781,
+					0.356369,
+					0.588442,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.804102,
+					0.566562,
+					0.739149,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 14208,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 4,
+				"description": "Diaquti is a revolting dump.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.262542,
+				0.713337,
+				0.741995,
+				1
+			],
+			"radius": 127914.481201,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 572940,
+				"vector": [
+					0.761,
+					-0.495,
+					-0.419
+				]
+			},
+			"corona": {
+				"shimmer": 0.653478,
+				"hues": 0.988503,
+				"flare": 0.028419
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Diaquti",
+				"radius": 12732
+			}
+		}
+	]
+}

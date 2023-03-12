@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system15",
+	"position": [
+		126,
+		19
+	],
+	"space": {
+		"blurs": 160,
+		"stars": 9424,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Andiso",
+			"name": "Andiso",
+			"seed": "54 19 36 126 211 155",
+			"body": {
+				"radius": 5758,
+				"rotation_v": 0.001223,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 690960
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.301641,
+					0.494819,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.807217,
+					0.875561,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.732422,
+					0.402734,
+					0.394821,
+					1
+				],
+				"polar": [
+					0.926758,
+					0.822466,
+					0.819963,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.446497,
+					0.560206,
+					0.912498,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0491562,
+					0.545869,
+					0.740234,
+					1
+				],
+				"fraction": 0.23,
+				"polar_color": [
+					0.346992,
+					0.696386,
+					0.833105,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 17920,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 4,
+				"description": "Andiso is cursed by killer mountain goats.",
+				"inhabitants": "Black Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.721193,
+				0.806628,
+				0.847638,
+				1
+			],
+			"radius": 113987.067566,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 403060,
+				"vector": [
+					-0.461,
+					0.876,
+					-0.142
+				]
+			},
+			"corona": {
+				"shimmer": 0.673823,
+				"hues": 0.835777,
+				"flare": 0.065134
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Andiso",
+				"radius": 11516
+			}
+		}
+	]
+}

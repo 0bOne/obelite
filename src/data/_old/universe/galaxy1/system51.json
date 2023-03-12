@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system51",
+	"position": [
+		214,
+		95
+	],
+	"space": {
+		"blurs": 80,
+		"stars": 6465,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Isbeus",
+			"name": "Isbeus",
+			"seed": "48 95 232 214 154 253",
+			"body": {
+				"radius": 6358,
+				"rotation_v": 0.002257,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 635800
+			},
+			"land": {
+				"color": [
+					0.26355,
+					0.443411,
+					0.53125,
+					1
+				],
+				"polar_color": [
+					0.827591,
+					0.907735,
+					0.946875,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.573063,
+					0.732422,
+					0.642782,
+					1
+				],
+				"polar": [
+					0.876347,
+					0.926758,
+					0.898402,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.707385,
+					0.728767,
+					0.974285,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.71965,
+					0.766352,
+					0.925781,
+					1
+				],
+				"fraction": 0.41,
+				"polar_color": [
+					0.789047,
+					0.817946,
+					0.916602,
+					1
+				]
+			},
+			"demographics": {
+				"type": 33,
+				"productivity": 7128,
+				"techLevel": 5,
+				"economy": 7,
+				"government": 5,
+				"description": "This world is most fabled for Isbeusian Onablo brandy but scourged by killer mountain goats.",
+				"inhabitants": "Bug-Eyed Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.516967,
+				0.604069,
+				0.661179,
+				1
+			],
+			"radius": 200325.119629,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 445060,
+				"vector": [
+					0.416,
+					0.816,
+					-0.401
+				]
+			},
+			"corona": {
+				"shimmer": 0.2896,
+				"hues": 0.501114,
+				"flare": 0.029013
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Isbeus",
+				"radius": 12716
+			}
+		}
+	]
+}

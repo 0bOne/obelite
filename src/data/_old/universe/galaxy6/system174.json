@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system174",
+	"position": [
+		115,
+		215
+	],
+	"space": {
+		"blurs": 54,
+		"stars": 9141,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Reoran",
+			"name": "Reoran",
+			"seed": "146 215 202 115 84 46",
+			"body": {
+				"radius": 6515,
+				"rotation_v": 0.002772,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 716650
+			},
+			"land": {
+				"color": [
+					0.580078,
+					0.471313,
+					0.489158,
+					1
+				],
+				"polar_color": [
+					0.941992,
+					0.897836,
+					0.905081,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.361729,
+					0.501953,
+					0.111763,
+					1
+				],
+				"polar": [
+					0.883471,
+					0.949805,
+					0.765224,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.589213,
+					0.909404,
+					0.971684,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.650826,
+					0.917969,
+					0.383682,
+					1
+				],
+				"fraction": 0.2,
+				"polar_color": [
+					0.74701,
+					0.913086,
+					0.580933,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 3000,
+				"techLevel": 4,
+				"economy": 7,
+				"government": 1,
+				"description": "This planet is reasonably noted for its inhabitants’ exceptional love for food blenders.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.673135,
+				0.61456,
+				0.369767,
+				1
+			],
+			"radius": 149468.431091,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 586350,
+				"vector": [
+					0.086,
+					-0.961,
+					-0.264
+				]
+			},
+			"corona": {
+				"shimmer": 0.343225,
+				"hues": 0.884743,
+				"flare": 0.083365
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Reoran",
+				"radius": 13030
+			}
+		}
+	]
+}

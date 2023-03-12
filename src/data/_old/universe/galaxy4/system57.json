@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system57",
+	"position": [
+		40,
+		161
+	],
+	"space": {
+		"blurs": 190,
+		"stars": 7957,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Issodien",
+			"name": "Issodien",
+			"seed": "246 161 56 40 91 157",
+			"body": {
+				"radius": 6184,
+				"rotation_v": 0.002929,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 803920
+			},
+			"land": {
+				"color": [
+					0.613281,
+					0.462357,
+					0.480043,
+					1
+				],
+				"polar_color": [
+					0.938672,
+					0.880922,
+					0.887689,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.551308,
+					0.65625,
+					0.521924,
+					1
+				],
+				"polar": [
+					0.897021,
+					0.934375,
+					0.886561,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.52717,
+					0.959977,
+					0.821021,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.882812,
+					0.248453,
+					0.217255,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.897266,
+					0.4943,
+					0.474482,
+					1
+				]
+			},
+			"demographics": {
+				"type": 49,
+				"productivity": 38808,
+				"techLevel": 10,
+				"economy": 1,
+				"government": 7,
+				"description": "This planet is a tedious little planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.681586,
+				0.685254,
+				0.715527,
+				1
+			],
+			"radius": 144036.358643,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 494720,
+				"vector": [
+					0.649,
+					0.271,
+					-0.711
+				]
+			},
+			"corona": {
+				"shimmer": 1.176378,
+				"hues": 0.627647,
+				"flare": 0.099406
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Issodien",
+				"radius": 12368
+			}
+		}
+	]
+}

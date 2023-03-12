@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system30",
+	"position": [
+		164,
+		144
+	],
+	"space": {
+		"blurs": 70,
+		"stars": 9911,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atbitela",
+			"name": "Atbitela",
+			"seed": "226 144 18 164 218 49",
+			"body": {
+				"radius": 3236,
+				"rotation_v": 0.001297,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 453040
+			},
+			"land": {
+				"color": [
+					0.299183,
+					0.224297,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.806347,
+					0.779854,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.699219,
+					0.465328,
+					0.43428,
+					1
+				],
+				"polar": [
+					0.930078,
+					0.8523,
+					0.841975,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.441941,
+					0.618366,
+					0.900791,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0495758,
+					0.705078,
+					0.612898,
+					1
+				],
+				"fraction": 0.23,
+				"polar_color": [
+					0.342398,
+					0.817285,
+					0.750504,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 16800,
+				"techLevel": 8,
+				"economy": 0,
+				"government": 2,
+				"description": "This world is plagued by frequent earthquakes.",
+				"inhabitants": "Red Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.832053,
+				0.215295,
+				0.214031,
+				1
+			],
+			"radius": 84259.147339,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 291240,
+				"vector": [
+					0.08,
+					0.962,
+					0.262
+				]
+			},
+			"corona": {
+				"shimmer": 0.254885,
+				"hues": 0.85009,
+				"flare": 0.000798
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atbitela",
+				"radius": 6472
+			}
+		}
+	]
+}

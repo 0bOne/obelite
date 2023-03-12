@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system107",
+	"position": [
+		155,
+		67
+	],
+	"space": {
+		"blurs": 89,
+		"stars": 8387,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ataton",
+			"name": "Ataton",
+			"seed": "166 67 236 155 243 81",
+			"body": {
+				"radius": 3227,
+				"rotation_v": 0.002756,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 354970
+			},
+			"land": {
+				"color": [
+					0.466898,
+					0.378891,
+					0.521484,
+					1
+				],
+				"polar_color": [
+					0.923047,
+					0.883057,
+					0.947852,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.567356,
+					0.837891,
+					0.536774,
+					1
+				],
+				"polar": [
+					0.842255,
+					0.916211,
+					0.833895,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.564601,
+					0.54786,
+					0.86632,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.350532,
+					0.298431,
+					0.601562,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.569695,
+					0.527977,
+					0.770703,
+					1
+				]
+			},
+			"demographics": {
+				"type": 49,
+				"productivity": 24696,
+				"techLevel": 10,
+				"economy": 3,
+				"government": 5,
+				"description": "This world is ravaged by unpredictable civil war.",
+				"inhabitants": "Yellow Slimy Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.407578,
+				0.470032,
+				0.835236,
+				1
+			],
+			"radius": 96307.750854,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 225890,
+				"vector": [
+					-0.318,
+					-0.654,
+					0.687
+				]
+			},
+			"corona": {
+				"shimmer": 0.770051,
+				"hues": 0.905914,
+				"flare": 0.033188
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ataton",
+				"radius": 6454
+			}
+		}
+	]
+}

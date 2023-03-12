@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system83",
+	"position": [
+		215,
+		84
+	],
+	"space": {
+		"blurs": 55,
+		"stars": 6207,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceerdi",
+			"name": "Ceerdi",
+			"seed": "45 84 65 215 85 69",
+			"body": {
+				"radius": 4311,
+				"rotation_v": 0.002564,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 603540
+			},
+			"land": {
+				"color": [
+					0.45375,
+					0.66,
+					0.543984,
+					1
+				],
+				"polar_color": [
+					0.861031,
+					0.934,
+					0.892955,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.613018,
+					0.652344,
+					0.504292,
+					1
+				],
+				"polar": [
+					0.920678,
+					0.934766,
+					0.881729,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.577076,
+					0.475604,
+					0.944367,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.58583,
+					0.0914307,
+					0.835938,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.712331,
+					0.388459,
+					0.876172,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 2944,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 0,
+				"description": "Ceerdi is an unremarkable planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.578621,
+				0.660113,
+				0.66105,
+				1
+			],
+			"radius": 127942.028503,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 344880,
+				"vector": [
+					-0.127,
+					-0.992,
+					0.001
+				]
+			},
+			"corona": {
+				"shimmer": 0.35214,
+				"hues": 0.611855,
+				"flare": 0.01532
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceerdi",
+				"radius": 8622
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system106",
+	"position": [
+		35,
+		207
+	],
+	"space": {
+		"blurs": 140,
+		"stars": 6200,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceedleon",
+			"name": "Ceedleon",
+			"seed": "65 207 121 35 173 229",
+			"body": {
+				"radius": 4131,
+				"rotation_v": 0.00011,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 495720
+			},
+			"land": {
+				"color": [
+					0.541406,
+					0.568275,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.892043,
+					0.901549,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.539062,
+					0.496175,
+					0.0400085,
+					1
+				],
+				"polar": [
+					0.946094,
+					0.927276,
+					0.727125,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.585701,
+					0.926156,
+					0.848736,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.78125,
+					0.516748,
+					0.387573,
+					1
+				],
+				"fraction": 0.27,
+				"polar_color": [
+					0.851562,
+					0.671371,
+					0.58337,
+					1
+				]
+			},
+			"demographics": {
+				"type": 43,
+				"productivity": 11352,
+				"techLevel": 7,
+				"economy": 7,
+				"government": 7,
+				"description": "Ceedleon is mildly notable for Ceedleonian Erzaaler water.",
+				"inhabitants": "Fierce Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.747168,
+				0.578952,
+				0.565082,
+				1
+			],
+			"radius": 103035.470581,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 289170,
+				"vector": [
+					-0.787,
+					-0.345,
+					0.511
+				]
+			},
+			"corona": {
+				"shimmer": 0.693019,
+				"hues": 0.945595,
+				"flare": 0.056264
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceedleon",
+				"radius": 8262
+			}
+		}
+	]
+}

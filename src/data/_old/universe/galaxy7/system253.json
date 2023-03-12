@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system253",
+	"position": [
+		204,
+		38
+	],
+	"space": {
+		"blurs": 195,
+		"stars": 7350,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Riattein",
+			"name": "Riattein",
+			"seed": "215 38 50 204 115 254",
+			"body": {
+				"radius": 6604,
+				"rotation_v": 0.000577,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 792480
+			},
+			"land": {
+				"color": [
+					0.381563,
+					0.66,
+					0.601267,
+					1
+				],
+				"polar_color": [
+					0.835492,
+					0.934,
+					0.913221,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.564496,
+					0.65625,
+					0.518079,
+					1
+				],
+				"polar": [
+					0.901715,
+					0.934375,
+					0.885193,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.717472,
+					0.619559,
+					0.84876,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.548828,
+					0.43306,
+					0.514459,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.746973,
+					0.648495,
+					0.717737,
+					1
+				]
+			},
+			"demographics": {
+				"type": 29,
+				"productivity": 9280,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 6,
+				"description": "This planet is plagued by occasional solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.665342,
+				0.814596,
+				0.823056,
+				1
+			],
+			"radius": 172786.662598,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 396240,
+				"vector": [
+					0.401,
+					0.697,
+					-0.595
+				]
+			},
+			"corona": {
+				"shimmer": 0.371502,
+				"hues": 0.586357,
+				"flare": 0.014737
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Riattein",
+				"radius": 13208
+			}
+		}
+	]
+}

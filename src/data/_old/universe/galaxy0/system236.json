@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system236",
+	"position": [
+		132,
+		79
+	],
+	"space": {
+		"blurs": 179,
+		"stars": 5988,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ordima",
+			"name": "Ordima",
+			"seed": "58 79 80 132 179 25",
+			"body": {
+				"radius": 5252,
+				"rotation_v": 0.004133,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 787800
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.0309375,
+					0.502734,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.711445,
+					0.878361,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.556641,
+					0.50082,
+					0.441399,
+					1
+				],
+				"polar": [
+					0.944336,
+					0.920661,
+					0.895459,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.602545,
+					0.934691,
+					0.945018,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.796339,
+					0.837891,
+					0.428764,
+					1
+				],
+				"fraction": 0.06,
+				"polar_color": [
+					0.849867,
+					0.877051,
+					0.609396,
+					1
+				]
+			},
+			"demographics": {
+				"type": 14,
+				"productivity": 2016,
+				"techLevel": 1,
+				"economy": 7,
+				"government": 2,
+				"description": "This planet is reasonably noted for its exotic goat soup.",
+				"inhabitants": "Green Bony Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.660074,
+				0.566461,
+				0.454546,
+				1
+			],
+			"radius": 106315.81543,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 420160,
+				"vector": [
+					0.628,
+					-0.721,
+					-0.294
+				]
+			},
+			"corona": {
+				"shimmer": 0.650043,
+				"hues": 0.628014,
+				"flare": 0.004103
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ordima",
+				"radius": 10504
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system4",
+	"position": [
+		240,
+		71
+	],
+	"space": {
+		"blurs": 198,
+		"stars": 9143,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ladibe",
+			"name": "Ladibe",
+			"seed": "180 71 64 240 102 53",
+			"body": {
+				"radius": 4336,
+				"rotation_v": 0.004514,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 563680
+			},
+			"land": {
+				"color": [
+					0.429459,
+					0.66,
+					0.355781,
+					1
+				],
+				"polar_color": [
+					0.852437,
+					0.934,
+					0.826371,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.484937,
+					0.396263,
+					0.509766,
+					1
+				],
+				"polar": [
+					0.937468,
+					0.896197,
+					0.949023,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.55598,
+					0.478096,
+					0.937213,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.476349,
+					0.104988,
+					0.814453,
+					1
+				],
+				"fraction": 0.37,
+				"polar_color": [
+					0.641684,
+					0.39475,
+					0.866504,
+					1
+				]
+			},
+			"demographics": {
+				"type": 8,
+				"productivity": 768,
+				"techLevel": 0,
+				"economy": 7,
+				"government": 0,
+				"description": "Ladibe is mildly notable for its inhabitants’ unusual silliness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.475452,
+				0.486292,
+				0.682886,
+				1
+			],
+			"radius": 127325.009766,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 260160,
+				"vector": [
+					-0.27,
+					0.597,
+					-0.755
+				]
+			},
+			"corona": {
+				"shimmer": 0.301639,
+				"hues": 0.749718,
+				"flare": 0.032024
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ladibe",
+				"radius": 8672
+			}
+		}
+	]
+}

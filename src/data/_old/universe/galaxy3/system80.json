@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system80",
+	"position": [
+		136,
+		67
+	],
+	"space": {
+		"blurs": 138,
+		"stars": 8365,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Soraza",
+			"name": "Soraza",
+			"seed": "210 67 194 136 154 135",
+			"body": {
+				"radius": 4744,
+				"rotation_v": 0.000707,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 569280
+			},
+			"land": {
+				"color": [
+					0.5,
+					0.466797,
+					0.480804,
+					1
+				],
+				"polar_color": [
+					0.95,
+					0.934228,
+					0.940882,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.570312,
+					0.49446,
+					0.44422,
+					1
+				],
+				"polar": [
+					0.942969,
+					0.911615,
+					0.890848,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.512989,
+					0.561387,
+					0.872174,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.224922,
+					0.378914,
+					0.619141,
+					1
+				],
+				"fraction": 0.51,
+				"polar_color": [
+					0.468765,
+					0.589799,
+					0.778613,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 4480,
+				"techLevel": 4,
+				"economy": 3,
+				"government": 0,
+				"description": "Soraza is cursed by vicious killer cats.",
+				"inhabitants": "Fierce Black Bony Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.771609,
+				0.359864,
+				0.226211,
+				1
+			],
+			"radius": 112523.776855,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 237200,
+				"vector": [
+					-0.054,
+					0.587,
+					-0.808
+				]
+			},
+			"corona": {
+				"shimmer": 0.860572,
+				"hues": 0.694099,
+				"flare": 0.013515
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Soraza",
+				"radius": 9488
+			}
+		}
+	]
+}

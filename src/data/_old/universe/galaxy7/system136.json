@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system136",
+	"position": [
+		125,
+		10
+	],
+	"space": {
+		"blurs": 171,
+		"stars": 5761,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Leesusen",
+			"name": "Leesusen",
+			"seed": "245 10 116 125 25 225",
+			"body": {
+				"radius": 3197,
+				"rotation_v": 0.002582,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 447580
+			},
+			"land": {
+				"color": [
+					0.0902344,
+					0.539815,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.732424,
+					0.89148,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.607256,
+					0.666016,
+					0.51252,
+					1
+				],
+				"polar": [
+					0.912811,
+					0.933398,
+					0.879619,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.631618,
+					0.88258,
+					0.821594,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.650391,
+					0.531698,
+					0.485252,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.792676,
+					0.702264,
+					0.666885,
+					1
+				]
+			},
+			"demographics": {
+				"type": 45,
+				"productivity": 28800,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 6,
+				"description": "The planet Leesusen is a boring planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.323076,
+				0.61326,
+				0.807071,
+				1
+			],
+			"radius": 63712.674255,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 191820,
+				"vector": [
+					-0.275,
+					0.962,
+					0.006
+				]
+			},
+			"corona": {
+				"shimmer": 0.484383,
+				"hues": 0.88028,
+				"flare": 0.070743
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Leesusen",
+				"radius": 6394
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system196",
+	"position": [
+		178,
+		45
+	],
+	"space": {
+		"blurs": 116,
+		"stars": 7965,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edorza",
+			"name": "Edorza",
+			"seed": "164 45 204 178 165 152",
+			"body": {
+				"radius": 5042,
+				"rotation_v": 0.002401,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 705880
+			},
+			"land": {
+				"color": [
+					0.420234,
+					0.180469,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.849174,
+					0.764348,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.6875,
+					0.676086,
+					0.504883,
+					1
+				],
+				"polar": [
+					0.93125,
+					0.927385,
+					0.869409,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.608854,
+					0.922904,
+					0.893157,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.771484,
+					0.682489,
+					0.446014,
+					1
+				],
+				"fraction": 0.51,
+				"polar_color": [
+					0.847168,
+					0.786089,
+					0.623794,
+					1
+				]
+			},
+			"demographics": {
+				"type": 21,
+				"productivity": 2520,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 1,
+				"description": "The planet Edorza is a boring world.",
+				"inhabitants": "Black Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.346602,
+				0.660906,
+				0.843463,
+				1
+			],
+			"radius": 134577.454834,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 352940,
+				"vector": [
+					0.039,
+					0.894,
+					-0.446
+				]
+			},
+			"corona": {
+				"shimmer": 0.699424,
+				"hues": 0.527473,
+				"flare": 0.020906
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Edorza",
+				"radius": 10084
+			}
+		}
+	]
+}

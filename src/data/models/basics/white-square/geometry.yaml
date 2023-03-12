@@ -1,0 +1,5 @@
+description: inert-square
+dimensions: 2
+shader: basics/white
+positions:
+  [1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0, -1.0]

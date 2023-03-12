@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system209",
+	"position": [
+		78,
+		144
+	],
+	"space": {
+		"blurs": 151,
+		"stars": 8853,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Sobite",
+			"name": "Sobite",
+			"seed": "0 144 176 78 186 199",
+			"body": {
+				"radius": 4686,
+				"rotation_v": 0.003775,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 656040
+			},
+			"land": {
+				"color": [
+					0.379226,
+					0.221719,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.834666,
+					0.778941,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.613281,
+					0.581584,
+					0.473376,
+					1
+				],
+				"polar": [
+					0.938672,
+					0.926543,
+					0.885138,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.694097,
+					0.845159,
+					0.889084,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.642935,
+					0.669922,
+					0.630669,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.781286,
+					0.801465,
+					0.772114,
+					1
+				]
+			},
+			"demographics": {
+				"type": 55,
+				"productivity": 44000,
+				"techLevel": 12,
+				"economy": 0,
+				"government": 6,
+				"description": "Sobite is most noted for the Sobiteian mountain lobstoid and the Sobiteian evil poet.",
+				"inhabitants": "Fierce Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.655476,
+				0.691059,
+				0.691223,
+				1
+			],
+			"radius": 105116.098022,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 281160,
+				"vector": [
+					0.495,
+					-0.586,
+					-0.642
+				]
+			},
+			"corona": {
+				"shimmer": 0.362306,
+				"hues": 0.673996,
+				"flare": 0.007559
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Sobite",
+				"radius": 9372
+			}
+		}
+	]
+}

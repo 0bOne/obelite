@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system45",
+	"position": [
+		16,
+		185
+	],
+	"space": {
+		"blurs": 44,
+		"stars": 9972,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Divera",
+			"name": "Divera",
+			"seed": "181 185 25 16 37 13",
+			"body": {
+				"radius": 6160,
+				"rotation_v": 0.000321,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 616000
+			},
+			"land": {
+				"color": [
+					0.635105,
+					0.66,
+					0.629063,
+					1
+				],
+				"polar_color": [
+					0.925192,
+					0.934,
+					0.923055,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.14653,
+					0.568359,
+					0.301421,
+					1
+				],
+				"polar": [
+					0.768163,
+					0.943164,
+					0.832421,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.695524,
+					0.840526,
+					0.896889,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.649538,
+					0.693359,
+					0.641899,
+					1
+				],
+				"fraction": 0.11,
+				"polar_color": [
+					0.779936,
+					0.812012,
+					0.774345,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 18648,
+				"techLevel": 8,
+				"economy": 1,
+				"government": 3,
+				"description": "Divera is mildly well known for Diveraian shrew cutlet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.285667,
+				0.479404,
+				0.677002,
+				1
+			],
+			"radius": 156443.847656,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 492800,
+				"vector": [
+					-0.454,
+					-0.166,
+					0.876
+				]
+			},
+			"corona": {
+				"shimmer": 0.358822,
+				"hues": 0.880806,
+				"flare": 0.06514
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Divera",
+				"radius": 12320
+			}
+		}
+	]
+}

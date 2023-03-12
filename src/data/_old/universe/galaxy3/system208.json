@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system208",
+	"position": [
+		188,
+		95
+	],
+	"space": {
+		"blurs": 43,
+		"stars": 6097,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tirausra",
+			"name": "Tirausra",
+			"seed": "210 95 194 188 154 151",
+			"body": {
+				"radius": 4796,
+				"rotation_v": 0.000722,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 575520
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.185746,
+					0.162422,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.766215,
+					0.757963,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.59308,
+					0.769531,
+					0.707498,
+					1
+				],
+				"polar": [
+					0.870134,
+					0.923047,
+					0.904445,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.645096,
+					0.868271,
+					0.812296,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.607422,
+					0.529937,
+					0.503021,
+					1
+				],
+				"fraction": 0.19,
+				"polar_color": [
+					0.77334,
+					0.711684,
+					0.690266,
+					1
+				]
+			},
+			"demographics": {
+				"type": 8,
+				"productivity": 768,
+				"techLevel": 0,
+				"economy": 7,
+				"government": 0,
+				"description": "The planet Tirausra is mildly well known for its exotic cuisine.",
+				"inhabitants": "Black Bony Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.403796,
+				0.51173,
+				0.65155,
+				1
+			],
+			"radius": 111634.920654,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 527560,
+				"vector": [
+					0.495,
+					0.383,
+					0.78
+				]
+			},
+			"corona": {
+				"shimmer": 0.242037,
+				"hues": 0.886642,
+				"flare": 0.05489
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tirausra",
+				"radius": 9592
+			}
+		}
+	]
+}

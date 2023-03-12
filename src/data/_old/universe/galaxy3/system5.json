@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system5",
+	"position": [
+		241,
+		98
+	],
+	"space": {
+		"blurs": 103,
+		"stars": 7265,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esisor",
+			"name": "Esisor",
+			"seed": "42 98 242 241 202 73",
+			"body": {
+				"radius": 5361,
+				"rotation_v": 0.003195,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 536100
+			},
+			"land": {
+				"color": [
+					0.161911,
+					0.511719,
+					0.175575,
+					1
+				],
+				"polar_color": [
+					0.786675,
+					0.948828,
+					0.793009,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.632431,
+					0.847656,
+					0.771991,
+					1
+				],
+				"polar": [
+					0.857138,
+					0.915234,
+					0.89481,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.606694,
+					0.825811,
+					0.989895,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.425537,
+					0.972656,
+					0.587963,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.608037,
+					0.937695,
+					0.705904,
+					1
+				]
+			},
+			"demographics": {
+				"type": 45,
+				"productivity": 28800,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 6,
+				"description": "The planet Esisor is most well known for its hoopy casinos.",
+				"inhabitants": "Small Yellow Bony Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.422049,
+				0.506351,
+				0.714944,
+				1
+			],
+			"radius": 142816.300507,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 536100,
+				"vector": [
+					-0.523,
+					0.349,
+					-0.778
+				]
+			},
+			"corona": {
+				"shimmer": 0.334811,
+				"hues": 0.835556,
+				"flare": 0.053049
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esisor",
+				"radius": 10722
+			}
+		}
+	]
+}

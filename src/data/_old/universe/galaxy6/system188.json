@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system188",
+	"position": [
+		96,
+		213
+	],
+	"space": {
+		"blurs": 73,
+		"stars": 8503,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tidice",
+			"name": "Tidice",
+			"seed": "50 213 34 96 244 247",
+			"body": {
+				"radius": 4704,
+				"rotation_v": 0.000049,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 611520
+			},
+			"land": {
+				"color": [
+					0.399609,
+					0.66,
+					0.586765,
+					1
+				],
+				"polar_color": [
+					0.841877,
+					0.934,
+					0.90809,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.600966,
+					0.679688,
+					0.522244,
+					1
+				],
+				"polar": [
+					0.905044,
+					0.932031,
+					0.878057,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.577368,
+					0.89713,
+					0.985992,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.549648,
+					0.960938,
+					0.341583,
+					1
+				],
+				"fraction": 0.47,
+				"polar_color": [
+					0.682994,
+					0.932422,
+					0.556812,
+					1
+				]
+			},
+			"demographics": {
+				"type": 26,
+				"productivity": 8320,
+				"techLevel": 4,
+				"economy": 5,
+				"government": 4,
+				"description": "The planet Tidice is very famous for its unusual casinos but beset by dreadful earthquakes.",
+				"inhabitants": "Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.701288,
+				0.703353,
+				0.708136,
+				1
+			],
+			"radius": 97078.857422,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 329280,
+				"vector": [
+					0.451,
+					0.196,
+					0.871
+				]
+			},
+			"corona": {
+				"shimmer": 0.269573,
+				"hues": 0.811386,
+				"flare": 0.021603
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tidice",
+				"radius": 9408
+			}
+		}
+	]
+}

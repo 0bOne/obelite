@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system210",
+	"position": [
+		202,
+		122
+	],
+	"space": {
+		"blurs": 44,
+		"stars": 6328,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esrexe",
+			"name": "Esrexe",
+			"seed": "156 122 48 202 197 73",
+			"body": {
+				"radius": 5322,
+				"rotation_v": 0.000025,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 638640
+			},
+			"land": {
+				"color": [
+					0.554688,
+					0.416016,
+					0.53627,
+					1
+				],
+				"polar_color": [
+					0.944531,
+					0.885498,
+					0.936691,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.581552,
+					0.714844,
+					0.544231,
+					1
+				],
+				"polar": [
+					0.885232,
+					0.928516,
+					0.873113,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.676025,
+					0.589143,
+					0.862418,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.583364,
+					0.382477,
+					0.589844,
+					1
+				],
+				"fraction": 0.47,
+				"polar_color": [
+					0.760174,
+					0.597244,
+					0.76543,
+					1
+				]
+			},
+			"demographics": {
+				"type": 49,
+				"productivity": 31360,
+				"techLevel": 10,
+				"economy": 2,
+				"government": 6,
+				"description": "Esrexe is a revolting dump.",
+				"inhabitants": "Small Yellow Slimy Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.735828,
+				0.596298,
+				0.565734,
+				1
+			],
+			"radius": 143443.719177,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 478980,
+				"vector": [
+					-0.059,
+					0.107,
+					-0.993
+				]
+			},
+			"corona": {
+				"shimmer": 0.515228,
+				"hues": 0.537933,
+				"flare": 0.037041
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esrexe",
+				"radius": 10644
+			}
+		}
+	]
+}

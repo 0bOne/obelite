@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system209",
+	"position": [
+		26,
+		68
+	],
+	"space": {
+		"blurs": 52,
+		"stars": 9374,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Didilaer",
+			"name": "Didilaer",
+			"seed": "223 68 122 26 235 237",
+			"body": {
+				"radius": 6170,
+				"rotation_v": 0.002417,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 740400
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.183047,
+					0.585476,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.76526,
+					0.907634,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.654297,
+					0.487328,
+					0.465164,
+					1
+				],
+				"polar": [
+					0.93457,
+					0.874948,
+					0.867033,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.649014,
+					0.505433,
+					0.935912,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.810547,
+					0.177307,
+					0.800653,
+					1
+				],
+				"fraction": 0.37,
+				"polar_color": [
+					0.864746,
+					0.442507,
+					0.858149,
+					1
+				]
+			},
+			"demographics": {
+				"type": 48,
+				"productivity": 25344,
+				"techLevel": 9,
+				"economy": 4,
+				"government": 7,
+				"description": "Didilaer is very notable for its inhabitants’ ingrained silliness.",
+				"inhabitants": "Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.324606,
+				0.389458,
+				0.81152,
+				1
+			],
+			"radius": 167126.448059,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 555300,
+				"vector": [
+					-0.596,
+					0.45,
+					-0.665
+				]
+			},
+			"corona": {
+				"shimmer": 0.342822,
+				"hues": 0.686951,
+				"flare": 0.061342
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Didilaer",
+				"radius": 12340
+			}
+		}
+	]
+}

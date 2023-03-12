@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system217",
+	"position": [
+		27,
+		110
+	],
+	"space": {
+		"blurs": 171,
+		"stars": 9301,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ditiza",
+			"name": "Ditiza",
+			"seed": "64 110 104 27 125 45",
+			"body": {
+				"radius": 6171,
+				"rotation_v": 0.003735,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 617100
+			},
+			"land": {
+				"color": [
+					0.171539,
+					0.601562,
+					0.561248,
+					1
+				],
+				"polar_color": [
+					0.771883,
+					0.939844,
+					0.924097,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.696191,
+					0.705078,
+					0.54258,
+					1
+				],
+				"polar": [
+					0.926563,
+					0.929492,
+					0.875937,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.577367,
+					0.534089,
+					0.886482,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.419476,
+					0.268982,
+					0.662109,
+					1
+				],
+				"fraction": 0.21,
+				"polar_color": [
+					0.615191,
+					0.501835,
+					0.797949,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 11520,
+				"techLevel": 7,
+				"economy": 6,
+				"government": 5,
+				"description": "The planet Ditiza is reasonably fabled for Ditizaian evil juice and its inhabitants’ ingrained silliness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.680246,
+				0.748586,
+				0.841266,
+				1
+			],
+			"radius": 145438.839111,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 678810,
+				"vector": [
+					0.158,
+					-0.249,
+					0.956
+				]
+			},
+			"corona": {
+				"shimmer": 0.297272,
+				"hues": 0.574448,
+				"flare": 0.026363
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ditiza",
+				"radius": 12342
+			}
+		}
+	]
+}

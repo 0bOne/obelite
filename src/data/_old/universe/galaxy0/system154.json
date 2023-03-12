@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system154",
+	"position": [
+		47,
+		191
+	],
+	"space": {
+		"blurs": 66,
+		"stars": 6429,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Isinor",
+			"name": "Isinor",
+			"seed": "10 191 44 47 219 189",
+			"body": {
+				"radius": 6191,
+				"rotation_v": 0.002476,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 681010
+			},
+			"land": {
+				"color": [
+					0.337473,
+					0.0438281,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.819894,
+					0.716006,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.642578,
+					0.534331,
+					0.491974,
+					1
+				],
+				"polar": [
+					0.935742,
+					0.896334,
+					0.880914,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.766834,
+					0.756659,
+					0.950221,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.845233,
+					0.843513,
+					0.853516,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.87872,
+					0.877607,
+					0.884082,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 7992,
+				"techLevel": 6,
+				"economy": 7,
+				"government": 5,
+				"description": "This world is very fabled for its unusual oceans.",
+				"inhabitants": "Harmless Slimy Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.588983,
+				0.806236,
+				0.813354,
+				1
+			],
+			"radius": 137618.818512,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 495280,
+				"vector": [
+					-0.387,
+					-0.705,
+					0.594
+				]
+			},
+			"corona": {
+				"shimmer": 0.368159,
+				"hues": 0.810669,
+				"flare": 0.053661
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Isinor",
+				"radius": 12382
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system8",
+	"position": [
+		29,
+		124
+	],
+	"space": {
+		"blurs": 155,
+		"stars": 6199,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Riedra",
+			"name": "Riedra",
+			"seed": "18 124 130 29 154 190",
+			"body": {
+				"radius": 6429,
+				"rotation_v": 0.003216,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 707190
+			},
+			"land": {
+				"color": [
+					0.636837,
+					0.541406,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.925805,
+					0.892043,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.6875,
+					0.541348,
+					0.469971,
+					1
+				],
+				"polar": [
+					0.93125,
+					0.881757,
+					0.857587,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.772805,
+					0.664001,
+					0.8325,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.5,
+					0.496094,
+					0.496277,
+					1
+				],
+				"fraction": 0.39,
+				"polar_color": [
+					0.725,
+					0.72146,
+					0.721626,
+					1
+				]
+			},
+			"demographics": {
+				"type": 15,
+				"productivity": 1920,
+				"techLevel": 2,
+				"economy": 6,
+				"government": 0,
+				"description": "This world is a revolting dump.",
+				"inhabitants": "Harmless Bug-Eyed Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.240472,
+				0.638719,
+				0.790924,
+				1
+			],
+			"radius": 105931.94046,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 642900,
+				"vector": [
+					0.145,
+					-0.826,
+					-0.544
+				]
+			},
+			"corona": {
+				"shimmer": 0.396995,
+				"hues": 0.65831,
+				"flare": 0.041322
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Riedra",
+				"radius": 12858
+			}
+		}
+	]
+}

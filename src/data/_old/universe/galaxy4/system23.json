@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system23",
+	"position": [
+		214,
+		244
+	],
+	"space": {
+		"blurs": 120,
+		"stars": 6396,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Usenat",
+			"name": "Usenat",
+			"seed": "22 244 84 214 83 8",
+			"body": {
+				"radius": 5078,
+				"rotation_v": 0.003043,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 558580
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.270703,
+					0.444062,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.796272,
+					0.857604,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.554617,
+					0.648438,
+					0.51647,
+					1
+				],
+				"polar": [
+					0.90133,
+					0.935156,
+					0.887577,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.488472,
+					0.572473,
+					0.883231,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.168182,
+					0.470783,
+					0.652344,
+					1
+				],
+				"fraction": 0.47,
+				"polar_color": [
+					0.425451,
+					0.655516,
+					0.793555,
+					1
+				]
+			},
+			"demographics": {
+				"type": 31,
+				"productivity": 8928,
+				"techLevel": 6,
+				"economy": 4,
+				"government": 2,
+				"description": "This world is most notable for its fabulous cuisine but beset by occasional civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.256044,
+				0.331128,
+				0.745923,
+				1
+			],
+			"radius": 169908.751831,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 507800,
+				"vector": [
+					0.969,
+					-0.177,
+					-0.173
+				]
+			},
+			"corona": {
+				"shimmer": 0.262587,
+				"hues": 0.980125,
+				"flare": 0.012679
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Usenat",
+				"radius": 10156
+			}
+		}
+	]
+}

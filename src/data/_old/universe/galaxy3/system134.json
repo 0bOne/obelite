@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system134",
+	"position": [
+		69,
+		85
+	],
+	"space": {
+		"blurs": 183,
+		"stars": 7197,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Usgeat",
+			"name": "Usgeat",
+			"seed": "162 85 82 69 218 232",
+			"body": {
+				"radius": 4933,
+				"rotation_v": 0.003867,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 641290
+			},
+			"land": {
+				"color": [
+					0.541084,
+					0.66,
+					0.474375,
+					1
+				],
+				"polar_color": [
+					0.891929,
+					0.934,
+					0.868328,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.559883,
+					0.708984,
+					0.547247,
+					1
+				],
+				"polar": [
+					0.880253,
+					0.929102,
+					0.876114,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.570766,
+					0.936114,
+					0.976887,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.744413,
+					0.933594,
+					0.328217,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.803586,
+					0.920117,
+					0.547218,
+					1
+				]
+			},
+			"demographics": {
+				"type": 24,
+				"productivity": 5760,
+				"techLevel": 4,
+				"economy": 5,
+				"government": 2,
+				"description": "Usgeat is cursed by dreadful civil war.",
+				"inhabitants": "Small Slimy Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.671054,
+				0.651213,
+				0.592799,
+				1
+			],
+			"radius": 112432.445831,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 345310,
+				"vector": [
+					0.361,
+					-0.847,
+					-0.391
+				]
+			},
+			"corona": {
+				"shimmer": 0.592753,
+				"hues": 0.999413,
+				"flare": 0.064644
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Usgeat",
+				"radius": 9866
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system69",
+	"position": [
+		167,
+		81
+	],
+	"space": {
+		"blurs": 121,
+		"stars": 8727,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tiera",
+			"name": "Tiera",
+			"seed": "21 81 249 167 101 23",
+			"body": {
+				"radius": 4775,
+				"rotation_v": 0.001598,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 668500
+			},
+			"land": {
+				"color": [
+					0.321854,
+					0.334331,
+					0.521484,
+					1
+				],
+				"polar_color": [
+					0.857139,
+					0.862809,
+					0.947852,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.596619,
+					0.830078,
+					0.654984,
+					1
+				],
+				"polar": [
+					0.852516,
+					0.916992,
+					0.868635,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.503378,
+					0.654252,
+					0.840955,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.207283,
+					0.525391,
+					0.421012,
+					1
+				],
+				"fraction": 0.46,
+				"polar_color": [
+					0.457749,
+					0.736426,
+					0.644985,
+					1
+				]
+			},
+			"demographics": {
+				"type": 61,
+				"productivity": 48312,
+				"techLevel": 13,
+				"economy": 1,
+				"government": 7,
+				"description": "This planet is beset by lethal disease.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.822174,
+				0.733572,
+				0.716962,
+				1
+			],
+			"radius": 122410.377502,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 238750,
+				"vector": [
+					-0.202,
+					0.979,
+					0.025
+				]
+			},
+			"corona": {
+				"shimmer": 0.47415,
+				"hues": 0.863235,
+				"flare": 0.008752
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Tiera",
+				"radius": 9550
+			}
+		}
+	]
+}

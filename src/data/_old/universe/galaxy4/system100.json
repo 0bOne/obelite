@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system100",
+	"position": [
+		255,
+		50
+	],
+	"space": {
+		"blurs": 164,
+		"stars": 9521,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tiuson",
+			"name": "Tiuson",
+			"seed": "164 50 12 255 37 215",
+			"body": {
+				"radius": 4863,
+				"rotation_v": 0.004942,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 583560
+			},
+			"land": {
+				"color": [
+					0.464063,
+					0.66,
+					0.545193,
+					1
+				],
+				"polar_color": [
+					0.86468,
+					0.934,
+					0.893383,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.509766,
+					0.242468,
+					0.0278778,
+					1
+				],
+				"polar": [
+					0.949023,
+					0.824618,
+					0.724742,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.498708,
+					0.541951,
+					0.887133,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.189362,
+					0.341414,
+					0.664062,
+					1
+				],
+				"fraction": 0.57,
+				"polar_color": [
+					0.44193,
+					0.556249,
+					0.798828,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 12800,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 1,
+				"description": "This world is a tedious place.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.823856,
+				0.804394,
+				0.753521,
+				1
+			],
+			"radius": 161658.983917,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 243150,
+				"vector": [
+					-0.922,
+					-0.211,
+					0.325
+				]
+			},
+			"corona": {
+				"shimmer": 0.312544,
+				"hues": 0.781479,
+				"flare": 0.007896
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tiuson",
+				"radius": 9726
+			}
+		}
+	]
+}

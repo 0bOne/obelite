@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system72",
+	"position": [
+		222,
+		190
+	],
+	"space": {
+		"blurs": 146,
+		"stars": 9031,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Leriisis",
+			"name": "Leriisis",
+			"seed": "210 190 114 222 20 129",
+			"body": {
+				"radius": 3294,
+				"rotation_v": 0.001889,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 296460
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.613594,
+					0.640785,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.917582,
+					0.927202,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.533203,
+					0.45431,
+					0.423438,
+					1
+				],
+				"polar": [
+					0.94668,
+					0.911662,
+					0.897959,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.740481,
+					0.605335,
+					0.872824,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.621094,
+					0.42215,
+					0.515405,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.779492,
+					0.623442,
+					0.69659,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 11840,
+				"techLevel": 6,
+				"economy": 6,
+				"government": 6,
+				"description": "The planet Leriisis is reasonably noted for its inhabitants’ exceptional love for food blenders and its fabulous cuisine.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.206915,
+				0.708248,
+				0.78692,
+				1
+			],
+			"radius": 74455.276794,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 362340,
+				"vector": [
+					0.377,
+					0.808,
+					-0.453
+				]
+			},
+			"corona": {
+				"shimmer": 0.306037,
+				"hues": 0.870857,
+				"flare": 0.040944
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Leriisis",
+				"radius": 6588
+			}
+		}
+	]
+}

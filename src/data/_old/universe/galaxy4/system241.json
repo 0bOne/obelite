@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system241",
+	"position": [
+		44,
+		161
+	],
+	"space": {
+		"blurs": 61,
+		"stars": 5149,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Onrequus",
+			"name": "Onrequus",
+			"seed": "214 161 200 44 155 159",
+			"body": {
+				"radius": 6700,
+				"rotation_v": 0.001055,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 804000
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.501365,
+					0.198516,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.877877,
+					0.770732,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.355914,
+					0.337639,
+					0.517578,
+					1
+				],
+				"polar": [
+					0.874197,
+					0.865827,
+					0.948242,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.579489,
+					0.926762,
+					0.972334,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.717173,
+					0.919922,
+					0.355751,
+					1
+				],
+				"fraction": 0.17,
+				"polar_color": [
+					0.788067,
+					0.913965,
+					0.563641,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 7000,
+				"techLevel": 5,
+				"economy": 3,
+				"government": 1,
+				"description": "This world is a tedious little planet.",
+				"inhabitants": "Black Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.800635,
+				0.696768,
+				0.508515,
+				1
+			],
+			"radius": 151651.702881,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 402000,
+				"vector": [
+					0.054,
+					-0.939,
+					0.339
+				]
+			},
+			"corona": {
+				"shimmer": 1.432105,
+				"hues": 0.627769,
+				"flare": 0.010493
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Onrequus",
+				"radius": 13400
+			}
+		}
+	]
+}

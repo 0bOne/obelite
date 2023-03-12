@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system22",
+	"position": [
+		251,
+		66
+	],
+	"space": {
+		"blurs": 109,
+		"stars": 9833,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Raatbi",
+			"name": "Raatbi",
+			"seed": "82 66 42 251 20 244",
+			"body": {
+				"radius": 4091,
+				"rotation_v": 0.004134,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 490920
+			},
+			"land": {
+				"color": [
+					0.426055,
+					0.66,
+					0.399609,
+					1
+				],
+				"polar_color": [
+					0.851233,
+					0.934,
+					0.841877,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.580078,
+					0.546496,
+					0.457265,
+					1
+				],
+				"polar": [
+					0.941992,
+					0.928359,
+					0.892133,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.678973,
+					0.775396,
+					0.964529,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.637344,
+					0.896484,
+					0.896484,
+					1
+				],
+				"fraction": 0.53,
+				"polar_color": [
+					0.740203,
+					0.903418,
+					0.903418,
+					1
+				]
+			},
+			"demographics": {
+				"type": 52,
+				"productivity": 29952,
+				"techLevel": 11,
+				"economy": 2,
+				"government": 5,
+				"description": "This world is a revolting little planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.790924,
+				0.6552,
+				0.427039,
+				1
+			],
+			"radius": 110014.915314,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 245460,
+				"vector": [
+					-0.728,
+					0.353,
+					0.588
+				]
+			},
+			"corona": {
+				"shimmer": 0.267894,
+				"hues": 0.662918,
+				"flare": 0.039697
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "icosahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Raatbi",
+				"radius": 8182
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system28",
+	"position": [
+		163,
+		156
+	],
+	"space": {
+		"blurs": 141,
+		"stars": 7548,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Bisoaton",
+			"name": "Bisoaton",
+			"seed": "228 156 188 163 133 38",
+			"body": {
+				"radius": 4515,
+				"rotation_v": 0.002971,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 451500
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.556029,
+					0.201094,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.897216,
+					0.771645,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.612989,
+					0.677734,
+					0.518361,
+					1
+				],
+				"polar": [
+					0.909962,
+					0.932227,
+					0.877422,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.451694,
+					0.722851,
+					0.859166,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.101967,
+					0.580078,
+					0.109437,
+					1
+				],
+				"fraction": 0.51,
+				"polar_color": [
+					0.368998,
+					0.761035,
+					0.375124,
+					1
+				]
+			},
+			"demographics": {
+				"type": 52,
+				"productivity": 27456,
+				"techLevel": 10,
+				"economy": 4,
+				"government": 7,
+				"description": "This planet is plagued by deadly earthquakes.",
+				"inhabitants": "Fierce Red Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.753268,
+				0.690562,
+				0.654624,
+				1
+			],
+			"radius": 104954.322052,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 496650,
+				"vector": [
+					-0.45,
+					0.551,
+					-0.702
+				]
+			},
+			"corona": {
+				"shimmer": 0.381831,
+				"hues": 0.764076,
+				"flare": 0.013358
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Bisoaton",
+				"radius": 9030
+			}
+		}
+	]
+}

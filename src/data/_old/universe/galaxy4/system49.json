@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system49",
+	"position": [
+		50,
+		34
+	],
+	"space": {
+		"blurs": 185,
+		"stars": 9093,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atbiarxe",
+			"name": "Atbiarxe",
+			"seed": "214 34 72 50 155 17",
+			"body": {
+				"radius": 3122,
+				"rotation_v": 0.000992,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 405860
+			},
+			"land": {
+				"color": [
+					0.656918,
+					0.66,
+					0.265547,
+					1
+				],
+				"polar_color": [
+					0.93291,
+					0.934,
+					0.794447,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.310547,
+					0.36235,
+					0.5,
+					1
+				],
+				"polar": [
+					0.86001,
+					0.884616,
+					0.95,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.641815,
+					0.497226,
+					0.941115,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.820902,
+					0.15168,
+					0.826172,
+					1
+				],
+				"fraction": 0.06,
+				"polar_color": [
+					0.868302,
+					0.42695,
+					0.871777,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 11520,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 1,
+				"description": "The planet Atbiarxe is cursed by deadly civil war.",
+				"inhabitants": "Green Slimy Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.650146,
+				0.567162,
+				0.31452,
+				1
+			],
+			"radius": 58156.396484,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 93660,
+				"vector": [
+					0.549,
+					-0.344,
+					0.762
+				]
+			},
+			"corona": {
+				"shimmer": 0.303057,
+				"hues": 0.503059,
+				"flare": 0.079878
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atbiarxe",
+				"radius": 6244
+			}
+		}
+	]
+}

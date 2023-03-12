@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system48",
+	"position": [
+		139,
+		71
+	],
+	"space": {
+		"blurs": 101,
+		"stars": 8073,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atzaxe",
+			"name": "Atzaxe",
+			"seed": "20 71 208 139 166 209",
+			"body": {
+				"radius": 3211,
+				"rotation_v": 0.002694,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 417430
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.108281,
+					0.276383,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.738809,
+					0.798281,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.609718,
+					0.626953,
+					0.489072,
+					1
+				],
+				"polar": [
+					0.930863,
+					0.937305,
+					0.885771,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.731648,
+					0.786332,
+					0.924855,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.756088,
+					0.773857,
+					0.777344,
+					1
+				],
+				"fraction": 0.41,
+				"polar_color": [
+					0.835282,
+					0.847422,
+					0.849805,
+					1
+				]
+			},
+			"demographics": {
+				"type": 26,
+				"productivity": 3744,
+				"techLevel": 4,
+				"economy": 7,
+				"government": 2,
+				"description": "The planet Atzaxe is a boring planet.",
+				"inhabitants": "Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.246635,
+				0.427796,
+				0.728815,
+				1
+			],
+			"radius": 90667.045593,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 128440,
+				"vector": [
+					0.468,
+					-0.336,
+					-0.817
+				]
+			},
+			"corona": {
+				"shimmer": 1.26993,
+				"hues": 0.634865,
+				"flare": 0.086723
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atzaxe",
+				"radius": 6422
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system165",
+	"position": [
+		38,
+		13
+	],
+	"space": {
+		"blurs": 60,
+		"stars": 6819,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Qureaed",
+			"name": "Qureaed",
+			"seed": "222 13 186 38 64 250",
+			"body": {
+				"radius": 5414,
+				"rotation_v": 0.004885,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 703820
+			},
+			"land": {
+				"color": [
+					0.546079,
+					0.139219,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.893696,
+					0.749754,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.655002,
+					0.65625,
+					0.496545,
+					1
+				],
+				"polar": [
+					0.933931,
+					0.934375,
+					0.877528,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.685101,
+					0.844942,
+					0.904693,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.640278,
+					0.716797,
+					0.624397,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.767678,
+					0.822559,
+					0.756288,
+					1
+				]
+			},
+			"demographics": {
+				"type": 45,
+				"productivity": 19800,
+				"techLevel": 8,
+				"economy": 5,
+				"government": 7,
+				"description": "Qureaed is most famous for its vast oceans and its fabulous monkey burgers.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.661224,
+				0.4044,
+				0.248612,
+				1
+			],
+			"radius": 135649.052124,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 433120,
+				"vector": [
+					0.528,
+					-0.034,
+					0.848
+				]
+			},
+			"corona": {
+				"shimmer": 0.329151,
+				"hues": 0.916229,
+				"flare": 0.054512
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Qureaed",
+				"radius": 10828
+			}
+		}
+	]
+}

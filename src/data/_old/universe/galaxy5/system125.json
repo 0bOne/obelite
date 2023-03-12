@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system125",
+	"position": [
+		24,
+		99
+	],
+	"space": {
+		"blurs": 158,
+		"stars": 8001,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Antima",
+			"name": "Antima",
+			"seed": "175 99 205 24 32 251",
+			"body": {
+				"radius": 5656,
+				"rotation_v": 0.001876,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 622160
+			},
+			"land": {
+				"color": [
+					0.477215,
+					0.466641,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.869333,
+					0.865592,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.615234,
+					0.477272,
+					0.454697,
+					1
+				],
+				"polar": [
+					0.938477,
+					0.885865,
+					0.877256,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.743096,
+					0.600251,
+					0.878678,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.638672,
+					0.414139,
+					0.514126,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.787402,
+					0.614389,
+					0.691434,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 7000,
+				"techLevel": 5,
+				"economy": 3,
+				"government": 1,
+				"description": "Antima is mildly well known for Antimaian vicious brew.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.653372,
+				0.29979,
+				0.288923,
+				1
+			],
+			"radius": 139740.379639,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 509040,
+				"vector": [
+					-0.07,
+					-0.059,
+					-0.996
+				]
+			},
+			"corona": {
+				"shimmer": 0.425813,
+				"hues": 0.849564,
+				"flare": 0.074037
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Antima",
+				"radius": 11312
+			}
+		}
+	]
+}

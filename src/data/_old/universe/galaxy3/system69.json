@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system69",
+	"position": [
+		171,
+		212
+	],
+	"space": {
+		"blurs": 79,
+		"stars": 7204,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Lalati",
+			"name": "Lalati",
+			"seed": "42 212 242 171 202 117",
+			"body": {
+				"radius": 4267,
+				"rotation_v": 0.003204,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 512040
+			},
+			"land": {
+				"color": [
+					0.338439,
+					0.66,
+					0.260391,
+					1
+				],
+				"polar_color": [
+					0.820236,
+					0.934,
+					0.792623,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.654297,
+					0.640415,
+					0.492767,
+					1
+				],
+				"polar": [
+					0.93457,
+					0.929613,
+					0.87689,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.578892,
+					0.889904,
+					0.988594,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.510214,
+					0.96875,
+					0.34436,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.659059,
+					0.935938,
+					0.558912,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 22560,
+				"techLevel": 9,
+				"economy": 4,
+				"government": 6,
+				"description": "Lalati is a revolting little planet.",
+				"inhabitants": "Blue Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.827875,
+				0.752401,
+				0.615462,
+				1
+			],
+			"radius": 114165.81955,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 256020,
+				"vector": [
+					-0.44,
+					0.118,
+					-0.89
+				]
+			},
+			"corona": {
+				"shimmer": 0.320912,
+				"hues": 0.647621,
+				"flare": 0.029149
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Lalati",
+				"radius": 8534
+			}
+		}
+	]
+}

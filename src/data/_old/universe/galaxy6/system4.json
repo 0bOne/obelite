@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system4",
+	"position": [
+		225,
+		240
+	],
+	"space": {
+		"blurs": 99,
+		"stars": 9987,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Artesore",
+			"name": "Artesore",
+			"seed": "114 240 130 225 52 234",
+			"body": {
+				"radius": 5601,
+				"rotation_v": 0.001313,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 504090
+			},
+			"land": {
+				"color": [
+					0.544922,
+					0.511097,
+					0.506607,
+					1
+				],
+				"polar_color": [
+					0.945508,
+					0.930835,
+					0.928888,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.708984,
+					0.706172,
+					0.528969,
+					1
+				],
+				"polar": [
+					0.929102,
+					0.92818,
+					0.870125,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.516987,
+					0.483662,
+					0.922254,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.286602,
+					0.132263,
+					0.769531,
+					1
+				],
+				"fraction": 0.4,
+				"polar_color": [
+					0.514351,
+					0.408268,
+					0.846289,
+					1
+				]
+			},
+			"demographics": {
+				"type": 27,
+				"productivity": 6912,
+				"techLevel": 6,
+				"economy": 2,
+				"government": 0,
+				"description": "This planet is most fabled for mud hockey but ravaged by occasional earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.503209,
+				0.534597,
+				0.740836,
+				1
+			],
+			"radius": 90678.665314,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 672120,
+				"vector": [
+					-0.229,
+					-0.717,
+					-0.659
+				]
+			},
+			"corona": {
+				"shimmer": 0.532328,
+				"hues": 0.827805,
+				"flare": 0.040155
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Artesore",
+				"radius": 11202
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system234",
+	"position": [
+		60,
+		252
+	],
+	"space": {
+		"blurs": 145,
+		"stars": 9516,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anrain",
+			"name": "Anrain",
+			"seed": "148 252 24 60 182 187",
+			"body": {
+				"radius": 5692,
+				"rotation_v": 0.00236,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 853800
+			},
+			"land": {
+				"color": [
+					0.595703,
+					0.388603,
+					0.587613,
+					1
+				],
+				"polar_color": [
+					0.94043,
+					0.858693,
+					0.937237,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.636719,
+					0.465103,
+					0.465103,
+					1
+				],
+				"polar": [
+					0.936328,
+					0.873236,
+					0.873236,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.607374,
+					0.909896,
+					0.845825,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.732422,
+					0.550032,
+					0.440598,
+					1
+				],
+				"fraction": 0.34,
+				"polar_color": [
+					0.82959,
+					0.700473,
+					0.623003,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 9408,
+				"techLevel": 5,
+				"economy": 4,
+				"government": 3,
+				"description": "This world is very notable for its inhabitants’ unusual silliness and its fabulous Noal brandy.",
+				"inhabitants": "Harmless Slimy Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.598021,
+				0.721579,
+				0.764798,
+				1
+			],
+			"radius": 134156.660156,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 341520,
+				"vector": [
+					-0.627,
+					-0.127,
+					-0.768
+				]
+			},
+			"corona": {
+				"shimmer": 0.319875,
+				"hues": 0.707703,
+				"flare": 0.063408
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anrain",
+				"radius": 11384
+			}
+		}
+	]
+}

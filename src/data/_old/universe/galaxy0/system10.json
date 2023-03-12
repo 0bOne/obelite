@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system10",
+	"position": [
+		4,
+		238
+	],
+	"space": {
+		"blurs": 144,
+		"stars": 6031,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Teaatis",
+			"name": "Teaatis",
+			"seed": "202 238 204 4 91 28",
+			"body": {
+				"radius": 5892,
+				"rotation_v": 0.003646,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 824880
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.0670312,
+					0.414474,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.724215,
+					0.847136,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.623047,
+					0.600496,
+					0.478724,
+					1
+				],
+				"polar": [
+					0.937695,
+					0.929211,
+					0.883393,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.435444,
+					0.599129,
+					0.909246,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0256805,
+					0.730469,
+					0.71395,
+					1
+				],
+				"fraction": 0.57,
+				"polar_color": [
+					0.328976,
+					0.828711,
+					0.816998,
+					1
+				]
+			},
+			"demographics": {
+				"type": 16,
+				"productivity": 2560,
+				"techLevel": 2,
+				"economy": 6,
+				"government": 1,
+				"description": "Teaatis is mildly well known for Teaatisian vicious brew.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.711258,
+				0.439991,
+				0.380102,
+				1
+			],
+			"radius": 161673.977051,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 471360,
+				"vector": [
+					0.392,
+					0.276,
+					0.877
+				]
+			},
+			"corona": {
+				"shimmer": 0.405304,
+				"hues": 0.769394,
+				"flare": 0.015961
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Teaatis",
+				"radius": 11784
+			}
+		}
+	]
+}

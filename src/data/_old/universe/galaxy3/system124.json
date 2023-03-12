@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system124",
+	"position": [
+		3,
+		11
+	],
+	"space": {
+		"blurs": 120,
+		"stars": 9870,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atonbeza",
+			"name": "Atonbeza",
+			"seed": "114 11 34 3 26 81",
+			"body": {
+				"radius": 3075,
+				"rotation_v": 0.004412,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 369000
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.144375,
+					0.651943,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.751578,
+					0.93115,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.625,
+					0.619459,
+					0.483154,
+					1
+				],
+				"polar": [
+					0.9375,
+					0.935422,
+					0.884308,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.578239,
+					0.551953,
+					0.86567,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.384601,
+					0.306831,
+					0.599609,
+					1
+				],
+				"fraction": 0.51,
+				"polar_color": [
+					0.597296,
+					0.534892,
+					0.769824,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 19712,
+				"techLevel": 9,
+				"economy": 3,
+				"government": 4,
+				"description": "The planet Atonbeza is reasonably fabled for Zero-G hockey and its inhabitants’ ingrained shyness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.688306,
+				0.55964,
+				0.259228,
+				1
+			],
+			"radius": 65189.380646,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 307500,
+				"vector": [
+					-0.289,
+					-0.759,
+					-0.583
+				]
+			},
+			"corona": {
+				"shimmer": 0.413842,
+				"hues": 0.720215,
+				"flare": 0.080353
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atonbeza",
+				"radius": 6150
+			}
+		}
+	]
+}

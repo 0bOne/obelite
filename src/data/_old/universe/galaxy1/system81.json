@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system81",
+	"position": [
+		124,
+		120
+	],
+	"space": {
+		"blurs": 124,
+		"stars": 7404,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Beused",
+			"name": "Beused",
+			"seed": "0 120 176 124 186 51",
+			"body": {
+				"radius": 3708,
+				"rotation_v": 0.003714,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 444960
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.410728,
+					0.190781,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.84581,
+					0.767996,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.601562,
+					0.470301,
+					0.448822,
+					1
+				],
+				"polar": [
+					0.939844,
+					0.888575,
+					0.880186,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.610775,
+					0.508013,
+					0.922904,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.631351,
+					0.192871,
+					0.771484,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.750993,
+					0.450058,
+					0.847168,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 37600,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 6,
+				"description": "This planet is fabled for its exciting Zero-G cricket.",
+				"inhabitants": "Red Fat Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.328698,
+				0.468579,
+				0.663138,
+				1
+			],
+			"radius": 86129.978027,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 148320,
+				"vector": [
+					0.449,
+					-0.747,
+					-0.49
+				]
+			},
+			"corona": {
+				"shimmer": 0.318297,
+				"hues": 0.908768,
+				"flare": 0.038275
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Beused",
+				"radius": 7416
+			}
+		}
+	]
+}

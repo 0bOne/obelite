@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system26",
+	"position": [
+		199,
+		137
+	],
+	"space": {
+		"blurs": 165,
+		"stars": 5649,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Matere",
+			"name": "Matere",
+			"seed": "28 137 192 199 37 11",
+			"body": {
+				"radius": 5831,
+				"rotation_v": 0.001871,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 699720
+			},
+			"land": {
+				"color": [
+					0.649446,
+					0.322266,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.930266,
+					0.814514,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.697266,
+					0.532503,
+					0.460304,
+					1
+				],
+				"polar": [
+					0.930273,
+					0.875318,
+					0.851237,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.713775,
+					0.790642,
+					0.931359,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.715942,
+					0.796875,
+					0.793081,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.804093,
+					0.858594,
+					0.856039,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 7168,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 0,
+				"description": "This world is most fabled for its inhabitants’ eccentric love for tourists but plagued by deadly earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.801773,
+				0.79661,
+				0.479546,
+				1
+			],
+			"radius": 156355.787964,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 349860,
+				"vector": [
+					0.101,
+					-0.792,
+					0.603
+				]
+			},
+			"corona": {
+				"shimmer": 0.315098,
+				"hues": 0.653175,
+				"flare": 0.040405
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Matere",
+				"radius": 11662
+			}
+		}
+	]
+}

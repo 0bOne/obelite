@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system54",
+	"position": [
+		102,
+		57
+	],
+	"space": {
+		"blurs": 123,
+		"stars": 6600,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ororqu",
+			"name": "Ororqu",
+			"seed": "26 57 244 102 155 217",
+			"body": {
+				"radius": 5222,
+				"rotation_v": 0.00281,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 522200
+			},
+			"land": {
+				"color": [
+					0.286469,
+					0.311868,
+					0.582031,
+					1
+				],
+				"polar_color": [
+					0.822233,
+					0.832508,
+					0.941797,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.730469,
+					0.649125,
+					0.476517,
+					1
+				],
+				"polar": [
+					0.926953,
+					0.901147,
+					0.846388,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.718351,
+					0.738125,
+					0.96518,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.747528,
+					0.781718,
+					0.898438,
+					1
+				],
+				"fraction": 0.26,
+				"polar_color": [
+					0.809363,
+					0.830872,
+					0.904297,
+					1
+				]
+			},
+			"demographics": {
+				"type": 52,
+				"productivity": 37440,
+				"techLevel": 11,
+				"economy": 1,
+				"government": 6,
+				"description": "The planet Ororqu is well known for its inhabitants’ ancient mating traditions but ravaged by unpredictable solar activity.",
+				"inhabitants": "Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.788443,
+				0.501674,
+				0.40529,
+				1
+			],
+			"radius": 111636.026917,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 417760,
+				"vector": [
+					-0.534,
+					-0.068,
+					0.843
+				]
+			},
+			"corona": {
+				"shimmer": 0.246165,
+				"hues": 0.504677,
+				"flare": 0.066829
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Ororqu",
+				"radius": 10444
+			}
+		}
+	]
+}

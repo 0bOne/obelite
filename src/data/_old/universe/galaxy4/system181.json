@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system181",
+	"position": [
+		156,
+		148
+	],
+	"space": {
+		"blurs": 105,
+		"stars": 6950,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Engeatso",
+			"name": "Engeatso",
+			"seed": "70 148 96 156 91 82",
+			"body": {
+				"radius": 3484,
+				"rotation_v": 0.004475,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 487760
+			},
+			"land": {
+				"color": [
+					0.397997,
+					0.297478,
+					0.619141,
+					1
+				],
+				"polar_color": [
+					0.85432,
+					0.816245,
+					0.938086,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.53125,
+					0.428191,
+					0.417529,
+					1
+				],
+				"polar": [
+					0.946875,
+					0.900953,
+					0.896202,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.435057,
+					0.775294,
+					0.857215,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.274562,
+					0.574219,
+					0.0695343,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.511042,
+					0.758398,
+					0.341798,
+					1
+				]
+			},
+			"demographics": {
+				"type": 29,
+				"productivity": 11136,
+				"techLevel": 5,
+				"economy": 4,
+				"government": 4,
+				"description": "This world is ravaged by unpredictable civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.747198,
+				0.7527,
+				0.75405,
+				1
+			],
+			"radius": 66410.560303,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 174200,
+				"vector": [
+					0.71,
+					0.653,
+					0.263
+				]
+			},
+			"corona": {
+				"shimmer": 0.639139,
+				"hues": 0.587082,
+				"flare": 0.014084
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Engeatso",
+				"radius": 6968
+			}
+		}
+	]
+}

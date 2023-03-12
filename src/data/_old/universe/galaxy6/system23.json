@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system23",
+	"position": [
+		70,
+		32
+	],
+	"space": {
+		"blurs": 112,
+		"stars": 9968,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edoned",
+			"name": "Edoned",
+			"seed": "206 32 114 70 208 152",
+			"body": {
+				"radius": 4934,
+				"rotation_v": 0.003908,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 641420
+			},
+			"land": {
+				"color": [
+					0.390103,
+					0.144375,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.838514,
+					0.751578,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.643772,
+					0.671875,
+					0.508368,
+					1
+				],
+				"polar": [
+					0.923058,
+					0.932813,
+					0.87606,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.681188,
+					0.863689,
+					0.885832,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.639365,
+					0.660156,
+					0.598267,
+					1
+				],
+				"fraction": 0.55,
+				"polar_color": [
+					0.781381,
+					0.79707,
+					0.750367,
+					1
+				]
+			},
+			"demographics": {
+				"type": 55,
+				"productivity": 44000,
+				"techLevel": 12,
+				"economy": 0,
+				"government": 6,
+				"description": "This world is very fabled for its unusual oceans.",
+				"inhabitants": "Black Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.312848,
+				0.378332,
+				0.747623,
+				1
+			],
+			"radius": 152324.150085,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 296040,
+				"vector": [
+					0.051,
+					0.927,
+					0.371
+				]
+			},
+			"corona": {
+				"shimmer": 0.481344,
+				"hues": 0.744019,
+				"flare": 0.045297
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "icosahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Edoned",
+				"radius": 9868
+			}
+		}
+	]
+}

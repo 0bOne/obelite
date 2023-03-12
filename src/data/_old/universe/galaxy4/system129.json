@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system129",
+	"position": [
+		224,
+		231
+	],
+	"space": {
+		"blurs": 52,
+		"stars": 7505,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Inbe",
+			"name": "Inbe",
+			"seed": "22 231 168 224 27 204",
+			"body": {
+				"radius": 6112,
+				"rotation_v": 0.004853,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 672320
+			},
+			"land": {
+				"color": [
+					0.605469,
+					0.465927,
+					0.48228,
+					1
+				],
+				"polar_color": [
+					0.939453,
+					0.885324,
+					0.891668,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.744141,
+					0.508054,
+					0.415672,
+					1
+				],
+				"polar": [
+					0.925586,
+					0.852173,
+					0.823446,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.434921,
+					0.682554,
+					0.886482,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0465546,
+					0.662109,
+					0.272579,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.334297,
+					0.797949,
+					0.504544,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 5400,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 5,
+				"description": "This planet is plagued by frequent earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.724143,
+				0.745939,
+				0.759894,
+				1
+			],
+			"radius": 137104.052734,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 366720,
+				"vector": [
+					-0.824,
+					-0.132,
+					0.551
+				]
+			},
+			"corona": {
+				"shimmer": 0.391451,
+				"hues": 0.966125,
+				"flare": 0.014613
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Inbe",
+				"radius": 12224
+			}
+		}
+	]
+}

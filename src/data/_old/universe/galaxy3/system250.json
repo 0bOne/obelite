@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system250",
+	"position": [
+		3,
+		210
+	],
+	"space": {
+		"blurs": 131,
+		"stars": 7507,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xetiis",
+			"name": "Xetiis",
+			"seed": "2 210 114 3 90 34",
+			"body": {
+				"radius": 3331,
+				"rotation_v": 0.000015,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 333100
+			},
+			"land": {
+				"color": [
+					0.553169,
+					0.66,
+					0.257812,
+					1
+				],
+				"polar_color": [
+					0.896204,
+					0.934,
+					0.791711,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.591685,
+					0.703125,
+					0.535309,
+					1
+				],
+				"polar": [
+					0.89285,
+					0.929688,
+					0.874215,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.504108,
+					0.537725,
+					0.886482,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.201736,
+					0.31683,
+					0.662109,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.451184,
+					0.537875,
+					0.797949,
+					1
+				]
+			},
+			"demographics": {
+				"type": 53,
+				"productivity": 33920,
+				"techLevel": 11,
+				"economy": 2,
+				"government": 6,
+				"description": "Xetiis is mildly well known for its exotic cuisine.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.82731,
+				0.678218,
+				0.420393,
+				1
+			],
+			"radius": 78002.204285,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 299790,
+				"vector": [
+					0.903,
+					0.037,
+					0.428
+				]
+			},
+			"corona": {
+				"shimmer": 0.285936,
+				"hues": 0.734467,
+				"flare": 0.057559
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Xetiis",
+				"radius": 6662
+			}
+		}
+	]
+}

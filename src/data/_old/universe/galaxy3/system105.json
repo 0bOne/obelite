@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system105",
+	"position": [
+		170,
+		79
+	],
+	"space": {
+		"blurs": 92,
+		"stars": 5874,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esxevexe",
+			"name": "Esxevexe",
+			"seed": "74 79 18 170 138 137",
+			"body": {
+				"radius": 5290,
+				"rotation_v": 0.001963,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 740600
+			},
+			"land": {
+				"color": [
+					0.495649,
+					0.374359,
+					0.550781,
+					1
+				],
+				"polar_color": [
+					0.921276,
+					0.869254,
+					0.944922,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.596191,
+					0.794922,
+					0.603954,
+					1
+				],
+				"polar": [
+					0.862976,
+					0.920508,
+					0.865223,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.652615,
+					0.855914,
+					0.798577,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.570312,
+					0.516306,
+					0.505707,
+					1
+				],
+				"fraction": 0.4,
+				"polar_color": [
+					0.756641,
+					0.711859,
+					0.70307,
+					1
+				]
+			},
+			"demographics": {
+				"type": 22,
+				"productivity": 3168,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 2,
+				"description": "The planet Esxevexe is an unremarkable dump.",
+				"inhabitants": "Small Black Furry Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.472946,
+				0.495478,
+				0.775616,
+				1
+			],
+			"radius": 134145.281982,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 264500,
+				"vector": [
+					-0.951,
+					-0.294,
+					0.099
+				]
+			},
+			"corona": {
+				"shimmer": 0.265386,
+				"hues": 0.605927,
+				"flare": 0.036049
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esxevexe",
+				"radius": 10580
+			}
+		}
+	]
+}

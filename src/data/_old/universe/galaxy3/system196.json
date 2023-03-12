@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system196",
+	"position": [
+		80,
+		51
+	],
+	"space": {
+		"blurs": 194,
+		"stars": 8055,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Enlaed",
+			"name": "Enlaed",
+			"seed": "50 51 98 80 26 114",
+			"body": {
+				"radius": 3408,
+				"rotation_v": 0.001939,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 374880
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.332477,
+					0.244922,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.818126,
+					0.78715,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.632681,
+					0.761719,
+					0.580215,
+					1
+				],
+				"polar": [
+					0.884703,
+					0.923828,
+					0.868795,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.573265,
+					0.883131,
+					0.994447,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.45307,
+					0.986328,
+					0.323639,
+					1
+				],
+				"fraction": 0.18,
+				"polar_color": [
+					0.624916,
+					0.943848,
+					0.547505,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 14336,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 4,
+				"description": "This planet is noted for mud hockey.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.51209,
+				0.710464,
+				0.721573,
+				1
+			],
+			"radius": 95344.541016,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 238560,
+				"vector": [
+					-0.386,
+					-0.903,
+					-0.188
+				]
+			},
+			"corona": {
+				"shimmer": 0.399002,
+				"hues": 0.753929,
+				"flare": 0.071765
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Enlaed",
+				"radius": 6816
+			}
+		}
+	]
+}

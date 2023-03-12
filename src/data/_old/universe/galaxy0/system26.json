@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system26",
+	"position": [
+		4,
+		253
+	],
+	"space": {
+		"blurs": 80,
+		"stars": 6328,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Legees",
+			"name": "Legees",
+			"seed": "10 253 44 4 219 193",
+			"body": {
+				"radius": 3076,
+				"rotation_v": 0.002472,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 430640
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.0953906,
+					0.360051,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.734248,
+					0.827882,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.583391,
+					0.630859,
+					0.498773,
+					1
+				],
+				"polar": [
+					0.91929,
+					0.936914,
+					0.887873,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.567331,
+					0.945958,
+					0.977537,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.78597,
+					0.935547,
+					0.31794,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.828965,
+					0.920996,
+					0.540995,
+					1
+				]
+			},
+			"demographics": {
+				"type": 31,
+				"productivity": 11160,
+				"techLevel": 5,
+				"economy": 5,
+				"government": 5,
+				"description": "This planet is most notable for its exotic night life but ravaged by frequent earthquakes.",
+				"inhabitants": "Large Bug-Eyed Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.733419,
+				0.752607,
+				0.779276,
+				1
+			],
+			"radius": 69113.311768,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 215320,
+				"vector": [
+					-0.062,
+					0.995,
+					0.084
+				]
+			},
+			"corona": {
+				"shimmer": 0.430128,
+				"hues": 0.859482,
+				"flare": 0.055644
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Legees",
+				"radius": 6152
+			}
+		}
+	]
+}

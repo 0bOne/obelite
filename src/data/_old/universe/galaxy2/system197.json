@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system197",
+	"position": [
+		97,
+		195
+	],
+	"space": {
+		"blurs": 41,
+		"stars": 8476,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Geusdi",
+			"name": "Geusdi",
+			"seed": "21 195 249 97 101 67",
+			"body": {
+				"radius": 3681,
+				"rotation_v": 0.001607,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 441720
+			},
+			"land": {
+				"color": [
+					0.458906,
+					0.518606,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.862855,
+					0.883977,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.611328,
+					0.484048,
+					0.454675,
+					1
+				],
+				"polar": [
+					0.938867,
+					0.889998,
+					0.878721,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.561522,
+					0.946318,
+					0.864822,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.841797,
+					0.515025,
+					0.318962,
+					1
+				],
+				"fraction": 0.17,
+				"polar_color": [
+					0.878809,
+					0.665597,
+					0.53767,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 28952,
+				"techLevel": 9,
+				"economy": 3,
+				"government": 7,
+				"description": "This planet is reasonably famous for the Geusdiian evil talking treeoid.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.497741,
+				0.759834,
+				0.838419,
+				1
+			],
+			"radius": 94790.692749,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 368100,
+				"vector": [
+					-0.28,
+					0.536,
+					0.796
+				]
+			},
+			"corona": {
+				"shimmer": 0.236082,
+				"hues": 0.95462,
+				"flare": 0.089471
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Geusdi",
+				"radius": 7362
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system4",
+	"position": [
+		210,
+		137
+	],
+	"space": {
+		"blurs": 182,
+		"stars": 6679,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Qulaxe",
+			"name": "Qulaxe",
+			"seed": "50 137 98 210 26 154",
+			"body": {
+				"radius": 5586,
+				"rotation_v": 0.001977,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 726180
+			},
+			"land": {
+				"color": [
+					0.572163,
+					0.66,
+					0.430547,
+					1
+				],
+				"polar_color": [
+					0.902924,
+					0.934,
+					0.852822,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.363804,
+					0.333595,
+					0.537109,
+					1
+				],
+				"polar": [
+					0.869956,
+					0.85665,
+					0.946289,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.675733,
+					0.729872,
+					0.987293,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.62941,
+					0.799747,
+					0.964844,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.731196,
+					0.834274,
+					0.93418,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 26496,
+				"techLevel": 10,
+				"economy": 1,
+				"government": 4,
+				"description": "The world Qulaxe is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained silliness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.687936,
+				0.655748,
+				0.645966,
+				1
+			],
+			"radius": 150098.179321,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 279300,
+				"vector": [
+					-0.232,
+					-0.973,
+					0.009
+				]
+			},
+			"corona": {
+				"shimmer": 0.525414,
+				"hues": 0.883141,
+				"flare": 0.07466
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Qulaxe",
+				"radius": 11172
+			}
+		}
+	]
+}

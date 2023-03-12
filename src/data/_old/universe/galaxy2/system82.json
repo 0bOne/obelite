@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system82",
+	"position": [
+		209,
+		223
+	],
+	"space": {
+		"blurs": 129,
+		"stars": 8104,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esorra",
+			"name": "Esorra",
+			"seed": "161 223 25 209 45 105",
+			"body": {
+				"radius": 5329,
+				"rotation_v": 0.00133,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 692770
+			},
+			"land": {
+				"color": [
+					0.655851,
+					0.128906,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.932532,
+					0.746105,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.572266,
+					0.470774,
+					0.439706,
+					1
+				],
+				"polar": [
+					0.942773,
+					0.900973,
+					0.888177,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.411031,
+					0.842256,
+					0.798044,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.529297,
+					0.381983,
+					0.0330811,
+					1
+				],
+				"fraction": 0.08,
+				"polar_color": [
+					0.738184,
+					0.609776,
+					0.305654,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 3864,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 3,
+				"description": "The planet Esorra is mildly notable for its inhabitants’ unusual mating traditions.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.587145,
+				0.669645,
+				0.678812,
+				1
+			],
+			"radius": 98667.326202,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 213160,
+				"vector": [
+					0.031,
+					0.969,
+					0.247
+				]
+			},
+			"corona": {
+				"shimmer": 0.37157,
+				"hues": 0.822945,
+				"flare": 0.064037
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esorra",
+				"radius": 10658
+			}
+		}
+	]
+}

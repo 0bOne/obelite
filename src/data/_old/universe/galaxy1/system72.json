@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system72",
+	"position": [
+		104,
+		207
+	],
+	"space": {
+		"blurs": 163,
+		"stars": 9819,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Leorgeri",
+			"name": "Leorgeri",
+			"seed": "84 207 112 104 166 33",
+			"body": {
+				"radius": 3176,
+				"rotation_v": 0.003859,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 381120
+			},
+			"land": {
+				"color": [
+					0.250816,
+					0.49519,
+					0.513672,
+					1
+				],
+				"polar_color": [
+					0.827275,
+					0.9401,
+					0.948633,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.576097,
+					0.666016,
+					0.520325,
+					1
+				],
+				"polar": [
+					0.901894,
+					0.933398,
+					0.882353,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.697958,
+					0.729229,
+					0.978838,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.693581,
+					0.772337,
+					0.939453,
+					1
+				],
+				"fraction": 0.37,
+				"polar_color": [
+					0.771815,
+					0.820163,
+					0.922754,
+					1
+				]
+			},
+			"demographics": {
+				"type": 26,
+				"productivity": 6240,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 6,
+				"description": "The world Leorgeri is a dull place.",
+				"inhabitants": "Large Red Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.841867,
+				0.586658,
+				0.376757,
+				1
+			],
+			"radius": 74590.639648,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 222320,
+				"vector": [
+					-0.668,
+					0.637,
+					-0.385
+				]
+			},
+			"corona": {
+				"shimmer": 0.395653,
+				"hues": 0.610863,
+				"flare": 0.049484
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Leorgeri",
+				"radius": 6352
+			}
+		}
+	]
+}

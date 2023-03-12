@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system74",
+	"position": [
+		30,
+		111
+	],
+	"space": {
+		"blurs": 149,
+		"stars": 6994,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Aridian",
+			"name": "Aridian",
+			"seed": "193 111 249 30 173 143",
+			"body": {
+				"radius": 6686,
+				"rotation_v": 0.000069,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 869180
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.415078,
+					0.478222,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.84735,
+					0.869689,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.779297,
+					0.526634,
+					0.389648,
+					1
+				],
+				"polar": [
+					0.92207,
+					0.847332,
+					0.806812,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.687259,
+					0.863068,
+					0.862881,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.591743,
+					0.591797,
+					0.584862,
+					1
+				],
+				"fraction": 0.48,
+				"polar_color": [
+					0.766265,
+					0.766309,
+					0.760696,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 10296,
+				"techLevel": 6,
+				"economy": 7,
+				"government": 7,
+				"description": "This planet is a dull world.",
+				"inhabitants": "Black Bug-Eyed Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.682269,
+				0.638662,
+				0.573895,
+				1
+			],
+			"radius": 204669.992371,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 200580,
+				"vector": [
+					0.944,
+					0.016,
+					-0.328
+				]
+			},
+			"corona": {
+				"shimmer": 0.683293,
+				"hues": 0.720947,
+				"flare": 0.021671
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Aridian",
+				"radius": 13372
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system72",
+	"position": [
+		23,
+		10
+	],
+	"space": {
+		"blurs": 130,
+		"stars": 6120,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Biusbi",
+			"name": "Biusbi",
+			"seed": "18 10 130 23 154 198",
+			"body": {
+				"radius": 4375,
+				"rotation_v": 0.003219,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 568750
+			},
+			"land": {
+				"color": [
+					0.560138,
+					0.66,
+					0.314531,
+					1
+				],
+				"polar_color": [
+					0.89867,
+					0.934,
+					0.811777,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.561941,
+					0.638672,
+					0.509441,
+					1
+				],
+				"polar": [
+					0.908016,
+					0.936133,
+					0.888778,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.763868,
+					0.472199,
+					0.985992,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.960938,
+					0.033783,
+					0.294545,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.932422,
+					0.370146,
+					0.528286,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 8960,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 0,
+				"description": "This world is a revolting little planet.",
+				"inhabitants": "Fierce Furry Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.680011,
+				0.648072,
+				0.445404,
+				1
+			],
+			"radius": 71995.639801,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 306250,
+				"vector": [
+					0.088,
+					0.864,
+					0.495
+				]
+			},
+			"corona": {
+				"shimmer": 0.451705,
+				"hues": 0.792465,
+				"flare": 0.020761
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Biusbi",
+				"radius": 8750
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system255",
+	"position": [
+		128,
+		144
+	],
+	"space": {
+		"blurs": 42,
+		"stars": 5869,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Cetiisqu",
+			"name": "Cetiisqu",
+			"seed": "118 144 196 128 211 5",
+			"body": {
+				"radius": 4224,
+				"rotation_v": 0.002404,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 633600
+			},
+			"land": {
+				"color": [
+					0.464063,
+					0.66,
+					0.650815,
+					1
+				],
+				"polar_color": [
+					0.86468,
+					0.934,
+					0.930751,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.54351,
+					0.669922,
+					0.532797,
+					1
+				],
+				"polar": [
+					0.888994,
+					0.933008,
+					0.885264,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.579124,
+					0.536365,
+					0.884531,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.42051,
+					0.274292,
+					0.65625,
+					1
+				],
+				"fraction": 0.48,
+				"polar_color": [
+					0.616754,
+					0.506002,
+					0.795313,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 5888,
+				"techLevel": 5,
+				"economy": 2,
+				"government": 0,
+				"description": "The world Cetiisqu is most well known for its vast oceans.",
+				"inhabitants": "Fierce Green Slimy Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.664005,
+				0.463497,
+				0.248062,
+				1
+			],
+			"radius": 104050.546875,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 253440,
+				"vector": [
+					0.654,
+					0.468,
+					-0.594
+				]
+			},
+			"corona": {
+				"shimmer": 0.278041,
+				"hues": 0.858437,
+				"flare": 0.041888
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Cetiisqu",
+				"radius": 8448
+			}
+		}
+	]
+}

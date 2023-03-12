@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system187",
+	"position": [
+		61,
+		124
+	],
+	"space": {
+		"blurs": 81,
+		"stars": 8308,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Bilecedi",
+			"name": "Bilecedi",
+			"seed": "102 124 204 61 243 166",
+			"body": {
+				"radius": 4413,
+				"rotation_v": 0.00153,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 573690
+			},
+			"land": {
+				"color": [
+					0.450286,
+					0.66,
+					0.306797,
+					1
+				],
+				"polar_color": [
+					0.859806,
+					0.934,
+					0.809041,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.631024,
+					0.6875,
+					0.519385,
+					1
+				],
+				"polar": [
+					0.912125,
+					0.93125,
+					0.87432,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.786717,
+					0.751255,
+					0.970383,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.878357,
+					0.842651,
+					0.914062,
+					1
+				],
+				"fraction": 0.15,
+				"polar_color": [
+					0.889079,
+					0.86683,
+					0.911328,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 3200,
+				"techLevel": 3,
+				"economy": 6,
+				"government": 1,
+				"description": "This world is very fabled for its unusual oceans.",
+				"inhabitants": "Fierce Harmless Bug-Eyed Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.770541,
+				0.700222,
+				0.578121,
+				1
+			],
+			"radius": 137067.23053,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 132390,
+				"vector": [
+					-1,
+					0.026,
+					-0.005
+				]
+			},
+			"corona": {
+				"shimmer": 1.390714,
+				"hues": 0.81134,
+				"flare": 0.054329
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Bilecedi",
+				"radius": 8826
+			}
+		}
+	]
+}

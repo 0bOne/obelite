@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system68",
+	"position": [
+		250,
+		235
+	],
+	"space": {
+		"blurs": 139,
+		"stars": 7822,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edriat",
+			"name": "Edriat",
+			"seed": "153 235 49 250 141 56",
+			"body": {
+				"radius": 5114,
+				"rotation_v": 0.003501,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 511400
+			},
+			"land": {
+				"color": [
+					0.623141,
+					0.66,
+					0.582656,
+					1
+				],
+				"polar_color": [
+					0.92096,
+					0.934,
+					0.906637,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0971069,
+					0.671875,
+					0.631462,
+					1
+				],
+				"polar": [
+					0.733315,
+					0.932813,
+					0.918785,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.731487,
+					0.588574,
+					0.885182,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.658203,
+					0.390808,
+					0.534951,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.796191,
+					0.594033,
+					0.703009,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 25760,
+				"techLevel": 9,
+				"economy": 3,
+				"government": 6,
+				"description": "Edriat is mildly well known for its hoopy casinos.",
+				"inhabitants": "Red Bug-Eyed Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.787036,
+				0.787625,
+				0.732948,
+				1
+			],
+			"radius": 103188.309326,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 511400,
+				"vector": [
+					-0.601,
+					-0.789,
+					-0.129
+				]
+			},
+			"corona": {
+				"shimmer": 0.431857,
+				"hues": 0.774963,
+				"flare": 0.004579
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Edriat",
+				"radius": 10228
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system207",
+	"position": [
+		145,
+		234
+	],
+	"space": {
+		"blurs": 104,
+		"stars": 7319,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atdia",
+			"name": "Atdia",
+			"seed": "29 234 113 145 117 241",
+			"body": {
+				"radius": 3217,
+				"rotation_v": 0.003257,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 386040
+			},
+			"land": {
+				"color": [
+					0.513047,
+					0.536008,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.88201,
+					0.890133,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.517578,
+					0.279607,
+					0.0262833,
+					1
+				],
+				"polar": [
+					0.948242,
+					0.839247,
+					0.72322,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.69192,
+					0.855296,
+					0.868922,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.607646,
+					0.609375,
+					0.602234,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.772845,
+					0.774219,
+					0.768548,
+					1
+				]
+			},
+			"demographics": {
+				"type": 45,
+				"productivity": 28800,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 6,
+				"description": "The world Atdia is most famous for the Atdiaian spotted leopard.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.527225,
+				0.66739,
+				0.689816,
+				1
+			],
+			"radius": 102881.069794,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 353870,
+				"vector": [
+					-0.686,
+					0.664,
+					-0.299
+				]
+			},
+			"corona": {
+				"shimmer": 0.426356,
+				"hues": 0.966171,
+				"flare": 0.027811
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atdia",
+				"radius": 6434
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system0",
+	"position": [
+		4,
+		180
+	],
+	"space": {
+		"blurs": 136,
+		"stars": 7882,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ausis",
+			"name": "Ausis",
+			"seed": "148 180 144 4 166 111",
+			"body": {
+				"radius": 6660,
+				"rotation_v": 0.000129,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 732600
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.626484,
+					0.646122,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.922143,
+					0.92909,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.515625,
+					0.432745,
+					0.0543823,
+					1
+				],
+				"polar": [
+					0.948438,
+					0.910325,
+					0.736336,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.630091,
+					0.496728,
+					0.937863,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.764584,
+					0.153076,
+					0.816406,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.832971,
+					0.426915,
+					0.867383,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 6624,
+				"techLevel": 4,
+				"economy": 4,
+				"government": 2,
+				"description": "The world Ausis is scourged by deadly tree ants.",
+				"inhabitants": "Blue Slimy Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.666535,
+				0.705181,
+				0.760623,
+				1
+			],
+			"radius": 215050.643921,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 399600,
+				"vector": [
+					0.257,
+					-0.899,
+					0.356
+				]
+			},
+			"corona": {
+				"shimmer": 0.334986,
+				"hues": 0.613647,
+				"flare": 0.084846
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ausis",
+				"radius": 13320
+			}
+		}
+	]
+}

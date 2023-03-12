@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system217",
+	"position": [
+		195,
+		237
+	],
+	"space": {
+		"blurs": 120,
+		"stars": 5684,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Qumaus",
+			"name": "Qumaus",
+			"seed": "47 237 202 195 27 122",
+			"body": {
+				"radius": 5571,
+				"rotation_v": 0.00114,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 668520
+			},
+			"land": {
+				"color": [
+					0.386719,
+					0.66,
+					0.403799,
+					1
+				],
+				"polar_color": [
+					0.837316,
+					0.934,
+					0.843359,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.605469,
+					0.497524,
+					0.455284,
+					1
+				],
+				"polar": [
+					0.939453,
+					0.897581,
+					0.881196,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.57822,
+					0.531419,
+					0.889734,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.42878,
+					0.262451,
+					0.671875,
+					1
+				],
+				"fraction": 0.26,
+				"polar_color": [
+					0.620906,
+					0.496764,
+					0.802344,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 3000,
+				"techLevel": 4,
+				"economy": 7,
+				"government": 1,
+				"description": "The planet Qumaus is mildly notable for its inhabitants’ ingrained silliness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.229726,
+				0.442481,
+				0.830548,
+				1
+			],
+			"radius": 160228.304901,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 278550,
+				"vector": [
+					-0.392,
+					0.916,
+					-0.091
+				]
+			},
+			"corona": {
+				"shimmer": 0.49488,
+				"hues": 0.594933,
+				"flare": 0.094064
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Qumaus",
+				"radius": 11142
+			}
+		}
+	]
+}

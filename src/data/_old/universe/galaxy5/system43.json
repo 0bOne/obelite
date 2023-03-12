@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system43",
+	"position": [
+		83,
+		130
+	],
+	"space": {
+		"blurs": 183,
+		"stars": 6092,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tiinve",
+			"name": "Tiinve",
+			"seed": "7 130 1 83 40 247",
+			"body": {
+				"radius": 4691,
+				"rotation_v": 0.004852,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 562920
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.219141,
+					0.353465,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.778029,
+					0.825552,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.590783,
+					0.619141,
+					0.489508,
+					1
+				],
+				"polar": [
+					0.927345,
+					0.938086,
+					0.888983,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.577434,
+					0.950221,
+					0.91782,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.853516,
+					0.730156,
+					0.360077,
+					1
+				],
+				"fraction": 0.13,
+				"polar_color": [
+					0.884082,
+					0.804221,
+					0.564638,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 8960,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 0,
+				"description": "The planet Tiinve is well known for its inhabitants’ weird silliness but cursed by dreadful civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.57355,
+				0.695298,
+				0.785132,
+				1
+			],
+			"radius": 122324.897003,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 187640,
+				"vector": [
+					-0.125,
+					0.533,
+					-0.837
+				]
+			},
+			"corona": {
+				"shimmer": 0.379268,
+				"hues": 0.879166,
+				"flare": 0.025885
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tiinve",
+				"radius": 9382
+			}
+		}
+	]
+}

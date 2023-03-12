@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system233",
+	"position": [
+		73,
+		23
+	],
+	"space": {
+		"blurs": 48,
+		"stars": 5756,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Lativege",
+			"name": "Lativege",
+			"seed": "222 23 202 73 128 85",
+			"body": {
+				"radius": 4169,
+				"rotation_v": 0.00294,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 500280
+			},
+			"land": {
+				"color": [
+					0.30542,
+					0.336969,
+					0.542969,
+					1
+				],
+				"polar_color": [
+					0.842267,
+					0.856004,
+					0.945703,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.802734,
+					0.530322,
+					0.366875,
+					1
+				],
+				"polar": [
+					0.919727,
+					0.841698,
+					0.794881,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.481907,
+					0.686979,
+					0.845508,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.166351,
+					0.539062,
+					0.285735,
+					1
+				],
+				"fraction": 0.13,
+				"polar_color": [
+					0.421689,
+					0.742578,
+					0.524474,
+					1
+				]
+			},
+			"demographics": {
+				"type": 17,
+				"productivity": 2040,
+				"techLevel": 2,
+				"economy": 7,
+				"government": 1,
+				"description": "This planet is a dull place.",
+				"inhabitants": "Yellow Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.564356,
+				0.665147,
+				0.679208,
+				1
+			],
+			"radius": 126811.748352,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 375210,
+				"vector": [
+					0.236,
+					0.97,
+					-0.065
+				]
+			},
+			"corona": {
+				"shimmer": 1.329115,
+				"hues": 0.870476,
+				"flare": 0.067477
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Lativege",
+				"radius": 8338
+			}
+		}
+	]
+}

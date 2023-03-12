@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system47",
+	"position": [
+		113,
+		58
+	],
+	"space": {
+		"blurs": 114,
+		"stars": 5023,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Gerege",
+			"name": "Gerege",
+			"seed": "56 58 44 113 125 35",
+			"body": {
+				"radius": 3697,
+				"rotation_v": 0.0014,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 406670
+			},
+			"land": {
+				"color": [
+					0.599052,
+					0.66,
+					0.430547,
+					1
+				],
+				"polar_color": [
+					0.912437,
+					0.934,
+					0.852822,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.548828,
+					0.415909,
+					0.531175,
+					1
+				],
+				"polar": [
+					0.945117,
+					0.887893,
+					0.937517,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.534951,
+					0.60677,
+					0.839004,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.265854,
+					0.442239,
+					0.519531,
+					1
+				],
+				"fraction": 0.45,
+				"polar_color": [
+					0.509854,
+					0.665559,
+					0.733789,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 25344,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 5,
+				"description": "The world Gerege is reasonably famous for the Geregeian spotted wolf.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.696667,
+				0.529587,
+				0.356591,
+				1
+			],
+			"radius": 107939.921722,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 369700,
+				"vector": [
+					0.907,
+					-0.038,
+					-0.419
+				]
+			},
+			"corona": {
+				"shimmer": 0.491842,
+				"hues": 0.757866,
+				"flare": 0.088503
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Gerege",
+				"radius": 7394
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system167",
+	"position": [
+		239,
+		100
+	],
+	"space": {
+		"blurs": 102,
+		"stars": 9440,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Cequaa",
+			"name": "Cequaa",
+			"seed": "125 100 209 239 181 69",
+			"body": {
+				"radius": 4335,
+				"rotation_v": 0.004442,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 390150
+			},
+			"land": {
+				"color": [
+					0.451172,
+					0.61595,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.860119,
+					0.918416,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.599567,
+					0.603516,
+					0.477155,
+					1
+				],
+				"polar": [
+					0.938111,
+					0.939648,
+					0.890464,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.545955,
+					0.583815,
+					0.844207,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.288483,
+					0.379058,
+					0.535156,
+					1
+				],
+				"fraction": 0.53,
+				"polar_color": [
+					0.5274,
+					0.605766,
+					0.74082,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 10080,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 2,
+				"description": "The planet Cequaa is mildly well known for its exotic night life.",
+				"inhabitants": "Fierce Yellow Bony Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.823184,
+				0.770128,
+				0.646341,
+				1
+			],
+			"radius": 125319.838715,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 303450,
+				"vector": [
+					-0.022,
+					-0.803,
+					0.595
+				]
+			},
+			"corona": {
+				"shimmer": 0.290419,
+				"hues": 0.78611,
+				"flare": 0.076042
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Cequaa",
+				"radius": 8670
+			}
+		}
+	]
+}

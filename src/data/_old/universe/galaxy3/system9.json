@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system9",
+	"position": [
+		75,
+		52
+	],
+	"space": {
+		"blurs": 161,
+		"stars": 5682,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tiveorso",
+			"name": "Tiveorso",
+			"seed": "74 52 18 75 138 215",
+			"body": {
+				"radius": 4683,
+				"rotation_v": 0.001985,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 421470
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.66,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.934,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.159912,
+					0.511719,
+					0.165409,
+					1
+				],
+				"polar": [
+					0.785748,
+					0.948828,
+					0.788296,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.677678,
+					0.586861,
+					0.86567,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.597889,
+					0.37944,
+					0.599609,
+					1
+				],
+				"fraction": 0.53,
+				"polar_color": [
+					0.768444,
+					0.593156,
+					0.769824,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 10080,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 2,
+				"description": "Tiveorso is ravaged by unpredictable solar activity.",
+				"inhabitants": "Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.747922,
+				0.769199,
+				0.800546,
+				1
+			],
+			"radius": 118860.70816,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 515130,
+				"vector": [
+					0.89,
+					0.194,
+					0.412
+				]
+			},
+			"corona": {
+				"shimmer": 0.290845,
+				"hues": 0.900276,
+				"flare": 0.00192
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tiveorso",
+				"radius": 9366
+			}
+		}
+	]
+}

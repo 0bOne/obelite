@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system42",
+	"position": [
+		186,
+		16
+	],
+	"space": {
+		"blurs": 143,
+		"stars": 8074,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orzaedve",
+			"name": "Orzaedve",
+			"seed": "65 16 121 186 173 185",
+			"body": {
+				"radius": 5306,
+				"rotation_v": 0.000113,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 689780
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.0979688,
+					0.20335,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.73516,
+					0.772443,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.595703,
+					0.546573,
+					0.461903,
+					1
+				],
+				"polar": [
+					0.94043,
+					0.92104,
+					0.887622,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.420867,
+					0.826772,
+					0.853312,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.46122,
+					0.5625,
+					0.0439453,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.668373,
+					0.753125,
+					0.319196,
+					1
+				]
+			},
+			"demographics": {
+				"type": 60,
+				"productivity": 52800,
+				"techLevel": 13,
+				"economy": 0,
+				"government": 7,
+				"description": "The world Orzaedve is reasonably noted for its inhabitants’ exceptional loathing of food blenders.",
+				"inhabitants": "Harmless Horned Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.646197,
+				0.737364,
+				0.769849,
+				1
+			],
+			"radius": 129039.853821,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 530600,
+				"vector": [
+					-0.747,
+					-0.245,
+					-0.619
+				]
+			},
+			"corona": {
+				"shimmer": 0.404224,
+				"hues": 0.627998,
+				"flare": 0.059846
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Orzaedve",
+				"radius": 10612
+			}
+		}
+	]
+}

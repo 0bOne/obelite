@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system210",
+	"position": [
+		82,
+		211
+	],
+	"space": {
+		"blurs": 121,
+		"stars": 9509,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Beedriar",
+			"name": "Beedriar",
+			"seed": "66 211 50 82 90 147",
+			"body": {
+				"radius": 3666,
+				"rotation_v": 0.002579,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 403260
+			},
+			"land": {
+				"color": [
+					0.0257813,
+					0.526219,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.709621,
+					0.88667,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.617928,
+					0.628906,
+					0.488385,
+					1
+				],
+				"polar": [
+					0.93302,
+					0.937109,
+					0.884763,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.573807,
+					0.888863,
+					0.993146,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.485125,
+					0.982422,
+					0.326195,
+					1
+				],
+				"fraction": 0.5,
+				"polar_color": [
+					0.644039,
+					0.94209,
+					0.548786,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 25760,
+				"techLevel": 9,
+				"economy": 3,
+				"government": 6,
+				"description": "This world is very notable for its inhabitants’ ingrained silliness and its weird rock formations.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.400453,
+				0.662238,
+				0.69328,
+				1
+			],
+			"radius": 126794.620056,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 329940,
+				"vector": [
+					0.023,
+					-0.14,
+					-0.99
+				]
+			},
+			"corona": {
+				"shimmer": 0.282334,
+				"hues": 0.580925,
+				"flare": 0.061989
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Beedriar",
+				"radius": 7332
+			}
+		}
+	]
+}

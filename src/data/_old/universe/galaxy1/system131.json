@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system131",
+	"position": [
+		233,
+		243
+	],
+	"space": {
+		"blurs": 122,
+		"stars": 9595,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Sogebe",
+			"name": "Sogebe",
+			"seed": "48 243 40 233 26 39",
+			"body": {
+				"radius": 4841,
+				"rotation_v": 0.004662,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 677740
+			},
+			"land": {
+				"color": [
+					0.566406,
+					0.565853,
+					0.564194,
+					1
+				],
+				"polar_color": [
+					0.943359,
+					0.943129,
+					0.942438,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.707031,
+					0.676824,
+					0.513702,
+					1
+				],
+				"polar": [
+					0.929297,
+					0.919371,
+					0.865771,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.65235,
+					0.88605,
+					0.909896,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.679493,
+					0.732422,
+					0.549316,
+					1
+				],
+				"fraction": 0.48,
+				"polar_color": [
+					0.792121,
+					0.82959,
+					0.699966,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 20664,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 5,
+				"description": "Sogebe is an unremarkable planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.481672,
+				0.513204,
+				0.712442,
+				1
+			],
+			"radius": 147452.682037,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 290460,
+				"vector": [
+					0.308,
+					0.861,
+					-0.405
+				]
+			},
+			"corona": {
+				"shimmer": 0.385329,
+				"hues": 0.933395,
+				"flare": 0.028166
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Sogebe",
+				"radius": 9682
+			}
+		}
+	]
+}

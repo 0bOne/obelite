@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system164",
+	"position": [
+		245,
+		125
+	],
+	"space": {
+		"blurs": 177,
+		"stars": 9926,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Becedibi",
+			"name": "Becedibi",
+			"seed": "114 125 2 245 52 83",
+			"body": {
+				"radius": 3829,
+				"rotation_v": 0.001247,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 497770
+			},
+			"land": {
+				"color": [
+					0.636152,
+					0.66,
+					0.469219,
+					1
+				],
+				"polar_color": [
+					0.925563,
+					0.934,
+					0.866504,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.467852,
+					0.38269,
+					0.515625,
+					1
+				],
+				"polar": [
+					0.926469,
+					0.887308,
+					0.948438,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.454429,
+					0.701634,
+					0.864369,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.104713,
+					0.595703,
+					0.204446,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.372407,
+					0.768066,
+					0.452775,
+					1
+				]
+			},
+			"demographics": {
+				"type": 12,
+				"productivity": 1152,
+				"techLevel": 1,
+				"economy": 7,
+				"government": 0,
+				"description": "The planet Becedibi is most famous for the Becedibiian deadly lobstoid and its pink Inet plant plantations.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.721967,
+				0.567052,
+				0.486749,
+				1
+			],
+			"radius": 123148.9505,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 268030,
+				"vector": [
+					0.667,
+					0.564,
+					0.487
+				]
+			},
+			"corona": {
+				"shimmer": 0.355803,
+				"hues": 0.74585,
+				"flare": 0.026086
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Becedibi",
+				"radius": 7658
+			}
+		}
+	]
+}

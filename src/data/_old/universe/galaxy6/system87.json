@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system87",
+	"position": [
+		247,
+		16
+	],
+	"space": {
+		"blurs": 129,
+		"stars": 6845,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Inlaoran",
+			"name": "Inlaoran",
+			"seed": "206 16 114 247 208 44",
+			"body": {
+				"radius": 6135,
+				"rotation_v": 0.003886,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 736200
+			},
+			"land": {
+				"color": [
+					0.210571,
+					0.515556,
+					0.585938,
+					1
+				],
+				"polar_color": [
+					0.790634,
+					0.913136,
+					0.941406,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.598869,
+					0.625,
+					0.491211,
+					1
+				],
+				"polar": [
+					0.927701,
+					0.9375,
+					0.887329,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.769003,
+					0.734769,
+					0.98209,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.864633,
+					0.800903,
+					0.949219,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.875511,
+					0.836607,
+					0.927148,
+					1
+				]
+			},
+			"demographics": {
+				"type": 59,
+				"productivity": 47200,
+				"techLevel": 13,
+				"economy": 0,
+				"government": 6,
+				"description": "Inlaoran is mildly notable for Inlaoranian evil juice.",
+				"inhabitants": "Red Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.780234,
+				0.343881,
+				0.300984,
+				1
+			],
+			"radius": 187461.245728,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 613500,
+				"vector": [
+					-0.827,
+					-0.531,
+					-0.183
+				]
+			},
+			"corona": {
+				"shimmer": 1.767994,
+				"hues": 0.845306,
+				"flare": 0.01942
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "icosahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Inlaoran",
+				"radius": 12270
+			}
+		}
+	]
+}

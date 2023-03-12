@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system41",
+	"position": [
+		211,
+		180
+	],
+	"space": {
+		"blurs": 86,
+		"stars": 7999,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Beanxeat",
+			"name": "Beanxeat",
+			"seed": "239 180 101 211 64 179",
+			"body": {
+				"radius": 3795,
+				"rotation_v": 0.001559,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 417450
+			},
+			"land": {
+				"color": [
+					0.285301,
+					0.373203,
+					0.541016,
+					1
+				],
+				"polar_color": [
+					0.834127,
+					0.872549,
+					0.945898,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.701172,
+					0.658354,
+					0.512184,
+					1
+				],
+				"polar": [
+					0.929883,
+					0.915687,
+					0.867225,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.602909,
+					0.902923,
+					0.961277,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.65638,
+					0.886719,
+					0.426041,
+					1
+				],
+				"fraction": 0.34,
+				"polar_color": [
+					0.753064,
+					0.899023,
+					0.607104,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 15744,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 4,
+				"description": "The world Beanxeat is notable for its unusual oceans and the Beanxeatian evil poet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.721698,
+				0.565223,
+				0.357666,
+				1
+			],
+			"radius": 78273.033142,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 227700,
+				"vector": [
+					-0.571,
+					0.658,
+					0.49
+				]
+			},
+			"corona": {
+				"shimmer": 0.700321,
+				"hues": 0.835587,
+				"flare": 0.093341
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Beanxeat",
+				"radius": 7590
+			}
+		}
+	]
+}

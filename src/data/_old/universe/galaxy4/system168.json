@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system168",
+	"position": [
+		11,
+		4
+	],
+	"space": {
+		"blurs": 100,
+		"stars": 6434,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Leatrien",
+			"name": "Leatrien",
+			"seed": "228 4 20 11 213 225",
+			"body": {
+				"radius": 3083,
+				"rotation_v": 0.000847,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 339130
+			},
+			"land": {
+				"color": [
+					0.609666,
+					0.528516,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.916193,
+					0.887482,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.628906,
+					0.481391,
+					0.474136,
+					1
+				],
+				"polar": [
+					0.937109,
+					0.882158,
+					0.879455,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.737248,
+					0.735951,
+					0.961928,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.797874,
+					0.794945,
+					0.888672,
+					1
+				],
+				"fraction": 0.1,
+				"polar_color": [
+					0.842436,
+					0.840583,
+					0.899902,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 10080,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 2,
+				"description": "This world is a revolting dump.",
+				"inhabitants": "Large Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.215055,
+				0.525549,
+				0.652124,
+				1
+			],
+			"radius": 67450.033569,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 369960,
+				"vector": [
+					-0.22,
+					-0.975,
+					0.004
+				]
+			},
+			"corona": {
+				"shimmer": 1.463837,
+				"hues": 0.731133,
+				"flare": 0.057109
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Leatrien",
+				"radius": 6166
+			}
+		}
+	]
+}

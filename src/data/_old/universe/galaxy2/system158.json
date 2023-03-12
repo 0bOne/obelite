@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system158",
+	"position": [
+		82,
+		138
+	],
+	"space": {
+		"blurs": 166,
+		"stars": 9474,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Erinain",
+			"name": "Erinain",
+			"seed": "113 138 9 82 109 176",
+			"body": {
+				"radius": 2898,
+				"rotation_v": 0.003218,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 318780
+			},
+			"land": {
+				"color": [
+					0.1427,
+					0.580675,
+					0.652344,
+					1
+				],
+				"polar_color": [
+					0.752194,
+					0.909092,
+					0.934766,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.572639,
+					0.744141,
+					0.623554,
+					1
+				],
+				"polar": [
+					0.872256,
+					0.925586,
+					0.888089,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.655167,
+					0.886482,
+					0.871793,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.662109,
+					0.640267,
+					0.54055,
+					1
+				],
+				"fraction": 0.47,
+				"polar_color": [
+					0.797949,
+					0.781497,
+					0.706388,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 11520,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 1,
+				"description": "Erinain is mildly famous for its vast rain forests and its great dense forests.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.686264,
+				0.671588,
+				0.456827,
+				1
+			],
+			"radius": 70749.299927,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 202860,
+				"vector": [
+					0.613,
+					0.042,
+					-0.789
+				]
+			},
+			"corona": {
+				"shimmer": 0.237166,
+				"hues": 0.78511,
+				"flare": 0.043698
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Erinain",
+				"radius": 5796
+			}
+		}
+	]
+}

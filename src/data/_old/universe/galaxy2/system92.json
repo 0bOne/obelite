@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system92",
+	"position": [
+		115,
+		130
+	],
+	"space": {
+		"blurs": 109,
+		"stars": 5119,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Regeza",
+			"name": "Regeza",
+			"seed": "57 130 17 115 13 238",
+			"body": {
+				"radius": 6515,
+				"rotation_v": 0.002313,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 781800
+			},
+			"land": {
+				"color": [
+					0.539062,
+					0.492737,
+					0.495994,
+					1
+				],
+				"polar_color": [
+					0.946094,
+					0.925767,
+					0.927197,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.705672,
+					0.707031,
+					0.533035,
+					1
+				],
+				"polar": [
+					0.92885,
+					0.929297,
+					0.872123,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.631778,
+					0.909246,
+					0.895957,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.730469,
+					0.699772,
+					0.499344,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.828711,
+					0.806946,
+					0.66483,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 15744,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 2,
+				"description": "The planet Regeza is a boring planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.653452,
+				0.64821,
+				0.619082,
+				1
+			],
+			"radius": 136495.294189,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 716650,
+				"vector": [
+					-0.647,
+					-0.629,
+					-0.43
+				]
+			},
+			"corona": {
+				"shimmer": 0.480906,
+				"hues": 0.747063,
+				"flare": 0.051245
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Regeza",
+				"radius": 13030
+			}
+		}
+	]
+}

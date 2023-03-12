@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system200",
+	"position": [
+		114,
+		31
+	],
+	"space": {
+		"blurs": 157,
+		"stars": 8184,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Inriisus",
+			"name": "Inriisus",
+			"seed": "228 31 84 114 85 236",
+			"body": {
+				"radius": 6002,
+				"rotation_v": 0.003367,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 660220
+			},
+			"land": {
+				"color": [
+					0.580078,
+					0.658127,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.905725,
+					0.933337,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.152046,
+					0.533203,
+					0.193735,
+					1
+				],
+				"polar": [
+					0.777498,
+					0.94668,
+					0.796002,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.610214,
+					0.560389,
+					0.868271,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.466244,
+					0.325066,
+					0.607422,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.661002,
+					0.548663,
+					0.77334,
+					1
+				]
+			},
+			"demographics": {
+				"type": 22,
+				"productivity": 3168,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 2,
+				"description": "The planet Inriisus is an unremarkable planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.75777,
+				0.632452,
+				0.576343,
+				1
+			],
+			"radius": 111975.178833,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 480160,
+				"vector": [
+					-0.261,
+					-0.309,
+					0.914
+				]
+			},
+			"corona": {
+				"shimmer": 0.694635,
+				"hues": 0.90757,
+				"flare": 0.054033
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Inriisus",
+				"radius": 12004
+			}
+		}
+	]
+}

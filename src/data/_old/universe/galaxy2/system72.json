@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system72",
+	"position": [
+		99,
+		37
+	],
+	"space": {
+		"blurs": 103,
+		"stars": 6631,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Enanen",
+			"name": "Enanen",
+			"seed": "9 37 193 99 205 210",
+			"body": {
+				"radius": 3427,
+				"rotation_v": 0.001674,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 411240
+			},
+			"land": {
+				"color": [
+					0.464063,
+					0.494678,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.86468,
+					0.875511,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.685547,
+					0.518595,
+					0.460602,
+					1
+				],
+				"polar": [
+					0.931445,
+					0.874737,
+					0.855038,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.713535,
+					0.608812,
+					0.858516,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.578125,
+					0.420044,
+					0.5349,
+					1
+				],
+				"fraction": 0.4,
+				"polar_color": [
+					0.760156,
+					0.630247,
+					0.724634,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 1920,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 0,
+				"description": "The planet Enanen is well known for the Enanenian tree grub but ravaged by occasional solar activity.",
+				"inhabitants": "Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.566801,
+				0.649125,
+				0.764551,
+				1
+			],
+			"radius": 66374.07074,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 342700,
+				"vector": [
+					0.104,
+					-0.734,
+					-0.671
+				]
+			},
+			"corona": {
+				"shimmer": 0.321419,
+				"hues": 0.584572,
+				"flare": 0.016985
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Enanen",
+				"radius": 6854
+			}
+		}
+	]
+}

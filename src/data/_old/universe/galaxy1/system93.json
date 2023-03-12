@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system93",
+	"position": [
+		254,
+		155
+	],
+	"space": {
+		"blurs": 166,
+		"stars": 9850,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Macea",
+			"name": "Macea",
+			"seed": "128 155 32 254 218 139",
+			"body": {
+				"radius": 5886,
+				"rotation_v": 0.001899,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 706320
+			},
+			"land": {
+				"color": [
+					0.53625,
+					0.66,
+					0.575889,
+					1
+				],
+				"polar_color": [
+					0.890219,
+					0.934,
+					0.904242,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.478907,
+					0.365295,
+					0.556641,
+					1
+				],
+				"polar": [
+					0.911367,
+					0.863182,
+					0.944336,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.529444,
+					0.98274,
+					0.936266,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.951172,
+					0.72946,
+					0.204353,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.928027,
+					0.792829,
+					0.472623,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 17920,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 4,
+				"description": "The world Macea is beset by dreadful earthquakes.",
+				"inhabitants": "Small Black Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.460826,
+				0.542223,
+				0.661139,
+				1
+			],
+			"radius": 131809.899902,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 294300,
+				"vector": [
+					-0.143,
+					-0.681,
+					0.719
+				]
+			},
+			"corona": {
+				"shimmer": 0.372575,
+				"hues": 0.789642,
+				"flare": 0.049814
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Macea",
+				"radius": 11772
+			}
+		}
+	]
+}

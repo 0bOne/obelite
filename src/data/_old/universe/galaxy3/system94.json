@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system94",
+	"position": [
+		70,
+		206
+	],
+	"space": {
+		"blurs": 89,
+		"stars": 9994,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esrireti",
+			"name": "Esrireti",
+			"seed": "226 206 18 70 218 9",
+			"body": {
+				"radius": 5190,
+				"rotation_v": 0.001265,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 622800
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.54906,
+					0.451172,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.894751,
+					0.860119,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.76201,
+					0.700186,
+					0.914062,
+					1
+				],
+				"polar": [
+					0.870808,
+					0.855445,
+					0.908594,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.704721,
+					0.549763,
+					0.912498,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.740234,
+					0.30072,
+					0.609754,
+					1
+				],
+				"fraction": 0.25,
+				"polar_color": [
+					0.833105,
+					0.523945,
+					0.741324,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 4800,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 2,
+				"description": "The planet Esrireti is scourged by deadly disease.",
+				"inhabitants": "Small Green Slimy Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.743768,
+				0.680045,
+				0.252802,
+				1
+			],
+			"radius": 139710.118103,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 415200,
+				"vector": [
+					0.705,
+					0.524,
+					0.477
+				]
+			},
+			"corona": {
+				"shimmer": 0.331616,
+				"hues": 0.996002,
+				"flare": 0.085162
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esrireti",
+				"radius": 10380
+			}
+		}
+	]
+}

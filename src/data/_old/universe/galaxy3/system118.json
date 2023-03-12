@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system118",
+	"position": [
+		28,
+		198
+	],
+	"space": {
+		"blurs": 178,
+		"stars": 9511,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Enlace",
+			"name": "Enlace",
+			"seed": "34 198 210 28 218 178",
+			"body": {
+				"radius": 3356,
+				"rotation_v": 0.003836,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 369160
+			},
+			"land": {
+				"color": [
+					0.128181,
+					0.619141,
+					0.458045,
+					1
+				],
+				"polar_color": [
+					0.752118,
+					0.938086,
+					0.877065,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.658203,
+					0.514161,
+					0.475655,
+					1
+				],
+				"polar": [
+					0.93418,
+					0.88307,
+					0.869407,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.768242,
+					0.556816,
+					0.924205,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.775391,
+					0.315002,
+					0.433696,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.848926,
+					0.533895,
+					0.615114,
+					1
+				]
+			},
+			"demographics": {
+				"type": 17,
+				"productivity": 3264,
+				"techLevel": 2,
+				"economy": 6,
+				"government": 2,
+				"description": "This world is a tedious little planet.",
+				"inhabitants": "Harmless Horned Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.821121,
+				0.690751,
+				0.596872,
+				1
+			],
+			"radius": 61900.317993,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 268480,
+				"vector": [
+					0.288,
+					0.878,
+					0.382
+				]
+			},
+			"corona": {
+				"shimmer": 0.520226,
+				"hues": 0.971413,
+				"flare": 0.000806
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Enlace",
+				"radius": 6712
+			}
+		}
+	]
+}

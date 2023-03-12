@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system171",
+	"position": [
+		249,
+		7
+	],
+	"space": {
+		"blurs": 106,
+		"stars": 7511,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ririla",
+			"name": "Ririla",
+			"seed": "26 7 66 249 42 158",
+			"body": {
+				"radius": 6649,
+				"rotation_v": 0.00261,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 598410
+			},
+			"land": {
+				"color": [
+					0.170563,
+					0.539062,
+					0.305871,
+					1
+				],
+				"polar_color": [
+					0.784408,
+					0.946094,
+					0.843777,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.588574,
+					0.75,
+					0.697032,
+					1
+				],
+				"polar": [
+					0.875227,
+					0.925,
+					0.908668,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.703953,
+					0.498232,
+					0.954773,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.867188,
+					0.142273,
+					0.601008,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.890234,
+					0.425122,
+					0.719451,
+					1
+				]
+			},
+			"demographics": {
+				"type": 12,
+				"productivity": 1152,
+				"techLevel": 1,
+				"economy": 7,
+				"government": 0,
+				"description": "The world Ririla is beset by deadly earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.795874,
+				0.683059,
+				0.655218,
+				1
+			],
+			"radius": 118658.515015,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 864370,
+				"vector": [
+					0.324,
+					-0.831,
+					0.453
+				]
+			},
+			"corona": {
+				"shimmer": 0.538328,
+				"hues": 0.887962,
+				"flare": 0.050215
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ririla",
+				"radius": 13298
+			}
+		}
+	]
+}

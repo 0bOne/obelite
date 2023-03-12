@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system16",
+	"position": [
+		4,
+		40
+	],
+	"space": {
+		"blurs": 57,
+		"stars": 7143,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Isarin",
+			"name": "Isarin",
+			"seed": "20 40 80 4 166 125",
+			"body": {
+				"radius": 6148,
+				"rotation_v": 0.002636,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 676280
+			},
+			"land": {
+				"color": [
+					0.521265,
+					0.0257813,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.884917,
+					0.709621,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.564453,
+					0.483959,
+					0.440318,
+					1
+				],
+				"polar": [
+					0.943555,
+					0.909916,
+					0.891678,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.871355,
+					0.771462,
+					0.993146,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.982422,
+					0.913345,
+					0.957058,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.94209,
+					0.900689,
+					0.926888,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 16800,
+				"techLevel": 8,
+				"economy": 0,
+				"government": 2,
+				"description": "The world Isarin is beset by lethal disease.",
+				"inhabitants": "Blue Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.816269,
+				0.724945,
+				0.21197,
+				1
+			],
+			"radius": 151775.935669,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 491840,
+				"vector": [
+					0.11,
+					-0.385,
+					0.916
+				]
+			},
+			"corona": {
+				"shimmer": 0.550399,
+				"hues": 0.785652,
+				"flare": 0.017487
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Isarin",
+				"radius": 12296
+			}
+		}
+	]
+}

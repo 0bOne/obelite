@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system247",
+	"position": [
+		244,
+		169
+	],
+	"space": {
+		"blurs": 151,
+		"stars": 9907,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edtizabe",
+			"name": "Edtizabe",
+			"seed": "203 169 214 244 111 152",
+			"body": {
+				"radius": 5108,
+				"rotation_v": 0.001473,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 664040
+			},
+			"land": {
+				"color": [
+					0.646827,
+					0.644531,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.92934,
+					0.928527,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.783203,
+					0.590557,
+					0.403839,
+					1
+				],
+				"polar": [
+					0.92168,
+					0.865003,
+					0.81007,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.682193,
+					0.794157,
+					0.951522,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.643066,
+					0.857422,
+					0.807182,
+					1
+				],
+				"fraction": 0.47,
+				"polar_color": [
+					0.747427,
+					0.88584,
+					0.853399,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 13824,
+				"techLevel": 7,
+				"economy": 1,
+				"government": 2,
+				"description": "The world Edtizabe is beset by lethal disease.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.74577,
+				0.632621,
+				0.574958,
+				1
+			],
+			"radius": 160971.835938,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 204320,
+				"vector": [
+					-0.939,
+					-0.061,
+					0.338
+				]
+			},
+			"corona": {
+				"shimmer": 0.379738,
+				"hues": 0.955963,
+				"flare": 0.069016
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Edtizabe",
+				"radius": 10216
+			}
+		}
+	]
+}

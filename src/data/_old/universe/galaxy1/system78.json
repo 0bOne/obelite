@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system78",
+	"position": [
+		140,
+		88
+	],
+	"space": {
+		"blurs": 86,
+		"stars": 6819,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Erlaened",
+			"name": "Erlaened",
+			"seed": "244 88 8 140 182 16",
+			"body": {
+				"radius": 2956,
+				"rotation_v": 0.001669,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 325160
+			},
+			"land": {
+				"color": [
+					0.638672,
+					0.411644,
+					0.518063,
+					1
+				],
+				"polar_color": [
+					0.936133,
+					0.852941,
+					0.891937,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.763672,
+					0.694734,
+					0.459396,
+					1
+				],
+				"polar": [
+					0.923633,
+					0.902788,
+					0.83163,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.580441,
+					0.521995,
+					0.901441,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.461271,
+					0.237518,
+					0.707031,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.64042,
+					0.478594,
+					0.818164,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 8960,
+				"techLevel": 6,
+				"economy": 2,
+				"government": 1,
+				"description": "This planet is reasonably noted for mud tennis.",
+				"inhabitants": "Green Fat Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.825021,
+				0.593812,
+				0.51443,
+				1
+			],
+			"radius": 58961.230469,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 295600,
+				"vector": [
+					-0.676,
+					0.433,
+					-0.597
+				]
+			},
+			"corona": {
+				"shimmer": 1.010018,
+				"hues": 0.519127,
+				"flare": 0.011497
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Erlaened",
+				"radius": 5912
+			}
+		}
+	]
+}

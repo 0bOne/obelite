@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system232",
+	"position": [
+		117,
+		248
+	],
+	"space": {
+		"blurs": 124,
+		"stars": 9523,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Biraa",
+			"name": "Biraa",
+			"seed": "181 248 52 117 89 70",
+			"body": {
+				"radius": 4469,
+				"rotation_v": 0.002511,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 536280
+			},
+			"land": {
+				"color": [
+					0.583462,
+					0.66,
+					0.268125,
+					1
+				],
+				"polar_color": [
+					0.906922,
+					0.934,
+					0.795359,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.569806,
+					0.720703,
+					0.635823,
+					1
+				],
+				"polar": [
+					0.879358,
+					0.92793,
+					0.900608,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.646378,
+					0.871523,
+					0.820325,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.617188,
+					0.544296,
+					0.508698,
+					1
+				],
+				"fraction": 0.4,
+				"polar_color": [
+					0.777734,
+					0.720326,
+					0.69229,
+					1
+				]
+			},
+			"demographics": {
+				"type": 51,
+				"productivity": 40800,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 6,
+				"description": "This planet is fabled for its ancient Biraaian Geer banana plantations.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.666649,
+				0.668311,
+				0.499262,
+				1
+			],
+			"radius": 105483.429413,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 491590,
+				"vector": [
+					-0.254,
+					-0.51,
+					-0.822
+				]
+			},
+			"corona": {
+				"shimmer": 0.291484,
+				"hues": 0.981544,
+				"flare": 0.097346
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Biraa",
+				"radius": 8938
+			}
+		}
+	]
+}

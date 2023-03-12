@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system92",
+	"position": [
+		207,
+		55
+	],
+	"space": {
+		"blurs": 105,
+		"stars": 7497,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orus",
+			"name": "Orus",
+			"seed": "189 55 60 207 49 185",
+			"body": {
+				"radius": 5327,
+				"rotation_v": 0.003201,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 585970
+			},
+			"land": {
+				"color": [
+					0.22194,
+					0.0438281,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.77902,
+					0.716006,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.617188,
+					0.490682,
+					0.456863,
+					1
+				],
+				"polar": [
+					0.938281,
+					0.890201,
+					0.877348,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.653659,
+					0.876727,
+					0.846892,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.632812,
+					0.592257,
+					0.528992,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.784766,
+					0.753332,
+					0.704296,
+					1
+				]
+			},
+			"demographics": {
+				"type": 43,
+				"productivity": 11352,
+				"techLevel": 7,
+				"economy": 7,
+				"government": 7,
+				"description": "The world Orus is notable for its unusual tropical forests and its exciting sit coms.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.395172,
+				0.72878,
+				0.836066,
+				1
+			],
+			"radius": 129954.544983,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 426160,
+				"vector": [
+					-0.044,
+					0.998,
+					-0.044
+				]
+			},
+			"corona": {
+				"shimmer": 0.583206,
+				"hues": 0.70565,
+				"flare": 0.056567
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Orus",
+				"radius": 10654
+			}
+		}
+	]
+}

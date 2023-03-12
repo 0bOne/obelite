@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system56",
+	"position": [
+		27,
+		4
+	],
+	"space": {
+		"blurs": 161,
+		"stars": 6126,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Bebeleus",
+			"name": "Bebeleus",
+			"seed": "100 4 180 27 21 179",
+			"body": {
+				"radius": 3611,
+				"rotation_v": 0.004577,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 469430
+			},
+			"land": {
+				"color": [
+					0.191895,
+					0.511719,
+					0.316826,
+					1
+				],
+				"polar_color": [
+					0.800574,
+					0.948828,
+					0.858486,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.617307,
+					0.786596,
+					0.794922,
+					1
+				],
+				"polar": [
+					0.869089,
+					0.918097,
+					0.920508,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.73795,
+					0.740122,
+					0.958025,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.798164,
+					0.799395,
+					0.876953,
+					1
+				],
+				"fraction": 0.19,
+				"polar_color": [
+					0.844393,
+					0.845178,
+					0.894629,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 22560,
+				"techLevel": 9,
+				"economy": 4,
+				"government": 6,
+				"description": "This world is a tedious little planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.654553,
+				0.456733,
+				0.294772,
+				1
+			],
+			"radius": 93450.934448,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 216660,
+				"vector": [
+					-0.242,
+					-0.752,
+					-0.613
+				]
+			},
+			"corona": {
+				"shimmer": 0.278171,
+				"hues": 0.973717,
+				"flare": 0.080156
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Bebeleus",
+				"radius": 7222
+			}
+		}
+	]
+}

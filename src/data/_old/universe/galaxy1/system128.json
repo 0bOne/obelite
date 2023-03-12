@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system128",
+	"position": [
+		162,
+		176
+	],
+	"space": {
+		"blurs": 161,
+		"stars": 7617,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Onenla",
+			"name": "Onenla",
+			"seed": "148 176 144 162 166 63",
+			"body": {
+				"radius": 6818,
+				"rotation_v": 0.000131,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 886340
+			},
+			"land": {
+				"color": [
+					0.378984,
+					0.66,
+					0.640241,
+					1
+				],
+				"polar_color": [
+					0.83458,
+					0.934,
+					0.92701,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.554688,
+					0.508214,
+					0.44245,
+					1
+				],
+				"polar": [
+					0.944531,
+					0.924747,
+					0.896751,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.644763,
+					0.870873,
+					0.815926,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.615234,
+					0.535777,
+					0.504684,
+					1
+				],
+				"fraction": 0.59,
+				"polar_color": [
+					0.776855,
+					0.714148,
+					0.689611,
+					1
+				]
+			},
+			"demographics": {
+				"type": 43,
+				"productivity": 20640,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 2,
+				"description": "This world is plagued by occasional solar activity.",
+				"inhabitants": "Red Horned Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.686499,
+				0.58125,
+				0.356406,
+				1
+			],
+			"radius": 215810.049133,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 272720,
+				"vector": [
+					-0.963,
+					-0.261,
+					-0.067
+				]
+			},
+			"corona": {
+				"shimmer": 0.256599,
+				"hues": 0.825104,
+				"flare": 0.060915
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Onenla",
+				"radius": 13636
+			}
+		}
+	]
+}

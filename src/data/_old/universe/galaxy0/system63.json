@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system63",
+	"position": [
+		168,
+		23
+	],
+	"space": {
+		"blurs": 79,
+		"stars": 5832,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ususor",
+			"name": "Ususor",
+			"seed": "56 23 204 168 61 8",
+			"body": {
+				"radius": 5032,
+				"rotation_v": 0.000146,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 704480
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.162422,
+					0.523943,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.757963,
+					0.885865,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.666016,
+					0.470101,
+					0.455284,
+					1
+				],
+				"polar": [
+					0.933398,
+					0.864757,
+					0.859565,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.72964,
+					0.776456,
+					0.934611,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.759377,
+					0.791132,
+					0.806641,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.831385,
+					0.852618,
+					0.862988,
+					1
+				]
+			},
+			"demographics": {
+				"type": 13,
+				"productivity": 1560,
+				"techLevel": 1,
+				"economy": 7,
+				"government": 1,
+				"description": "This planet is very notable for its inhabitants’ weird shyness and the Ususorian edible poet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.391074,
+				0.638344,
+				0.728015,
+				1
+			],
+			"radius": 114785.5896,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 301920,
+				"vector": [
+					-0.889,
+					-0.362,
+					-0.282
+				]
+			},
+			"corona": {
+				"shimmer": 0.698708,
+				"hues": 0.708305,
+				"flare": 0.053717
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ususor",
+				"radius": 10064
+			}
+		}
+	]
+}

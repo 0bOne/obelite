@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system69",
+	"position": [
+		224,
+		84
+	],
+	"space": {
+		"blurs": 77,
+		"stars": 9216,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Erzara",
+			"name": "Erzara",
+			"seed": "167 84 2 224 35 16",
+			"body": {
+				"radius": 3040,
+				"rotation_v": 0.004221,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 456000
+			},
+			"land": {
+				"color": [
+					0.574922,
+					0.66,
+					0.656012,
+					1
+				],
+				"polar_color": [
+					0.9039,
+					0.934,
+					0.932589,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.150047,
+					0.541016,
+					0.201973,
+					1
+				],
+				"polar": [
+					0.775009,
+					0.945898,
+					0.797705,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.55208,
+					0.533959,
+					0.878678,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.332901,
+					0.26944,
+					0.638672,
+					1
+				],
+				"fraction": 0.2,
+				"polar_color": [
+					0.551792,
+					0.502892,
+					0.787402,
+					1
+				]
+			},
+			"demographics": {
+				"type": 11,
+				"productivity": 1408,
+				"techLevel": 1,
+				"economy": 6,
+				"government": 0,
+				"description": "This world is a tedious place.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.69134,
+				0.77322,
+				0.784219,
+				1
+			],
+			"radius": 74966.040039,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 243200,
+				"vector": [
+					0.385,
+					0.714,
+					-0.584
+				]
+			},
+			"corona": {
+				"shimmer": 0.333462,
+				"hues": 0.967354,
+				"flare": 0.052771
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Erzara",
+				"radius": 6080
+			}
+		}
+	]
+}

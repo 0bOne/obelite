@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system6",
+	"position": [
+		193,
+		217
+	],
+	"space": {
+		"blurs": 139,
+		"stars": 9088,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edbedi",
+			"name": "Edbedi",
+			"seed": "162 217 82 193 218 56",
+			"body": {
+				"radius": 5057,
+				"rotation_v": 0.003805,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 657410
+			},
+			"land": {
+				"color": [
+					0.288374,
+					0.613281,
+					0.019165,
+					1
+				],
+				"polar_color": [
+					0.814348,
+					0.938672,
+					0.711337,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.591797,
+					0.501108,
+					0.451939,
+					1
+				],
+				"polar": [
+					0.94082,
+					0.904777,
+					0.885235,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.680765,
+					0.554427,
+					0.900791,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.705078,
+					0.31398,
+					0.662302,
+					1
+				],
+				"fraction": 0.49,
+				"polar_color": [
+					0.817285,
+					0.533949,
+					0.786295,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 15552,
+				"techLevel": 8,
+				"economy": 1,
+				"government": 2,
+				"description": "This world is reasonably well known for its vast rain forests but beset by lethal disease.",
+				"inhabitants": "Red Slimy Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.751585,
+				0.77895,
+				0.807404,
+				1
+			],
+			"radius": 117854.428253,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 151710,
+				"vector": [
+					-0.666,
+					-0.527,
+					-0.528
+				]
+			},
+			"corona": {
+				"shimmer": 1.046767,
+				"hues": 0.538338,
+				"flare": 0.062964
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Edbedi",
+				"radius": 10114
+			}
+		}
+	]
+}

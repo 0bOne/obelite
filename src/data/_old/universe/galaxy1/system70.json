@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system70",
+	"position": [
+		210,
+		228
+	],
+	"space": {
+		"blurs": 50,
+		"stars": 6500,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Israza",
+			"name": "Israza",
+			"seed": "180 228 168 210 54 189",
+			"body": {
+				"radius": 6354,
+				"rotation_v": 0.003008,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 762480
+			},
+			"land": {
+				"color": [
+					0.53125,
+					0.429565,
+					0.510595,
+					1
+				],
+				"polar_color": [
+					0.946875,
+					0.901566,
+					0.937671,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.650842,
+					0.789062,
+					0.536316,
+					1
+				],
+				"polar": [
+					0.880757,
+					0.921094,
+					0.847334,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.705092,
+					0.837056,
+					0.88258,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.648406,
+					0.650391,
+					0.64785,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.791164,
+					0.792676,
+					0.790741,
+					1
+				]
+			},
+			"demographics": {
+				"type": 42,
+				"productivity": 18144,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 5,
+				"description": "The world Israza is notable for the Israzaian edible grub and the Israzaian tree snake.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.557753,
+				0.653097,
+				0.688483,
+				1
+			],
+			"radius": 139812.044678,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 381240,
+				"vector": [
+					-0.582,
+					0.793,
+					0.181
+				]
+			},
+			"corona": {
+				"shimmer": 0.331258,
+				"hues": 0.517334,
+				"flare": 0.003456
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Israza",
+				"radius": 12708
+			}
+		}
+	]
+}

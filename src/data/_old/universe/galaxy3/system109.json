@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system109",
+	"position": [
+		70,
+		119
+	],
+	"space": {
+		"blurs": 133,
+		"stars": 8491,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Diarrive",
+			"name": "Diarrive",
+			"seed": "106 119 50 70 74 141",
+			"body": {
+				"radius": 6214,
+				"rotation_v": 0.0007,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 683540
+			},
+			"land": {
+				"color": [
+					0.659053,
+					0.66,
+					0.538828,
+					1
+				],
+				"polar_color": [
+					0.933665,
+					0.934,
+					0.891131,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0707626,
+					0.55604,
+					0.724609,
+					1
+				],
+				"polar": [
+					0.718299,
+					0.873594,
+					0.927539,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.428723,
+					0.778258,
+					0.862418,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.271089,
+					0.589844,
+					0.0529938,
+					1
+				],
+				"fraction": 0.42,
+				"polar_color": [
+					0.506903,
+					0.76543,
+					0.330017,
+					1
+				]
+			},
+			"demographics": {
+				"type": 34,
+				"productivity": 8160,
+				"techLevel": 5,
+				"economy": 7,
+				"government": 6,
+				"description": "This world is fabled for its exciting lethal Lesooues water.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.454062,
+				0.663112,
+				0.671808,
+				1
+			],
+			"radius": 153525.699463,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 559260,
+				"vector": [
+					-0.414,
+					-0.324,
+					-0.85
+				]
+			},
+			"corona": {
+				"shimmer": 0.374723,
+				"hues": 0.543716,
+				"flare": 0.081805
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Diarrive",
+				"radius": 12428
+			}
+		}
+	]
+}

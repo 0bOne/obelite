@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system229",
+	"position": [
+		41,
+		137
+	],
+	"space": {
+		"blurs": 58,
+		"stars": 9388,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Lasoce",
+			"name": "Lasoce",
+			"seed": "0 137 64 41 26 213",
+			"body": {
+				"radius": 4137,
+				"rotation_v": 0.00065,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 537810
+			},
+			"land": {
+				"color": [
+					0.53625,
+					0.66,
+					0.546885,
+					1
+				],
+				"polar_color": [
+					0.890219,
+					0.934,
+					0.893981,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.416824,
+					0.365234,
+					0.5,
+					1
+				],
+				"polar": [
+					0.910492,
+					0.885986,
+					0.95,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.677227,
+					0.868922,
+					0.862733,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.609375,
+					0.606102,
+					0.571289,
+					1
+				],
+				"fraction": 0.16,
+				"polar_color": [
+					0.774219,
+					0.77162,
+					0.743976,
+					1
+				]
+			},
+			"demographics": {
+				"type": 24,
+				"productivity": 5376,
+				"techLevel": 5,
+				"economy": 3,
+				"government": 0,
+				"description": "This world is very notable for its inhabitants’ ingrained shyness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.795422,
+				0.651085,
+				0.573175,
+				1
+			],
+			"radius": 132169.246674,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 165480,
+				"vector": [
+					0.18,
+					-0.963,
+					0.2
+				]
+			},
+			"corona": {
+				"shimmer": 0.289312,
+				"hues": 0.594131,
+				"flare": 0.070403
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Lasoce",
+				"radius": 8274
+			}
+		}
+	]
+}

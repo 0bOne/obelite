@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system35",
+	"position": [
+		243,
+		52
+	],
+	"space": {
+		"blurs": 125,
+		"stars": 6284,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ribior",
+			"name": "Ribior",
+			"seed": "14 52 226 243 208 190",
+			"body": {
+				"radius": 6643,
+				"rotation_v": 0.003327,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 797160
+			},
+			"land": {
+				"color": [
+					0.616172,
+					0.626102,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.918494,
+					0.922007,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.636719,
+					0.634403,
+					0.488483,
+					1
+				],
+				"polar": [
+					0.936328,
+					0.935477,
+					0.881831,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.707072,
+					0.574661,
+					0.890385,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.673828,
+					0.360603,
+					0.588181,
+					1
+				],
+				"fraction": 0.14,
+				"polar_color": [
+					0.803223,
+					0.569865,
+					0.739414,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 15744,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 4,
+				"description": "This planet is mildly noted for the Ribiorian mountain slug but cursed by occasional earthquakes.",
+				"inhabitants": "Harmless Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.820258,
+				0.743266,
+				0.729193,
+				1
+			],
+			"radius": 133824.986572,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 664300,
+				"vector": [
+					-0.204,
+					-0.494,
+					0.846
+				]
+			},
+			"corona": {
+				"shimmer": 0.257244,
+				"hues": 0.528122,
+				"flare": 0.08293
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ribior",
+				"radius": 13286
+			}
+		}
+	]
+}

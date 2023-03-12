@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system167",
+	"position": [
+		121,
+		33
+	],
+	"space": {
+		"blurs": 121,
+		"stars": 7181,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Endiqu",
+			"name": "Endiqu",
+			"seed": "171 33 182 121 143 50",
+			"body": {
+				"radius": 3449,
+				"rotation_v": 0.003908,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 413880
+			},
+			"land": {
+				"color": [
+					0.582918,
+					0.66,
+					0.430547,
+					1
+				],
+				"polar_color": [
+					0.906729,
+					0.934,
+					0.852822,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.141436,
+					0.556641,
+					0.117416,
+					1
+				],
+				"polar": [
+					0.768238,
+					0.944336,
+					0.758051,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.638867,
+					0.894388,
+					0.922904,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.693319,
+					0.771484,
+					0.521355,
+					1
+				],
+				"fraction": 0.15,
+				"polar_color": [
+					0.793522,
+					0.847168,
+					0.675501,
+					1
+				]
+			},
+			"demographics": {
+				"type": 48,
+				"productivity": 34560,
+				"techLevel": 10,
+				"economy": 1,
+				"government": 6,
+				"description": "This planet is noted for Zero-G cricket.",
+				"inhabitants": "Red Slimy Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.679507,
+				0.577592,
+				0.562629,
+				1
+			],
+			"radius": 83740.979004,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 413880,
+				"vector": [
+					-0.389,
+					-0.804,
+					-0.45
+				]
+			},
+			"corona": {
+				"shimmer": 0.379193,
+				"hues": 0.579407,
+				"flare": 0.057074
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Endiqu",
+				"radius": 6898
+			}
+		}
+	]
+}

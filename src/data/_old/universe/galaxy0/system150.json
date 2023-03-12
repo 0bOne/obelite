@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system150",
+	"position": [
+		141,
+		116
+	],
+	"space": {
+		"blurs": 193,
+		"stars": 9052,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xeer",
+			"name": "Xeer",
+			"seed": "154 116 52 141 155 64",
+			"body": {
+				"radius": 2957,
+				"rotation_v": 0.000246,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 413980
+			},
+			"land": {
+				"color": [
+					0.605469,
+					0.385513,
+					0.591722,
+					1
+				],
+				"polar_color": [
+					0.939453,
+					0.854132,
+					0.934121,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.474393,
+					0.519531,
+					0.0750885,
+					1
+				],
+				"polar": [
+					0.927454,
+					0.948047,
+					0.745291,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.606792,
+					0.811327,
+					0.996398,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.422455,
+					0.992188,
+					0.671713,
+					1
+				],
+				"fraction": 0.23,
+				"polar_color": [
+					0.606804,
+					0.946484,
+					0.755414,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 18720,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 6,
+				"description": "This world is very well known for Xeerian wolf meat and its fabulous cuisine.",
+				"inhabitants": "Large Yellow Bug-Eyed Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.513528,
+				0.530388,
+				0.810178,
+				1
+			],
+			"radius": 87958.296814,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 147850,
+				"vector": [
+					-0.107,
+					0.72,
+					0.685
+				]
+			},
+			"corona": {
+				"shimmer": 0.359874,
+				"hues": 0.659752,
+				"flare": 0.055379
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xeer",
+				"radius": 5914
+			}
+		}
+	]
+}

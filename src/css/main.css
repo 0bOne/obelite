@@ -1,0 +1,79 @@
+@font-face {
+    font-family: AlmaraiLight;
+    src: url(./Almarai/Almarai-Light.ttf);
+}
+
+@font-face {
+    font-family: AlmaraiRegular;
+    src: url(./Almarai/Almarai-Regular.ttf);
+}
+
+@font-face {
+    font-family: AlmaraiBold;
+    src: url(./Almarai/Almarai-Bold.ttf);
+}
+
+@font-face {
+    font-family: AlmaraiExtra;
+    src: url(./Almarai/Almarai-ExtraBold.ttf);
+}
+
+.light {
+    font-family: AlmaraiLight;
+}
+
+.extra {
+    font-family: AlmaraiExtra;
+}
+
+.bold {
+    font-family: AlmaraiBold;
+}
+
+html {
+    font-family: AlmaraiRegular;
+    background-color: darkgray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+.flex-across {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.flex-down {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+button.menu-item:focus {
+    color: black !important;
+    background-color: red !important;
+    border: none;
+    text-decoration: none;
+}
+
+.invisble {
+    visibility: hidden;
+}
+

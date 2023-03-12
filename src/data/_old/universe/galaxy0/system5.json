@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system5",
+	"position": [
+		172,
+		176
+	],
+	"space": {
+		"blurs": 126,
+		"stars": 8208,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tiraor",
+			"name": "Tiraor",
+			"seed": "128 176 224 172 141 119",
+			"body": {
+				"radius": 4780,
+				"rotation_v": 0.000353,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 573600
+			},
+			"land": {
+				"color": [
+					0.507891,
+					0.642175,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.880186,
+					0.927694,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.461494,
+					0.515625,
+					0.0825806,
+					1
+				],
+				"polar": [
+					0.923546,
+					0.948438,
+					0.749303,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.716473,
+					0.581367,
+					0.886482,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.662109,
+					0.375023,
+					0.563423,
+					1
+				],
+				"fraction": 0.11,
+				"polar_color": [
+					0.797949,
+					0.581708,
+					0.723616,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 26240,
+				"techLevel": 9,
+				"economy": 0,
+				"government": 4,
+				"description": "Tiraor is a revolting little planet.",
+				"inhabitants": "Blue Fat Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.740216,
+				0.655512,
+				0.529065,
+				1
+			],
+			"radius": 143111.169434,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 525800,
+				"vector": [
+					0.194,
+					-0.899,
+					0.392
+				]
+			},
+			"corona": {
+				"shimmer": 0.39111,
+				"hues": 0.687195,
+				"flare": 0.087144
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tiraor",
+				"radius": 9560
+			}
+		}
+	]
+}

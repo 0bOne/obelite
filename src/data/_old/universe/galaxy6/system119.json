@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system119",
+	"position": [
+		127,
+		184
+	],
+	"space": {
+		"blurs": 91,
+		"stars": 9193,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Bionbiin",
+			"name": "Bionbiin",
+			"seed": "206 184 242 127 208 166",
+			"body": {
+				"radius": 4479,
+				"rotation_v": 0.003923,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 537480
+			},
+			"land": {
+				"color": [
+					0.597964,
+					0.546562,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.912052,
+					0.893867,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.542969,
+					0.490369,
+					0.434375,
+					1
+				],
+				"polar": [
+					0.945703,
+					0.922799,
+					0.898418,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.411838,
+					0.850711,
+					0.839968,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.554688,
+					0.52178,
+					0.0281677,
+					1
+				],
+				"fraction": 0.37,
+				"polar_color": [
+					0.749609,
+					0.721815,
+					0.304895,
+					1
+				]
+			},
+			"demographics": {
+				"type": 59,
+				"productivity": 47200,
+				"techLevel": 13,
+				"economy": 0,
+				"government": 6,
+				"description": "Bionbiin is well known for the Bionbiinian tree ant but cursed by vicious mountain beasts.",
+				"inhabitants": "Fierce Harmless Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.668048,
+				0.664202,
+				0.204718,
+				1
+			],
+			"radius": 113864.031372,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 358320,
+				"vector": [
+					-0.441,
+					0.896,
+					0.05
+				]
+			},
+			"corona": {
+				"shimmer": 0.392126,
+				"hues": 0.617363,
+				"flare": 0.040836
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Bionbiin",
+				"radius": 8958
+			}
+		}
+	]
+}

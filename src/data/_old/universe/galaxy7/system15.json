@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system15",
+	"position": [
+		153,
+		83
+	],
+	"space": {
+		"blurs": 74,
+		"stars": 5427,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xeerin",
+			"name": "Xeerin",
+			"seed": "59 83 198 153 255 162",
+			"body": {
+				"radius": 3481,
+				"rotation_v": 0.002714,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 452530
+			},
+			"land": {
+				"color": [
+					0.646505,
+					0.66,
+					0.487266,
+					1
+				],
+				"polar_color": [
+					0.929226,
+					0.934,
+					0.872889,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.381412,
+					0.274429,
+					0.644531,
+					1
+				],
+				"polar": [
+					0.840066,
+					0.801245,
+					0.935547,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.514226,
+					0.597918,
+					0.857215,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.22879,
+					0.477067,
+					0.574219,
+					1
+				],
+				"fraction": 0.41,
+				"polar_color": [
+					0.473258,
+					0.678203,
+					0.758398,
+					1
+				]
+			},
+			"demographics": {
+				"type": 24,
+				"productivity": 5376,
+				"techLevel": 5,
+				"economy": 3,
+				"government": 0,
+				"description": "The planet Xeerin is an unremarkable dump.",
+				"inhabitants": "Large Harmless Horned Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.245934,
+				0.747311,
+				0.784729,
+				1
+			],
+			"radius": 61344.551392,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 208860,
+				"vector": [
+					-0.105,
+					-0.938,
+					0.33
+				]
+			},
+			"corona": {
+				"shimmer": 0.401392,
+				"hues": 0.680061,
+				"flare": 0.015749
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xeerin",
+				"radius": 6962
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system36",
+	"position": [
+		187,
+		44
+	],
+	"space": {
+		"blurs": 114,
+		"stars": 5034,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Soaat",
+			"name": "Soaat",
+			"seed": "185 44 129 187 26 103",
+			"body": {
+				"radius": 4795,
+				"rotation_v": 0.003161,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 575400
+			},
+			"land": {
+				"color": [
+					0.223753,
+					0.198516,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.779661,
+					0.770732,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.636719,
+					0.605396,
+					0.482513,
+					1
+				],
+				"polar": [
+					0.936328,
+					0.924813,
+					0.879636,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.901419,
+					0.784357,
+					0.996398,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.992188,
+					0.95343,
+					0.966147,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.946484,
+					0.923377,
+					0.930959,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 2944,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 0,
+				"description": "Soaat is a revolting dump.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.805197,
+				0.579498,
+				0.250589,
+				1
+			],
+			"radius": 133009.741211,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 335650,
+				"vector": [
+					0.012,
+					-0.727,
+					0.687
+				]
+			},
+			"corona": {
+				"shimmer": 0.914541,
+				"hues": 0.908707,
+				"flare": 0.018846
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Soaat",
+				"radius": 9590
+			}
+		}
+	]
+}

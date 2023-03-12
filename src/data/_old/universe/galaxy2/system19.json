@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system19",
+	"position": [
+		190,
+		203
+	],
+	"space": {
+		"blurs": 66,
+		"stars": 9655,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Onusbi",
+			"name": "Onusbi",
+			"seed": "45 203 65 190 85 255",
+			"body": {
+				"radius": 6846,
+				"rotation_v": 0.002645,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 753060
+			},
+			"land": {
+				"color": [
+					0.469219,
+					0.583986,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.866504,
+					0.907107,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.576172,
+					0.560778,
+					0.460262,
+					1
+				],
+				"polar": [
+					0.942383,
+					0.936088,
+					0.894988,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.549823,
+					0.49426,
+					0.919652,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.404849,
+					0.160675,
+					0.761719,
+					1
+				],
+				"fraction": 0.26,
+				"polar_color": [
+					0.595996,
+					0.427148,
+					0.842773,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 6272,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 0,
+				"description": "This planet is plagued by deadly earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.757932,
+				0.651537,
+				0.559144,
+				1
+			],
+			"radius": 194916.074524,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 479220,
+				"vector": [
+					-0.165,
+					0.833,
+					-0.528
+				]
+			},
+			"corona": {
+				"shimmer": 0.354367,
+				"hues": 0.563065,
+				"flare": 0.019768
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Onusbi",
+				"radius": 13692
+			}
+		}
+	]
+}

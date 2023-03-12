@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system238",
+	"position": [
+		211,
+		129
+	],
+	"space": {
+		"blurs": 66,
+		"stars": 8806,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arries",
+			"name": "Arries",
+			"seed": "244 129 136 211 182 10",
+			"body": {
+				"radius": 5587,
+				"rotation_v": 0.001677,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 670440
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.614883,
+					0.495,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.918038,
+					0.875625,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.652769,
+					0.690286,
+					0.818359,
+					1
+				],
+				"polar": [
+					0.871718,
+					0.882241,
+					0.918164,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.448116,
+					0.702265,
+					0.869572,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.088356,
+					0.611328,
+					0.194585,
+					1
+				],
+				"fraction": 0.19,
+				"polar_color": [
+					0.360678,
+					0.775098,
+					0.444857,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 10360,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 1,
+				"description": "This world is most notable for vicious Za brew but ravaged by vicious shrews.",
+				"inhabitants": "Small Green Horned Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.241348,
+				0.340815,
+				0.694199,
+				1
+			],
+			"radius": 137139.639587,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 391090,
+				"vector": [
+					-0.485,
+					0.139,
+					0.863
+				]
+			},
+			"corona": {
+				"shimmer": 0.363338,
+				"hues": 0.503136,
+				"flare": 0.050288
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Arries",
+				"radius": 11174
+			}
+		}
+	]
+}

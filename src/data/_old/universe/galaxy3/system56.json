@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system56",
+	"position": [
+		193,
+		134
+	],
+	"space": {
+		"blurs": 113,
+		"stars": 6289,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zainat",
+			"name": "Zainat",
+			"seed": "146 134 2 193 154 68",
+			"body": {
+				"radius": 4033,
+				"rotation_v": 0.003185,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 443630
+			},
+			"land": {
+				"color": [
+					0.254486,
+					0.474596,
+					0.525391,
+					1
+				],
+				"polar_color": [
+					0.825327,
+					0.924561,
+					0.947461,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.582422,
+					0.75,
+					0.66752,
+					1
+				],
+				"polar": [
+					0.87333,
+					0.925,
+					0.899569,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.446687,
+					0.470575,
+					0.935262,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0252686,
+					0.129304,
+					0.808594,
+					1
+				],
+				"fraction": 0.45,
+				"polar_color": [
+					0.340823,
+					0.410289,
+					0.863867,
+					1
+				]
+			},
+			"demographics": {
+				"type": 15,
+				"productivity": 1920,
+				"techLevel": 2,
+				"economy": 6,
+				"government": 0,
+				"description": "Zainat is reasonably well known for the Zainatian spotted cat but ravaged by occasional earthquakes.",
+				"inhabitants": "Fierce Yellow Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.322158,
+				0.483131,
+				0.837857,
+				1
+			],
+			"radius": 86082.789917,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 443630,
+				"vector": [
+					-0.253,
+					0.348,
+					-0.903
+				]
+			},
+			"corona": {
+				"shimmer": 0.453047,
+				"hues": 0.600258,
+				"flare": 0.050906
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Zainat",
+				"radius": 8066
+			}
+		}
+	]
+}

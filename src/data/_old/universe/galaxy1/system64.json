@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system64",
+	"position": [
+		19,
+		242
+	],
+	"space": {
+		"blurs": 120,
+		"stars": 6295,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tiises",
+			"name": "Tiises",
+			"seed": "148 242 144 19 166 23",
+			"body": {
+				"radius": 4627,
+				"rotation_v": 0.000091,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 555240
+			},
+			"land": {
+				"color": [
+					0.604611,
+					0.66,
+					0.337734,
+					1
+				],
+				"polar_color": [
+					0.914404,
+					0.934,
+					0.819986,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.415367,
+					0.362411,
+					0.509766,
+					1
+				],
+				"polar": [
+					0.905088,
+					0.880442,
+					0.949023,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.605357,
+					0.889738,
+					0.96518,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.599415,
+					0.898438,
+					0.431671,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.716189,
+					0.904297,
+					0.610665,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 15744,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 2,
+				"description": "Tiises is most famous for its vast rain forests and the Tiisesian tree grub.",
+				"inhabitants": "Green Bug-Eyed Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.66701,
+				0.552734,
+				0.528496,
+				1
+			],
+			"radius": 151953.345947,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 416430,
+				"vector": [
+					-0.103,
+					0.993,
+					-0.051
+				]
+			},
+			"corona": {
+				"shimmer": 0.276909,
+				"hues": 0.880081,
+				"flare": 0.041432
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tiises",
+				"radius": 9254
+			}
+		}
+	]
+}

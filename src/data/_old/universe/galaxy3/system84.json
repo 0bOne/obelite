@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system84",
+	"position": [
+		46,
+		218
+	],
+	"space": {
+		"blurs": 81,
+		"stars": 5615,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Rais",
+			"name": "Rais",
+			"seed": "178 218 226 46 26 52",
+			"body": {
+				"radius": 3886,
+				"rotation_v": 0.001905,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 505180
+			},
+			"land": {
+				"color": [
+					0.541084,
+					0.66,
+					0.474375,
+					1
+				],
+				"polar_color": [
+					0.891929,
+					0.934,
+					0.868328,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.126465,
+					0.578125,
+					0.23938,
+					1
+				],
+				"polar": [
+					0.758166,
+					0.942187,
+					0.804172,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.713043,
+					0.544118,
+					0.919002,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.759766,
+					0.284912,
+					0.585405,
+					1
+				],
+				"fraction": 0.46,
+				"polar_color": [
+					0.841895,
+					0.513029,
+					0.721139,
+					1
+				]
+			},
+			"demographics": {
+				"type": 43,
+				"productivity": 22016,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 4,
+				"description": "The planet Rais is scourged by evil disease.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.781531,
+				0.771369,
+				0.605631,
+				1
+			],
+			"radius": 91879.20929,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 233160,
+				"vector": [
+					-0.282,
+					-0.937,
+					0.205
+				]
+			},
+			"corona": {
+				"shimmer": 0.435727,
+				"hues": 0.65947,
+				"flare": 0.069179
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Rais",
+				"radius": 7772
+			}
+		}
+	]
+}

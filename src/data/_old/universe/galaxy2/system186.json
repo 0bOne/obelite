@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system186",
+	"position": [
+		42,
+		30
+	],
+	"space": {
+		"blurs": 123,
+		"stars": 8140,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Inlain",
+			"name": "Inlain",
+			"seed": "1 30 185 42 173 108",
+			"body": {
+				"radius": 5930,
+				"rotation_v": 0.002555,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 593000
+			},
+			"land": {
+				"color": [
+					0.613594,
+					0.66,
+					0.618669,
+					1
+				],
+				"polar_color": [
+					0.917582,
+					0.934,
+					0.919378,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0502625,
+					0.714844,
+					0.714844,
+					1
+				],
+				"polar": [
+					0.712708,
+					0.928516,
+					0.928516,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.535211,
+					0.611383,
+					0.837703,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.265869,
+					0.451235,
+					0.515625,
+					1
+				],
+				"fraction": 0.44,
+				"polar_color": [
+					0.51042,
+					0.674897,
+					0.732031,
+					1
+				]
+			},
+			"demographics": {
+				"type": 42,
+				"productivity": 14784,
+				"techLevel": 7,
+				"economy": 6,
+				"government": 7,
+				"description": "The world Inlain is mildly fabled for its inhabitants’ eccentric love for poetry but ravaged by unpredictable civil war.",
+				"inhabitants": "Blue Fat Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.47261,
+				0.696456,
+				0.833862,
+				1
+			],
+			"radius": 138128.390503,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 533700,
+				"vector": [
+					0.217,
+					0.954,
+					0.206
+				]
+			},
+			"corona": {
+				"shimmer": 0.455238,
+				"hues": 0.590332,
+				"flare": 0.035675
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Inlain",
+				"radius": 11860
+			}
+		}
+	]
+}

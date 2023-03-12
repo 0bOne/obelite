@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system105",
+	"position": [
+		203,
+		119
+	],
+	"space": {
+		"blurs": 115,
+		"stars": 9491,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zaerla",
+			"name": "Zaerla",
+			"seed": "192 119 136 203 189 128",
+			"body": {
+				"radius": 3019,
+				"rotation_v": 0.00255,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 362280
+			},
+			"land": {
+				"color": [
+					0.528516,
+					0.644592,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.887482,
+					0.928549,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.231805,
+					0.548828,
+					0.102905,
+					1
+				],
+				"polar": [
+					0.808634,
+					0.945117,
+					0.75314,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.568974,
+					0.474949,
+					0.943066,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.548357,
+					0.0910034,
+					0.832031,
+					1
+				],
+				"fraction": 0.15,
+				"polar_color": [
+					0.688086,
+					0.38768,
+					0.874414,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 3000,
+				"techLevel": 4,
+				"economy": 7,
+				"government": 1,
+				"description": "The planet Zaerla is mildly well known for its exotic cuisine.",
+				"inhabitants": "Large Black Fat Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.824673,
+				0.820479,
+				0.561382,
+				1
+			],
+			"radius": 62212.056122,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 271710,
+				"vector": [
+					-0.143,
+					-0.712,
+					-0.688
+				]
+			},
+			"corona": {
+				"shimmer": 0.629778,
+				"hues": 0.685265,
+				"flare": 0.074255
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Zaerla",
+				"radius": 6038
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system12",
+	"position": [
+		244,
+		40
+	],
+	"space": {
+		"blurs": 153,
+		"stars": 7050,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esbiza",
+			"name": "Esbiza",
+			"seed": "186 40 16 244 179 73",
+			"body": {
+				"radius": 5364,
+				"rotation_v": 0.001672,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 804600
+			},
+			"land": {
+				"color": [
+					0.501586,
+					0.66,
+					0.291328,
+					1
+				],
+				"polar_color": [
+					0.877955,
+					0.934,
+					0.803568,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.5625,
+					0.523148,
+					0.448022,
+					1
+				],
+				"polar": [
+					0.94375,
+					0.927244,
+					0.895733,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.796892,
+					0.745189,
+					0.984041,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.913719,
+					0.831963,
+					0.955078,
+					1
+				],
+				"fraction": 0.11,
+				"polar_color": [
+					0.90462,
+					0.854876,
+					0.929785,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 16800,
+				"techLevel": 8,
+				"economy": 0,
+				"government": 2,
+				"description": "The planet Esbiza is most famous for its vast rain forests.",
+				"inhabitants": "Small Yellow Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.838211,
+				0.70909,
+				0.695905,
+				1
+			],
+			"radius": 116348.774414,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 321840,
+				"vector": [
+					-0.232,
+					-0.65,
+					-0.723
+				]
+			},
+			"corona": {
+				"shimmer": 0.386124,
+				"hues": 0.9459,
+				"flare": 0.017609
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esbiza",
+				"radius": 10728
+			}
+		}
+	]
+}

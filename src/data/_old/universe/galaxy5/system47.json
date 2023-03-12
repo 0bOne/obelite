@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system47",
+	"position": [
+		48,
+		12
+	],
+	"space": {
+		"blurs": 118,
+		"stars": 9012,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esbileat",
+			"name": "Esbileat",
+			"seed": "231 12 233 48 40 41",
+			"body": {
+				"radius": 5168,
+				"rotation_v": 0.003814,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 568480
+			},
+			"land": {
+				"color": [
+					0.617461,
+					0.574922,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.91895,
+					0.9039,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.35557,
+					0.541016,
+					0.0845337,
+					1
+				],
+				"polar": [
+					0.864841,
+					0.945898,
+					0.746373,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.510164,
+					0.970383,
+					0.819035,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.914062,
+					0.178333,
+					0.160675,
+					1
+				],
+				"fraction": 0.21,
+				"polar_color": [
+					0.911328,
+					0.452872,
+					0.44187,
+					1
+				]
+			},
+			"demographics": {
+				"type": 34,
+				"productivity": 14688,
+				"techLevel": 6,
+				"economy": 4,
+				"government": 5,
+				"description": "The planet Esbileat is scourged by deadly disease.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.849976,
+				0.724189,
+				0.448281,
+				1
+			],
+			"radius": 135661.577148,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 516800,
+				"vector": [
+					0.067,
+					-0.668,
+					-0.741
+				]
+			},
+			"corona": {
+				"shimmer": 0.529353,
+				"hues": 0.682808,
+				"flare": 0.006497
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esbileat",
+				"radius": 10336
+			}
+		}
+	]
+}

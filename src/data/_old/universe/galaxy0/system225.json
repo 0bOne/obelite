@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system225",
+	"position": [
+		96,
+		178
+	],
+	"space": {
+		"blurs": 67,
+		"stars": 5336,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Mariar",
+			"name": "Mariar",
+			"seed": "128 178 120 96 157 107",
+			"body": {
+				"radius": 5728,
+				"rotation_v": 0.003149,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 687360
+			},
+			"land": {
+				"color": [
+					0.507891,
+					0.513832,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.880186,
+					0.882288,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.574219,
+					0.544498,
+					0.455338,
+					1
+				],
+				"polar": [
+					0.942578,
+					0.930382,
+					0.893792,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.451908,
+					0.508097,
+					0.923555,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0513611,
+					0.299575,
+					0.773438,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.353215,
+					0.523313,
+					0.848047,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 32384,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 7,
+				"description": "This world is fabled for its unusual tropical forests.",
+				"inhabitants": "Small Blue Horned Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.713913,
+				0.655421,
+				0.624303,
+				1
+			],
+			"radius": 154980.087891,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 572800,
+				"vector": [
+					0.614,
+					0.588,
+					-0.526
+				]
+			},
+			"corona": {
+				"shimmer": 0.256658,
+				"hues": 0.702446,
+				"flare": 0.079787
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Mariar",
+				"radius": 11456
+			}
+		}
+	]
+}

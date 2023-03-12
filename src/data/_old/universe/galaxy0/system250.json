@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system250",
+	"position": [
+		71,
+		88
+	],
+	"space": {
+		"blurs": 168,
+		"stars": 7062,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xexedi",
+			"name": "Xexedi",
+			"seed": "138 88 108 71 219 2",
+			"body": {
+				"radius": 3399,
+				"rotation_v": 0.004894,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 407880
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.291328,
+					0.455502,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.803568,
+					0.861651,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.587921,
+					0.619141,
+					0.490234,
+					1
+				],
+				"polar": [
+					0.92626,
+					0.938086,
+					0.889258,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.620329,
+					0.887783,
+					0.812352,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.666016,
+					0.496382,
+					0.463089,
+					1
+				],
+				"fraction": 0.08,
+				"polar_color": [
+					0.799707,
+					0.672404,
+					0.647419,
+					1
+				]
+			},
+			"demographics": {
+				"type": 58,
+				"productivity": 41760,
+				"techLevel": 13,
+				"economy": 0,
+				"government": 5,
+				"description": "The planet Xexedi is scourged by deadly disease.",
+				"inhabitants": "Large Green Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.70643,
+				0.755372,
+				0.767682,
+				1
+			],
+			"radius": 71205.460968,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 305910,
+				"vector": [
+					-0.104,
+					-0.774,
+					0.625
+				]
+			},
+			"corona": {
+				"shimmer": 0.305398,
+				"hues": 0.56308,
+				"flare": 0.028917
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Xexedi",
+				"radius": 6798
+			}
+		}
+	]
+}

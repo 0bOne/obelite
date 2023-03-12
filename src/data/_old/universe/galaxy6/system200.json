@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system200",
+	"position": [
+		164,
+		242
+	],
+	"space": {
+		"blurs": 196,
+		"stars": 6486,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceteceso",
+			"name": "Ceteceso",
+			"seed": "210 242 114 164 20 165",
+			"body": {
+				"radius": 4260,
+				"rotation_v": 0.001897,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 468600
+			},
+			"land": {
+				"color": [
+					0.544922,
+					0.429977,
+					0.513492,
+					1
+				],
+				"polar_color": [
+					0.945508,
+					0.895647,
+					0.931874,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.951172,
+					0.635789,
+					0.189491,
+					1
+				],
+				"polar": [
+					0.904883,
+					0.829874,
+					0.723729,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.586313,
+					0.941635,
+					0.958676,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.805011,
+					0.878906,
+					0.381088,
+					1
+				],
+				"fraction": 0.53,
+				"polar_color": [
+					0.848451,
+					0.895508,
+					0.578495,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 26240,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 6,
+				"description": "The planet Ceteceso is a boring planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.389578,
+				0.438475,
+				0.678931,
+				1
+			],
+			"radius": 96712.582397,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 213000,
+				"vector": [
+					-0.237,
+					-0.942,
+					0.238
+				]
+			},
+			"corona": {
+				"shimmer": 0.263841,
+				"hues": 0.863113,
+				"flare": 0.014198
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceteceso",
+				"radius": 8520
+			}
+		}
+	]
+}

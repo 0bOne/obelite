@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system150",
+	"position": [
+		132,
+		182
+	],
+	"space": {
+		"blurs": 162,
+		"stars": 6011,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Riquri",
+			"name": "Riquri",
+			"seed": "145 182 233 132 237 30",
+			"body": {
+				"radius": 6532,
+				"rotation_v": 0.001909,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 653200
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.118312,
+					0.0464063,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.742357,
+					0.716918,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.554412,
+					0.662109,
+					0.524256,
+					1
+				],
+				"polar": [
+					0.895817,
+					0.933789,
+					0.885185,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.44236,
+					0.627766,
+					0.896889,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0541687,
+					0.693359,
+					0.55853,
+					1
+				],
+				"fraction": 0.45,
+				"polar_color": [
+					0.344153,
+					0.812012,
+					0.713323,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 8064,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 5,
+				"description": "This planet is noted for Zero-G hockey.",
+				"inhabitants": "Green Horned Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.77261,
+				0.53998,
+				0.465684,
+				1
+			],
+			"radius": 172553.400879,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 587880,
+				"vector": [
+					-0.823,
+					-0.393,
+					-0.411
+				]
+			},
+			"corona": {
+				"shimmer": 0.526681,
+				"hues": 0.675163,
+				"flare": 0.080557
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Riquri",
+				"radius": 13064
+			}
+		}
+	]
+}

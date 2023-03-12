@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system246",
+	"position": [
+		94,
+		73
+	],
+	"space": {
+		"blurs": 116,
+		"stars": 6024,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atoresra",
+			"name": "Atoresra",
+			"seed": "209 73 192 94 61 81",
+			"body": {
+				"radius": 3166,
+				"rotation_v": 0.004699,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 284940
+			},
+			"land": {
+				"color": [
+					0.0605416,
+					0.654297,
+					0.0102234,
+					1
+				],
+				"polar_color": [
+					0.722547,
+					0.93457,
+					0.704578,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.582031,
+					0.43766,
+					0.43766,
+					1
+				],
+				"polar": [
+					0.941797,
+					0.883394,
+					0.883394,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.58721,
+					0.522748,
+					0.902742,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.485949,
+					0.238831,
+					0.710938,
+					1
+				],
+				"fraction": 0.52,
+				"polar_color": [
+					0.657748,
+					0.479622,
+					0.819922,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 6272,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 0,
+				"description": "This planet is reasonably famous for its inhabitants’ exceptional love for tourists.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.680359,
+				0.630518,
+				0.330639,
+				1
+			],
+			"radius": 69520.502014,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 316600,
+				"vector": [
+					-0.477,
+					0.44,
+					0.761
+				]
+			},
+			"corona": {
+				"shimmer": 0.255754,
+				"hues": 0.540611,
+				"flare": 0.021695
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atoresra",
+				"radius": 6332
+			}
+		}
+	]
+}

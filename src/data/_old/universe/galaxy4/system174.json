@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system174",
+	"position": [
+		33,
+		151
+	],
+	"space": {
+		"blurs": 57,
+		"stars": 8773,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Bedixe",
+			"name": "Bedixe",
+			"seed": "188 151 136 33 245 115",
+			"body": {
+				"radius": 3617,
+				"rotation_v": 0.004081,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 470210
+			},
+			"land": {
+				"color": [
+					0.256967,
+					0.211406,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.791412,
+					0.775293,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.681641,
+					0.674724,
+					0.504574,
+					1
+				],
+				"polar": [
+					0.931836,
+					0.929472,
+					0.871321,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.477681,
+					0.650213,
+					0.863719,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.153076,
+					0.59375,
+					0.449154,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.411314,
+					0.767187,
+					0.650417,
+					1
+				]
+			},
+			"demographics": {
+				"type": 17,
+				"productivity": 2040,
+				"techLevel": 2,
+				"economy": 7,
+				"government": 1,
+				"description": "The world Bedixe is mildly fabled for the Bedixeian mountain slug but ravaged by vicious disease.",
+				"inhabitants": "Blue Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.552447,
+				0.636136,
+				0.845609,
+				1
+			],
+			"radius": 96807.843781,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 180850,
+				"vector": [
+					0.122,
+					0.6,
+					0.79
+				]
+			},
+			"corona": {
+				"shimmer": 0.269969,
+				"hues": 0.629227,
+				"flare": 0.030661
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Bedixe",
+				"radius": 7234
+			}
+		}
+	]
+}

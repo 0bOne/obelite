@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system165",
+	"position": [
+		226,
+		191
+	],
+	"space": {
+		"blurs": 43,
+		"stars": 5837,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tiorra",
+			"name": "Tiorra",
+			"seed": "42 191 242 226 202 119",
+			"body": {
+				"radius": 4834,
+				"rotation_v": 0.003213,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 628420
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.613312,
+					0.502734,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.917482,
+					0.878361,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.612795,
+					0.775215,
+					0.783203,
+					1
+				],
+				"polar": [
+					0.871545,
+					0.91933,
+					0.92168,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.396304,
+					0.843557,
+					0.755814,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.533203,
+					0.227353,
+					0.00416565,
+					1
+				],
+				"fraction": 0.2,
+				"polar_color": [
+					0.739941,
+					0.474669,
+					0.281091,
+					1
+				]
+			},
+			"demographics": {
+				"type": 34,
+				"productivity": 8160,
+				"techLevel": 5,
+				"economy": 7,
+				"government": 6,
+				"description": "The planet Tiorra is most noted for its inhabitants’ exceptional loathing of sit coms and Tiorraian wolf meat.",
+				"inhabitants": "Blue Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.812469,
+				0.69054,
+				0.221611,
+				1
+			],
+			"radius": 127602.080688,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 435060,
+				"vector": [
+					-0.188,
+					0.901,
+					0.39
+				]
+			},
+			"corona": {
+				"shimmer": 0.496974,
+				"hues": 0.592415,
+				"flare": 0.049043
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tiorra",
+				"radius": 9668
+			}
+		}
+	]
+}

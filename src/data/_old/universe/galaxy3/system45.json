@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system45",
+	"position": [
+		172,
+		69
+	],
+	"space": {
+		"blurs": 61,
+		"stars": 6274,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Leenra",
+			"name": "Leenra",
+			"seed": "106 69 50 172 74 161",
+			"body": {
+				"radius": 3244,
+				"rotation_v": 0.000725,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 421720
+			},
+			"land": {
+				"color": [
+					0.267982,
+					0.410599,
+					0.548828,
+					1
+				],
+				"polar_color": [
+					0.824209,
+					0.885607,
+					0.945117,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.714844,
+					0.520164,
+					0.443985,
+					1
+				],
+				"polar": [
+					0.928516,
+					0.865298,
+					0.84056,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.640382,
+					0.904693,
+					0.896161,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.716797,
+					0.699713,
+					0.517998,
+					1
+				],
+				"fraction": 0.48,
+				"polar_color": [
+					0.822559,
+					0.810305,
+					0.679976,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 12800,
+				"techLevel": 5,
+				"economy": 5,
+				"government": 6,
+				"description": "The planet Leenra is a boring world.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.71358,
+				0.685716,
+				0.663447,
+				1
+			],
+			"radius": 110042.364502,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 356840,
+				"vector": [
+					-0.768,
+					-0.635,
+					0.081
+				]
+			},
+			"corona": {
+				"shimmer": 1.692212,
+				"hues": 0.536247,
+				"flare": 0.058447
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Leenra",
+				"radius": 6488
+			}
+		}
+	]
+}

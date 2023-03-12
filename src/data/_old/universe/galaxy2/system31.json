@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system31",
+	"position": [
+		10,
+		93
+	],
+	"space": {
+		"blurs": 70,
+		"stars": 8383,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Teceinre",
+			"name": "Teceinre",
+			"seed": "93 93 177 10 245 60",
+			"body": {
+				"radius": 5898,
+				"rotation_v": 0.000654,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 707760
+			},
+			"land": {
+				"color": [
+					0.517578,
+					0.501404,
+					0.501404,
+					1
+				],
+				"polar_color": [
+					0.948242,
+					0.940834,
+					0.940834,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.583984,
+					0.50302,
+					0.449394,
+					1
+				],
+				"polar": [
+					0.941602,
+					0.908965,
+					0.887349,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.592279,
+					0.468106,
+					0.954123,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.689272,
+					0.0608368,
+					0.865234,
+					1
+				],
+				"fraction": 0.26,
+				"polar_color": [
+					0.776313,
+					0.372591,
+					0.889355,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 16000,
+				"techLevel": 7,
+				"economy": 5,
+				"government": 6,
+				"description": "The planet Teceinre is reasonably noted for its inhabitants’ eccentric love for poetry and the Teceinreian tree wolf.",
+				"inhabitants": "Red Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.796054,
+				0.791129,
+				0.779118,
+				1
+			],
+			"radius": 186657.804565,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 530820,
+				"vector": [
+					-0.532,
+					0.349,
+					-0.772
+				]
+			},
+			"corona": {
+				"shimmer": 0.358979,
+				"hues": 0.990387,
+				"flare": 0.050725
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Teceinre",
+				"radius": 11796
+			}
+		}
+	]
+}

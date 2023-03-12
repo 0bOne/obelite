@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system157",
+	"position": [
+		236,
+		27
+	],
+	"space": {
+		"blurs": 78,
+		"stars": 8635,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Inbein",
+			"name": "Inbein",
+			"seed": "23 27 114 236 51 236",
+			"body": {
+				"radius": 6124,
+				"rotation_v": 0.000573,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 857360
+			},
+			"land": {
+				"color": [
+					0.616172,
+					0.66,
+					0.62302,
+					1
+				],
+				"polar_color": [
+					0.918494,
+					0.934,
+					0.920917,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0529099,
+					0.712891,
+					0.697422,
+					1
+				],
+				"polar": [
+					0.713765,
+					0.928711,
+					0.923673,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.554106,
+					0.541999,
+					0.869572,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.327156,
+					0.28656,
+					0.611328,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.549911,
+					0.517741,
+					0.775098,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 21280,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 6,
+				"description": "This world is reasonably notable for its great volcanoes but plagued by unpredictable civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.76745,
+				0.764896,
+				0.730799,
+				1
+			],
+			"radius": 144565.684204,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 489920,
+				"vector": [
+					0.568,
+					0.09,
+					-0.818
+				]
+			},
+			"corona": {
+				"shimmer": 0.376129,
+				"hues": 0.800346,
+				"flare": 0.010678
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Inbein",
+				"radius": 12248
+			}
+		}
+	]
+}

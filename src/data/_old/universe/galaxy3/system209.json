@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system209",
+	"position": [
+		84,
+		8
+	],
+	"space": {
+		"blurs": 53,
+		"stars": 5147,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atdibe",
+			"name": "Atdibe",
+			"seed": "138 8 82 84 10 17",
+			"body": {
+				"radius": 3156,
+				"rotation_v": 0.004395,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 347160
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.335217,
+					0.327422,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.819096,
+					0.816338,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.555959,
+					0.714844,
+					0.57706,
+					1
+				],
+				"polar": [
+					0.876921,
+					0.928516,
+					0.883774,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.666089,
+					0.846158,
+					0.800994,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.541016,
+					0.525331,
+					0.519882,
+					1
+				],
+				"fraction": 0.21,
+				"polar_color": [
+					0.743457,
+					0.729986,
+					0.725306,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 16800,
+				"techLevel": 8,
+				"economy": 0,
+				"government": 2,
+				"description": "The planet Atdibe is very noted for its exciting Zero-G hockey but ravaged by vicious disease.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.682697,
+				0.596935,
+				0.54712,
+				1
+			],
+			"radius": 76649.63562,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 347160,
+				"vector": [
+					-0.583,
+					-0.704,
+					-0.406
+				]
+			},
+			"corona": {
+				"shimmer": 0.385951,
+				"hues": 0.562737,
+				"flare": 0.085764
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atdibe",
+				"radius": 6312
+			}
+		}
+	]
+}

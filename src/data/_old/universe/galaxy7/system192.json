@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system192",
+	"position": [
+		112,
+		152
+	],
+	"space": {
+		"blurs": 173,
+		"stars": 9864,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Biabi",
+			"name": "Biabi",
+			"seed": "165 152 164 112 41 6",
+			"body": {
+				"radius": 4464,
+				"rotation_v": 0.00123,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 624960
+			},
+			"land": {
+				"color": [
+					0.231171,
+					0.4529,
+					0.585938,
+					1
+				],
+				"polar_color": [
+					0.798908,
+					0.887969,
+					0.941406,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.644531,
+					0.541542,
+					0.473328,
+					1
+				],
+				"polar": [
+					0.935547,
+					0.898174,
+					0.873421,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.664856,
+					0.859767,
+					0.919002,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.635279,
+					0.759766,
+					0.584663,
+					1
+				],
+				"fraction": 0.17,
+				"polar_color": [
+					0.75568,
+					0.841895,
+					0.720626,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 26240,
+				"techLevel": 9,
+				"economy": 0,
+				"government": 4,
+				"description": "The world Biabi is a boring world.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.423448,
+				0.435087,
+				0.847504,
+				1
+			],
+			"radius": 110433.867188,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 223200,
+				"vector": [
+					-0.469,
+					0.883,
+					0.029
+				]
+			},
+			"corona": {
+				"shimmer": 0.53409,
+				"hues": 0.530281,
+				"flare": 0.003224
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Biabi",
+				"radius": 8928
+			}
+		}
+	]
+}

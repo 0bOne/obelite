@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system122",
+	"position": [
+		1,
+		122
+	],
+	"space": {
+		"blurs": 68,
+		"stars": 6286,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xeongeza",
+			"name": "Xeongeza",
+			"seed": "249 122 109 1 154 226",
+			"body": {
+				"radius": 3329,
+				"rotation_v": 0.002408,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 366190
+			},
+			"land": {
+				"color": [
+					0.617188,
+					0.491671,
+					0.482178,
+					1
+				],
+				"polar_color": [
+					0.938281,
+					0.890577,
+					0.886969,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.178833,
+					0.572266,
+					0.461613,
+					1
+				],
+				"polar": [
+					0.780734,
+					0.942773,
+					0.8972,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.635078,
+					0.596709,
+					0.833801,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.439934,
+					0.375961,
+					0.503906,
+					1
+				],
+				"fraction": 0.51,
+				"polar_color": [
+					0.669093,
+					0.611428,
+					0.726758,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 25344,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 5,
+				"description": "This world is a tedious little planet.",
+				"inhabitants": "Large Bony Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.835248,
+				0.299617,
+				0.278179,
+				1
+			],
+			"radius": 66651.623077,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 332900,
+				"vector": [
+					0.074,
+					0.582,
+					0.81
+				]
+			},
+			"corona": {
+				"shimmer": 0.339646,
+				"hues": 0.650543,
+				"flare": 0.058072
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xeongeza",
+				"radius": 6658
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system177",
+	"position": [
+		141,
+		95
+	],
+	"space": {
+		"blurs": 199,
+		"stars": 5590,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceenza",
+			"name": "Ceenza",
+			"seed": "159 95 58 141 43 197",
+			"body": {
+				"radius": 4237,
+				"rotation_v": 0.002416,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 550810
+			},
+			"land": {
+				"color": [
+					0.301641,
+					0.66,
+					0.366033,
+					1
+				],
+				"polar_color": [
+					0.807217,
+					0.934,
+					0.829998,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.583532,
+					0.595703,
+					0.475864,
+					1
+				],
+				"polar": [
+					0.935626,
+					0.94043,
+					0.893133,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.535404,
+					0.493211,
+					0.917701,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.34582,
+					0.159439,
+					0.755859,
+					1
+				],
+				"fraction": 0.26,
+				"polar_color": [
+					0.555288,
+					0.425811,
+					0.840137,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 9240,
+				"techLevel": 5,
+				"economy": 7,
+				"government": 7,
+				"description": "The planet Ceenza is an unremarkable planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.218566,
+				0.246895,
+				0.667145,
+				1
+			],
+			"radius": 123609.121857,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 169480,
+				"vector": [
+					0.953,
+					-0.237,
+					-0.191
+				]
+			},
+			"corona": {
+				"shimmer": 0.356038,
+				"hues": 0.814896,
+				"flare": 0.073087
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceenza",
+				"radius": 8474
+			}
+		}
+	]
+}

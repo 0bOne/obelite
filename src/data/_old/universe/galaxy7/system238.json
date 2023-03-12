@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system238",
+	"position": [
+		225,
+		141
+	],
+	"space": {
+		"blurs": 158,
+		"stars": 9622,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zabeor",
+			"name": "Zabeor",
+			"seed": "129 141 112 225 205 196",
+			"body": {
+				"radius": 4065,
+				"rotation_v": 0.003522,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 569100
+			},
+			"land": {
+				"color": [
+					0.624047,
+					0.00257813,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.92128,
+					0.701412,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.592821,
+					0.599609,
+					0.475471,
+					1
+				],
+				"polar": [
+					0.937378,
+					0.940039,
+					0.891385,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.777243,
+					0.617623,
+					0.877377,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.634766,
+					0.451279,
+					0.477082,
+					1
+				],
+				"fraction": 0.41,
+				"polar_color": [
+					0.785645,
+					0.643707,
+					0.663667,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 14400,
+				"techLevel": 6,
+				"economy": 5,
+				"government": 6,
+				"description": "This planet is beset by deadly earthquakes.",
+				"inhabitants": "Fierce Fat Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.724149,
+				0.665167,
+				0.224611,
+				1
+			],
+			"radius": 74830.586243,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 325200,
+				"vector": [
+					0.28,
+					0.936,
+					-0.214
+				]
+			},
+			"corona": {
+				"shimmer": 0.554619,
+				"hues": 0.55378,
+				"flare": 0.008174
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Zabeor",
+				"radius": 8130
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system192",
+	"position": [
+		158,
+		252
+	],
+	"space": {
+		"blurs": 171,
+		"stars": 7570,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Laerzaes",
+			"name": "Laerzaes",
+			"seed": "82 252 66 158 154 213",
+			"body": {
+				"radius": 4254,
+				"rotation_v": 0.000746,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 553020
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.121172,
+					0.24746,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.743369,
+					0.788048,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.615234,
+					0.554135,
+					0.467674,
+					1
+				],
+				"polar": [
+					0.938477,
+					0.915176,
+					0.882205,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.748195,
+					0.733794,
+					0.972334,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.818716,
+					0.794151,
+					0.919922,
+					1
+				],
+				"fraction": 0.56,
+				"polar_color": [
+					0.851121,
+					0.835867,
+					0.913965,
+					1
+				]
+			},
+			"demographics": {
+				"type": 19,
+				"productivity": 2432,
+				"techLevel": 3,
+				"economy": 6,
+				"government": 0,
+				"description": "The world Laerzaes is most well known for its vast oceans.",
+				"inhabitants": "Horned Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.796326,
+				0.772448,
+				0.624213,
+				1
+			],
+			"radius": 119116.673584,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 170160,
+				"vector": [
+					-0.817,
+					-0.304,
+					0.49
+				]
+			},
+			"corona": {
+				"shimmer": 0.609717,
+				"hues": 0.883987,
+				"flare": 0.092081
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Laerzaes",
+				"radius": 8508
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system74",
+	"position": [
+		254,
+		137
+	],
+	"space": {
+		"blurs": 144,
+		"stars": 9250,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zainer",
+			"name": "Zainer",
+			"seed": "185 137 205 254 90 4",
+			"body": {
+				"radius": 4094,
+				"rotation_v": 0.003595,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 491280
+			},
+			"land": {
+				"color": [
+					0.381563,
+					0.66,
+					0.562112,
+					1
+				],
+				"polar_color": [
+					0.835492,
+					0.934,
+					0.899368,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.552734,
+					0.506693,
+					0.44154,
+					1
+				],
+				"polar": [
+					0.944727,
+					0.925053,
+					0.897213,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.674099,
+					0.850711,
+					0.820198,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.554688,
+					0.548086,
+					0.541687,
+					1
+				],
+				"fraction": 0.57,
+				"polar_color": [
+					0.749609,
+					0.744033,
+					0.738629,
+					1
+				]
+			},
+			"demographics": {
+				"type": 33,
+				"productivity": 9240,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 1,
+				"description": "Zainer is very fabled for its ancient Thinsea’ tulip plantations.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.690433,
+				0.51062,
+				0.39643,
+				1
+			],
+			"radius": 107773.600464,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 368460,
+				"vector": [
+					-0.743,
+					0.042,
+					-0.668
+				]
+			},
+			"corona": {
+				"shimmer": 0.371389,
+				"hues": 0.59565,
+				"flare": 0.045728
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Zainer",
+				"radius": 8188
+			}
+		}
+	]
+}

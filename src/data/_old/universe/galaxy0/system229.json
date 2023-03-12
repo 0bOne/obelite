@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system229",
+	"position": [
+		134,
+		235
+	],
+	"space": {
+		"blurs": 45,
+		"stars": 8619,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Soorbi",
+			"name": "Soorbi",
+			"seed": "128 235 160 134 13 199",
+			"body": {
+				"radius": 4742,
+				"rotation_v": 0.002884,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 426780
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.0489844,
+					0.636132,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.71783,
+					0.925556,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.609375,
+					0.495071,
+					0.455365,
+					1
+				],
+				"polar": [
+					0.939062,
+					0.895026,
+					0.879729,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.660342,
+					0.591143,
+					0.853963,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.52871,
+					0.381447,
+					0.564453,
+					1
+				],
+				"fraction": 0.4,
+				"polar_color": [
+					0.724162,
+					0.601215,
+					0.754004,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 17920,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 4,
+				"description": "The planet Soorbi is an unremarkable dump.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.43584,
+				0.460039,
+				0.718594,
+				1
+			],
+			"radius": 104771.746216,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 616460,
+				"vector": [
+					0.336,
+					0.76,
+					-0.556
+				]
+			},
+			"corona": {
+				"shimmer": 0.291522,
+				"hues": 0.564255,
+				"flare": 0.094627
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Soorbi",
+				"radius": 9484
+			}
+		}
+	]
+}

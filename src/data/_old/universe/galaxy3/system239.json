@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system239",
+	"position": [
+		163,
+		47
+	],
+	"space": {
+		"blurs": 142,
+		"stars": 9025,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Timabi",
+			"name": "Timabi",
+			"seed": "58 47 226 163 234 55",
+			"body": {
+				"radius": 4771,
+				"rotation_v": 0.0013,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 524810
+			},
+			"land": {
+				"color": [
+					0.626484,
+					0.66,
+					0.656072,
+					1
+				],
+				"polar_color": [
+					0.922143,
+					0.934,
+					0.93261,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.572266,
+					0.548609,
+					0.455801,
+					1
+				],
+				"polar": [
+					0.942773,
+					0.93303,
+					0.894806,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.59618,
+					0.882211,
+					0.976887,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.530104,
+					0.933594,
+					0.401154,
+					1
+				],
+				"fraction": 0.25,
+				"polar_color": [
+					0.671576,
+					0.920117,
+					0.592146,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 6144,
+				"techLevel": 5,
+				"economy": 7,
+				"government": 4,
+				"description": "This world is plagued by occasional solar activity.",
+				"inhabitants": "Red Fat Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.754426,
+				0.756882,
+				0.34218,
+				1
+			],
+			"radius": 109139.100189,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 572520,
+				"vector": [
+					0.306,
+					-0.243,
+					-0.921
+				]
+			},
+			"corona": {
+				"shimmer": 0.514008,
+				"hues": 0.931946,
+				"flare": 0.049585
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Timabi",
+				"radius": 9542
+			}
+		}
+	]
+}

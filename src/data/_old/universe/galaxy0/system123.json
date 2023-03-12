@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system123",
+	"position": [
+		93,
+		29
+	],
+	"space": {
+		"blurs": 62,
+		"stars": 5834,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Raale",
+			"name": "Raale",
+			"seed": "24 29 196 93 173 116",
+			"body": {
+				"radius": 3933,
+				"rotation_v": 0.002996,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 432630
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.654844,
+					0.65569,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.932176,
+					0.932475,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.658203,
+					0.555359,
+					0.493652,
+					1
+				],
+				"polar": [
+					0.93418,
+					0.897688,
+					0.875793,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.626459,
+					0.524463,
+					0.911848,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.640837,
+					0.239365,
+					0.738281,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.763574,
+					0.480725,
+					0.832227,
+					1
+				]
+			},
+			"demographics": {
+				"type": 12,
+				"productivity": 1152,
+				"techLevel": 1,
+				"economy": 7,
+				"government": 0,
+				"description": "This world is very fabled for the Raaleian edible poet.",
+				"inhabitants": "Blue Slimy Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.514647,
+				0.559371,
+				0.73082,
+				1
+			],
+			"radius": 99498.25058,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 432630,
+				"vector": [
+					-0.243,
+					-0.471,
+					0.848
+				]
+			},
+			"corona": {
+				"shimmer": 0.464939,
+				"hues": 0.603104,
+				"flare": 0.039349
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Raale",
+				"radius": 7866
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system78",
+	"position": [
+		183,
+		163
+	],
+	"space": {
+		"blurs": 77,
+		"stars": 5767,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zariorte",
+			"name": "Zariorte",
+			"seed": "65 163 48 183 13 4",
+			"body": {
+				"radius": 4023,
+				"rotation_v": 0.003427,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 482760
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.0567188,
+					0.594016,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.720566,
+					0.910656,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.611328,
+					0.475212,
+					0.475212,
+					1
+				],
+				"polar": [
+					0.938867,
+					0.886606,
+					0.886606,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.480054,
+					0.701298,
+					0.842256,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.163338,
+					0.529297,
+					0.229096,
+					1
+				],
+				"fraction": 0.34,
+				"polar_color": [
+					0.419193,
+					0.738184,
+					0.476512,
+					1
+				]
+			},
+			"demographics": {
+				"type": 50,
+				"productivity": 28000,
+				"techLevel": 10,
+				"economy": 3,
+				"government": 6,
+				"description": "This planet is beset by deadly earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.651514,
+				0.650783,
+				0.191286,
+				1
+			],
+			"radius": 131113.975067,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 241380,
+				"vector": [
+					-0.241,
+					0.917,
+					0.318
+				]
+			},
+			"corona": {
+				"shimmer": 0.340617,
+				"hues": 0.634407,
+				"flare": 0.010239
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Zariorte",
+				"radius": 8046
+			}
+		}
+	]
+}

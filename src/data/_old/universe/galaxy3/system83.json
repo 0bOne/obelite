@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system83",
+	"position": [
+		134,
+		122
+	],
+	"space": {
+		"blurs": 119,
+		"stars": 8670,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esarqure",
+			"name": "Esarqure",
+			"seed": "90 122 130 134 170 41",
+			"body": {
+				"radius": 5254,
+				"rotation_v": 0.000039,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 683020
+			},
+			"land": {
+				"color": [
+					0.269736,
+					0.213984,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.795929,
+					0.776205,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.724609,
+					0.49923,
+					0.430237,
+					1
+				],
+				"polar": [
+					0.927539,
+					0.855415,
+					0.833336,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.670841,
+					0.857865,
+					0.831392,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.576172,
+					0.563125,
+					0.544662,
+					1
+				],
+				"fraction": 0.47,
+				"polar_color": [
+					0.759277,
+					0.748532,
+					0.733325,
+					1
+				]
+			},
+			"demographics": {
+				"type": 31,
+				"productivity": 7936,
+				"techLevel": 7,
+				"economy": 2,
+				"government": 0,
+				"description": "This planet is fabled for its ancient Esarqureian Eninarxe tulip plantations and its inhabitants’ unusual silliness.",
+				"inhabitants": "Small Red Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.795847,
+				0.774093,
+				0.695743,
+				1
+			],
+			"radius": 88850.450439,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 472860,
+				"vector": [
+					-0.74,
+					0.443,
+					-0.507
+				]
+			},
+			"corona": {
+				"shimmer": 0.424066,
+				"hues": 0.890709,
+				"flare": 0.00576
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esarqure",
+				"radius": 10508
+			}
+		}
+	]
+}

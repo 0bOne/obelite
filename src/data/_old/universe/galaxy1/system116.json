@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system116",
+	"position": [
+		192,
+		14
+	],
+	"space": {
+		"blurs": 55,
+		"stars": 5855,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceraqu",
+			"name": "Ceraqu",
+			"seed": "52 14 128 192 102 37",
+			"body": {
+				"radius": 4288,
+				"rotation_v": 0.001999,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 557440
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.365328,
+					0.170156,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.829749,
+					0.760699,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.582031,
+					0.548336,
+					0.458804,
+					1
+				],
+				"polar": [
+					0.941797,
+					0.928166,
+					0.891948,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.462256,
+					0.618507,
+					0.885832,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.108307,
+					0.660156,
+					0.60842,
+					1
+				],
+				"fraction": 0.55,
+				"polar_color": [
+					0.380632,
+					0.79707,
+					0.758029,
+					1
+				]
+			},
+			"demographics": {
+				"type": 11,
+				"productivity": 1408,
+				"techLevel": 1,
+				"economy": 6,
+				"government": 0,
+				"description": "This world is most fabled for Ceraquian lethal brandy but scourged by frequent civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.568371,
+				0.618144,
+				0.820322,
+				1
+			],
+			"radius": 117021.650391,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 428800,
+				"vector": [
+					-0.288,
+					-0.785,
+					-0.549
+				]
+			},
+			"corona": {
+				"shimmer": 0.368441,
+				"hues": 0.704262,
+				"flare": 0.07673
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceraqu",
+				"radius": 8576
+			}
+		}
+	]
+}

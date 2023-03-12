@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system47",
+	"position": [
+		152,
+		124
+	],
+	"space": {
+		"blurs": 81,
+		"stars": 6159,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Beesve",
+			"name": "Beesve",
+			"seed": "182 124 228 152 211 211",
+			"body": {
+				"radius": 3736,
+				"rotation_v": 0.003752,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 410960
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.550994,
+					0.342891,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.895435,
+					0.821811,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.605778,
+					0.818359,
+					0.738641,
+					1
+				],
+				"polar": [
+					0.858537,
+					0.918164,
+					0.895804,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.444255,
+					0.708176,
+					0.870873,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0793076,
+					0.615234,
+					0.163046,
+					1
+				],
+				"fraction": 0.51,
+				"polar_color": [
+					0.353909,
+					0.776855,
+					0.419995,
+					1
+				]
+			},
+			"demographics": {
+				"type": 29,
+				"productivity": 11136,
+				"techLevel": 5,
+				"economy": 4,
+				"government": 4,
+				"description": "The world Beesve is most well known for its exotic night life.",
+				"inhabitants": "Fat Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.27288,
+				0.356707,
+				0.760223,
+				1
+			],
+			"radius": 118553.696289,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 336240,
+				"vector": [
+					-0.644,
+					-0.761,
+					-0.071
+				]
+			},
+			"corona": {
+				"shimmer": 0.404239,
+				"hues": 0.88131,
+				"flare": 0.089828
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Beesve",
+				"radius": 7472
+			}
+		}
+	]
+}

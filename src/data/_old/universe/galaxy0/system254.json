@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system254",
+	"position": [
+		138,
+		248
+	],
+	"space": {
+		"blurs": 82,
+		"stars": 8286,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Onlema",
+			"name": "Onlema",
+			"seed": "58 248 36 138 91 95",
+			"body": {
+				"radius": 6794,
+				"rotation_v": 0.002135,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 747340
+			},
+			"land": {
+				"color": [
+					0.572266,
+					0.549946,
+					0.532028,
+					1
+				],
+				"polar_color": [
+					0.942773,
+					0.933581,
+					0.926201,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.703708,
+					0.794922,
+					0.503036,
+					1
+				],
+				"polar": [
+					0.894102,
+					0.920508,
+					0.836008,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.640793,
+					0.867786,
+					0.939814,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.607615,
+					0.822266,
+					0.529976,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.728072,
+					0.87002,
+					0.676729,
+					1
+				]
+			},
+			"demographics": {
+				"type": 49,
+				"productivity": 31360,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 4,
+				"description": "This world is plagued by frequent solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.751859,
+				0.645489,
+				0.314474,
+				1
+			],
+			"radius": 170964.433289,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 679400,
+				"vector": [
+					-0.636,
+					-0.681,
+					-0.363
+				]
+			},
+			"corona": {
+				"shimmer": 0.388408,
+				"hues": 0.681061,
+				"flare": 0.055128
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Onlema",
+				"radius": 13588
+			}
+		}
+	]
+}

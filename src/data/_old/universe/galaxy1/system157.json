@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system157",
+	"position": [
+		15,
+		31
+	],
+	"space": {
+		"blurs": 122,
+		"stars": 7734,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Diteor",
+			"name": "Diteor",
+			"seed": "128 31 32 15 218 237",
+			"body": {
+				"radius": 6159,
+				"rotation_v": 0.001907,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 677490
+			},
+			"land": {
+				"color": [
+					0.603845,
+					0.66,
+					0.572344,
+					1
+				],
+				"polar_color": [
+					0.914133,
+					0.934,
+					0.902988,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0303802,
+					0.707031,
+					0.516723,
+					1
+				],
+				"polar": [
+					0.706955,
+					0.929297,
+					0.866763,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.736364,
+					0.538566,
+					0.930059,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.792969,
+					0.266388,
+					0.513223,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.856836,
+					0.501216,
+					0.667913,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 6144,
+				"techLevel": 5,
+				"economy": 7,
+				"government": 4,
+				"description": "This world is very fabled for its weird volcanoes.",
+				"inhabitants": "Slimy Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.454551,
+				0.465777,
+				0.65029,
+				1
+			],
+			"radius": 204302.570801,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 554310,
+				"vector": [
+					0.452,
+					-0.645,
+					0.616
+				]
+			},
+			"corona": {
+				"shimmer": 0.363923,
+				"hues": 0.828346,
+				"flare": 0.045001
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Diteor",
+				"radius": 12318
+			}
+		}
+	]
+}

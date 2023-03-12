@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system22",
+	"position": [
+		130,
+		120
+	],
+	"space": {
+		"blurs": 79,
+		"stars": 6088,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Bixein",
+			"name": "Bixein",
+			"seed": "145 120 233 130 237 198",
+			"body": {
+				"radius": 4482,
+				"rotation_v": 0.001985,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 537840
+			},
+			"land": {
+				"color": [
+					0.289274,
+					0.517578,
+					0.117264,
+					1
+				],
+				"polar_color": [
+					0.843675,
+					0.948242,
+					0.764891,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.625648,
+					0.827194,
+					0.832031,
+					1
+				],
+				"polar": [
+					0.859945,
+					0.915464,
+					0.916797,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.487374,
+					0.624439,
+					0.866971,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.172096,
+					0.603516,
+					0.573181,
+					1
+				],
+				"fraction": 0.52,
+				"polar_color": [
+					0.426857,
+					0.771582,
+					0.747343,
+					1
+				]
+			},
+			"demographics": {
+				"type": 54,
+				"productivity": 38880,
+				"techLevel": 12,
+				"economy": 0,
+				"government": 5,
+				"description": "The planet Bixein is an unremarkable dump.",
+				"inhabitants": "Fierce Horned Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.610449,
+				0.66707,
+				0.679425,
+				1
+			],
+			"radius": 112940.436401,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 403380,
+				"vector": [
+					-0.369,
+					0.916,
+					-0.156
+				]
+			},
+			"corona": {
+				"shimmer": 0.516731,
+				"hues": 0.911346,
+				"flare": 0.055258
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Bixein",
+				"radius": 8964
+			}
+		}
+	]
+}

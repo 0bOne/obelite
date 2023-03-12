@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system77",
+	"position": [
+		253,
+		189
+	],
+	"space": {
+		"blurs": 147,
+		"stars": 7107,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Letean",
+			"name": "Letean",
+			"seed": "47 189 237 253 32 65",
+			"body": {
+				"radius": 3325,
+				"rotation_v": 0.003075,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 465500
+			},
+			"land": {
+				"color": [
+					0.358359,
+					0.66,
+					0.4267,
+					1
+				],
+				"polar_color": [
+					0.827283,
+					0.934,
+					0.851461,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.582905,
+					0.699219,
+					0.535613,
+					1
+				],
+				"polar": [
+					0.891399,
+					0.930078,
+					0.875672,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.502407,
+					0.596717,
+					0.86567,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.203773,
+					0.506835,
+					0.599609,
+					1
+				],
+				"fraction": 0.16,
+				"polar_color": [
+					0.452197,
+					0.69538,
+					0.769824,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 12600,
+				"techLevel": 6,
+				"economy": 5,
+				"government": 5,
+				"description": "The planet Letean is most famous for its pink Noge plant plantations and its unusual oceans.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.681451,
+				0.422745,
+				0.31682,
+				1
+			],
+			"radius": 77758.201599,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 232750,
+				"vector": [
+					-0.198,
+					0.343,
+					0.918
+				]
+			},
+			"corona": {
+				"shimmer": 0.23801,
+				"hues": 0.789932,
+				"flare": 0.069252
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Letean",
+				"radius": 6650
+			}
+		}
+	]
+}

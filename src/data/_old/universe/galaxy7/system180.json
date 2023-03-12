@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system180",
+	"position": [
+		223,
+		145
+	],
+	"space": {
+		"blurs": 197,
+		"stars": 9693,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arance",
+			"name": "Arance",
+			"seed": "173 145 172 223 1 106",
+			"body": {
+				"radius": 5599,
+				"rotation_v": 0.001918,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 503910
+			},
+			"land": {
+				"color": [
+					0.572266,
+					0.453789,
+					0.500994,
+					1
+				],
+				"polar_color": [
+					0.942773,
+					0.893978,
+					0.91342,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.573939,
+					0.609375,
+					0.486786,
+					1
+				],
+				"polar": [
+					0.925411,
+					0.939062,
+					0.891834,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.783347,
+					0.751759,
+					0.967781,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.871403,
+					0.842529,
+					0.90625,
+					1
+				],
+				"fraction": 0.48,
+				"polar_color": [
+					0.885995,
+					0.867918,
+					0.907812,
+					1
+				]
+			},
+			"demographics": {
+				"type": 55,
+				"productivity": 35640,
+				"techLevel": 12,
+				"economy": 1,
+				"government": 5,
+				"description": "The planet Arance is most famous for its vast dense forests.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.703107,
+				0.667145,
+				0.20505,
+				1
+			],
+			"radius": 86788.942566,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 503910,
+				"vector": [
+					0.083,
+					0.11,
+					0.99
+				]
+			},
+			"corona": {
+				"shimmer": 0.515455,
+				"hues": 0.879639,
+				"flare": 0.097403
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Arance",
+				"radius": 11198
+			}
+		}
+	]
+}

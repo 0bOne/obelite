@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system252",
+	"position": [
+		23,
+		39
+	],
+	"space": {
+		"blurs": 100,
+		"stars": 9127,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Leontied",
+			"name": "Leontied",
+			"seed": "114 39 34 23 26 225",
+			"body": {
+				"radius": 3095,
+				"rotation_v": 0.004481,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 371400
+			},
+			"land": {
+				"color": [
+					0.490166,
+					0.020625,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.873915,
+					0.707797,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.599609,
+					0.535588,
+					0.460715,
+					1
+				],
+				"polar": [
+					0.940039,
+					0.914947,
+					0.885601,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.699681,
+					0.481388,
+					0.96583,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.900391,
+					0.0844116,
+					0.600773,
+					1
+				],
+				"fraction": 0.2,
+				"polar_color": [
+					0.905176,
+					0.392479,
+					0.71692,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 6144,
+				"techLevel": 5,
+				"economy": 7,
+				"government": 4,
+				"description": "This world is very fabled for its weird volcanoes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.699533,
+				0.224582,
+				0.17582,
+				1
+			],
+			"radius": 61961.865997,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 247600,
+				"vector": [
+					-0.431,
+					-0.058,
+					0.901
+				]
+			},
+			"corona": {
+				"shimmer": 0.479443,
+				"hues": 0.510345,
+				"flare": 0.05948
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Leontied",
+				"radius": 6190
+			}
+		}
+	]
+}

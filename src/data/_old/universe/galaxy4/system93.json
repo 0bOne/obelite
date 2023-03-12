@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system93",
+	"position": [
+		38,
+		114
+	],
+	"space": {
+		"blurs": 43,
+		"stars": 8053,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Isvequre",
+			"name": "Isvequre",
+			"seed": "102 114 144 38 155 93",
+			"body": {
+				"radius": 6182,
+				"rotation_v": 0.003837,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 865480
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.436952,
+					0.407344,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.855088,
+					0.844613,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.9,
+					0.72,
+					0.828,
+					1
+				],
+				"polar": [
+					0.91,
+					0.8645,
+					0.8918,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.771611,
+					0.60086,
+					0.889734,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.671875,
+					0.419922,
+					0.473068,
+					1
+				],
+				"fraction": 0.45,
+				"polar_color": [
+					0.802344,
+					0.614294,
+					0.653961,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 14208,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 2,
+				"description": "The world Isvequre is very noted for its pink oceans but cursed by deadly disease.",
+				"inhabitants": "Yellow Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.183562,
+				0.696709,
+				0.719879,
+				1
+			],
+			"radius": 141162.709961,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 247280,
+				"vector": [
+					0.706,
+					-0.181,
+					0.684
+				]
+			},
+			"corona": {
+				"shimmer": 0.250644,
+				"hues": 0.843391,
+				"flare": 0.012604
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Isvequre",
+				"radius": 12364
+			}
+		}
+	]
+}

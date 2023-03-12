@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system196",
+	"position": [
+		36,
+		121
+	],
+	"space": {
+		"blurs": 40,
+		"stars": 9383,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Rige",
+			"name": "Rige",
+			"seed": "153 121 49 36 141 128",
+			"body": {
+				"radius": 2852,
+				"rotation_v": 0.003501,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 342240
+			},
+			"land": {
+				"color": [
+					0.53125,
+					0.419189,
+					0.52162,
+					1
+				],
+				"polar_color": [
+					0.946875,
+					0.896942,
+					0.942584,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.626112,
+					0.808594,
+					0.533798,
+					1
+				],
+				"polar": [
+					0.867283,
+					0.919141,
+					0.84105,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.768167,
+					0.721673,
+					0.995748,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.883318,
+					0.765884,
+					0.990234,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.881794,
+					0.811706,
+					0.945605,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 31680,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 6,
+				"description": "This planet is most notable for Rigeian Ala’ water but scourged by deadly tree grubs.",
+				"inhabitants": "Large Black Furry Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.648398,
+				0.656942,
+				0.83183,
+				1
+			],
+			"radius": 59860.841064,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 256680,
+				"vector": [
+					-0.649,
+					0.732,
+					-0.209
+				]
+			},
+			"corona": {
+				"shimmer": 0.382103,
+				"hues": 0.7388,
+				"flare": 0.045334
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Rige",
+				"radius": 5704
+			}
+		}
+	]
+}

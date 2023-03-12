@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system28",
+	"position": [
+		164,
+		89
+	],
+	"space": {
+		"blurs": 135,
+		"stars": 8755,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arexe",
+			"name": "Arexe",
+			"seed": "122 89 240 164 179 239",
+			"body": {
+				"radius": 6820,
+				"rotation_v": 0.000485,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 750200
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.262969,
+					0.532826,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.793535,
+					0.889007,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.587891,
+					0.586021,
+					0.468246,
+					1
+				],
+				"polar": [
+					0.941211,
+					0.940463,
+					0.893323,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.658997,
+					0.870223,
+					0.840324,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.613281,
+					0.580547,
+					0.534225,
+					1
+				],
+				"fraction": 0.51,
+				"polar_color": [
+					0.775977,
+					0.75009,
+					0.713459,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 31680,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 6,
+				"description": "The world Arexe is fabled for its exciting sit coms and its inhabitants’ ancient loathing of sit coms.",
+				"inhabitants": "Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.513365,
+				0.734486,
+				0.747351,
+				1
+			],
+			"radius": 219838.22937,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 613800,
+				"vector": [
+					0.397,
+					0.909,
+					-0.126
+				]
+			},
+			"corona": {
+				"shimmer": 0.89975,
+				"hues": 0.660469,
+				"flare": 0.093323
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Arexe",
+				"radius": 13640
+			}
+		}
+	]
+}

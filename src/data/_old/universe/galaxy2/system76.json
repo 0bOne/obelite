@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system76",
+	"position": [
+		165,
+		144
+	],
+	"space": {
+		"blurs": 99,
+		"stars": 8675,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceanbibi",
+			"name": "Ceanbibi",
+			"seed": "121 144 209 165 13 229",
+			"body": {
+				"radius": 4261,
+				"rotation_v": 0.004817,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 468710
+			},
+			"land": {
+				"color": [
+					0.274225,
+					0.241684,
+					0.658203,
+					1
+				],
+				"polar_color": [
+					0.797936,
+					0.78639,
+					0.93418,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.69542,
+					0.722656,
+					0.539169,
+					1
+				],
+				"polar": [
+					0.918993,
+					0.927734,
+					0.868845,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.503733,
+					0.480584,
+					0.920953,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.235613,
+					0.12561,
+					0.765625,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.479134,
+					0.403297,
+					0.844531,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 18720,
+				"techLevel": 9,
+				"economy": 0,
+				"government": 2,
+				"description": "The world Ceanbibi is reasonably noted for its exotic goat soup.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.386049,
+				0.534956,
+				0.698743,
+				1
+			],
+			"radius": 98875.667572,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 426100,
+				"vector": [
+					0.184,
+					0.584,
+					0.791
+				]
+			},
+			"corona": {
+				"shimmer": 0.356433,
+				"hues": 0.910057,
+				"flare": 0.008299
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceanbibi",
+				"radius": 8522
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system101",
+	"position": [
+		168,
+		77
+	],
+	"space": {
+		"blurs": 58,
+		"stars": 8455,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Maleve",
+			"name": "Maleve",
+			"seed": "42 77 242 168 202 75",
+			"body": {
+				"radius": 5800,
+				"rotation_v": 0.003184,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 638000
+			},
+			"land": {
+				"color": [
+					0.451172,
+					0.464224,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.860119,
+					0.864737,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.611074,
+					0.615234,
+					0.482094,
+					1
+				],
+				"polar": [
+					0.93689,
+					0.938477,
+					0.887703,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.705598,
+					0.723222,
+					0.978838,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.715599,
+					0.755823,
+					0.939453,
+					1
+				],
+				"fraction": 0.16,
+				"polar_color": [
+					0.785332,
+					0.810025,
+					0.922754,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 12800,
+				"techLevel": 5,
+				"economy": 5,
+				"government": 6,
+				"description": "This world is most fabled for Maleveian lethal brandy but scourged by deadly tree ants.",
+				"inhabitants": "Small Yellow Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.40326,
+				0.517302,
+				0.787387,
+				1
+			],
+			"radius": 157075.073242,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 406000,
+				"vector": [
+					-0.182,
+					-0.89,
+					0.417
+				]
+			},
+			"corona": {
+				"shimmer": 0.366352,
+				"hues": 0.888298,
+				"flare": 0.028578
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Maleve",
+				"radius": 11600
+			}
+		}
+	]
+}

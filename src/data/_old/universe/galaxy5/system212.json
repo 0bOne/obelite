@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system212",
+	"position": [
+		202,
+		115
+	],
+	"space": {
+		"blurs": 103,
+		"stars": 7672,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Reinbixe",
+			"name": "Reinbixe",
+			"seed": "121 115 161 202 218 206",
+			"body": {
+				"radius": 6602,
+				"rotation_v": 0.001961,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 792240
+			},
+			"land": {
+				"color": [
+					0.194679,
+					0.446846,
+					0.630859,
+					1
+				],
+				"polar_color": [
+					0.774967,
+					0.868593,
+					0.936914,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.9,
+					0.72,
+					0.828,
+					1
+				],
+				"polar": [
+					0.91,
+					0.8645,
+					0.8918,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.653128,
+					0.803268,
+					0.967131,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.565186,
+					0.904297,
+					0.761234,
+					1
+				],
+				"fraction": 0.37,
+				"polar_color": [
+					0.694371,
+					0.906934,
+					0.817259,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 17920,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 4,
+				"description": "This planet is notable for the Reinbixeian tree wolf and its pink oceans.",
+				"inhabitants": "Bug-Eyed Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.670332,
+				0.678834,
+				0.692007,
+				1
+			],
+			"radius": 169189.346008,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 462140,
+				"vector": [
+					-0.11,
+					0.629,
+					0.769
+				]
+			},
+			"corona": {
+				"shimmer": 0.530879,
+				"hues": 0.975693,
+				"flare": 0.062196
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Reinbixe",
+				"radius": 13204
+			}
+		}
+	]
+}

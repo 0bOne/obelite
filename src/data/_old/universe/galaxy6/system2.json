@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system2",
+	"position": [
+		128,
+		242
+	],
+	"space": {
+		"blurs": 92,
+		"stars": 7357,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceor",
+			"name": "Ceor",
+			"seed": "178 242 186 128 244 37",
+			"body": {
+				"radius": 4224,
+				"rotation_v": 0.000896,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 591360
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.234609,
+					0.404101,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.783502,
+					0.843466,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.582031,
+					0.483657,
+					0.445163,
+					1
+				],
+				"polar": [
+					0.941797,
+					0.902002,
+					0.88643,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.649337,
+					0.899096,
+					0.900791,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.699828,
+					0.705078,
+					0.537071,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.813482,
+					0.817285,
+					0.69557,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 32384,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 7,
+				"description": "This planet is noted for Zero-G cricket.",
+				"inhabitants": "Fierce Red Horned Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.314536,
+				0.711371,
+				0.841348,
+				1
+			],
+			"radius": 120547.324219,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 253440,
+				"vector": [
+					0.354,
+					0.607,
+					-0.711
+				]
+			},
+			"corona": {
+				"shimmer": 0.414643,
+				"hues": 0.572716,
+				"flare": 0.05872
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceor",
+				"radius": 8448
+			}
+		}
+	]
+}

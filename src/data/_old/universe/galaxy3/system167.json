@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system167",
+	"position": [
+		79,
+		170
+	],
+	"space": {
+		"blurs": 55,
+		"stars": 8446,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arceonre",
+			"name": "Arceonre",
+			"seed": "250 170 162 79 106 10",
+			"body": {
+				"radius": 5455,
+				"rotation_v": 0.003766,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 545500
+			},
+			"land": {
+				"color": [
+					0.579712,
+					0.3368,
+					0.638672,
+					1
+				],
+				"polar_color": [
+					0.914528,
+					0.825516,
+					0.936133,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.730469,
+					0.44582,
+					0.408035,
+					1
+				],
+				"polar": [
+					0.926953,
+					0.83665,
+					0.824662,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.435395,
+					0.543225,
+					0.924205,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.00908661,
+					0.505987,
+					0.775391,
+					1
+				],
+				"fraction": 0.39,
+				"polar_color": [
+					0.324565,
+					0.66458,
+					0.848926,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 24064,
+				"techLevel": 10,
+				"economy": 2,
+				"government": 4,
+				"description": "The planet Arceonre is very famous for Arceonreian wolf cutlet but plagued by deadly earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.780203,
+				0.752628,
+				0.366473,
+				1
+			],
+			"radius": 143150.466919,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 600050,
+				"vector": [
+					0.782,
+					-0.174,
+					-0.598
+				]
+			},
+			"corona": {
+				"shimmer": 0.358799,
+				"hues": 0.617851,
+				"flare": 0.094116
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Arceonre",
+				"radius": 10910
+			}
+		}
+	]
+}

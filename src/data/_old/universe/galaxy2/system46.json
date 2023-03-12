@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system46",
+	"position": [
+		216,
+		244
+	],
+	"space": {
+		"blurs": 111,
+		"stars": 8636,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Geama",
+			"name": "Geama",
+			"seed": "49 244 73 216 109 163",
+			"body": {
+				"radius": 3800,
+				"rotation_v": 0.000732,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 456000
+			},
+			"land": {
+				"color": [
+					0.195938,
+					0.344583,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.76982,
+					0.822409,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.685547,
+					0.480728,
+					0.447212,
+					1
+				],
+				"polar": [
+					0.931445,
+					0.861874,
+					0.85049,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.521587,
+					0.519488,
+					0.885182,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.249719,
+					0.236542,
+					0.658203,
+					1
+				],
+				"fraction": 0.51,
+				"polar_color": [
+					0.487366,
+					0.477404,
+					0.796191,
+					1
+				]
+			},
+			"demographics": {
+				"type": 16,
+				"productivity": 2560,
+				"techLevel": 2,
+				"economy": 6,
+				"government": 1,
+				"description": "The world Geama is fabled for its fabulous cuisine and its weird volcanoes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.747894,
+				0.739034,
+				0.67213,
+				1
+			],
+			"radius": 80444.42749,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 304000,
+				"vector": [
+					0.807,
+					-0.104,
+					-0.581
+				]
+			},
+			"corona": {
+				"shimmer": 0.399366,
+				"hues": 0.611588,
+				"flare": 0.046327
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Geama",
+				"radius": 7600
+			}
+		}
+	]
+}

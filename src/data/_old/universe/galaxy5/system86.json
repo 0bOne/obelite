@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system86",
+	"position": [
+		59,
+		96
+	],
+	"space": {
+		"blurs": 139,
+		"stars": 9227,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ermati",
+			"name": "Ermati",
+			"seed": "41 96 21 59 138 144",
+			"body": {
+				"radius": 2875,
+				"rotation_v": 0.002067,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 373750
+			},
+			"land": {
+				"color": [
+					0.528516,
+					0.66,
+					0.632265,
+					1
+				],
+				"polar_color": [
+					0.887482,
+					0.934,
+					0.924188,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.562013,
+					0.722656,
+					0.552719,
+					1
+				],
+				"polar": [
+					0.876176,
+					0.927734,
+					0.873194,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.695447,
+					0.575485,
+					0.884531,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.65625,
+					0.36145,
+					0.603278,
+					1
+				],
+				"fraction": 0.21,
+				"polar_color": [
+					0.795313,
+					0.572019,
+					0.755189,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 22560,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 2,
+				"description": "This planet is noted for its fabulous goat soup.",
+				"inhabitants": "Black Bony Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.380093,
+				0.580479,
+				0.701788,
+				1
+			],
+			"radius": 89690.647125,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 115000,
+				"vector": [
+					-0.89,
+					-0.441,
+					0.114
+				]
+			},
+			"corona": {
+				"shimmer": 0.453035,
+				"hues": 0.695885,
+				"flare": 0.023715
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "icosahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Ermati",
+				"radius": 5750
+			}
+		}
+	]
+}

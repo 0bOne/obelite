@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system239",
+	"position": [
+		66,
+		252
+	],
+	"space": {
+		"blurs": 99,
+		"stars": 6089,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Areis",
+			"name": "Areis",
+			"seed": "231 252 105 66 40 143",
+			"body": {
+				"radius": 6722,
+				"rotation_v": 0.003864,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 604980
+			},
+			"land": {
+				"color": [
+					0.507812,
+					0.449063,
+					0.0654602,
+					1
+				],
+				"polar_color": [
+					0.949219,
+					0.921764,
+					0.742504,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.631607,
+					0.683594,
+					0.517235,
+					1
+				],
+				"polar": [
+					0.913928,
+					0.931641,
+					0.87496,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.476667,
+					0.556001,
+					0.895588,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.134659,
+					0.442396,
+					0.689453,
+					1
+				],
+				"fraction": 0.07,
+				"polar_color": [
+					0.402753,
+					0.628789,
+					0.810254,
+					1
+				]
+			},
+			"demographics": {
+				"type": 42,
+				"productivity": 18144,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 5,
+				"description": "This world is noted for its exciting sit coms.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.657805,
+				0.696831,
+				0.709091,
+				1
+			],
+			"radius": 137064.755554,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 941080,
+				"vector": [
+					0.288,
+					-0.093,
+					-0.953
+				]
+			},
+			"corona": {
+				"shimmer": 0.488346,
+				"hues": 0.564316,
+				"flare": 0.053267
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Areis",
+				"radius": 13444
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system118",
+	"position": [
+		20,
+		39
+	],
+	"space": {
+		"blurs": 105,
+		"stars": 7275,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Uszale",
+			"name": "Uszale",
+			"seed": "17 39 105 20 237 200",
+			"body": {
+				"radius": 4884,
+				"rotation_v": 0.001969,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 488400
+			},
+			"land": {
+				"color": [
+					0.597239,
+					0.66,
+					0.562031,
+					1
+				],
+				"polar_color": [
+					0.911796,
+					0.934,
+					0.89934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.634074,
+					0.719525,
+					0.794922,
+					1
+				],
+				"polar": [
+					0.873943,
+					0.898681,
+					0.920508,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.685269,
+					0.859166,
+					0.853552,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.580078,
+					0.579689,
+					0.575546,
+					1
+				],
+				"fraction": 0.44,
+				"polar_color": [
+					0.761035,
+					0.760716,
+					0.757319,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 5400,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 5,
+				"description": "This world is a revolting little planet.",
+				"inhabitants": "Small Bony Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.319056,
+				0.580039,
+				0.767706,
+				1
+			],
+			"radius": 150779.042358,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 341880,
+				"vector": [
+					0.157,
+					-0.802,
+					0.576
+				]
+			},
+			"corona": {
+				"shimmer": 0.377938,
+				"hues": 0.835892,
+				"flare": 0.086133
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Uszale",
+				"radius": 9768
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system168",
+	"position": [
+		130,
+		181
+	],
+	"space": {
+		"blurs": 124,
+		"stars": 5223,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Inzabeza",
+			"name": "Inzabeza",
+			"seed": "210 181 242 130 20 44",
+			"body": {
+				"radius": 6018,
+				"rotation_v": 0.001836,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 782340
+			},
+			"land": {
+				"color": [
+					0.22776,
+					0.537488,
+					0.544922,
+					1
+				],
+				"polar_color": [
+					0.807929,
+					0.942283,
+					0.945508,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.505859,
+					0.381568,
+					0.486439,
+					1
+				],
+				"polar": [
+					0.949414,
+					0.891096,
+					0.940302,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.542359,
+					0.526385,
+					0.883231,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.311659,
+					0.252274,
+					0.652344,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.534535,
+					0.489385,
+					0.793555,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 16000,
+				"techLevel": 7,
+				"economy": 5,
+				"government": 6,
+				"description": "This planet is fabled for its fabulous vicious Bi gargle blasters.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.187785,
+				0.429806,
+				0.714789,
+				1
+			],
+			"radius": 173327.876587,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 361080,
+				"vector": [
+					-0.312,
+					-0.948,
+					-0.066
+				]
+			},
+			"corona": {
+				"shimmer": 0.546434,
+				"hues": 0.882118,
+				"flare": 0.09044
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Inzabeza",
+				"radius": 12036
+			}
+		}
+	]
+}

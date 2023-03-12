@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system241",
+	"position": [
+		247,
+		169
+	],
+	"space": {
+		"blurs": 178,
+		"stars": 8399,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Lavegere",
+			"name": "Lavegere",
+			"seed": "94 169 106 247 128 85",
+			"body": {
+				"radius": 4343,
+				"rotation_v": 0.004217,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 434300
+			},
+			"land": {
+				"color": [
+					0.0799219,
+					0.619213,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.728775,
+					0.91957,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.576431,
+					0.722656,
+					0.664395,
+					1
+				],
+				"polar": [
+					0.880804,
+					0.927734,
+					0.909036,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.617699,
+					0.82815,
+					0.980789,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.461578,
+					0.945312,
+					0.593849,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.629428,
+					0.925391,
+					0.710355,
+					1
+				]
+			},
+			"demographics": {
+				"type": 55,
+				"productivity": 35640,
+				"techLevel": 12,
+				"economy": 1,
+				"government": 5,
+				"description": "The planet Lavegere is most noted for its inhabitants’ exceptional loathing of sit coms and Lavegereian wolf cutlet.",
+				"inhabitants": "Yellow Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.517131,
+				0.712183,
+				0.79158,
+				1
+			],
+			"radius": 100195.957642,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 564590,
+				"vector": [
+					0.398,
+					0.642,
+					-0.655
+				]
+			},
+			"corona": {
+				"shimmer": 0.603029,
+				"hues": 0.610115,
+				"flare": 0.039444
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Lavegere",
+				"radius": 8686
+			}
+		}
+	]
+}

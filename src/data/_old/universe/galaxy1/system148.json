@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system148",
+	"position": [
+		148,
+		129
+	],
+	"space": {
+		"blurs": 148,
+		"stars": 7323,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Dixeza",
+			"name": "Dixeza",
+			"seed": "52 129 0 148 102 109",
+			"body": {
+				"radius": 6292,
+				"rotation_v": 0.002025,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 817960
+			},
+			"land": {
+				"color": [
+					0.103125,
+					0.333706,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.736984,
+					0.818561,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.560541,
+					0.708984,
+					0.60461,
+					1
+				],
+				"polar": [
+					0.880469,
+					0.929102,
+					0.894907,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.49506,
+					0.667134,
+					0.843557,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.19162,
+					0.533203,
+					0.373086,
+					1
+				],
+				"fraction": 0.23,
+				"polar_color": [
+					0.443676,
+					0.739941,
+					0.601067,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 4480,
+				"techLevel": 4,
+				"economy": 3,
+				"government": 0,
+				"description": "Dixeza is ravaged by dreadful civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.303571,
+				0.807154,
+				0.81702,
+				1
+			],
+			"radius": 138611.984253,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 440440,
+				"vector": [
+					0.014,
+					0.959,
+					0.284
+				]
+			},
+			"corona": {
+				"shimmer": 0.312133,
+				"hues": 0.933975,
+				"flare": 0.016475
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Dixeza",
+				"radius": 12584
+			}
+		}
+	]
+}

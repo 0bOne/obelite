@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system81",
+	"position": [
+		159,
+		114
+	],
+	"space": {
+		"blurs": 91,
+		"stars": 6474,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Cetite",
+			"name": "Cetite",
+			"seed": "175 114 117 159 64 69",
+			"body": {
+				"radius": 4255,
+				"rotation_v": 0.002125,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 468050
+			},
+			"land": {
+				"color": [
+					0.220413,
+					0.527344,
+					0.476988,
+					1
+				],
+				"polar_color": [
+					0.809431,
+					0.947266,
+					0.924652,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.693359,
+					0.485064,
+					0.444183,
+					1
+				],
+				"polar": [
+					0.930664,
+					0.860768,
+					0.84705,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.838284,
+					0.766966,
+					0.980789,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.945312,
+					0.893616,
+					0.944505,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.925391,
+					0.893761,
+					0.924896,
+					1
+				]
+			},
+			"demographics": {
+				"type": 53,
+				"productivity": 33920,
+				"techLevel": 11,
+				"economy": 2,
+				"government": 6,
+				"description": "This world is ravaged by occasional solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.801688,
+				0.781622,
+				0.778678,
+				1
+			],
+			"radius": 111189.273834,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 340400,
+				"vector": [
+					-0.262,
+					0.96,
+					-0.101
+				]
+			},
+			"corona": {
+				"shimmer": 0.738667,
+				"hues": 0.849297,
+				"flare": 0.049409
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Cetite",
+				"radius": 8510
+			}
+		}
+	]
+}

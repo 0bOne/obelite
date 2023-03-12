@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system127",
+	"position": [
+		47,
+		23
+	],
+	"space": {
+		"blurs": 158,
+		"stars": 8145,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Qulearbi",
+			"name": "Qulearbi",
+			"seed": "206 23 18 47 80 90",
+			"body": {
+				"radius": 5423,
+				"rotation_v": 0.000126,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 542300
+			},
+			"land": {
+				"color": [
+					0.646484,
+					0.602903,
+					0.527794,
+					1
+				],
+				"polar_color": [
+					0.935352,
+					0.919588,
+					0.89242,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.142044,
+					0.626953,
+					0.558763,
+					1
+				],
+				"polar": [
+					0.756068,
+					0.937305,
+					0.911818,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.64727,
+					0.882324,
+					0.922904,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.667703,
+					0.771484,
+					0.54245,
+					1
+				],
+				"fraction": 0.18,
+				"polar_color": [
+					0.775942,
+					0.847168,
+					0.689979,
+					1
+				]
+			},
+			"demographics": {
+				"type": 26,
+				"productivity": 3744,
+				"techLevel": 4,
+				"economy": 7,
+				"government": 2,
+				"description": "The world Qulearbi is mildly noted for the Qulearbiian mountain lobstoid but beset by frequent solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.690994,
+				0.604447,
+				0.498945,
+				1
+			],
+			"radius": 136789.746704,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 488070,
+				"vector": [
+					-0.352,
+					0.739,
+					-0.575
+				]
+			},
+			"corona": {
+				"shimmer": 0.266428,
+				"hues": 0.930832,
+				"flare": 0.007944
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Qulearbi",
+				"radius": 10846
+			}
+		}
+	]
+}

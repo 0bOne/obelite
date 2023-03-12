@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system172",
+	"position": [
+		45,
+		218
+	],
+	"space": {
+		"blurs": 53,
+		"stars": 5758,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Angemaar",
+			"name": "Angemaar",
+			"seed": "249 218 81 45 13 91",
+			"body": {
+				"radius": 5677,
+				"rotation_v": 0.004735,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 794780
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.377776,
+					0.340313,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.834153,
+					0.820898,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.730469,
+					0.385208,
+					0.417576,
+					1
+				],
+				"polar": [
+					0.926953,
+					0.817421,
+					0.827689,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.738982,
+					0.487444,
+					0.970383,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.914062,
+					0.096405,
+					0.441354,
+					1
+				],
+				"fraction": 0.26,
+				"polar_color": [
+					0.911328,
+					0.401821,
+					0.616769,
+					1
+				]
+			},
+			"demographics": {
+				"type": 33,
+				"productivity": 12672,
+				"techLevel": 7,
+				"economy": 2,
+				"government": 2,
+				"description": "The world Angemaar is mildly noted for the Angemaarian deadly Enaboid but plagued by lethal spotted batoids.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.651883,
+				0.497128,
+				0.281573,
+				1
+			],
+			"radius": 170114.229431,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 113540,
+				"vector": [
+					-0.673,
+					-0.118,
+					-0.73
+				]
+			},
+			"corona": {
+				"shimmer": 0.241346,
+				"hues": 0.507439,
+				"flare": 0.058733
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Angemaar",
+				"radius": 11354
+			}
+		}
+	]
+}

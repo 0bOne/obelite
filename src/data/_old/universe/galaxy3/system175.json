@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system175",
+	"position": [
+		33,
+		125
+	],
+	"space": {
+		"blurs": 132,
+		"stars": 9188,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Mamaed",
+			"name": "Mamaed",
+			"seed": "58 125 226 33 234 11",
+			"body": {
+				"radius": 5665,
+				"rotation_v": 0.00126,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 736450
+			},
+			"land": {
+				"color": [
+					0.623047,
+					0.386971,
+					0.580627,
+					1
+				],
+				"polar_color": [
+					0.937695,
+					0.848871,
+					0.921735,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.783203,
+					0.747733,
+					0.458908,
+					1
+				],
+				"polar": [
+					0.92168,
+					0.911244,
+					0.826271,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.637402,
+					0.885832,
+					0.840972,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.660156,
+					0.575219,
+					0.500275,
+					1
+				],
+				"fraction": 0.44,
+				"polar_color": [
+					0.79707,
+					0.732975,
+					0.67642,
+					1
+				]
+			},
+			"demographics": {
+				"type": 30,
+				"productivity": 9600,
+				"techLevel": 5,
+				"economy": 5,
+				"government": 4,
+				"description": "Mamaed is most famous for the Mamaedian deadly lobstoid and the Mamaedian spotted shrew.",
+				"inhabitants": "Small Green Fat Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.547943,
+				0.616172,
+				0.82439,
+				1
+			],
+			"radius": 136022.756195,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 396550,
+				"vector": [
+					0.158,
+					-0.602,
+					0.783
+				]
+			},
+			"corona": {
+				"shimmer": 0.282712,
+				"hues": 0.644226,
+				"flare": 0.072437
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Mamaed",
+				"radius": 11330
+			}
+		}
+	]
+}

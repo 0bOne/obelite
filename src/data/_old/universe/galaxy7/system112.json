@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system112",
+	"position": [
+		183,
+		226
+	],
+	"space": {
+		"blurs": 161,
+		"stars": 6768,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atmala",
+			"name": "Atmala",
+			"seed": "133 226 132 183 201 49",
+			"body": {
+				"radius": 3255,
+				"rotation_v": 0.003761,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 390600
+			},
+			"land": {
+				"color": [
+					0.0283594,
+					0.66,
+					0.482351,
+					1
+				],
+				"polar_color": [
+					0.710533,
+					0.934,
+					0.87115,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.605469,
+					0.467873,
+					0.449608,
+					1
+				],
+				"polar": [
+					0.939453,
+					0.886079,
+					0.878994,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.70574,
+					0.506287,
+					0.94892,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.849609,
+					0.169258,
+					0.599793,
+					1
+				],
+				"fraction": 0.42,
+				"polar_color": [
+					0.882324,
+					0.440731,
+					0.720177,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 8960,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 0,
+				"description": "This world is most fabled for Atmalaian Re brandy but scourged by killer edible Reoids.",
+				"inhabitants": "Red Furry Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.269142,
+				0.56925,
+				0.75235,
+				1
+			],
+			"radius": 82080.276489,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 227850,
+				"vector": [
+					-0.334,
+					-0.882,
+					0.332
+				]
+			},
+			"corona": {
+				"shimmer": 0.71446,
+				"hues": 0.906052,
+				"flare": 0.063608
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atmala",
+				"radius": 6510
+			}
+		}
+	]
+}

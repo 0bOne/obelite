@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system202",
+	"position": [
+		230,
+		27
+	],
+	"space": {
+		"blurs": 63,
+		"stars": 8224,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Isonza",
+			"name": "Isonza",
+			"seed": "148 27 152 230 182 189",
+			"body": {
+				"radius": 6374,
+				"rotation_v": 0.002387,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 828620
+			},
+			"land": {
+				"color": [
+					0.601348,
+					0.66,
+					0.5775,
+					1
+				],
+				"polar_color": [
+					0.91325,
+					0.934,
+					0.904813,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0303802,
+					0.707031,
+					0.532582,
+					1
+				],
+				"polar": [
+					0.706955,
+					0.929297,
+					0.871974,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.493767,
+					0.640959,
+					0.854613,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.188065,
+					0.566406,
+					0.4866,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.439734,
+					0.754883,
+					0.688406,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 15288,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 3,
+				"description": "This planet is beset by deadly earthquakes.",
+				"inhabitants": "Harmless Furry Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.59582,
+				0.69694,
+				0.803259,
+				1
+			],
+			"radius": 175230.534668,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 509920,
+				"vector": [
+					0.203,
+					-0.827,
+					0.524
+				]
+			},
+			"corona": {
+				"shimmer": 0.514904,
+				"hues": 0.693932,
+				"flare": 0.092311
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Isonza",
+				"radius": 12748
+			}
+		}
+	]
+}

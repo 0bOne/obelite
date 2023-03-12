@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system6",
+	"position": [
+		95,
+		218
+	],
+	"space": {
+		"blurs": 87,
+		"stars": 9917,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Eresorbe",
+			"name": "Eresorbe",
+			"seed": "113 218 96 95 29 240",
+			"body": {
+				"radius": 2911,
+				"rotation_v": 0.002272,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 349320
+			},
+			"land": {
+				"color": [
+					0.0386719,
+					0.66,
+					0.35419,
+					1
+				],
+				"polar_color": [
+					0.714182,
+					0.934,
+					0.825808,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.583984,
+					0.576556,
+					0.465134,
+					1
+				],
+				"polar": [
+					0.941602,
+					0.938607,
+					0.893694,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.75237,
+					0.643992,
+					0.840305,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.523438,
+					0.470276,
+					0.48772,
+					1
+				],
+				"fraction": 0.42,
+				"polar_color": [
+					0.735547,
+					0.688857,
+					0.704177,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 24064,
+				"techLevel": 10,
+				"economy": 2,
+				"government": 4,
+				"description": "The planet Eresorbe is famous for Eresorbeian shrew steak but ravaged by occasional solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.716061,
+				0.687592,
+				0.588774,
+				1
+			],
+			"radius": 71430.012817,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 232880,
+				"vector": [
+					0.212,
+					-0.141,
+					-0.967
+				]
+			},
+			"corona": {
+				"shimmer": 0.471903,
+				"hues": 0.750237,
+				"flare": 0.03403
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Eresorbe",
+				"radius": 5822
+			}
+		}
+	]
+}

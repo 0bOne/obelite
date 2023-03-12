@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system207",
+	"position": [
+		46,
+		124
+	],
+	"space": {
+		"blurs": 85,
+		"stars": 7085,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anbiat",
+			"name": "Anbiat",
+			"seed": "54 124 164 46 211 219",
+			"body": {
+				"radius": 5678,
+				"rotation_v": 0.00124,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 681360
+			},
+			"land": {
+				"color": [
+					0.634078,
+					0.66,
+					0.404766,
+					1
+				],
+				"polar_color": [
+					0.924829,
+					0.934,
+					0.843701,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.759766,
+					0.438405,
+					0.385818,
+					1
+				],
+				"polar": [
+					0.924023,
+					0.826314,
+					0.810325,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.712658,
+					0.521488,
+					0.938514,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.818359,
+					0.217377,
+					0.583601,
+					1
+				],
+				"fraction": 0.17,
+				"polar_color": [
+					0.868262,
+					0.469743,
+					0.71259,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 14208,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 4,
+				"description": "Anbiat is mildly well known for Anbiatian wolf meat and its unusual dense forests.",
+				"inhabitants": "Horned Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.303429,
+				0.713682,
+				0.717889,
+				1
+			],
+			"radius": 140974.440308,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 454240,
+				"vector": [
+					-0.763,
+					0.509,
+					0.399
+				]
+			},
+			"corona": {
+				"shimmer": 0.323267,
+				"hues": 0.505981,
+				"flare": 0.060477
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anbiat",
+				"radius": 11356
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system39",
+	"position": [
+		116,
+		116
+	],
+	"space": {
+		"blurs": 172,
+		"stars": 7046,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Aedis",
+			"name": "Aedis",
+			"seed": "171 116 182 116 143 79",
+			"body": {
+				"radius": 6772,
+				"rotation_v": 0.00392,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 880360
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.139219,
+					0.639657,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.749754,
+					0.926803,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.587891,
+					0.553103,
+					0.460667,
+					1
+				],
+				"polar": [
+					0.941211,
+					0.927287,
+					0.89029,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.46583,
+					0.755623,
+					0.8325,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.268524,
+					0.5,
+					0.138672,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.515225,
+					0.725,
+					0.397546,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 16800,
+				"techLevel": 6,
+				"economy": 4,
+				"government": 6,
+				"description": "This planet is notable for its great tropical forests and mud tennis.",
+				"inhabitants": "Yellow Slimy Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.749893,
+				0.684305,
+				0.683272,
+				1
+			],
+			"radius": 163196.148071,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 270880,
+				"vector": [
+					0.249,
+					-0.834,
+					-0.493
+				]
+			},
+			"corona": {
+				"shimmer": 0.457003,
+				"hues": 0.543472,
+				"flare": 0.03259
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Aedis",
+				"radius": 13544
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system7",
+	"position": [
+		4,
+		195
+	],
+	"space": {
+		"blurs": 146,
+		"stars": 5787,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ereddive",
+			"name": "Ereddive",
+			"seed": "86 195 244 4 83 80",
+			"body": {
+				"radius": 2820,
+				"rotation_v": 0.004294,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 394800
+			},
+			"land": {
+				"color": [
+					0.585234,
+					0.66,
+					0.642477,
+					1
+				],
+				"polar_color": [
+					0.907549,
+					0.934,
+					0.927801,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.640378,
+					0.685547,
+					0.515499,
+					1
+				],
+				"polar": [
+					0.916103,
+					0.931445,
+					0.873685,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.616891,
+					0.499689,
+					0.93201,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.689955,
+					0.165382,
+					0.798828,
+					1
+				],
+				"fraction": 0.18,
+				"polar_color": [
+					0.786261,
+					0.433513,
+					0.859473,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 21280,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 6,
+				"description": "The planet Ereddive is reasonably fabled for Zero-G cricket and vicious Soa’xenu gargle blasters.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.281983,
+				0.66572,
+				0.781967,
+				1
+			],
+			"radius": 78951.480103,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 112800,
+				"vector": [
+					0.463,
+					0.532,
+					-0.709
+				]
+			},
+			"corona": {
+				"shimmer": 0.476799,
+				"hues": 0.874123,
+				"flare": 0.00071
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ereddive",
+				"radius": 5640
+			}
+		}
+	]
+}

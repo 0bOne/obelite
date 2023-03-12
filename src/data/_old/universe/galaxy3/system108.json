@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system108",
+	"position": [
+		168,
+		39
+	],
+	"space": {
+		"blurs": 72,
+		"stars": 5086,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Onatibi",
+			"name": "Onatibi",
+			"seed": "242 39 162 168 26 255",
+			"body": {
+				"radius": 6824,
+				"rotation_v": 0.004517,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 750640
+			},
+			"land": {
+				"color": [
+					0.390787,
+					0.239766,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.838756,
+					0.785326,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.695312,
+					0.444204,
+					0.431854,
+					1
+				],
+				"polar": [
+					0.930469,
+					0.84646,
+					0.842329,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.653557,
+					0.889136,
+					0.906645,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.684988,
+					0.722656,
+					0.550461,
+					1
+				],
+				"fraction": 0.2,
+				"polar_color": [
+					0.798312,
+					0.825195,
+					0.702302,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 3840,
+				"techLevel": 2,
+				"economy": 7,
+				"government": 4,
+				"description": "This planet is notable for the Onatibiian edible arts graduate and its weird tropical forests.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.634023,
+				0.717638,
+				0.828806,
+				1
+			],
+			"radius": 163047.74292,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 477680,
+				"vector": [
+					-0.078,
+					0.909,
+					0.408
+				]
+			},
+			"corona": {
+				"shimmer": 0.443716,
+				"hues": 0.708992,
+				"flare": 0.006
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Onatibi",
+				"radius": 13648
+			}
+		}
+	]
+}

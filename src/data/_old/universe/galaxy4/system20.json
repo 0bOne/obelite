@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system20",
+	"position": [
+		29,
+		90
+	],
+	"space": {
+		"blurs": 122,
+		"stars": 6333,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anbedi",
+			"name": "Anbedi",
+			"seed": "36 90 236 29 229 123",
+			"body": {
+				"radius": 5661,
+				"rotation_v": 0.001115,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 509490
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.565254,
+					0.281016,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.90048,
+					0.79992,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.566044,
+					0.654297,
+					0.516537,
+					1
+				],
+				"polar": [
+					0.903056,
+					0.93457,
+					0.885378,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.613711,
+					0.568783,
+					0.860467,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.45622,
+					0.339897,
+					0.583984,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.65849,
+					0.563528,
+					0.762793,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 25344,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 5,
+				"description": "This planet is mildly fabled for the Anbediian mountain poet but scourged by deadly civil war.",
+				"inhabitants": "Blue Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.667888,
+				0.696425,
+				0.697577,
+				1
+			],
+			"radius": 150490.380707,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 622710,
+				"vector": [
+					0.096,
+					-0.502,
+					-0.859
+				]
+			},
+			"corona": {
+				"shimmer": 0.575807,
+				"hues": 0.880722,
+				"flare": 0.094736
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anbedi",
+				"radius": 11322
+			}
+		}
+	]
+}

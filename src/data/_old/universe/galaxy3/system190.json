@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system190",
+	"position": [
+		153,
+		171
+	],
+	"space": {
+		"blurs": 150,
+		"stars": 8400,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Dienorqu",
+			"name": "Dienorqu",
+			"seed": "226 171 18 153 218 77",
+			"body": {
+				"radius": 6297,
+				"rotation_v": 0.001308,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 818610
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.494053,
+					0.461484,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.87529,
+					0.863768,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.647678,
+					0.781209,
+					0.861328,
+					1
+				],
+				"polar": [
+					0.857197,
+					0.892616,
+					0.913867,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.738596,
+					0.488051,
+					0.969082,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.910156,
+					0.0995483,
+					0.441524,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.90957,
+					0.403267,
+					0.616863,
+					1
+				]
+			},
+			"demographics": {
+				"type": 30,
+				"productivity": 10080,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 2,
+				"description": "This world is ravaged by occasional solar activity.",
+				"inhabitants": "Yellow Horned Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.807617,
+				0.407549,
+				0.364026,
+				1
+			],
+			"radius": 163103.599548,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 251880,
+				"vector": [
+					-0.158,
+					0.241,
+					-0.958
+				]
+			},
+			"corona": {
+				"shimmer": 0.374834,
+				"hues": 0.712616,
+				"flare": 0.07843
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Dienorqu",
+				"radius": 12594
+			}
+		}
+	]
+}

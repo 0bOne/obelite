@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system171",
+	"position": [
+		192,
+		166
+	],
+	"space": {
+		"blurs": 164,
+		"stars": 8526,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Cemaer",
+			"name": "Cemaer",
+			"seed": "14 166 2 192 80 133",
+			"body": {
+				"radius": 4288,
+				"rotation_v": 0.004543,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 428800
+			},
+			"land": {
+				"color": [
+					0.153191,
+					0.568359,
+					0.334827,
+					1
+				],
+				"polar_color": [
+					0.770926,
+					0.943164,
+					0.84628,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.620289,
+					0.830078,
+					0.81041,
+					1
+				],
+				"polar": [
+					0.859053,
+					0.916992,
+					0.91156,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.606533,
+					0.924855,
+					0.892219,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.777344,
+					0.677282,
+					0.440292,
+					1
+				],
+				"fraction": 0.25,
+				"polar_color": [
+					0.849805,
+					0.781436,
+					0.619511,
+					1
+				]
+			},
+			"demographics": {
+				"type": 11,
+				"productivity": 1408,
+				"techLevel": 1,
+				"economy": 6,
+				"government": 0,
+				"description": "The planet Cemaer is mildly notable for Cemaerian Arusno water.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.708044,
+				0.679274,
+				0.407515,
+				1
+			],
+			"radius": 127040.898438,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 428800,
+				"vector": [
+					-0.167,
+					0.976,
+					-0.141
+				]
+			},
+			"corona": {
+				"shimmer": 0.396055,
+				"hues": 0.671677,
+				"flare": 0.089761
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Cemaer",
+				"radius": 8576
+			}
+		}
+	]
+}

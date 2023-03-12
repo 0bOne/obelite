@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system135",
+	"position": [
+		152,
+		166
+	],
+	"space": {
+		"blurs": 174,
+		"stars": 9979,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Oredaris",
+			"name": "Oredaris",
+			"seed": "107 166 118 152 207 25",
+			"body": {
+				"radius": 5272,
+				"rotation_v": 0.003902,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 790800
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.391875,
+					0.391875,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.839141,
+					0.839141,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.515931,
+					0.404305,
+					0.525391,
+					1
+				],
+				"polar": [
+					0.943196,
+					0.892871,
+					0.947461,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.717272,
+					0.801675,
+					0.920303,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.715942,
+					0.763672,
+					0.752485,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.810697,
+					0.843652,
+					0.835928,
+					1
+				]
+			},
+			"demographics": {
+				"type": 29,
+				"productivity": 9280,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 6,
+				"description": "This planet is notable for the Oredarisian edible grub and the Oredarisian tree snake.",
+				"inhabitants": "Green Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.591049,
+				0.632963,
+				0.698529,
+				1
+			],
+			"radius": 141070.405273,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 158160,
+				"vector": [
+					0.206,
+					-0.977,
+					-0.062
+				]
+			},
+			"corona": {
+				"shimmer": 0.23139,
+				"hues": 0.539932,
+				"flare": 0.057979
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Oredaris",
+				"radius": 10544
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system140",
+	"position": [
+		187,
+		223
+	],
+	"space": {
+		"blurs": 171,
+		"stars": 8705,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Teed",
+			"name": "Teed",
+			"seed": "178 223 226 187 116 224",
+			"body": {
+				"radius": 3003,
+				"rotation_v": 0.002552,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 300300
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.590834,
+					0.139219,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.90953,
+					0.749754,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.583984,
+					0.461852,
+					0.441866,
+					1
+				],
+				"polar": [
+					0.941602,
+					0.892371,
+					0.884315,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.405079,
+					0.839004,
+					0.767422,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.519531,
+					0.279679,
+					0.024353,
+					1
+				],
+				"fraction": 0.49,
+				"polar_color": [
+					0.733789,
+					0.522059,
+					0.296669,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 6144,
+				"techLevel": 5,
+				"economy": 7,
+				"government": 4,
+				"description": "This planet is notable for the Teedian edible moth and the Teedian edible arts graduate.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.250298,
+				0.344524,
+				0.799558,
+				1
+			],
+			"radius": 68315.775604,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 300300,
+				"vector": [
+					0.66,
+					0.159,
+					0.735
+				]
+			},
+			"corona": {
+				"shimmer": 0.415416,
+				"hues": 0.725349,
+				"flare": 0.068509
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Teed",
+				"radius": 6006
+			}
+		}
+	]
+}

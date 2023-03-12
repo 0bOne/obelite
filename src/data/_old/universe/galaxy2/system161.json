@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system161",
+	"position": [
+		16,
+		28
+	],
+	"space": {
+		"blurs": 153,
+		"stars": 8742,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edcere",
+			"name": "Edcere",
+			"seed": "133 28 105 16 133 184",
+			"body": {
+				"radius": 4880,
+				"rotation_v": 0.004774,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 439200
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.66,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.934,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0948029,
+					0.638672,
+					0.39648,
+					1
+				],
+				"polar": [
+					0.736839,
+					0.936133,
+					0.847385,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.614871,
+					0.465049,
+					0.960627,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.819153,
+					0.0449295,
+					0.884766,
+					1
+				],
+				"fraction": 0.13,
+				"polar_color": [
+					0.856517,
+					0.36531,
+					0.898145,
+					1
+				]
+			},
+			"demographics": {
+				"type": 34,
+				"productivity": 14688,
+				"techLevel": 6,
+				"economy": 4,
+				"government": 5,
+				"description": "This planet is a tedious place.",
+				"inhabitants": "Harmless Fat Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.784628,
+				0.668714,
+				0.454601,
+				1
+			],
+			"radius": 126963.696289,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 390400,
+				"vector": [
+					-0.484,
+					0.353,
+					-0.801
+				]
+			},
+			"corona": {
+				"shimmer": 0.38631,
+				"hues": 0.544914,
+				"flare": 0.015114
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Edcere",
+				"radius": 9760
+			}
+		}
+	]
+}

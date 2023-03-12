@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system194",
+	"position": [
+		166,
+		33
+	],
+	"space": {
+		"blurs": 183,
+		"stars": 9030,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Quxege",
+			"name": "Quxege",
+			"seed": "9 33 56 166 229 26",
+			"body": {
+				"radius": 5542,
+				"rotation_v": 0.00406,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 665040
+			},
+			"land": {
+				"color": [
+					0.650391,
+					0.426819,
+					0.484458,
+					1
+				],
+				"polar_color": [
+					0.934961,
+					0.854613,
+					0.875328,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.701172,
+					0.580401,
+					0.473839,
+					1
+				],
+				"polar": [
+					0.929883,
+					0.889842,
+					0.854511,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.470336,
+					0.683211,
+					0.858516,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.140015,
+					0.578125,
+					0.300883,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.400121,
+					0.760156,
+					0.532322,
+					1
+				]
+			},
+			"demographics": {
+				"type": 57,
+				"productivity": 45144,
+				"techLevel": 12,
+				"economy": 1,
+				"government": 7,
+				"description": "This planet is beset by lethal disease.",
+				"inhabitants": "Green Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.396228,
+				0.530979,
+				0.746323,
+				1
+			],
+			"radius": 136939.897461,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 387940,
+				"vector": [
+					0.773,
+					0.615,
+					0.154
+				]
+			},
+			"corona": {
+				"shimmer": 0.28914,
+				"hues": 0.836449,
+				"flare": 0.069562
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Quxege",
+				"radius": 11084
+			}
+		}
+	]
+}

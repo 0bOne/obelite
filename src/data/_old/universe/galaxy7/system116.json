@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system116",
+	"position": [
+		229,
+		75
+	],
+	"space": {
+		"blurs": 181,
+		"stars": 9459,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Vebixe",
+			"name": "Vebixe",
+			"seed": "45 75 44 229 129 214",
+			"body": {
+				"radius": 4581,
+				"rotation_v": 0.001969,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 503910
+			},
+			"land": {
+				"color": [
+					0.574922,
+					0.65003,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.9039,
+					0.930473,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.824219,
+					0.574498,
+					0.354156,
+					1
+				],
+				"polar": [
+					0.917578,
+					0.848076,
+					0.786752,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.824259,
+					0.762387,
+					0.978188,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.930176,
+					0.878906,
+					0.9375,
+					1
+				],
+				"fraction": 0.57,
+				"polar_color": [
+					0.917374,
+					0.885864,
+					0.921875,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 20664,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 5,
+				"description": "This planet is mildly noted for the Vebixeian mountain poet but cursed by unpredictable earthquakes.",
+				"inhabitants": "Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.515484,
+				0.565406,
+				0.748764,
+				1
+			],
+			"radius": 135871.917572,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 503910,
+				"vector": [
+					0.328,
+					-0.363,
+					-0.872
+				]
+			},
+			"corona": {
+				"shimmer": 0.372859,
+				"hues": 0.921959,
+				"flare": 0.013686
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Vebixe",
+				"radius": 9162
+			}
+		}
+	]
+}

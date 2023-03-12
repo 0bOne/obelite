@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system121",
+	"position": [
+		179,
+		62
+	],
+	"space": {
+		"blurs": 193,
+		"stars": 6441,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Onenceve",
+			"name": "Onenceve",
+			"seed": "246 62 184 179 91 127",
+			"body": {
+				"radius": 6835,
+				"rotation_v": 0.002936,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 1025250
+			},
+			"land": {
+				"color": [
+					0.519814,
+					0.211406,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.884404,
+					0.775293,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.580724,
+					0.677734,
+					0.526303,
+					1
+				],
+				"polar": [
+					0.898867,
+					0.932227,
+					0.880153,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.629794,
+					0.889734,
+					0.834681,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.671875,
+					0.555412,
+					0.485535,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.802344,
+					0.71542,
+					0.663266,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 16192,
+				"techLevel": 8,
+				"economy": 6,
+				"government": 7,
+				"description": "Onenceve is an unremarkable dump.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.720575,
+				0.644181,
+				0.489134,
+				1
+			],
+			"radius": 188995.00885,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 615150,
+				"vector": [
+					0.028,
+					0.722,
+					0.692
+				]
+			},
+			"corona": {
+				"shimmer": 1.207191,
+				"hues": 0.72744,
+				"flare": 0.082416
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Onenceve",
+				"radius": 13670
+			}
+		}
+	]
+}

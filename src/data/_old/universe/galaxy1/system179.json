@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system179",
+	"position": [
+		96,
+		95
+	],
+	"space": {
+		"blurs": 99,
+		"stars": 7042,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ororra",
+			"name": "Ororra",
+			"seed": "48 95 232 96 154 57",
+			"body": {
+				"radius": 5216,
+				"rotation_v": 0.002149,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 625920
+			},
+			"land": {
+				"color": [
+					0.462048,
+					0.172734,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.863967,
+					0.761611,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.523438,
+					0.421549,
+					0.413843,
+					1
+				],
+				"polar": [
+					0.947656,
+					0.90154,
+					0.898052,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.588884,
+					0.579534,
+					0.8325,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.363281,
+					0.34375,
+					0.5,
+					1
+				],
+				"fraction": 0.23,
+				"polar_color": [
+					0.601099,
+					0.583398,
+					0.725,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 5400,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 5,
+				"description": "This planet is a dull place.",
+				"inhabitants": "Red Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.421421,
+				0.738286,
+				0.779181,
+				1
+			],
+			"radius": 123521.845703,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 625920,
+				"vector": [
+					0.833,
+					0.376,
+					-0.405
+				]
+			},
+			"corona": {
+				"shimmer": 0.289388,
+				"hues": 0.648209,
+				"flare": 0.022072
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ororra",
+				"radius": 10432
+			}
+		}
+	]
+}

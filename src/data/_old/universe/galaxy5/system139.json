@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system139",
+	"position": [
+		109,
+		220
+	],
+	"space": {
+		"blurs": 149,
+		"stars": 9278,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tecea",
+			"name": "Tecea",
+			"seed": "7 220 193 109 40 252",
+			"body": {
+				"radius": 5997,
+				"rotation_v": 0.002358,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 599700
+			},
+			"land": {
+				"color": [
+					0.48785,
+					0.550781,
+					0.0473328,
+					1
+				],
+				"polar_color": [
+					0.917931,
+					0.944922,
+					0.728992,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.572266,
+					0.45228,
+					0.436353,
+					1
+				],
+				"polar": [
+					0.942773,
+					0.893356,
+					0.886796,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.562135,
+					0.959977,
+					0.919188,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.882812,
+					0.713891,
+					0.313812,
+					1
+				],
+				"fraction": 0.2,
+				"polar_color": [
+					0.897266,
+					0.789961,
+					0.535818,
+					1
+				]
+			},
+			"demographics": {
+				"type": 15,
+				"productivity": 1920,
+				"techLevel": 2,
+				"economy": 6,
+				"government": 0,
+				"description": "The world Tecea is a boring planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.82319,
+				0.801922,
+				0.628465,
+				1
+			],
+			"radius": 170230.393982,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 479760,
+				"vector": [
+					-0.57,
+					0.324,
+					-0.756
+				]
+			},
+			"corona": {
+				"shimmer": 0.302673,
+				"hues": 0.721977,
+				"flare": 0.054721
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tecea",
+				"radius": 11994
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system192",
+	"position": [
+		92,
+		90
+	],
+	"space": {
+		"blurs": 183,
+		"stars": 9694,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orerbia",
+			"name": "Orerbia",
+			"seed": "73 90 137 92 106 89",
+			"body": {
+				"radius": 5212,
+				"rotation_v": 0.002828,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 677560
+			},
+			"land": {
+				"color": [
+					0.582031,
+					0.477448,
+					0.489703,
+					1
+				],
+				"polar_color": [
+					0.941797,
+					0.89949,
+					0.904447,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.840697,
+					0.867188,
+					0.382782,
+					1
+				],
+				"polar": [
+					0.906307,
+					0.913281,
+					0.785743,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.467628,
+					0.723663,
+					0.843557,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.151851,
+					0.533203,
+					0.139549,
+					1
+				],
+				"fraction": 0.24,
+				"polar_color": [
+					0.409183,
+					0.739941,
+					0.398513,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 8960,
+				"techLevel": 6,
+				"economy": 2,
+				"government": 1,
+				"description": "This planet is reasonably noted for its fabulous goat burgers.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.550677,
+				0.691411,
+				0.81604,
+				1
+			],
+			"radius": 133538.413086,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 312720,
+				"vector": [
+					0.236,
+					-0.747,
+					-0.622
+				]
+			},
+			"corona": {
+				"shimmer": 0.369121,
+				"hues": 0.510025,
+				"flare": 0.038826
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Orerbia",
+				"radius": 10424
+			}
+		}
+	]
+}

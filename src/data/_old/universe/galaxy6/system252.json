@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system252",
+	"position": [
+		171,
+		247
+	],
+	"space": {
+		"blurs": 46,
+		"stars": 8814,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atraat",
+			"name": "Atraat",
+			"seed": "50 247 34 171 244 49",
+			"body": {
+				"radius": 3243,
+				"rotation_v": 0.00497,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 356730
+			},
+			"land": {
+				"color": [
+					0.595703,
+					0.449104,
+					0.500643,
+					1
+				],
+				"polar_color": [
+					0.94043,
+					0.882571,
+					0.902912,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.689453,
+					0.586881,
+					0.487465,
+					1
+				],
+				"polar": [
+					0.931055,
+					0.896426,
+					0.862862,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.651811,
+					0.474117,
+					0.961277,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.886719,
+					0.0692749,
+					0.797311,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.899023,
+					0.381031,
+					0.842368,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 6144,
+				"techLevel": 5,
+				"economy": 7,
+				"government": 4,
+				"description": "This world is plagued by occasional solar activity.",
+				"inhabitants": "Red Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.829419,
+				0.62947,
+				0.362358,
+				1
+			],
+			"radius": 70109.784393,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 291870,
+				"vector": [
+					-0.412,
+					0.161,
+					-0.897
+				]
+			},
+			"corona": {
+				"shimmer": 0.287603,
+				"hues": 0.681694,
+				"flare": 0.059561
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atraat",
+				"radius": 6486
+			}
+		}
+	]
+}

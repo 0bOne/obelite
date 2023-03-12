@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system125",
+	"position": [
+		85,
+		189
+	],
+	"space": {
+		"blurs": 158,
+		"stars": 9378,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Encereso",
+			"name": "Encereso",
+			"seed": "192 189 80 85 237 210",
+			"body": {
+				"radius": 3413,
+				"rotation_v": 0.001007,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 409560
+			},
+			"land": {
+				"color": [
+					0.627308,
+					0.634766,
+					0.617409,
+					1
+				],
+				"polar_color": [
+					0.933773,
+					0.936523,
+					0.930121,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.504313,
+					0.9375,
+					0.39917,
+					1
+				],
+				"polar": [
+					0.801563,
+					0.90625,
+					0.776154,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.479603,
+					0.656069,
+					0.861117,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.157928,
+					0.585938,
+					0.425434,
+					1
+				],
+				"fraction": 0.44,
+				"polar_color": [
+					0.415023,
+					0.763672,
+					0.632928,
+					1
+				]
+			},
+			"demographics": {
+				"type": 24,
+				"productivity": 5760,
+				"techLevel": 4,
+				"economy": 5,
+				"government": 2,
+				"description": "Encereso is cursed by dreadful civil war.",
+				"inhabitants": "Slimy Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.454662,
+				0.475182,
+				0.837946,
+				1
+			],
+			"radius": 103859.12735,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 409560,
+				"vector": [
+					-0.128,
+					0.949,
+					0.288
+				]
+			},
+			"corona": {
+				"shimmer": 0.322609,
+				"hues": 0.862083,
+				"flare": 0.027188
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Encereso",
+				"radius": 6826
+			}
+		}
+	]
+}

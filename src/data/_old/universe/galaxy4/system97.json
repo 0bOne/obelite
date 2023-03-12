@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system97",
+	"position": [
+		166,
+		12
+	],
+	"space": {
+		"blurs": 118,
+		"stars": 8626,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Axeed",
+			"name": "Axeed",
+			"seed": "150 12 232 166 27 239",
+			"body": {
+				"radius": 6822,
+				"rotation_v": 0.002361,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 613980
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.0464063,
+					0.132693,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.716918,
+					0.747445,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.583984,
+					0.549989,
+					0.45966,
+					1
+				],
+				"polar": [
+					0.941602,
+					0.927898,
+					0.891487,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.70191,
+					0.82537,
+					0.906645,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.666199,
+					0.722656,
+					0.677667,
+					1
+				],
+				"fraction": 0.27,
+				"polar_color": [
+					0.784903,
+					0.825195,
+					0.793087,
+					1
+				]
+			},
+			"demographics": {
+				"type": 42,
+				"productivity": 18144,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 5,
+				"description": "The world Axeed is fabled for its exciting Zero-G cricket and its fabulous vicious Alab gargle blasters.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.5856,
+				0.593479,
+				0.75918,
+				1
+			],
+			"radius": 204924.402466,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 886860,
+				"vector": [
+					-0.909,
+					0.328,
+					0.258
+				]
+			},
+			"corona": {
+				"shimmer": 0.482102,
+				"hues": 0.968369,
+				"flare": 0.058731
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Axeed",
+				"radius": 13644
+			}
+		}
+	]
+}

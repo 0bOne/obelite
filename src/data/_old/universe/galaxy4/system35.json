@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system35",
+	"position": [
+		148,
+		161
+	],
+	"space": {
+		"blurs": 113,
+		"stars": 6553,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Enuserin",
+			"name": "Enuserin",
+			"seed": "70 161 188 148 243 178",
+			"body": {
+				"radius": 3476,
+				"rotation_v": 0.000924,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 347600
+			},
+			"land": {
+				"color": [
+					0.500381,
+					0.390137,
+					0.53125,
+					1
+				],
+				"polar_color": [
+					0.93312,
+					0.883997,
+					0.946875,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.615601,
+					0.636719,
+					0.494452,
+					1
+				],
+				"polar": [
+					0.928564,
+					0.936328,
+					0.884025,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.780444,
+					0.525003,
+					0.951522,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.857422,
+					0.217705,
+					0.337652,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.88584,
+					0.472765,
+					0.550217,
+					1
+				]
+			},
+			"demographics": {
+				"type": 49,
+				"productivity": 38808,
+				"techLevel": 10,
+				"economy": 1,
+				"government": 7,
+				"description": "The planet Enuserin is an unremarkable planet.",
+				"inhabitants": "Harmless Furry Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.673566,
+				0.670832,
+				0.657571,
+				1
+			],
+			"radius": 90559.198608,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 312840,
+				"vector": [
+					-0.643,
+					0.27,
+					0.717
+				]
+			},
+			"corona": {
+				"shimmer": 0.634436,
+				"hues": 0.919525,
+				"flare": 0.043361
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Enuserin",
+				"radius": 6952
+			}
+		}
+	]
+}

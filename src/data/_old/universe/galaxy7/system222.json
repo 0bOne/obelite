@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system222",
+	"position": [
+		86,
+		182
+	],
+	"space": {
+		"blurs": 136,
+		"stars": 5761,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ondizaat",
+			"name": "Ondizaat",
+			"seed": "225 182 208 86 237 159",
+			"body": {
+				"radius": 6742,
+				"rotation_v": 0.000984,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 809040
+			},
+			"land": {
+				"color": [
+					0.265808,
+					0.438903,
+					0.523438,
+					1
+				],
+				"polar_color": [
+					0.83105,
+					0.909395,
+					0.947656,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.590988,
+					0.751953,
+					0.706682,
+					1
+				],
+				"polar": [
+					0.875313,
+					0.924805,
+					0.910885,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.574196,
+					0.932735,
+					0.976236,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.732365,
+					0.931641,
+					0.338448,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.796349,
+					0.919238,
+					0.553428,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 4800,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 2,
+				"description": "This world is mildly well known for its exotic cuisine and its inhabitants’ ingrained silliness.",
+				"inhabitants": "Black Slimy Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.656934,
+				0.648791,
+				0.433461,
+				1
+			],
+			"radius": 173933.435974,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 741620,
+				"vector": [
+					0.509,
+					-0.426,
+					-0.748
+				]
+			},
+			"corona": {
+				"shimmer": 0.483168,
+				"hues": 0.887466,
+				"flare": 0.048672
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ondizaat",
+				"radius": 13484
+			}
+		}
+	]
+}

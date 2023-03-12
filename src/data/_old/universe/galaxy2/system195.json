@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system195",
+	"position": [
+		207,
+		75
+	],
+	"space": {
+		"blurs": 139,
+		"stars": 7185,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Soxeorza",
+			"name": "Soxeorza",
+			"seed": "237 75 1 207 213 199",
+			"body": {
+				"radius": 4815,
+				"rotation_v": 0.000122,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 529650
+			},
+			"land": {
+				"color": [
+					0.180138,
+					0.503906,
+					0.161407,
+					1
+				],
+				"polar_color": [
+					0.797074,
+					0.949609,
+					0.78825,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.771484,
+					0.582569,
+					0.415878,
+					1
+				],
+				"polar": [
+					0.922852,
+					0.866356,
+					0.816507,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.671783,
+					0.745387,
+					0.983391,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.618042,
+					0.851029,
+					0.953125,
+					1
+				],
+				"fraction": 0.16,
+				"polar_color": [
+					0.724801,
+					0.866718,
+					0.928906,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 7168,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 0,
+				"description": "The world Soxeorza is notable for the Soxeorzaian tree wolf and its exciting sit coms.",
+				"inhabitants": "Fierce Fat Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.690721,
+				0.757748,
+				0.769669,
+				1
+			],
+			"radius": 150574.54834,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 240750,
+				"vector": [
+					0.298,
+					-0.824,
+					0.483
+				]
+			},
+			"corona": {
+				"shimmer": 0.690536,
+				"hues": 0.843246,
+				"flare": 0.042403
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Soxeorza",
+				"radius": 9630
+			}
+		}
+	]
+}

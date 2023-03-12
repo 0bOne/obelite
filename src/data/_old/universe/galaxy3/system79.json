@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system79",
+	"position": [
+		254,
+		50
+	],
+	"space": {
+		"blurs": 57,
+		"stars": 5016,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esange",
+			"name": "Esange",
+			"seed": "58 50 226 254 234 137",
+			"body": {
+				"radius": 5374,
+				"rotation_v": 0.001351,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 644880
+			},
+			"land": {
+				"color": [
+					0.590068,
+					0.66,
+					0.580078,
+					1
+				],
+				"polar_color": [
+					0.909259,
+					0.934,
+					0.905725,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.623438,
+					0.724503,
+					0.779297,
+					1
+				],
+				"polar": [
+					0.875967,
+					0.905862,
+					0.92207,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.56578,
+					0.941115,
+					0.855764,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.826172,
+					0.494422,
+					0.332405,
+					1
+				],
+				"fraction": 0.19,
+				"polar_color": [
+					0.871777,
+					0.652988,
+					0.546138,
+					1
+				]
+			},
+			"demographics": {
+				"type": 43,
+				"productivity": 22016,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 4,
+				"description": "The world Esange is beset by lethal disease.",
+				"inhabitants": "Small Black Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.696237,
+				0.334528,
+				0.275115,
+				1
+			],
+			"radius": 170386.04187,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 376180,
+				"vector": [
+					0.087,
+					-0.97,
+					0.229
+				]
+			},
+			"corona": {
+				"shimmer": 0.314874,
+				"hues": 0.603455,
+				"flare": 0.049678
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esange",
+				"radius": 10748
+			}
+		}
+	]
+}

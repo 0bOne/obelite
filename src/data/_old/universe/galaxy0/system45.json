@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system45",
+	"position": [
+		104,
+		85
+	],
+	"space": {
+		"blurs": 62,
+		"stars": 6542,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Socelage",
+			"name": "Socelage",
+			"seed": "64 85 176 104 173 71",
+			"body": {
+				"radius": 4712,
+				"rotation_v": 0.002196,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 565440
+			},
+			"land": {
+				"color": [
+					0.319768,
+					0.66,
+					0.237188,
+					1
+				],
+				"polar_color": [
+					0.81363,
+					0.934,
+					0.784414,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.573542,
+					0.636719,
+					0.504152,
+					1
+				],
+				"polar": [
+					0.913102,
+					0.936328,
+					0.887592,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.5584,
+					0.96648,
+					0.937382,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.902344,
+					0.779913,
+					0.299606,
+					1
+				],
+				"fraction": 0.37,
+				"polar_color": [
+					0.906055,
+					0.829221,
+					0.527795,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 12800,
+				"techLevel": 5,
+				"economy": 5,
+				"government": 6,
+				"description": "This planet is reasonably noted for its exotic goat meat.",
+				"inhabitants": "Fierce Yellow Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.695975,
+				0.700391,
+				0.786505,
+				1
+			],
+			"radius": 130006.363525,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 424080,
+				"vector": [
+					-0.073,
+					0.987,
+					-0.146
+				]
+			},
+			"corona": {
+				"shimmer": 0.360337,
+				"hues": 0.833656,
+				"flare": 0.031056
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Socelage",
+				"radius": 9424
+			}
+		}
+	]
+}

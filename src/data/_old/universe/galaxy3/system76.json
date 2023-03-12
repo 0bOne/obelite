@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system76",
+	"position": [
+		163,
+		160
+	],
+	"space": {
+		"blurs": 110,
+		"stars": 6762,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anonrior",
+			"name": "Anonrior",
+			"seed": "242 160 162 163 26 219",
+			"body": {
+				"radius": 5795,
+				"rotation_v": 0.004499,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 695400
+			},
+			"land": {
+				"color": [
+					0.437979,
+					0.270703,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.855452,
+					0.796272,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.563208,
+					0.71875,
+					0.609385,
+					1
+				],
+				"polar": [
+					0.877912,
+					0.928125,
+					0.892819,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.679007,
+					0.857367,
+					0.898189,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.644451,
+					0.697266,
+					0.60466,
+					1
+				],
+				"fraction": 0.47,
+				"polar_color": [
+					0.775245,
+					0.81377,
+					0.74622,
+					1
+				]
+			},
+			"demographics": {
+				"type": 53,
+				"productivity": 33920,
+				"techLevel": 12,
+				"economy": 0,
+				"government": 4,
+				"description": "The world Anonrior is reasonably famous for the Anonriorian evil poet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.440151,
+				0.486868,
+				0.766669,
+				1
+			],
+			"radius": 140170.806885,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 521550,
+				"vector": [
+					0.512,
+					-0.781,
+					0.357
+				]
+			},
+			"corona": {
+				"shimmer": 0.35256,
+				"hues": 0.601982,
+				"flare": 0.031206
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Anonrior",
+				"radius": 11590
+			}
+		}
+	]
+}

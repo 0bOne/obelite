@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system43",
+	"position": [
+		85,
+		99
+	],
+	"space": {
+		"blurs": 116,
+		"stars": 8952,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Birior",
+			"name": "Birior",
+			"seed": "26 99 66 85 42 6",
+			"body": {
+				"radius": 4437,
+				"rotation_v": 0.002515,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 399330
+			},
+			"land": {
+				"color": [
+					0.617844,
+					0.66,
+					0.600703,
+					1
+				],
+				"polar_color": [
+					0.919086,
+					0.934,
+					0.913022,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.10479,
+					0.654297,
+					0.538385,
+					1
+				],
+				"polar": [
+					0.738347,
+					0.93457,
+					0.893179,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.718211,
+					0.817953,
+					0.897539,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.695312,
+					0.695312,
+					0.695312,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.812891,
+					0.812891,
+					0.812891,
+					1
+				]
+			},
+			"demographics": {
+				"type": 24,
+				"productivity": 5376,
+				"techLevel": 5,
+				"economy": 3,
+				"government": 0,
+				"description": "The planet Birior is very famous for its exotic fish meat but beset by frequent civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.725168,
+				0.395757,
+				0.367154,
+				1
+			],
+			"radius": 88675.004883,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 488070,
+				"vector": [
+					0.108,
+					-0.474,
+					-0.874
+				]
+			},
+			"corona": {
+				"shimmer": 0.230125,
+				"hues": 0.975891,
+				"flare": 0.035141
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Birior",
+				"radius": 8874
+			}
+		}
+	]
+}

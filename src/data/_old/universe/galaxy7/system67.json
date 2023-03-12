@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system67",
+	"position": [
+		251,
+		166
+	],
+	"space": {
+		"blurs": 174,
+		"stars": 8386,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xezaxees",
+			"name": "Xezaxees",
+			"seed": "67 166 78 251 183 226",
+			"body": {
+				"radius": 3579,
+				"rotation_v": 0.004634,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 429480
+			},
+			"land": {
+				"color": [
+					0.541245,
+					0.487266,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.891986,
+					0.872889,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.568359,
+					0.468581,
+					0.438036,
+					1
+				],
+				"polar": [
+					0.943164,
+					0.90177,
+					0.889098,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.422543,
+					0.760846,
+					0.872824,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.174322,
+					0.621094,
+					0.0315399,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.429047,
+					0.779492,
+					0.317049,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 4480,
+				"techLevel": 5,
+				"economy": 6,
+				"government": 1,
+				"description": "This world is a tedious place.",
+				"inhabitants": "Large Furry Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.837347,
+				0.714579,
+				0.64211,
+				1
+			],
+			"radius": 84927.524872,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 178950,
+				"vector": [
+					-0.239,
+					-0.262,
+					-0.935
+				]
+			},
+			"corona": {
+				"shimmer": 0.842452,
+				"hues": 0.757782,
+				"flare": 0.08502
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xezaxees",
+				"radius": 7158
+			}
+		}
+	]
+}

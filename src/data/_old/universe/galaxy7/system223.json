@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system223",
+	"position": [
+		241,
+		164
+	],
+	"space": {
+		"blurs": 194,
+		"stars": 8103,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Gequadi",
+			"name": "Gequadi",
+			"seed": "91 164 230 241 223 67",
+			"body": {
+				"radius": 3825,
+				"rotation_v": 0.000184,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 344250
+			},
+			"land": {
+				"color": [
+					0.596191,
+					0.66,
+					0.567188,
+					1
+				],
+				"polar_color": [
+					0.911425,
+					0.934,
+					0.901164,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.628125,
+					0.718909,
+					0.785156,
+					1
+				],
+				"polar": [
+					0.87541,
+					0.902047,
+					0.921484,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.746497,
+					0.736157,
+					0.967131,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.814055,
+					0.798325,
+					0.904297,
+					1
+				],
+				"fraction": 0.28,
+				"polar_color": [
+					0.850368,
+					0.840508,
+					0.906934,
+					1
+				]
+			},
+			"demographics": {
+				"type": 33,
+				"productivity": 12672,
+				"techLevel": 6,
+				"economy": 4,
+				"government": 4,
+				"description": "The planet Gequadi is mildly well known for its exotic night life.",
+				"inhabitants": "Large Yellow Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.718085,
+				0.565131,
+				0.547121,
+				1
+			],
+			"radius": 101465.572357,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 420750,
+				"vector": [
+					-0.608,
+					0.591,
+					-0.53
+				]
+			},
+			"corona": {
+				"shimmer": 0.546716,
+				"hues": 0.777405,
+				"flare": 0.039166
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Gequadi",
+				"radius": 7650
+			}
+		}
+	]
+}

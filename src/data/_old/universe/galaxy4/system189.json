@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system189",
+	"position": [
+		73,
+		203
+	],
+	"space": {
+		"blurs": 58,
+		"stars": 8300,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Riratea",
+			"name": "Riratea",
+			"seed": "230 203 208 73 155 158",
+			"body": {
+				"radius": 6473,
+				"rotation_v": 0.001372,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 712030
+			},
+			"land": {
+				"color": [
+					0.597656,
+					0.578797,
+					0.546295,
+					1
+				],
+				"polar_color": [
+					0.940234,
+					0.932817,
+					0.920034,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.581259,
+					0.882812,
+					0.458649,
+					1
+				],
+				"polar": [
+					0.833862,
+					0.911719,
+					0.802206,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.751461,
+					0.562833,
+					0.914449,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.746094,
+					0.332245,
+					0.487438,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.835742,
+					0.546007,
+					0.654658,
+					1
+				]
+			},
+			"demographics": {
+				"type": 30,
+				"productivity": 10080,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 2,
+				"description": "This world is very notable for its inhabitants’ ingrained shyness.",
+				"inhabitants": "Black Horned Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.493926,
+				0.514526,
+				0.816074,
+				1
+			],
+			"radius": 191912.360535,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 647300,
+				"vector": [
+					-0.22,
+					-0.862,
+					0.456
+				]
+			},
+			"corona": {
+				"shimmer": 0.470203,
+				"hues": 0.514595,
+				"flare": 0.007695
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Riratea",
+				"radius": 12946
+			}
+		}
+	]
+}

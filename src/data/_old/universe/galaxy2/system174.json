@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system174",
+	"position": [
+		186,
+		50
+	],
+	"space": {
+		"blurs": 150,
+		"stars": 5675,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ansois",
+			"name": "Ansois",
+			"seed": "49 50 73 186 109 123",
+			"body": {
+				"radius": 5818,
+				"rotation_v": 0.000709,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 814520
+			},
+			"land": {
+				"color": [
+					0.546965,
+					0.66,
+					0.422813,
+					1
+				],
+				"polar_color": [
+					0.89401,
+					0.934,
+					0.850086,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.606088,
+					0.636719,
+					0.49669,
+					1
+				],
+				"polar": [
+					0.925067,
+					0.936328,
+					0.884848,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.564046,
+					0.552695,
+					0.859816,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.341318,
+					0.306931,
+					0.582031,
+					1
+				],
+				"fraction": 0.58,
+				"polar_color": [
+					0.564972,
+					0.536837,
+					0.761914,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 11520,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 1,
+				"description": "The planet Ansois is an unremarkable planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.74028,
+				0.60644,
+				0.329252,
+				1
+			],
+			"radius": 125961.0849,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 349080,
+				"vector": [
+					0.391,
+					0.747,
+					-0.538
+				]
+			},
+			"corona": {
+				"shimmer": 0.315177,
+				"hues": 0.676689,
+				"flare": 0.005957
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ansois",
+				"radius": 11636
+			}
+		}
+	]
+}

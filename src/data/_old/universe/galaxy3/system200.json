@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system200",
+	"position": [
+		11,
+		38
+	],
+	"space": {
+		"blurs": 166,
+		"stars": 6009,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Veusar",
+			"name": "Veusar",
+			"seed": "18 38 130 11 154 214",
+			"body": {
+				"radius": 4363,
+				"rotation_v": 0.003224,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 567190
+			},
+			"land": {
+				"color": [
+					0.626953,
+					0.5288,
+					0.494705,
+					1
+				],
+				"polar_color": [
+					0.937305,
+					0.90062,
+					0.887877,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.163956,
+					0.599609,
+					0.517924,
+					1
+				],
+				"polar": [
+					0.76929,
+					0.940039,
+					0.908024,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.544805,
+					0.978188,
+					0.954049,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.9375,
+					0.830498,
+					0.252686,
+					1
+				],
+				"fraction": 0.19,
+				"polar_color": [
+					0.921875,
+					0.856113,
+					0.500999,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 2944,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 0,
+				"description": "This world is a revolting little planet.",
+				"inhabitants": "Furry Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.815665,
+				0.399675,
+				0.222464,
+				1
+			],
+			"radius": 71614.421539,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 218150,
+				"vector": [
+					-0.374,
+					-0.45,
+					0.811
+				]
+			},
+			"corona": {
+				"shimmer": 0.623772,
+				"hues": 0.536118,
+				"flare": 0.015186
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Veusar",
+				"radius": 8726
+			}
+		}
+	]
+}

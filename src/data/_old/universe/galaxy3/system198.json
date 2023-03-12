@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system198",
+	"position": [
+		7,
+		147
+	],
+	"space": {
+		"blurs": 81,
+		"stars": 5188,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ange",
+			"name": "Ange",
+			"seed": "162 147 82 7 218 64",
+			"body": {
+				"radius": 2823,
+				"rotation_v": 0.00378,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 423450
+			},
+			"land": {
+				"color": [
+					0.526062,
+					0.342773,
+					0.609375,
+					1
+				],
+				"polar_color": [
+					0.906966,
+					0.836353,
+					0.939062,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.580078,
+					0.511222,
+					0.450467,
+					1
+				],
+				"polar": [
+					0.941992,
+					0.914038,
+					0.889373,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.527555,
+					0.630525,
+					0.8325,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.25,
+					0.5,
+					0.5,
+					1
+				],
+				"fraction": 0.4,
+				"polar_color": [
+					0.498438,
+					0.725,
+					0.725,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 12768,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 2,
+				"description": "The planet Ange is reasonably noted for its inhabitants’ eccentric love for tourists and the Angeian tree grub.",
+				"inhabitants": "Large Yellow Fat Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.757858,
+				0.736351,
+				0.724328,
+				1
+			],
+			"radius": 68910.129547,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 141150,
+				"vector": [
+					0.581,
+					0.108,
+					-0.807
+				]
+			},
+			"corona": {
+				"shimmer": 0.482485,
+				"hues": 0.846237,
+				"flare": 0.08683
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ange",
+				"radius": 5646
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system213",
+	"position": [
+		101,
+		137
+	],
+	"space": {
+		"blurs": 186,
+		"stars": 5172,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Alace",
+			"name": "Alace",
+			"seed": "85 137 57 101 229 64",
+			"body": {
+				"radius": 2917,
+				"rotation_v": 0.004107,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 379210
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.177891,
+					0.59597,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.763436,
+					0.911347,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.545718,
+					0.650391,
+					0.520312,
+					1
+				],
+				"polar": [
+					0.897343,
+					0.934961,
+					0.888213,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.595969,
+					0.467502,
+					0.955424,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.710659,
+					0.0577164,
+					0.869141,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.789558,
+					0.371152,
+					0.891113,
+					1
+				]
+			},
+			"demographics": {
+				"type": 53,
+				"productivity": 41976,
+				"techLevel": 11,
+				"economy": 1,
+				"government": 7,
+				"description": "This planet is reasonably famous for its inhabitants’ ancient loathing of casinos.",
+				"inhabitants": "Large Yellow Fat Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.787506,
+				0.616215,
+				0.575636,
+				1
+			],
+			"radius": 67780.102081,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 262530,
+				"vector": [
+					-0.002,
+					0.685,
+					-0.728
+				]
+			},
+			"corona": {
+				"shimmer": 1.060453,
+				"hues": 0.725166,
+				"flare": 0.017796
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "icosahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Alace",
+				"radius": 5834
+			}
+		}
+	]
+}

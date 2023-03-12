@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system187",
+	"position": [
+		107,
+		18
+	],
+	"space": {
+		"blurs": 91,
+		"stars": 5570,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Soceorbi",
+			"name": "Soceorbi",
+			"seed": "115 18 254 107 135 39",
+			"body": {
+				"radius": 4715,
+				"rotation_v": 0.000776,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 612950
+			},
+			"land": {
+				"color": [
+					0.228004,
+					0.517578,
+					0.13546,
+					1
+				],
+				"polar_color": [
+					0.815612,
+					0.948242,
+					0.773225,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.818356,
+					0.709879,
+					0.892578,
+					1
+				],
+				"polar": [
+					0.891809,
+					0.864138,
+					0.910742,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.784843,
+					0.514683,
+					0.959977,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.882812,
+					0.18277,
+					0.297621,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.897266,
+					0.452576,
+					0.525533,
+					1
+				]
+			},
+			"demographics": {
+				"type": 58,
+				"productivity": 40832,
+				"techLevel": 12,
+				"economy": 2,
+				"government": 7,
+				"description": "The world Soceorbi is a dull place.",
+				"inhabitants": "Fierce Red Bug-Eyed Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.807831,
+				0.740317,
+				0.723166,
+				1
+			],
+			"radius": 113797.866058,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 330050,
+				"vector": [
+					-0.424,
+					-0.153,
+					0.893
+				]
+			},
+			"corona": {
+				"shimmer": 0.495944,
+				"hues": 0.569824,
+				"flare": 0.035123
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Soceorbi",
+				"radius": 9430
+			}
+		}
+	]
+}

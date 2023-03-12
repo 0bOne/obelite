@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system90",
+	"position": [
+		19,
+		14
+	],
+	"space": {
+		"blurs": 138,
+		"stars": 9734,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anisinza",
+			"name": "Anisinza",
+			"seed": "242 14 90 19 52 91",
+			"body": {
+				"radius": 5651,
+				"rotation_v": 0.004653,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 678120
+			},
+			"land": {
+				"color": [
+					0.366356,
+					0.0438281,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.830112,
+					0.716006,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.630859,
+					0.498153,
+					0.480537,
+					1
+				],
+				"polar": [
+					0.936914,
+					0.887642,
+					0.881102,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.657769,
+					0.729964,
+					0.997049,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.574738,
+					0.836864,
+					0.994141,
+					1
+				],
+				"fraction": 0.09,
+				"polar_color": [
+					0.69757,
+					0.853691,
+					0.947363,
+					1
+				]
+			},
+			"demographics": {
+				"type": 34,
+				"productivity": 7616,
+				"techLevel": 6,
+				"economy": 6,
+				"government": 3,
+				"description": "The world Anisinza is scourged by deadly disease.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.465019,
+				0.505773,
+				0.791263,
+				1
+			],
+			"radius": 127649.343567,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 508590,
+				"vector": [
+					-0.141,
+					0.95,
+					0.278
+				]
+			},
+			"corona": {
+				"shimmer": 0.683037,
+				"hues": 0.858635,
+				"flare": 0.030711
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anisinza",
+				"radius": 11302
+			}
+		}
+	]
+}

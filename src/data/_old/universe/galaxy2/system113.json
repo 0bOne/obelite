@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system113",
+	"position": [
+		192,
+		133
+	],
+	"space": {
+		"blurs": 145,
+		"stars": 7679,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Texeonis",
+			"name": "Texeonis",
+			"seed": "197 133 169 192 5 92",
+			"body": {
+				"radius": 6080,
+				"rotation_v": 0.002258,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 668800
+			},
+			"land": {
+				"color": [
+					0.611896,
+					0.613281,
+					0.60849,
+					1
+				],
+				"polar_color": [
+					0.938142,
+					0.938672,
+					0.936839,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.681604,
+					0.853516,
+					0.45343,
+					1
+				],
+				"polar": [
+					0.868592,
+					0.914648,
+					0.807463,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.845752,
+					0.770794,
+					0.980789,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.945312,
+					0.904694,
+					0.941822,
+					1
+				],
+				"fraction": 0.19,
+				"polar_color": [
+					0.925391,
+					0.900539,
+					0.923255,
+					1
+				]
+			},
+			"demographics": {
+				"type": 31,
+				"productivity": 11160,
+				"techLevel": 5,
+				"economy": 5,
+				"government": 5,
+				"description": "Texeonis is a revolting dump.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.849893,
+				0.788277,
+				0.358163,
+				1
+			],
+			"radius": 140456.201172,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 486400,
+				"vector": [
+					-0.36,
+					-0.868,
+					-0.342
+				]
+			},
+			"corona": {
+				"shimmer": 0.436517,
+				"hues": 0.605438,
+				"flare": 0.02636
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Texeonis",
+				"radius": 12160
+			}
+		}
+	]
+}

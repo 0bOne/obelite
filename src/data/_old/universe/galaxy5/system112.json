@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system112",
+	"position": [
+		74,
+		118
+	],
+	"space": {
+		"blurs": 84,
+		"stars": 5685,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Araron",
+			"name": "Araron",
+			"seed": "9 118 169 74 42 138",
+			"body": {
+				"radius": 5450,
+				"rotation_v": 0.001597,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 654000
+			},
+			"land": {
+				"color": [
+					0.518203,
+					0.540359,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.883834,
+					0.891672,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.501953,
+					0.243103,
+					0.0352936,
+					1
+				],
+				"polar": [
+					0.949805,
+					0.827354,
+					0.729049,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.666103,
+					0.576245,
+					0.873475,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.602512,
+					0.360199,
+					0.623047,
+					1
+				],
+				"fraction": 0.37,
+				"polar_color": [
+					0.764296,
+					0.574609,
+					0.780371,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 10368,
+				"techLevel": 6,
+				"economy": 6,
+				"government": 5,
+				"description": "This world is fabled for its ancient Araronian Re tulip plantations.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.785997,
+				0.822162,
+				0.830225,
+				1
+			],
+			"radius": 131490.730286,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 381500,
+				"vector": [
+					-0.544,
+					0.814,
+					-0.204
+				]
+			},
+			"corona": {
+				"shimmer": 0.504915,
+				"hues": 0.831406,
+				"flare": 0.029446
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Araron",
+				"radius": 10900
+			}
+		}
+	]
+}

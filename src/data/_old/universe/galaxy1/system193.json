@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system193",
+	"position": [
+		144,
+		33
+	],
+	"space": {
+		"blurs": 94,
+		"stars": 7971,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orarra",
+			"name": "Orarra",
+			"seed": "0 33 112 144 58 57",
+			"body": {
+				"radius": 5264,
+				"rotation_v": 0.001219,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 526400
+			},
+			"land": {
+				"color": [
+					0.461484,
+					0.511113,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.863768,
+					0.881326,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.576311,
+					0.628906,
+					0.49944,
+					1
+				],
+				"polar": [
+					0.917517,
+					0.937109,
+					0.888881,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.700118,
+					0.837033,
+					0.892336,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.65181,
+					0.679688,
+					0.647827,
+					1
+				],
+				"fraction": 0.21,
+				"polar_color": [
+					0.785201,
+					0.805859,
+					0.78225,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 31680,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 6,
+				"description": "This planet is very well known for vicious Zast brew and its exotic goat soup.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.235006,
+				0.46402,
+				0.729611,
+				1
+			],
+			"radius": 134605.65918,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 526400,
+				"vector": [
+					-0.054,
+					-0.967,
+					0.248
+				]
+			},
+			"corona": {
+				"shimmer": 0.952088,
+				"hues": 0.620995,
+				"flare": 0.01644
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Orarra",
+				"radius": 10528
+			}
+		}
+	]
+}

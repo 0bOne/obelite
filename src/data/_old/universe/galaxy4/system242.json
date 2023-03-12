@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system242",
+	"position": [
+		72,
+		58
+	],
+	"space": {
+		"blurs": 189,
+		"stars": 6530,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atrare",
+			"name": "Atrare",
+			"seed": "156 58 112 72 69 241",
+			"body": {
+				"radius": 3144,
+				"rotation_v": 0.002581,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 314400
+			},
+			"land": {
+				"color": [
+					0.623047,
+					0.588822,
+					0.535431,
+					1
+				],
+				"polar_color": [
+					0.937695,
+					0.924818,
+					0.904729,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.186607,
+					0.513672,
+					0.29137,
+					1
+				],
+				"polar": [
+					0.79763,
+					0.948633,
+					0.845998,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.694505,
+					0.846692,
+					0.885182,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.639161,
+					0.658203,
+					0.62735,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.781795,
+					0.796191,
+					0.772865,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 26240,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 6,
+				"description": "The planet Atrare is cursed by vicious mountain monkeys.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.775281,
+				0.774427,
+				0.773977,
+				1
+			],
+			"radius": 75609.32373,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 282960,
+				"vector": [
+					-0.066,
+					-0.952,
+					-0.299
+				]
+			},
+			"corona": {
+				"shimmer": 0.587093,
+				"hues": 0.557648,
+				"flare": 0.013243
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atrare",
+				"radius": 6288
+			}
+		}
+	]
+}

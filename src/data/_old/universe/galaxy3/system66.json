@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system66",
+	"position": [
+		217,
+		55
+	],
+	"space": {
+		"blurs": 134,
+		"stars": 6067,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Diriceen",
+			"name": "Diriceen",
+			"seed": "194 55 178 217 90 77",
+			"body": {
+				"radius": 6361,
+				"rotation_v": 0.002568,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 826930
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.516592,
+					0.45375,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.883264,
+					0.861031,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.69449,
+					0.68002,
+					0.865234,
+					1
+				],
+				"polar": [
+					0.86841,
+					0.864591,
+					0.913477,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.612359,
+					0.920953,
+					0.894131,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.765625,
+					0.687866,
+					0.45459,
+					1
+				],
+				"fraction": 0.14,
+				"polar_color": [
+					0.844531,
+					0.790923,
+					0.630099,
+					1
+				]
+			},
+			"demographics": {
+				"type": 30,
+				"productivity": 7200,
+				"techLevel": 4,
+				"economy": 7,
+				"government": 6,
+				"description": "Diriceen is an unremarkable planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.231182,
+				0.346096,
+				0.749036,
+				1
+			],
+			"radius": 122536.799164,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 445270,
+				"vector": [
+					0.241,
+					0.8,
+					-0.549
+				]
+			},
+			"corona": {
+				"shimmer": 0.549402,
+				"hues": 0.966415,
+				"flare": 0.05687
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Diriceen",
+				"radius": 12722
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system76",
+	"position": [
+		63,
+		35
+	],
+	"space": {
+		"blurs": 174,
+		"stars": 5111,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orteve",
+			"name": "Orteve",
+			"seed": "186 35 144 63 179 153",
+			"body": {
+				"radius": 5183,
+				"rotation_v": 0.001681,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 621960
+			},
+			"land": {
+				"color": [
+					0.409922,
+					0.66,
+					0.478303,
+					1
+				],
+				"polar_color": [
+					0.845525,
+					0.934,
+					0.869718,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.567804,
+					0.699219,
+					0.540529,
+					1
+				],
+				"polar": [
+					0.886377,
+					0.930078,
+					0.877307,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.530131,
+					0.991195,
+					0.976311,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.976562,
+					0.909686,
+					0.198364,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.939453,
+					0.899244,
+					0.471561,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 12768,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 2,
+				"description": "This world is fabled for its fabulous vicious Gezabeza gargle blasters.",
+				"inhabitants": "Black Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.688882,
+				0.564156,
+				0.493518,
+				1
+			],
+			"radius": 141170.63385,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 518300,
+				"vector": [
+					-0.353,
+					-0.934,
+					0.054
+				]
+			},
+			"corona": {
+				"shimmer": 0.343487,
+				"hues": 0.844582,
+				"flare": 0.021663
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Orteve",
+				"radius": 10366
+			}
+		}
+	]
+}

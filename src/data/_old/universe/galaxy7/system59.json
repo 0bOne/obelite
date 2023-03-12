@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system59",
+	"position": [
+		134,
+		245
+	],
+	"space": {
+		"blurs": 192,
+		"stars": 5984,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zainat",
+			"name": "Zainat",
+			"seed": "115 245 254 134 135 164",
+			"body": {
+				"radius": 3974,
+				"rotation_v": 0.000837,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 556360
+			},
+			"land": {
+				"color": [
+					0.623906,
+					0.625316,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.92123,
+					0.921729,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.8125,
+					0.590084,
+					0.374512,
+					1
+				],
+				"polar": [
+					0.91875,
+					0.855875,
+					0.794934,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.59228,
+					0.84694,
+					0.993797,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.380676,
+					0.984375,
+					0.446706,
+					1
+				],
+				"fraction": 0.25,
+				"polar_color": [
+					0.581528,
+					0.942969,
+					0.621061,
+					1
+				]
+			},
+			"demographics": {
+				"type": 45,
+				"productivity": 19800,
+				"techLevel": 8,
+				"economy": 5,
+				"government": 7,
+				"description": "Zainat is well known for its inhabitants’ unusual silliness but cursed by deadly civil war.",
+				"inhabitants": "Fierce Harmless Bony Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.772879,
+				0.812232,
+				0.848364,
+				1
+			],
+			"radius": 91604.047241,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 198700,
+				"vector": [
+					0.108,
+					0.888,
+					-0.447
+				]
+			},
+			"corona": {
+				"shimmer": 0.367828,
+				"hues": 0.642433,
+				"flare": 0.064153
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Zainat",
+				"radius": 7948
+			}
+		}
+	]
+}

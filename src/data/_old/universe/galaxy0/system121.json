@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system121",
+	"position": [
+		208,
+		81
+	],
+	"space": {
+		"blurs": 125,
+		"stars": 7500,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atbevete",
+			"name": "Atbevete",
+			"seed": "64 81 168 208 253 113",
+			"body": {
+				"radius": 3280,
+				"rotation_v": 0.001294,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 426400
+			},
+			"land": {
+				"color": [
+					0.510831,
+					0.244922,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.881226,
+					0.78715,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.691406,
+					0.469666,
+					0.440231,
+					1
+				],
+				"polar": [
+					0.930859,
+					0.856226,
+					0.846318,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.751993,
+					0.646357,
+					0.837703,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.515625,
+					0.471313,
+					0.485853,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.732031,
+					0.692713,
+					0.705614,
+					1
+				]
+			},
+			"demographics": {
+				"type": 43,
+				"productivity": 27864,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 5,
+				"description": "The planet Atbevete is mildly well known for killer A’erin gargle blasters.",
+				"inhabitants": "Blue Bug-Eyed Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.265591,
+				0.667918,
+				0.764938,
+				1
+			],
+			"radius": 63743.188477,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 131200,
+				"vector": [
+					-0.611,
+					-0.691,
+					0.386
+				]
+			},
+			"corona": {
+				"shimmer": 0.267444,
+				"hues": 0.654655,
+				"flare": 0.078293
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atbevete",
+				"radius": 6560
+			}
+		}
+	]
+}

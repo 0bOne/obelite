@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system106",
+	"position": [
+		38,
+		56
+	],
+	"space": {
+		"blurs": 124,
+		"stars": 9952,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Gexein",
+			"name": "Gexein",
+			"seed": "148 56 24 38 182 131",
+			"body": {
+				"radius": 3622,
+				"rotation_v": 0.002331,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 470860
+			},
+			"land": {
+				"color": [
+					0.1309,
+					0.0386719,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.746811,
+					0.714182,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.578125,
+					0.447955,
+					0.43811,
+					1
+				],
+				"polar": [
+					0.942187,
+					0.889152,
+					0.885141,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.52365,
+					0.532646,
+					0.876727,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.247192,
+					0.271294,
+					0.632812,
+					1
+				],
+				"fraction": 0.37,
+				"polar_color": [
+					0.48588,
+					0.504561,
+					0.784766,
+					1
+				]
+			},
+			"demographics": {
+				"type": 48,
+				"productivity": 26880,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 3,
+				"description": "This planet is a dull world.",
+				"inhabitants": "Large Black Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.710281,
+				0.710238,
+				0.709477,
+				1
+			],
+			"radius": 87352.232056,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 253540,
+				"vector": [
+					0.588,
+					0.336,
+					-0.736
+				]
+			},
+			"corona": {
+				"shimmer": 0.595327,
+				"hues": 0.891823,
+				"flare": 0.07784
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Gexein",
+				"radius": 7244
+			}
+		}
+	]
+}

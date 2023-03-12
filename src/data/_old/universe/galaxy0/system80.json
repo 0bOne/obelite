@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system80",
+	"position": [
+		169,
+		67
+	],
+	"space": {
+		"blurs": 193,
+		"stars": 7307,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xeaan",
+			"name": "Xeaan",
+			"seed": "10 67 168 169 83 66",
+			"body": {
+				"radius": 3497,
+				"rotation_v": 0.001344,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 419640
+			},
+			"land": {
+				"color": [
+					0.20625,
+					0.234609,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.773469,
+					0.783502,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.714844,
+					0.503192,
+					0.4384,
+					1
+				],
+				"polar": [
+					0.928516,
+					0.859787,
+					0.838747,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.663412,
+					0.809548,
+					0.954773,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.592804,
+					0.867188,
+					0.732139,
+					1
+				],
+				"fraction": 0.21,
+				"polar_color": [
+					0.714187,
+					0.890234,
+					0.803586,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 20664,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 5,
+				"description": "This world is ravaged by unpredictable civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.5537,
+				0.657419,
+				0.803247,
+				1
+			],
+			"radius": 65692.545166,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 349700,
+				"vector": [
+					0.12,
+					0.288,
+					0.95
+				]
+			},
+			"corona": {
+				"shimmer": 0.318016,
+				"hues": 0.700912,
+				"flare": 0.030502
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xeaan",
+				"radius": 6994
+			}
+		}
+	]
+}

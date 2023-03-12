@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system89",
+	"position": [
+		66,
+		146
+	],
+	"space": {
+		"blurs": 180,
+		"stars": 9184,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Beusrior",
+			"name": "Beusrior",
+			"seed": "64 146 104 66 125 83",
+			"body": {
+				"radius": 3650,
+				"rotation_v": 0.003759,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 401500
+			},
+			"land": {
+				"color": [
+					0.460215,
+					0.66,
+					0.378984,
+					1
+				],
+				"polar_color": [
+					0.863319,
+					0.934,
+					0.83458,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.313416,
+					0.357459,
+					0.507812,
+					1
+				],
+				"polar": [
+					0.858376,
+					0.878957,
+					0.949219,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.527072,
+					0.973635,
+					0.886027,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.923828,
+					0.508658,
+					0.205696,
+					1
+				],
+				"fraction": 0.19,
+				"polar_color": [
+					0.915723,
+					0.658518,
+					0.470828,
+					1
+				]
+			},
+			"demographics": {
+				"type": 48,
+				"productivity": 27648,
+				"techLevel": 10,
+				"economy": 2,
+				"government": 5,
+				"description": "The world Beusrior is a dull world.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.186869,
+				0.224503,
+				0.679681,
+				1
+			],
+			"radius": 84117.195129,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 328500,
+				"vector": [
+					0.717,
+					0.037,
+					0.697
+				]
+			},
+			"corona": {
+				"shimmer": 0.295761,
+				"hues": 0.951416,
+				"flare": 0.024481
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Beusrior",
+				"radius": 7300
+			}
+		}
+	]
+}

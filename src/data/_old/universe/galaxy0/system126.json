@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system126",
+	"position": [
+		199,
+		14
+	],
+	"space": {
+		"blurs": 163,
+		"stars": 9387,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anerbe",
+			"name": "Anerbe",
+			"seed": "58 14 36 199 91 187",
+			"body": {
+				"radius": 5831,
+				"rotation_v": 0.002186,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 583100
+			},
+			"land": {
+				"color": [
+					0.193394,
+					0.511719,
+					0.147919,
+					1
+				],
+				"polar_color": [
+					0.801269,
+					0.948828,
+					0.780189,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.605478,
+					0.777344,
+					0.757203,
+					1
+				],
+				"polar": [
+					0.871289,
+					0.922266,
+					0.916292,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.613597,
+					0.908596,
+					0.855327,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.728516,
+					0.583382,
+					0.455322,
+					1
+				],
+				"fraction": 0.18,
+				"polar_color": [
+					0.827832,
+					0.724757,
+					0.633809,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 8960,
+				"techLevel": 6,
+				"economy": 6,
+				"government": 4,
+				"description": "The world Anerbe is reasonably fabled for its exciting vacuum karate and its great volcanoes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.195194,
+				0.667045,
+				0.7008,
+				1
+			],
+			"radius": 198887.138977,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 583100,
+				"vector": [
+					0.774,
+					-0.006,
+					0.633
+				]
+			},
+			"corona": {
+				"shimmer": 1.44397,
+				"hues": 0.752228,
+				"flare": 0.032985
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anerbe",
+				"radius": 11662
+			}
+		}
+	]
+}

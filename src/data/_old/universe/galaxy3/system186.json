@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system186",
+	"position": [
+		113,
+		84
+	],
+	"space": {
+		"blurs": 114,
+		"stars": 6610,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arama",
+			"name": "Arama",
+			"seed": "2 84 114 113 90 202",
+			"body": {
+				"radius": 5489,
+				"rotation_v": 0.000109,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 658680
+			},
+			"land": {
+				"color": [
+					0.546875,
+					0.465431,
+					0.0256348,
+					1
+				],
+				"polar_color": [
+					0.945312,
+					0.910117,
+					0.720062,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.599609,
+					0.49766,
+					0.452986,
+					1
+				],
+				"polar": [
+					0.940039,
+					0.900081,
+					0.882572,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.69943,
+					0.578511,
+					0.883881,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.654297,
+					0.368042,
+					0.596151,
+					1
+				],
+				"fraction": 0.4,
+				"polar_color": [
+					0.794434,
+					0.577206,
+					0.750309,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 18720,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 6,
+				"description": "The planet Arama is famous for its inhabitants’ ancient loathing of discos but ravaged by lethal spotted craboids.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.593595,
+				0.646464,
+				0.721634,
+				1
+			],
+			"radius": 118004.789429,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 439120,
+				"vector": [
+					-0.751,
+					-0.421,
+					0.508
+				]
+			},
+			"corona": {
+				"shimmer": 0.556626,
+				"hues": 0.885307,
+				"flare": 0.059944
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Arama",
+				"radius": 10978
+			}
+		}
+	]
+}

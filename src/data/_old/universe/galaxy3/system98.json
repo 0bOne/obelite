@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system98",
+	"position": [
+		82,
+		246
+	],
+	"space": {
+		"blurs": 106,
+		"stars": 9951,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orxerema",
+			"name": "Orxerema",
+			"seed": "194 246 178 82 90 185",
+			"body": {
+				"radius": 5202,
+				"rotation_v": 0.002597,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 624240
+			},
+			"land": {
+				"color": [
+					0.494839,
+					0.66,
+					0.402188,
+					1
+				],
+				"polar_color": [
+					0.875568,
+					0.934,
+					0.842789,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.646484,
+					0.564774,
+					0.477792,
+					1
+				],
+				"polar": [
+					0.935352,
+					0.905796,
+					0.874335,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.639558,
+					0.508677,
+					0.930709,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.761808,
+					0.189415,
+					0.794922,
+					1
+				],
+				"fraction": 0.44,
+				"polar_color": [
+					0.835384,
+					0.449379,
+					0.857715,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 11840,
+				"techLevel": 6,
+				"economy": 6,
+				"government": 6,
+				"description": "Orxerema is most famous for its pink Us tulip plantations and its inhabitants’ ingrained silliness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.671259,
+				0.430059,
+				0.358665,
+				1
+			],
+			"radius": 100488.707886,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 468180,
+				"vector": [
+					-0.269,
+					0.364,
+					-0.891
+				]
+			},
+			"corona": {
+				"shimmer": 0.518038,
+				"hues": 0.99791,
+				"flare": 0.008321
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Orxerema",
+				"radius": 10404
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system76",
+	"position": [
+		101,
+		82
+	],
+	"space": {
+		"blurs": 139,
+		"stars": 7621,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ontiteen",
+			"name": "Ontiteen",
+			"seed": "100 82 156 101 69 63",
+			"body": {
+				"radius": 6757,
+				"rotation_v": 0.004223,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 878410
+			},
+			"land": {
+				"color": [
+					0.487266,
+					0.66,
+					0.542595,
+					1
+				],
+				"polar_color": [
+					0.872889,
+					0.934,
+					0.892463,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.155293,
+					0.560547,
+					0.109482,
+					1
+				],
+				"polar": [
+					0.773336,
+					0.943945,
+					0.75405,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.688105,
+					0.547804,
+					0.909246,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.730469,
+					0.296753,
+					0.652535,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.828711,
+					0.521181,
+					0.773452,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 17024,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 3,
+				"description": "This planet is reasonably famous for its inhabitants’ ancient mating traditions.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.240378,
+				0.435814,
+				0.802118,
+				1
+			],
+			"radius": 166912.416992,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 540560,
+				"vector": [
+					0.697,
+					0.698,
+					0.163
+				]
+			},
+			"corona": {
+				"shimmer": 0.36294,
+				"hues": 0.825386,
+				"flare": 0.053322
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ontiteen",
+				"radius": 13514
+			}
+		}
+	]
+}

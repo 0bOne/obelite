@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system218",
+	"position": [
+		26,
+		19
+	],
+	"space": {
+		"blurs": 143,
+		"stars": 8659,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Vegera",
+			"name": "Vegera",
+			"seed": "2 19 114 26 90 118",
+			"body": {
+				"radius": 4378,
+				"rotation_v": 0.000057,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 656700
+			},
+			"land": {
+				"color": [
+					0.144375,
+					0.502896,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.751578,
+					0.878418,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.551562,
+					0.689453,
+					0.589267,
+					1
+				],
+				"polar": [
+					0.884502,
+					0.931055,
+					0.897231,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.665528,
+					0.793933,
+					0.963229,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.599701,
+					0.892578,
+					0.810206,
+					1
+				],
+				"fraction": 0.09,
+				"polar_color": [
+					0.716749,
+					0.90166,
+					0.849654,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 25760,
+				"techLevel": 9,
+				"economy": 3,
+				"government": 6,
+				"description": "The world Vegera is mildly noted for its ancient mountains but plagued by vicious disease.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.366178,
+				0.400214,
+				0.793277,
+				1
+			],
+			"radius": 99196.410828,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 350240,
+				"vector": [
+					0.727,
+					-0.516,
+					0.453
+				]
+			},
+			"corona": {
+				"shimmer": 0.537242,
+				"hues": 0.961128,
+				"flare": 0.079636
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Vegera",
+				"radius": 8756
+			}
+		}
+	]
+}

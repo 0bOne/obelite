@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system163",
+	"position": [
+		61,
+		160
+	],
+	"space": {
+		"blurs": 61,
+		"stars": 6340,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Usbiinan",
+			"name": "Usbiinan",
+			"seed": "218 160 2 61 170 232",
+			"body": {
+				"radius": 4925,
+				"rotation_v": 0.000115,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 689500
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.219141,
+					0.518787,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.778029,
+					0.884041,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.691406,
+					0.446857,
+					0.43483,
+					1
+				],
+				"polar": [
+					0.930859,
+					0.848548,
+					0.8445,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.665896,
+					0.808532,
+					0.954773,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.599579,
+					0.867188,
+					0.741746,
+					1
+				],
+				"fraction": 0.07,
+				"polar_color": [
+					0.718534,
+					0.890234,
+					0.80975,
+					1
+				]
+			},
+			"demographics": {
+				"type": 27,
+				"productivity": 6912,
+				"techLevel": 6,
+				"economy": 2,
+				"government": 0,
+				"description": "Usbiinan is most noted for its inhabitants’ exceptional love for food blenders and its weird rock formations.",
+				"inhabitants": "Small Furry Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.710014,
+				0.71987,
+				0.729337,
+				1
+			],
+			"radius": 103267.486572,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 246250,
+				"vector": [
+					-0.301,
+					-0.797,
+					0.524
+				]
+			},
+			"corona": {
+				"shimmer": 0.652035,
+				"hues": 0.828606,
+				"flare": 0.026862
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Usbiinan",
+				"radius": 9850
+			}
+		}
+	]
+}

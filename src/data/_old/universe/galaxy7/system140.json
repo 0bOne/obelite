@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system140",
+	"position": [
+		75,
+		60
+	],
+	"space": {
+		"blurs": 82,
+		"stars": 5771,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Soaxe",
+			"name": "Soaxe",
+			"seed": "157 60 28 75 209 167",
+			"body": {
+				"radius": 4683,
+				"rotation_v": 0.000674,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 515130
+			},
+			"land": {
+				"color": [
+					0.24305,
+					0.505859,
+					0.487381,
+					1
+				],
+				"polar_color": [
+					0.826101,
+					0.949414,
+					0.940744,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.800781,
+					0.666373,
+					0.409775,
+					1
+				],
+				"polar": [
+					0.919922,
+					0.88132,
+					0.807627,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.617333,
+					0.834937,
+					0.978188,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.461426,
+					0.9375,
+					0.558128,
+					1
+				],
+				"fraction": 0.46,
+				"polar_color": [
+					0.629288,
+					0.921875,
+					0.68872,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 13440,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 3,
+				"description": "This world is very well known for Soaxeian lethal water and the Soaxeian tree grub.",
+				"inhabitants": "Fierce Harmless Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.768494,
+				0.52418,
+				0.523139,
+				1
+			],
+			"radius": 124521.524506,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 468300,
+				"vector": [
+					0.062,
+					-0.998,
+					-0.002
+				]
+			},
+			"corona": {
+				"shimmer": 0.346983,
+				"hues": 0.567581,
+				"flare": 0.012889
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Soaxe",
+				"radius": 9366
+			}
+		}
+	]
+}

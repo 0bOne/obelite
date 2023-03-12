@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system115",
+	"position": [
+		3,
+		162
+	],
+	"space": {
+		"blurs": 104,
+		"stars": 9885,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esaan",
+			"name": "Esaan",
+			"seed": "14 162 34 3 208 201",
+			"body": {
+				"radius": 5123,
+				"rotation_v": 0.000795,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 563530
+			},
+			"land": {
+				"color": [
+					0.227005,
+					0.509766,
+					0.443494,
+					1
+				],
+				"polar_color": [
+					0.817421,
+					0.949023,
+					0.918179,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.634965,
+					0.803016,
+					0.841797,
+					1
+				],
+				"polar": [
+					0.859565,
+					0.905272,
+					0.91582,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.661703,
+					0.559195,
+					0.889734,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.652929,
+					0.325439,
+					0.671875,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.788203,
+					0.543776,
+					0.802344,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 24064,
+				"techLevel": 10,
+				"economy": 2,
+				"government": 4,
+				"description": "This world is a tedious place.",
+				"inhabitants": "Small Bug-Eyed Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.648319,
+				0.755948,
+				0.831973,
+				1
+			],
+			"radius": 148859.827728,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 358610,
+				"vector": [
+					-0.21,
+					0.675,
+					0.707
+				]
+			},
+			"corona": {
+				"shimmer": 0.299815,
+				"hues": 0.856895,
+				"flare": 0.02522
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esaan",
+				"radius": 10246
+			}
+		}
+	]
+}

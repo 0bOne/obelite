@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system244",
+	"position": [
+		106,
+		95
+	],
+	"space": {
+		"blurs": 176,
+		"stars": 7229,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Beritere",
+			"name": "Beritere",
+			"seed": "242 95 194 106 180 243",
+			"body": {
+				"radius": 3690,
+				"rotation_v": 0.003799,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 516600
+			},
+			"land": {
+				"color": [
+					0.407525,
+					0.66,
+					0.363516,
+					1
+				],
+				"polar_color": [
+					0.844677,
+					0.934,
+					0.829107,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.591797,
+					0.584096,
+					0.468583,
+					1
+				],
+				"polar": [
+					0.94082,
+					0.93776,
+					0.89185,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.654614,
+					0.601681,
+					0.837703,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.475971,
+					0.388733,
+					0.515625,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.696846,
+					0.619439,
+					0.732031,
+					1
+				]
+			},
+			"demographics": {
+				"type": 16,
+				"productivity": 1536,
+				"techLevel": 2,
+				"economy": 7,
+				"government": 0,
+				"description": "The planet Beritere is very noted for its ancient Arceon tulip plantations but ravaged by occasional earthquakes.",
+				"inhabitants": "Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.745873,
+				0.746738,
+				0.634695,
+				1
+			],
+			"radius": 89906.025696,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 221400,
+				"vector": [
+					0.995,
+					-0.063,
+					-0.073
+				]
+			},
+			"corona": {
+				"shimmer": 0.320081,
+				"hues": 0.887215,
+				"flare": 0.07608
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Beritere",
+				"radius": 7380
+			}
+		}
+	]
+}

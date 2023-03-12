@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system255",
+	"position": [
+		227,
+		199
+	],
+	"space": {
+		"blurs": 88,
+		"stars": 5281,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Intiso",
+			"name": "Intiso",
+			"seed": "155 199 38 227 159 108",
+			"body": {
+				"radius": 6115,
+				"rotation_v": 0.000201,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 733800
+			},
+			"land": {
+				"color": [
+					0.446016,
+					0.514558,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.858295,
+					0.882544,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.587891,
+					0.491287,
+					0.448956,
+					1
+				],
+				"polar": [
+					0.941211,
+					0.902546,
+					0.885602,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.78584,
+					0.483105,
+					0.98209,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.949219,
+					0.0704498,
+					0.214623,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.927148,
+					0.390688,
+					0.478701,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 6144,
+				"techLevel": 5,
+				"economy": 7,
+				"government": 4,
+				"description": "The planet Intiso is most famous for the Intisoian spotted shrew and the Intisoian edible poet.",
+				"inhabitants": "Blue Fat Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.282424,
+				0.353239,
+				0.650851,
+				1
+			],
+			"radius": 206732.086182,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 366900,
+				"vector": [
+					0.275,
+					0.943,
+					0.187
+				]
+			},
+			"corona": {
+				"shimmer": 0.375354,
+				"hues": 0.733376,
+				"flare": 0.042746
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Intiso",
+				"radius": 12230
+			}
+		}
+	]
+}

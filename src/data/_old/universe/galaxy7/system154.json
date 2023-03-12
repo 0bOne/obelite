@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system154",
+	"position": [
+		99,
+		118
+	],
+	"space": {
+		"blurs": 121,
+		"stars": 6366,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Riedanen",
+			"name": "Riedanen",
+			"seed": "121 118 168 99 181 126",
+			"body": {
+				"radius": 6499,
+				"rotation_v": 0.002846,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 779880
+			},
+			"land": {
+				"color": [
+					0.649043,
+					0.61875,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.930124,
+					0.919406,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.751953,
+					0.476144,
+					0.402412,
+					1
+				],
+				"polar": [
+					0.924805,
+					0.840002,
+					0.817332,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.864621,
+					0.780241,
+					0.981439,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.947266,
+					0.932465,
+					0.943218,
+					1
+				],
+				"fraction": 0.52,
+				"polar_color": [
+					0.92627,
+					0.917224,
+					0.923796,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 11520,
+				"techLevel": 7,
+				"economy": 6,
+				"government": 5,
+				"description": "This world is very well known for its inhabitants’ ancient mating traditions and Riedanenian vicious brew.",
+				"inhabitants": "Blue Furry Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.83707,
+				0.678486,
+				0.593722,
+				1
+			],
+			"radius": 162620.775299,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 454930,
+				"vector": [
+					-0.569,
+					0.558,
+					0.603
+				]
+			},
+			"corona": {
+				"shimmer": 0.304286,
+				"hues": 0.878159,
+				"flare": 0.086636
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Riedanen",
+				"radius": 12998
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system88",
+	"position": [
+		187,
+		89
+	],
+	"space": {
+		"blurs": 109,
+		"stars": 9491,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esrixear",
+			"name": "Esrixear",
+			"seed": "82 89 50 187 148 73",
+			"body": {
+				"radius": 5307,
+				"rotation_v": 0.004359,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 477630
+			},
+			"land": {
+				"color": [
+					0.569766,
+					0.66,
+					0.640966,
+					1
+				],
+				"polar_color": [
+					0.902076,
+					0.934,
+					0.927266,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.595343,
+					0.650391,
+					0.506593,
+					1
+				],
+				"polar": [
+					0.915178,
+					0.934961,
+					0.883282,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.754642,
+					0.757972,
+					0.943066,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.832031,
+					0.832031,
+					0.832031,
+					1
+				],
+				"fraction": 0.46,
+				"polar_color": [
+					0.874414,
+					0.874414,
+					0.874414,
+					1
+				]
+			},
+			"demographics": {
+				"type": 56,
+				"productivity": 40320,
+				"techLevel": 12,
+				"economy": 1,
+				"government": 6,
+				"description": "Esrixear is reasonably well known for the Esrixearian spotted wolf but beset by deadly solar activity.",
+				"inhabitants": "Small Yellow Horned Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.614158,
+				0.638098,
+				0.781479,
+				1
+			],
+			"radius": 136498.799744,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 530700,
+				"vector": [
+					-0.228,
+					-0.796,
+					0.56
+				]
+			},
+			"corona": {
+				"shimmer": 0.342278,
+				"hues": 0.550072,
+				"flare": 0.072038
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Esrixear",
+				"radius": 10614
+			}
+		}
+	]
+}

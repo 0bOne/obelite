@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system10",
+	"position": [
+		100,
+		29
+	],
+	"space": {
+		"blurs": 140,
+		"stars": 5631,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anisis",
+			"name": "Anisis",
+			"seed": "28 29 160 100 101 123",
+			"body": {
+				"radius": 5732,
+				"rotation_v": 0.003157,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 745160
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.655005,
+					0.340313,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.932233,
+					0.820898,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.626953,
+					0.513203,
+					0.463358,
+					1
+				],
+				"polar": [
+					0.937305,
+					0.89479,
+					0.87616,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.456143,
+					0.572258,
+					0.903393,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0807571,
+					0.564734,
+					0.712891,
+					1
+				],
+				"fraction": 0.49,
+				"polar_color": [
+					0.365914,
+					0.714187,
+					0.820801,
+					1
+				]
+			},
+			"demographics": {
+				"type": 26,
+				"productivity": 8320,
+				"techLevel": 4,
+				"economy": 5,
+				"government": 4,
+				"description": "This world is very notable for its inhabitants’ unusual silliness and its exotic cuisine.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.484835,
+				0.728976,
+				0.734973,
+				1
+			],
+			"radius": 159701.132812,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 401240,
+				"vector": [
+					-0.334,
+					-0.694,
+					-0.638
+				]
+			},
+			"corona": {
+				"shimmer": 0.324436,
+				"hues": 0.503883,
+				"flare": 0.079971
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anisis",
+				"radius": 11464
+			}
+		}
+	]
+}

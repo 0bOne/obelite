@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system36",
+	"position": [
+		243,
+		10
+	],
+	"space": {
+		"blurs": 130,
+		"stars": 7401,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Dimadi",
+			"name": "Dimadi",
+			"seed": "180 10 192 243 102 205",
+			"body": {
+				"radius": 6387,
+				"rotation_v": 0.004583,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 958050
+			},
+			"land": {
+				"color": [
+					0.311953,
+					0.66,
+					0.431594,
+					1
+				],
+				"polar_color": [
+					0.810865,
+					0.934,
+					0.853193,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.58339,
+					0.601562,
+					0.479135,
+					1
+				],
+				"polar": [
+					0.932746,
+					0.939844,
+					0.892026,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.711325,
+					0.581665,
+					0.885182,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.658203,
+					0.375381,
+					0.57424,
+					1
+				],
+				"fraction": 0.4,
+				"polar_color": [
+					0.796191,
+					0.58237,
+					0.732713,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 8960,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 0,
+				"description": "This planet is most fabled for Zero-G cricket but cursed by unpredictable solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.848621,
+				0.66086,
+				0.643345,
+				1
+			],
+			"radius": 212314.927826,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 255480,
+				"vector": [
+					0.353,
+					-0.93,
+					0.097
+				]
+			},
+			"corona": {
+				"shimmer": 0.478882,
+				"hues": 0.929993,
+				"flare": 0.00782
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Dimadi",
+				"radius": 12774
+			}
+		}
+	]
+}

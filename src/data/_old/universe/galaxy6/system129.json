@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system129",
+	"position": [
+		142,
+		90
+	],
+	"space": {
+		"blurs": 51,
+		"stars": 8690,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Mararere",
+			"name": "Mararere",
+			"seed": "94 90 170 142 128 43",
+			"body": {
+				"radius": 5774,
+				"rotation_v": 0.001681,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 577400
+			},
+			"land": {
+				"color": [
+					0.30201,
+					0.348971,
+					0.533203,
+					1
+				],
+				"polar_color": [
+					0.844061,
+					0.864906,
+					0.94668,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.763672,
+					0.590979,
+					0.423599,
+					1
+				],
+				"polar": [
+					0.923633,
+					0.871416,
+					0.820807,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.473775,
+					0.572642,
+					0.892336,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.130096,
+					0.512234,
+					0.679688,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.398601,
+					0.681773,
+					0.805859,
+					1
+				]
+			},
+			"demographics": {
+				"type": 48,
+				"productivity": 27648,
+				"techLevel": 10,
+				"economy": 2,
+				"government": 5,
+				"description": "This planet is very notable for the Mararereian edible grub and the Mararereian tree wolf.",
+				"inhabitants": "Small Red Fat Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.419106,
+				0.749797,
+				0.759378,
+				1
+			],
+			"radius": 124389.101562,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 750620,
+				"vector": [
+					-0.008,
+					-0.506,
+					0.863
+				]
+			},
+			"corona": {
+				"shimmer": 0.484605,
+				"hues": 0.51767,
+				"flare": 0.025389
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Mararere",
+				"radius": 11548
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system184",
+	"position": [
+		66,
+		49
+	],
+	"space": {
+		"blurs": 160,
+		"stars": 8217,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ordiesat",
+			"name": "Ordiesat",
+			"seed": "73 49 129 66 205 57",
+			"body": {
+				"radius": 5186,
+				"rotation_v": 0.004098,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 674180
+			},
+			"land": {
+				"color": [
+					0.605469,
+					0.477753,
+					0.480746,
+					1
+				],
+				"polar_color": [
+					0.939453,
+					0.889912,
+					0.891073,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.742188,
+					0.520446,
+					0.423279,
+					1
+				],
+				"polar": [
+					0.925781,
+					0.856633,
+					0.826332,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.655406,
+					0.595003,
+					0.846809,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.500715,
+					0.383896,
+					0.542969,
+					1
+				],
+				"fraction": 0.21,
+				"polar_color": [
+					0.708133,
+					0.608044,
+					0.744336,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 6272,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 0,
+				"description": "The world Ordiesat is mildly noted for its ancient mountains but ravaged by occasional solar activity.",
+				"inhabitants": "Red Bony Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.665012,
+				0.434439,
+				0.391454,
+				1
+			],
+			"radius": 120287.883606,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 259300,
+				"vector": [
+					0.659,
+					0.736,
+					0.155
+				]
+			},
+			"corona": {
+				"shimmer": 0.404638,
+				"hues": 0.878067,
+				"flare": 0.090892
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ordiesat",
+				"radius": 10372
+			}
+		}
+	]
+}

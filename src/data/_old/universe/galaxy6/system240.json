@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system240",
+	"position": [
+		91,
+		192
+	],
+	"space": {
+		"blurs": 196,
+		"stars": 9722,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orraes",
+			"name": "Orraes",
+			"seed": "18 192 82 91 84 153",
+			"body": {
+				"radius": 5211,
+				"rotation_v": 0.00313,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 729540
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.631238,
+					0.397031,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.923824,
+					0.840965,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.518993,
+					0.408409,
+					0.525391,
+					1
+				],
+				"polar": [
+					0.944577,
+					0.894721,
+					0.947461,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.57343,
+					0.93776,
+					0.974936,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.756983,
+					0.927734,
+					0.337029,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.811941,
+					0.91748,
+					0.55237,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 22560,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 2,
+				"description": "This world is mildly well known for its hoopy night life and Orraesian lethal water.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.833493,
+				0.821874,
+				0.781508,
+				1
+			],
+			"radius": 179711.754456,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 416880,
+				"vector": [
+					-0.634,
+					-0.725,
+					0.271
+				]
+			},
+			"corona": {
+				"shimmer": 0.286146,
+				"hues": 0.841637,
+				"flare": 0.049991
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Orraes",
+				"radius": 10422
+			}
+		}
+	]
+}

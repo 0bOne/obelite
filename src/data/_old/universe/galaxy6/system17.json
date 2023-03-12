@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system17",
+	"position": [
+		45,
+		211
+	],
+	"space": {
+		"blurs": 156,
+		"stars": 6064,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esarxeve",
+			"name": "Esarxeve",
+			"seed": "94 211 234 45 128 9",
+			"body": {
+				"radius": 5165,
+				"rotation_v": 0.004151,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 619800
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.146953,
+					0.303272,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.75249,
+					0.807794,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.62311,
+					0.630859,
+					0.489162,
+					1
+				],
+				"polar": [
+					0.934037,
+					0.936914,
+					0.884304,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.721039,
+					0.507328,
+					0.950871,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.855469,
+					0.170425,
+					0.539707,
+					1
+				],
+				"fraction": 0.54,
+				"polar_color": [
+					0.884961,
+					0.442048,
+					0.680806,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 20664,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 5,
+				"description": "The planet Esarxeve is reasonably fabled for mud tennis and its ancient mountains.",
+				"inhabitants": "Small Green Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.671502,
+				0.680488,
+				0.751743,
+				1
+			],
+			"radius": 154431.419373,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 361550,
+				"vector": [
+					0.527,
+					0.765,
+					-0.37
+				]
+			},
+			"corona": {
+				"shimmer": 0.361881,
+				"hues": 0.623985,
+				"flare": 0.011739
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esarxeve",
+				"radius": 10330
+			}
+		}
+	]
+}

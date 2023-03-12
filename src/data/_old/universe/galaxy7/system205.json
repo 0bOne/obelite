@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system205",
+	"position": [
+		100,
+		20
+	],
+	"space": {
+		"blurs": 55,
+		"stars": 7531,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Dibiedin",
+			"name": "Dibiedin",
+			"seed": "247 20 82 100 83 45",
+			"body": {
+				"radius": 6244,
+				"rotation_v": 0.002965,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 811720
+			},
+			"land": {
+				"color": [
+					0.658203,
+					0.362526,
+					0.598144,
+					1
+				],
+				"polar_color": [
+					0.93418,
+					0.829267,
+					0.912869,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.597908,
+					0.675781,
+					0.520035,
+					1
+				],
+				"polar": [
+					0.90556,
+					0.932422,
+					0.878698,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.574045,
+					0.911414,
+					0.984691,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.61561,
+					0.957031,
+					0.332718,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.723155,
+					0.930664,
+					0.551219,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 6624,
+				"techLevel": 4,
+				"economy": 4,
+				"government": 2,
+				"description": "The world Dibiedin is a dull place.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.557668,
+				0.603204,
+				0.662537,
+				1
+			],
+			"radius": 169191.858521,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 561960,
+				"vector": [
+					0.529,
+					0.562,
+					-0.636
+				]
+			},
+			"corona": {
+				"shimmer": 0.387237,
+				"hues": 0.798668,
+				"flare": 0.041708
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Dibiedin",
+				"radius": 12488
+			}
+		}
+	]
+}

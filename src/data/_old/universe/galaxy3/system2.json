@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system2",
+	"position": [
+		167,
+		185
+	],
+	"space": {
+		"blurs": 104,
+		"stars": 6991,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Lavebe",
+			"name": "Lavebe",
+			"seed": "194 185 178 167 90 117",
+			"body": {
+				"radius": 4263,
+				"rotation_v": 0.002578,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 639450
+			},
+			"land": {
+				"color": [
+					0.556875,
+					0.66,
+					0.570571,
+					1
+				],
+				"polar_color": [
+					0.897516,
+					0.934,
+					0.902361,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.310791,
+					0.349001,
+					0.523438,
+					1
+				],
+				"polar": [
+					0.85141,
+					0.868704,
+					0.947656,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.582113,
+					0.928372,
+					0.970383,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.729342,
+					0.914062,
+					0.364197,
+					1
+				],
+				"fraction": 0.23,
+				"polar_color": [
+					0.796223,
+					0.911328,
+					0.56869,
+					1
+				]
+			},
+			"demographics": {
+				"type": 56,
+				"productivity": 40320,
+				"techLevel": 12,
+				"economy": 1,
+				"government": 6,
+				"description": "Lavebe is famous for its inhabitants’ ancient loathing of casinos but plagued by occasional solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.18177,
+				0.310737,
+				0.705414,
+				1
+			],
+			"radius": 82205.986176,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 213150,
+				"vector": [
+					-0.537,
+					0.821,
+					-0.195
+				]
+			},
+			"corona": {
+				"shimmer": 0.373684,
+				"hues": 0.805511,
+				"flare": 0.032648
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Lavebe",
+				"radius": 8526
+			}
+		}
+	]
+}

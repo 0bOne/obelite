@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system19",
+	"position": [
+		245,
+		3
+	],
+	"space": {
+		"blurs": 69,
+		"stars": 6612,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Lequatdi",
+			"name": "Lequatdi",
+			"seed": "99 3 110 245 151 129",
+			"body": {
+				"radius": 3317,
+				"rotation_v": 0.002088,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 364870
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.265345,
+					0.159844,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.794376,
+					0.757051,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.638672,
+					0.539795,
+					0.496468,
+					1
+				],
+				"polar": [
+					0.936133,
+					0.899901,
+					0.884024,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.741281,
+					0.773259,
+					0.933961,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.788971,
+					0.796584,
+					0.804688,
+					1
+				],
+				"fraction": 0.12,
+				"polar_color": [
+					0.851586,
+					0.856683,
+					0.862109,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 20664,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 5,
+				"description": "The world Lequatdi is scourged by deadly edible arts graduates.",
+				"inhabitants": "Large Black Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.328721,
+				0.637098,
+				0.682245,
+				1
+			],
+			"radius": 77050.302277,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 331700,
+				"vector": [
+					0.996,
+					-0.068,
+					-0.056
+				]
+			},
+			"corona": {
+				"shimmer": 0.419635,
+				"hues": 0.61911,
+				"flare": 0.073053
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Lequatdi",
+				"radius": 6634
+			}
+		}
+	]
+}

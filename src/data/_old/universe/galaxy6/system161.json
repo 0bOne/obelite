@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system161",
+	"position": [
+		41,
+		228
+	],
+	"space": {
+		"blurs": 87,
+		"stars": 7048,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Aislaxe",
+			"name": "Aislaxe",
+			"seed": "94 228 42 41 128 143",
+			"body": {
+				"radius": 6697,
+				"rotation_v": 0.001712,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 736670
+			},
+			"land": {
+				"color": [
+					0.609375,
+					0.38562,
+					0.584902,
+					1
+				],
+				"polar_color": [
+					0.939062,
+					0.852859,
+					0.929634,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.662109,
+					0.595349,
+					0.509514,
+					1
+				],
+				"polar": [
+					0.933789,
+					0.910251,
+					0.879987,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.404736,
+					0.833801,
+					0.742929,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.503906,
+					0.206188,
+					0.0275574,
+					1
+				],
+				"fraction": 0.19,
+				"polar_color": [
+					0.726758,
+					0.458393,
+					0.297375,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 16416,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 5,
+				"description": "This planet is a tedious place.",
+				"inhabitants": "Black Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.462125,
+				0.748214,
+				0.755701,
+				1
+			],
+			"radius": 177027.61673,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 401820,
+				"vector": [
+					0.901,
+					-0.244,
+					-0.359
+				]
+			},
+			"corona": {
+				"shimmer": 0.303872,
+				"hues": 0.540184,
+				"flare": 0.023779
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Aislaxe",
+				"radius": 13394
+			}
+		}
+	]
+}

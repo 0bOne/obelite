@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system234",
+	"position": [
+		148,
+		49
+	],
+	"space": {
+		"blurs": 114,
+		"stars": 6675,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Beorle",
+			"name": "Beorle",
+			"seed": "28 49 96 148 229 211",
+			"body": {
+				"radius": 3732,
+				"rotation_v": 0.000705,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 522480
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.114485,
+					0.0876563,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.741003,
+					0.731512,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.5625,
+					0.511262,
+					0.445386,
+					1
+				],
+				"polar": [
+					0.94375,
+					0.922259,
+					0.894627,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.627184,
+					0.77959,
+					0.993797,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.484497,
+					0.984375,
+					0.867216,
+					1
+				],
+				"fraction": 0.19,
+				"polar_color": [
+					0.643687,
+					0.942969,
+					0.872824,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 21888,
+				"techLevel": 8,
+				"economy": 1,
+				"government": 4,
+				"description": "The world Beorle is a boring world.",
+				"inhabitants": "Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.710477,
+				0.636367,
+				0.281579,
+				1
+			],
+			"radius": 109739.11377,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 149280,
+				"vector": [
+					-0.014,
+					1,
+					0.019
+				]
+			},
+			"corona": {
+				"shimmer": 0.984882,
+				"hues": 0.751236,
+				"flare": 0.028908
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Beorle",
+				"radius": 7464
+			}
+		}
+	]
+}

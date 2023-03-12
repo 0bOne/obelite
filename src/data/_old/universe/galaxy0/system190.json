@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system190",
+	"position": [
+		200,
+		227
+	],
+	"space": {
+		"blurs": 82,
+		"stars": 7706,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Diora",
+			"name": "Diora",
+			"seed": "58 227 164 200 91 109",
+			"body": {
+				"radius": 6344,
+				"rotation_v": 0.00215,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 824720
+			},
+			"land": {
+				"color": [
+					0.417466,
+					0.523438,
+					0.0858765,
+					1
+				],
+				"polar_color": [
+					0.899692,
+					0.947656,
+					0.749611,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.621094,
+					0.436707,
+					0.50153,
+					1
+				],
+				"polar": [
+					0.937891,
+					0.868282,
+					0.892754,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.705498,
+					0.772674,
+					0.94957,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.7052,
+					0.82412,
+					0.851562,
+					1
+				],
+				"fraction": 0.21,
+				"polar_color": [
+					0.788328,
+					0.865414,
+					0.883203,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 14336,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 4,
+				"description": "The planet Diora is an unremarkable planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.578636,
+				0.627863,
+				0.70488,
+				1
+			],
+			"radius": 188303.619385,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 444080,
+				"vector": [
+					-0.714,
+					0.204,
+					-0.669
+				]
+			},
+			"corona": {
+				"shimmer": 0.402397,
+				"hues": 0.889404,
+				"flare": 0.03326
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Diora",
+				"radius": 12688
+			}
+		}
+	]
+}

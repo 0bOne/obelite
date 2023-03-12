@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system9",
+	"position": [
+		29,
+		211
+	],
+	"space": {
+		"blurs": 185,
+		"stars": 9131,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Leater",
+			"name": "Leater",
+			"seed": "15 211 170 29 59 97",
+			"body": {
+				"radius": 3101,
+				"rotation_v": 0.003603,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 403130
+			},
+			"land": {
+				"color": [
+					0.020625,
+					0.66,
+					0.450205,
+					1
+				],
+				"polar_color": [
+					0.707797,
+					0.934,
+					0.859777,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.617188,
+					0.468616,
+					0.453247,
+					1
+				],
+				"polar": [
+					0.938281,
+					0.881815,
+					0.875974,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.595887,
+					0.846609,
+					0.991195,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.392914,
+					0.976562,
+					0.45675,
+					1
+				],
+				"fraction": 0.42,
+				"polar_color": [
+					0.588534,
+					0.939453,
+					0.626916,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 20664,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 5,
+				"description": "The world Leater is very famous for its hoopy night life but scourged by killer mountain monkeys.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.663715,
+				0.302258,
+				0.212558,
+				1
+			],
+			"radius": 65839.468994,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 248080,
+				"vector": [
+					0.32,
+					0.816,
+					-0.482
+				]
+			},
+			"corona": {
+				"shimmer": 1.174986,
+				"hues": 0.796928,
+				"flare": 0.01781
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Leater",
+				"radius": 6202
+			}
+		}
+	]
+}

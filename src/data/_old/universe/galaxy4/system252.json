@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system252",
+	"position": [
+		72,
+		95
+	],
+	"space": {
+		"blurs": 160,
+		"stars": 6337,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ribiinat",
+			"name": "Ribiinat",
+			"seed": "228 95 124 72 5 222",
+			"body": {
+				"radius": 6472,
+				"rotation_v": 0.000542,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 711920
+			},
+			"land": {
+				"color": [
+					0.554982,
+					0.0489844,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.896846,
+					0.71783,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.564453,
+					0.452658,
+					0.434364,
+					1
+				],
+				"polar": [
+					0.943555,
+					0.896835,
+					0.88919,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.524579,
+					0.587326,
+					0.855914,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.249512,
+					0.427456,
+					0.570312,
+					1
+				],
+				"fraction": 0.58,
+				"polar_color": [
+					0.490634,
+					0.638185,
+					0.756641,
+					1
+				]
+			},
+			"demographics": {
+				"type": 31,
+				"productivity": 8184,
+				"techLevel": 4,
+				"economy": 7,
+				"government": 7,
+				"description": "Ribiinat is ravaged by dreadful civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.598069,
+				0.648216,
+				0.774564,
+				1
+			],
+			"radius": 161606.44043,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 323600,
+				"vector": [
+					-0.618,
+					0.283,
+					-0.734
+				]
+			},
+			"corona": {
+				"shimmer": 1.45216,
+				"hues": 0.937469,
+				"flare": 0.062839
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ribiinat",
+				"radius": 12944
+			}
+		}
+	]
+}

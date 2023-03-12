@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system210",
+	"position": [
+		47,
+		82
+	],
+	"space": {
+		"blurs": 68,
+		"stars": 6591,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Riredi",
+			"name": "Riredi",
+			"seed": "106 82 124 47 155 190",
+			"body": {
+				"radius": 6447,
+				"rotation_v": 0.003102,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 838110
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.592324,
+					0.226875,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.910057,
+					0.780766,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.567734,
+					0.65625,
+					0.518079,
+					1
+				],
+				"polar": [
+					0.902867,
+					0.934375,
+					0.885193,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.532715,
+					0.963229,
+					0.85525,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.892578,
+					0.400908,
+					0.230118,
+					1
+				],
+				"fraction": 0.39,
+				"polar_color": [
+					0.90166,
+					0.59124,
+					0.48341,
+					1
+				]
+			},
+			"demographics": {
+				"type": 58,
+				"productivity": 40832,
+				"techLevel": 12,
+				"economy": 2,
+				"government": 7,
+				"description": "This world is very fabled for the Rirediian mountain slug.",
+				"inhabitants": "Harmless Furry Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.764722,
+				0.418108,
+				0.271353,
+				1
+			],
+			"radius": 155367.033691,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 257880,
+				"vector": [
+					0.113,
+					-0.038,
+					-0.993
+				]
+			},
+			"corona": {
+				"shimmer": 0.267844,
+				"hues": 0.677521,
+				"flare": 0.04756
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Riredi",
+				"radius": 12894
+			}
+		}
+	]
+}

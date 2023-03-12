@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system220",
+	"position": [
+		215,
+		122
+	],
+	"space": {
+		"blurs": 167,
+		"stars": 7696,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Aleusqu",
+			"name": "Aleusqu",
+			"seed": "122 122 112 215 179 15",
+			"body": {
+				"radius": 6871,
+				"rotation_v": 0.000391,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 824520
+			},
+			"land": {
+				"color": [
+					0.319688,
+					0.66,
+					0.340957,
+					1
+				],
+				"polar_color": [
+					0.813602,
+					0.934,
+					0.821126,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.646484,
+					0.633029,
+					0.489914,
+					1
+				],
+				"polar": [
+					0.935352,
+					0.930485,
+					0.878719,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.45751,
+					0.465861,
+					0.930059,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0588531,
+					0.0875295,
+					0.792969,
+					1
+				],
+				"fraction": 0.45,
+				"polar_color": [
+					0.361059,
+					0.380426,
+					0.856836,
+					1
+				]
+			},
+			"demographics": {
+				"type": 53,
+				"productivity": 33920,
+				"techLevel": 11,
+				"economy": 2,
+				"government": 6,
+				"description": "This world is reasonably notable for its great volcanoes but ravaged by vicious shrews.",
+				"inhabitants": "Green Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.287828,
+				0.350557,
+				0.802686,
+				1
+			],
+			"radius": 196148.933105,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 549680,
+				"vector": [
+					-0.933,
+					-0.172,
+					-0.316
+				]
+			},
+			"corona": {
+				"shimmer": 0.372842,
+				"hues": 0.89135,
+				"flare": 0.031999
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Aleusqu",
+				"radius": 13742
+			}
+		}
+	]
+}

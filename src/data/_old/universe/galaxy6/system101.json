@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system101",
+	"position": [
+		201,
+		17
+	],
+	"space": {
+		"blurs": 76,
+		"stars": 5683,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arceores",
+			"name": "Arceores",
+			"seed": "222 17 186 201 64 202",
+			"body": {
+				"radius": 5577,
+				"rotation_v": 0.004888,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 557700
+			},
+			"land": {
+				"color": [
+					0.221603,
+					0.433445,
+					0.603516,
+					1
+				],
+				"polar_color": [
+					0.790993,
+					0.87345,
+					0.939648,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.623929,
+					0.769531,
+					0.58316,
+					1
+				],
+				"polar": [
+					0.879385,
+					0.923047,
+					0.867159,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.509917,
+					0.997049,
+					0.947105,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.994141,
+					0.738203,
+					0.132034,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.947363,
+					0.794929,
+					0.4339,
+					1
+				]
+			},
+			"demographics": {
+				"type": 53,
+				"productivity": 41976,
+				"techLevel": 11,
+				"economy": 1,
+				"government": 7,
+				"description": "The world Arceores is notable for the Arceoresian edible arts graduate and its great volcanoes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.775922,
+				0.649651,
+				0.208889,
+				1
+			],
+			"radius": 136006.602631,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 613470,
+				"vector": [
+					-0.02,
+					-0.992,
+					0.125
+				]
+			},
+			"corona": {
+				"shimmer": 0.750458,
+				"hues": 0.806122,
+				"flare": 0.001338
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Arceores",
+				"radius": 11154
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system74",
+	"position": [
+		46,
+		99
+	],
+	"space": {
+		"blurs": 42,
+		"stars": 7574,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Artelaan",
+			"name": "Artelaan",
+			"seed": "89 99 136 46 85 10",
+			"body": {
+				"radius": 5422,
+				"rotation_v": 0.000284,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 596420
+			},
+			"land": {
+				"color": [
+					0.335479,
+					0.66,
+					0.268125,
+					1
+				],
+				"polar_color": [
+					0.819188,
+					0.934,
+					0.795359,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.610573,
+					0.666016,
+					0.511739,
+					1
+				],
+				"polar": [
+					0.913973,
+					0.933398,
+					0.879345,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.676329,
+					0.859166,
+					0.841848,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.580078,
+					0.573882,
+					0.557419,
+					1
+				],
+				"fraction": 0.25,
+				"polar_color": [
+					0.761035,
+					0.755955,
+					0.742455,
+					1
+				]
+			},
+			"demographics": {
+				"type": 33,
+				"productivity": 9240,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 1,
+				"description": "The planet Artelaan is cursed by dreadful civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.230836,
+				0.332789,
+				0.716461,
+				1
+			],
+			"radius": 148915.541077,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 487980,
+				"vector": [
+					0.438,
+					-0.487,
+					0.756
+				]
+			},
+			"corona": {
+				"shimmer": 1.11779,
+				"hues": 0.666718,
+				"flare": 0.095966
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Artelaan",
+				"radius": 10844
+			}
+		}
+	]
+}

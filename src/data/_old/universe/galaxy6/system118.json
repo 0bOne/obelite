@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system118",
+	"position": [
+		241,
+		35
+	],
+	"space": {
+		"blurs": 163,
+		"stars": 8099,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orreedon",
+			"name": "Orreedon",
+			"seed": "82 35 170 241 20 89",
+			"body": {
+				"radius": 5361,
+				"rotation_v": 0.004061,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 589710
+			},
+			"land": {
+				"color": [
+					0.366577,
+					0.300781,
+					0.601562,
+					1
+				],
+				"polar_color": [
+					0.848062,
+					0.822363,
+					0.939844,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.693543,
+					0.736328,
+					0.540741,
+					1
+				],
+				"polar": [
+					0.91291,
+					0.926367,
+					0.864851,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.547804,
+					0.587216,
+					0.840305,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.290344,
+					0.381396,
+					0.523438,
+					1
+				],
+				"fraction": 0.55,
+				"polar_color": [
+					0.530829,
+					0.610797,
+					0.735547,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 20664,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 5,
+				"description": "The planet Orreedon is most famous for the Orreedonian deadly goat and its pink Orreedonian Re Reweed plantations.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.772614,
+				0.768438,
+				0.726141,
+				1
+			],
+			"radius": 123788.251648,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 321660,
+				"vector": [
+					-0.351,
+					0.569,
+					-0.743
+				]
+			},
+			"corona": {
+				"shimmer": 0.477341,
+				"hues": 0.969391,
+				"flare": 0.046172
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Orreedon",
+				"radius": 10722
+			}
+		}
+	]
+}

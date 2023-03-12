@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system210",
+	"position": [
+		67,
+		93
+	],
+	"space": {
+		"blurs": 163,
+		"stars": 7439,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Lelebi",
+			"name": "Lelebi",
+			"seed": "161 93 25 67 45 65",
+			"body": {
+				"radius": 3139,
+				"rotation_v": 0.00129,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 470850
+			},
+			"land": {
+				"color": [
+					0.446942,
+					0.0257813,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.858623,
+					0.709621,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.554688,
+					0.474037,
+					0.43465,
+					1
+				],
+				"polar": [
+					0.944531,
+					0.910198,
+					0.893431,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.708006,
+					0.777316,
+					0.946318,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.710266,
+					0.8233,
+					0.841797,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.792987,
+					0.86674,
+					0.878809,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 10360,
+				"techLevel": 7,
+				"economy": 5,
+				"government": 3,
+				"description": "The world Lelebi is mildly fabled for the Lelebiian edible moth but beset by evil disease.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.735257,
+				0.423421,
+				0.357949,
+				1
+			],
+			"radius": 61827.32193,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 94170,
+				"vector": [
+					0.938,
+					-0.337,
+					-0.078
+				]
+			},
+			"corona": {
+				"shimmer": 0.323089,
+				"hues": 0.545479,
+				"flare": 0.095045
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Lelebi",
+				"radius": 6278
+			}
+		}
+	]
+}

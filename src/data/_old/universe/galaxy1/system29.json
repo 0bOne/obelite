@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system29",
+	"position": [
+		109,
+		151
+	],
+	"space": {
+		"blurs": 195,
+		"stars": 8746,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esrece",
+			"name": "Esrece",
+			"seed": "128 151 32 109 218 169",
+			"body": {
+				"radius": 5229,
+				"rotation_v": 0.001891,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 679770
+			},
+			"land": {
+				"color": [
+					0.160629,
+					0.623047,
+					0.623047,
+					1
+				],
+				"polar_color": [
+					0.763709,
+					0.937695,
+					0.937695,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.705061,
+					0.724609,
+					0.532135,
+					1
+				],
+				"polar": [
+					0.921283,
+					0.927539,
+					0.865945,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.451443,
+					0.582887,
+					0.903393,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0696182,
+					0.62243,
+					0.712891,
+					1
+				],
+				"fraction": 0.39,
+				"polar_color": [
+					0.357898,
+					0.755705,
+					0.820801,
+					1
+				]
+			},
+			"demographics": {
+				"type": 24,
+				"productivity": 4608,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 4,
+				"description": "Esrece is cursed by dreadful civil war.",
+				"inhabitants": "Small Harmless Horned Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.816287,
+				0.478874,
+				0.386813,
+				1
+			],
+			"radius": 172982.430725,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 209160,
+				"vector": [
+					-0.271,
+					0.903,
+					0.335
+				]
+			},
+			"corona": {
+				"shimmer": 0.275999,
+				"hues": 0.726616,
+				"flare": 0.077682
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esrece",
+				"radius": 10458
+			}
+		}
+	]
+}

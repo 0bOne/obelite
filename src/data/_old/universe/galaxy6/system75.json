@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system75",
+	"position": [
+		234,
+		18
+	],
+	"space": {
+		"blurs": 89,
+		"stars": 7301,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Antiis",
+			"name": "Antiis",
+			"seed": "14 18 130 234 80 27",
+			"body": {
+				"radius": 5866,
+				"rotation_v": 0.0045,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 703920
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.213984,
+					0.485775,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.776205,
+					0.872361,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.517578,
+					0.427577,
+					0.412849,
+					1
+				],
+				"polar": [
+					0.948242,
+					0.90702,
+					0.900274,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.458645,
+					0.655288,
+					0.876727,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.106293,
+					0.632812,
+					0.423027,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.376672,
+					0.784766,
+					0.622166,
+					1
+				]
+			},
+			"demographics": {
+				"type": 31,
+				"productivity": 7936,
+				"techLevel": 7,
+				"economy": 2,
+				"government": 0,
+				"description": "Antiis is a revolting dump.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.545365,
+				0.708052,
+				0.711038,
+				1
+			],
+			"radius": 147525.388794,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 527940,
+				"vector": [
+					0.156,
+					0.832,
+					-0.533
+				]
+			},
+			"corona": {
+				"shimmer": 0.495142,
+				"hues": 0.698311,
+				"flare": 0.043723
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Antiis",
+				"radius": 11732
+			}
+		}
+	]
+}

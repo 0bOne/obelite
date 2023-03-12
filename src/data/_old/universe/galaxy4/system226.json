@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system226",
+	"position": [
+		67,
+		184
+	],
+	"space": {
+		"blurs": 142,
+		"stars": 8428,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Geonbi",
+			"name": "Geonbi",
+			"seed": "156 184 80 67 133 195",
+			"body": {
+				"radius": 3651,
+				"rotation_v": 0.00381,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 328590
+			},
+			"land": {
+				"color": [
+					0.378984,
+					0.66,
+					0.455825,
+					1
+				],
+				"polar_color": [
+					0.83458,
+					0.934,
+					0.861765,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.584923,
+					0.644531,
+					0.505806,
+					1
+				],
+				"polar": [
+					0.913916,
+					0.935547,
+					0.885206,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.481064,
+					0.478547,
+					0.917051,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.143382,
+					0.123688,
+					0.753906,
+					1
+				],
+				"fraction": 0.28,
+				"polar_color": [
+					0.414481,
+					0.400778,
+					0.839258,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 22560,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 2,
+				"description": "Geonbi is mildly famous for its hoopy casinos and its great parking meters.",
+				"inhabitants": "Large Bony Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.543427,
+				0.688569,
+				0.704788,
+				1
+			],
+			"radius": 93669.965973,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 365100,
+				"vector": [
+					0.049,
+					0.176,
+					-0.983
+				]
+			},
+			"corona": {
+				"shimmer": 0.478295,
+				"hues": 0.503616,
+				"flare": 0.059779
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Geonbi",
+				"radius": 7302
+			}
+		}
+	]
+}

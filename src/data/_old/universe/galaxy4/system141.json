@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system141",
+	"position": [
+		10,
+		13
+	],
+	"space": {
+		"blurs": 93,
+		"stars": 9644,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tebeor",
+			"name": "Tebeor",
+			"seed": "38 13 48 10 27 28",
+			"body": {
+				"radius": 5898,
+				"rotation_v": 0.000053,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 707760
+			},
+			"land": {
+				"color": [
+					0.61446,
+					0.66,
+					0.353203,
+					1
+				],
+				"polar_color": [
+					0.917888,
+					0.934,
+					0.825459,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.595703,
+					0.546317,
+					0.461205,
+					1
+				],
+				"polar": [
+					0.94043,
+					0.920938,
+					0.887347,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.646066,
+					0.88193,
+					0.846703,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.648438,
+					0.590813,
+					0.516724,
+					1
+				],
+				"fraction": 0.37,
+				"polar_color": [
+					0.791797,
+					0.747819,
+					0.691276,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 16000,
+				"techLevel": 7,
+				"economy": 5,
+				"government": 6,
+				"description": "Tebeor is mildly well known for its hoopy night life.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.554732,
+				0.63212,
+				0.750018,
+				1
+			],
+			"radius": 160702.860718,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 294900,
+				"vector": [
+					0.851,
+					0.431,
+					0.3
+				]
+			},
+			"corona": {
+				"shimmer": 0.39725,
+				"hues": 0.88308,
+				"flare": 0.064122
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tebeor",
+				"radius": 11796
+			}
+		}
+	]
+}

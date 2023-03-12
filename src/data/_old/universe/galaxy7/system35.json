@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system35",
+	"position": [
+		114,
+		151
+	],
+	"space": {
+		"blurs": 44,
+		"stars": 9949,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atanon",
+			"name": "Atanon",
+			"seed": "3 151 14 114 247 113",
+			"body": {
+				"radius": 3186,
+				"rotation_v": 0.004561,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 382320
+			},
+			"land": {
+				"color": [
+					0.129067,
+					0.59375,
+					0.0765381,
+					1
+				],
+				"polar_color": [
+					0.756586,
+					0.940625,
+					0.735782,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.658203,
+					0.553752,
+					0.491081,
+					1
+				],
+				"polar": [
+					0.93418,
+					0.897118,
+					0.874881,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.555687,
+					0.582806,
+					0.839004,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.304413,
+					0.363234,
+					0.519531,
+					1
+				],
+				"fraction": 0.27,
+				"polar_color": [
+					0.543893,
+					0.595817,
+					0.733789,
+					1
+				]
+			},
+			"demographics": {
+				"type": 21,
+				"productivity": 2520,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 1,
+				"description": "This world is mildly well known for Atanonian shrew steak and vicious Stlogein brew.",
+				"inhabitants": "Blue Furry Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.498307,
+				0.569167,
+				0.664203,
+				1
+			],
+			"radius": 57070.508423,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 159300,
+				"vector": [
+					0.357,
+					-0.922,
+					-0.151
+				]
+			},
+			"corona": {
+				"shimmer": 0.695195,
+				"hues": 0.930496,
+				"flare": 0.080685
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atanon",
+				"radius": 6372
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system177",
+	"position": [
+		66,
+		21
+	],
+	"space": {
+		"blurs": 90,
+		"stars": 8552,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Dicelaso",
+			"name": "Dicelaso",
+			"seed": "94 21 106 66 128 13",
+			"body": {
+				"radius": 6210,
+				"rotation_v": 0.004156,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 683100
+			},
+			"land": {
+				"color": [
+					0.527831,
+					0.162422,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.88724,
+					0.757963,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.671875,
+					0.479568,
+					0.454041,
+					1
+				],
+				"polar": [
+					0.932813,
+					0.866064,
+					0.857204,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.549514,
+					0.966638,
+					0.986643,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.858485,
+					0.962891,
+					0.259529,
+					1
+				],
+				"fraction": 0.2,
+				"polar_color": [
+					0.870053,
+					0.933301,
+					0.507209,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 14040,
+				"techLevel": 7,
+				"economy": 5,
+				"government": 5,
+				"description": "The planet Dicelaso is scourged by deadly disease.",
+				"inhabitants": "Green Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.820926,
+				0.663729,
+				0.642567,
+				1
+			],
+			"radius": 153575.642395,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 558900,
+				"vector": [
+					-0.728,
+					-0.221,
+					-0.649
+				]
+			},
+			"corona": {
+				"shimmer": 0.420383,
+				"hues": 0.673996,
+				"flare": 0.025282
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Dicelaso",
+				"radius": 12420
+			}
+		}
+	]
+}

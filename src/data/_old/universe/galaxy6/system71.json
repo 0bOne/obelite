@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system71",
+	"position": [
+		159,
+		8
+	],
+	"space": {
+		"blurs": 197,
+		"stars": 5724,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Angeriri",
+			"name": "Angeriri",
+			"seed": "206 8 50 159 208 59",
+			"body": {
+				"radius": 5791,
+				"rotation_v": 0.001379,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 637010
+			},
+			"land": {
+				"color": [
+					0.392681,
+					0.226875,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.839426,
+					0.780766,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.667969,
+					0.490825,
+					0.461838,
+					1
+				],
+				"polar": [
+					0.933203,
+					0.871332,
+					0.861208,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.667984,
+					0.829009,
+					0.938514,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.600983,
+					0.818359,
+					0.650232,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.724117,
+					0.868262,
+					0.756775,
+					1
+				]
+			},
+			"demographics": {
+				"type": 59,
+				"productivity": 47200,
+				"techLevel": 13,
+				"economy": 0,
+				"government": 6,
+				"description": "This world is plagued by frequent solar activity.",
+				"inhabitants": "Red Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.253271,
+				0.385455,
+				0.742398,
+				1
+			],
+			"radius": 136065.878906,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 405370,
+				"vector": [
+					-0.237,
+					-0.221,
+					-0.946
+				]
+			},
+			"corona": {
+				"shimmer": 0.247464,
+				"hues": 0.752342,
+				"flare": 0.054416
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Angeriri",
+				"radius": 11582
+			}
+		}
+	]
+}

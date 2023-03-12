@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system151",
+	"position": [
+		241,
+		72
+	],
+	"space": {
+		"blurs": 159,
+		"stars": 6904,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Resobi",
+			"name": "Resobi",
+			"seed": "11 72 22 241 47 110",
+			"body": {
+				"radius": 6641,
+				"rotation_v": 0.001454,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 863330
+			},
+			"land": {
+				"color": [
+					0.0204468,
+					0.654297,
+					0.0303507,
+					1
+				],
+				"polar_color": [
+					0.708229,
+					0.93457,
+					0.711766,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.710938,
+					0.679695,
+					0.510986,
+					1
+				],
+				"polar": [
+					0.928906,
+					0.918701,
+					0.863593,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.712889,
+					0.821738,
+					0.898189,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.683647,
+					0.697266,
+					0.687052,
+					1
+				],
+				"fraction": 0.23,
+				"polar_color": [
+					0.803836,
+					0.81377,
+					0.806319,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 18720,
+				"techLevel": 9,
+				"economy": 0,
+				"government": 2,
+				"description": "The planet Resobi is reasonably fabled for Zero-G hockey and its inhabitants’ ingrained shyness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.753118,
+				0.764401,
+				0.764749,
+				1
+			],
+			"radius": 128390.70755,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 730510,
+				"vector": [
+					0.756,
+					0.629,
+					-0.18
+				]
+			},
+			"corona": {
+				"shimmer": 0.322374,
+				"hues": 0.618362,
+				"flare": 0.0647
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Resobi",
+				"radius": 13282
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system154",
+	"position": [
+		144,
+		121
+	],
+	"space": {
+		"blurs": 161,
+		"stars": 9454,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orgein",
+			"name": "Orgein",
+			"seed": "28 121 192 144 37 217",
+			"body": {
+				"radius": 5264,
+				"rotation_v": 0.001956,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 579040
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.368672,
+					0.457436,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.830932,
+					0.862335,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.742188,
+					0.448194,
+					0.400085,
+					1
+				],
+				"polar": [
+					0.925781,
+					0.834102,
+					0.819099,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.526189,
+					0.608753,
+					0.844207,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.250854,
+					0.468523,
+					0.535156,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.494845,
+					0.68317,
+					0.74082,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 4480,
+				"techLevel": 4,
+				"economy": 3,
+				"government": 0,
+				"description": "The world Orgein is a boring world.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.818585,
+				0.634192,
+				0.364764,
+				1
+			],
+			"radius": 135020.925293,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 473760,
+				"vector": [
+					0.083,
+					0.505,
+					0.859
+				]
+			},
+			"corona": {
+				"shimmer": 0.388619,
+				"hues": 0.780579,
+				"flare": 0.079227
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Orgein",
+				"radius": 10528
+			}
+		}
+	]
+}

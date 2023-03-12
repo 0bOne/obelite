@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system43",
+	"position": [
+		210,
+		68
+	],
+	"space": {
+		"blurs": 177,
+		"stars": 8890,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ladila",
+			"name": "Ladila",
+			"seed": "166 68 108 210 243 213",
+			"body": {
+				"radius": 4306,
+				"rotation_v": 0.002825,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 516720
+			},
+			"land": {
+				"color": [
+					0.617783,
+					0.66,
+					0.322266,
+					1
+				],
+				"polar_color": [
+					0.919064,
+					0.934,
+					0.814514,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.599609,
+					0.482251,
+					0.450878,
+					1
+				],
+				"polar": [
+					0.940039,
+					0.894042,
+					0.881746,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.5259,
+					0.606382,
+					0.845508,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.25058,
+					0.464688,
+					0.539062,
+					1
+				],
+				"fraction": 0.48,
+				"polar_color": [
+					0.494206,
+					0.678545,
+					0.742578,
+					1
+				]
+			},
+			"demographics": {
+				"type": 42,
+				"productivity": 18144,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 5,
+				"description": "This planet is beset by dreadful earthquakes.",
+				"inhabitants": "Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.607569,
+				0.69797,
+				0.7021,
+				1
+			],
+			"radius": 101334.498291,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 301420,
+				"vector": [
+					0.142,
+					-0.855,
+					0.499
+				]
+			},
+			"corona": {
+				"shimmer": 0.422878,
+				"hues": 0.597198,
+				"flare": 0.020859
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ladila",
+				"radius": 8612
+			}
+		}
+	]
+}

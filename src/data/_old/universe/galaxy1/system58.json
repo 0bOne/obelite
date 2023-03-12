@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system58",
+	"position": [
+		169,
+		3
+	],
+	"space": {
+		"blurs": 45,
+		"stars": 5826,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xeate",
+			"name": "Xeate",
+			"seed": "20 3 216 169 182 130",
+			"body": {
+				"radius": 3497,
+				"rotation_v": 0.00485,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 384670
+			},
+			"land": {
+				"color": [
+					0.501953,
+					0.46522,
+					0.0745087,
+					1
+				],
+				"polar_color": [
+					0.949805,
+					0.932428,
+					0.7476,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.615601,
+					0.636719,
+					0.494452,
+					1
+				],
+				"polar": [
+					0.928564,
+					0.936328,
+					0.884025,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.636616,
+					0.902282,
+					0.919652,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.713484,
+					0.761719,
+					0.514755,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.809419,
+					0.842773,
+					0.671997,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 13720,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 3,
+				"description": "Xeate is an unremarkable dump.",
+				"inhabitants": "Large Black Horned Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.776608,
+				0.766257,
+				0.719728,
+				1
+			],
+			"radius": 90271.221619,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 454610,
+				"vector": [
+					0.103,
+					0.966,
+					-0.236
+				]
+			},
+			"corona": {
+				"shimmer": 0.322187,
+				"hues": 0.774132,
+				"flare": 0.016684
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xeate",
+				"radius": 6994
+			}
+		}
+	]
+}

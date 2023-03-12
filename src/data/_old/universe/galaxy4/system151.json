@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system151",
+	"position": [
+		209,
+		10
+	],
+	"space": {
+		"blurs": 79,
+		"stars": 5323,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edbeis",
+			"name": "Edbeis",
+			"seed": "22 10 84 209 83 88",
+			"body": {
+				"radius": 5073,
+				"rotation_v": 0.003079,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 608760
+			},
+			"land": {
+				"color": [
+					0.656213,
+					0.66,
+					0.538828,
+					1
+				],
+				"polar_color": [
+					0.93266,
+					0.934,
+					0.891131,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0731964,
+					0.568944,
+					0.720703,
+					1
+				],
+				"polar": [
+					0.719508,
+					0.879081,
+					0.92793,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.788825,
+					0.563619,
+					0.925506,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.779297,
+					0.33181,
+					0.38425,
+					1
+				],
+				"fraction": 0.34,
+				"polar_color": [
+					0.850684,
+					0.545385,
+					0.581162,
+					1
+				]
+			},
+			"demographics": {
+				"type": 33,
+				"productivity": 12672,
+				"techLevel": 7,
+				"economy": 2,
+				"government": 2,
+				"description": "Edbeis is an unremarkable planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.845877,
+				0.831994,
+				0.791784,
+				1
+			],
+			"radius": 116196.903992,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 456570,
+				"vector": [
+					0.677,
+					0.651,
+					-0.343
+				]
+			},
+			"corona": {
+				"shimmer": 0.445417,
+				"hues": 0.711426,
+				"flare": 0.094978
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Edbeis",
+				"radius": 10146
+			}
+		}
+	]
+}

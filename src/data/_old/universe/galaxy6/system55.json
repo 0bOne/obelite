@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system55",
+	"position": [
+		142,
+		136
+	],
+	"space": {
+		"blurs": 170,
+		"stars": 8989,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Enarines",
+			"name": "Enarines",
+			"seed": "206 136 242 142 208 210",
+			"body": {
+				"radius": 3470,
+				"rotation_v": 0.003945,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 312300
+			},
+			"land": {
+				"color": [
+					0.509766,
+					0.477905,
+					0.486119,
+					1
+				],
+				"polar_color": [
+					0.949023,
+					0.934195,
+					0.938018,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.591797,
+					0.522536,
+					0.455406,
+					1
+				],
+				"polar": [
+					0.94082,
+					0.913293,
+					0.886613,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.649102,
+					0.900387,
+					0.902092,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.703619,
+					0.708984,
+					0.537277,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.815169,
+					0.819043,
+					0.695067,
+					1
+				]
+			},
+			"demographics": {
+				"type": 55,
+				"productivity": 44000,
+				"techLevel": 12,
+				"economy": 0,
+				"government": 6,
+				"description": "The planet Enarines is a boring world.",
+				"inhabitants": "Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.670813,
+				0.575448,
+				0.470639,
+				1
+			],
+			"radius": 86769.590759,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 312300,
+				"vector": [
+					-0.995,
+					-0.007,
+					-0.101
+				]
+			},
+			"corona": {
+				"shimmer": 0.391022,
+				"hues": 0.987411,
+				"flare": 0.068625
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Enarines",
+				"radius": 6940
+			}
+		}
+	]
+}

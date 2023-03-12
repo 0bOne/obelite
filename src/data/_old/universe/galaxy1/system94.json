@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system94",
+	"position": [
+		96,
+		175
+	],
+	"space": {
+		"blurs": 80,
+		"stars": 8765,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Laceteed",
+			"name": "Laceteed",
+			"seed": "116 175 200 96 182 53",
+			"body": {
+				"radius": 4192,
+				"rotation_v": 0.004179,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 503040
+			},
+			"land": {
+				"color": [
+					0.484688,
+					0.66,
+					0.561387,
+					1
+				],
+				"polar_color": [
+					0.871977,
+					0.934,
+					0.899112,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.505859,
+					0.0895998,
+					0.00790405,
+					1
+				],
+				"polar": [
+					0.949414,
+					0.754102,
+					0.715769,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.620081,
+					0.889084,
+					0.813216,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.669922,
+					0.497105,
+					0.463188,
+					1
+				],
+				"fraction": 0.07,
+				"polar_color": [
+					0.801465,
+					0.672246,
+					0.646885,
+					1
+				]
+			},
+			"demographics": {
+				"type": 13,
+				"productivity": 1560,
+				"techLevel": 1,
+				"economy": 7,
+				"government": 1,
+				"description": "The world Laceteed is a dull place.",
+				"inhabitants": "Red Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.740848,
+				0.676691,
+				0.497189,
+				1
+			],
+			"radius": 94151.132812,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 503040,
+				"vector": [
+					0.938,
+					-0.195,
+					0.287
+				]
+			},
+			"corona": {
+				"shimmer": 0.376419,
+				"hues": 0.50695,
+				"flare": 0.002563
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Laceteed",
+				"radius": 8384
+			}
+		}
+	]
+}

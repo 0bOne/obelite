@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system242",
+	"position": [
+		107,
+		146
+	],
+	"space": {
+		"blurs": 158,
+		"stars": 5832,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ontesoge",
+			"name": "Ontesoge",
+			"seed": "66 146 50 107 90 127",
+			"body": {
+				"radius": 6763,
+				"rotation_v": 0.002574,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 676300
+			},
+			"land": {
+				"color": [
+					0.304219,
+					0.66,
+					0.409841,
+					1
+				],
+				"polar_color": [
+					0.808129,
+					0.934,
+					0.845497,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.612698,
+					0.644531,
+					0.499008,
+					1
+				],
+				"polar": [
+					0.923995,
+					0.935547,
+					0.88274,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.728505,
+					0.783979,
+					0.930059,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.752701,
+					0.785419,
+					0.792969,
+					1
+				],
+				"fraction": 0.13,
+				"polar_color": [
+					0.829641,
+					0.851737,
+					0.856836,
+					1
+				]
+			},
+			"demographics": {
+				"type": 53,
+				"productivity": 33920,
+				"techLevel": 11,
+				"economy": 2,
+				"government": 6,
+				"description": "This world is mildly well known for its hoopy night life and Ontesogeian lethal brandy.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.752582,
+				0.745979,
+				0.371663,
+				1
+			],
+			"radius": 233842.365417,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 676300,
+				"vector": [
+					-0.324,
+					-0.435,
+					-0.84
+				]
+			},
+			"corona": {
+				"shimmer": 0.473061,
+				"hues": 0.562042,
+				"flare": 0.051576
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Ontesoge",
+				"radius": 13526
+			}
+		}
+	]
+}

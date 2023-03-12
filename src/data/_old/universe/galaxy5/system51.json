@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system51",
+	"position": [
+		65,
+		244
+	],
+	"space": {
+		"blurs": 79,
+		"stars": 5695,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Azara",
+			"name": "Azara",
+			"seed": "7 244 17 65 104 111",
+			"body": {
+				"radius": 6721,
+				"rotation_v": 0.002912,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 806520
+			},
+			"land": {
+				"color": [
+					0.380506,
+					0.505859,
+					0.104729,
+					1
+				],
+				"polar_color": [
+					0.890597,
+					0.949414,
+					0.7612,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.597903,
+					0.773438,
+					0.728183,
+					1
+				],
+				"polar": [
+					0.870306,
+					0.922656,
+					0.90916,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.544245,
+					0.970383,
+					0.920041,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.914062,
+					0.688225,
+					0.25708,
+					1
+				],
+				"fraction": 0.24,
+				"polar_color": [
+					0.911328,
+					0.770602,
+					0.501942,
+					1
+				]
+			},
+			"demographics": {
+				"type": 27,
+				"productivity": 7776,
+				"techLevel": 5,
+				"economy": 4,
+				"government": 2,
+				"description": "This planet is a tedious place.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.669864,
+				0.490308,
+				0.391359,
+				1
+			],
+			"radius": 212101.821747,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 537680,
+				"vector": [
+					0.982,
+					-0.185,
+					-0.036
+				]
+			},
+			"corona": {
+				"shimmer": 0.30295,
+				"hues": 0.924568,
+				"flare": 0.084383
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Azara",
+				"radius": 13442
+			}
+		}
+	]
+}

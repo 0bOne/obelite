@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system247",
+	"position": [
+		37,
+		130
+	],
+	"space": {
+		"blurs": 117,
+		"stars": 6595,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tezabi",
+			"name": "Tezabi",
+			"seed": "150 130 148 37 83 188",
+			"body": {
+				"radius": 5925,
+				"rotation_v": 0.000599,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 711000
+			},
+			"land": {
+				"color": [
+					0.591797,
+					0.455406,
+					0.496963,
+					1
+				],
+				"polar_color": [
+					0.94082,
+					0.886613,
+					0.903129,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.890625,
+					0.455858,
+					0.24353,
+					1
+				],
+				"polar": [
+					0.910937,
+					0.799767,
+					0.745474,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.780441,
+					0.624171,
+					0.872174,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.619141,
+					0.461937,
+					0.476675,
+					1
+				],
+				"fraction": 0.16,
+				"polar_color": [
+					0.778613,
+					0.655054,
+					0.666638,
+					1
+				]
+			},
+			"demographics": {
+				"type": 33,
+				"productivity": 12672,
+				"techLevel": 7,
+				"economy": 2,
+				"government": 2,
+				"description": "This world is noted for its unusual sit coms.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.758081,
+				0.752515,
+				0.75213,
+				1
+			],
+			"radius": 122938.144684,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 414750,
+				"vector": [
+					0.112,
+					0.384,
+					0.917
+				]
+			},
+			"corona": {
+				"shimmer": 0.247214,
+				"hues": 0.583305,
+				"flare": 0.066063
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tezabi",
+				"radius": 11850
+			}
+		}
+	]
+}

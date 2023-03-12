@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system174",
+	"position": [
+		48,
+		247
+	],
+	"space": {
+		"blurs": 103,
+		"stars": 6772,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Biabite",
+			"name": "Biabite",
+			"seed": "244 247 136 48 182 198",
+			"body": {
+				"radius": 4400,
+				"rotation_v": 0.001738,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 484000
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.486299,
+					0.154688,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.872547,
+					0.755227,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.537109,
+					0.400734,
+					0.49023,
+					1
+				],
+				"polar": [
+					0.946289,
+					0.886222,
+					0.925641,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.651665,
+					0.889611,
+					0.907295,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.685601,
+					0.724609,
+					0.546288,
+					1
+				],
+				"fraction": 0.25,
+				"polar_color": [
+					0.79828,
+					0.826074,
+					0.699017,
+					1
+				]
+			},
+			"demographics": {
+				"type": 13,
+				"productivity": 1560,
+				"techLevel": 1,
+				"economy": 7,
+				"government": 1,
+				"description": "This world is very notable for the Biabiteian tree snake.",
+				"inhabitants": "Fierce Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.482181,
+				0.785219,
+				0.799814,
+				1
+			],
+			"radius": 106431.57959,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 352000,
+				"vector": [
+					0.046,
+					-0.998,
+					0.049
+				]
+			},
+			"corona": {
+				"shimmer": 0.623025,
+				"hues": 0.626785,
+				"flare": 0.037737
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Biabite",
+				"radius": 8800
+			}
+		}
+	]
+}

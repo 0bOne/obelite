@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system222",
+	"position": [
+		99,
+		41
+	],
+	"space": {
+		"blurs": 43,
+		"stars": 9460,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Teususdi",
+			"name": "Teususdi",
+			"seed": "113 41 9 99 109 28",
+			"body": {
+				"radius": 5987,
+				"rotation_v": 0.003153,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 838180
+			},
+			"land": {
+				"color": [
+					0.537109,
+					0.478363,
+					0.490755,
+					1
+				],
+				"polar_color": [
+					0.946289,
+					0.920414,
+					0.925872,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.703734,
+					0.722656,
+					0.536346,
+					1
+				],
+				"polar": [
+					0.921661,
+					0.927734,
+					0.867939,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.572001,
+					0.544431,
+					0.873475,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.379973,
+					0.292053,
+					0.623047,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.590089,
+					0.521263,
+					0.780371,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 10360,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 1,
+				"description": "The world Teususdi is a boring world.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.684711,
+				0.684296,
+				0.678873,
+				1
+			],
+			"radius": 152014.585419,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 239480,
+				"vector": [
+					0.146,
+					-0.945,
+					-0.292
+				]
+			},
+			"corona": {
+				"shimmer": 0.351562,
+				"hues": 0.545166,
+				"flare": 0.039308
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Teususdi",
+				"radius": 11974
+			}
+		}
+	]
+}

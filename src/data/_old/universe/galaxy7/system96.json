@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system96",
+	"position": [
+		56,
+		114
+	],
+	"space": {
+		"blurs": 150,
+		"stars": 6664,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ertebira",
+			"name": "Ertebira",
+			"seed": "229 114 228 56 233 80",
+			"body": {
+				"radius": 2872,
+				"rotation_v": 0.001256,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 287200
+			},
+			"land": {
+				"color": [
+					0.587891,
+					0.550591,
+					0.525887,
+					1
+				],
+				"polar_color": [
+					0.941211,
+					0.926282,
+					0.916394,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.585835,
+					0.875,
+					0.468262,
+					1
+				],
+				"polar": [
+					0.83711,
+					0.9125,
+					0.806458,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.504029,
+					0.472906,
+					0.929408,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.250282,
+					0.098877,
+					0.791016,
+					1
+				],
+				"fraction": 0.51,
+				"polar_color": [
+					0.490253,
+					0.387856,
+					0.855957,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 17920,
+				"techLevel": 7,
+				"economy": 2,
+				"government": 4,
+				"description": "The world Ertebira is mildly fabled for the Ertebiraian edible poet but scourged by deadly civil war.",
+				"inhabitants": "Yellow Horned Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.691864,
+				0.617551,
+				0.328202,
+				1
+			],
+			"radius": 63280.761719,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 315920,
+				"vector": [
+					0.206,
+					-0.877,
+					-0.435
+				]
+			},
+			"corona": {
+				"shimmer": 0.366857,
+				"hues": 0.825409,
+				"flare": 0.02509
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ertebira",
+				"radius": 5744
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system4",
+	"position": [
+		251,
+		199
+	],
+	"space": {
+		"blurs": 170,
+		"stars": 9285,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceuses",
+			"name": "Ceuses",
+			"seed": "164 199 76 251 165 229",
+			"body": {
+				"radius": 4347,
+				"rotation_v": 0.002448,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 521640
+			},
+			"land": {
+				"color": [
+					0.629183,
+					0.265547,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.923097,
+					0.794447,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.726562,
+					0.441064,
+					0.41153,
+					1
+				],
+				"polar": [
+					0.927344,
+					0.836245,
+					0.826821,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.678789,
+					0.863719,
+					0.854862,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.59375,
+					0.590362,
+					0.568237,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.767187,
+					0.764451,
+					0.746584,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 3000,
+				"techLevel": 4,
+				"economy": 7,
+				"government": 1,
+				"description": "This world is a tedious little planet.",
+				"inhabitants": "Fierce Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.684747,
+				0.71976,
+				0.826297,
+				1
+			],
+			"radius": 89814.740295,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 391230,
+				"vector": [
+					-0.14,
+					0.957,
+					-0.256
+				]
+			},
+			"corona": {
+				"shimmer": 0.424472,
+				"hues": 0.909752,
+				"flare": 0.081154
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceuses",
+				"radius": 8694
+			}
+		}
+	]
+}

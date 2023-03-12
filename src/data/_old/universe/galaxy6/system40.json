@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system40",
+	"position": [
+		60,
+		1
+	],
+	"space": {
+		"blurs": 62,
+		"stars": 9042,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Usbimaqu",
+			"name": "Usbimaqu",
+			"seed": "210 1 242 60 20 136",
+			"body": {
+				"radius": 4924,
+				"rotation_v": 0.001868,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 541640
+			},
+			"land": {
+				"color": [
+					0.0386719,
+					0.558063,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.714182,
+					0.897936,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.554688,
+					0.429846,
+					0.426849,
+					1
+				],
+				"polar": [
+					0.944531,
+					0.891385,
+					0.89011,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.527518,
+					0.581912,
+					0.855264,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.255318,
+					0.406947,
+					0.568359,
+					1
+				],
+				"fraction": 0.46,
+				"polar_color": [
+					0.4956,
+					0.621616,
+					0.755762,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 31680,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 6,
+				"description": "This planet is reasonably famous for its inhabitants’ exceptional love for tourists.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.763998,
+				0.642605,
+				0.45238,
+				1
+			],
+			"radius": 140657.37793,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 344680,
+				"vector": [
+					0.156,
+					0.878,
+					0.452
+				]
+			},
+			"corona": {
+				"shimmer": 0.262551,
+				"hues": 0.620537,
+				"flare": 0.069356
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Usbimaqu",
+				"radius": 9848
+			}
+		}
+	]
+}

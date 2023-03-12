@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system202",
+	"position": [
+		213,
+		129
+	],
+	"space": {
+		"blurs": 105,
+		"stars": 8108,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Biisorte",
+			"name": "Biisorte",
+			"seed": "202 129 76 213 91 6",
+			"body": {
+				"radius": 4565,
+				"rotation_v": 0.003668,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 547800
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.611016,
+					0.65005,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.91667,
+					0.93048,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.584106,
+					0.625,
+					0.494141,
+					1
+				],
+				"polar": [
+					0.922165,
+					0.9375,
+					0.888428,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.626694,
+					0.825821,
+					0.974936,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.489235,
+					0.927734,
+					0.619414,
+					1
+				],
+				"fraction": 0.2,
+				"polar_color": [
+					0.646447,
+					0.91748,
+					0.72691,
+					1
+				]
+			},
+			"demographics": {
+				"type": 29,
+				"productivity": 8120,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 1,
+				"description": "This world is most notable for its fabulous Biisorteian lethal water but beset by lethal disease.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.801895,
+				0.776999,
+				0.589779,
+				1
+			],
+			"radius": 97161.58371,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 273900,
+				"vector": [
+					-0.515,
+					0.261,
+					0.816
+				]
+			},
+			"corona": {
+				"shimmer": 0.496876,
+				"hues": 0.678085,
+				"flare": 0.032162
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Biisorte",
+				"radius": 9130
+			}
+		}
+	]
+}

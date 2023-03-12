@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system0",
+	"position": [
+		2,
+		90
+	],
+	"space": {
+		"blurs": 46,
+		"stars": 5808,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tibedied",
+			"name": "Tibedied",
+			"seed": "74 90 72 2 83 183",
+			"body": {
+				"radius": 4610,
+				"rotation_v": 0.002623,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 507100
+			},
+			"land": {
+				"color": [
+					0.077525,
+					0.0438281,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.727927,
+					0.716006,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.547074,
+					0.673828,
+					0.532745,
+					1
+				],
+				"polar": [
+					0.888758,
+					0.932617,
+					0.883801,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.735411,
+					0.597965,
+					0.878678,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.638672,
+					0.409149,
+					0.527497,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.787402,
+					0.610544,
+					0.701737,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 11520,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 1,
+				"description": "This planet is most notable for Tibediedian Arma brandy but scourged by deadly edible grubs.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.781,
+				0.520397,
+				0.402831,
+				1
+			],
+			"radius": 150815.429688,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 276600,
+				"vector": [
+					0.484,
+					-0.815,
+					0.319
+				]
+			},
+			"corona": {
+				"shimmer": 0.349376,
+				"hues": 0.658028,
+				"flare": 0.009911
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tibedied",
+				"radius": 9220
+			}
+		}
+	]
+}

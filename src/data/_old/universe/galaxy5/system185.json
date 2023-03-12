@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system185",
+	"position": [
+		215,
+		35
+	],
+	"space": {
+		"blurs": 116,
+		"stars": 9990,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Inbieste",
+			"name": "Inbieste",
+			"seed": "111 35 5 215 64 12",
+			"body": {
+				"radius": 6103,
+				"rotation_v": 0.002733,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 671330
+			},
+			"land": {
+				"color": [
+					0.33,
+					0.66,
+					0.482109,
+					1
+				],
+				"polar_color": [
+					0.81725,
+					0.934,
+					0.871064,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.647666,
+					0.660156,
+					0.500275,
+					1
+				],
+				"polar": [
+					0.929566,
+					0.933984,
+					0.877435,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.521774,
+					0.98274,
+					0.910296,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.951172,
+					0.596659,
+					0.18206,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.928027,
+					0.711848,
+					0.459029,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 7168,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 0,
+				"description": "This world is reasonably notable for its exotic night life but ravaged by occasional solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.338631,
+				0.715729,
+				0.749887,
+				1
+			],
+			"radius": 156023.396149,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 427210,
+				"vector": [
+					0.349,
+					-0.848,
+					-0.398
+				]
+			},
+			"corona": {
+				"shimmer": 0.542131,
+				"hues": 0.914314,
+				"flare": 0.08817
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Inbieste",
+				"radius": 12206
+			}
+		}
+	]
+}

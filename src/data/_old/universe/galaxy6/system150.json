@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system150",
+	"position": [
+		217,
+		174
+	],
+	"space": {
+		"blurs": 157,
+		"stars": 7253,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ertius",
+			"name": "Ertius",
+			"seed": "82 174 42 217 20 16",
+			"body": {
+				"radius": 3033,
+				"rotation_v": 0.004024,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 303300
+			},
+			"land": {
+				"color": [
+					0.521783,
+					0.525391,
+					0.0636215,
+					1
+				],
+				"polar_color": [
+					0.945835,
+					0.947461,
+					0.739279,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.668259,
+					0.845985,
+					0.900391,
+					1
+				],
+				"polar": [
+					0.851311,
+					0.896215,
+					0.909961,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.736268,
+					0.788724,
+					0.921604,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.76458,
+					0.767086,
+					0.767578,
+					1
+				],
+				"fraction": 0.49,
+				"polar_color": [
+					0.843346,
+					0.845072,
+					0.84541,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 9216,
+				"techLevel": 5,
+				"economy": 6,
+				"government": 5,
+				"description": "This world is reasonably well known for its great dense forests but scourged by frequent civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.698047,
+				0.456434,
+				0.373186,
+				1
+			],
+			"radius": 56943.260651,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 272970,
+				"vector": [
+					-0.748,
+					-0.166,
+					0.642
+				]
+			},
+			"corona": {
+				"shimmer": 0.548639,
+				"hues": 0.600868,
+				"flare": 0.012755
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ertius",
+				"radius": 6066
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system156",
+	"position": [
+		106,
+		52
+	],
+	"space": {
+		"blurs": 65,
+		"stars": 6399,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Areson",
+			"name": "Areson",
+			"seed": "50 52 162 106 244 10",
+			"body": {
+				"radius": 5482,
+				"rotation_v": 0.004942,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 657840
+			},
+			"land": {
+				"color": [
+					0.216293,
+					0.428231,
+					0.615234,
+					1
+				],
+				"polar_color": [
+					0.786341,
+					0.867163,
+					0.938477,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.621094,
+					0.580958,
+					0.474312,
+					1
+				],
+				"polar": [
+					0.937891,
+					0.922739,
+					0.882478,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.599194,
+					0.904693,
+					0.811379,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.716797,
+					0.447823,
+					0.419998,
+					1
+				],
+				"fraction": 0.62,
+				"polar_color": [
+					0.822559,
+					0.629646,
+					0.609689,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 14208,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 4,
+				"description": "The world Areson is a boring world.",
+				"inhabitants": "Small Green Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.663525,
+				0.721514,
+				0.747543,
+				1
+			],
+			"radius": 149720.265808,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 438560,
+				"vector": [
+					0.254,
+					-0.521,
+					0.815
+				]
+			},
+			"corona": {
+				"shimmer": 0.353062,
+				"hues": 0.942513,
+				"flare": 0.002737
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Areson",
+				"radius": 10964
+			}
+		}
+	]
+}

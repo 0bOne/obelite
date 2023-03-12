@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system23",
+	"position": [
+		155,
+		255
+	],
+	"space": {
+		"blurs": 87,
+		"stars": 6118,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Insoaza",
+			"name": "Insoaza",
+			"seed": "103 255 57 155 232 140",
+			"body": {
+				"radius": 6043,
+				"rotation_v": 0.004502,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 906450
+			},
+			"land": {
+				"color": [
+					0.232605,
+					0.464751,
+					0.578125,
+					1
+				],
+				"polar_color": [
+					0.801411,
+					0.895995,
+					0.942187,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.650391,
+					0.576142,
+					0.480679,
+					1
+				],
+				"polar": [
+					0.934961,
+					0.908277,
+					0.873969,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.628745,
+					0.501601,
+					0.933311,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.738404,
+					0.169327,
+					0.802734,
+					1
+				],
+				"fraction": 0.2,
+				"polar_color": [
+					0.818094,
+					0.436503,
+					0.86123,
+					1
+				]
+			},
+			"demographics": {
+				"type": 43,
+				"productivity": 11352,
+				"techLevel": 7,
+				"economy": 7,
+				"government": 7,
+				"description": "Insoaza is famous for Insoazaian wolf cutlet but beset by evil disease.",
+				"inhabitants": "Black Fat Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.599889,
+				0.792431,
+				0.819543,
+				1
+			],
+			"radius": 161449.419098,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 362580,
+				"vector": [
+					-0.599,
+					0.643,
+					-0.477
+				]
+			},
+			"corona": {
+				"shimmer": 0.279114,
+				"hues": 0.958221,
+				"flare": 0.003203
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Insoaza",
+				"radius": 12086
+			}
+		}
+	]
+}

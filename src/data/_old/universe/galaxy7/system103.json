@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system103",
+	"position": [
+		119,
+		11
+	],
+	"space": {
+		"blurs": 93,
+		"stars": 9963,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Legean",
+			"name": "Legean",
+			"seed": "43 11 54 119 15 193",
+			"body": {
+				"radius": 3191,
+				"rotation_v": 0.003973,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 382920
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.657422,
+					0.658389,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.933088,
+					0.93343,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.227413,
+					0.537109,
+					0.115395,
+					1
+				],
+				"polar": [
+					0.809882,
+					0.946289,
+					0.760543,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.771066,
+					0.575829,
+					0.910547,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.734375,
+					0.364319,
+					0.451051,
+					1
+				],
+				"fraction": 0.47,
+				"polar_color": [
+					0.830469,
+					0.56892,
+					0.63022,
+					1
+				]
+			},
+			"demographics": {
+				"type": 50,
+				"productivity": 28000,
+				"techLevel": 10,
+				"economy": 3,
+				"government": 6,
+				"description": "The planet Legean is famous for its inhabitants’ ancient loathing of discos but plagued by unpredictable civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.709857,
+				0.598714,
+				0.500754,
+				1
+			],
+			"radius": 90138.348999,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 382920,
+				"vector": [
+					-0.238,
+					-0.952,
+					0.193
+				]
+			},
+			"corona": {
+				"shimmer": 0.548097,
+				"hues": 0.501411,
+				"flare": 0.009729
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Legean",
+				"radius": 6382
+			}
+		}
+	]
+}

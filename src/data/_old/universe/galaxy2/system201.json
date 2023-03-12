@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system201",
+	"position": [
+		234,
+		36
+	],
+	"space": {
+		"blurs": 187,
+		"stars": 8036,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Quusdi",
+			"name": "Quusdi",
+			"seed": "37 36 137 234 69 250",
+			"body": {
+				"radius": 5610,
+				"rotation_v": 0.003587,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 673200
+			},
+			"land": {
+				"color": [
+					0.595547,
+					0.66,
+					0.644894,
+					1
+				],
+				"polar_color": [
+					0.911197,
+					0.934,
+					0.928656,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.5625,
+					0.52871,
+					0.448682,
+					1
+				],
+				"polar": [
+					0.94375,
+					0.929577,
+					0.89601,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.483663,
+					0.996398,
+					0.863795,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.992188,
+					0.274087,
+					0.0542603,
+					1
+				],
+				"fraction": 0.07,
+				"polar_color": [
+					0.946484,
+					0.518345,
+					0.387282,
+					1
+				]
+			},
+			"demographics": {
+				"type": 24,
+				"productivity": 3840,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 1,
+				"description": "This world is a tedious place.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.523178,
+				0.621576,
+				0.822491,
+				1
+			],
+			"radius": 184738.114929,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 392700,
+				"vector": [
+					0.073,
+					-0.952,
+					-0.296
+				]
+			},
+			"corona": {
+				"shimmer": 0.387265,
+				"hues": 0.859535,
+				"flare": 0.06601
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Quusdi",
+				"radius": 11220
+			}
+		}
+	]
+}

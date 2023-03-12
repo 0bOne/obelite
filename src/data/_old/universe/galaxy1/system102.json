@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system102",
+	"position": [
+		124,
+		145
+	],
+	"space": {
+		"blurs": 82,
+		"stars": 5407,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Solaed",
+			"name": "Solaed",
+			"seed": "180 145 40 124 54 135",
+			"body": {
+				"radius": 4732,
+				"rotation_v": 0.002971,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 473200
+			},
+			"land": {
+				"color": [
+					0.323789,
+					0.309753,
+					0.566406,
+					1
+				],
+				"polar_color": [
+					0.842339,
+					0.836494,
+					0.943359,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.697266,
+					0.507501,
+					0.449409,
+					1
+				],
+				"polar": [
+					0.930273,
+					0.866979,
+					0.847603,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.521668,
+					0.980139,
+					0.897351,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.943359,
+					0.540082,
+					0.18425,
+					1
+				],
+				"fraction": 0.09,
+				"polar_color": [
+					0.924512,
+					0.677499,
+					0.459547,
+					1
+				]
+			},
+			"demographics": {
+				"type": 43,
+				"productivity": 27864,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 5,
+				"description": "Solaed is ravaged by unpredictable civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.654626,
+				0.465342,
+				0.427421,
+				1
+			],
+			"radius": 132158.948975,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 425880,
+				"vector": [
+					0.303,
+					0.743,
+					0.597
+				]
+			},
+			"corona": {
+				"shimmer": 0.508646,
+				"hues": 0.891029,
+				"flare": 0.06331
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Solaed",
+				"radius": 9464
+			}
+		}
+	]
+}

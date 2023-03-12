@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system121",
+	"position": [
+		244,
+		81
+	],
+	"space": {
+		"blurs": 106,
+		"stars": 6539,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Biqule",
+			"name": "Biqule",
+			"seed": "111 81 133 244 64 32",
+			"body": {
+				"radius": 3060,
+				"rotation_v": 0.002746,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 428400
+			},
+			"land": {
+				"color": [
+					0.608438,
+					0.66,
+					0.656375,
+					1
+				],
+				"polar_color": [
+					0.915758,
+					0.934,
+					0.932717,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.544922,
+					0.34796,
+					0.0085144,
+					1
+				],
+				"polar": [
+					0.945508,
+					0.860069,
+					0.712824,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.535332,
+					0.48016,
+					0.929408,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.375279,
+					0.117416,
+					0.791016,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.574789,
+					0.400394,
+					0.855957,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 4480,
+				"techLevel": 4,
+				"economy": 3,
+				"government": 0,
+				"description": "Biqule is very fabled for the Biquleian mountain poet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.34285,
+				0.508223,
+				0.814951,
+				1
+			],
+			"radius": 92551.739502,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 183600,
+				"vector": [
+					0.531,
+					-0.019,
+					-0.847
+				]
+			},
+			"corona": {
+				"shimmer": 0.610785,
+				"hues": 0.695526,
+				"flare": 0.037949
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Biqule",
+				"radius": 6120
+			}
+		}
+	]
+}

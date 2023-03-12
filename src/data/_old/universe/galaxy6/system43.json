@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system43",
+	"position": [
+		142,
+		118
+	],
+	"space": {
+		"blurs": 188,
+		"stars": 9414,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Diatin",
+			"name": "Diatin",
+			"seed": "14 118 2 142 80 141",
+			"body": {
+				"radius": 6286,
+				"rotation_v": 0.004539,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 754320
+			},
+			"land": {
+				"color": [
+					0.0326309,
+					0.642578,
+					0.0421613,
+					1
+				],
+				"polar_color": [
+					0.713686,
+					0.935742,
+					0.717156,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.56358,
+					0.685547,
+					0.533977,
+					1
+				],
+				"polar": [
+					0.890017,
+					0.931445,
+					0.879961,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.618472,
+					0.888434,
+					0.810188,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.667969,
+					0.488583,
+					0.459229,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.800586,
+					0.66621,
+					0.644221,
+					1
+				]
+			},
+			"demographics": {
+				"type": 19,
+				"productivity": 2432,
+				"techLevel": 3,
+				"economy": 6,
+				"government": 0,
+				"description": "Diatin is reasonably well known for the Diatinian tree grub but plagued by frequent earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.671652,
+				0.606151,
+				0.585395,
+				1
+			],
+			"radius": 187833.7677,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 565740,
+				"vector": [
+					0.246,
+					-0.958,
+					-0.147
+				]
+			},
+			"corona": {
+				"shimmer": 0.442913,
+				"hues": 0.726051,
+				"flare": 0.092778
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Diatin",
+				"radius": 12572
+			}
+		}
+	]
+}

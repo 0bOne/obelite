@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system119",
+	"position": [
+		234,
+		172
+	],
+	"space": {
+		"blurs": 169,
+		"stars": 9205,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ingequ",
+			"name": "Ingequ",
+			"seed": "150 172 148 234 83 172",
+			"body": {
+				"radius": 6122,
+				"rotation_v": 0.000621,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 673420
+			},
+			"land": {
+				"color": [
+					0.440798,
+					0.546875,
+					0.0619507,
+					1
+				],
+				"polar_color": [
+					0.899472,
+					0.945312,
+					0.735756,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.53125,
+					0.412549,
+					0.423677,
+					1
+				],
+				"polar": [
+					0.946875,
+					0.893983,
+					0.898942,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.646266,
+					0.902951,
+					0.904693,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.711022,
+					0.716797,
+					0.531998,
+					1
+				],
+				"fraction": 0.28,
+				"polar_color": [
+					0.818417,
+					0.822559,
+					0.690017,
+					1
+				]
+			},
+			"demographics": {
+				"type": 31,
+				"productivity": 8928,
+				"techLevel": 6,
+				"economy": 4,
+				"government": 2,
+				"description": "The world Ingequ is beset by dreadful earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.699493,
+				0.556176,
+				0.370741,
+				1
+			],
+			"radius": 181418.056641,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 612200,
+				"vector": [
+					-0.042,
+					-0.983,
+					-0.181
+				]
+			},
+			"corona": {
+				"shimmer": 0.281713,
+				"hues": 0.726685,
+				"flare": 0.080408
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ingequ",
+				"radius": 12244
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system159",
+	"position": [
+		204,
+		143
+	],
+	"space": {
+		"blurs": 77,
+		"stars": 5292,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Uscequus",
+			"name": "Uscequus",
+			"seed": "93 143 177 204 245 232",
+			"body": {
+				"radius": 5068,
+				"rotation_v": 0.000762,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 506800
+			},
+			"land": {
+				"color": [
+					0.525937,
+					0.66,
+					0.553169,
+					1
+				],
+				"polar_color": [
+					0.88657,
+					0.934,
+					0.896204,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.212242,
+					0.548828,
+					0.517273,
+					1
+				],
+				"polar": [
+					0.800211,
+					0.945117,
+					0.931532,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.500612,
+					0.504543,
+					0.89884,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.188461,
+					0.196442,
+					0.699219,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.442726,
+					0.448538,
+					0.814648,
+					1
+				]
+			},
+			"demographics": {
+				"type": 26,
+				"productivity": 6240,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 6,
+				"description": "This planet is plagued by deadly earthquakes.",
+				"inhabitants": "Small Bony Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.570023,
+				0.742441,
+				0.810181,
+				1
+			],
+			"radius": 147854.816895,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 405440,
+				"vector": [
+					-0.407,
+					-0.371,
+					-0.835
+				]
+			},
+			"corona": {
+				"shimmer": 0.318167,
+				"hues": 0.634399,
+				"flare": 0.06111
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Uscequus",
+				"radius": 10136
+			}
+		}
+	]
+}

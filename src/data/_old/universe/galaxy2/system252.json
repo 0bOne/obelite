@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system252",
+	"position": [
+		111,
+		147
+	],
+	"space": {
+		"blurs": 59,
+		"stars": 8748,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Usmaxe",
+			"name": "Usmaxe",
+			"seed": "185 147 145 111 13 136",
+			"body": {
+				"radius": 4975,
+				"rotation_v": 0.002266,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 597000
+			},
+			"land": {
+				"color": [
+					0.566406,
+					0.478597,
+					0.00442505,
+					1
+				],
+				"polar_color": [
+					0.943359,
+					0.906797,
+					0.709362,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.695312,
+					0.654083,
+					0.513336,
+					1
+				],
+				"polar": [
+					0.930469,
+					0.916676,
+					0.869588,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.790095,
+					0.592777,
+					0.902092,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.708984,
+					0.404343,
+					0.425763,
+					1
+				],
+				"fraction": 0.23,
+				"polar_color": [
+					0.819043,
+					0.599085,
+					0.614551,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 12768,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 2,
+				"description": "This world is plagued by frequent earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.670264,
+				0.546156,
+				0.519537,
+				1
+			],
+			"radius": 132947.795868,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 348250,
+				"vector": [
+					0.272,
+					0.952,
+					-0.14
+				]
+			},
+			"corona": {
+				"shimmer": 0.419495,
+				"hues": 0.579628,
+				"flare": 0.017805
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Usmaxe",
+				"radius": 9950
+			}
+		}
+	]
+}

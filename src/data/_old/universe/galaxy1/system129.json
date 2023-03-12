@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system129",
+	"position": [
+		71,
+		117
+	],
+	"space": {
+		"blurs": 196,
+		"stars": 7107,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Amaxe",
+			"name": "Amaxe",
+			"seed": "0 117 112 71 58 79",
+			"body": {
+				"radius": 6727,
+				"rotation_v": 0.001218,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 739970
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.339124,
+					0.198516,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.820478,
+					0.770732,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.587891,
+					0.408768,
+					0.547308,
+					1
+				],
+				"polar": [
+					0.941211,
+					0.869517,
+					0.924968,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.753946,
+					0.521099,
+					0.94892,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.849609,
+					0.209084,
+					0.434268,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.882324,
+					0.466581,
+					0.61274,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 17600,
+				"techLevel": 8,
+				"economy": 5,
+				"government": 6,
+				"description": "The world Amaxe is a dull world.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.652032,
+				0.617324,
+				0.572936,
+				1
+			],
+			"radius": 174004.259186,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 807240,
+				"vector": [
+					-0.027,
+					0.989,
+					-0.144
+				]
+			},
+			"corona": {
+				"shimmer": 0.808248,
+				"hues": 0.817154,
+				"flare": 0.081114
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Amaxe",
+				"radius": 13454
+			}
+		}
+	]
+}

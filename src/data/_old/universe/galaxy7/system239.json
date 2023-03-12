@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system239",
+	"position": [
+		210,
+		217
+	],
+	"space": {
+		"blurs": 91,
+		"stars": 6127,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Inonin",
+			"name": "Inonin",
+			"seed": "251 217 134 210 63 224",
+			"body": {
+				"radius": 3026,
+				"rotation_v": 0.002751,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 363120
+			},
+			"land": {
+				"color": [
+					0.541016,
+					0.467049,
+					0.491319,
+					1
+				],
+				"polar_color": [
+					0.945898,
+					0.913568,
+					0.924176,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.690959,
+					0.763672,
+					0.530991,
+					1
+				],
+				"polar": [
+					0.901647,
+					0.923633,
+					0.853278,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.674183,
+					0.78681,
+					0.961277,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.623474,
+					0.886719,
+					0.84353,
+					1
+				],
+				"fraction": 0.52,
+				"polar_color": [
+					0.732212,
+					0.899023,
+					0.871656,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 6272,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 0,
+				"description": "This planet is plagued by deadly earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.802283,
+				0.801761,
+				0.696733,
+				1
+			],
+			"radius": 88739.14917,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 272340,
+				"vector": [
+					-0.127,
+					0.9,
+					-0.417
+				]
+			},
+			"corona": {
+				"shimmer": 0.389979,
+				"hues": 0.676376,
+				"flare": 0.075533
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Inonin",
+				"radius": 6052
+			}
+		}
+	]
+}

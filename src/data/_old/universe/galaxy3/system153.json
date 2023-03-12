@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system153",
+	"position": [
+		33,
+		108
+	],
+	"space": {
+		"blurs": 183,
+		"stars": 6719,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Enlaus",
+			"name": "Enlaus",
+			"seed": "202 108 146 33 138 242",
+			"body": {
+				"radius": 3361,
+				"rotation_v": 0.00199,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 369710
+			},
+			"land": {
+				"color": [
+					0.623906,
+					0.66,
+					0.61875,
+					1
+				],
+				"polar_color": [
+					0.92123,
+					0.934,
+					0.919406,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.11158,
+					0.634766,
+					0.463095,
+					1
+				],
+				"polar": [
+					0.743548,
+					0.936523,
+					0.873204,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.536088,
+					0.471435,
+					0.938514,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.400863,
+					0.0863113,
+					0.818359,
+					1
+				],
+				"fraction": 0.58,
+				"polar_color": [
+					0.591415,
+					0.382832,
+					0.868262,
+					1
+				]
+			},
+			"demographics": {
+				"type": 27,
+				"productivity": 7776,
+				"techLevel": 5,
+				"economy": 4,
+				"government": 2,
+				"description": "Enlaus is mildly well known for Enlausian shrew cutlet and the Enlausian edible moth.",
+				"inhabitants": "Furry Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.514248,
+				0.638969,
+				0.720569,
+				1
+			],
+			"radius": 68748.799591,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 268880,
+				"vector": [
+					0.491,
+					-0.234,
+					0.839
+				]
+			},
+			"corona": {
+				"shimmer": 0.260751,
+				"hues": 0.602768,
+				"flare": 0.002771
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Enlaus",
+				"radius": 6722
+			}
+		}
+	]
+}

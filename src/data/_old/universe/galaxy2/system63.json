@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system63",
+	"position": [
+		43,
+		137
+	],
+	"space": {
+		"blurs": 51,
+		"stars": 7276,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Soiserla",
+			"name": "Soiserla",
+			"seed": "221 137 49 43 245 135",
+			"body": {
+				"radius": 4651,
+				"rotation_v": 0.000693,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 465100
+			},
+			"land": {
+				"color": [
+					0.560722,
+					0.250078,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.898877,
+					0.788975,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.626953,
+					0.534498,
+					0.467031,
+					1
+				],
+				"polar": [
+					0.937305,
+					0.902749,
+					0.877533,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.60849,
+					0.564889,
+					0.863068,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.450205,
+					0.332886,
+					0.591797,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.651718,
+					0.556771,
+					0.766309,
+					1
+				]
+			},
+			"demographics": {
+				"type": 56,
+				"productivity": 40320,
+				"techLevel": 12,
+				"economy": 1,
+				"government": 6,
+				"description": "This planet is a dull place.",
+				"inhabitants": "Fierce Black Horned Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.218438,
+				0.490897,
+				0.672177,
+				1
+			],
+			"radius": 120419.567871,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 372080,
+				"vector": [
+					-0.71,
+					0.632,
+					-0.309
+				]
+			},
+			"corona": {
+				"shimmer": 0.457634,
+				"hues": 0.608368,
+				"flare": 0.031357
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Soiserla",
+				"radius": 9302
+			}
+		}
+	]
+}

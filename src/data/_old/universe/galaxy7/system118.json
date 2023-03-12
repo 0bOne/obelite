@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system118",
+	"position": [
+		9,
+		212
+	],
+	"space": {
+		"blurs": 186,
+		"stars": 5848,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arustea",
+			"name": "Arustea",
+			"seed": "209 212 192 9 61 170",
+			"body": {
+				"radius": 5385,
+				"rotation_v": 0.004727,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 538500
+			},
+			"land": {
+				"color": [
+					0.627854,
+					0.66,
+					0.513047,
+					1
+				],
+				"polar_color": [
+					0.922627,
+					0.934,
+					0.88201,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.674417,
+					0.686709,
+					0.871094,
+					1
+				],
+				"polar": [
+					0.861362,
+					0.864583,
+					0.912891,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.540827,
+					0.955424,
+					0.84173,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.869141,
+					0.37261,
+					0.258026,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.891113,
+					0.572936,
+					0.499511,
+					1
+				]
+			},
+			"demographics": {
+				"type": 15,
+				"productivity": 1920,
+				"techLevel": 2,
+				"economy": 6,
+				"government": 0,
+				"description": "This planet is most fabled for Arusteaian No brandy but cursed by unpredictable solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.236489,
+				0.39099,
+				0.779733,
+				1
+			],
+			"radius": 117599.67041,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 646200,
+				"vector": [
+					-0.23,
+					-0.499,
+					-0.836
+				]
+			},
+			"corona": {
+				"shimmer": 0.427262,
+				"hues": 0.826317,
+				"flare": 0.043861
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Arustea",
+				"radius": 10770
+			}
+		}
+	]
+}

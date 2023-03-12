@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system54",
+	"position": [
+		19,
+		8
+	],
+	"space": {
+		"blurs": 100,
+		"stars": 9350,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Teedus",
+			"name": "Teedus",
+			"seed": "17 8 105 19 237 156",
+			"body": {
+				"radius": 5907,
+				"rotation_v": 0.001949,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 886050
+			},
+			"land": {
+				"color": [
+					0.283594,
+					0.66,
+					0.421805,
+					1
+				],
+				"polar_color": [
+					0.800832,
+					0.934,
+					0.84973,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.537109,
+					0.463244,
+					0.42717,
+					1
+				],
+				"polar": [
+					0.946289,
+					0.913755,
+					0.897866,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.632622,
+					0.865803,
+					0.94957,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.57586,
+					0.851562,
+					0.508942,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.704486,
+					0.883203,
+					0.661109,
+					1
+				]
+			},
+			"demographics": {
+				"type": 58,
+				"productivity": 41760,
+				"techLevel": 13,
+				"economy": 0,
+				"government": 5,
+				"description": "This planet is most notable for Teedusian Dier water but beset by lethal disease.",
+				"inhabitants": "Black Bony Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.190497,
+				0.6276,
+				0.667828,
+				1
+			],
+			"radius": 184301.716919,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 118140,
+				"vector": [
+					0.008,
+					-0.952,
+					0.307
+				]
+			},
+			"corona": {
+				"shimmer": 0.460969,
+				"hues": 0.948517,
+				"flare": 0.018961
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "icosahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Teedus",
+				"radius": 11814
+			}
+		}
+	]
+}

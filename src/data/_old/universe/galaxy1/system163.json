@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system163",
+	"position": [
+		235,
+		83
+	],
+	"space": {
+		"blurs": 193,
+		"stars": 9458,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Verave",
+			"name": "Verave",
+			"seed": "48 83 168 235 26 22",
+			"body": {
+				"radius": 4587,
+				"rotation_v": 0.004655,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 550440
+			},
+			"land": {
+				"color": [
+					0.625,
+					0.567932,
+					0.517578,
+					1
+				],
+				"polar_color": [
+					0.9375,
+					0.9161,
+					0.897217,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.178574,
+					0.550781,
+					0.376309,
+					1
+				],
+				"polar": [
+					0.785282,
+					0.944922,
+					0.870091,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.596479,
+					0.913148,
+					0.831252,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.742188,
+					0.491364,
+					0.414581,
+					1
+				],
+				"fraction": 0.11,
+				"polar_color": [
+					0.833984,
+					0.65783,
+					0.603906,
+					1
+				]
+			},
+			"demographics": {
+				"type": 49,
+				"productivity": 24696,
+				"techLevel": 10,
+				"economy": 3,
+				"government": 5,
+				"description": "Verave is a revolting dump.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.407475,
+				0.628031,
+				0.779984,
+				1
+			],
+			"radius": 117295.50293,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 275220,
+				"vector": [
+					-0.787,
+					0.388,
+					-0.48
+				]
+			},
+			"corona": {
+				"shimmer": 0.659661,
+				"hues": 0.589592,
+				"flare": 0.051326
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Verave",
+				"radius": 9174
+			}
+		}
+	]
+}

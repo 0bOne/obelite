@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system124",
+	"position": [
+		140,
+		2
+	],
+	"space": {
+		"blurs": 111,
+		"stars": 5385,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Enxeleti",
+			"name": "Enxeleti",
+			"seed": "253 2 124 140 241 50",
+			"body": {
+				"radius": 3468,
+				"rotation_v": 0.00313,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 346800
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.172734,
+					0.652386,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.761611,
+					0.931306,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.636719,
+					0.531946,
+					0.469083,
+					1
+				],
+				"polar": [
+					0.936328,
+					0.89781,
+					0.874699,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.43364,
+					0.608604,
+					0.907945,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0227051,
+					0.726562,
+					0.660576,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.326259,
+					0.826953,
+					0.780013,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 32384,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 7,
+				"description": "This planet is very notable for its inhabitants’ ingrained shyness and its fabulous vicious Noenthnu gargle blasters.",
+				"inhabitants": "Red Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.798935,
+				0.308028,
+				0.228589,
+				1
+			],
+			"radius": 80770.067139,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 381480,
+				"vector": [
+					-0.712,
+					0.192,
+					-0.675
+				]
+			},
+			"corona": {
+				"shimmer": 0.500023,
+				"hues": 0.694305,
+				"flare": 0.009039
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Enxeleti",
+				"radius": 6936
+			}
+		}
+	]
+}

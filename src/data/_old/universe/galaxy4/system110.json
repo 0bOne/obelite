@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system110",
+	"position": [
+		97,
+		43
+	],
+	"space": {
+		"blurs": 156,
+		"stars": 6319,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Uslaon",
+			"name": "Uslaon",
+			"seed": "188 43 8 97 245 200",
+			"body": {
+				"radius": 4961,
+				"rotation_v": 0.00413,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 644930
+			},
+			"land": {
+				"color": [
+					0.0464063,
+					0.127899,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.716918,
+					0.745749,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.619141,
+					0.575917,
+					0.473546,
+					1
+				],
+				"polar": [
+					0.938086,
+					0.921713,
+					0.882937,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.734103,
+					0.482422,
+					0.972984,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.921875,
+					0.0792236,
+					0.454467,
+					1
+				],
+				"fraction": 0.56,
+				"polar_color": [
+					0.914844,
+					0.392204,
+					0.624942,
+					1
+				]
+			},
+			"demographics": {
+				"type": 29,
+				"productivity": 8120,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 1,
+				"description": "Uslaon is cursed by vicious mountain beasts.",
+				"inhabitants": "Small Horned Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.388715,
+				0.420189,
+				0.809085,
+				1
+			],
+			"radius": 102898.964233,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 248050,
+				"vector": [
+					-0.367,
+					0.859,
+					0.357
+				]
+			},
+			"corona": {
+				"shimmer": 0.355544,
+				"hues": 0.980263,
+				"flare": 0.080315
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Uslaon",
+				"radius": 9922
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system229",
+	"position": [
+		28,
+		49
+	],
+	"space": {
+		"blurs": 53,
+		"stars": 8371,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Geaten",
+			"name": "Geaten",
+			"seed": "42 49 242 28 202 163",
+			"body": {
+				"radius": 3612,
+				"rotation_v": 0.003203,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 397320
+			},
+			"land": {
+				"color": [
+					0.554297,
+					0.610452,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.896604,
+					0.91647,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.726562,
+					0.441064,
+					0.41153,
+					1
+				],
+				"polar": [
+					0.927344,
+					0.836245,
+					0.826821,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.568427,
+					0.927457,
+					0.812188,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.785156,
+					0.364208,
+					0.343506,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.85332,
+					0.567387,
+					0.553325,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 31680,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 6,
+				"description": "This planet is a tedious place.",
+				"inhabitants": "Large Harmless Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.206048,
+				0.249923,
+				0.696338,
+				1
+			],
+			"radius": 98655.395508,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 288960,
+				"vector": [
+					0.144,
+					-0.563,
+					0.814
+				]
+			},
+			"corona": {
+				"shimmer": 0.335226,
+				"hues": 0.976509,
+				"flare": 0.010655
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Geaten",
+				"radius": 7224
+			}
+		}
+	]
+}

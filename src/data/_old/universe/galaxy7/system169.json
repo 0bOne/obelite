@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system169",
+	"position": [
+		111,
+		245
+	],
+	"space": {
+		"blurs": 139,
+		"stars": 9300,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Texeare",
+			"name": "Texeare",
+			"seed": "79 245 234 111 251 28",
+			"body": {
+				"radius": 5999,
+				"rotation_v": 0.003584,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 899850
+			},
+			"land": {
+				"color": [
+					0.504144,
+					0.66,
+					0.386719,
+					1
+				],
+				"polar_color": [
+					0.87886,
+					0.934,
+					0.837316,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.581646,
+					0.732422,
+					0.682949,
+					1
+				],
+				"polar": [
+					0.879062,
+					0.926758,
+					0.911108,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.566154,
+					0.954123,
+					0.90829,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.865234,
+					0.680506,
+					0.327843,
+					1
+				],
+				"fraction": 0.52,
+				"polar_color": [
+					0.889355,
+					0.770682,
+					0.544122,
+					1
+				]
+			},
+			"demographics": {
+				"type": 43,
+				"productivity": 15480,
+				"techLevel": 8,
+				"economy": 5,
+				"government": 5,
+				"description": "The world Texeare is a dull place.",
+				"inhabitants": "Green Horned Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.651468,
+				0.546901,
+				0.362755,
+				1
+			],
+			"radius": 172235.998688,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 359940,
+				"vector": [
+					0.377,
+					0.84,
+					0.39
+				]
+			},
+			"corona": {
+				"shimmer": 0.418167,
+				"hues": 0.633591,
+				"flare": 0.030321
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Texeare",
+				"radius": 11998
+			}
+		}
+	]
+}

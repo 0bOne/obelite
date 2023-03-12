@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system15",
+	"position": [
+		245,
+		220
+	],
+	"space": {
+		"blurs": 116,
+		"stars": 5025,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceedra",
+			"name": "Ceedra",
+			"seed": "56 220 236 245 253 197",
+			"body": {
+				"radius": 4341,
+				"rotation_v": 0.003995,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 564330
+			},
+			"land": {
+				"color": [
+					0.259028,
+					0.554688,
+					0.0931702,
+					1
+				],
+				"polar_color": [
+					0.818668,
+					0.944531,
+					0.748061,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.5,
+					0.391797,
+					0.427301,
+					1
+				],
+				"polar": [
+					0.95,
+					0.898603,
+					0.915468,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.651782,
+					0.883068,
+					0.91575,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.673737,
+					0.75,
+					0.550781,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.784274,
+					0.8375,
+					0.698462,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 16416,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 5,
+				"description": "This planet is most fabled for its inhabitants’ ingrained silliness but scourged by deadly civil war.",
+				"inhabitants": "Fierce Bug-Eyed Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.756821,
+				0.507581,
+				0.451178,
+				1
+			],
+			"radius": 85436.942139,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 173640,
+				"vector": [
+					0.154,
+					0.163,
+					-0.975
+				]
+			},
+			"corona": {
+				"shimmer": 0.609308,
+				"hues": 0.783577,
+				"flare": 0.020139
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceedra",
+				"radius": 8682
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system81",
+	"position": [
+		162,
+		39
+	],
+	"space": {
+		"blurs": 174,
+		"stars": 6490,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ataneris",
+			"name": "Ataneris",
+			"seed": "94 39 234 162 128 17",
+			"body": {
+				"radius": 3234,
+				"rotation_v": 0.004172,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 355740
+			},
+			"land": {
+				"color": [
+					0.242908,
+					0.229453,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.786438,
+					0.781678,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.577844,
+					0.726562,
+					0.667308,
+					1
+				],
+				"polar": [
+					0.87989,
+					0.927344,
+					0.908436,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.605685,
+					0.902092,
+					0.820809,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.708984,
+					0.486215,
+					0.434807,
+					1
+				],
+				"fraction": 0.42,
+				"polar_color": [
+					0.819043,
+					0.658199,
+					0.621081,
+					1
+				]
+			},
+			"demographics": {
+				"type": 33,
+				"productivity": 7128,
+				"techLevel": 5,
+				"economy": 7,
+				"government": 5,
+				"description": "This planet is very notable for its inhabitants’ weird shyness and the Atanerisian edible moth.",
+				"inhabitants": "Green Furry Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.240919,
+				0.31502,
+				0.838339,
+				1
+			],
+			"radius": 94138.633118,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 258720,
+				"vector": [
+					-0.124,
+					0.723,
+					0.68
+				]
+			},
+			"corona": {
+				"shimmer": 0.451387,
+				"hues": 0.783173,
+				"flare": 0.082465
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ataneris",
+				"radius": 6468
+			}
+		}
+	]
+}

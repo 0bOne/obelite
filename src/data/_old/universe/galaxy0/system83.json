@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system83",
+	"position": [
+		168,
+		110
+	],
+	"space": {
+		"blurs": 54,
+		"stars": 9589,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Riveis",
+			"name": "Riveis",
+			"seed": "152 110 180 168 205 190",
+			"body": {
+				"radius": 6568,
+				"rotation_v": 0.001167,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 722480
+			},
+			"land": {
+				"color": [
+					0.177307,
+					0.460721,
+					0.648438,
+					1
+				],
+				"polar_color": [
+					0.765294,
+					0.867477,
+					0.935156,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.677734,
+					0.491837,
+					0.455353,
+					1
+				],
+				"polar": [
+					0.932227,
+					0.868301,
+					0.855755,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.569701,
+					0.450969,
+					0.962578,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.634184,
+					0.003479,
+					0.890625,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.738678,
+					0.339992,
+					0.900781,
+					1
+				]
+			},
+			"demographics": {
+				"type": 29,
+				"productivity": 9280,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 6,
+				"description": "The world Riveis is most well known for its hoopy casinos.",
+				"inhabitants": "Harmless Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.403377,
+				0.453364,
+				0.81365,
+				1
+			],
+			"radius": 130722.602539,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 788160,
+				"vector": [
+					0.328,
+					0.183,
+					0.927
+				]
+			},
+			"corona": {
+				"shimmer": 0.263502,
+				"hues": 0.834213,
+				"flare": 0.048828
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Riveis",
+				"radius": 13136
+			}
+		}
+	]
+}

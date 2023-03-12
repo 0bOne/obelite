@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system136",
+	"position": [
+		167,
+		93
+	],
+	"space": {
+		"blurs": 68,
+		"stars": 9128,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orrionti",
+			"name": "Orrionti",
+			"seed": "84 93 112 167 166 25",
+			"body": {
+				"radius": 5287,
+				"rotation_v": 0.003865,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 475830
+			},
+			"land": {
+				"color": [
+					0.315717,
+					0.291824,
+					0.597656,
+					1
+				],
+				"polar_color": [
+					0.829348,
+					0.81995,
+					0.940234,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.646484,
+					0.542985,
+					0.492439,
+					1
+				],
+				"polar": [
+					0.935352,
+					0.897915,
+					0.879632,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.468153,
+					0.69025,
+					0.856564,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.13636,
+					0.572266,
+					0.26577,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.396884,
+					0.75752,
+					0.503948,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 17600,
+				"techLevel": 8,
+				"economy": 5,
+				"government": 6,
+				"description": "This planet is beset by lethal disease.",
+				"inhabitants": "Green Horned Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.487383,
+				0.581632,
+				0.681091,
+				1
+			],
+			"radius": 122394.985809,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 528700,
+				"vector": [
+					0.872,
+					0.428,
+					-0.238
+				]
+			},
+			"corona": {
+				"shimmer": 0.606512,
+				"hues": 0.96283,
+				"flare": 0.088837
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Orrionti",
+				"radius": 10574
+			}
+		}
+	]
+}

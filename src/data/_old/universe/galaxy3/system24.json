@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system24",
+	"position": [
+		68,
+		63
+	],
+	"space": {
+		"blurs": 71,
+		"stars": 7529,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zaus",
+			"name": "Zaus",
+			"seed": "146 63 2 68 154 64",
+			"body": {
+				"radius": 2884,
+				"rotation_v": 0.003164,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 346080
+			},
+			"land": {
+				"color": [
+					0.118589,
+					0.585938,
+					0.0915527,
+					1
+				],
+				"polar_color": [
+					0.753688,
+					0.941406,
+					0.742828,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.605469,
+					0.467873,
+					0.449608,
+					1
+				],
+				"polar": [
+					0.939453,
+					0.886079,
+					0.878994,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.662109,
+					0.848109,
+					0.797103,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.546875,
+					0.52084,
+					0.514832,
+					1
+				],
+				"fraction": 0.42,
+				"polar_color": [
+					0.746094,
+					0.723894,
+					0.718771,
+					1
+				]
+			},
+			"demographics": {
+				"type": 8,
+				"productivity": 768,
+				"techLevel": 0,
+				"economy": 7,
+				"government": 0,
+				"description": "The world Zaus is mildly fabled for the Zausian edible moth but beset by lethal disease.",
+				"inhabitants": "Large Yellow Bony Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.702069,
+				0.601602,
+				0.326559,
+				1
+			],
+			"radius": 63897.65686,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 201880,
+				"vector": [
+					-0.441,
+					0.219,
+					0.871
+				]
+			},
+			"corona": {
+				"shimmer": 0.455155,
+				"hues": 0.661644,
+				"flare": 0.063641
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Zaus",
+				"radius": 5768
+			}
+		}
+	]
+}

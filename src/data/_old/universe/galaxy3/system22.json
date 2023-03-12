@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system22",
+	"position": [
+		57,
+		105
+	],
+	"space": {
+		"blurs": 58,
+		"stars": 5524,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Reatqu",
+			"name": "Reatqu",
+			"seed": "34 105 210 57 218 46",
+			"body": {
+				"radius": 6457,
+				"rotation_v": 0.00378,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 903980
+			},
+			"land": {
+				"color": [
+					0.621328,
+					0.66,
+					0.644592,
+					1
+				],
+				"polar_color": [
+					0.920318,
+					0.934,
+					0.928549,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.636143,
+					0.675781,
+					0.512115,
+					1
+				],
+				"polar": [
+					0.918749,
+					0.932422,
+					0.875967,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.797368,
+					0.745975,
+					0.983391,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.913101,
+					0.833984,
+					0.953125,
+					1
+				],
+				"fraction": 0.58,
+				"polar_color": [
+					0.904527,
+					0.856335,
+					0.928906,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 15552,
+				"techLevel": 8,
+				"economy": 1,
+				"government": 2,
+				"description": "The world Reatqu is very famous for its fabulous monkey burgers but beset by deadly solar activity.",
+				"inhabitants": "Red Slimy Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.829657,
+				0.775381,
+				0.446689,
+				1
+			],
+			"radius": 124168.377991,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 258280,
+				"vector": [
+					0.573,
+					-0.671,
+					0.469
+				]
+			},
+			"corona": {
+				"shimmer": 0.437286,
+				"hues": 0.913956,
+				"flare": 0.088316
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Reatqu",
+				"radius": 12914
+			}
+		}
+	]
+}

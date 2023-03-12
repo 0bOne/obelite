@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system149",
+	"position": [
+		165,
+		67
+	],
+	"space": {
+		"blurs": 51,
+		"stars": 5092,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arenxeon",
+			"name": "Arenxeon",
+			"seed": "199 67 34 165 3 202",
+			"body": {
+				"radius": 5541,
+				"rotation_v": 0.001797,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 554100
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.514215,
+					0.417656,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.882423,
+					0.848262,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.493885,
+					0.396271,
+					0.517578,
+					1
+				],
+				"polar": [
+					0.93739,
+					0.892681,
+					0.948242,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.738187,
+					0.552877,
+					0.919652,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.761719,
+					0.306473,
+					0.519869,
+					1
+				],
+				"fraction": 0.24,
+				"polar_color": [
+					0.842773,
+					0.527968,
+					0.675533,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 16128,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 4,
+				"description": "The world Arenxeon is most famous for its vast oceans.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.658964,
+				0.661892,
+				0.664838,
+				1
+			],
+			"radius": 124258.210144,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 443280,
+				"vector": [
+					-0.023,
+					-0.449,
+					-0.893
+				]
+			},
+			"corona": {
+				"shimmer": 0.577155,
+				"hues": 0.873482,
+				"flare": 0.024837
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Arenxeon",
+				"radius": 11082
+			}
+		}
+	]
+}

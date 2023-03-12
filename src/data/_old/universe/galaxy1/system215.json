@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system215",
+	"position": [
+		115,
+		42
+	],
+	"space": {
+		"blurs": 41,
+		"stars": 9923,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Erreenen",
+			"name": "Erreenen",
+			"seed": "112 42 120 115 186 112",
+			"body": {
+				"radius": 2931,
+				"rotation_v": 0.001553,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 351720
+			},
+			"land": {
+				"color": [
+					0.132179,
+					0.615234,
+					0.456732,
+					1
+				],
+				"polar_color": [
+					0.754264,
+					0.938477,
+					0.878032,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.630859,
+					0.490164,
+					0.475609,
+					1
+				],
+				"polar": [
+					0.936914,
+					0.884676,
+					0.879272,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.75386,
+					0.648033,
+					0.837053,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.513672,
+					0.473541,
+					0.485769,
+					1
+				],
+				"fraction": 0.13,
+				"polar_color": [
+					0.731152,
+					0.695452,
+					0.706329,
+					1
+				]
+			},
+			"demographics": {
+				"type": 58,
+				"productivity": 40832,
+				"techLevel": 12,
+				"economy": 2,
+				"government": 7,
+				"description": "This world is mildly well known for its hoopy night life and Erreenenian Enleno brandy.",
+				"inhabitants": "Blue Bug-Eyed Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.585279,
+				0.625036,
+				0.659067,
+				1
+			],
+			"radius": 66019.952087,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 293100,
+				"vector": [
+					-0.481,
+					0.832,
+					-0.277
+				]
+			},
+			"corona": {
+				"shimmer": 0.505562,
+				"hues": 0.846985,
+				"flare": 0.017151
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "icosahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Erreenen",
+				"radius": 5862
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+description: colored square
+dimensions: 2
+shader: basics/color
+positions: [1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0, -1.0]
+colors: [white, red, green, blue]
+
+    

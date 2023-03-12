@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system247",
+	"position": [
+		225,
+		152
+	],
+	"space": {
+		"blurs": 106,
+		"stars": 6851,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Reesquen",
+			"name": "Reesquen",
+			"seed": "206 152 242 225 208 206",
+			"body": {
+				"radius": 6625,
+				"rotation_v": 0.003956,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 927500
+			},
+			"land": {
+				"color": [
+					0.132767,
+					0.601562,
+					0.0657959,
+					1
+				],
+				"polar_color": [
+					0.756739,
+					0.939844,
+					0.730582,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.695312,
+					0.605003,
+					0.488892,
+					1
+				],
+				"polar": [
+					0.930469,
+					0.900256,
+					0.86141,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.468863,
+					0.508037,
+					0.914449,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.102005,
+					0.263027,
+					0.746094,
+					1
+				],
+				"fraction": 0.39,
+				"polar_color": [
+					0.384817,
+					0.497548,
+					0.835742,
+					1
+				]
+			},
+			"demographics": {
+				"type": 51,
+				"productivity": 40800,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 6,
+				"description": "This planet is plagued by frequent solar activity.",
+				"inhabitants": "Bug-Eyed Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.769174,
+				0.717265,
+				0.683737,
+				1
+			],
+			"radius": 162416.419983,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 463750,
+				"vector": [
+					0.033,
+					0.429,
+					-0.903
+				]
+			},
+			"corona": {
+				"shimmer": 0.457213,
+				"hues": 0.538597,
+				"flare": 0.068376
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Reesquen",
+				"radius": 13250
+			}
+		}
+	]
+}

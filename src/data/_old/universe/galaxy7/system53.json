@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system53",
+	"position": [
+		213,
+		224
+	],
+	"space": {
+		"blurs": 164,
+		"stars": 5838,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Soisqu",
+			"name": "Soisqu",
+			"seed": "7 224 98 213 195 103",
+			"body": {
+				"radius": 4821,
+				"rotation_v": 0.001759,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 482100
+			},
+			"land": {
+				"color": [
+					0.482109,
+					0.489058,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.871064,
+					0.873523,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.683594,
+					0.540066,
+					0.469971,
+					1
+				],
+				"polar": [
+					0.931641,
+					0.882739,
+					0.858856,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.525913,
+					0.590342,
+					0.852662,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.251808,
+					0.430298,
+					0.560547,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.493294,
+					0.643001,
+					0.752246,
+					1
+				]
+			},
+			"demographics": {
+				"type": 45,
+				"productivity": 28800,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 4,
+				"description": "The planet Soisqu is mildly notable for Soisquian vicious brew.",
+				"inhabitants": "Fierce Blue Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.565166,
+				0.63334,
+				0.701736,
+				1
+			],
+			"radius": 146253.527069,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 482100,
+				"vector": [
+					-0.486,
+					0.479,
+					0.73
+				]
+			},
+			"corona": {
+				"shimmer": 0.433227,
+				"hues": 0.874176,
+				"flare": 0.01236
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Soisqu",
+				"radius": 9642
+			}
+		}
+	]
+}

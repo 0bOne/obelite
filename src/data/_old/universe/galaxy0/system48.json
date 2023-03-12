@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system48",
+	"position": [
+		85,
+		99
+	],
+	"space": {
+		"blurs": 170,
+		"stars": 6537,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Usle",
+			"name": "Usle",
+			"seed": "138 99 232 85 83 136",
+			"body": {
+				"radius": 4949,
+				"rotation_v": 0.003864,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 445410
+			},
+			"land": {
+				"color": [
+					0.115562,
+					0.597656,
+					0.074707,
+					1
+				],
+				"polar_color": [
+					0.750627,
+					0.940234,
+					0.734558,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.671875,
+					0.571426,
+					0.490784,
+					1
+				],
+				"polar": [
+					0.932813,
+					0.897947,
+					0.869957,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.735592,
+					0.566285,
+					0.906645,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.722656,
+					0.341568,
+					0.529135,
+					1
+				],
+				"fraction": 0.56,
+				"polar_color": [
+					0.825195,
+					0.553219,
+					0.687083,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 20664,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 5,
+				"description": "This world is very notable for the Usleian tree ant and its inhabitants’ exceptional loathing of sit coms.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.512532,
+				0.552487,
+				0.775519,
+				1
+			],
+			"radius": 130152.900391,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 643370,
+				"vector": [
+					-0.047,
+					-0.98,
+					-0.195
+				]
+			},
+			"corona": {
+				"shimmer": 0.545888,
+				"hues": 0.521667,
+				"flare": 0.038078
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Usle",
+				"radius": 9898
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system63",
+	"position": [
+		96,
+		151
+	],
+	"space": {
+		"blurs": 68,
+		"stars": 8479,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ladigeso",
+			"name": "Ladigeso",
+			"seed": "118 151 68 96 211 53",
+			"body": {
+				"radius": 4192,
+				"rotation_v": 0.002421,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 586880
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.180308,
+					0.0696094,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.764291,
+					0.725127,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.521484,
+					0.389076,
+					0.500796,
+					1
+				],
+				"polar": [
+					0.947852,
+					0.887685,
+					0.938451,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.751605,
+					0.753533,
+					0.946969,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.827271,
+					0.827528,
+					0.84375,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.868949,
+					0.869117,
+					0.879687,
+					1
+				]
+			},
+			"demographics": {
+				"type": 8,
+				"productivity": 768,
+				"techLevel": 0,
+				"economy": 7,
+				"government": 0,
+				"description": "The world Ladigeso is a dull place.",
+				"inhabitants": "Red Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.713892,
+				0.712978,
+				0.69555,
+				1
+			],
+			"radius": 81664.555664,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 209600,
+				"vector": [
+					0.309,
+					-0.545,
+					-0.78
+				]
+			},
+			"corona": {
+				"shimmer": 0.298885,
+				"hues": 0.677582,
+				"flare": 0.091736
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ladigeso",
+				"radius": 8384
+			}
+		}
+	]
+}

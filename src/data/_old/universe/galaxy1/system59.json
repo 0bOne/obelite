@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system59",
+	"position": [
+		14,
+		92
+	],
+	"space": {
+		"blurs": 166,
+		"stars": 7241,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Qucedi",
+			"name": "Qucedi",
+			"seed": "48 92 136 14 90 154",
+			"body": {
+				"radius": 5390,
+				"rotation_v": 0.000931,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 808500
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.244922,
+					0.410305,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.78715,
+					0.845661,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.606102,
+					0.623047,
+					0.487485,
+					1
+				],
+				"polar": [
+					0.93132,
+					0.937695,
+					0.88669,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.652287,
+					0.856056,
+					0.935262,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.596106,
+					0.808594,
+					0.559067,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.721984,
+					0.863867,
+					0.697252,
+					1
+				]
+			},
+			"demographics": {
+				"type": 24,
+				"productivity": 3840,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 1,
+				"description": "This planet is mildly fabled for its inhabitants’ eccentric shyness but ravaged by killer disease.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.797321,
+				0.503991,
+				0.485259,
+				1
+			],
+			"radius": 146795.584106,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 431200,
+				"vector": [
+					0.236,
+					-0.095,
+					-0.967
+				]
+			},
+			"corona": {
+				"shimmer": 0.371145,
+				"hues": 0.626625,
+				"flare": 0.026398
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Qucedi",
+				"radius": 10780
+			}
+		}
+	]
+}

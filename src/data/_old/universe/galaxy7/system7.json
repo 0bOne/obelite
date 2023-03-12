@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system7",
+	"position": [
+		147,
+		121
+	],
+	"space": {
+		"blurs": 163,
+		"stars": 7225,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Vegedius",
+			"name": "Vegedius",
+			"seed": "107 121 118 147 207 54",
+			"body": {
+				"radius": 4499,
+				"rotation_v": 0.003914,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 539880
+			},
+			"land": {
+				"color": [
+					0.100547,
+					0.266635,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.736072,
+					0.794832,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.623047,
+					0.489174,
+					0.45828,
+					1
+				],
+				"polar": [
+					0.937695,
+					0.887325,
+					0.875701,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.641585,
+					0.888434,
+					0.855419,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.667969,
+					0.606814,
+					0.511414,
+					1
+				],
+				"fraction": 0.49,
+				"polar_color": [
+					0.800586,
+					0.754776,
+					0.683313,
+					1
+				]
+			},
+			"demographics": {
+				"type": 56,
+				"productivity": 40320,
+				"techLevel": 12,
+				"economy": 1,
+				"government": 6,
+				"description": "This planet is very well known for Vegediusian wolf meat and its weird volcanoes.",
+				"inhabitants": "Red Horned Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.830185,
+				0.586358,
+				0.340319,
+				1
+			],
+			"radius": 119571.277313,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 404910,
+				"vector": [
+					0.358,
+					0.932,
+					-0.054
+				]
+			},
+			"corona": {
+				"shimmer": 0.533707,
+				"hues": 0.992516,
+				"flare": 0.022847
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Vegedius",
+				"radius": 8998
+			}
+		}
+	]
+}

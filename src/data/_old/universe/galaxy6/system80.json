@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system80",
+	"position": [
+		171,
+		103
+	],
+	"space": {
+		"blurs": 58,
+		"stars": 6884,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Rasoso",
+			"name": "Rasoso",
+			"seed": "18 103 210 171 84 52",
+			"body": {
+				"radius": 4011,
+				"rotation_v": 0.003096,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 441210
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.582455,
+					0.461484,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.906565,
+					0.863768,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.748771,
+					0.697194,
+					0.910156,
+					1
+				],
+				"polar": [
+					0.86869,
+					0.855812,
+					0.908984,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.516168,
+					0.643775,
+					0.835102,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.230103,
+					0.507812,
+					0.455742,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.479511,
+					0.728516,
+					0.681827,
+					1
+				]
+			},
+			"demographics": {
+				"type": 26,
+				"productivity": 3744,
+				"techLevel": 4,
+				"economy": 7,
+				"government": 2,
+				"description": "This world is ravaged by occasional solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.802319,
+				0.344379,
+				0.288211,
+				1
+			],
+			"radius": 119268.739929,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 360990,
+				"vector": [
+					0.539,
+					0.49,
+					-0.686
+				]
+			},
+			"corona": {
+				"shimmer": 0.520011,
+				"hues": 0.560776,
+				"flare": 0.026619
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Rasoso",
+				"radius": 8022
+			}
+		}
+	]
+}

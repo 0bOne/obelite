@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system85",
+	"position": [
+		133,
+		138
+	],
+	"space": {
+		"blurs": 169,
+		"stars": 9928,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Celaan",
+			"name": "Celaan",
+			"seed": "111 138 61 133 160 229",
+			"body": {
+				"radius": 4229,
+				"rotation_v": 0.001258,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 422900
+			},
+			"land": {
+				"color": [
+					0.649688,
+					0.65855,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.930352,
+					0.933487,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.208649,
+					0.503906,
+					0.365504,
+					1
+				],
+				"polar": [
+					0.810506,
+					0.949609,
+					0.884405,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.661094,
+					0.846809,
+					0.794431,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.542969,
+					0.516374,
+					0.511154,
+					1
+				],
+				"fraction": 0.53,
+				"polar_color": [
+					0.744336,
+					0.72155,
+					0.717078,
+					1
+				]
+			},
+			"demographics": {
+				"type": 50,
+				"productivity": 35200,
+				"techLevel": 10,
+				"economy": 2,
+				"government": 7,
+				"description": "The world Celaan is a boring world.",
+				"inhabitants": "Fierce Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.609244,
+				0.770479,
+				0.847928,
+				1
+			],
+			"radius": 104870.630493,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 465190,
+				"vector": [
+					0.63,
+					-0.305,
+					0.714
+				]
+			},
+			"corona": {
+				"shimmer": 0.399668,
+				"hues": 0.761414,
+				"flare": 0.006793
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Celaan",
+				"radius": 8458
+			}
+		}
+	]
+}

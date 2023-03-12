@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system208",
+	"position": [
+		78,
+		239
+	],
+	"space": {
+		"blurs": 42,
+		"stars": 9659,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Maesgeed",
+			"name": "Maesgeed",
+			"seed": "233 239 97 78 77 171",
+			"body": {
+				"radius": 5710,
+				"rotation_v": 0.002902,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 685200
+			},
+			"land": {
+				"color": [
+					0.560547,
+					0.535537,
+					0.523323,
+					1
+				],
+				"polar_color": [
+					0.943945,
+					0.933416,
+					0.928274,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.72258,
+					0.751953,
+					0.516968,
+					1
+				],
+				"polar": [
+					0.915773,
+					0.924805,
+					0.852554,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.765149,
+					0.564835,
+					0.917701,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.755859,
+					0.336594,
+					0.454512,
+					1
+				],
+				"fraction": 0.41,
+				"polar_color": [
+					0.840137,
+					0.548878,
+					0.630795,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 5376,
+				"techLevel": 4,
+				"economy": 7,
+				"government": 4,
+				"description": "This world is mildly well known for its exotic cuisine and its inhabitants’ ingrained shyness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.797733,
+				0.579043,
+				0.540267,
+				1
+			],
+			"radius": 134453.701782,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 342600,
+				"vector": [
+					-0.808,
+					0.512,
+					0.293
+				]
+			},
+			"corona": {
+				"shimmer": 0.45662,
+				"hues": 0.981789,
+				"flare": 0.050739
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Maesgeed",
+				"radius": 11420
+			}
+		}
+	]
+}

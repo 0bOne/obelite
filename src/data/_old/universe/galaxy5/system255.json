@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system255",
+	"position": [
+		216,
+		138
+	],
+	"space": {
+		"blurs": 125,
+		"stars": 7550,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atlaonbi",
+			"name": "Atlaonbi",
+			"seed": "231 138 137 216 168 209",
+			"body": {
+				"radius": 3288,
+				"rotation_v": 0.000167,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 361680
+			},
+			"land": {
+				"color": [
+					0.514517,
+					0.0592969,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.88253,
+					0.721479,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.640625,
+					0.548132,
+					0.497986,
+					1
+				],
+				"polar": [
+					0.935938,
+					0.902155,
+					0.883839,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.805234,
+					0.54402,
+					0.943717,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.833984,
+					0.273651,
+					0.286784,
+					1
+				],
+				"fraction": 0.16,
+				"polar_color": [
+					0.875293,
+					0.507738,
+					0.516353,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 8960,
+				"techLevel": 6,
+				"economy": 2,
+				"government": 1,
+				"description": "This planet is beset by deadly earthquakes.",
+				"inhabitants": "Horned Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.840155,
+				0.677879,
+				0.421324,
+				1
+			],
+			"radius": 91099.815674,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 197280,
+				"vector": [
+					-0.037,
+					-0.995,
+					-0.087
+				]
+			},
+			"corona": {
+				"shimmer": 0.538195,
+				"hues": 0.693031,
+				"flare": 0.07307
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atlaonbi",
+				"radius": 6576
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system104",
+	"position": [
+		204,
+		254
+	],
+	"space": {
+		"blurs": 67,
+		"stars": 6151,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Teusatve",
+			"name": "Teusatve",
+			"seed": "228 254 148 204 213 188",
+			"body": {
+				"radius": 6092,
+				"rotation_v": 0.000859,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 609200
+			},
+			"land": {
+				"color": [
+					0.48926,
+					0.66,
+					0.213984,
+					1
+				],
+				"polar_color": [
+					0.873594,
+					0.934,
+					0.776205,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.55235,
+					0.644531,
+					0.51487,
+					1
+				],
+				"polar": [
+					0.902096,
+					0.935547,
+					0.888495,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.747173,
+					0.630317,
+					0.851361,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.556641,
+					0.456619,
+					0.496472,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.750488,
+					0.666205,
+					0.699787,
+					1
+				]
+			},
+			"demographics": {
+				"type": 17,
+				"productivity": 3264,
+				"techLevel": 2,
+				"economy": 6,
+				"government": 2,
+				"description": "The world Teusatve is notable for its weird exuberant forests and its inhabitants’ eccentric shyness.",
+				"inhabitants": "Harmless Horned Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.718137,
+				0.670313,
+				0.65635,
+				1
+			],
+			"radius": 158037.277832,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 487360,
+				"vector": [
+					0.406,
+					-0.738,
+					-0.539
+				]
+			},
+			"corona": {
+				"shimmer": 0.320178,
+				"hues": 0.533142,
+				"flare": 0.01496
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Teusatve",
+				"radius": 12184
+			}
+		}
+	]
+}

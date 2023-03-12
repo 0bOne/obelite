@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system78",
+	"position": [
+		72,
+		13
+	],
+	"space": {
+		"blurs": 73,
+		"stars": 9039,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Maleve",
+			"name": "Maleve",
+			"seed": "188 13 200 72 117 43",
+			"body": {
+				"radius": 5704,
+				"rotation_v": 0.001553,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 741520
+			},
+			"land": {
+				"color": [
+					0.274666,
+					0.435418,
+					0.505859,
+					1
+				],
+				"polar_color": [
+					0.840936,
+					0.916362,
+					0.949414,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.599636,
+					0.677734,
+					0.521538,
+					1
+				],
+				"polar": [
+					0.90537,
+					0.932227,
+					0.878514,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.798354,
+					0.750935,
+					0.978188,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.904598,
+					0.845947,
+					0.9375,
+					1
+				],
+				"fraction": 0.41,
+				"polar_color": [
+					0.901654,
+					0.865608,
+					0.921875,
+					1
+				]
+			},
+			"demographics": {
+				"type": 13,
+				"productivity": 1560,
+				"techLevel": 1,
+				"economy": 7,
+				"government": 1,
+				"description": "The world Maleve is very noted for its ancient Biso tulip plantations but ravaged by occasional solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.693985,
+				0.719686,
+				0.848447,
+				1
+			],
+			"radius": 140089.87793,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 456320,
+				"vector": [
+					-0.289,
+					-0.67,
+					-0.684
+				]
+			},
+			"corona": {
+				"shimmer": 0.47992,
+				"hues": 0.749191,
+				"flare": 0.09518
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Maleve",
+				"radius": 11408
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system185",
+	"position": [
+		54,
+		181
+	],
+	"space": {
+		"blurs": 176,
+		"stars": 6336,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edzaraat",
+			"name": "Edzaraat",
+			"seed": "202 181 146 54 138 24",
+			"body": {
+				"radius": 4918,
+				"rotation_v": 0.001894,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 688520
+			},
+			"land": {
+				"color": [
+					0.656898,
+					0.603281,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.932903,
+					0.913934,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.525391,
+					0.280845,
+					0.0205231,
+					1
+				],
+				"polar": [
+					0.947461,
+					0.837211,
+					0.719848,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.54009,
+					0.954123,
+					0.837352,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.865234,
+					0.356677,
+					0.256866,
+					1
+				],
+				"fraction": 0.25,
+				"polar_color": [
+					0.889355,
+					0.562646,
+					0.498525,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 6720,
+				"techLevel": 5,
+				"economy": 5,
+				"government": 2,
+				"description": "The planet Edzaraat is scourged by killer edible poets.",
+				"inhabitants": "Green Bony Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.744803,
+				0.685161,
+				0.322331,
+				1
+			],
+			"radius": 107803.376465,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 295080,
+				"vector": [
+					-0.072,
+					0.377,
+					0.923
+				]
+			},
+			"corona": {
+				"shimmer": 0.382732,
+				"hues": 0.846306,
+				"flare": 0.078802
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Edzaraat",
+				"radius": 9836
+			}
+		}
+	]
+}

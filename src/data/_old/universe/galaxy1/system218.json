@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system218",
+	"position": [
+		37,
+		24
+	],
+	"space": {
+		"blurs": 109,
+		"stars": 9450,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Usbira",
+			"name": "Usbira",
+			"seed": "20 24 88 37 182 168",
+			"body": {
+				"radius": 4901,
+				"rotation_v": 0.004848,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 735150
+			},
+			"land": {
+				"color": [
+					0.461484,
+					0.66,
+					0.262969,
+					1
+				],
+				"polar_color": [
+					0.863768,
+					0.934,
+					0.793535,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.589436,
+					0.667969,
+					0.517937,
+					1
+				],
+				"polar": [
+					0.905774,
+					0.933203,
+					0.880802,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.698532,
+					0.614512,
+					0.844857,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.537109,
+					0.419617,
+					0.524259,
+					1
+				],
+				"fraction": 0.18,
+				"polar_color": [
+					0.741699,
+					0.640295,
+					0.730608,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 24640,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 3,
+				"description": "This world is a tedious little planet.",
+				"inhabitants": "Small Harmless Furry Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.706467,
+				0.665051,
+				0.663754,
+				1
+			],
+			"radius": 104650.289612,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 245050,
+				"vector": [
+					-0.171,
+					-0.8,
+					0.575
+				]
+			},
+			"corona": {
+				"shimmer": 0.318795,
+				"hues": 0.697182,
+				"flare": 0.048178
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Usbira",
+				"radius": 9802
+			}
+		}
+	]
+}

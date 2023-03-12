@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system172",
+	"position": [
+		201,
+		232
+	],
+	"space": {
+		"blurs": 192,
+		"stars": 5027,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zavezaon",
+			"name": "Zavezaon",
+			"seed": "116 232 160 201 102 228",
+			"body": {
+				"radius": 4041,
+				"rotation_v": 0.003337,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 484920
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.128906,
+					0.290724,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.746105,
+					0.803355,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.605606,
+					0.619141,
+					0.48588,
+					1
+				],
+				"polar": [
+					0.932959,
+					0.938086,
+					0.887609,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.639781,
+					0.878027,
+					0.82385,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.636719,
+					0.54481,
+					0.499924,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.786523,
+					0.715565,
+					0.680911,
+					1
+				]
+			},
+			"demographics": {
+				"type": 45,
+				"productivity": 28800,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 4,
+				"description": "This planet is beset by dreadful earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.752637,
+				0.67985,
+				0.574394,
+				1
+			],
+			"radius": 99349.060364,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 282870,
+				"vector": [
+					-0.078,
+					0.903,
+					0.423
+				]
+			},
+			"corona": {
+				"shimmer": 0.352598,
+				"hues": 0.746872,
+				"flare": 0.025842
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Zavezaon",
+				"radius": 8082
+			}
+		}
+	]
+}

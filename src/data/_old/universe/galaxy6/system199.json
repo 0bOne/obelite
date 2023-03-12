@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system199",
+	"position": [
+		65,
+		40
+	],
+	"space": {
+		"blurs": 199,
+		"stars": 6122,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Gedienza",
+			"name": "Gedienza",
+			"seed": "206 40 50 65 208 163",
+			"body": {
+				"radius": 3649,
+				"rotation_v": 0.001412,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 474370
+			},
+			"land": {
+				"color": [
+					0.328066,
+					0.66,
+					0.2475,
+					1
+				],
+				"polar_color": [
+					0.816566,
+					0.934,
+					0.788063,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.556641,
+					0.520981,
+					0.445312,
+					1
+				],
+				"polar": [
+					0.944336,
+					0.929212,
+					0.897119,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.609484,
+					0.811582,
+					0.994447,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.431519,
+					0.986328,
+					0.674248,
+					1
+				],
+				"fraction": 0.59,
+				"polar_color": [
+					0.612026,
+					0.943848,
+					0.757198,
+					1
+				]
+			},
+			"demographics": {
+				"type": 51,
+				"productivity": 40800,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 6,
+				"description": "This world is very fabled for the Gedienzaian edible poet.",
+				"inhabitants": "Large Harmless Bug-Eyed Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.20086,
+				0.639212,
+				0.705151,
+				1
+			],
+			"radius": 85103.615417,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 182450,
+				"vector": [
+					-0.529,
+					0.7,
+					-0.48
+				]
+			},
+			"corona": {
+				"shimmer": 0.399971,
+				"hues": 0.664101,
+				"flare": 0.079541
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Gedienza",
+				"radius": 7298
+			}
+		}
+	]
+}

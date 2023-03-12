@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system173",
+	"position": [
+		224,
+		169
+	],
+	"space": {
+		"blurs": 184,
+		"stars": 8899,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orxeteed",
+			"name": "Orxeteed",
+			"seed": "106 169 50 224 74 121",
+			"body": {
+				"radius": 5344,
+				"rotation_v": 0.000714,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 694720
+			},
+			"land": {
+				"color": [
+					0.390928,
+					0.0953906,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.838806,
+					0.734248,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.646484,
+					0.573345,
+					0.479308,
+					1
+				],
+				"polar": [
+					0.935352,
+					0.908896,
+					0.874883,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.571861,
+					0.914786,
+					0.985342,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.627607,
+					0.958984,
+					0.325905,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.730358,
+					0.931543,
+					0.547191,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 31680,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 6,
+				"description": "The planet Orxeteed is most noted for the Orxeteedian evil arts graduate and its exotic night life.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.268362,
+				0.488105,
+				0.748804,
+				1
+			],
+			"radius": 181105.302734,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 267200,
+				"vector": [
+					0.9,
+					-0.192,
+					-0.39
+				]
+			},
+			"corona": {
+				"shimmer": 0.322879,
+				"hues": 0.714996,
+				"flare": 0.01713
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Orxeteed",
+				"radius": 10688
+			}
+		}
+	]
+}

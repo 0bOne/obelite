@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system41",
+	"position": [
+		143,
+		153
+	],
+	"space": {
+		"blurs": 184,
+		"stars": 7202,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Geinona",
+			"name": "Geinona",
+			"seed": "192 153 8 143 189 99",
+			"body": {
+				"radius": 3727,
+				"rotation_v": 0.002528,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 447240
+			},
+			"land": {
+				"color": [
+					0.588397,
+					0.543984,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.908668,
+					0.892955,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.541016,
+					0.281008,
+					0.00422668,
+					1
+				],
+				"polar": [
+					0.945898,
+					0.832251,
+					0.711271,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.626881,
+					0.907295,
+					0.880734,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.724609,
+					0.659596,
+					0.486847,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.826074,
+					0.779751,
+					0.656664,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 10360,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 1,
+				"description": "This world is ravaged by unpredictable solar activity.",
+				"inhabitants": "Large Blue Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.437948,
+				0.579346,
+				0.806802,
+				1
+			],
+			"radius": 97626.744995,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 298160,
+				"vector": [
+					-0.595,
+					0.786,
+					-0.169
+				]
+			},
+			"corona": {
+				"shimmer": 0.256411,
+				"hues": 0.62426,
+				"flare": 0.091489
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Geinona",
+				"radius": 7454
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system203",
+	"position": [
+		225,
+		100
+	],
+	"space": {
+		"blurs": 153,
+		"stars": 8498,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Cemabe",
+			"name": "Cemabe",
+			"seed": "48 100 200 225 218 5",
+			"body": {
+				"radius": 4321,
+				"rotation_v": 0.003396,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 432100
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.0902344,
+					0.437435,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.732424,
+					0.855259,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.611328,
+					0.479777,
+					0.453959,
+					1
+				],
+				"polar": [
+					0.938867,
+					0.888359,
+					0.878446,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.40627,
+					0.8325,
+					0.738902,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.5,
+					0.196045,
+					0.03125,
+					1
+				],
+				"fraction": 0.18,
+				"polar_color": [
+					0.725,
+					0.449541,
+					0.300195,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 3200,
+				"techLevel": 3,
+				"economy": 6,
+				"government": 1,
+				"description": "This world is reasonably well known for its vast oceans but ravaged by vicious wolfs.",
+				"inhabitants": "Fierce Green Furry Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.655087,
+				0.602715,
+				0.434334,
+				1
+			],
+			"radius": 105842.610168,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 302470,
+				"vector": [
+					-0.369,
+					-0.833,
+					-0.413
+				]
+			},
+			"corona": {
+				"shimmer": 0.520135,
+				"hues": 0.611084,
+				"flare": 0.019038
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Cemabe",
+				"radius": 8642
+			}
+		}
+	]
+}

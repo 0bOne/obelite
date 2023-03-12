@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system216",
+	"position": [
+		1,
+		84
+	],
+	"space": {
+		"blurs": 130,
+		"stars": 9434,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anatrean",
+			"name": "Anatrean",
+			"seed": "201 84 1 1 205 251",
+			"body": {
+				"radius": 5633,
+				"rotation_v": 0.004177,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 563300
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.295518,
+					0.257812,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.805051,
+					0.791711,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.541016,
+					0.416962,
+					0.428592,
+					1
+				],
+				"polar": [
+					0.945898,
+					0.891676,
+					0.896759,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.568887,
+					0.506206,
+					0.913148,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.455374,
+					0.194244,
+					0.742188,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.632554,
+					0.449162,
+					0.833984,
+					1
+				]
+			},
+			"demographics": {
+				"type": 15,
+				"productivity": 1920,
+				"techLevel": 2,
+				"economy": 6,
+				"government": 0,
+				"description": "This world is a revolting dump.",
+				"inhabitants": "Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.661261,
+				0.325876,
+				0.225621,
+				1
+			],
+			"radius": 153106.789703,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 732290,
+				"vector": [
+					-0.075,
+					-0.966,
+					0.249
+				]
+			},
+			"corona": {
+				"shimmer": 0.378869,
+				"hues": 0.720596,
+				"flare": 0.075275
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anatrean",
+				"radius": 11266
+			}
+		}
+	]
+}

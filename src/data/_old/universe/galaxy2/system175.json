@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system175",
+	"position": [
+		128,
+		157
+	],
+	"space": {
+		"blurs": 84,
+		"stars": 7013,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Bicein",
+			"name": "Bicein",
+			"seed": "157 157 241 128 117 134",
+			"body": {
+				"radius": 4480,
+				"rotation_v": 0.003205,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 582400
+			},
+			"land": {
+				"color": [
+					0.652266,
+					0.655287,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.931264,
+					0.932333,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.550781,
+					0.377116,
+					0.00860596,
+					1
+				],
+				"polar": [
+					0.944922,
+					0.870437,
+					0.712382,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.572544,
+					0.875378,
+					0.997699,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.40369,
+					0.996094,
+					0.319061,
+					1
+				],
+				"fraction": 0.44,
+				"polar_color": [
+					0.595777,
+					0.948242,
+					0.545424,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 12800,
+				"techLevel": 5,
+				"economy": 5,
+				"government": 6,
+				"description": "Bicein is ravaged by dreadful civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.816156,
+				0.760033,
+				0.461062,
+				1
+			],
+			"radius": 124898.046875,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 268800,
+				"vector": [
+					-0.241,
+					-0.716,
+					0.655
+				]
+			},
+			"corona": {
+				"shimmer": 1.001375,
+				"hues": 0.554008,
+				"flare": 0.006412
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Bicein",
+				"radius": 8960
+			}
+		}
+	]
+}

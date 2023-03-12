@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system16",
+	"position": [
+		110,
+		53
+	],
+	"space": {
+		"blurs": 145,
+		"stars": 7755,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Onzaenve",
+			"name": "Onzaenve",
+			"seed": "210 53 194 110 154 127",
+			"body": {
+				"radius": 6766,
+				"rotation_v": 0.000699,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 676600
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.183047,
+					0.496047,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.76526,
+					0.875996,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.564453,
+					0.469867,
+					0.43701,
+					1
+				],
+				"polar": [
+					0.943555,
+					0.904026,
+					0.890295,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.720451,
+					0.52393,
+					0.938514,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.818359,
+					0.22377,
+					0.558227,
+					1
+				],
+				"fraction": 0.53,
+				"polar_color": [
+					0.868262,
+					0.473983,
+					0.695765,
+					1
+				]
+			},
+			"demographics": {
+				"type": 16,
+				"productivity": 1536,
+				"techLevel": 2,
+				"economy": 7,
+				"government": 0,
+				"description": "This world is mildly famous for its hoopy casinos and its vast oceans.",
+				"inhabitants": "Blue Bony Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.675153,
+				0.703692,
+				0.789026,
+				1
+			],
+			"radius": 161980.947266,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 608940,
+				"vector": [
+					0.57,
+					0.74,
+					-0.357
+				]
+			},
+			"corona": {
+				"shimmer": 0.272089,
+				"hues": 0.811699,
+				"flare": 0.029907
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Onzaenve",
+				"radius": 13532
+			}
+		}
+	]
+}

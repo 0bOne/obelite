@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system197",
+	"position": [
+		214,
+		196
+	],
+	"space": {
+		"blurs": 163,
+		"stars": 7899,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Bereed",
+			"name": "Bereed",
+			"seed": "134 196 64 214 219 19",
+			"body": {
+				"radius": 3798,
+				"rotation_v": 0.003205,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 455760
+			},
+			"land": {
+				"color": [
+					0.654297,
+					0.558972,
+					0.495834,
+					1
+				],
+				"polar_color": [
+					0.93457,
+					0.900531,
+					0.877985,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0971985,
+					0.509554,
+					0.710938,
+					1
+				],
+				"polar": [
+					0.728429,
+					0.863125,
+					0.928906,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.570038,
+					0.576775,
+					0.834451,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.328018,
+					0.339133,
+					0.505859,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.567756,
+					0.577748,
+					0.727637,
+					1
+				]
+			},
+			"demographics": {
+				"type": 19,
+				"productivity": 2432,
+				"techLevel": 3,
+				"economy": 6,
+				"government": 0,
+				"description": "This world is reasonably well known for its great tropical forests but cursed by dreadful solar activity.",
+				"inhabitants": "Green Horned Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.807324,
+				0.739995,
+				0.663351,
+				1
+			],
+			"radius": 115451.990662,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 303840,
+				"vector": [
+					-0.769,
+					0.227,
+					0.597
+				]
+			},
+			"corona": {
+				"shimmer": 0.272144,
+				"hues": 0.637604,
+				"flare": 0.046429
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Bereed",
+				"radius": 7596
+			}
+		}
+	]
+}

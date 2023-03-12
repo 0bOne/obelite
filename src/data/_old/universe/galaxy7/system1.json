@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system1",
+	"position": [
+		204,
+		230
+	],
+	"space": {
+		"blurs": 156,
+		"stars": 6308,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Iseror",
+			"name": "Iseror",
+			"seed": "191 230 90 204 11 189",
+			"body": {
+				"radius": 6348,
+				"rotation_v": 0.004922,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 761760
+			},
+			"land": {
+				"color": [
+					0.50491,
+					0.66,
+					0.299063,
+					1
+				],
+				"polar_color": [
+					0.879131,
+					0.934,
+					0.806305,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.638967,
+					0.703125,
+					0.524597,
+					1
+				],
+				"polar": [
+					0.90848,
+					0.929688,
+					0.870674,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.536042,
+					0.607603,
+					0.839004,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.267883,
+					0.442857,
+					0.519531,
+					1
+				],
+				"fraction": 0.26,
+				"polar_color": [
+					0.511646,
+					0.666105,
+					0.733789,
+					1
+				]
+			},
+			"demographics": {
+				"type": 22,
+				"productivity": 4928,
+				"techLevel": 3,
+				"economy": 6,
+				"government": 3,
+				"description": "The world Iseror is notable for its weird tropical forests and Iserorian Onenst brandy.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.565305,
+				0.650283,
+				0.657941,
+				1
+			],
+			"radius": 175138.584595,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 380880,
+				"vector": [
+					0.028,
+					0.801,
+					0.598
+				]
+			},
+			"corona": {
+				"shimmer": 0.635655,
+				"hues": 0.524376,
+				"flare": 0.056836
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Iseror",
+				"radius": 12696
+			}
+		}
+	]
+}

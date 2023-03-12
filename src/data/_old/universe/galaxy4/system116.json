@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system116",
+	"position": [
+		105,
+		93
+	],
+	"space": {
+		"blurs": 136,
+		"stars": 5471,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceinan",
+			"name": "Ceinan",
+			"seed": "36 93 172 105 101 101",
+			"body": {
+				"radius": 4201,
+				"rotation_v": 0.003616,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 546130
+			},
+			"land": {
+				"color": [
+					0.600784,
+					0.66,
+					0.389297,
+					1
+				],
+				"polar_color": [
+					0.91305,
+					0.934,
+					0.838229,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.537778,
+					0.664062,
+					0.530472,
+					1
+				],
+				"polar": [
+					0.889208,
+					0.933594,
+					0.886641,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.604877,
+					0.880858,
+					0.968432,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.556485,
+					0.908203,
+					0.429268,
+					1
+				],
+				"fraction": 0.34,
+				"polar_color": [
+					0.688749,
+					0.908691,
+					0.609196,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 12600,
+				"techLevel": 6,
+				"economy": 5,
+				"government": 5,
+				"description": "This world is very notable for the Ceinanian edible arts graduate and its unusual dense forests.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.737787,
+				0.749231,
+				0.842935,
+				1
+			],
+			"radius": 120875.544281,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 252060,
+				"vector": [
+					-0.67,
+					0.586,
+					-0.456
+				]
+			},
+			"corona": {
+				"shimmer": 0.258614,
+				"hues": 0.965569,
+				"flare": 0.099867
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceinan",
+				"radius": 8402
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system243",
+	"position": [
+		85,
+		242
+	],
+	"space": {
+		"blurs": 192,
+		"stars": 7807,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Leeson",
+			"name": "Leeson",
+			"seed": "14 242 34 85 208 225",
+			"body": {
+				"radius": 3157,
+				"rotation_v": 0.000819,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 410410
+			},
+			"land": {
+				"color": [
+					0.0257813,
+					0.541084,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.709621,
+					0.891929,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.546875,
+					0.490682,
+					0.436218,
+					1
+				],
+				"polar": [
+					0.945312,
+					0.921029,
+					0.897493,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.40442,
+					0.83315,
+					0.739003,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.501953,
+					0.194268,
+					0.0274506,
+					1
+				],
+				"fraction": 0.5,
+				"polar_color": [
+					0.725879,
+					0.447787,
+					0.297015,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 19968,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 4,
+				"description": "The planet Leeson is cursed by killer mountain A’onsethoids.",
+				"inhabitants": "Large Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.703634,
+				0.733251,
+				0.787149,
+				1
+			],
+			"radius": 89558.968353,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 220990,
+				"vector": [
+					0.147,
+					-0.304,
+					-0.941
+				]
+			},
+			"corona": {
+				"shimmer": 0.469341,
+				"hues": 0.758736,
+				"flare": 0.081107
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Leeson",
+				"radius": 6314
+			}
+		}
+	]
+}

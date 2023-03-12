@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system61",
+	"position": [
+		10,
+		1
+	],
+	"space": {
+		"blurs": 92,
+		"stars": 7638,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Inedala",
+			"name": "Inedala",
+			"seed": "234 1 178 10 74 12",
+			"body": {
+				"radius": 5898,
+				"rotation_v": 0.000631,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 707760
+			},
+			"land": {
+				"color": [
+					0.591797,
+					0.388367,
+					0.58385,
+					1
+				],
+				"polar_color": [
+					0.94082,
+					0.859969,
+					0.937662,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.576409,
+					0.710938,
+					0.543756,
+					1
+				],
+				"polar": [
+					0.884963,
+					0.928906,
+					0.874297,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.595011,
+					0.929408,
+					0.882075,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.791016,
+					0.633648,
+					0.410957,
+					1
+				],
+				"fraction": 0.37,
+				"polar_color": [
+					0.855957,
+					0.749527,
+					0.598919,
+					1
+				]
+			},
+			"demographics": {
+				"type": 52,
+				"productivity": 37440,
+				"techLevel": 11,
+				"economy": 1,
+				"government": 6,
+				"description": "Inedala is mildly notable for its inhabitants’ unusual silliness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.680579,
+				0.562832,
+				0.394651,
+				1
+			],
+			"radius": 183048.951416,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 294900,
+				"vector": [
+					0.44,
+					0.117,
+					-0.89
+				]
+			},
+			"corona": {
+				"shimmer": 0.296251,
+				"hues": 0.755966,
+				"flare": 0.017694
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "icosahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Inedala",
+				"radius": 11796
+			}
+		}
+	]
+}

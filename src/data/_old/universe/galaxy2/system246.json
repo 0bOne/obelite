@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system246",
+	"position": [
+		150,
+		101
+	],
+	"space": {
+		"blurs": 125,
+		"stars": 6121,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tebe",
+			"name": "Tebe",
+			"seed": "17 101 105 150 237 32",
+			"body": {
+				"radius": 2966,
+				"rotation_v": 0.001912,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 355920
+			},
+			"land": {
+				"color": [
+					0.458906,
+					0.622295,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.862855,
+					0.92066,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.628906,
+					0.572167,
+					0.474382,
+					1
+				],
+				"polar": [
+					0.937109,
+					0.915973,
+					0.879547,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.5398,
+					0.485708,
+					0.926156,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.381947,
+					0.134277,
+					0.78125,
+					1
+				],
+				"fraction": 0.23,
+				"polar_color": [
+					0.579537,
+					0.410812,
+					0.851562,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 14040,
+				"techLevel": 7,
+				"economy": 5,
+				"government": 5,
+				"description": "This planet is very notable for the Tebeian tree snake and its exotic goat meat.",
+				"inhabitants": "Large Red Bony Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.661755,
+				0.537571,
+				0.446291,
+				1
+			],
+			"radius": 92803.811951,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 266940,
+				"vector": [
+					-0.112,
+					-0.946,
+					0.303
+				]
+			},
+			"corona": {
+				"shimmer": 0.563896,
+				"hues": 0.874481,
+				"flare": 0.011993
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tebe",
+				"radius": 5932
+			}
+		}
+	]
+}

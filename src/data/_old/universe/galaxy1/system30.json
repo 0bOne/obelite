@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system30",
+	"position": [
+		29,
+		197
+	],
+	"space": {
+		"blurs": 168,
+		"stars": 5340,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atrazama",
+			"name": "Atrazama",
+			"seed": "116 197 200 29 182 145",
+			"body": {
+				"radius": 3101,
+				"rotation_v": 0.004211,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 341110
+			},
+			"land": {
+				"color": [
+					0.525391,
+					0.462154,
+					0.0492554,
+					1
+				],
+				"polar_color": [
+					0.947461,
+					0.918952,
+					0.732802,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.984375,
+					0.785193,
+					0.836545,
+					1
+				],
+				"polar": [
+					0.901563,
+					0.855956,
+					0.867714,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.790597,
+					0.607533,
+					0.891035,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.675781,
+					0.435562,
+					0.446822,
+					1
+				],
+				"fraction": 0.48,
+				"polar_color": [
+					0.804102,
+					0.625456,
+					0.63383,
+					1
+				]
+			},
+			"demographics": {
+				"type": 17,
+				"productivity": 2040,
+				"techLevel": 2,
+				"economy": 7,
+				"government": 1,
+				"description": "This planet is a dull world.",
+				"inhabitants": "Black Slimy Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.68712,
+				0.761303,
+				0.841043,
+				1
+			],
+			"radius": 99867.852631,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 403130,
+				"vector": [
+					0.157,
+					-0.732,
+					0.663
+				]
+			},
+			"corona": {
+				"shimmer": 0.655504,
+				"hues": 0.965195,
+				"flare": 0.001024
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atrazama",
+				"radius": 6202
+			}
+		}
+	]
+}

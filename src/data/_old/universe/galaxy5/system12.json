@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system12",
+	"position": [
+		70,
+		45
+	],
+	"space": {
+		"blurs": 161,
+		"stars": 6892,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Dixetiso",
+			"name": "Dixetiso",
+			"seed": "217 45 241 70 186 205",
+			"body": {
+				"radius": 6214,
+				"rotation_v": 0.001315,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 807820
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.613594,
+					0.648398,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.917582,
+					0.929896,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.6875,
+					0.520073,
+					0.461914,
+					1
+				],
+				"polar": [
+					0.93125,
+					0.874553,
+					0.854858,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.485592,
+					0.997699,
+					0.873252,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.996094,
+					0.322101,
+					0.0583649,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.948242,
+					0.547233,
+					0.390316,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 16000,
+				"techLevel": 7,
+				"economy": 5,
+				"government": 6,
+				"description": "Dixetiso is most famous for the Dixetisoian deadly monkey and its exotic cuisine.",
+				"inhabitants": "Bony Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.715948,
+				0.709415,
+				0.649672,
+				1
+			],
+			"radius": 176134.130859,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 434980,
+				"vector": [
+					0.547,
+					0.611,
+					0.572
+				]
+			},
+			"corona": {
+				"shimmer": 0.267317,
+				"hues": 0.84166,
+				"flare": 0.073256
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Dixetiso",
+				"radius": 12428
+			}
+		}
+	]
+}

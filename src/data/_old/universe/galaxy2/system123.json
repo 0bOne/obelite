@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system123",
+	"position": [
+		165,
+		35
+	],
+	"space": {
+		"blurs": 115,
+		"stars": 6562,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Maracece",
+			"name": "Maracece",
+			"seed": "205 35 225 165 21 139",
+			"body": {
+				"radius": 5797,
+				"rotation_v": 0.001338,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 811580
+			},
+			"land": {
+				"color": [
+					0.649688,
+					0.66,
+					0.655891,
+					1
+				],
+				"polar_color": [
+					0.930352,
+					0.934,
+					0.932546,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0543213,
+					0.695312,
+					0.575127,
+					1
+				],
+				"polar": [
+					0.716025,
+					0.930469,
+					0.890261,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.5487,
+					0.478318,
+					0.935262,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.441558,
+					0.107391,
+					0.808594,
+					1
+				],
+				"fraction": 0.39,
+				"polar_color": [
+					0.618789,
+					0.395658,
+					0.863867,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 16128,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 4,
+				"description": "Maracece is an unremarkable dump.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.668683,
+				0.571397,
+				0.409654,
+				1
+			],
+			"radius": 134712.847137,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 289850,
+				"vector": [
+					-0.744,
+					0.538,
+					-0.396
+				]
+			},
+			"corona": {
+				"shimmer": 0.323801,
+				"hues": 0.715996,
+				"flare": 0.062053
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Maracece",
+				"radius": 11594
+			}
+		}
+	]
+}

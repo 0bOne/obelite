@@ -1,0 +1,117 @@
+## views found in Oolite
+
+(interface views skipped for now)
+
+1. VIEW: V1 Welcome:
+- MENU: Start New Commander: -> VIEW: Start New Commander
+- MENU: Load Commander:		-> VIEW: Load commander
+- MENU: View Ship Library	-> VIEW: Ship Library
+- MENU: Game Options		-> VIEW: Game Options 
+- ////MENU: Manage Expansion Packs
+  ////MENU: Exit Game (not needed)
+2. VIEW: Docked Commander Status:
+	System, Condition, Fuel, Cash, Legal, Rating, Equpment 
+	F5 -> VIEW: Ship Manifest
+3. VIEW: Ship Library 
+	(cycle through views of all ships and artifacts in high res)
+4. VIEW: Galactic Chart:
+	- F6: Zoom in/out
+	- Select: -> VIEW: Star System Data
+5. VIEW: Star System Data
+	- Economy, Gov, Tech, Pop, Gross Productivity, Radius, Diskance 
+	- Synopsys
+	- Planet Image
+	- F6: Back to chart
+	(LATER: consider multi-planet option, star name)
+6. VIEW: Commodities
+	- List of items to buy and sell
+	- F8: Selected commodity info
+7. VIEW: In-Flight:
+	(flight + radar)
+8. VIEW: Game Menu:
+  - MENU: Quick-Save (disabled)
+  - MENU: Save Commander -> VIEW: Save Commander
+  - MENU: Load Commander -> VIEW: Load Commander
+  - MENU: Game Options - >VIEW: Game Options 
+  - MENU: End Game and Return to Menu -> View: Welcome 
+  - ////MENU: Exit Game (not needed)
+9. VIEW: Load Commander:
+	(List of saved commanders) -> load -> VIEW: Commander Status
+10. VIEW: Save Commander:
+	(List of saved commanders)
+	+ (Option to change name)
+
+
+VIEW: Start New Commander:
+	(FORNOW: Go straight to docked commander status)
+	MENU: Return to Main Menu ->VIEW: Docked Commander Status
+	MENU: Normal -> VIEW: Docked Commander Status
+	MENU: Easy -> VIEW: Docked Commander Statuss
+	- [VIEW: Docked Commander Status]
+	MENU: Tutorial -> VIEW: Docked Commander Statuss
+	- [VIEW: Docked Commander Status]
+	MENU: Strict Mode  -> VIEW: Docked Commander Status (no expansion packs) 
+VIEW: Game Options:
+   (volume,music, gender, wireframe on/off, gamma???, FOV)
+	MENU: Joystick Configuration -> VIEW: Joystick config
+	MENU: Keyboard Configruation -> VIEW: Keyboard configruation
+VIEW: Joystick Configuration:
+	(Joystick config)
+VIEW: Keyboard configuration:
+	(keyboard config)
+VIEW: Ship Equipment
+	(list of ship equipment, option to buy/sell)
+	F3: VIEW: Ships for sale 
+VIEW: Ships for Sale:
+	(list of ships for sale, option to buy)
+	F2: VIEW: Ship Equipment 
+VIEW: Ship and System Interfaces:
+	MENU: Config for AddOns  (LATER: Consider including Oolite add-ons)
+	MENU: Personal Assistance Device TODO:
+	MENU: Cargo Contract Deliveries TODO: 
+	MENU: Parcel Contract Deliveries TODO: 
+	MENU: Passenger Contract Deliveries TODO: 
+	MENU: Edit Ship Registration TODO: 
+	MENU: View Ship Specificdations -> View Ship Library (current ship)
+
+VIEW: Ship Manifest:
+	List of Cargo
+	Passenger Cabins
+Docked Function Keys:
+- F1 (Launch)-> VIEW: In-Flight (FWD Camera)
+- F2 (Menu) -> VIEW: Welcome
+- F3 (Outfitting) -> VIEW: Ship Equipment
+- F4 (Interfaces) -> VIEW: Ship and System Interfaces 
+- F5 (Status) -> VIEW: Commander Status
+- F6 (Chart) -> VIEW: Galactic Chart 
+- F7 (System) -> VIEW: Star System Info 
+- F8 (Commodities) -> VIEW: Commodities
+In-flight Function Keys:
+ - F1: -> Fwd View
+   F2: -> Aft View
+   F3: -> Port View
+   F4: -> Starbd View
+   F5: -> VIEW: Commander status
+   F6: -> VIEW: Chart 
+   F7: -> VIEW: Star System 
+   F8: -> VIEW: Commodities 
+
+Future Features:
+1. Ship Paint Yard
+2. Ship Builder
+3. Multi character control
+4. Oolite add-ons (or native add-ons)
+5. Programmable Trader
+6. Programmable Ship Commands
+7. Alternative HUDs
+8. In-dock landing (simlar to Elite Dangerous)
+9. Classic Mode (strict original game)	
+10. Additional Galaxies with
+	- Realistic numbers of systems 
+	- Multiple planets/stars per system
+    - Realistic distances in systems
+		(needs in-system sublight drive)
+11. True Multiplayer + websocket server
+12. Jump Points and Hypernets
+13. 
+

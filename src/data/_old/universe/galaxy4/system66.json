@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system66",
+	"position": [
+		36,
+		64
+	],
+	"space": {
+		"blurs": 103,
+		"stars": 9280,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Biarra",
+			"name": "Biarra",
+			"seed": "156 64 16 36 5 166",
+			"body": {
+				"radius": 4388,
+				"rotation_v": 0.001292,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 482680
+			},
+			"land": {
+				"color": [
+					0.391875,
+					0.66,
+					0.421201,
+					1
+				],
+				"polar_color": [
+					0.839141,
+					0.934,
+					0.849516,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.601562,
+					0.49482,
+					0.453052,
+					1
+				],
+				"polar": [
+					0.939844,
+					0.898152,
+					0.881838,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.712066,
+					0.79272,
+					0.930709,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.711082,
+					0.794922,
+					0.787062,
+					1
+				],
+				"fraction": 0.5,
+				"polar_color": [
+					0.801176,
+					0.857715,
+					0.852414,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 16800,
+				"techLevel": 8,
+				"economy": 0,
+				"government": 2,
+				"description": "This planet is a tedious little planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.637911,
+				0.69209,
+				0.781927,
+				1
+			],
+			"radius": 81503.671875,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 438800,
+				"vector": [
+					-0.535,
+					0.729,
+					0.426
+				]
+			},
+			"corona": {
+				"shimmer": 0.507213,
+				"hues": 0.557106,
+				"flare": 0.059027
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Biarra",
+				"radius": 8776
+			}
+		}
+	]
+}

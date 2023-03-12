@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system110",
+	"position": [
+		148,
+		122
+	],
+	"space": {
+		"blurs": 87,
+		"stars": 8309,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Erbiti",
+			"name": "Erbiti",
+			"seed": "250 122 196 148 219 224",
+			"body": {
+				"radius": 2964,
+				"rotation_v": 0.003445,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 326040
+			},
+			"land": {
+				"color": [
+					0.588397,
+					0.543984,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.908668,
+					0.892955,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.546875,
+					0.496165,
+					0.436859,
+					1
+				],
+				"polar": [
+					0.945312,
+					0.923398,
+					0.89777,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.665873,
+					0.846968,
+					0.928758,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.602585,
+					0.789062,
+					0.591797,
+					1
+				],
+				"fraction": 0.48,
+				"polar_color": [
+					0.728779,
+					0.855078,
+					0.721472,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 5888,
+				"techLevel": 5,
+				"economy": 2,
+				"government": 0,
+				"description": "The world Erbiti is most well known for its great dense forests.",
+				"inhabitants": "Large Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.784186,
+				0.561302,
+				0.506234,
+				1
+			],
+			"radius": 53067.160034,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 266760,
+				"vector": [
+					0.145,
+					-0.94,
+					0.308
+				]
+			},
+			"corona": {
+				"shimmer": 0.292561,
+				"hues": 0.719742,
+				"flare": 0.065544
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Erbiti",
+				"radius": 5928
+			}
+		}
+	]
+}

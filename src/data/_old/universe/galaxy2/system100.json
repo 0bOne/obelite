@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system100",
+	"position": [
+		212,
+		15
+	],
+	"space": {
+		"blurs": 156,
+		"stars": 9751,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arredi",
+			"name": "Arredi",
+			"seed": "25 15 177 212 141 138",
+			"body": {
+				"radius": 5588,
+				"rotation_v": 0.003532,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 726440
+			},
+			"land": {
+				"color": [
+					0.598125,
+					0.66,
+					0.600542,
+					1
+				],
+				"polar_color": [
+					0.912109,
+					0.934,
+					0.912964,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0330505,
+					0.705078,
+					0.531821,
+					1
+				],
+				"polar": [
+					0.708012,
+					0.929492,
+					0.872392,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.659832,
+					0.872824,
+					0.847662,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.621094,
+					0.592738,
+					0.538605,
+					1
+				],
+				"fraction": 0.41,
+				"polar_color": [
+					0.779492,
+					0.75725,
+					0.714788,
+					1
+				]
+			},
+			"demographics": {
+				"type": 26,
+				"productivity": 6240,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 6,
+				"description": "The planet Arredi is most famous for the Arrediian evil poet and Zero-G hockey.",
+				"inhabitants": "Small Black Bony Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.735419,
+				0.550555,
+				0.286473,
+				1
+			],
+			"radius": 138716.029053,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 279400,
+				"vector": [
+					-0.171,
+					-0.348,
+					-0.922
+				]
+			},
+			"corona": {
+				"shimmer": 1.775562,
+				"hues": 0.72036,
+				"flare": 0.037563
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Arredi",
+				"radius": 11176
+			}
+		}
+	]
+}

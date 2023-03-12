@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system214",
+	"position": [
+		69,
+		213
+	],
+	"space": {
+		"blurs": 95,
+		"stars": 5762,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arbiti",
+			"name": "Arbiti",
+			"seed": "145 213 233 69 237 74",
+			"body": {
+				"radius": 5445,
+				"rotation_v": 0.001919,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 707850
+			},
+			"land": {
+				"color": [
+					0.284546,
+					0.316656,
+					0.578125,
+					1
+				],
+				"polar_color": [
+					0.822574,
+					0.835657,
+					0.942187,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.59308,
+					0.769531,
+					0.707498,
+					1
+				],
+				"polar": [
+					0.870134,
+					0.923047,
+					0.904445,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.738757,
+					0.526242,
+					0.940465,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.824219,
+					0.228592,
+					0.493832,
+					1
+				],
+				"fraction": 0.2,
+				"polar_color": [
+					0.870898,
+					0.477548,
+					0.652712,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 12600,
+				"techLevel": 6,
+				"economy": 5,
+				"government": 5,
+				"description": "The world Arbiti is a dull world.",
+				"inhabitants": "Small Yellow Slimy Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.2689,
+				0.324816,
+				0.703766,
+				1
+			],
+			"radius": 144229.854584,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 435600,
+				"vector": [
+					0.803,
+					-0.484,
+					0.349
+				]
+			},
+			"corona": {
+				"shimmer": 0.358132,
+				"hues": 0.787994,
+				"flare": 0.017149
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Arbiti",
+				"radius": 10890
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system7",
+	"position": [
+		217,
+		188
+	],
+	"space": {
+		"blurs": 114,
+		"stars": 5401,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esrilees",
+			"name": "Esrilees",
+			"seed": "112 188 56 217 58 169",
+			"body": {
+				"radius": 5337,
+				"rotation_v": 0.004094,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 693810
+			},
+			"land": {
+				"color": [
+					0.629063,
+					0.66,
+					0.641873,
+					1
+				],
+				"polar_color": [
+					0.923055,
+					0.934,
+					0.927587,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0341492,
+					0.728516,
+					0.728516,
+					1
+				],
+				"polar": [
+					0.706226,
+					0.927148,
+					0.927148,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.537939,
+					0.565894,
+					0.855914,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.276245,
+					0.349762,
+					0.570312,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.512801,
+					0.573761,
+					0.756641,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 23232,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 7,
+				"description": "The world Esrilees is notable for its unusual tropical forests and its fabulous Esrileesian lethal water.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.201978,
+				0.2599,
+				0.737769,
+				1
+			],
+			"radius": 127942.717896,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 426960,
+				"vector": [
+					0.57,
+					0.65,
+					-0.502
+				]
+			},
+			"corona": {
+				"shimmer": 0.350617,
+				"hues": 0.614853,
+				"flare": 0.098083
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esrilees",
+				"radius": 10674
+			}
+		}
+	]
+}

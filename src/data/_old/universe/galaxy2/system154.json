@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system154",
+	"position": [
+		150,
+		62
+	],
+	"space": {
+		"blurs": 88,
+		"stars": 7510,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Vemaed",
+			"name": "Vemaed",
+			"seed": "129 62 57 150 173 214",
+			"body": {
+				"radius": 4502,
+				"rotation_v": 0.002621,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 585260
+			},
+			"land": {
+				"color": [
+					0.18045,
+					0.505586,
+					0.632812,
+					1
+				],
+				"polar_color": [
+					0.769317,
+					0.889637,
+					0.936719,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.642635,
+					0.724609,
+					0.533833,
+					1
+				],
+				"polar": [
+					0.901306,
+					0.927539,
+					0.866488,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.465995,
+					0.477637,
+					0.922904,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0873947,
+					0.13015,
+					0.771484,
+					1
+				],
+				"fraction": 0.41,
+				"polar_color": [
+					0.377668,
+					0.407012,
+					0.847168,
+					1
+				]
+			},
+			"demographics": {
+				"type": 42,
+				"productivity": 14784,
+				"techLevel": 7,
+				"economy": 6,
+				"government": 7,
+				"description": "The world Vemaed is most well known for its exotic night life.",
+				"inhabitants": "Slimy Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.254993,
+				0.459186,
+				0.689633,
+				1
+			],
+			"radius": 120797.529907,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 180080,
+				"vector": [
+					0.161,
+					0.877,
+					0.454
+				]
+			},
+			"corona": {
+				"shimmer": 0.698618,
+				"hues": 0.951279,
+				"flare": 0.026706
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Vemaed",
+				"radius": 9004
+			}
+		}
+	]
+}

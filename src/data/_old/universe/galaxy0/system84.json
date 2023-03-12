@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system84",
+	"position": [
+		210,
+		61
+	],
+	"space": {
+		"blurs": 74,
+		"stars": 8789,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Bivea",
+			"name": "Bivea",
+			"seed": "154 61 128 210 51 230",
+			"body": {
+				"radius": 4562,
+				"rotation_v": 0.001113,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 547440
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.296484,
+					0.466882,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.805393,
+					0.865677,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.546875,
+					0.472212,
+					0.431732,
+					1
+				],
+				"polar": [
+					0.945312,
+					0.913047,
+					0.895554,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.578916,
+					0.907,
+					0.98209,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.606645,
+					0.949219,
+					0.348541,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.718018,
+					0.927148,
+					0.560454,
+					1
+				]
+			},
+			"demographics": {
+				"type": 16,
+				"productivity": 1536,
+				"techLevel": 2,
+				"economy": 7,
+				"government": 0,
+				"description": "This planet is plagued by frequent solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.590134,
+				0.618065,
+				0.721704,
+				1
+			],
+			"radius": 143206.39801,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 319340,
+				"vector": [
+					0.312,
+					0.069,
+					-0.948
+				]
+			},
+			"corona": {
+				"shimmer": 0.32035,
+				"hues": 0.814957,
+				"flare": 0.079179
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Bivea",
+				"radius": 9124
+			}
+		}
+	]
+}

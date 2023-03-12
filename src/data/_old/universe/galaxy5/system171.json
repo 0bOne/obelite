@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system171",
+	"position": [
+		236,
+		26
+	],
+	"space": {
+		"blurs": 131,
+		"stars": 6629,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Beored",
+			"name": "Beored",
+			"seed": "7 26 1 236 40 115",
+			"body": {
+				"radius": 3820,
+				"rotation_v": 0.004815,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 420200
+			},
+			"land": {
+				"color": [
+					0.231049,
+					0.523438,
+					0.496026,
+					1
+				],
+				"polar_color": [
+					0.815318,
+					0.947656,
+					0.93525,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.582658,
+					0.748047,
+					0.670521,
+					1
+				],
+				"polar": [
+					0.874057,
+					0.925195,
+					0.901224,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.441275,
+					0.649909,
+					0.892336,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0557556,
+					0.679688,
+					0.445713,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.343513,
+					0.805859,
+					0.63248,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 5888,
+				"techLevel": 5,
+				"economy": 2,
+				"government": 0,
+				"description": "The planet Beored is reasonably noted for its exotic fish meat and its exciting sit coms.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.513452,
+				0.680674,
+				0.757907,
+				1
+			],
+			"radius": 99648.980713,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 458400,
+				"vector": [
+					0.148,
+					-0.348,
+					-0.926
+				]
+			},
+			"corona": {
+				"shimmer": 0.697058,
+				"hues": 0.509789,
+				"flare": 0.091182
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Beored",
+				"radius": 7640
+			}
+		}
+	]
+}

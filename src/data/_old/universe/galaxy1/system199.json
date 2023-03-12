@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system199",
+	"position": [
+		112,
+		20
+	],
+	"space": {
+		"blurs": 99,
+		"stars": 6974,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anonmabi",
+			"name": "Anonmabi",
+			"seed": "112 20 56 112 58 59",
+			"body": {
+				"radius": 5744,
+				"rotation_v": 0.004028,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 574400
+			},
+			"land": {
+				"color": [
+					0.202394,
+					0.636719,
+					0.00497437,
+					1
+				],
+				"polar_color": [
+					0.776654,
+					0.936328,
+					0.704075,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.580139,
+					0.78125,
+					0.62099,
+					1
+				],
+				"polar": [
+					0.862547,
+					0.921875,
+					0.874598,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.423246,
+					0.698033,
+					0.891035,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0158386,
+					0.675781,
+					0.180824,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.313317,
+					0.804102,
+					0.436013,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 21120,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 7,
+				"description": "This planet is reasonably noted for its exotic goat soup.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.79057,
+				0.274648,
+				0.243069,
+				1
+			],
+			"radius": 146100.554199,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 631840,
+				"vector": [
+					-0.107,
+					-0.986,
+					-0.126
+				]
+			},
+			"corona": {
+				"shimmer": 0.536617,
+				"hues": 0.830536,
+				"flare": 0.046646
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anonmabi",
+				"radius": 11488
+			}
+		}
+	]
+}

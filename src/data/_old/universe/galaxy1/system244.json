@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system244",
+	"position": [
+		78,
+		154
+	],
+	"space": {
+		"blurs": 94,
+		"stars": 7698,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Cerexe",
+			"name": "Cerexe",
+			"seed": "52 154 128 78 102 5",
+			"body": {
+				"radius": 4174,
+				"rotation_v": 0.001967,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 459140
+			},
+			"land": {
+				"color": [
+					0.376406,
+					0.613473,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.833668,
+					0.917539,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.541016,
+					0.474399,
+					0.430277,
+					1
+				],
+				"polar": [
+					0.945898,
+					0.916781,
+					0.897495,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.731994,
+					0.501175,
+					0.958025,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.876953,
+					0.147301,
+					0.489325,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.894629,
+					0.429404,
+					0.647478,
+					1
+				]
+			},
+			"demographics": {
+				"type": 31,
+				"productivity": 7936,
+				"techLevel": 7,
+				"economy": 2,
+				"government": 0,
+				"description": "The planet Cerexe is well known for its inhabitants’ ancient loathing of casinos but plagued by occasional solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.6633,
+				0.658278,
+				0.208759,
+				1
+			],
+			"radius": 76125.694275,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 208700,
+				"vector": [
+					0.235,
+					0.734,
+					0.637
+				]
+			},
+			"corona": {
+				"shimmer": 0.513026,
+				"hues": 0.74794,
+				"flare": 0.046973
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Cerexe",
+				"radius": 8348
+			}
+		}
+	]
+}

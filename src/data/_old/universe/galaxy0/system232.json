@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system232",
+	"position": [
+		98,
+		17
+	],
+	"space": {
+		"blurs": 186,
+		"stars": 9399,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Rexebe",
+			"name": "Rexebe",
+			"seed": "42 17 248 98 83 142",
+			"body": {
+				"radius": 6498,
+				"rotation_v": 0.004493,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 779760
+			},
+			"land": {
+				"color": [
+					0.205078,
+					0.546875,
+					0.482788,
+					1
+				],
+				"polar_color": [
+					0.797607,
+					0.945312,
+					0.917618,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.763672,
+					0.717527,
+					0.468346,
+					1
+				],
+				"polar": [
+					0.923633,
+					0.90968,
+					0.834336,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.620244,
+					0.907945,
+					0.867222,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.726562,
+					0.620798,
+					0.47113,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.826953,
+					0.751716,
+					0.64525,
+					1
+				]
+			},
+			"demographics": {
+				"type": 57,
+				"productivity": 45144,
+				"techLevel": 12,
+				"economy": 1,
+				"government": 7,
+				"description": "This world is mildly famous for its hoopy night life and its exotic cuisine.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.605687,
+				0.676184,
+				0.680093,
+				1
+			],
+			"radius": 133523.508911,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 389880,
+				"vector": [
+					-0.271,
+					-0.571,
+					-0.775
+				]
+			},
+			"corona": {
+				"shimmer": 0.455459,
+				"hues": 0.895706,
+				"flare": 0.054688
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Rexebe",
+				"radius": 12996
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system211",
+	"position": [
+		51,
+		47
+	],
+	"space": {
+		"blurs": 189,
+		"stars": 9242,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edanso",
+			"name": "Edanso",
+			"seed": "48 47 104 51 154 216",
+			"body": {
+				"radius": 4915,
+				"rotation_v": 0.002216,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 638950
+			},
+			"land": {
+				"color": [
+					0.189794,
+					0.136641,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.767647,
+					0.748842,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.603141,
+					0.623047,
+					0.488946,
+					1
+				],
+				"polar": [
+					0.930206,
+					0.937695,
+					0.887239,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.615412,
+					0.881852,
+					0.959326,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.592257,
+					0.880859,
+					0.461075,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.712831,
+					0.896387,
+					0.629397,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 7992,
+				"techLevel": 6,
+				"economy": 7,
+				"government": 5,
+				"description": "Edanso is mildly well known for its hoopy night life and Edansoian It water.",
+				"inhabitants": "Fat Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.677086,
+				0.703889,
+				0.712027,
+				1
+			],
+			"radius": 136586.692047,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 245750,
+				"vector": [
+					0.966,
+					0.02,
+					-0.256
+				]
+			},
+			"corona": {
+				"shimmer": 0.446979,
+				"hues": 0.582909,
+				"flare": 0.009154
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Edanso",
+				"radius": 9830
+			}
+		}
+	]
+}

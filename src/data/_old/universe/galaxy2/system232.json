@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system232",
+	"position": [
+		44,
+		22
+	],
+	"space": {
+		"blurs": 148,
+		"stars": 6808,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Teonus",
+			"name": "Teonus",
+			"seed": "137 22 65 44 205 156",
+			"body": {
+				"radius": 5932,
+				"rotation_v": 0.00164,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 593200
+			},
+			"land": {
+				"color": [
+					0.210411,
+					0.427549,
+					0.619141,
+					1
+				],
+				"polar_color": [
+					0.783265,
+					0.865514,
+					0.938086,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.683806,
+					0.689453,
+					0.508741,
+					1
+				],
+				"polar": [
+					0.929148,
+					0.931055,
+					0.870045,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.680335,
+					0.789879,
+					0.954123,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.638786,
+					0.865234,
+					0.822775,
+					1
+				],
+				"fraction": 0.48,
+				"polar_color": [
+					0.74388,
+					0.889355,
+					0.862079,
+					1
+				]
+			},
+			"demographics": {
+				"type": 11,
+				"productivity": 1408,
+				"techLevel": 1,
+				"economy": 6,
+				"government": 0,
+				"description": "This planet is a tedious little planet.",
+				"inhabitants": "Black Horned Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.809503,
+				0.645938,
+				0.497166,
+				1
+			],
+			"radius": 148933.605957,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 593200,
+				"vector": [
+					-0.438,
+					0.133,
+					-0.889
+				]
+			},
+			"corona": {
+				"shimmer": 0.289286,
+				"hues": 0.928925,
+				"flare": 0.042397
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Teonus",
+				"radius": 11864
+			}
+		}
+	]
+}

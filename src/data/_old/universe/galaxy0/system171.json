@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system171",
+	"position": [
+		15,
+		5
+	],
+	"space": {
+		"blurs": 157,
+		"stars": 5279,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Sotera",
+			"name": "Sotera",
+			"seed": "24 5 164 15 237 7",
+			"body": {
+				"radius": 4623,
+				"rotation_v": 0.004185,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 508530
+			},
+			"land": {
+				"color": [
+					0.379982,
+					0.333252,
+					0.546875,
+					1
+				],
+				"polar_color": [
+					0.873191,
+					0.852997,
+					0.945312,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.84375,
+					0.772167,
+					0.38562,
+					1
+				],
+				"polar": [
+					0.915625,
+					0.896205,
+					0.791336,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.484668,
+					0.581763,
+					0.88258,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.160057,
+					0.512484,
+					0.650391,
+					1
+				],
+				"fraction": 0.41,
+				"polar_color": [
+					0.419174,
+					0.687628,
+					0.792676,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 12160,
+				"techLevel": 7,
+				"economy": 5,
+				"government": 4,
+				"description": "Sotera is mildly notable for Soteraian lethal brandy.",
+				"inhabitants": "Fierce Green Horned Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.706085,
+				0.696465,
+				0.660544,
+				1
+			],
+			"radius": 128632.915192,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 600990,
+				"vector": [
+					-0.792,
+					0.611,
+					0.011
+				]
+			},
+			"corona": {
+				"shimmer": 0.226391,
+				"hues": 0.807594,
+				"flare": 0.063986
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Sotera",
+				"radius": 9246
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system58",
+	"position": [
+		69,
+		75
+	],
+	"space": {
+		"blurs": 73,
+		"stars": 6042,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tiessous",
+			"name": "Tiessous",
+			"seed": "249 75 237 69 154 23",
+			"body": {
+				"radius": 4677,
+				"rotation_v": 0.002325,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 701550
+			},
+			"land": {
+				"color": [
+					0.640625,
+					0.619081,
+					0.545532,
+					1
+				],
+				"polar_color": [
+					0.935938,
+					0.928069,
+					0.901205,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.164856,
+					0.570312,
+					0.399261,
+					1
+				],
+				"polar": [
+					0.775371,
+					0.942969,
+					0.872263,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.588355,
+					0.886259,
+					0.980789,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.527699,
+					0.945312,
+					0.376648,
+					1
+				],
+				"fraction": 0.59,
+				"polar_color": [
+					0.669883,
+					0.925391,
+					0.577465,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 20664,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 5,
+				"description": "The planet Tiessous is very famous for Tiessousian wolf cutlet but plagued by lethal disease.",
+				"inhabitants": "Green Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.798398,
+				0.556329,
+				0.396528,
+				1
+			],
+			"radius": 122029.763947,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 233850,
+				"vector": [
+					0.267,
+					-0.82,
+					0.506
+				]
+			},
+			"corona": {
+				"shimmer": 0.480504,
+				"hues": 0.916573,
+				"flare": 0.029869
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tiessous",
+				"radius": 9354
+			}
+		}
+	]
+}

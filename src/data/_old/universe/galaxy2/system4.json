@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system4",
+	"position": [
+		165,
+		36
+	],
+	"space": {
+		"blurs": 137,
+		"stars": 5606,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Raried",
+			"name": "Raried",
+			"seed": "153 36 49 165 141 148",
+			"body": {
+				"radius": 4005,
+				"rotation_v": 0.00353,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 440550
+			},
+			"land": {
+				"color": [
+					0.62157,
+					0.613594,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.920404,
+					0.917582,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.798828,
+					0.555289,
+					0.377571,
+					1
+				],
+				"polar": [
+					0.920117,
+					0.849988,
+					0.798813,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.779707,
+					0.629941,
+					0.867621,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.605469,
+					0.470657,
+					0.483296,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.772461,
+					0.664965,
+					0.675043,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 18720,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 6,
+				"description": "The planet Raried is an unremarkable dump.",
+				"inhabitants": "Black Bug-Eyed Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.713535,
+				0.768312,
+				0.787289,
+				1
+			],
+			"radius": 120292.389679,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 320400,
+				"vector": [
+					0.382,
+					0.613,
+					0.692
+				]
+			},
+			"corona": {
+				"shimmer": 0.34106,
+				"hues": 0.696556,
+				"flare": 0.013658
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Raried",
+				"radius": 8010
+			}
+		}
+	]
+}

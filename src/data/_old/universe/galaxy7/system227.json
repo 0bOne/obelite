@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system227",
+	"position": [
+		233,
+		18
+	],
+	"space": {
+		"blurs": 135,
+		"stars": 6868,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Veenen",
+			"name": "Veenen",
+			"seed": "131 18 142 233 119 86",
+			"body": {
+				"radius": 4585,
+				"rotation_v": 0.004566,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 550200
+			},
+			"land": {
+				"color": [
+					0.210915,
+					0.559982,
+					0.568359,
+					1
+				],
+				"polar_color": [
+					0.794874,
+					0.939689,
+					0.943164,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.667969,
+					0.6124,
+					0.516632,
+					1
+				],
+				"polar": [
+					0.933203,
+					0.913795,
+					0.880346,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.677105,
+					0.871629,
+					0.876076,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.626816,
+					0.630859,
+					0.579109,
+					1
+				],
+				"fraction": 0.25,
+				"polar_color": [
+					0.780747,
+					0.783887,
+					0.743697,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 10240,
+				"techLevel": 7,
+				"economy": 2,
+				"government": 1,
+				"description": "The planet Veenen is most well known for its hoopy casinos.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.675269,
+				0.555601,
+				0.436254,
+				1
+			],
+			"radius": 102604.206848,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 458500,
+				"vector": [
+					0.05,
+					0.998,
+					0.029
+				]
+			},
+			"corona": {
+				"shimmer": 0.337839,
+				"hues": 0.841255,
+				"flare": 0.037898
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Veenen",
+				"radius": 9170
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system122",
+	"position": [
+		223,
+		214
+	],
+	"space": {
+		"blurs": 170,
+		"stars": 6945,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ensoor",
+			"name": "Ensoor",
+			"seed": "2 214 114 223 90 114",
+			"body": {
+				"radius": 3551,
+				"rotation_v": 0.000086,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 355100
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.546724,
+					0.464063,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.893924,
+					0.86468,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.674222,
+					0.67281,
+					0.853516,
+					1
+				],
+				"polar": [
+					0.866615,
+					0.866236,
+					0.914648,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.713101,
+					0.80086,
+					0.924205,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.708755,
+					0.775391,
+					0.759773,
+					1
+				],
+				"fraction": 0.54,
+				"polar_color": [
+					0.803329,
+					0.848926,
+					0.838239,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 13120,
+				"techLevel": 7,
+				"economy": 6,
+				"government": 6,
+				"description": "The planet Ensoor is most famous for the Ensoorian spotted leopard.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.50695,
+				0.539315,
+				0.738037,
+				1
+			],
+			"radius": 76185.898743,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 319590,
+				"vector": [
+					-0.883,
+					-0.4,
+					0.247
+				]
+			},
+			"corona": {
+				"shimmer": 0.898812,
+				"hues": 0.940353,
+				"flare": 0.066072
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ensoor",
+				"radius": 7102
+			}
+		}
+	]
+}

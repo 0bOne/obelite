@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system242",
+	"position": [
+		65,
+		21
+	],
+	"space": {
+		"blurs": 105,
+		"stars": 8096,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anener",
+			"name": "Anener",
+			"seed": "153 21 125 65 186 27",
+			"body": {
+				"radius": 5697,
+				"rotation_v": 0.001702,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 569700
+			},
+			"land": {
+				"color": [
+					0.456973,
+					0.66,
+					0.28875,
+					1
+				],
+				"polar_color": [
+					0.862171,
+					0.934,
+					0.802656,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.644531,
+					0.460739,
+					0.460739,
+					1
+				],
+				"polar": [
+					0.935547,
+					0.868853,
+					0.868853,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.72862,
+					0.801409,
+					0.910547,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.734375,
+					0.734375,
+					0.734375,
+					1
+				],
+				"fraction": 0.51,
+				"polar_color": [
+					0.830469,
+					0.830469,
+					0.830469,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 18040,
+				"techLevel": 7,
+				"economy": 5,
+				"government": 7,
+				"description": "The planet Anener is famous for Anenerian wolf meat but scourged by dreadful solar activity.",
+				"inhabitants": "Green Fat Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.201431,
+				0.410096,
+				0.665045,
+				1
+			],
+			"radius": 145001.585083,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 683640,
+				"vector": [
+					-0.702,
+					-0.711,
+					0.041
+				]
+			},
+			"corona": {
+				"shimmer": 0.479155,
+				"hues": 0.562355,
+				"flare": 0.016275
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anener",
+				"radius": 11394
+			}
+		}
+	]
+}

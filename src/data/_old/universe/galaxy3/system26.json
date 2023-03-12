@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system26",
+	"position": [
+		228,
+		153
+	],
+	"space": {
+		"blurs": 159,
+		"stars": 7106,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Remari",
+			"name": "Remari",
+			"seed": "2 153 114 228 90 110",
+			"body": {
+				"radius": 6628,
+				"rotation_v": 0.000084,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 861640
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.12375,
+					0.639053,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.744281,
+					0.926589,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.607422,
+					0.455674,
+					0.448211,
+					1
+				],
+				"polar": [
+					0.939258,
+					0.880596,
+					0.877711,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.671782,
+					0.842256,
+					0.800829,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.529297,
+					0.526325,
+					0.525162,
+					1
+				],
+				"fraction": 0.18,
+				"polar_color": [
+					0.738184,
+					0.735593,
+					0.734579,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 31680,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 6,
+				"description": "The planet Remari is most famous for the Remariian evil Ernolooid and its inhabitants’ exceptional loathing of food blenders.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.655988,
+				0.635309,
+				0.632625,
+				1
+			],
+			"radius": 142189.087524,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 198840,
+				"vector": [
+					0.452,
+					-0.885,
+					0.11
+				]
+			},
+			"corona": {
+				"shimmer": 0.411028,
+				"hues": 0.906227,
+				"flare": 0.037831
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Remari",
+				"radius": 13256
+			}
+		}
+	]
+}

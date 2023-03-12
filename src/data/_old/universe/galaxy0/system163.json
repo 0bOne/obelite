@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system163",
+	"position": [
+		25,
+		96
+	],
+	"space": {
+		"blurs": 74,
+		"stars": 8625,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anlama",
+			"name": "Anlama",
+			"seed": "152 96 212 25 141 187",
+			"body": {
+				"radius": 5657,
+				"rotation_v": 0.004893,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 678840
+			},
+			"land": {
+				"color": [
+					0.659617,
+					0.611016,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.933865,
+					0.91667,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.572266,
+					0.537058,
+					0.00894165,
+					1
+				],
+				"polar": [
+					0.942773,
+					0.928273,
+					0.710763,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.633573,
+					0.897952,
+					0.927457,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.698896,
+					0.785156,
+					0.509125,
+					1
+				],
+				"fraction": 0.12,
+				"polar_color": [
+					0.794727,
+					0.85332,
+					0.665823,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 18720,
+				"techLevel": 9,
+				"economy": 0,
+				"government": 2,
+				"description": "This world is a tedious little planet.",
+				"inhabitants": "Harmless Bug-Eyed Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.791696,
+				0.689899,
+				0.574359,
+				1
+			],
+			"radius": 167335.365143,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 226280,
+				"vector": [
+					-0.811,
+					-0.071,
+					0.58
+				]
+			},
+			"corona": {
+				"shimmer": 0.578991,
+				"hues": 0.887749,
+				"flare": 0.072588
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anlama",
+				"radius": 11314
+			}
+		}
+	]
+}

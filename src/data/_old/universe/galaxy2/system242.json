@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system242",
+	"position": [
+		175,
+		61
+	],
+	"space": {
+		"blurs": 142,
+		"stars": 7102,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tigear",
+			"name": "Tigear",
+			"seed": "33 61 153 175 45 247",
+			"body": {
+				"radius": 4783,
+				"rotation_v": 0.001389,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 526130
+			},
+			"land": {
+				"color": [
+					0.479531,
+					0.66,
+					0.638851,
+					1
+				],
+				"polar_color": [
+					0.870152,
+					0.934,
+					0.926518,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.541016,
+					0.424187,
+					0.0253601,
+					1
+				],
+				"polar": [
+					0.945898,
+					0.894834,
+					0.720509,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.714002,
+					0.546929,
+					0.917701,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.755859,
+					0.292305,
+					0.585648,
+					1
+				],
+				"fraction": 0.42,
+				"polar_color": [
+					0.840137,
+					0.518112,
+					0.721893,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 10360,
+				"techLevel": 7,
+				"economy": 5,
+				"government": 3,
+				"description": "This planet is notable for the Tigearian tree grub and its inhabitants’ ancient mating traditions.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.719141,
+				0.707445,
+				0.636331,
+				1
+			],
+			"radius": 108556.788483,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 286980,
+				"vector": [
+					0.477,
+					-0.293,
+					0.829
+				]
+			},
+			"corona": {
+				"shimmer": 0.603051,
+				"hues": 0.927673,
+				"flare": 0.058913
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tigear",
+				"radius": 9566
+			}
+		}
+	]
+}

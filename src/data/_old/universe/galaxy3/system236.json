@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system236",
+	"position": [
+		60,
+		67
+	],
+	"space": {
+		"blurs": 177,
+		"stars": 9461,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Aaanqu",
+			"name": "Aaanqu",
+			"seed": "242 67 162 60 26 143",
+			"body": {
+				"radius": 6716,
+				"rotation_v": 0.004449,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 738760
+			},
+			"land": {
+				"color": [
+					0.471459,
+					0.503906,
+					0.0885773,
+					1
+				],
+				"polar_color": [
+					0.934323,
+					0.949609,
+					0.753938,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.682358,
+					0.838822,
+					0.886719,
+					1
+				],
+				"polar": [
+					0.85882,
+					0.899022,
+					0.911328,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.658246,
+					0.889084,
+					0.883433,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.669922,
+					0.662398,
+					0.549545,
+					1
+				],
+				"fraction": 0.14,
+				"polar_color": [
+					0.801465,
+					0.795839,
+					0.711457,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 14336,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 4,
+				"description": "This planet is noted for its exotic goat soup.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.479882,
+				0.823474,
+				0.837494,
+				1
+			],
+			"radius": 170514.214478,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 470120,
+				"vector": [
+					0.242,
+					-0.098,
+					-0.965
+				]
+			},
+			"corona": {
+				"shimmer": 0.263237,
+				"hues": 0.651787,
+				"flare": 0.068959
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Aaanqu",
+				"radius": 13432
+			}
+		}
+	]
+}

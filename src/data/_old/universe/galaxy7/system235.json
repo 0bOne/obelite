@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system235",
+	"position": [
+		89,
+		89
+	],
+	"space": {
+		"blurs": 146,
+		"stars": 5613,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ergerexe",
+			"name": "Ergerexe",
+			"seed": "83 89 222 89 167 144",
+			"body": {
+				"radius": 2905,
+				"rotation_v": 0.003321,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 319550
+			},
+			"land": {
+				"color": [
+					0.46519,
+					0.66,
+					0.180469,
+					1
+				],
+				"polar_color": [
+					0.865079,
+					0.934,
+					0.764348,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.5,
+					0.391211,
+					0.429457,
+					1
+				],
+				"polar": [
+					0.95,
+					0.898325,
+					0.916492,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.496615,
+					0.682239,
+					0.835102,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.194397,
+					0.507812,
+					0.309479,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.447496,
+					0.728516,
+					0.550683,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 20664,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 3,
+				"description": "This world is very well known for Ergerexeian lethal water and the Ergerexeian tree snake.",
+				"inhabitants": "Black Slimy Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.681696,
+				0.655809,
+				0.486965,
+				1
+			],
+			"radius": 71835.983276,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 261450,
+				"vector": [
+					-0.904,
+					-0.401,
+					-0.15
+				]
+			},
+			"corona": {
+				"shimmer": 0.308748,
+				"hues": 0.692581,
+				"flare": 0.073619
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ergerexe",
+				"radius": 5810
+			}
+		}
+	]
+}

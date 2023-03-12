@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system114",
+	"position": [
+		111,
+		154
+	],
+	"space": {
+		"blurs": 53,
+		"stars": 9646,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Beis",
+			"name": "Beis",
+			"seed": "156 154 112 111 69 51",
+			"body": {
+				"radius": 3695,
+				"rotation_v": 0.0025,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 406450
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.314531,
+					0.614117,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.811777,
+					0.917767,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.583984,
+					0.520781,
+					0.4535,
+					1
+				],
+				"polar": [
+					0.941602,
+					0.916125,
+					0.889004,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.684923,
+					0.862984,
+					0.871523,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.613251,
+					0.617188,
+					0.590668,
+					1
+				],
+				"fraction": 0.15,
+				"polar_color": [
+					0.774634,
+					0.777734,
+					0.756848,
+					1
+				]
+			},
+			"demographics": {
+				"type": 53,
+				"productivity": 33920,
+				"techLevel": 11,
+				"economy": 2,
+				"government": 6,
+				"description": "This planet is reasonably famous for its inhabitants’ exceptional loathing of food blenders.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.789462,
+				0.409093,
+				0.388512,
+				1
+			],
+			"radius": 93100.626373,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 406450,
+				"vector": [
+					-0.034,
+					-0.739,
+					0.673
+				]
+			},
+			"corona": {
+				"shimmer": 0.336849,
+				"hues": 0.548584,
+				"flare": 0.087077
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Beis",
+				"radius": 7390
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system97",
+	"position": [
+		104,
+		55
+	],
+	"space": {
+		"blurs": 111,
+		"stars": 9815,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Eraso",
+			"name": "Eraso",
+			"seed": "47 55 21 104 64 240",
+			"body": {
+				"radius": 2920,
+				"rotation_v": 0.003446,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 408800
+			},
+			"land": {
+				"color": [
+					0.640625,
+					0.372864,
+					0.592512,
+					1
+				],
+				"polar_color": [
+					0.935938,
+					0.838139,
+					0.918364,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.580078,
+					0.467589,
+					0.44163,
+					1
+				],
+				"polar": [
+					0.941992,
+					0.896324,
+					0.885785,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.666318,
+					0.826724,
+					0.943066,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.598022,
+					0.832031,
+					0.662009,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.720708,
+					0.874414,
+					0.762737,
+					1
+				]
+			},
+			"demographics": {
+				"type": 14,
+				"productivity": 2016,
+				"techLevel": 1,
+				"economy": 7,
+				"government": 2,
+				"description": "The planet Eraso is very noted for its exciting sit coms but ravaged by vicious killer cats.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.715891,
+				0.577194,
+				0.387911,
+				1
+			],
+			"radius": 55376.00708,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 175200,
+				"vector": [
+					-0.411,
+					0.479,
+					0.776
+				]
+			},
+			"corona": {
+				"shimmer": 0.87864,
+				"hues": 0.755646,
+				"flare": 0.063597
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Eraso",
+				"radius": 5840
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system126",
+	"position": [
+		0,
+		15
+	],
+	"space": {
+		"blurs": 94,
+		"stars": 8911,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Gebeti",
+			"name": "Gebeti",
+			"seed": "18 15 138 0 212 3",
+			"body": {
+				"radius": 3584,
+				"rotation_v": 0.000236,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 501760
+			},
+			"land": {
+				"color": [
+					0.500156,
+					0.66,
+					0.528878,
+					1
+				],
+				"polar_color": [
+					0.877449,
+					0.934,
+					0.887611,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.519531,
+					0.175925,
+					0.00811768,
+					1
+				],
+				"polar": [
+					0.948047,
+					0.791293,
+					0.714738,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.435517,
+					0.732469,
+					0.871523,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0776758,
+					0.617188,
+					0.0602722,
+					1
+				],
+				"fraction": 0.26,
+				"polar_color": [
+					0.352826,
+					0.777734,
+					0.33912,
+					1
+				]
+			},
+			"demographics": {
+				"type": 13,
+				"productivity": 1560,
+				"techLevel": 1,
+				"economy": 7,
+				"government": 1,
+				"description": "Gebeti is very fabled for its ancient Gebetiian Et banana plantations.",
+				"inhabitants": "Large Green Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.373661,
+				0.508822,
+				0.700464,
+				1
+			],
+			"radius": 94845.625,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 107520,
+				"vector": [
+					-0.901,
+					0.053,
+					0.43
+				]
+			},
+			"corona": {
+				"shimmer": 0.392192,
+				"hues": 0.748749,
+				"flare": 0.012398
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Gebeti",
+				"radius": 7168
+			}
+		}
+	]
+}

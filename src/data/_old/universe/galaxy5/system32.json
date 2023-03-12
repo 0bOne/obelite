@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system32",
+	"position": [
+		28,
+		5
+	],
+	"space": {
+		"blurs": 143,
+		"stars": 8701,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Rileisis",
+			"name": "Rileisis",
+			"seed": "201 5 201 28 234 222",
+			"body": {
+				"radius": 6428,
+				"rotation_v": 0.000379,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 642800
+			},
+			"land": {
+				"color": [
+					0.492422,
+					0.66,
+					0.612869,
+					1
+				],
+				"polar_color": [
+					0.874713,
+					0.934,
+					0.917325,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.5375,
+					0.671875,
+					0.545898,
+					1
+				],
+				"polar": [
+					0.886172,
+					0.932813,
+					0.889087,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.493906,
+					0.573179,
+					0.880629,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.181274,
+					0.459952,
+					0.644531,
+					1
+				],
+				"fraction": 0.46,
+				"polar_color": [
+					0.435139,
+					0.648633,
+					0.790039,
+					1
+				]
+			},
+			"demographics": {
+				"type": 13,
+				"productivity": 1560,
+				"techLevel": 1,
+				"economy": 7,
+				"government": 1,
+				"description": "This world is very fabled for the Rileisisian edible poet.",
+				"inhabitants": "Bug-Eyed Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.845337,
+				0.814615,
+				0.776883,
+				1
+			],
+			"radius": 144861.477051,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 642800,
+				"vector": [
+					-0.134,
+					0.955,
+					0.263
+				]
+			},
+			"corona": {
+				"shimmer": 0.34837,
+				"hues": 0.512505,
+				"flare": 0.004646
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Rileisis",
+				"radius": 12856
+			}
+		}
+	]
+}

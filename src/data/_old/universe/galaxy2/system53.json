@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system53",
+	"position": [
+		252,
+		250
+	],
+	"space": {
+		"blurs": 98,
+		"stars": 6367,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esleusbe",
+			"name": "Esleusbe",
+			"seed": "213 250 185 252 229 137",
+			"body": {
+				"radius": 5372,
+				"rotation_v": 0.004163,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 805800
+			},
+			"land": {
+				"color": [
+					0.319688,
+					0.66,
+					0.516431,
+					1
+				],
+				"polar_color": [
+					0.813602,
+					0.934,
+					0.883207,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.560547,
+					0.484731,
+					0.439241,
+					1
+				],
+				"polar": [
+					0.943945,
+					0.912027,
+					0.892876,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.816865,
+					0.75493,
+					0.983391,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.937127,
+					0.860046,
+					0.953125,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.919162,
+					0.87221,
+					0.928906,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 32384,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 7,
+				"description": "The world Esleusbe is beset by evil disease.",
+				"inhabitants": "Small Black Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.759531,
+				0.640932,
+				0.465919,
+				1
+			],
+			"radius": 143742.149048,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 214880,
+				"vector": [
+					0.055,
+					0.796,
+					0.603
+				]
+			},
+			"corona": {
+				"shimmer": 0.587588,
+				"hues": 0.773636,
+				"flare": 0.004855
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esleusbe",
+				"radius": 10744
+			}
+		}
+	]
+}

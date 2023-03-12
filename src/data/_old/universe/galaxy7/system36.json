@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system36",
+	"position": [
+		76,
+		95
+	],
+	"space": {
+		"blurs": 172,
+		"stars": 7939,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Biatge",
+			"name": "Biatge",
+			"seed": "13 95 12 76 33 38",
+			"body": {
+				"radius": 4428,
+				"rotation_v": 0.004365,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 664200
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.226875,
+					0.460356,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.780766,
+					0.863369,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.529297,
+					0.433527,
+					0.417855,
+					1
+				],
+				"polar": [
+					0.94707,
+					0.90423,
+					0.89722,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.766892,
+					0.589786,
+					0.897539,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.695312,
+					0.396545,
+					0.473571,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.812891,
+					0.594585,
+					0.650867,
+					1
+				]
+			},
+			"demographics": {
+				"type": 13,
+				"productivity": 1560,
+				"techLevel": 1,
+				"economy": 7,
+				"government": 1,
+				"description": "The world Biatge is very noted for its ancient Biatgeian Esbeusus tulip plantations but cursed by unpredictable solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.835196,
+				0.568021,
+				0.485619,
+				1
+			],
+			"radius": 102547.496338,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 88560,
+				"vector": [
+					0.527,
+					0.074,
+					-0.847
+				]
+			},
+			"corona": {
+				"shimmer": 0.681928,
+				"hues": 0.671562,
+				"flare": 0.04425
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Biatge",
+				"radius": 8856
+			}
+		}
+	]
+}

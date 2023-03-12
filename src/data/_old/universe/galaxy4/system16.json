@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system16",
+	"position": [
+		16,
+		71
+	],
+	"space": {
+		"blurs": 128,
+		"stars": 7092,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zaaner",
+			"name": "Zaaner",
+			"seed": "36 71 36 16 117 132",
+			"body": {
+				"radius": 3856,
+				"rotation_v": 0.00018,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 462720
+			},
+			"land": {
+				"color": [
+					0.525937,
+					0.66,
+					0.391875,
+					1
+				],
+				"polar_color": [
+					0.88657,
+					0.934,
+					0.839141,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.505859,
+					0.399945,
+					0.412357,
+					1
+				],
+				"polar": [
+					0.949414,
+					0.899718,
+					0.905542,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.667532,
+					0.881375,
+					0.884531,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.651343,
+					0.65625,
+					0.566528,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.791596,
+					0.795313,
+					0.727354,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 3840,
+				"techLevel": 2,
+				"economy": 7,
+				"government": 4,
+				"description": "The world Zaaner is mildly noted for its pink Zaanerian Alusabus plant plantations but beset by frequent civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.580385,
+				0.695007,
+				0.804495,
+				1
+			],
+			"radius": 103747.675781,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 231360,
+				"vector": [
+					0.016,
+					0.896,
+					-0.444
+				]
+			},
+			"corona": {
+				"shimmer": 0.449591,
+				"hues": 0.860184,
+				"flare": 0.059259
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Zaaner",
+				"radius": 7712
+			}
+		}
+	]
+}

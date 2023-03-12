@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system43",
+	"position": [
+		58,
+		85
+	],
+	"space": {
+		"blurs": 193,
+		"stars": 9376,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Oresri",
+			"name": "Oresri",
+			"seed": "24 85 164 58 237 249",
+			"body": {
+				"radius": 5178,
+				"rotation_v": 0.004302,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 621360
+			},
+			"land": {
+				"color": [
+					0.529297,
+					0.48381,
+					0.491273,
+					1
+				],
+				"polar_color": [
+					0.94707,
+					0.926723,
+					0.930061,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.679688,
+					0.660115,
+					0.500739,
+					1
+				],
+				"polar": [
+					0.932031,
+					0.925321,
+					0.870685,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.727674,
+					0.787338,
+					0.927457,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.748352,
+					0.780843,
+					0.785156,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.828321,
+					0.850391,
+					0.85332,
+					1
+				]
+			},
+			"demographics": {
+				"type": 34,
+				"productivity": 10880,
+				"techLevel": 6,
+				"economy": 5,
+				"government": 4,
+				"description": "The planet Oresri is cursed by dreadful civil war.",
+				"inhabitants": "Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.809204,
+				0.671428,
+				0.21998,
+				1
+			],
+			"radius": 133504.793701,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 621360,
+				"vector": [
+					0.187,
+					0.345,
+					0.92
+				]
+			},
+			"corona": {
+				"shimmer": 0.389072,
+				"hues": 0.935898,
+				"flare": 0.067471
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Oresri",
+				"radius": 10356
+			}
+		}
+	]
+}

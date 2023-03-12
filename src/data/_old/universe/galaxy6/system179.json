@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system179",
+	"position": [
+		236,
+		138
+	],
+	"space": {
+		"blurs": 62,
+		"stars": 7022,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Laindi",
+			"name": "Laindi",
+			"seed": "14 138 34 236 208 149",
+			"body": {
+				"radius": 4332,
+				"rotation_v": 0.000807,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 606480
+			},
+			"land": {
+				"color": [
+					0.654844,
+					0.66,
+					0.659879,
+					1
+				],
+				"polar_color": [
+					0.932176,
+					0.934,
+					0.933957,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.197937,
+					0.550781,
+					0.459814,
+					1
+				],
+				"polar": [
+					0.793587,
+					0.944922,
+					0.905906,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.655331,
+					0.862418,
+					0.816942,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.589844,
+					0.543528,
+					0.518417,
+					1
+				],
+				"fraction": 0.58,
+				"polar_color": [
+					0.76543,
+					0.727865,
+					0.707499,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 17920,
+				"techLevel": 7,
+				"economy": 2,
+				"government": 4,
+				"description": "The world Laindi is scourged by deadly tree snakes.",
+				"inhabitants": "Black Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.717593,
+				0.71183,
+				0.626315,
+				1
+			],
+			"radius": 121210.861816,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 259920,
+				"vector": [
+					-0.582,
+					-0.612,
+					-0.535
+				]
+			},
+			"corona": {
+				"shimmer": 0.412648,
+				"hues": 0.785896,
+				"flare": 0.027754
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Laindi",
+				"radius": 8664
+			}
+		}
+	]
+}

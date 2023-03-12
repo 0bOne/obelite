@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system137",
+	"position": [
+		159,
+		88
+	],
+	"space": {
+		"blurs": 195,
+		"stars": 7733,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Abilama",
+			"name": "Abilama",
+			"seed": "74 88 18 159 138 111",
+			"body": {
+				"radius": 6815,
+				"rotation_v": 0.00195,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 613350
+			},
+			"land": {
+				"color": [
+					0.505859,
+					0.458435,
+					0.481777,
+					1
+				],
+				"polar_color": [
+					0.949414,
+					0.927162,
+					0.938114,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.613281,
+					0.560327,
+					0.469064,
+					1
+				],
+				"polar": [
+					0.938672,
+					0.918409,
+					0.883488,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.791758,
+					0.567236,
+					0.923555,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.773438,
+					0.3414,
+					0.381904,
+					1
+				],
+				"fraction": 0.48,
+				"polar_color": [
+					0.848047,
+					0.551976,
+					0.579732,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 22560,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 2,
+				"description": "Abilama is reasonably well known for its great dense forests but scourged by frequent civil war.",
+				"inhabitants": "Blue Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.706204,
+				0.692827,
+				0.515787,
+				1
+			],
+			"radius": 174583.420563,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 749650,
+				"vector": [
+					-0.662,
+					0.043,
+					0.748
+				]
+			},
+			"corona": {
+				"shimmer": 0.286511,
+				"hues": 0.976784,
+				"flare": 0.065666
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Abilama",
+				"radius": 13630
+			}
+		}
+	]
+}

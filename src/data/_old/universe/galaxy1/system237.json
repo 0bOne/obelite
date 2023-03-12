@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system237",
+	"position": [
+		48,
+		232
+	],
+	"space": {
+		"blurs": 156,
+		"stars": 5313,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Telale",
+			"name": "Telale",
+			"seed": "128 232 96 48 90 156",
+			"body": {
+				"radius": 5936,
+				"rotation_v": 0.004375,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 831040
+			},
+			"land": {
+				"color": [
+					0.621094,
+					0.50642,
+					0.487656,
+					1
+				],
+				"polar_color": [
+					0.937891,
+					0.8946,
+					0.887516,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.172791,
+					0.582031,
+					0.486115,
+					1
+				],
+				"polar": [
+					0.776247,
+					0.941797,
+					0.902996,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.558094,
+					0.580494,
+					0.837703,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.308167,
+					0.355169,
+					0.515625,
+					1
+				],
+				"fraction": 0.44,
+				"polar_color": [
+					0.547951,
+					0.589657,
+					0.732031,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 26240,
+				"techLevel": 9,
+				"economy": 0,
+				"government": 4,
+				"description": "This world is a tedious little planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.528827,
+				0.82079,
+				0.827887,
+				1
+			],
+			"radius": 184433.918457,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 296800,
+				"vector": [
+					-0.635,
+					-0.697,
+					-0.332
+				]
+			},
+			"corona": {
+				"shimmer": 0.401702,
+				"hues": 0.848984,
+				"flare": 0.036324
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Telale",
+				"radius": 11872
+			}
+		}
+	]
+}

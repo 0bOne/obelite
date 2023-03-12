@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system223",
+	"position": [
+		206,
+		62
+	],
+	"space": {
+		"blurs": 65,
+		"stars": 5861,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceenbion",
+			"name": "Ceenbion",
+			"seed": "246 62 4 206 211 101",
+			"body": {
+				"radius": 4302,
+				"rotation_v": 0.00496,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 559260
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.600764,
+					0.213984,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.913043,
+					0.776205,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.626953,
+					0.534923,
+					0.467766,
+					1
+				],
+				"polar": [
+					0.937305,
+					0.902908,
+					0.877808,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.677865,
+					0.861117,
+					0.84805,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.585938,
+					0.581288,
+					0.563049,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.763672,
+					0.759885,
+					0.745028,
+					1
+				]
+			},
+			"demographics": {
+				"type": 19,
+				"productivity": 2432,
+				"techLevel": 3,
+				"economy": 6,
+				"government": 0,
+				"description": "The planet Ceenbion is mildly notable for its inhabitants’ ingrained shyness.",
+				"inhabitants": "Fierce Blue Slimy Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.799551,
+				0.456017,
+				0.261432,
+				1
+			],
+			"radius": 133111.505127,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 258120,
+				"vector": [
+					0.23,
+					-0.953,
+					-0.195
+				]
+			},
+			"corona": {
+				"shimmer": 1.568297,
+				"hues": 0.876312,
+				"flare": 0.02812
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceenbion",
+				"radius": 8604
+			}
+		}
+	]
+}

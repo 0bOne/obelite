@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system204",
+	"position": [
+		55,
+		188
+	],
+	"space": {
+		"blurs": 104,
+		"stars": 6940,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Maonxedi",
+			"name": "Maonxedi",
+			"seed": "242 188 162 55 26 107",
+			"body": {
+				"radius": 5687,
+				"rotation_v": 0.004432,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 682440
+			},
+			"land": {
+				"color": [
+					0.583845,
+					0.66,
+					0.146953,
+					1
+				],
+				"polar_color": [
+					0.907057,
+					0.934,
+					0.75249,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.507812,
+					0.384827,
+					0.479949,
+					1
+				],
+				"polar": [
+					0.949219,
+					0.891747,
+					0.936198,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.492081,
+					0.997699,
+					0.898506,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.996094,
+					0.465217,
+					0.0778198,
+					1
+				],
+				"fraction": 0.26,
+				"polar_color": [
+					0.948242,
+					0.632383,
+					0.401892,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 15744,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 4,
+				"description": "This planet is a dull world.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.753888,
+				0.794882,
+				0.815674,
+				1
+			],
+			"radius": 146066.068726,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 511830,
+				"vector": [
+					0.92,
+					0.391,
+					0.028
+				]
+			},
+			"corona": {
+				"shimmer": 0.420076,
+				"hues": 0.771973,
+				"flare": 0.086819
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Maonxedi",
+				"radius": 11374
+			}
+		}
+	]
+}

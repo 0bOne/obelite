@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system34",
+	"position": [
+		160,
+		120
+	],
+	"space": {
+		"blurs": 177,
+		"stars": 8029,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Lequteor",
+			"name": "Lequteor",
+			"seed": "194 120 178 160 90 225",
+			"body": {
+				"radius": 3232,
+				"rotation_v": 0.002627,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 323200
+			},
+			"land": {
+				"color": [
+					0.658203,
+					0.576249,
+					0.503937,
+					1
+				],
+				"polar_color": [
+					0.93418,
+					0.905101,
+					0.879443,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0944214,
+					0.523093,
+					0.710938,
+					1
+				],
+				"polar": [
+					0.727522,
+					0.867547,
+					0.928906,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.748962,
+					0.747793,
+					0.951522,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.821731,
+					0.82058,
+					0.857422,
+					1
+				],
+				"fraction": 0.37,
+				"polar_color": [
+					0.862794,
+					0.86205,
+					0.88584,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 37600,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 6,
+				"description": "The world Lequteor is reasonably famous for its inhabitants’ ancient mating traditions.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.735492,
+				0.49113,
+				0.453109,
+				1
+			],
+			"radius": 59909.570312,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 387840,
+				"vector": [
+					0.242,
+					-0.581,
+					0.778
+				]
+			},
+			"corona": {
+				"shimmer": 0.513227,
+				"hues": 0.681717,
+				"flare": 0.054095
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Lequteor",
+				"radius": 6464
+			}
+		}
+	]
+}

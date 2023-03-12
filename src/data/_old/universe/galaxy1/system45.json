@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system45",
+	"position": [
+		93,
+		124
+	],
+	"space": {
+		"blurs": 112,
+		"stars": 7035,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Veerge",
+			"name": "Veerge",
+			"seed": "128 124 96 93 90 22",
+			"body": {
+				"radius": 4445,
+				"rotation_v": 0.00432,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 577850
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.553471,
+					0.327422,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.896311,
+					0.816338,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.279083,
+					0.339429,
+					0.576172,
+					1
+				],
+				"polar": [
+					0.820904,
+					0.845579,
+					0.942383,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.724267,
+					0.751729,
+					0.954773,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.758789,
+					0.796051,
+					0.867188,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.820685,
+					0.844592,
+					0.890234,
+					1
+				]
+			},
+			"demographics": {
+				"type": 33,
+				"productivity": 12672,
+				"techLevel": 6,
+				"economy": 4,
+				"government": 4,
+				"description": "The world Veerge is a boring planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.336742,
+				0.555165,
+				0.76416,
+				1
+			],
+			"radius": 141219.093323,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 133350,
+				"vector": [
+					0.24,
+					0.971,
+					0.019
+				]
+			},
+			"corona": {
+				"shimmer": 0.259505,
+				"hues": 0.849991,
+				"flare": 0.085381
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Veerge",
+				"radius": 8890
+			}
+		}
+	]
+}

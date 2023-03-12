@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system151",
+	"position": [
+		147,
+		16
+	],
+	"space": {
+		"blurs": 45,
+		"stars": 8024,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceesxe",
+			"name": "Ceesxe",
+			"seed": "56 16 60 147 221 229",
+			"body": {
+				"radius": 4243,
+				"rotation_v": 0.003369,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 466730
+			},
+			"land": {
+				"color": [
+					0.635045,
+					0.66,
+					0.203672,
+					1
+				],
+				"polar_color": [
+					0.925171,
+					0.934,
+					0.772557,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.60116,
+					0.611328,
+					0.481182,
+					1
+				],
+				"polar": [
+					0.934963,
+					0.938867,
+					0.888898,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.63164,
+					0.885832,
+					0.828029,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.660156,
+					0.544073,
+					0.487381,
+					1
+				],
+				"fraction": 0.39,
+				"polar_color": [
+					0.79707,
+					0.709471,
+					0.66669,
+					1
+				]
+			},
+			"demographics": {
+				"type": 64,
+				"productivity": 56320,
+				"techLevel": 14,
+				"economy": 0,
+				"government": 7,
+				"description": "The world Ceesxe is most well known for its vast rain forests.",
+				"inhabitants": "Fierce Bony Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.169981,
+				0.378625,
+				0.678095,
+				1
+			],
+			"radius": 135502.007446,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 339440,
+				"vector": [
+					0.177,
+					0.009,
+					-0.984
+				]
+			},
+			"corona": {
+				"shimmer": 0.397135,
+				"hues": 0.806778,
+				"flare": 0.044345
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceesxe",
+				"radius": 8486
+			}
+		}
+	]
+}

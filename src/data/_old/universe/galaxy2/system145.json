@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system145",
+	"position": [
+		243,
+		58
+	],
+	"space": {
+		"blurs": 169,
+		"stars": 9173,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Oninriar",
+			"name": "Oninriar",
+			"seed": "69 58 41 243 5 63",
+			"body": {
+				"radius": 6899,
+				"rotation_v": 0.002253,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 827880
+			},
+			"land": {
+				"color": [
+					0.570312,
+					0.542465,
+					0.525757,
+					1
+				],
+				"polar_color": [
+					0.942969,
+					0.931458,
+					0.924551,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.702947,
+					0.792969,
+					0.504898,
+					1
+				],
+				"polar": [
+					0.894572,
+					0.920703,
+					0.837085,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.481742,
+					0.716024,
+					0.833801,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.167313,
+					0.503906,
+					0.172572,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.423351,
+					0.726758,
+					0.428091,
+					1
+				]
+			},
+			"demographics": {
+				"type": 52,
+				"productivity": 29952,
+				"techLevel": 11,
+				"economy": 2,
+				"government": 5,
+				"description": "Oninriar is mildly well known for its exotic cuisine.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.747559,
+				0.754659,
+				0.757529,
+				1
+			],
+			"radius": 124144.313202,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 551920,
+				"vector": [
+					0.213,
+					-0.448,
+					-0.868
+				]
+			},
+			"corona": {
+				"shimmer": 0.43245,
+				"hues": 0.866646,
+				"flare": 0.044908
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Oninriar",
+				"radius": 13798
+			}
+		}
+	]
+}

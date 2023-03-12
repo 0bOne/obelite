@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system160",
+	"position": [
+		221,
+		191
+	],
+	"space": {
+		"blurs": 68,
+		"stars": 7185,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Leritean",
+			"name": "Leritean",
+			"seed": "202 191 8 221 83 97",
+			"body": {
+				"radius": 3293,
+				"rotation_v": 0.000117,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 395160
+			},
+			"land": {
+				"color": [
+					0.212135,
+					0.301949,
+					0.654297,
+					1
+				],
+				"polar_color": [
+					0.776679,
+					0.808751,
+					0.93457,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.587891,
+					0.516643,
+					0.453778,
+					1
+				],
+				"polar": [
+					0.941211,
+					0.912694,
+					0.887532,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.680604,
+					0.587987,
+					0.86567,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.599609,
+					0.381783,
+					0.596206,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.769824,
+					0.595035,
+					0.767093,
+					1
+				]
+			},
+			"demographics": {
+				"type": 17,
+				"productivity": 2040,
+				"techLevel": 2,
+				"economy": 7,
+				"government": 1,
+				"description": "The planet Leritean is mildly well known for its exotic cuisine.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.699844,
+				0.520491,
+				0.235109,
+				1
+			],
+			"radius": 80594.486694,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 296370,
+				"vector": [
+					0.427,
+					-0.85,
+					-0.309
+				]
+			},
+			"corona": {
+				"shimmer": 0.727224,
+				"hues": 0.536858,
+				"flare": 0.037402
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Leritean",
+				"radius": 6586
+			}
+		}
+	]
+}

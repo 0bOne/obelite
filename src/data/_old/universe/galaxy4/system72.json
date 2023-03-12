@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system72",
+	"position": [
+		245,
+		19
+	],
+	"space": {
+		"blurs": 51,
+		"stars": 8553,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xemageat",
+			"name": "Xemageat",
+			"seed": "228 19 84 245 85 162",
+			"body": {
+				"radius": 3573,
+				"rotation_v": 0.003353,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 428760
+			},
+			"land": {
+				"color": [
+					0.136841,
+					0.59375,
+					0.358156,
+					1
+				],
+				"polar_color": [
+					0.759665,
+					0.940625,
+					0.847317,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.562881,
+					0.722656,
+					0.59908,
+					1
+				],
+				"polar": [
+					0.876455,
+					0.927734,
+					0.888073,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.735025,
+					0.591593,
+					0.884531,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.65625,
+					0.397339,
+					0.53084,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.795313,
+					0.599203,
+					0.700322,
+					1
+				]
+			},
+			"demographics": {
+				"type": 30,
+				"productivity": 10080,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 2,
+				"description": "The world Xemageat is beset by deadly earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.697086,
+				0.548652,
+				0.454777,
+				1
+			],
+			"radius": 101397.286835,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 214380,
+				"vector": [
+					0.061,
+					0.952,
+					0.301
+				]
+			},
+			"corona": {
+				"shimmer": 0.842603,
+				"hues": 0.552376,
+				"flare": 0.055101
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xemageat",
+				"radius": 7146
+			}
+		}
+	]
+}

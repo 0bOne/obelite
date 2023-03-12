@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system3",
+	"position": [
+		147,
+		125
+	],
+	"space": {
+		"blurs": 74,
+		"stars": 6814,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Erxesoan",
+			"name": "Erxesoan",
+			"seed": "198 125 252 147 243 16",
+			"body": {
+				"radius": 2963,
+				"rotation_v": 0.003349,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 325930
+			},
+			"land": {
+				"color": [
+					0.628857,
+					0.634766,
+					0.622368,
+					1
+				],
+				"polar_color": [
+					0.934344,
+					0.936523,
+					0.931951,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.54601,
+					0.925781,
+					0.408646,
+					1
+				],
+				"polar": [
+					0.814362,
+					0.907422,
+					0.780702,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.656842,
+					0.888339,
+					0.901441,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.680923,
+					0.707031,
+					0.55513,
+					1
+				],
+				"fraction": 0.15,
+				"polar_color": [
+					0.799282,
+					0.818164,
+					0.708303,
+					1
+				]
+			},
+			"demographics": {
+				"type": 49,
+				"productivity": 21560,
+				"techLevel": 9,
+				"economy": 5,
+				"government": 7,
+				"description": "This planet is fabled for its fabulous Sebese juice and its ancient mountains.",
+				"inhabitants": "Green Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.192399,
+				0.439216,
+				0.651422,
+				1
+			],
+			"radius": 73345.281677,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 266670,
+				"vector": [
+					0.367,
+					-0.481,
+					-0.796
+				]
+			},
+			"corona": {
+				"shimmer": 0.564576,
+				"hues": 0.833298,
+				"flare": 0.083109
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Erxesoan",
+				"radius": 5926
+			}
+		}
+	]
+}

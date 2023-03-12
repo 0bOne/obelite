@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system240",
+	"position": [
+		22,
+		0
+	],
+	"space": {
+		"blurs": 174,
+		"stars": 8107,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orerle",
+			"name": "Orerle",
+			"seed": "36 0 228 22 245 185",
+			"body": {
+				"radius": 5142,
+				"rotation_v": 0.002705,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 617040
+			},
+			"land": {
+				"color": [
+					0.436992,
+					0.66,
+					0.213984,
+					1
+				],
+				"polar_color": [
+					0.855103,
+					0.934,
+					0.776205,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.54765,
+					0.667969,
+					0.530461,
+					1
+				],
+				"polar": [
+					0.891179,
+					0.933203,
+					0.885176,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.479048,
+					0.500177,
+					0.911197,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.129433,
+					0.210036,
+					0.736328,
+					1
+				],
+				"fraction": 0.49,
+				"polar_color": [
+					0.40309,
+					0.459968,
+					0.831348,
+					1
+				]
+			},
+			"demographics": {
+				"type": 49,
+				"productivity": 31360,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 4,
+				"description": "This world is a tedious little planet.",
+				"inhabitants": "Harmless Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.250303,
+				0.538528,
+				0.830353,
+				1
+			],
+			"radius": 97580.779724,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 411360,
+				"vector": [
+					0.461,
+					-0.57,
+					-0.68
+				]
+			},
+			"corona": {
+				"shimmer": 0.304219,
+				"hues": 0.529839,
+				"flare": 0.074236
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Orerle",
+				"radius": 10284
+			}
+		}
+	]
+}

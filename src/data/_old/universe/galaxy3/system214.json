@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system214",
+	"position": [
+		63,
+		35
+	],
+	"space": {
+		"blurs": 143,
+		"stars": 9133,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Veorer",
+			"name": "Veorer",
+			"seed": "34 35 210 63 218 54",
+			"body": {
+				"radius": 4415,
+				"rotation_v": 0.003784,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 529800
+			},
+			"land": {
+				"color": [
+					0.370542,
+					0.291718,
+					0.617188,
+					1
+				],
+				"polar_color": [
+					0.84454,
+					0.814582,
+					0.938281,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.621164,
+					0.662109,
+					0.507962,
+					1
+				],
+				"polar": [
+					0.919353,
+					0.933789,
+					0.87944,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.575243,
+					0.934611,
+					0.852891,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.806641,
+					0.506021,
+					0.359207,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.862988,
+					0.661976,
+					0.563808,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 12768,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 2,
+				"description": "The world Veorer is very noted for its pink Veorerian Cenureit Cenureitweed plantations but scourged by deadly solar activity.",
+				"inhabitants": "Red Fat Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.690737,
+				0.7745,
+				0.823248,
+				1
+			],
+			"radius": 84476.217651,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 397350,
+				"vector": [
+					-0.403,
+					-0.691,
+					-0.6
+				]
+			},
+			"corona": {
+				"shimmer": 0.46558,
+				"hues": 0.501419,
+				"flare": 0.055219
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Veorer",
+				"radius": 8830
+			}
+		}
+	]
+}

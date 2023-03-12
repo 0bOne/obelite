@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system188",
+	"position": [
+		65,
+		108
+	],
+	"space": {
+		"blurs": 69,
+		"stars": 9250,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tibionis",
+			"name": "Tibionis",
+			"seed": "250 108 176 65 179 215",
+			"body": {
+				"radius": 4673,
+				"rotation_v": 0.00296,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 514030
+			},
+			"land": {
+				"color": [
+					0.564609,
+					0.586221,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.900252,
+					0.907898,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.613281,
+					0.567547,
+					0.470502,
+					1
+				],
+				"polar": [
+					0.938672,
+					0.921172,
+					0.884038,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.759904,
+					0.597233,
+					0.887783,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.666016,
+					0.411057,
+					0.488739,
+					1
+				],
+				"fraction": 0.42,
+				"polar_color": [
+					0.799707,
+					0.608371,
+					0.666669,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 18720,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 6,
+				"description": "Tibionis is most noted for the Tibionisian deadly goat and its vast rain forests.",
+				"inhabitants": "Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.694278,
+				0.640932,
+				0.630945,
+				1
+			],
+			"radius": 119260.755615,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 514030,
+				"vector": [
+					0.052,
+					0.244,
+					0.968
+				]
+			},
+			"corona": {
+				"shimmer": 0.407385,
+				"hues": 0.754234,
+				"flare": 0.08871
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tibionis",
+				"radius": 9346
+			}
+		}
+	]
+}

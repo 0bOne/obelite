@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system21",
+	"position": [
+		123,
+		149
+	],
+	"space": {
+		"blurs": 54,
+		"stars": 9076,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Sotiqu",
+			"name": "Sotiqu",
+			"seed": "0 149 0 123 205 199",
+			"body": {
+				"radius": 4731,
+				"rotation_v": 0.004133,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 567720
+			},
+			"land": {
+				"color": [
+					0.644531,
+					0.455704,
+					0.460129,
+					1
+				],
+				"polar_color": [
+					0.935547,
+					0.867025,
+					0.868631,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.509766,
+					0.128624,
+					0.0119476,
+					1
+				],
+				"polar": [
+					0.949023,
+					0.771632,
+					0.717328,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.533671,
+					0.468421,
+					0.939814,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.397281,
+					0.0770874,
+					0.822266,
+					1
+				],
+				"fraction": 0.08,
+				"polar_color": [
+					0.588978,
+					0.377235,
+					0.87002,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 1920,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 0,
+				"description": "The planet Sotiqu is famous for its exotic goat soup but ravaged by killer disease.",
+				"inhabitants": "Fierce Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.663593,
+				0.411385,
+				0.285864,
+				1
+			],
+			"radius": 134358.061066,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 425790,
+				"vector": [
+					0.676,
+					0.689,
+					-0.262
+				]
+			},
+			"corona": {
+				"shimmer": 0.547557,
+				"hues": 0.803818,
+				"flare": 0.0808
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Sotiqu",
+				"radius": 9462
+			}
+		}
+	]
+}

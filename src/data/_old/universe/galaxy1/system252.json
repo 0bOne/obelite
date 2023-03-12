@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system252",
+	"position": [
+		114,
+		175
+	],
+	"space": {
+		"blurs": 183,
+		"stars": 9111,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xelaed",
+			"name": "Xelaed",
+			"seed": "244 175 96 114 102 0",
+			"body": {
+				"radius": 2930,
+				"rotation_v": 0.00072,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 322300
+			},
+			"land": {
+				"color": [
+					0.601048,
+					0.601562,
+					0.585114,
+					1
+				],
+				"polar_color": [
+					0.939643,
+					0.939844,
+					0.933419,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.687363,
+					0.835938,
+					0.470215,
+					1
+				],
+				"polar": [
+					0.875687,
+					0.916406,
+					0.816174,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.614105,
+					0.887133,
+					0.795213,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.664062,
+					0.448761,
+					0.448761,
+					1
+				],
+				"fraction": 0.4,
+				"polar_color": [
+					0.798828,
+					0.636956,
+					0.636956,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 5376,
+				"techLevel": 4,
+				"economy": 7,
+				"government": 4,
+				"description": "The world Xelaed is a boring world.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.734902,
+				0.824944,
+				0.841113,
+				1
+			],
+			"radius": 85823.748779,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 175800,
+				"vector": [
+					0.892,
+					0.231,
+					-0.389
+				]
+			},
+			"corona": {
+				"shimmer": 0.536776,
+				"hues": 0.623276,
+				"flare": 0.06709
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xelaed",
+				"radius": 5860
+			}
+		}
+	]
+}

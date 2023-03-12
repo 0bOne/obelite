@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system169",
+	"position": [
+		196,
+		77
+	],
+	"space": {
+		"blurs": 95,
+		"stars": 9106,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xeraqu",
+			"name": "Xeraqu",
+			"seed": "128 77 16 196 122 130",
+			"body": {
+				"radius": 3524,
+				"rotation_v": 0.000011,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 422880
+			},
+			"land": {
+				"color": [
+					0.531899,
+					0.505313,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.88868,
+					0.879273,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.635572,
+					0.636719,
+					0.489975,
+					1
+				],
+				"polar": [
+					0.935907,
+					0.936328,
+					0.88238,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.661867,
+					0.766209,
+					0.978188,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.5896,
+					0.929346,
+					0.9375,
+					1
+				],
+				"fraction": 0.11,
+				"polar_color": [
+					0.708061,
+					0.916864,
+					0.921875,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 4800,
+				"techLevel": 3,
+				"economy": 5,
+				"government": 2,
+				"description": "The planet Xeraqu is mildly notable for Xeraquian lethal water.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.22468,
+				0.321037,
+				0.654181,
+				1
+			],
+			"radius": 65018.918457,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 317160,
+				"vector": [
+					0.053,
+					-0.803,
+					-0.594
+				]
+			},
+			"corona": {
+				"shimmer": 0.520664,
+				"hues": 0.831818,
+				"flare": 0.097958
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xeraqu",
+				"radius": 7048
+			}
+		}
+	]
+}

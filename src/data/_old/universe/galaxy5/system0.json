@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system0",
+	"position": [
+		64,
+		75
+	],
+	"space": {
+		"blurs": 195,
+		"stars": 8061,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Veleeder",
+			"name": "Veleeder",
+			"seed": "73 75 9 64 106 246",
+			"body": {
+				"radius": 4416,
+				"rotation_v": 0.002896,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 397440
+			},
+			"land": {
+				"color": [
+					0.631461,
+					0.632812,
+					0.630341,
+					1
+				],
+				"polar_color": [
+					0.936219,
+					0.936719,
+					0.935804,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.593568,
+					0.910156,
+					0.41597,
+					1
+				],
+				"polar": [
+					0.829939,
+					0.908984,
+					0.785597,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.430097,
+					0.621286,
+					0.907945,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0141907,
+					0.726562,
+					0.592993,
+					1
+				],
+				"fraction": 0.47,
+				"polar_color": [
+					0.320202,
+					0.826953,
+					0.731937,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 7000,
+				"techLevel": 5,
+				"economy": 3,
+				"government": 1,
+				"description": "The planet Veleeder is cursed by deadly civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.662045,
+				0.385545,
+				0.304267,
+				1
+			],
+			"radius": 130881.679688,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 397440,
+				"vector": [
+					0.177,
+					-0.495,
+					-0.851
+				]
+			},
+			"corona": {
+				"shimmer": 0.539844,
+				"hues": 0.502205,
+				"flare": 0.08744
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Veleeder",
+				"radius": 8832
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system16",
+	"position": [
+		178,
+		84
+	],
+	"space": {
+		"blurs": 51,
+		"stars": 5503,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Rizala",
+			"name": "Rizala",
+			"seed": "10 84 40 178 83 158",
+			"body": {
+				"radius": 6578,
+				"rotation_v": 0.001388,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 986700
+			},
+			"land": {
+				"color": [
+					0.487266,
+					0.66,
+					0.542595,
+					1
+				],
+				"polar_color": [
+					0.872889,
+					0.934,
+					0.892463,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.440214,
+					0.513672,
+					0.0862808,
+					1
+				],
+				"polar": [
+					0.914718,
+					0.948633,
+					0.75131,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.671108,
+					0.726842,
+					0.991846,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.615395,
+					0.799792,
+					0.978516,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.722237,
+					0.832989,
+					0.940332,
+					1
+				]
+			},
+			"demographics": {
+				"type": 42,
+				"productivity": 18144,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 5,
+				"description": "The planet Rizala is mildly notable for Rizalaian lethal brandy.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.848245,
+				0.777289,
+				0.490596,
+				1
+			],
+			"radius": 151601.340027,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 197340,
+				"vector": [
+					0.227,
+					0.974,
+					0.029
+				]
+			},
+			"corona": {
+				"shimmer": 0.240501,
+				"hues": 0.599327,
+				"flare": 0.037984
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Rizala",
+				"radius": 13156
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system247",
+	"position": [
+		97,
+		14
+	],
+	"space": {
+		"blurs": 138,
+		"stars": 8447,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Bezaorat",
+			"name": "Bezaorat",
+			"seed": "112 14 248 97 186 179",
+			"body": {
+				"radius": 3681,
+				"rotation_v": 0.001581,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 368100
+			},
+			"land": {
+				"color": [
+					0.351861,
+					0.323723,
+					0.548828,
+					1
+				],
+				"polar_color": [
+					0.86032,
+					0.848206,
+					0.945117,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.604858,
+					0.78125,
+					0.756445,
+					1
+				],
+				"polar": [
+					0.869839,
+					0.921875,
+					0.914558,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.538683,
+					0.591886,
+					0.844857,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.274849,
+					0.408028,
+					0.537109,
+					1
+				],
+				"fraction": 0.34,
+				"polar_color": [
+					0.515351,
+					0.630293,
+					0.741699,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 13376,
+				"techLevel": 6,
+				"economy": 6,
+				"government": 7,
+				"description": "Bezaorat is ravaged by unpredictable civil war.",
+				"inhabitants": "Harmless Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.6961,
+				0.584325,
+				0.495176,
+				1
+			],
+			"radius": 99958.112183,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 331290,
+				"vector": [
+					0.42,
+					0.487,
+					0.766
+				]
+			},
+			"corona": {
+				"shimmer": 0.589533,
+				"hues": 0.781143,
+				"flare": 0.045465
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Bezaorat",
+				"radius": 7362
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system14",
+	"position": [
+		12,
+		24
+	],
+	"space": {
+		"blurs": 150,
+		"stars": 7637,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Erlabeor",
+			"name": "Erlabeor",
+			"seed": "193 24 176 12 141 144",
+			"body": {
+				"radius": 2828,
+				"rotation_v": 0.003465,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 367640
+			},
+			"land": {
+				"color": [
+					0.357747,
+					0.264221,
+					0.650391,
+					1
+				],
+				"polar_color": [
+					0.829789,
+					0.796178,
+					0.934961,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.650391,
+					0.482315,
+					0.464928,
+					1
+				],
+				"polar": [
+					0.934961,
+					0.874557,
+					0.868308,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.690591,
+					0.856183,
+					0.871523,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.613345,
+					0.617188,
+					0.602722,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.774708,
+					0.777734,
+					0.766342,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 37600,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 6,
+				"description": "This planet is mildly noted for the Erlabeorian deadly Stoid but ravaged by lethal vicious ants.",
+				"inhabitants": "Black Fat Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.320423,
+				0.554916,
+				0.746136,
+				1
+			],
+			"radius": 78145.421143,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 197960,
+				"vector": [
+					0.393,
+					-0.867,
+					-0.306
+				]
+			},
+			"corona": {
+				"shimmer": 0.283703,
+				"hues": 0.665054,
+				"flare": 0.001617
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Erlabeor",
+				"radius": 5656
+			}
+		}
+	]
+}

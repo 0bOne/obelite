@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system13",
+	"position": [
+		127,
+		108
+	],
+	"space": {
+		"blurs": 137,
+		"stars": 8899,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Mavelege",
+			"name": "Mavelege",
+			"seed": "106 108 50 127 74 107",
+			"body": {
+				"radius": 5759,
+				"rotation_v": 0.000693,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 806260
+			},
+			"land": {
+				"color": [
+					0.314026,
+					0.317664,
+					0.546875,
+					1
+				],
+				"polar_color": [
+					0.844688,
+					0.846261,
+					0.945312,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.627977,
+					0.683594,
+					0.518036,
+					1
+				],
+				"polar": [
+					0.912691,
+					0.931641,
+					0.875233,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.555746,
+					0.540948,
+					0.871523,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.33387,
+					0.284485,
+					0.617188,
+					1
+				],
+				"fraction": 0.08,
+				"polar_color": [
+					0.5546,
+					0.515705,
+					0.777734,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 22560,
+				"techLevel": 9,
+				"economy": 4,
+				"government": 6,
+				"description": "This world is plagued by frequent earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.762027,
+				0.827868,
+				0.83819,
+				1
+			],
+			"radius": 141664.756622,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 403130,
+				"vector": [
+					-0.157,
+					0.932,
+					-0.327
+				]
+			},
+			"corona": {
+				"shimmer": 0.343023,
+				"hues": 0.780243,
+				"flare": 0.009102
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Mavelege",
+				"radius": 11518
+			}
+		}
+	]
+}

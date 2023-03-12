@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system11",
+	"position": [
+		226,
+		84
+	],
+	"space": {
+		"blurs": 140,
+		"stars": 8906,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anenat",
+			"name": "Anenat",
+			"seed": "48 84 200 226 218 219",
+			"body": {
+				"radius": 5858,
+				"rotation_v": 0.003494,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 761540
+			},
+			"land": {
+				"color": [
+					0.446725,
+					0.580078,
+					0.0294571,
+					1
+				],
+				"polar_color": [
+					0.887854,
+					0.941992,
+					0.718453,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.693359,
+					0.632631,
+					0.503769,
+					1
+				],
+				"polar": [
+					0.930664,
+					0.910286,
+					0.867044,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.499265,
+					0.562449,
+					0.879979,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.193275,
+					0.410906,
+					0.642578,
+					1
+				],
+				"fraction": 0.26,
+				"polar_color": [
+					0.444288,
+					0.611335,
+					0.78916,
+					1
+				]
+			},
+			"demographics": {
+				"type": 24,
+				"productivity": 3840,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 1,
+				"description": "This planet is mildly fabled for the Anenatian mountain poet but scourged by frequent civil war.",
+				"inhabitants": "Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.68053,
+				0.647307,
+				0.362302,
+				1
+			],
+			"radius": 134272.947083,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 234320,
+				"vector": [
+					-0.626,
+					0.775,
+					-0.088
+				]
+			},
+			"corona": {
+				"shimmer": 0.809186,
+				"hues": 0.516922,
+				"flare": 0.077666
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anenat",
+				"radius": 11716
+			}
+		}
+	]
+}

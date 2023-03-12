@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system93",
+	"position": [
+		105,
+		132
+	],
+	"space": {
+		"blurs": 125,
+		"stars": 7842,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xeeranre",
+			"name": "Xeeranre",
+			"seed": "192 132 16 105 109 194",
+			"body": {
+				"radius": 3433,
+				"rotation_v": 0.003503,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 411960
+			},
+			"land": {
+				"color": [
+					0.142273,
+					0.578125,
+					0.322743,
+					1
+				],
+				"polar_color": [
+					0.764607,
+					0.942187,
+					0.838137,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.552734,
+					0.476011,
+					0.434415,
+					1
+				],
+				"polar": [
+					0.944727,
+					0.911943,
+					0.894169,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.498268,
+					0.617743,
+					0.860467,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.196182,
+					0.574895,
+					0.583984,
+					1
+				],
+				"fraction": 0.13,
+				"polar_color": [
+					0.446204,
+					0.755373,
+					0.762793,
+					1
+				]
+			},
+			"demographics": {
+				"type": 27,
+				"productivity": 7776,
+				"techLevel": 5,
+				"economy": 4,
+				"government": 2,
+				"description": "Xeeranre is cursed by killer mountain Reetaboids.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.24505,
+				0.551958,
+				0.730453,
+				1
+			],
+			"radius": 78706.092834,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 411960,
+				"vector": [
+					0.458,
+					0.855,
+					0.241
+				]
+			},
+			"corona": {
+				"shimmer": 0.318414,
+				"hues": 0.900513,
+				"flare": 0.030005
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xeeranre",
+				"radius": 6866
+			}
+		}
+	]
+}

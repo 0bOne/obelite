@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system253",
+	"position": [
+		184,
+		149
+	],
+	"space": {
+		"blurs": 82,
+		"stars": 9678,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Errius",
+			"name": "Errius",
+			"seed": "128 149 160 184 218 112",
+			"body": {
+				"radius": 3000,
+				"rotation_v": 0.001876,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 300000
+			},
+			"land": {
+				"color": [
+					0.5,
+					0.460938,
+					0.479248,
+					1
+				],
+				"polar_color": [
+					0.95,
+					0.931445,
+					0.940143,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.582031,
+					0.512581,
+					0.451302,
+					1
+				],
+				"polar": [
+					0.941797,
+					0.913702,
+					0.888913,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.754789,
+					0.642697,
+					0.842906,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.53125,
+					0.471069,
+					0.489406,
+					1
+				],
+				"fraction": 0.13,
+				"polar_color": [
+					0.739062,
+					0.686736,
+					0.702679,
+					1
+				]
+			},
+			"demographics": {
+				"type": 26,
+				"productivity": 8320,
+				"techLevel": 4,
+				"economy": 5,
+				"government": 4,
+				"description": "Errius is an unremarkable dump.",
+				"inhabitants": "Blue Furry Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.752319,
+				0.627398,
+				0.598974,
+				1
+			],
+			"radius": 84089.355469,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 180000,
+				"vector": [
+					0.028,
+					0.871,
+					0.491
+				]
+			},
+			"corona": {
+				"shimmer": 0.298366,
+				"hues": 0.847626,
+				"flare": 0.063846
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Errius",
+				"radius": 6000
+			}
+		}
+	]
+}

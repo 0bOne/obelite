@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system48",
+	"position": [
+		61,
+		158
+	],
+	"space": {
+		"blurs": 160,
+		"stars": 9916,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Leistean",
+			"name": "Leistean",
+			"seed": "105 158 225 61 77 33",
+			"body": {
+				"radius": 3133,
+				"rotation_v": 0.002836,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 407290
+			},
+			"land": {
+				"color": [
+					0.507812,
+					0.493927,
+					0.495229,
+					1
+				],
+				"polar_color": [
+					0.949219,
+					0.94273,
+					0.943338,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.550781,
+					0.461839,
+					0.430943,
+					1
+				],
+				"polar": [
+					0.944922,
+					0.906774,
+					0.893523,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.71658,
+					0.717121,
+					0.978188,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.748558,
+					0.74707,
+					0.9375,
+					1
+				],
+				"fraction": 0.15,
+				"polar_color": [
+					0.805754,
+					0.80484,
+					0.921875,
+					1
+				]
+			},
+			"demographics": {
+				"type": 27,
+				"productivity": 6912,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 4,
+				"description": "The planet Leistean is well known for its inhabitants’ ancient loathing of sit coms but ravaged by vicious wolfs.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.682196,
+				0.472051,
+				0.412663,
+				1
+			],
+			"radius": 61608.272705,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 93990,
+				"vector": [
+					-0.516,
+					0.054,
+					0.855
+				]
+			},
+			"corona": {
+				"shimmer": 0.316611,
+				"hues": 0.801163,
+				"flare": 0.051167
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Leistean",
+				"radius": 6266
+			}
+		}
+	]
+}

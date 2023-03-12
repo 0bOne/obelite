@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system244",
+	"position": [
+		110,
+		65
+	],
+	"space": {
+		"blurs": 107,
+		"stars": 6757,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Sotidi",
+			"name": "Sotidi",
+			"seed": "36 65 172 110 101 167",
+			"body": {
+				"radius": 4718,
+				"rotation_v": 0.003647,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 566160
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.260391,
+					0.606927,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.792623,
+					0.915223,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.564453,
+					0.503095,
+					0.443625,
+					1
+				],
+				"polar": [
+					0.943555,
+					0.917913,
+					0.89306,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.45314,
+					0.587216,
+					0.902092,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0747757,
+					0.634663,
+					0.708984,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.361131,
+					0.765381,
+					0.819043,
+					1
+				]
+			},
+			"demographics": {
+				"type": 51,
+				"productivity": 33048,
+				"techLevel": 11,
+				"economy": 1,
+				"government": 5,
+				"description": "Sotidi is cursed by dreadful civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.381998,
+				0.704212,
+				0.720499,
+				1
+			],
+			"radius": 133322.95105,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 424620,
+				"vector": [
+					0.131,
+					-0.91,
+					0.393
+				]
+			},
+			"corona": {
+				"shimmer": 0.337613,
+				"hues": 0.607834,
+				"flare": 0.038828
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Sotidi",
+				"radius": 9436
+			}
+		}
+	]
+}

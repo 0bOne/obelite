@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system61",
+	"position": [
+		204,
+		111
+	],
+	"space": {
+		"blurs": 132,
+		"stars": 5912,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orlatein",
+			"name": "Orlatein",
+			"seed": "87 111 178 204 243 25",
+			"body": {
+				"radius": 5324,
+				"rotation_v": 0.000472,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 745360
+			},
+			"land": {
+				"color": [
+					0.299072,
+					0.337791,
+					0.546875,
+					1
+				],
+				"polar_color": [
+					0.838226,
+					0.854959,
+					0.945312,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.614145,
+					0.638672,
+					0.495969,
+					1
+				],
+				"polar": [
+					0.927145,
+					0.936133,
+					0.883841,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.642803,
+					0.834953,
+					0.957375,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.536621,
+					0.875,
+					0.597424,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.677731,
+					0.89375,
+					0.716547,
+					1
+				]
+			},
+			"demographics": {
+				"type": 26,
+				"productivity": 6240,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 6,
+				"description": "This world is reasonably notable for its exotic cuisine but plagued by lethal disease.",
+				"inhabitants": "Green Bony Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.737479,
+				0.485939,
+				0.415029,
+				1
+			],
+			"radius": 121593.479004,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 159720,
+				"vector": [
+					-0.354,
+					0.807,
+					-0.473
+				]
+			},
+			"corona": {
+				"shimmer": 0.481606,
+				"hues": 0.546906,
+				"flare": 0.0145
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Orlatein",
+				"radius": 10648
+			}
+		}
+	]
+}

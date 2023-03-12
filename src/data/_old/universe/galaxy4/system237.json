@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system237",
+	"position": [
+		229,
+		174
+	],
+	"space": {
+		"blurs": 174,
+		"stars": 5274,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceorge",
+			"name": "Ceorge",
+			"seed": "166 174 112 229 27 229",
+			"body": {
+				"radius": 4325,
+				"rotation_v": 0.002678,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 605500
+			},
+			"land": {
+				"color": [
+					0.406666,
+					0.293251,
+					0.630859,
+					1
+				],
+				"polar_color": [
+					0.853675,
+					0.811565,
+					0.936914,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.585938,
+					0.482655,
+					0.446777,
+					1
+				],
+				"polar": [
+					0.941406,
+					0.899921,
+					0.88551,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.781264,
+					0.496945,
+					0.971684,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.917969,
+					0.121918,
+					0.271177,
+					1
+				],
+				"fraction": 0.4,
+				"polar_color": [
+					0.913086,
+					0.4182,
+					0.510992,
+					1
+				]
+			},
+			"demographics": {
+				"type": 33,
+				"productivity": 10560,
+				"techLevel": 5,
+				"economy": 6,
+				"government": 6,
+				"description": "This planet is most fabled for Ceorgeian Sous brandy but cursed by deadly civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.330725,
+				0.47755,
+				0.667798,
+				1
+			],
+			"radius": 94739.383698,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 216250,
+				"vector": [
+					0.362,
+					0.684,
+					-0.634
+				]
+			},
+			"corona": {
+				"shimmer": 0.388878,
+				"hues": 0.873146,
+				"flare": 0.031168
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceorge",
+				"radius": 8650
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system136",
+	"position": [
+		235,
+		78
+	],
+	"space": {
+		"blurs": 144,
+		"stars": 8280,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Teveri",
+			"name": "Teveri",
+			"seed": "170 78 184 235 83 124",
+			"body": {
+				"radius": 6123,
+				"rotation_v": 0.002006,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 673530
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.159844,
+					0.476349,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.757051,
+					0.869026,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.613281,
+					0.513707,
+					0.459721,
+					1
+				],
+				"polar": [
+					0.938672,
+					0.900571,
+					0.879913,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.619653,
+					0.910547,
+					0.873912,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.734375,
+					0.637468,
+					0.470459,
+					1
+				],
+				"fraction": 0.1,
+				"polar_color": [
+					0.830469,
+					0.761977,
+					0.643938,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 16192,
+				"techLevel": 8,
+				"economy": 6,
+				"government": 7,
+				"description": "The world Teveri is reasonably fabled for Teveriian evil juice and its inhabitants’ ingrained shyness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.457119,
+				0.47144,
+				0.670102,
+				1
+			],
+			"radius": 136685.585632,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 489840,
+				"vector": [
+					0.169,
+					-0.97,
+					-0.176
+				]
+			},
+			"corona": {
+				"shimmer": 0.416556,
+				"hues": 0.886627,
+				"flare": 0.07016
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Teveri",
+				"radius": 12246
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system86",
+	"position": [
+		42,
+		56
+	],
+	"space": {
+		"blurs": 97,
+		"stars": 8061,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xezaerti",
+			"name": "Xezaerti",
+			"seed": "82 56 42 42 20 194",
+			"body": {
+				"radius": 3370,
+				"rotation_v": 0.004079,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 438100
+			},
+			"land": {
+				"color": [
+					0.33995,
+					0.0747656,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.82077,
+					0.726951,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.641734,
+					0.646484,
+					0.49446,
+					1
+				],
+				"polar": [
+					0.933633,
+					0.935352,
+					0.880363,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.50501,
+					0.561095,
+					0.878027,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.206436,
+					0.394685,
+					0.636719,
+					1
+				],
+				"fraction": 0.35,
+				"polar_color": [
+					0.454325,
+					0.599662,
+					0.786523,
+					1
+				]
+			},
+			"demographics": {
+				"type": 54,
+				"productivity": 38880,
+				"techLevel": 12,
+				"economy": 0,
+				"government": 5,
+				"description": "This world is very fabled for its weird volcanoes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.677206,
+				0.65029,
+				0.539179,
+				1
+			],
+			"radius": 62566.320801,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 235900,
+				"vector": [
+					-0.117,
+					-0.87,
+					0.479
+				]
+			},
+			"corona": {
+				"shimmer": 0.30531,
+				"hues": 0.87532,
+				"flare": 0.038734
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Xezaerti",
+				"radius": 6740
+			}
+		}
+	]
+}

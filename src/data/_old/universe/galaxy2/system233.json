@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system233",
+	"position": [
+		37,
+		168
+	],
+	"space": {
+		"blurs": 106,
+		"stars": 5879,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Diqudi",
+			"name": "Diqudi",
+			"seed": "165 168 9 37 69 173",
+			"body": {
+				"radius": 6181,
+				"rotation_v": 0.003522,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 803530
+			},
+			"land": {
+				"color": [
+					0.386316,
+					0.66,
+					0.216563,
+					1
+				],
+				"polar_color": [
+					0.837174,
+					0.934,
+					0.777117,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.621094,
+					0.569887,
+					0.472128,
+					1
+				],
+				"polar": [
+					0.937891,
+					0.918559,
+					0.881654,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.415456,
+					0.846809,
+					0.83625,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.542969,
+					0.511419,
+					0.0381775,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.744336,
+					0.717305,
+					0.311836,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 10240,
+				"techLevel": 7,
+				"economy": 2,
+				"government": 1,
+				"description": "This world is a tedious little planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.823361,
+				0.829728,
+				0.829886,
+				1
+			],
+			"radius": 183687.06665,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 556290,
+				"vector": [
+					-0.522,
+					-0.683,
+					-0.511
+				]
+			},
+			"corona": {
+				"shimmer": 0.305293,
+				"hues": 0.768387,
+				"flare": 0.074863
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Diqudi",
+				"radius": 12362
+			}
+		}
+	]
+}

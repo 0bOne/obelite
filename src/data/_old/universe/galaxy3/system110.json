@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system110",
+	"position": [
+		246,
+		30
+	],
+	"space": {
+		"blurs": 154,
+		"stars": 9143,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Onramaon",
+			"name": "Onramaon",
+			"seed": "98 30 146 246 218 95",
+			"body": {
+				"radius": 6902,
+				"rotation_v": 0.001331,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 828240
+			},
+			"land": {
+				"color": [
+					0.330025,
+					0.309662,
+					0.570312,
+					1
+				],
+				"polar_color": [
+					0.843644,
+					0.835227,
+					0.942969,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.771484,
+					0.629233,
+					0.427933,
+					1
+				],
+				"polar": [
+					0.922852,
+					0.880311,
+					0.820112,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.58803,
+					0.916516,
+					0.969732,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.683999,
+					0.912109,
+					0.381233,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.768139,
+					0.910449,
+					0.579256,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 4800,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 2,
+				"description": "The planet Onramaon is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained silliness.",
+				"inhabitants": "Yellow Slimy Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.398052,
+				0.66133,
+				0.66181,
+				1
+			],
+			"radius": 208360.654602,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 552160,
+				"vector": [
+					0.895,
+					-0.297,
+					0.333
+				]
+			},
+			"corona": {
+				"shimmer": 0.369204,
+				"hues": 0.503181,
+				"flare": 0.075616
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Onramaon",
+				"radius": 13804
+			}
+		}
+	]
+}

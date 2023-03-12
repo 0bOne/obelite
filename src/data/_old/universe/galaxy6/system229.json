@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system229",
+	"position": [
+		3,
+		137
+	],
+	"space": {
+		"blurs": 83,
+		"stars": 6204,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Articeso",
+			"name": "Articeso",
+			"seed": "222 137 186 3 64 170",
+			"body": {
+				"radius": 5379,
+				"rotation_v": 0.004843,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 645480
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.400536,
+					0.366094,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.842205,
+					0.83002,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.642578,
+					0.401611,
+					0.531507,
+					1
+				],
+				"polar": [
+					0.935742,
+					0.848016,
+					0.895306,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.645726,
+					0.872174,
+					0.822447,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.619141,
+					0.547001,
+					0.507889,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.778613,
+					0.721913,
+					0.691171,
+					1
+				]
+			},
+			"demographics": {
+				"type": 61,
+				"productivity": 48312,
+				"techLevel": 13,
+				"economy": 1,
+				"government": 7,
+				"description": "This planet is mildly fabled for its inhabitants’ eccentric love for poetry but plagued by frequent earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.718582,
+				0.706257,
+				0.507682,
+				1
+			],
+			"radius": 139101.681976,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 484110,
+				"vector": [
+					-0.248,
+					-0.935,
+					-0.254
+				]
+			},
+			"corona": {
+				"shimmer": 0.294578,
+				"hues": 0.778885,
+				"flare": 0.06411
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Articeso",
+				"radius": 10758
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system28",
+	"position": [
+		212,
+		240
+	],
+	"space": {
+		"blurs": 63,
+		"stars": 8680,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Veanso",
+			"name": "Veanso",
+			"seed": "50 240 162 212 244 150",
+			"body": {
+				"radius": 4564,
+				"rotation_v": 0.000023,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 593320
+			},
+			"land": {
+				"color": [
+					0.0360938,
+					0.279807,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.71327,
+					0.799492,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.585938,
+					0.560879,
+					0.46257,
+					1
+				],
+				"polar": [
+					0.941406,
+					0.931341,
+					0.891854,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.5135,
+					0.597529,
+					0.857865,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.227318,
+					0.478057,
+					0.576172,
+					1
+				],
+				"fraction": 0.27,
+				"polar_color": [
+					0.471953,
+					0.678467,
+					0.759277,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 26240,
+				"techLevel": 9,
+				"economy": 0,
+				"government": 4,
+				"description": "The world Veanso is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained silliness.",
+				"inhabitants": "Black Fat Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.66473,
+				0.668451,
+				0.742572,
+				1
+			],
+			"radius": 116940.661011,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 365120,
+				"vector": [
+					0.946,
+					0.17,
+					-0.275
+				]
+			},
+			"corona": {
+				"shimmer": 0.421285,
+				"hues": 0.733482,
+				"flare": 0.072847
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Veanso",
+				"radius": 9128
+			}
+		}
+	]
+}

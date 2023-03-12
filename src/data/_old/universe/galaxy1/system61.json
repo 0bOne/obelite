@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system61",
+	"position": [
+		69,
+		73
+	],
+	"space": {
+		"blurs": 89,
+		"stars": 7206,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arorar",
+			"name": "Arorar",
+			"seed": "128 73 160 69 218 138",
+			"body": {
+				"radius": 5445,
+				"rotation_v": 0.00187,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 707850
+			},
+			"land": {
+				"color": [
+					0.494361,
+					0.318375,
+					0.626953,
+					1
+				],
+				"polar_color": [
+					0.887748,
+					0.821972,
+					0.937305,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.599567,
+					0.603516,
+					0.477155,
+					1
+				],
+				"polar": [
+					0.938111,
+					0.939648,
+					0.890464,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.560213,
+					0.94827,
+					0.869111,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.847656,
+					0.526965,
+					0.31456,
+					1
+				],
+				"fraction": 0.5,
+				"polar_color": [
+					0.881445,
+					0.673024,
+					0.534979,
+					1
+				]
+			},
+			"demographics": {
+				"type": 42,
+				"productivity": 24192,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 4,
+				"description": "This world is noted for its exciting sit coms.",
+				"inhabitants": "Small Black Fat Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.676218,
+				0.578106,
+				0.234911,
+				1
+			],
+			"radius": 155502.706146,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 544500,
+				"vector": [
+					0.695,
+					0.456,
+					0.556
+				]
+			},
+			"corona": {
+				"shimmer": 0.547036,
+				"hues": 0.892128,
+				"flare": 0.078989
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Arorar",
+				"radius": 10890
+			}
+		}
+	]
+}

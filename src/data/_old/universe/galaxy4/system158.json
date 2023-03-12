@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system158",
+	"position": [
+		95,
+		214
+	],
+	"space": {
+		"blurs": 132,
+		"stars": 8442,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anatma",
+			"name": "Anatma",
+			"seed": "188 214 104 95 53 27",
+			"body": {
+				"radius": 5727,
+				"rotation_v": 0.0003,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 629970
+			},
+			"land": {
+				"color": [
+					0.556641,
+					0.552835,
+					0.547943,
+					1
+				],
+				"polar_color": [
+					0.944336,
+					0.942722,
+					0.940647,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.691406,
+					0.656296,
+					0.518555,
+					1
+				],
+				"polar": [
+					0.930859,
+					0.919042,
+					0.872681,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.656146,
+					0.791403,
+					0.969732,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.573631,
+					0.912109,
+					0.816912,
+					1
+				],
+				"fraction": 0.1,
+				"polar_color": [
+					0.699285,
+					0.910449,
+					0.851059,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 11520,
+				"techLevel": 7,
+				"economy": 6,
+				"government": 5,
+				"description": "The world Anatma is a boring planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.623795,
+				0.647983,
+				0.725677,
+				1
+			],
+			"radius": 161987.69165,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 515430,
+				"vector": [
+					-0.418,
+					0.849,
+					-0.322
+				]
+			},
+			"corona": {
+				"shimmer": 0.38537,
+				"hues": 0.89653,
+				"flare": 0.061737
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anatma",
+				"radius": 11454
+			}
+		}
+	]
+}

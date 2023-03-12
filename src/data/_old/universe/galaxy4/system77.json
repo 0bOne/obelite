@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system77",
+	"position": [
+		210,
+		156
+	],
+	"space": {
+		"blurs": 108,
+		"stars": 9617,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Biradi",
+			"name": "Biradi",
+			"seed": "38 156 176 210 27 102",
+			"body": {
+				"radius": 4562,
+				"rotation_v": 0.000117,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 593060
+			},
+			"land": {
+				"color": [
+					0.556875,
+					0.66,
+					0.560903,
+					1
+				],
+				"polar_color": [
+					0.897516,
+					0.934,
+					0.898941,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.614446,
+					0.654297,
+					0.504269,
+					1
+				],
+				"polar": [
+					0.92034,
+					0.93457,
+					0.880997,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.444417,
+					0.750369,
+					0.855914,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.194374,
+					0.570312,
+					0.0891113,
+					1
+				],
+				"fraction": 0.34,
+				"polar_color": [
+					0.444914,
+					0.756641,
+					0.357631,
+					1
+				]
+			},
+			"demographics": {
+				"type": 43,
+				"productivity": 20640,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 6,
+				"description": "The planet Biradi is mildly notable for its inhabitants’ unusual silliness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.295616,
+				0.574613,
+				0.72821,
+				1
+			],
+			"radius": 138933.699646,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 273720,
+				"vector": [
+					-0.193,
+					-0.886,
+					-0.421
+				]
+			},
+			"corona": {
+				"shimmer": 0.706405,
+				"hues": 0.811981,
+				"flare": 0.052516
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Biradi",
+				"radius": 9124
+			}
+		}
+	]
+}

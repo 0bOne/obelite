@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system172",
+	"position": [
+		114,
+		53
+	],
+	"space": {
+		"blurs": 52,
+		"stars": 7414,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Soaes",
+			"name": "Soaes",
+			"seed": "242 53 162 114 26 71",
+			"body": {
+				"radius": 4722,
+				"rotation_v": 0.004424,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 424980
+			},
+			"land": {
+				"color": [
+					0.160034,
+					0.59375,
+					0.471767,
+					1
+				],
+				"polar_color": [
+					0.768851,
+					0.940625,
+					0.892313,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.679688,
+					0.668653,
+					0.503128,
+					1
+				],
+				"polar": [
+					0.932031,
+					0.928248,
+					0.871504,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.492184,
+					0.666962,
+					0.846158,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.185974,
+					0.541016,
+					0.37459,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.438523,
+					0.743457,
+					0.600519,
+					1
+				]
+			},
+			"demographics": {
+				"type": 34,
+				"productivity": 10880,
+				"techLevel": 6,
+				"economy": 5,
+				"government": 4,
+				"description": "This planet is fabled for its fabulous Lole juice.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.69256,
+				0.74413,
+				0.771649,
+				1
+			],
+			"radius": 120782.932434,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 377760,
+				"vector": [
+					-0.919,
+					-0.391,
+					0.061
+				]
+			},
+			"corona": {
+				"shimmer": 0.393019,
+				"hues": 0.889458,
+				"flare": 0.031439
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Soaes",
+				"radius": 9444
+			}
+		}
+	]
+}

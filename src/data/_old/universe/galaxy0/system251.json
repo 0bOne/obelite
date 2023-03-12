@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system251",
+	"position": [
+		146,
+		237
+	],
+	"space": {
+		"blurs": 146,
+		"stars": 5372,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xexeti",
+			"name": "Xexeti",
+			"seed": "24 237 196 146 173 34",
+			"body": {
+				"radius": 3474,
+				"rotation_v": 0.002967,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 347400
+			},
+			"land": {
+				"color": [
+					0.37125,
+					0.66,
+					0.578789,
+					1
+				],
+				"polar_color": [
+					0.831844,
+					0.934,
+					0.905269,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.632812,
+					0.534372,
+					0.469171,
+					1
+				],
+				"polar": [
+					0.936719,
+					0.90029,
+					0.876161,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.615643,
+					0.906233,
+					0.944367,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.702159,
+					0.835938,
+					0.463684,
+					1
+				],
+				"fraction": 0.51,
+				"polar_color": [
+					0.788536,
+					0.876172,
+					0.632315,
+					1
+				]
+			},
+			"demographics": {
+				"type": 16,
+				"productivity": 1536,
+				"techLevel": 2,
+				"economy": 7,
+				"government": 0,
+				"description": "This planet is notable for the Xexetiian edible arts graduate and its great volcanoes.",
+				"inhabitants": "Large Red Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.230651,
+				0.730407,
+				0.811105,
+				1
+			],
+			"radius": 88820.875854,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 312660,
+				"vector": [
+					0.725,
+					0.622,
+					0.296
+				]
+			},
+			"corona": {
+				"shimmer": 0.335041,
+				"hues": 0.91993,
+				"flare": 0.046455
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xexeti",
+				"radius": 6948
+			}
+		}
+	]
+}

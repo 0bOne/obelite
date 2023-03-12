@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system18",
+	"position": [
+		196,
+		74
+	],
+	"space": {
+		"blurs": 79,
+		"stars": 7741,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Intedi",
+			"name": "Intedi",
+			"seed": "156 74 176 196 197 108",
+			"body": {
+				"radius": 6084,
+				"rotation_v": 0.00004,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 669240
+			},
+			"land": {
+				"color": [
+					0.316025,
+					0.542969,
+					0.0890808,
+					1
+				],
+				"polar_color": [
+					0.846885,
+					0.945703,
+					0.748066,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.970703,
+					0.772012,
+					0.860492,
+					1
+				],
+				"polar": [
+					0.90293,
+					0.856725,
+					0.877301,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.563107,
+					0.572333,
+					0.840305,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.31897,
+					0.336541,
+					0.523438,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.55597,
+					0.571402,
+					0.735547,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 26240,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 6,
+				"description": "Intedi is an unremarkable planet.",
+				"inhabitants": "Blue Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.67305,
+				0.660749,
+				0.455402,
+				1
+			],
+			"radius": 132235.279541,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 425880,
+				"vector": [
+					-0.791,
+					-0.427,
+					-0.438
+				]
+			},
+			"corona": {
+				"shimmer": 0.431954,
+				"hues": 0.715874,
+				"flare": 0.037889
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Intedi",
+				"radius": 12168
+			}
+		}
+	]
+}

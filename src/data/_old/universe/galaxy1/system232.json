@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system232",
+	"position": [
+		85,
+		226
+	],
+	"space": {
+		"blurs": 96,
+		"stars": 9875,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Islaesis",
+			"name": "Islaesis",
+			"seed": "84 226 240 85 166 189",
+			"body": {
+				"radius": 6229,
+				"rotation_v": 0.003927,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 934350
+			},
+			"land": {
+				"color": [
+					0.543691,
+					0.334106,
+					0.628906,
+					1
+				],
+				"polar_color": [
+					0.905365,
+					0.827292,
+					0.937109,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.533203,
+					0.429765,
+					0.419064,
+					1
+				],
+				"polar": [
+					0.94668,
+					0.900767,
+					0.896018,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.710855,
+					0.609844,
+					0.855264,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.568359,
+					0.419609,
+					0.531172,
+					1
+				],
+				"fraction": 0.46,
+				"polar_color": [
+					0.755762,
+					0.632139,
+					0.724856,
+					1
+				]
+			},
+			"demographics": {
+				"type": 45,
+				"productivity": 28800,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 6,
+				"description": "Islaesis is ravaged by occasional solar activity.",
+				"inhabitants": "Harmless Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.586406,
+				0.608102,
+				0.783701,
+				1
+			],
+			"radius": 108824.059296,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 436030,
+				"vector": [
+					0.387,
+					0.728,
+					-0.566
+				]
+			},
+			"corona": {
+				"shimmer": 0.564236,
+				"hues": 0.640038,
+				"flare": 0.038171
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Islaesis",
+				"radius": 12458
+			}
+		}
+	]
+}

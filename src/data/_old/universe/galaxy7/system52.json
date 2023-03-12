@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system52",
+	"position": [
+		234,
+		132
+	],
+	"space": {
+		"blurs": 167,
+		"stars": 8271,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Geen",
+			"name": "Geen",
+			"seed": "173 132 172 234 1 67",
+			"body": {
+				"radius": 3818,
+				"rotation_v": 0.001902,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 381800
+			},
+			"land": {
+				"color": [
+					0.490286,
+					0.570312,
+					0.031189,
+					1
+				],
+				"polar_color": [
+					0.909889,
+					0.942969,
+					0.720119,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.658203,
+					0.585971,
+					0.509079,
+					1
+				],
+				"polar": [
+					0.93418,
+					0.90855,
+					0.881267,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.730919,
+					0.794998,
+					0.9164,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.746078,
+					0.751953,
+					0.751815,
+					1
+				],
+				"fraction": 0.42,
+				"polar_color": [
+					0.834285,
+					0.838379,
+					0.838283,
+					1
+				]
+			},
+			"demographics": {
+				"type": 42,
+				"productivity": 18144,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 5,
+				"description": "Geen is mildly notable for Geenian lethal brandy.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.664401,
+				0.357922,
+				0.210185,
+				1
+			],
+			"radius": 60009.876404,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 458160,
+				"vector": [
+					-0.542,
+					0.59,
+					0.599
+				]
+			},
+			"corona": {
+				"shimmer": 0.30743,
+				"hues": 0.885292,
+				"flare": 0.071344
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Geen",
+				"radius": 7636
+			}
+		}
+	]
+}

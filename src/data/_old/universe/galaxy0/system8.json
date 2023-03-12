@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system8",
+	"position": [
+		236,
+		0
+	],
+	"space": {
+		"blurs": 175,
+		"stars": 9244,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zaatxe",
+			"name": "Zaatxe",
+			"seed": "170 0 184 236 83 196",
+			"body": {
+				"radius": 4076,
+				"rotation_v": 0.002039,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 570640
+			},
+			"land": {
+				"color": [
+					0.656697,
+					0.654844,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.932831,
+					0.932176,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.515553,
+					0.587891,
+					0.00918579,
+					1
+				],
+				"polar": [
+					0.912258,
+					0.941211,
+					0.709585,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.719797,
+					0.772381,
+					0.942416,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.739288,
+					0.802416,
+					0.830078,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.813821,
+					0.855341,
+					0.873535,
+					1
+				]
+			},
+			"demographics": {
+				"type": 52,
+				"productivity": 45760,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 7,
+				"description": "This planet is mildly noted for the Zaatxeian deadly Ouenbeoid but plagued by lethal spotted craboids.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.561819,
+				0.593857,
+				0.693158,
+				1
+			],
+			"radius": 129574.830933,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 244560,
+				"vector": [
+					0.447,
+					-0.497,
+					-0.744
+				]
+			},
+			"corona": {
+				"shimmer": 0.320188,
+				"hues": 0.830612,
+				"flare": 0.037599
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "icosahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Zaatxe",
+				"radius": 8152
+			}
+		}
+	]
+}

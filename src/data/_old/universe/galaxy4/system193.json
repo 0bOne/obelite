@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system193",
+	"position": [
+		36,
+		204
+	],
+	"space": {
+		"blurs": 102,
+		"stars": 6786,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Vebi",
+			"name": "Vebi",
+			"seed": "22 204 40 36 27 54",
+			"body": {
+				"radius": 4388,
+				"rotation_v": 0.004756,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 482680
+			},
+			"land": {
+				"color": [
+					0.587891,
+					0.522657,
+					0.505219,
+					1
+				],
+				"polar_color": [
+					0.941211,
+					0.915101,
+					0.908121,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.503409,
+					0.908203,
+					0.457649,
+					1
+				],
+				"polar": [
+					0.807872,
+					0.90918,
+					0.79642,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.655357,
+					0.885182,
+					0.868794,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.658203,
+					0.634179,
+					0.539932,
+					1
+				],
+				"fraction": 0.2,
+				"polar_color": [
+					0.796191,
+					0.778029,
+					0.706775,
+					1
+				]
+			},
+			"demographics": {
+				"type": 34,
+				"productivity": 14688,
+				"techLevel": 6,
+				"economy": 4,
+				"government": 5,
+				"description": "The planet Vebi is scourged by deadly edible arts graduates.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.661173,
+				0.350537,
+				0.223313,
+				1
+			],
+			"radius": 130353.114014,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 307160,
+				"vector": [
+					-0.832,
+					0.227,
+					0.505
+				]
+			},
+			"corona": {
+				"shimmer": 0.441053,
+				"hues": 0.982758,
+				"flare": 0.035431
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Vebi",
+				"radius": 8776
+			}
+		}
+	]
+}

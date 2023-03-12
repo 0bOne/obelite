@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system126",
+	"position": [
+		57,
+		186
+	],
+	"space": {
+		"blurs": 52,
+		"stars": 8221,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Qurexein",
+			"name": "Qurexein",
+			"seed": "241 186 137 57 109 58",
+			"body": {
+				"radius": 5433,
+				"rotation_v": 0.00316,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 651960
+			},
+			"land": {
+				"color": [
+					0.634219,
+					0.66,
+					0.637643,
+					1
+				],
+				"polar_color": [
+					0.924879,
+					0.934,
+					0.92609,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.106621,
+					0.634766,
+					0.424333,
+					1
+				],
+				"polar": [
+					0.741719,
+					0.936523,
+					0.858906,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.461379,
+					0.465985,
+					0.928107,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0707169,
+					0.0819105,
+					0.787109,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.36829,
+					0.375882,
+					0.854199,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 10240,
+				"techLevel": 7,
+				"economy": 2,
+				"government": 1,
+				"description": "The world Qurexein is very famous for its unusual sit coms but plagued by occasional solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.701498,
+				0.601272,
+				0.5792,
+				1
+			],
+			"radius": 165393.300018,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 325980,
+				"vector": [
+					-0.073,
+					-0.977,
+					-0.201
+				]
+			},
+			"corona": {
+				"shimmer": 0.294912,
+				"hues": 0.745232,
+				"flare": 0.033647
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Qurexein",
+				"radius": 10866
+			}
+		}
+	]
+}

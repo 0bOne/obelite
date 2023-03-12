@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system29",
+	"position": [
+		191,
+		49
+	],
+	"space": {
+		"blurs": 86,
+		"stars": 9174,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tiusriri",
+			"name": "Tiusriri",
+			"seed": "102 49 16 191 155 87",
+			"body": {
+				"radius": 4799,
+				"rotation_v": 0.003858,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 431910
+			},
+			"land": {
+				"color": [
+					0.0154688,
+					0.66,
+					0.206814,
+					1
+				],
+				"polar_color": [
+					0.705973,
+					0.934,
+					0.773668,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.566357,
+					0.708984,
+					0.635442,
+					1
+				],
+				"polar": [
+					0.882374,
+					0.929102,
+					0.905008,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.458964,
+					0.470917,
+					0.928107,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0645676,
+					0.109726,
+					0.787109,
+					1
+				],
+				"fraction": 0.41,
+				"polar_color": [
+					0.364119,
+					0.394749,
+					0.854199,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 19008,
+				"techLevel": 10,
+				"economy": 1,
+				"government": 2,
+				"description": "Tiusriri is a revolting little planet.",
+				"inhabitants": "Yellow Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.729954,
+				0.730303,
+				0.730573,
+				1
+			],
+			"radius": 129194.270325,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 479900,
+				"vector": [
+					0.2,
+					-0.945,
+					0.258
+				]
+			},
+			"corona": {
+				"shimmer": 0.509659,
+				"hues": 0.648636,
+				"flare": 0.089351
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tiusriri",
+				"radius": 9598
+			}
+		}
+	]
+}

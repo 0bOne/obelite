@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system4",
+	"position": [
+		180,
+		131
+	],
+	"space": {
+		"blurs": 169,
+		"stars": 7010,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xequerin",
+			"name": "Xequerin",
+			"seed": "218 131 32 180 51 226",
+			"body": {
+				"radius": 3508,
+				"rotation_v": 0.002357,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 491120
+			},
+			"land": {
+				"color": [
+					0.19043,
+					0.540642,
+					0.609375,
+					1
+				],
+				"polar_color": [
+					0.777661,
+					0.912583,
+					0.939062,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.675781,
+					0.664909,
+					0.50182,
+					1
+				],
+				"polar": [
+					0.932422,
+					0.928671,
+					0.872415,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.627757,
+					0.532498,
+					0.905344,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.618641,
+					0.261108,
+					0.71875,
+					1
+				],
+				"fraction": 0.19,
+				"polar_color": [
+					0.751756,
+					0.495751,
+					0.823438,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 14336,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 4,
+				"description": "The world Xequerin is fabled for its weird volcanoes and the Xequerinian mountain lobstoid.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.605841,
+				0.747134,
+				0.805695,
+				1
+			],
+			"radius": 88926.322632,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 315720,
+				"vector": [
+					0.355,
+					-0.935,
+					0.018
+				]
+			},
+			"corona": {
+				"shimmer": 0.372199,
+				"hues": 0.872391,
+				"flare": 0.083528
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xequerin",
+				"radius": 7016
+			}
+		}
+	]
+}

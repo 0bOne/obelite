@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system186",
+	"position": [
+		49,
+		119
+	],
+	"space": {
+		"blurs": 85,
+		"stars": 6528,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zarece",
+			"name": "Zarece",
+			"seed": "138 119 236 49 219 132",
+			"body": {
+				"radius": 3889,
+				"rotation_v": 0.00495,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 544460
+			},
+			"land": {
+				"color": [
+					0.0154688,
+					0.312557,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.705973,
+					0.811079,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.597656,
+					0.580572,
+					0.46902,
+					1
+				],
+				"polar": [
+					0.940234,
+					0.933515,
+					0.889642,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.710238,
+					0.729236,
+					0.972984,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.727417,
+					0.766916,
+					0.921875,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.794234,
+					0.818733,
+					0.914844,
+					1
+				]
+			},
+			"demographics": {
+				"type": 29,
+				"productivity": 6264,
+				"techLevel": 4,
+				"economy": 7,
+				"government": 5,
+				"description": "This planet is a tedious place.",
+				"inhabitants": "Fierce Black Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.845078,
+				0.548207,
+				0.409982,
+				1
+			],
+			"radius": 97781.029205,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 272230,
+				"vector": [
+					-0.364,
+					0.647,
+					0.669
+				]
+			},
+			"corona": {
+				"shimmer": 0.263485,
+				"hues": 0.906525,
+				"flare": 0.046735
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Zarece",
+				"radius": 7778
+			}
+		}
+	]
+}

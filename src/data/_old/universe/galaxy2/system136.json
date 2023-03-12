@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system136",
+	"position": [
+		32,
+		108
+	],
+	"space": {
+		"blurs": 80,
+		"stars": 9545,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Vegean",
+			"name": "Vegean",
+			"seed": "9 108 193 32 205 86",
+			"body": {
+				"radius": 4384,
+				"rotation_v": 0.001607,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 482240
+			},
+			"land": {
+				"color": [
+					0.284302,
+					0.388171,
+					0.535156,
+					1
+				],
+				"polar_color": [
+					0.835568,
+					0.881494,
+					0.946484,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.626689,
+					0.677734,
+					0.51439,
+					1
+				],
+				"polar": [
+					0.914673,
+					0.932227,
+					0.876056,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.758812,
+					0.747687,
+					0.959326,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.835268,
+					0.825806,
+					0.880859,
+					1
+				],
+				"fraction": 0.59,
+				"polar_color": [
+					0.86739,
+					0.861372,
+					0.896387,
+					1
+				]
+			},
+			"demographics": {
+				"type": 11,
+				"productivity": 1408,
+				"techLevel": 1,
+				"economy": 6,
+				"government": 0,
+				"description": "The world Vegean is beset by dreadful earthquakes.",
+				"inhabitants": "Yellow Fat Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.557714,
+				0.767965,
+				0.789642,
+				1
+			],
+			"radius": 90728.383789,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 394560,
+				"vector": [
+					0.862,
+					0.363,
+					0.353
+				]
+			},
+			"corona": {
+				"shimmer": 0.528849,
+				"hues": 0.731827,
+				"flare": 0.013095
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Vegean",
+				"radius": 8768
+			}
+		}
+	]
+}

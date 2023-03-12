@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system187",
+	"position": [
+		37,
+		203
+	],
+	"space": {
+		"blurs": 140,
+		"stars": 7935,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Leenor",
+			"name": "Leenor",
+			"seed": "154 203 194 37 42 129",
+			"body": {
+				"radius": 3109,
+				"rotation_v": 0.002564,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 435260
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.328228,
+					0.061875,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.816623,
+					0.722391,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.61549,
+					0.636719,
+					0.493706,
+					1
+				],
+				"polar": [
+					0.928524,
+					0.936328,
+					0.883751,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.547244,
+					0.601635,
+					0.834451,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.286522,
+					0.408186,
+					0.505859,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.53045,
+					0.639827,
+					0.727637,
+					1
+				]
+			},
+			"demographics": {
+				"type": 24,
+				"productivity": 5376,
+				"techLevel": 5,
+				"economy": 3,
+				"government": 0,
+				"description": "This planet is most notable for Leenorian evil juice but cursed by dreadful solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.313191,
+				0.717501,
+				0.733478,
+				1
+			],
+			"radius": 75814.608307,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 310900,
+				"vector": [
+					-0.073,
+					0.515,
+					-0.854
+				]
+			},
+			"corona": {
+				"shimmer": 0.575534,
+				"hues": 0.978462,
+				"flare": 0.066734
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Leenor",
+				"radius": 6218
+			}
+		}
+	]
+}

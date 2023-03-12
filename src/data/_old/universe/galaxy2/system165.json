@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system165",
+	"position": [
+		35,
+		6
+	],
+	"space": {
+		"blurs": 92,
+		"stars": 6506,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edxeri",
+			"name": "Edxeri",
+			"seed": "149 6 121 35 101 24",
+			"body": {
+				"radius": 4899,
+				"rotation_v": 0.001578,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 489900
+			},
+			"land": {
+				"color": [
+					0.542969,
+					0.483582,
+					0.493325,
+					1
+				],
+				"polar_color": [
+					0.945703,
+					0.919844,
+					0.924087,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.704452,
+					0.740234,
+					0.532043,
+					1
+				],
+				"polar": [
+					0.914786,
+					0.925977,
+					0.860869,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.471869,
+					0.646511,
+					0.869572,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.138504,
+					0.611328,
+					0.467265,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.400417,
+					0.775098,
+					0.660937,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 16192,
+				"techLevel": 8,
+				"economy": 6,
+				"government": 7,
+				"description": "The planet Edxeri is reasonably noted for its fabulous goat soup and Zero-G cricket.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.26746,
+				0.624838,
+				0.746432,
+				1
+			],
+			"radius": 105103.195038,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 685860,
+				"vector": [
+					0.641,
+					-0.569,
+					0.515
+				]
+			},
+			"corona": {
+				"shimmer": 0.326957,
+				"hues": 0.822815,
+				"flare": 0.038522
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Edxeri",
+				"radius": 9798
+			}
+		}
+	]
+}

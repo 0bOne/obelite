@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system47",
+	"position": [
+		254,
+		235
+	],
+	"space": {
+		"blurs": 163,
+		"stars": 9361,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Quceri",
+			"name": "Quceri",
+			"seed": "157 235 241 254 117 90",
+			"body": {
+				"radius": 5630,
+				"rotation_v": 0.003204,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 844500
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.435703,
+					0.456731,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.854647,
+					0.862086,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.599609,
+					0.531992,
+					0.460013,
+					1
+				],
+				"polar": [
+					0.940039,
+					0.913537,
+					0.885326,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.728661,
+					0.5835,
+					0.889734,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.671875,
+					0.380554,
+					0.544422,
+					1
+				],
+				"fraction": 0.21,
+				"polar_color": [
+					0.802344,
+					0.584912,
+					0.707217,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 25760,
+				"techLevel": 9,
+				"economy": 3,
+				"government": 6,
+				"description": "The planet Quceri is reasonably fabled for Zero-G cricket and vicious Le brew.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.728213,
+				0.683211,
+				0.678086,
+				1
+			],
+			"radius": 154335.3302,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 450400,
+				"vector": [
+					0.706,
+					-0.141,
+					0.694
+				]
+			},
+			"corona": {
+				"shimmer": 0.332707,
+				"hues": 0.703812,
+				"flare": 0.009047
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Quceri",
+				"radius": 11260
+			}
+		}
+	]
+}

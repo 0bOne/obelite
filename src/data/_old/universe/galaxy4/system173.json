@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system173",
+	"position": [
+		13,
+		221
+	],
+	"space": {
+		"blurs": 184,
+		"stars": 9744,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Aquti",
+			"name": "Aquti",
+			"seed": "166 221 240 13 27 207",
+			"body": {
+				"radius": 6669,
+				"rotation_v": 0.002635,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 933660
+			},
+			"land": {
+				"color": [
+					0.223721,
+					0.550781,
+					0.105423,
+					1
+				],
+				"polar_color": [
+					0.804646,
+					0.944922,
+					0.753907,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.812457,
+					0.706776,
+					0.884766,
+					1
+				],
+				"polar": [
+					0.8929,
+					0.86568,
+					0.911523,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.506545,
+					0.588867,
+					0.866971,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.212173,
+					0.475106,
+					0.603516,
+					1
+				],
+				"fraction": 0.21,
+				"polar_color": [
+					0.45888,
+					0.668977,
+					0.771582,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 14400,
+				"techLevel": 6,
+				"economy": 5,
+				"government": 6,
+				"description": "This world is a tedious little planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.262416,
+				0.462853,
+				0.655838,
+				1
+			],
+			"radius": 122827.398376,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 466830,
+				"vector": [
+					0.322,
+					-0.739,
+					0.592
+				]
+			},
+			"corona": {
+				"shimmer": 0.697355,
+				"hues": 0.620232,
+				"flare": 0.057013
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Aquti",
+				"radius": 13338
+			}
+		}
+	]
+}

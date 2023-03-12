@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system97",
+	"position": [
+		154,
+		233
+	],
+	"space": {
+		"blurs": 64,
+		"stars": 6573,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Inave",
+			"name": "Inave",
+			"seed": "10 233 210 154 10 236",
+			"body": {
+				"radius": 6042,
+				"rotation_v": 0.004506,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 845880
+			},
+			"land": {
+				"color": [
+					0.493832,
+					0.66,
+					0.273281,
+					1
+				],
+				"polar_color": [
+					0.875212,
+					0.934,
+					0.797184,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.642528,
+					0.683594,
+					0.51403,
+					1
+				],
+				"polar": [
+					0.917649,
+					0.931641,
+					0.873868,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.600214,
+					0.928107,
+					0.891931,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.787109,
+					0.670897,
+					0.424301,
+					1
+				],
+				"fraction": 0.16,
+				"polar_color": [
+					0.854199,
+					0.775376,
+					0.608116,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 17280,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 2,
+				"description": "The world Inave is reasonably famous for its inhabitants’ exceptional loathing of casinos.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.579251,
+				0.664446,
+				0.680051,
+				1
+			],
+			"radius": 164619.054565,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 302100,
+				"vector": [
+					0.307,
+					-0.914,
+					-0.264
+				]
+			},
+			"corona": {
+				"shimmer": 0.567392,
+				"hues": 0.890686,
+				"flare": 0.046533
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Inave",
+				"radius": 12084
+			}
+		}
+	]
+}

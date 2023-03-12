@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system96",
+	"position": [
+		171,
+		129
+	],
+	"space": {
+		"blurs": 62,
+		"stars": 9334,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anusa",
+			"name": "Anusa",
+			"seed": "148 129 16 171 166 219",
+			"body": {
+				"radius": 5803,
+				"rotation_v": 0.000204,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 696360
+			},
+			"land": {
+				"color": [
+					0.226412,
+					0.121172,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.780602,
+					0.743369,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.652344,
+					0.54277,
+					0.489258,
+					1
+				],
+				"polar": [
+					0.934766,
+					0.895513,
+					0.876343,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.670471,
+					0.774082,
+					0.970383,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.614136,
+					0.914062,
+					0.907033,
+					1
+				],
+				"fraction": 0.48,
+				"polar_color": [
+					0.724435,
+					0.911328,
+					0.906948,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 19008,
+				"techLevel": 10,
+				"economy": 1,
+				"government": 2,
+				"description": "The world Anusa is reasonably noted for its fabulous goat soup.",
+				"inhabitants": "Horned Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.713846,
+				0.703467,
+				0.686087,
+				1
+			],
+			"radius": 147709.2659,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 406210,
+				"vector": [
+					-0.126,
+					0.986,
+					0.111
+				]
+			},
+			"corona": {
+				"shimmer": 1.163884,
+				"hues": 0.921402,
+				"flare": 0.034789
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anusa",
+				"radius": 11606
+			}
+		}
+	]
+}

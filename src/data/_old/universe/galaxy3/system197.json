@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system197",
+	"position": [
+		31,
+		184
+	],
+	"space": {
+		"blurs": 50,
+		"stars": 5903,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Dicebe",
+			"name": "Dicebe",
+			"seed": "42 184 242 31 202 205",
+			"body": {
+				"radius": 6175,
+				"rotation_v": 0.003223,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 741000
+			},
+			"land": {
+				"color": [
+					0.5604,
+					0.66,
+					0.363516,
+					1
+				],
+				"polar_color": [
+					0.898763,
+					0.934,
+					0.829107,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.695312,
+					0.450379,
+					0.431854,
+					1
+				],
+				"polar": [
+					0.930469,
+					0.848526,
+					0.842329,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.720747,
+					0.571105,
+					0.897539,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.695312,
+					0.353088,
+					0.561631,
+					1
+				],
+				"fraction": 0.19,
+				"polar_color": [
+					0.812891,
+					0.562832,
+					0.715211,
+					1
+				]
+			},
+			"demographics": {
+				"type": 59,
+				"productivity": 47200,
+				"techLevel": 13,
+				"economy": 0,
+				"government": 6,
+				"description": "This world is fabled for its ancient Erouat plant plantations.",
+				"inhabitants": "Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.307441,
+				0.37835,
+				0.678891,
+				1
+			],
+			"radius": 166643.779755,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 432250,
+				"vector": [
+					0.441,
+					0.718,
+					0.538
+				]
+			},
+			"corona": {
+				"shimmer": 0.296331,
+				"hues": 0.696983,
+				"flare": 0.04585
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Dicebe",
+				"radius": 12350
+			}
+		}
+	]
+}

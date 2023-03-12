@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system74",
+	"position": [
+		57,
+		101
+	],
+	"space": {
+		"blurs": 81,
+		"stars": 5092,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Enerte",
+			"name": "Enerte",
+			"seed": "28 101 32 57 101 242",
+			"body": {
+				"radius": 3385,
+				"rotation_v": 0.003205,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 406200
+			},
+			"land": {
+				"color": [
+					0.654864,
+					0.00257813,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.932183,
+					0.701412,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.582031,
+					0.580212,
+					0.465625,
+					1
+				],
+				"polar": [
+					0.941797,
+					0.941061,
+					0.894707,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.532789,
+					0.979488,
+					0.930204,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.941406,
+					0.709359,
+					0.216965,
+					1
+				],
+				"fraction": 0.34,
+				"polar_color": [
+					0.923633,
+					0.781341,
+					0.479405,
+					1
+				]
+			},
+			"demographics": {
+				"type": 30,
+				"productivity": 9600,
+				"techLevel": 5,
+				"economy": 5,
+				"government": 4,
+				"description": "Enerte is most noted for its inhabitants’ eccentric love for poetry and its inhabitants’ weird shyness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.691074,
+				0.510462,
+				0.393208,
+				1
+			],
+			"radius": 109166.973114,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 203100,
+				"vector": [
+					-0.617,
+					0.04,
+					-0.786
+				]
+			},
+			"corona": {
+				"shimmer": 0.430303,
+				"hues": 0.97496,
+				"flare": 0.042743
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Enerte",
+				"radius": 6770
+			}
+		}
+	]
+}

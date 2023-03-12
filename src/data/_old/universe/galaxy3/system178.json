@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system178",
+	"position": [
+		121,
+		20
+	],
+	"space": {
+		"blurs": 64,
+		"stars": 7586,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Soralaat",
+			"name": "Soralaat",
+			"seed": "66 20 50 121 90 167",
+			"body": {
+				"radius": 4729,
+				"rotation_v": 0.002595,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 567480
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.407344,
+					0.50209,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.844613,
+					0.878133,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.590012,
+					0.677734,
+					0.52392,
+					1
+				],
+				"polar": [
+					0.902061,
+					0.932227,
+					0.879334,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.658608,
+					0.890859,
+					0.894287,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.678371,
+					0.685547,
+					0.554329,
+					1
+				],
+				"fraction": 0.37,
+				"polar_color": [
+					0.803207,
+					0.808496,
+					0.711777,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 18720,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 6,
+				"description": "Soralaat is reasonably notable for its unusual oceans but plagued by unpredictable civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.797354,
+				0.737243,
+				0.710001,
+				1
+			],
+			"radius": 114422.952118,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 520190,
+				"vector": [
+					0.738,
+					0.674,
+					-0.046
+				]
+			},
+			"corona": {
+				"shimmer": 0.387141,
+				"hues": 0.648598,
+				"flare": 0.0627
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Soralaat",
+				"radius": 9458
+			}
+		}
+	]
+}

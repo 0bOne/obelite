@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system67",
+	"position": [
+		133,
+		212
+	],
+	"space": {
+		"blurs": 86,
+		"stars": 8816,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zaonesdi",
+			"name": "Zaonesdi",
+			"seed": "198 212 124 133 243 100",
+			"body": {
+				"radius": 3973,
+				"rotation_v": 0.003386,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 516490
+			},
+			"land": {
+				"color": [
+					0.543984,
+					0.66,
+					0.613775,
+					1
+				],
+				"polar_color": [
+					0.892955,
+					0.934,
+					0.917646,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.78125,
+					0.659561,
+					0.427246,
+					1
+				],
+				"polar": [
+					0.921875,
+					0.885977,
+					0.817444,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.525949,
+					0.468097,
+					0.939164,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.36149,
+					0.0769043,
+					0.820312,
+					1
+				],
+				"fraction": 0.28,
+				"polar_color": [
+					0.565307,
+					0.376854,
+					0.869141,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 23232,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 7,
+				"description": "This world is plagued by frequent solar activity.",
+				"inhabitants": "Fierce Blue Bug-Eyed Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.196818,
+				0.387293,
+				0.771521,
+				1
+			],
+			"radius": 76351.243896,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 317840,
+				"vector": [
+					-0.055,
+					0.765,
+					-0.642
+				]
+			},
+			"corona": {
+				"shimmer": 0.297399,
+				"hues": 0.835739,
+				"flare": 0.024104
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Zaonesdi",
+				"radius": 7946
+			}
+		}
+	]
+}

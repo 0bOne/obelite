@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system5",
+	"position": [
+		46,
+		135
+	],
+	"space": {
+		"blurs": 92,
+		"stars": 7896,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Enususge",
+			"name": "Enususge",
+			"seed": "222 135 58 46 64 114",
+			"body": {
+				"radius": 3374,
+				"rotation_v": 0.004824,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 404880
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.319688,
+					0.359568,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.813602,
+					0.827711,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.660156,
+					0.4487,
+					0.4487,
+					1
+				],
+				"polar": [
+					0.933984,
+					0.859193,
+					0.859193,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.759475,
+					0.610322,
+					0.876727,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.632812,
+					0.435059,
+					0.495312,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.784766,
+					0.631491,
+					0.678192,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 10296,
+				"techLevel": 6,
+				"economy": 7,
+				"government": 7,
+				"description": "This planet is a dull world.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.708218,
+				0.580274,
+				0.542173,
+				1
+			],
+			"radius": 70827.434692,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 269920,
+				"vector": [
+					0.769,
+					0.639,
+					-0.012
+				]
+			},
+			"corona": {
+				"shimmer": 0.303045,
+				"hues": 0.626144,
+				"flare": 0.098206
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Enususge",
+				"radius": 6748
+			}
+		}
+	]
+}

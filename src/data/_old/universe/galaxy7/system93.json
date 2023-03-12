@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system93",
+	"position": [
+		193,
+		72
+	],
+	"space": {
+		"blurs": 93,
+		"stars": 9156,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arlale",
+			"name": "Arlale",
+			"seed": "151 72 242 193 179 202",
+			"body": {
+				"radius": 5569,
+				"rotation_v": 0.000551,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 779660
+			},
+			"land": {
+				"color": [
+					0.373828,
+					0.66,
+					0.3783,
+					1
+				],
+				"polar_color": [
+					0.832756,
+					0.934,
+					0.834338,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.654297,
+					0.569235,
+					0.500946,
+					1
+				],
+				"polar": [
+					0.93457,
+					0.904196,
+					0.87981,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.546408,
+					0.958676,
+					0.871361,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.878906,
+					0.499105,
+					0.271225,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.895508,
+					0.653649,
+					0.508533,
+					1
+				]
+			},
+			"demographics": {
+				"type": 51,
+				"productivity": 40800,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 6,
+				"description": "The world Arlale is fabled for its ancient Arlaleian Enalno banana plantations and its hoopy night life.",
+				"inhabitants": "Small Bug-Eyed Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.601057,
+				0.619088,
+				0.707086,
+				1
+			],
+			"radius": 106482.821808,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 501210,
+				"vector": [
+					-0.156,
+					-0.9,
+					-0.408
+				]
+			},
+			"corona": {
+				"shimmer": 0.358101,
+				"hues": 0.790359,
+				"flare": 0.029364
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Arlale",
+				"radius": 11138
+			}
+		}
+	]
+}

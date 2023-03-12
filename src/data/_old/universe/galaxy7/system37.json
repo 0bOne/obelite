@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system37",
+	"position": [
+		58,
+		67
+	],
+	"space": {
+		"blurs": 185,
+		"stars": 7159,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Aditira",
+			"name": "Aditira",
+			"seed": "103 67 194 58 99 79",
+			"body": {
+				"radius": 6714,
+				"rotation_v": 0.004224,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 805680
+			},
+			"land": {
+				"color": [
+					0.552734,
+					0.449097,
+					0.500106,
+					1
+				],
+				"polar_color": [
+					0.944727,
+					0.900443,
+					0.922239,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.329193,
+					0.5,
+					0.123047,
+					1
+				],
+				"polar": [
+					0.868867,
+					0.95,
+					0.770947,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.602729,
+					0.828266,
+					0.991846,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.412811,
+					0.978516,
+					0.567496,
+					1
+				],
+				"fraction": 0.08,
+				"polar_color": [
+					0.600564,
+					0.940332,
+					0.693469,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 6272,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 0,
+				"description": "The world Aditira is mildly fabled for the Aditiraian edible moth but beset by evil disease.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.745947,
+				0.746521,
+				0.542098,
+				1
+			],
+			"radius": 186272.111206,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 537120,
+				"vector": [
+					-0.682,
+					0.05,
+					-0.73
+				]
+			},
+			"corona": {
+				"shimmer": 0.361901,
+				"hues": 0.611015,
+				"flare": 0.089526
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Aditira",
+				"radius": 13428
+			}
+		}
+	]
+}

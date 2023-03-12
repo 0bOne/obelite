@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system45",
+	"position": [
+		122,
+		134
+	],
+	"space": {
+		"blurs": 172,
+		"stars": 7854,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orqure",
+			"name": "Orqure",
+			"seed": "183 134 18 122 147 217",
+			"body": {
+				"radius": 5242,
+				"rotation_v": 0.003047,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 733880
+			},
+			"land": {
+				"color": [
+					0.607632,
+					0.66,
+					0.592969,
+					1
+				],
+				"polar_color": [
+					0.915473,
+					0.934,
+					0.910285,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0686646,
+					0.703125,
+					0.703125,
+					1
+				],
+				"polar": [
+					0.719963,
+					0.929688,
+					0.929688,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.539846,
+					0.449776,
+					0.957375,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.481613,
+					0.00683594,
+					0.875,
+					1
+				],
+				"fraction": 0.41,
+				"polar_color": [
+					0.642615,
+					0.33952,
+					0.89375,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 4800,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 2,
+				"description": "The planet Orqure is an unremarkable dump.",
+				"inhabitants": "Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.614913,
+				0.710124,
+				0.813931,
+				1
+			],
+			"radius": 147811.986084,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 262100,
+				"vector": [
+					0.542,
+					0.403,
+					-0.738
+				]
+			},
+			"corona": {
+				"shimmer": 0.607884,
+				"hues": 0.959137,
+				"flare": 0.032793
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Orqure",
+				"radius": 10484
+			}
+		}
+	]
+}

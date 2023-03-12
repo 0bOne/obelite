@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system24",
+	"position": [
+		120,
+		223
+	],
+	"space": {
+		"blurs": 176,
+		"stars": 5063,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tiarice",
+			"name": "Tiarice",
+			"seed": "82 223 50 120 148 87",
+			"body": {
+				"radius": 4728,
+				"rotation_v": 0.004355,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 567360
+			},
+			"land": {
+				"color": [
+					0.533672,
+					0.66,
+					0.642235,
+					1
+				],
+				"polar_color": [
+					0.889307,
+					0.934,
+					0.927715,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.553387,
+					0.654297,
+					0.521137,
+					1
+				],
+				"polar": [
+					0.898536,
+					0.93457,
+					0.88702,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.602316,
+					0.911197,
+					0.838547,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.736328,
+					0.522337,
+					0.428566,
+					1
+				],
+				"fraction": 0.25,
+				"polar_color": [
+					0.831348,
+					0.680344,
+					0.614174,
+					1
+				]
+			},
+			"demographics": {
+				"type": 26,
+				"productivity": 6240,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 6,
+				"description": "This world is very notable for its inhabitants’ weird shyness and its inhabitants’ ingrained shyness.",
+				"inhabitants": "Yellow Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.214011,
+				0.720576,
+				0.829172,
+				1
+			],
+			"radius": 123103.597412,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 283680,
+				"vector": [
+					0.384,
+					0.898,
+					-0.216
+				]
+			},
+			"corona": {
+				"shimmer": 0.854758,
+				"hues": 0.721985,
+				"flare": 0.085245
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tiarice",
+				"radius": 9456
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system52",
+	"position": [
+		248,
+		41
+	],
+	"space": {
+		"blurs": 143,
+		"stars": 6027,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Aenqute",
+			"name": "Aenqute",
+			"seed": "217 41 241 248 141 111",
+			"body": {
+				"radius": 6904,
+				"rotation_v": 0.001025,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 828480
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.177891,
+					0.302184,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.763436,
+					0.807409,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.578125,
+					0.548033,
+					0.457758,
+					1
+				],
+				"polar": [
+					0.942187,
+					0.929927,
+					0.893146,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.765083,
+					0.538206,
+					0.937863,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.816406,
+					0.261505,
+					0.417571,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.867383,
+					0.498915,
+					0.602546,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 31680,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 6,
+				"description": "The world Aenqute is reasonably fabled for its fabulous cuisine and the Aenquteian mountain slug.",
+				"inhabitants": "Blue Bug-Eyed Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.754509,
+				0.75599,
+				0.772427,
+				1
+			],
+			"radius": 153931.514893,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 276160,
+				"vector": [
+					0.329,
+					-0.422,
+					-0.845
+				]
+			},
+			"corona": {
+				"shimmer": 0.495764,
+				"hues": 0.828133,
+				"flare": 0.075459
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Aenqute",
+				"radius": 13808
+			}
+		}
+	]
+}

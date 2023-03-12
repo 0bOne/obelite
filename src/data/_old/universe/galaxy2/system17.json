@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system17",
+	"position": [
+		105,
+		232
+	],
+	"space": {
+		"blurs": 136,
+		"stars": 6003,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Bezaed",
+			"name": "Bezaed",
+			"seed": "69 232 41 105 5 51",
+			"body": {
+				"radius": 3689,
+				"rotation_v": 0.002226,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 516460
+			},
+			"land": {
+				"color": [
+					0.597656,
+					0.429565,
+					0.516237,
+					1
+				],
+				"polar_color": [
+					0.940234,
+					0.874124,
+					0.908212,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.859375,
+					0.719852,
+					0.349121,
+					1
+				],
+				"polar": [
+					0.914062,
+					0.876962,
+					0.778381,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.436183,
+					0.789682,
+					0.850711,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.337708,
+					0.554688,
+					0.0758362,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.566342,
+					0.749609,
+					0.345157,
+					1
+				]
+			},
+			"demographics": {
+				"type": 50,
+				"productivity": 36000,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 5,
+				"description": "This planet is reasonably famous for the Bezaedian spotted leopard.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.420702,
+				0.702576,
+				0.78858,
+				1
+			],
+			"radius": 69890.946503,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 221340,
+				"vector": [
+					-0.654,
+					-0.69,
+					-0.308
+				]
+			},
+			"corona": {
+				"shimmer": 0.272519,
+				"hues": 0.560585,
+				"flare": 0.022423
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Bezaed",
+				"radius": 7378
+			}
+		}
+	]
+}

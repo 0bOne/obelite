@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system116",
+	"position": [
+		236,
+		39
+	],
+	"space": {
+		"blurs": 152,
+		"stars": 9488,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Qudira",
+			"name": "Qudira",
+			"seed": "26 39 64 236 51 122",
+			"body": {
+				"radius": 5612,
+				"rotation_v": 0.003568,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 785680
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.66,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.934,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.757812,
+					0.461977,
+					0.393707,
+					1
+				],
+				"polar": [
+					0.924219,
+					0.834019,
+					0.813204,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.52625,
+					0.571284,
+					0.860467,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.253212,
+					0.38242,
+					0.583984,
+					1
+				],
+				"fraction": 0.37,
+				"polar_color": [
+					0.492761,
+					0.598242,
+					0.762793,
+					1
+				]
+			},
+			"demographics": {
+				"type": 8,
+				"productivity": 768,
+				"techLevel": 0,
+				"economy": 7,
+				"government": 0,
+				"description": "The world Qudira is reasonably fabled for Qudiraian Bima water and its great volcanoes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.707003,
+				0.748562,
+				0.800739,
+				1
+			],
+			"radius": 137600.869141,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 224480,
+				"vector": [
+					-0.257,
+					-0.932,
+					-0.254
+				]
+			},
+			"corona": {
+				"shimmer": 0.808448,
+				"hues": 0.847672,
+				"flare": 0.033598
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Qudira",
+				"radius": 11224
+			}
+		}
+	]
+}

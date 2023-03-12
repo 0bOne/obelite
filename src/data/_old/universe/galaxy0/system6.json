@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system6",
+	"position": [
+		69,
+		249
+	],
+	"space": {
+		"blurs": 67,
+		"stars": 6256,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Rabedira",
+			"name": "Rabedira",
+			"seed": "90 249 212 69 27 20",
+			"body": {
+				"radius": 3909,
+				"rotation_v": 0.001464,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 390900
+			},
+			"land": {
+				"color": [
+					0.595703,
+					0.428162,
+					0.522404,
+					1
+				],
+				"polar_color": [
+					0.94043,
+					0.874306,
+					0.9115,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.681667,
+					0.705078,
+					0.517792,
+					1
+				],
+				"polar": [
+					0.921777,
+					0.929492,
+					0.867768,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.68918,
+					0.573184,
+					0.884531,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.65625,
+					0.356323,
+					0.616416,
+					1
+				],
+				"fraction": 0.17,
+				"polar_color": [
+					0.795313,
+					0.568136,
+					0.765141,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 15552,
+				"techLevel": 8,
+				"economy": 1,
+				"government": 2,
+				"description": "The planet Rabedira is well known for its inhabitants’ ancient loathing of sit coms but ravaged by dreadful civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.731796,
+				0.553063,
+				0.334029,
+				1
+			],
+			"radius": 94914.451904,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 469080,
+				"vector": [
+					-0.937,
+					0.247,
+					-0.245
+				]
+			},
+			"corona": {
+				"shimmer": 0.2918,
+				"hues": 0.560776,
+				"flare": 0.056177
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Rabedira",
+				"radius": 7818
+			}
+		}
+	]
+}

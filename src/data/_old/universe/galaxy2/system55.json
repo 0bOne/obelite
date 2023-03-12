@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system55",
+	"position": [
+		190,
+		104
+	],
+	"space": {
+		"blurs": 88,
+		"stars": 6865,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Onbige",
+			"name": "Onbige",
+			"seed": "189 104 17 190 53 223",
+			"body": {
+				"radius": 6846,
+				"rotation_v": 0.002006,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 821520
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.183047,
+					0.205404,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.76526,
+					0.773169,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.583984,
+					0.552903,
+					0.45966,
+					1
+				],
+				"polar": [
+					0.941602,
+					0.929073,
+					0.891487,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.604023,
+					0.881146,
+					0.969082,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.555071,
+					0.910156,
+					0.426636,
+					1
+				],
+				"fraction": 0.26,
+				"polar_color": [
+					0.687785,
+					0.90957,
+					0.607565,
+					1
+				]
+			},
+			"demographics": {
+				"type": 43,
+				"productivity": 20640,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 2,
+				"description": "This planet is notable for the Onbigeian tree grub and its inhabitants’ ancient loathing of casinos.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.45899,
+				0.509665,
+				0.751318,
+				1
+			],
+			"radius": 175136.257324,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 684600,
+				"vector": [
+					-0.031,
+					0.343,
+					-0.939
+				]
+			},
+			"corona": {
+				"shimmer": 0.42547,
+				"hues": 0.989487,
+				"flare": 0.034973
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Onbige",
+				"radius": 13692
+			}
+		}
+	]
+}

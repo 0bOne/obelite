@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system75",
+	"position": [
+		158,
+		140
+	],
+	"space": {
+		"blurs": 117,
+		"stars": 6601,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Inve",
+			"name": "Inve",
+			"seed": "26 140 66 158 42 108",
+			"body": {
+				"radius": 6046,
+				"rotation_v": 0.002573,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 725520
+			},
+			"land": {
+				"color": [
+					0.587891,
+					0.447807,
+					0.500339,
+					1
+				],
+				"polar_color": [
+					0.941211,
+					0.885143,
+					0.906168,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.748047,
+					0.693441,
+					0.479218,
+					1
+				],
+				"polar": [
+					0.925195,
+					0.908311,
+					0.842072,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.598744,
+					0.833888,
+					0.993797,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.399902,
+					0.984375,
+					0.532322,
+					1
+				],
+				"fraction": 0.57,
+				"polar_color": [
+					0.593039,
+					0.942969,
+					0.67232,
+					1
+				]
+			},
+			"demographics": {
+				"type": 19,
+				"productivity": 2432,
+				"techLevel": 3,
+				"economy": 6,
+				"government": 0,
+				"description": "Inve is reasonably notable for its great volcanoes but plagued by lethal spotted snails.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.743451,
+				0.736221,
+				0.733743,
+				1
+			],
+			"radius": 113553.467102,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 483680,
+				"vector": [
+					-0.746,
+					-0.432,
+					0.506
+				]
+			},
+			"corona": {
+				"shimmer": 0.568534,
+				"hues": 0.617348,
+				"flare": 0.04633
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Inve",
+				"radius": 12092
+			}
+		}
+	]
+}

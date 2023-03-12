@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system104",
+	"position": [
+		159,
+		27
+	],
+	"space": {
+		"blurs": 173,
+		"stars": 6435,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Qulaaon",
+			"name": "Qulaaon",
+			"seed": "210 27 242 159 20 154",
+			"body": {
+				"radius": 5535,
+				"rotation_v": 0.001891,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 664200
+			},
+			"land": {
+				"color": [
+					0.25177,
+					0.490889,
+					0.515625,
+					1
+				],
+				"polar_color": [
+					0.827104,
+					0.937063,
+					0.948438,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.608923,
+					0.794922,
+					0.768766,
+					1
+				],
+				"polar": [
+					0.866662,
+					0.920508,
+					0.912936,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.472681,
+					0.625126,
+					0.877377,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.136375,
+					0.634766,
+					0.576361,
+					1
+				],
+				"fraction": 0.34,
+				"polar_color": [
+					0.400111,
+					0.785645,
+					0.740465,
+					1
+				]
+			},
+			"demographics": {
+				"type": 50,
+				"productivity": 28000,
+				"techLevel": 10,
+				"economy": 3,
+				"government": 6,
+				"description": "The planet Qulaaon is an unremarkable dump.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.771085,
+				0.522819,
+				0.338179,
+				1
+			],
+			"radius": 153953.166962,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 553500,
+				"vector": [
+					-0.227,
+					0.8,
+					-0.555
+				]
+			},
+			"corona": {
+				"shimmer": 0.238005,
+				"hues": 0.541702,
+				"flare": 0.008511
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Qulaaon",
+				"radius": 11070
+			}
+		}
+	]
+}

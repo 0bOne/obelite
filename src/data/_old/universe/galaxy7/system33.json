@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system33",
+	"position": [
+		185,
+		187
+	],
+	"space": {
+		"blurs": 125,
+		"stars": 5339,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceanquan",
+			"name": "Ceanquan",
+			"seed": "255 187 154 185 203 5",
+			"body": {
+				"radius": 4281,
+				"rotation_v": 0.004835,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 428100
+			},
+			"land": {
+				"color": [
+					0.523438,
+					0.460979,
+					0.0531616,
+					1
+				],
+				"polar_color": [
+					0.947656,
+					0.919387,
+					0.734804,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.811084,
+					0.70625,
+					0.882812,
+					1
+				],
+				"polar": [
+					0.893199,
+					0.866133,
+					0.911719,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.522549,
+					0.637125,
+					0.83315,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.241173,
+					0.501953,
+					0.477505,
+					1
+				],
+				"fraction": 0.18,
+				"polar_color": [
+					0.490181,
+					0.725879,
+					0.703782,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 13720,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 3,
+				"description": "This planet is plagued by deadly earthquakes.",
+				"inhabitants": "Fierce Green Horned Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.440718,
+				0.468034,
+				0.671274,
+				1
+			],
+			"radius": 113627.183075,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 428100,
+				"vector": [
+					0.451,
+					0.492,
+					-0.745
+				]
+			},
+			"corona": {
+				"shimmer": 0.587324,
+				"hues": 0.953255,
+				"flare": 0.041391
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceanquan",
+				"radius": 8562
+			}
+		}
+	]
+}

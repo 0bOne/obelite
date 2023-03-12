@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system129",
+	"position": [
+		69,
+		44
+	],
+	"space": {
+		"blurs": 70,
+		"stars": 9982,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Engean",
+			"name": "Engean",
+			"seed": "47 44 85 69 64 146",
+			"body": {
+				"radius": 3397,
+				"rotation_v": 0.000897,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 407640
+			},
+			"land": {
+				"color": [
+					0.647029,
+					0.600703,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.929411,
+					0.913022,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.521484,
+					0.29238,
+					0.0244446,
+					1
+				],
+				"polar": [
+					0.947852,
+					0.843746,
+					0.721996,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.525663,
+					0.971033,
+					0.869756,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.916016,
+					0.437601,
+					0.203957,
+					1
+				],
+				"fraction": 0.44,
+				"polar_color": [
+					0.912207,
+					0.614441,
+					0.46902,
+					1
+				]
+			},
+			"demographics": {
+				"type": 27,
+				"productivity": 7776,
+				"techLevel": 5,
+				"economy": 4,
+				"government": 2,
+				"description": "This world is fabled for its ancient Engeanian On banana plantations.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.604203,
+				0.746313,
+				0.831653,
+				1
+			],
+			"radius": 93009.565582,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 373670,
+				"vector": [
+					0.27,
+					-0.813,
+					-0.516
+				]
+			},
+			"corona": {
+				"shimmer": 0.429142,
+				"hues": 0.522964,
+				"flare": 0.092929
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Engean",
+				"radius": 6794
+			}
+		}
+	]
+}

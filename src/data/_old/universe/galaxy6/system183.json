@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system183",
+	"position": [
+		240,
+		104
+	],
+	"space": {
+		"blurs": 159,
+		"stars": 5221,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Quraa",
+			"name": "Quraa",
+			"seed": "206 104 242 240 208 250",
+			"body": {
+				"radius": 5616,
+				"rotation_v": 0.003979,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 617760
+			},
+			"land": {
+				"color": [
+					0.143127,
+					0.570433,
+					0.654297,
+					1
+				],
+				"polar_color": [
+					0.752037,
+					0.904623,
+					0.93457,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.591629,
+					0.746094,
+					0.713511,
+					1
+				],
+				"polar": [
+					0.877494,
+					0.925391,
+					0.915287,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.700004,
+					0.556829,
+					0.904693,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.716797,
+					0.319199,
+					0.617397,
+					1
+				],
+				"fraction": 0.12,
+				"polar_color": [
+					0.822559,
+					0.537394,
+					0.751267,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 37600,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 6,
+				"description": "This world is a tedious little planet.",
+				"inhabitants": "Slimy Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.731851,
+				0.759137,
+				0.848355,
+				1
+			],
+			"radius": 135343.234863,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 449280,
+				"vector": [
+					-0.136,
+					0.971,
+					-0.197
+				]
+			},
+			"corona": {
+				"shimmer": 0.455522,
+				"hues": 0.658989,
+				"flare": 0.094781
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Quraa",
+				"radius": 11232
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system107",
+	"position": [
+		159,
+		225
+	],
+	"space": {
+		"blurs": 66,
+		"stars": 7090,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orqube",
+			"name": "Orqube",
+			"seed": "141 225 161 159 149 89",
+			"body": {
+				"radius": 5279,
+				"rotation_v": 0.003814,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 686270
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.154688,
+					0.462612,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.755227,
+					0.864167,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.5625,
+					0.437053,
+					0.430884,
+					1
+				],
+				"polar": [
+					0.94375,
+					0.891132,
+					0.888544,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.566976,
+					0.903281,
+					0.992496,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.548641,
+					0.980469,
+					0.306396,
+					1
+				],
+				"fraction": 0.61,
+				"polar_color": [
+					0.682125,
+					0.941211,
+					0.536784,
+					1
+				]
+			},
+			"demographics": {
+				"type": 50,
+				"productivity": 28800,
+				"techLevel": 11,
+				"economy": 1,
+				"government": 4,
+				"description": "This world is ravaged by dreadful civil war.",
+				"inhabitants": "Yellow Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.484542,
+				0.650427,
+				0.826898,
+				1
+			],
+			"radius": 137984.921112,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 527900,
+				"vector": [
+					-0.117,
+					-0.858,
+					0.5
+				]
+			},
+			"corona": {
+				"shimmer": 0.360651,
+				"hues": 0.577919,
+				"flare": 0.002609
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Orqube",
+				"radius": 10558
+			}
+		}
+	]
+}

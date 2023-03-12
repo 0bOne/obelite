@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system84",
+	"position": [
+		67,
+		141
+	],
+	"space": {
+		"blurs": 103,
+		"stars": 6655,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Leentima",
+			"name": "Leentima",
+			"seed": "89 141 113 67 141 65",
+			"body": {
+				"radius": 3139,
+				"rotation_v": 0.000977,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 282510
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.622617,
+					0.510469,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.920774,
+					0.881098,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.0476074,
+					0.410242,
+					0.761719,
+					1
+				],
+				"polar": [
+					0.707306,
+					0.817259,
+					0.923828,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.798946,
+					0.755039,
+					0.973635,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.89758,
+					0.855263,
+					0.923828,
+					1
+				],
+				"fraction": 0.55,
+				"polar_color": [
+					0.899462,
+					0.873245,
+					0.915723,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 17600,
+				"techLevel": 8,
+				"economy": 5,
+				"government": 6,
+				"description": "The world Leentima is mildly fabled for its inhabitants’ eccentric love for poetry but plagued by frequent earthquakes.",
+				"inhabitants": "Large Yellow Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.65538,
+				0.569384,
+				0.383144,
+				1
+			],
+			"radius": 90267.803802,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 439460,
+				"vector": [
+					0.131,
+					-0.898,
+					-0.421
+				]
+			},
+			"corona": {
+				"shimmer": 0.518112,
+				"hues": 0.914742,
+				"flare": 0.09789
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Leentima",
+				"radius": 6278
+			}
+		}
+	]
+}

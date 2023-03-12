@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system212",
+	"position": [
+		61,
+		166
+	],
+	"space": {
+		"blurs": 71,
+		"stars": 9057,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Reenri",
+			"name": "Reenri",
+			"seed": "242 166 66 61 180 78",
+			"body": {
+				"radius": 6461,
+				"rotation_v": 0.003717,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 904540
+			},
+			"land": {
+				"color": [
+					0.5625,
+					0.474609,
+					0.491089,
+					1
+				],
+				"polar_color": [
+					0.94375,
+					0.906885,
+					0.913797,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.943359,
+					0.635144,
+					0.19899,
+					1
+				],
+				"polar": [
+					0.905664,
+					0.831689,
+					0.727008,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.720478,
+					0.730719,
+					0.969732,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.755341,
+					0.772487,
+					0.912109,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.812647,
+					0.823344,
+					0.910449,
+					1
+				]
+			},
+			"demographics": {
+				"type": 15,
+				"productivity": 1920,
+				"techLevel": 2,
+				"economy": 6,
+				"government": 0,
+				"description": "The world Reenri is mildly fabled for its inhabitants’ eccentric shyness but cursed by occasional earthquakes.",
+				"inhabitants": "Yellow Bony Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.841922,
+				0.491579,
+				0.343656,
+				1
+			],
+			"radius": 199294.679413,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 387660,
+				"vector": [
+					0.833,
+					-0.506,
+					0.225
+				]
+			},
+			"corona": {
+				"shimmer": 0.412622,
+				"hues": 0.546562,
+				"flare": 0.012219
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Reenri",
+				"radius": 12922
+			}
+		}
+	]
+}

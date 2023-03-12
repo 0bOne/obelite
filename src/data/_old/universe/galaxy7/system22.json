@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system22",
+	"position": [
+		74,
+		45
+	],
+	"space": {
+		"blurs": 186,
+		"stars": 6833,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Inzaan",
+			"name": "Inzaan",
+			"seed": "17 45 0 74 253 204",
+			"body": {
+				"radius": 5962,
+				"rotation_v": 0.004753,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 715440
+			},
+			"land": {
+				"color": [
+					0.428855,
+					0.66,
+					0.270703,
+					1
+				],
+				"polar_color": [
+					0.852224,
+					0.934,
+					0.796272,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.607422,
+					0.586327,
+					0.472413,
+					1
+				],
+				"polar": [
+					0.939258,
+					0.931103,
+					0.887067,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.604454,
+					0.496398,
+					0.93266,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.644721,
+					0.156403,
+					0.800781,
+					1
+				],
+				"fraction": 0.14,
+				"polar_color": [
+					0.755558,
+					0.427655,
+					0.860352,
+					1
+				]
+			},
+			"demographics": {
+				"type": 16,
+				"productivity": 1536,
+				"techLevel": 2,
+				"economy": 7,
+				"government": 0,
+				"description": "Inzaan is most noted for the Inzaanian evil poet and Inzaanian Nu brandy.",
+				"inhabitants": "Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.630387,
+				0.748389,
+				0.756345,
+				1
+			],
+			"radius": 170920.794983,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 417340,
+				"vector": [
+					-0.268,
+					0.962,
+					-0.045
+				]
+			},
+			"corona": {
+				"shimmer": 0.270747,
+				"hues": 0.600655,
+				"flare": 0.032521
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Inzaan",
+				"radius": 11924
+			}
+		}
+	]
+}

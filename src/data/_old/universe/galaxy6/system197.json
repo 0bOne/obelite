@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system197",
+	"position": [
+		133,
+		187
+	],
+	"space": {
+		"blurs": 106,
+		"stars": 5996,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xegearer",
+			"name": "Xegearer",
+			"seed": "222 187 58 133 64 66",
+			"body": {
+				"radius": 3461,
+				"rotation_v": 0.004816,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 449930
+			},
+			"land": {
+				"color": [
+					0.505313,
+					0.522231,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.879273,
+					0.885259,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.570312,
+					0.541129,
+					0.453577,
+					1
+				],
+				"polar": [
+					0.942969,
+					0.930905,
+					0.894715,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.559963,
+					0.919768,
+					0.993797,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.618058,
+					0.984375,
+					0.284546,
+					1
+				],
+				"fraction": 0.25,
+				"polar_color": [
+					0.723651,
+					0.942969,
+					0.523974,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 28952,
+				"techLevel": 9,
+				"economy": 3,
+				"government": 7,
+				"description": "This planet is very notable for its inhabitants’ weird shyness and its inhabitants’ eccentric love for poetry.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.706964,
+				0.539867,
+				0.284346,
+				1
+			],
+			"radius": 71986.750946,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 173050,
+				"vector": [
+					0.631,
+					0.457,
+					-0.627
+				]
+			},
+			"corona": {
+				"shimmer": 0.53924,
+				"hues": 0.675446,
+				"flare": 0.061414
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xegearer",
+				"radius": 6922
+			}
+		}
+	]
+}

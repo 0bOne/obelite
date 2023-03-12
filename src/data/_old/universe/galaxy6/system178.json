@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system178",
+	"position": [
+		39,
+		181
+	],
+	"space": {
+		"blurs": 144,
+		"stars": 6813,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xeonar",
+			"name": "Xeonar",
+			"seed": "50 181 250 39 116 66",
+			"body": {
+				"radius": 3367,
+				"rotation_v": 0.003395,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 336700
+			},
+			"land": {
+				"color": [
+					0.484688,
+					0.58604,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.871977,
+					0.907834,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.521484,
+					0.330511,
+					0.0325928,
+					1
+				],
+				"polar": [
+					0.947852,
+					0.861073,
+					0.725699,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.703945,
+					0.838156,
+					0.88258,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.64654,
+					0.650391,
+					0.645309,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.789743,
+					0.792676,
+					0.788805,
+					1
+				]
+			},
+			"demographics": {
+				"type": 49,
+				"productivity": 21560,
+				"techLevel": 9,
+				"economy": 5,
+				"government": 7,
+				"description": "The world Xeonar is scourged by evil disease.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.719232,
+				0.657111,
+				0.453594,
+				1
+			],
+			"radius": 88870.797729,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 303030,
+				"vector": [
+					-0.766,
+					0.612,
+					-0.195
+				]
+			},
+			"corona": {
+				"shimmer": 0.313123,
+				"hues": 0.780022,
+				"flare": 0.016507
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xeonar",
+				"radius": 6734
+			}
+		}
+	]
+}

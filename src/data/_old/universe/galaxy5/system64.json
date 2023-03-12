@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system64",
+	"position": [
+		9,
+		16
+	],
+	"space": {
+		"blurs": 81,
+		"stars": 9677,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tiatenqu",
+			"name": "Tiatenqu",
+			"seed": "73 16 137 9 106 215",
+			"body": {
+				"radius": 4617,
+				"rotation_v": 0.002873,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 554040
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.381563,
+					0.394614,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.835492,
+					0.84011,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.611385,
+					0.650391,
+					0.503545,
+					1
+				],
+				"polar": [
+					0.920943,
+					0.934961,
+					0.882187,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.662205,
+					0.862161,
+					0.920303,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.636518,
+					0.763672,
+					0.57872,
+					1
+				],
+				"fraction": 0.25,
+				"polar_color": [
+					0.755858,
+					0.843652,
+					0.715951,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 10240,
+				"techLevel": 7,
+				"economy": 2,
+				"government": 1,
+				"description": "This world is a tedious little planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.45472,
+				0.483807,
+				0.733136,
+				1
+			],
+			"radius": 116430.319061,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 369360,
+				"vector": [
+					0.947,
+					-0.099,
+					-0.305
+				]
+			},
+			"corona": {
+				"shimmer": 0.808149,
+				"hues": 0.586052,
+				"flare": 0.099452
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tiatenqu",
+				"radius": 9234
+			}
+		}
+	]
+}

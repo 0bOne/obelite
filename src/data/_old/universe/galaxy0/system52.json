@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system52",
+	"position": [
+		104,
+		36
+	],
+	"space": {
+		"blurs": 99,
+		"stars": 7503,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xeaqu",
+			"name": "Xeaqu",
+			"seed": "26 36 192 104 51 34",
+			"body": {
+				"radius": 3432,
+				"rotation_v": 0.003507,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 377520
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.136641,
+					0.381965,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.748842,
+					0.835635,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.576811,
+					0.619141,
+					0.493136,
+					1
+				],
+				"polar": [
+					0.922052,
+					0.938086,
+					0.890357,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.708109,
+					0.536379,
+					0.924205,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.775391,
+					0.263512,
+					0.599432,
+					1
+				],
+				"fraction": 0.32,
+				"polar_color": [
+					0.848926,
+					0.498661,
+					0.728522,
+					1
+				]
+			},
+			"demographics": {
+				"type": 11,
+				"productivity": 1408,
+				"techLevel": 1,
+				"economy": 6,
+				"government": 0,
+				"description": "The world Xeaqu is a dull place.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.193022,
+				0.456387,
+				0.745538,
+				1
+			],
+			"radius": 72038.170166,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 205920,
+				"vector": [
+					-0.712,
+					0.268,
+					-0.649
+				]
+			},
+			"corona": {
+				"shimmer": 0.943616,
+				"hues": 0.822044,
+				"flare": 0.032054
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xeaqu",
+				"radius": 6864
+			}
+		}
+	]
+}

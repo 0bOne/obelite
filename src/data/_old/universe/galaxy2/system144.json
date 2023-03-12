@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system144",
+	"position": [
+		129,
+		232
+	],
+	"space": {
+		"blurs": 161,
+		"stars": 9731,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Soatqube",
+			"name": "Soatqube",
+			"seed": "233 232 97 129 77 167",
+			"body": {
+				"radius": 4737,
+				"rotation_v": 0.002908,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 615810
+			},
+			"land": {
+				"color": [
+					0.48934,
+					0.0696094,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.873623,
+					0.725127,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.541016,
+					0.449633,
+					0.425204,
+					1
+				],
+				"polar": [
+					0.945898,
+					0.905956,
+					0.895278,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.653439,
+					0.809145,
+					0.963879,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.566071,
+					0.894531,
+					0.732867,
+					1
+				],
+				"fraction": 0.27,
+				"polar_color": [
+					0.695413,
+					0.902539,
+					0.800594,
+					1
+				]
+			},
+			"demographics": {
+				"type": 45,
+				"productivity": 28800,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 4,
+				"description": "Soatqube is well known for the Soatqubeian spotted wolf but beset by frequent civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.810699,
+				0.562213,
+				0.399363,
+				1
+			],
+			"radius": 110169.800262,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 189480,
+				"vector": [
+					0.634,
+					0.001,
+					-0.773
+				]
+			},
+			"corona": {
+				"shimmer": 0.412425,
+				"hues": 0.971794,
+				"flare": 0.034885
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Soatqube",
+				"radius": 9474
+			}
+		}
+	]
+}

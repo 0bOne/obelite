@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system23",
+	"position": [
+		22,
+		232
+	],
+	"space": {
+		"blurs": 75,
+		"stars": 9004,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Onrira",
+			"name": "Onrira",
+			"seed": "56 232 60 22 221 127",
+			"body": {
+				"radius": 6678,
+				"rotation_v": 0.003303,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 801360
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.57045,
+					0.219141,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.902318,
+					0.778029,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.556641,
+					0.423134,
+					0.438779,
+					1
+				],
+				"polar": [
+					0.944336,
+					0.887713,
+					0.894348,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.693216,
+					0.735964,
+					0.977537,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.679733,
+					0.791652,
+					0.935547,
+					1
+				],
+				"fraction": 0.63,
+				"polar_color": [
+					0.763599,
+					0.83246,
+					0.920996,
+					1
+				]
+			},
+			"demographics": {
+				"type": 60,
+				"productivity": 52800,
+				"techLevel": 13,
+				"economy": 0,
+				"government": 7,
+				"description": "The world Onrira is mildly noted for the Onriraian deadly Esonatoid but plagued by lethal spotted yaks.",
+				"inhabitants": "Blue Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.548853,
+				0.729793,
+				0.754706,
+				1
+			],
+			"radius": 156695.984802,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 534240,
+				"vector": [
+					-0.661,
+					0.746,
+					-0.077
+				]
+			},
+			"corona": {
+				"shimmer": 0.596248,
+				"hues": 0.994728,
+				"flare": 0.086743
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Onrira",
+				"radius": 13356
+			}
+		}
+	]
+}

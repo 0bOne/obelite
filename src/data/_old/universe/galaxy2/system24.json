@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system24",
+	"position": [
+		106,
+		255
+	],
+	"space": {
+		"blurs": 113,
+		"stars": 8313,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Aorbete",
+			"name": "Aorbete",
+			"seed": "201 255 1 106 205 111",
+			"body": {
+				"radius": 6762,
+				"rotation_v": 0.004129,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 879060
+			},
+			"land": {
+				"color": [
+					0.621812,
+					0.66,
+					0.598125,
+					1
+				],
+				"polar_color": [
+					0.920489,
+					0.934,
+					0.912109,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.108917,
+					0.648438,
+					0.521987,
+					1
+				],
+				"polar": [
+					0.740636,
+					0.935156,
+					0.889566,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.477228,
+					0.54391,
+					0.89884,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.133835,
+					0.394441,
+					0.699219,
+					1
+				],
+				"fraction": 0.17,
+				"polar_color": [
+					0.402949,
+					0.592717,
+					0.814648,
+					1
+				]
+			},
+			"demographics": {
+				"type": 16,
+				"productivity": 1536,
+				"techLevel": 2,
+				"economy": 7,
+				"government": 0,
+				"description": "This world is very notable for its inhabitants’ weird silliness and its inhabitants’ ingrained silliness.",
+				"inhabitants": "Blue Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.822595,
+				0.721328,
+				0.551335,
+				1
+			],
+			"radius": 186285.175781,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 676200,
+				"vector": [
+					-0.422,
+					0.401,
+					-0.813
+				]
+			},
+			"corona": {
+				"shimmer": 1.027822,
+				"hues": 0.765274,
+				"flare": 0.095264
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Aorbete",
+				"radius": 13524
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system204",
+	"position": [
+		22,
+		217
+	],
+	"space": {
+		"blurs": 194,
+		"stars": 9853,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Oresqu",
+			"name": "Oresqu",
+			"seed": "186 217 144 22 179 249",
+			"body": {
+				"radius": 5142,
+				"rotation_v": 0.001719,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 668460
+			},
+			"land": {
+				"color": [
+					0.432902,
+					0.337547,
+					0.572266,
+					1
+				],
+				"polar_color": [
+					0.885375,
+					0.846102,
+					0.942773,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.599609,
+					0.485737,
+					0.450878,
+					1
+				],
+				"polar": [
+					0.940039,
+					0.895408,
+					0.881746,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.508694,
+					0.635813,
+					0.846158,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.217674,
+					0.541016,
+					0.503124,
+					1
+				],
+				"fraction": 0.49,
+				"polar_color": [
+					0.46575,
+					0.743457,
+					0.710913,
+					1
+				]
+			},
+			"demographics": {
+				"type": 40,
+				"productivity": 17280,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 2,
+				"description": "Oresqu is mildly notable for its inhabitants’ unusual mating traditions.",
+				"inhabitants": "Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.72504,
+				0.642847,
+				0.580698,
+				1
+			],
+			"radius": 137757.362366,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 462780,
+				"vector": [
+					-0.645,
+					-0.748,
+					0.157
+				]
+			},
+			"corona": {
+				"shimmer": 0.423715,
+				"hues": 0.63929,
+				"flare": 0.070436
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Oresqu",
+				"radius": 10284
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system121",
+	"position": [
+		53,
+		4
+	],
+	"space": {
+		"blurs": 56,
+		"stars": 5213,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arzace",
+			"name": "Arzace",
+			"seed": "128 4 80 53 250 42",
+			"body": {
+				"radius": 5429,
+				"rotation_v": 0.002449,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 651480
+			},
+			"land": {
+				"color": [
+					0.640819,
+					0.654297,
+					0.585289,
+					1
+				],
+				"polar_color": [
+					0.929757,
+					0.93457,
+					0.909928,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.155296,
+					0.576172,
+					0.369022,
+					1
+				],
+				"polar": [
+					0.770288,
+					0.942383,
+					0.85768,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.650067,
+					0.864369,
+					0.810619,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.595703,
+					0.531802,
+					0.509605,
+					1
+				],
+				"fraction": 0.16,
+				"polar_color": [
+					0.768066,
+					0.716573,
+					0.698685,
+					1
+				]
+			},
+			"demographics": {
+				"type": 27,
+				"productivity": 7776,
+				"techLevel": 5,
+				"economy": 4,
+				"government": 2,
+				"description": "The planet Arzace is scourged by evil disease.",
+				"inhabitants": "Small Red Bug-Eyed Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.331583,
+				0.600012,
+				0.813461,
+				1
+			],
+			"radius": 94931.287231,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 597190,
+				"vector": [
+					0.83,
+					0.31,
+					0.463
+				]
+			},
+			"corona": {
+				"shimmer": 0.379136,
+				"hues": 0.516251,
+				"flare": 0.015591
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Arzace",
+				"radius": 10858
+			}
+		}
+	]
+}

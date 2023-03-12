@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system32",
+	"position": [
+		220,
+		3
+	],
+	"space": {
+		"blurs": 105,
+		"stars": 7415,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Bebege",
+			"name": "Bebege",
+			"seed": "148 3 16 220 166 243",
+			"body": {
+				"radius": 3804,
+				"rotation_v": 0.000223,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 418440
+			},
+			"land": {
+				"color": [
+					0.519531,
+					0.45256,
+					0.490232,
+					1
+				],
+				"polar_color": [
+					0.948047,
+					0.917495,
+					0.93468,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.688041,
+					0.689453,
+					0.508741,
+					1
+				],
+				"polar": [
+					0.930578,
+					0.931055,
+					0.870045,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.590615,
+					0.93201,
+					0.883686,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.798828,
+					0.633446,
+					0.399414,
+					1
+				],
+				"fraction": 0.5,
+				"polar_color": [
+					0.859473,
+					0.748262,
+					0.590887,
+					1
+				]
+			},
+			"demographics": {
+				"type": 26,
+				"productivity": 8736,
+				"techLevel": 5,
+				"economy": 3,
+				"government": 2,
+				"description": "This world is most fabled for Zero-G hockey but ravaged by occasional earthquakes.",
+				"inhabitants": "Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.699924,
+				0.69156,
+				0.579982,
+				1
+			],
+			"radius": 94992.037354,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 342360,
+				"vector": [
+					0.852,
+					-0.147,
+					0.503
+				]
+			},
+			"corona": {
+				"shimmer": 0.28031,
+				"hues": 0.781609,
+				"flare": 0.089258
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Bebege",
+				"radius": 7608
+			}
+		}
+	]
+}

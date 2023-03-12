@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system140",
+	"position": [
+		237,
+		174
+	],
+	"space": {
+		"blurs": 41,
+		"stars": 6836,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Geonerbe",
+			"name": "Geonerbe",
+			"seed": "242 174 162 237 26 35",
+			"body": {
+				"radius": 3821,
+				"rotation_v": 0.004426,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 534940
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.208828,
+					0.303997,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.774381,
+					0.808051,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.605469,
+					0.485284,
+					0.453156,
+					1
+				],
+				"polar": [
+					0.939453,
+					0.892833,
+					0.88037,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.602598,
+					0.873623,
+					0.974936,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.507581,
+					0.927734,
+					0.42038,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.657787,
+					0.91748,
+					0.603889,
+					1
+				]
+			},
+			"demographics": {
+				"type": 27,
+				"productivity": 6912,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 4,
+				"description": "Geonerbe is an unremarkable planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.821246,
+				0.585094,
+				0.516098,
+				1
+			],
+			"radius": 95803.692322,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 267470,
+				"vector": [
+					0.045,
+					0.952,
+					-0.302
+				]
+			},
+			"corona": {
+				"shimmer": 0.437315,
+				"hues": 0.536209,
+				"flare": 0.05822
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Geonerbe",
+				"radius": 7642
+			}
+		}
+	]
+}

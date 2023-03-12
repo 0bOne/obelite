@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system193",
+	"position": [
+		6,
+		143
+	],
+	"space": {
+		"blurs": 48,
+		"stars": 6737,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orrere",
+			"name": "Orrere",
+			"seed": "128 143 56 6 29 25",
+			"body": {
+				"radius": 5126,
+				"rotation_v": 0.000598,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 615120
+			},
+			"land": {
+				"color": [
+					0.511719,
+					0.419769,
+					0.508127,
+					1
+				],
+				"polar_color": [
+					0.948828,
+					0.906205,
+					0.947163,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.681636,
+					0.722656,
+					0.553284,
+					1
+				],
+				"polar": [
+					0.914569,
+					0.927734,
+					0.873375,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.717389,
+					0.618929,
+					0.84941,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.550781,
+					0.432449,
+					0.515651,
+					1
+				],
+				"fraction": 0.2,
+				"polar_color": [
+					0.747852,
+					0.647432,
+					0.71804,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 10296,
+				"techLevel": 6,
+				"economy": 7,
+				"government": 7,
+				"description": "Orrere is mildly well known for Orrereian vicious brew.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.712302,
+				0.592113,
+				0.542845,
+				1
+			],
+			"radius": 106268.919373,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 307560,
+				"vector": [
+					-0.008,
+					0.926,
+					-0.377
+				]
+			},
+			"corona": {
+				"shimmer": 0.442739,
+				"hues": 0.780128,
+				"flare": 0.003983
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Orrere",
+				"radius": 10252
+			}
+		}
+	]
+}

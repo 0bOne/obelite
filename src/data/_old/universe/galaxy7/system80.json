@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system80",
+	"position": [
+		122,
+		251
+	],
+	"space": {
+		"blurs": 72,
+		"stars": 7098,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Laace",
+			"name": "Laace",
+			"seed": "69 251 68 122 9 0",
+			"body": {
+				"radius": 2938,
+				"rotation_v": 0.003729,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 381940
+			},
+			"land": {
+				"color": [
+					0.0464063,
+					0.257329,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.716918,
+					0.79154,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.607422,
+					0.468754,
+					0.450346,
+					1
+				],
+				"polar": [
+					0.939258,
+					0.885652,
+					0.878536,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.574322,
+					0.920947,
+					0.980789,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.669231,
+					0.945312,
+					0.336029,
+					1
+				],
+				"fraction": 0.13,
+				"polar_color": [
+					0.756476,
+					0.925391,
+					0.552614,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 6272,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 0,
+				"description": "The world Laace is a dull world.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.842993,
+				0.842504,
+				0.8409,
+				1
+			],
+			"radius": 54266.208496,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 205660,
+				"vector": [
+					0.387,
+					0.508,
+					0.77
+				]
+			},
+			"corona": {
+				"shimmer": 0.330063,
+				"hues": 0.91713,
+				"flare": 0.093175
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Laace",
+				"radius": 5876
+			}
+		}
+	]
+}

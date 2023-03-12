@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system134",
+	"position": [
+		180,
+		15
+	],
+	"space": {
+		"blurs": 149,
+		"stars": 6741,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tiqubied",
+			"name": "Tiqubied",
+			"seed": "113 15 96 180 29 23",
+			"body": {
+				"radius": 4788,
+				"rotation_v": 0.002186,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 526680
+			},
+			"land": {
+				"color": [
+					0.619141,
+					0.519906,
+					0.493378,
+					1
+				],
+				"polar_color": [
+					0.938086,
+					0.900497,
+					0.890449,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.180176,
+					0.5625,
+					0.428089,
+					1
+				],
+				"polar": [
+					0.783386,
+					0.94375,
+					0.887372,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.519729,
+					0.561252,
+					0.868271,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.239647,
+					0.36607,
+					0.607422,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.480694,
+					0.581291,
+					0.77334,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 3840,
+				"techLevel": 2,
+				"economy": 7,
+				"government": 4,
+				"description": "This planet is plagued by frequent solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.688293,
+				0.469359,
+				0.456154,
+				1
+			],
+			"radius": 74671.495972,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 478800,
+				"vector": [
+					-0.964,
+					0.227,
+					-0.141
+				]
+			},
+			"corona": {
+				"shimmer": 0.846653,
+				"hues": 0.885002,
+				"flare": 0.062199
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tiqubied",
+				"radius": 9576
+			}
+		}
+	]
+}

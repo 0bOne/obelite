@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system215",
+	"position": [
+		225,
+		16
+	],
+	"space": {
+		"blurs": 141,
+		"stars": 7523,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Maisesen",
+			"name": "Maisesen",
+			"seed": "122 16 34 225 106 139",
+			"body": {
+				"radius": 5857,
+				"rotation_v": 0.003848,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 702840
+			},
+			"land": {
+				"color": [
+					0.440859,
+					0.536733,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.856471,
+					0.89039,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.635964,
+					0.640625,
+					0.491479,
+					1
+				],
+				"polar": [
+					0.934235,
+					0.935938,
+					0.881463,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.72152,
+					0.772121,
+					0.943066,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.744278,
+					0.803237,
+					0.832031,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.816774,
+					0.855501,
+					0.874414,
+					1
+				]
+			},
+			"demographics": {
+				"type": 45,
+				"productivity": 28800,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 4,
+				"description": "The world Maisesen is reasonably fabled for Zero-G cricket and its fabulous vicious Th brew.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.273279,
+				0.559363,
+				0.786484,
+				1
+			],
+			"radius": 172051.162415,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 292850,
+				"vector": [
+					-0.68,
+					0.712,
+					-0.175
+				]
+			},
+			"corona": {
+				"shimmer": 0.685652,
+				"hues": 0.673355,
+				"flare": 0.094881
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Maisesen",
+				"radius": 11714
+			}
+		}
+	]
+}

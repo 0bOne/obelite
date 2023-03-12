@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system166",
+	"position": [
+		120,
+		79
+	],
+	"space": {
+		"blurs": 63,
+		"stars": 8325,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tierus",
+			"name": "Tierus",
+			"seed": "210 79 234 120 148 247",
+			"body": {
+				"radius": 4728,
+				"rotation_v": 0.001615,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 567360
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.00773438,
+					0.573371,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.703236,
+					0.903352,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.537109,
+					0.451009,
+					0.424652,
+					1
+				],
+				"polar": [
+					0.946289,
+					0.908366,
+					0.896757,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.516374,
+					0.504849,
+					0.900141,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.249081,
+					0.197754,
+					0.703125,
+					1
+				],
+				"fraction": 0.44,
+				"polar_color": [
+					0.486909,
+					0.449661,
+					0.816406,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 5400,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 5,
+				"description": "The world Tierus is a boring world.",
+				"inhabitants": "Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.718265,
+				0.477484,
+				0.261198,
+				1
+			],
+			"radius": 95441.594238,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 567360,
+				"vector": [
+					0.664,
+					0.682,
+					0.308
+				]
+			},
+			"corona": {
+				"shimmer": 0.260427,
+				"hues": 0.708496,
+				"flare": 0.083434
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tierus",
+				"radius": 9456
+			}
+		}
+	]
+}

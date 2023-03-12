@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system235",
+	"position": [
+		241,
+		179
+	],
+	"space": {
+		"blurs": 134,
+		"stars": 9859,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Cearle",
+			"name": "Cearle",
+			"seed": "141 179 161 241 149 165",
+			"body": {
+				"radius": 4337,
+				"rotation_v": 0.003862,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 650550
+			},
+			"land": {
+				"color": [
+					0.223022,
+					0.509766,
+					0.429119,
+					1
+				],
+				"polar_color": [
+					0.815567,
+					0.949023,
+					0.911489,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.578125,
+					0.722656,
+					0.671844,
+					1
+				],
+				"polar": [
+					0.881348,
+					0.927734,
+					0.911427,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.577636,
+					0.530649,
+					0.890385,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.428463,
+					0.260582,
+					0.673828,
+					1
+				],
+				"fraction": 0.25,
+				"polar_color": [
+					0.620421,
+					0.495347,
+					0.803223,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 16128,
+				"techLevel": 7,
+				"economy": 3,
+				"government": 4,
+				"description": "The world Cearle is beset by dreadful earthquakes.",
+				"inhabitants": "Fierce Harmless Horned Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.386572,
+				0.518849,
+				0.795584,
+				1
+			],
+			"radius": 108723.45993,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 173480,
+				"vector": [
+					0.451,
+					-0.445,
+					-0.774
+				]
+			},
+			"corona": {
+				"shimmer": 0.284882,
+				"hues": 0.856285,
+				"flare": 0.014178
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Cearle",
+				"radius": 8674
+			}
+		}
+	]
+}

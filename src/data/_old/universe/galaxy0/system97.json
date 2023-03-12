@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system97",
+	"position": [
+		151,
+		6
+	],
+	"space": {
+		"blurs": 42,
+		"stars": 7229,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Leoned",
+			"name": "Leoned",
+			"seed": "128 6 120 151 157 129",
+			"body": {
+				"radius": 3223,
+				"rotation_v": 0.003168,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 290070
+			},
+			"land": {
+				"color": [
+					0.226135,
+					0.411767,
+					0.609375,
+					1
+				],
+				"polar_color": [
+					0.791417,
+					0.862933,
+					0.939062,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.59375,
+					0.458388,
+					0.444385,
+					1
+				],
+				"polar": [
+					0.940625,
+					0.887014,
+					0.881468,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.443357,
+					0.459837,
+					0.938514,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0127869,
+					0.0820158,
+					0.818359,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.334077,
+					0.379984,
+					0.868262,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 16192,
+				"techLevel": 8,
+				"economy": 6,
+				"government": 7,
+				"description": "Leoned is reasonably well known for the Leonedian tree snake but scourged by unpredictable earthquakes.",
+				"inhabitants": "Large Black Bug-Eyed Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.703262,
+				0.596361,
+				0.532488,
+				1
+			],
+			"radius": 85575.036774,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 386760,
+				"vector": [
+					-0.031,
+					0.985,
+					-0.169
+				]
+			},
+			"corona": {
+				"shimmer": 0.307987,
+				"hues": 0.829048,
+				"flare": 0.03421
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Leoned",
+				"radius": 6446
+			}
+		}
+	]
+}

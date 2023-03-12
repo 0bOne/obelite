@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system160",
+	"position": [
+		152,
+		232
+	],
+	"space": {
+		"blurs": 86,
+		"stars": 9422,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anisat",
+			"name": "Anisat",
+			"seed": "164 232 196 152 181 219",
+			"body": {
+				"radius": 5784,
+				"rotation_v": 0.00399,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 694080
+			},
+			"land": {
+				"color": [
+					0.499794,
+					0.66,
+					0.448594,
+					1
+				],
+				"polar_color": [
+					0.877321,
+					0.934,
+					0.859207,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.634766,
+					0.526398,
+					0.467644,
+					1
+				],
+				"polar": [
+					0.936523,
+					0.896552,
+					0.874881,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.461794,
+					0.53966,
+					0.909896,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0886917,
+					0.415586,
+					0.732422,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.373883,
+					0.605296,
+					0.82959,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 5888,
+				"techLevel": 5,
+				"economy": 2,
+				"government": 0,
+				"description": "The world Anisat is most well known for its vast dense forests.",
+				"inhabitants": "Slimy Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.442275,
+				0.671656,
+				0.730099,
+				1
+			],
+			"radius": 110907.070312,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 347040,
+				"vector": [
+					-0.088,
+					-0.664,
+					-0.743
+				]
+			},
+			"corona": {
+				"shimmer": 0.398861,
+				"hues": 0.657852,
+				"flare": 0.075694
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anisat",
+				"radius": 11568
+			}
+		}
+	]
+}

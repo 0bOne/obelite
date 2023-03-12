@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system97",
+	"position": [
+		20,
+		240
+	],
+	"space": {
+		"blurs": 127,
+		"stars": 9586,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Soinsoan",
+			"name": "Soinsoan",
+			"seed": "94 240 42 20 128 231",
+			"body": {
+				"radius": 4628,
+				"rotation_v": 0.001749,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 555360
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.605094,
+					0.417656,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.914575,
+					0.848262,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.617188,
+					0.390564,
+					0.571155,
+					1
+				],
+				"polar": [
+					0.938281,
+					0.85215,
+					0.920786,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.638723,
+					0.490127,
+					0.946318,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.836222,
+					0.128242,
+					0.841797,
+					1
+				],
+				"fraction": 0.54,
+				"polar_color": [
+					0.875171,
+					0.413229,
+					0.878809,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 33120,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 5,
+				"description": "This world is very fabled for its unusual tropical forests.",
+				"inhabitants": "Fierce Fat Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.746808,
+				0.444016,
+				0.322959,
+				1
+			],
+			"radius": 119961.070557,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 416520,
+				"vector": [
+					-0.33,
+					0.709,
+					-0.623
+				]
+			},
+			"corona": {
+				"shimmer": 0.300046,
+				"hues": 0.583031,
+				"flare": 0.000113
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Soinsoan",
+				"radius": 9256
+			}
+		}
+	]
+}

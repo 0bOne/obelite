@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system35",
+	"position": [
+		80,
+		117
+	],
+	"space": {
+		"blurs": 43,
+		"stars": 9240,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edriuson",
+			"name": "Edriuson",
+			"seed": "109 117 129 80 213 152",
+			"body": {
+				"radius": 4944,
+				"rotation_v": 0.000082,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 494400
+			},
+			"land": {
+				"color": [
+					0.556641,
+					0.392679,
+					0.00434875,
+					1
+				],
+				"polar_color": [
+					0.944336,
+					0.874796,
+					0.710096,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.666016,
+					0.61504,
+					0.517723,
+					1
+				],
+				"polar": [
+					0.933398,
+					0.915538,
+					0.881442,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.69623,
+					0.54177,
+					0.917051,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.753906,
+					0.27977,
+					0.635372,
+					1
+				],
+				"fraction": 0.23,
+				"polar_color": [
+					0.839258,
+					0.509374,
+					0.756787,
+					1
+				]
+			},
+			"demographics": {
+				"type": 8,
+				"productivity": 768,
+				"techLevel": 0,
+				"economy": 7,
+				"government": 0,
+				"description": "This world is very notable for its inhabitants’ weird shyness and its inhabitants’ eccentric shyness.",
+				"inhabitants": "Black Furry Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.640972,
+				0.706376,
+				0.816418,
+				1
+			],
+			"radius": 135519.433594,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 543840,
+				"vector": [
+					0.632,
+					0.33,
+					-0.701
+				]
+			},
+			"corona": {
+				"shimmer": 0.351038,
+				"hues": 0.897247,
+				"flare": 0.052927
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Edriuson",
+				"radius": 9888
+			}
+		}
+	]
+}

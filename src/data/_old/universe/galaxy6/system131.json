@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system131",
+	"position": [
+		145,
+		208
+	],
+	"space": {
+		"blurs": 95,
+		"stars": 9569,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Erenra",
+			"name": "Erenra",
+			"seed": "14 208 98 145 208 48",
+			"body": {
+				"radius": 2961,
+				"rotation_v": 0.003247,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 414540
+			},
+			"land": {
+				"color": [
+					0.200771,
+					0.0721875,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.771531,
+					0.726039,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.625,
+					0.622807,
+					0.484619,
+					1
+				],
+				"polar": [
+					0.9375,
+					0.936677,
+					0.884857,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.696373,
+					0.528986,
+					0.928107,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.787109,
+					0.242897,
+					0.638301,
+					1
+				],
+				"fraction": 0.48,
+				"polar_color": [
+					0.854199,
+					0.485075,
+					0.753267,
+					1
+				]
+			},
+			"demographics": {
+				"type": 45,
+				"productivity": 28800,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 4,
+				"description": "This planet is very well known for its inhabitants’ unusual silliness and vicious Mare brew.",
+				"inhabitants": "Red Bug-Eyed Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.783954,
+				0.768932,
+				0.76732,
+				1
+			],
+			"radius": 79324.763489,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 266490,
+				"vector": [
+					0.474,
+					0.815,
+					-0.333
+				]
+			},
+			"corona": {
+				"shimmer": 0.323465,
+				"hues": 0.786217,
+				"flare": 0.08515
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Erenra",
+				"radius": 5922
+			}
+		}
+	]
+}

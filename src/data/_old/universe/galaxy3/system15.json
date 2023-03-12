@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system15",
+	"position": [
+		252,
+		128
+	],
+	"space": {
+		"blurs": 141,
+		"stars": 9086,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Isanla",
+			"name": "Isanla",
+			"seed": "58 128 226 252 234 93",
+			"body": {
+				"radius": 6396,
+				"rotation_v": 0.001331,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 895440
+			},
+			"land": {
+				"color": [
+					0.609042,
+					0.66,
+					0.363516,
+					1
+				],
+				"polar_color": [
+					0.915972,
+					0.934,
+					0.829107,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.288391,
+					0.381732,
+					0.527344,
+					1
+				],
+				"polar": [
+					0.839958,
+					0.881875,
+					0.947266,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.44527,
+					0.779791,
+					0.844857,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.316811,
+					0.537109,
+					0.0965118,
+					1
+				],
+				"fraction": 0.24,
+				"polar_color": [
+					0.551566,
+					0.741699,
+					0.361434,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 26240,
+				"techLevel": 9,
+				"economy": 0,
+				"government": 4,
+				"description": "The planet Isanla is reasonably fabled for Zero-G cricket and Isanlaian lethal brandy.",
+				"inhabitants": "Yellow Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.592979,
+				0.671135,
+				0.726892,
+				1
+			],
+			"radius": 204930.432129,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 191880,
+				"vector": [
+					0.273,
+					0.898,
+					0.346
+				]
+			},
+			"corona": {
+				"shimmer": 0.248602,
+				"hues": 0.537987,
+				"flare": 0.030579
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Isanla",
+				"radius": 12792
+			}
+		}
+	]
+}

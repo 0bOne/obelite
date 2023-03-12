@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system230",
+	"position": [
+		72,
+		178
+	],
+	"space": {
+		"blurs": 123,
+		"stars": 6103,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Insote",
+			"name": "Insote",
+			"seed": "162 178 82 72 218 236",
+			"body": {
+				"radius": 5960,
+				"rotation_v": 0.003869,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 596000
+			},
+			"land": {
+				"color": [
+					0.319688,
+					0.66,
+					0.47655,
+					1
+				],
+				"polar_color": [
+					0.813602,
+					0.934,
+					0.869098,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.58593,
+					0.607422,
+					0.482378,
+					1
+				],
+				"polar": [
+					0.93095,
+					0.939258,
+					0.890919,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.491118,
+					0.995748,
+					0.884933,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.990234,
+					0.398294,
+					0.0773621,
+					1
+				],
+				"fraction": 0.51,
+				"polar_color": [
+					0.945605,
+					0.592316,
+					0.400774,
+					1
+				]
+			},
+			"demographics": {
+				"type": 29,
+				"productivity": 11136,
+				"techLevel": 6,
+				"economy": 2,
+				"government": 2,
+				"description": "The planet Insote is cursed by deadly civil war.",
+				"inhabitants": "Horned Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.692465,
+				0.478197,
+				0.422774,
+				1
+			],
+			"radius": 135553.259277,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 536400,
+				"vector": [
+					0.219,
+					0.863,
+					0.456
+				]
+			},
+			"corona": {
+				"shimmer": 0.381653,
+				"hues": 0.688644,
+				"flare": 0.025931
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Insote",
+				"radius": 11920
+			}
+		}
+	]
+}

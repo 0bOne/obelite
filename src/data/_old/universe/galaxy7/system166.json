@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system166",
+	"position": [
+		201,
+		12
+	],
+	"space": {
+		"blurs": 153,
+		"stars": 5756,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Tile",
+			"name": "Tile",
+			"seed": "177 12 160 201 221 192",
+			"body": {
+				"radius": 3017,
+				"rotation_v": 0.002267,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 392210
+			},
+			"land": {
+				"color": [
+					0.358359,
+					0.66,
+					0.617582,
+					1
+				],
+				"polar_color": [
+					0.827283,
+					0.934,
+					0.918993,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.652344,
+					0.5536,
+					0.494354,
+					1
+				],
+				"polar": [
+					0.934766,
+					0.899392,
+					0.878169,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.62542,
+					0.885182,
+					0.813948,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.658203,
+					0.507793,
+					0.473083,
+					1
+				],
+				"fraction": 0.41,
+				"polar_color": [
+					0.796191,
+					0.682478,
+					0.656236,
+					1
+				]
+			},
+			"demographics": {
+				"type": 33,
+				"productivity": 12672,
+				"techLevel": 6,
+				"economy": 4,
+				"government": 4,
+				"description": "The world Tile is fabled for its weird exuberant forests and its inhabitants’ eccentric shyness.",
+				"inhabitants": "Large Furry Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.755902,
+				0.759442,
+				0.782211,
+				1
+			],
+			"radius": 65506.133728,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 150850,
+				"vector": [
+					0.926,
+					-0.361,
+					-0.112
+				]
+			},
+			"corona": {
+				"shimmer": 0.447589,
+				"hues": 0.938408,
+				"flare": 0.024237
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Tile",
+				"radius": 6034
+			}
+		}
+	]
+}

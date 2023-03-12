@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system227",
+	"position": [
+		175,
+		50
+	],
+	"space": {
+		"blurs": 120,
+		"stars": 8483,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ravequce",
+			"name": "Ravequce",
+			"seed": "218 50 2 175 170 244",
+			"body": {
+				"radius": 4015,
+				"rotation_v": 0.000138,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 481800
+			},
+			"land": {
+				"color": [
+					0.532604,
+					0.66,
+					0.518203,
+					1
+				],
+				"polar_color": [
+					0.888929,
+					0.934,
+					0.883834,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.445457,
+					0.371384,
+					0.519531,
+					1
+				],
+				"polar": [
+					0.914254,
+					0.880462,
+					0.948047,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.571087,
+					0.509043,
+					0.911848,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.457505,
+					0.201874,
+					0.738281,
+					1
+				],
+				"fraction": 0.53,
+				"polar_color": [
+					0.634412,
+					0.454311,
+					0.832227,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 8960,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 0,
+				"description": "This planet is notable for the Ravequceian edible arts graduate and its great volcanoes.",
+				"inhabitants": "Furry Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.363499,
+				0.447374,
+				0.691653,
+				1
+			],
+			"radius": 80970.228577,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 361350,
+				"vector": [
+					-0.382,
+					0.554,
+					0.74
+				]
+			},
+			"corona": {
+				"shimmer": 0.55691,
+				"hues": 0.699776,
+				"flare": 0.049655
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ravequce",
+				"radius": 8030
+			}
+		}
+	]
+}

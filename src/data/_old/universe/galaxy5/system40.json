@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system40",
+	"position": [
+		150,
+		160
+	],
+	"space": {
+		"blurs": 91,
+		"stars": 7887,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Bearrabe",
+			"name": "Bearrabe",
+			"seed": "233 160 121 150 138 243",
+			"body": {
+				"radius": 3734,
+				"rotation_v": 0.001032,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 522760
+			},
+			"land": {
+				"color": [
+					0.145683,
+					0.556641,
+					0.238791,
+					1
+				],
+				"polar_color": [
+					0.77004,
+					0.944336,
+					0.809529,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.740234,
+					0.645808,
+					0.465538,
+					1
+				],
+				"polar": [
+					0.925977,
+					0.896446,
+					0.840071,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.672458,
+					0.540296,
+					0.910547,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.734375,
+					0.278259,
+					0.695178,
+					1
+				],
+				"fraction": 0.5,
+				"polar_color": [
+					0.830469,
+					0.508094,
+					0.802765,
+					1
+				]
+			},
+			"demographics": {
+				"type": 60,
+				"productivity": 52800,
+				"techLevel": 13,
+				"economy": 0,
+				"government": 7,
+				"description": "The world Bearrabe is reasonably noted for its inhabitants’ exceptional loathing of food blenders.",
+				"inhabitants": "Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.810665,
+				0.819977,
+				0.844672,
+				1
+			],
+			"radius": 73732.483826,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 224040,
+				"vector": [
+					-0.312,
+					0.931,
+					-0.19
+				]
+			},
+			"corona": {
+				"shimmer": 1.425005,
+				"hues": 0.552574,
+				"flare": 0.099857
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Bearrabe",
+				"radius": 7468
+			}
+		}
+	]
+}

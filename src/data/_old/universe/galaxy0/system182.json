@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system182",
+	"position": [
+		249,
+		211
+	],
+	"space": {
+		"blurs": 127,
+		"stars": 6563,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Diquxe",
+			"name": "Diquxe",
+			"seed": "26 211 244 249 155 173",
+			"body": {
+				"radius": 6393,
+				"rotation_v": 0.002812,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 958950
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.253381,
+					0.128906,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.790143,
+					0.746105,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.560547,
+					0.425446,
+					0.441278,
+					1
+				],
+				"polar": [
+					0.943945,
+					0.887069,
+					0.893734,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.753806,
+					0.518459,
+					0.950871,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.855469,
+					0.2005,
+					0.430763,
+					1
+				],
+				"fraction": 0.08,
+				"polar_color": [
+					0.884961,
+					0.461493,
+					0.610369,
+					1
+				]
+			},
+			"demographics": {
+				"type": 42,
+				"productivity": 23520,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 6,
+				"description": "This planet is mildly noted for its ancient mountains but plagued by frequent earthquakes.",
+				"inhabitants": "Harmless Horned Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.76303,
+				0.819003,
+				0.827512,
+				1
+			],
+			"radius": 132850.629272,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 255720,
+				"vector": [
+					-0.972,
+					-0.232,
+					0.024
+				]
+			},
+			"corona": {
+				"shimmer": 0.422966,
+				"hues": 0.80896,
+				"flare": 0.078288
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Diquxe",
+				"radius": 12786
+			}
+		}
+	]
+}

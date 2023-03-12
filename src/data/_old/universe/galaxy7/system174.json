@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system174",
+	"position": [
+		54,
+		67
+	],
+	"space": {
+		"blurs": 146,
+		"stars": 5471,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Atmabe",
+			"name": "Atmabe",
+			"seed": "1 67 240 54 77 209",
+			"body": {
+				"radius": 3126,
+				"rotation_v": 0.003502,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 375120
+			},
+			"land": {
+				"color": [
+					0.327422,
+					0.66,
+					0.605436,
+					1
+				],
+				"polar_color": [
+					0.816338,
+					0.934,
+					0.914696,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.595703,
+					0.47966,
+					0.448639,
+					1
+				],
+				"polar": [
+					0.94043,
+					0.894631,
+					0.882388,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.556261,
+					0.502643,
+					0.913148,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.411682,
+					0.185547,
+					0.742188,
+					1
+				],
+				"fraction": 0.41,
+				"polar_color": [
+					0.60187,
+					0.443054,
+					0.833984,
+					1
+				]
+			},
+			"demographics": {
+				"type": 46,
+				"productivity": 25760,
+				"techLevel": 9,
+				"economy": 3,
+				"government": 6,
+				"description": "Atmabe is mildly well known for its exotic cuisine and its inhabitants’ ingrained shyness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.711945,
+				0.297254,
+				0.286797,
+				1
+			],
+			"radius": 76261.120605,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 343860,
+				"vector": [
+					0.45,
+					0.868,
+					-0.211
+				]
+			},
+			"corona": {
+				"shimmer": 0.484755,
+				"hues": 0.692764,
+				"flare": 0.041292
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Atmabe",
+				"radius": 6252
+			}
+		}
+	]
+}

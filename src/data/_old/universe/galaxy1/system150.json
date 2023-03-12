@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system150",
+	"position": [
+		78,
+		97
+	],
+	"space": {
+		"blurs": 170,
+		"stars": 5777,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xeatxe",
+			"name": "Xeatxe",
+			"seed": "52 97 104 78 54 34",
+			"body": {
+				"radius": 3406,
+				"rotation_v": 0.000417,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 408720
+			},
+			"land": {
+				"color": [
+					0.504809,
+					0.66,
+					0.363516,
+					1
+				],
+				"polar_color": [
+					0.879095,
+					0.934,
+					0.829107,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.634766,
+					0.552543,
+					0.472851,
+					1
+				],
+				"polar": [
+					0.936523,
+					0.906196,
+					0.876802,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.65534,
+					0.49382,
+					0.946318,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.841797,
+					0.138107,
+					0.781324,
+					1
+				],
+				"fraction": 0.51,
+				"polar_color": [
+					0.878809,
+					0.419665,
+					0.839351,
+					1
+				]
+			},
+			"demographics": {
+				"type": 51,
+				"productivity": 33048,
+				"techLevel": 11,
+				"economy": 1,
+				"government": 5,
+				"description": "The world Xeatxe is very noted for its ancient Xeatxeian Onin banana plantations but cursed by deadly civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.255135,
+				0.418586,
+				0.698865,
+				1
+			],
+			"radius": 90139.777527,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 170300,
+				"vector": [
+					-0.611,
+					0.753,
+					-0.242
+				]
+			},
+			"corona": {
+				"shimmer": 0.431857,
+				"hues": 0.98468,
+				"flare": 0.057016
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Xeatxe",
+				"radius": 6812
+			}
+		}
+	]
+}

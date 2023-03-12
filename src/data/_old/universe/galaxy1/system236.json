@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system236",
+	"position": [
+		160,
+		30
+	],
+	"space": {
+		"blurs": 121,
+		"stars": 7410,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zageuser",
+			"name": "Zageuser",
+			"seed": "116 30 160 160 102 196",
+			"body": {
+				"radius": 4000,
+				"rotation_v": 0.003317,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 520000
+			},
+			"land": {
+				"color": [
+					0.539223,
+					0.38002,
+					0.572266,
+					1
+				],
+				"polar_color": [
+					0.929165,
+					0.863595,
+					0.942773,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.851562,
+					0.337657,
+					0.26944,
+					1
+				],
+				"polar": [
+					0.914844,
+					0.77682,
+					0.758498,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.550451,
+					0.540868,
+					0.869572,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.317399,
+					0.284172,
+					0.611328,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.542179,
+					0.515849,
+					0.775098,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 5888,
+				"techLevel": 3,
+				"economy": 6,
+				"government": 4,
+				"description": "The planet Zageuser is most well known for its exotic cuisine.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.834308,
+				0.437393,
+				0.245823,
+				1
+			],
+			"radius": 100304.56543,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 400000,
+				"vector": [
+					0.17,
+					0.101,
+					0.98
+				]
+			},
+			"corona": {
+				"shimmer": 0.557269,
+				"hues": 0.74614,
+				"flare": 0.08369
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Zageuser",
+				"radius": 8000
+			}
+		}
+	]
+}

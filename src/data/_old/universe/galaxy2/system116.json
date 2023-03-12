@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system116",
+	"position": [
+		173,
+		112
+	],
+	"space": {
+		"blurs": 127,
+		"stars": 7409,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Beenbeor",
+			"name": "Beenbeor",
+			"seed": "217 112 241 173 141 19",
+			"body": {
+				"radius": 3757,
+				"rotation_v": 0.000972,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 563550
+			},
+			"land": {
+				"color": [
+					0.129593,
+					0.582031,
+					0.263911,
+					1
+				],
+				"polar_color": [
+					0.758772,
+					0.941797,
+					0.813107,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.529297,
+					0.40545,
+					0.446087,
+					1
+				],
+				"polar": [
+					0.94707,
+					0.89167,
+					0.909849,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.671688,
+					0.810738,
+					0.94892,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.613976,
+					0.849609,
+					0.733633,
+					1
+				],
+				"fraction": 0.45,
+				"polar_color": [
+					0.729382,
+					0.882324,
+					0.807048,
+					1
+				]
+			},
+			"demographics": {
+				"type": 51,
+				"productivity": 40800,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 6,
+				"description": "This planet is beset by deadly earthquakes.",
+				"inhabitants": "Green Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.18506,
+				0.281179,
+				0.701025,
+				1
+			],
+			"radius": 125630.9935,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 262990,
+				"vector": [
+					0.857,
+					-0.343,
+					0.384
+				]
+			},
+			"corona": {
+				"shimmer": 0.41109,
+				"hues": 0.615395,
+				"flare": 0.095317
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Beenbeor",
+				"radius": 7514
+			}
+		}
+	]
+}

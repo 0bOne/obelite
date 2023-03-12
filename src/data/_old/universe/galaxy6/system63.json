@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system63",
+	"position": [
+		174,
+		215
+	],
+	"space": {
+		"blurs": 197,
+		"stars": 7030,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Vetebe",
+			"name": "Vetebe",
+			"seed": "206 215 18 174 80 118",
+			"body": {
+				"radius": 4526,
+				"rotation_v": 0.000158,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 678900
+			},
+			"land": {
+				"color": [
+					0.161691,
+					0.542969,
+					0.129379,
+					1
+				],
+				"polar_color": [
+					0.779683,
+					0.945703,
+					0.765613,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.818356,
+					0.709879,
+					0.892578,
+					1
+				],
+				"polar": [
+					0.891809,
+					0.864138,
+					0.910742,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.774833,
+					0.628997,
+					0.86632,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.601562,
+					0.467621,
+					0.486456,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.770703,
+					0.663452,
+					0.678534,
+					1
+				]
+			},
+			"demographics": {
+				"type": 22,
+				"productivity": 3168,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 2,
+				"description": "Vetebe is a revolting little planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.666,
+				0.707162,
+				0.841367,
+				1
+			],
+			"radius": 154899.615173,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 181040,
+				"vector": [
+					0.544,
+					0.704,
+					0.456
+				]
+			},
+			"corona": {
+				"shimmer": 0.403209,
+				"hues": 0.861694,
+				"flare": 0.089999
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Vetebe",
+				"radius": 9052
+			}
+		}
+	]
+}

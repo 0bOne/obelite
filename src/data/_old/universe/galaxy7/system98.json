@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system98",
+	"position": [
+		230,
+		221
+	],
+	"space": {
+		"blurs": 187,
+		"stars": 6791,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Laorlaza",
+			"name": "Laorlaza",
+			"seed": "73 221 120 230 165 117",
+			"body": {
+				"radius": 4326,
+				"rotation_v": 0.004112,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 605640
+			},
+			"land": {
+				"color": [
+					0.423014,
+					0.66,
+					0.373828,
+					1
+				],
+				"polar_color": [
+					0.850157,
+					0.934,
+					0.832756,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.572266,
+					0.452872,
+					0.437023,
+					1
+				],
+				"polar": [
+					0.942773,
+					0.8936,
+					0.887073,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.608163,
+					0.925506,
+					0.9004,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.779297,
+					0.703431,
+					0.444443,
+					1
+				],
+				"fraction": 0.19,
+				"polar_color": [
+					0.850684,
+					0.798924,
+					0.622229,
+					1
+				]
+			},
+			"demographics": {
+				"type": 45,
+				"productivity": 19800,
+				"techLevel": 8,
+				"economy": 5,
+				"government": 7,
+				"description": "The planet Laorlaza is reasonably noted for its inhabitants’ exceptional love for tourists and the Laorlazaian edible arts graduate.",
+				"inhabitants": "Blue Bony Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.314455,
+				0.522777,
+				0.671585,
+				1
+			],
+			"radius": 134733.354492,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 432600,
+				"vector": [
+					0.019,
+					0.98,
+					-0.198
+				]
+			},
+			"corona": {
+				"shimmer": 0.437432,
+				"hues": 0.861191,
+				"flare": 0.026201
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Laorlaza",
+				"radius": 8652
+			}
+		}
+	]
+}

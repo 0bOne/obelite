@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system211",
+	"position": [
+		16,
+		46
+	],
+	"space": {
+		"blurs": 61,
+		"stars": 7560,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Maarbi",
+			"name": "Maarbi",
+			"seed": "14 46 162 16 208 43",
+			"body": {
+				"radius": 5648,
+				"rotation_v": 0.000725,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 790720
+			},
+			"land": {
+				"color": [
+					0.598125,
+					0.66,
+					0.613594,
+					1
+				],
+				"polar_color": [
+					0.912109,
+					0.934,
+					0.917582,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.617188,
+					0.615055,
+					0.480731,
+					1
+				],
+				"polar": [
+					0.938281,
+					0.937471,
+					0.886419,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.529026,
+					0.989601,
+					0.996398,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.948313,
+					0.992188,
+					0.189911,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.920326,
+					0.946484,
+					0.468159,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 5888,
+				"techLevel": 3,
+				"economy": 6,
+				"government": 4,
+				"description": "The planet Maarbi is most noted for the Maarbiian mountain lobstoid and the Maarbiian evil talking treeoid.",
+				"inhabitants": "Small Red Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.728131,
+				0.560274,
+				0.327465,
+				1
+			],
+			"radius": 141952.365723,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 112960,
+				"vector": [
+					0.658,
+					-0.511,
+					0.553
+				]
+			},
+			"corona": {
+				"shimmer": 0.262669,
+				"hues": 0.802734,
+				"flare": 0.028526
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Maarbi",
+				"radius": 11296
+			}
+		}
+	]
+}

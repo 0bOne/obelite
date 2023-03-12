@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system108",
+	"position": [
+		237,
+		89
+	],
+	"space": {
+		"blurs": 193,
+		"stars": 9155,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orso",
+			"name": "Orso",
+			"seed": "58 89 80 237 179 121",
+			"body": {
+				"radius": 5357,
+				"rotation_v": 0.004193,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 535700
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.268528,
+					0.216563,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.795502,
+					0.777117,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.560681,
+					0.71875,
+					0.592789,
+					1
+				],
+				"polar": [
+					0.877096,
+					0.928125,
+					0.887461,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.592549,
+					0.93049,
+					0.958676,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.762498,
+					0.878906,
+					0.398254,
+					1
+				],
+				"fraction": 0.21,
+				"polar_color": [
+					0.821379,
+					0.895508,
+					0.589426,
+					1
+				]
+			},
+			"demographics": {
+				"type": 36,
+				"productivity": 15552,
+				"techLevel": 8,
+				"economy": 1,
+				"government": 2,
+				"description": "The world Orso is reasonably fabled for its exciting sit coms and its inhabitants’ exceptional love for food blenders.",
+				"inhabitants": "Blue Fat Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.795358,
+				0.774031,
+				0.76878,
+				1
+			],
+			"radius": 101155.71701,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 535700,
+				"vector": [
+					-0.984,
+					0.178,
+					-0.009
+				]
+			},
+			"corona": {
+				"shimmer": 0.400323,
+				"hues": 0.783485,
+				"flare": 0.017856
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Orso",
+				"radius": 10714
+			}
+		}
+	]
+}

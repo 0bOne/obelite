@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system102",
+	"position": [
+		159,
+		114
+	],
+	"space": {
+		"blurs": 100,
+		"stars": 8630,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Dirima",
+			"name": "Dirima",
+			"seed": "49 114 32 159 93 45",
+			"body": {
+				"radius": 6303,
+				"rotation_v": 0.002193,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 630300
+			},
+			"land": {
+				"color": [
+					0.28875,
+					0.66,
+					0.51208,
+					1
+				],
+				"polar_color": [
+					0.802656,
+					0.934,
+					0.881668,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.517578,
+					0.421568,
+					0.411636,
+					1
+				],
+				"polar": [
+					0.948242,
+					0.904268,
+					0.899719,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.660064,
+					0.859816,
+					0.817511,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.582031,
+					0.546507,
+					0.525192,
+					1
+				],
+				"fraction": 0.4,
+				"polar_color": [
+					0.761914,
+					0.732849,
+					0.715411,
+					1
+				]
+			},
+			"demographics": {
+				"type": 47,
+				"productivity": 24064,
+				"techLevel": 10,
+				"economy": 2,
+				"government": 4,
+				"description": "This world is plagued by deadly earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.805197,
+				0.682193,
+				0.53374,
+				1
+			],
+			"radius": 176831.388245,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 756360,
+				"vector": [
+					-0.869,
+					0.446,
+					-0.212
+				]
+			},
+			"corona": {
+				"shimmer": 0.291398,
+				"hues": 0.770409,
+				"flare": 0.073848
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Dirima",
+				"radius": 12606
+			}
+		}
+	]
+}

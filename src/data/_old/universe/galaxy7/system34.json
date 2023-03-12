@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system34",
+	"position": [
+		187,
+		58
+	],
+	"space": {
+		"blurs": 63,
+		"stars": 8712,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Enustien",
+			"name": "Enustien",
+			"seed": "201 58 248 187 37 114",
+			"body": {
+				"radius": 3515,
+				"rotation_v": 0.004103,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 421800
+			},
+			"land": {
+				"color": [
+					0.450769,
+					0.66,
+					0.407344,
+					1
+				],
+				"polar_color": [
+					0.859977,
+					0.934,
+					0.844613,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.291138,
+					0.384898,
+					0.517578,
+					1
+				],
+				"polar": [
+					0.844528,
+					0.887472,
+					0.948242,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.533279,
+					0.98274,
+					0.943675,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.951172,
+					0.767254,
+					0.2155,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.928027,
+					0.815876,
+					0.47942,
+					1
+				]
+			},
+			"demographics": {
+				"type": 58,
+				"productivity": 40832,
+				"techLevel": 12,
+				"economy": 2,
+				"government": 7,
+				"description": "Enustien is an unremarkable planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.752609,
+				0.746233,
+				0.313643,
+				1
+			],
+			"radius": 92963.85498,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 210900,
+				"vector": [
+					-0.277,
+					-0.958,
+					0.074
+				]
+			},
+			"corona": {
+				"shimmer": 0.392201,
+				"hues": 0.974869,
+				"flare": 0.031015
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Enustien",
+				"radius": 7030
+			}
+		}
+	]
+}

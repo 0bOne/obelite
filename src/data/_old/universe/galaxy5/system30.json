@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system30",
+	"position": [
+		247,
+		127
+	],
+	"space": {
+		"blurs": 63,
+		"stars": 9072,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xeeden",
+			"name": "Xeeden",
+			"seed": "9 127 5 247 234 130",
+			"body": {
+				"radius": 3575,
+				"rotation_v": 0.002714,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 536250
+			},
+			"land": {
+				"color": [
+					0.411767,
+					0.328598,
+					0.576172,
+					1
+				],
+				"polar_color": [
+					0.875158,
+					0.84115,
+					0.942383,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.730469,
+					0.557103,
+					0.442276,
+					1
+				],
+				"polar": [
+					0.926953,
+					0.871953,
+					0.835525,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.738056,
+					0.724696,
+					0.978838,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.799659,
+					0.770645,
+					0.939453,
+					1
+				],
+				"fraction": 0.48,
+				"polar_color": [
+					0.836936,
+					0.819124,
+					0.922754,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 1920,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 0,
+				"description": "The world Xeeden is scourged by deadly tree grubs.",
+				"inhabitants": "Large Black Slimy Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.714645,
+				0.727336,
+				0.740729,
+				1
+			],
+			"radius": 92040.32135,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 143000,
+				"vector": [
+					0.561,
+					0.804,
+					0.199
+				]
+			},
+			"corona": {
+				"shimmer": 0.354878,
+				"hues": 0.53862,
+				"flare": 0.088864
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xeeden",
+				"radius": 7150
+			}
+		}
+	]
+}

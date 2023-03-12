@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system96",
+	"position": [
+		117,
+		192
+	],
+	"space": {
+		"blurs": 114,
+		"stars": 8845,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Digebiti",
+			"name": "Digebiti",
+			"seed": "202 192 136 117 83 173",
+			"body": {
+				"radius": 6261,
+				"rotation_v": 0.000135,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 751320
+			},
+			"land": {
+				"color": [
+					0.578125,
+					0.467468,
+					0.49081,
+					1
+				],
+				"polar_color": [
+					0.942187,
+					0.897102,
+					0.906613,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.273328,
+					0.580078,
+					0.063446,
+					1
+				],
+				"polar": [
+					0.817459,
+					0.941992,
+					0.732252,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.649315,
+					0.883507,
+					0.919002,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.672956,
+					0.759766,
+					0.546082,
+					1
+				],
+				"fraction": 0.39,
+				"polar_color": [
+					0.781774,
+					0.841895,
+					0.693905,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 10240,
+				"techLevel": 7,
+				"economy": 2,
+				"government": 1,
+				"description": "Digebiti is cursed by killer mountain Seoids.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.682144,
+				0.49475,
+				0.253964,
+				1
+			],
+			"radius": 185181.762085,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 438270,
+				"vector": [
+					-0.365,
+					-0.728,
+					-0.58
+				]
+			},
+			"corona": {
+				"shimmer": 0.758659,
+				"hues": 0.67662,
+				"flare": 0.011839
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Digebiti",
+				"radius": 12522
+			}
+		}
+	]
+}

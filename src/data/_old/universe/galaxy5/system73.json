@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system73",
+	"position": [
+		20,
+		109
+	],
+	"space": {
+		"blurs": 72,
+		"stars": 8597,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Oranesri",
+			"name": "Oranesri",
+			"seed": "239 109 165 20 64 249",
+			"body": {
+				"radius": 5140,
+				"rotation_v": 0.004062,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 514000
+			},
+			"land": {
+				"color": [
+					0.492662,
+					0.342064,
+					0.595703,
+					1
+				],
+				"polar_color": [
+					0.899762,
+					0.840325,
+					0.94043,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.712891,
+					0.558773,
+					0.456696,
+					1
+				],
+				"polar": [
+					0.928711,
+					0.878517,
+					0.845272,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.835074,
+					0.763109,
+					0.984041,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.954524,
+					0.884193,
+					0.955078,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.929448,
+					0.886655,
+					0.929785,
+					1
+				]
+			},
+			"demographics": {
+				"type": 26,
+				"productivity": 8320,
+				"techLevel": 4,
+				"economy": 5,
+				"government": 4,
+				"description": "Oranesri is very notable for its inhabitants’ weird shyness.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.834738,
+				0.524383,
+				0.499845,
+				1
+			],
+			"radius": 148070.681763,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 359800,
+				"vector": [
+					-0.148,
+					-0.864,
+					0.482
+				]
+			},
+			"corona": {
+				"shimmer": 0.503449,
+				"hues": 0.93116,
+				"flare": 0.026733
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Oranesri",
+				"radius": 10280
+			}
+		}
+	]
+}

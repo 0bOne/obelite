@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system243",
+	"position": [
+		99,
+		103
+	],
+	"space": {
+		"blurs": 162,
+		"stars": 6211,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Soenisti",
+			"name": "Soenisti",
+			"seed": "90 103 130 99 170 71",
+			"body": {
+				"radius": 4707,
+				"rotation_v": 0.000047,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 564840
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.326838,
+					0.301641,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.816131,
+					0.807217,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.596001,
+					0.798828,
+					0.698999,
+					1
+				],
+				"polar": [
+					0.861711,
+					0.920117,
+					0.891371,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.590854,
+					0.859077,
+					0.989244,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.383802,
+					0.970703,
+					0.379181,
+					1
+				],
+				"fraction": 0.11,
+				"polar_color": [
+					0.582809,
+					0.936816,
+					0.580021,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 1920,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 0,
+				"description": "This planet is reasonably famous for its inhabitants’ exceptional loathing of food blenders.",
+				"inhabitants": "Fierce Yellow Fat Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.559214,
+				0.594979,
+				0.728757,
+				1
+			],
+			"radius": 79596.536407,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 470700,
+				"vector": [
+					-0.78,
+					-0.073,
+					-0.622
+				]
+			},
+			"corona": {
+				"shimmer": 0.454102,
+				"hues": 0.831833,
+				"flare": 0.083041
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Soenisti",
+				"radius": 9414
+			}
+		}
+	]
+}

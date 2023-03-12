@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system14",
+	"position": [
+		168,
+		1
+	],
+	"space": {
+		"blurs": 193,
+		"stars": 5445,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arbe",
+			"name": "Arbe",
+			"seed": "188 1 72 168 117 96",
+			"body": {
+				"radius": 2984,
+				"rotation_v": 0.001593,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 358080
+			},
+			"land": {
+				"color": [
+					0.0876563,
+					0.217328,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.731512,
+					0.777388,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.607422,
+					0.464427,
+					0.449635,
+					1
+				],
+				"polar": [
+					0.939258,
+					0.883979,
+					0.878261,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.860902,
+					0.781473,
+					0.978188,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.9375,
+					0.933838,
+					0.93667,
+					1
+				],
+				"fraction": 0.16,
+				"polar_color": [
+					0.921875,
+					0.919624,
+					0.921365,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 7000,
+				"techLevel": 5,
+				"economy": 3,
+				"government": 1,
+				"description": "Arbe is reasonably well known for its great dense forests but scourged by deadly edible moths.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.230129,
+				0.49301,
+				0.72095,
+				1
+			],
+			"radius": 85229.042969,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 208880,
+				"vector": [
+					-0.361,
+					-0.914,
+					0.186
+				]
+			},
+			"corona": {
+				"shimmer": 0.336507,
+				"hues": 0.948967,
+				"flare": 0.060927
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Arbe",
+				"radius": 5968
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system49",
+	"position": [
+		155,
+		123
+	],
+	"space": {
+		"blurs": 193,
+		"stars": 9180,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Beesed",
+			"name": "Beesed",
+			"seed": "138 123 82 155 10 51",
+			"body": {
+				"radius": 3739,
+				"rotation_v": 0.004421,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 448680
+			},
+			"land": {
+				"color": [
+					0.636719,
+					0.477889,
+					0.470078,
+					1
+				],
+				"polar_color": [
+					0.936328,
+					0.877936,
+					0.875064,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.126709,
+					0.559961,
+					0.675781,
+					1
+				],
+				"polar": [
+					0.743024,
+					0.892471,
+					0.932422,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.691316,
+					0.852929,
+					0.88258,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.634651,
+					0.650391,
+					0.617363,
+					1
+				],
+				"fraction": 0.17,
+				"polar_color": [
+					0.780686,
+					0.792676,
+					0.767518,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 12768,
+				"techLevel": 8,
+				"economy": 3,
+				"government": 2,
+				"description": "This world is plagued by deadly earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.729428,
+				0.379195,
+				0.26302,
+				1
+			],
+			"radius": 88217.03125,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 373900,
+				"vector": [
+					-0.263,
+					0.964,
+					0.022
+				]
+			},
+			"corona": {
+				"shimmer": 0.284813,
+				"hues": 0.718399,
+				"flare": 0.007294
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Beesed",
+				"radius": 7478
+			}
+		}
+	]
+}

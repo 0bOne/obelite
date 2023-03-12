@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system53",
+	"position": [
+		87,
+		200
+	],
+	"space": {
+		"blurs": 156,
+		"stars": 9451,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Quandixe",
+			"name": "Quandixe",
+			"seed": "222 200 250 87 64 186",
+			"body": {
+				"radius": 5463,
+				"rotation_v": 0.002363,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 600930
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.611016,
+					0.648902,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.91667,
+					0.930074,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.521484,
+					0.354828,
+					0.0366669,
+					1
+				],
+				"polar": [
+					0.947852,
+					0.872123,
+					0.72755,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.514919,
+					0.509709,
+					0.894287,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.237477,
+					0.211555,
+					0.685547,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.478228,
+					0.459122,
+					0.808496,
+					1
+				]
+			},
+			"demographics": {
+				"type": 64,
+				"productivity": 56320,
+				"techLevel": 14,
+				"economy": 0,
+				"government": 7,
+				"description": "Quandixe is ravaged by occasional solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.714315,
+				0.720281,
+				0.76131,
+				1
+			],
+			"radius": 178734.528809,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 327780,
+				"vector": [
+					0.683,
+					-0.497,
+					-0.535
+				]
+			},
+			"corona": {
+				"shimmer": 0.429097,
+				"hues": 0.669792,
+				"flare": 0.04449
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Quandixe",
+				"radius": 10926
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system103",
+	"position": [
+		180,
+		152
+	],
+	"space": {
+		"blurs": 188,
+		"stars": 7012,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xeabiti",
+			"name": "Xeabiti",
+			"seed": "112 152 184 180 58 226",
+			"body": {
+				"radius": 3508,
+				"rotation_v": 0.004115,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 385880
+			},
+			"land": {
+				"color": [
+					0.469219,
+					0.66,
+					0.579514,
+					1
+				],
+				"polar_color": [
+					0.866504,
+					0.934,
+					0.905525,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.55282,
+					0.699219,
+					0.579126,
+					1
+				],
+				"polar": [
+					0.881394,
+					0.930078,
+					0.890142,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.441659,
+					0.716818,
+					0.870223,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0742645,
+					0.613281,
+					0.120586,
+					1
+				],
+				"fraction": 0.4,
+				"polar_color": [
+					0.34972,
+					0.775977,
+					0.386351,
+					1
+				]
+			},
+			"demographics": {
+				"type": 52,
+				"productivity": 45760,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 7,
+				"description": "The world Xeabiti is fabled for its weird rock formations and the Xeabitiian deadly monkey.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.750983,
+				0.672914,
+				0.583454,
+				1
+			],
+			"radius": 101016.118774,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 350800,
+				"vector": [
+					-0.255,
+					0.572,
+					-0.78
+				]
+			},
+			"corona": {
+				"shimmer": 0.542265,
+				"hues": 0.887314,
+				"flare": 0.067245
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Xeabiti",
+				"radius": 7016
+			}
+		}
+	]
+}

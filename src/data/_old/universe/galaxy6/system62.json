@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system62",
+	"position": [
+		1,
+		9
+	],
+	"space": {
+		"blurs": 62,
+		"stars": 8152,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceerti",
+			"name": "Ceerti",
+			"seed": "18 9 138 1 212 229",
+			"body": {
+				"radius": 4097,
+				"rotation_v": 0.000339,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 532610
+			},
+			"land": {
+				"color": [
+					0.564453,
+					0.458618,
+					0.498306,
+					1
+				],
+				"polar_color": [
+					0.943555,
+					0.899326,
+					0.915911,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.572705,
+					0.621094,
+					0.494691,
+					1
+				],
+				"polar": [
+					0.919623,
+					0.937891,
+					0.890172,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.444645,
+					0.662165,
+					0.885182,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.0694199,
+					0.658203,
+					0.382211,
+					1
+				],
+				"fraction": 0.04,
+				"polar_color": [
+					0.351055,
+					0.796191,
+					0.587534,
+					1
+				]
+			},
+			"demographics": {
+				"type": 29,
+				"productivity": 8120,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 1,
+				"description": "This world is a revolting little planet.",
+				"inhabitants": "Fierce Slimy Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.200388,
+				0.394391,
+				0.68201,
+				1
+			],
+			"radius": 101614.177094,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 327760,
+				"vector": [
+					0.96,
+					-0.022,
+					-0.28
+				]
+			},
+			"corona": {
+				"shimmer": 0.396347,
+				"hues": 0.776199,
+				"flare": 0.043541
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceerti",
+				"radius": 8194
+			}
+		}
+	]
+}

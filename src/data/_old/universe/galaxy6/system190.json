@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system190",
+	"position": [
+		127,
+		149
+	],
+	"space": {
+		"blurs": 180,
+		"stars": 6176,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Leveti",
+			"name": "Leveti",
+			"seed": "18 149 138 127 212 161",
+			"body": {
+				"radius": 3199,
+				"rotation_v": 0.000327,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 351890
+			},
+			"land": {
+				"color": [
+					0.520298,
+					0.134062,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.884575,
+					0.74793,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.642578,
+					0.629398,
+					0.489213,
+					1
+				],
+				"polar": [
+					0.935742,
+					0.930944,
+					0.879908,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.420717,
+					0.821811,
+					0.855264,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.440926,
+					0.568359,
+					0.0421829,
+					1
+				],
+				"fraction": 0.34,
+				"polar_color": [
+					0.649855,
+					0.755762,
+					0.318468,
+					1
+				]
+			},
+			"demographics": {
+				"type": 25,
+				"productivity": 3000,
+				"techLevel": 4,
+				"economy": 7,
+				"government": 1,
+				"description": "Leveti is reasonably notable for its great tropical forests but cursed by dreadful solar activity.",
+				"inhabitants": "Large Harmless Horned Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.608698,
+				0.786512,
+				0.794998,
+				1
+			],
+			"radius": 78413.47641,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 191940,
+				"vector": [
+					-0.122,
+					0.094,
+					-0.988
+				]
+			},
+			"corona": {
+				"shimmer": 0.276234,
+				"hues": 0.948822,
+				"flare": 0.069258
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Leveti",
+				"radius": 6398
+			}
+		}
+	]
+}

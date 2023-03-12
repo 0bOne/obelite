@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system176",
+	"position": [
+		215,
+		172
+	],
+	"space": {
+		"blurs": 43,
+		"stars": 5596,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esdirece",
+			"name": "Esdirece",
+			"seed": "105 172 225 215 77 41",
+			"body": {
+				"radius": 5335,
+				"rotation_v": 0.002863,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 586850
+			},
+			"land": {
+				"color": [
+					0.415078,
+					0.625558,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.84735,
+					0.921815,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.644013,
+					0.65625,
+					0.499622,
+					1
+				],
+				"polar": [
+					0.930019,
+					0.934375,
+					0.878623,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.614985,
+					0.559504,
+					0.872174,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.485442,
+					0.324081,
+					0.619141,
+					1
+				],
+				"fraction": 0.24,
+				"polar_color": [
+					0.673528,
+					0.546702,
+					0.778613,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 15744,
+				"techLevel": 8,
+				"economy": 4,
+				"government": 4,
+				"description": "Esdirece is a revolting little planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.732631,
+				0.762508,
+				0.780365,
+				1
+			],
+			"radius": 99456.526184,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 480150,
+				"vector": [
+					-0.279,
+					-0.919,
+					-0.278
+				]
+			},
+			"corona": {
+				"shimmer": 0.262724,
+				"hues": 0.596405,
+				"flare": 0.055586
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esdirece",
+				"radius": 10670
+			}
+		}
+	]
+}

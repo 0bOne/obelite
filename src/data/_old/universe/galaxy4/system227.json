@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system227",
+	"position": [
+		73,
+		198
+	],
+	"space": {
+		"blurs": 82,
+		"stars": 7995,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Reriveza",
+			"name": "Reriveza",
+			"seed": "70 198 60 73 243 206",
+			"body": {
+				"radius": 6473,
+				"rotation_v": 0.000926,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 776760
+			},
+			"land": {
+				"color": [
+					0.447385,
+					0.190781,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.858779,
+					0.767996,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.599609,
+					0.572967,
+					0.468445,
+					1
+				],
+				"polar": [
+					0.940039,
+					0.929597,
+					0.888631,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.762789,
+					0.596951,
+					0.889084,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.669922,
+					0.410851,
+					0.483714,
+					1
+				],
+				"fraction": 0.3,
+				"polar_color": [
+					0.801465,
+					0.607751,
+					0.662233,
+					1
+				]
+			},
+			"demographics": {
+				"type": 38,
+				"productivity": 13376,
+				"techLevel": 6,
+				"economy": 6,
+				"government": 7,
+				"description": "Reriveza is most noted for the Rerivezaian mountain lobstoid and the Rerivezaian evil poet.",
+				"inhabitants": "Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.356443,
+				0.414,
+				0.672821,
+				1
+			],
+			"radius": 137978.924713,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 582570,
+				"vector": [
+					0.407,
+					0.281,
+					-0.869
+				]
+			},
+			"corona": {
+				"shimmer": 0.671888,
+				"hues": 0.681435,
+				"flare": 0.033012
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Reriveza",
+				"radius": 12946
+			}
+		}
+	]
+}

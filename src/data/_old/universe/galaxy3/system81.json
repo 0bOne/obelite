@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system81",
+	"position": [
+		64,
+		100
+	],
+	"space": {
+		"blurs": 134,
+		"stars": 5392,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Oristi",
+			"name": "Oristi",
+			"seed": "138 100 82 64 10 249",
+			"body": {
+				"radius": 5184,
+				"rotation_v": 0.004498,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 570240
+			},
+			"land": {
+				"color": [
+					0.20478,
+					0.0592969,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.772949,
+					0.721479,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.638566,
+					0.658203,
+					0.501109,
+					1
+				],
+				"polar": [
+					0.927212,
+					0.93418,
+					0.878439,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.737764,
+					0.760838,
+					0.945018,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.788795,
+					0.804521,
+					0.837891,
+					1
+				],
+				"fraction": 0.24,
+				"polar_color": [
+					0.844932,
+					0.85522,
+					0.877051,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 6624,
+				"techLevel": 4,
+				"economy": 4,
+				"government": 2,
+				"description": "The planet Oristi is cursed by deadly civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.753555,
+				0.352677,
+				0.329732,
+				1
+			],
+			"radius": 117743.466797,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 259200,
+				"vector": [
+					-0.819,
+					-0.19,
+					-0.541
+				]
+			},
+			"corona": {
+				"shimmer": 0.382268,
+				"hues": 0.861069,
+				"flare": 0.094725
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Oristi",
+				"radius": 10368
+			}
+		}
+	]
+}

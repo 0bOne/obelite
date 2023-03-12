@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system165",
+	"position": [
+		168,
+		181
+	],
+	"space": {
+		"blurs": 97,
+		"stars": 9978,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Gema",
+			"name": "Gema",
+			"seed": "0 181 64 168 26 227",
+			"body": {
+				"radius": 3752,
+				"rotation_v": 0.000676,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 375200
+			},
+			"land": {
+				"color": [
+					0.290726,
+					0.396823,
+					0.509766,
+					1
+				],
+				"polar_color": [
+					0.847078,
+					0.896458,
+					0.949023,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.595625,
+					0.800781,
+					0.572433,
+					1
+				],
+				"polar": [
+					0.861002,
+					0.919922,
+					0.854342,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.764542,
+					0.500233,
+					0.96583,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.900391,
+					0.137169,
+					0.351825,
+					1
+				],
+				"fraction": 0.36,
+				"polar_color": [
+					0.905176,
+					0.425627,
+					0.5605,
+					1
+				]
+			},
+			"demographics": {
+				"type": 8,
+				"productivity": 768,
+				"techLevel": 0,
+				"economy": 7,
+				"government": 0,
+				"description": "The world Gema is reasonably noted for mud tennis and the Gemaian evil poet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.669882,
+				0.657033,
+				0.645688,
+				1
+			],
+			"radius": 78982.874756,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 337680,
+				"vector": [
+					-0.222,
+					-0.705,
+					0.674
+				]
+			},
+			"corona": {
+				"shimmer": 0.480659,
+				"hues": 0.979256,
+				"flare": 0.036481
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Gema",
+				"radius": 7504
+			}
+		}
+	]
+}

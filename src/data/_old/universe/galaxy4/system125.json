@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system125",
+	"position": [
+		66,
+		42
+	],
+	"space": {
+		"blurs": 98,
+		"stars": 8881,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edceon",
+			"name": "Edceon",
+			"seed": "230 42 80 66 155 56",
+			"body": {
+				"radius": 4930,
+				"rotation_v": 0.001324,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 443700
+			},
+			"land": {
+				"color": [
+					0.641953,
+					0.5775,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.927615,
+					0.904813,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.511719,
+					0.165643,
+					0.0139923,
+					1
+				],
+				"polar": [
+					0.948828,
+					0.788405,
+					0.718107,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.416554,
+					0.835752,
+					0.78623,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.509766,
+					0.350962,
+					0.0477905,
+					1
+				],
+				"fraction": 0.1,
+				"polar_color": [
+					0.729395,
+					0.58738,
+					0.316261,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 14208,
+				"techLevel": 8,
+				"economy": 2,
+				"government": 2,
+				"description": "The world Edceon is mildly noted for its ancient mountains but ravaged by occasional solar activity.",
+				"inhabitants": "Red Slimy Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.79119,
+				0.654592,
+				0.489224,
+				1
+			],
+			"radius": 125369.111633,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 443700,
+				"vector": [
+					0.467,
+					0.051,
+					-0.883
+				]
+			},
+			"corona": {
+				"shimmer": 0.339291,
+				"hues": 0.829292,
+				"flare": 0.055559
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Edceon",
+				"radius": 9860
+			}
+		}
+	]
+}

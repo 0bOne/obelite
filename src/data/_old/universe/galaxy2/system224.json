@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system224",
+	"position": [
+		21,
+		129
+	],
+	"space": {
+		"blurs": 185,
+		"stars": 8270,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ingece",
+			"name": "Ingece",
+			"seed": "169 129 161 21 77 108",
+			"body": {
+				"radius": 5909,
+				"rotation_v": 0.000364,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 709080
+			},
+			"land": {
+				"color": [
+					0.513672,
+					0.44545,
+					0.488622,
+					1
+				],
+				"polar_color": [
+					0.948633,
+					0.917135,
+					0.937067,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.673828,
+					0.667083,
+					0.50116,
+					1
+				],
+				"polar": [
+					0.932617,
+					0.930283,
+					0.872871,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.583804,
+					0.508478,
+					0.9151,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.511999,
+					0.1987,
+					0.748047,
+					1
+				],
+				"fraction": 0.14,
+				"polar_color": [
+					0.671623,
+					0.452625,
+					0.836621,
+					1
+				]
+			},
+			"demographics": {
+				"type": 42,
+				"productivity": 24192,
+				"techLevel": 9,
+				"economy": 1,
+				"government": 4,
+				"description": "The world Ingece is beset by dreadful earthquakes.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.223857,
+				0.662681,
+				0.835138,
+				1
+			],
+			"radius": 188288.964996,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 413630,
+				"vector": [
+					0.195,
+					0.566,
+					-0.801
+				]
+			},
+			"corona": {
+				"shimmer": 0.398187,
+				"hues": 0.96109,
+				"flare": 0.050887
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ingece",
+				"radius": 11818
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system8",
+	"position": [
+		136,
+		13
+	],
+	"space": {
+		"blurs": 59,
+		"stars": 7296,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Querbeis",
+			"name": "Querbeis",
+			"seed": "245 13 116 136 25 218",
+			"body": {
+				"radius": 5512,
+				"rotation_v": 0.002581,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 606320
+			},
+			"land": {
+				"color": [
+					0.658832,
+					0.66,
+					0.510469,
+					1
+				],
+				"polar_color": [
+					0.933587,
+					0.934,
+					0.881098,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.657825,
+					0.697293,
+					0.832031,
+					1
+				],
+				"polar": [
+					0.868808,
+					0.879681,
+					0.916797,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.553756,
+					0.945668,
+					0.838195,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.839844,
+					0.400033,
+					0.298538,
+					1
+				],
+				"fraction": 0.52,
+				"polar_color": [
+					0.87793,
+					0.590582,
+					0.524271,
+					1
+				]
+			},
+			"demographics": {
+				"type": 32,
+				"productivity": 12800,
+				"techLevel": 5,
+				"economy": 5,
+				"government": 6,
+				"description": "The planet Querbeis is a boring world.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.794128,
+				0.49255,
+				0.451035,
+				1
+			],
+			"radius": 109751.341553,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 385840,
+				"vector": [
+					-0.568,
+					0.466,
+					-0.678
+				]
+			},
+			"corona": {
+				"shimmer": 0.400621,
+				"hues": 0.630836,
+				"flare": 0.02168
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Querbeis",
+				"radius": 11024
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system32",
+	"position": [
+		206,
+		236
+	],
+	"space": {
+		"blurs": 147,
+		"stars": 8882,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anar",
+			"name": "Anar",
+			"seed": "169 236 161 206 77 96",
+			"body": {
+				"radius": 3022,
+				"rotation_v": 0.000387,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 332420
+			},
+			"land": {
+				"color": [
+					0.360857,
+					0.252656,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.828167,
+					0.789887,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.693958,
+					0.720703,
+					0.540527,
+					1
+				],
+				"polar": [
+					0.919321,
+					0.92793,
+					0.869934,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.656832,
+					0.799455,
+					0.96518,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.575562,
+					0.898438,
+					0.777359,
+					1
+				],
+				"fraction": 0.23,
+				"polar_color": [
+					0.701183,
+					0.904297,
+					0.828129,
+					1
+				]
+			},
+			"demographics": {
+				"type": 37,
+				"productivity": 14208,
+				"techLevel": 7,
+				"economy": 4,
+				"government": 4,
+				"description": "Anar is an unremarkable planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.724551,
+				0.586223,
+				0.347829,
+				1
+			],
+			"radius": 93063.360596,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 271980,
+				"vector": [
+					0.794,
+					-0.582,
+					0.178
+				]
+			},
+			"corona": {
+				"shimmer": 0.261648,
+				"hues": 0.71624,
+				"flare": 0.029051
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anar",
+				"radius": 6044
+			}
+		}
+	]
+}

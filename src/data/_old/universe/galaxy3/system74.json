@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system74",
+	"position": [
+		121,
+		247
+	],
+	"space": {
+		"blurs": 91,
+		"stars": 7195,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Erlein",
+			"name": "Erlein",
+			"seed": "130 247 242 121 90 208",
+			"body": {
+				"radius": 2937,
+				"rotation_v": 0.000113,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 352440
+			},
+			"land": {
+				"color": [
+					0.513672,
+					0.229466,
+					0.0220718,
+					1
+				],
+				"polar_color": [
+					0.948633,
+					0.817417,
+					0.721665,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.5,
+					0.398242,
+					0.407782,
+					1
+				],
+				"polar": [
+					0.95,
+					0.901665,
+					0.906196,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.662173,
+					0.866971,
+					0.837982,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.603516,
+					0.576184,
+					0.537506,
+					1
+				],
+				"fraction": 0.09,
+				"polar_color": [
+					0.771582,
+					0.749742,
+					0.718837,
+					1
+				]
+			},
+			"demographics": {
+				"type": 30,
+				"productivity": 7200,
+				"techLevel": 4,
+				"economy": 7,
+				"government": 6,
+				"description": "The planet Erlein is very noted for its unusual sit coms but plagued by occasional solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.192283,
+				0.396942,
+				0.707739,
+				1
+			],
+			"radius": 77550.226593,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 264330,
+				"vector": [
+					-0.555,
+					-0.415,
+					0.721
+				]
+			},
+			"corona": {
+				"shimmer": 0.272304,
+				"hues": 0.520584,
+				"flare": 0.068668
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Erlein",
+				"radius": 5874
+			}
+		}
+	]
+}

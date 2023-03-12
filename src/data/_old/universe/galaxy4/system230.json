@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system230",
+	"position": [
+		167,
+		178
+	],
+	"space": {
+		"blurs": 80,
+		"stars": 7043,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Inbior",
+			"name": "Inbior",
+			"seed": "188 178 120 167 21 76",
+			"body": {
+				"radius": 6055,
+				"rotation_v": 0.002208,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 726600
+			},
+			"land": {
+				"color": [
+					0.506224,
+					0.346718,
+					0.595703,
+					1
+				],
+				"polar_color": [
+					0.905115,
+					0.842162,
+					0.94043,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.566577,
+					0.71875,
+					0.622453,
+					1
+				],
+				"polar": [
+					0.879,
+					0.928125,
+					0.897038,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.431693,
+					0.834966,
+					0.837703,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.501841,
+					0.515625,
+					0.0745239,
+					1
+				],
+				"fraction": 0.39,
+				"polar_color": [
+					0.7198,
+					0.732031,
+					0.340638,
+					1
+				]
+			},
+			"demographics": {
+				"type": 58,
+				"productivity": 40832,
+				"techLevel": 12,
+				"economy": 2,
+				"government": 7,
+				"description": "This world is most fabled for Inbiorian evil juice but cursed by dreadful solar activity.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.204908,
+				0.358695,
+				0.680072,
+				1
+			],
+			"radius": 132308.99353,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 544950,
+				"vector": [
+					-0.452,
+					-0.891,
+					-0.045
+				]
+			},
+			"corona": {
+				"shimmer": 0.424549,
+				"hues": 0.84623,
+				"flare": 0.030186
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "icosahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Inbior",
+				"radius": 12110
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system58",
+	"position": [
+		99,
+		90
+	],
+	"space": {
+		"blurs": 89,
+		"stars": 6393,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esusla",
+			"name": "Esusla",
+			"seed": "185 90 232 99 117 105",
+			"body": {
+				"radius": 5219,
+				"rotation_v": 0.002836,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 730660
+			},
+			"land": {
+				"color": [
+					0.487266,
+					0.494013,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.872889,
+					0.875276,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.635113,
+					0.658203,
+					0.502651,
+					1
+				],
+				"polar": [
+					0.925987,
+					0.93418,
+					0.878986,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.650013,
+					0.834183,
+					0.951522,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.555984,
+					0.857422,
+					0.610149,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.691197,
+					0.88584,
+					0.726172,
+					1
+				]
+			},
+			"demographics": {
+				"type": 52,
+				"productivity": 29952,
+				"techLevel": 11,
+				"economy": 2,
+				"government": 5,
+				"description": "This world is fabled for its unusual oceans.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.688235,
+				0.629198,
+				0.452201,
+				1
+			],
+			"radius": 118402.23999,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 313140,
+				"vector": [
+					0.22,
+					-0.255,
+					-0.942
+				]
+			},
+			"corona": {
+				"shimmer": 0.29186,
+				"hues": 0.926529,
+				"flare": 0.061797
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Esusla",
+				"radius": 10438
+			}
+		}
+	]
+}

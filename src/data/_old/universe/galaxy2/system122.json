@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system122",
+	"position": [
+		161,
+		95
+	],
+	"space": {
+		"blurs": 71,
+		"stars": 8159,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Lege",
+			"name": "Lege",
+			"seed": "1 95 185 161 173 192",
+			"body": {
+				"radius": 2977,
+				"rotation_v": 0.002612,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 327470
+			},
+			"land": {
+				"color": [
+					0.500156,
+					0.596312,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.877449,
+					0.911468,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.710938,
+					0.623068,
+					0.485992,
+					1
+				],
+				"polar": [
+					0.928906,
+					0.900204,
+					0.855428,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.594539,
+					0.866351,
+					0.984691,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.436634,
+					0.957031,
+					0.392532,
+					1
+				],
+				"fraction": 0.42,
+				"polar_color": [
+					0.614377,
+					0.930664,
+					0.587573,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 9240,
+				"techLevel": 5,
+				"economy": 7,
+				"government": 7,
+				"description": "The planet Lege is mildly well known for its exotic cuisine.",
+				"inhabitants": "Large Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.6965,
+				0.619483,
+				0.44903,
+				1
+			],
+			"radius": 65295.85434,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 267930,
+				"vector": [
+					-0.359,
+					-0.245,
+					-0.901
+				]
+			},
+			"corona": {
+				"shimmer": 0.520168,
+				"hues": 0.515701,
+				"flare": 0.048358
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Lege",
+				"radius": 5954
+			}
+		}
+	]
+}

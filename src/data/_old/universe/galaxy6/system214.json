@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system214",
+	"position": [
+		8,
+		164
+	],
+	"space": {
+		"blurs": 146,
+		"stars": 8032,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Riareror",
+			"name": "Riareror",
+			"seed": "82 164 42 8 20 222",
+			"body": {
+				"radius": 6408,
+				"rotation_v": 0.004086,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 704880
+			},
+			"land": {
+				"color": [
+					0.415078,
+					0.522231,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.84735,
+					0.885259,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.648438,
+					0.564969,
+					0.504059,
+					1
+				],
+				"polar": [
+					0.935156,
+					0.905062,
+					0.883102,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.584372,
+					0.953473,
+					0.950199,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.863281,
+					0.855694,
+					0.377686,
+					1
+				],
+				"fraction": 0.26,
+				"polar_color": [
+					0.888477,
+					0.883596,
+					0.576122,
+					1
+				]
+			},
+			"demographics": {
+				"type": 34,
+				"productivity": 14688,
+				"techLevel": 6,
+				"economy": 4,
+				"government": 5,
+				"description": "This world is a revolting little planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.65668,
+				0.60189,
+				0.373766,
+				1
+			],
+			"radius": 119017.727051,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 448560,
+				"vector": [
+					0.15,
+					-0.978,
+					0.144
+				]
+			},
+			"corona": {
+				"shimmer": 0.424621,
+				"hues": 0.506035,
+				"flare": 0.08262
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Riareror",
+				"radius": 12816
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system175",
+	"position": [
+		112,
+		83
+	],
+	"space": {
+		"blurs": 154,
+		"stars": 9584,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Reenaten",
+			"name": "Reenaten",
+			"seed": "123 83 6 112 191 14",
+			"body": {
+				"radius": 6512,
+				"rotation_v": 0.00264,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 716320
+			},
+			"land": {
+				"color": [
+					0.527344,
+					0.512795,
+					0.510864,
+					1
+				],
+				"polar_color": [
+					0.947266,
+					0.940732,
+					0.939865,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.615234,
+					0.543061,
+					0.466232,
+					1
+				],
+				"polar": [
+					0.938477,
+					0.910954,
+					0.881655,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.796051,
+					0.750436,
+					0.977537,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.900572,
+					0.844185,
+					0.935547,
+					1
+				],
+				"fraction": 0.6,
+				"polar_color": [
+					0.899477,
+					0.864783,
+					0.920996,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 4480,
+				"techLevel": 4,
+				"economy": 3,
+				"government": 0,
+				"description": "The world Reenaten is a dull world.",
+				"inhabitants": "Green Bony Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.2963,
+				0.447931,
+				0.826892,
+				1
+			],
+			"radius": 172334.094238,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 781440,
+				"vector": [
+					0.634,
+					-0.732,
+					0.25
+				]
+			},
+			"corona": {
+				"shimmer": 0.371692,
+				"hues": 0.98571,
+				"flare": 0.048759
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Reenaten",
+				"radius": 13024
+			}
+		}
+	]
+}

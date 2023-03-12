@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system59",
+	"position": [
+		1,
+		39
+	],
+	"space": {
+		"blurs": 185,
+		"stars": 8844,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esenis",
+			"name": "Esenis",
+			"seed": "154 39 194 1 42 233",
+			"body": {
+				"radius": 5121,
+				"rotation_v": 0.002606,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 716940
+			},
+			"land": {
+				"color": [
+					0.45375,
+					0.66,
+					0.616494,
+					1
+				],
+				"polar_color": [
+					0.861031,
+					0.934,
+					0.918608,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.677734,
+					0.589253,
+					0.495064,
+					1
+				],
+				"polar": [
+					0.932227,
+					0.9018,
+					0.869411,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.679335,
+					0.866333,
+					0.88193,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.634328,
+					0.648438,
+					0.590179,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.781029,
+					0.791797,
+					0.747336,
+					1
+				]
+			},
+			"demographics": {
+				"type": 12,
+				"productivity": 1152,
+				"techLevel": 1,
+				"economy": 7,
+				"government": 0,
+				"description": "This world is a revolting little planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.837299,
+				0.780907,
+				0.739915,
+				1
+			],
+			"radius": 122130.88028,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 307260,
+				"vector": [
+					-0.967,
+					-0.249,
+					0.052
+				]
+			},
+			"corona": {
+				"shimmer": 0.421616,
+				"hues": 0.999191,
+				"flare": 0.08607
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esenis",
+				"radius": 10242
+			}
+		}
+	]
+}

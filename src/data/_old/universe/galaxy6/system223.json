@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system223",
+	"position": [
+		224,
+		231
+	],
+	"space": {
+		"blurs": 81,
+		"stars": 6649,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Usesen",
+			"name": "Usesen",
+			"seed": "206 231 146 224 80 32",
+			"body": {
+				"radius": 3040,
+				"rotation_v": 0.000126,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 395200
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.362549,
+					0.293906,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.828765,
+					0.80448,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.278778,
+					0.357426,
+					0.566406,
+					1
+				],
+				"polar": [
+					0.823597,
+					0.856344,
+					0.943359,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.774393,
+					0.730633,
+					0.988594,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.88399,
+					0.790894,
+					0.96875,
+					1
+				],
+				"fraction": 0.15,
+				"polar_color": [
+					0.884757,
+					0.828542,
+					0.935938,
+					1
+				]
+			},
+			"demographics": {
+				"type": 14,
+				"productivity": 2016,
+				"techLevel": 1,
+				"economy": 7,
+				"government": 2,
+				"description": "Usesen is a revolting little planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.350299,
+				0.492926,
+				0.782227,
+				1
+			],
+			"radius": 89832.055664,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 243200,
+				"vector": [
+					0.884,
+					0.251,
+					0.394
+				]
+			},
+			"corona": {
+				"shimmer": 0.403805,
+				"hues": 0.559952,
+				"flare": 0.074794
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Usesen",
+				"radius": 6080
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system130",
+	"position": [
+		11,
+		181
+	],
+	"space": {
+		"blurs": 193,
+		"stars": 6017,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Cebitiza",
+			"name": "Cebitiza",
+			"seed": "194 181 178 11 90 37",
+			"body": {
+				"radius": 4107,
+				"rotation_v": 0.002518,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 616050
+			},
+			"land": {
+				"color": [
+					0.459858,
+					0.32373,
+					0.609375,
+					1
+				],
+				"polar_color": [
+					0.88146,
+					0.829016,
+					0.939062,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.551933,
+					0.712891,
+					0.554448,
+					1
+				],
+				"polar": [
+					0.87629,
+					0.928711,
+					0.877109,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.917257,
+					0.793168,
+					0.997699,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.996094,
+					0.98053,
+					0.983083,
+					1
+				],
+				"fraction": 0.22,
+				"polar_color": [
+					0.948242,
+					0.938982,
+					0.940501,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 17600,
+				"techLevel": 8,
+				"economy": 5,
+				"government": 6,
+				"description": "Cebitiza is most famous for its vast oceans and its inhabitants’ exceptional love for tourists.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.735486,
+				0.729204,
+				0.726825,
+				1
+			],
+			"radius": 126683.052063,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 123210,
+				"vector": [
+					0.268,
+					-0.933,
+					-0.242
+				]
+			},
+			"corona": {
+				"shimmer": 0.528618,
+				"hues": 0.806511,
+				"flare": 0.051187
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Cebitiza",
+				"radius": 8214
+			}
+		}
+	]
+}

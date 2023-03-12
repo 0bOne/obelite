@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system180",
+	"position": [
+		47,
+		141
+	],
+	"space": {
+		"blurs": 178,
+		"stars": 6114,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Essoat",
+			"name": "Essoat",
+			"seed": "242 141 194 47 180 201",
+			"body": {
+				"radius": 5167,
+				"rotation_v": 0.00377,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 465030
+			},
+			"land": {
+				"color": [
+					0.0993361,
+					0.617188,
+					0.0554504,
+					1
+				],
+				"polar_color": [
+					0.741465,
+					0.938281,
+					0.724786,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.636847,
+					0.751953,
+					0.584526,
+					1
+				],
+				"polar": [
+					0.889413,
+					0.924805,
+					0.873326,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.843578,
+					0.75695,
+					0.994447,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.986328,
+					0.870743,
+					0.973686,
+					1
+				],
+				"fraction": 0.59,
+				"polar_color": [
+					0.943848,
+					0.874718,
+					0.936287,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 1920,
+				"techLevel": 3,
+				"economy": 7,
+				"government": 0,
+				"description": "This world is very notable for its inhabitants’ ingrained shyness.",
+				"inhabitants": "Small Horned Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.712549,
+				0.496085,
+				0.4944,
+				1
+			],
+			"radius": 129390.239105,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 465030,
+				"vector": [
+					-0.622,
+					-0.452,
+					-0.639
+				]
+			},
+			"corona": {
+				"shimmer": 0.389437,
+				"hues": 0.902245,
+				"flare": 0.057851
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Essoat",
+				"radius": 10334
+			}
+		}
+	]
+}

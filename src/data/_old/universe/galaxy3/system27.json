@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system27",
+	"position": [
+		152,
+		62
+	],
+	"space": {
+		"blurs": 156,
+		"stars": 6421,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Gequve",
+			"name": "Gequve",
+			"seed": "154 62 194 152 42 195",
+			"body": {
+				"radius": 3736,
+				"rotation_v": 0.002612,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 410960
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.386719,
+					0.489199,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.837316,
+					0.873573,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.693359,
+					0.485064,
+					0.444183,
+					1
+				],
+				"polar": [
+					0.930664,
+					0.860768,
+					0.84705,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.743482,
+					0.763807,
+					0.939814,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.799782,
+					0.806457,
+					0.822266,
+					1
+				],
+				"fraction": 0.37,
+				"polar_color": [
+					0.855151,
+					0.859565,
+					0.87002,
+					1
+				]
+			},
+			"demographics": {
+				"type": 11,
+				"productivity": 1408,
+				"techLevel": 1,
+				"economy": 6,
+				"government": 0,
+				"description": "The planet Gequve is a boring world.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.220734,
+				0.293797,
+				0.759183,
+				1
+			],
+			"radius": 86610.48584,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 373600,
+				"vector": [
+					-0.661,
+					0.577,
+					-0.48
+				]
+			},
+			"corona": {
+				"shimmer": 0.579483,
+				"hues": 0.703316,
+				"flare": 0.063727
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Gequve",
+				"radius": 7472
+			}
+		}
+	]
+}

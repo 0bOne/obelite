@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system88",
+	"position": [
+		199,
+		198
+	],
+	"space": {
+		"blurs": 170,
+		"stars": 8300,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Beleteat",
+			"name": "Beleteat",
+			"seed": "201 198 1 199 205 243",
+			"body": {
+				"radius": 3783,
+				"rotation_v": 0.004204,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 453960
+			},
+			"land": {
+				"color": [
+					0.484688,
+					0.66,
+					0.503862,
+					1
+				],
+				"polar_color": [
+					0.871977,
+					0.934,
+					0.87876,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.783203,
+					0.678754,
+					0.431374,
+					1
+				],
+				"polar": [
+					0.92168,
+					0.89095,
+					0.818171,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.67146,
+					0.877587,
+					0.880629,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.640538,
+					0.644531,
+					0.571518,
+					1
+				],
+				"fraction": 0.31,
+				"polar_color": [
+					0.78698,
+					0.790039,
+					0.734104,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 2944,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 0,
+				"description": "This planet is plagued by deadly earthquakes.",
+				"inhabitants": "Bug-Eyed Birds"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.750391,
+				0.516023,
+				0.385644,
+				1
+			],
+			"radius": 98358.808136,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 416130,
+				"vector": [
+					-0.069,
+					-0.617,
+					0.784
+				]
+			},
+			"corona": {
+				"shimmer": 0.271425,
+				"hues": 0.856773,
+				"flare": 0.030304
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Beleteat",
+				"radius": 7566
+			}
+		}
+	]
+}

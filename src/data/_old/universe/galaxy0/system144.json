@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system144",
+	"position": [
+		97,
+		114
+	],
+	"space": {
+		"blurs": 95,
+		"stars": 9526,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Biorle",
+			"name": "Biorle",
+			"seed": "10 114 40 97 83 38",
+			"body": {
+				"radius": 4449,
+				"rotation_v": 0.001321,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 533880
+			},
+			"land": {
+				"color": [
+					0.611016,
+					0.66,
+					0.639335,
+					1
+				],
+				"polar_color": [
+					0.91667,
+					0.934,
+					0.926689,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.349877,
+					0.328491,
+					0.539062,
+					1
+				],
+				"polar": [
+					0.863085,
+					0.853702,
+					0.946094,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.587583,
+					0.547192,
+					0.876076,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.425534,
+					0.29818,
+					0.630859,
+					1
+				],
+				"fraction": 0.42,
+				"polar_color": [
+					0.624429,
+					0.525526,
+					0.783887,
+					1
+				]
+			},
+			"demographics": {
+				"type": 44,
+				"productivity": 25344,
+				"techLevel": 9,
+				"economy": 2,
+				"government": 5,
+				"description": "The world Biorle is a dull world.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.577615,
+				0.61041,
+				0.688547,
+				1
+			],
+			"radius": 108699.627686,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 266940,
+				"vector": [
+					0.096,
+					-0.954,
+					0.284
+				]
+			},
+			"corona": {
+				"shimmer": 0.435623,
+				"hues": 0.540535,
+				"flare": 0.058958
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Biorle",
+				"radius": 8898
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy1",
+	"systemId": "system206",
+	"position": [
+		210,
+		108
+	],
+	"space": {
+		"blurs": 115,
+		"stars": 9773,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edtixeen",
+			"name": "Edtixeen",
+			"seed": "244 108 8 210 182 152",
+			"body": {
+				"radius": 5074,
+				"rotation_v": 0.001742,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 659620
+			},
+			"land": {
+				"color": [
+					0.634766,
+					0.428963,
+					0.496492,
+					1
+				],
+				"polar_color": [
+					0.936523,
+					0.860614,
+					0.885522,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.560547,
+					0.48432,
+					0.438584,
+					1
+				],
+				"polar": [
+					0.943945,
+					0.911854,
+					0.8926,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.634151,
+					0.776745,
+					0.990545,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.50634,
+					0.974609,
+					0.886809,
+					1
+				],
+				"fraction": 0.33,
+				"polar_color": [
+					0.656727,
+					0.938574,
+					0.885728,
+					1
+				]
+			},
+			"demographics": {
+				"type": 24,
+				"productivity": 3840,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 1,
+				"description": "The world Edtixeen is reasonably noted for its inhabitants’ eccentric love for tourists and the Edtixeenian tree snake.",
+				"inhabitants": "Black Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.735754,
+				0.622467,
+				0.404662,
+				1
+			],
+			"radius": 93931.248169,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 253700,
+				"vector": [
+					0.06,
+					0.535,
+					0.843
+				]
+			},
+			"corona": {
+				"shimmer": 1.085069,
+				"hues": 0.534027,
+				"flare": 0.005769
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Edtixeen",
+				"radius": 10148
+			}
+		}
+	]
+}

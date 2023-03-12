@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system30",
+	"position": [
+		176,
+		76
+	],
+	"space": {
+		"blurs": 70,
+		"stars": 7689,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edraisar",
+			"name": "Edraisar",
+			"seed": "113 76 9 176 109 216",
+			"body": {
+				"radius": 5040,
+				"rotation_v": 0.00325,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 453600
+			},
+			"land": {
+				"color": [
+					0.632812,
+					0.620453,
+					0.553711,
+					1
+				],
+				"polar_color": [
+					0.936719,
+					0.932145,
+					0.907446,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.180603,
+					0.525391,
+					0.299124,
+					1
+				],
+				"polar": [
+					0.792018,
+					0.947461,
+					0.845452,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.691695,
+					0.730648,
+					0.980789,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.675751,
+					0.781048,
+					0.945312,
+					1
+				],
+				"fraction": 0.29,
+				"polar_color": [
+					0.760465,
+					0.824889,
+					0.925391,
+					1
+				]
+			},
+			"demographics": {
+				"type": 16,
+				"productivity": 2560,
+				"techLevel": 2,
+				"economy": 6,
+				"government": 1,
+				"description": "The world Edraisar is reasonably noted for Zero-G hockey and Edraisarian Usenbiza brandy.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.82392,
+				0.748865,
+				0.684625,
+				1
+			],
+			"radius": 169001.806641,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 604800,
+				"vector": [
+					0.587,
+					-0.246,
+					-0.771
+				]
+			},
+			"corona": {
+				"shimmer": 0.319956,
+				"hues": 0.820908,
+				"flare": 0.062909
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Edraisar",
+				"radius": 10080
+			}
+		}
+	]
+}

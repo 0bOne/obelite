@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system2",
+	"position": [
+		170,
+		237
+	],
+	"space": {
+		"blurs": 147,
+		"stars": 8828,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Arxetige",
+			"name": "Arxetige",
+			"seed": "89 237 93 170 122 234",
+			"body": {
+				"radius": 5546,
+				"rotation_v": 0.003062,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 610060
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.653232,
+					0.551719,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.931606,
+					0.895691,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.121948,
+					0.650391,
+					0.613235,
+					1
+				],
+				"polar": [
+					0.745047,
+					0.934961,
+					0.921608,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.68819,
+					0.849977,
+					0.894938,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.644699,
+					0.6875,
+					0.623047,
+					1
+				],
+				"fraction": 0.43,
+				"polar_color": [
+					0.777882,
+					0.809375,
+					0.761951,
+					1
+				]
+			},
+			"demographics": {
+				"type": 33,
+				"productivity": 9240,
+				"techLevel": 6,
+				"economy": 5,
+				"government": 3,
+				"description": "The world Arxetige is fabled for its exciting lethal Es water and the Arxetigeian spotted shrew.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.578801,
+				0.707528,
+				0.810345,
+				1
+			],
+			"radius": 136052.005005,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 554600,
+				"vector": [
+					0.133,
+					0.975,
+					-0.177
+				]
+			},
+			"corona": {
+				"shimmer": 0.346465,
+				"hues": 0.822678,
+				"flare": 0.040518
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Arxetige",
+				"radius": 11092
+			}
+		}
+	]
+}

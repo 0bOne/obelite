@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system181",
+	"position": [
+		42,
+		199
+	],
+	"space": {
+		"blurs": 198,
+		"stars": 6132,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Esteerve",
+			"name": "Esteerve",
+			"seed": "111 199 253 42 160 137",
+			"body": {
+				"radius": 5162,
+				"rotation_v": 0.003701,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 516200
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.28875,
+					0.306152,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.802656,
+					0.808813,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.621094,
+					0.55881,
+					0.470673,
+					1
+				],
+				"polar": [
+					0.937891,
+					0.914378,
+					0.881104,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.751635,
+					0.576005,
+					0.903393,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.712891,
+					0.364799,
+					0.495334,
+					1
+				],
+				"fraction": 0.08,
+				"polar_color": [
+					0.820801,
+					0.570312,
+					0.664245,
+					1
+				]
+			},
+			"demographics": {
+				"type": 39,
+				"productivity": 10296,
+				"techLevel": 6,
+				"economy": 7,
+				"government": 7,
+				"description": "This planet is a dull place.",
+				"inhabitants": "Small Black Furry Felines"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.513099,
+				0.783729,
+				0.819427,
+				1
+			],
+			"radius": 147377.242432,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 361340,
+				"vector": [
+					0.397,
+					-0.755,
+					-0.522
+				]
+			},
+			"corona": {
+				"shimmer": 0.347067,
+				"hues": 0.690834,
+				"flare": 0.089586
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Esteerve",
+				"radius": 10324
+			}
+		}
+	]
+}

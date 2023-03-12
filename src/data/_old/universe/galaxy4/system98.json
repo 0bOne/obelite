@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system98",
+	"position": [
+		202,
+		56
+	],
+	"space": {
+		"blurs": 91,
+		"stars": 6296,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Ceused",
+			"name": "Ceused",
+			"seed": "156 56 80 202 133 165",
+			"body": {
+				"radius": 4298,
+				"rotation_v": 0.003817,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 601720
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.0438281,
+					0.477074,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.716006,
+					0.869283,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.613281,
+					0.570894,
+					0.470502,
+					1
+				],
+				"polar": [
+					0.938672,
+					0.922453,
+					0.884038,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.667333,
+					0.843557,
+					0.796606,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.533203,
+					0.521699,
+					0.518623,
+					1
+				],
+				"fraction": 0.44,
+				"polar_color": [
+					0.739941,
+					0.729963,
+					0.727296,
+					1
+				]
+			},
+			"demographics": {
+				"type": 43,
+				"productivity": 20640,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 2,
+				"description": "The world Ceused is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ eccentric shyness.",
+				"inhabitants": "Fierce Harmless Horned Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.655225,
+				0.466278,
+				0.36214,
+				1
+			],
+			"radius": 107583.787842,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 214900,
+				"vector": [
+					0.735,
+					-0.607,
+					-0.303
+				]
+			},
+			"corona": {
+				"shimmer": 0.426967,
+				"hues": 0.5065,
+				"flare": 0.003677
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Ceused",
+				"radius": 8596
+			}
+		}
+	]
+}

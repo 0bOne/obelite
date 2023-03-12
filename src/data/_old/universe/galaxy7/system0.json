@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy7",
+	"systemId": "system0",
+	"position": [
+		1,
+		45
+	],
+	"space": {
+		"blurs": 130,
+		"stars": 5171,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anesbi",
+			"name": "Anesbi",
+			"seed": "37 45 36 1 169 219",
+			"body": {
+				"radius": 5633,
+				"rotation_v": 0.001311,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 563300
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.450628,
+					0.311953,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.859927,
+					0.810865,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.288841,
+					0.338365,
+					0.564453,
+					1
+				],
+				"polar": [
+					0.828375,
+					0.849071,
+					0.943555,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.703877,
+					0.708852,
+					0.985342,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.711746,
+					0.721404,
+					0.958984,
+					1
+				],
+				"fraction": 0.34,
+				"polar_color": [
+					0.781441,
+					0.787304,
+					0.931543,
+					1
+				]
+			},
+			"demographics": {
+				"type": 30,
+				"productivity": 9600,
+				"techLevel": 5,
+				"economy": 5,
+				"government": 4,
+				"description": "This world is a tedious little planet.",
+				"inhabitants": "Fat Insects"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.669214,
+				0.643871,
+				0.632644,
+				1
+			],
+			"radius": 162575.345612,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 394310,
+				"vector": [
+					0.406,
+					-0.293,
+					-0.866
+				]
+			},
+			"corona": {
+				"shimmer": 0.443212,
+				"hues": 0.56694,
+				"flare": 0.092725
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anesbi",
+				"radius": 11266
+			}
+		}
+	]
+}

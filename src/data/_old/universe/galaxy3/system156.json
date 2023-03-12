@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system156",
+	"position": [
+		104,
+		18
+	],
+	"space": {
+		"blurs": 105,
+		"stars": 7745,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Laainat",
+			"name": "Laainat",
+			"seed": "114 18 34 104 26 117",
+			"body": {
+				"radius": 4200,
+				"rotation_v": 0.004444,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 462000
+			},
+			"land": {
+				"color": [
+					0.220188,
+					0.113438,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.7784,
+					0.740633,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.594505,
+					0.607422,
+					0.480243,
+					1
+				],
+				"polar": [
+					0.934265,
+					0.939258,
+					0.890094,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.610066,
+					0.587573,
+					0.83315,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.400193,
+					0.358818,
+					0.501953,
+					1
+				],
+				"fraction": 0.26,
+				"polar_color": [
+					0.633906,
+					0.596511,
+					0.725879,
+					1
+				]
+			},
+			"demographics": {
+				"type": 35,
+				"productivity": 17920,
+				"techLevel": 7,
+				"economy": 2,
+				"government": 4,
+				"description": "This world is very well known for its inhabitants’ unusual mating traditions and its great parking meters.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.722427,
+				0.663738,
+				0.553092,
+				1
+			],
+			"radius": 85277.893066,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 420000,
+				"vector": [
+					0.32,
+					0.722,
+					0.613
+				]
+			},
+			"corona": {
+				"shimmer": 0.830768,
+				"hues": 0.570908,
+				"flare": 0.041222
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Laainat",
+				"radius": 8400
+			}
+		}
+	]
+}

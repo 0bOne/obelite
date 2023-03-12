@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system39",
+	"position": [
+		35,
+		104
+	],
+	"space": {
+		"blurs": 146,
+		"stars": 6920,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Zaeredre",
+			"name": "Zaeredre",
+			"seed": "214 104 180 35 83 196",
+			"body": {
+				"radius": 3875,
+				"rotation_v": 0.001852,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 426250
+			},
+			"land": {
+				"color": [
+					0.541016,
+					0.321377,
+					0.0105667,
+					1
+				],
+				"polar_color": [
+					0.945898,
+					0.849896,
+					0.714042,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.609375,
+					0.519735,
+					0.460364,
+					1
+				],
+				"polar": [
+					0.939062,
+					0.904528,
+					0.881655,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.574818,
+					0.569012,
+					0.840955,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.345653,
+					0.330421,
+					0.525391,
+					1
+				],
+				"fraction": 0.57,
+				"polar_color": [
+					0.578968,
+					0.565624,
+					0.736426,
+					1
+				]
+			},
+			"demographics": {
+				"type": 59,
+				"productivity": 47200,
+				"techLevel": 13,
+				"economy": 0,
+				"government": 6,
+				"description": "This world is noted for its exciting vacuum karate.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.320785,
+				0.555321,
+				0.729199,
+				1
+			],
+			"radius": 75382.041931,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 348750,
+				"vector": [
+					-0.393,
+					-0.707,
+					0.589
+				]
+			},
+			"corona": {
+				"shimmer": 1.01336,
+				"hues": 0.581741,
+				"flare": 0.04505
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "icosahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Zaeredre",
+				"radius": 7750
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system203",
+	"position": [
+		156,
+		194
+	],
+	"space": {
+		"blurs": 151,
+		"stars": 7538,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Beatle",
+			"name": "Beatle",
+			"seed": "14 194 130 156 80 147",
+			"body": {
+				"radius": 3740,
+				"rotation_v": 0.004543,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 374000
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.0283594,
+					0.146792,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.710533,
+					0.752433,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.605469,
+					0.472745,
+					0.451027,
+					1
+				],
+				"polar": [
+					0.939453,
+					0.887969,
+					0.879545,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.681999,
+					0.549768,
+					0.904693,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.716797,
+					0.302399,
+					0.66176,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.822559,
+					0.525345,
+					0.783085,
+					1
+				]
+			},
+			"demographics": {
+				"type": 23,
+				"productivity": 5888,
+				"techLevel": 5,
+				"economy": 2,
+				"government": 0,
+				"description": "Beatle is famous for its exotic fish meat but scourged by deadly civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.667398,
+				0.597206,
+				0.503507,
+				1
+			],
+			"radius": 92596.044922,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 374000,
+				"vector": [
+					0.162,
+					-0.757,
+					-0.632
+				]
+			},
+			"corona": {
+				"shimmer": 0.276596,
+				"hues": 0.886551,
+				"flare": 0.074994
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Beatle",
+				"radius": 7480
+			}
+		}
+	]
+}

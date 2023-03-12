@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system213",
+	"position": [
+		140,
+		248
+	],
+	"space": {
+		"blurs": 145,
+		"stars": 7332,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Orrigean",
+			"name": "Orrigean",
+			"seed": "198 248 32 140 91 249",
+			"body": {
+				"radius": 5260,
+				"rotation_v": 0.002049,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 683800
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.304904,
+					0.131484,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.808371,
+					0.747018,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.560547,
+					0.426979,
+					0.524024,
+					1
+				],
+				"polar": [
+					0.943945,
+					0.887714,
+					0.92857,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.881405,
+					0.780525,
+					0.989895,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.972656,
+					0.938461,
+					0.956895,
+					1
+				],
+				"fraction": 0.6,
+				"polar_color": [
+					0.937695,
+					0.917092,
+					0.928198,
+					1
+				]
+			},
+			"demographics": {
+				"type": 41,
+				"productivity": 26240,
+				"techLevel": 9,
+				"economy": 0,
+				"government": 4,
+				"description": "The world Orrigean is most famous for the Orrigeanian spotted shrew.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.284902,
+				0.661503,
+				0.688312,
+				1
+			],
+			"radius": 160060.958862,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 526000,
+				"vector": [
+					0.77,
+					-0.116,
+					-0.628
+				]
+			},
+			"corona": {
+				"shimmer": 0.253281,
+				"hues": 0.582886,
+				"flare": 0.08739
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Orrigean",
+				"radius": 10520
+			}
+		}
+	]
+}

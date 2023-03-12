@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy5",
+	"systemId": "system75",
+	"position": [
+		33,
+		144
+	],
+	"space": {
+		"blurs": 117,
+		"stars": 7008,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Riare",
+			"name": "Riare",
+			"seed": "7 144 65 33 40 62",
+			"body": {
+				"radius": 6433,
+				"rotation_v": 0.002259,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 578970
+			},
+			"land": {
+				"color": [
+					0.613594,
+					0.66,
+					0.28875,
+					1
+				],
+				"polar_color": [
+					0.917582,
+					0.934,
+					0.802656,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.555908,
+					0.6875,
+					0.537109,
+					1
+				],
+				"polar": [
+					0.886688,
+					0.93125,
+					0.880322,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.5216,
+					0.637246,
+					0.835102,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.240021,
+					0.507812,
+					0.482707,
+					1
+				],
+				"fraction": 0.38,
+				"polar_color": [
+					0.488404,
+					0.728516,
+					0.706005,
+					1
+				]
+			},
+			"demographics": {
+				"type": 27,
+				"productivity": 6912,
+				"techLevel": 6,
+				"economy": 2,
+				"government": 0,
+				"description": "The planet Riare is scourged by deadly tree grubs.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.828964,
+				0.822864,
+				0.794489,
+				1
+			],
+			"radius": 162447.581329,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 836290,
+				"vector": [
+					0.169,
+					0.978,
+					0.125
+				]
+			},
+			"corona": {
+				"shimmer": 0.330353,
+				"hues": 0.980591,
+				"flare": 0.026877
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Riare",
+				"radius": 12866
+			}
+		}
+	]
+}

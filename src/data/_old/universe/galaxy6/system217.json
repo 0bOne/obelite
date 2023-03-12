@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system217",
+	"position": [
+		148,
+		170
+	],
+	"space": {
+		"blurs": 132,
+		"stars": 9243,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Anquarle",
+			"name": "Anquarle",
+			"seed": "222 170 138 148 128 123",
+			"body": {
+				"radius": 5780,
+				"rotation_v": 0.000469,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 693600
+			},
+			"land": {
+				"color": [
+					0.382449,
+					0.66,
+					0.324844,
+					1
+				],
+				"polar_color": [
+					0.835806,
+					0.934,
+					0.815426,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.614432,
+					0.679688,
+					0.519058,
+					1
+				],
+				"polar": [
+					0.909661,
+					0.932031,
+					0.876965,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.603775,
+					0.932064,
+					0.945018,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.787159,
+					0.837891,
+					0.432037,
+					1
+				],
+				"fraction": 0.55,
+				"polar_color": [
+					0.843862,
+					0.877051,
+					0.611537,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 8960,
+				"techLevel": 6,
+				"economy": 2,
+				"government": 1,
+				"description": "Anquarle is reasonably notable for its weird tropical forests but scourged by frequent civil war.",
+				"inhabitants": "Blue Frogs"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.667623,
+				0.754612,
+				0.762363,
+				1
+			],
+			"radius": 128141.442871,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 462400,
+				"vector": [
+					0.376,
+					-0.857,
+					-0.353
+				]
+			},
+			"corona": {
+				"shimmer": 0.607265,
+				"hues": 0.532021,
+				"flare": 0.079135
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Anquarle",
+				"radius": 11560
+			}
+		}
+	]
+}

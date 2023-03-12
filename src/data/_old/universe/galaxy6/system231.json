@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system231",
+	"position": [
+		185,
+		64
+	],
+	"space": {
+		"blurs": 72,
+		"stars": 8982,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Diusace",
+			"name": "Diusace",
+			"seed": "206 64 178 185 208 141",
+			"body": {
+				"radius": 6329,
+				"rotation_v": 0.001421,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 632900
+			},
+			"land": {
+				"color": [
+					0.258789,
+					0.264511,
+					0.625,
+					1
+				],
+				"polar_color": [
+					0.800171,
+					0.802317,
+					0.9375,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.503906,
+					0.40491,
+					0.402534,
+					1
+				],
+				"polar": [
+					0.949609,
+					0.90297,
+					0.901851,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.712289,
+					0.721118,
+					0.977537,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.73455,
+					0.751824,
+					0.935547,
+					1
+				],
+				"fraction": 0.14,
+				"polar_color": [
+					0.797327,
+					0.807955,
+					0.920996,
+					1
+				]
+			},
+			"demographics": {
+				"type": 51,
+				"productivity": 40800,
+				"techLevel": 11,
+				"economy": 0,
+				"government": 6,
+				"description": "The planet Diusace is mildly notable for its inhabitants’ unusual silliness.",
+				"inhabitants": "Black Bug-Eyed Lizards"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.485248,
+				0.577932,
+				0.717184,
+				1
+			],
+			"radius": 112236.030731,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 506320,
+				"vector": [
+					0.138,
+					-0.465,
+					-0.874
+				]
+			},
+			"corona": {
+				"shimmer": 0.440904,
+				"hues": 0.588142,
+				"flare": 0.052153
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Diusace",
+				"radius": 12658
+			}
+		}
+	]
+}

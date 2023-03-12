@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system40",
+	"position": [
+		122,
+		67
+	],
+	"space": {
+		"blurs": 161,
+		"stars": 7619,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Xeis",
+			"name": "Xeis",
+			"seed": "18 67 130 122 154 194",
+			"body": {
+				"radius": 3450,
+				"rotation_v": 0.003232,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 345000
+			},
+			"land": {
+				"color": [
+					0.0916138,
+					0.617188,
+					0.247643,
+					1
+				],
+				"polar_color": [
+					0.73853,
+					0.938281,
+					0.797831,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.710938,
+					0.603412,
+					0.477661,
+					1
+				],
+				"polar": [
+					0.928906,
+					0.893783,
+					0.852707,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.713305,
+					0.484552,
+					0.967131,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.904297,
+					0.0918427,
+					0.548848,
+					1
+				],
+				"fraction": 0.18,
+				"polar_color": [
+					0.906934,
+					0.397669,
+					0.68413,
+					1
+				]
+			},
+			"demographics": {
+				"type": 28,
+				"productivity": 6272,
+				"techLevel": 6,
+				"economy": 3,
+				"government": 0,
+				"description": "The planet Xeis is famous for Xeisian wolf meat but beset by frequent civil war.",
+				"inhabitants": "Large Bug-Eyed Lobsters"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.711514,
+				0.279633,
+				0.256455,
+				1
+			],
+			"radius": 89238.006592,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 345000,
+				"vector": [
+					-0.349,
+					-0.437,
+					0.829
+				]
+			},
+			"corona": {
+				"shimmer": 0.363455,
+				"hues": 0.791931,
+				"flare": 0.069507
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Xeis",
+				"radius": 6900
+			}
+		}
+	]
+}

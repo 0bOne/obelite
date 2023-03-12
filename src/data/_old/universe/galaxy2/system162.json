@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy2",
+	"systemId": "system162",
+	"position": [
+		76,
+		174
+	],
+	"space": {
+		"blurs": 48,
+		"stars": 6907,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Qusoxe",
+			"name": "Qusoxe",
+			"seed": "97 174 89 76 45 224",
+			"body": {
+				"radius": 2892,
+				"rotation_v": 0.003863,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 318120
+			},
+			"land": {
+				"color": [
+					0.401646,
+					0.277786,
+					0.646484,
+					1
+				],
+				"polar_color": [
+					0.846792,
+					0.801991,
+					0.935352,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.676803,
+					0.695312,
+					0.513065,
+					1
+				],
+				"polar": [
+					0.924276,
+					0.930469,
+					0.869498,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.763496,
+					0.46536,
+					0.990545,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.974609,
+					0.00761414,
+					0.279582,
+					1
+				],
+				"fraction": 0.58,
+				"polar_color": [
+					0.938574,
+					0.356548,
+					0.520243,
+					1
+				]
+			},
+			"demographics": {
+				"type": 22,
+				"productivity": 4928,
+				"techLevel": 3,
+				"economy": 6,
+				"government": 3,
+				"description": "Qusoxe is cursed by dreadful civil war.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.729321,
+				0.719576,
+				0.692731,
+				1
+			],
+			"radius": 75148.048096,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 202440,
+				"vector": [
+					-0.312,
+					0.564,
+					0.764
+				]
+			},
+			"corona": {
+				"shimmer": 0.323019,
+				"hues": 0.687309,
+				"flare": 0.01165
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Qusoxe",
+				"radius": 5784
+			}
+		}
+	]
+}

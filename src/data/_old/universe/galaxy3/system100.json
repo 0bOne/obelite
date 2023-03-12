@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy3",
+	"systemId": "system100",
+	"position": [
+		241,
+		94
+	],
+	"space": {
+		"blurs": 59,
+		"stars": 6383,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Biladi",
+			"name": "Biladi",
+			"seed": "50 94 98 241 26 6",
+			"body": {
+				"radius": 4593,
+				"rotation_v": 0.001914,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 459300
+			},
+			"land": {
+				"color": [
+					0.66,
+					0.0383093,
+					0.00773438,
+					1
+				],
+				"polar_color": [
+					0.934,
+					0.714053,
+					0.703236,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.549221,
+					0.652344,
+					0.520346,
+					1
+				],
+				"polar": [
+					0.897823,
+					0.934766,
+					0.88748,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.532777,
+					0.573878,
+					0.856564,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.266014,
+					0.378466,
+					0.572266,
+					1
+				],
+				"fraction": 0.49,
+				"polar_color": [
+					0.50415,
+					0.597184,
+					0.75752,
+					1
+				]
+			},
+			"demographics": {
+				"type": 27,
+				"productivity": 6912,
+				"techLevel": 4,
+				"economy": 6,
+				"government": 4,
+				"description": "This world is a revolting little planet.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.214258,
+				0.677377,
+				0.802789,
+				1
+			],
+			"radius": 127503.827362,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 643020,
+				"vector": [
+					-0.157,
+					0.078,
+					0.985
+				]
+			},
+			"corona": {
+				"shimmer": 0.476625,
+				"hues": 0.787407,
+				"flare": 0.052003
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Biladi",
+				"radius": 9186
+			}
+		}
+	]
+}

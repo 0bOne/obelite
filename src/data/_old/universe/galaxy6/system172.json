@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system172",
+	"position": [
+		161,
+		48
+	],
+	"space": {
+		"blurs": 76,
+		"stars": 6892,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Isare",
+			"name": "Isare",
+			"seed": "178 48 98 161 116 189",
+			"body": {
+				"radius": 6305,
+				"rotation_v": 0.002533,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 756600
+			},
+			"land": {
+				"color": [
+					0.307541,
+					0.327773,
+					0.542969,
+					1
+				],
+				"polar_color": [
+					0.84319,
+					0.852,
+					0.945703,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.615413,
+					0.814453,
+					0.534485,
+					1
+				],
+				"polar": [
+					0.862434,
+					0.918555,
+					0.839616,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.563972,
+					0.930059,
+					0.809667,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.792969,
+					0.342253,
+					0.331436,
+					1
+				],
+				"fraction": 0.55,
+				"polar_color": [
+					0.856836,
+					0.55245,
+					0.545145,
+					1
+				]
+			},
+			"demographics": {
+				"type": 45,
+				"productivity": 28800,
+				"techLevel": 10,
+				"economy": 0,
+				"government": 4,
+				"description": "The planet Isare is mildly notable for killer Re gargle blasters.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.750229,
+				0.6551,
+				0.619907,
+				1
+			],
+			"radius": 177546.51413,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 441350,
+				"vector": [
+					0.207,
+					-0.808,
+					0.551
+				]
+			},
+			"corona": {
+				"shimmer": 0.51109,
+				"hues": 0.733864,
+				"flare": 0.039244
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Isare",
+				"radius": 12610
+			}
+		}
+	]
+}

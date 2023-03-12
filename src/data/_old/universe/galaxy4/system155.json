@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy4",
+	"systemId": "system155",
+	"position": [
+		9,
+		76
+	],
+	"space": {
+		"blurs": 42,
+		"stars": 7322,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Edreered",
+			"name": "Edreered",
+			"seed": "230 76 12 9 243 56",
+			"body": {
+				"radius": 4873,
+				"rotation_v": 0.003972,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 633490
+			},
+			"land": {
+				"color": [
+					0.635649,
+					0.66,
+					0.559453,
+					1
+				],
+				"polar_color": [
+					0.925385,
+					0.934,
+					0.898428,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.084671,
+					0.641605,
+					0.699219,
+					1
+				],
+				"polar": [
+					0.725715,
+					0.910919,
+					0.930078,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.656809,
+					0.890911,
+					0.898189,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.682604,
+					0.697266,
+					0.55291,
+					1
+				],
+				"fraction": 0.24,
+				"polar_color": [
+					0.803075,
+					0.81377,
+					0.708472,
+					1
+				]
+			},
+			"demographics": {
+				"type": 20,
+				"productivity": 3200,
+				"techLevel": 3,
+				"economy": 6,
+				"government": 1,
+				"description": "The planet Edreered is most noted for its inhabitants’ exceptional loathing of casinos and its inhabitants’ ancient mating traditions.",
+				"inhabitants": "Red Furry Humanoids"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.665781,
+				0.649507,
+				0.601306,
+				1
+			],
+			"radius": 95952.058716,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 243650,
+				"vector": [
+					0.473,
+					0.764,
+					-0.438
+				]
+			},
+			"corona": {
+				"shimmer": 0.239714,
+				"hues": 0.869965,
+				"flare": 0.049223
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Edreered",
+				"radius": 9746
+			}
+		}
+	]
+}

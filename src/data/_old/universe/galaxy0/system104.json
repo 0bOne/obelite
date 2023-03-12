@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy0",
+	"systemId": "system104",
+	"position": [
+		35,
+		3
+	],
+	"space": {
+		"blurs": 138,
+		"stars": 9757,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Veisti",
+			"name": "Veisti",
+			"seed": "42 3 248 35 83 22",
+			"body": {
+				"radius": 4387,
+				"rotation_v": 0.004429,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 482570
+			},
+			"land": {
+				"color": [
+					0.643887,
+					0.5775,
+					0.66,
+					1
+				],
+				"polar_color": [
+					0.928299,
+					0.904813,
+					0.934,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.515625,
+					0.164107,
+					0.0100708,
+					1
+				],
+				"polar": [
+					0.948438,
+					0.786792,
+					0.715959,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.721555,
+					0.762957,
+					0.94957,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.748444,
+					0.803226,
+					0.851562,
+					1
+				],
+				"fraction": 0.18,
+				"polar_color": [
+					0.816359,
+					0.85187,
+					0.883203,
+					1
+				]
+			},
+			"demographics": {
+				"type": 55,
+				"productivity": 33880,
+				"techLevel": 11,
+				"economy": 3,
+				"government": 7,
+				"description": "The planet Veisti is reasonably noted for its inhabitants’ eccentric shyness and Zero-G cricket.",
+				"inhabitants": "Human Colonials"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.39587,
+				0.701567,
+				0.748456,
+				1
+			],
+			"radius": 95730.66452,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 482570,
+				"vector": [
+					0.473,
+					0.173,
+					0.864
+				]
+			},
+			"corona": {
+				"shimmer": 0.385379,
+				"hues": 0.981873,
+				"flare": 0.032329
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "dodecahedron",
+			"orbit": {
+				"type": "static",
+				"parent": "Veisti",
+				"radius": 8774
+			}
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"galaxyId": "galaxy6",
+	"systemId": "system192",
+	"position": [
+		57,
+		180
+	],
+	"space": {
+		"blurs": 132,
+		"stars": 9905,
+		"ambient_level": 0.1
+	},
+	"bodies": [
+		{
+			"type": "planet",
+			"class": "habitable",
+			"id": "Belere",
+			"name": "Belere",
+			"seed": "146 180 18 57 212 179",
+			"body": {
+				"radius": 3641,
+				"rotation_v": 0.000637,
+				"terminator_threshold_vector": [
+					0.105,
+					0.18,
+					0.28
+				]
+			},
+			"orbit": {
+				"type": "static",
+				"parent": "primary",
+				"radius": 473330
+			},
+			"land": {
+				"color": [
+					0.508837,
+					0.66,
+					0.415078,
+					1
+				],
+				"polar_color": [
+					0.88052,
+					0.934,
+					0.84735,
+					1
+				]
+			},
+			"sea": {
+				"color": [
+					0.539767,
+					0.679688,
+					0.545233,
+					1
+				],
+				"polar": [
+					0.884064,
+					0.932031,
+					0.885938,
+					1
+				]
+			},
+			"atmosphere": {
+				"color": [
+					0.489026,
+					0.528067,
+					0.896889,
+					1
+				],
+				"color_ratio": 0.5,
+				"density": 0.75
+			},
+			"cloud": {
+				"alpha": 1,
+				"color": [
+					0.162506,
+					0.307661,
+					0.693359,
+					1
+				],
+				"fraction": 0.34,
+				"polar_color": [
+					0.423451,
+					0.529698,
+					0.812012,
+					1
+				]
+			},
+			"demographics": {
+				"type": 27,
+				"productivity": 7776,
+				"techLevel": 5,
+				"economy": 4,
+				"government": 2,
+				"description": "This world is very notable for the Belereian edible moth.",
+				"inhabitants": "Harmless Furry Rodents"
+			}
+		},
+		{
+			"type": "star",
+			"id": "primary",
+			"name": "primary",
+			"color": [
+				0.741357,
+				0.735424,
+				0.686711,
+				1
+			],
+			"radius": 98326.889496,
+			"orbit": {
+				"type": "static",
+				"parent": null,
+				"radius": 145640,
+				"vector": [
+					-0.423,
+					-0.663,
+					0.617
+				]
+			},
+			"corona": {
+				"shimmer": 0.323504,
+				"hues": 0.577827,
+				"flare": 0.031259
+			}
+		}
+	],
+	"stations": [
+		{
+			"type": "coriolis",
+			"orbit": {
+				"type": "static",
+				"parent": "Belere",
+				"radius": 7282
+			}
+		}
+	]
+}
