@@ -35,7 +35,8 @@ html {
     background-color: darkgray;
 }
 
-* {
+*:not(option) {
+    font-size: 1rem;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -76,4 +77,3 @@ button.menu-item:focus {
 .invisble {
     visibility: hidden;
 }
-

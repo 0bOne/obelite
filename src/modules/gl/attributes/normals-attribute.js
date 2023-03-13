@@ -69,4 +69,10 @@ export default class NormalsAttribute
         
         return new NormalsAttribute(gl, vertexNormals);
     }
+
+    Dispose(shader)
+    {   
+        this.gl.disableVertexAttribArray(shader.locations.aVertexNormal);
+        this.gl.deleteBuffer(this.glBuffer);
+    }
 }

@@ -40,6 +40,7 @@ export default class Scene
 
     Draw() 
     {
+        console.log("model count is " + this.models.length);
         this.models.forEach(model => {
             this.drawModel(model);
         })
@@ -58,13 +59,13 @@ export default class Scene
             this.viewMatrix.setRotation(model.rotation, axesRatio);
         }
 
-        model.attributes.forEach(attribute => {
-            attribute.Set(model.shader);
-        });
-
         ///////////////////////////////////
         this.gl.useProgram(model.shader.program);
         ///////////////////////////////////
+
+        model.attributes.forEach(attribute => {
+            attribute.Set(model.shader);
+        });
 
         this.gl.uniformMatrix4fv(model.shader.locations.uProjectionMatrix, false, this.projectionMatrix);
         this.gl.uniformMatrix4fv(model.shader.locations.uModelViewMatrix, false, this.viewMatrix);
@@ -77,7 +78,6 @@ export default class Scene
         model.textures.forEach(texture => {
             model.hasTextures = true;
             texture.SetSampler(model.shader, tNumber);
-            //TODO: apply texture specific uniforms
             texture.uniforms.forEach(uniform =>{
                 uniform.set();
             });
@@ -99,6 +99,32 @@ export default class Scene
             //no indices, so draw triangle strip
             this.gl.drawArrays(this.gl.TRIANGLE_STRIP, offset, model.vertices);
         }
+    }
+
+    remove(model)
+    {
+        //TODO: thiese disposal related functions were an attempt to 
+        //load multiple ships into the same context without corruption
+        //failed miserably, incidating a need to understanding how to manage multiple models in WebGL
+        const i = this.models.indexOf(model);
+        if (i > -1)
+        {
+            this.gl.useProgram(model.shader.program);
+            this.models.splice(i, 1);
+
+            model.attributes.forEach(attribute => {
+                attribute.Dispose(model.shader);
+            });
+
+            let tNumber = 0;
+            model.textures.forEach(texture => {
+                texture.Dispose(model.shader, tNumber);
+                tNumber++;
+            });
+
+        }
+
+    
     }
 
     // setUniforms(locations, projectionMatrix, modelViewMatrix) 

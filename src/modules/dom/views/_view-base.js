@@ -16,23 +16,23 @@ export default class ViewBase
 
     AddPanel()
     {
-        this._panel = DomHelper.AppendElement(this.gameCtx.content, Elements.NarrowPane);
+        this.panel = DomHelper.AppendElement(this.gameCtx.content, Elements.NarrowPane);
     }
 
     AddTitle(titleText)
     {
-        DomHelper.AppendElement(this._panel, Elements.Title, titleText);
-        DomHelper.AppendElement(this._panel, Elements.TitleUnderline);
+        DomHelper.AppendElement(this.panel, Elements.Title, titleText);
+        DomHelper.AppendElement(this.panel, Elements.TitleUnderline);
     }
 
     AddMenu(menuItems)
     {
-        this.menu = new Menu(this._panel, menuItems);
+        this.menu = new Menu(this.panel, menuItems);
     }
 
     AddInfo(lines)
     {
-        const info = DomHelper.AppendElement(this._panel, Elements.Info);
+        const info = DomHelper.AppendElement(this.panel, Elements.Info);
         lines.forEach(element => {
             DomHelper.AppendElement(info, {tag: "div"}, element);
         });
@@ -56,9 +56,11 @@ const Styles = {
     NarrowPane: {
         backgroundColor: "transparent",
         minWidth: "800px",
+        maxWidth: "800px",
         height: "100%"
     },
     Title: {
+        //TODO: break colors out into variables so they can be theme-driven
         color: "red"
     },
     TitleUnderLine: {

@@ -18,10 +18,21 @@ export default class Game
         this.gameCtx = {
             id: "gameContext",
             basePath:  document.location.pathname.split("index.html")[0],
-            canvas: DomHelper.AppendElement(document.body, Elements.Canvas),
             content: DomHelper.AppendElement(document.body, Elements.Content),
         };
+        this.gameCtx.dataPath = this.gameCtx.basePath + "data";
 
+        this.resetGLContext();
+     }
+
+    resetGLContext ()
+    {
+        if (this.gameCtx.canvas)
+        {
+            this.gameCtx.canvas.remove();
+        }
+
+        this.gameCtx.canvas = DomHelper.AppendElement(document.body, Elements.Canvas);
         this.gameCtx.shaderCache = new ShaderCache(this.gameCtx);
 
         this.gameCtx.canvas.width = document.body.clientWidth;
@@ -31,20 +42,23 @@ export default class Game
         this.gameCtx.gl.clearColor(0.0, 0.0, 0.0, 1.0);
         this.gameCtx.gl.clear(this.gameCtx.gl.COLOR_BUFFER_BIT);
 
-        this.gameCtx.dataPath = this.gameCtx.basePath + "data";
         this.gameCtx.scene = new Scene(this.gameCtx);
+
     }
 
     async Begin()
     {
         this.viewController = new ViewController(this.gameCtx);
-        this.viewController.ChangeView("Welcome");
+
         document.body.addEventListener("keypress", this.onKeyPress.bind(this));
         
         await this.addCobra();
 
         this.gameCtx.animationManager = new AnimationManager(this.gameCtx);
         this.gameCtx.animationManager.start();
+
+        //this.viewController.ChangeView("Welcome");
+        this.viewController.ChangeView("ShipLibrary");
 
         console.log("game initialization time: ", new Date().getTime() - window.$started, "milliseconds");
     }
@@ -72,7 +86,6 @@ export default class Game
         //this.gameCtx.demoShip = await modelLoader.Load("ships/sidewinder");
         //this.gameCtx.demoShip = await modelLoader.Load("ships/transporter");
         //this.gameCtx.demoShip = await modelLoader.Load("ships/worm");
-    
         //this.gameCtx.demoShip = await modelLoader.Load("thargoids/thargoid");
         //this.gameCtx.demoShip = await modelLoader.Load("thargoids/thargon");
         
@@ -81,6 +94,7 @@ export default class Game
         //this.gameCtx.demoShip = await modelLoader.Load("weapons/qbomb");
     
         //TODO: figure out why stations are partially complete
+        //TODO: those with mirror writing: flip texture horizontally
         //this.gameCtx.demoShip = await modelLoader.Load("stations/coriolis");
         //this.gameCtx.demoShip = await modelLoader.Load("stations/dodo");
         //this.gameCtx.demoShip = await modelLoader.Load("stations/ico");
@@ -89,7 +103,7 @@ export default class Game
         //this.gameCtx.demoShip = await modelLoader.Load("misc/asteroid");
         //this.gameCtx.demoShip = await modelLoader.Load("misc/barrel");
         //this.gameCtx.demoShip = await modelLoader.Load("misc/escape-capsule");
-        this.gameCtx.demoShip = await modelLoader.Load("misc/buoy");
+        //this.gameCtx.demoShip = await modelLoader.Load("misc/buoy");
 
         if (this.gameCtx.demoShip)
         {

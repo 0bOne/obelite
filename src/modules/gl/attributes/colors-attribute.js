@@ -85,6 +85,11 @@ export default class ColorsAttribute
         return new ColorsAttribute(gl, vertexColors);
     }
 
+    Dispose(shader)
+    {   
+        this.gl.disableVertexAttribArray(shader.locations.aVertexColor);
+        this.gl.deleteBuffer(this.glBuffer);
+    }
 }
 
 const COLOR_NAMES_RGBA = {

@@ -17,9 +17,18 @@ export default class ModelLoader
     }
 
     async Load(name)
+    {   
+        const modelData = await this.LoadData(name);
+        const model = await this.HydrateModel(modelData);
+        return model;
+    }
+
+    async LoadData(name)
     {
         const modelFolder = this.gameCtx.dataPath + "/models/" + name;
-        const modelData = await jsYaml.fetch(modelFolder + "/geometry.yaml");
+        const modelData = await jsYaml.fetch(modelFolder + "/model.yaml");
+        modelData.name = name;
+        modelData.folder = modelFolder;
 
         if (modelData.textures && modelData.textures.length > 0 
                 && modelData.indices && modelData.indices.length > 0)
@@ -28,14 +37,14 @@ export default class ModelLoader
             //so shared (indexed) vertices must be expanded
             this.expandIndices(modelData);
         }
-        const model = await this.hydrateModel(modelData, modelFolder);
-
-        return model;
+        return modelData;
     }
 
-    async hydrateModel(modelData, modelFolder)
+    async HydrateModel(modelData)
     {
         const model = {
+            name: modelData.name,
+            limits: modelData.limits,
             dimensions: modelData.dimensions || 3,
             shader: await this.gameCtx.shaderCache.Get(modelData.shader),
             attributes: [],
@@ -46,7 +55,6 @@ export default class ModelLoader
             worldPosition: {x: 0.0, y: 0.0, z: -3.0},
             rotation: 0
         };
-
 
         if (modelData.positions)
         {
@@ -82,7 +90,7 @@ export default class ModelLoader
                 if (textureData.file.endsWith(".png"))
                 {
                     const texture = new Texture(this.gl, textureData);
-                    await texture.Load(modelFolder + "/" + textureData.file);
+                    await texture.Load(modelData.folder + "/" + textureData.file);
                     model.textures.push(texture);
                     model.hasTextures = true;
 
@@ -135,7 +143,7 @@ export default class ModelLoader
         // console.log("before expansion: ");
         // console.log("\tindex  count: ", modelData.indices.length);
         // console.log("\tvertex count: ", modelData.positions.length);
-        // console.log("\tst count: ", modelData.textures[0].sts.length);
+        // console.log("\tst count: ", modelData.sts.length);
         
         const newPositions = [];
         const newNormals = [];

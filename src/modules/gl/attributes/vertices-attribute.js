@@ -48,4 +48,10 @@ export default class VerticesAttribute
         this.gl.enableVertexAttribArray(shader.locations.aVertexPosition);
         
     }
+
+    Dispose(shader)
+    {   
+        this.gl.disableVertexAttribArray(shader.locations.aVertexPosition);
+        this.gl.deleteBuffer(this.glBuffer);
+    }
 }

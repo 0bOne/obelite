@@ -22,4 +22,9 @@ export default class IndicesAttribute
     {
         this.gl.bindBuffer(this.gl.ELEMENT_ARRAY_BUFFER, this.glBuffer);        
     }
+
+    Dispose()
+    {   
+        this.gl.deleteBuffer(this.glBuffer);
+    }
 }

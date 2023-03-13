@@ -27,7 +27,6 @@ export default class SpecularColor
 
     set()
     {
-        debugger;
         this.gl.uniform4f(this.location, r, g, b, a);
     }
 }

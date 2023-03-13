@@ -55,4 +55,9 @@ export default class Texture
         this.gl.bindTexture(this.gl.TEXTURE_2D, this.glTexture);
         this.gl.uniform1i(shader.locations.uSampler, 0);
     }
+
+    Dispose(shader, number)
+    {
+        this.gl.deleteTexture(this.glTexture);
+    }
 }

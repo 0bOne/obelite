@@ -41,5 +41,12 @@ export default class STsAttribute
     Position(modelViewMatrix)
     {
     }
+
+    Dispose(shader)
+    {   
+        this.gl.deleteBuffer(this.buffer);
+        this.gl.disableVertexAttribArray(shader.locations.aTextureCoord);
+
+    }
     
 }
