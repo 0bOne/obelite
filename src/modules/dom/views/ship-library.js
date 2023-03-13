@@ -253,10 +253,10 @@ const Elements = {
 
 const MenuMain = [
     {
-        caption: "Back",
+        caption: "Go Back",
         event: "changeView",
         detail: { to: "Welcome" },
-        help: "select a classification and item from the top menu"
+        help: "select a classification and item from the upper menus"
     }
 ];
 

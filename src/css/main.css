@@ -72,6 +72,7 @@ button.menu-item:focus {
     background-color: red !important;
     border: none;
     text-decoration: none;
+    outline: none;
 }
 
 .invisble {
