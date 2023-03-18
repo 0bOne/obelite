@@ -114,6 +114,6 @@ const Elements = {
 const DefaultPlayerContext = {
     galaxy: 0,
     visiting: "Lave",
-    selected: "Tiraor",
+    selected: "Lave",
     fuel: 7.0    
 };
