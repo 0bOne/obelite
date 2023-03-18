@@ -1,0 +1,61 @@
+name: Erisriin
+position: [80, 156]
+seed: 231 156 169 80 40 208
+limits:
+  blurs: 116
+  stars: 7757
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erisriin
+  radius: 2896
+  rotationSpeed: 0.001396
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 405440
+  land:
+    ratio: 0.56
+    color: [0.446826, 0.523438, 0.0776978, 1]
+    polarColor: [0.912981, 0.947656, 0.745909, 1]
+  sea:
+    color: [0.546457, 0.691406, 0.541782, 1]
+    polarColor: [0.882072, 0.930859, 0.880498, 1]
+  air:
+    color: [0.706292, 0.525881, 0.933311, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.802734, 0.23204, 0.606558, 1]
+    ratio: 0.37
+    polarColor: [0.86123, 0.478555, 0.729686, 1]
+  demographics:
+    type: 34
+    gdp: 14688
+    tech: 6
+    economy: 4
+    government: 5
+    description: Erisriin is ravaged by unpredictable civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.768033, 0.731906, 0.59496, 1]
+  radius: 79138.007812
+  orbit:
+    type: static
+    parent: ~
+    radius: 231680
+    vector: [-0.69, -0.305, -0.656]
+  corona:
+    shimmer: 0.298978
+    hues: 0.884743
+    flare: 0.0351
+stations:
+- type: coriolis
+  orbit:
+    parent: Erisriin
+    vector: undefined
+    radius: 5792

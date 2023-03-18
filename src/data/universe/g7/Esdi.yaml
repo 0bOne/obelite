@@ -1,0 +1,61 @@
+name: Esdi
+position: [196, 164]
+seed: 189 164 60 196 49 32
+limits:
+  blurs: 197
+  stars: 6634
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esdi
+  radius: 3012
+  rotationSpeed: 0.00313
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 421680
+  land:
+    ratio: 0.6
+    color: [0.58882, 0.66, 0.366094, 1]
+    polarColor: [0.908817, 0.934, 0.83002, 1]
+  sea:
+    color: [0.287361, 0.369861, 0.544922, 1]
+    polarColor: [0.833783, 0.86957, 0.945508, 1]
+  air:
+    color: [0.646518, 0.743173, 0.997699, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.540848, 0.910735, 0.996094, 1]
+    ratio: 0.26
+    polarColor: [0.677382, 0.897456, 0.948242, 1]
+  demographics:
+    type: 40
+    gdp: 21120
+    tech: 7
+    economy: 4
+    government: 7
+    description: This world is most notable for Esdiian lethal water but beset by lethal disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.757291, 0.21544, 0.207436, 1]
+  radius: 77061.626587
+  orbit:
+    type: static
+    parent: ~
+    radius: 210840
+    vector: [0.992, 0.126, -0.015]
+  corona:
+    shimmer: 0.272277
+    hues: 0.591278
+    flare: 0.069315
+stations:
+- type: coriolis
+  orbit:
+    parent: Esdi
+    vector: undefined
+    radius: 6024

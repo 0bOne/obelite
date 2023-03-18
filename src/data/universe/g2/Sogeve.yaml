@@ -1,0 +1,61 @@
+name: Sogeve
+position: [107, 209]
+seed: 49 209 73 107 109 103
+limits:
+  blurs: 148
+  stars: 7561
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sogeve
+  radius: 4715
+  rotationSpeed: 0.000688
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 424350
+  land:
+    ratio: 0.42
+    color: [0.551719, 0.66, 0.53625, 1]
+    polarColor: [0.895691, 0.934, 0.890219, 1]
+  sea:
+    color: [0.539062, 0.294471, 0.00842285, 1]
+    polarColor: [0.946094, 0.838775, 0.713266, 1]
+  air:
+    color: [0.665093, 0.585778, 0.862418, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.563059, 0.375565, 0.589844, 1]
+    ratio: 0.26
+    polarColor: [0.743706, 0.591638, 0.76543, 1]
+  demographics:
+    type: 37
+    gdp: 10360
+    tech: 8
+    economy: 3
+    government: 1
+    description: This world is very notable for the Sogeveian tree snake and its hoopy casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.301728, 0.646571, 0.833075, 1]
+  radius: 105101.850891
+  orbit:
+    type: static
+    parent: ~
+    radius: 612950
+    vector: [-0.67, -0.725, -0.161]
+  corona:
+    shimmer: 1.196
+    hues: 0.973373
+    flare: 0.017987
+stations:
+- type: coriolis
+  orbit:
+    parent: Sogeve
+    vector: undefined
+    radius: 9430

@@ -1,0 +1,61 @@
+name: Tibedied
+position: [2, 90]
+seed: 74 90 72 2 83 183
+limits:
+  blurs: 46
+  stars: 5808
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tibedied
+  radius: 4610
+  rotationSpeed: 0.002623
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 507100
+  land:
+    ratio: 0.65
+    color: [0.077525, 0.0438281, 0.66, 1]
+    polarColor: [0.727927, 0.716006, 0.934, 1]
+  sea:
+    color: [0.547074, 0.673828, 0.532745, 1]
+    polarColor: [0.888758, 0.932617, 0.883801, 1]
+  air:
+    color: [0.735411, 0.597965, 0.878678, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.638672, 0.409149, 0.527497, 1]
+    ratio: 0.3
+    polarColor: [0.787402, 0.610544, 0.701737, 1]
+  demographics:
+    type: 36
+    gdp: 11520
+    tech: 8
+    economy: 2
+    government: 1
+    description: This planet is most notable for Tibediedian Arma brandy but scourged by deadly edible grubs.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.781, 0.520397, 0.402831, 1]
+  radius: 150815.429688
+  orbit:
+    type: static
+    parent: ~
+    radius: 276600
+    vector: [0.484, -0.815, 0.319]
+  corona:
+    shimmer: 0.349376
+    hues: 0.658028
+    flare: 0.009911
+stations:
+- type: coriolis
+  orbit:
+    parent: Tibedied
+    vector: undefined
+    radius: 9220

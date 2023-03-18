@@ -1,0 +1,61 @@
+name: Edtizabe
+position: [244, 169]
+seed: 203 169 214 244 111 152
+limits:
+  blurs: 151
+  stars: 9907
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edtizabe
+  radius: 5108
+  rotationSpeed: 0.001473
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 664040
+  land:
+    ratio: 0.69
+    color: [0.646827, 0.644531, 0.66, 1]
+    polarColor: [0.92934, 0.928527, 0.934, 1]
+  sea:
+    color: [0.783203, 0.590557, 0.403839, 1]
+    polarColor: [0.92168, 0.865003, 0.81007, 1]
+  air:
+    color: [0.682193, 0.794157, 0.951522, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.643066, 0.857422, 0.807182, 1]
+    ratio: 0.47
+    polarColor: [0.747427, 0.88584, 0.853399, 1]
+  demographics:
+    type: 32
+    gdp: 13824
+    tech: 7
+    economy: 1
+    government: 2
+    description: The world Edtizabe is beset by lethal disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.74577, 0.632621, 0.574958, 1]
+  radius: 160971.835938
+  orbit:
+    type: static
+    parent: ~
+    radius: 204320
+    vector: [-0.939, -0.061, 0.338]
+  corona:
+    shimmer: 0.379738
+    hues: 0.955963
+    flare: 0.069016
+stations:
+- type: coriolis
+  orbit:
+    parent: Edtizabe
+    vector: undefined
+    radius: 10216

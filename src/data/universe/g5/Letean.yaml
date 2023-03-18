@@ -1,0 +1,61 @@
+name: Letean
+position: [253, 189]
+seed: 47 189 237 253 32 65
+limits:
+  blurs: 147
+  stars: 7107
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Letean
+  radius: 3325
+  rotationSpeed: 0.003075
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 465500
+  land:
+    ratio: 0.38
+    color: [0.358359, 0.66, 0.4267, 1]
+    polarColor: [0.827283, 0.934, 0.851461, 1]
+  sea:
+    color: [0.582905, 0.699219, 0.535613, 1]
+    polarColor: [0.891399, 0.930078, 0.875672, 1]
+  air:
+    color: [0.502407, 0.596717, 0.86567, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.203773, 0.506835, 0.599609, 1]
+    ratio: 0.16
+    polarColor: [0.452197, 0.69538, 0.769824, 1]
+  demographics:
+    type: 35
+    gdp: 12600
+    tech: 6
+    economy: 5
+    government: 5
+    description: The planet Letean is most famous for its pink Noge plant plantations and its unusual oceans.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.681451, 0.422745, 0.31682, 1]
+  radius: 77758.201599
+  orbit:
+    type: static
+    parent: ~
+    radius: 232750
+    vector: [-0.198, 0.343, 0.918]
+  corona:
+    shimmer: 0.23801
+    hues: 0.789932
+    flare: 0.069252
+stations:
+- type: coriolis
+  orbit:
+    parent: Letean
+    vector: undefined
+    radius: 6650

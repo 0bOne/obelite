@@ -1,0 +1,61 @@
+name: Tionisla
+position: [38, 193]
+seed: 250 193 48 38 179 215
+limits:
+  blurs: 149
+  stars: 7820
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tionisla
+  radius: 4646
+  rotationSpeed: 0.002956
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 603980
+  land:
+    ratio: 0.38
+    color: [0.568359, 0.553703, 0.539497, 1]
+    polarColor: [0.943164, 0.937084, 0.93119, 1]
+  sea:
+    color: [0.726034, 0.763672, 0.510109, 1]
+    polarColor: [0.912252, 0.923633, 0.846964, 1]
+  air:
+    color: [0.456263, 0.674608, 0.872174, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.103996, 0.619141, 0.329372, 1]
+    ratio: 0.35
+    polarColor: [0.373719, 0.778613, 0.55086, 1]
+  demographics:
+    type: 52
+    gdp: 37440
+    tech: 11
+    economy: 1
+    government: 6
+    description: This world is very notable for its inhabitants’ ingrained shyness.
+    inhabitants: Lizards
+- type: star
+  type: primary
+  color: [0.790427, 0.712919, 0.605487, 1]
+  radius: 96122.915649
+  orbit:
+    type: static
+    parent: ~
+    radius: 511060
+    vector: [-0.611, -0.121, 0.782]
+  corona:
+    shimmer: 0.342797
+    hues: 0.600601
+    flare: 0.055591
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Tionisla
+    vector: undefined
+    radius: 9292

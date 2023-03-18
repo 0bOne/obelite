@@ -1,0 +1,61 @@
+name: Dicemari
+position: [248, 95]
+seed: 81 95 41 248 237 237
+limits:
+  blurs: 77
+  stars: 6073
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Dicemari
+  radius: 6392
+  rotationSpeed: 0.004521
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 894880
+  land:
+    ratio: 0.62
+    color: [0.66, 0.224297, 0.275356, 1]
+    polarColor: [0.934, 0.779854, 0.797918, 1]
+  sea:
+    color: [0.634766, 0.544128, 0.471363, 1]
+    polarColor: [0.936523, 0.903092, 0.876253, 1]
+  air:
+    color: [0.418921, 0.741491, 0.88193, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0646696, 0.648438, 0.0151978, 1]
+    ratio: 0.55
+    polarColor: [0.346278, 0.791797, 0.308522, 1]
+  demographics:
+    type: 25
+    gdp: 5400
+    tech: 3
+    economy: 7
+    government: 5
+    description: This world is a tedious little planet.
+    inhabitants: Rodents
+- type: star
+  type: primary
+  color: [0.694244, 0.671518, 0.603735, 1]
+  radius: 138541.450195
+  orbit:
+    type: static
+    parent: ~
+    radius: 383520
+    vector: [0.639, 0.321, -0.699]
+  corona:
+    shimmer: 0.871513
+    hues: 0.710136
+    flare: 0.012056
+stations:
+- type: coriolis
+  orbit:
+    parent: Dicemari
+    vector: undefined
+    radius: 12784

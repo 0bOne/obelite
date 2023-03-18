@@ -1,0 +1,61 @@
+name: Biinceor
+position: [50, 51]
+seed: 75 51 86 50 239 102
+limits:
+  blurs: 64
+  stars: 7559
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biinceor
+  radius: 4402
+  rotationSpeed: 0.001421
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 528240
+  land:
+    ratio: 0.33
+    color: [0.0179443, 0.65625, 0.0428782, 1]
+    polarColor: [0.707169, 0.934375, 0.716044, 1]
+  sea:
+    color: [0.603102, 0.673828, 0.517742, 1]
+    polarColor: [0.908145, 0.932617, 0.878609, 1]
+  air:
+    color: [0.431181, 0.8254, 0.840955, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.468696, 0.525391, 0.0718307, 1]
+    ratio: 0.39
+    polarColor: [0.686758, 0.736426, 0.339087, 1]
+  demographics:
+    type: 34
+    gdp: 11424
+    tech: 7
+    economy: 3
+    government: 2
+    description: This planet is mildly fabled for its inhabitants’ ingrained silliness but beset by lethal disease.
+    inhabitants: Fierce Blue Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.285711, 0.607534, 0.718393, 1]
+  radius: 79595.489502
+  orbit:
+    type: static
+    parent: ~
+    radius: 484220
+    vector: [0.378, 0.506, -0.775]
+  corona:
+    shimmer: 0.41368
+    hues: 0.673233
+    flare: 0.085748
+stations:
+- type: coriolis
+  orbit:
+    parent: Biinceor
+    vector: undefined
+    radius: 8804

@@ -1,0 +1,61 @@
+name: Biorve
+position: [182, 220]
+seed: 14 220 194 182 80 230
+limits:
+  blurs: 49
+  stars: 5761
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biorve
+  radius: 4534
+  rotationSpeed: 0.002085
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 544080
+  land:
+    ratio: 0.36
+    color: [0.400498, 0.357658, 0.505859, 1]
+    polarColor: [0.899978, 0.879877, 0.949414, 1]
+  sea:
+    color: [0.592298, 0.814453, 0.553574, 1]
+    polarColor: [0.855917, 0.918555, 0.844999, 1]
+  air:
+    color: [0.506043, 0.536468, 0.885832, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.206299, 0.309126, 0.660156, 1]
+    ratio: 0.45
+    polarColor: [0.454579, 0.532175, 0.79707, 1]
+  demographics:
+    type: 19
+    gdp: 2432
+    tech: 3
+    economy: 6
+    government: 0
+    description: This planet is notable for the Biorveian edible poet and its exciting sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.271017, 0.529888, 0.777133, 1]
+  radius: 97426.06842
+  orbit:
+    type: static
+    parent: ~
+    radius: 362720
+    vector: [-0.212, 0.355, -0.91]
+  corona:
+    shimmer: 1.033593
+    hues: 0.645935
+    flare: 0.09437
+stations:
+- type: coriolis
+  orbit:
+    parent: Biorve
+    vector: undefined
+    radius: 9068

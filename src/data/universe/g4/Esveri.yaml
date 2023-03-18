@@ -1,0 +1,61 @@
+name: Esveri
+position: [62, 142]
+seed: 188 142 248 62 21 201
+limits:
+  blurs: 86
+  stars: 9614
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esveri
+  radius: 5182
+  rotationSpeed: 0.002249
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 466380
+  land:
+    ratio: 0.32
+    color: [0.599609, 0.589069, 0.557449, 1]
+    polarColor: [0.940039, 0.935908, 0.923515, 1]
+  sea:
+    color: [0.617692, 0.869141, 0.461731, 1]
+    polarColor: [0.847045, 0.913086, 0.806084, 1]
+  air:
+    color: [0.796655, 0.518429, 0.959977, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.882812, 0.193115, 0.257774, 1]
+    ratio: 0.43
+    polarColor: [0.897266, 0.459148, 0.500221, 1]
+  demographics:
+    type: 42
+    gdp: 14784
+    tech: 7
+    economy: 6
+    government: 7
+    description: Esveri is mildly well known for its hoopy night life and its exotic cuisine.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.796921, 0.441409, 0.205249, 1]
+  radius: 85983.435669
+  orbit:
+    type: static
+    parent: ~
+    radius: 518200
+    vector: [0.323, -0.849, -0.418]
+  corona:
+    shimmer: 0.337064
+    hues: 0.791389
+    flare: 0.076434
+stations:
+- type: coriolis
+  orbit:
+    parent: Esveri
+    vector: undefined
+    radius: 10364

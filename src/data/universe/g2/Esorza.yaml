@@ -1,0 +1,61 @@
+name: Esorza
+position: [252, 179]
+seed: 101 179 201 252 197 137
+limits:
+  blurs: 173
+  stars: 6519
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esorza
+  radius: 5372
+  rotationSpeed: 0.001038
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 590920
+  land:
+    ratio: 0.62
+    color: [0.381975, 0.507812, 0.105133, 1]
+    polarColor: [0.890414, 0.949219, 0.761044, 1]
+  sea:
+    color: [0.603282, 0.785156, 0.746792, 1]
+    polarColor: [0.868121, 0.921484, 0.910228, 1]
+  air:
+    color: [0.587694, 0.571212, 0.844207, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.375351, 0.336563, 0.535156, 1]
+    ratio: 0.17
+    polarColor: [0.602558, 0.568999, 0.74082, 1]
+  demographics:
+    type: 25
+    gdp: 7000
+    tech: 5
+    economy: 3
+    government: 1
+    description: The world Esorza is beset by evil disease.
+    inhabitants: Small Black Rodents
+- type: star
+  type: primary
+  color: [0.669006, 0.573322, 0.571038, 1]
+  radius: 167292.191772
+  orbit:
+    type: static
+    parent: ~
+    radius: 376040
+    vector: [0.81, 0.552, 0.198]
+  corona:
+    shimmer: 0.343505
+    hues: 0.752655
+    flare: 0.070732
+stations:
+- type: coriolis
+  orbit:
+    parent: Esorza
+    vector: undefined
+    radius: 10744

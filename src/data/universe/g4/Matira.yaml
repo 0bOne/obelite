@@ -1,0 +1,61 @@
+name: Matira
+position: [177, 26]
+seed: 156 26 48 177 197 203
+limits:
+  blurs: 105
+  stars: 9827
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Matira
+  radius: 5809
+  rotationSpeed: 0.000081
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 755170
+  land:
+    ratio: 0.53
+    color: [0.66, 0.459712, 0.0773438, 1]
+    polarColor: [0.934, 0.863141, 0.727863, 1]
+  sea:
+    color: [0.591474, 0.675781, 0.521619, 1]
+    polarColor: [0.903341, 0.932422, 0.879245, 1]
+  air:
+    color: [0.724065, 0.780544, 0.935262, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.745422, 0.795269, 0.808594, 1]
+    ratio: 0.33
+    polarColor: [0.821686, 0.85497, 0.863867, 1]
+  demographics:
+    type: 45
+    gdp: 28800
+    tech: 9
+    economy: 2
+    government: 6
+    description: The world Matira is reasonably noted for its inhabitants’ exceptional love for tourists.
+    inhabitants: Small Bony Felines
+- type: star
+  type: primary
+  color: [0.834781, 0.634973, 0.45091, 1]
+  radius: 151947.329102
+  orbit:
+    type: static
+    parent: ~
+    radius: 464720
+    vector: [0.672, 0.197, -0.714]
+  corona:
+    shimmer: 1.195825
+    hues: 0.789383
+    flare: 0.006004
+stations:
+- type: coriolis
+  orbit:
+    parent: Matira
+    vector: undefined
+    radius: 11618

@@ -1,0 +1,61 @@
+name: Matere
+position: [199, 137]
+seed: 28 137 192 199 37 11
+limits:
+  blurs: 165
+  stars: 5649
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Matere
+  radius: 5831
+  rotationSpeed: 0.001871
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 699720
+  land:
+    ratio: 0.42
+    color: [0.649446, 0.322266, 0.66, 1]
+    polarColor: [0.930266, 0.814514, 0.934, 1]
+  sea:
+    color: [0.697266, 0.532503, 0.460304, 1]
+    polarColor: [0.930273, 0.875318, 0.851237, 1]
+  air:
+    color: [0.713775, 0.790642, 0.931359, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.715942, 0.796875, 0.793081, 1]
+    ratio: 0.33
+    polarColor: [0.804093, 0.858594, 0.856039, 1]
+  demographics:
+    type: 32
+    gdp: 7168
+    tech: 7
+    economy: 3
+    government: 0
+    description: This world is most fabled for its inhabitants’ eccentric love for tourists but plagued by deadly earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.801773, 0.79661, 0.479546, 1]
+  radius: 156355.787964
+  orbit:
+    type: static
+    parent: ~
+    radius: 349860
+    vector: [0.101, -0.792, 0.603]
+  corona:
+    shimmer: 0.315098
+    hues: 0.653175
+    flare: 0.040405
+stations:
+- type: coriolis
+  orbit:
+    parent: Matere
+    vector: undefined
+    radius: 11662

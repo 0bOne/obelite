@@ -1,0 +1,61 @@
+name: Lebied
+position: [17, 211]
+seed: 189 211 17 17 53 1
+limits:
+  blurs: 195
+  stars: 9442
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lebied
+  radius: 3089
+  rotationSpeed: 0.001878
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 401570
+  land:
+    ratio: 0.42
+    color: [0.66, 0.260391, 0.606927, 1]
+    polarColor: [0.934, 0.792623, 0.915223, 1]
+  sea:
+    color: [0.572266, 0.449094, 0.436353, 1]
+    polarColor: [0.942773, 0.892044, 0.886796, 1]
+  air:
+    color: [0.57402, 0.546932, 0.870223, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.381055, 0.297058, 0.613281, 1]
+    ratio: 0.2
+    polarColor: [0.592331, 0.525906, 0.775977, 1]
+  demographics:
+    type: 30
+    gdp: 10080
+    tech: 6
+    economy: 3
+    government: 2
+    description: Lebied is mildly notable for its inhabitants’ unusual mating traditions.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.49304, 0.503364, 0.682318, 1]
+  radius: 56499.533234
+  orbit:
+    type: static
+    parent: ~
+    radius: 278010
+    vector: [-0.465, -0.842, 0.276]
+  corona:
+    shimmer: 0.472168
+    hues: 0.856247
+    flare: 0.019766
+stations:
+- type: coriolis
+  orbit:
+    parent: Lebied
+    vector: undefined
+    radius: 6178

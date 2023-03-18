@@ -1,0 +1,61 @@
+name: Geteanan
+position: [91, 188]
+seed: 210 188 194 91 154 3
+limits:
+  blurs: 142
+  stars: 7570
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geteanan
+  radius: 3675
+  rotationSpeed: 0.00064
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 477750
+  land:
+    ratio: 0.71
+    color: [0.474879, 0.66, 0.399609, 1]
+    polarColor: [0.868506, 0.934, 0.841877, 1]
+  sea:
+    color: [0.626937, 0.677734, 0.515184, 1]
+    polarColor: [0.914759, 0.932227, 0.876329, 1]
+  air:
+    color: [0.722374, 0.81284, 0.902742, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.710938, 0.710938, 0.710938, 1]
+    ratio: 0.59
+    polarColor: [0.819922, 0.819922, 0.819922, 1]
+  demographics:
+    type: 23
+    gdp: 2944
+    tech: 4
+    economy: 6
+    government: 0
+    description: The planet Geteanan is very noted for its unusual sit coms but ravaged by unpredictable civil war.
+    inhabitants: Large Green Lizards
+- type: star
+  type: primary
+  color: [0.828574, 0.826549, 0.79585, 1]
+  radius: 91755.558014
+  orbit:
+    type: static
+    parent: ~
+    radius: 367500
+    vector: [0.01, -0.937, -0.348]
+  corona:
+    shimmer: 0.318392
+    hues: 0.999199
+    flare: 0.014729
+stations:
+- type: coriolis
+  orbit:
+    parent: Geteanan
+    vector: undefined
+    radius: 7350

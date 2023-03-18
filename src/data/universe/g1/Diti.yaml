@@ -1,0 +1,61 @@
+name: Diti
+position: [105, 163]
+seed: 0 163 240 105 58 224
+limits:
+  blurs: 193
+  stars: 8314
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diti
+  radius: 2921
+  rotationSpeed: 0.00129
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 262890
+  land:
+    ratio: 0.5
+    color: [0.66, 0.0567188, 0.523319, 1]
+    polarColor: [0.934, 0.720566, 0.885644, 1]
+  sea:
+    color: [0.587891, 0.550121, 0.460667, 1]
+    polarColor: [0.941211, 0.926094, 0.89029, 1]
+  air:
+    color: [0.533486, 0.571898, 0.855914, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.267334, 0.371483, 0.570312, 1]
+    ratio: 0.39
+    polarColor: [0.505412, 0.591772, 0.756641, 1]
+  demographics:
+    type: 42
+    gdp: 23520
+    tech: 8
+    economy: 3
+    government: 6
+    description: The planet Diti is famous for Ditiian shrew steak but ravaged by unpredictable civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.39764, 0.581596, 0.70625, 1]
+  radius: 57228.173523
+  orbit:
+    type: static
+    parent: ~
+    radius: 292100
+    vector: [-0.529, 0.795, 0.298]
+  corona:
+    shimmer: 0.343801
+    hues: 0.779716
+    flare: 0.072487
+stations:
+- type: coriolis
+  orbit:
+    parent: Diti
+    vector: undefined
+    radius: 5842

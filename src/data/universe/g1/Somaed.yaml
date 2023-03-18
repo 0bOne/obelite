@@ -1,0 +1,61 @@
+name: Somaed
+position: [37, 254]
+seed: 128 254 224 37 90 7
+limits:
+  blurs: 143
+  stars: 5964
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Somaed
+  radius: 4645
+  rotationSpeed: 0.004305
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 603850
+  land:
+    ratio: 0.69
+    color: [0.58894, 0.66, 0.335156, 1]
+    polarColor: [0.90886, 0.934, 0.819074, 1]
+  sea:
+    color: [0.505859, 0.397574, 0.420415, 1]
+    polarColor: [0.949414, 0.898606, 0.909323, 1]
+  air:
+    color: [0.634232, 0.905994, 0.890858, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.720703, 0.686832, 0.503929, 1]
+    ratio: 0.39
+    polarColor: [0.824316, 0.800104, 0.669355, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 4
+    economy: 6
+    government: 4
+    description: Somaed is most noted for the Somaedian evil poet and Somaedian Ilrebedi brandy.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.460751, 0.61652, 0.759552, 1]
+  radius: 126486.519623
+  orbit:
+    type: static
+    parent: ~
+    radius: 418050
+    vector: [-0.059, -0.383, 0.922]
+  corona:
+    shimmer: 0.313033
+    hues: 0.960068
+    flare: 0.05258
+stations:
+- type: coriolis
+  orbit:
+    parent: Somaed
+    vector: undefined
+    radius: 9290

@@ -1,0 +1,61 @@
+name: Atuszais
+position: [74, 172]
+seed: 242 172 90 74 52 49
+limits:
+  blurs: 121
+  stars: 7710
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atuszais
+  radius: 3146
+  rotationSpeed: 0.004642
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 283140
+  land:
+    ratio: 0.51
+    color: [0.507812, 0.466156, 0.48373, 1]
+    polarColor: [0.949219, 0.929752, 0.937965, 1]
+  sea:
+    color: [0.609375, 0.553399, 0.466077, 1]
+    polarColor: [0.939062, 0.917497, 0.883856, 1]
+  air:
+    color: [0.591263, 0.923555, 0.853178, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.773438, 0.54118, 0.401825, 1]
+    ratio: 0.42
+    polarColor: [0.848047, 0.688883, 0.593384, 1]
+  demographics:
+    type: 36
+    gdp: 12096
+    tech: 7
+    economy: 4
+    government: 3
+    description: The world Atuszais is mildly fabled for the Atuszaisian mountain slug but ravaged by vicious disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.361727, 0.668405, 0.726102, 1]
+  radius: 70949.654236
+  orbit:
+    type: static
+    parent: ~
+    radius: 251680
+    vector: [0.456, 0.879, -0.141]
+  corona:
+    shimmer: 0.389391
+    hues: 0.938339
+    flare: 0.05663
+stations:
+- type: coriolis
+  orbit:
+    parent: Atuszais
+    vector: undefined
+    radius: 6292

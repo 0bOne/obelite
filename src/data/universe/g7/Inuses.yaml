@@ -1,0 +1,61 @@
+name: Inuses
+position: [52, 7]
+seed: 135 7 226 52 67 108
+limits:
+  blurs: 40
+  stars: 6933
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inuses
+  radius: 5940
+  rotationSpeed: 0.001736
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 831600
+  land:
+    ratio: 0.41
+    color: [0.423276, 0.244922, 0.66, 1]
+    polarColor: [0.85025, 0.78715, 0.934, 1]
+  sea:
+    color: [0.693359, 0.436799, 0.430641, 1]
+    polarColor: [0.930664, 0.844572, 0.842505, 1]
+  air:
+    color: [0.624491, 0.817453, 0.981439, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.481033, 0.947266, 0.663155, 1]
+    ratio: 0.15
+    polarColor: [0.641333, 0.92627, 0.752636, 1]
+  demographics:
+    type: 20
+    gdp: 3840
+    tech: 2
+    economy: 7
+    government: 4
+    description: This planet is a dull world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.739095, 0.778572, 0.806781, 1]
+  radius: 96940.118408
+  orbit:
+    type: static
+    parent: ~
+    radius: 356400
+    vector: [0.475, -0.57, -0.67]
+  corona:
+    shimmer: 0.276528
+    hues: 0.941536
+    flare: 0.056815
+stations:
+- type: coriolis
+  orbit:
+    parent: Inuses
+    vector: undefined
+    radius: 11880

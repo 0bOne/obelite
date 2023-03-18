@@ -1,0 +1,61 @@
+name: Entizare
+position: [250, 201]
+seed: 230 201 208 250 155 18
+limits:
+  blurs: 132
+  stars: 5477
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Entizare
+  radius: 3578
+  rotationSpeed: 0.001335
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 500920
+  land:
+    ratio: 0.37
+    color: [0.448594, 0.640181, 0.66, 1]
+    polarColor: [0.859207, 0.926988, 0.934, 1]
+  sea:
+    color: [0.583984, 0.582149, 0.466503, 1]
+    polarColor: [0.941602, 0.940862, 0.894246, 1]
+  air:
+    color: [0.670686, 0.842256, 0.800563, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.529297, 0.524839, 0.523094, 1]
+    ratio: 0.39
+    polarColor: [0.738184, 0.734298, 0.732777, 1]
+  demographics:
+    type: 40
+    gdp: 17280
+    tech: 9
+    economy: 1
+    government: 2
+    description: Entizare is very fabled for its unusual oceans.
+    inhabitants: Green Bony Humanoids
+- type: star
+  type: primary
+  color: [0.749039, 0.620885, 0.44341, 1]
+  radius: 105787.837219
+  orbit:
+    type: static
+    parent: ~
+    radius: 214680
+    vector: [-0.48, 0.86, -0.172]
+  corona:
+    shimmer: 0.523058
+    hues: 0.555679
+    flare: 0.012402
+stations:
+- type: coriolis
+  orbit:
+    parent: Entizare
+    vector: undefined
+    radius: 7156

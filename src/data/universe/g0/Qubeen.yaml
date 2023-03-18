@@ -1,0 +1,61 @@
+name: Qubeen
+position: [132, 243]
+seed: 192 243 136 132 189 122
+limits:
+  blurs: 43
+  stars: 5414
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qubeen
+  radius: 5508
+  rotationSpeed: 0.002537
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 605880
+  land:
+    ratio: 0.38
+    color: [0.585234, 0.66, 0.645981, 1]
+    polarColor: [0.907549, 0.934, 0.92904, 1]
+  sea:
+    color: [0.642352, 0.761719, 0.568314, 1]
+    polarColor: [0.887635, 0.923828, 0.865187, 1]
+  air:
+    color: [0.46698, 0.467926, 0.924855, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0934435, 0.0880585, 0.777344, 1]
+    ratio: 0.24
+    polarColor: [0.382523, 0.378844, 0.849805, 1]
+  demographics:
+    type: 25
+    gdp: 7000
+    tech: 5
+    economy: 3
+    government: 1
+    description: This world is ravaged by unpredictable civil war.
+    inhabitants: Blue Frogs
+- type: star
+  type: primary
+  color: [0.753384, 0.752409, 0.659941, 1]
+  radius: 116191.098633
+  orbit:
+    type: static
+    parent: ~
+    radius: 605880
+    vector: [-0.183, 0.958, -0.221]
+  corona:
+    shimmer: 1.102965
+    hues: 0.864838
+    flare: 0.047691
+stations:
+- type: coriolis
+  orbit:
+    parent: Qubeen
+    vector: undefined
+    radius: 11016

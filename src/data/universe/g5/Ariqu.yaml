@@ -1,0 +1,61 @@
+name: Ariqu
+position: [236, 35]
+seed: 25 35 61 236 58 79
+limits:
+  blurs: 85
+  stars: 6741
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ariqu
+  radius: 6892
+  rotationSpeed: 0.004251
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 689200
+  land:
+    ratio: 0.35
+    color: [0.502734, 0.66, 0.630513, 1]
+    polarColor: [0.878361, 0.934, 0.923568, 1]
+  sea:
+    color: [0.650391, 0.555119, 0.497955, 1]
+    polarColor: [0.934961, 0.900722, 0.880178, 1]
+  air:
+    color: [0.670227, 0.513241, 0.934611, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.806641, 0.198509, 0.725873, 1]
+    ratio: 0.35
+    polarColor: [0.862988, 0.456356, 0.808982, 1]
+  demographics:
+    type: 43
+    gdp: 26488
+    tech: 8
+    economy: 3
+    government: 7
+    description: The planet Ariqu is mildly well known for its hoopy casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.665483, 0.712207, 0.712787, 1]
+  radius: 182732.226562
+  orbit:
+    type: static
+    parent: ~
+    radius: 689200
+    vector: [0.467, 0.067, -0.882]
+  corona:
+    shimmer: 0.478274
+    hues: 0.995544
+    flare: 0.059953
+stations:
+- type: coriolis
+  orbit:
+    parent: Ariqu
+    vector: undefined
+    radius: 13784

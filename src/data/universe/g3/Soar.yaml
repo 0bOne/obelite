@@ -1,0 +1,61 @@
+name: Soar
+position: [78, 52]
+seed: 154 52 194 78 42 39
+limits:
+  blurs: 54
+  stars: 6923
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soar
+  radius: 4686
+  rotationSpeed: 0.002529
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 421740
+  land:
+    ratio: 0.45
+    color: [0.578125, 0.401978, 0.558859, 1]
+    polarColor: [0.942187, 0.870419, 0.934338, 1]
+  sea:
+    color: [0.675781, 0.567427, 0.488358, 1]
+    polarColor: [0.932422, 0.895046, 0.867772, 1]
+  air:
+    color: [0.669379, 0.727812, 0.991195, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.610352, 0.804901, 0.976562, 1]
+    ratio: 0.33
+    polarColor: [0.719269, 0.836242, 0.939453, 1]
+  demographics:
+    type: 19
+    gdp: 2432
+    tech: 3
+    economy: 6
+    government: 0
+    description: The world Soar is mildly noted for the Soarian mountain lobstoid but beset by dreadful earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.724211, 0.788365, 0.793558, 1]
+  radius: 116157.542725
+  orbit:
+    type: static
+    parent: ~
+    radius: 562320
+    vector: [0.966, -0.244, 0.087]
+  corona:
+    shimmer: 0.381085
+    hues: 0.574036
+    flare: 0.096002
+stations:
+- type: coriolis
+  orbit:
+    parent: Soar
+    vector: undefined
+    radius: 9372

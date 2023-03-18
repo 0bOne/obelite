@@ -1,0 +1,61 @@
+name: Erenra
+position: [145, 208]
+seed: 14 208 98 145 208 48
+limits:
+  blurs: 95
+  stars: 9569
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erenra
+  radius: 2961
+  rotationSpeed: 0.003247
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 414540
+  land:
+    ratio: 0.26
+    color: [0.200771, 0.0721875, 0.66, 1]
+    polarColor: [0.771531, 0.726039, 0.934, 1]
+  sea:
+    color: [0.625, 0.622807, 0.484619, 1]
+    polarColor: [0.9375, 0.936677, 0.884857, 1]
+  air:
+    color: [0.696373, 0.528986, 0.928107, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.787109, 0.242897, 0.638301, 1]
+    ratio: 0.48
+    polarColor: [0.854199, 0.485075, 0.753267, 1]
+  demographics:
+    type: 45
+    gdp: 28800
+    tech: 10
+    economy: 0
+    government: 4
+    description: This planet is very well known for its inhabitants’ unusual silliness and vicious Mare brew.
+    inhabitants: Red Bug-Eyed Frogs
+- type: star
+  type: primary
+  color: [0.783954, 0.768932, 0.76732, 1]
+  radius: 79324.763489
+  orbit:
+    type: static
+    parent: ~
+    radius: 266490
+    vector: [0.474, 0.815, -0.333]
+  corona:
+    shimmer: 0.323465
+    hues: 0.786217
+    flare: 0.08515
+stations:
+- type: coriolis
+  orbit:
+    parent: Erenra
+    vector: undefined
+    radius: 5922

@@ -1,0 +1,61 @@
+name: Oredaris
+position: [152, 166]
+seed: 107 166 118 152 207 25
+limits:
+  blurs: 174
+  stars: 9979
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Oredaris
+  radius: 5272
+  rotationSpeed: 0.003902
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 790800
+  land:
+    ratio: 0.58
+    color: [0.66, 0.391875, 0.391875, 1]
+    polarColor: [0.934, 0.839141, 0.839141, 1]
+  sea:
+    color: [0.515931, 0.404305, 0.525391, 1]
+    polarColor: [0.943196, 0.892871, 0.947461, 1]
+  air:
+    color: [0.717272, 0.801675, 0.920303, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.715942, 0.763672, 0.752485, 1]
+    ratio: 0.35
+    polarColor: [0.810697, 0.843652, 0.835928, 1]
+  demographics:
+    type: 29
+    gdp: 9280
+    tech: 4
+    economy: 6
+    government: 6
+    description: This planet is notable for the Oredarisian edible grub and the Oredarisian tree snake.
+    inhabitants: Green Insects
+- type: star
+  type: primary
+  color: [0.591049, 0.632963, 0.698529, 1]
+  radius: 141070.405273
+  orbit:
+    type: static
+    parent: ~
+    radius: 158160
+    vector: [0.206, -0.977, -0.062]
+  corona:
+    shimmer: 0.23139
+    hues: 0.539932
+    flare: 0.057979
+stations:
+- type: coriolis
+  orbit:
+    parent: Oredaris
+    vector: undefined
+    radius: 10544

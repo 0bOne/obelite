@@ -1,0 +1,61 @@
+name: Sotean
+position: [246, 62]
+seed: 105 62 181 246 202 39
+limits:
+  blurs: 160
+  stars: 8407
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sotean
+  radius: 4854
+  rotationSpeed: 0.000797
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 631020
+  land:
+    ratio: 0.54
+    color: [0.66, 0.113438, 0.65146, 1]
+    polarColor: [0.934, 0.740633, 0.930979, 1]
+  sea:
+    color: [0.585938, 0.560879, 0.46257, 1]
+    polarColor: [0.941406, 0.931341, 0.891854, 1]
+  air:
+    color: [0.577837, 0.885173, 0.991195, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.478864, 0.976562, 0.339508, 1]
+    ratio: 0.28
+    polarColor: [0.640212, 0.939453, 0.556424, 1]
+  demographics:
+    type: 37
+    gdp: 11840
+    tech: 6
+    economy: 6
+    government: 6
+    description: Sotean is mildly notable for its inhabitants’ ingrained silliness.
+    inhabitants: Fierce Red Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.653824, 0.651724, 0.613613, 1]
+  radius: 119139.125061
+  orbit:
+    type: static
+    parent: ~
+    radius: 339780
+    vector: [-0.991, 0.1, 0.086]
+  corona:
+    shimmer: 0.319582
+    hues: 0.589767
+    flare: 0.047252
+stations:
+- type: coriolis
+  orbit:
+    parent: Sotean
+    vector: undefined
+    radius: 9708

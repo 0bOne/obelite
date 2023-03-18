@@ -1,0 +1,61 @@
+name: Isriveen
+position: [186, 199]
+seed: 94 199 26 186 64 221
+limits:
+  blurs: 48
+  stars: 7516
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isriveen
+  radius: 6330
+  rotationSpeed: 0.003645
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 759600
+  land:
+    ratio: 0.31
+    color: [0.518203, 0.66, 0.570269, 1]
+    polarColor: [0.883834, 0.934, 0.902254, 1]
+  sea:
+    color: [0.647459, 0.746094, 0.579971, 1]
+    polarColor: [0.894806, 0.925391, 0.87388, 1]
+  air:
+    color: [0.650408, 0.86632, 0.815537, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.601562, 0.539475, 0.512268, 1]
+    ratio: 0.49
+    polarColor: [0.770703, 0.720988, 0.699202, 1]
+  demographics:
+    type: 27
+    gdp: 4536
+    tech: 4
+    economy: 7
+    government: 3
+    description: The world Isriveen is notable for its unusual oceans and its inhabitants’ eccentric love for tourists.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.687042, 0.508412, 0.467338, 1]
+  radius: 193589.666748
+  orbit:
+    type: static
+    parent: ~
+    radius: 443100
+    vector: [-0.281, -0.218, -0.935]
+  corona:
+    shimmer: 0.274042
+    hues: 0.611252
+    flare: 0.066272
+stations:
+- type: coriolis
+  orbit:
+    parent: Isriveen
+    vector: undefined
+    radius: 12660

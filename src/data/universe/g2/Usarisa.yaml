@@ -1,0 +1,61 @@
+name: Usarisa
+position: [202, 215]
+seed: 197 215 169 202 5 104
+limits:
+  blurs: 173
+  stars: 6765
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usarisa
+  radius: 5066
+  rotationSpeed: 0.002265
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 658580
+  land:
+    ratio: 0.26
+    color: [0.66, 0.128906, 0.564569, 1]
+    polarColor: [0.934, 0.746105, 0.900238, 1]
+  sea:
+    color: [0.59375, 0.446527, 0.442993, 1]
+    polarColor: [0.940625, 0.882317, 0.880917, 1]
+  air:
+    color: [0.744422, 0.757403, 0.945668, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.807037, 0.812932, 0.839844, 1]
+    ratio: 0.47
+    polarColor: [0.856496, 0.860347, 0.87793, 1]
+  demographics:
+    type: 33
+    gdp: 7128
+    tech: 5
+    economy: 7
+    government: 5
+    description: Usarisa is an unremarkable planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.438193, 0.646185, 0.822937, 1]
+  radius: 116269.2453
+  orbit:
+    type: static
+    parent: ~
+    radius: 253300
+    vector: [0.639, -0.131, 0.758]
+  corona:
+    shimmer: 0.26516
+    hues: 0.818405
+    flare: 0.026199
+stations:
+- type: coriolis
+  orbit:
+    parent: Usarisa
+    vector: undefined
+    radius: 10132

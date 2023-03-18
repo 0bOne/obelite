@@ -1,0 +1,61 @@
+name: Geale
+position: [45, 158]
+seed: 51 158 190 45 199 35
+limits:
+  blurs: 181
+  stars: 6113
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geale
+  radius: 3629
+  rotationSpeed: 0.000765
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 362900
+  land:
+    ratio: 0.57
+    color: [0.146953, 0.359387, 0.66, 1]
+    polarColor: [0.75249, 0.827647, 0.934, 1]
+  sea:
+    color: [0.664062, 0.586162, 0.503235, 1]
+    polarColor: [0.933594, 0.906214, 0.877068, 1]
+  air:
+    color: [0.610681, 0.519272, 0.913148, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.593016, 0.226135, 0.742188, 1]
+    ratio: 0.29
+    polarColor: [0.729221, 0.47156, 0.833984, 1]
+  demographics:
+    type: 38
+    gdp: 13376
+    tech: 6
+    economy: 6
+    government: 7
+    description: The planet Geale is scourged by killer edible Stleusoids.
+    inhabitants: Large Red Bony Felines
+- type: star
+  type: primary
+  color: [0.714722, 0.600118, 0.542939, 1]
+  radius: 61846.275635
+  orbit:
+    type: static
+    parent: ~
+    radius: 471770
+    vector: [0.553, 0.83, 0.067]
+  corona:
+    shimmer: 0.914286
+    hues: 0.811615
+    flare: 0.01969
+stations:
+- type: coriolis
+  orbit:
+    parent: Geale
+    vector: undefined
+    radius: 7258

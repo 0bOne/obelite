@@ -1,0 +1,61 @@
+name: Xegearer
+position: [133, 187]
+seed: 222 187 58 133 64 66
+limits:
+  blurs: 106
+  stars: 5996
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xegearer
+  radius: 3461
+  rotationSpeed: 0.004816
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 449930
+  land:
+    ratio: 0.31
+    color: [0.505313, 0.522231, 0.66, 1]
+    polarColor: [0.879273, 0.885259, 0.934, 1]
+  sea:
+    color: [0.570312, 0.541129, 0.453577, 1]
+    polarColor: [0.942969, 0.930905, 0.894715, 1]
+  air:
+    color: [0.559963, 0.919768, 0.993797, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.618058, 0.984375, 0.284546, 1]
+    ratio: 0.25
+    polarColor: [0.723651, 0.942969, 0.523974, 1]
+  demographics:
+    type: 47
+    gdp: 28952
+    tech: 9
+    economy: 3
+    government: 7
+    description: This planet is very notable for its inhabitants’ weird shyness and its inhabitants’ eccentric love for poetry.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.706964, 0.539867, 0.284346, 1]
+  radius: 71986.750946
+  orbit:
+    type: static
+    parent: ~
+    radius: 173050
+    vector: [0.631, 0.457, -0.627]
+  corona:
+    shimmer: 0.53924
+    hues: 0.675446
+    flare: 0.061414
+stations:
+- type: coriolis
+  orbit:
+    parent: Xegearer
+    vector: undefined
+    radius: 6922

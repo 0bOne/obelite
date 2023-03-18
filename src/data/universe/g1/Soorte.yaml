@@ -1,0 +1,61 @@
+name: Soorte
+position: [219, 22]
+seed: 148 22 24 219 182 39
+limits:
+  blurs: 161
+  stars: 5892
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soorte
+  radius: 4827
+  rotationSpeed: 0.002317
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 579240
+  land:
+    ratio: 0.26
+    color: [0.554688, 0.391944, 0.00650024, 1]
+    polarColor: [0.944531, 0.875251, 0.711166, 1]
+  sea:
+    color: [0.652344, 0.581545, 0.481358, 1]
+    polarColor: [0.934766, 0.909403, 0.873513, 1]
+  air:
+    color: [0.453541, 0.696397, 0.866971, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.101372, 0.603516, 0.226908, 1]
+    ratio: 0.23
+    polarColor: [0.370344, 0.771582, 0.470654, 1]
+  demographics:
+    type: 34
+    gdp: 7616
+    tech: 6
+    economy: 6
+    government: 3
+    description: Soorte is a revolting little planet.
+    inhabitants: Fierce Red Furry Rodents
+- type: star
+  type: primary
+  color: [0.239421, 0.314288, 0.770502, 1]
+  radius: 114200.798035
+  orbit:
+    type: static
+    parent: ~
+    radius: 434430
+    vector: [-0.3, 0.873, 0.385]
+  corona:
+    shimmer: 0.449455
+    hues: 0.769684
+    flare: 0.062817
+stations:
+- type: coriolis
+  orbit:
+    parent: Soorte
+    vector: undefined
+    radius: 9654

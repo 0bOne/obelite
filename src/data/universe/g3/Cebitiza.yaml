@@ -1,0 +1,61 @@
+name: Cebitiza
+position: [11, 181]
+seed: 194 181 178 11 90 37
+limits:
+  blurs: 193
+  stars: 6017
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cebitiza
+  radius: 4107
+  rotationSpeed: 0.002518
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 616050
+  land:
+    ratio: 0.35
+    color: [0.459858, 0.32373, 0.609375, 1]
+    polarColor: [0.88146, 0.829016, 0.939062, 1]
+  sea:
+    color: [0.551933, 0.712891, 0.554448, 1]
+    polarColor: [0.87629, 0.928711, 0.877109, 1]
+  air:
+    color: [0.917257, 0.793168, 0.997699, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.996094, 0.98053, 0.983083, 1]
+    ratio: 0.22
+    polarColor: [0.948242, 0.938982, 0.940501, 1]
+  demographics:
+    type: 44
+    gdp: 17600
+    tech: 8
+    economy: 5
+    government: 6
+    description: Cebitiza is most famous for its vast oceans and its inhabitants’ exceptional love for tourists.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.735486, 0.729204, 0.726825, 1]
+  radius: 126683.052063
+  orbit:
+    type: static
+    parent: ~
+    radius: 123210
+    vector: [0.268, -0.933, -0.242]
+  corona:
+    shimmer: 0.528618
+    hues: 0.806511
+    flare: 0.051187
+stations:
+- type: coriolis
+  orbit:
+    parent: Cebitiza
+    vector: undefined
+    radius: 8214

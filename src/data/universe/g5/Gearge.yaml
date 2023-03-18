@@ -1,0 +1,61 @@
+name: Gearge
+position: [54, 48]
+seed: 169 48 85 54 10 227
+limits:
+  blurs: 99
+  stars: 5704
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gearge
+  radius: 3638
+  rotationSpeed: 0.004604
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 327420
+  land:
+    ratio: 0.49
+    color: [0.461586, 0.311028, 0.626953, 1]
+    polarColor: [0.875498, 0.819226, 0.937305, 1]
+  sea:
+    color: [0.9, 0.72, 0.828, 1]
+    polarColor: [0.91, 0.8645, 0.8918, 1]
+  air:
+    color: [0.649273, 0.875426, 0.836354, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.628906, 0.572768, 0.518356, 1]
+    ratio: 0.26
+    polarColor: [0.783008, 0.739324, 0.696984, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 10
+    economy: 0
+    government: 2
+    description: Gearge is most famous for its pink oceans and its exciting sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.771445, 0.741927, 0.726137, 1]
+  radius: 102343.730164
+  orbit:
+    type: static
+    parent: ~
+    radius: 509320
+    vector: [0.408, -0.788, 0.461]
+  corona:
+    shimmer: 0.346865
+    hues: 0.634125
+    flare: 0.091414
+stations:
+- type: coriolis
+  orbit:
+    parent: Gearge
+    vector: undefined
+    radius: 7276

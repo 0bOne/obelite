@@ -1,0 +1,61 @@
+name: Insoaza
+position: [155, 255]
+seed: 103 255 57 155 232 140
+limits:
+  blurs: 87
+  stars: 6118
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Insoaza
+  radius: 6043
+  rotationSpeed: 0.004502
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 906450
+  land:
+    ratio: 0.64
+    color: [0.232605, 0.464751, 0.578125, 1]
+    polarColor: [0.801411, 0.895995, 0.942187, 1]
+  sea:
+    color: [0.650391, 0.576142, 0.480679, 1]
+    polarColor: [0.934961, 0.908277, 0.873969, 1]
+  air:
+    color: [0.628745, 0.501601, 0.933311, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.738404, 0.169327, 0.802734, 1]
+    ratio: 0.2
+    polarColor: [0.818094, 0.436503, 0.86123, 1]
+  demographics:
+    type: 43
+    gdp: 11352
+    tech: 7
+    economy: 7
+    government: 7
+    description: Insoaza is famous for Insoazaian wolf cutlet but beset by evil disease.
+    inhabitants: Black Fat Birds
+- type: star
+  type: primary
+  color: [0.599889, 0.792431, 0.819543, 1]
+  radius: 161449.419098
+  orbit:
+    type: static
+    parent: ~
+    radius: 362580
+    vector: [-0.599, 0.643, -0.477]
+  corona:
+    shimmer: 0.279114
+    hues: 0.958221
+    flare: 0.003203
+stations:
+- type: coriolis
+  orbit:
+    parent: Insoaza
+    vector: undefined
+    radius: 12086

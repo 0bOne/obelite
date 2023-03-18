@@ -1,0 +1,61 @@
+name: Qubiisis
+position: [124, 78]
+seed: 217 78 113 124 186 186
+limits:
+  blurs: 169
+  stars: 5979
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qubiisis
+  radius: 5500
+  rotationSpeed: 0.001315
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 605000
+  land:
+    ratio: 0.31
+    color: [0.188644, 0.508153, 0.619141, 1]
+    polarColor: [0.77502, 0.896046, 0.938086, 1]
+  sea:
+    color: [0.574275, 0.728516, 0.6526, 1]
+    polarColor: [0.878075, 0.927148, 0.902995, 1]
+  air:
+    color: [0.439851, 0.760436, 0.857865, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.222553, 0.576172, 0.0787735, 1]
+    ratio: 0.54
+    polarColor: [0.468029, 0.759277, 0.349609, 1]
+  demographics:
+    type: 29
+    gdp: 9280
+    tech: 4
+    economy: 6
+    government: 6
+    description: The planet Qubiisis is famous for its inhabitants’ ancient loathing of sit coms but ravaged by dreadful civil war.
+    inhabitants: Harmless Horned Birds
+- type: star
+  type: primary
+  color: [0.478023, 0.671351, 0.722916, 1]
+  radius: 182256.317139
+  orbit:
+    type: static
+    parent: ~
+    radius: 550000
+    vector: [0.239, 0.965, -0.105]
+  corona:
+    shimmer: 0.753183
+    hues: 0.815109
+    flare: 0.089957
+stations:
+- type: coriolis
+  orbit:
+    parent: Qubiisis
+    vector: undefined
+    radius: 11000

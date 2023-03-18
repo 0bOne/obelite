@@ -1,0 +1,61 @@
+name: Tiraor
+position: [172, 176]
+seed: 128 176 224 172 141 119
+limits:
+  blurs: 126
+  stars: 8208
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiraor
+  radius: 4780
+  rotationSpeed: 0.000353
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 573600
+  land:
+    ratio: 0.6
+    color: [0.507891, 0.642175, 0.66, 1]
+    polarColor: [0.880186, 0.927694, 0.934, 1]
+  sea:
+    color: [0.461494, 0.515625, 0.0825806, 1]
+    polarColor: [0.923546, 0.948438, 0.749303, 1]
+  air:
+    color: [0.716473, 0.581367, 0.886482, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.662109, 0.375023, 0.563423, 1]
+    ratio: 0.11
+    polarColor: [0.797949, 0.581708, 0.723616, 1]
+  demographics:
+    type: 41
+    gdp: 26240
+    tech: 9
+    economy: 0
+    government: 4
+    description: Tiraor is a revolting little planet.
+    inhabitants: Blue Fat Insects
+- type: star
+  type: primary
+  color: [0.740216, 0.655512, 0.529065, 1]
+  radius: 143111.169434
+  orbit:
+    type: static
+    parent: ~
+    radius: 525800
+    vector: [0.194, -0.899, 0.392]
+  corona:
+    shimmer: 0.39111
+    hues: 0.687195
+    flare: 0.087144
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiraor
+    vector: undefined
+    radius: 9560

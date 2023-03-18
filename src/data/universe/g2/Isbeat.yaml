@@ -1,0 +1,61 @@
+name: Isbeat
+position: [117, 77]
+seed: 65 77 121 117 173 61
+limits:
+  blurs: 145
+  stars: 9434
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isbeat
+  radius: 6261
+  rotationSpeed: 0.000046
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 626100
+  land:
+    ratio: 0.59
+    color: [0.105423, 0.642578, 0.478914, 1]
+    polarColor: [0.740187, 0.935742, 0.876159, 1]
+  sea:
+    color: [0.609327, 0.720703, 0.540246, 1]
+    polarColor: [0.89208, 0.92793, 0.869843, 1]
+  air:
+    color: [0.63833, 0.910004, 0.911848, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.731342, 0.738281, 0.51622, 1]
+    ratio: 0.44
+    polarColor: [0.827338, 0.832227, 0.675778, 1]
+  demographics:
+    type: 41
+    gdp: 18040
+    tech: 7
+    economy: 5
+    government: 7
+    description: This planet is fabled for its exciting sit coms.
+    inhabitants: Red Slimy Frogs
+- type: star
+  type: primary
+  color: [0.68165, 0.623677, 0.599374, 1]
+  radius: 160654.034729
+  orbit:
+    type: static
+    parent: ~
+    radius: 438270
+    vector: [-0.078, 0.98, -0.181]
+  corona:
+    shimmer: 0.531784
+    hues: 0.514351
+    flare: 0.044862
+stations:
+- type: coriolis
+  orbit:
+    parent: Isbeat
+    vector: undefined
+    radius: 12522

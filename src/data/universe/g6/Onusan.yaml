@@ -1,0 +1,61 @@
+name: Onusan
+position: [180, 20]
+seed: 146 20 74 180 84 95
+limits:
+  blurs: 128
+  stars: 5680
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onusan
+  radius: 6836
+  rotationSpeed: 0.002805
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 888680
+  land:
+    ratio: 0.43
+    color: [0.188312, 0.564453, 0.0970154, 1]
+    polarColor: [0.786363, 0.943555, 0.748209, 1]
+  sea:
+    color: [0.525391, 0.406152, 0.434098, 1]
+    polarColor: [0.947461, 0.893704, 0.906303, 1]
+  air:
+    color: [0.75444, 0.531503, 0.941115, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.826172, 0.242043, 0.447401, 1]
+    ratio: 0.27
+    polarColor: [0.871777, 0.486544, 0.621977, 1]
+  demographics:
+    type: 16
+    gdp: 2560
+    tech: 2
+    economy: 6
+    government: 1
+    description: Onusan is famous for its inhabitants’ ancient loathing of casinos but plagued by frequent earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.40223, 0.679056, 0.691547, 1]
+  radius: 185717.105103
+  orbit:
+    type: static
+    parent: ~
+    radius: 683600
+    vector: [-0.212, -0.784, -0.584]
+  corona:
+    shimmer: 0.614704
+    hues: 0.612694
+    flare: 0.006706
+stations:
+- type: coriolis
+  orbit:
+    parent: Onusan
+    vector: undefined
+    radius: 13672

@@ -1,0 +1,61 @@
+name: Usmaxe
+position: [111, 147]
+seed: 185 147 145 111 13 136
+limits:
+  blurs: 59
+  stars: 8748
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usmaxe
+  radius: 4975
+  rotationSpeed: 0.002266
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 597000
+  land:
+    ratio: 0.31
+    color: [0.566406, 0.478597, 0.00442505, 1]
+    polarColor: [0.943359, 0.906797, 0.709362, 1]
+  sea:
+    color: [0.695312, 0.654083, 0.513336, 1]
+    polarColor: [0.930469, 0.916676, 0.869588, 1]
+  air:
+    color: [0.790095, 0.592777, 0.902092, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.708984, 0.404343, 0.425763, 1]
+    ratio: 0.23
+    polarColor: [0.819043, 0.599085, 0.614551, 1]
+  demographics:
+    type: 38
+    gdp: 12768
+    tech: 8
+    economy: 3
+    government: 2
+    description: This world is plagued by frequent earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.670264, 0.546156, 0.519537, 1]
+  radius: 132947.795868
+  orbit:
+    type: static
+    parent: ~
+    radius: 348250
+    vector: [0.272, 0.952, -0.14]
+  corona:
+    shimmer: 0.419495
+    hues: 0.579628
+    flare: 0.017805
+stations:
+- type: coriolis
+  orbit:
+    parent: Usmaxe
+    vector: undefined
+    radius: 9950

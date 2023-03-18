@@ -1,0 +1,61 @@
+name: Xevera
+position: [91, 152]
+seed: 188 152 56 91 149 162
+limits:
+  blurs: 41
+  stars: 8395
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xevera
+  radius: 3419
+  rotationSpeed: 0.004736
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 444470
+  land:
+    ratio: 0.38
+    color: [0.60167, 0.66, 0.193359, 1]
+    polarColor: [0.913364, 0.934, 0.768908, 1]
+  sea:
+    color: [0.599609, 0.588639, 0.471958, 1]
+    polarColor: [0.940039, 0.935739, 0.890008, 1]
+  air:
+    color: [0.672751, 0.804175, 0.952172, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.617676, 0.859375, 0.763073, 1]
+    ratio: 0.5
+    polarColor: [0.73085, 0.886719, 0.824615, 1]
+  demographics:
+    type: 64
+    gdp: 56320
+    tech: 14
+    economy: 0
+    government: 7
+    description: This world is mildly famous for its vast rain forests and the Xeveraian tree wolf.
+    inhabitants: Large Harmless Bony Humanoids
+- type: star
+  type: primary
+  color: [0.745322, 0.640157, 0.456708, 1]
+  radius: 82688.089294
+  orbit:
+    type: static
+    parent: ~
+    radius: 136760
+    vector: [-0.187, 0.633, -0.751]
+  corona:
+    shimmer: 0.370641
+    hues: 0.59787
+    flare: 0.050504
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Xevera
+    vector: undefined
+    radius: 6838

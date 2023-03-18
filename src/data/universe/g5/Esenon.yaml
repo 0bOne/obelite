@@ -1,0 +1,61 @@
+name: Esenon
+position: [99, 229]
+seed: 41 229 149 99 138 169
+limits:
+  blurs: 67
+  stars: 8773
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esenon
+  radius: 5219
+  rotationSpeed: 0.002084
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 678470
+  land:
+    ratio: 0.36
+    color: [0.66, 0.100547, 0.218557, 1]
+    polarColor: [0.934, 0.736072, 0.777823, 1]
+  sea:
+    color: [0.582031, 0.445078, 0.438342, 1]
+    polarColor: [0.941797, 0.886395, 0.88367, 1]
+  air:
+    color: [0.596717, 0.919002, 0.850745, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.759766, 0.544598, 0.415497, 1]
+    ratio: 0.5
+    polarColor: [0.841895, 0.692878, 0.603467, 1]
+  demographics:
+    type: 32
+    gdp: 7680
+    tech: 6
+    economy: 5
+    government: 2
+    description: Esenon is ravaged by occasional solar activity.
+    inhabitants: Small Harmless Insects
+- type: star
+  type: primary
+  color: [0.267066, 0.759061, 0.759521, 1]
+  radius: 134503.766022
+  orbit:
+    type: static
+    parent: ~
+    radius: 156570
+    vector: [0.126, -0.987, 0.098]
+  corona:
+    shimmer: 1.029922
+    hues: 0.599937
+    flare: 0.007433
+stations:
+- type: coriolis
+  orbit:
+    parent: Esenon
+    vector: undefined
+    radius: 10438

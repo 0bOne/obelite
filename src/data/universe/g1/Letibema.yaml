@@ -1,0 +1,61 @@
+name: Letibema
+position: [186, 91]
+seed: 84 91 184 186 54 193
+limits:
+  blurs: 160
+  stars: 7871
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Letibema
+  radius: 3258
+  rotationSpeed: 0.003632
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 293220
+  land:
+    ratio: 0.51
+    color: [0.478162, 0.278438, 0.66, 1]
+    polarColor: [0.869668, 0.799008, 0.934, 1]
+  sea:
+    color: [0.655825, 0.699219, 0.520044, 1]
+    polarColor: [0.915648, 0.930078, 0.870495, 1]
+  air:
+    color: [0.651023, 0.879328, 0.848794, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.640625, 0.595659, 0.525513, 1]
+    ratio: 0.55
+    polarColor: [0.788281, 0.7537, 0.699754, 1]
+  demographics:
+    type: 51
+    gdp: 31416
+    tech: 10
+    economy: 3
+    government: 7
+    description: The world Letibema is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.735455, 0.766492, 0.803149, 1]
+  radius: 86337.79541
+  orbit:
+    type: static
+    parent: ~
+    radius: 488700
+    vector: [0.4, 0.311, 0.862]
+  corona:
+    shimmer: 0.475788
+    hues: 0.84903
+    flare: 0.03208
+stations:
+- type: coriolis
+  orbit:
+    parent: Letibema
+    vector: undefined
+    radius: 6516

@@ -1,0 +1,61 @@
+name: Anenbi
+position: [184, 221]
+seed: 137 221 233 184 170 155
+limits:
+  blurs: 85
+  stars: 9352
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anenbi
+  radius: 5816
+  rotationSpeed: 0.004122
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 697920
+  land:
+    ratio: 0.6
+    color: [0.549141, 0.66, 0.636616, 1]
+    polarColor: [0.894779, 0.934, 0.925727, 1]
+  sea:
+    color: [0.335289, 0.535156, 0.0940704, 1]
+    polarColor: [0.858113, 0.946484, 0.751457, 1]
+  air:
+    color: [0.694164, 0.842474, 0.893637, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.646043, 0.683594, 0.635529, 1]
+    ratio: 0.32
+    polarColor: [0.77989, 0.807617, 0.772126, 1]
+  demographics:
+    type: 31
+    gdp: 11160
+    tech: 5
+    economy: 5
+    government: 5
+    description: The planet Anenbi is mildly well known for its exotic cuisine.
+    inhabitants: Black Furry Rodents
+- type: star
+  type: primary
+  color: [0.415096, 0.540208, 0.769391, 1]
+  radius: 121037.69043
+  orbit:
+    type: static
+    parent: ~
+    radius: 639760
+    vector: [-0.26, -0.935, 0.241]
+  corona:
+    shimmer: 0.426939
+    hues: 0.576729
+    flare: 0.007372
+stations:
+- type: coriolis
+  orbit:
+    parent: Anenbi
+    vector: undefined
+    radius: 11632

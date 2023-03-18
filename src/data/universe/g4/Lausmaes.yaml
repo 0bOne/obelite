@@ -1,0 +1,61 @@
+name: Lausmaes
+position: [77, 69]
+seed: 228 69 252 77 5 245
+limits:
+  blurs: 55
+  stars: 6417
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lausmaes
+  radius: 4173
+  rotationSpeed: 0.000553
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 584220
+  land:
+    ratio: 0.42
+    color: [0.649607, 0.629063, 0.66, 1]
+    polarColor: [0.930323, 0.923055, 0.934, 1]
+  sea:
+    color: [0.220953, 0.576172, 0.0765228, 1]
+    polarColor: [0.797134, 0.942383, 0.738077, 1]
+  air:
+    color: [0.519574, 0.605712, 0.851361, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.239182, 0.482236, 0.556641, 1]
+    ratio: 0.23
+    polarColor: [0.48298, 0.687791, 0.750488, 1]
+  demographics:
+    type: 41
+    gdp: 18040
+    tech: 7
+    economy: 5
+    government: 7
+    description: The planet Lausmaes is scourged by deadly tree grubs.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.70567, 0.608038, 0.192238, 1]
+  radius: 82502.329102
+  orbit:
+    type: static
+    parent: ~
+    radius: 250380
+    vector: [0.376, 0.816, -0.438]
+  corona:
+    shimmer: 0.393941
+    hues: 0.672615
+    flare: 0.090251
+stations:
+- type: coriolis
+  orbit:
+    parent: Lausmaes
+    vector: undefined
+    radius: 8346

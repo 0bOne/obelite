@@ -1,0 +1,61 @@
+name: Qubeor
+position: [203, 110]
+seed: 10 110 210 203 10 218
+limits:
+  blurs: 90
+  stars: 6604
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qubeor
+  radius: 5579
+  rotationSpeed: 0.004505
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 502110
+  land:
+    ratio: 0.45
+    color: [0.0721875, 0.604893, 0.66, 1]
+    polarColor: [0.726039, 0.914504, 0.934, 1]
+  sea:
+    color: [0.552806, 0.664062, 0.525803, 1]
+    polarColor: [0.894491, 0.933594, 0.884999, 1]
+  air:
+    color: [0.453499, 0.491416, 0.926807, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0520096, 0.217671, 0.783203, 1]
+    ratio: 0.46
+    polarColor: [0.355045, 0.467737, 0.852441, 1]
+  demographics:
+    type: 29
+    gdp: 5568
+    tech: 5
+    economy: 6
+    government: 2
+    description: This planet is beset by lethal disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.794766, 0.649929, 0.386893, 1]
+  radius: 151029.529877
+  orbit:
+    type: static
+    parent: ~
+    radius: 669480
+    vector: [-0.07, 0.596, 0.8]
+  corona:
+    shimmer: 0.475119
+    hues: 0.716393
+    flare: 0.089485
+stations:
+- type: coriolis
+  orbit:
+    parent: Qubeor
+    vector: undefined
+    radius: 11158

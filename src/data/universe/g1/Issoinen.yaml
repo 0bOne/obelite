@@ -1,0 +1,61 @@
+name: Issoinen
+position: [102, 3]
+seed: 116 3 200 102 182 253
+limits:
+  blurs: 55
+  stars: 9918
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Issoinen
+  radius: 6246
+  rotationSpeed: 0.004271
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 874440
+  land:
+    ratio: 0.28
+    color: [0.66, 0.340313, 0.475181, 1]
+    polarColor: [0.934, 0.820898, 0.868613, 1]
+  sea:
+    color: [0.658203, 0.485698, 0.462799, 1]
+    polarColor: [0.93418, 0.872971, 0.864846, 1]
+  air:
+    color: [0.664246, 0.839654, 0.784707, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.521484, 0.508228, 0.507225, 1]
+    ratio: 0.46
+    polarColor: [0.734668, 0.722995, 0.722113, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 7
+    economy: 3
+    government: 1
+    description: The planet Issoinen is very noted for its ancient mountains but ravaged by occasional earthquakes.
+    inhabitants: Furry Felines
+- type: star
+  type: primary
+  color: [0.751135, 0.542595, 0.488087, 1]
+  radius: 193359.523315
+  orbit:
+    type: static
+    parent: ~
+    radius: 437220
+    vector: [0.789, -0.567, -0.237]
+  corona:
+    shimmer: 0.784449
+    hues: 0.548531
+    flare: 0.025276
+stations:
+- type: coriolis
+  orbit:
+    parent: Issoinen
+    vector: undefined
+    radius: 12492

@@ -1,0 +1,61 @@
+name: Tebeor
+position: [10, 13]
+seed: 38 13 48 10 27 28
+limits:
+  blurs: 93
+  stars: 9644
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tebeor
+  radius: 5898
+  rotationSpeed: 0.000053
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 707760
+  land:
+    ratio: 0.62
+    color: [0.61446, 0.66, 0.353203, 1]
+    polarColor: [0.917888, 0.934, 0.825459, 1]
+  sea:
+    color: [0.595703, 0.546317, 0.461205, 1]
+    polarColor: [0.94043, 0.920938, 0.887347, 1]
+  air:
+    color: [0.646066, 0.88193, 0.846703, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.648438, 0.590813, 0.516724, 1]
+    ratio: 0.37
+    polarColor: [0.791797, 0.747819, 0.691276, 1]
+  demographics:
+    type: 40
+    gdp: 16000
+    tech: 7
+    economy: 5
+    government: 6
+    description: Tebeor is mildly well known for its hoopy night life.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.554732, 0.63212, 0.750018, 1]
+  radius: 160702.860718
+  orbit:
+    type: static
+    parent: ~
+    radius: 294900
+    vector: [0.851, 0.431, 0.3]
+  corona:
+    shimmer: 0.39725
+    hues: 0.88308
+    flare: 0.064122
+stations:
+- type: coriolis
+  orbit:
+    parent: Tebeor
+    vector: undefined
+    radius: 11796

@@ -1,0 +1,61 @@
+name: Biesin
+position: [59, 167]
+seed: 34 167 210 59 218 134
+limits:
+  blurs: 85
+  stars: 7833
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biesin
+  radius: 4411
+  rotationSpeed: 0.00382
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 529320
+  land:
+    ratio: 0.26
+    color: [0.638952, 0.66, 0.518203, 1]
+    polarColor: [0.926553, 0.934, 0.883834, 1]
+  sea:
+    color: [0.65685, 0.700645, 0.832031, 1]
+    polarColor: [0.86854, 0.880604, 0.916797, 1]
+  air:
+    color: [0.479848, 0.991195, 0.823033, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.976562, 0.071317, 0.0495911, 1]
+    ratio: 0.51
+    polarColor: [0.939453, 0.395174, 0.382112, 1]
+  demographics:
+    type: 26
+    gdp: 3744
+    tech: 4
+    economy: 7
+    government: 2
+    description: This planet is a tedious little planet.
+    inhabitants: Fierce Black Fat Felines
+- type: star
+  type: primary
+  color: [0.686163, 0.413495, 0.224585, 1]
+  radius: 81925.494385
+  orbit:
+    type: static
+    parent: ~
+    radius: 264660
+    vector: [-0.069, 0.991, 0.111]
+  corona:
+    shimmer: 0.308809
+    hues: 0.501907
+    flare: 0.076854
+stations:
+- type: coriolis
+  orbit:
+    parent: Biesin
+    vector: undefined
+    radius: 8822

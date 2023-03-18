@@ -1,0 +1,61 @@
+name: Aanra
+position: [201, 98]
+seed: 77 98 76 201 225 175
+limits:
+  blurs: 66
+  stars: 5446
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aanra
+  radius: 6857
+  rotationSpeed: 0.004446
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 891410
+  land:
+    ratio: 0.49
+    color: [0.655569, 0.0928125, 0.66, 1]
+    polarColor: [0.932432, 0.733336, 0.934, 1]
+  sea:
+    color: [0.609375, 0.553399, 0.466077, 1]
+    polarColor: [0.939062, 0.917497, 0.883856, 1]
+  air:
+    color: [0.519655, 0.60107, 0.853312, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.239502, 0.471657, 0.5625, 1]
+    ratio: 0.4
+    polarColor: [0.482838, 0.677107, 0.753125, 1]
+  demographics:
+    type: 32
+    gdp: 10240
+    tech: 7
+    economy: 2
+    government: 1
+    description: The world Aanra is reasonably fabled for Zero-G cricket and Aanraian evil brandy.
+    inhabitants: Harmless Bony Felines
+- type: star
+  type: primary
+  color: [0.69827, 0.646717, 0.644306, 1]
+  radius: 197947.536163
+  orbit:
+    type: static
+    parent: ~
+    radius: 617130
+    vector: [-0.239, 0.929, -0.283]
+  corona:
+    shimmer: 0.299612
+    hues: 0.694237
+    flare: 0.091368
+stations:
+- type: coriolis
+  orbit:
+    parent: Aanra
+    vector: undefined
+    radius: 13714

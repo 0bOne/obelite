@@ -1,0 +1,61 @@
+name: Ceenbion
+position: [206, 62]
+seed: 246 62 4 206 211 101
+limits:
+  blurs: 65
+  stars: 5861
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceenbion
+  radius: 4302
+  rotationSpeed: 0.00496
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 559260
+  land:
+    ratio: 0.27
+    color: [0.66, 0.600764, 0.213984, 1]
+    polarColor: [0.934, 0.913043, 0.776205, 1]
+  sea:
+    color: [0.626953, 0.534923, 0.467766, 1]
+    polarColor: [0.937305, 0.902908, 0.877808, 1]
+  air:
+    color: [0.677865, 0.861117, 0.84805, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.585938, 0.581288, 0.563049, 1]
+    ratio: 0.36
+    polarColor: [0.763672, 0.759885, 0.745028, 1]
+  demographics:
+    type: 19
+    gdp: 2432
+    tech: 3
+    economy: 6
+    government: 0
+    description: The planet Ceenbion is mildly notable for its inhabitants’ ingrained shyness.
+    inhabitants: Fierce Blue Slimy Frogs
+- type: star
+  type: primary
+  color: [0.799551, 0.456017, 0.261432, 1]
+  radius: 133111.505127
+  orbit:
+    type: static
+    parent: ~
+    radius: 258120
+    vector: [0.23, -0.953, -0.195]
+  corona:
+    shimmer: 1.568297
+    hues: 0.876312
+    flare: 0.02812
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceenbion
+    vector: undefined
+    radius: 8604

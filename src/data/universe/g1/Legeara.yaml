@@ -1,0 +1,61 @@
+name: Legeara
+position: [234, 22]
+seed: 112 22 248 234 186 1
+limits:
+  blurs: 142
+  stars: 5578
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Legeara
+  radius: 3306
+  rotationSpeed: 0.00152
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 429780
+  land:
+    ratio: 0.68
+    color: [0.66, 0.300573, 0.105703, 1]
+    polarColor: [0.934, 0.806839, 0.737897, 1]
+  sea:
+    color: [0.564453, 0.433537, 0.430396, 1]
+    polarColor: [0.943555, 0.888844, 0.887531, 1]
+  air:
+    color: [0.674136, 0.855445, 0.910547, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.640561, 0.734375, 0.602417, 1]
+    ratio: 0.08
+    polarColor: [0.764163, 0.830469, 0.737203, 1]
+  demographics:
+    type: 42
+    gdp: 14784
+    tech: 7
+    economy: 6
+    government: 7
+    description: This world is a tedious little planet.
+    inhabitants: Large Green Fat Humanoids
+- type: star
+  type: primary
+  color: [0.704602, 0.513378, 0.361652, 1]
+  radius: 91251.471863
+  orbit:
+    type: static
+    parent: ~
+    radius: 297540
+    vector: [-0.277, 0.051, -0.959]
+  corona:
+    shimmer: 0.439349
+    hues: 0.564865
+    flare: 0.058873
+stations:
+- type: coriolis
+  orbit:
+    parent: Legeara
+    vector: undefined
+    radius: 6612

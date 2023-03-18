@@ -1,0 +1,61 @@
+name: Beraer
+position: [137, 215]
+seed: 180 215 40 137 54 147
+limits:
+  blurs: 135
+  stars: 8373
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beraer
+  radius: 3721
+  rotationSpeed: 0.002978
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 483730
+  land:
+    ratio: 0.52
+    color: [0.66, 0.391553, 0.309375, 1]
+    polarColor: [0.934, 0.839027, 0.809953, 1]
+  sea:
+    color: [0.292511, 0.339621, 0.554688, 1]
+    polarColor: [0.832922, 0.852976, 0.944531, 1]
+  air:
+    color: [0.527345, 0.958025, 0.816391, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.876953, 0.234653, 0.219238, 1]
+    ratio: 0.43
+    polarColor: [0.894629, 0.4851, 0.475272, 1]
+  demographics:
+    type: 29
+    gdp: 6264
+    tech: 4
+    economy: 7
+    government: 5
+    description: Beraer is reasonably well known for its great dense forests but beset by deadly tree grubs.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.799823, 0.292191, 0.278967, 1]
+  radius: 103293.292999
+  orbit:
+    type: static
+    parent: ~
+    radius: 223260
+    vector: [0.802, 0.567, 0.188]
+  corona:
+    shimmer: 1.047269
+    hues: 0.644455
+    flare: 0.012883
+stations:
+- type: coriolis
+  orbit:
+    parent: Beraer
+    vector: undefined
+    radius: 7442

@@ -1,0 +1,61 @@
+name: Tilala
+position: [232, 86]
+seed: 18 86 82 232 84 119
+limits:
+  blurs: 92
+  stars: 9822
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tilala
+  radius: 4840
+  rotationSpeed: 0.003136
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 629200
+  land:
+    ratio: 0.71
+    color: [0.285706, 0.297586, 0.589844, 1]
+    polarColor: [0.819713, 0.824451, 0.941016, 1]
+  sea:
+    color: [0.593407, 0.753906, 0.716289, 1]
+    polarColor: [0.875399, 0.924609, 0.913076, 1]
+  air:
+    color: [0.682749, 0.492928, 0.954123, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.865234, 0.128433, 0.681034, 1]
+    ratio: 0.34
+    polarColor: [0.889355, 0.416017, 0.771021, 1]
+  demographics:
+    type: 17
+    gdp: 3264
+    tech: 2
+    economy: 6
+    government: 2
+    description: The planet Tilala is reasonably noted for its inhabitants’ eccentric shyness and Tilalaian Etonle brandy.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.702298, 0.538582, 0.352649, 1]
+  radius: 115452.197266
+  orbit:
+    type: static
+    parent: ~
+    radius: 387200
+    vector: [-0.031, -0.999, 0.021]
+  corona:
+    shimmer: 0.338261
+    hues: 0.95031
+    flare: 0.046283
+stations:
+- type: coriolis
+  orbit:
+    parent: Tilala
+    vector: undefined
+    radius: 9680

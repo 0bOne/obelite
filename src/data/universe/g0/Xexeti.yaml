@@ -1,0 +1,61 @@
+name: Xexeti
+position: [146, 237]
+seed: 24 237 196 146 173 34
+limits:
+  blurs: 146
+  stars: 5372
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xexeti
+  radius: 3474
+  rotationSpeed: 0.002967
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 347400
+  land:
+    ratio: 0.61
+    color: [0.37125, 0.66, 0.578789, 1]
+    polarColor: [0.831844, 0.934, 0.905269, 1]
+  sea:
+    color: [0.632812, 0.534372, 0.469171, 1]
+    polarColor: [0.936719, 0.90029, 0.876161, 1]
+  air:
+    color: [0.615643, 0.906233, 0.944367, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.702159, 0.835938, 0.463684, 1]
+    ratio: 0.51
+    polarColor: [0.788536, 0.876172, 0.632315, 1]
+  demographics:
+    type: 16
+    gdp: 1536
+    tech: 2
+    economy: 7
+    government: 0
+    description: This planet is notable for the Xexetiian edible arts graduate and its great volcanoes.
+    inhabitants: Large Red Frogs
+- type: star
+  type: primary
+  color: [0.230651, 0.730407, 0.811105, 1]
+  radius: 88820.875854
+  orbit:
+    type: static
+    parent: ~
+    radius: 312660
+    vector: [0.725, 0.622, 0.296]
+  corona:
+    shimmer: 0.335041
+    hues: 0.91993
+    flare: 0.046455
+stations:
+- type: coriolis
+  orbit:
+    parent: Xexeti
+    vector: undefined
+    radius: 6948

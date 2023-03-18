@@ -1,0 +1,61 @@
+name: Celabile
+position: [235, 4]
+seed: 234 4 60 235 155 101
+limits:
+  blurs: 99
+  stars: 5749
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Celabile
+  radius: 4331
+  rotationSpeed: 0.00059
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 519720
+  land:
+    ratio: 0.57
+    color: [0.2013, 0.638672, 0.00249481, 1]
+    polarColor: [0.775863, 0.936133, 0.703014, 1]
+  sea:
+    color: [0.60688, 0.669922, 0.514741, 1]
+    polarColor: [0.911058, 0.933008, 0.878977, 1]
+  air:
+    color: [0.507567, 0.529051, 0.886482, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.209496, 0.280216, 0.662109, 1]
+    ratio: 0.33
+    polarColor: [0.457029, 0.510297, 0.797949, 1]
+  demographics:
+    type: 52
+    gdp: 27456
+    tech: 10
+    economy: 4
+    government: 7
+    description: The planet Celabile is most famous for the Celabileian evil poet and Zero-G hockey.
+    inhabitants: Fierce Blue Rodents
+- type: star
+  type: primary
+  color: [0.211073, 0.409362, 0.702292, 1]
+  radius: 112926.780548
+  orbit:
+    type: static
+    parent: ~
+    radius: 216550
+    vector: [-0.313, 0.528, 0.789]
+  corona:
+    shimmer: 0.455326
+    hues: 0.580589
+    flare: 0.03508
+stations:
+- type: coriolis
+  orbit:
+    parent: Celabile
+    vector: undefined
+    radius: 8662

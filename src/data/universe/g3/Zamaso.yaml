@@ -1,0 +1,61 @@
+name: Zamaso
+position: [151, 110]
+seed: 186 110 98 151 234 36
+limits:
+  blurs: 145
+  stars: 7885
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zamaso
+  radius: 3991
+  rotationSpeed: 0.001289
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 598650
+  land:
+    ratio: 0.68
+    color: [0.0301067, 0.646484, 0.0252533, 1]
+    polarColor: [0.712403, 0.935352, 0.710648, 1]
+  sea:
+    color: [0.574484, 0.767578, 0.604655, 1]
+    polarColor: [0.865179, 0.923242, 0.874251, 1]
+  air:
+    color: [0.584324, 0.952923, 0.955424, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.853757, 0.869141, 0.376854, 1]
+    ratio: 0.55
+    polarColor: [0.881255, 0.891113, 0.575656, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 6
+    economy: 6
+    government: 4
+    description: This planet is very notable for its inhabitants’ weird shyness and its inhabitants’ ingrained shyness.
+    inhabitants: Fierce Red Bug-Eyed Frogs
+- type: star
+  type: primary
+  color: [0.849997, 0.849037, 0.358294, 1]
+  radius: 112105.592041
+  orbit:
+    type: static
+    parent: ~
+    radius: 119730
+    vector: [0.006, -0.389, -0.921]
+  corona:
+    shimmer: 0.451972
+    hues: 0.771202
+    flare: 0.098511
+stations:
+- type: coriolis
+  orbit:
+    parent: Zamaso
+    vector: undefined
+    radius: 7982

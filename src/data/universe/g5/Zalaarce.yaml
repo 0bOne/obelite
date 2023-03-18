@@ -1,0 +1,61 @@
+name: Zalaarce
+position: [143, 33]
+seed: 121 33 161 143 218 36
+limits:
+  blurs: 126
+  stars: 7950
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zalaarce
+  radius: 3983
+  rotationSpeed: 0.001874
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 597450
+  land:
+    ratio: 0.6
+    color: [0.66, 0.441363, 0.229453, 1]
+    polarColor: [0.934, 0.856649, 0.781678, 1]
+  sea:
+    color: [0.575737, 0.753906, 0.632807, 1]
+    polarColor: [0.869982, 0.924609, 0.88748, 1]
+  air:
+    color: [0.652171, 0.86567, 0.818787, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.599609, 0.544933, 0.515289, 1]
+    ratio: 0.1
+    polarColor: [0.769824, 0.725951, 0.702164, 1]
+  demographics:
+    type: 50
+    gdp: 28800
+    tech: 11
+    economy: 1
+    government: 4
+    description: This planet is notable for the Zalaarceian edible poet and Zalaarceian evil juice.
+    inhabitants: Fierce Red Felines
+- type: star
+  type: primary
+  color: [0.503707, 0.559769, 0.76102, 1]
+  radius: 68671.743164
+  orbit:
+    type: static
+    parent: ~
+    radius: 159320
+    vector: [-0.361, -0.337, 0.869]
+  corona:
+    shimmer: 0.348533
+    hues: 0.672997
+    flare: 0.015685
+stations:
+- type: icosahedron
+  orbit:
+    parent: Zalaarce
+    vector: undefined
+    radius: 7966

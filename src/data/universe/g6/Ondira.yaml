@@ -1,0 +1,61 @@
+name: Ondira
+position: [231, 6]
+seed: 14 6 162 231 208 31
+limits:
+  blurs: 185
+  stars: 9157
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ondira
+  radius: 6887
+  rotationSpeed: 0.000752
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 757570
+  land:
+    ratio: 0.31
+    color: [0.402188, 0.66, 0.412258, 1]
+    polarColor: [0.842789, 0.934, 0.846352, 1]
+  sea:
+    color: [0.707031, 0.545852, 0.458466, 1]
+    polarColor: [0.929297, 0.876335, 0.84762, 1]
+  air:
+    color: [0.723976, 0.615228, 0.856564, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.572266, 0.431435, 0.520554, 1]
+    ratio: 0.21
+    polarColor: [0.75752, 0.641007, 0.714737, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 6
+    economy: 6
+    government: 4
+    description: Ondira is a revolting dump.
+    inhabitants: Green Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.678191, 0.736423, 0.760858, 1]
+  radius: 164434.270935
+  orbit:
+    type: static
+    parent: ~
+    radius: 757570
+    vector: [-0.763, 0.351, -0.542]
+  corona:
+    shimmer: 0.282712
+    hues: 0.946556
+    flare: 0.00412
+stations:
+- type: coriolis
+  orbit:
+    parent: Ondira
+    vector: undefined
+    radius: 13774

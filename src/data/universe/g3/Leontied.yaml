@@ -1,0 +1,61 @@
+name: Leontied
+position: [23, 39]
+seed: 114 39 34 23 26 225
+limits:
+  blurs: 100
+  stars: 9127
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leontied
+  radius: 3095
+  rotationSpeed: 0.004481
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 371400
+  land:
+    ratio: 0.32
+    color: [0.490166, 0.020625, 0.66, 1]
+    polarColor: [0.873915, 0.707797, 0.934, 1]
+  sea:
+    color: [0.599609, 0.535588, 0.460715, 1]
+    polarColor: [0.940039, 0.914947, 0.885601, 1]
+  air:
+    color: [0.699681, 0.481388, 0.96583, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.900391, 0.0844116, 0.600773, 1]
+    ratio: 0.2
+    polarColor: [0.905176, 0.392479, 0.71692, 1]
+  demographics:
+    type: 32
+    gdp: 6144
+    tech: 5
+    economy: 7
+    government: 4
+    description: This world is very fabled for its weird volcanoes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.699533, 0.224582, 0.17582, 1]
+  radius: 61961.865997
+  orbit:
+    type: static
+    parent: ~
+    radius: 247600
+    vector: [-0.431, -0.058, 0.901]
+  corona:
+    shimmer: 0.479443
+    hues: 0.510345
+    flare: 0.05948
+stations:
+- type: coriolis
+  orbit:
+    parent: Leontied
+    vector: undefined
+    radius: 6190

@@ -1,0 +1,61 @@
+name: Rierxe
+position: [243, 191]
+seed: 53 191 153 243 37 94
+limits:
+  blurs: 158
+  stars: 9277
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rierxe
+  radius: 6643
+  rotationSpeed: 0.000392
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 730730
+  land:
+    ratio: 0.57
+    color: [0.348047, 0.20625, 0.66, 1]
+    polarColor: [0.823635, 0.773469, 0.934, 1]
+  sea:
+    color: [0.64024, 0.652344, 0.497412, 1]
+    polarColor: [0.93043, 0.934766, 0.879264, 1]
+  air:
+    color: [0.748381, 0.734075, 0.971033, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.818119, 0.794357, 0.916016, 1]
+    ratio: 0.45
+    polarColor: [0.851276, 0.836487, 0.912207, 1]
+  demographics:
+    type: 31
+    gdp: 5208
+    tech: 5
+    economy: 7
+    government: 3
+    description: The planet Rierxe is most noted for its inhabitants’ exceptional loathing of food blenders and its exciting sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.746146, 0.621048, 0.399489, 1]
+  radius: 122176.220093
+  orbit:
+    type: static
+    parent: ~
+    radius: 465010
+    vector: [-0.313, -0.643, -0.699]
+  corona:
+    shimmer: 0.285562
+    hues: 0.640717
+    flare: 0.089487
+stations:
+- type: coriolis
+  orbit:
+    parent: Rierxe
+    vector: undefined
+    radius: 13286

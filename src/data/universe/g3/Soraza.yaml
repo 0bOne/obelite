@@ -1,0 +1,61 @@
+name: Soraza
+position: [136, 67]
+seed: 210 67 194 136 154 135
+limits:
+  blurs: 138
+  stars: 8365
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soraza
+  radius: 4744
+  rotationSpeed: 0.000707
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 569280
+  land:
+    ratio: 0.4
+    color: [0.5, 0.466797, 0.480804, 1]
+    polarColor: [0.95, 0.934228, 0.940882, 1]
+  sea:
+    color: [0.570312, 0.49446, 0.44422, 1]
+    polarColor: [0.942969, 0.911615, 0.890848, 1]
+  air:
+    color: [0.512989, 0.561387, 0.872174, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.224922, 0.378914, 0.619141, 1]
+    ratio: 0.51
+    polarColor: [0.468765, 0.589799, 0.778613, 1]
+  demographics:
+    type: 20
+    gdp: 4480
+    tech: 4
+    economy: 3
+    government: 0
+    description: Soraza is cursed by vicious killer cats.
+    inhabitants: Fierce Black Bony Felines
+- type: star
+  type: primary
+  color: [0.771609, 0.359864, 0.226211, 1]
+  radius: 112523.776855
+  orbit:
+    type: static
+    parent: ~
+    radius: 237200
+    vector: [-0.054, 0.587, -0.808]
+  corona:
+    shimmer: 0.860572
+    hues: 0.694099
+    flare: 0.013515
+stations:
+- type: coriolis
+  orbit:
+    parent: Soraza
+    vector: undefined
+    radius: 9488

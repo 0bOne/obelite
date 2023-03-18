@@ -1,0 +1,61 @@
+name: Zaalela
+position: [46, 220]
+seed: 192 220 72 46 61 164
+limits:
+  blurs: 163
+  stars: 7964
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaalela
+  radius: 3886
+  rotationSpeed: 0.000042
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 427460
+  land:
+    ratio: 0.42
+    color: [0.288086, 0.319595, 0.576172, 1]
+    polarColor: [0.824585, 0.837469, 0.942383, 1]
+  sea:
+    color: [0.678024, 0.763672, 0.53994, 1]
+    polarColor: [0.897736, 0.923633, 0.855984, 1]
+  air:
+    color: [0.446106, 0.740325, 0.859166, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.151817, 0.580078, 0.0906372, 1]
+    ratio: 0.48
+    polarColor: [0.409874, 0.761035, 0.359708, 1]
+  demographics:
+    type: 24
+    gdp: 3840
+    tech: 4
+    economy: 6
+    government: 1
+    description: This world is noted for its fabulous goat soup.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.533252, 0.778025, 0.802826, 1]
+  radius: 92631.671143
+  orbit:
+    type: static
+    parent: ~
+    radius: 388600
+    vector: [-0.006, 0.896, 0.444]
+  corona:
+    shimmer: 0.380382
+    hues: 0.696037
+    flare: 0.061424
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaalela
+    vector: undefined
+    radius: 7772

@@ -32,6 +32,11 @@ export default class DomHelper
 		{
 			newElement.innerText = innerText;
 		}
+
+		if (innerText === " ")
+		{
+            newElement.innerHTML = "&nbsp;";
+		}
 		
 		return newElement;
 	}

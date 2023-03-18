@@ -1,0 +1,61 @@
+name: Atbitela
+position: [164, 144]
+seed: 226 144 18 164 218 49
+limits:
+  blurs: 70
+  stars: 9911
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atbitela
+  radius: 3236
+  rotationSpeed: 0.001297
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 453040
+  land:
+    ratio: 0.45
+    color: [0.299183, 0.224297, 0.66, 1]
+    polarColor: [0.806347, 0.779854, 0.934, 1]
+  sea:
+    color: [0.699219, 0.465328, 0.43428, 1]
+    polarColor: [0.930078, 0.8523, 0.841975, 1]
+  air:
+    color: [0.441941, 0.618366, 0.900791, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0495758, 0.705078, 0.612898, 1]
+    ratio: 0.23
+    polarColor: [0.342398, 0.817285, 0.750504, 1]
+  demographics:
+    type: 35
+    gdp: 16800
+    tech: 8
+    economy: 0
+    government: 2
+    description: This world is plagued by frequent earthquakes.
+    inhabitants: Red Fat Humanoids
+- type: star
+  type: primary
+  color: [0.832053, 0.215295, 0.214031, 1]
+  radius: 84259.147339
+  orbit:
+    type: static
+    parent: ~
+    radius: 291240
+    vector: [0.08, 0.962, 0.262]
+  corona:
+    shimmer: 0.254885
+    hues: 0.85009
+    flare: 0.000798
+stations:
+- type: coriolis
+  orbit:
+    parent: Atbitela
+    vector: undefined
+    radius: 6472

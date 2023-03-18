@@ -1,0 +1,61 @@
+name: Maonxedi
+position: [55, 188]
+seed: 242 188 162 55 26 107
+limits:
+  blurs: 104
+  stars: 6940
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maonxedi
+  radius: 5687
+  rotationSpeed: 0.004432
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 682440
+  land:
+    ratio: 0.42
+    color: [0.583845, 0.66, 0.146953, 1]
+    polarColor: [0.907057, 0.934, 0.75249, 1]
+  sea:
+    color: [0.507812, 0.384827, 0.479949, 1]
+    polarColor: [0.949219, 0.891747, 0.936198, 1]
+  air:
+    color: [0.492081, 0.997699, 0.898506, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.996094, 0.465217, 0.0778198, 1]
+    ratio: 0.26
+    polarColor: [0.948242, 0.632383, 0.401892, 1]
+  demographics:
+    type: 41
+    gdp: 15744
+    tech: 8
+    economy: 4
+    government: 4
+    description: This planet is a dull world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.753888, 0.794882, 0.815674, 1]
+  radius: 146066.068726
+  orbit:
+    type: static
+    parent: ~
+    radius: 511830
+    vector: [0.92, 0.391, 0.028]
+  corona:
+    shimmer: 0.420076
+    hues: 0.771973
+    flare: 0.086819
+stations:
+- type: coriolis
+  orbit:
+    parent: Maonxedi
+    vector: undefined
+    radius: 11374

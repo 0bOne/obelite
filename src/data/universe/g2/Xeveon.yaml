@@ -1,0 +1,61 @@
+name: Xeveon
+position: [198, 205]
+seed: 149 205 121 198 101 2
+limits:
+  blurs: 97
+  stars: 8203
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeveon
+  radius: 3526
+  rotationSpeed: 0.001593
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 528900
+  land:
+    ratio: 0.33
+    color: [0.572266, 0.48732, 0.491302, 1]
+    polarColor: [0.942773, 0.907788, 0.909428, 1]
+  sea:
+    color: [0.515943, 0.542969, 0.0487823, 1]
+    polarColor: [0.933935, 0.945703, 0.730519, 1]
+  air:
+    color: [0.625185, 0.549829, 0.885832, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.548948, 0.304291, 0.660156, 1]
+    ratio: 0.55
+    polarColor: [0.71315, 0.528526, 0.79707, 1]
+  demographics:
+    type: 45
+    gdp: 19800
+    tech: 8
+    economy: 5
+    government: 7
+    description: This planet is plagued by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.181667, 0.330453, 0.657394, 1]
+  radius: 72619.373169
+  orbit:
+    type: static
+    parent: ~
+    radius: 211560
+    vector: [-0.034, 0.999, -0.03]
+  corona:
+    shimmer: 0.464524
+    hues: 0.523239
+    flare: 0.023788
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeveon
+    vector: undefined
+    radius: 7052

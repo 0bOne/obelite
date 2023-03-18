@@ -1,0 +1,61 @@
+name: Anatrean
+position: [1, 84]
+seed: 201 84 1 1 205 251
+limits:
+  blurs: 130
+  stars: 9434
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anatrean
+  radius: 5633
+  rotationSpeed: 0.004177
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 563300
+  land:
+    ratio: 0.36
+    color: [0.66, 0.295518, 0.257812, 1]
+    polarColor: [0.934, 0.805051, 0.791711, 1]
+  sea:
+    color: [0.541016, 0.416962, 0.428592, 1]
+    polarColor: [0.945898, 0.891676, 0.896759, 1]
+  air:
+    color: [0.568887, 0.506206, 0.913148, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.455374, 0.194244, 0.742188, 1]
+    ratio: 0.22
+    polarColor: [0.632554, 0.449162, 0.833984, 1]
+  demographics:
+    type: 15
+    gdp: 1920
+    tech: 2
+    economy: 6
+    government: 0
+    description: This world is a revolting dump.
+    inhabitants: Furry Rodents
+- type: star
+  type: primary
+  color: [0.661261, 0.325876, 0.225621, 1]
+  radius: 153106.789703
+  orbit:
+    type: static
+    parent: ~
+    radius: 732290
+    vector: [-0.075, -0.966, 0.249]
+  corona:
+    shimmer: 0.378869
+    hues: 0.720596
+    flare: 0.075275
+stations:
+- type: coriolis
+  orbit:
+    parent: Anatrean
+    vector: undefined
+    radius: 11266

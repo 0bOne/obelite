@@ -107,10 +107,10 @@ export default class ShipLibrary extends ViewBase
         }
     }
 
-    async loadNewModel(shipName, menuItem) 
+    async loadNewModel(shipName) 
     {    
+        this.clearScene();
         this.clearShipInfo();
-        window.$game.resetGLContext(); //TODO: remove this workaround and make the ship load in the existing context
         const modelLoader = new ModelLoader(this.gameCtx);
         const modelData = await modelLoader.LoadData(shipName);
 

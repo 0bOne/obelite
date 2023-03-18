@@ -1,0 +1,61 @@
+name: Xelara
+position: [252, 23]
+seed: 50 23 98 252 26 226
+limits:
+  blurs: 46
+  stars: 6846
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xelara
+  radius: 3580
+  rotationSpeed: 0.002016
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 393800
+  land:
+    ratio: 0.54
+    color: [0.634523, 0.355667, 0.636719, 1]
+    polarColor: [0.935521, 0.833003, 0.936328, 1]
+  sea:
+    color: [0.646762, 0.724609, 0.532984, 1]
+    polarColor: [0.902627, 0.927539, 0.866216, 1]
+  air:
+    color: [0.721064, 0.549317, 0.917701, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.755859, 0.29821, 0.566364, 1]
+    ratio: 0.42
+    polarColor: [0.840137, 0.522214, 0.708497, 1]
+  demographics:
+    type: 20
+    gdp: 3840
+    tech: 2
+    economy: 7
+    government: 4
+    description: This world is a tedious place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.731458, 0.697142, 0.371636, 1]
+  radius: 93367.553711
+  orbit:
+    type: static
+    parent: ~
+    radius: 358000
+    vector: [0.585, 0.2, -0.786]
+  corona:
+    shimmer: 0.395338
+    hues: 0.907608
+    flare: 0.042261
+stations:
+- type: coriolis
+  orbit:
+    parent: Xelara
+    vector: undefined
+    radius: 7160

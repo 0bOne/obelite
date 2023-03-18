@@ -1,0 +1,61 @@
+name: Retila
+position: [175, 218]
+seed: 154 218 0 175 51 46
+limits:
+  blurs: 54
+  stars: 7830
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Retila
+  radius: 6575
+  rotationSpeed: 0.001024
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 723250
+  land:
+    ratio: 0.53
+    color: [0.56606, 0.113438, 0.66, 1]
+    polarColor: [0.900765, 0.740633, 0.934, 1]
+  sea:
+    color: [0.638663, 0.658203, 0.50188, 1]
+    polarColor: [0.927246, 0.93418, 0.878713, 1]
+  air:
+    color: [0.618297, 0.883231, 0.794036, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.652344, 0.456131, 0.456131, 1]
+    ratio: 0.24
+    polarColor: [0.793555, 0.644376, 0.644376, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: This world is ravaged by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.714352, 0.776033, 0.812781, 1]
+  radius: 183766.113281
+  orbit:
+    type: static
+    parent: ~
+    radius: 723250
+    vector: [0.999, -0.039, -0.022]
+  corona:
+    shimmer: 0.36029
+    hues: 0.714066
+    flare: 0.040916
+stations:
+- type: coriolis
+  orbit:
+    parent: Retila
+    vector: undefined
+    radius: 13150

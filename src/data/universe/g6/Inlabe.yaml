@@ -1,0 +1,61 @@
+name: Inlabe
+position: [209, 184]
+seed: 14 184 66 209 80 236
+limits:
+  blurs: 198
+  stars: 5520
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inlabe
+  radius: 6097
+  rotationSpeed: 0.002093
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 731640
+  land:
+    ratio: 0.69
+    color: [0.629838, 0.632812, 0.57843, 1]
+    polarColor: [0.935618, 0.936719, 0.916594, 1]
+  sea:
+    color: [0.377579, 0.986328, 0.444161, 1]
+    polarColor: [0.762289, 0.901367, 0.777501, 1]
+  air:
+    color: [0.672363, 0.72754, 0.989895, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.619308, 0.798743, 0.972656, 1]
+    ratio: 0.44
+    polarColor: [0.724791, 0.832906, 0.937695, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 6
+    economy: 2
+    government: 0
+    description: This planet is plagued by frequent solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.532256, 0.63763, 0.652118, 1]
+  radius: 160143.00415
+  orbit:
+    type: static
+    parent: ~
+    radius: 548730
+    vector: [0.483, 0.834, 0.266]
+  corona:
+    shimmer: 0.353988
+    hues: 0.891716
+    flare: 0.029524
+stations:
+- type: coriolis
+  orbit:
+    parent: Inlabe
+    vector: undefined
+    radius: 12194

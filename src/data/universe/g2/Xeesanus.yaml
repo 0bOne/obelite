@@ -1,0 +1,61 @@
+name: Xeesanus
+position: [79, 119]
+seed: 245 119 89 79 165 2
+limits:
+  blurs: 84
+  stars: 6616
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeesanus
+  radius: 3407
+  rotationSpeed: 0.002825
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 442910
+  land:
+    ratio: 0.58
+    color: [0.546875, 0.474243, 0.491266, 1]
+    polarColor: [0.945312, 0.913925, 0.921282, 1]
+  sea:
+    color: [0.684405, 0.773438, 0.525696, 1]
+    polarColor: [0.896104, 0.922656, 0.848772, 1]
+  air:
+    color: [0.634803, 0.880629, 0.82281, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.644531, 0.537745, 0.490952, 1]
+    ratio: 0.43
+    polarColor: [0.790039, 0.708231, 0.672382, 1]
+  demographics:
+    type: 31
+    gdp: 5208
+    tech: 5
+    economy: 7
+    government: 3
+    description: The planet Xeesanus is well known for its inhabitants’ ancient loathing of casinos but ravaged by unpredictable solar activity.
+    inhabitants: Large Green Slimy Lizards
+- type: star
+  type: primary
+  color: [0.848581, 0.840046, 0.811523, 1]
+  radius: 111001.469879
+  orbit:
+    type: static
+    parent: ~
+    radius: 340700
+    vector: [-0.329, -0.151, -0.932]
+  corona:
+    shimmer: 0.347413
+    hues: 0.863281
+    flare: 0.021886
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeesanus
+    vector: undefined
+    radius: 6814

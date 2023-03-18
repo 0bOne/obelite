@@ -2,23 +2,26 @@ import DomHelper from "../../utilities/dom-helper.js";
 
 export default class Menu
 {
-    _buttons;
-    _container;
-    _helpBox;
+    buttons;
+    container;
+    helpBox;
+    defaultHelp; //displayed when no button has the focus
 
-    constructor(container, menuItems)
+    constructor(container, menuItems, defaultHelp = " ")
     {
-        this._container = container;
+        this.container = container;
+        this.defaultHelp = defaultHelp
         this.addItems(menuItems);
         DomHelper.AppendElement(container, Elements.BottomSpacer);
-        this._helpBox = DomHelper.AppendElement(this._container, Elements.HelpBox, " ");
+        this.helpBox = DomHelper.AppendElement(this.container, Elements.HelpBox, " ");
         DomHelper.AppendElement(container, Elements.BottomSpacer);
+        this.resetHelp();
     }   
     
     addItems(menuItems)
     {
-        this._buttons = [];
-        const menu = DomHelper.AppendElement(this._container, Elements.Menu);
+        this.buttons = [];
+        const menu = DomHelper.AppendElement(this.container, Elements.Menu);
         let firstButton;
         menuItems.forEach(item => {
             const button = DomHelper.AppendElement(menu, Elements.MenuItem, item.caption);
@@ -27,31 +30,36 @@ export default class Menu
             button.addEventListener("keydown", this.onKeyPress.bind(this, item));
             button.addEventListener("focus", this.onFocus.bind(this, item));
             button.addEventListener("blur", this.onBlur.bind(this, item));
-            this._buttons.push(button);
+            this.buttons.push(button);
         });
     }
 
     SetFocusButton(index)
     {
-        this._buttons[index].focus();
+        this.buttons[index].focus();
     }
 
     onFocus(menuItem, event)
     {
         //console.log("onfocus", menuItem);
         this.onBlur(menuItem, event);
-        if (menuItem.help && this._helpBox)
+        if (menuItem.help && this.helpBox)
         {
             //console.info("showing menu help", menuItem.help);
-            this._helpBox.innerText = menuItem.help;
+            this.helpBox.innerText = menuItem.help;
         }
     }
 
     onBlur(menuItem, event)
     {
-        if (this._helpBox)
+        this.resetHelp();
+    }
+
+    resetHelp()
+    {
+        if (this.helpBox)
         {
-            this._helpBox.innerText = " ";
+            this.helpBox.innerText = this.defaultHelp;
         }
     }
 
@@ -81,8 +89,8 @@ export default class Menu
 
     changeButtonFocusBy(button, indexChange)
     {
-        let buttonIndex = this._buttons.indexOf(button);
-        let maxIndex = this._buttons.length - 1;
+        let buttonIndex = this.buttons.indexOf(button);
+        let maxIndex = this.buttons.length - 1;
         if (buttonIndex > -1)
         {
             buttonIndex += indexChange;

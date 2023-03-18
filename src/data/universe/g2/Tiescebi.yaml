@@ -1,0 +1,61 @@
+name: Tiescebi
+position: [164, 141]
+seed: 201 141 1 164 205 119
+limits:
+  blurs: 180
+  stars: 8501
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiescebi
+  radius: 4772
+  rotationSpeed: 0.004142
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 715800
+  land:
+    ratio: 0.51
+    color: [0.66, 0.37125, 0.486299, 1]
+    polarColor: [0.934, 0.831844, 0.872547, 1]
+  sea:
+    color: [0.66713, 0.703125, 0.518829, 1]
+    polarColor: [0.917789, 0.929688, 0.868768, 1]
+  air:
+    color: [0.705259, 0.757339, 0.959326, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.708817, 0.812311, 0.880859, 1]
+    ratio: 0.39
+    polarColor: [0.786965, 0.852789, 0.896387, 1]
+  demographics:
+    type: 8
+    gdp: 768
+    tech: 0
+    economy: 7
+    government: 0
+    description: Tiescebi is famous for its inhabitants’ ancient mating traditions but ravaged by dreadful civil war.
+    inhabitants: Blue Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.847937, 0.79493, 0.283084, 1]
+  radius: 129451.859131
+  orbit:
+    type: static
+    parent: ~
+    radius: 238600
+    vector: [0.021, 0.293, -0.956]
+  corona:
+    shimmer: 0.443638
+    hues: 0.974854
+    flare: 0.046577
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiescebi
+    vector: undefined
+    radius: 9544

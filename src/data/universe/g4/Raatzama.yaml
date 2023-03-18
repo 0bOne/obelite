@@ -1,0 +1,61 @@
+name: Raatzama
+position: [254, 158]
+seed: 214 158 180 254 83 52
+limits:
+  blurs: 44
+  stars: 9252
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raatzama
+  radius: 4094
+  rotationSpeed: 0.00182
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 491280
+  land:
+    ratio: 0.26
+    color: [0.648438, 0.591921, 0.519257, 1]
+    polarColor: [0.935156, 0.91478, 0.888581, 1]
+  sea:
+    color: [0.132111, 0.650391, 0.650391, 1]
+    polarColor: [0.748699, 0.934961, 0.934961, 1]
+  air:
+    color: [0.698837, 0.843542, 0.88193, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.638701, 0.648438, 0.63324, 1]
+    ratio: 0.36
+    polarColor: [0.784367, 0.791797, 0.780198, 1]
+  demographics:
+    type: 37
+    gdp: 11840
+    tech: 6
+    economy: 6
+    government: 6
+    description: Raatzama is mildly well known for its hoopy casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.452207, 0.677317, 0.845187, 1]
+  radius: 78351.098938
+  orbit:
+    type: static
+    parent: ~
+    radius: 327520
+    vector: [-0.641, 0.675, 0.367]
+  corona:
+    shimmer: 0.485625
+    hues: 0.92572
+    flare: 0.002019
+stations:
+- type: coriolis
+  orbit:
+    parent: Raatzama
+    vector: undefined
+    radius: 8188

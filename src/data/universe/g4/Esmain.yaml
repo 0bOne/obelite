@@ -1,0 +1,61 @@
+name: Esmain
+position: [23, 137]
+seed: 134 137 192 23 219 73
+limits:
+  blurs: 61
+  stars: 7056
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esmain
+  radius: 5143
+  rotationSpeed: 0.003201
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 617160
+  land:
+    ratio: 0.25
+    color: [0.401838, 0.595703, 0.0186157, 1]
+    polarColor: [0.863916, 0.94043, 0.712669, 1]
+  sea:
+    color: [0.673828, 0.623242, 0.5159, 1]
+    polarColor: [0.932617, 0.915114, 0.877972, 1]
+  air:
+    color: [0.645091, 0.513777, 0.926807, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.765134, 0.204979, 0.783203, 1]
+    ratio: 0.41
+    polarColor: [0.84015, 0.459103, 0.852441, 1]
+  demographics:
+    type: 32
+    gdp: 7168
+    tech: 7
+    economy: 3
+    government: 0
+    description: The planet Esmain is scourged by killer edible arts graduates.
+    inhabitants: Small Yellow Insects
+- type: star
+  type: primary
+  color: [0.327044, 0.450661, 0.702093, 1]
+  radius: 134737.716522
+  orbit:
+    type: static
+    parent: ~
+    radius: 411440
+    vector: [0.457, 0.882, -0.114]
+  corona:
+    shimmer: 0.255942
+    hues: 0.985588
+    flare: 0.081531
+stations:
+- type: coriolis
+  orbit:
+    parent: Esmain
+    vector: undefined
+    radius: 10286

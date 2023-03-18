@@ -1,0 +1,61 @@
+name: Islaesis
+position: [85, 226]
+seed: 84 226 240 85 166 189
+limits:
+  blurs: 96
+  stars: 9875
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Islaesis
+  radius: 6229
+  rotationSpeed: 0.003927
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 934350
+  land:
+    ratio: 0.43
+    color: [0.543691, 0.334106, 0.628906, 1]
+    polarColor: [0.905365, 0.827292, 0.937109, 1]
+  sea:
+    color: [0.533203, 0.429765, 0.419064, 1]
+    polarColor: [0.94668, 0.900767, 0.896018, 1]
+  air:
+    color: [0.710855, 0.609844, 0.855264, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.568359, 0.419609, 0.531172, 1]
+    ratio: 0.46
+    polarColor: [0.755762, 0.632139, 0.724856, 1]
+  demographics:
+    type: 45
+    gdp: 28800
+    tech: 9
+    economy: 2
+    government: 6
+    description: Islaesis is ravaged by occasional solar activity.
+    inhabitants: Harmless Rodents
+- type: star
+  type: primary
+  color: [0.586406, 0.608102, 0.783701, 1]
+  radius: 108824.059296
+  orbit:
+    type: static
+    parent: ~
+    radius: 436030
+    vector: [0.387, 0.728, -0.566]
+  corona:
+    shimmer: 0.564236
+    hues: 0.640038
+    flare: 0.038171
+stations:
+- type: coriolis
+  orbit:
+    parent: Islaesis
+    vector: undefined
+    radius: 12458

@@ -1,0 +1,61 @@
+name: Essoat
+position: [47, 141]
+seed: 242 141 194 47 180 201
+limits:
+  blurs: 178
+  stars: 6114
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Essoat
+  radius: 5167
+  rotationSpeed: 0.00377
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 465030
+  land:
+    ratio: 0.33
+    color: [0.0993361, 0.617188, 0.0554504, 1]
+    polarColor: [0.741465, 0.938281, 0.724786, 1]
+  sea:
+    color: [0.636847, 0.751953, 0.584526, 1]
+    polarColor: [0.889413, 0.924805, 0.873326, 1]
+  air:
+    color: [0.843578, 0.75695, 0.994447, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.986328, 0.870743, 0.973686, 1]
+    ratio: 0.59
+    polarColor: [0.943848, 0.874718, 0.936287, 1]
+  demographics:
+    type: 20
+    gdp: 1920
+    tech: 3
+    economy: 7
+    government: 0
+    description: This world is very notable for its inhabitants’ ingrained shyness.
+    inhabitants: Small Horned Lobsters
+- type: star
+  type: primary
+  color: [0.712549, 0.496085, 0.4944, 1]
+  radius: 129390.239105
+  orbit:
+    type: static
+    parent: ~
+    radius: 465030
+    vector: [-0.622, -0.452, -0.639]
+  corona:
+    shimmer: 0.389437
+    hues: 0.902245
+    flare: 0.057851
+stations:
+- type: coriolis
+  orbit:
+    parent: Essoat
+    vector: undefined
+    radius: 10334

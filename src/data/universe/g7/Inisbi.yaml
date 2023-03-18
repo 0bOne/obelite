@@ -1,0 +1,61 @@
+name: Inisbi
+position: [123, 213]
+seed: 19 213 158 123 231 236
+limits:
+  blurs: 193
+  stars: 7316
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inisbi
+  radius: 6011
+  rotationSpeed: 0.003369
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 901650
+  land:
+    ratio: 0.32
+    color: [0.66, 0.363516, 0.453851, 1]
+    polarColor: [0.934, 0.829107, 0.861067, 1]
+  sea:
+    color: [0.632812, 0.630534, 0.486969, 1]
+    polarColor: [0.936719, 0.935875, 0.882748, 1]
+  air:
+    color: [0.606251, 0.928107, 0.905157, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.787109, 0.716537, 0.439674, 1]
+    ratio: 0.36
+    polarColor: [0.854199, 0.806332, 0.618544, 1]
+  demographics:
+    type: 37
+    gdp: 10360
+    tech: 7
+    economy: 5
+    government: 3
+    description: The world Inisbi is a boring planet.
+    inhabitants: Felines
+- type: star
+  type: primary
+  color: [0.606277, 0.668358, 0.841064, 1]
+  radius: 158276.703491
+  orbit:
+    type: static
+    parent: ~
+    radius: 540990
+    vector: [0.081, -0.942, -0.326]
+  corona:
+    shimmer: 0.628498
+    hues: 0.723183
+    flare: 0.065448
+stations:
+- type: coriolis
+  orbit:
+    parent: Inisbi
+    vector: undefined
+    radius: 12022

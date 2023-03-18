@@ -1,0 +1,61 @@
+name: Aingeon
+position: [135, 150]
+seed: 66 150 50 135 90 207
+limits:
+  blurs: 119
+  stars: 9457
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aingeon
+  radius: 6791
+  rotationSpeed: 0.002615
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 679100
+  land:
+    ratio: 0.62
+    color: [0.510469, 0.66, 0.652991, 1]
+    polarColor: [0.881098, 0.934, 0.93152, 1]
+  sea:
+    color: [0.697266, 0.63445, 0.50116, 1]
+    polarColor: [0.930273, 0.909322, 0.864864, 1]
+  air:
+    color: [0.684545, 0.547808, 0.907295, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.724609, 0.297203, 0.657827, 1]
+    ratio: 0.37
+    polarColor: [0.826074, 0.52154, 0.778491, 1]
+  demographics:
+    type: 41
+    gdp: 13120
+    tech: 7
+    economy: 6
+    government: 6
+    description: The planet Aingeon is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.667276, 0.667659, 0.67515, 1]
+  radius: 161730.790253
+  orbit:
+    type: static
+    parent: ~
+    radius: 407460
+    vector: [0.512, 0.711, -0.481]
+  corona:
+    shimmer: 1.509768
+    hues: 0.905602
+    flare: 0.04072
+stations:
+- type: coriolis
+  orbit:
+    parent: Aingeon
+    vector: undefined
+    radius: 13582

@@ -1,0 +1,61 @@
+name: Ensoreus
+position: [52, 224]
+seed: 106 224 124 52 155 146
+limits:
+  blurs: 144
+  stars: 6832
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ensoreus
+  radius: 3380
+  rotationSpeed: 0.003082
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 405600
+  land:
+    ratio: 0.31
+    color: [0.299949, 0.237188, 0.66, 1]
+    polarColor: [0.806618, 0.784414, 0.934, 1]
+  sea:
+    color: [0.599609, 0.453162, 0.445959, 1]
+    polarColor: [0.940039, 0.882641, 0.879818, 1]
+  air:
+    color: [0.617196, 0.911123, 0.941115, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.722623, 0.826172, 0.467949, 1]
+    ratio: 0.29
+    polarColor: [0.803487, 0.871777, 0.635529, 1]
+  demographics:
+    type: 52
+    gdp: 45760
+    tech: 11
+    economy: 0
+    government: 7
+    description: This planet is a tedious little planet.
+    inhabitants: Black Fat Felines
+- type: star
+  type: primary
+  color: [0.825558, 0.716284, 0.53435, 1]
+  radius: 82438.55896
+  orbit:
+    type: static
+    parent: ~
+    radius: 405600
+    vector: [0.307, 0.951, 0.035]
+  corona:
+    shimmer: 0.298997
+    hues: 0.67157
+    flare: 0.074181
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Ensoreus
+    vector: undefined
+    radius: 6760

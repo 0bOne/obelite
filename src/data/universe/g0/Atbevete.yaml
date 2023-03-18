@@ -1,0 +1,61 @@
+name: Atbevete
+position: [208, 81]
+seed: 64 81 168 208 253 113
+limits:
+  blurs: 125
+  stars: 7500
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atbevete
+  radius: 3280
+  rotationSpeed: 0.001294
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 426400
+  land:
+    ratio: 0.42
+    color: [0.510831, 0.244922, 0.66, 1]
+    polarColor: [0.881226, 0.78715, 0.934, 1]
+  sea:
+    color: [0.691406, 0.469666, 0.440231, 1]
+    polarColor: [0.930859, 0.856226, 0.846318, 1]
+  air:
+    color: [0.751993, 0.646357, 0.837703, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.515625, 0.471313, 0.485853, 1]
+    ratio: 0.36
+    polarColor: [0.732031, 0.692713, 0.705614, 1]
+  demographics:
+    type: 43
+    gdp: 27864
+    tech: 9
+    economy: 1
+    government: 5
+    description: The planet Atbevete is mildly well known for killer A’erin gargle blasters.
+    inhabitants: Blue Bug-Eyed Lizards
+- type: star
+  type: primary
+  color: [0.265591, 0.667918, 0.764938, 1]
+  radius: 63743.188477
+  orbit:
+    type: static
+    parent: ~
+    radius: 131200
+    vector: [-0.611, -0.691, 0.386]
+  corona:
+    shimmer: 0.267444
+    hues: 0.654655
+    flare: 0.078293
+stations:
+- type: coriolis
+  orbit:
+    parent: Atbevete
+    vector: undefined
+    radius: 6560

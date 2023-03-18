@@ -1,0 +1,61 @@
+name: Rexebe
+position: [98, 17]
+seed: 42 17 248 98 83 142
+limits:
+  blurs: 186
+  stars: 9399
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rexebe
+  radius: 6498
+  rotationSpeed: 0.004493
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 779760
+  land:
+    ratio: 0.25
+    color: [0.205078, 0.546875, 0.482788, 1]
+    polarColor: [0.797607, 0.945312, 0.917618, 1]
+  sea:
+    color: [0.763672, 0.717527, 0.468346, 1]
+    polarColor: [0.923633, 0.90968, 0.834336, 1]
+  air:
+    color: [0.620244, 0.907945, 0.867222, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.726562, 0.620798, 0.47113, 1]
+    ratio: 0.3
+    polarColor: [0.826953, 0.751716, 0.64525, 1]
+  demographics:
+    type: 57
+    gdp: 45144
+    tech: 12
+    economy: 1
+    government: 7
+    description: This world is mildly famous for its hoopy night life and its exotic cuisine.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.605687, 0.676184, 0.680093, 1]
+  radius: 133523.508911
+  orbit:
+    type: static
+    parent: ~
+    radius: 389880
+    vector: [-0.271, -0.571, -0.775]
+  corona:
+    shimmer: 0.455459
+    hues: 0.895706
+    flare: 0.054688
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Rexebe
+    vector: undefined
+    radius: 12996

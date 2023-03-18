@@ -1,0 +1,61 @@
+name: Oredonat
+position: [238, 145]
+seed: 69 145 41 238 5 57
+limits:
+  blurs: 153
+  stars: 8292
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Oredonat
+  radius: 5358
+  rotationSpeed: 0.002249
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 482220
+  land:
+    ratio: 0.63
+    color: [0.592365, 0.541406, 0.66, 1]
+    polarColor: [0.910071, 0.892043, 0.934, 1]
+  sea:
+    color: [0.560547, 0.512767, 0.445153, 1]
+    polarColor: [0.943945, 0.92383, 0.895365, 1]
+  air:
+    color: [0.741838, 0.733092, 0.969732, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.806112, 0.79097, 0.912109, 1]
+    ratio: 0.12
+    polarColor: [0.844322, 0.834875, 0.910449, 1]
+  demographics:
+    type: 51
+    gdp: 33048
+    tech: 11
+    economy: 1
+    government: 5
+    description: Oredonat is mildly notable for its inhabitants’ unusual silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.728943, 0.665047, 0.604062, 1]
+  radius: 96817.791138
+  orbit:
+    type: static
+    parent: ~
+    radius: 750120
+    vector: [0.118, 0.929, 0.351]
+  corona:
+    shimmer: 0.388753
+    hues: 0.715477
+    flare: 0.022276
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Oredonat
+    vector: undefined
+    radius: 10716

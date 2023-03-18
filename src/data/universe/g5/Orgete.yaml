@@ -1,0 +1,61 @@
+name: Orgete
+position: [190, 11]
+seed: 25 11 209 190 250 89
+limits:
+  blurs: 118
+  stars: 5899
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orgete
+  radius: 5310
+  rotationSpeed: 0.00253
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 637200
+  land:
+    ratio: 0.48
+    color: [0.66, 0.0696094, 0.443216, 1]
+    polarColor: [0.934, 0.725127, 0.857304, 1]
+  sea:
+    color: [0.541016, 0.420132, 0.420132, 1]
+    polarColor: [0.945898, 0.893061, 0.893061, 1]
+  air:
+    color: [0.738118, 0.597705, 0.879979, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.642578, 0.409142, 0.524036, 1]
+    ratio: 0.42
+    polarColor: [0.78916, 0.609981, 0.698171, 1]
+  demographics:
+    type: 34
+    gdp: 11424
+    tech: 7
+    economy: 3
+    government: 2
+    description: Orgete is a revolting little planet.
+    inhabitants: Yellow Furry Felines
+- type: star
+  type: primary
+  color: [0.654724, 0.485004, 0.366779, 1]
+  radius: 104521.179199
+  orbit:
+    type: static
+    parent: ~
+    radius: 531000
+    vector: [0.75, -0.639, 0.17]
+  corona:
+    shimmer: 0.289278
+    hues: 0.826759
+    flare: 0.005684
+stations:
+- type: coriolis
+  orbit:
+    parent: Orgete
+    vector: undefined
+    radius: 10620

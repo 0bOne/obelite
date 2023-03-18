@@ -1,0 +1,61 @@
+name: Edzaraat
+position: [54, 181]
+seed: 202 181 146 54 138 24
+limits:
+  blurs: 176
+  stars: 6336
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edzaraat
+  radius: 4918
+  rotationSpeed: 0.001894
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 688520
+  land:
+    ratio: 0.54
+    color: [0.656898, 0.603281, 0.66, 1]
+    polarColor: [0.932903, 0.913934, 0.934, 1]
+  sea:
+    color: [0.525391, 0.280845, 0.0205231, 1]
+    polarColor: [0.947461, 0.837211, 0.719848, 1]
+  air:
+    color: [0.54009, 0.954123, 0.837352, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.865234, 0.356677, 0.256866, 1]
+    ratio: 0.25
+    polarColor: [0.889355, 0.562646, 0.498525, 1]
+  demographics:
+    type: 28
+    gdp: 6720
+    tech: 5
+    economy: 5
+    government: 2
+    description: The planet Edzaraat is scourged by killer edible poets.
+    inhabitants: Green Bony Lobsters
+- type: star
+  type: primary
+  color: [0.744803, 0.685161, 0.322331, 1]
+  radius: 107803.376465
+  orbit:
+    type: static
+    parent: ~
+    radius: 295080
+    vector: [-0.072, 0.377, 0.923]
+  corona:
+    shimmer: 0.382732
+    hues: 0.846306
+    flare: 0.078802
+stations:
+- type: coriolis
+  orbit:
+    parent: Edzaraat
+    vector: undefined
+    radius: 9836

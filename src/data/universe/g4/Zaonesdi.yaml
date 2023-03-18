@@ -1,0 +1,61 @@
+name: Zaonesdi
+position: [133, 212]
+seed: 198 212 124 133 243 100
+limits:
+  blurs: 86
+  stars: 8816
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaonesdi
+  radius: 3973
+  rotationSpeed: 0.003386
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 516490
+  land:
+    ratio: 0.66
+    color: [0.543984, 0.66, 0.613775, 1]
+    polarColor: [0.892955, 0.934, 0.917646, 1]
+  sea:
+    color: [0.78125, 0.659561, 0.427246, 1]
+    polarColor: [0.921875, 0.885977, 0.817444, 1]
+  air:
+    color: [0.525949, 0.468097, 0.939164, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.36149, 0.0769043, 0.820312, 1]
+    ratio: 0.28
+    polarColor: [0.565307, 0.376854, 0.869141, 1]
+  demographics:
+    type: 44
+    gdp: 23232
+    tech: 8
+    economy: 4
+    government: 7
+    description: This world is plagued by frequent solar activity.
+    inhabitants: Fierce Blue Bug-Eyed Frogs
+- type: star
+  type: primary
+  color: [0.196818, 0.387293, 0.771521, 1]
+  radius: 76351.243896
+  orbit:
+    type: static
+    parent: ~
+    radius: 317840
+    vector: [-0.055, 0.765, -0.642]
+  corona:
+    shimmer: 0.297399
+    hues: 0.835739
+    flare: 0.024104
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaonesdi
+    vector: undefined
+    radius: 7946

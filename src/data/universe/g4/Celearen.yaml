@@ -1,0 +1,61 @@
+name: Celearen
+position: [99, 152]
+seed: 246 152 4 99 211 133
+limits:
+  blurs: 96
+  stars: 8273
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Celearen
+  radius: 4195
+  rotationSpeed: 0.004959
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 503400
+  land:
+    ratio: 0.64
+    color: [0.646484, 0.49674, 0.472237, 1]
+    polarColor: [0.935352, 0.881188, 0.872325, 1]
+  sea:
+    color: [0.10025, 0.468792, 0.712891, 1]
+    polarColor: [0.729183, 0.849212, 0.928711, 1]
+  air:
+    color: [0.721833, 0.735704, 0.96648, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.757828, 0.780408, 0.902344, 1]
+    ratio: 0.35
+    polarColor: [0.815361, 0.829532, 0.906055, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: This world is mildly well known for Celearenian wolf meat and its ancient Celearenian Beitse banana plantations.
+    inhabitants: Fierce Black Bony Birds
+- type: star
+  type: primary
+  color: [0.659036, 0.448699, 0.363938, 1]
+  radius: 131625.678253
+  orbit:
+    type: static
+    parent: ~
+    radius: 293650
+    vector: [-0.558, 0.605, -0.569]
+  corona:
+    shimmer: 1.112552
+    hues: 0.845299
+    flare: 0.094226
+stations:
+- type: coriolis
+  orbit:
+    parent: Celearen
+    vector: undefined
+    radius: 8390

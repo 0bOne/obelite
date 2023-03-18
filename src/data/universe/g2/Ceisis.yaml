@@ -1,0 +1,61 @@
+name: Ceisis
+position: [58, 157]
+seed: 81 157 41 58 237 69
+limits:
+  blurs: 122
+  stars: 7982
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceisis
+  radius: 4154
+  rotationSpeed: 0.004415
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 498480
+  land:
+    ratio: 0.56
+    color: [0.66, 0.121172, 0.159058, 1]
+    polarColor: [0.934, 0.743369, 0.756773, 1]
+  sea:
+    color: [0.5625, 0.45824, 0.43418, 1]
+    polarColor: [0.94375, 0.900019, 0.889927, 1]
+  air:
+    color: [0.733192, 0.784969, 0.926807, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.761787, 0.778686, 0.783203, 1]
+    ratio: 0.51
+    polarColor: [0.837873, 0.849368, 0.852441, 1]
+  demographics:
+    type: 39
+    gdp: 14040
+    tech: 7
+    economy: 5
+    government: 5
+    description: The world Ceisis is mildly noted for its ancient mountains but ravaged by occasional solar activity.
+    inhabitants: Fierce Yellow Rodents
+- type: star
+  type: primary
+  color: [0.573582, 0.638617, 0.731445, 1]
+  radius: 100083.66272
+  orbit:
+    type: static
+    parent: ~
+    radius: 498480
+    vector: [0.759, -0.142, 0.636]
+  corona:
+    shimmer: 0.421763
+    hues: 0.636902
+    flare: 0.038771
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceisis
+    vector: undefined
+    radius: 8308

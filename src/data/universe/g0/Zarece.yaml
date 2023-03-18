@@ -1,0 +1,61 @@
+name: Zarece
+position: [49, 119]
+seed: 138 119 236 49 219 132
+limits:
+  blurs: 85
+  stars: 6528
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zarece
+  radius: 3889
+  rotationSpeed: 0.00495
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 544460
+  land:
+    ratio: 0.62
+    color: [0.0154688, 0.312557, 0.66, 1]
+    polarColor: [0.705973, 0.811079, 0.934, 1]
+  sea:
+    color: [0.597656, 0.580572, 0.46902, 1]
+    polarColor: [0.940234, 0.933515, 0.889642, 1]
+  air:
+    color: [0.710238, 0.729236, 0.972984, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.727417, 0.766916, 0.921875, 1]
+    ratio: 0.22
+    polarColor: [0.794234, 0.818733, 0.914844, 1]
+  demographics:
+    type: 29
+    gdp: 6264
+    tech: 4
+    economy: 7
+    government: 5
+    description: This planet is a tedious place.
+    inhabitants: Fierce Black Felines
+- type: star
+  type: primary
+  color: [0.845078, 0.548207, 0.409982, 1]
+  radius: 97781.029205
+  orbit:
+    type: static
+    parent: ~
+    radius: 272230
+    vector: [-0.364, 0.647, 0.669]
+  corona:
+    shimmer: 0.263485
+    hues: 0.906525
+    flare: 0.046735
+stations:
+- type: coriolis
+  orbit:
+    parent: Zarece
+    vector: undefined
+    radius: 7778

@@ -1,0 +1,61 @@
+name: Onteised
+position: [1, 251]
+seed: 206 251 82 1 80 159
+limits:
+  blurs: 122
+  stars: 7461
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onteised
+  radius: 6657
+  rotationSpeed: 0.00265
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 798840
+  land:
+    ratio: 0.4
+    color: [0.150757, 0.59375, 0.427628, 1]
+    polarColor: [0.765176, 0.940625, 0.874832, 1]
+  sea:
+    color: [0.69761, 0.730469, 0.539291, 1]
+    polarColor: [0.916529, 0.926953, 0.866303, 1]
+  air:
+    color: [0.436843, 0.642742, 0.897539, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.040741, 0.695312, 0.480531, 1]
+    ratio: 0.46
+    polarColor: [0.334603, 0.812891, 0.655953, 1]
+  demographics:
+    type: 30
+    gdp: 10080
+    tech: 6
+    economy: 3
+    government: 2
+    description: This planet is mildly noted for its ancient mountains but plagued by lethal disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.369868, 0.711987, 0.716757, 1]
+  radius: 149878.998871
+  orbit:
+    type: static
+    parent: ~
+    radius: 665700
+    vector: [-0.259, -0.839, -0.479]
+  corona:
+    shimmer: 0.43237
+    hues: 0.592613
+    flare: 0.006265
+stations:
+- type: coriolis
+  orbit:
+    parent: Onteised
+    vector: undefined
+    radius: 13314

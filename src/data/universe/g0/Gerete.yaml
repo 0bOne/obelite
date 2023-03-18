@@ -1,0 +1,61 @@
+name: Gerete
+position: [171, 32]
+seed: 152 32 20 171 13 67
+limits:
+  blurs: 170
+  stars: 9425
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gerete
+  radius: 3755
+  rotationSpeed: 0.002361
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 450600
+  land:
+    ratio: 0.7
+    color: [0.376064, 0.66, 0.373828, 1]
+    polarColor: [0.833547, 0.934, 0.832756, 1]
+  sea:
+    color: [0.679688, 0.672822, 0.503925, 1]
+    polarColor: [0.932031, 0.929678, 0.871777, 1]
+  air:
+    color: [0.682134, 0.747012, 0.976236, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.647781, 0.831846, 0.931641, 1]
+    ratio: 0.28
+    polarColor: [0.744188, 0.857697, 0.919238, 1]
+  demographics:
+    type: 47
+    gdp: 22560
+    tech: 11
+    economy: 0
+    government: 2
+    description: This world is most fabled for Zero-G cricket but cursed by unpredictable solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.669891, 0.594547, 0.552106, 1]
+  radius: 101566.516113
+  orbit:
+    type: static
+    parent: ~
+    radius: 262850
+    vector: [-0.651, -0.419, -0.633]
+  corona:
+    shimmer: 0.61645
+    hues: 0.809784
+    flare: 0.015991
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Gerete
+    vector: undefined
+    radius: 7510

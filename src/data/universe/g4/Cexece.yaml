@@ -1,0 +1,61 @@
+name: Cexece
+position: [254, 94]
+seed: 188 94 104 254 53 165
+limits:
+  blurs: 172
+  stars: 8809
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cexece
+  radius: 4350
+  rotationSpeed: 0.000387
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 522000
+  land:
+    ratio: 0.44
+    color: [0.66, 0.240934, 0.128906, 1]
+    polarColor: [0.934, 0.785739, 0.746105, 1]
+  sea:
+    color: [0.554688, 0.454516, 0.4314, 1]
+    polarColor: [0.944531, 0.901888, 0.892047, 1]
+  air:
+    color: [0.64599, 0.52297, 0.919652, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.732754, 0.232086, 0.761719, 1]
+    ratio: 0.32
+    polarColor: [0.822744, 0.476529, 0.842773, 1]
+  demographics:
+    type: 36
+    gdp: 10368
+    tech: 6
+    economy: 6
+    government: 5
+    description: This planet is mildly noted for its ancient mountains but plagued by frequent earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.801065, 0.555995, 0.292647, 1]
+  radius: 114315.605164
+  orbit:
+    type: static
+    parent: ~
+    radius: 522000
+    vector: [0.11, 0.977, -0.184]
+  corona:
+    shimmer: 0.387636
+    hues: 0.574562
+    flare: 0.076582
+stations:
+- type: coriolis
+  orbit:
+    parent: Cexece
+    vector: undefined
+    radius: 8700

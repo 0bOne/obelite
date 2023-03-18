@@ -1,0 +1,61 @@
+name: Ercea
+position: [57, 123]
+seed: 153 123 145 57 122 48
+limits:
+  blurs: 55
+  stars: 8110
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ercea
+  radius: 2873
+  rotationSpeed: 0.004991
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 344760
+  land:
+    ratio: 0.33
+    color: [0.592324, 0.66, 0.443438, 1]
+    polarColor: [0.910057, 0.934, 0.857383, 1]
+  sea:
+    color: [0.541016, 0.39921, 0.505564, 1]
+    polarColor: [0.945898, 0.883916, 0.930403, 1]
+  air:
+    color: [0.56573, 0.568446, 0.840955, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.324265, 0.327407, 0.525391, 1]
+    ratio: 0.44
+    polarColor: [0.56023, 0.562983, 0.736426, 1]
+  demographics:
+    type: 30
+    gdp: 10080
+    tech: 6
+    economy: 3
+    government: 2
+    description: The world Ercea is very famous for its fabulous monkey burgers but plagued by frequent solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.843851, 0.774101, 0.450333, 1]
+  radius: 67020.738678
+  orbit:
+    type: static
+    parent: ~
+    radius: 258570
+    vector: [0.601, -0.598, -0.531]
+  corona:
+    shimmer: 0.279638
+    hues: 0.590073
+    flare: 0.093974
+stations:
+- type: coriolis
+  orbit:
+    parent: Ercea
+    vector: undefined
+    radius: 5746

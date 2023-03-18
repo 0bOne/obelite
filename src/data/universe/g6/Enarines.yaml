@@ -1,0 +1,61 @@
+name: Enarines
+position: [142, 136]
+seed: 206 136 242 142 208 210
+limits:
+  blurs: 170
+  stars: 8989
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enarines
+  radius: 3470
+  rotationSpeed: 0.003945
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 312300
+  land:
+    ratio: 0.25
+    color: [0.509766, 0.477905, 0.486119, 1]
+    polarColor: [0.949023, 0.934195, 0.938018, 1]
+  sea:
+    color: [0.591797, 0.522536, 0.455406, 1]
+    polarColor: [0.94082, 0.913293, 0.886613, 1]
+  air:
+    color: [0.649102, 0.900387, 0.902092, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.703619, 0.708984, 0.537277, 1]
+    ratio: 0.36
+    polarColor: [0.815169, 0.819043, 0.695067, 1]
+  demographics:
+    type: 55
+    gdp: 44000
+    tech: 12
+    economy: 0
+    government: 6
+    description: The planet Enarines is a boring world.
+    inhabitants: Rodents
+- type: star
+  type: primary
+  color: [0.670813, 0.575448, 0.470639, 1]
+  radius: 86769.590759
+  orbit:
+    type: static
+    parent: ~
+    radius: 312300
+    vector: [-0.995, -0.007, -0.101]
+  corona:
+    shimmer: 0.391022
+    hues: 0.987411
+    flare: 0.068625
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Enarines
+    vector: undefined
+    radius: 6940

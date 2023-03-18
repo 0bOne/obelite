@@ -1,0 +1,61 @@
+name: Zadiqu
+position: [72, 192]
+seed: 57 192 13 72 218 100
+limits:
+  blurs: 124
+  stars: 8885
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zadiqu
+  radius: 3912
+  rotationSpeed: 0.001111
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 391200
+  land:
+    ratio: 0.52
+    color: [0.659033, 0.66, 0.53625, 1]
+    polarColor: [0.933658, 0.934, 0.890219, 1]
+  sea:
+    color: [0.0682983, 0.54283, 0.728516, 1]
+    polarColor: [0.717091, 0.86807, 0.927148, 1]
+  air:
+    color: [0.513832, 0.967781, 0.814952, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.90625, 0.173462, 0.173462, 1]
+    ratio: 0.5
+    polarColor: [0.907812, 0.44903, 0.44903, 1]
+  demographics:
+    type: 28
+    gdp: 8960
+    tech: 6
+    economy: 2
+    government: 1
+    description: This planet is a tedious place.
+    inhabitants: Fierce Blue Slimy Rodents
+- type: star
+  type: primary
+  color: [0.343777, 0.517255, 0.825827, 1]
+  radius: 94857.762451
+  orbit:
+    type: static
+    parent: ~
+    radius: 430320
+    vector: [0.417, 0.892, 0.177]
+  corona:
+    shimmer: 0.390193
+    hues: 0.625435
+    flare: 0.047707
+stations:
+- type: coriolis
+  orbit:
+    parent: Zadiqu
+    vector: undefined
+    radius: 7824

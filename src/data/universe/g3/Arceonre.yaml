@@ -1,0 +1,61 @@
+name: Arceonre
+position: [79, 170]
+seed: 250 170 162 79 106 10
+limits:
+  blurs: 55
+  stars: 8446
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arceonre
+  radius: 5455
+  rotationSpeed: 0.003766
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 545500
+  land:
+    ratio: 0.65
+    color: [0.579712, 0.3368, 0.638672, 1]
+    polarColor: [0.914528, 0.825516, 0.936133, 1]
+  sea:
+    color: [0.730469, 0.44582, 0.408035, 1]
+    polarColor: [0.926953, 0.83665, 0.824662, 1]
+  air:
+    color: [0.435395, 0.543225, 0.924205, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.00908661, 0.505987, 0.775391, 1]
+    ratio: 0.39
+    polarColor: [0.324565, 0.66458, 0.848926, 1]
+  demographics:
+    type: 47
+    gdp: 24064
+    tech: 10
+    economy: 2
+    government: 4
+    description: The planet Arceonre is very famous for Arceonreian wolf cutlet but plagued by deadly earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.780203, 0.752628, 0.366473, 1]
+  radius: 143150.466919
+  orbit:
+    type: static
+    parent: ~
+    radius: 600050
+    vector: [0.782, -0.174, -0.598]
+  corona:
+    shimmer: 0.358799
+    hues: 0.617851
+    flare: 0.094116
+stations:
+- type: coriolis
+  orbit:
+    parent: Arceonre
+    vector: undefined
+    radius: 10910

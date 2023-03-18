@@ -1,0 +1,61 @@
+name: Ara
+position: [28, 40]
+seed: 0 40 192 28 77 79
+limits:
+  blurs: 71
+  stars: 7965
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ara
+  radius: 6684
+  rotationSpeed: 0.001563
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 668400
+  land:
+    ratio: 0.35
+    color: [0.66, 0.324844, 0.332699, 1]
+    polarColor: [0.934, 0.815426, 0.818205, 1]
+  sea:
+    color: [0.703125, 0.531249, 0.455933, 1]
+    polarColor: [0.929688, 0.872873, 0.847977, 1]
+  air:
+    color: [0.454573, 0.561508, 0.907295, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0735931, 0.526253, 0.724609, 1]
+    ratio: 0.16
+    polarColor: [0.362214, 0.684742, 0.826074, 1]
+  demographics:
+    type: 23
+    gdp: 5888
+    tech: 5
+    economy: 2
+    government: 0
+    description: The world Ara is scourged by evil disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.73465, 0.663323, 0.310698, 1]
+  radius: 149625.076904
+  orbit:
+    type: static
+    parent: ~
+    radius: 668400
+    vector: [0.537, 0.432, 0.724]
+  corona:
+    shimmer: 0.718518
+    hues: 0.950493
+    flare: 0.059349
+stations:
+- type: coriolis
+  orbit:
+    parent: Ara
+    vector: undefined
+    radius: 13368

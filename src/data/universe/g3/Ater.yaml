@@ -1,0 +1,61 @@
+name: Ater
+position: [29, 243]
+seed: 130 243 242 29 90 128
+limits:
+  blurs: 173
+  stars: 9421
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ater
+  radius: 2845
+  rotationSpeed: 0.000062
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 341400
+  land:
+    ratio: 0.38
+    color: [0.529362, 0.482109, 0.66, 1]
+    polarColor: [0.887782, 0.871064, 0.934, 1]
+  sea:
+    color: [0.580078, 0.546496, 0.457265, 1]
+    polarColor: [0.941992, 0.928359, 0.892133, 1]
+  air:
+    color: [0.611977, 0.907945, 0.849882, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.726562, 0.567405, 0.451263, 1]
+    ratio: 0.51
+    polarColor: [0.826953, 0.713735, 0.631117, 1]
+  demographics:
+    type: 42
+    gdp: 23520
+    tech: 8
+    economy: 3
+    government: 6
+    description: This planet is mildly fabled for its inhabitants’ eccentric shyness but ravaged by killer disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.784232, 0.757902, 0.714722, 1]
+  radius: 78425.470734
+  orbit:
+    type: static
+    parent: ~
+    radius: 284500
+    vector: [-0.945, 0.256, 0.203]
+  corona:
+    shimmer: 1.079564
+    hues: 0.665886
+    flare: 0.098813
+stations:
+- type: coriolis
+  orbit:
+    parent: Ater
+    vector: undefined
+    radius: 5690

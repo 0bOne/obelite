@@ -1,0 +1,61 @@
+name: Tecexe
+position: [223, 73]
+seed: 28 73 224 223 229 60
+limits:
+  blurs: 96
+  stars: 6276
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tecexe
+  radius: 6111
+  rotationSpeed: 0.000647
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 916650
+  land:
+    ratio: 0.52
+    color: [0.346697, 0.00257813, 0.66, 1]
+    polarColor: [0.823157, 0.701412, 0.934, 1]
+  sea:
+    color: [0.613281, 0.529698, 0.462596, 1]
+    polarColor: [0.938672, 0.906689, 0.881013, 1]
+  air:
+    color: [0.52406, 0.470455, 0.936563, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.346889, 0.0856934, 0.8125, 1]
+    ratio: 0.31
+    polarColor: [0.555591, 0.38167, 0.865625, 1]
+  demographics:
+    type: 50
+    gdp: 28800
+    tech: 11
+    economy: 1
+    government: 4
+    description: Tecexe is an unremarkable planet.
+    inhabitants: Red Felines
+- type: star
+  type: primary
+  color: [0.782922, 0.723233, 0.710652, 1]
+  radius: 153030.4953
+  orbit:
+    type: static
+    parent: ~
+    radius: 244440
+    vector: [0.48, -0.795, 0.371]
+  corona:
+    shimmer: 0.362378
+    hues: 0.60128
+    flare: 0.098663
+stations:
+- type: icosahedron
+  orbit:
+    parent: Tecexe
+    vector: undefined
+    radius: 12222

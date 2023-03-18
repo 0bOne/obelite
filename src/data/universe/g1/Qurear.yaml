@@ -1,0 +1,61 @@
+name: Qurear
+position: [33, 147]
+seed: 48 147 168 33 26 26
+limits:
+  blurs: 174
+  stars: 8653
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qurear
+  radius: 5409
+  rotationSpeed: 0.004626
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 540900
+  land:
+    ratio: 0.35
+    color: [0.53625, 0.66, 0.561387, 1]
+    polarColor: [0.890219, 0.934, 0.899112, 1]
+  sea:
+    color: [0.437337, 0.365997, 0.523438, 1]
+    polarColor: [0.908686, 0.876397, 0.947656, 1]
+  air:
+    color: [0.71859, 0.770455, 0.945668, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.738144, 0.806473, 0.839844, 1]
+    ratio: 0.33
+    polarColor: [0.811485, 0.856127, 0.87793, 1]
+  demographics:
+    type: 41
+    gdp: 20664
+    tech: 8
+    economy: 3
+    government: 5
+    description: The planet Qurear is reasonably noted for its inhabitants’ eccentric shyness and mud tennis.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.822412, 0.783677, 0.536022, 1]
+  radius: 144992.167053
+  orbit:
+    type: static
+    parent: ~
+    radius: 378630
+    vector: [0.465, 0.573, -0.675]
+  corona:
+    shimmer: 0.346744
+    hues: 0.593956
+    flare: 0.027438
+stations:
+- type: coriolis
+  orbit:
+    parent: Qurear
+    vector: undefined
+    radius: 10818

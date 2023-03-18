@@ -1,0 +1,61 @@
+name: Lavema
+position: [160, 64]
+seed: 156 64 144 160 5 117
+limits:
+  blurs: 100
+  stars: 8501
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lavema
+  radius: 4256
+  rotationSpeed: 0.001288
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 468160
+  land:
+    ratio: 0.45
+    color: [0.652104, 0.623906, 0.66, 1]
+    polarColor: [0.931207, 0.92123, 0.934, 1]
+  sea:
+    color: [0.40496, 0.607422, 0.00474548, 1]
+    polarColor: [0.860991, 0.939258, 0.706278, 1]
+  air:
+    color: [0.658668, 0.886608, 0.897539, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.674751, 0.695312, 0.556793, 1]
+    ratio: 0.39
+    polarColor: [0.797867, 0.812891, 0.711676, 1]
+  demographics:
+    type: 35
+    gdp: 16800
+    tech: 8
+    economy: 0
+    government: 2
+    description: Lavema is reasonably well known for the Lavemaian spotted wolf but beset by deadly solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.610948, 0.639042, 0.669046, 1]
+  radius: 98558.325195
+  orbit:
+    type: static
+    parent: ~
+    radius: 340480
+    vector: [-0.542, 0.718, -0.437]
+  corona:
+    shimmer: 1.190741
+    hues: 0.517555
+    flare: 0.026385
+stations:
+- type: coriolis
+  orbit:
+    parent: Lavema
+    vector: undefined
+    radius: 8512

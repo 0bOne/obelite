@@ -1,0 +1,61 @@
+name: Geama
+position: [216, 244]
+seed: 49 244 73 216 109 163
+limits:
+  blurs: 111
+  stars: 8636
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geama
+  radius: 3800
+  rotationSpeed: 0.000732
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 456000
+  land:
+    ratio: 0.51
+    color: [0.195938, 0.344583, 0.66, 1]
+    polarColor: [0.76982, 0.822409, 0.934, 1]
+  sea:
+    color: [0.685547, 0.480728, 0.447212, 1]
+    polarColor: [0.931445, 0.861874, 0.85049, 1]
+  air:
+    color: [0.521587, 0.519488, 0.885182, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.249719, 0.236542, 0.658203, 1]
+    ratio: 0.51
+    polarColor: [0.487366, 0.477404, 0.796191, 1]
+  demographics:
+    type: 16
+    gdp: 2560
+    tech: 2
+    economy: 6
+    government: 1
+    description: The world Geama is fabled for its fabulous cuisine and its weird volcanoes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.747894, 0.739034, 0.67213, 1]
+  radius: 80444.42749
+  orbit:
+    type: static
+    parent: ~
+    radius: 304000
+    vector: [0.807, -0.104, -0.581]
+  corona:
+    shimmer: 0.399366
+    hues: 0.611588
+    flare: 0.046327
+stations:
+- type: coriolis
+  orbit:
+    parent: Geama
+    vector: undefined
+    radius: 7600

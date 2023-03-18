@@ -1,0 +1,61 @@
+name: Ceuses
+position: [251, 199]
+seed: 164 199 76 251 165 229
+limits:
+  blurs: 170
+  stars: 9285
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceuses
+  radius: 4347
+  rotationSpeed: 0.002448
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 521640
+  land:
+    ratio: 0.57
+    color: [0.629183, 0.265547, 0.66, 1]
+    polarColor: [0.923097, 0.794447, 0.934, 1]
+  sea:
+    color: [0.726562, 0.441064, 0.41153, 1]
+    polarColor: [0.927344, 0.836245, 0.826821, 1]
+  air:
+    color: [0.678789, 0.863719, 0.854862, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.59375, 0.590362, 0.568237, 1]
+    ratio: 0.32
+    polarColor: [0.767187, 0.764451, 0.746584, 1]
+  demographics:
+    type: 25
+    gdp: 3000
+    tech: 4
+    economy: 7
+    government: 1
+    description: This world is a tedious little planet.
+    inhabitants: Fierce Fat Humanoids
+- type: star
+  type: primary
+  color: [0.684747, 0.71976, 0.826297, 1]
+  radius: 89814.740295
+  orbit:
+    type: static
+    parent: ~
+    radius: 391230
+    vector: [-0.14, 0.957, -0.256]
+  corona:
+    shimmer: 0.424472
+    hues: 0.909752
+    flare: 0.081154
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceuses
+    vector: undefined
+    radius: 8694

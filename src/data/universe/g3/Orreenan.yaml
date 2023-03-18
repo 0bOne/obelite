@@ -1,0 +1,61 @@
+name: Orreenan
+position: [138, 74]
+seed: 226 74 18 138 218 185
+limits:
+  blurs: 138
+  stars: 8393
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orreenan
+  radius: 5258
+  rotationSpeed: 0.001356
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 630960
+  land:
+    ratio: 0.43
+    color: [0.66, 0.244922, 0.634058, 1]
+    polarColor: [0.934, 0.78715, 0.924822, 1]
+  sea:
+    color: [0.540201, 0.667969, 0.532809, 1]
+    polarColor: [0.888578, 0.933203, 0.885996, 1]
+  air:
+    color: [0.422947, 0.7856, 0.864369, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.291561, 0.595703, 0.0395584, 1]
+    ratio: 0.42
+    polarColor: [0.522977, 0.768066, 0.319903, 1]
+  demographics:
+    type: 37
+    gdp: 14208
+    tech: 8
+    economy: 2
+    government: 2
+    description: The planet Orreenan is an unremarkable dump.
+    inhabitants: Harmless Slimy Frogs
+- type: star
+  type: primary
+  color: [0.533275, 0.568622, 0.652936, 1]
+  radius: 132525.89386
+  orbit:
+    type: static
+    parent: ~
+    radius: 578380
+    vector: [-0.526, 0.283, -0.802]
+  corona:
+    shimmer: 0.400685
+    hues: 0.617516
+    flare: 0.069948
+stations:
+- type: coriolis
+  orbit:
+    parent: Orreenan
+    vector: undefined
+    radius: 10516

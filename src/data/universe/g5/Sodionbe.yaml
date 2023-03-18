@@ -1,0 +1,61 @@
+name: Sodionbe
+position: [74, 122]
+seed: 239 122 229 74 64 71
+limits:
+  blurs: 117
+  stars: 6995
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sodionbe
+  radius: 4682
+  rotationSpeed: 0.001488
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 561840
+  land:
+    ratio: 0.26
+    color: [0.554688, 0.534307, 0.524353, 1]
+    polarColor: [0.944531, 0.935855, 0.931618, 1]
+  sea:
+    color: [0.720703, 0.717624, 0.523636, 1]
+    polarColor: [0.92793, 0.926939, 0.864497, 1]
+  air:
+    color: [0.553702, 0.941019, 0.991846, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.723017, 0.978516, 0.267563, 1]
+    ratio: 0.34
+    polarColor: [0.786877, 0.940332, 0.513326, 1]
+  demographics:
+    type: 43
+    gdp: 22016
+    tech: 9
+    economy: 2
+    government: 4
+    description: The world Sodionbe is a dull world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.198366, 0.426541, 0.737805, 1]
+  radius: 127695.520325
+  orbit:
+    type: static
+    parent: ~
+    radius: 374560
+    vector: [0.748, -0.404, 0.526]
+  corona:
+    shimmer: 0.382455
+    hues: 0.794914
+    flare: 0.003441
+stations:
+- type: coriolis
+  orbit:
+    parent: Sodionbe
+    vector: undefined
+    radius: 9364

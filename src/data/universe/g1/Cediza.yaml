@@ -1,0 +1,61 @@
+name: Cediza
+position: [80, 215]
+seed: 148 215 152 80 182 5
+limits:
+  blurs: 151
+  stars: 6312
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cediza
+  radius: 4176
+  rotationSpeed: 0.00228
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 626400
+  land:
+    ratio: 0.61
+    color: [0.66, 0.634058, 0.515625, 1]
+    polarColor: [0.934, 0.924822, 0.882922, 1]
+  sea:
+    color: [0.0085144, 0.726562, 0.575099, 1]
+    polarColor: [0.698225, 0.927344, 0.879014, 1]
+  air:
+    color: [0.510737, 0.653174, 0.835102, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.220184, 0.507812, 0.420176, 1]
+    ratio: 0.25
+    polarColor: [0.470618, 0.728516, 0.649938, 1]
+  demographics:
+    type: 19
+    gdp: 3192
+    tech: 2
+    economy: 7
+    government: 3
+    description: The planet Cediza is famous for Cedizaian wolf meat but scourged by deadly civil war.
+    inhabitants: Fierce Green Rodents
+- type: star
+  type: primary
+  color: [0.785605, 0.685163, 0.291863, 1]
+  radius: 124350.314941
+  orbit:
+    type: static
+    parent: ~
+    radius: 208800
+    vector: [-0.871, -0.459, 0.177]
+  corona:
+    shimmer: 0.332751
+    hues: 0.783218
+    flare: 0.024193
+stations:
+- type: coriolis
+  orbit:
+    parent: Cediza
+    vector: undefined
+    radius: 8352

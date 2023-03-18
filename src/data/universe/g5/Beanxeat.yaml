@@ -1,0 +1,61 @@
+name: Beanxeat
+position: [211, 180]
+seed: 239 180 101 211 64 179
+limits:
+  blurs: 86
+  stars: 7999
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beanxeat
+  radius: 3795
+  rotationSpeed: 0.001559
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 417450
+  land:
+    ratio: 0.63
+    color: [0.285301, 0.373203, 0.541016, 1]
+    polarColor: [0.834127, 0.872549, 0.945898, 1]
+  sea:
+    color: [0.701172, 0.658354, 0.512184, 1]
+    polarColor: [0.929883, 0.915687, 0.867225, 1]
+  air:
+    color: [0.602909, 0.902923, 0.961277, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.65638, 0.886719, 0.426041, 1]
+    ratio: 0.34
+    polarColor: [0.753064, 0.899023, 0.607104, 1]
+  demographics:
+    type: 41
+    gdp: 15744
+    tech: 8
+    economy: 4
+    government: 4
+    description: The world Beanxeat is notable for its unusual oceans and the Beanxeatian evil poet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.721698, 0.565223, 0.357666, 1]
+  radius: 78273.033142
+  orbit:
+    type: static
+    parent: ~
+    radius: 227700
+    vector: [-0.571, 0.658, 0.49]
+  corona:
+    shimmer: 0.700321
+    hues: 0.835587
+    flare: 0.093341
+stations:
+- type: coriolis
+  orbit:
+    parent: Beanxeat
+    vector: undefined
+    radius: 7590

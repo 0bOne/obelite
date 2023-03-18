@@ -1,0 +1,61 @@
+name: Eninte
+position: [93, 28]
+seed: 48 28 72 93 218 146
+limits:
+  blurs: 42
+  stars: 5513
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Eninte
+  radius: 3421
+  rotationSpeed: 0.00344
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 444730
+  land:
+    ratio: 0.24
+    color: [0.642578, 0.610536, 0.534645, 1]
+    polarColor: [0.935742, 0.924077, 0.896448, 1]
+  sea:
+    color: [0.154587, 0.599609, 0.474447, 1]
+    polarColor: [0.765618, 0.940039, 0.890983, 1]
+  air:
+    color: [0.561917, 0.970383, 0.96676, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.914062, 0.904578, 0.307068, 1]
+    ratio: 0.27
+    polarColor: [0.911328, 0.905418, 0.533091, 1]
+  demographics:
+    type: 20
+    gdp: 3200
+    tech: 3
+    economy: 6
+    government: 1
+    description: This world is mildly well known for its exotic cuisine and its inhabitants’ ingrained silliness.
+    inhabitants: Black Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.259167, 0.466427, 0.669272, 1]
+  radius: 65981.723175
+  orbit:
+    type: static
+    parent: ~
+    radius: 273680
+    vector: [0.852, -0.522, -0.033]
+  corona:
+    shimmer: 0.37729
+    hues: 0.531281
+    flare: 0.037274
+stations:
+- type: coriolis
+  orbit:
+    parent: Eninte
+    vector: undefined
+    radius: 6842

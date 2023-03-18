@@ -1,0 +1,61 @@
+name: Belabia
+position: [220, 132]
+seed: 237 132 236 220 193 147
+limits:
+  blurs: 90
+  stars: 9549
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Belabia
+  radius: 3804
+  rotationSpeed: 0.001936
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 418440
+  land:
+    ratio: 0.4
+    color: [0.461484, 0.66, 0.511113, 1]
+    polarColor: [0.863768, 0.934, 0.881326, 1]
+  sea:
+    color: [0.710938, 0.635522, 0.491547, 1]
+    polarColor: [0.928906, 0.904272, 0.857243, 1]
+  air:
+    color: [0.658978, 0.845508, 0.787077, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.539062, 0.50774, 0.505371, 1]
+    ratio: 0.37
+    polarColor: [0.742578, 0.715611, 0.713571, 1]
+  demographics:
+    type: 34
+    gdp: 14688
+    tech: 6
+    economy: 4
+    government: 5
+    description: The world Belabia is reasonably fabled for Belabiaian evil juice and its inhabitants’ eccentric love for poetry.
+    inhabitants: Black Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.291871, 0.450783, 0.786038, 1]
+  radius: 86403.202515
+  orbit:
+    type: static
+    parent: ~
+    radius: 456480
+    vector: [-0.212, -0.391, 0.895]
+  corona:
+    shimmer: 0.296825
+    hues: 0.767738
+    flare: 0.026491
+stations:
+- type: coriolis
+  orbit:
+    parent: Belabia
+    vector: undefined
+    radius: 7608

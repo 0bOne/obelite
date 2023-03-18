@@ -1,0 +1,61 @@
+name: Gearzaen
+position: [245, 176]
+seed: 193 176 249 245 173 99
+limits:
+  blurs: 177
+  stars: 6188
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gearzaen
+  radius: 3829
+  rotationSpeed: 0.000082
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 382900
+  land:
+    ratio: 0.65
+    color: [0.631641, 0.652024, 0.66, 1]
+    polarColor: [0.923967, 0.931178, 0.934, 1]
+  sea:
+    color: [0.519531, 0.280662, 0.0263824, 1]
+    polarColor: [0.948047, 0.839074, 0.723071, 1]
+  air:
+    color: [0.432591, 0.730299, 0.874775, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.055926, 0.626953, 0.0514297, 1]
+    ratio: 0.42
+    polarColor: [0.336903, 0.782129, 0.333398, 1]
+  demographics:
+    type: 56
+    gdp: 49280
+    tech: 12
+    economy: 0
+    government: 7
+    description: The planet Gearzaen is reasonably noted for its exotic fish meat and its exciting sit coms.
+    inhabitants: Large Blue Furry Rodents
+- type: star
+  type: primary
+  color: [0.696725, 0.516812, 0.43999, 1]
+  radius: 113296.006165
+  orbit:
+    type: static
+    parent: ~
+    radius: 497770
+    vector: [0.057, 0.645, -0.762]
+  corona:
+    shimmer: 0.481535
+    hues: 0.786263
+    flare: 0.053662
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Gearzaen
+    vector: undefined
+    radius: 7658

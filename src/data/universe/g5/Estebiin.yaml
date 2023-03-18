@@ -1,0 +1,61 @@
+name: Estebiin
+position: [223, 243]
+seed: 103 243 121 223 232 41
+limits:
+  blurs: 128
+  stars: 8062
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Estebiin
+  radius: 5343
+  rotationSpeed: 0.001967
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 587730
+  land:
+    ratio: 0.33
+    color: [0.00773438, 0.66, 0.4154, 1]
+    polarColor: [0.703236, 0.934, 0.847464, 1]
+  sea:
+    color: [0.582031, 0.532564, 0.455394, 1]
+    polarColor: [0.941797, 0.921786, 0.890568, 1]
+  air:
+    color: [0.574668, 0.945668, 0.893153, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.839844, 0.638802, 0.354309, 1]
+    ratio: 0.32
+    polarColor: [0.87793, 0.74658, 0.560709, 1]
+  demographics:
+    type: 55
+    gdp: 33880
+    tech: 11
+    economy: 3
+    government: 7
+    description: Estebiin is a revolting dump.
+    inhabitants: Small Red Fat Humanoids
+- type: star
+  type: primary
+  color: [0.388261, 0.417273, 0.668753, 1]
+  radius: 130992.202148
+  orbit:
+    type: static
+    parent: ~
+    radius: 480870
+    vector: [-1, -0.015, -0.023]
+  corona:
+    shimmer: 0.455687
+    hues: 0.606773
+    flare: 0.020494
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Estebiin
+    vector: undefined
+    radius: 10686

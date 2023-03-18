@@ -1,0 +1,61 @@
+name: Esenma
+position: [143, 89]
+seed: 6 89 28 143 243 233
+limits:
+  blurs: 142
+  stars: 6288
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esenma
+  radius: 5263
+  rotationSpeed: 0.004699
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 578930
+  land:
+    ratio: 0.49
+    color: [0.634219, 0.66, 0.646102, 1]
+    polarColor: [0.924879, 0.934, 0.929083, 1]
+  sea:
+    color: [0.0366974, 0.722656, 0.706579, 1]
+    polarColor: [0.707579, 0.927734, 0.922574, 1]
+  air:
+    color: [0.533012, 0.536353, 0.871523, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.267609, 0.273071, 0.617188, 1]
+    ratio: 0.31
+    polarColor: [0.502413, 0.506715, 0.777734, 1]
+  demographics:
+    type: 49
+    gdp: 24696
+    tech: 11
+    economy: 1
+    government: 3
+    description: The world Esenma is most well known for its great dense forests.
+    inhabitants: Small Insects
+- type: star
+  type: primary
+  color: [0.300071, 0.589616, 0.839508, 1]
+  radius: 168052.048645
+  orbit:
+    type: static
+    parent: ~
+    radius: 473670
+    vector: [0.516, -0.593, -0.618]
+  corona:
+    shimmer: 0.408009
+    hues: 0.90625
+    flare: 0.051274
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Esenma
+    vector: undefined
+    radius: 10526

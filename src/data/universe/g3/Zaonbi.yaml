@@ -1,0 +1,61 @@
+name: Zaonbi
+position: [130, 248]
+seed: 162 248 82 130 218 228
+limits:
+  blurs: 91
+  stars: 6740
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaonbi
+  radius: 3970
+  rotationSpeed: 0.003874
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 476400
+  land:
+    ratio: 0.31
+    color: [0.629063, 0.66, 0.638972, 1]
+    polarColor: [0.923055, 0.934, 0.926561, 1]
+  sea:
+    color: [0.0549316, 0.703125, 0.642357, 1]
+    polarColor: [0.715424, 0.929688, 0.9096, 1]
+  air:
+    color: [0.761138, 0.505719, 0.961928, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.888672, 0.156212, 0.379383, 1]
+    ratio: 0.52
+    polarColor: [0.899902, 0.43633, 0.577574, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 10
+    economy: 0
+    government: 2
+    description: The world Zaonbi is a boring world.
+    inhabitants: Fierce Horned Lizards
+- type: star
+  type: primary
+  color: [0.404703, 0.584701, 0.71503, 1]
+  radius: 89085.113525
+  orbit:
+    type: static
+    parent: ~
+    radius: 277900
+    vector: [0.026, -0.011, -1]
+  corona:
+    shimmer: 0.428261
+    hues: 0.692627
+    flare: 0.093442
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaonbi
+    vector: undefined
+    radius: 7940

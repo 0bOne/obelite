@@ -1,0 +1,61 @@
+name: Beenri
+position: [249, 165]
+seed: 56 165 12 249 189 179
+limits:
+  blurs: 143
+  stars: 9134
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beenri
+  radius: 3833
+  rotationSpeed: 0.002737
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 383300
+  land:
+    ratio: 0.52
+    color: [0.576172, 0.506823, 0.499649, 1]
+    polarColor: [0.942383, 0.914026, 0.911093, 1]
+  sea:
+    color: [0.593713, 0.865234, 0.483315, 1]
+    polarColor: [0.841812, 0.913477, 0.812673, 1]
+  air:
+    color: [0.59635, 0.937213, 0.912907, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.814453, 0.733028, 0.413589, 1]
+    ratio: 0.25
+    polarColor: [0.866504, 0.812361, 0.599952, 1]
+  demographics:
+    type: 17
+    gdp: 2040
+    tech: 2
+    economy: 7
+    government: 1
+    description: This planet is mildly noted for the Beenriian mountain A’oid but plagued by unpredictable civil war.
+    inhabitants: Harmless Fat Insects
+- type: star
+  type: primary
+  color: [0.778296, 0.250683, 0.21677, 1]
+  radius: 109390.46051
+  orbit:
+    type: static
+    parent: ~
+    radius: 383300
+    vector: [-0.486, 0.305, -0.819]
+  corona:
+    shimmer: 0.843927
+    hues: 0.697723
+    flare: 0.043532
+stations:
+- type: coriolis
+  orbit:
+    parent: Beenri
+    vector: undefined
+    radius: 7666

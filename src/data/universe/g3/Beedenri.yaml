@@ -1,0 +1,61 @@
+name: Beedenri
+position: [101, 127]
+seed: 98 127 146 101 218 115
+limits:
+  blurs: 139
+  stars: 8100
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beedenri
+  radius: 3685
+  rotationSpeed: 0.001318
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 479050
+  land:
+    ratio: 0.48
+    color: [0.481646, 0.66, 0.244922, 1]
+    polarColor: [0.870901, 0.934, 0.78715, 1]
+  sea:
+    color: [0.501953, 0.392739, 0.428575, 1]
+    polarColor: [0.949805, 0.89814, 0.915093, 1]
+  air:
+    color: [0.651458, 0.473187, 0.961928, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.888672, 0.0659561, 0.798687, 1]
+    ratio: 0.39
+    polarColor: [0.899902, 0.379207, 0.842951, 1]
+  demographics:
+    type: 18
+    gdp: 2592
+    tech: 2
+    economy: 7
+    government: 2
+    description: This world is very notable for its inhabitants’ ingrained shyness and its fabulous cuisine.
+    inhabitants: Blue Horned Humanoids
+- type: star
+  type: primary
+  color: [0.724158, 0.501898, 0.454836, 1]
+  radius: 114046.858978
+  orbit:
+    type: static
+    parent: ~
+    radius: 331650
+    vector: [-0.094, 0.933, -0.348]
+  corona:
+    shimmer: 0.399288
+    hues: 0.962051
+    flare: 0.096194
+stations:
+- type: coriolis
+  orbit:
+    parent: Beedenri
+    vector: undefined
+    radius: 7370

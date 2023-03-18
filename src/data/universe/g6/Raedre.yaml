@@ -1,0 +1,61 @@
+name: Raedre
+position: [99, 200]
+seed: 210 200 106 99 148 84
+limits:
+  blurs: 190
+  stars: 6302
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raedre
+  radius: 3939
+  rotationSpeed: 0.001538
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 512070
+  land:
+    ratio: 0.64
+    color: [0.502291, 0.66, 0.311953, 1]
+    polarColor: [0.878205, 0.934, 0.810865, 1]
+  sea:
+    color: [0.564538, 0.6875, 0.534692, 1]
+    polarColor: [0.88961, 0.93125, 0.879504, 1]
+  air:
+    color: [0.733499, 0.732161, 0.96518, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.789642, 0.786133, 0.898438, 1]
+    ratio: 0.44
+    polarColor: [0.835856, 0.833649, 0.904297, 1]
+  demographics:
+    type: 58
+    gdp: 41760
+    tech: 13
+    economy: 0
+    government: 5
+    description: This planet is noted for Zero-G cricket.
+    inhabitants: Yellow Bony Lobsters
+- type: star
+  type: primary
+  color: [0.659213, 0.622819, 0.273265, 1]
+  radius: 104395.8815
+  orbit:
+    type: static
+    parent: ~
+    radius: 354510
+    vector: [-0.539, 0.817, -0.206]
+  corona:
+    shimmer: 0.438034
+    hues: 0.820862
+    flare: 0.095583
+stations:
+- type: icosahedron
+  orbit:
+    parent: Raedre
+    vector: undefined
+    radius: 7878

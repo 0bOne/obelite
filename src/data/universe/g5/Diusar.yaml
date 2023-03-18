@@ -1,0 +1,61 @@
+name: Diusar
+position: [84, 134]
+seed: 175 134 117 84 64 13
+limits:
+  blurs: 114
+  stars: 5921
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diusar
+  radius: 6228
+  rotationSpeed: 0.002088
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 622800
+  land:
+    ratio: 0.26
+    color: [0.546844, 0.523359, 0.66, 1]
+    polarColor: [0.893967, 0.885658, 0.934, 1]
+  sea:
+    color: [0.5625, 0.522922, 0.447363, 1]
+    polarColor: [0.94375, 0.927149, 0.895457, 1]
+  air:
+    color: [0.70966, 0.827584, 0.895588, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.673294, 0.689453, 0.675061, 1]
+    ratio: 0.11
+    polarColor: [0.798385, 0.810254, 0.799683, 1]
+  demographics:
+    type: 29
+    gdp: 9280
+    tech: 4
+    economy: 6
+    government: 6
+    description: The planet Diusar is very noted for its unusual sit coms but plagued by unpredictable civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.583054, 0.814348, 0.816052, 1]
+  radius: 168223.282471
+  orbit:
+    type: static
+    parent: ~
+    radius: 747360
+    vector: [0.85, -0.075, 0.521]
+  corona:
+    shimmer: 0.546644
+    hues: 0.830566
+    flare: 0.043343
+stations:
+- type: coriolis
+  orbit:
+    parent: Diusar
+    vector: undefined
+    radius: 12456

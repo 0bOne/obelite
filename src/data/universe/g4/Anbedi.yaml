@@ -1,0 +1,61 @@
+name: Anbedi
+position: [29, 90]
+seed: 36 90 236 29 229 123
+limits:
+  blurs: 122
+  stars: 6333
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anbedi
+  radius: 5661
+  rotationSpeed: 0.001115
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 509490
+  land:
+    ratio: 0.33
+    color: [0.66, 0.565254, 0.281016, 1]
+    polarColor: [0.934, 0.90048, 0.79992, 1]
+  sea:
+    color: [0.566044, 0.654297, 0.516537, 1]
+    polarColor: [0.903056, 0.93457, 0.885378, 1]
+  air:
+    color: [0.613711, 0.568783, 0.860467, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.45622, 0.339897, 0.583984, 1]
+    ratio: 0.35
+    polarColor: [0.65849, 0.563528, 0.762793, 1]
+  demographics:
+    type: 44
+    gdp: 25344
+    tech: 9
+    economy: 2
+    government: 5
+    description: This planet is mildly fabled for the Anbediian mountain poet but scourged by deadly civil war.
+    inhabitants: Blue Lizards
+- type: star
+  type: primary
+  color: [0.667888, 0.696425, 0.697577, 1]
+  radius: 150490.380707
+  orbit:
+    type: static
+    parent: ~
+    radius: 622710
+    vector: [0.096, -0.502, -0.859]
+  corona:
+    shimmer: 0.575807
+    hues: 0.880722
+    flare: 0.094736
+stations:
+- type: coriolis
+  orbit:
+    parent: Anbedi
+    vector: undefined
+    radius: 11322

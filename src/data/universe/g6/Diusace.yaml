@@ -1,0 +1,61 @@
+name: Diusace
+position: [185, 64]
+seed: 206 64 178 185 208 141
+limits:
+  blurs: 72
+  stars: 8982
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diusace
+  radius: 6329
+  rotationSpeed: 0.001421
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 632900
+  land:
+    ratio: 0.47
+    color: [0.258789, 0.264511, 0.625, 1]
+    polarColor: [0.800171, 0.802317, 0.9375, 1]
+  sea:
+    color: [0.503906, 0.40491, 0.402534, 1]
+    polarColor: [0.949609, 0.90297, 0.901851, 1]
+  air:
+    color: [0.712289, 0.721118, 0.977537, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.73455, 0.751824, 0.935547, 1]
+    ratio: 0.14
+    polarColor: [0.797327, 0.807955, 0.920996, 1]
+  demographics:
+    type: 51
+    gdp: 40800
+    tech: 11
+    economy: 0
+    government: 6
+    description: The planet Diusace is mildly notable for its inhabitants’ unusual silliness.
+    inhabitants: Black Bug-Eyed Lizards
+- type: star
+  type: primary
+  color: [0.485248, 0.577932, 0.717184, 1]
+  radius: 112236.030731
+  orbit:
+    type: static
+    parent: ~
+    radius: 506320
+    vector: [0.138, -0.465, -0.874]
+  corona:
+    shimmer: 0.440904
+    hues: 0.588142
+    flare: 0.052153
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Diusace
+    vector: undefined
+    radius: 12658

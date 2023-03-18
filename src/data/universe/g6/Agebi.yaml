@@ -1,0 +1,61 @@
+name: Agebi
+position: [147, 32]
+seed: 146 32 18 147 212 175
+limits:
+  blurs: 167
+  stars: 9031
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Agebi
+  radius: 6803
+  rotationSpeed: 0.000649
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 748330
+  land:
+    ratio: 0.42
+    color: [0.201961, 0.574219, 0.0829926, 1]
+    polarColor: [0.789813, 0.942578, 0.740992, 1]
+  sea:
+    color: [0.583984, 0.445919, 0.439129, 1]
+    polarColor: [0.941602, 0.885948, 0.883211, 1]
+  air:
+    color: [0.522873, 0.537358, 0.875426, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.245667, 0.287583, 0.628906, 1]
+    ratio: 0.25
+    polarColor: [0.484792, 0.517409, 0.783008, 1]
+  demographics:
+    type: 47
+    gdp: 22560
+    tech: 11
+    economy: 0
+    government: 2
+    description: The planet Agebi is an unremarkable dump.
+    inhabitants: Harmless Bony Felines
+- type: star
+  type: primary
+  color: [0.826794, 0.798219, 0.748194, 1]
+  radius: 112056.00647
+  orbit:
+    type: static
+    parent: ~
+    radius: 544240
+    vector: [-0.091, -0.883, -0.46]
+  corona:
+    shimmer: 0.28406
+    hues: 0.86071
+    flare: 0.077243
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Agebi
+    vector: undefined
+    radius: 13606

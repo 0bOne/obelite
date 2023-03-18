@@ -1,0 +1,61 @@
+name: Anma
+position: [90, 85]
+seed: 175 85 53 90 64 59
+limits:
+  blurs: 162
+  stars: 5250
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anma
+  radius: 5722
+  rotationSpeed: 0.004611
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 686640
+  land:
+    ratio: 0.29
+    color: [0.623906, 0.66, 0.66, 1]
+    polarColor: [0.92123, 0.934, 0.934, 1]
+  sea:
+    color: [0.841797, 0.814052, 0.397881, 1]
+    polarColor: [0.91582, 0.908274, 0.795082, 1]
+  air:
+    color: [0.477482, 0.577758, 0.888434, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.1409, 0.519731, 0.667969, 1]
+    ratio: 0.32
+    polarColor: [0.405766, 0.689543, 0.800586, 1]
+  demographics:
+    type: 40
+    gdp: 16000
+    tech: 7
+    economy: 5
+    government: 6
+    description: The world Anma is a dull place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.8289, 0.74483, 0.698316, 1]
+  radius: 166668.442078
+  orbit:
+    type: static
+    parent: ~
+    radius: 343320
+    vector: [-0.402, 0.665, -0.63]
+  corona:
+    shimmer: 0.547557
+    hues: 0.537468
+    flare: 0.053227
+stations:
+- type: coriolis
+  orbit:
+    parent: Anma
+    vector: undefined
+    radius: 11444

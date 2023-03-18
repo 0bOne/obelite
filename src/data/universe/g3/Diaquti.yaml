@@ -1,0 +1,61 @@
+name: Diaquti
+position: [222, 4]
+seed: 114 4 34 222 26 45
+limits:
+  blurs: 116
+  stars: 8487
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diaquti
+  radius: 6366
+  rotationSpeed: 0.004429
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 572940
+  land:
+    ratio: 0.35
+    color: [0.497175, 0.66, 0.175313, 1]
+    polarColor: [0.876395, 0.934, 0.762523, 1]
+  sea:
+    color: [0.595703, 0.55969, 0.463997, 1]
+    polarColor: [0.94043, 0.926216, 0.888449, 1]
+  air:
+    color: [0.706242, 0.572762, 0.891035, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.675781, 0.356369, 0.588442, 1]
+    ratio: 0.29
+    polarColor: [0.804102, 0.566562, 0.739149, 1]
+  demographics:
+    type: 37
+    gdp: 14208
+    tech: 7
+    economy: 4
+    government: 4
+    description: Diaquti is a revolting dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.262542, 0.713337, 0.741995, 1]
+  radius: 127914.481201
+  orbit:
+    type: static
+    parent: ~
+    radius: 572940
+    vector: [0.761, -0.495, -0.419]
+  corona:
+    shimmer: 0.653478
+    hues: 0.988503
+    flare: 0.028419
+stations:
+- type: coriolis
+  orbit:
+    parent: Diaquti
+    vector: undefined
+    radius: 12732

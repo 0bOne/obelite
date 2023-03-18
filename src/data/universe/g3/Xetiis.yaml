@@ -1,0 +1,61 @@
+name: Xetiis
+position: [3, 210]
+seed: 2 210 114 3 90 34
+limits:
+  blurs: 131
+  stars: 7507
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xetiis
+  radius: 3331
+  rotationSpeed: 0.000015
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 333100
+  land:
+    ratio: 0.62
+    color: [0.553169, 0.66, 0.257812, 1]
+    polarColor: [0.896204, 0.934, 0.791711, 1]
+  sea:
+    color: [0.591685, 0.703125, 0.535309, 1]
+    polarColor: [0.89285, 0.929688, 0.874215, 1]
+  air:
+    color: [0.504108, 0.537725, 0.886482, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.201736, 0.31683, 0.662109, 1]
+    ratio: 0.29
+    polarColor: [0.451184, 0.537875, 0.797949, 1]
+  demographics:
+    type: 53
+    gdp: 33920
+    tech: 11
+    economy: 2
+    government: 6
+    description: Xetiis is mildly well known for its exotic cuisine.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.82731, 0.678218, 0.420393, 1]
+  radius: 78002.204285
+  orbit:
+    type: static
+    parent: ~
+    radius: 299790
+    vector: [0.903, 0.037, 0.428]
+  corona:
+    shimmer: 0.285936
+    hues: 0.734467
+    flare: 0.057559
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Xetiis
+    vector: undefined
+    radius: 6662

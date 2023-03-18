@@ -1,0 +1,61 @@
+name: Iniser
+position: [198, 74]
+seed: 133 74 105 198 133 44
+limits:
+  blurs: 178
+  stars: 9946
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Iniser
+  radius: 6086
+  rotationSpeed: 0.004738
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 669460
+  land:
+    ratio: 0.27
+    color: [0.66, 0.261196, 0.195938, 1]
+    polarColor: [0.934, 0.792908, 0.76982, 1]
+  sea:
+    color: [0.476343, 0.359398, 0.564453, 1]
+    polarColor: [0.906733, 0.857861, 0.943555, 1]
+  air:
+    color: [0.424857, 0.768383, 0.868271, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.217551, 0.607422, 0.0403366, 1]
+    ratio: 0.33
+    polarColor: [0.463112, 0.77334, 0.322099, 1]
+  demographics:
+    type: 48
+    gdp: 27648
+    tech: 10
+    economy: 2
+    government: 5
+    description: This world is reasonably well known for its great parking meters but cursed by occasional earthquakes.
+    inhabitants: Red Fat Birds
+- type: star
+  type: primary
+  color: [0.722235, 0.543439, 0.529124, 1]
+  radius: 157651.322021
+  orbit:
+    type: static
+    parent: ~
+    radius: 608600
+    vector: [-0.945, 0.29, 0.148]
+  corona:
+    shimmer: 0.735071
+    hues: 0.968018
+    flare: 0.01394
+stations:
+- type: coriolis
+  orbit:
+    parent: Iniser
+    vector: undefined
+    radius: 12172

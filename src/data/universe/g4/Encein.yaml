@@ -1,0 +1,61 @@
+name: Encein
+position: [116, 191]
+seed: 164 191 4 116 53 18
+limits:
+  blurs: 138
+  stars: 6709
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Encein
+  radius: 3444
+  rotationSpeed: 0.001393
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 482160
+  land:
+    ratio: 0.62
+    color: [0.228088, 0.479677, 0.578125, 1]
+    polarColor: [0.799571, 0.902077, 0.942187, 1]
+  sea:
+    color: [0.626243, 0.664062, 0.507904, 1]
+    polarColor: [0.920301, 0.933594, 0.878709, 1]
+  air:
+    color: [0.633146, 0.868922, 0.789544, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.609375, 0.478455, 0.478455, 1]
+    ratio: 0.3
+    polarColor: [0.774219, 0.670259, 0.670259, 1]
+  demographics:
+    type: 8
+    gdp: 768
+    tech: 0
+    economy: 7
+    government: 0
+    description: The world Encein is a dull place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.324483, 0.351182, 0.669, 1]
+  radius: 63255.963135
+  orbit:
+    type: static
+    parent: ~
+    radius: 206640
+    vector: [0.346, -0.859, 0.379]
+  corona:
+    shimmer: 0.530295
+    hues: 0.946739
+    flare: 0.028903
+stations:
+- type: coriolis
+  orbit:
+    parent: Encein
+    vector: undefined
+    radius: 6888

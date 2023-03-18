@@ -1,0 +1,61 @@
+name: Erlace
+position: [255, 196]
+seed: 157 196 241 255 117 112
+limits:
+  blurs: 174
+  stars: 5115
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erlace
+  radius: 3071
+  rotationSpeed: 0.003214
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 307100
+  land:
+    ratio: 0.4
+    color: [0.66, 0.328973, 0.213984, 1]
+    polarColor: [0.934, 0.816887, 0.776205, 1]
+  sea:
+    color: [0.579608, 0.757812, 0.649219, 1]
+    polarColor: [0.869885, 0.924219, 0.891109, 1]
+  air:
+    color: [0.619489, 0.456537, 0.969082, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.882047, 0.0106659, 0.910156, 1]
+    ratio: 0.11
+    polarColor: [0.892013, 0.347751, 0.90957, 1]
+  demographics:
+    type: 47
+    gdp: 22560
+    tech: 9
+    economy: 4
+    government: 6
+    description: The world Erlace is scourged by killer edible arts graduates.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.540555, 0.673841, 0.840555, 1]
+  radius: 83671.348114
+  orbit:
+    type: static
+    parent: ~
+    radius: 276390
+    vector: [-0.932, 0.308, -0.189]
+  corona:
+    shimmer: 0.279045
+    hues: 0.508118
+    flare: 0.037383
+stations:
+- type: coriolis
+  orbit:
+    parent: Erlace
+    vector: undefined
+    radius: 6142

@@ -1,0 +1,61 @@
+name: Qulaxe
+position: [210, 137]
+seed: 50 137 98 210 26 154
+limits:
+  blurs: 182
+  stars: 6679
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qulaxe
+  radius: 5586
+  rotationSpeed: 0.001977
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 726180
+  land:
+    ratio: 0.36
+    color: [0.572163, 0.66, 0.430547, 1]
+    polarColor: [0.902924, 0.934, 0.852822, 1]
+  sea:
+    color: [0.363804, 0.333595, 0.537109, 1]
+    polarColor: [0.869956, 0.85665, 0.946289, 1]
+  air:
+    color: [0.675733, 0.729872, 0.987293, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.62941, 0.799747, 0.964844, 1]
+    ratio: 0.32
+    polarColor: [0.731196, 0.834274, 0.93418, 1]
+  demographics:
+    type: 46
+    gdp: 26496
+    tech: 10
+    economy: 1
+    government: 4
+    description: The world Qulaxe is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.687936, 0.655748, 0.645966, 1]
+  radius: 150098.179321
+  orbit:
+    type: static
+    parent: ~
+    radius: 279300
+    vector: [-0.232, -0.973, 0.009]
+  corona:
+    shimmer: 0.525414
+    hues: 0.883141
+    flare: 0.07466
+stations:
+- type: coriolis
+  orbit:
+    parent: Qulaxe
+    vector: undefined
+    radius: 11172

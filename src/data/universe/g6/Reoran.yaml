@@ -1,0 +1,61 @@
+name: Reoran
+position: [115, 215]
+seed: 146 215 202 115 84 46
+limits:
+  blurs: 54
+  stars: 9141
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reoran
+  radius: 6515
+  rotationSpeed: 0.002772
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 716650
+  land:
+    ratio: 0.41
+    color: [0.580078, 0.471313, 0.489158, 1]
+    polarColor: [0.941992, 0.897836, 0.905081, 1]
+  sea:
+    color: [0.361729, 0.501953, 0.111763, 1]
+    polarColor: [0.883471, 0.949805, 0.765224, 1]
+  air:
+    color: [0.589213, 0.909404, 0.971684, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.650826, 0.917969, 0.383682, 1]
+    ratio: 0.2
+    polarColor: [0.74701, 0.913086, 0.580933, 1]
+  demographics:
+    type: 25
+    gdp: 3000
+    tech: 4
+    economy: 7
+    government: 1
+    description: This planet is reasonably noted for its inhabitants’ exceptional love for food blenders.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.673135, 0.61456, 0.369767, 1]
+  radius: 149468.431091
+  orbit:
+    type: static
+    parent: ~
+    radius: 586350
+    vector: [0.086, -0.961, -0.264]
+  corona:
+    shimmer: 0.343225
+    hues: 0.884743
+    flare: 0.083365
+stations:
+- type: coriolis
+  orbit:
+    parent: Reoran
+    vector: undefined
+    radius: 13030

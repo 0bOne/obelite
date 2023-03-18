@@ -1,0 +1,61 @@
+name: Orrere
+position: [6, 143]
+seed: 128 143 56 6 29 25
+limits:
+  blurs: 48
+  stars: 6737
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orrere
+  radius: 5126
+  rotationSpeed: 0.000598
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 615120
+  land:
+    ratio: 0.55
+    color: [0.511719, 0.419769, 0.508127, 1]
+    polarColor: [0.948828, 0.906205, 0.947163, 1]
+  sea:
+    color: [0.681636, 0.722656, 0.553284, 1]
+    polarColor: [0.914569, 0.927734, 0.873375, 1]
+  air:
+    color: [0.717389, 0.618929, 0.84941, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.550781, 0.432449, 0.515651, 1]
+    ratio: 0.2
+    polarColor: [0.747852, 0.647432, 0.71804, 1]
+  demographics:
+    type: 39
+    gdp: 10296
+    tech: 6
+    economy: 7
+    government: 7
+    description: Orrere is mildly well known for Orrereian vicious brew.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.712302, 0.592113, 0.542845, 1]
+  radius: 106268.919373
+  orbit:
+    type: static
+    parent: ~
+    radius: 307560
+    vector: [-0.008, 0.926, -0.377]
+  corona:
+    shimmer: 0.442739
+    hues: 0.780128
+    flare: 0.003983
+stations:
+- type: coriolis
+  orbit:
+    parent: Orrere
+    vector: undefined
+    radius: 10252

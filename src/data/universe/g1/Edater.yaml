@@ -1,0 +1,61 @@
+name: Edater
+position: [198, 51]
+seed: 48 51 168 198 26 88
+limits:
+  blurs: 65
+  stars: 7859
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edater
+  radius: 5062
+  rotationSpeed: 0.004679
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 658060
+  land:
+    ratio: 0.54
+    color: [0.411767, 0.328598, 0.576172, 1]
+    polarColor: [0.875158, 0.84115, 0.942383, 1]
+  sea:
+    color: [0.724609, 0.549472, 0.444389, 1]
+    polarColor: [0.927539, 0.871493, 0.837865, 1]
+  air:
+    color: [0.6496, 0.885182, 0.861028, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.658203, 0.619275, 0.527077, 1]
+    ratio: 0.35
+    polarColor: [0.796191, 0.766761, 0.697056, 1]
+  demographics:
+    type: 45
+    gdp: 22680
+    tech: 9
+    economy: 3
+    government: 5
+    description: Edater is an unremarkable dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.840988, 0.797872, 0.542229, 1]
+  radius: 128166.632996
+  orbit:
+    type: static
+    parent: ~
+    radius: 404960
+    vector: [-0.426, 0.018, 0.905]
+  corona:
+    shimmer: 0.496681
+    hues: 0.60807
+    flare: 0.054376
+stations:
+- type: coriolis
+  orbit:
+    parent: Edater
+    vector: undefined
+    radius: 10124

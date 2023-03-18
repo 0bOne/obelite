@@ -1,0 +1,61 @@
+name: Somate
+position: [232, 219]
+seed: 38 219 172 232 243 39
+limits:
+  blurs: 71
+  stars: 5985
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Somate
+  radius: 4840
+  rotationSpeed: 0.000248
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 677600
+  land:
+    ratio: 0.4
+    color: [0.472237, 0.297989, 0.646484, 1]
+    polarColor: [0.872325, 0.809298, 0.935352, 1]
+  sea:
+    color: [0.582031, 0.529031, 0.45403, 1]
+    polarColor: [0.941797, 0.920357, 0.890016, 1]
+  air:
+    color: [0.439716, 0.680178, 0.884531, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.05896, 0.65625, 0.292276, 1]
+    ratio: 0.36
+    polarColor: [0.342901, 0.795313, 0.519624, 1]
+  demographics:
+    type: 37
+    gdp: 18648
+    tech: 7
+    economy: 3
+    government: 5
+    description: Somate is an unremarkable planet.
+    inhabitants: Fierce Red Bony Felines
+- type: star
+  type: primary
+  color: [0.699924, 0.5534, 0.503326, 1]
+  radius: 107304.046631
+  orbit:
+    type: static
+    parent: ~
+    radius: 338800
+    vector: [0.017, -0.993, -0.12]
+  corona:
+    shimmer: 0.699125
+    hues: 0.557938
+    flare: 0.005736
+stations:
+- type: coriolis
+  orbit:
+    parent: Somate
+    vector: undefined
+    radius: 9680

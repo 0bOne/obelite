@@ -1,0 +1,61 @@
+name: Ribiara
+position: [73, 62]
+seed: 109 62 129 73 213 30
+limits:
+  blurs: 119
+  stars: 6364
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ribiara
+  radius: 6473
+  rotationSpeed: 0.000025
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 841490
+  land:
+    ratio: 0.31
+    color: [0.66, 0.570974, 0.484688, 1]
+    polarColor: [0.934, 0.902504, 0.871977, 1]
+  sea:
+    color: [0.651516, 0.77733, 0.869141, 1]
+    polarColor: [0.855929, 0.888973, 0.913086, 1]
+  air:
+    color: [0.685363, 0.853745, 0.894287, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.644207, 0.685547, 0.615921, 1]
+    ratio: 0.17
+    polarColor: [0.778025, 0.808496, 0.757176, 1]
+  demographics:
+    type: 15
+    gdp: 1920
+    tech: 2
+    economy: 6
+    government: 0
+    description: The world Ribiara is very famous for its unusual casinos but beset by deadly earthquakes.
+    inhabitants: Green Frogs
+- type: star
+  type: primary
+  color: [0.534779, 0.601803, 0.671835, 1]
+  radius: 183498.132172
+  orbit:
+    type: static
+    parent: ~
+    radius: 323650
+    vector: [-0.454, 0.748, -0.485]
+  corona:
+    shimmer: 0.511536
+    hues: 0.837601
+    flare: 0.008211
+stations:
+- type: coriolis
+  orbit:
+    parent: Ribiara
+    vector: undefined
+    radius: 12946

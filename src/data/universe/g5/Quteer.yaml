@@ -1,0 +1,61 @@
+name: Quteer
+position: [250, 104]
+seed: 7 104 65 250 40 250
+limits:
+  blurs: 109
+  stars: 6510
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Quteer
+  radius: 5626
+  rotationSpeed: 0.002378
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 675120
+  land:
+    ratio: 0.28
+    color: [0.351834, 0.195938, 0.66, 1]
+    polarColor: [0.824974, 0.76982, 0.934, 1]
+  sea:
+    color: [0.691406, 0.616501, 0.499649, 1]
+    polarColor: [0.930859, 0.905648, 0.866317, 1]
+  air:
+    color: [0.540174, 0.985992, 0.978559, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.960938, 0.932492, 0.232727, 1]
+    ratio: 0.23
+    polarColor: [0.932422, 0.915171, 0.490796, 1]
+  demographics:
+    type: 31
+    gdp: 7936
+    tech: 7
+    economy: 2
+    government: 0
+    description: This world is a revolting dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.613924, 0.690921, 0.823019, 1]
+  radius: 182944.581299
+  orbit:
+    type: static
+    parent: ~
+    radius: 562600
+    vector: [-0.357, -0.851, -0.385]
+  corona:
+    shimmer: 0.369788
+    hues: 0.857666
+    flare: 0.041127
+stations:
+- type: coriolis
+  orbit:
+    parent: Quteer
+    vector: undefined
+    radius: 11252

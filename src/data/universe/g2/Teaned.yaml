@@ -1,0 +1,61 @@
+name: Teaned
+position: [167, 23]
+seed: 229 23 73 167 197 28
+limits:
+  blurs: 117
+  stars: 9880
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teaned
+  radius: 6055
+  rotationSpeed: 0.000976
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 908250
+  land:
+    ratio: 0.28
+    color: [0.618831, 0.66, 0.587813, 1]
+    polarColor: [0.919435, 0.934, 0.908461, 1]
+  sea:
+    color: [0.092392, 0.675781, 0.621089, 1]
+    polarColor: [0.731186, 0.932422, 0.913556, 1]
+  air:
+    color: [0.808057, 0.483742, 0.985992, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.960938, 0.0675659, 0.109443, 1]
+    ratio: 0.46
+    polarColor: [0.932422, 0.390634, 0.41603, 1]
+  demographics:
+    type: 25
+    gdp: 3000
+    tech: 4
+    economy: 7
+    government: 1
+    description: This planet is beset by deadly earthquakes.
+    inhabitants: Green Slimy Rodents
+- type: star
+  type: primary
+  color: [0.311773, 0.614057, 0.718185, 1]
+  radius: 166285.215759
+  orbit:
+    type: static
+    parent: ~
+    radius: 302750
+    vector: [0.505, 0.251, -0.826]
+  corona:
+    shimmer: 0.301617
+    hues: 0.580894
+    flare: 0.078662
+stations:
+- type: coriolis
+  orbit:
+    parent: Teaned
+    vector: undefined
+    radius: 12110

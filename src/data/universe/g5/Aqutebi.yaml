@@ -1,0 +1,61 @@
+name: Aqutebi
+position: [82, 216]
+seed: 121 216 33 82 218 175
+limits:
+  blurs: 96
+  stars: 9915
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aqutebi
+  radius: 6738
+  rotationSpeed: 0.001928
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 808560
+  land:
+    ratio: 0.26
+    color: [0.422813, 0.66, 0.185625, 1]
+    polarColor: [0.850086, 0.934, 0.766172, 1]
+  sea:
+    color: [0.59992, 0.636719, 0.498183, 1]
+    polarColor: [0.9228, 0.936328, 0.885397, 1]
+  air:
+    color: [0.63156, 0.560867, 0.876076, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.536138, 0.327751, 0.630859, 1]
+    ratio: 0.54
+    polarColor: [0.710326, 0.548491, 0.783887, 1]
+  demographics:
+    type: 49
+    gdp: 31360
+    tech: 11
+    economy: 0
+    government: 4
+    description: Aqutebi is mildly famous for its vast dense forests and its great parking meters.
+    inhabitants: Harmless Horned Humanoids
+- type: star
+  type: primary
+  color: [0.66207, 0.653558, 0.646196, 1]
+  radius: 145571.890869
+  orbit:
+    type: static
+    parent: ~
+    radius: 336900
+    vector: [0.108, -0.976, -0.188]
+  corona:
+    shimmer: 0.527258
+    hues: 0.909065
+    flare: 0.034265
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Aqutebi
+    vector: undefined
+    radius: 13476

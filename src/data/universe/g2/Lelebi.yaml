@@ -1,0 +1,61 @@
+name: Lelebi
+position: [67, 93]
+seed: 161 93 25 67 45 65
+limits:
+  blurs: 163
+  stars: 7439
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lelebi
+  radius: 3139
+  rotationSpeed: 0.00129
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 470850
+  land:
+    ratio: 0.6
+    color: [0.446942, 0.0257813, 0.66, 1]
+    polarColor: [0.858623, 0.709621, 0.934, 1]
+  sea:
+    color: [0.554688, 0.474037, 0.43465, 1]
+    polarColor: [0.944531, 0.910198, 0.893431, 1]
+  air:
+    color: [0.708006, 0.777316, 0.946318, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.710266, 0.8233, 0.841797, 1]
+    ratio: 0.22
+    polarColor: [0.792987, 0.86674, 0.878809, 1]
+  demographics:
+    type: 37
+    gdp: 10360
+    tech: 7
+    economy: 5
+    government: 3
+    description: The world Lelebi is mildly fabled for the Lelebiian edible moth but beset by evil disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.735257, 0.423421, 0.357949, 1]
+  radius: 61827.32193
+  orbit:
+    type: static
+    parent: ~
+    radius: 94170
+    vector: [0.938, -0.337, -0.078]
+  corona:
+    shimmer: 0.323089
+    hues: 0.545479
+    flare: 0.095045
+stations:
+- type: coriolis
+  orbit:
+    parent: Lelebi
+    vector: undefined
+    radius: 6278

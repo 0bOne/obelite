@@ -1,0 +1,61 @@
+name: Inlebi
+position: [216, 60]
+seed: 25 60 189 216 58 108
+limits:
+  blurs: 76
+  stars: 7706
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inlebi
+  radius: 6104
+  rotationSpeed: 0.004261
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 671440
+  land:
+    ratio: 0.44
+    color: [0.293678, 0.364787, 0.533203, 1]
+    polarColor: [0.840363, 0.871926, 0.94668, 1]
+  sea:
+    color: [0.769531, 0.510359, 0.39679, 1]
+    polarColor: [0.923047, 0.845328, 0.811272, 1]
+  air:
+    color: [0.544617, 0.980139, 0.96268, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.943359, 0.867587, 0.25058, 1]
+    ratio: 0.28
+    polarColor: [0.924512, 0.8781, 0.500175, 1]
+  demographics:
+    type: 40
+    gdp: 21120
+    tech: 7
+    economy: 4
+    government: 7
+    description: The planet Inlebi is mildly well known for its exotic night life.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.595343, 0.684416, 0.731216, 1]
+  radius: 191831.351318
+  orbit:
+    type: static
+    parent: ~
+    radius: 366240
+    vector: [-0.575, -0.6, 0.555]
+  corona:
+    shimmer: 1.504707
+    hues: 0.507149
+    flare: 0.028008
+stations:
+- type: coriolis
+  orbit:
+    parent: Inlebi
+    vector: undefined
+    radius: 12208

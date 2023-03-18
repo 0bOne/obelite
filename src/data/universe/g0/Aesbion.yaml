@@ -1,0 +1,61 @@
+name: Aesbion
+position: [45, 139]
+seed: 234 139 188 45 155 15
+limits:
+  blurs: 172
+  stars: 9087
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aesbion
+  radius: 6701
+  rotationSpeed: 0.000521
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 1005150
+  land:
+    ratio: 0.37
+    color: [0.66, 0.373828, 0.554921, 1]
+    polarColor: [0.934, 0.832756, 0.896824, 1]
+  sea:
+    color: [0.53125, 0.459445, 0.424377, 1]
+    polarColor: [0.946875, 0.91488, 0.899254, 1]
+  air:
+    color: [0.683963, 0.802083, 0.943717, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.645035, 0.833984, 0.767557, 1]
+    ratio: 0.21
+    polarColor: [0.75135, 0.875293, 0.831719, 1]
+  demographics:
+    type: 47
+    gdp: 28952
+    tech: 9
+    economy: 3
+    government: 7
+    description: The planet Aesbion is cursed by dreadful civil war.
+    inhabitants: Green Frogs
+- type: star
+  type: primary
+  color: [0.409563, 0.616359, 0.714316, 1]
+  radius: 153464.720001
+  orbit:
+    type: static
+    parent: ~
+    radius: 335050
+    vector: [-0.323, -0.861, -0.393]
+  corona:
+    shimmer: 0.636729
+    hues: 0.923714
+    flare: 0.078337
+stations:
+- type: coriolis
+  orbit:
+    parent: Aesbion
+    vector: undefined
+    radius: 13402

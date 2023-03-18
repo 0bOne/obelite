@@ -1,0 +1,61 @@
+name: Ritila
+position: [32, 89]
+seed: 56 89 28 32 29 94
+limits:
+  blurs: 133
+  stars: 7346
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ritila
+  radius: 6432
+  rotationSpeed: 0.00454
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 964800
+  land:
+    ratio: 0.54
+    color: [0.66, 0.628982, 0.376406, 1]
+    polarColor: [0.934, 0.923026, 0.833668, 1]
+  sea:
+    color: [0.420331, 0.511719, 0.0939484, 1]
+    polarColor: [0.906466, 0.948828, 0.755171, 1]
+  air:
+    color: [0.722292, 0.627473, 0.841605, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.527344, 0.440826, 0.497603, 1]
+    ratio: 0.56
+    polarColor: [0.737305, 0.661702, 0.711316, 1]
+  demographics:
+    type: 37
+    gdp: 18648
+    tech: 8
+    economy: 1
+    government: 3
+    description: The world Ritila is very famous for its hoopy casinos but beset by evil disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.629609, 0.736403, 0.769635, 1]
+  radius: 160150.283203
+  orbit:
+    type: static
+    parent: ~
+    radius: 514560
+    vector: [-0.774, 0.568, 0.281]
+  corona:
+    shimmer: 0.280462
+    hues: 0.602219
+    flare: 0.08862
+stations:
+- type: coriolis
+  orbit:
+    parent: Ritila
+    vector: undefined
+    radius: 12864

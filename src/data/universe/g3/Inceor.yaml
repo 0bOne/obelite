@@ -1,0 +1,61 @@
+name: Inceor
+position: [102, 178]
+seed: 130 178 242 102 90 172
+limits:
+  blurs: 136
+  stars: 9014
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inceor
+  radius: 5990
+  rotationSpeed: 0.000094
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 898500
+  land:
+    ratio: 0.43
+    color: [0.453528, 0.265547, 0.66, 1]
+    polarColor: [0.860953, 0.794447, 0.934, 1]
+  sea:
+    color: [0.648438, 0.483162, 0.466064, 1]
+    polarColor: [0.935156, 0.875567, 0.869403, 1]
+  air:
+    color: [0.805381, 0.51768, 0.963229, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.892578, 0.188278, 0.221292, 1]
+    ratio: 0.24
+    polarColor: [0.90166, 0.456994, 0.477838, 1]
+  demographics:
+    type: 49
+    gdp: 31360
+    tech: 10
+    economy: 2
+    government: 6
+    description: Inceor is ravaged by unpredictable civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.802731, 0.779001, 0.763468, 1]
+  radius: 160454.785156
+  orbit:
+    type: static
+    parent: ~
+    radius: 359400
+    vector: [-0.353, -0.911, 0.212]
+  corona:
+    shimmer: 0.419184
+    hues: 0.805717
+    flare: 0.02744
+stations:
+- type: coriolis
+  orbit:
+    parent: Inceor
+    vector: undefined
+    radius: 11980

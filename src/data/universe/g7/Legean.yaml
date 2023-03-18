@@ -1,0 +1,61 @@
+name: Legean
+position: [119, 11]
+seed: 43 11 54 119 15 193
+limits:
+  blurs: 93
+  stars: 9963
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Legean
+  radius: 3191
+  rotationSpeed: 0.003973
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 382920
+  land:
+    ratio: 0.32
+    color: [0.66, 0.657422, 0.658389, 1]
+    polarColor: [0.934, 0.933088, 0.93343, 1]
+  sea:
+    color: [0.227413, 0.537109, 0.115395, 1]
+    polarColor: [0.809882, 0.946289, 0.760543, 1]
+  air:
+    color: [0.771066, 0.575829, 0.910547, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.734375, 0.364319, 0.451051, 1]
+    ratio: 0.47
+    polarColor: [0.830469, 0.56892, 0.63022, 1]
+  demographics:
+    type: 50
+    gdp: 28000
+    tech: 10
+    economy: 3
+    government: 6
+    description: The planet Legean is famous for its inhabitants’ ancient loathing of discos but plagued by unpredictable civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.709857, 0.598714, 0.500754, 1]
+  radius: 90138.348999
+  orbit:
+    type: static
+    parent: ~
+    radius: 382920
+    vector: [-0.238, -0.952, 0.193]
+  corona:
+    shimmer: 0.548097
+    hues: 0.501411
+    flare: 0.009729
+stations:
+- type: coriolis
+  orbit:
+    parent: Legean
+    vector: undefined
+    radius: 6382

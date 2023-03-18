@@ -1,0 +1,61 @@
+name: Esonge
+position: [89, 92]
+seed: 175 92 245 89 64 137
+limits:
+  blurs: 149
+  stars: 7777
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esonge
+  radius: 5209
+  rotationSpeed: 0.002146
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 677170
+  land:
+    ratio: 0.59
+    color: [0.0438281, 0.66, 0.313403, 1]
+    polarColor: [0.716006, 0.934, 0.811378, 1]
+  sea:
+    color: [0.642578, 0.466089, 0.461853, 1]
+    polarColor: [0.935742, 0.87149, 0.869948, 1]
+  air:
+    color: [0.528732, 0.592092, 0.850061, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.256935, 0.427944, 0.552734, 1]
+    ratio: 0.49
+    polarColor: [0.498301, 0.64308, 0.74873, 1]
+  demographics:
+    type: 39
+    gdp: 18720
+    tech: 7
+    economy: 4
+    government: 6
+    description: This world is very notable for its inhabitants’ weird silliness and its inhabitants’ unusual silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.482674, 0.623929, 0.650821, 1]
+  radius: 109761.298523
+  orbit:
+    type: static
+    parent: ~
+    radius: 520900
+    vector: [-0.827, 0.359, -0.432]
+  corona:
+    shimmer: 0.375521
+    hues: 0.602592
+    flare: 0.072105
+stations:
+- type: coriolis
+  orbit:
+    parent: Esonge
+    vector: undefined
+    radius: 10418

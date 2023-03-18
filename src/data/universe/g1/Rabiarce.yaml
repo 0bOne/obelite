@@ -1,0 +1,61 @@
+name: Rabiarce
+position: [239, 34]
+seed: 244 34 8 239 182 148
+limits:
+  blurs: 134
+  stars: 7979
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rabiarce
+  radius: 4079
+  rotationSpeed: 0.001745
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 489480
+  land:
+    ratio: 0.59
+    color: [0.600703, 0.66, 0.636374, 1]
+    polarColor: [0.913022, 0.934, 0.925641, 1]
+  sea:
+    color: [0.198228, 0.566406, 0.0951385, 1]
+    polarColor: [0.790058, 0.943359, 0.747133, 1]
+  air:
+    color: [0.503418, 0.976887, 0.824876, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.933594, 0.172371, 0.134933, 1]
+    ratio: 0.53
+    polarColor: [0.920117, 0.451221, 0.42816, 1]
+  demographics:
+    type: 40
+    gdp: 12800
+    tech: 9
+    economy: 2
+    government: 1
+    description: The world Rabiarce is scourged by deadly disease.
+    inhabitants: Black Furry Humanoids
+- type: star
+  type: primary
+  color: [0.422812, 0.621193, 0.652243, 1]
+  radius: 74891.002655
+  orbit:
+    type: static
+    parent: ~
+    radius: 244740
+    vector: [0.063, 0.187, -0.98]
+  corona:
+    shimmer: 0.561192
+    hues: 0.856079
+    flare: 0.086539
+stations:
+- type: coriolis
+  orbit:
+    parent: Rabiarce
+    vector: undefined
+    radius: 8158

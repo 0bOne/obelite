@@ -1,0 +1,61 @@
+name: Esrilees
+position: [217, 188]
+seed: 112 188 56 217 58 169
+limits:
+  blurs: 114
+  stars: 5401
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esrilees
+  radius: 5337
+  rotationSpeed: 0.004094
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 693810
+  land:
+    ratio: 0.58
+    color: [0.629063, 0.66, 0.641873, 1]
+    polarColor: [0.923055, 0.934, 0.927587, 1]
+  sea:
+    color: [0.0341492, 0.728516, 0.728516, 1]
+    polarColor: [0.706226, 0.927148, 0.927148, 1]
+  air:
+    color: [0.537939, 0.565894, 0.855914, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.276245, 0.349762, 0.570312, 1]
+    ratio: 0.43
+    polarColor: [0.512801, 0.573761, 0.756641, 1]
+  demographics:
+    type: 44
+    gdp: 23232
+    tech: 8
+    economy: 4
+    government: 7
+    description: The world Esrilees is notable for its unusual tropical forests and its fabulous Esrileesian lethal water.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.201978, 0.2599, 0.737769, 1]
+  radius: 127942.717896
+  orbit:
+    type: static
+    parent: ~
+    radius: 426960
+    vector: [0.57, 0.65, -0.502]
+  corona:
+    shimmer: 0.350617
+    hues: 0.614853
+    flare: 0.098083
+stations:
+- type: coriolis
+  orbit:
+    parent: Esrilees
+    vector: undefined
+    radius: 10674

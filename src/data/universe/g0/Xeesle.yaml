@@ -1,0 +1,61 @@
+name: Xeesle
+position: [53, 209]
+seed: 56 209 140 53 189 98
+limits:
+  blurs: 102
+  stars: 7878
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeesle
+  radius: 3381
+  rotationSpeed: 0.00267
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 473340
+  land:
+    ratio: 0.31
+    color: [0.66, 0.548617, 0.252656, 1]
+    polarColor: [0.934, 0.894594, 0.789887, 1]
+  sea:
+    color: [0.562119, 0.730469, 0.588423, 1]
+    polarColor: [0.873545, 0.926953, 0.88189, 1]
+  air:
+    color: [0.427738, 0.673349, 0.895588, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0215454, 0.689453, 0.313755, 1]
+    ratio: 0.25
+    polarColor: [0.31967, 0.810254, 0.534301, 1]
+  demographics:
+    type: 29
+    gdp: 8120
+    tech: 6
+    economy: 3
+    government: 1
+    description: The world Xeesle is a boring planet.
+    inhabitants: Large Blue Fat Felines
+- type: star
+  type: primary
+  color: [0.7686, 0.760823, 0.590008, 1]
+  radius: 85737.880096
+  orbit:
+    type: static
+    parent: ~
+    radius: 169050
+    vector: [0.468, 0.398, 0.789]
+  corona:
+    shimmer: 0.968751
+    hues: 0.889587
+    flare: 0.006587
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeesle
+    vector: undefined
+    radius: 6762

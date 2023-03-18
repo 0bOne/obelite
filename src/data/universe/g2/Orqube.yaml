@@ -1,0 +1,61 @@
+name: Orqube
+position: [159, 225]
+seed: 141 225 161 159 149 89
+limits:
+  blurs: 66
+  stars: 7090
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orqube
+  radius: 5279
+  rotationSpeed: 0.003814
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 686270
+  land:
+    ratio: 0.32
+    color: [0.66, 0.154688, 0.462612, 1]
+    polarColor: [0.934, 0.755227, 0.864167, 1]
+  sea:
+    color: [0.5625, 0.437053, 0.430884, 1]
+    polarColor: [0.94375, 0.891132, 0.888544, 1]
+  air:
+    color: [0.566976, 0.903281, 0.992496, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.548641, 0.980469, 0.306396, 1]
+    ratio: 0.61
+    polarColor: [0.682125, 0.941211, 0.536784, 1]
+  demographics:
+    type: 50
+    gdp: 28800
+    tech: 11
+    economy: 1
+    government: 4
+    description: This world is ravaged by dreadful civil war.
+    inhabitants: Yellow Insects
+- type: star
+  type: primary
+  color: [0.484542, 0.650427, 0.826898, 1]
+  radius: 137984.921112
+  orbit:
+    type: static
+    parent: ~
+    radius: 527900
+    vector: [-0.117, -0.858, 0.5]
+  corona:
+    shimmer: 0.360651
+    hues: 0.577919
+    flare: 0.002609
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Orqube
+    vector: undefined
+    radius: 10558

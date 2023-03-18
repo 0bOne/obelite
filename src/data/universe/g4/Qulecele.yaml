@@ -1,0 +1,61 @@
+name: Qulecele
+position: [233, 93]
+seed: 100 93 116 233 149 122
+limits:
+  blurs: 66
+  stars: 8741
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qulecele
+  radius: 5609
+  rotationSpeed: 0.002083
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 616990
+  land:
+    ratio: 0.28
+    color: [0.457923, 0.603516, 0.00235748, 1]
+    polarColor: [0.882978, 0.939648, 0.705654, 1]
+  sea:
+    color: [0.549542, 0.699219, 0.565913, 1]
+    polarColor: [0.880304, 0.930078, 0.885748, 1]
+  air:
+    color: [0.44859, 0.64517, 0.888434, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0756683, 0.667969, 0.47362, 1]
+    ratio: 0.45
+    polarColor: [0.356902, 0.800586, 0.655002, 1]
+  demographics:
+    type: 36
+    gdp: 14400
+    tech: 6
+    economy: 5
+    government: 6
+    description: The planet Qulecele is reasonably fabled for Zero-G hockey and its inhabitants’ ingrained silliness.
+    inhabitants: Blue Fat Felines
+- type: star
+  type: primary
+  color: [0.403215, 0.593056, 0.747464, 1]
+  radius: 154224.391632
+  orbit:
+    type: static
+    parent: ~
+    radius: 560900
+    vector: [-0.751, 0.585, -0.307]
+  corona:
+    shimmer: 0.319778
+    hues: 0.683083
+    flare: 0.094545
+stations:
+- type: coriolis
+  orbit:
+    parent: Qulecele
+    vector: undefined
+    radius: 11218

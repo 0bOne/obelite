@@ -1,0 +1,61 @@
+name: Orzaedve
+position: [186, 16]
+seed: 65 16 121 186 173 185
+limits:
+  blurs: 143
+  stars: 8074
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orzaedve
+  radius: 5306
+  rotationSpeed: 0.000113
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 689780
+  land:
+    ratio: 0.44
+    color: [0.66, 0.0979688, 0.20335, 1]
+    polarColor: [0.934, 0.73516, 0.772443, 1]
+  sea:
+    color: [0.595703, 0.546573, 0.461903, 1]
+    polarColor: [0.94043, 0.92104, 0.887622, 1]
+  air:
+    color: [0.420867, 0.826772, 0.853312, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.46122, 0.5625, 0.0439453, 1]
+    ratio: 0.35
+    polarColor: [0.668373, 0.753125, 0.319196, 1]
+  demographics:
+    type: 60
+    gdp: 52800
+    tech: 13
+    economy: 0
+    government: 7
+    description: The world Orzaedve is reasonably noted for its inhabitants’ exceptional loathing of food blenders.
+    inhabitants: Harmless Horned Lobsters
+- type: star
+  type: primary
+  color: [0.646197, 0.737364, 0.769849, 1]
+  radius: 129039.853821
+  orbit:
+    type: static
+    parent: ~
+    radius: 530600
+    vector: [-0.747, -0.245, -0.619]
+  corona:
+    shimmer: 0.404224
+    hues: 0.627998
+    flare: 0.059846
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Orzaedve
+    vector: undefined
+    radius: 10612

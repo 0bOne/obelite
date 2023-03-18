@@ -1,0 +1,61 @@
+name: Bian
+position: [21, 81]
+seed: 28 81 64 21 37 160
+limits:
+  blurs: 71
+  stars: 9307
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bian
+  radius: 2837
+  rotationSpeed: 0.001912
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 255330
+  land:
+    ratio: 0.61
+    color: [0.66, 0.372781, 0.260391, 1]
+    polarColor: [0.934, 0.832385, 0.792623, 1]
+  sea:
+    color: [0.695312, 0.617862, 0.49704, 1]
+    polarColor: [0.930469, 0.904558, 0.864137, 1]
+  air:
+    color: [0.853781, 0.762419, 0.993146, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.982422, 0.886482, 0.962934, 1]
+    ratio: 0.36
+    polarColor: [0.94209, 0.884589, 0.93041, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: This planet is most notable for vicious Be gargle blasters but scourged by unpredictable earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.782907, 0.538498, 0.308171, 1]
+  radius: 61948.987579
+  orbit:
+    type: static
+    parent: ~
+    radius: 340440
+    vector: [0.245, 0.086, -0.966]
+  corona:
+    shimmer: 0.418013
+    hues: 0.646393
+    flare: 0.081337
+stations:
+- type: coriolis
+  orbit:
+    parent: Bian
+    vector: undefined
+    radius: 5674

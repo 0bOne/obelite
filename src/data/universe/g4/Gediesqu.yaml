@@ -1,0 +1,61 @@
+name: Gediesqu
+position: [152, 209]
+seed: 228 209 252 152 5 227
+limits:
+  blurs: 181
+  stars: 5550
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gediesqu
+  radius: 3736
+  rotationSpeed: 0.000556
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 410960
+  land:
+    ratio: 0.51
+    color: [0.31456, 0.519531, 0.109589, 1]
+    polarColor: [0.854538, 0.948047, 0.76103, 1]
+  sea:
+    color: [0.612875, 0.626953, 0.488338, 1]
+    polarColor: [0.932043, 0.937305, 0.885497, 1]
+  air:
+    color: [0.444789, 0.498669, 0.928758, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0277405, 0.271601, 0.789062, 1]
+    ratio: 0.42
+    polarColor: [0.339443, 0.504607, 0.855078, 1]
+  demographics:
+    type: 49
+    gdp: 38808
+    tech: 10
+    economy: 1
+    government: 7
+    description: The world Gediesqu is most famous for the Gediesquian spotted wolf.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.200769, 0.641142, 0.740408, 1]
+  radius: 109962.196045
+  orbit:
+    type: static
+    parent: ~
+    radius: 298880
+    vector: [-0.375, -0.86, -0.346]
+  corona:
+    shimmer: 0.38229
+    hues: 0.669083
+    flare: 0.02431
+stations:
+- type: coriolis
+  orbit:
+    parent: Gediesqu
+    vector: undefined
+    radius: 7472

@@ -1,0 +1,61 @@
+name: Geusqubi
+position: [110, 215]
+seed: 66 215 50 110 90 227
+limits:
+  blurs: 190
+  stars: 7637
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geusqubi
+  radius: 3694
+  rotationSpeed: 0.00262
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 406340
+  land:
+    ratio: 0.57
+    color: [0.227966, 0.28381, 0.648438, 1]
+    polarColor: [0.783559, 0.803693, 0.935156, 1]
+  sea:
+    color: [0.699219, 0.506831, 0.447937, 1]
+    polarColor: [0.930078, 0.866101, 0.846516, 1]
+  air:
+    color: [0.439775, 0.794704, 0.844857, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.364427, 0.537109, 0.0860214, 1]
+    ratio: 0.14
+    polarColor: [0.592663, 0.741699, 0.35238, 1]
+  demographics:
+    type: 34
+    gdp: 8160
+    tech: 5
+    economy: 7
+    government: 6
+    description: The planet Geusqubi is very noted for its unusual casinos but plagued by frequent solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.447809, 0.641096, 0.708105, 1]
+  radius: 88010.947876
+  orbit:
+    type: static
+    parent: ~
+    radius: 184700
+    vector: [0.071, 0.359, -0.931]
+  corona:
+    shimmer: 0.408278
+    hues: 0.626137
+    flare: 0.019591
+stations:
+- type: coriolis
+  orbit:
+    parent: Geusqubi
+    vector: undefined
+    radius: 7388

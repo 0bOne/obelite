@@ -1,0 +1,61 @@
+name: Oresri
+position: [58, 85]
+seed: 24 85 164 58 237 249
+limits:
+  blurs: 193
+  stars: 9376
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Oresri
+  radius: 5178
+  rotationSpeed: 0.004302
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 621360
+  land:
+    ratio: 0.28
+    color: [0.529297, 0.48381, 0.491273, 1]
+    polarColor: [0.94707, 0.926723, 0.930061, 1]
+  sea:
+    color: [0.679688, 0.660115, 0.500739, 1]
+    polarColor: [0.932031, 0.925321, 0.870685, 1]
+  air:
+    color: [0.727674, 0.787338, 0.927457, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.748352, 0.780843, 0.785156, 1]
+    ratio: 0.36
+    polarColor: [0.828321, 0.850391, 0.85332, 1]
+  demographics:
+    type: 34
+    gdp: 10880
+    tech: 6
+    economy: 5
+    government: 4
+    description: The planet Oresri is cursed by dreadful civil war.
+    inhabitants: Rodents
+- type: star
+  type: primary
+  color: [0.809204, 0.671428, 0.21998, 1]
+  radius: 133504.793701
+  orbit:
+    type: static
+    parent: ~
+    radius: 621360
+    vector: [0.187, 0.345, 0.92]
+  corona:
+    shimmer: 0.389072
+    hues: 0.935898
+    flare: 0.067471
+stations:
+- type: coriolis
+  orbit:
+    parent: Oresri
+    vector: undefined
+    radius: 10356

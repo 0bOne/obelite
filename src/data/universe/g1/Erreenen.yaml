@@ -1,0 +1,61 @@
+name: Erreenen
+position: [115, 42]
+seed: 112 42 120 115 186 112
+limits:
+  blurs: 41
+  stars: 9923
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erreenen
+  radius: 2931
+  rotationSpeed: 0.001553
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 351720
+  land:
+    ratio: 0.6
+    color: [0.132179, 0.615234, 0.456732, 1]
+    polarColor: [0.754264, 0.938477, 0.878032, 1]
+  sea:
+    color: [0.630859, 0.490164, 0.475609, 1]
+    polarColor: [0.936914, 0.884676, 0.879272, 1]
+  air:
+    color: [0.75386, 0.648033, 0.837053, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.513672, 0.473541, 0.485769, 1]
+    ratio: 0.13
+    polarColor: [0.731152, 0.695452, 0.706329, 1]
+  demographics:
+    type: 58
+    gdp: 40832
+    tech: 12
+    economy: 2
+    government: 7
+    description: This world is mildly well known for its hoopy night life and Erreenenian Enleno brandy.
+    inhabitants: Blue Bug-Eyed Frogs
+- type: star
+  type: primary
+  color: [0.585279, 0.625036, 0.659067, 1]
+  radius: 66019.952087
+  orbit:
+    type: static
+    parent: ~
+    radius: 293100
+    vector: [-0.481, 0.832, -0.277]
+  corona:
+    shimmer: 0.505562
+    hues: 0.846985
+    flare: 0.017151
+stations:
+- type: icosahedron
+  orbit:
+    parent: Erreenen
+    vector: undefined
+    radius: 5862

@@ -1,0 +1,61 @@
+name: Mazaza
+position: [117, 3]
+seed: 57 3 65 117 154 43
+limits:
+  blurs: 136
+  stars: 6406
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Mazaza
+  radius: 5749
+  rotationSpeed: 0.000623
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 574900
+  land:
+    ratio: 0.41
+    color: [0.66, 0.62588, 0.348047, 1]
+    polarColor: [0.934, 0.921929, 0.823635, 1]
+  sea:
+    color: [0.638672, 0.618427, 0.486239, 1]
+    polarColor: [0.936133, 0.928714, 0.880276, 1]
+  air:
+    color: [0.63128, 0.513537, 0.924205, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.704212, 0.205963, 0.775391, 1]
+    ratio: 0.29
+    polarColor: [0.80022, 0.459282, 0.848926, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: This planet is reasonably noted for its inhabitants’ exceptional love for food blenders.
+    inhabitants: Small Red Frogs
+- type: star
+  type: primary
+  color: [0.662451, 0.539825, 0.400985, 1]
+  radius: 121328.497467
+  orbit:
+    type: static
+    parent: ~
+    radius: 459920
+    vector: [-0.319, 0.224, 0.921]
+  corona:
+    shimmer: 0.391264
+    hues: 0.883057
+    flare: 0.088313
+stations:
+- type: coriolis
+  orbit:
+    parent: Mazaza
+    vector: undefined
+    radius: 11498

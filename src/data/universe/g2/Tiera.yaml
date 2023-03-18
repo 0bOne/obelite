@@ -1,0 +1,61 @@
+name: Tiera
+position: [167, 81]
+seed: 21 81 249 167 101 23
+limits:
+  blurs: 121
+  stars: 8727
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiera
+  radius: 4775
+  rotationSpeed: 0.001598
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 668500
+  land:
+    ratio: 0.71
+    color: [0.321854, 0.334331, 0.521484, 1]
+    polarColor: [0.857139, 0.862809, 0.947852, 1]
+  sea:
+    color: [0.596619, 0.830078, 0.654984, 1]
+    polarColor: [0.852516, 0.916992, 0.868635, 1]
+  air:
+    color: [0.503378, 0.654252, 0.840955, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.207283, 0.525391, 0.421012, 1]
+    ratio: 0.46
+    polarColor: [0.457749, 0.736426, 0.644985, 1]
+  demographics:
+    type: 61
+    gdp: 48312
+    tech: 13
+    economy: 1
+    government: 7
+    description: This planet is beset by lethal disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.822174, 0.733572, 0.716962, 1]
+  radius: 122410.377502
+  orbit:
+    type: static
+    parent: ~
+    radius: 238750
+    vector: [-0.202, 0.979, 0.025]
+  corona:
+    shimmer: 0.47415
+    hues: 0.863235
+    flare: 0.008752
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Tiera
+    vector: undefined
+    radius: 9550

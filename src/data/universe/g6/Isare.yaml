@@ -1,0 +1,61 @@
+name: Isare
+position: [161, 48]
+seed: 178 48 98 161 116 189
+limits:
+  blurs: 76
+  stars: 6892
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isare
+  radius: 6305
+  rotationSpeed: 0.002533
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 756600
+  land:
+    ratio: 0.71
+    color: [0.307541, 0.327773, 0.542969, 1]
+    polarColor: [0.84319, 0.852, 0.945703, 1]
+  sea:
+    color: [0.615413, 0.814453, 0.534485, 1]
+    polarColor: [0.862434, 0.918555, 0.839616, 1]
+  air:
+    color: [0.563972, 0.930059, 0.809667, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.792969, 0.342253, 0.331436, 1]
+    ratio: 0.55
+    polarColor: [0.856836, 0.55245, 0.545145, 1]
+  demographics:
+    type: 45
+    gdp: 28800
+    tech: 10
+    economy: 0
+    government: 4
+    description: The planet Isare is mildly notable for killer Re gargle blasters.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.750229, 0.6551, 0.619907, 1]
+  radius: 177546.51413
+  orbit:
+    type: static
+    parent: ~
+    radius: 441350
+    vector: [0.207, -0.808, 0.551]
+  corona:
+    shimmer: 0.51109
+    hues: 0.733864
+    flare: 0.039244
+stations:
+- type: coriolis
+  orbit:
+    parent: Isare
+    vector: undefined
+    radius: 12610

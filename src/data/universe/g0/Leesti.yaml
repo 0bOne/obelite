@@ -1,0 +1,61 @@
+name: Leesti
+position: [13, 186]
+seed: 56 186 124 13 93 65
+limits:
+  blurs: 103
+  stars: 6929
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leesti
+  radius: 3085
+  rotationSpeed: 0.000773
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 370200
+  land:
+    ratio: 0.55
+    color: [0.389297, 0.571176, 0.66, 1]
+    polarColor: [0.838229, 0.902575, 0.934, 1]
+  sea:
+    color: [0.585938, 0.532013, 0.455704, 1]
+    polarColor: [0.941406, 0.919746, 0.889096, 1]
+  air:
+    color: [0.666644, 0.872824, 0.856513, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.621094, 0.605703, 0.553162, 1]
+    ratio: 0.45
+    polarColor: [0.779492, 0.76742, 0.726207, 1]
+  demographics:
+    type: 50
+    gdp: 35200
+    tech: 10
+    economy: 2
+    government: 7
+    description: The planet Leesti is reasonably fabled for Zero-G cricket and Leestiian evil juice.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.84183, 0.707257, 0.670673, 1]
+  radius: 97136.828613
+  orbit:
+    type: static
+    parent: ~
+    radius: 154250
+    vector: [0.768, 0.067, -0.636]
+  corona:
+    shimmer: 0.359677
+    hues: 0.562256
+    flare: 0.070724
+stations:
+- type: coriolis
+  orbit:
+    parent: Leesti
+    vector: undefined
+    radius: 6170

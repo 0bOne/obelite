@@ -1,0 +1,61 @@
+name: Laerzaes
+position: [158, 252]
+seed: 82 252 66 158 154 213
+limits:
+  blurs: 171
+  stars: 7570
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laerzaes
+  radius: 4254
+  rotationSpeed: 0.000746
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 553020
+  land:
+    ratio: 0.2
+    color: [0.66, 0.121172, 0.24746, 1]
+    polarColor: [0.934, 0.743369, 0.788048, 1]
+  sea:
+    color: [0.615234, 0.554135, 0.467674, 1]
+    polarColor: [0.938477, 0.915176, 0.882205, 1]
+  air:
+    color: [0.748195, 0.733794, 0.972334, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.818716, 0.794151, 0.919922, 1]
+    ratio: 0.56
+    polarColor: [0.851121, 0.835867, 0.913965, 1]
+  demographics:
+    type: 19
+    gdp: 2432
+    tech: 3
+    economy: 6
+    government: 0
+    description: The world Laerzaes is most well known for its vast oceans.
+    inhabitants: Horned Lobsters
+- type: star
+  type: primary
+  color: [0.796326, 0.772448, 0.624213, 1]
+  radius: 119116.673584
+  orbit:
+    type: static
+    parent: ~
+    radius: 170160
+    vector: [-0.817, -0.304, 0.49]
+  corona:
+    shimmer: 0.609717
+    hues: 0.883987
+    flare: 0.092081
+stations:
+- type: coriolis
+  orbit:
+    parent: Laerzaes
+    vector: undefined
+    radius: 8508

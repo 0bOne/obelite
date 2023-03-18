@@ -1,0 +1,61 @@
+name: Uscequus
+position: [204, 143]
+seed: 93 143 177 204 245 232
+limits:
+  blurs: 77
+  stars: 5292
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Uscequus
+  radius: 5068
+  rotationSpeed: 0.000762
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 506800
+  land:
+    ratio: 0.61
+    color: [0.525937, 0.66, 0.553169, 1]
+    polarColor: [0.88657, 0.934, 0.896204, 1]
+  sea:
+    color: [0.212242, 0.548828, 0.517273, 1]
+    polarColor: [0.800211, 0.945117, 0.931532, 1]
+  air:
+    color: [0.500612, 0.504543, 0.89884, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.188461, 0.196442, 0.699219, 1]
+    ratio: 0.43
+    polarColor: [0.442726, 0.448538, 0.814648, 1]
+  demographics:
+    type: 26
+    gdp: 6240
+    tech: 3
+    economy: 7
+    government: 6
+    description: This planet is plagued by deadly earthquakes.
+    inhabitants: Small Bony Lobsters
+- type: star
+  type: primary
+  color: [0.570023, 0.742441, 0.810181, 1]
+  radius: 147854.816895
+  orbit:
+    type: static
+    parent: ~
+    radius: 405440
+    vector: [-0.407, -0.371, -0.835]
+  corona:
+    shimmer: 0.318167
+    hues: 0.634399
+    flare: 0.06111
+stations:
+- type: coriolis
+  orbit:
+    parent: Uscequus
+    vector: undefined
+    radius: 10136

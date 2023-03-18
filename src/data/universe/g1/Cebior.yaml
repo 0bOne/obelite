@@ -1,0 +1,61 @@
+name: Cebior
+position: [206, 83]
+seed: 48 83 40 206 26 37
+limits:
+  blurs: 160
+  stars: 9852
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cebior
+  radius: 4302
+  rotationSpeed: 0.004657
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 387180
+  land:
+    ratio: 0.27
+    color: [0.66, 0.00257813, 0.0796198, 1]
+    polarColor: [0.934, 0.701412, 0.728669, 1]
+  sea:
+    color: [0.587891, 0.479936, 0.446889, 1]
+    polarColor: [0.941211, 0.898002, 0.884775, 1]
+  air:
+    color: [0.751911, 0.735831, 0.971684, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.825522, 0.799637, 0.917969, 1]
+    ratio: 0.48
+    polarColor: [0.855614, 0.839522, 0.913086, 1]
+  demographics:
+    type: 45
+    gdp: 22680
+    tech: 9
+    economy: 3
+    government: 5
+    description: This world is reasonably well known for its vast oceans but ravaged by vicious wolfs.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.345321, 0.60321, 0.658786, 1]
+  radius: 131824.89624
+  orbit:
+    type: static
+    parent: ~
+    radius: 559260
+    vector: [0.299, 0.306, -0.904]
+  corona:
+    shimmer: 0.361897
+    hues: 0.82386
+    flare: 0.061824
+stations:
+- type: coriolis
+  orbit:
+    parent: Cebior
+    vector: undefined
+    radius: 8604

@@ -1,0 +1,61 @@
+name: Latibi
+position: [57, 8]
+seed: 52 8 128 57 102 117
+limits:
+  blurs: 171
+  stars: 6941
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Latibi
+  radius: 4153
+  rotationSpeed: 0.002015
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 498360
+  land:
+    ratio: 0.54
+    color: [0.562031, 0.66, 0.563562, 1]
+    polarColor: [0.89934, 0.934, 0.899881, 1]
+  sea:
+    color: [0.275894, 0.373744, 0.560547, 1]
+    polarColor: [0.824108, 0.865302, 0.943945, 1]
+  air:
+    color: [0.548243, 0.932083, 0.99835, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.6571, 0.998047, 0.245613, 1]
+    ratio: 0.06
+    polarColor: [0.746476, 0.949121, 0.501903, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 6
+    economy: 2
+    government: 0
+    description: This planet is a dull place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.265184, 0.475795, 0.709445, 1]
+  radius: 72881.550598
+  orbit:
+    type: static
+    parent: ~
+    radius: 456830
+    vector: [0.894, -0.418, -0.164]
+  corona:
+    shimmer: 0.387787
+    hues: 0.97596
+    flare: 0.095085
+stations:
+- type: coriolis
+  orbit:
+    parent: Latibi
+    vector: undefined
+    radius: 8306

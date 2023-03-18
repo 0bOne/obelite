@@ -1,0 +1,61 @@
+name: Riquri
+position: [132, 182]
+seed: 145 182 233 132 237 30
+limits:
+  blurs: 162
+  stars: 6011
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riquri
+  radius: 6532
+  rotationSpeed: 0.001909
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 653200
+  land:
+    ratio: 0.43
+    color: [0.66, 0.118312, 0.0464063, 1]
+    polarColor: [0.934, 0.742357, 0.716918, 1]
+  sea:
+    color: [0.554412, 0.662109, 0.524256, 1]
+    polarColor: [0.895817, 0.933789, 0.885185, 1]
+  air:
+    color: [0.44236, 0.627766, 0.896889, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0541687, 0.693359, 0.55853, 1]
+    ratio: 0.45
+    polarColor: [0.344153, 0.812012, 0.713323, 1]
+  demographics:
+    type: 28
+    gdp: 8064
+    tech: 4
+    economy: 6
+    government: 5
+    description: This planet is noted for Zero-G hockey.
+    inhabitants: Green Horned Birds
+- type: star
+  type: primary
+  color: [0.77261, 0.53998, 0.465684, 1]
+  radius: 172553.400879
+  orbit:
+    type: static
+    parent: ~
+    radius: 587880
+    vector: [-0.823, -0.393, -0.411]
+  corona:
+    shimmer: 0.526681
+    hues: 0.675163
+    flare: 0.080557
+stations:
+- type: coriolis
+  orbit:
+    parent: Riquri
+    vector: undefined
+    radius: 13064

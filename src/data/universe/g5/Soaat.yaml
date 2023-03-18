@@ -1,0 +1,61 @@
+name: Soaat
+position: [187, 44]
+seed: 185 44 129 187 26 103
+limits:
+  blurs: 114
+  stars: 5034
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soaat
+  radius: 4795
+  rotationSpeed: 0.003161
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 575400
+  land:
+    ratio: 0.58
+    color: [0.223753, 0.198516, 0.66, 1]
+    polarColor: [0.779661, 0.770732, 0.934, 1]
+  sea:
+    color: [0.636719, 0.605396, 0.482513, 1]
+    polarColor: [0.936328, 0.924813, 0.879636, 1]
+  air:
+    color: [0.901419, 0.784357, 0.996398, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.992188, 0.95343, 0.966147, 1]
+    ratio: 0.29
+    polarColor: [0.946484, 0.923377, 0.930959, 1]
+  demographics:
+    type: 23
+    gdp: 2944
+    tech: 4
+    economy: 6
+    government: 0
+    description: Soaat is a revolting dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.805197, 0.579498, 0.250589, 1]
+  radius: 133009.741211
+  orbit:
+    type: static
+    parent: ~
+    radius: 335650
+    vector: [0.012, -0.727, 0.687]
+  corona:
+    shimmer: 0.914541
+    hues: 0.908707
+    flare: 0.018846
+stations:
+- type: coriolis
+  orbit:
+    parent: Soaat
+    vector: undefined
+    radius: 9590

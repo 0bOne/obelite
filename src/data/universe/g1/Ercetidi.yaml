@@ -1,0 +1,61 @@
+name: Ercetidi
+position: [193, 178]
+seed: 244 178 224 193 102 48
+limits:
+  blurs: 120
+  stars: 8492
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ercetidi
+  radius: 3009
+  rotationSpeed: 0.000754
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 361080
+  land:
+    ratio: 0.26
+    color: [0.348047, 0.66, 0.528395, 1]
+    polarColor: [0.823635, 0.934, 0.88744, 1]
+  sea:
+    color: [0.621094, 0.566395, 0.472128, 1]
+    polarColor: [0.937891, 0.917241, 0.881654, 1]
+  air:
+    color: [0.4564, 0.769128, 0.837053, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.298597, 0.513672, 0.120392, 1]
+    ratio: 0.33
+    polarColor: [0.539818, 0.731152, 0.381285, 1]
+  demographics:
+    type: 39
+    gdp: 19968
+    tech: 8
+    economy: 2
+    government: 4
+    description: This world is reasonably notable for its weird tropical forests but scourged by dreadful solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.726224, 0.530947, 0.368628, 1]
+  radius: 70573.483429
+  orbit:
+    type: static
+    parent: ~
+    radius: 240720
+    vector: [-0.872, 0.039, 0.488]
+  corona:
+    shimmer: 0.356635
+    hues: 0.803322
+    flare: 0.075322
+stations:
+- type: coriolis
+  orbit:
+    parent: Ercetidi
+    vector: undefined
+    radius: 6018

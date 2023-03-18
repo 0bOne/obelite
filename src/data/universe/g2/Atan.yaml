@@ -1,0 +1,61 @@
+name: Atan
+position: [137, 102]
+seed: 45 102 65 137 85 209
+limits:
+  blurs: 105
+  stars: 9951
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atan
+  radius: 3209
+  rotationSpeed: 0.002616
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 385080
+  land:
+    ratio: 0.66
+    color: [0.422813, 0.5377, 0.66, 1]
+    polarColor: [0.850086, 0.890732, 0.934, 1]
+  sea:
+    color: [0.582031, 0.580212, 0.465625, 1]
+    polarColor: [0.941797, 0.941061, 0.894707, 1]
+  air:
+    color: [0.683783, 0.860093, 0.883231, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.634028, 0.652344, 0.601379, 1]
+    ratio: 0.35
+    polarColor: [0.77963, 0.793555, 0.754807, 1]
+  demographics:
+    type: 15
+    gdp: 1920
+    tech: 2
+    economy: 6
+    government: 0
+    description: The planet Atan is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.418742, 0.596602, 0.721512, 1]
+  radius: 93510.307007
+  orbit:
+    type: static
+    parent: ~
+    radius: 256720
+    vector: [0.982, -0.125, -0.142]
+  corona:
+    shimmer: 0.286323
+    hues: 0.722824
+    flare: 0.073007
+stations:
+- type: coriolis
+  orbit:
+    parent: Atan
+    vector: undefined
+    radius: 6418

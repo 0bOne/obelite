@@ -1,0 +1,61 @@
+name: Ergere
+position: [186, 120]
+seed: 52 120 232 186 54 16
+limits:
+  blurs: 124
+  stars: 9345
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ergere
+  radius: 3002
+  rotationSpeed: 0.000426
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 360240
+  land:
+    ratio: 0.35
+    color: [0.385513, 0.309486, 0.595703, 1]
+    polarColor: [0.857473, 0.827468, 0.94043, 1]
+  sea:
+    color: [0.738281, 0.557857, 0.438354, 1]
+    polarColor: [0.926172, 0.869586, 0.832108, 1]
+  air:
+    color: [0.571315, 0.478532, 0.940465, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.548138, 0.103027, 0.824219, 1]
+    ratio: 0.36
+    polarColor: [0.688575, 0.394626, 0.870898, 1]
+  demographics:
+    type: 54
+    gdp: 38880
+    tech: 12
+    economy: 0
+    government: 5
+    description: This planet is plagued by frequent solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.298103, 0.338366, 0.78078, 1]
+  radius: 92825.819702
+  orbit:
+    type: static
+    parent: ~
+    radius: 240160
+    vector: [0.006, 0.997, -0.075]
+  corona:
+    shimmer: 0.287192
+    hues: 0.563873
+    flare: 0.07973
+stations:
+- type: icosahedron
+  orbit:
+    parent: Ergere
+    vector: undefined
+    radius: 6004

@@ -1,0 +1,61 @@
+name: Biceri
+position: [50, 45]
+seed: 28 45 0 50 165 198
+limits:
+  blurs: 73
+  stars: 6212
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biceri
+  radius: 4402
+  rotationSpeed: 0.004434
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 440200
+  land:
+    ratio: 0.32
+    color: [0.637244, 0.65625, 0.622925, 1]
+    polarColor: [0.92761, 0.934375, 0.922513, 1]
+  sea:
+    color: [0.166237, 0.525391, 0.23919, 1]
+    polarColor: [0.785541, 0.947461, 0.818431, 1]
+  air:
+    color: [0.620501, 0.900047, 0.942416, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.686496, 0.830078, 0.476646, 1]
+    ratio: 0.41
+    polarColor: [0.779099, 0.873535, 0.641076, 1]
+  demographics:
+    type: 16
+    gdp: 1536
+    tech: 2
+    economy: 7
+    government: 0
+    description: This world is very notable for its inhabitants’ ingrained shyness.
+    inhabitants: Fierce Frogs
+- type: star
+  type: primary
+  color: [0.733347, 0.583989, 0.545363, 1]
+  radius: 105053.955688
+  orbit:
+    type: static
+    parent: ~
+    radius: 308140
+    vector: [0.169, -0.071, -0.983]
+  corona:
+    shimmer: 0.464834
+    hues: 0.587433
+    flare: 0.090375
+stations:
+- type: coriolis
+  orbit:
+    parent: Biceri
+    vector: undefined
+    radius: 8804

@@ -1,0 +1,61 @@
+name: Beesve
+position: [152, 124]
+seed: 182 124 228 152 211 211
+limits:
+  blurs: 81
+  stars: 6159
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beesve
+  radius: 3736
+  rotationSpeed: 0.003752
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 410960
+  land:
+    ratio: 0.36
+    color: [0.66, 0.550994, 0.342891, 1]
+    polarColor: [0.934, 0.895435, 0.821811, 1]
+  sea:
+    color: [0.605778, 0.818359, 0.738641, 1]
+    polarColor: [0.858537, 0.918164, 0.895804, 1]
+  air:
+    color: [0.444255, 0.708176, 0.870873, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0793076, 0.615234, 0.163046, 1]
+    ratio: 0.51
+    polarColor: [0.353909, 0.776855, 0.419995, 1]
+  demographics:
+    type: 29
+    gdp: 11136
+    tech: 5
+    economy: 4
+    government: 4
+    description: The world Beesve is most well known for its exotic night life.
+    inhabitants: Fat Insects
+- type: star
+  type: primary
+  color: [0.27288, 0.356707, 0.760223, 1]
+  radius: 118553.696289
+  orbit:
+    type: static
+    parent: ~
+    radius: 336240
+    vector: [-0.644, -0.761, -0.071]
+  corona:
+    shimmer: 0.404239
+    hues: 0.88131
+    flare: 0.089828
+stations:
+- type: coriolis
+  orbit:
+    parent: Beesve
+    vector: undefined
+    radius: 7472

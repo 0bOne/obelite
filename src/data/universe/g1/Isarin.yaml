@@ -1,0 +1,61 @@
+name: Isarin
+position: [4, 40]
+seed: 20 40 80 4 166 125
+limits:
+  blurs: 57
+  stars: 7143
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isarin
+  radius: 6148
+  rotationSpeed: 0.002636
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 676280
+  land:
+    ratio: 0.58
+    color: [0.521265, 0.0257813, 0.66, 1]
+    polarColor: [0.884917, 0.709621, 0.934, 1]
+  sea:
+    color: [0.564453, 0.483959, 0.440318, 1]
+    polarColor: [0.943555, 0.909916, 0.891678, 1]
+  air:
+    color: [0.871355, 0.771462, 0.993146, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.982422, 0.913345, 0.957058, 1]
+    ratio: 0.43
+    polarColor: [0.94209, 0.900689, 0.926888, 1]
+  demographics:
+    type: 35
+    gdp: 16800
+    tech: 8
+    economy: 0
+    government: 2
+    description: The world Isarin is beset by lethal disease.
+    inhabitants: Blue Fat Humanoids
+- type: star
+  type: primary
+  color: [0.816269, 0.724945, 0.21197, 1]
+  radius: 151775.935669
+  orbit:
+    type: static
+    parent: ~
+    radius: 491840
+    vector: [0.11, -0.385, 0.916]
+  corona:
+    shimmer: 0.550399
+    hues: 0.785652
+    flare: 0.017487
+stations:
+- type: coriolis
+  orbit:
+    parent: Isarin
+    vector: undefined
+    radius: 12296

@@ -1,0 +1,61 @@
+name: Ririso
+position: [170, 22]
+seed: 41 22 21 170 138 30
+limits:
+  blurs: 81
+  stars: 5726
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ririso
+  radius: 6570
+  rotationSpeed: 0.002032
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 657000
+  land:
+    ratio: 0.32
+    color: [0.368672, 0.66, 0.468816, 1]
+    polarColor: [0.830932, 0.934, 0.866361, 1]
+  sea:
+    color: [0.5625, 0.526043, 0.448682, 1]
+    polarColor: [0.94375, 0.928458, 0.89601, 1]
+  air:
+    color: [0.456749, 0.453986, 0.935262, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0681067, 0.04422, 0.808594, 1]
+    ratio: 0.09
+    polarColor: [0.369427, 0.353477, 0.863867, 1]
+  demographics:
+    type: 25
+    gdp: 4800
+    tech: 4
+    economy: 6
+    government: 2
+    description: This planet is plagued by deadly earthquakes.
+    inhabitants: Green Fat Felines
+- type: star
+  type: primary
+  color: [0.641188, 0.698122, 0.785437, 1]
+  radius: 205885.931396
+  orbit:
+    type: static
+    parent: ~
+    radius: 722700
+    vector: [-0.132, -0.261, -0.956]
+  corona:
+    shimmer: 0.292485
+    hues: 0.580154
+    flare: 0.046121
+stations:
+- type: coriolis
+  orbit:
+    parent: Ririso
+    vector: undefined
+    radius: 13140

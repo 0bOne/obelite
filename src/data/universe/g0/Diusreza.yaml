@@ -1,0 +1,61 @@
+name: Diusreza
+position: [216, 98]
+seed: 192 98 200 216 61 237
+limits:
+  blurs: 197
+  stars: 9472
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diusreza
+  radius: 6360
+  rotationSpeed: 0.000102
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 636000
+  land:
+    ratio: 0.29
+    color: [0.139219, 0.403678, 0.66, 1]
+    polarColor: [0.749754, 0.843316, 0.934, 1]
+  sea:
+    color: [0.699219, 0.635353, 0.499832, 1]
+    polarColor: [0.930078, 0.90884, 0.863774, 1]
+  air:
+    color: [0.498995, 0.502954, 0.900141, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.184021, 0.192132, 0.703125, 1]
+    ratio: 0.42
+    polarColor: [0.439695, 0.445581, 0.816406, 1]
+  demographics:
+    type: 28
+    gdp: 8960
+    tech: 6
+    economy: 2
+    government: 1
+    description: This planet is mildly fabled for its inhabitants’ eccentric love for tourists but beset by deadly edible moths.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.418406, 0.55664, 0.806241, 1]
+  radius: 173245.367432
+  orbit:
+    type: static
+    parent: ~
+    radius: 699600
+    vector: [0.535, 0.784, 0.315]
+  corona:
+    shimmer: 0.433806
+    hues: 0.587791
+    flare: 0.012115
+stations:
+- type: coriolis
+  orbit:
+    parent: Diusreza
+    vector: undefined
+    radius: 12720

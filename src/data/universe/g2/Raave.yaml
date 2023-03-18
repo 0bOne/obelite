@@ -1,0 +1,61 @@
+name: Raave
+position: [178, 136]
+seed: 137 136 65 178 205 148
+limits:
+  blurs: 95
+  stars: 6540
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raave
+  radius: 4018
+  rotationSpeed: 0.001657
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 482160
+  land:
+    ratio: 0.47
+    color: [0.451172, 0.454435, 0.66, 1]
+    polarColor: [0.860119, 0.861274, 0.934, 1]
+  sea:
+    color: [0.582298, 0.619141, 0.491685, 1]
+    polarColor: [0.92413, 0.938086, 0.889807, 1]
+  air:
+    color: [0.885998, 0.777369, 0.995748, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.990234, 0.932213, 0.96077, 1]
+    ratio: 0.05
+    polarColor: [0.945605, 0.910976, 0.92802, 1]
+  demographics:
+    type: 31
+    gdp: 7936
+    tech: 7
+    economy: 2
+    government: 0
+    description: The planet Raave is a boring world.
+    inhabitants: Black Horned Lizards
+- type: star
+  type: primary
+  color: [0.658688, 0.656747, 0.646333, 1]
+  radius: 97746.237183
+  orbit:
+    type: static
+    parent: ~
+    radius: 401800
+    vector: [-0.218, 0.147, -0.965]
+  corona:
+    shimmer: 1.082595
+    hues: 0.768517
+    flare: 0.034035
+stations:
+- type: coriolis
+  orbit:
+    parent: Raave
+    vector: undefined
+    radius: 8036

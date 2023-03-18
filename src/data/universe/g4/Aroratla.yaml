@@ -1,0 +1,61 @@
+name: Aroratla
+position: [140, 34]
+seed: 118 34 248 140 91 138
+limits:
+  blurs: 83
+  stars: 9789
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aroratla
+  radius: 5516
+  rotationSpeed: 0.000435
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 717080
+  land:
+    ratio: 0.47
+    color: [0.230156, 0.404052, 0.607422, 1]
+    polarColor: [0.793416, 0.86064, 0.939258, 1]
+  sea:
+    color: [0.728516, 0.54214, 0.441093, 1]
+    polarColor: [0.927148, 0.867851, 0.835701, 1]
+  air:
+    color: [0.808746, 0.482129, 0.987943, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.966797, 0.0604248, 0.102911, 1]
+    ratio: 0.46
+    polarColor: [0.935059, 0.387173, 0.412855, 1]
+  demographics:
+    type: 46
+    gdp: 32384
+    tech: 9
+    economy: 2
+    government: 7
+    description: Aroratla is reasonably notable for its great parking meters but cursed by occasional earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.708221, 0.687078, 0.646745, 1]
+  radius: 139632.166748
+  orbit:
+    type: static
+    parent: ~
+    radius: 551600
+    vector: [0.046, 0.995, -0.084]
+  corona:
+    shimmer: 0.389798
+    hues: 0.518578
+    flare: 0.090584
+stations:
+- type: coriolis
+  orbit:
+    parent: Aroratla
+    vector: undefined
+    radius: 11032

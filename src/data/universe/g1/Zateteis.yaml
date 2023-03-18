@@ -1,0 +1,61 @@
+name: Zateteis
+position: [155, 252]
+seed: 116 252 160 155 102 164
+limits:
+  blurs: 109
+  stars: 5784
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zateteis
+  radius: 3995
+  rotationSpeed: 0.003301
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 399500
+  land:
+    ratio: 0.39
+    color: [0.591317, 0.66, 0.500156, 1]
+    polarColor: [0.909701, 0.934, 0.877449, 1]
+  sea:
+    color: [0.645715, 0.654297, 0.497368, 1]
+    polarColor: [0.931506, 0.93457, 0.878533, 1]
+  air:
+    color: [0.746375, 0.596196, 0.884531, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.65625, 0.407593, 0.512495, 1]
+    ratio: 0.21
+    polarColor: [0.795313, 0.606969, 0.686427, 1]
+  demographics:
+    type: 41
+    gdp: 15744
+    tech: 8
+    economy: 4
+    government: 4
+    description: The planet Zateteis is an unremarkable dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.843579, 0.749366, 0.706463, 1]
+  radius: 61290.478516
+  orbit:
+    type: static
+    parent: ~
+    radius: 359550
+    vector: [0.635, -0.758, -0.146]
+  corona:
+    shimmer: 0.307236
+    hues: 0.795235
+    flare: 0.09731
+stations:
+- type: coriolis
+  orbit:
+    parent: Zateteis
+    vector: undefined
+    radius: 7990

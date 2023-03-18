@@ -1,0 +1,61 @@
+name: Ditearra
+position: [193, 205]
+seed: 82 205 50 193 148 173
+limits:
+  blurs: 43
+  stars: 9429
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ditearra
+  radius: 6337
+  rotationSpeed: 0.004405
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 697070
+  land:
+    ratio: 0.38
+    color: [0.311953, 0.66, 0.53764, 1]
+    polarColor: [0.810865, 0.934, 0.89071, 1]
+  sea:
+    color: [0.595342, 0.658203, 0.511907, 1]
+    polarColor: [0.911875, 0.93418, 0.882271, 1]
+  air:
+    color: [0.704695, 0.814183, 0.9164, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.681458, 0.751953, 0.713952, 1]
+    ratio: 0.3
+    polarColor: [0.789255, 0.838379, 0.811898, 1]
+  demographics:
+    type: 36
+    gdp: 14400
+    tech: 6
+    economy: 5
+    government: 6
+    description: The world Ditearra is reasonably noted for its inhabitants’ exceptional loathing of casinos.
+    inhabitants: Harmless Fat Humanoids
+- type: star
+  type: primary
+  color: [0.754282, 0.601074, 0.402102, 1]
+  radius: 158111.708374
+  orbit:
+    type: static
+    parent: ~
+    radius: 633700
+    vector: [0.249, 0.899, 0.359]
+  corona:
+    shimmer: 0.7894
+    hues: 0.908745
+    flare: 0.066096
+stations:
+- type: coriolis
+  orbit:
+    parent: Ditearra
+    vector: undefined
+    radius: 12674

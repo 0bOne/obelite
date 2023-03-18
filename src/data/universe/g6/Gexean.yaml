@@ -1,0 +1,61 @@
+name: Gexean
+position: [246, 72]
+seed: 146 72 74 246 84 99
+limits:
+  blurs: 194
+  stars: 8870
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gexean
+  radius: 3830
+  rotationSpeed: 0.002817
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 421300
+  land:
+    ratio: 0.65
+    color: [0.020625, 0.66, 0.46519, 1]
+    polarColor: [0.707797, 0.934, 0.865079, 1]
+  sea:
+    color: [0.615234, 0.463974, 0.452534, 1]
+    polarColor: [0.938477, 0.880793, 0.876431, 1]
+  air:
+    color: [0.606284, 0.857112, 0.978838, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.433345, 0.939453, 0.429359, 1]
+    ratio: 0.37
+    polarColor: [0.612059, 0.922754, 0.609612, 1]
+  demographics:
+    type: 36
+    gdp: 11520
+    tech: 8
+    economy: 2
+    government: 1
+    description: The planet Gexean is reasonably noted for mud tennis and its ancient mountains.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.735266, 0.706554, 0.660874, 1]
+  radius: 102357.9422
+  orbit:
+    type: static
+    parent: ~
+    radius: 459600
+    vector: [-0.807, 0.508, -0.3]
+  corona:
+    shimmer: 0.289021
+    hues: 0.81572
+    flare: 0.086966
+stations:
+- type: coriolis
+  orbit:
+    parent: Gexean
+    vector: undefined
+    radius: 7660

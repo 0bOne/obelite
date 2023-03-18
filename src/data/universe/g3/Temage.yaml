@@ -1,0 +1,61 @@
+name: Temage
+position: [27, 210]
+seed: 186 210 98 27 234 124
+limits:
+  blurs: 48
+  stars: 7423
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Temage
+  radius: 5915
+  rotationSpeed: 0.001311
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 887250
+  land:
+    ratio: 0.32
+    color: [0.66, 0.53903, 0.458906, 1]
+    polarColor: [0.934, 0.891202, 0.862855, 1]
+  sea:
+    color: [0.693555, 0.679006, 0.865234, 1]
+    polarColor: [0.868164, 0.864324, 0.913477, 1]
+  air:
+    color: [0.757299, 0.64489, 0.842906, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.53125, 0.47522, 0.490978, 1]
+    ratio: 0.15
+    polarColor: [0.739062, 0.690345, 0.704047, 1]
+  demographics:
+    type: 47
+    gdp: 24064
+    tech: 10
+    economy: 2
+    government: 4
+    description: The world Temage is mildly fabled for the Temageian mountain slug but ravaged by vicious disease.
+    inhabitants: Blue Bug-Eyed Frogs
+- type: star
+  type: primary
+  color: [0.505718, 0.655313, 0.754379, 1]
+  radius: 166926.18103
+  orbit:
+    type: static
+    parent: ~
+    radius: 354900
+    vector: [-0.877, -0.404, 0.26]
+  corona:
+    shimmer: 0.734445
+    hues: 0.865662
+    flare: 0.058919
+stations:
+- type: coriolis
+  orbit:
+    parent: Temage
+    vector: undefined
+    radius: 11830

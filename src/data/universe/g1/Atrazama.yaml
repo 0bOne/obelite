@@ -1,0 +1,61 @@
+name: Atrazama
+position: [29, 197]
+seed: 116 197 200 29 182 145
+limits:
+  blurs: 168
+  stars: 5340
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atrazama
+  radius: 3101
+  rotationSpeed: 0.004211
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 341110
+  land:
+    ratio: 0.55
+    color: [0.525391, 0.462154, 0.0492554, 1]
+    polarColor: [0.947461, 0.918952, 0.732802, 1]
+  sea:
+    color: [0.984375, 0.785193, 0.836545, 1]
+    polarColor: [0.901563, 0.855956, 0.867714, 1]
+  air:
+    color: [0.790597, 0.607533, 0.891035, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.675781, 0.435562, 0.446822, 1]
+    ratio: 0.48
+    polarColor: [0.804102, 0.625456, 0.63383, 1]
+  demographics:
+    type: 17
+    gdp: 2040
+    tech: 2
+    economy: 7
+    government: 1
+    description: This planet is a dull world.
+    inhabitants: Black Slimy Frogs
+- type: star
+  type: primary
+  color: [0.68712, 0.761303, 0.841043, 1]
+  radius: 99867.852631
+  orbit:
+    type: static
+    parent: ~
+    radius: 403130
+    vector: [0.157, -0.732, 0.663]
+  corona:
+    shimmer: 0.655504
+    hues: 0.965195
+    flare: 0.001024
+stations:
+- type: coriolis
+  orbit:
+    parent: Atrazama
+    vector: undefined
+    radius: 6202

@@ -1,0 +1,61 @@
+name: Rizala
+position: [178, 84]
+seed: 10 84 40 178 83 158
+limits:
+  blurs: 51
+  stars: 5503
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rizala
+  radius: 6578
+  rotationSpeed: 0.001388
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 986700
+  land:
+    ratio: 0.56
+    color: [0.487266, 0.66, 0.542595, 1]
+    polarColor: [0.872889, 0.934, 0.892463, 1]
+  sea:
+    color: [0.440214, 0.513672, 0.0862808, 1]
+    polarColor: [0.914718, 0.948633, 0.75131, 1]
+  air:
+    color: [0.671108, 0.726842, 0.991846, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.615395, 0.799792, 0.978516, 1]
+    ratio: 0.35
+    polarColor: [0.722237, 0.832989, 0.940332, 1]
+  demographics:
+    type: 42
+    gdp: 18144
+    tech: 8
+    economy: 4
+    government: 5
+    description: The planet Rizala is mildly notable for Rizalaian lethal brandy.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.848245, 0.777289, 0.490596, 1]
+  radius: 151601.340027
+  orbit:
+    type: static
+    parent: ~
+    radius: 197340
+    vector: [0.227, 0.974, 0.029]
+  corona:
+    shimmer: 0.240501
+    hues: 0.599327
+    flare: 0.037984
+stations:
+- type: coriolis
+  orbit:
+    parent: Rizala
+    vector: undefined
+    radius: 13156

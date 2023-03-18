@@ -1,0 +1,61 @@
+name: Orcees
+position: [170, 66]
+seed: 47 66 173 170 32 153
+limits:
+  blurs: 191
+  stars: 8986
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orcees
+  radius: 5290
+  rotationSpeed: 0.000603
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 476100
+  land:
+    ratio: 0.43
+    color: [0.571498, 0.318527, 0.652344, 1]
+    polarColor: [0.905804, 0.815181, 0.934766, 1]
+  sea:
+    color: [0.535156, 0.46787, 0.427498, 1]
+    polarColor: [0.946484, 0.916733, 0.898883, 1]
+  air:
+    color: [0.49147, 0.449815, 0.946969, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.238644, 0.0197754, 0.84375, 1]
+    ratio: 0.28
+    polarColor: [0.485388, 0.342769, 0.879687, 1]
+  demographics:
+    type: 48
+    gdp: 27648
+    tech: 10
+    economy: 2
+    government: 5
+    description: The planet Orcees is an unremarkable planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.663693, 0.447413, 0.360114, 1]
+  radius: 136274.649048
+  orbit:
+    type: static
+    parent: ~
+    radius: 581900
+    vector: [-0.198, 0.857, 0.476]
+  corona:
+    shimmer: 0.979729
+    hues: 0.926315
+    flare: 0.050133
+stations:
+- type: coriolis
+  orbit:
+    parent: Orcees
+    vector: undefined
+    radius: 10580

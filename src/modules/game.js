@@ -7,6 +7,8 @@ import ModelLoader from "./gl/model-loader.js";
 import Rotator from "./logic/animators/rotator.js";
 import AnimationManager from "./logic/animation-manager.js";
 
+
+
 export default class Game
 {
     viewController;
@@ -21,6 +23,7 @@ export default class Game
             content: DomHelper.AppendElement(document.body, Elements.Content),
         };
         this.gameCtx.dataPath = this.gameCtx.basePath + "data";
+        this.gameCtx.playerCtx = DefaultPlayerContext
 
         this.resetGLContext();
      }
@@ -43,37 +46,25 @@ export default class Game
         this.gameCtx.gl.clear(this.gameCtx.gl.COLOR_BUFFER_BIT);
 
         this.gameCtx.scene = new Scene(this.gameCtx);
-
     }
 
     async Begin()
     {
         this.viewController = new ViewController(this.gameCtx);
 
-        document.body.addEventListener("keypress", this.onKeyPress.bind(this));
+        document.body.addEventListener("keydown", this.onKey.bind(this));
+        document.body.addEventListener("keyup", this.onKey.bind(this));
         
-        await this.addCobra();
+        //await this.addCobra();
 
-        this.gameCtx.animationManager = new AnimationManager(this.gameCtx);
+        this.gameCtx.animationManager = new AnimationManager(this.gameCtx, this.viewController);
         this.gameCtx.animationManager.start();
 
         this.viewController.ChangeView("Welcome");
         //this.viewController.ChangeView("ShipLibrary");
-
+        //this.viewController.ChangeView("GalacticChart");
+    
         console.log("game initialization time: ", new Date().getTime() - window.$started, "milliseconds");
-    }
-
-    async addCobra()
-    {
-        const modelLoader = new ModelLoader(this.gameCtx);
-        this.gameCtx.demoShip = await modelLoader.Load("ships/cobra-mk3");
-        if (this.gameCtx.demoShip)
-        {
-            this.gameCtx.demoShip.Rotation = -3.8;
-            this.gameCtx.demoShip.isVisible = true;
-            this.gameCtx.demoShip.animator = new Rotator(this.gameCtx.demoShip, 0.5);
-            this.gameCtx.scene.models.push(this.gameCtx.demoShip);
-        }
     }
 
     onResize(event)
@@ -81,9 +72,22 @@ export default class Game
         document.body.dispatchEvent(new CustomEvent("viewResize", { detail: {}}));
     }
 
-    onKeyPress(event)
+    onKey(event)
     {
-        this.gameCtx.demoShip.animator.onKeyPress(event);
+        if (this.viewController)
+        {
+            this.viewController.onKey(event);
+        }
+        if (this.gameCtx.demoShip)
+        {
+            this.gameCtx.demoShip.animator.onKey(event);
+        }
+    }
+
+    onKeyUp(event)
+    {
+        event.$keyUp = true;
+        this.onKey(event);
     }
 }
 
@@ -107,3 +111,9 @@ const Elements = {
     }
 };
 
+const DefaultPlayerContext = {
+    galaxy: 0,
+    visiting: "Lave",
+    selected: "Tiraor",
+    fuel: 7.0    
+};

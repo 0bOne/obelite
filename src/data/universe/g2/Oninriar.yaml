@@ -1,0 +1,61 @@
+name: Oninriar
+position: [243, 58]
+seed: 69 58 41 243 5 63
+limits:
+  blurs: 169
+  stars: 9173
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Oninriar
+  radius: 6899
+  rotationSpeed: 0.002253
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 827880
+  land:
+    ratio: 0.26
+    color: [0.570312, 0.542465, 0.525757, 1]
+    polarColor: [0.942969, 0.931458, 0.924551, 1]
+  sea:
+    color: [0.702947, 0.792969, 0.504898, 1]
+    polarColor: [0.894572, 0.920703, 0.837085, 1]
+  air:
+    color: [0.481742, 0.716024, 0.833801, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.167313, 0.503906, 0.172572, 1]
+    ratio: 0.33
+    polarColor: [0.423351, 0.726758, 0.428091, 1]
+  demographics:
+    type: 52
+    gdp: 29952
+    tech: 11
+    economy: 2
+    government: 5
+    description: Oninriar is mildly well known for its exotic cuisine.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.747559, 0.754659, 0.757529, 1]
+  radius: 124144.313202
+  orbit:
+    type: static
+    parent: ~
+    radius: 551920
+    vector: [0.213, -0.448, -0.868]
+  corona:
+    shimmer: 0.43245
+    hues: 0.866646
+    flare: 0.044908
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Oninriar
+    vector: undefined
+    radius: 13798

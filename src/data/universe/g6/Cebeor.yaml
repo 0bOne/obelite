@@ -1,0 +1,61 @@
+name: Cebeor
+position: [199, 229]
+seed: 210 229 234 199 148 229
+limits:
+  blurs: 95
+  stars: 5881
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cebeor
+  radius: 4295
+  rotationSpeed: 0.001619
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 558350
+  land:
+    ratio: 0.53
+    color: [0.612144, 0.66, 0.590391, 1]
+    polarColor: [0.917069, 0.934, 0.909373, 1]
+  sea:
+    color: [0.0785446, 0.693359, 0.67895, 1]
+    polarColor: [0.724355, 0.930664, 0.925829, 1]
+  air:
+    color: [0.714498, 0.801135, 0.922904, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.711212, 0.771484, 0.757358, 1]
+    ratio: 0.21
+    polarColor: [0.805802, 0.847168, 0.837473, 1]
+  demographics:
+    type: 43
+    gdp: 15480
+    tech: 8
+    economy: 5
+    government: 5
+    description: This planet is beset by lethal disease.
+    inhabitants: Fierce Horned Lobsters
+- type: star
+  type: primary
+  color: [0.674514, 0.711527, 0.765152, 1]
+  radius: 85144.364166
+  orbit:
+    type: static
+    parent: ~
+    radius: 343600
+    vector: [0.151, -0.605, 0.782]
+  corona:
+    shimmer: 0.380771
+    hues: 0.706909
+    flare: 0.013554
+stations:
+- type: coriolis
+  orbit:
+    parent: Cebeor
+    vector: undefined
+    radius: 8590

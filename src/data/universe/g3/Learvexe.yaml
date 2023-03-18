@@ -1,0 +1,61 @@
+name: Learvexe
+position: [234, 158]
+seed: 90 158 130 234 170 65
+limits:
+  blurs: 175
+  stars: 9059
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Learvexe
+  radius: 3306
+  rotationSpeed: 0.000065
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 429780
+  land:
+    ratio: 0.67
+    color: [0.66, 0.294954, 0.152109, 1]
+    polarColor: [0.934, 0.804851, 0.754314, 1]
+  sea:
+    color: [0.585702, 0.626953, 0.49495, 1]
+    polarColor: [0.921887, 0.937305, 0.887968, 1]
+  air:
+    color: [0.603467, 0.904043, 0.819271, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.714844, 0.476752, 0.430023, 1]
+    ratio: 0.25
+    polarColor: [0.82168, 0.650632, 0.617062, 1]
+  demographics:
+    type: 19
+    gdp: 2432
+    tech: 3
+    economy: 6
+    government: 0
+    description: Learvexe is mildly notable for its inhabitants’ unusual mating traditions.
+    inhabitants: Large Yellow Fat Humanoids
+- type: star
+  type: primary
+  color: [0.828058, 0.451135, 0.209393, 1]
+  radius: 86318.400879
+  orbit:
+    type: static
+    parent: ~
+    radius: 231420
+    vector: [0.276, 0.961, 0.03]
+  corona:
+    shimmer: 0.553028
+    hues: 0.628777
+    flare: 0.048801
+stations:
+- type: coriolis
+  orbit:
+    parent: Learvexe
+    vector: undefined
+    radius: 6612

@@ -1,0 +1,61 @@
+name: Laainat
+position: [104, 18]
+seed: 114 18 34 104 26 117
+limits:
+  blurs: 105
+  stars: 7745
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laainat
+  radius: 4200
+  rotationSpeed: 0.004444
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 462000
+  land:
+    ratio: 0.53
+    color: [0.220188, 0.113438, 0.66, 1]
+    polarColor: [0.7784, 0.740633, 0.934, 1]
+  sea:
+    color: [0.594505, 0.607422, 0.480243, 1]
+    polarColor: [0.934265, 0.939258, 0.890094, 1]
+  air:
+    color: [0.610066, 0.587573, 0.83315, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.400193, 0.358818, 0.501953, 1]
+    ratio: 0.26
+    polarColor: [0.633906, 0.596511, 0.725879, 1]
+  demographics:
+    type: 35
+    gdp: 17920
+    tech: 7
+    economy: 2
+    government: 4
+    description: This world is very well known for its inhabitants’ unusual mating traditions and its great parking meters.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.722427, 0.663738, 0.553092, 1]
+  radius: 85277.893066
+  orbit:
+    type: static
+    parent: ~
+    radius: 420000
+    vector: [0.32, 0.722, 0.613]
+  corona:
+    shimmer: 0.830768
+    hues: 0.570908
+    flare: 0.041222
+stations:
+- type: coriolis
+  orbit:
+    parent: Laainat
+    vector: undefined
+    radius: 8400

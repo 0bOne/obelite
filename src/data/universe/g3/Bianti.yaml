@@ -1,0 +1,61 @@
+name: Bianti
+position: [149, 64]
+seed: 10 64 210 149 10 102
+limits:
+  blurs: 152
+  stars: 9021
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bianti
+  radius: 4501
+  rotationSpeed: 0.004444
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 495110
+  land:
+    ratio: 0.35
+    color: [0.53625, 0.66, 0.596191, 1]
+    polarColor: [0.890219, 0.934, 0.911425, 1]
+  sea:
+    color: [0.779297, 0.650754, 0.429222, 1]
+    polarColor: [0.92207, 0.884047, 0.818518, 1]
+  air:
+    color: [0.664462, 0.7612, 0.980139, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.59697, 0.910885, 0.943359, 1]
+    ratio: 0.25
+    polarColor: [0.712344, 0.904621, 0.924512, 1]
+  demographics:
+    type: 39
+    gdp: 18720
+    tech: 9
+    economy: 0
+    government: 2
+    description: This world is ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.288709, 0.484833, 0.719348, 1]
+  radius: 127191.573334
+  orbit:
+    type: static
+    parent: ~
+    radius: 450100
+    vector: [-0.682, 0.716, 0.146]
+  corona:
+    shimmer: 0.284585
+    hues: 0.820786
+    flare: 0.028284
+stations:
+- type: coriolis
+  orbit:
+    parent: Bianti
+    vector: undefined
+    radius: 9002

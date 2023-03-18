@@ -1,0 +1,61 @@
+name: Arusxeve
+position: [111, 78]
+seed: 225 78 217 111 45 106
+limits:
+  blurs: 103
+  stars: 7091
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arusxeve
+  radius: 5487
+  rotationSpeed: 0.003815
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 658440
+  land:
+    ratio: 0.49
+    color: [0.66, 0.516108, 0.175313, 1]
+    polarColor: [0.934, 0.883093, 0.762523, 1]
+  sea:
+    color: [0.597141, 0.613281, 0.484157, 1]
+    polarColor: [0.932496, 0.938672, 0.889263, 1]
+  air:
+    color: [0.478298, 0.637637, 0.868922, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.152344, 0.609375, 0.51297, 1]
+    ratio: 0.35
+    polarColor: [0.411304, 0.774219, 0.697666, 1]
+  demographics:
+    type: 34
+    gdp: 7616
+    tech: 6
+    economy: 6
+    government: 3
+    description: This world is very well known for its inhabitants’ unusual mating traditions and its vast dense forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.837219, 0.771692, 0.750222, 1]
+  radius: 118685.176392
+  orbit:
+    type: static
+    parent: ~
+    radius: 438960
+    vector: [0.146, -0.901, 0.408]
+  corona:
+    shimmer: 0.283252
+    hues: 0.984299
+    flare: 0.036075
+stations:
+- type: coriolis
+  orbit:
+    parent: Arusxeve
+    vector: undefined
+    radius: 10974

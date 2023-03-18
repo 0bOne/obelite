@@ -1,0 +1,61 @@
+name: Isvequre
+position: [38, 114]
+seed: 102 114 144 38 155 93
+limits:
+  blurs: 43
+  stars: 8053
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isvequre
+  radius: 6182
+  rotationSpeed: 0.003837
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 865480
+  land:
+    ratio: 0.59
+    color: [0.66, 0.436952, 0.407344, 1]
+    polarColor: [0.934, 0.855088, 0.844613, 1]
+  sea:
+    color: [0.9, 0.72, 0.828, 1]
+    polarColor: [0.91, 0.8645, 0.8918, 1]
+  air:
+    color: [0.771611, 0.60086, 0.889734, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.671875, 0.419922, 0.473068, 1]
+    ratio: 0.45
+    polarColor: [0.802344, 0.614294, 0.653961, 1]
+  demographics:
+    type: 37
+    gdp: 14208
+    tech: 8
+    economy: 2
+    government: 2
+    description: The world Isvequre is very noted for its pink oceans but cursed by deadly disease.
+    inhabitants: Yellow Fat Humanoids
+- type: star
+  type: primary
+  color: [0.183562, 0.696709, 0.719879, 1]
+  radius: 141162.709961
+  orbit:
+    type: static
+    parent: ~
+    radius: 247280
+    vector: [0.706, -0.181, 0.684]
+  corona:
+    shimmer: 0.250644
+    hues: 0.843391
+    flare: 0.012604
+stations:
+- type: coriolis
+  orbit:
+    parent: Isvequre
+    vector: undefined
+    radius: 12364

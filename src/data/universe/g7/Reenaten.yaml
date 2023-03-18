@@ -1,0 +1,61 @@
+name: Reenaten
+position: [112, 83]
+seed: 123 83 6 112 191 14
+limits:
+  blurs: 154
+  stars: 9584
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reenaten
+  radius: 6512
+  rotationSpeed: 0.00264
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 716320
+  land:
+    ratio: 0.54
+    color: [0.527344, 0.512795, 0.510864, 1]
+    polarColor: [0.947266, 0.940732, 0.939865, 1]
+  sea:
+    color: [0.615234, 0.543061, 0.466232, 1]
+    polarColor: [0.938477, 0.910954, 0.881655, 1]
+  air:
+    color: [0.796051, 0.750436, 0.977537, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.900572, 0.844185, 0.935547, 1]
+    ratio: 0.6
+    polarColor: [0.899477, 0.864783, 0.920996, 1]
+  demographics:
+    type: 20
+    gdp: 4480
+    tech: 4
+    economy: 3
+    government: 0
+    description: The world Reenaten is a dull world.
+    inhabitants: Green Bony Humanoids
+- type: star
+  type: primary
+  color: [0.2963, 0.447931, 0.826892, 1]
+  radius: 172334.094238
+  orbit:
+    type: static
+    parent: ~
+    radius: 781440
+    vector: [0.634, -0.732, 0.25]
+  corona:
+    shimmer: 0.371692
+    hues: 0.98571
+    flare: 0.048759
+stations:
+- type: coriolis
+  orbit:
+    parent: Reenaten
+    vector: undefined
+    radius: 13024

@@ -1,0 +1,61 @@
+name: Tequenes
+position: [59, 162]
+seed: 73 162 120 59 165 124
+limits:
+  blurs: 70
+  stars: 8166
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tequenes
+  radius: 5947
+  rotationSpeed: 0.004089
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 773110
+  land:
+    ratio: 0.64
+    color: [0.613594, 0.646948, 0.66, 1]
+    polarColor: [0.917582, 0.929382, 0.934, 1]
+  sea:
+    color: [0.839844, 0.288799, 0.275574, 1]
+    polarColor: [0.916016, 0.76576, 0.762154, 1]
+  air:
+    color: [0.672284, 0.821807, 0.941115, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.613174, 0.826172, 0.686392, 1]
+    ratio: 0.39
+    polarColor: [0.731305, 0.871777, 0.779593, 1]
+  demographics:
+    type: 58
+    gdp: 40832
+    tech: 12
+    economy: 2
+    government: 7
+    description: This planet is a tedious little planet.
+    inhabitants: Blue Bug-Eyed Frogs
+- type: star
+  type: primary
+  color: [0.595194, 0.682568, 0.686981, 1]
+  radius: 131806.594391
+  orbit:
+    type: static
+    parent: ~
+    radius: 475760
+    vector: [-0.503, 0.308, 0.807]
+  corona:
+    shimmer: 0.346605
+    hues: 0.864769
+    flare: 0.044136
+stations:
+- type: icosahedron
+  orbit:
+    parent: Tequenes
+    vector: undefined
+    radius: 11894

@@ -1,0 +1,61 @@
+name: Laenin
+position: [69, 87]
+seed: 128 87 160 69 13 21
+limits:
+  blurs: 161
+  stars: 6536
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laenin
+  radius: 4165
+  rotationSpeed: 0.002793
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 583100
+  land:
+    ratio: 0.66
+    color: [0.66, 0.51345, 0.384141, 1]
+    polarColor: [0.934, 0.882152, 0.836404, 1]
+  sea:
+    color: [0.664062, 0.389099, 0.530877, 1]
+    polarColor: [0.933594, 0.836952, 0.886783, 1]
+  air:
+    color: [0.620387, 0.873571, 0.957375, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.571949, 0.875, 0.475098, 1]
+    ratio: 0.51
+    polarColor: [0.700284, 0.89375, 0.638455, 1]
+  demographics:
+    type: 24
+    gdp: 4608
+    tech: 3
+    economy: 7
+    government: 4
+    description: The planet Laenin is famous for its inhabitants’ ancient loathing of sit coms but cursed by killer disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.768994, 0.628502, 0.470791, 1]
+  radius: 99146.904755
+  orbit:
+    type: static
+    parent: ~
+    radius: 291550
+    vector: [-0.26, -0.948, 0.185]
+  corona:
+    shimmer: 0.390509
+    hues: 0.8293
+    flare: 0.001965
+stations:
+- type: coriolis
+  orbit:
+    parent: Laenin
+    vector: undefined
+    radius: 8330

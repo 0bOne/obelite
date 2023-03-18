@@ -1,0 +1,61 @@
+name: Esenena
+position: [182, 242]
+seed: 194 242 178 182 90 105
+limits:
+  blurs: 176
+  stars: 9695
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esenena
+  radius: 5302
+  rotationSpeed: 0.002575
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 636240
+  land:
+    ratio: 0.55
+    color: [0.195938, 0.203188, 0.66, 1]
+    polarColor: [0.76982, 0.772386, 0.934, 1]
+  sea:
+    color: [0.610516, 0.634766, 0.493679, 1]
+    polarColor: [0.927579, 0.936523, 0.884484, 1]
+  air:
+    color: [0.4169, 0.826149, 0.856564, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.454417, 0.572266, 0.0335312, 1]
+    ratio: 0.58
+    polarColor: [0.660021, 0.75752, 0.311811, 1]
+  demographics:
+    type: 49
+    gdp: 31360
+    tech: 10
+    economy: 2
+    government: 6
+    description: Esenena is a revolting little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.665646, 0.501607, 0.345291, 1]
+  radius: 102210.094604
+  orbit:
+    type: static
+    parent: ~
+    radius: 477180
+    vector: [0.523, -0.64, 0.563]
+  corona:
+    shimmer: 0.450599
+    hues: 0.928879
+    flare: 0.002301
+stations:
+- type: coriolis
+  orbit:
+    parent: Esenena
+    vector: undefined
+    radius: 10604

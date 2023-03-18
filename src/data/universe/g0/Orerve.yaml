@@ -1,0 +1,61 @@
+name: Orerve
+position: [12, 203]
+seed: 56 203 76 12 61 185
+limits:
+  blurs: 51
+  stars: 5927
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orerve
+  radius: 5132
+  rotationSpeed: 0.000203
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 461880
+  land:
+    ratio: 0.29
+    color: [0.550781, 0.494843, 0.494843, 1]
+    polarColor: [0.944922, 0.92093, 0.92093, 1]
+  sea:
+    color: [0.704835, 0.755859, 0.522606, 1]
+    polarColor: [0.908813, 0.924414, 0.853097, 1]
+  air:
+    color: [0.452782, 0.779924, 0.836402, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.331474, 0.511719, 0.113937, 1]
+    ratio: 0.45
+    polarColor: [0.569507, 0.730273, 0.375477, 1]
+  demographics:
+    type: 25
+    gdp: 7000
+    tech: 5
+    economy: 3
+    government: 1
+    description: This planet is a dull place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.347402, 0.626936, 0.72515, 1]
+  radius: 141078.31665
+  orbit:
+    type: static
+    parent: ~
+    radius: 461880
+    vector: [0.115, -0.51, -0.852]
+  corona:
+    shimmer: 0.521617
+    hues: 0.821037
+    flare: 0.036794
+stations:
+- type: coriolis
+  orbit:
+    parent: Orerve
+    vector: undefined
+    radius: 10264

@@ -1,0 +1,61 @@
+name: Qusoin
+position: [201, 67]
+seed: 178 67 58 201 244 218
+limits:
+  blurs: 199
+  stars: 8825
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qusoin
+  radius: 5577
+  rotationSpeed: 0.00099
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 669240
+  land:
+    ratio: 0.44
+    color: [0.192261, 0.362632, 0.65625, 1]
+    polarColor: [0.769217, 0.829861, 0.934375, 1]
+  sea:
+    color: [0.677734, 0.479076, 0.452705, 1]
+    polarColor: [0.932227, 0.863913, 0.854844, 1]
+  air:
+    color: [0.722162, 0.556488, 0.911848, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.738281, 0.31723, 0.56394, 1]
+    ratio: 0.3
+    polarColor: [0.832227, 0.535583, 0.709398, 1]
+  demographics:
+    type: 47
+    gdp: 28952
+    tech: 9
+    economy: 3
+    government: 7
+    description: This planet is beset by evil disease.
+    inhabitants: Horned Birds
+- type: star
+  type: primary
+  color: [0.839893, 0.831126, 0.621109, 1]
+  radius: 121330.555573
+  orbit:
+    type: static
+    parent: ~
+    radius: 669240
+    vector: [-0.057, 0.998, 0.012]
+  corona:
+    shimmer: 0.599597
+    hues: 0.844955
+    flare: 0.065143
+stations:
+- type: coriolis
+  orbit:
+    parent: Qusoin
+    vector: undefined
+    radius: 11154

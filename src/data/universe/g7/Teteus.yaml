@@ -1,0 +1,61 @@
+name: Teteus
+position: [174, 17]
+seed: 139 17 150 174 175 188
+limits:
+  blurs: 165
+  stars: 6662
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teteus
+  radius: 6062
+  rotationSpeed: 0.00148
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 788060
+  land:
+    ratio: 0.2
+    color: [0.491495, 0.66, 0.430547, 1]
+    polarColor: [0.874385, 0.934, 0.852822, 1]
+  sea:
+    color: [0.597656, 0.469053, 0.448009, 1]
+    polarColor: [0.940234, 0.889655, 0.881378, 1]
+  air:
+    color: [0.603759, 0.584949, 0.8325, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.388992, 0.353516, 0.5, 1]
+    ratio: 0.47
+    polarColor: [0.624399, 0.592249, 0.725, 1]
+  demographics:
+    type: 40
+    gdp: 17280
+    tech: 9
+    economy: 1
+    government: 2
+    description: The world Teteus is most famous for its vast oceans.
+    inhabitants: Harmless Insects
+- type: star
+  type: primary
+  color: [0.650986, 0.579158, 0.559068, 1]
+  radius: 146562.46582
+  orbit:
+    type: static
+    parent: ~
+    radius: 484960
+    vector: [0.695, -0.627, 0.351]
+  corona:
+    shimmer: 0.270147
+    hues: 0.935585
+    flare: 0.07097
+stations:
+- type: coriolis
+  orbit:
+    parent: Teteus
+    vector: undefined
+    radius: 12124

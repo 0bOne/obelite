@@ -1,0 +1,61 @@
+name: Ereddive
+position: [4, 195]
+seed: 86 195 244 4 83 80
+limits:
+  blurs: 146
+  stars: 5787
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ereddive
+  radius: 2820
+  rotationSpeed: 0.004294
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 394800
+  land:
+    ratio: 0.61
+    color: [0.585234, 0.66, 0.642477, 1]
+    polarColor: [0.907549, 0.934, 0.927801, 1]
+  sea:
+    color: [0.640378, 0.685547, 0.515499, 1]
+    polarColor: [0.916103, 0.931445, 0.873685, 1]
+  air:
+    color: [0.616891, 0.499689, 0.93201, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.689955, 0.165382, 0.798828, 1]
+    ratio: 0.18
+    polarColor: [0.786261, 0.433513, 0.859473, 1]
+  demographics:
+    type: 38
+    gdp: 21280
+    tech: 7
+    economy: 3
+    government: 6
+    description: The planet Ereddive is reasonably fabled for Zero-G cricket and vicious Soa’xenu gargle blasters.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.281983, 0.66572, 0.781967, 1]
+  radius: 78951.480103
+  orbit:
+    type: static
+    parent: ~
+    radius: 112800
+    vector: [0.463, 0.532, -0.709]
+  corona:
+    shimmer: 0.476799
+    hues: 0.874123
+    flare: 0.00071
+stations:
+- type: coriolis
+  orbit:
+    parent: Ereddive
+    vector: undefined
+    radius: 5640

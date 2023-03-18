@@ -1,0 +1,61 @@
+name: Riorusle
+position: [16, 74]
+seed: 210 74 106 16 148 222
+limits:
+  blurs: 145
+  stars: 6069
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riorusle
+  radius: 6416
+  rotationSpeed: 0.001588
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 769920
+  land:
+    ratio: 0.71
+    color: [0.213814, 0.533708, 0.576172, 1]
+    polarColor: [0.794215, 0.925019, 0.942383, 1]
+  sea:
+    color: [0.590263, 0.664062, 0.516464, 1]
+    polarColor: [0.907656, 0.933594, 0.881717, 1]
+  air:
+    color: [0.559184, 0.587681, 0.834451, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.308258, 0.366921, 0.505859, 1]
+    ratio: 0.39
+    polarColor: [0.549991, 0.60273, 0.727637, 1]
+  demographics:
+    type: 40
+    gdp: 23040
+    tech: 8
+    economy: 2
+    government: 5
+    description: This world is noted for its exciting sit coms.
+    inhabitants: Horned Birds
+- type: star
+  type: primary
+  color: [0.75276, 0.804171, 0.816354, 1]
+  radius: 166890.795898
+  orbit:
+    type: static
+    parent: ~
+    radius: 641600
+    vector: [0.591, 0.353, -0.725]
+  corona:
+    shimmer: 0.286774
+    hues: 0.567711
+    flare: 0.072479
+stations:
+- type: coriolis
+  orbit:
+    parent: Riorusle
+    vector: undefined
+    radius: 12832

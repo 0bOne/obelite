@@ -1,0 +1,61 @@
+name: Zaerla
+position: [203, 119]
+seed: 192 119 136 203 189 128
+limits:
+  blurs: 115
+  stars: 9491
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaerla
+  radius: 3019
+  rotationSpeed: 0.00255
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 362280
+  land:
+    ratio: 0.51
+    color: [0.528516, 0.644592, 0.66, 1]
+    polarColor: [0.887482, 0.928549, 0.934, 1]
+  sea:
+    color: [0.231805, 0.548828, 0.102905, 1]
+    polarColor: [0.808634, 0.945117, 0.75314, 1]
+  air:
+    color: [0.568974, 0.474949, 0.943066, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.548357, 0.0910034, 0.832031, 1]
+    ratio: 0.15
+    polarColor: [0.688086, 0.38768, 0.874414, 1]
+  demographics:
+    type: 25
+    gdp: 3000
+    tech: 4
+    economy: 7
+    government: 1
+    description: The planet Zaerla is mildly well known for its exotic cuisine.
+    inhabitants: Large Black Fat Birds
+- type: star
+  type: primary
+  color: [0.824673, 0.820479, 0.561382, 1]
+  radius: 62212.056122
+  orbit:
+    type: static
+    parent: ~
+    radius: 271710
+    vector: [-0.143, -0.712, -0.688]
+  corona:
+    shimmer: 0.629778
+    hues: 0.685265
+    flare: 0.074255
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaerla
+    vector: undefined
+    radius: 6038

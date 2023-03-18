@@ -1,0 +1,61 @@
+name: Leorqu
+position: [183, 74]
+seed: 121 74 45 183 26 96
+limits:
+  blurs: 123
+  stars: 7209
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leorqu
+  radius: 2999
+  rotationSpeed: 0.004876
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 359880
+  land:
+    ratio: 0.47
+    color: [0.531094, 0.66, 0.578427, 1]
+    polarColor: [0.888395, 0.934, 0.90514, 1]
+  sea:
+    color: [0.574338, 0.722656, 0.548485, 1]
+    polarColor: [0.880132, 0.927734, 0.871835, 1]
+  air:
+    color: [0.5324, 0.508729, 0.900791, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.303932, 0.206566, 0.705078, 1]
+    ratio: 0.32
+    polarColor: [0.526669, 0.456131, 0.817285, 1]
+  demographics:
+    type: 52
+    gdp: 29952
+    tech: 11
+    economy: 2
+    government: 5
+    description: Leorqu is a revolting little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.807341, 0.808375, 0.81434, 1]
+  radius: 67017.600861
+  orbit:
+    type: static
+    parent: ~
+    radius: 149950
+    vector: [0.887, 0.095, 0.451]
+  corona:
+    shimmer: 0.306143
+    hues: 0.804405
+    flare: 0.051675
+stations:
+- type: icosahedron
+  orbit:
+    parent: Leorqu
+    vector: undefined
+    radius: 5998

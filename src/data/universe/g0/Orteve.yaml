@@ -1,0 +1,61 @@
+name: Orteve
+position: [63, 35]
+seed: 186 35 144 63 179 153
+limits:
+  blurs: 174
+  stars: 5111
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orteve
+  radius: 5183
+  rotationSpeed: 0.001681
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 621960
+  land:
+    ratio: 0.48
+    color: [0.409922, 0.66, 0.478303, 1]
+    polarColor: [0.845525, 0.934, 0.869718, 1]
+  sea:
+    color: [0.567804, 0.699219, 0.540529, 1]
+    polarColor: [0.886377, 0.930078, 0.877307, 1]
+  air:
+    color: [0.530131, 0.991195, 0.976311, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.976562, 0.909686, 0.198364, 1]
+    ratio: 0.36
+    polarColor: [0.939453, 0.899244, 0.471561, 1]
+  demographics:
+    type: 38
+    gdp: 12768
+    tech: 8
+    economy: 3
+    government: 2
+    description: This world is fabled for its fabulous vicious Gezabeza gargle blasters.
+    inhabitants: Black Fat Humanoids
+- type: star
+  type: primary
+  color: [0.688882, 0.564156, 0.493518, 1]
+  radius: 141170.63385
+  orbit:
+    type: static
+    parent: ~
+    radius: 518300
+    vector: [-0.353, -0.934, 0.054]
+  corona:
+    shimmer: 0.343487
+    hues: 0.844582
+    flare: 0.021663
+stations:
+- type: coriolis
+  orbit:
+    parent: Orteve
+    vector: undefined
+    radius: 10366

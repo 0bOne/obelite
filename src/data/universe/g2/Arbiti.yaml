@@ -1,0 +1,61 @@
+name: Arbiti
+position: [69, 213]
+seed: 145 213 233 69 237 74
+limits:
+  blurs: 95
+  stars: 5762
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arbiti
+  radius: 5445
+  rotationSpeed: 0.001919
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 707850
+  land:
+    ratio: 0.24
+    color: [0.284546, 0.316656, 0.578125, 1]
+    polarColor: [0.822574, 0.835657, 0.942187, 1]
+  sea:
+    color: [0.59308, 0.769531, 0.707498, 1]
+    polarColor: [0.870134, 0.923047, 0.904445, 1]
+  air:
+    color: [0.738757, 0.526242, 0.940465, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.824219, 0.228592, 0.493832, 1]
+    ratio: 0.2
+    polarColor: [0.870898, 0.477548, 0.652712, 1]
+  demographics:
+    type: 35
+    gdp: 12600
+    tech: 6
+    economy: 5
+    government: 5
+    description: The world Arbiti is a dull world.
+    inhabitants: Small Yellow Slimy Lizards
+- type: star
+  type: primary
+  color: [0.2689, 0.324816, 0.703766, 1]
+  radius: 144229.854584
+  orbit:
+    type: static
+    parent: ~
+    radius: 435600
+    vector: [0.803, -0.484, 0.349]
+  corona:
+    shimmer: 0.358132
+    hues: 0.787994
+    flare: 0.017149
+stations:
+- type: coriolis
+  orbit:
+    parent: Arbiti
+    vector: undefined
+    radius: 10890

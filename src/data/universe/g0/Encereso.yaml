@@ -1,0 +1,61 @@
+name: Encereso
+position: [85, 189]
+seed: 192 189 80 85 237 210
+limits:
+  blurs: 158
+  stars: 9378
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Encereso
+  radius: 3413
+  rotationSpeed: 0.001007
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 409560
+  land:
+    ratio: 0.64
+    color: [0.627308, 0.634766, 0.617409, 1]
+    polarColor: [0.933773, 0.936523, 0.930121, 1]
+  sea:
+    color: [0.504313, 0.9375, 0.39917, 1]
+    polarColor: [0.801563, 0.90625, 0.776154, 1]
+  air:
+    color: [0.479603, 0.656069, 0.861117, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.157928, 0.585938, 0.425434, 1]
+    ratio: 0.44
+    polarColor: [0.415023, 0.763672, 0.632928, 1]
+  demographics:
+    type: 24
+    gdp: 5760
+    tech: 4
+    economy: 5
+    government: 2
+    description: Encereso is cursed by dreadful civil war.
+    inhabitants: Slimy Lizards
+- type: star
+  type: primary
+  color: [0.454662, 0.475182, 0.837946, 1]
+  radius: 103859.12735
+  orbit:
+    type: static
+    parent: ~
+    radius: 409560
+    vector: [-0.128, 0.949, 0.288]
+  corona:
+    shimmer: 0.322609
+    hues: 0.862083
+    flare: 0.027188
+stations:
+- type: coriolis
+  orbit:
+    parent: Encereso
+    vector: undefined
+    radius: 6826

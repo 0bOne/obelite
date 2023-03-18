@@ -1,0 +1,61 @@
+name: Dirateri
+position: [218, 139]
+seed: 222 139 202 218 128 45
+limits:
+  blurs: 133
+  stars: 5375
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Dirateri
+  radius: 6362
+  rotationSpeed: 0.002944
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 699820
+  land:
+    ratio: 0.32
+    color: [0.66, 0.33, 0.376406, 1]
+    polarColor: [0.934, 0.81725, 0.833668, 1]
+  sea:
+    color: [0.658203, 0.628173, 0.491081, 1]
+    polarColor: [0.93418, 0.923524, 0.874881, 1]
+  air:
+    color: [0.505418, 0.590818, 0.866971, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.209816, 0.48356, 0.603516, 1]
+    ratio: 0.5
+    polarColor: [0.456997, 0.675732, 0.771582, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 7
+    economy: 3
+    government: 1
+    description: Dirateri is a revolting dump.
+    inhabitants: Red Bug-Eyed Lizards
+- type: star
+  type: primary
+  color: [0.198762, 0.464353, 0.733655, 1]
+  radius: 189610.626526
+  orbit:
+    type: static
+    parent: ~
+    radius: 636200
+    vector: [-0.275, -0.833, 0.481]
+  corona:
+    shimmer: 0.386156
+    hues: 0.835129
+    flare: 0.035457
+stations:
+- type: coriolis
+  orbit:
+    parent: Dirateri
+    vector: undefined
+    radius: 12724

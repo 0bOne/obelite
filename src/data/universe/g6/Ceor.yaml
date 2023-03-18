@@ -1,0 +1,61 @@
+name: Ceor
+position: [128, 242]
+seed: 178 242 186 128 244 37
+limits:
+  blurs: 92
+  stars: 7357
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceor
+  radius: 4224
+  rotationSpeed: 0.000896
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 591360
+  land:
+    ratio: 0.46
+    color: [0.66, 0.234609, 0.404101, 1]
+    polarColor: [0.934, 0.783502, 0.843466, 1]
+  sea:
+    color: [0.582031, 0.483657, 0.445163, 1]
+    polarColor: [0.941797, 0.902002, 0.88643, 1]
+  air:
+    color: [0.649337, 0.899096, 0.900791, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.699828, 0.705078, 0.537071, 1]
+    ratio: 0.31
+    polarColor: [0.813482, 0.817285, 0.69557, 1]
+  demographics:
+    type: 46
+    gdp: 32384
+    tech: 9
+    economy: 2
+    government: 7
+    description: This planet is noted for Zero-G cricket.
+    inhabitants: Fierce Red Horned Lobsters
+- type: star
+  type: primary
+  color: [0.314536, 0.711371, 0.841348, 1]
+  radius: 120547.324219
+  orbit:
+    type: static
+    parent: ~
+    radius: 253440
+    vector: [0.354, 0.607, -0.711]
+  corona:
+    shimmer: 0.414643
+    hues: 0.572716
+    flare: 0.05872
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceor
+    vector: undefined
+    radius: 8448

@@ -1,0 +1,61 @@
+name: Bizalein
+position: [245, 104]
+seed: 118 104 248 245 91 70
+limits:
+  blurs: 93
+  stars: 5118
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bizalein
+  radius: 4597
+  rotationSpeed: 0.00042
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 551640
+  land:
+    ratio: 0.36
+    color: [0.487266, 0.66, 0.595225, 1]
+    polarColor: [0.872889, 0.934, 0.911083, 1]
+  sea:
+    color: [0.716797, 0.475714, 0.428398, 1]
+    polarColor: [0.92832, 0.850264, 0.834944, 1]
+  air:
+    color: [0.584292, 0.885118, 0.984691, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.506583, 0.957031, 0.362625, 1]
+    ratio: 0.32
+    polarColor: [0.65689, 0.930664, 0.569396, 1]
+  demographics:
+    type: 56
+    gdp: 49280
+    tech: 12
+    economy: 0
+    government: 7
+    description: The planet Bizalein is most famous for its vast rain forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.773672, 0.660519, 0.447253, 1]
+  radius: 115638.371124
+  orbit:
+    type: static
+    parent: ~
+    radius: 459700
+    vector: [-0.835, -0.209, 0.51]
+  corona:
+    shimmer: 0.341579
+    hues: 0.832855
+    flare: 0.033864
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Bizalein
+    vector: undefined
+    radius: 9194

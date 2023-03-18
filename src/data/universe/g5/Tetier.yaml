@@ -1,0 +1,61 @@
+name: Tetier
+position: [221, 253]
+seed: 47 253 149 221 64 220
+limits:
+  blurs: 122
+  stars: 6007
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tetier
+  radius: 6109
+  rotationSpeed: 0.003454
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 549810
+  land:
+    ratio: 0.65
+    color: [0.607422, 0.476921, 0.476921, 1]
+    polarColor: [0.939258, 0.888809, 0.888809, 1]
+  sea:
+    color: [0.190201, 0.541016, 0.401238, 1]
+    polarColor: [0.792559, 0.945898, 0.884802, 1]
+  air:
+    color: [0.46094, 0.539067, 0.910547, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0860596, 0.415282, 0.734375, 1]
+    ratio: 0.48
+    polarColor: [0.372251, 0.60494, 0.830469, 1]
+  demographics:
+    type: 24
+    gdp: 5760
+    tech: 4
+    economy: 5
+    government: 2
+    description: This planet is plagued by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.776956, 0.728925, 0.692406, 1]
+  radius: 142873.939209
+  orbit:
+    type: static
+    parent: ~
+    radius: 855260
+    vector: [0.17, 0.103, 0.98]
+  corona:
+    shimmer: 0.361048
+    hues: 0.688637
+    flare: 0.050723
+stations:
+- type: coriolis
+  orbit:
+    parent: Tetier
+    vector: undefined
+    radius: 12218

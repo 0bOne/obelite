@@ -1,0 +1,61 @@
+name: Artia
+position: [77, 127]
+seed: 129 127 57 77 173 42
+limits:
+  blurs: 75
+  stars: 5330
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Artia
+  radius: 5453
+  rotationSpeed: 0.002531
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 763420
+  land:
+    ratio: 0.48
+    color: [0.66, 0.115915, 0.0747656, 1]
+    polarColor: [0.934, 0.741509, 0.726951, 1]
+  sea:
+    color: [0.578125, 0.433594, 0.514893, 1]
+    polarColor: [0.942187, 0.883301, 0.916425, 1]
+  air:
+    color: [0.654359, 0.527455, 0.917051, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.749926, 0.244431, 0.753906, 1]
+    ratio: 0.28
+    polarColor: [0.836489, 0.484786, 0.839258, 1]
+  demographics:
+    type: 35
+    gdp: 9240
+    tech: 5
+    economy: 7
+    government: 7
+    description: The world Artia is mildly fabled for the Artiaian mountain lobstoid but plagued by occasional civil war.
+    inhabitants: Small Red Horned Birds
+- type: star
+  type: primary
+  color: [0.721191, 0.69654, 0.404171, 1]
+  radius: 101144.596405
+  orbit:
+    type: static
+    parent: ~
+    radius: 163590
+    vector: [0.847, -0.497, -0.188]
+  corona:
+    shimmer: 0.291005
+    hues: 0.563904
+    flare: 0.081346
+stations:
+- type: coriolis
+  orbit:
+    parent: Artia
+    vector: undefined
+    radius: 10906

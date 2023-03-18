@@ -1,0 +1,61 @@
+name: Biabi
+position: [111, 217]
+seed: 170 217 114 111 202 134
+limits:
+  blurs: 129
+  stars: 8700
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biabi
+  radius: 4463
+  rotationSpeed: 0.003203
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 535560
+  land:
+    ratio: 0.3
+    color: [0.607269, 0.66, 0.353203, 1]
+    polarColor: [0.915345, 0.934, 0.825459, 1]
+  sea:
+    color: [0.695312, 0.450379, 0.431854, 1]
+    polarColor: [0.930469, 0.848526, 0.842329, 1]
+  air:
+    color: [0.597196, 0.940465, 0.926704, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.824219, 0.779496, 0.415329, 1]
+    ratio: 0.2
+    polarColor: [0.870898, 0.841364, 0.600869, 1]
+  demographics:
+    type: 56
+    gdp: 40320
+    tech: 12
+    economy: 1
+    government: 6
+    description: This world is plagued by frequent earthquakes.
+    inhabitants: Fierce Black Rodents
+- type: star
+  type: primary
+  color: [0.484144, 0.590205, 0.697537, 1]
+  radius: 142806.329803
+  orbit:
+    type: static
+    parent: ~
+    radius: 267780
+    vector: [0.778, 0.427, 0.46]
+  corona:
+    shimmer: 0.328554
+    hues: 0.95266
+    flare: 0.063824
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Biabi
+    vector: undefined
+    radius: 8926

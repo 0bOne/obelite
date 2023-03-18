@@ -1,0 +1,61 @@
+name: Soinuste
+position: [244, 48]
+seed: 122 48 4 244 219 167
+limits:
+  blurs: 119
+  stars: 5307
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soinuste
+  radius: 4852
+  rotationSpeed: 0.000934
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 679280
+  land:
+    ratio: 0.35
+    color: [0.635629, 0.66, 0.634219, 1]
+    polarColor: [0.925378, 0.934, 0.924879, 1]
+  sea:
+    color: [0.133636, 0.589844, 0.333227, 1]
+    polarColor: [0.759061, 0.941016, 0.838666, 1]
+  air:
+    color: [0.632564, 0.913799, 0.90911, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.744141, 0.734716, 0.502876, 1]
+    ratio: 0.26
+    polarColor: [0.834863, 0.828255, 0.665689, 1]
+  demographics:
+    type: 23
+    gdp: 5888
+    tech: 5
+    economy: 2
+    government: 0
+    description: This planet is beset by deadly earthquakes.
+    inhabitants: Fierce Harmless Fat Insects
+- type: star
+  type: primary
+  color: [0.296121, 0.444684, 0.805905, 1]
+  radius: 122368.334351
+  orbit:
+    type: static
+    parent: ~
+    radius: 388160
+    vector: [0.17, 0.404, -0.899]
+  corona:
+    shimmer: 0.418407
+    hues: 0.920746
+    flare: 0.07312
+stations:
+- type: coriolis
+  orbit:
+    parent: Soinuste
+    vector: undefined
+    radius: 9704

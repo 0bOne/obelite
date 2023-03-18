@@ -1,0 +1,61 @@
+name: Biisza
+position: [245, 132]
+seed: 64 132 232 245 125 70
+limits:
+  blurs: 138
+  stars: 8799
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biisza
+  radius: 4597
+  rotationSpeed: 0.00378
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 551640
+  land:
+    ratio: 0.36
+    color: [0.490247, 0.66, 0.154688, 1]
+    polarColor: [0.873943, 0.934, 0.755227, 1]
+  sea:
+    color: [0.58185, 0.628906, 0.497966, 1]
+    polarColor: [0.91958, 0.937109, 0.888332, 1]
+  air:
+    color: [0.587346, 0.928758, 0.864444, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.789062, 0.568511, 0.391449, 1]
+    ratio: 0.25
+    polarColor: [0.855078, 0.705701, 0.585779, 1]
+  demographics:
+    type: 38
+    gdp: 16416
+    tech: 7
+    economy: 4
+    government: 5
+    description: The planet Biisza is most famous for its vast rain forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.540902, 0.75031, 0.764413, 1]
+  radius: 78285.641785
+  orbit:
+    type: static
+    parent: ~
+    radius: 413730
+    vector: [-0.088, 0.995, 0.053]
+  corona:
+    shimmer: 0.289521
+    hues: 0.858398
+    flare: 0.087514
+stations:
+- type: coriolis
+  orbit:
+    parent: Biisza
+    vector: undefined
+    radius: 9194

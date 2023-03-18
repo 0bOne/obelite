@@ -1,0 +1,61 @@
+name: Bexein
+position: [54, 248]
+seed: 141 248 161 54 149 179
+limits:
+  blurs: 128
+  stars: 8435
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bexein
+  radius: 3638
+  rotationSpeed: 0.003839
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 363800
+  land:
+    ratio: 0.65
+    color: [0.621094, 0.393036, 0.569424, 1]
+    polarColor: [0.937891, 0.851795, 0.918385, 1]
+  sea:
+    color: [0.601562, 0.499281, 0.454462, 1]
+    polarColor: [0.939844, 0.899894, 0.882389, 1]
+  air:
+    color: [0.457057, 0.674643, 0.871523, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.106079, 0.617188, 0.329689, 1]
+    ratio: 0.45
+    polarColor: [0.375196, 0.777734, 0.551307, 1]
+  demographics:
+    type: 49
+    gdp: 31360
+    tech: 11
+    economy: 0
+    government: 4
+    description: This world is very fabled for its unusual oceans.
+    inhabitants: Harmless Frogs
+- type: star
+  type: primary
+  color: [0.382749, 0.44936, 0.821539, 1]
+  radius: 95083.384399
+  orbit:
+    type: static
+    parent: ~
+    radius: 472940
+    vector: [-0.103, -0.278, -0.955]
+  corona:
+    shimmer: 0.433663
+    hues: 0.545815
+    flare: 0.056454
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Bexein
+    vector: undefined
+    radius: 7276

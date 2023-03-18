@@ -1,0 +1,61 @@
+name: Teat
+position: [116, 231]
+seed: 145 231 128 116 125 160
+limits:
+  blurs: 72
+  stars: 7934
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teat
+  radius: 2932
+  rotationSpeed: 0.004739
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 381160
+  land:
+    ratio: 0.44
+    color: [0.66, 0.348047, 0.538143, 1]
+    polarColor: [0.934, 0.823635, 0.890889, 1]
+  sea:
+    color: [0.617188, 0.495547, 0.45831, 1]
+    polarColor: [0.938281, 0.89205, 0.877898, 1]
+  air:
+    color: [0.632411, 0.903393, 0.87984, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.712891, 0.659285, 0.498466, 1]
+    ratio: 0.27
+    polarColor: [0.820801, 0.782226, 0.6665, 1]
+  demographics:
+    type: 8
+    gdp: 768
+    tech: 0
+    economy: 7
+    government: 0
+    description: Teat is cursed by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.838666, 0.774745, 0.758812, 1]
+  radius: 69605.025024
+  orbit:
+    type: static
+    parent: ~
+    radius: 234560
+    vector: [-0.023, 0.183, -0.983]
+  corona:
+    shimmer: 0.400606
+    hues: 0.876114
+    flare: 0.043176
+stations:
+- type: coriolis
+  orbit:
+    parent: Teat
+    vector: undefined
+    radius: 5864

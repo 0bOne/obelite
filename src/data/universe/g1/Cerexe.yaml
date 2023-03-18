@@ -1,0 +1,61 @@
+name: Cerexe
+position: [78, 154]
+seed: 52 154 128 78 102 5
+limits:
+  blurs: 94
+  stars: 7698
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cerexe
+  radius: 4174
+  rotationSpeed: 0.001967
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 459140
+  land:
+    ratio: 0.59
+    color: [0.376406, 0.613473, 0.66, 1]
+    polarColor: [0.833668, 0.917539, 0.934, 1]
+  sea:
+    color: [0.541016, 0.474399, 0.430277, 1]
+    polarColor: [0.945898, 0.916781, 0.897495, 1]
+  air:
+    color: [0.731994, 0.501175, 0.958025, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.876953, 0.147301, 0.489325, 1]
+    ratio: 0.43
+    polarColor: [0.894629, 0.429404, 0.647478, 1]
+  demographics:
+    type: 31
+    gdp: 7936
+    tech: 7
+    economy: 2
+    government: 0
+    description: The planet Cerexe is well known for its inhabitants’ ancient loathing of casinos but plagued by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.6633, 0.658278, 0.208759, 1]
+  radius: 76125.694275
+  orbit:
+    type: static
+    parent: ~
+    radius: 208700
+    vector: [0.235, 0.734, 0.637]
+  corona:
+    shimmer: 0.513026
+    hues: 0.74794
+    flare: 0.046973
+stations:
+- type: coriolis
+  orbit:
+    parent: Cerexe
+    vector: undefined
+    radius: 8348

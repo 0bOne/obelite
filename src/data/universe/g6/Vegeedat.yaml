@@ -1,0 +1,61 @@
+name: Vegeedat
+position: [158, 13]
+seed: 242 13 218 158 52 182
+limits:
+  blurs: 91
+  stars: 8885
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vegeedat
+  radius: 4510
+  rotationSpeed: 0.004716
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 586300
+  land:
+    ratio: 0.6
+    color: [0.66, 0.595627, 0.484688, 1]
+    polarColor: [0.934, 0.911226, 0.871977, 1]
+  sea:
+    color: [0.662301, 0.685103, 0.833984, 1]
+    polarColor: [0.869429, 0.875694, 0.916602, 1]
+  air:
+    color: [0.517758, 0.515618, 0.888434, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.240785, 0.227005, 0.667969, 1]
+    ratio: 0.47
+    polarColor: [0.480589, 0.470266, 0.800586, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 6
+    economy: 5
+    government: 3
+    description: The planet Vegeedat is a boring world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.585378, 0.636043, 0.682394, 1]
+  radius: 117498.382568
+  orbit:
+    type: static
+    parent: ~
+    radius: 270600
+    vector: [-0.864, 0.278, -0.42]
+  corona:
+    shimmer: 0.273158
+    hues: 0.953445
+    flare: 0.044896
+stations:
+- type: coriolis
+  orbit:
+    parent: Vegeedat
+    vector: undefined
+    radius: 9020

@@ -1,0 +1,61 @@
+name: Laribebi
+position: [159, 137]
+seed: 84 137 184 159 54 53
+limits:
+  blurs: 50
+  stars: 9067
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laribebi
+  radius: 4255
+  rotationSpeed: 0.003563
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 510600
+  land:
+    ratio: 0.44
+    color: [0.194702, 0.482496, 0.623047, 1]
+    polarColor: [0.776529, 0.884813, 0.937695, 1]
+  sea:
+    color: [0.578033, 0.734375, 0.664754, 1]
+    polarColor: [0.877248, 0.926562, 0.904602, 1]
+  air:
+    color: [0.439437, 0.794092, 0.844207, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.363102, 0.535156, 0.0857086, 1]
+    ratio: 0.35
+    polarColor: [0.59196, 0.74082, 0.351962, 1]
+  demographics:
+    type: 61
+    gdp: 48312
+    tech: 13
+    economy: 1
+    government: 7
+    description: This world is plagued by frequent earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.279229, 0.673797, 0.81731, 1]
+  radius: 117840.30838
+  orbit:
+    type: static
+    parent: ~
+    radius: 340400
+    vector: [-0.334, -0.87, -0.362]
+  corona:
+    shimmer: 0.391578
+    hues: 0.813187
+    flare: 0.026311
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Laribebi
+    vector: undefined
+    radius: 8510

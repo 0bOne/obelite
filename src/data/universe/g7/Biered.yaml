@@ -1,0 +1,61 @@
+name: Biered
+position: [33, 232]
+seed: 21 232 148 33 121 134
+limits:
+  blurs: 99
+  stars: 5082
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biered
+  radius: 4385
+  rotationSpeed: 0.000027
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 482350
+  land:
+    ratio: 0.47
+    color: [0.394937, 0.66, 0.299063, 1]
+    polarColor: [0.840224, 0.934, 0.806305, 1]
+  sea:
+    color: [0.585507, 0.613281, 0.486313, 1]
+    polarColor: [0.928044, 0.938672, 0.890088, 1]
+  air:
+    color: [0.636742, 0.892986, 0.858715, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.681641, 0.611954, 0.503242, 1]
+    ratio: 0.3
+    polarColor: [0.806738, 0.755191, 0.674777, 1]
+  demographics:
+    type: 39
+    gdp: 18720
+    tech: 9
+    economy: 0
+    government: 2
+    description: This planet is most notable for Bieredian A’il water but scourged by evil disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.770908, 0.482175, 0.403995, 1]
+  radius: 87340.694427
+  orbit:
+    type: static
+    parent: ~
+    radius: 306950
+    vector: [-0.372, -0.662, -0.651]
+  corona:
+    shimmer: 0.278015
+    hues: 0.625443
+    flare: 0.000346
+stations:
+- type: coriolis
+  orbit:
+    parent: Biered
+    vector: undefined
+    radius: 8770

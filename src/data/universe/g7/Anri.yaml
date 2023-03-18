@@ -1,0 +1,61 @@
+name: Anri
+position: [133, 253]
+seed: 53 253 180 133 217 187
+limits:
+  blurs: 197
+  stars: 5726
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anri
+  radius: 5765
+  rotationSpeed: 0.002567
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 576500
+  land:
+    ratio: 0.41
+    color: [0.630392, 0.66, 0.281016, 1]
+    polarColor: [0.923525, 0.934, 0.79992, 1]
+  sea:
+    color: [0.552438, 0.716797, 0.555006, 1]
+    polarColor: [0.875105, 0.92832, 0.875937, 1]
+  air:
+    color: [0.671801, 0.590049, 0.860467, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.568301, 0.38324, 0.583984, 1]
+    ratio: 0.35
+    polarColor: [0.74999, 0.598912, 0.762793, 1]
+  demographics:
+    type: 36
+    gdp: 14400
+    tech: 6
+    economy: 5
+    government: 6
+    description: The planet Anri is very noted for its unusual casinos but beset by dreadful earthquakes.
+    inhabitants: Harmless Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.656103, 0.483613, 0.226902, 1]
+  radius: 159366.148376
+  orbit:
+    type: static
+    parent: ~
+    radius: 345900
+    vector: [-0.82, -0.178, 0.543]
+  corona:
+    shimmer: 0.622161
+    hues: 0.737625
+    flare: 0.060143
+stations:
+- type: coriolis
+  orbit:
+    parent: Anri
+    vector: undefined
+    radius: 11530

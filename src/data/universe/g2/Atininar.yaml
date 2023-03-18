@@ -1,0 +1,61 @@
+name: Atininar
+position: [110, 76]
+seed: 205 76 225 110 21 113
+limits:
+  blurs: 67
+  stars: 9239
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atininar
+  radius: 3182
+  rotationSpeed: 0.001318
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 286380
+  land:
+    ratio: 0.55
+    color: [0.66, 0.447708, 0.221719, 1]
+    polarColor: [0.934, 0.858894, 0.778941, 1]
+  sea:
+    color: [0.474211, 0.362213, 0.558594, 1]
+    polarColor: [0.908485, 0.86116, 0.944141, 1]
+  air:
+    color: [0.594666, 0.93266, 0.892731, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.800781, 0.666373, 0.409775, 1]
+    ratio: 0.5
+    polarColor: [0.860352, 0.770097, 0.597793, 1]
+  demographics:
+    type: 37
+    gdp: 14208
+    tech: 7
+    economy: 4
+    government: 4
+    description: This world is very well known for vicious Outh gargle blasters and its unusual casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.565421, 0.642696, 0.673349, 1]
+  radius: 75645.3302
+  orbit:
+    type: static
+    parent: ~
+    radius: 413660
+    vector: [0.598, -0.799, 0.064]
+  corona:
+    shimmer: 0.35091
+    hues: 0.750221
+    flare: 0.032063
+stations:
+- type: coriolis
+  orbit:
+    parent: Atininar
+    vector: undefined
+    radius: 6364

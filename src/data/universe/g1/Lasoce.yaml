@@ -1,0 +1,61 @@
+name: Lasoce
+position: [41, 137]
+seed: 0 137 64 41 26 213
+limits:
+  blurs: 58
+  stars: 9388
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lasoce
+  radius: 4137
+  rotationSpeed: 0.00065
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 537810
+  land:
+    ratio: 0.38
+    color: [0.53625, 0.66, 0.546885, 1]
+    polarColor: [0.890219, 0.934, 0.893981, 1]
+  sea:
+    color: [0.416824, 0.365234, 0.5, 1]
+    polarColor: [0.910492, 0.885986, 0.95, 1]
+  air:
+    color: [0.677227, 0.868922, 0.862733, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.609375, 0.606102, 0.571289, 1]
+    ratio: 0.16
+    polarColor: [0.774219, 0.77162, 0.743976, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: This world is very notable for its inhabitants’ ingrained shyness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.795422, 0.651085, 0.573175, 1]
+  radius: 132169.246674
+  orbit:
+    type: static
+    parent: ~
+    radius: 165480
+    vector: [0.18, -0.963, 0.2]
+  corona:
+    shimmer: 0.289312
+    hues: 0.594131
+    flare: 0.070403
+stations:
+- type: coriolis
+  orbit:
+    parent: Lasoce
+    vector: undefined
+    radius: 8274

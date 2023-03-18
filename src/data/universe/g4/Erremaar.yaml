@@ -1,0 +1,61 @@
+name: Erremaar
+position: [140, 177]
+seed: 100 177 116 140 149 16
+limits:
+  blurs: 144
+  stars: 5906
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erremaar
+  radius: 2956
+  rotationSpeed: 0.002021
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 354720
+  land:
+    ratio: 0.37
+    color: [0.647109, 0.66, 0.649728, 1]
+    polarColor: [0.929439, 0.934, 0.930366, 1]
+  sea:
+    color: [0.119019, 0.609375, 0.345042, 1]
+    polarColor: [0.750149, 0.939062, 0.837227, 1]
+  air:
+    color: [0.554792, 0.929164, 0.993797, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.660295, 0.984375, 0.269165, 1]
+    ratio: 0.39
+    polarColor: [0.748939, 0.942969, 0.514765, 1]
+  demographics:
+    type: 44
+    gdp: 31680
+    tech: 9
+    economy: 1
+    government: 6
+    description: This planet is reasonably noted for Zero-G hockey.
+    inhabitants: Green Furry Humanoids
+- type: star
+  type: primary
+  color: [0.189727, 0.420733, 0.677637, 1]
+  radius: 55732.615967
+  orbit:
+    type: static
+    parent: ~
+    radius: 325160
+    vector: [-0.552, 0.724, -0.414]
+  corona:
+    shimmer: 0.312878
+    hues: 0.83493
+    flare: 0.099461
+stations:
+- type: coriolis
+  orbit:
+    parent: Erremaar
+    vector: undefined
+    radius: 5912

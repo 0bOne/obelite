@@ -1,0 +1,61 @@
+name: Anondi
+position: [82, 241]
+seed: 5 241 233 82 133 187
+limits:
+  blurs: 48
+  stars: 9220
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anondi
+  radius: 5714
+  rotationSpeed: 0.004785
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 628540
+  land:
+    ratio: 0.38
+    color: [0.66, 0.616293, 0.260391, 1]
+    polarColor: [0.934, 0.918537, 0.792623, 1]
+  sea:
+    color: [0.85, 0.61812, 0.5865, 1]
+    polarColor: [0.915, 0.852597, 0.844088, 1]
+  air:
+    color: [0.665556, 0.877377, 0.867232, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.634766, 0.624228, 0.55542, 1]
+    ratio: 0.46
+    polarColor: [0.785645, 0.777493, 0.724266, 1]
+  demographics:
+    type: 51
+    gdp: 33048
+    tech: 11
+    economy: 1
+    government: 5
+    description: Anondi is most noted for the Anondiian deadly goat and its pink oceans.
+    inhabitants: Harmless Bony Felines
+- type: star
+  type: primary
+  color: [0.769, 0.751627, 0.712316, 1]
+  radius: 117655.947266
+  orbit:
+    type: static
+    parent: ~
+    radius: 457120
+    vector: [0.071, -0.244, -0.967]
+  corona:
+    shimmer: 0.829948
+    hues: 0.592827
+    flare: 0.079712
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Anondi
+    vector: undefined
+    radius: 11428

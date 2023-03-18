@@ -1,0 +1,61 @@
+name: Anreer
+position: [102, 205]
+seed: 165 205 9 102 69 187
+limits:
+  blurs: 49
+  stars: 6285
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anreer
+  radius: 5734
+  rotationSpeed: 0.003538
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 688080
+  land:
+    ratio: 0.57
+    color: [0.6202, 0.592969, 0.66, 1]
+    polarColor: [0.919919, 0.910285, 0.934, 1]
+  sea:
+    color: [0.511719, 0.11425, 0.00799561, 1]
+    polarColor: [0.948828, 0.764582, 0.715327, 1]
+  air:
+    color: [0.645179, 0.894611, 0.913148, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.696526, 0.742188, 0.533447, 1]
+    ratio: 0.15
+    polarColor: [0.801916, 0.833984, 0.687386, 1]
+  demographics:
+    type: 21
+    gdp: 2520
+    tech: 3
+    economy: 7
+    government: 1
+    description: Anreer is cursed by deadly civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.81365, 0.770065, 0.655364, 1]
+  radius: 167483.441467
+  orbit:
+    type: static
+    parent: ~
+    radius: 458720
+    vector: [-0.825, 0.56, -0.074]
+  corona:
+    shimmer: 0.273534
+    hues: 0.550896
+    flare: 0.05443
+stations:
+- type: coriolis
+  orbit:
+    parent: Anreer
+    vector: undefined
+    radius: 11468

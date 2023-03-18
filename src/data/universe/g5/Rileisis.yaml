@@ -1,0 +1,61 @@
+name: Rileisis
+position: [28, 5]
+seed: 201 5 201 28 234 222
+limits:
+  blurs: 143
+  stars: 8701
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rileisis
+  radius: 6428
+  rotationSpeed: 0.000379
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 642800
+  land:
+    ratio: 0.35
+    color: [0.492422, 0.66, 0.612869, 1]
+    polarColor: [0.874713, 0.934, 0.917325, 1]
+  sea:
+    color: [0.5375, 0.671875, 0.545898, 1]
+    polarColor: [0.886172, 0.932813, 0.889087, 1]
+  air:
+    color: [0.493906, 0.573179, 0.880629, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.181274, 0.459952, 0.644531, 1]
+    ratio: 0.46
+    polarColor: [0.435139, 0.648633, 0.790039, 1]
+  demographics:
+    type: 13
+    gdp: 1560
+    tech: 1
+    economy: 7
+    government: 1
+    description: This world is very fabled for the Rileisisian edible poet.
+    inhabitants: Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.845337, 0.814615, 0.776883, 1]
+  radius: 144861.477051
+  orbit:
+    type: static
+    parent: ~
+    radius: 642800
+    vector: [-0.134, 0.955, 0.263]
+  corona:
+    shimmer: 0.34837
+    hues: 0.512505
+    flare: 0.004646
+stations:
+- type: coriolis
+  orbit:
+    parent: Rileisis
+    vector: undefined
+    radius: 12856

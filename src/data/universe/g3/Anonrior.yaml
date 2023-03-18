@@ -1,0 +1,61 @@
+name: Anonrior
+position: [163, 160]
+seed: 242 160 162 163 26 219
+limits:
+  blurs: 110
+  stars: 6762
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anonrior
+  radius: 5795
+  rotationSpeed: 0.004499
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 695400
+  land:
+    ratio: 0.54
+    color: [0.437979, 0.270703, 0.66, 1]
+    polarColor: [0.855452, 0.796272, 0.934, 1]
+  sea:
+    color: [0.563208, 0.71875, 0.609385, 1]
+    polarColor: [0.877912, 0.928125, 0.892819, 1]
+  air:
+    color: [0.679007, 0.857367, 0.898189, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.644451, 0.697266, 0.60466, 1]
+    ratio: 0.47
+    polarColor: [0.775245, 0.81377, 0.74622, 1]
+  demographics:
+    type: 53
+    gdp: 33920
+    tech: 12
+    economy: 0
+    government: 4
+    description: The world Anonrior is reasonably famous for the Anonriorian evil poet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.440151, 0.486868, 0.766669, 1]
+  radius: 140170.806885
+  orbit:
+    type: static
+    parent: ~
+    radius: 521550
+    vector: [0.512, -0.781, 0.357]
+  corona:
+    shimmer: 0.35256
+    hues: 0.601982
+    flare: 0.031206
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Anonrior
+    vector: undefined
+    radius: 11590

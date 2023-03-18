@@ -1,0 +1,61 @@
+name: Edceon
+position: [66, 42]
+seed: 230 42 80 66 155 56
+limits:
+  blurs: 98
+  stars: 8881
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edceon
+  radius: 4930
+  rotationSpeed: 0.001324
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 443700
+  land:
+    ratio: 0.51
+    color: [0.641953, 0.5775, 0.66, 1]
+    polarColor: [0.927615, 0.904813, 0.934, 1]
+  sea:
+    color: [0.511719, 0.165643, 0.0139923, 1]
+    polarColor: [0.948828, 0.788405, 0.718107, 1]
+  air:
+    color: [0.416554, 0.835752, 0.78623, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.509766, 0.350962, 0.0477905, 1]
+    ratio: 0.1
+    polarColor: [0.729395, 0.58738, 0.316261, 1]
+  demographics:
+    type: 37
+    gdp: 14208
+    tech: 8
+    economy: 2
+    government: 2
+    description: The world Edceon is mildly noted for its ancient mountains but ravaged by occasional solar activity.
+    inhabitants: Red Slimy Rodents
+- type: star
+  type: primary
+  color: [0.79119, 0.654592, 0.489224, 1]
+  radius: 125369.111633
+  orbit:
+    type: static
+    parent: ~
+    radius: 443700
+    vector: [0.467, 0.051, -0.883]
+  corona:
+    shimmer: 0.339291
+    hues: 0.829292
+    flare: 0.055559
+stations:
+- type: coriolis
+  orbit:
+    parent: Edceon
+    vector: undefined
+    radius: 9860

@@ -1,0 +1,61 @@
+name: Rigeti
+position: [213, 79]
+seed: 56 79 204 213 61 62
+limits:
+  blurs: 81
+  stars: 5726
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rigeti
+  radius: 6613
+  rotationSpeed: 0.000177
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 595170
+  land:
+    ratio: 0.43
+    color: [0.538748, 0.105703, 0.66, 1]
+    polarColor: [0.891102, 0.737897, 0.934, 1]
+  sea:
+    color: [0.564453, 0.445361, 0.433041, 1]
+    polarColor: [0.943555, 0.893785, 0.888637, 1]
+  air:
+    color: [0.538195, 0.957375, 0.842424, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.875, 0.366791, 0.249512, 1]
+    ratio: 0.62
+    polarColor: [0.89375, 0.569313, 0.494443, 1]
+  demographics:
+    type: 17
+    gdp: 2040
+    tech: 2
+    economy: 7
+    government: 1
+    description: Rigeti is a revolting dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.405271, 0.48122, 0.726791, 1]
+  radius: 146372.765198
+  orbit:
+    type: static
+    parent: ~
+    radius: 595170
+    vector: [0.146, 0.851, -0.504]
+  corona:
+    shimmer: 0.323695
+    hues: 0.832207
+    flare: 0.014296
+stations:
+- type: coriolis
+  orbit:
+    parent: Rigeti
+    vector: undefined
+    radius: 13226

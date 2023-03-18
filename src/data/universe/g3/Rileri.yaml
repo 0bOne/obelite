@@ -1,0 +1,61 @@
+name: Rileri
+position: [61, 229]
+seed: 34 229 210 61 218 222
+limits:
+  blurs: 168
+  stars: 7597
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rileri
+  radius: 6461
+  rotationSpeed: 0.003861
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 904540
+  land:
+    ratio: 0.52
+    color: [0.66, 0.415078, 0.489703, 1]
+    polarColor: [0.934, 0.84735, 0.873751, 1]
+  sea:
+    color: [0.666016, 0.587886, 0.504715, 1]
+    polarColor: [0.933398, 0.906024, 0.876884, 1]
+  air:
+    color: [0.666432, 0.874853, 0.900141, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.660682, 0.703125, 0.576782, 1]
+    ratio: 0.32
+    polarColor: [0.785605, 0.816406, 0.72472, 1]
+  demographics:
+    type: 24
+    gdp: 5760
+    tech: 4
+    economy: 5
+    government: 2
+    description: Rileri is most noted for the Rileriian deadly Ardigenuoid and the Rileriian mountain slug.
+    inhabitants: Slimy Lizards
+- type: star
+  type: primary
+  color: [0.765347, 0.76041, 0.38289, 1]
+  radius: 115754.982605
+  orbit:
+    type: static
+    parent: ~
+    radius: 258440
+    vector: [0.98, -0.197, -0.038]
+  corona:
+    shimmer: 0.443608
+    hues: 0.536804
+    flare: 0.02948
+stations:
+- type: coriolis
+  orbit:
+    parent: Rileri
+    vector: undefined
+    radius: 12922

@@ -1,0 +1,61 @@
+name: Anxebiza
+position: [104, 189]
+seed: 234 189 188 104 155 251
+limits:
+  blurs: 126
+  stars: 8145
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anxebiza
+  radius: 5736
+  rotationSpeed: 0.000638
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 688320
+  land:
+    ratio: 0.28
+    color: [0.523438, 0.419159, 0.51692, 1]
+    polarColor: [0.947656, 0.900459, 0.944706, 1]
+  sea:
+    color: [0.658779, 0.775391, 0.542168, 1]
+    polarColor: [0.887779, 0.922461, 0.853096, 1]
+  air:
+    color: [0.700379, 0.731163, 0.976887, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.700195, 0.774956, 0.933594, 1]
+    ratio: 0.39
+    polarColor: [0.776349, 0.8224, 0.920117, 1]
+  demographics:
+    type: 37
+    gdp: 16280
+    tech: 6
+    economy: 5
+    government: 7
+    description: The planet Anxebiza is an unremarkable dump.
+    inhabitants: Furry Rodents
+- type: star
+  type: primary
+  color: [0.684564, 0.409583, 0.289085, 1]
+  radius: 119332.536621
+  orbit:
+    type: static
+    parent: ~
+    radius: 458880
+    vector: [-0.648, 0.25, -0.72]
+  corona:
+    shimmer: 0.439067
+    hues: 0.997665
+    flare: 0.071519
+stations:
+- type: coriolis
+  orbit:
+    parent: Anxebiza
+    vector: undefined
+    radius: 11472

@@ -1,0 +1,61 @@
+name: Leistean
+position: [61, 158]
+seed: 105 158 225 61 77 33
+limits:
+  blurs: 160
+  stars: 9916
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leistean
+  radius: 3133
+  rotationSpeed: 0.002836
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 407290
+  land:
+    ratio: 0.71
+    color: [0.507812, 0.493927, 0.495229, 1]
+    polarColor: [0.949219, 0.94273, 0.943338, 1]
+  sea:
+    color: [0.550781, 0.461839, 0.430943, 1]
+    polarColor: [0.944922, 0.906774, 0.893523, 1]
+  air:
+    color: [0.71658, 0.717121, 0.978188, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.748558, 0.74707, 0.9375, 1]
+    ratio: 0.15
+    polarColor: [0.805754, 0.80484, 0.921875, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 4
+    economy: 6
+    government: 4
+    description: The planet Leistean is well known for its inhabitants’ ancient loathing of sit coms but ravaged by vicious wolfs.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.682196, 0.472051, 0.412663, 1]
+  radius: 61608.272705
+  orbit:
+    type: static
+    parent: ~
+    radius: 93990
+    vector: [-0.516, 0.054, 0.855]
+  corona:
+    shimmer: 0.316611
+    hues: 0.801163
+    flare: 0.051167
+stations:
+- type: coriolis
+  orbit:
+    parent: Leistean
+    vector: undefined
+    radius: 6266

@@ -1,0 +1,61 @@
+name: Xecees
+position: [32, 66]
+seed: 34 66 210 32 218 98
+limits:
+  blurs: 181
+  stars: 7818
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xecees
+  radius: 3360
+  rotationSpeed: 0.0038
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 369600
+  land:
+    ratio: 0.59
+    color: [0.533203, 0.476967, 0.490147, 1]
+    polarColor: [0.94668, 0.921718, 0.927569, 1]
+  sea:
+    color: [0.703296, 0.712891, 0.537453, 1]
+    polarColor: [0.925586, 0.928711, 0.871573, 1]
+  air:
+    color: [0.599348, 0.522274, 0.905994, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.535337, 0.236481, 0.720703, 1]
+    ratio: 0.4
+    polarColor: [0.691806, 0.478168, 0.824316, 1]
+  demographics:
+    type: 29
+    gdp: 11136
+    tech: 6
+    economy: 2
+    government: 2
+    description: The world Xecees is very noted for its unusual sit coms but ravaged by dreadful civil war.
+    inhabitants: Large Blue Horned Birds
+- type: star
+  type: primary
+  color: [0.266484, 0.337626, 0.657468, 1]
+  radius: 63858.764648
+  orbit:
+    type: static
+    parent: ~
+    radius: 369600
+    vector: [-0.523, -0.714, 0.465]
+  corona:
+    shimmer: 0.353138
+    hues: 0.679977
+    flare: 0.031018
+stations:
+- type: coriolis
+  orbit:
+    parent: Xecees
+    vector: undefined
+    radius: 6720

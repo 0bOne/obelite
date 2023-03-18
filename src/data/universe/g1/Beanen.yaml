@@ -1,0 +1,61 @@
+name: Beanen
+position: [164, 196]
+seed: 48 196 8 164 90 83
+limits:
+  blurs: 139
+  stars: 9644
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beanen
+  radius: 3748
+  rotationSpeed: 0.000922
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 487240
+  land:
+    ratio: 0.31
+    color: [0.556875, 0.626162, 0.66, 1]
+    polarColor: [0.897516, 0.922029, 0.934, 1]
+  sea:
+    color: [0.78125, 0.493908, 0.38147, 1]
+    polarColor: [0.921875, 0.837109, 0.80394, 1]
+  air:
+    color: [0.778733, 0.554727, 0.928758, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.789062, 0.308228, 0.398384, 1]
+    ratio: 0.28
+    polarColor: [0.855078, 0.529414, 0.590476, 1]
+  demographics:
+    type: 16
+    gdp: 2560
+    tech: 2
+    economy: 6
+    government: 1
+    description: This world is most fabled for Beanenian lethal brandy but scourged by deadly tree ants.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.663915, 0.665464, 0.66842, 1]
+  radius: 81735.864258
+  orbit:
+    type: static
+    parent: ~
+    radius: 149920
+    vector: [-0.688, 0.18, 0.703]
+  corona:
+    shimmer: 0.484798
+    hues: 0.743896
+    flare: 0.018018
+stations:
+- type: coriolis
+  orbit:
+    parent: Beanen
+    vector: undefined
+    radius: 7496

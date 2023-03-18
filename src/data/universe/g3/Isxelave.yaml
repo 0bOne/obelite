@@ -1,0 +1,61 @@
+name: Isxelave
+position: [85, 47]
+seed: 226 47 18 85 218 157
+limits:
+  blurs: 124
+  stars: 7003
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isxelave
+  radius: 6229
+  rotationSpeed: 0.001335
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 809770
+  land:
+    ratio: 0.26
+    color: [0.273584, 0.626953, 0.00734711, 1]
+    polarColor: [0.805232, 0.937305, 0.705725, 1]
+  sea:
+    color: [0.784025, 0.700555, 0.884766, 1]
+    polarColor: [0.885577, 0.864078, 0.911523, 1]
+  air:
+    color: [0.632793, 0.885832, 0.830266, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.660156, 0.549794, 0.48996, 1]
+    ratio: 0.33
+    polarColor: [0.79707, 0.713789, 0.668636, 1]
+  demographics:
+    type: 18
+    gdp: 2592
+    tech: 2
+    economy: 7
+    government: 2
+    description: This world is mildly well known for Isxelaveian shrew cutlet and the Isxelaveian edible moth.
+    inhabitants: Black Horned Lobsters
+- type: star
+  type: primary
+  color: [0.841183, 0.793481, 0.660416, 1]
+  radius: 160342.383118
+  orbit:
+    type: static
+    parent: ~
+    radius: 498320
+    vector: [-0.093, 0.952, -0.291]
+  corona:
+    shimmer: 0.461073
+    hues: 0.770744
+    flare: 0.089679
+stations:
+- type: coriolis
+  orbit:
+    parent: Isxelave
+    vector: undefined
+    radius: 12458

@@ -1,0 +1,61 @@
+name: Diraonle
+position: [252, 233]
+seed: 249 233 237 252 154 237
+limits:
+  blurs: 166
+  stars: 6551
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diraonle
+  radius: 6396
+  rotationSpeed: 0.002451
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 767520
+  land:
+    ratio: 0.66
+    color: [0.524531, 0.388641, 0.552734, 1]
+    polarColor: [0.932675, 0.87461, 0.944727, 1]
+  sea:
+    color: [0.755859, 0.626269, 0.442886, 1]
+    polarColor: [0.924414, 0.884792, 0.828723, 1]
+  air:
+    color: [0.564632, 0.959977, 0.925615, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.882812, 0.742287, 0.320709, 1]
+    ratio: 0.32
+    polarColor: [0.897266, 0.807999, 0.540199, 1]
+  demographics:
+    type: 43
+    gdp: 27864
+    tech: 9
+    economy: 1
+    government: 5
+    description: This world is a revolting little planet.
+    inhabitants: Furry Felines
+- type: star
+  type: primary
+  color: [0.819745, 0.539555, 0.233943, 1]
+  radius: 149533.436279
+  orbit:
+    type: static
+    parent: ~
+    radius: 447720
+    vector: [-0.997, -0.079, -0.001]
+  corona:
+    shimmer: 0.762188
+    hues: 0.596893
+    flare: 0.099249
+stations:
+- type: coriolis
+  orbit:
+    parent: Diraonle
+    vector: undefined
+    radius: 12792

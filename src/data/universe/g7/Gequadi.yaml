@@ -1,0 +1,61 @@
+name: Gequadi
+position: [241, 164]
+seed: 91 164 230 241 223 67
+limits:
+  blurs: 194
+  stars: 8103
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gequadi
+  radius: 3825
+  rotationSpeed: 0.000184
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 344250
+  land:
+    ratio: 0.29
+    color: [0.596191, 0.66, 0.567188, 1]
+    polarColor: [0.911425, 0.934, 0.901164, 1]
+  sea:
+    color: [0.628125, 0.718909, 0.785156, 1]
+    polarColor: [0.87541, 0.902047, 0.921484, 1]
+  air:
+    color: [0.746497, 0.736157, 0.967131, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.814055, 0.798325, 0.904297, 1]
+    ratio: 0.28
+    polarColor: [0.850368, 0.840508, 0.906934, 1]
+  demographics:
+    type: 33
+    gdp: 12672
+    tech: 6
+    economy: 4
+    government: 4
+    description: The planet Gequadi is mildly well known for its exotic night life.
+    inhabitants: Large Yellow Furry Rodents
+- type: star
+  type: primary
+  color: [0.718085, 0.565131, 0.547121, 1]
+  radius: 101465.572357
+  orbit:
+    type: static
+    parent: ~
+    radius: 420750
+    vector: [-0.608, 0.591, -0.53]
+  corona:
+    shimmer: 0.546716
+    hues: 0.777405
+    flare: 0.039166
+stations:
+- type: coriolis
+  orbit:
+    parent: Gequadi
+    vector: undefined
+    radius: 7650

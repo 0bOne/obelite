@@ -1,0 +1,61 @@
+name: Enarines
+position: [79, 200]
+seed: 103 200 194 79 99 210
+limits:
+  blurs: 93
+  stars: 9857
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enarines
+  radius: 3407
+  rotationSpeed: 0.004287
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 374770
+  land:
+    ratio: 0.57
+    color: [0.66, 0.415078, 0.432299, 1]
+    polarColor: [0.934, 0.84735, 0.853442, 1]
+  sea:
+    color: [0.708573, 0.728516, 0.532158, 1]
+    polarColor: [0.920803, 0.927148, 0.864675, 1]
+  air:
+    color: [0.660529, 0.485813, 0.954773, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.867188, 0.108398, 0.766411, 1]
+    ratio: 0.47
+    polarColor: [0.890234, 0.403387, 0.825575, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: Enarines is ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.441033, 0.632845, 0.783942, 1]
+  radius: 90806.718597
+  orbit:
+    type: static
+    parent: ~
+    radius: 272560
+    vector: [0.893, -0.424, -0.152]
+  corona:
+    shimmer: 0.269217
+    hues: 0.582977
+    flare: 0.091399
+stations:
+- type: coriolis
+  orbit:
+    parent: Enarines
+    vector: undefined
+    radius: 6814

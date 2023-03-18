@@ -1,0 +1,61 @@
+name: Aanan
+position: [80, 91]
+seed: 128 91 144 80 122 15
+limits:
+  blurs: 95
+  stars: 6079
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aanan
+  radius: 6736
+  rotationSpeed: 0.00494
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 875680
+  land:
+    ratio: 0.71
+    color: [0.66, 0.556613, 0.203672, 1]
+    polarColor: [0.934, 0.897423, 0.772557, 1]
+  sea:
+    color: [0.599998, 0.623047, 0.488946, 1]
+    polarColor: [0.929023, 0.937695, 0.887239, 1]
+  air:
+    color: [0.443723, 0.582748, 0.909246, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0456543, 0.650217, 0.730469, 1]
+    ratio: 0.26
+    polarColor: [0.343138, 0.771808, 0.828711, 1]
+  demographics:
+    type: 26
+    gdp: 8736
+    tech: 5
+    economy: 3
+    government: 2
+    description: The planet Aanan is very famous for its hoopy night life but scourged by killer edible Onzaoids.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.34034, 0.417492, 0.728186, 1]
+  radius: 168582.954102
+  orbit:
+    type: static
+    parent: ~
+    radius: 404160
+    vector: [-0.201, -0.869, 0.452]
+  corona:
+    shimmer: 0.925493
+    hues: 0.681198
+    flare: 0.001491
+stations:
+- type: coriolis
+  orbit:
+    parent: Aanan
+    vector: undefined
+    radius: 13472

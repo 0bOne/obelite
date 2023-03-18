@@ -1,0 +1,61 @@
+name: Masoen
+position: [63, 188]
+seed: 38 188 44 63 243 139
+limits:
+  blurs: 159
+  stars: 8936
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Masoen
+  radius: 5695
+  rotationSpeed: 0.000268
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 569500
+  land:
+    ratio: 0.35
+    color: [0.652507, 0.66, 0.652266, 1]
+    polarColor: [0.931349, 0.934, 0.931264, 1]
+  sea:
+    color: [0.156784, 0.535156, 0.215905, 1]
+    polarColor: [0.779186, 0.946484, 0.805326, 1]
+  air:
+    color: [0.5972, 0.518606, 0.909896, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.538565, 0.226021, 0.732422, 1]
+    ratio: 0.35
+    polarColor: [0.692356, 0.4711, 0.82959, 1]
+  demographics:
+    type: 46
+    gdp: 19872
+    tech: 9
+    economy: 4
+    government: 5
+    description: This planet is noted for mud tennis.
+    inhabitants: Small Black Bony Felines
+- type: star
+  type: primary
+  color: [0.242169, 0.467201, 0.825528, 1]
+  radius: 99630.347443
+  orbit:
+    type: static
+    parent: ~
+    radius: 512550
+    vector: [-0.396, -0.508, 0.765]
+  corona:
+    shimmer: 0.728874
+    hues: 0.691292
+    flare: 0.08497
+stations:
+- type: coriolis
+  orbit:
+    parent: Masoen
+    vector: undefined
+    radius: 11390

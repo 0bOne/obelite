@@ -1,0 +1,61 @@
+name: Leriisis
+position: [222, 190]
+seed: 210 190 114 222 20 129
+limits:
+  blurs: 146
+  stars: 9031
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leriisis
+  radius: 3294
+  rotationSpeed: 0.001889
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 296460
+  land:
+    ratio: 0.71
+    color: [0.66, 0.613594, 0.640785, 1]
+    polarColor: [0.934, 0.917582, 0.927202, 1]
+  sea:
+    color: [0.533203, 0.45431, 0.423438, 1]
+    polarColor: [0.94668, 0.911662, 0.897959, 1]
+  air:
+    color: [0.740481, 0.605335, 0.872824, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.621094, 0.42215, 0.515405, 1]
+    ratio: 0.35
+    polarColor: [0.779492, 0.623442, 0.69659, 1]
+  demographics:
+    type: 37
+    gdp: 11840
+    tech: 6
+    economy: 6
+    government: 6
+    description: The planet Leriisis is reasonably noted for its inhabitants’ exceptional love for food blenders and its fabulous cuisine.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.206915, 0.708248, 0.78692, 1]
+  radius: 74455.276794
+  orbit:
+    type: static
+    parent: ~
+    radius: 362340
+    vector: [0.377, 0.808, -0.453]
+  corona:
+    shimmer: 0.306037
+    hues: 0.870857
+    flare: 0.040944
+stations:
+- type: coriolis
+  orbit:
+    parent: Leriisis
+    vector: undefined
+    radius: 6588

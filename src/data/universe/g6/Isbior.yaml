@@ -1,0 +1,61 @@
+name: Isbior
+position: [149, 51]
+seed: 50 51 34 149 244 61
+limits:
+  blurs: 78
+  stars: 8375
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isbior
+  radius: 6293
+  rotationSpeed: 0.004972
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 818090
+  land:
+    ratio: 0.43
+    color: [0.505859, 0.484123, 0.488708, 1]
+    polarColor: [0.949414, 0.939215, 0.941367, 1]
+  sea:
+    color: [0.568359, 0.486444, 0.442033, 1]
+    polarColor: [0.943164, 0.909181, 0.890756, 1]
+  air:
+    color: [0.737297, 0.734177, 0.964529, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.797173, 0.791428, 0.896484, 1]
+    ratio: 0.52
+    polarColor: [0.840868, 0.83725, 0.903418, 1]
+  demographics:
+    type: 36
+    gdp: 16128
+    tech: 7
+    economy: 3
+    government: 4
+    description: This world is plagued by deadly earthquakes.
+    inhabitants: Red Insects
+- type: star
+  type: primary
+  color: [0.533099, 0.585685, 0.736264, 1]
+  radius: 136360.176239
+  orbit:
+    type: static
+    parent: ~
+    radius: 440510
+    vector: [-0.197, -0.116, -0.974]
+  corona:
+    shimmer: 0.315724
+    hues: 0.757027
+    flare: 0.046359
+stations:
+- type: coriolis
+  orbit:
+    parent: Isbior
+    vector: undefined
+    radius: 12586

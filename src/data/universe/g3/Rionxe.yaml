@@ -1,0 +1,61 @@
+name: Rionxe
+position: [99, 189]
+seed: 170 189 114 99 202 222
+limits:
+  blurs: 72
+  stars: 9815
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rionxe
+  radius: 6499
+  rotationSpeed: 0.003242
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 779880
+  land:
+    ratio: 0.42
+    color: [0.456328, 0.516793, 0.66, 1]
+    polarColor: [0.861943, 0.883335, 0.934, 1]
+  sea:
+    color: [0.691406, 0.429428, 0.429428, 1]
+    polarColor: [0.930859, 0.842682, 0.842682, 1]
+  air:
+    color: [0.536327, 0.985992, 0.967966, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.960938, 0.880058, 0.221466, 1]
+    ratio: 0.11
+    polarColor: [0.932422, 0.883372, 0.483967, 1]
+  demographics:
+    type: 44
+    gdp: 17600
+    tech: 8
+    economy: 5
+    government: 6
+    description: The planet Rionxe is well known for its inhabitants’ ancient mating traditions but ravaged by unpredictable civil war.
+    inhabitants: Rodents
+- type: star
+  type: primary
+  color: [0.652188, 0.611418, 0.53671, 1]
+  radius: 204253.010712
+  orbit:
+    type: static
+    parent: ~
+    radius: 519920
+    vector: [0.684, -0.436, 0.585]
+  corona:
+    shimmer: 0.406889
+    hues: 0.77742
+    flare: 0.064272
+stations:
+- type: coriolis
+  orbit:
+    parent: Rionxe
+    vector: undefined
+    radius: 12998

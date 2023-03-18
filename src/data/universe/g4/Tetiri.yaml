@@ -1,0 +1,61 @@
+name: Tetiri
+position: [10, 208]
+seed: 188 208 56 10 149 28
+limits:
+  blurs: 103
+  stars: 8806
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tetiri
+  radius: 5898
+  rotationSpeed: 0.004662
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 589800
+  land:
+    ratio: 0.63
+    color: [0.596574, 0.66, 0.538828, 1]
+    polarColor: [0.911561, 0.934, 0.891131, 1]
+  sea:
+    color: [0.657654, 0.708005, 0.841797, 1]
+    polarColor: [0.865736, 0.879431, 0.91582, 1]
+  air:
+    color: [0.599518, 0.910547, 0.832536, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.734375, 0.502306, 0.421692, 1]
+    ratio: 0.48
+    polarColor: [0.830469, 0.666446, 0.60947, 1]
+  demographics:
+    type: 60
+    gdp: 52800
+    tech: 13
+    economy: 0
+    government: 7
+    description: Tetiri is mildly well known for its hoopy night life.
+    inhabitants: Green Horned Lizards
+- type: star
+  type: primary
+  color: [0.205036, 0.463173, 0.720825, 1]
+  radius: 92439.738464
+  orbit:
+    type: static
+    parent: ~
+    radius: 412860
+    vector: [0.507, 0.824, -0.253]
+  corona:
+    shimmer: 0.369325
+    hues: 0.837303
+    flare: 0.018417
+stations:
+- type: icosahedron
+  orbit:
+    parent: Tetiri
+    vector: undefined
+    radius: 11796

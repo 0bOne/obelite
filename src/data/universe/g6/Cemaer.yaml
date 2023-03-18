@@ -1,0 +1,61 @@
+name: Cemaer
+position: [192, 166]
+seed: 14 166 2 192 80 133
+limits:
+  blurs: 164
+  stars: 8526
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cemaer
+  radius: 4288
+  rotationSpeed: 0.004543
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 428800
+  land:
+    ratio: 0.45
+    color: [0.153191, 0.568359, 0.334827, 1]
+    polarColor: [0.770926, 0.943164, 0.84628, 1]
+  sea:
+    color: [0.620289, 0.830078, 0.81041, 1]
+    polarColor: [0.859053, 0.916992, 0.91156, 1]
+  air:
+    color: [0.606533, 0.924855, 0.892219, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.777344, 0.677282, 0.440292, 1]
+    ratio: 0.25
+    polarColor: [0.849805, 0.781436, 0.619511, 1]
+  demographics:
+    type: 11
+    gdp: 1408
+    tech: 1
+    economy: 6
+    government: 0
+    description: The planet Cemaer is mildly notable for Cemaerian Arusno water.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.708044, 0.679274, 0.407515, 1]
+  radius: 127040.898438
+  orbit:
+    type: static
+    parent: ~
+    radius: 428800
+    vector: [-0.167, 0.976, -0.141]
+  corona:
+    shimmer: 0.396055
+    hues: 0.671677
+    flare: 0.089761
+stations:
+- type: coriolis
+  orbit:
+    parent: Cemaer
+    vector: undefined
+    radius: 8576

@@ -1,0 +1,61 @@
+name: Lainisri
+position: [219, 123]
+seed: 121 123 173 219 26 117
+limits:
+  blurs: 140
+  stars: 8145
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lainisri
+  radius: 4315
+  rotationSpeed: 0.004891
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 560950
+  land:
+    ratio: 0.56
+    color: [0.599736, 0.66, 0.572344, 1]
+    polarColor: [0.912679, 0.934, 0.902988, 1]
+  sea:
+    color: [0.9, 0.72, 0.828, 1]
+    polarColor: [0.91, 0.8645, 0.8918, 1]
+  air:
+    color: [0.704108, 0.517826, 0.938514, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.818359, 0.207787, 0.608475, 1]
+    ratio: 0.3
+    polarColor: [0.868262, 0.463384, 0.729085, 1]
+  demographics:
+    type: 49
+    gdp: 24696
+    tech: 10
+    economy: 3
+    government: 5
+    description: The planet Lainisri is most famous for its pink oceans.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.842279, 0.666335, 0.656851, 1]
+  radius: 116368.57605
+  orbit:
+    type: static
+    parent: ~
+    radius: 302050
+    vector: [0.502, -0.034, 0.864]
+  corona:
+    shimmer: 0.447387
+    hues: 0.503609
+    flare: 0.049109
+stations:
+- type: coriolis
+  orbit:
+    parent: Lainisri
+    vector: undefined
+    radius: 8630

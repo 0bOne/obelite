@@ -1,0 +1,61 @@
+name: Leenlaes
+position: [65, 207]
+seed: 249 207 97 65 90 225
+limits:
+  blurs: 45
+  stars: 5144
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leenlaes
+  radius: 3137
+  rotationSpeed: 0.004448
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 407810
+  land:
+    ratio: 0.59
+    color: [0.572706, 0.152109, 0.66, 1]
+    polarColor: [0.903117, 0.754314, 0.934, 1]
+  sea:
+    color: [0.666016, 0.572215, 0.49691, 1]
+    polarColor: [0.933398, 0.900534, 0.87415, 1]
+  air:
+    color: [0.708655, 0.817092, 0.909246, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.684814, 0.730469, 0.702648, 1]
+    ratio: 0.39
+    polarColor: [0.796339, 0.828711, 0.808985, 1]
+  demographics:
+    type: 24
+    gdp: 4608
+    tech: 3
+    economy: 7
+    government: 4
+    description: Leenlaes is most noted for its inhabitants’ exceptional love for tourists and its unusual tropical forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.776572, 0.474975, 0.469636, 1]
+  radius: 59154.296417
+  orbit:
+    type: static
+    parent: ~
+    radius: 313700
+    vector: [-0.65, 0.151, -0.745]
+  corona:
+    shimmer: 0.440412
+    hues: 0.837914
+    flare: 0.098759
+stations:
+- type: coriolis
+  orbit:
+    parent: Leenlaes
+    vector: undefined
+    radius: 6274

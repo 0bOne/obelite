@@ -1,0 +1,61 @@
+name: Qurexein
+position: [57, 186]
+seed: 241 186 137 57 109 58
+limits:
+  blurs: 52
+  stars: 8221
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qurexein
+  radius: 5433
+  rotationSpeed: 0.00316
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 651960
+  land:
+    ratio: 0.43
+    color: [0.634219, 0.66, 0.637643, 1]
+    polarColor: [0.924879, 0.934, 0.92609, 1]
+  sea:
+    color: [0.106621, 0.634766, 0.424333, 1]
+    polarColor: [0.741719, 0.936523, 0.858906, 1]
+  air:
+    color: [0.461379, 0.465985, 0.928107, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0707169, 0.0819105, 0.787109, 1]
+    ratio: 0.3
+    polarColor: [0.36829, 0.375882, 0.854199, 1]
+  demographics:
+    type: 32
+    gdp: 10240
+    tech: 7
+    economy: 2
+    government: 1
+    description: The world Qurexein is very famous for its unusual sit coms but plagued by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.701498, 0.601272, 0.5792, 1]
+  radius: 165393.300018
+  orbit:
+    type: static
+    parent: ~
+    radius: 325980
+    vector: [-0.073, -0.977, -0.201]
+  corona:
+    shimmer: 0.294912
+    hues: 0.745232
+    flare: 0.033647
+stations:
+- type: coriolis
+  orbit:
+    parent: Qurexein
+    vector: undefined
+    radius: 10866

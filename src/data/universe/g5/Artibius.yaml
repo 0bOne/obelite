@@ -1,0 +1,61 @@
+name: Artibius
+position: [164, 167]
+seed: 103 167 185 164 232 42
+limits:
+  blurs: 86
+  stars: 9844
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Artibius
+  radius: 5540
+  rotationSpeed: 0.004458
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 609400
+  land:
+    ratio: 0.39
+    color: [0.159855, 0.566406, 0.101776, 1]
+    polarColor: [0.77408, 0.943359, 0.749897, 1]
+  sea:
+    color: [0.525391, 0.405536, 0.436436, 1]
+    polarColor: [0.947461, 0.893426, 0.907357, 1]
+  air:
+    color: [0.622716, 0.920646, 0.927457, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.761435, 0.785156, 0.481522, 1]
+    ratio: 0.27
+    polarColor: [0.837207, 0.85332, 0.647073, 1]
+  demographics:
+    type: 31
+    gdp: 8184
+    tech: 4
+    economy: 7
+    government: 7
+    description: This world is plagued by deadly earthquakes.
+    inhabitants: Small Red Bony Humanoids
+- type: star
+  type: primary
+  color: [0.664657, 0.674329, 0.67767, 1]
+  radius: 179379.647827
+  orbit:
+    type: static
+    parent: ~
+    radius: 332400
+    vector: [0.753, -0.551, 0.359]
+  corona:
+    shimmer: 0.350291
+    hues: 0.616829
+    flare: 0.059142
+stations:
+- type: coriolis
+  orbit:
+    parent: Artibius
+    vector: undefined
+    radius: 11080

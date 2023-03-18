@@ -1,0 +1,61 @@
+name: Edcere
+position: [16, 28]
+seed: 133 28 105 16 133 184
+limits:
+  blurs: 153
+  stars: 8742
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edcere
+  radius: 4880
+  rotationSpeed: 0.004774
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 439200
+  land:
+    ratio: 0.33
+    color: [0.66, 0.66, 0.66, 1]
+    polarColor: [0.934, 0.934, 0.934, 1]
+  sea:
+    color: [0.0948029, 0.638672, 0.39648, 1]
+    polarColor: [0.736839, 0.936133, 0.847385, 1]
+  air:
+    color: [0.614871, 0.465049, 0.960627, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.819153, 0.0449295, 0.884766, 1]
+    ratio: 0.13
+    polarColor: [0.856517, 0.36531, 0.898145, 1]
+  demographics:
+    type: 34
+    gdp: 14688
+    tech: 6
+    economy: 4
+    government: 5
+    description: This planet is a tedious place.
+    inhabitants: Harmless Fat Birds
+- type: star
+  type: primary
+  color: [0.784628, 0.668714, 0.454601, 1]
+  radius: 126963.696289
+  orbit:
+    type: static
+    parent: ~
+    radius: 390400
+    vector: [-0.484, 0.353, -0.801]
+  corona:
+    shimmer: 0.38631
+    hues: 0.544914
+    flare: 0.015114
+stations:
+- type: coriolis
+  orbit:
+    parent: Edcere
+    vector: undefined
+    radius: 9760

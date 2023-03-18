@@ -1,0 +1,61 @@
+name: Onisain
+position: [17, 76]
+seed: 125 76 252 17 113 127
+limits:
+  blurs: 109
+  stars: 7449
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onisain
+  radius: 6673
+  rotationSpeed: 0.003146
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 800760
+  land:
+    ratio: 0.25
+    color: [0.633816, 0.626484, 0.66, 1]
+    polarColor: [0.924736, 0.922143, 0.934, 1]
+  sea:
+    color: [0.9, 0.72, 0.828, 1]
+    polarColor: [0.91, 0.8645, 0.8918, 1]
+  air:
+    color: [0.48226, 0.496515, 0.910547, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.137695, 0.188972, 0.734375, 1]
+    ratio: 0.22
+    polarColor: [0.408746, 0.444988, 0.830469, 1]
+  demographics:
+    type: 44
+    gdp: 23232
+    tech: 8
+    economy: 4
+    government: 7
+    description: The world Onisain is mildly noted for its pink oceans but scourged by dreadful solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.378023, 0.62914, 0.769705, 1]
+  radius: 123499.781799
+  orbit:
+    type: static
+    parent: ~
+    radius: 533840
+    vector: [-0.706, -0.671, 0.225]
+  corona:
+    shimmer: 0.507111
+    hues: 0.522148
+    flare: 0.010869
+stations:
+- type: coriolis
+  orbit:
+    parent: Onisain
+    vector: undefined
+    radius: 13346

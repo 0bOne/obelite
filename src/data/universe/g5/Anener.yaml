@@ -1,0 +1,61 @@
+name: Anener
+position: [65, 21]
+seed: 153 21 125 65 186 27
+limits:
+  blurs: 105
+  stars: 8096
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anener
+  radius: 5697
+  rotationSpeed: 0.001702
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 569700
+  land:
+    ratio: 0.69
+    color: [0.456973, 0.66, 0.28875, 1]
+    polarColor: [0.862171, 0.934, 0.802656, 1]
+  sea:
+    color: [0.644531, 0.460739, 0.460739, 1]
+    polarColor: [0.935547, 0.868853, 0.868853, 1]
+  air:
+    color: [0.72862, 0.801409, 0.910547, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.734375, 0.734375, 0.734375, 1]
+    ratio: 0.51
+    polarColor: [0.830469, 0.830469, 0.830469, 1]
+  demographics:
+    type: 41
+    gdp: 18040
+    tech: 7
+    economy: 5
+    government: 7
+    description: The planet Anener is famous for Anenerian wolf meat but scourged by dreadful solar activity.
+    inhabitants: Green Fat Insects
+- type: star
+  type: primary
+  color: [0.201431, 0.410096, 0.665045, 1]
+  radius: 145001.585083
+  orbit:
+    type: static
+    parent: ~
+    radius: 683640
+    vector: [-0.702, -0.711, 0.041]
+  corona:
+    shimmer: 0.479155
+    hues: 0.562355
+    flare: 0.016275
+stations:
+- type: coriolis
+  orbit:
+    parent: Anener
+    vector: undefined
+    radius: 11394

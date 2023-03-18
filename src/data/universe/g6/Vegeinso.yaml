@@ -1,0 +1,61 @@
+name: Vegeinso
+position: [18, 250]
+seed: 82 250 178 18 148 86
+limits:
+  blurs: 130
+  stars: 5291
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vegeinso
+  radius: 4370
+  rotationSpeed: 0.004338
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 655500
+  land:
+    ratio: 0.32
+    color: [0.574219, 0.41272, 0.545199, 1]
+    polarColor: [0.942578, 0.876303, 0.930669, 1]
+  sea:
+    color: [0.689453, 0.428215, 0.428215, 1]
+    polarColor: [0.931055, 0.842859, 0.842859, 1]
+  air:
+    color: [0.7296, 0.630636, 0.842906, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.53125, 0.448242, 0.49688, 1]
+    ratio: 0.09
+    polarColor: [0.739062, 0.666888, 0.709178, 1]
+  demographics:
+    type: 49
+    gdp: 31360
+    tech: 10
+    economy: 2
+    government: 6
+    description: The world Vegeinso is scourged by deadly tree grubs.
+    inhabitants: Yellow Slimy Lizards
+- type: star
+  type: primary
+  color: [0.815878, 0.73446, 0.569578, 1]
+  radius: 94792.912292
+  orbit:
+    type: static
+    parent: ~
+    radius: 87400
+    vector: [0.537, 0.535, -0.652]
+  corona:
+    shimmer: 0.469073
+    hues: 0.665855
+    flare: 0.046298
+stations:
+- type: coriolis
+  orbit:
+    parent: Vegeinso
+    vector: undefined
+    radius: 8740

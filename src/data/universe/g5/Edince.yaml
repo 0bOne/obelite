@@ -1,0 +1,61 @@
+name: Edince
+position: [19, 21]
+seed: 73 21 9 19 106 248
+limits:
+  blurs: 99
+  stars: 6102
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edince
+  radius: 4883
+  rotationSpeed: 0.00289
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 683620
+  land:
+    ratio: 0.35
+    color: [0.577681, 0.66, 0.487266, 1]
+    polarColor: [0.904877, 0.934, 0.872889, 1]
+  sea:
+    color: [0.484248, 0.379753, 0.537109, 1]
+    polarColor: [0.923006, 0.876981, 0.946289, 1]
+  air:
+    color: [0.650024, 0.777452, 0.981439, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.555038, 0.947266, 0.892109, 1]
+    ratio: 0.5
+    polarColor: [0.686561, 0.92627, 0.892561, 1]
+  demographics:
+    type: 25
+    gdp: 3000
+    tech: 4
+    economy: 7
+    government: 1
+    description: Edince is very notable for its inhabitants’ ingrained silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.776413, 0.665203, 0.635545, 1]
+  radius: 146025.811005
+  orbit:
+    type: static
+    parent: ~
+    radius: 390640
+    vector: [-0.626, -0.774, 0.096]
+  corona:
+    shimmer: 0.418215
+    hues: 0.7248
+    flare: 0.047388
+stations:
+- type: coriolis
+  orbit:
+    parent: Edince
+    vector: undefined
+    radius: 9766

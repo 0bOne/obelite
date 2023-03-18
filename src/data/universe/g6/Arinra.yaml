@@ -1,0 +1,61 @@
+name: Arinra
+position: [253, 164]
+seed: 14 164 194 253 80 202
+limits:
+  blurs: 177
+  stars: 9255
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arinra
+  radius: 5629
+  rotationSpeed: 0.002083
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 506610
+  land:
+    ratio: 0.31
+    color: [0.491254, 0.476953, 0.66, 1]
+    polarColor: [0.8743, 0.86924, 0.934, 1]
+  sea:
+    color: [0.662109, 0.58569, 0.504341, 1]
+    polarColor: [0.933789, 0.906845, 0.878163, 1]
+  air:
+    color: [0.791409, 0.762873, 0.958025, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.871333, 0.866676, 0.876953, 1]
+    ratio: 0.25
+    polarColor: [0.891046, 0.888076, 0.894629, 1]
+  demographics:
+    type: 15
+    gdp: 1920
+    tech: 2
+    economy: 6
+    government: 0
+    description: This planet is most notable for its fabulous cuisine but plagued by lethal spotted batoids.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.820123, 0.701928, 0.596869, 1]
+  radius: 119609.378662
+  orbit:
+    type: static
+    parent: ~
+    radius: 675480
+    vector: [0.873, -0.432, -0.225]
+  corona:
+    shimmer: 0.324458
+    hues: 0.511772
+    flare: 0.065077
+stations:
+- type: coriolis
+  orbit:
+    parent: Arinra
+    vector: undefined
+    radius: 11258

@@ -1,0 +1,61 @@
+name: Oresqu
+position: [22, 217]
+seed: 186 217 144 22 179 249
+limits:
+  blurs: 194
+  stars: 9853
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Oresqu
+  radius: 5142
+  rotationSpeed: 0.001719
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 668460
+  land:
+    ratio: 0.39
+    color: [0.432902, 0.337547, 0.572266, 1]
+    polarColor: [0.885375, 0.846102, 0.942773, 1]
+  sea:
+    color: [0.599609, 0.485737, 0.450878, 1]
+    polarColor: [0.940039, 0.895408, 0.881746, 1]
+  air:
+    color: [0.508694, 0.635813, 0.846158, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.217674, 0.541016, 0.503124, 1]
+    ratio: 0.49
+    polarColor: [0.46575, 0.743457, 0.710913, 1]
+  demographics:
+    type: 40
+    gdp: 17280
+    tech: 9
+    economy: 1
+    government: 2
+    description: Oresqu is mildly notable for its inhabitants’ unusual mating traditions.
+    inhabitants: Rodents
+- type: star
+  type: primary
+  color: [0.72504, 0.642847, 0.580698, 1]
+  radius: 137757.362366
+  orbit:
+    type: static
+    parent: ~
+    radius: 462780
+    vector: [-0.645, -0.748, 0.157]
+  corona:
+    shimmer: 0.423715
+    hues: 0.63929
+    flare: 0.070436
+stations:
+- type: coriolis
+  orbit:
+    parent: Oresqu
+    vector: undefined
+    radius: 10284

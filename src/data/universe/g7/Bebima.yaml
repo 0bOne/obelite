@@ -1,0 +1,61 @@
+name: Bebima
+position: [177, 1]
+seed: 35 1 46 177 215 243
+limits:
+  blurs: 45
+  stars: 5919
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bebima
+  radius: 3761
+  rotationSpeed: 0.00213
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 488930
+  land:
+    ratio: 0.45
+    color: [0.402188, 0.581448, 0.66, 1]
+    polarColor: [0.842789, 0.906209, 0.934, 1]
+  sea:
+    color: [0.623047, 0.492916, 0.479454, 1]
+    polarColor: [0.937695, 0.888733, 0.883668, 1]
+  air:
+    color: [0.731472, 0.74596, 0.956074, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.779221, 0.795729, 0.871094, 1]
+    ratio: 0.56
+    polarColor: [0.833194, 0.843759, 0.891992, 1]
+  demographics:
+    type: 47
+    gdp: 30456
+    tech: 10
+    economy: 1
+    government: 5
+    description: This planet is notable for the Bebimaian tree grub and its inhabitants’ ancient mating traditions.
+    inhabitants: Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.785945, 0.80257, 0.833282, 1]
+  radius: 95217.528992
+  orbit:
+    type: static
+    parent: ~
+    radius: 188050
+    vector: [-0.661, 0.743, 0.105]
+  corona:
+    shimmer: 1.064864
+    hues: 0.659332
+    flare: 0.017662
+stations:
+- type: coriolis
+  orbit:
+    parent: Bebima
+    vector: undefined
+    radius: 7522

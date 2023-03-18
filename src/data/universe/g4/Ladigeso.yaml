@@ -1,0 +1,61 @@
+name: Ladigeso
+position: [96, 151]
+seed: 118 151 68 96 211 53
+limits:
+  blurs: 68
+  stars: 8479
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ladigeso
+  radius: 4192
+  rotationSpeed: 0.002421
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 586880
+  land:
+    ratio: 0.3
+    color: [0.66, 0.180308, 0.0696094, 1]
+    polarColor: [0.934, 0.764291, 0.725127, 1]
+  sea:
+    color: [0.521484, 0.389076, 0.500796, 1]
+    polarColor: [0.947852, 0.887685, 0.938451, 1]
+  air:
+    color: [0.751605, 0.753533, 0.946969, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.827271, 0.827528, 0.84375, 1]
+    ratio: 0.35
+    polarColor: [0.868949, 0.869117, 0.879687, 1]
+  demographics:
+    type: 8
+    gdp: 768
+    tech: 0
+    economy: 7
+    government: 0
+    description: The world Ladigeso is a dull place.
+    inhabitants: Red Rodents
+- type: star
+  type: primary
+  color: [0.713892, 0.712978, 0.69555, 1]
+  radius: 81664.555664
+  orbit:
+    type: static
+    parent: ~
+    radius: 209600
+    vector: [0.309, -0.545, -0.78]
+  corona:
+    shimmer: 0.298885
+    hues: 0.677582
+    flare: 0.091736
+stations:
+- type: coriolis
+  orbit:
+    parent: Ladigeso
+    vector: undefined
+    radius: 8384

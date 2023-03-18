@@ -1,0 +1,61 @@
+name: Ananri
+position: [166, 89]
+seed: 7 89 241 166 232 123
+limits:
+  blurs: 190
+  stars: 9355
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ananri
+  radius: 5798
+  rotationSpeed: 0.001683
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 695760
+  land:
+    ratio: 0.58
+    color: [0.0670312, 0.66, 0.465432, 1]
+    polarColor: [0.724215, 0.934, 0.865164, 1]
+  sea:
+    color: [0.679688, 0.483464, 0.451355, 1]
+    polarColor: [0.932031, 0.864763, 0.853755, 1]
+  air:
+    color: [0.593202, 0.913878, 0.96583, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.684278, 0.900391, 0.397438, 1]
+    ratio: 0.35
+    polarColor: [0.769388, 0.905176, 0.58916, 1]
+  demographics:
+    type: 52
+    gdp: 37440
+    tech: 11
+    economy: 1
+    government: 6
+    description: Ananri is famous for Ananriian wolf cutlet but plagued by deadly earthquakes.
+    inhabitants: Blue Lizards
+- type: star
+  type: primary
+  color: [0.272097, 0.422816, 0.684024, 1]
+  radius: 186079.031677
+  orbit:
+    type: static
+    parent: ~
+    radius: 347880
+    vector: [-0.011, -0.994, -0.113]
+  corona:
+    shimmer: 0.619515
+    hues: 0.964005
+    flare: 0.092377
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Ananri
+    vector: undefined
+    radius: 11596

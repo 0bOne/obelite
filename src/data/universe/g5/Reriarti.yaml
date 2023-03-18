@@ -1,0 +1,61 @@
+name: Reriarti
+position: [221, 114]
+seed: 111 114 197 221 64 14
+limits:
+  blurs: 168
+  stars: 7778
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reriarti
+  radius: 6621
+  rotationSpeed: 0.000235
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 595890
+  land:
+    ratio: 0.2
+    color: [0.66, 0.525293, 0.20625, 1]
+    polarColor: [0.934, 0.886342, 0.773469, 1]
+  sea:
+    color: [0.601562, 0.502729, 0.454462, 1]
+    polarColor: [0.939844, 0.901241, 0.882389, 1]
+  air:
+    color: [0.635903, 0.878468, 0.939814, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.633938, 0.822266, 0.517128, 1]
+    ratio: 0.44
+    polarColor: [0.745479, 0.87002, 0.668233, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 6
+    economy: 2
+    government: 0
+    description: This world is reasonably well known for its vast oceans but ravaged by killer disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.256921, 0.433462, 0.843185, 1]
+  radius: 119320.652161
+  orbit:
+    type: static
+    parent: ~
+    radius: 728310
+    vector: [0.085, 0.182, -0.98]
+  corona:
+    shimmer: 0.393912
+    hues: 0.852432
+    flare: 0.026994
+stations:
+- type: coriolis
+  orbit:
+    parent: Reriarti
+    vector: undefined
+    radius: 13242

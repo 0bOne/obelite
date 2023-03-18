@@ -1,0 +1,61 @@
+name: Reatqu
+position: [57, 105]
+seed: 34 105 210 57 218 46
+limits:
+  blurs: 58
+  stars: 5524
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reatqu
+  radius: 6457
+  rotationSpeed: 0.00378
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 903980
+  land:
+    ratio: 0.32
+    color: [0.621328, 0.66, 0.644592, 1]
+    polarColor: [0.920318, 0.934, 0.928549, 1]
+  sea:
+    color: [0.636143, 0.675781, 0.512115, 1]
+    polarColor: [0.918749, 0.932422, 0.875967, 1]
+  air:
+    color: [0.797368, 0.745975, 0.983391, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.913101, 0.833984, 0.953125, 1]
+    ratio: 0.58
+    polarColor: [0.904527, 0.856335, 0.928906, 1]
+  demographics:
+    type: 36
+    gdp: 15552
+    tech: 8
+    economy: 1
+    government: 2
+    description: The world Reatqu is very famous for its fabulous monkey burgers but beset by deadly solar activity.
+    inhabitants: Red Slimy Lizards
+- type: star
+  type: primary
+  color: [0.829657, 0.775381, 0.446689, 1]
+  radius: 124168.377991
+  orbit:
+    type: static
+    parent: ~
+    radius: 258280
+    vector: [0.573, -0.671, 0.469]
+  corona:
+    shimmer: 0.437286
+    hues: 0.913956
+    flare: 0.088316
+stations:
+- type: coriolis
+  orbit:
+    parent: Reatqu
+    vector: undefined
+    radius: 12914

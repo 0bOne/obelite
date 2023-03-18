@@ -1,0 +1,61 @@
+name: Latius
+position: [154, 199]
+seed: 153 199 125 154 186 213
+limits:
+  blurs: 107
+  stars: 9328
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Latius
+  radius: 4250
+  rotationSpeed: 0.0018
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 552500
+  land:
+    ratio: 0.4
+    color: [0.510469, 0.586403, 0.66, 1]
+    polarColor: [0.881098, 0.907962, 0.934, 1]
+  sea:
+    color: [0.695312, 0.531012, 0.459015, 1]
+    polarColor: [0.930469, 0.875502, 0.851415, 1]
+  air:
+    color: [0.573265, 0.883131, 0.994447, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.45307, 0.986328, 0.323639, 1]
+    ratio: 0.32
+    polarColor: [0.624916, 0.943848, 0.547505, 1]
+  demographics:
+    type: 39
+    gdp: 10296
+    tech: 6
+    economy: 7
+    government: 7
+    description: The world Latius is most well known for its great parking meters.
+    inhabitants: Furry Felines
+- type: star
+  type: primary
+  color: [0.768158, 0.651721, 0.577853, 1]
+  radius: 142515.983582
+  orbit:
+    type: static
+    parent: ~
+    radius: 382500
+    vector: [0.698, -0.026, 0.715]
+  corona:
+    shimmer: 0.321952
+    hues: 0.575676
+    flare: 0.00016
+stations:
+- type: coriolis
+  orbit:
+    parent: Latius
+    vector: undefined
+    radius: 8500

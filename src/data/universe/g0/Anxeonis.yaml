@@ -1,0 +1,61 @@
+name: Anxeonis
+position: [193, 133]
+seed: 234 133 88 193 83 155
+limits:
+  blurs: 178
+  stars: 9380
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anxeonis
+  radius: 5825
+  rotationSpeed: 0.003264
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 757250
+  land:
+    ratio: 0.69
+    color: [0.66, 0.195938, 0.337332, 1]
+    polarColor: [0.934, 0.76982, 0.819844, 1]
+  sea:
+    color: [0.606753, 0.617188, 0.483624, 1]
+    polarColor: [0.934315, 0.938281, 0.887519, 1]
+  air:
+    color: [0.807435, 0.497395, 0.977537, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.935547, 0.116943, 0.155315, 1]
+    ratio: 0.2
+    polarColor: [0.920996, 0.417326, 0.440936, 1]
+  demographics:
+    type: 29
+    gdp: 8120
+    tech: 5
+    economy: 5
+    government: 3
+    description: The planet Anxeonis is most famous for its vast rain forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.585787, 0.714842, 0.789575, 1]
+  radius: 152084.087372
+  orbit:
+    type: static
+    parent: ~
+    radius: 407750
+    vector: [0.165, 0.961, -0.222]
+  corona:
+    shimmer: 0.422742
+    hues: 0.723778
+    flare: 0.040735
+stations:
+- type: coriolis
+  orbit:
+    parent: Anxeonis
+    vector: undefined
+    radius: 11650

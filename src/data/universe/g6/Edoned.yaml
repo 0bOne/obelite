@@ -1,0 +1,61 @@
+name: Edoned
+position: [70, 32]
+seed: 206 32 114 70 208 152
+limits:
+  blurs: 112
+  stars: 9968
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edoned
+  radius: 4934
+  rotationSpeed: 0.003908
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 641420
+  land:
+    ratio: 0.55
+    color: [0.390103, 0.144375, 0.66, 1]
+    polarColor: [0.838514, 0.751578, 0.934, 1]
+  sea:
+    color: [0.643772, 0.671875, 0.508368, 1]
+    polarColor: [0.923058, 0.932813, 0.87606, 1]
+  air:
+    color: [0.681188, 0.863689, 0.885832, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.639365, 0.660156, 0.598267, 1]
+    ratio: 0.55
+    polarColor: [0.781381, 0.79707, 0.750367, 1]
+  demographics:
+    type: 55
+    gdp: 44000
+    tech: 12
+    economy: 0
+    government: 6
+    description: This world is very fabled for its unusual oceans.
+    inhabitants: Black Felines
+- type: star
+  type: primary
+  color: [0.312848, 0.378332, 0.747623, 1]
+  radius: 152324.150085
+  orbit:
+    type: static
+    parent: ~
+    radius: 296040
+    vector: [0.051, 0.927, 0.371]
+  corona:
+    shimmer: 0.481344
+    hues: 0.744019
+    flare: 0.045297
+stations:
+- type: icosahedron
+  orbit:
+    parent: Edoned
+    vector: undefined
+    radius: 9868

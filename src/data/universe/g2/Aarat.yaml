@@ -1,0 +1,61 @@
+name: Aarat
+position: [55, 132]
+seed: 181 132 25 55 37 111
+limits:
+  blurs: 124
+  stars: 9430
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aarat
+  radius: 6711
+  rotationSpeed: 0.000371
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 1006650
+  land:
+    ratio: 0.46
+    color: [0.623906, 0.66, 0.644773, 1]
+    polarColor: [0.92123, 0.934, 0.928613, 1]
+  sea:
+    color: [0.365174, 0.511719, 0.103943, 1]
+    polarColor: [0.880897, 0.948828, 0.759804, 1]
+  air:
+    color: [0.65318, 0.871523, 0.833801, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.617188, 0.569441, 0.523163, 1]
+    ratio: 0.46
+    polarColor: [0.777734, 0.74013, 0.703683, 1]
+  demographics:
+    type: 40
+    gdp: 13440
+    tech: 8
+    economy: 4
+    government: 3
+    description: This planet is a dull world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.699689, 0.637481, 0.636583, 1]
+  radius: 231093.063812
+  orbit:
+    type: static
+    parent: ~
+    radius: 469770
+    vector: [-0.776, -0.389, -0.497]
+  corona:
+    shimmer: 0.460911
+    hues: 0.741531
+    flare: 0.06664
+stations:
+- type: coriolis
+  orbit:
+    parent: Aarat
+    vector: undefined
+    radius: 13422

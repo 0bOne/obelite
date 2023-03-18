@@ -1,0 +1,61 @@
+name: Anares
+position: [132, 107]
+seed: 9 107 41 132 42 219
+limits:
+  blurs: 115
+  stars: 8388
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anares
+  radius: 5764
+  rotationSpeed: 0.001643
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 576400
+  land:
+    ratio: 0.71
+    color: [0.525937, 0.638005, 0.66, 1]
+    polarColor: [0.88657, 0.926219, 0.934, 1]
+  sea:
+    color: [0.705078, 0.626196, 0.49025, 1]
+    polarColor: [0.929492, 0.903495, 0.858691, 1]
+  air:
+    color: [0.683818, 0.545438, 0.909246, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.730469, 0.291046, 0.661809, 1]
+    ratio: 0.26
+    polarColor: [0.828711, 0.517135, 0.780027, 1]
+  demographics:
+    type: 37
+    gdp: 18648
+    tech: 7
+    economy: 3
+    government: 5
+    description: The planet Anares is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.556074, 0.722133, 0.827448, 1]
+  radius: 104686.222534
+  orbit:
+    type: static
+    parent: ~
+    radius: 749320
+    vector: [-0.27, 0.607, -0.748]
+  corona:
+    shimmer: 0.399449
+    hues: 0.924767
+    flare: 0.032251
+stations:
+- type: coriolis
+  orbit:
+    parent: Anares
+    vector: undefined
+    radius: 11528

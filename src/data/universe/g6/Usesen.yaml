@@ -1,0 +1,61 @@
+name: Usesen
+position: [224, 231]
+seed: 206 231 146 224 80 32
+limits:
+  blurs: 81
+  stars: 6649
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usesen
+  radius: 3040
+  rotationSpeed: 0.000126
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 395200
+  land:
+    ratio: 0.24
+    color: [0.66, 0.362549, 0.293906, 1]
+    polarColor: [0.934, 0.828765, 0.80448, 1]
+  sea:
+    color: [0.278778, 0.357426, 0.566406, 1]
+    polarColor: [0.823597, 0.856344, 0.943359, 1]
+  air:
+    color: [0.774393, 0.730633, 0.988594, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.88399, 0.790894, 0.96875, 1]
+    ratio: 0.15
+    polarColor: [0.884757, 0.828542, 0.935938, 1]
+  demographics:
+    type: 14
+    gdp: 2016
+    tech: 1
+    economy: 7
+    government: 2
+    description: Usesen is a revolting little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.350299, 0.492926, 0.782227, 1]
+  radius: 89832.055664
+  orbit:
+    type: static
+    parent: ~
+    radius: 243200
+    vector: [0.884, 0.251, 0.394]
+  corona:
+    shimmer: 0.403805
+    hues: 0.559952
+    flare: 0.074794
+stations:
+- type: coriolis
+  orbit:
+    parent: Usesen
+    vector: undefined
+    radius: 6080

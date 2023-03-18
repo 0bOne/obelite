@@ -1,0 +1,61 @@
+name: Anlere
+position: [177, 53]
+seed: 56 53 156 177 29 91
+limits:
+  blurs: 60
+  stars: 6331
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anlere
+  radius: 5809
+  rotationSpeed: 0.00456
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 813260
+  land:
+    ratio: 0.36
+    color: [0.140083, 0.587891, 0.346494, 1]
+    polarColor: [0.761976, 0.941211, 0.844592, 1]
+  sea:
+    color: [0.525391, 0.402457, 0.448557, 1]
+    polarColor: [0.947461, 0.892038, 0.912822, 1]
+  air:
+    color: [0.624035, 0.899578, 0.938514, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.69109, 0.818359, 0.485901, 1]
+    ratio: 0.39
+    polarColor: [0.783868, 0.868262, 0.647805, 1]
+  demographics:
+    type: 29
+    gdp: 8120
+    tech: 5
+    economy: 5
+    government: 3
+    description: Anlere is reasonably well known for the Anlereian spotted shrew but plagued by evil tree leopards.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.734149, 0.344827, 0.276241, 1]
+  radius: 110500.943756
+  orbit:
+    type: static
+    parent: ~
+    radius: 406630
+    vector: [-0.876, -0.055, -0.479]
+  corona:
+    shimmer: 0.31655
+    hues: 0.515976
+    flare: 0.02471
+stations:
+- type: coriolis
+  orbit:
+    parent: Anlere
+    vector: undefined
+    radius: 11618

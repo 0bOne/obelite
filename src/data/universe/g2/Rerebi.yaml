@@ -1,0 +1,61 @@
+name: Rerebi
+position: [233, 214]
+seed: 25 214 177 233 141 46
+limits:
+  blurs: 176
+  stars: 7172
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rerebi
+  radius: 6633
+  rotationSpeed: 0.003493
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 795960
+  land:
+    ratio: 0.47
+    color: [0.567188, 0.581689, 0.66, 1]
+    polarColor: [0.901164, 0.906295, 0.934, 1]
+  sea:
+    color: [0.746094, 0.685346, 0.477966, 1]
+    polarColor: [0.925391, 0.906554, 0.84225, 1]
+  air:
+    color: [0.4424, 0.496836, 0.931359, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0186768, 0.267943, 0.796875, 1]
+    ratio: 0.56
+    polarColor: [0.33455, 0.502408, 0.858594, 1]
+  demographics:
+    type: 33
+    gdp: 10560
+    tech: 5
+    economy: 6
+    government: 6
+    description: Rerebi is very fabled for the Rerebiian mountain Renuiloid.
+    inhabitants: Red Frogs
+- type: star
+  type: primary
+  color: [0.777295, 0.33815, 0.243427, 1]
+  radius: 168255.089264
+  orbit:
+    type: static
+    parent: ~
+    radius: 596970
+    vector: [0.256, -0.919, -0.301]
+  corona:
+    shimmer: 0.420377
+    hues: 0.834061
+    flare: 0.059482
+stations:
+- type: coriolis
+  orbit:
+    parent: Rerebi
+    vector: undefined
+    radius: 13266

@@ -1,0 +1,61 @@
+name: Arditi
+position: [158, 4]
+seed: 34 4 210 158 218 10
+limits:
+  blurs: 82
+  stars: 7588
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arditi
+  radius: 5534
+  rotationSpeed: 0.003778
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 719420
+  land:
+    ratio: 0.49
+    color: [0.170559, 0.0335156, 0.66, 1]
+    polarColor: [0.760842, 0.712357, 0.934, 1]
+  sea:
+    color: [0.570312, 0.547008, 0.455582, 1]
+    polarColor: [0.942969, 0.933336, 0.895544, 1]
+  air:
+    color: [0.566361, 0.958676, 0.927639, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.878906, 0.753674, 0.326157, 1]
+    ratio: 0.19
+    polarColor: [0.895508, 0.815759, 0.543514, 1]
+  demographics:
+    type: 31
+    gdp: 8928
+    tech: 6
+    economy: 4
+    government: 2
+    description: This planet is notable for its great volcanoes and its inhabitants’ eccentric shyness.
+    inhabitants: Small Green Horned Birds
+- type: star
+  type: primary
+  color: [0.693045, 0.647307, 0.284894, 1]
+  radius: 104381.460876
+  orbit:
+    type: static
+    parent: ~
+    radius: 276700
+    vector: [-0.51, -0.575, -0.64]
+  corona:
+    shimmer: 0.279536
+    hues: 0.702988
+    flare: 0.051352
+stations:
+- type: coriolis
+  orbit:
+    parent: Arditi
+    vector: undefined
+    radius: 11068

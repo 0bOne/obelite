@@ -1,0 +1,61 @@
+name: Rabi
+position: [101, 12]
+seed: 169 12 153 101 74 244
+limits:
+  blurs: 189
+  stars: 8208
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rabi
+  radius: 3941
+  rotationSpeed: 0.004775
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 354690
+  land:
+    ratio: 0.65
+    color: [0.4125, 0.51498, 0.66, 1]
+    polarColor: [0.846438, 0.882694, 0.934, 1]
+  sea:
+    color: [0.658203, 0.636315, 0.493395, 1]
+    polarColor: [0.93418, 0.926413, 0.875702, 1]
+  air:
+    color: [0.499485, 0.675335, 0.834451, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.199577, 0.505859, 0.333576, 1]
+    ratio: 0.47
+    polarColor: [0.452286, 0.727637, 0.572752, 1]
+  demographics:
+    type: 32
+    gdp: 10752
+    tech: 6
+    economy: 4
+    government: 3
+    description: The planet Rabi is very noted for its unusual sit coms but ravaged by vicious Alzaats.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.464829, 0.716712, 0.832095, 1]
+  radius: 113525.046387
+  orbit:
+    type: static
+    parent: ~
+    radius: 512330
+    vector: [0.437, 0.897, 0.07]
+  corona:
+    shimmer: 0.285809
+    hues: 0.970154
+    flare: 0.022052
+stations:
+- type: coriolis
+  orbit:
+    parent: Rabi
+    vector: undefined
+    radius: 7882

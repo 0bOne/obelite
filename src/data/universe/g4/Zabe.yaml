@@ -1,0 +1,61 @@
+name: Zabe
+position: [110, 245]
+seed: 22 245 212 110 83 224
+limits:
+  blurs: 69
+  stars: 7660
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zabe
+  radius: 2926
+  rotationSpeed: 0.003126
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 351120
+  land:
+    ratio: 0.54
+    color: [0.587813, 0.66, 0.626162, 1]
+    polarColor: [0.908461, 0.934, 0.922029, 1]
+  sea:
+    color: [0.914062, 0.160675, 0.160675, 1]
+    polarColor: [0.908594, 0.721374, 0.721374, 1]
+  air:
+    color: [0.583788, 0.56923, 0.846158, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.369505, 0.333908, 0.541016, 1]
+    ratio: 0.37
+    polarColor: [0.596152, 0.565579, 0.743457, 1]
+  demographics:
+    type: 28
+    gdp: 6720
+    tech: 5
+    economy: 5
+    government: 2
+    description: The planet Zabe is very famous for its unusual casinos but beset by lethal disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.598528, 0.646396, 0.727399, 1]
+  radius: 51289.829712
+  orbit:
+    type: static
+    parent: ~
+    radius: 351120
+    vector: [0.903, 0.225, 0.366]
+  corona:
+    shimmer: 0.421426
+    hues: 0.533813
+    flare: 0.011981
+stations:
+- type: coriolis
+  orbit:
+    parent: Zabe
+    vector: undefined
+    radius: 5852

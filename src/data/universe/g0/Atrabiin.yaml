@@ -1,0 +1,61 @@
+name: Atrabiin
+position: [96, 130]
+seed: 192 130 144 96 109 209
+limits:
+  blurs: 107
+  stars: 5379
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atrabiin
+  radius: 3168
+  rotationSpeed: 0.003508
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 411840
+  land:
+    ratio: 0.25
+    color: [0.613594, 0.66, 0.645861, 1]
+    polarColor: [0.917582, 0.934, 0.928998, 1]
+  sea:
+    color: [0.631025, 0.806641, 0.532509, 1]
+    polarColor: [0.869298, 0.919336, 0.841228, 1]
+  air:
+    color: [0.701583, 0.780821, 0.947619, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.693741, 0.83858, 0.845703, 1]
+    ratio: 0.42
+    polarColor: [0.781675, 0.875931, 0.880566, 1]
+  demographics:
+    type: 29
+    gdp: 11136
+    tech: 6
+    economy: 2
+    government: 2
+    description: Atrabiin is cursed by killer edible Nuatoids.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.361829, 0.528898, 0.760806, 1]
+  radius: 88328.012695
+  orbit:
+    type: static
+    parent: ~
+    radius: 221760
+    vector: [0.344, -0.938, -0.042]
+  corona:
+    shimmer: 0.300307
+    hues: 0.912773
+    flare: 0.05575
+stations:
+- type: coriolis
+  orbit:
+    parent: Atrabiin
+    vector: undefined
+    radius: 6336

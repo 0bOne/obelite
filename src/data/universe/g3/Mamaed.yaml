@@ -1,0 +1,61 @@
+name: Mamaed
+position: [33, 125]
+seed: 58 125 226 33 234 11
+limits:
+  blurs: 132
+  stars: 9188
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Mamaed
+  radius: 5665
+  rotationSpeed: 0.00126
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 736450
+  land:
+    ratio: 0.69
+    color: [0.623047, 0.386971, 0.580627, 1]
+    polarColor: [0.937695, 0.848871, 0.921735, 1]
+  sea:
+    color: [0.783203, 0.747733, 0.458908, 1]
+    polarColor: [0.92168, 0.911244, 0.826271, 1]
+  air:
+    color: [0.637402, 0.885832, 0.840972, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.660156, 0.575219, 0.500275, 1]
+    ratio: 0.44
+    polarColor: [0.79707, 0.732975, 0.67642, 1]
+  demographics:
+    type: 30
+    gdp: 9600
+    tech: 5
+    economy: 5
+    government: 4
+    description: Mamaed is most famous for the Mamaedian deadly lobstoid and the Mamaedian spotted shrew.
+    inhabitants: Small Green Fat Insects
+- type: star
+  type: primary
+  color: [0.547943, 0.616172, 0.82439, 1]
+  radius: 136022.756195
+  orbit:
+    type: static
+    parent: ~
+    radius: 396550
+    vector: [0.158, -0.602, 0.783]
+  corona:
+    shimmer: 0.282712
+    hues: 0.644226
+    flare: 0.072437
+stations:
+- type: coriolis
+  orbit:
+    parent: Mamaed
+    vector: undefined
+    radius: 11330

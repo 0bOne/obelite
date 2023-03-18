@@ -1,0 +1,61 @@
+name: Inve
+position: [158, 140]
+seed: 26 140 66 158 42 108
+limits:
+  blurs: 117
+  stars: 6601
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inve
+  radius: 6046
+  rotationSpeed: 0.002573
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 725520
+  land:
+    ratio: 0.34
+    color: [0.587891, 0.447807, 0.500339, 1]
+    polarColor: [0.941211, 0.885143, 0.906168, 1]
+  sea:
+    color: [0.748047, 0.693441, 0.479218, 1]
+    polarColor: [0.925195, 0.908311, 0.842072, 1]
+  air:
+    color: [0.598744, 0.833888, 0.993797, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.399902, 0.984375, 0.532322, 1]
+    ratio: 0.57
+    polarColor: [0.593039, 0.942969, 0.67232, 1]
+  demographics:
+    type: 19
+    gdp: 2432
+    tech: 3
+    economy: 6
+    government: 0
+    description: Inve is reasonably notable for its great volcanoes but plagued by lethal spotted snails.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.743451, 0.736221, 0.733743, 1]
+  radius: 113553.467102
+  orbit:
+    type: static
+    parent: ~
+    radius: 483680
+    vector: [-0.746, -0.432, 0.506]
+  corona:
+    shimmer: 0.568534
+    hues: 0.617348
+    flare: 0.04633
+stations:
+- type: coriolis
+  orbit:
+    parent: Inve
+    vector: undefined
+    radius: 12092

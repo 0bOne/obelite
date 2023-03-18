@@ -1,0 +1,61 @@
+name: Ribiinat
+position: [72, 95]
+seed: 228 95 124 72 5 222
+limits:
+  blurs: 160
+  stars: 6337
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ribiinat
+  radius: 6472
+  rotationSpeed: 0.000542
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 711920
+  land:
+    ratio: 0.62
+    color: [0.554982, 0.0489844, 0.66, 1]
+    polarColor: [0.896846, 0.71783, 0.934, 1]
+  sea:
+    color: [0.564453, 0.452658, 0.434364, 1]
+    polarColor: [0.943555, 0.896835, 0.88919, 1]
+  air:
+    color: [0.524579, 0.587326, 0.855914, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.249512, 0.427456, 0.570312, 1]
+    ratio: 0.58
+    polarColor: [0.490634, 0.638185, 0.756641, 1]
+  demographics:
+    type: 31
+    gdp: 8184
+    tech: 4
+    economy: 7
+    government: 7
+    description: Ribiinat is ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.598069, 0.648216, 0.774564, 1]
+  radius: 161606.44043
+  orbit:
+    type: static
+    parent: ~
+    radius: 323600
+    vector: [-0.618, 0.283, -0.734]
+  corona:
+    shimmer: 1.45216
+    hues: 0.937469
+    flare: 0.062839
+stations:
+- type: coriolis
+  orbit:
+    parent: Ribiinat
+    vector: undefined
+    radius: 12944

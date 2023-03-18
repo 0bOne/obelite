@@ -1,0 +1,61 @@
+name: Dienon
+position: [196, 238]
+seed: 82 238 66 196 154 205
+limits:
+  blurs: 188
+  stars: 5466
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Dienon
+  radius: 6340
+  rotationSpeed: 0.000748
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 697400
+  land:
+    ratio: 0.26
+    color: [0.650252, 0.66, 0.348047, 1]
+    polarColor: [0.930551, 0.934, 0.823635, 1]
+  sea:
+    color: [0.511719, 0.386588, 0.483369, 1]
+    polarColor: [0.948828, 0.890824, 0.935686, 1]
+  air:
+    color: [0.590034, 0.546864, 0.877377, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.434542, 0.297546, 0.634766, 1]
+    ratio: 0.33
+    polarColor: [0.63076, 0.524786, 0.785645, 1]
+  demographics:
+    type: 11
+    gdp: 1408
+    tech: 1
+    economy: 6
+    government: 0
+    description: The world Dienon is notable for its great volcanoes and its inhabitants’ eccentric love for poetry.
+    inhabitants: Horned Lobsters
+- type: star
+  type: primary
+  color: [0.821078, 0.438913, 0.24046, 1]
+  radius: 176391.229248
+  orbit:
+    type: static
+    parent: ~
+    radius: 380400
+    vector: [-0.091, 0.925, -0.37]
+  corona:
+    shimmer: 0.267699
+    hues: 0.658257
+    flare: 0.037903
+stations:
+- type: coriolis
+  orbit:
+    parent: Dienon
+    vector: undefined
+    radius: 12680

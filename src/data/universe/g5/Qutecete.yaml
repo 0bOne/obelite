@@ -1,0 +1,61 @@
+name: Qutecete
+position: [238, 114]
+seed: 231 114 201 238 168 90
+limits:
+  blurs: 188
+  stars: 7018
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qutecete
+  radius: 5614
+  rotationSpeed: 0.002616
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 785960
+  land:
+    ratio: 0.49
+    color: [0.625256, 0.66, 0.482109, 1]
+    polarColor: [0.921708, 0.934, 0.871064, 1]
+  sea:
+    color: [0.654175, 0.683594, 0.512428, 1]
+    polarColor: [0.921617, 0.931641, 0.873322, 1]
+  air:
+    color: [0.689126, 0.839761, 0.905344, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.641102, 0.71875, 0.634521, 1]
+    ratio: 0.21
+    polarColor: [0.767839, 0.823438, 0.763127, 1]
+  demographics:
+    type: 36
+    gdp: 11520
+    tech: 8
+    economy: 2
+    government: 1
+    description: The planet Qutecete is most famous for the Quteceteian spotted shrew and the Quteceteian edible poet.
+    inhabitants: Yellow Fat Felines
+- type: star
+  type: primary
+  color: [0.297949, 0.360631, 0.694061, 1]
+  radius: 89540.798645
+  orbit:
+    type: static
+    parent: ~
+    radius: 168420
+    vector: [-0.639, -0.618, 0.458]
+  corona:
+    shimmer: 0.515204
+    hues: 0.899887
+    flare: 0.089856
+stations:
+- type: coriolis
+  orbit:
+    parent: Qutecete
+    vector: undefined
+    radius: 11228

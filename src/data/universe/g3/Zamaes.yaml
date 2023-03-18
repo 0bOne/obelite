@@ -1,0 +1,61 @@
+name: Zamaes
+position: [152, 174]
+seed: 170 174 114 152 202 68
+limits:
+  blurs: 116
+  stars: 7392
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zamaes
+  radius: 3992
+  rotationSpeed: 0.003179
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 439120
+  land:
+    ratio: 0.53
+    color: [0.226944, 0.535562, 0.542969, 1]
+    polarColor: [0.808096, 0.942478, 0.945703, 1]
+  sea:
+    color: [0.560757, 0.705078, 0.610368, 1]
+    polarColor: [0.881928, 0.929492, 0.898278, 1]
+  air:
+    color: [0.597445, 0.541763, 0.885832, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.473198, 0.28624, 0.660156, 1]
+    ratio: 0.4
+    polarColor: [0.655987, 0.514904, 0.79707, 1]
+  demographics:
+    type: 29
+    gdp: 9280
+    tech: 4
+    economy: 6
+    government: 6
+    description: This world is plagued by frequent earthquakes.
+    inhabitants: Fierce Yellow Felines
+- type: star
+  type: primary
+  color: [0.523883, 0.55393, 0.734247, 1]
+  radius: 128641.12793
+  orbit:
+    type: static
+    parent: ~
+    radius: 279440
+    vector: [-0.136, -0.053, -0.989]
+  corona:
+    shimmer: 0.787352
+    hues: 0.925827
+    flare: 0.090361
+stations:
+- type: coriolis
+  orbit:
+    parent: Zamaes
+    vector: undefined
+    radius: 7984

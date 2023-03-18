@@ -1,0 +1,61 @@
+name: Xebeuson
+position: [114, 30]
+seed: 210 30 106 114 148 2
+limits:
+  blurs: 55
+  stars: 9370
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xebeuson
+  radius: 3442
+  rotationSpeed: 0.001502
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 344200
+  land:
+    ratio: 0.45
+    color: [0.324481, 0.322838, 0.533203, 1]
+    polarColor: [0.854035, 0.853306, 0.94668, 1]
+  sea:
+    color: [0.575917, 0.738281, 0.650757, 1]
+    polarColor: [0.875251, 0.926172, 0.898722, 1]
+  air:
+    color: [0.519591, 0.576487, 0.862418, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.239624, 0.409262, 0.589844, 1]
+    ratio: 0.21
+    polarColor: [0.481384, 0.618968, 0.76543, 1]
+  demographics:
+    type: 36
+    gdp: 10368
+    tech: 6
+    economy: 6
+    government: 5
+    description: The world Xebeuson is a boring world.
+    inhabitants: Large Green Fat Felines
+- type: star
+  type: primary
+  color: [0.721259, 0.442988, 0.330515, 1]
+  radius: 92968.033447
+  orbit:
+    type: static
+    parent: ~
+    radius: 275360
+    vector: [0.809, -0.548, 0.215]
+  corona:
+    shimmer: 0.307944
+    hues: 0.934471
+    flare: 0.081271
+stations:
+- type: coriolis
+  orbit:
+    parent: Xebeuson
+    vector: undefined
+    radius: 6884

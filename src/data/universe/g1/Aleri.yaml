@@ -1,0 +1,61 @@
+name: Aleri
+position: [142, 228]
+seed: 48 228 8 142 90 47
+limits:
+  blurs: 199
+  stars: 6877
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aleri
+  radius: 6798
+  rotationSpeed: 0.000902
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 747780
+  land:
+    ratio: 0.69
+    color: [0.250702, 0.492558, 0.517578, 1]
+    polarColor: [0.826008, 0.936783, 0.948242, 1]
+  sea:
+    color: [0.605774, 0.78125, 0.756574, 1]
+    polarColor: [0.87011, 0.921875, 0.914595, 1]
+  air:
+    color: [0.487551, 0.996398, 0.872744, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.992188, 0.326409, 0.0658875, 1]
+    ratio: 0.32
+    polarColor: [0.946484, 0.54954, 0.394214, 1]
+  demographics:
+    type: 24
+    gdp: 3840
+    tech: 4
+    economy: 6
+    government: 1
+    description: This planet is very notable for the Aleriian tree snake and its unusual casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.320574, 0.354408, 0.826505, 1]
+  radius: 150977.920532
+  orbit:
+    type: static
+    parent: ~
+    radius: 679800
+    vector: [0.325, 0.24, -0.915]
+  corona:
+    shimmer: 0.325884
+    hues: 0.631828
+    flare: 0.009508
+stations:
+- type: coriolis
+  orbit:
+    parent: Aleri
+    vector: undefined
+    radius: 13596

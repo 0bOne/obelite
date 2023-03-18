@@ -1,0 +1,61 @@
+name: Onzaenve
+position: [110, 53]
+seed: 210 53 194 110 154 127
+limits:
+  blurs: 145
+  stars: 7755
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onzaenve
+  radius: 6766
+  rotationSpeed: 0.000699
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 676600
+  land:
+    ratio: 0.15
+    color: [0.66, 0.183047, 0.496047, 1]
+    polarColor: [0.934, 0.76526, 0.875996, 1]
+  sea:
+    color: [0.564453, 0.469867, 0.43701, 1]
+    polarColor: [0.943555, 0.904026, 0.890295, 1]
+  air:
+    color: [0.720451, 0.52393, 0.938514, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.818359, 0.22377, 0.558227, 1]
+    ratio: 0.53
+    polarColor: [0.868262, 0.473983, 0.695765, 1]
+  demographics:
+    type: 16
+    gdp: 1536
+    tech: 2
+    economy: 7
+    government: 0
+    description: This world is mildly famous for its hoopy casinos and its vast oceans.
+    inhabitants: Blue Bony Felines
+- type: star
+  type: primary
+  color: [0.675153, 0.703692, 0.789026, 1]
+  radius: 161980.947266
+  orbit:
+    type: static
+    parent: ~
+    radius: 608940
+    vector: [0.57, 0.74, -0.357]
+  corona:
+    shimmer: 0.272089
+    hues: 0.811699
+    flare: 0.029907
+stations:
+- type: coriolis
+  orbit:
+    parent: Onzaenve
+    vector: undefined
+    radius: 13532

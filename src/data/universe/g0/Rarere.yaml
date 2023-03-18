@@ -1,0 +1,61 @@
+name: Rarere
+position: [203, 206]
+seed: 56 206 252 203 93 116
+limits:
+  blurs: 111
+  stars: 9526
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rarere
+  radius: 4043
+  rotationSpeed: 0.000826
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 404300
+  land:
+    ratio: 0.4
+    color: [0.610049, 0.020625, 0.66, 1]
+    polarColor: [0.916328, 0.707797, 0.934, 1]
+  sea:
+    color: [0.580078, 0.50743, 0.449107, 1]
+    polarColor: [0.941992, 0.912499, 0.888821, 1]
+  air:
+    color: [0.494587, 0.529727, 0.894287, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.176743, 0.303944, 0.685547, 1]
+    ratio: 0.42
+    polarColor: [0.433461, 0.52722, 0.808496, 1]
+  demographics:
+    type: 46
+    gdp: 16192
+    tech: 8
+    economy: 6
+    government: 7
+    description: The planet Rarere is mildly notable for Rarereian lethal brandy.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.531524, 0.571799, 0.723837, 1]
+  radius: 100770.861969
+  orbit:
+    type: static
+    parent: ~
+    radius: 485160
+    vector: [0.729, 0.657, 0.194]
+  corona:
+    shimmer: 0.346847
+    hues: 0.946953
+    flare: 0.063696
+stations:
+- type: coriolis
+  orbit:
+    parent: Rarere
+    vector: undefined
+    radius: 8086

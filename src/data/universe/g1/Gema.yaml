@@ -1,0 +1,61 @@
+name: Gema
+position: [168, 181]
+seed: 0 181 64 168 26 227
+limits:
+  blurs: 97
+  stars: 9978
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gema
+  radius: 3752
+  rotationSpeed: 0.000676
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 375200
+  land:
+    ratio: 0.67
+    color: [0.290726, 0.396823, 0.509766, 1]
+    polarColor: [0.847078, 0.896458, 0.949023, 1]
+  sea:
+    color: [0.595625, 0.800781, 0.572433, 1]
+    polarColor: [0.861002, 0.919922, 0.854342, 1]
+  air:
+    color: [0.764542, 0.500233, 0.96583, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.900391, 0.137169, 0.351825, 1]
+    ratio: 0.36
+    polarColor: [0.905176, 0.425627, 0.5605, 1]
+  demographics:
+    type: 8
+    gdp: 768
+    tech: 0
+    economy: 7
+    government: 0
+    description: The world Gema is reasonably noted for mud tennis and the Gemaian evil poet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.669882, 0.657033, 0.645688, 1]
+  radius: 78982.874756
+  orbit:
+    type: static
+    parent: ~
+    radius: 337680
+    vector: [-0.222, -0.705, 0.674]
+  corona:
+    shimmer: 0.480659
+    hues: 0.979256
+    flare: 0.036481
+stations:
+- type: coriolis
+  orbit:
+    parent: Gema
+    vector: undefined
+    radius: 7504

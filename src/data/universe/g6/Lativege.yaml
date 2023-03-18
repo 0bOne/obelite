@@ -1,0 +1,61 @@
+name: Lativege
+position: [73, 23]
+seed: 222 23 202 73 128 85
+limits:
+  blurs: 48
+  stars: 5756
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lativege
+  radius: 4169
+  rotationSpeed: 0.00294
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 500280
+  land:
+    ratio: 0.39
+    color: [0.30542, 0.336969, 0.542969, 1]
+    polarColor: [0.842267, 0.856004, 0.945703, 1]
+  sea:
+    color: [0.802734, 0.530322, 0.366875, 1]
+    polarColor: [0.919727, 0.841698, 0.794881, 1]
+  air:
+    color: [0.481907, 0.686979, 0.845508, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.166351, 0.539062, 0.285735, 1]
+    ratio: 0.13
+    polarColor: [0.421689, 0.742578, 0.524474, 1]
+  demographics:
+    type: 17
+    gdp: 2040
+    tech: 2
+    economy: 7
+    government: 1
+    description: This planet is a dull place.
+    inhabitants: Yellow Insects
+- type: star
+  type: primary
+  color: [0.564356, 0.665147, 0.679208, 1]
+  radius: 126811.748352
+  orbit:
+    type: static
+    parent: ~
+    radius: 375210
+    vector: [0.236, 0.97, -0.065]
+  corona:
+    shimmer: 1.329115
+    hues: 0.870476
+    flare: 0.067477
+stations:
+- type: coriolis
+  orbit:
+    parent: Lativege
+    vector: undefined
+    radius: 8338

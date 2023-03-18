@@ -1,0 +1,61 @@
+name: Bioris
+position: [220, 214]
+seed: 138 214 108 220 219 70
+limits:
+  blurs: 190
+  stars: 5169
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bioris
+  radius: 4572
+  rotationSpeed: 0.004948
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 502920
+  land:
+    ratio: 0.59
+    color: [0.177891, 0.366215, 0.66, 1]
+    polarColor: [0.763436, 0.830062, 0.934, 1]
+  sea:
+    color: [0.650391, 0.533524, 0.487793, 1]
+    polarColor: [0.934961, 0.892961, 0.876526, 1]
+  air:
+    color: [0.593473, 0.903126, 0.970383, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.630929, 0.914062, 0.396332, 1]
+    ratio: 0.44
+    polarColor: [0.734899, 0.911328, 0.588714, 1]
+  demographics:
+    type: 28
+    gdp: 8064
+    tech: 4
+    economy: 6
+    government: 5
+    description: Bioris is very fabled for the Biorisian edible poet.
+    inhabitants: Fierce Yellow Horned Birds
+- type: star
+  type: primary
+  color: [0.380741, 0.521552, 0.759958, 1]
+  radius: 134959.669189
+  orbit:
+    type: static
+    parent: ~
+    radius: 411480
+    vector: [0.829, 0.436, -0.35]
+  corona:
+    shimmer: 0.532173
+    hues: 0.8507
+    flare: 0.032404
+stations:
+- type: coriolis
+  orbit:
+    parent: Bioris
+    vector: undefined
+    radius: 9144

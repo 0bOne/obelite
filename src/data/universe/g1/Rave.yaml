@@ -1,0 +1,61 @@
+name: Rave
+position: [65, 234]
+seed: 52 234 232 65 54 212
+limits:
+  blurs: 169
+  stars: 5033
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rave
+  radius: 3905
+  rotationSpeed: 0.000497
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 351450
+  land:
+    ratio: 0.46
+    color: [0.105703, 0.491113, 0.66, 1]
+    polarColor: [0.737897, 0.87425, 0.934, 1]
+  sea:
+    color: [0.601317, 0.634766, 0.496655, 1]
+    polarColor: [0.924186, 0.936523, 0.885582, 1]
+  air:
+    color: [0.448261, 0.663031, 0.883231, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0789948, 0.652344, 0.383586, 1]
+    ratio: 0.49
+    polarColor: [0.357642, 0.793555, 0.589221, 1]
+  demographics:
+    type: 44
+    gdp: 25344
+    tech: 9
+    economy: 2
+    government: 5
+    description: Rave is most famous for the Raveian spotted shrew and the Raveian edible arts graduate.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.380303, 0.583663, 0.79628, 1]
+  radius: 79047.410583
+  orbit:
+    type: static
+    parent: ~
+    radius: 429550
+    vector: [-0.213, 0.976, 0.045]
+  corona:
+    shimmer: 0.363786
+    hues: 0.83474
+    flare: 0.022791
+stations:
+- type: coriolis
+  orbit:
+    parent: Rave
+    vector: undefined
+    radius: 7810

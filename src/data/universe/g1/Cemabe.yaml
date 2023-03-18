@@ -1,0 +1,61 @@
+name: Cemabe
+position: [225, 100]
+seed: 48 100 200 225 218 5
+limits:
+  blurs: 153
+  stars: 8498
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cemabe
+  radius: 4321
+  rotationSpeed: 0.003396
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 432100
+  land:
+    ratio: 0.25
+    color: [0.66, 0.0902344, 0.437435, 1]
+    polarColor: [0.934, 0.732424, 0.855259, 1]
+  sea:
+    color: [0.611328, 0.479777, 0.453959, 1]
+    polarColor: [0.938867, 0.888359, 0.878446, 1]
+  air:
+    color: [0.40627, 0.8325, 0.738902, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.5, 0.196045, 0.03125, 1]
+    ratio: 0.18
+    polarColor: [0.725, 0.449541, 0.300195, 1]
+  demographics:
+    type: 20
+    gdp: 3200
+    tech: 3
+    economy: 6
+    government: 1
+    description: This world is reasonably well known for its vast oceans but ravaged by vicious wolfs.
+    inhabitants: Fierce Green Furry Felines
+- type: star
+  type: primary
+  color: [0.655087, 0.602715, 0.434334, 1]
+  radius: 105842.610168
+  orbit:
+    type: static
+    parent: ~
+    radius: 302470
+    vector: [-0.369, -0.833, -0.413]
+  corona:
+    shimmer: 0.520135
+    hues: 0.611084
+    flare: 0.019038
+stations:
+- type: coriolis
+  orbit:
+    parent: Cemabe
+    vector: undefined
+    radius: 8642

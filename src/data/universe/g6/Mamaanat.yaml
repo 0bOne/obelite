@@ -1,0 +1,61 @@
+name: Mamaanat
+position: [228, 27]
+seed: 206 27 82 228 80 171
+limits:
+  blurs: 137
+  stars: 6156
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Mamaanat
+  radius: 5860
+  rotationSpeed: 0.00269
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 527400
+  land:
+    ratio: 0.71
+    color: [0.518264, 0.0747656, 0.66, 1]
+    polarColor: [0.883855, 0.726951, 0.934, 1]
+  sea:
+    color: [0.615601, 0.636719, 0.494452, 1]
+    polarColor: [0.928564, 0.936328, 0.884025, 1]
+  air:
+    color: [0.699781, 0.736769, 0.974285, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.697952, 0.786948, 0.925781, 1]
+    ratio: 0.32
+    polarColor: [0.77562, 0.830691, 0.916602, 1]
+  demographics:
+    type: 26
+    gdp: 8736
+    tech: 5
+    economy: 3
+    government: 2
+    description: The world Mamaanat is beset by evil disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.585311, 0.817464, 0.84303, 1]
+  radius: 123097.912598
+  orbit:
+    type: static
+    parent: ~
+    radius: 644600
+    vector: [0.253, -0.601, -0.758]
+  corona:
+    shimmer: 0.28182
+    hues: 0.757645
+    flare: 0.094672
+stations:
+- type: coriolis
+  orbit:
+    parent: Mamaanat
+    vector: undefined
+    radius: 11720

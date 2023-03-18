@@ -1,0 +1,61 @@
+name: Usbeus
+position: [108, 222]
+seed: 137 222 105 108 170 8
+limits:
+  blurs: 182
+  stars: 6261
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usbeus
+  radius: 4972
+  rotationSpeed: 0.004043
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 596640
+  land:
+    ratio: 0.45
+    color: [0.66, 0.322266, 0.504326, 1]
+    polarColor: [0.934, 0.814514, 0.878924, 1]
+  sea:
+    color: [0.566406, 0.540591, 0.452461, 1]
+    polarColor: [0.943359, 0.93261, 0.895915, 1]
+  air:
+    color: [0.742942, 0.591025, 0.887133, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.664062, 0.396881, 0.51586, 1]
+    ratio: 0.11
+    polarColor: [0.798828, 0.597951, 0.687404, 1]
+  demographics:
+    type: 28
+    gdp: 8064
+    tech: 4
+    economy: 6
+    government: 5
+    description: The world Usbeus is a boring world.
+    inhabitants: Small Green Horned Lizards
+- type: star
+  type: primary
+  color: [0.767014, 0.588188, 0.57902, 1]
+  radius: 136008.50769
+  orbit:
+    type: static
+    parent: ~
+    radius: 546920
+    vector: [-0.081, 0.811, 0.58]
+  corona:
+    shimmer: 1.225843
+    hues: 0.665375
+    flare: 0.001404
+stations:
+- type: coriolis
+  orbit:
+    parent: Usbeus
+    vector: undefined
+    radius: 9944

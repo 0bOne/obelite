@@ -1,0 +1,61 @@
+name: Edreor
+position: [241, 4]
+seed: 56 4 188 241 221 120
+limits:
+  blurs: 110
+  stars: 7013
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edreor
+  radius: 5105
+  rotationSpeed: 0.003334
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 714700
+  land:
+    ratio: 0.34
+    color: [0.625, 0.583344, 0.529785, 1]
+    polarColor: [0.9375, 0.921879, 0.901794, 1]
+  sea:
+    color: [0.182617, 0.53125, 0.335144, 1]
+    polarColor: [0.791528, 0.946875, 0.859492, 1]
+  air:
+    color: [0.495306, 0.988594, 0.85717, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.96875, 0.281981, 0.0983887, 1]
+    ratio: 0.35
+    polarColor: [0.935938, 0.521245, 0.410387, 1]
+  demographics:
+    type: 44
+    gdp: 23232
+    tech: 8
+    economy: 4
+    government: 7
+    description: The world Edreor is reasonably fabled for its fabulous killer Abususlo juice and its ancient Abususlo plant plantations.
+    inhabitants: Blue Furry Humanoids
+- type: star
+  type: primary
+  color: [0.588044, 0.603071, 0.719974, 1]
+  radius: 138582.646942
+  orbit:
+    type: static
+    parent: ~
+    radius: 204200
+    vector: [-0.461, 0.883, 0.088]
+  corona:
+    shimmer: 0.334511
+    hues: 0.921135
+    flare: 0.018919
+stations:
+- type: coriolis
+  orbit:
+    parent: Edreor
+    vector: undefined
+    radius: 10210

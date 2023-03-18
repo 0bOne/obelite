@@ -1,0 +1,61 @@
+name: Anusa
+position: [171, 129]
+seed: 148 129 16 171 166 219
+limits:
+  blurs: 62
+  stars: 9334
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anusa
+  radius: 5803
+  rotationSpeed: 0.000204
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 696360
+  land:
+    ratio: 0.62
+    color: [0.226412, 0.121172, 0.66, 1]
+    polarColor: [0.780602, 0.743369, 0.934, 1]
+  sea:
+    color: [0.652344, 0.54277, 0.489258, 1]
+    polarColor: [0.934766, 0.895513, 0.876343, 1]
+  air:
+    color: [0.670471, 0.774082, 0.970383, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.614136, 0.914062, 0.907033, 1]
+    ratio: 0.48
+    polarColor: [0.724435, 0.911328, 0.906948, 1]
+  demographics:
+    type: 44
+    gdp: 19008
+    tech: 10
+    economy: 1
+    government: 2
+    description: The world Anusa is reasonably noted for its fabulous goat soup.
+    inhabitants: Horned Humanoids
+- type: star
+  type: primary
+  color: [0.713846, 0.703467, 0.686087, 1]
+  radius: 147709.2659
+  orbit:
+    type: static
+    parent: ~
+    radius: 406210
+    vector: [-0.126, 0.986, 0.111]
+  corona:
+    shimmer: 1.163884
+    hues: 0.921402
+    flare: 0.034789
+stations:
+- type: coriolis
+  orbit:
+    parent: Anusa
+    vector: undefined
+    radius: 11606

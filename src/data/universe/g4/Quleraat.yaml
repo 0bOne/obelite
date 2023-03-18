@@ -1,0 +1,61 @@
+name: Quleraat
+position: [247, 207]
+seed: 70 207 188 247 243 218
+limits:
+  blurs: 153
+  stars: 8635
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Quleraat
+  radius: 5623
+  rotationSpeed: 0.000958
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 843450
+  land:
+    ratio: 0.42
+    color: [0.608438, 0.627371, 0.66, 1]
+    polarColor: [0.915758, 0.922456, 0.934, 1]
+  sea:
+    color: [0.631008, 0.642578, 0.494484, 1]
+    polarColor: [0.93153, 0.935742, 0.881827, 1]
+  air:
+    color: [0.443504, 0.68322, 0.880629, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0704956, 0.644531, 0.281274, 1]
+    ratio: 0.19
+    polarColor: [0.350271, 0.790039, 0.511748, 1]
+  demographics:
+    type: 43
+    gdp: 11352
+    tech: 7
+    economy: 7
+    government: 7
+    description: This world is reasonably well known for its great volcanoes but plagued by evil tree leopards.
+    inhabitants: Slimy Lizards
+- type: star
+  type: primary
+  color: [0.588166, 0.686195, 0.819205, 1]
+  radius: 141365.219574
+  orbit:
+    type: static
+    parent: ~
+    radius: 281150
+    vector: [-0.452, -0.506, -0.735]
+  corona:
+    shimmer: 0.262697
+    hues: 0.847504
+    flare: 0.080276
+stations:
+- type: coriolis
+  orbit:
+    parent: Quleraat
+    vector: undefined
+    radius: 11246

@@ -1,0 +1,61 @@
+name: Biatge
+position: [76, 95]
+seed: 13 95 12 76 33 38
+limits:
+  blurs: 172
+  stars: 7939
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biatge
+  radius: 4428
+  rotationSpeed: 0.004365
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 664200
+  land:
+    ratio: 0.42
+    color: [0.66, 0.226875, 0.460356, 1]
+    polarColor: [0.934, 0.780766, 0.863369, 1]
+  sea:
+    color: [0.529297, 0.433527, 0.417855, 1]
+    polarColor: [0.94707, 0.90423, 0.89722, 1]
+  air:
+    color: [0.766892, 0.589786, 0.897539, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.695312, 0.396545, 0.473571, 1]
+    ratio: 0.35
+    polarColor: [0.812891, 0.594585, 0.650867, 1]
+  demographics:
+    type: 13
+    gdp: 1560
+    tech: 1
+    economy: 7
+    government: 1
+    description: The world Biatge is very noted for its ancient Biatgeian Esbeusus tulip plantations but cursed by unpredictable solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.835196, 0.568021, 0.485619, 1]
+  radius: 102547.496338
+  orbit:
+    type: static
+    parent: ~
+    radius: 88560
+    vector: [0.527, 0.074, -0.847]
+  corona:
+    shimmer: 0.681928
+    hues: 0.671562
+    flare: 0.04425
+stations:
+- type: coriolis
+  orbit:
+    parent: Biatge
+    vector: undefined
+    radius: 8856

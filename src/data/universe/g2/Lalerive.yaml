@@ -1,0 +1,61 @@
+name: Lalerive
+position: [230, 197]
+seed: 101 197 201 230 197 85
+limits:
+  blurs: 151
+  stars: 5444
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lalerive
+  radius: 4326
+  rotationSpeed: 0.001011
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 562380
+  land:
+    ratio: 0.36
+    color: [0.435703, 0.66, 0.649486, 1]
+    polarColor: [0.854647, 0.934, 0.93028, 1]
+  sea:
+    color: [0.589073, 0.595703, 0.474468, 1]
+    polarColor: [0.937813, 0.94043, 0.892582, 1]
+  air:
+    color: [0.563619, 0.552277, 0.859166, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.340173, 0.305901, 0.580078, 1]
+    ratio: 0.31
+    polarColor: [0.56432, 0.536218, 0.761035, 1]
+  demographics:
+    type: 21
+    gdp: 2520
+    tech: 3
+    economy: 7
+    government: 1
+    description: The planet Lalerive is mildly well known for its hoopy night life.
+    inhabitants: Yellow Bony Birds
+- type: star
+  type: primary
+  color: [0.745996, 0.417901, 0.19834, 1]
+  radius: 136961.175842
+  orbit:
+    type: static
+    parent: ~
+    radius: 302820
+    vector: [-0.124, 0.699, -0.704]
+  corona:
+    shimmer: 0.4186
+    hues: 0.849701
+    flare: 0.072601
+stations:
+- type: coriolis
+  orbit:
+    parent: Lalerive
+    vector: undefined
+    radius: 8652

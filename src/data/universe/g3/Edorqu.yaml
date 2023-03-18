@@ -1,0 +1,61 @@
+name: Edorqu
+position: [167, 121]
+seed: 130 121 242 167 90 120
+limits:
+  blurs: 56
+  stars: 7008
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edorqu
+  radius: 5031
+  rotationSpeed: 0.00008
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 503100
+  land:
+    ratio: 0.56
+    color: [0.446377, 0.367363, 0.525391, 1]
+    polarColor: [0.911839, 0.876216, 0.947461, 1]
+  sea:
+    color: [0.541016, 0.521616, 0.0443802, 1]
+    polarColor: [0.945898, 0.937419, 0.728822, 1]
+  air:
+    color: [0.503928, 0.464364, 0.936563, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.267097, 0.0698242, 0.8125, 1]
+    ratio: 0.26
+    polarColor: [0.50246, 0.371103, 0.865625, 1]
+  demographics:
+    type: 56
+    gdp: 40320
+    tech: 12
+    economy: 1
+    government: 6
+    description: Edorqu is famous for Edorquian wolf cutlet but beset by evil spotted cats.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.615147, 0.70777, 0.746329, 1]
+  radius: 134636.21109
+  orbit:
+    type: static
+    parent: ~
+    radius: 603720
+    vector: [-0.246, 0.739, -0.628]
+  corona:
+    shimmer: 0.325583
+    hues: 0.806595
+    flare: 0.007216
+stations:
+- type: icosahedron
+  orbit:
+    parent: Edorqu
+    vector: undefined
+    radius: 10062

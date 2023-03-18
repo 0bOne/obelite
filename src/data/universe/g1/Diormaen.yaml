@@ -1,0 +1,61 @@
+name: Diormaen
+position: [100, 230]
+seed: 112 230 248 100 186 77
+limits:
+  blurs: 181
+  stars: 5973
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diormaen
+  radius: 6244
+  rotationSpeed: 0.001534
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 686840
+  land:
+    ratio: 0.58
+    color: [0.66, 0.626102, 0.404766, 1]
+    polarColor: [0.934, 0.922007, 0.843701, 1]
+  sea:
+    color: [0.527344, 0.387268, 0.525155, 1]
+    polarColor: [0.947266, 0.884361, 0.946283, 1]
+  air:
+    color: [0.462257, 0.443656, 0.946969, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.108353, 0.0032959, 0.84375, 1]
+    ratio: 0.32
+    polarColor: [0.400488, 0.33203, 0.879687, 1]
+  demographics:
+    type: 34
+    gdp: 11968
+    tech: 5
+    economy: 6
+    government: 7
+    description: This planet is reasonably noted for its exotic goat meat.
+    inhabitants: Yellow Horned Lobsters
+- type: star
+  type: primary
+  color: [0.415552, 0.467123, 0.652448, 1]
+  radius: 174104.282837
+  orbit:
+    type: static
+    parent: ~
+    radius: 624400
+    vector: [-0.879, -0.178, -0.443]
+  corona:
+    shimmer: 0.253409
+    hues: 0.506836
+    flare: 0.013361
+stations:
+- type: coriolis
+  orbit:
+    parent: Diormaen
+    vector: undefined
+    radius: 12488

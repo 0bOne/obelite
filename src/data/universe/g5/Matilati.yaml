@@ -1,0 +1,61 @@
+name: Matilati
+position: [210, 89]
+seed: 121 89 173 210 26 139
+limits:
+  blurs: 152
+  stars: 5153
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Matilati
+  radius: 5842
+  rotationSpeed: 0.0049
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 584200
+  land:
+    ratio: 0.69
+    color: [0.66, 0.309375, 0.399771, 1]
+    polarColor: [0.934, 0.809953, 0.841934, 1]
+  sea:
+    color: [0.645508, 0.673828, 0.509056, 1]
+    polarColor: [0.922818, 0.932617, 0.875604, 1]
+  air:
+    color: [0.852208, 0.75683, 0.997699, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.996094, 0.871582, 0.970802, 1]
+    ratio: 0.59
+    polarColor: [0.948242, 0.874161, 0.933194, 1]
+  demographics:
+    type: 51
+    gdp: 33048
+    tech: 11
+    economy: 1
+    government: 5
+    description: The planet Matilati is most famous for the Matilatiian deadly lobstoid.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.705014, 0.45941, 0.420382, 1]
+  radius: 156936.893616
+  orbit:
+    type: static
+    parent: ~
+    radius: 350520
+    vector: [0.213, 0.805, -0.554]
+  corona:
+    shimmer: 0.499322
+    hues: 0.960945
+    flare: 0.04122
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Matilati
+    vector: undefined
+    radius: 11684

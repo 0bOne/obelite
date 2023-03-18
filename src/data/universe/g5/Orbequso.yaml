@@ -1,0 +1,61 @@
+name: Orbequso
+position: [109, 235]
+seed: 111 235 253 109 160 121
+limits:
+  blurs: 89
+  stars: 9779
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orbequso
+  radius: 5229
+  rotationSpeed: 0.003704
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 784350
+  land:
+    ratio: 0.63
+    color: [0.639762, 0.652344, 0.631958, 1]
+    polarColor: [0.930258, 0.934766, 0.927463, 1]
+  sea:
+    color: [0.355164, 0.988281, 0.365056, 1]
+    polarColor: [0.756844, 0.901172, 0.759099, 1]
+  air:
+    color: [0.502741, 0.46289, 0.938514, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.264328, 0.0639343, 0.818359, 1]
+    ratio: 0.6
+    polarColor: [0.500877, 0.367994, 0.868262, 1]
+  demographics:
+    type: 47
+    gdp: 28952
+    tech: 9
+    economy: 3
+    government: 7
+    description: This world is mildly well known for its exotic cuisine and its inhabitants’ ingrained silliness.
+    inhabitants: Blue Insects
+- type: star
+  type: primary
+  color: [0.684149, 0.703541, 0.791788, 1]
+  radius: 147711.111603
+  orbit:
+    type: static
+    parent: ~
+    radius: 209160
+    vector: [-0.536, 0.84, -0.09]
+  corona:
+    shimmer: 0.340203
+    hues: 0.802437
+    flare: 0.050665
+stations:
+- type: coriolis
+  orbit:
+    parent: Orbequso
+    vector: undefined
+    radius: 10458

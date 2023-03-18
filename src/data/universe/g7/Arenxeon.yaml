@@ -1,0 +1,61 @@
+name: Arenxeon
+position: [165, 67]
+seed: 199 67 34 165 3 202
+limits:
+  blurs: 51
+  stars: 5092
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arenxeon
+  radius: 5541
+  rotationSpeed: 0.001797
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 554100
+  land:
+    ratio: 0.2
+    color: [0.66, 0.514215, 0.417656, 1]
+    polarColor: [0.934, 0.882423, 0.848262, 1]
+  sea:
+    color: [0.493885, 0.396271, 0.517578, 1]
+    polarColor: [0.93739, 0.892681, 0.948242, 1]
+  air:
+    color: [0.738187, 0.552877, 0.919652, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.761719, 0.306473, 0.519869, 1]
+    ratio: 0.24
+    polarColor: [0.842773, 0.527968, 0.675533, 1]
+  demographics:
+    type: 36
+    gdp: 16128
+    tech: 7
+    economy: 3
+    government: 4
+    description: The world Arenxeon is most famous for its vast oceans.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.658964, 0.661892, 0.664838, 1]
+  radius: 124258.210144
+  orbit:
+    type: static
+    parent: ~
+    radius: 443280
+    vector: [-0.023, -0.449, -0.893]
+  corona:
+    shimmer: 0.577155
+    hues: 0.873482
+    flare: 0.024837
+stations:
+- type: coriolis
+  orbit:
+    parent: Arenxeon
+    vector: undefined
+    radius: 11082

@@ -1,0 +1,61 @@
+name: Bireer
+position: [123, 205]
+seed: 13 205 33 123 149 102
+limits:
+  blurs: 75
+  stars: 9534
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bireer
+  radius: 4475
+  rotationSpeed: 0.003815
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 581750
+  land:
+    ratio: 0.57
+    color: [0.446016, 0.66, 0.454374, 1]
+    polarColor: [0.858295, 0.934, 0.861252, 1]
+  sea:
+    color: [0.535925, 0.671875, 0.53805, 1]
+    polarColor: [0.885625, 0.932813, 0.886363, 1]
+  air:
+    color: [0.493902, 0.491511, 0.907945, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.179423, 0.161774, 0.726562, 1]
+    ratio: 0.47
+    polarColor: [0.437742, 0.425186, 0.826953, 1]
+  demographics:
+    type: 38
+    gdp: 12160
+    tech: 7
+    economy: 5
+    government: 4
+    description: This world is mildly famous for its hoopy night life and vicious Le brew.
+    inhabitants: Fierce Blue Rodents
+- type: star
+  type: primary
+  color: [0.828146, 0.785713, 0.7151, 1]
+  radius: 95138.134003
+  orbit:
+    type: static
+    parent: ~
+    radius: 223750
+    vector: [-0.644, 0.746, -0.17]
+  corona:
+    shimmer: 0.468235
+    hues: 0.941353
+    flare: 0.038571
+stations:
+- type: coriolis
+  orbit:
+    parent: Bireer
+    vector: undefined
+    radius: 8950

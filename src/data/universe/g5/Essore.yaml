@@ -1,0 +1,61 @@
+name: Essore
+position: [220, 33]
+seed: 57 33 141 220 218 105
+limits:
+  blurs: 157
+  stars: 9322
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Essore
+  radius: 5340
+  rotationSpeed: 0.001136
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 747600
+  land:
+    ratio: 0.45
+    color: [0.567188, 0.581689, 0.66, 1]
+    polarColor: [0.901164, 0.906295, 0.934, 1]
+  sea:
+    color: [0.159721, 0.517578, 0.182087, 1]
+    polarColor: [0.784337, 0.948242, 0.794581, 1]
+  air:
+    color: [0.682062, 0.86502, 0.861969, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.597656, 0.596835, 0.576645, 1]
+    ratio: 0.35
+    polarColor: [0.768945, 0.768285, 0.75205, 1]
+  demographics:
+    type: 25
+    gdp: 7000
+    tech: 5
+    economy: 3
+    government: 1
+    description: The planet Essore is most well known for its hoopy casinos.
+    inhabitants: Small Blue Furry Felines
+- type: star
+  type: primary
+  color: [0.800558, 0.68409, 0.442172, 1]
+  radius: 151044.689941
+  orbit:
+    type: static
+    parent: ~
+    radius: 320400
+    vector: [0.319, -0.763, 0.563]
+  corona:
+    shimmer: 0.369333
+    hues: 0.616821
+    flare: 0.016597
+stations:
+- type: coriolis
+  orbit:
+    parent: Essore
+    vector: undefined
+    radius: 10680

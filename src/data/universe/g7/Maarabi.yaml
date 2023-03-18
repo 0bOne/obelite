@@ -1,0 +1,61 @@
+name: Maarabi
+position: [153, 101]
+seed: 213 101 84 153 185 203
+limits:
+  blurs: 60
+  stars: 6458
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maarabi
+  radius: 5785
+  rotationSpeed: 0.000077
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 752050
+  land:
+    ratio: 0.29
+    color: [0.638672, 0.563672, 0.508942, 1]
+    polarColor: [0.936133, 0.90865, 0.888595, 1]
+  sea:
+    color: [0.146942, 0.626953, 0.581952, 1]
+    polarColor: [0.757899, 0.937305, 0.920485, 1]
+  air:
+    color: [0.692198, 0.830203, 0.912498, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.647705, 0.740234, 0.659994, 1]
+    ratio: 0.14
+    polarColor: [0.768019, 0.833105, 0.776663, 1]
+  demographics:
+    type: 24
+    gdp: 5760
+    tech: 4
+    economy: 5
+    government: 2
+    description: The planet Maarabi is a boring world.
+    inhabitants: Small Fat Insects
+- type: star
+  type: primary
+  color: [0.39328, 0.528749, 0.728598, 1]
+  radius: 122359.246826
+  orbit:
+    type: static
+    parent: ~
+    radius: 289250
+    vector: [0.844, -0.282, -0.457]
+  corona:
+    shimmer: 0.506461
+    hues: 0.514313
+    flare: 0.081236
+stations:
+- type: coriolis
+  orbit:
+    parent: Maarabi
+    vector: undefined
+    radius: 11570

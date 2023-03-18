@@ -1,0 +1,61 @@
+name: Esqube
+position: [110, 1]
+seed: 166 1 236 110 243 9
+limits:
+  blurs: 45
+  stars: 9154
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esqube
+  radius: 5230
+  rotationSpeed: 0.002716
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 627600
+  land:
+    ratio: 0.48
+    color: [0.0670312, 0.66, 0.493228, 1]
+    polarColor: [0.724215, 0.934, 0.874998, 1]
+  sea:
+    color: [0.549812, 0.693359, 0.575606, 1]
+    polarColor: [0.882495, 0.930664, 0.89115, 1]
+  air:
+    color: [0.437793, 0.65868, 0.892336, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0477905, 0.679688, 0.398296, 1]
+    ratio: 0.25
+    polarColor: [0.337611, 0.805859, 0.597343, 1]
+  demographics:
+    type: 51
+    gdp: 33048
+    tech: 11
+    economy: 1
+    government: 5
+    description: The world Esqube is a boring world.
+    inhabitants: Small Green Rodents
+- type: star
+  type: primary
+  color: [0.812241, 0.688007, 0.530089, 1]
+  radius: 160316.386414
+  orbit:
+    type: static
+    parent: ~
+    radius: 627600
+    vector: [-0.198, 0.123, 0.972]
+  corona:
+    shimmer: 0.380302
+    hues: 0.6688
+    flare: 0.080963
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Esqube
+    vector: undefined
+    radius: 10460

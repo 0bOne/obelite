@@ -1,0 +1,61 @@
+name: Beesor
+position: [156, 57]
+seed: 24 57 228 156 109 51
+limits:
+  blurs: 80
+  stars: 8175
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beesor
+  radius: 3740
+  rotationSpeed: 0.001726
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 486200
+  land:
+    ratio: 0.4
+    color: [0.19012, 0.595703, 0.0605011, 1]
+    polarColor: [0.780357, 0.94043, 0.7292, 1]
+  sea:
+    color: [0.691406, 0.605149, 0.494247, 1]
+    polarColor: [0.930859, 0.901827, 0.864499, 1]
+  air:
+    color: [0.480128, 0.994447, 0.841364, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.986328, 0.156401, 0.0462341, 1]
+    ratio: 0.3
+    polarColor: [0.943848, 0.447484, 0.381595, 1]
+  demographics:
+    type: 38
+    gdp: 21888
+    tech: 8
+    economy: 1
+    government: 4
+    description: This world is plagued by deadly earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.67176, 0.694393, 0.696658, 1]
+  radius: 90254.550171
+  orbit:
+    type: static
+    parent: ~
+    radius: 224400
+    vector: [0.76, -0.65, 0.015]
+  corona:
+    shimmer: 0.489462
+    hues: 0.510872
+    flare: 0.032312
+stations:
+- type: coriolis
+  orbit:
+    parent: Beesor
+    vector: undefined
+    radius: 7480

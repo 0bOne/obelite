@@ -1,0 +1,61 @@
+name: Teveriat
+position: [203, 14]
+seed: 218 14 2 203 170 220
+limits:
+  blurs: 102
+  stars: 8799
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teveriat
+  radius: 6091
+  rotationSpeed: 0.000131
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 730920
+  land:
+    ratio: 0.47
+    color: [0.580078, 0.66, 0.639395, 1]
+    polarColor: [0.905725, 0.934, 0.92671, 1]
+  sea:
+    color: [0.632798, 0.779297, 0.566208, 1]
+    polarColor: [0.878736, 0.92207, 0.859038, 1]
+  air:
+    color: [0.504884, 0.469708, 0.93266, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.260313, 0.0875854, 0.800781, 1]
+    ratio: 0.3
+    polarColor: [0.49743, 0.381445, 0.860352, 1]
+  demographics:
+    type: 23
+    gdp: 2944
+    tech: 4
+    economy: 6
+    government: 0
+    description: This planet is beset by lethal disease.
+    inhabitants: Furry Humanoids
+- type: star
+  type: primary
+  color: [0.741324, 0.577662, 0.274784, 1]
+  radius: 122840.4953
+  orbit:
+    type: static
+    parent: ~
+    radius: 426370
+    vector: [-0.93, -0.127, -0.344]
+  corona:
+    shimmer: 0.657794
+    hues: 0.662094
+    flare: 0.040401
+stations:
+- type: coriolis
+  orbit:
+    parent: Teveriat
+    vector: undefined
+    radius: 12182

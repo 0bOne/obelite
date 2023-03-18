@@ -1,0 +1,61 @@
+name: Arraesso
+position: [138, 223]
+seed: 202 223 76 138 91 42
+limits:
+  blurs: 79
+  stars: 7363
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arraesso
+  radius: 5514
+  rotationSpeed: 0.003673
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 606540
+  land:
+    ratio: 0.6
+    color: [0.560722, 0.250078, 0.66, 1]
+    polarColor: [0.898877, 0.788975, 0.934, 1]
+  sea:
+    color: [0.671875, 0.648695, 0.497345, 1]
+    polarColor: [0.932813, 0.924767, 0.872234, 1]
+  air:
+    color: [0.487826, 0.642467, 0.859816, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.175064, 0.582031, 0.486648, 1]
+    ratio: 0.17
+    polarColor: [0.428949, 0.761914, 0.683875, 1]
+  demographics:
+    type: 21
+    gdp: 2520
+    tech: 3
+    economy: 7
+    government: 1
+    description: This planet is notable for its unusual oceans and its inhabitants’ exceptional loathing of food blenders.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.38214, 0.672398, 0.739752, 1]
+  radius: 118493.450317
+  orbit:
+    type: static
+    parent: ~
+    radius: 496260
+    vector: [0.324, -0.249, -0.912]
+  corona:
+    shimmer: 1.046433
+    hues: 0.78862
+    flare: 0.05253
+stations:
+- type: coriolis
+  orbit:
+    parent: Arraesso
+    vector: undefined
+    radius: 11028

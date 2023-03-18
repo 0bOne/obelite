@@ -1,0 +1,61 @@
+name: Velaat
+position: [69, 122]
+seed: 50 122 98 69 26 150
+limits:
+  blurs: 151
+  stars: 7932
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Velaat
+  radius: 4421
+  rotationSpeed: 0.001953
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 442100
+  land:
+    ratio: 0.51
+    color: [0.629183, 0.66, 0.543984, 1]
+    polarColor: [0.923097, 0.934, 0.892955, 1]
+  sea:
+    color: [0.0141525, 0.724609, 0.574747, 1]
+    polarColor: [0.700183, 0.927539, 0.879581, 1]
+  air:
+    color: [0.557557, 0.50841, 0.908596, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.403587, 0.202049, 0.728516, 1]
+    ratio: 0.2
+    polarColor: [0.597066, 0.453933, 0.827832, 1]
+  demographics:
+    type: 39
+    gdp: 19968
+    tech: 8
+    economy: 2
+    government: 4
+    description: This world is fabled for its weird volcanoes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.209035, 0.478246, 0.689343, 1]
+  radius: 122823.469696
+  orbit:
+    type: static
+    parent: ~
+    radius: 353680
+    vector: [0.955, 0.244, 0.17]
+  corona:
+    shimmer: 0.329887
+    hues: 0.784927
+    flare: 0.065511
+stations:
+- type: coriolis
+  orbit:
+    parent: Velaat
+    vector: undefined
+    radius: 8842

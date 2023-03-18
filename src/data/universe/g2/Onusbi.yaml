@@ -1,0 +1,61 @@
+name: Onusbi
+position: [190, 203]
+seed: 45 203 65 190 85 255
+limits:
+  blurs: 66
+  stars: 9655
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onusbi
+  radius: 6846
+  rotationSpeed: 0.002645
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 753060
+  land:
+    ratio: 0.69
+    color: [0.469219, 0.583986, 0.66, 1]
+    polarColor: [0.866504, 0.907107, 0.934, 1]
+  sea:
+    color: [0.576172, 0.560778, 0.460262, 1]
+    polarColor: [0.942383, 0.936088, 0.894988, 1]
+  air:
+    color: [0.549823, 0.49426, 0.919652, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.404849, 0.160675, 0.761719, 1]
+    ratio: 0.26
+    polarColor: [0.595996, 0.427148, 0.842773, 1]
+  demographics:
+    type: 28
+    gdp: 6272
+    tech: 6
+    economy: 3
+    government: 0
+    description: This planet is plagued by deadly earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.757932, 0.651537, 0.559144, 1]
+  radius: 194916.074524
+  orbit:
+    type: static
+    parent: ~
+    radius: 479220
+    vector: [-0.165, 0.833, -0.528]
+  corona:
+    shimmer: 0.354367
+    hues: 0.563065
+    flare: 0.019768
+stations:
+- type: coriolis
+  orbit:
+    parent: Onusbi
+    vector: undefined
+    radius: 13692

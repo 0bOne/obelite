@@ -1,0 +1,61 @@
+name: Bierle
+position: [233, 64]
+seed: 56 64 108 233 253 102
+limits:
+  blurs: 68
+  stars: 5948
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bierle
+  radius: 4585
+  rotationSpeed: 0.003949
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 596050
+  land:
+    ratio: 0.56
+    color: [0.639355, 0.66, 0.554297, 1]
+    polarColor: [0.926696, 0.934, 0.896604, 1]
+  sea:
+    color: [0.0798721, 0.617159, 0.705078, 1]
+    polarColor: [0.723443, 0.900516, 0.929492, 1]
+  air:
+    color: [0.644003, 0.546192, 0.896889, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.63426, 0.295219, 0.693359, 1]
+    ratio: 0.36
+    polarColor: [0.768754, 0.520591, 0.812012, 1]
+  demographics:
+    type: 50
+    gdp: 36000
+    tech: 11
+    economy: 0
+    government: 5
+    description: The planet Bierle is most famous for the Bierleian deadly Diusoid and the Bierleian evil arts graduate.
+    inhabitants: Fierce Blue Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.652426, 0.554079, 0.505562, 1]
+  radius: 70847.960663
+  orbit:
+    type: static
+    parent: ~
+    radius: 320950
+    vector: [-0.451, -0.856, 0.253]
+  corona:
+    shimmer: 0.270629
+    hues: 0.892532
+    flare: 0.079852
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Bierle
+    vector: undefined
+    radius: 9170

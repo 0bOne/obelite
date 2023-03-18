@@ -1,0 +1,61 @@
+name: Zainlabi
+position: [164, 163]
+seed: 64 163 40 164 253 68
+limits:
+  blurs: 191
+  stars: 8109
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zainlabi
+  radius: 4004
+  rotationSpeed: 0.001267
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 520520
+  land:
+    ratio: 0.65
+    color: [0.523359, 0.66, 0.60876, 1]
+    polarColor: [0.885658, 0.934, 0.915872, 1]
+  sea:
+    color: [0.649822, 0.722656, 0.532394, 1]
+    polarColor: [0.904358, 0.927734, 0.866671, 1]
+  air:
+    color: [0.719691, 0.496864, 0.959326, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.880859, 0.134193, 0.536693, 1]
+    ratio: 0.4
+    polarColor: [0.896387, 0.421494, 0.677491, 1]
+  demographics:
+    type: 37
+    gdp: 18648
+    tech: 7
+    economy: 3
+    government: 5
+    description: This world is ravaged by unpredictable civil war.
+    inhabitants: Fierce Yellow Insects
+- type: star
+  type: primary
+  color: [0.757355, 0.453888, 0.352551, 1]
+  radius: 100254.573364
+  orbit:
+    type: static
+    parent: ~
+    radius: 320320
+    vector: [0.474, 0.879, 0.046]
+  corona:
+    shimmer: 0.720065
+    hues: 0.579567
+    flare: 0.041861
+stations:
+- type: coriolis
+  orbit:
+    parent: Zainlabi
+    vector: undefined
+    radius: 8008

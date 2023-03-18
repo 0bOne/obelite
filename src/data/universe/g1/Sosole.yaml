@@ -1,0 +1,61 @@
+name: Sosole
+position: [177, 238]
+seed: 148 238 144 177 166 231
+limits:
+  blurs: 101
+  stars: 8009
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sosole
+  radius: 4785
+  rotationSpeed: 0.000211
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 478500
+  land:
+    ratio: 0.32
+    color: [0.481948, 0.0902344, 0.66, 1]
+    polarColor: [0.871007, 0.732424, 0.934, 1]
+  sea:
+    color: [0.568359, 0.51881, 0.448693, 1]
+    polarColor: [0.943164, 0.922608, 0.893519, 1]
+  air:
+    color: [0.503753, 0.977537, 0.832821, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.935547, 0.210247, 0.135216, 1]
+    ratio: 0.31
+    polarColor: [0.920996, 0.474734, 0.428569, 1]
+  demographics:
+    type: 21
+    gdp: 4032
+    tech: 3
+    economy: 6
+    government: 2
+    description: The world Sosole is fabled for its weird rock formations and the Sosoleian deadly goat.
+    inhabitants: Fierce Lizards
+- type: star
+  type: primary
+  color: [0.689709, 0.511054, 0.229873, 1]
+  radius: 145122.706604
+  orbit:
+    type: static
+    parent: ~
+    radius: 622050
+    vector: [0.085, 0.887, -0.454]
+  corona:
+    shimmer: 0.285684
+    hues: 0.99614
+    flare: 0.075545
+stations:
+- type: coriolis
+  orbit:
+    parent: Sosole
+    vector: undefined
+    radius: 9570

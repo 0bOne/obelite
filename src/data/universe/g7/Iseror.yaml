@@ -1,0 +1,61 @@
+name: Iseror
+position: [204, 230]
+seed: 191 230 90 204 11 189
+limits:
+  blurs: 156
+  stars: 6308
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Iseror
+  radius: 6348
+  rotationSpeed: 0.004922
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 761760
+  land:
+    ratio: 0.65
+    color: [0.50491, 0.66, 0.299063, 1]
+    polarColor: [0.879131, 0.934, 0.806305, 1]
+  sea:
+    color: [0.638967, 0.703125, 0.524597, 1]
+    polarColor: [0.90848, 0.929688, 0.870674, 1]
+  air:
+    color: [0.536042, 0.607603, 0.839004, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.267883, 0.442857, 0.519531, 1]
+    ratio: 0.26
+    polarColor: [0.511646, 0.666105, 0.733789, 1]
+  demographics:
+    type: 22
+    gdp: 4928
+    tech: 3
+    economy: 6
+    government: 3
+    description: The world Iseror is notable for its weird tropical forests and Iserorian Onenst brandy.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.565305, 0.650283, 0.657941, 1]
+  radius: 175138.584595
+  orbit:
+    type: static
+    parent: ~
+    radius: 380880
+    vector: [0.028, 0.801, 0.598]
+  corona:
+    shimmer: 0.635655
+    hues: 0.524376
+    flare: 0.056836
+stations:
+- type: coriolis
+  orbit:
+    parent: Iseror
+    vector: undefined
+    radius: 12696

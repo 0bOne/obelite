@@ -1,0 +1,61 @@
+name: Cecear
+position: [255, 32]
+seed: 188 32 40 255 181 197
+limits:
+  blurs: 65
+  stars: 9849
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cecear
+  radius: 4351
+  rotationSpeed: 0.002902
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 522120
+  land:
+    ratio: 0.29
+    color: [0.318646, 0.261841, 0.644531, 1]
+    polarColor: [0.81729, 0.796677, 0.935547, 1]
+  sea:
+    color: [0.583984, 0.43776, 0.43776, 1]
+    polarColor: [0.941602, 0.88266, 0.88266, 1]
+  air:
+    color: [0.656121, 0.87819, 0.911848, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.665643, 0.738281, 0.559479, 1]
+    ratio: 0.26
+    polarColor: [0.781051, 0.832227, 0.706255, 1]
+  demographics:
+    type: 58
+    gdp: 41760
+    tech: 13
+    economy: 0
+    government: 5
+    description: This planet is most notable for its fabulous Soinalet brandy but ravaged by frequent earthquakes.
+    inhabitants: Fierce Rodents
+- type: star
+  type: primary
+  color: [0.343619, 0.521365, 0.752051, 1]
+  radius: 124117.958069
+  orbit:
+    type: static
+    parent: ~
+    radius: 348080
+    vector: [0.04, 0.806, 0.591]
+  corona:
+    shimmer: 0.326316
+    hues: 0.512695
+    flare: 0.030035
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Cecear
+    vector: undefined
+    radius: 8702

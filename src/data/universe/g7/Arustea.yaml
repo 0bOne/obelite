@@ -1,0 +1,61 @@
+name: Arustea
+position: [9, 212]
+seed: 209 212 192 9 61 170
+limits:
+  blurs: 186
+  stars: 5848
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arustea
+  radius: 5385
+  rotationSpeed: 0.004727
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 538500
+  land:
+    ratio: 0.59
+    color: [0.627854, 0.66, 0.513047, 1]
+    polarColor: [0.922627, 0.934, 0.88201, 1]
+  sea:
+    color: [0.674417, 0.686709, 0.871094, 1]
+    polarColor: [0.861362, 0.864583, 0.912891, 1]
+  air:
+    color: [0.540827, 0.955424, 0.84173, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.869141, 0.37261, 0.258026, 1]
+    ratio: 0.43
+    polarColor: [0.891113, 0.572936, 0.499511, 1]
+  demographics:
+    type: 15
+    gdp: 1920
+    tech: 2
+    economy: 6
+    government: 0
+    description: This planet is most fabled for Arusteaian No brandy but cursed by unpredictable solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.236489, 0.39099, 0.779733, 1]
+  radius: 117599.67041
+  orbit:
+    type: static
+    parent: ~
+    radius: 646200
+    vector: [-0.23, -0.499, -0.836]
+  corona:
+    shimmer: 0.427262
+    hues: 0.826317
+    flare: 0.043861
+stations:
+- type: coriolis
+  orbit:
+    parent: Arustea
+    vector: undefined
+    radius: 10770

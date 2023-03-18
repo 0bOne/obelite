@@ -1,0 +1,61 @@
+name: Tiessous
+position: [69, 75]
+seed: 249 75 237 69 154 23
+limits:
+  blurs: 73
+  stars: 6042
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiessous
+  radius: 4677
+  rotationSpeed: 0.002325
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 701550
+  land:
+    ratio: 0.69
+    color: [0.640625, 0.619081, 0.545532, 1]
+    polarColor: [0.935938, 0.928069, 0.901205, 1]
+  sea:
+    color: [0.164856, 0.570312, 0.399261, 1]
+    polarColor: [0.775371, 0.942969, 0.872263, 1]
+  air:
+    color: [0.588355, 0.886259, 0.980789, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.527699, 0.945312, 0.376648, 1]
+    ratio: 0.59
+    polarColor: [0.669883, 0.925391, 0.577465, 1]
+  demographics:
+    type: 41
+    gdp: 20664
+    tech: 8
+    economy: 3
+    government: 5
+    description: The planet Tiessous is very famous for Tiessousian wolf cutlet but plagued by lethal disease.
+    inhabitants: Green Frogs
+- type: star
+  type: primary
+  color: [0.798398, 0.556329, 0.396528, 1]
+  radius: 122029.763947
+  orbit:
+    type: static
+    parent: ~
+    radius: 233850
+    vector: [0.267, -0.82, 0.506]
+  corona:
+    shimmer: 0.480504
+    hues: 0.916573
+    flare: 0.029869
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiessous
+    vector: undefined
+    radius: 9354

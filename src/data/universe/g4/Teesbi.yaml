@@ -1,0 +1,61 @@
+name: Teesbi
+position: [32, 76]
+seed: 36 76 108 32 229 28
+limits:
+  blurs: 70
+  stars: 5209
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teesbi
+  radius: 5920
+  rotationSpeed: 0.001072
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 592000
+  land:
+    ratio: 0.37
+    color: [0.66, 0.497155, 0.389297, 1]
+    polarColor: [0.934, 0.876387, 0.838229, 1]
+  sea:
+    color: [0.636719, 0.395462, 0.548132, 1]
+    polarColor: [0.936328, 0.847633, 0.90376, 1]
+  air:
+    color: [0.733316, 0.730079, 0.969082, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.789165, 0.782166, 0.910156, 1]
+    ratio: 0.24
+    polarColor: [0.834, 0.829628, 0.90957, 1]
+  demographics:
+    type: 34
+    gdp: 14688
+    tech: 6
+    economy: 4
+    government: 5
+    description: The planet Teesbi is reasonably noted for its inhabitants’ eccentric shyness and Teesbiian evil juice.
+    inhabitants: Green Fat Birds
+- type: star
+  type: primary
+  color: [0.816202, 0.770467, 0.743307, 1]
+  radius: 190933.007812
+  orbit:
+    type: static
+    parent: ~
+    radius: 414400
+    vector: [0.195, -0.977, 0.086]
+  corona:
+    shimmer: 0.278306
+    hues: 0.523254
+    flare: 0.030748
+stations:
+- type: coriolis
+  orbit:
+    parent: Teesbi
+    vector: undefined
+    radius: 11840

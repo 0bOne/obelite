@@ -1,0 +1,61 @@
+name: Laeden
+position: [4, 254]
+seed: 202 254 136 4 83 85
+limits:
+  blurs: 74
+  stars: 8539
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laeden
+  radius: 4100
+  rotationSpeed: 0.000078
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 369000
+  land:
+    ratio: 0.65
+    color: [0.471918, 0.244922, 0.66, 1]
+    polarColor: [0.867459, 0.78715, 0.934, 1]
+  sea:
+    color: [0.712891, 0.45043, 0.423279, 1]
+    polarColor: [0.928711, 0.843231, 0.834389, 1]
+  air:
+    color: [0.579066, 0.950871, 0.927261, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.855469, 0.767202, 0.364243, 1]
+    ratio: 0.28
+    polarColor: [0.884961, 0.827892, 0.56736, 1]
+  demographics:
+    type: 16
+    gdp: 2560
+    tech: 2
+    economy: 6
+    government: 1
+    description: The planet Laeden is reasonably fabled for its exciting sit coms and its inhabitants’ exceptional love for food blenders.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.215152, 0.399614, 0.79516, 1]
+  radius: 85806.838989
+  orbit:
+    type: static
+    parent: ~
+    radius: 533000
+    vector: [-0.627, -0.667, 0.403]
+  corona:
+    shimmer: 0.396041
+    hues: 0.632431
+    flare: 0.074507
+stations:
+- type: coriolis
+  orbit:
+    parent: Laeden
+    vector: undefined
+    radius: 8200

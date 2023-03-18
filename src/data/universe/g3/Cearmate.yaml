@@ -1,0 +1,61 @@
+name: Cearmate
+position: [187, 233]
+seed: 226 233 18 187 218 37
+limits:
+  blurs: 158
+  stars: 5186
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cearmate
+  radius: 4283
+  rotationSpeed: 0.001295
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 471130
+  land:
+    ratio: 0.56
+    color: [0.66, 0.0283594, 0.368853, 1]
+    polarColor: [0.934, 0.710533, 0.830996, 1]
+  sea:
+    color: [0.612968, 0.617188, 0.482178, 1]
+    polarColor: [0.936678, 0.938281, 0.886969, 1]
+  air:
+    color: [0.465865, 0.661732, 0.868922, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.12616, 0.609375, 0.394193, 1]
+    ratio: 0.23
+    polarColor: [0.390512, 0.774219, 0.603349, 1]
+  demographics:
+    type: 44
+    gdp: 19008
+    tech: 10
+    economy: 1
+    government: 2
+    description: This world is most fabled for its inhabitants’ ingrained silliness but scourged by deadly edible poets.
+    inhabitants: Fierce Red Horned Lobsters
+- type: star
+  type: primary
+  color: [0.841864, 0.818615, 0.800427, 1]
+  radius: 111281.144409
+  orbit:
+    type: static
+    parent: ~
+    radius: 385470
+    vector: [-0.218, 0.835, -0.505]
+  corona:
+    shimmer: 0.343045
+    hues: 0.556999
+    flare: 0.04207
+stations:
+- type: coriolis
+  orbit:
+    parent: Cearmate
+    vector: undefined
+    radius: 8566

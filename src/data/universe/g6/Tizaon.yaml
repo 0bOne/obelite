@@ -1,0 +1,61 @@
+name: Tizaon
+position: [3, 170]
+seed: 14 170 130 3 80 151
+limits:
+  blurs: 89
+  stars: 7509
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tizaon
+  radius: 4611
+  rotationSpeed: 0.004522
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 507210
+  land:
+    ratio: 0.34
+    color: [0.66, 0.286172, 0.435119, 1]
+    polarColor: [0.934, 0.801744, 0.85444, 1]
+  sea:
+    color: [0.9, 0.72, 0.828, 1]
+    polarColor: [0.91, 0.8645, 0.8918, 1]
+  air:
+    color: [0.745097, 0.745525, 0.952822, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.814592, 0.814224, 0.861328, 1]
+    ratio: 0.25
+    polarColor: [0.857497, 0.85726, 0.887598, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: This planet is mildly noted for its pink oceans but scourged by dreadful earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.805456, 0.808282, 0.654417, 1]
+  radius: 118439.011688
+  orbit:
+    type: static
+    parent: ~
+    radius: 507210
+    vector: [0.474, -0.485, 0.735]
+  corona:
+    shimmer: 0.427948
+    hues: 0.803162
+    flare: 0.014639
+stations:
+- type: coriolis
+  orbit:
+    parent: Tizaon
+    vector: undefined
+    radius: 9222

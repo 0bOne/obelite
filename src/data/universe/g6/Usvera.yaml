@@ -1,0 +1,61 @@
+name: Usvera
+position: [116, 249]
+seed: 178 249 58 116 244 40
+limits:
+  blurs: 99
+  stars: 5696
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usvera
+  radius: 4980
+  rotationSpeed: 0.000895
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 647400
+  land:
+    ratio: 0.37
+    color: [0.66, 0.546321, 0.446016, 1]
+    polarColor: [0.934, 0.893782, 0.858295, 1]
+  sea:
+    color: [0.787539, 0.707797, 0.929688, 1]
+    polarColor: [0.87236, 0.852911, 0.907031, 1]
+  air:
+    color: [0.463179, 0.591926, 0.894287, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.104439, 0.617448, 0.685547, 1]
+    ratio: 0.57
+    polarColor: [0.380167, 0.758301, 0.808496, 1]
+  demographics:
+    type: 49
+    gdp: 38808
+    tech: 10
+    economy: 1
+    government: 7
+    description: This planet is reasonably famous for its inhabitants’ exceptional loathing of casinos.
+    inhabitants: Small Red Furry Humanoids
+- type: star
+  type: primary
+  color: [0.441366, 0.46423, 0.659647, 1]
+  radius: 117483.197021
+  orbit:
+    type: static
+    parent: ~
+    radius: 249000
+    vector: [-0.852, 0.406, -0.331]
+  corona:
+    shimmer: 0.315912
+    hues: 0.538216
+    flare: 0.070573
+stations:
+- type: coriolis
+  orbit:
+    parent: Usvera
+    vector: undefined
+    radius: 9960

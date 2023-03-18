@@ -1,0 +1,61 @@
+name: Ervedira
+position: [199, 127]
+seed: 105 127 57 199 10 48
+limits:
+  blurs: 199
+  stars: 8341
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ervedira
+  radius: 3015
+  rotationSpeed: 0.00345
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 361800
+  land:
+    ratio: 0.2
+    color: [0.592969, 0.594016, 0.66, 1]
+    polarColor: [0.910285, 0.910656, 0.934, 1]
+  sea:
+    color: [0.591797, 0.572111, 0.465809, 1]
+    polarColor: [0.94082, 0.932996, 0.890747, 1]
+  air:
+    color: [0.581581, 0.94892, 0.922726, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.849609, 0.752535, 0.371704, 1]
+    ratio: 0.4
+    polarColor: [0.882324, 0.819316, 0.572132, 1]
+  demographics:
+    type: 43
+    gdp: 11352
+    tech: 7
+    economy: 7
+    government: 7
+    description: This world is reasonably well known for its vast oceans but ravaged by vicious killer cats.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.677481, 0.688171, 0.738611, 1]
+  radius: 70489.242554
+  orbit:
+    type: static
+    parent: ~
+    radius: 241200
+    vector: [-0.053, -0.773, 0.632]
+  corona:
+    shimmer: 0.279288
+    hues: 0.898056
+    flare: 0.081709
+stations:
+- type: coriolis
+  orbit:
+    parent: Ervedira
+    vector: undefined
+    radius: 6030

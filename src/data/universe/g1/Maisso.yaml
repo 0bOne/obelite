@@ -1,0 +1,61 @@
+name: Maisso
+position: [159, 179]
+seed: 48 179 40 159 26 171
+limits:
+  blurs: 71
+  stars: 7446
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maisso
+  radius: 5791
+  rotationSpeed: 0.004711
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 694920
+  land:
+    ratio: 0.5
+    color: [0.317109, 0.66, 0.483197, 1]
+    polarColor: [0.812689, 0.934, 0.871449, 1]
+  sea:
+    color: [0.626953, 0.495547, 0.460419, 1]
+    polarColor: [0.937305, 0.888191, 0.875062, 1]
+  air:
+    color: [0.5656, 0.928758, 0.809329, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.789062, 0.346587, 0.335968, 1]
+    ratio: 0.55
+    polarColor: [0.855078, 0.555394, 0.548202, 1]
+  demographics:
+    type: 49
+    gdp: 24696
+    tech: 10
+    economy: 3
+    government: 5
+    description: The planet Maisso is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.760681, 0.64367, 0.637188, 1]
+  radius: 173471.094513
+  orbit:
+    type: static
+    parent: ~
+    radius: 521190
+    vector: [0.882, 0.472, -0.003]
+  corona:
+    shimmer: 0.578153
+    hues: 0.802155
+    flare: 0.038908
+stations:
+- type: coriolis
+  orbit:
+    parent: Maisso
+    vector: undefined
+    radius: 11582

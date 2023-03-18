@@ -1,0 +1,61 @@
+name: Sogees
+position: [94, 29]
+seed: 7 29 97 94 168 71
+limits:
+  blurs: 73
+  stars: 6526
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sogees
+  radius: 4702
+  rotationSpeed: 0.003523
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 658280
+  land:
+    ratio: 0.46
+    color: [0.605859, 0.66, 0.623201, 1]
+    polarColor: [0.914846, 0.934, 0.920981, 1]
+  sea:
+    color: [0.5, 0.24324, 0.0371094, 1]
+    polarColor: [0.95, 0.828039, 0.730127, 1]
+  air:
+    color: [0.468726, 0.469665, 0.923555, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0989692, 0.0936584, 0.773438, 1]
+    ratio: 0.32
+    polarColor: [0.38584, 0.382201, 0.848047, 1]
+  demographics:
+    type: 34
+    gdp: 10880
+    tech: 6
+    economy: 5
+    government: 4
+    description: This planet is reasonably famous for the Sogeesian evil Stoid.
+    inhabitants: Fierce Yellow Bony Felines
+- type: star
+  type: primary
+  color: [0.469122, 0.696842, 0.836047, 1]
+  radius: 110701.047974
+  orbit:
+    type: static
+    parent: ~
+    radius: 188080
+    vector: [0.067, 0.975, -0.213]
+  corona:
+    shimmer: 0.232803
+    hues: 0.856117
+    flare: 0.095645
+stations:
+- type: coriolis
+  orbit:
+    parent: Sogees
+    vector: undefined
+    radius: 9404

@@ -1,0 +1,61 @@
+name: Riratea
+position: [73, 203]
+seed: 230 203 208 73 155 158
+limits:
+  blurs: 58
+  stars: 8300
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riratea
+  radius: 6473
+  rotationSpeed: 0.001372
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 712030
+  land:
+    ratio: 0.64
+    color: [0.597656, 0.578797, 0.546295, 1]
+    polarColor: [0.940234, 0.932817, 0.920034, 1]
+  sea:
+    color: [0.581259, 0.882812, 0.458649, 1]
+    polarColor: [0.833862, 0.911719, 0.802206, 1]
+  air:
+    color: [0.751461, 0.562833, 0.914449, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.746094, 0.332245, 0.487438, 1]
+    ratio: 0.38
+    polarColor: [0.835742, 0.546007, 0.654658, 1]
+  demographics:
+    type: 30
+    gdp: 10080
+    tech: 6
+    economy: 3
+    government: 2
+    description: This world is very notable for its inhabitants’ ingrained shyness.
+    inhabitants: Black Horned Birds
+- type: star
+  type: primary
+  color: [0.493926, 0.514526, 0.816074, 1]
+  radius: 191912.360535
+  orbit:
+    type: static
+    parent: ~
+    radius: 647300
+    vector: [-0.22, -0.862, 0.456]
+  corona:
+    shimmer: 0.470203
+    hues: 0.514595
+    flare: 0.007695
+stations:
+- type: coriolis
+  orbit:
+    parent: Riratea
+    vector: undefined
+    radius: 12946

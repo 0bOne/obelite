@@ -1,0 +1,61 @@
+name: Uslain
+position: [110, 125]
+seed: 188 125 152 110 213 40
+limits:
+  blurs: 128
+  stars: 8154
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Uslain
+  radius: 4974
+  rotationSpeed: 0.000933
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 596880
+  land:
+    ratio: 0.31
+    color: [0.507891, 0.66, 0.545918, 1]
+    polarColor: [0.880186, 0.934, 0.893639, 1]
+  sea:
+    color: [0.59429, 0.753906, 0.720237, 1]
+    polarColor: [0.87567, 0.924609, 0.914286, 1]
+  air:
+    color: [0.748144, 0.614141, 0.867621, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.605469, 0.437546, 0.504453, 1]
+    ratio: 0.31
+    polarColor: [0.772461, 0.638563, 0.691913, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 6
+    economy: 5
+    government: 3
+    description: The world Uslain is reasonably famous for the Uslainian spotted wolf.
+    inhabitants: Small Red Bony Lobsters
+- type: star
+  type: primary
+  color: [0.458369, 0.537177, 0.682294, 1]
+  radius: 105487.264709
+  orbit:
+    type: static
+    parent: ~
+    radius: 397920
+    vector: [-0.381, 0.911, 0.161]
+  corona:
+    shimmer: 0.296906
+    hues: 0.986847
+    flare: 0.084547
+stations:
+- type: coriolis
+  orbit:
+    parent: Uslain
+    vector: undefined
+    radius: 9948

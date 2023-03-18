@@ -1,0 +1,61 @@
+name: Ladire
+position: [75, 172]
+seed: 50 172 122 75 116 245
+limits:
+  blurs: 192
+  stars: 7512
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ladire
+  radius: 4171
+  rotationSpeed: 0.003482
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 583940
+  land:
+    ratio: 0.41
+    color: [0.66, 0.262969, 0.62588, 1]
+    polarColor: [0.934, 0.793535, 0.921929, 1]
+  sea:
+    color: [0.591695, 0.626953, 0.494215, 1]
+    polarColor: [0.924127, 0.937305, 0.887693, 1]
+  air:
+    color: [0.620838, 0.46003, 0.96583, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.873023, 0.0246201, 0.900391, 1]
+    ratio: 0.28
+    polarColor: [0.88798, 0.35491, 0.905176, 1]
+  demographics:
+    type: 52
+    gdp: 27456
+    tech: 10
+    economy: 4
+    government: 7
+    description: The planet Ladire is scourged by killer edible arts graduates.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.680726, 0.707874, 0.723825, 1]
+  radius: 124538.743439
+  orbit:
+    type: static
+    parent: ~
+    radius: 83420
+    vector: [0.189, -0.959, 0.214]
+  corona:
+    shimmer: 0.829696
+    hues: 0.587135
+    flare: 0.077086
+stations:
+- type: coriolis
+  orbit:
+    parent: Ladire
+    vector: undefined
+    radius: 8342

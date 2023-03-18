@@ -1,0 +1,61 @@
+name: Ataer
+position: [14, 206]
+seed: 178 206 186 14 244 241
+limits:
+  blurs: 70
+  stars: 9450
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ataer
+  radius: 3086
+  rotationSpeed: 0.000972
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 370320
+  land:
+    ratio: 0.24
+    color: [0.394232, 0.66, 0.286172, 1]
+    polarColor: [0.839974, 0.934, 0.801744, 1]
+  sea:
+    color: [0.590628, 0.673828, 0.52169, 1]
+    polarColor: [0.903829, 0.932617, 0.879975, 1]
+  air:
+    color: [0.646288, 0.901441, 0.899178, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.707031, 0.704269, 0.530273, 1]
+    ratio: 0.29
+    polarColor: [0.818164, 0.816167, 0.690326, 1]
+  demographics:
+    type: 42
+    gdp: 14784
+    tech: 7
+    economy: 6
+    government: 7
+    description: Ataer is very fabled for its unusual oceans.
+    inhabitants: Slimy Frogs
+- type: star
+  type: primary
+  color: [0.679218, 0.791423, 0.817627, 1]
+  radius: 85660.326843
+  orbit:
+    type: static
+    parent: ~
+    radius: 246880
+    vector: [0.229, -0.912, 0.339]
+  corona:
+    shimmer: 0.334507
+    hues: 0.753937
+    flare: 0.042912
+stations:
+- type: coriolis
+  orbit:
+    parent: Ataer
+    vector: undefined
+    radius: 6172

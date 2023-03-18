@@ -1,0 +1,61 @@
+name: Azaage
+position: [186, 154]
+seed: 98 154 146 186 218 15
+limits:
+  blurs: 70
+  stars: 7862
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Azaage
+  radius: 6842
+  rotationSpeed: 0.001285
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 821040
+  land:
+    ratio: 0.33
+    color: [0.66, 0.152109, 0.318761, 1]
+    polarColor: [0.934, 0.754314, 0.813274, 1]
+  sea:
+    color: [0.591797, 0.54682, 0.460954, 1]
+    polarColor: [0.94082, 0.922945, 0.888818, 1]
+  air:
+    color: [0.594477, 0.844219, 0.993146, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.387596, 0.982422, 0.466596, 1]
+    ratio: 0.2
+    polarColor: [0.585586, 0.94209, 0.632934, 1]
+  demographics:
+    type: 37
+    gdp: 14208
+    tech: 8
+    economy: 2
+    government: 2
+    description: This planet is plagued by frequent solar activity.
+    inhabitants: Green Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.820547, 0.621697, 0.613752, 1]
+  radius: 213125.543823
+  orbit:
+    type: static
+    parent: ~
+    radius: 684200
+    vector: [-0.048, 0.775, 0.63]
+  corona:
+    shimmer: 0.470217
+    hues: 0.549675
+    flare: 0.045117
+stations:
+- type: coriolis
+  orbit:
+    parent: Azaage
+    vector: undefined
+    radius: 13684

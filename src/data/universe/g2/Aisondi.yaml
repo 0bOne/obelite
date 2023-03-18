@@ -1,0 +1,61 @@
+name: Aisondi
+position: [177, 60]
+seed: 101 60 201 177 197 111
+limits:
+  blurs: 177
+  stars: 9355
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aisondi
+  radius: 6833
+  rotationSpeed: 0.001015
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 683300
+  land:
+    ratio: 0.57
+    color: [0.66, 0.522735, 0.286172, 1]
+    polarColor: [0.934, 0.885437, 0.801744, 1]
+  sea:
+    color: [0.669922, 0.587531, 0.499825, 1]
+    polarColor: [0.933008, 0.904321, 0.873784, 1]
+  air:
+    color: [0.630788, 0.9164, 0.916096, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.74998, 0.751953, 0.499344, 1]
+    ratio: 0.44
+    polarColor: [0.837004, 0.838379, 0.662352, 1]
+  demographics:
+    type: 20
+    gdp: 3200
+    tech: 3
+    economy: 6
+    government: 1
+    description: Aisondi is a revolting little planet.
+    inhabitants: Blue Furry Rodents
+- type: star
+  type: primary
+  color: [0.621168, 0.648557, 0.702304, 1]
+  radius: 217297.240601
+  orbit:
+    type: static
+    parent: ~
+    radius: 751630
+    vector: [-0.036, 0.774, 0.632]
+  corona:
+    shimmer: 0.919571
+    hues: 0.595551
+    flare: 0.013277
+stations:
+- type: coriolis
+  orbit:
+    parent: Aisondi
+    vector: undefined
+    radius: 13666

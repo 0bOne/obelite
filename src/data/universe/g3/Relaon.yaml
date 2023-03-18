@@ -1,0 +1,61 @@
+name: Relaon
+position: [155, 236]
+seed: 50 236 98 155 26 78
+limits:
+  blurs: 78
+  stars: 5988
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Relaon
+  radius: 6555
+  rotationSpeed: 0.001934
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 786600
+  land:
+    ratio: 0.65
+    color: [0.595703, 0.578905, 0.546837, 1]
+    polarColor: [0.94043, 0.9338, 0.921144, 1]
+  sea:
+    color: [0.61169, 0.871094, 0.466171, 1]
+    polarColor: [0.844928, 0.912891, 0.806803, 1]
+  air:
+    color: [0.642701, 0.81217, 0.970383, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.535583, 0.914062, 0.710039, 1]
+    ratio: 0.43
+    polarColor: [0.675486, 0.911328, 0.784195, 1]
+  demographics:
+    type: 41
+    gdp: 15744
+    tech: 8
+    economy: 4
+    government: 4
+    description: This world is ravaged by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.673813, 0.439203, 0.434797, 1]
+  radius: 182039.879608
+  orbit:
+    type: static
+    parent: ~
+    radius: 589950
+    vector: [0.663, 0.078, -0.745]
+  corona:
+    shimmer: 0.640275
+    hues: 0.824371
+    flare: 0.099594
+stations:
+- type: coriolis
+  orbit:
+    parent: Relaon
+    vector: undefined
+    radius: 13110

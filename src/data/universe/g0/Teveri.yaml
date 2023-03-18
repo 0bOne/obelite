@@ -1,0 +1,61 @@
+name: Teveri
+position: [235, 78]
+seed: 170 78 184 235 83 124
+limits:
+  blurs: 144
+  stars: 8280
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teveri
+  radius: 6123
+  rotationSpeed: 0.002006
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 673530
+  land:
+    ratio: 0.31
+    color: [0.66, 0.159844, 0.476349, 1]
+    polarColor: [0.934, 0.757051, 0.869026, 1]
+  sea:
+    color: [0.613281, 0.513707, 0.459721, 1]
+    polarColor: [0.938672, 0.900571, 0.879913, 1]
+  air:
+    color: [0.619653, 0.910547, 0.873912, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.734375, 0.637468, 0.470459, 1]
+    ratio: 0.1
+    polarColor: [0.830469, 0.761977, 0.643938, 1]
+  demographics:
+    type: 46
+    gdp: 16192
+    tech: 8
+    economy: 6
+    government: 7
+    description: The world Teveri is reasonably fabled for Teveriian evil juice and its inhabitants’ ingrained shyness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.457119, 0.47144, 0.670102, 1]
+  radius: 136685.585632
+  orbit:
+    type: static
+    parent: ~
+    radius: 489840
+    vector: [0.169, -0.97, -0.176]
+  corona:
+    shimmer: 0.416556
+    hues: 0.886627
+    flare: 0.07016
+stations:
+- type: coriolis
+  orbit:
+    parent: Teveri
+    vector: undefined
+    radius: 12246

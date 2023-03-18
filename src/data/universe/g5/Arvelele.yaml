@@ -1,0 +1,61 @@
+name: Arvelele
+position: [64, 236]
+seed: 121 236 45 64 26 202
+limits:
+  blurs: 172
+  stars: 7061
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arvelele
+  radius: 5440
+  rotationSpeed: 0.004906
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 598400
+  land:
+    ratio: 0.2
+    color: [0.404167, 0.357056, 0.507812, 1]
+    polarColor: [0.900784, 0.878769, 0.949219, 1]
+  sea:
+    color: [0.584793, 0.820312, 0.551147, 1]
+    polarColor: [0.852079, 0.917969, 0.842667, 1]
+  air:
+    color: [0.546587, 0.976172, 0.985992, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.905512, 0.960938, 0.251495, 1]
+    ratio: 0.58
+    polarColor: [0.898809, 0.932422, 0.502178, 1]
+  demographics:
+    type: 34
+    gdp: 14688
+    tech: 6
+    economy: 4
+    government: 5
+    description: Arvelele is mildly famous for its unusual casinos and its vast oceans.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.245824, 0.306326, 0.836847, 1]
+  radius: 121392.285156
+  orbit:
+    type: static
+    parent: ~
+    radius: 544000
+    vector: [-0.704, 0.059, 0.708]
+  corona:
+    shimmer: 0.353744
+    hues: 0.628029
+    flare: 0.09619
+stations:
+- type: coriolis
+  orbit:
+    parent: Arvelele
+    vector: undefined
+    radius: 10880

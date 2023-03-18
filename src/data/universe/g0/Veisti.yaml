@@ -1,0 +1,61 @@
+name: Veisti
+position: [35, 3]
+seed: 42 3 248 35 83 22
+limits:
+  blurs: 138
+  stars: 9757
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veisti
+  radius: 4387
+  rotationSpeed: 0.004429
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 482570
+  land:
+    ratio: 0.34
+    color: [0.643887, 0.5775, 0.66, 1]
+    polarColor: [0.928299, 0.904813, 0.934, 1]
+  sea:
+    color: [0.515625, 0.164107, 0.0100708, 1]
+    polarColor: [0.948438, 0.786792, 0.715959, 1]
+  air:
+    color: [0.721555, 0.762957, 0.94957, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.748444, 0.803226, 0.851562, 1]
+    ratio: 0.18
+    polarColor: [0.816359, 0.85187, 0.883203, 1]
+  demographics:
+    type: 55
+    gdp: 33880
+    tech: 11
+    economy: 3
+    government: 7
+    description: The planet Veisti is reasonably noted for its inhabitants’ eccentric shyness and Zero-G cricket.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.39587, 0.701567, 0.748456, 1]
+  radius: 95730.66452
+  orbit:
+    type: static
+    parent: ~
+    radius: 482570
+    vector: [0.473, 0.173, 0.864]
+  corona:
+    shimmer: 0.385379
+    hues: 0.981873
+    flare: 0.032329
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Veisti
+    vector: undefined
+    radius: 8774

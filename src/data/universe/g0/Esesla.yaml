@@ -1,0 +1,61 @@
+name: Esesla
+position: [65, 190]
+seed: 58 190 208 65 179 137
+limits:
+  blurs: 161
+  stars: 5509
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esesla
+  radius: 5185
+  rotationSpeed: 0.004174
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 570350
+  land:
+    ratio: 0.35
+    color: [0.484688, 0.487427, 0.66, 1]
+    polarColor: [0.871977, 0.872946, 0.934, 1]
+  sea:
+    color: [0.652344, 0.503233, 0.473969, 1]
+    polarColor: [0.934766, 0.881349, 0.870866, 1]
+  air:
+    color: [0.546413, 0.524479, 0.887783, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.328963, 0.247154, 0.666016, 1]
+    ratio: 0.28
+    polarColor: [0.546763, 0.485369, 0.799707, 1]
+  demographics:
+    type: 21
+    gdp: 4032
+    tech: 3
+    economy: 6
+    government: 2
+    description: This planet is noted for Zero-G hockey.
+    inhabitants: Small Black Rodents
+- type: star
+  type: primary
+  color: [0.751886, 0.550429, 0.497989, 1]
+  radius: 128852.028656
+  orbit:
+    type: static
+    parent: ~
+    radius: 622200
+    vector: [0.271, -0.872, 0.407]
+  corona:
+    shimmer: 0.556824
+    hues: 0.910545
+    flare: 0.05181
+stations:
+- type: coriolis
+  orbit:
+    parent: Esesla
+    vector: undefined
+    radius: 10370

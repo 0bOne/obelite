@@ -1,0 +1,61 @@
+name: Esleusbe
+position: [252, 250]
+seed: 213 250 185 252 229 137
+limits:
+  blurs: 98
+  stars: 6367
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esleusbe
+  radius: 5372
+  rotationSpeed: 0.004163
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 805800
+  land:
+    ratio: 0.62
+    color: [0.319688, 0.66, 0.516431, 1]
+    polarColor: [0.813602, 0.934, 0.883207, 1]
+  sea:
+    color: [0.560547, 0.484731, 0.439241, 1]
+    polarColor: [0.943945, 0.912027, 0.892876, 1]
+  air:
+    color: [0.816865, 0.75493, 0.983391, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.937127, 0.860046, 0.953125, 1]
+    ratio: 0.31
+    polarColor: [0.919162, 0.87221, 0.928906, 1]
+  demographics:
+    type: 46
+    gdp: 32384
+    tech: 9
+    economy: 2
+    government: 7
+    description: The world Esleusbe is beset by evil disease.
+    inhabitants: Small Black Insects
+- type: star
+  type: primary
+  color: [0.759531, 0.640932, 0.465919, 1]
+  radius: 143742.149048
+  orbit:
+    type: static
+    parent: ~
+    radius: 214880
+    vector: [0.055, 0.796, 0.603]
+  corona:
+    shimmer: 0.587588
+    hues: 0.773636
+    flare: 0.004855
+stations:
+- type: coriolis
+  orbit:
+    parent: Esleusbe
+    vector: undefined
+    radius: 10744

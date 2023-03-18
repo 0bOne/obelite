@@ -1,0 +1,61 @@
+name: Arzaso
+position: [216, 225]
+seed: 10 225 168 216 83 74
+limits:
+  blurs: 184
+  stars: 6620
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arzaso
+  radius: 5592
+  rotationSpeed: 0.001355
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 726960
+  land:
+    ratio: 0.58
+    color: [0.66, 0.66, 0.66, 1]
+    polarColor: [0.934, 0.934, 0.934, 1]
+  sea:
+    color: [0.597276, 0.679688, 0.522244, 1]
+    polarColor: [0.903779, 0.932031, 0.878057, 1]
+  air:
+    color: [0.748123, 0.549173, 0.925506, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.779297, 0.29528, 0.488131, 1]
+    ratio: 0.46
+    polarColor: [0.850684, 0.520462, 0.652035, 1]
+  demographics:
+    type: 43
+    gdp: 27864
+    tech: 9
+    economy: 1
+    government: 5
+    description: Arzaso is an unremarkable planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.827866, 0.787332, 0.386455, 1]
+  radius: 103076.048584
+  orbit:
+    type: static
+    parent: ~
+    radius: 391440
+    vector: [-0.379, 0.491, -0.785]
+  corona:
+    shimmer: 0.341038
+    hues: 0.958374
+    flare: 0.057808
+stations:
+- type: coriolis
+  orbit:
+    parent: Arzaso
+    vector: undefined
+    radius: 11184

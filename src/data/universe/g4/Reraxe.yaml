@@ -1,0 +1,61 @@
+name: Reraxe
+position: [223, 165]
+seed: 188 165 152 223 213 142
+limits:
+  blurs: 96
+  stars: 9378
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reraxe
+  radius: 6623
+  rotationSpeed: 0.000997
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 993450
+  land:
+    ratio: 0.38
+    color: [0.574922, 0.63009, 0.66, 1]
+    polarColor: [0.9039, 0.923418, 0.934, 1]
+  sea:
+    color: [0.632812, 0.609329, 0.48252, 1]
+    polarColor: [0.936719, 0.928029, 0.881101, 1]
+  air:
+    color: [0.582859, 0.451883, 0.964529, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.701144, 0.00350189, 0.896484, 1]
+    ratio: 0.18
+    polarColor: [0.780386, 0.340987, 0.903418, 1]
+  demographics:
+    type: 37
+    gdp: 10360
+    tech: 7
+    economy: 5
+    government: 3
+    description: The world Reraxe is reasonably fabled for Zero-G cricket and its exotic cuisine.
+    inhabitants: Black Horned Birds
+- type: star
+  type: primary
+  color: [0.661362, 0.620206, 0.549898, 1]
+  radius: 197058.908386
+  orbit:
+    type: static
+    parent: ~
+    radius: 331150
+    vector: [0.521, -0.403, -0.753]
+  corona:
+    shimmer: 0.253677
+    hues: 0.690781
+    flare: 0.002516
+stations:
+- type: coriolis
+  orbit:
+    parent: Reraxe
+    vector: undefined
+    radius: 13246

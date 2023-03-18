@@ -1,0 +1,61 @@
+name: Anisti
+position: [94, 227]
+seed: 128 227 144 94 122 155
+limits:
+  blurs: 42
+  stars: 9488
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anisti
+  radius: 5726
+  rotationSpeed: 0.000006
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 572600
+  land:
+    ratio: 0.33
+    color: [0.568215, 0.66, 0.420234, 1]
+    polarColor: [0.901528, 0.934, 0.849174, 1]
+  sea:
+    color: [0.626198, 0.660156, 0.504916, 1]
+    polarColor: [0.921973, 0.933984, 0.879076, 1]
+  air:
+    color: [0.661761, 0.777047, 0.974285, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.589462, 0.925781, 0.894251, 1]
+    ratio: 0.21
+    polarColor: [0.708486, 0.916602, 0.897091, 1]
+  demographics:
+    type: 34
+    gdp: 11424
+    tech: 7
+    economy: 3
+    government: 2
+    description: This world is mildly famous for its unusual sit coms and the Anistiian spotted wolf.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.744966, 0.772758, 0.778854, 1]
+  radius: 136930.873413
+  orbit:
+    type: static
+    parent: ~
+    radius: 629860
+    vector: [0.534, 0.817, -0.217]
+  corona:
+    shimmer: 0.496937
+    hues: 0.55957
+    flare: 0.061186
+stations:
+- type: coriolis
+  orbit:
+    parent: Anisti
+    vector: undefined
+    radius: 11452

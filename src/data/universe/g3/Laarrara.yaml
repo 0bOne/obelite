@@ -1,0 +1,61 @@
+name: Laarrara
+position: [84, 225]
+seed: 74 225 18 84 138 213
+limits:
+  blurs: 150
+  stars: 8625
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laarrara
+  radius: 4180
+  rotationSpeed: 0.001985
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 501600
+  land:
+    ratio: 0.65
+    color: [0.459309, 0.66, 0.417656, 1]
+    polarColor: [0.862998, 0.934, 0.848262, 1]
+  sea:
+    color: [0.588336, 0.744141, 0.700321, 1]
+    polarColor: [0.877137, 0.925586, 0.91196, 1]
+  air:
+    color: [0.75622, 0.610102, 0.874775, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.626953, 0.433479, 0.496963, 1]
+    ratio: 0.1
+    polarColor: [0.782129, 0.631279, 0.680777, 1]
+  demographics:
+    type: 32
+    gdp: 13824
+    tech: 7
+    economy: 1
+    government: 2
+    description: Laarrara is cursed by dreadful civil war.
+    inhabitants: Furry Felines
+- type: star
+  type: primary
+  color: [0.724625, 0.632332, 0.607474, 1]
+  radius: 105919.781494
+  orbit:
+    type: static
+    parent: ~
+    radius: 292600
+    vector: [-0.321, -0.794, 0.516]
+  corona:
+    shimmer: 0.470723
+    hues: 0.626785
+    flare: 0.083514
+stations:
+- type: coriolis
+  orbit:
+    parent: Laarrara
+    vector: undefined
+    radius: 8360

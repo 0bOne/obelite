@@ -1,0 +1,61 @@
+name: Ceteri
+position: [92, 250]
+seed: 205 250 225 92 21 165
+limits:
+  blurs: 182
+  stars: 9203
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceteri
+  radius: 4188
+  rotationSpeed: 0.001339
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 460680
+  land:
+    ratio: 0.25
+    color: [0.493389, 0.66, 0.417656, 1]
+    polarColor: [0.875055, 0.934, 0.848262, 1]
+  sea:
+    color: [1, 0.754, 0.7, 1]
+    polarColor: [0.9, 0.84465, 0.8325, 1]
+  air:
+    color: [0.70335, 0.616085, 0.845508, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.539062, 0.423248, 0.520967, 1]
+    ratio: 0.36
+    polarColor: [0.742578, 0.642867, 0.726998, 1]
+  demographics:
+    type: 35
+    gdp: 17920
+    tech: 7
+    economy: 2
+    government: 4
+    description: Ceteri is mildly famous for its pink oceans and its exciting sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.687863, 0.630389, 0.443879, 1]
+  radius: 98437.426758
+  orbit:
+    type: static
+    parent: ~
+    radius: 376920
+    vector: [0.413, 0.738, -0.534]
+  corona:
+    shimmer: 0.446455
+    hues: 0.704498
+    flare: 0.065472
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceteri
+    vector: undefined
+    radius: 8376

@@ -1,0 +1,61 @@
+name: Raonbe
+position: [106, 224]
+seed: 233 224 245 106 74 20
+limits:
+  blurs: 178
+  stars: 6044
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raonbe
+  radius: 3946
+  rotationSpeed: 0.003267
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 473520
+  land:
+    ratio: 0.55
+    color: [0.04125, 0.485977, 0.66, 1]
+    polarColor: [0.715094, 0.872433, 0.934, 1]
+  sea:
+    color: [0.574219, 0.489714, 0.443898, 1]
+    polarColor: [0.942578, 0.9079, 0.889098, 1]
+  air:
+    color: [0.828389, 0.762633, 0.980139, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.938465, 0.880714, 0.943359, 1]
+    ratio: 0.38
+    polarColor: [0.921514, 0.886141, 0.924512, 1]
+  demographics:
+    type: 55
+    gdp: 44000
+    tech: 12
+    economy: 0
+    government: 6
+    description: The world Raonbe is a dull world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.819821, 0.807429, 0.802764, 1]
+  radius: 91041.715088
+  orbit:
+    type: static
+    parent: ~
+    radius: 434060
+    vector: [0.388, 0.921, -0.038]
+  corona:
+    shimmer: 0.282099
+    hues: 0.977196
+    flare: 0.041824
+stations:
+- type: icosahedron
+  orbit:
+    parent: Raonbe
+    vector: undefined
+    radius: 7892

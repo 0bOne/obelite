@@ -1,0 +1,61 @@
+name: Orbeen
+position: [69, 243]
+seed: 137 243 233 69 170 249
+limits:
+  blurs: 77
+  stars: 9306
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orbeen
+  radius: 5189
+  rotationSpeed: 0.004147
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 570790
+  land:
+    ratio: 0.39
+    color: [0.135956, 0.632812, 0.562942, 1]
+    polarColor: [0.752851, 0.936719, 0.910862, 1]
+  sea:
+    color: [0.689453, 0.541076, 0.468613, 1]
+    polarColor: [0.931055, 0.880962, 0.856498, 1]
+  air:
+    color: [0.59633, 0.891075, 0.972984, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.577522, 0.921875, 0.40332, 1]
+    ratio: 0.45
+    polarColor: [0.701265, 0.914844, 0.593219, 1]
+  demographics:
+    type: 41
+    gdp: 20664
+    tech: 8
+    economy: 3
+    government: 5
+    description: The planet Orbeen is cursed by killer mountain lobstoids.
+    inhabitants: Insects
+- type: star
+  type: primary
+  color: [0.628952, 0.640624, 0.702515, 1]
+  radius: 108146.658783
+  orbit:
+    type: static
+    parent: ~
+    radius: 467010
+    vector: [0.532, 0.572, -0.625]
+  corona:
+    shimmer: 0.390328
+    hues: 0.592369
+    flare: 0.08898
+stations:
+- type: coriolis
+  orbit:
+    parent: Orbeen
+    vector: undefined
+    radius: 10378

@@ -1,0 +1,61 @@
+name: Betigere
+position: [23, 11]
+seed: 103 11 249 23 232 147
+limits:
+  blurs: 179
+  stars: 6326
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Betigere
+  radius: 3607
+  rotationSpeed: 0.001984
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 396770
+  land:
+    ratio: 0.51
+    color: [0.257672, 0.0541406, 0.66, 1]
+    polarColor: [0.791661, 0.719654, 0.934, 1]
+  sea:
+    color: [0.548828, 0.480089, 0.43456, 1]
+    polarColor: [0.945117, 0.915524, 0.895923, 1]
+  air:
+    color: [0.659032, 0.572836, 0.873475, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.589278, 0.352898, 0.623047, 1]
+    ratio: 0.3
+    polarColor: [0.753936, 0.568894, 0.780371, 1]
+  demographics:
+    type: 55
+    gdp: 33880
+    tech: 11
+    economy: 3
+    government: 7
+    description: This planet is most fabled for Betigereian Es brandy but cursed by deadly civil war.
+    inhabitants: Black Fat Insects
+- type: star
+  type: primary
+  color: [0.677136, 0.64507, 0.248434, 1]
+  radius: 72139.449615
+  orbit:
+    type: static
+    parent: ~
+    radius: 252490
+    vector: [-0.662, 0.706, -0.252]
+  corona:
+    shimmer: 0.466648
+    hues: 0.875687
+    flare: 0.03367
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Betigere
+    vector: undefined
+    radius: 7214

@@ -1,0 +1,61 @@
+name: Inonin
+position: [0, 50]
+seed: 36 50 100 0 245 172
+limits:
+  blurs: 176
+  stars: 9013
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inonin
+  radius: 5888
+  rotationSpeed: 0.002696
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 588800
+  land:
+    ratio: 0.53
+    color: [0.66, 0.390264, 0.103125, 1]
+    polarColor: [0.934, 0.838571, 0.736984, 1]
+  sea:
+    color: [0.546875, 0.416992, 0.441345, 1]
+    polarColor: [0.945312, 0.889185, 0.899709, 1]
+  air:
+    color: [0.614379, 0.841875, 0.977537, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.453156, 0.935547, 0.517223, 1]
+    ratio: 0.44
+    polarColor: [0.624191, 0.920996, 0.66361, 1]
+  demographics:
+    type: 35
+    gdp: 17920
+    tech: 7
+    economy: 2
+    government: 4
+    description: This planet is mildly fabled for its inhabitants’ eccentric love for tourists but beset by evil spotted craboids.
+    inhabitants: Harmless Horned Lizards
+- type: star
+  type: primary
+  color: [0.240273, 0.628111, 0.827621, 1]
+  radius: 142547.890625
+  orbit:
+    type: static
+    parent: ~
+    radius: 412160
+    vector: [0.394, -0.338, 0.855]
+  corona:
+    shimmer: 0.319944
+    hues: 0.645477
+    flare: 0.019849
+stations:
+- type: coriolis
+  orbit:
+    parent: Inonin
+    vector: undefined
+    radius: 11776

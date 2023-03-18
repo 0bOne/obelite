@@ -1,0 +1,61 @@
+name: Radiqu
+position: [152, 160]
+seed: 1 160 185 152 173 20
+limits:
+  blurs: 148
+  stars: 6638
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Radiqu
+  radius: 3992
+  rotationSpeed: 0.002532
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 479040
+  land:
+    ratio: 0.53
+    color: [0.472119, 0.66, 0.386719, 1]
+    polarColor: [0.86753, 0.934, 0.837316, 1]
+  sea:
+    color: [0.570312, 0.510531, 0.446893, 1]
+    polarColor: [0.942969, 0.918258, 0.891953, 1]
+  air:
+    color: [0.485979, 0.668916, 0.850711, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.17334, 0.554688, 0.366993, 1]
+    ratio: 0.43
+    polarColor: [0.427512, 0.749609, 0.591077, 1]
+  demographics:
+    type: 52
+    gdp: 45760
+    tech: 11
+    economy: 0
+    government: 7
+    description: This planet is notable for its unusual oceans and its inhabitants’ exceptional love for food blenders.
+    inhabitants: Green Slimy Rodents
+- type: star
+  type: primary
+  color: [0.7595, 0.652669, 0.555904, 1]
+  radius: 92812.050781
+  orbit:
+    type: static
+    parent: ~
+    radius: 439120
+    vector: [0.061, -0.494, -0.868]
+  corona:
+    shimmer: 0.660352
+    hues: 0.6549
+    flare: 0.021869
+stations:
+- type: icosahedron
+  orbit:
+    parent: Radiqu
+    vector: undefined
+    radius: 7984

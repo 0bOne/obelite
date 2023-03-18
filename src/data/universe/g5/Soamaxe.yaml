@@ -1,0 +1,61 @@
+name: Soamaxe
+position: [117, 18]
+seed: 105 18 185 117 10 199
+limits:
+  blurs: 61
+  stars: 6673
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soamaxe
+  radius: 4725
+  rotationSpeed: 0.003507
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 519750
+  land:
+    ratio: 0.36
+    color: [0.66, 0.180469, 0.495161, 1]
+    polarColor: [0.934, 0.764348, 0.875682, 1]
+  sea:
+    color: [0.601483, 0.654297, 0.507336, 1]
+    polarColor: [0.915711, 0.93457, 0.882092, 1]
+  air:
+    color: [0.493025, 0.984041, 0.826397, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.955078, 0.137223, 0.0970001, 1]
+    ratio: 0.27
+    polarColor: [0.929785, 0.432162, 0.407689, 1]
+  demographics:
+    type: 50
+    gdp: 35200
+    tech: 10
+    economy: 2
+    government: 7
+    description: The planet Soamaxe is famous for its inhabitants’ exceptional loathing of sit coms but cursed by deadly disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.223555, 0.293574, 0.735535, 1]
+  radius: 131295.101166
+  orbit:
+    type: static
+    parent: ~
+    radius: 519750
+    vector: [0.774, 0.63, -0.057]
+  corona:
+    shimmer: 0.491252
+    hues: 0.84034
+    flare: 0.004015
+stations:
+- type: coriolis
+  orbit:
+    parent: Soamaxe
+    vector: undefined
+    radius: 9450

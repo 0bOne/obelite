@@ -1,0 +1,61 @@
+name: Tiqu
+position: [34, 181]
+seed: 28 181 32 34 101 160
+limits:
+  blurs: 51
+  stars: 6853
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiqu
+  radius: 2850
+  rotationSpeed: 0.003164
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 313500
+  land:
+    ratio: 0.26
+    color: [0.616575, 0.66, 0.461484, 1]
+    polarColor: [0.918637, 0.934, 0.863768, 1]
+  sea:
+    color: [0.537943, 0.385857, 0.564453, 1]
+    polarColor: [0.932476, 0.868918, 0.943555, 1]
+  air:
+    color: [0.473784, 0.687472, 0.852662, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.148895, 0.560547, 0.280752, 1]
+    ratio: 0.4
+    polarColor: [0.406977, 0.752246, 0.517571, 1]
+  demographics:
+    type: 34
+    gdp: 10880
+    tech: 6
+    economy: 5
+    government: 4
+    description: This planet is a tedious place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.783459, 0.620417, 0.486237, 1]
+  radius: 94034.866333
+  orbit:
+    type: static
+    parent: ~
+    radius: 199500
+    vector: [0.495, 0.804, 0.331]
+  corona:
+    shimmer: 0.360623
+    hues: 0.890831
+    flare: 0.028304
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiqu
+    vector: undefined
+    radius: 5700

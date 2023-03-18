@@ -1,0 +1,61 @@
+name: Maatxeri
+position: [38, 127]
+seed: 105 127 152 38 5 171
+limits:
+  blurs: 68
+  stars: 5225
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maatxeri
+  radius: 5670
+  rotationSpeed: 0.001607
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 510300
+  land:
+    ratio: 0.41
+    color: [0.144375, 0.249111, 0.66, 1]
+    polarColor: [0.751578, 0.788633, 0.934, 1]
+  sea:
+    color: [0.658203, 0.651856, 0.495709, 1]
+    polarColor: [0.93418, 0.931927, 0.876523, 1]
+  air:
+    color: [0.41759, 0.766129, 0.876727, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.180798, 0.632812, 0.0173035, 1]
+    ratio: 0.41
+    polarColor: [0.43442, 0.784766, 0.307699, 1]
+  demographics:
+    type: 27
+    gdp: 4536
+    tech: 4
+    economy: 7
+    government: 3
+    description: This world is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.784042, 0.636966, 0.501745, 1]
+  radius: 174141.22467
+  orbit:
+    type: static
+    parent: ~
+    radius: 680400
+    vector: [-0.067, -0.709, 0.702]
+  corona:
+    shimmer: 0.299265
+    hues: 0.79863
+    flare: 0.002518
+stations:
+- type: coriolis
+  orbit:
+    parent: Maatxeri
+    vector: undefined
+    radius: 11340

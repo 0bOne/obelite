@@ -1,0 +1,61 @@
+name: Isdilaon
+position: [170, 133]
+seed: 94 133 154 170 64 93
+limits:
+  blurs: 51
+  stars: 8590
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isdilaon
+  radius: 6314
+  rotationSpeed: 0.003583
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 757680
+  land:
+    ratio: 0.31
+    color: [0.598125, 0.66, 0.619395, 1]
+    polarColor: [0.912109, 0.934, 0.919634, 1]
+  sea:
+    color: [0.413657, 0.3433, 0.552734, 1]
+    polarColor: [0.885299, 0.855236, 0.944727, 1]
+  air:
+    color: [0.469257, 0.629362, 0.877377, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.128937, 0.634766, 0.551778, 1]
+    ratio: 0.54
+    polarColor: [0.394357, 0.785645, 0.721449, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 6
+    economy: 5
+    government: 3
+    description: Isdilaon is reasonably well known for its great dense forests but beset by deadly tree snakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.587009, 0.727276, 0.784891, 1]
+  radius: 168135.684814
+  orbit:
+    type: static
+    parent: ~
+    radius: 505120
+    vector: [0.607, -0.75, 0.262]
+  corona:
+    shimmer: 0.265463
+    hues: 0.9935
+    flare: 0.058325
+stations:
+- type: coriolis
+  orbit:
+    parent: Isdilaon
+    vector: undefined
+    radius: 12628

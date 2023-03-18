@@ -1,0 +1,61 @@
+name: Maxeedso
+position: [105, 109]
+seed: 64 109 168 105 253 139
+limits:
+  blurs: 88
+  stars: 7212
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maxeedso
+  radius: 5737
+  rotationSpeed: 0.00129
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 688440
+  land:
+    ratio: 0.29
+    color: [0.549141, 0.66, 0.641812, 1]
+    polarColor: [0.894779, 0.934, 0.927565, 1]
+  sea:
+    color: [0.192688, 0.560547, 0.482952, 1]
+    polarColor: [0.789079, 0.943945, 0.911278, 1]
+  air:
+    color: [0.668501, 0.801816, 0.956725, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.60704, 0.873047, 0.773294, 1]
+    ratio: 0.18
+    polarColor: [0.722842, 0.892871, 0.82911, 1]
+  demographics:
+    type: 35
+    gdp: 12600
+    tech: 6
+    economy: 5
+    government: 5
+    description: This world is mildly famous for its vast rain forests and the Maxeedsoian tree wolf.
+    inhabitants: Small Black Fat Insects
+- type: star
+  type: primary
+  color: [0.342753, 0.407919, 0.83519, 1]
+  radius: 114096.583405
+  orbit:
+    type: static
+    parent: ~
+    radius: 344220
+    vector: [-0.012, -0.759, -0.651]
+  corona:
+    shimmer: 0.227526
+    hues: 0.949356
+    flare: 0.008908
+stations:
+- type: coriolis
+  orbit:
+    parent: Maxeedso
+    vector: undefined
+    radius: 11474

@@ -1,0 +1,61 @@
+name: Edanma
+position: [54, 107]
+seed: 198 107 252 54 243 248
+limits:
+  blurs: 112
+  stars: 6474
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edanma
+  radius: 4918
+  rotationSpeed: 0.003441
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 590160
+  land:
+    ratio: 0.71
+    color: [0.238373, 0.461395, 0.570312, 1]
+    polarColor: [0.805759, 0.897947, 0.942969, 1]
+  sea:
+    color: [0.590332, 0.75, 0.705093, 1]
+    polarColor: [0.875769, 0.925, 0.911154, 1]
+  air:
+    color: [0.583426, 0.573593, 0.839654, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.361067, 0.33815, 0.521484, 1]
+    ratio: 0.25
+    polarColor: [0.59342, 0.573242, 0.734668, 1]
+  demographics:
+    type: 51
+    gdp: 31416
+    tech: 10
+    economy: 3
+    government: 7
+    description: Edanma is ravaged by unpredictable solar activity.
+    inhabitants: Furry Humanoids
+- type: star
+  type: primary
+  color: [0.530517, 0.535496, 0.652512, 1]
+  radius: 116243.431702
+  orbit:
+    type: static
+    parent: ~
+    radius: 540980
+    vector: [-0.346, 0.846, -0.406]
+  corona:
+    shimmer: 0.480307
+    hues: 0.836899
+    flare: 0.094205
+stations:
+- type: coriolis
+  orbit:
+    parent: Edanma
+    vector: undefined
+    radius: 9836

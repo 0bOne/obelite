@@ -1,0 +1,61 @@
+name: Esaan
+position: [3, 162]
+seed: 14 162 34 3 208 201
+limits:
+  blurs: 104
+  stars: 9885
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esaan
+  radius: 5123
+  rotationSpeed: 0.000795
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 563530
+  land:
+    ratio: 0.37
+    color: [0.227005, 0.509766, 0.443494, 1]
+    polarColor: [0.817421, 0.949023, 0.918179, 1]
+  sea:
+    color: [0.634965, 0.803016, 0.841797, 1]
+    polarColor: [0.859565, 0.905272, 0.91582, 1]
+  air:
+    color: [0.661703, 0.559195, 0.889734, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.652929, 0.325439, 0.671875, 1]
+    ratio: 0.3
+    polarColor: [0.788203, 0.543776, 0.802344, 1]
+  demographics:
+    type: 47
+    gdp: 24064
+    tech: 10
+    economy: 2
+    government: 4
+    description: This world is a tedious place.
+    inhabitants: Small Bug-Eyed Lizards
+- type: star
+  type: primary
+  color: [0.648319, 0.755948, 0.831973, 1]
+  radius: 148859.827728
+  orbit:
+    type: static
+    parent: ~
+    radius: 358610
+    vector: [-0.21, 0.675, 0.707]
+  corona:
+    shimmer: 0.299815
+    hues: 0.856895
+    flare: 0.02522
+stations:
+- type: coriolis
+  orbit:
+    parent: Esaan
+    vector: undefined
+    radius: 10246

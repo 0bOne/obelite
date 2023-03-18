@@ -1,0 +1,61 @@
+name: Cevera
+position: [184, 88]
+seed: 180 88 168 184 54 165
+limits:
+  blurs: 67
+  stars: 9205
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cevera
+  radius: 4280
+  rotationSpeed: 0.002993
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 428000
+  land:
+    ratio: 0.69
+    color: [0.589844, 0.586604, 0.569107, 1]
+    polarColor: [0.941016, 0.939723, 0.932745, 1]
+  sea:
+    color: [0.707914, 0.808594, 0.48642, 1]
+    polarColor: [0.89053, 0.919141, 0.827586, 1]
+  air:
+    color: [0.420193, 0.68533, 0.896889, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.00270844, 0.693359, 0.24012, 1]
+    ratio: 0.09
+    polarColor: [0.306487, 0.812012, 0.480261, 1]
+  demographics:
+    type: 46
+    gdp: 33120
+    tech: 10
+    economy: 0
+    government: 5
+    description: The planet Cevera is most well known for its hoopy casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.222118, 0.490056, 0.652176, 1]
+  radius: 95624.719238
+  orbit:
+    type: static
+    parent: ~
+    radius: 342400
+    vector: [-0.197, 0.886, 0.42]
+  corona:
+    shimmer: 0.50589
+    hues: 0.580727
+    flare: 0.033684
+stations:
+- type: coriolis
+  orbit:
+    parent: Cevera
+    vector: undefined
+    radius: 8560

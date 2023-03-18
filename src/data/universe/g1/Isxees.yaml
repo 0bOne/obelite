@@ -1,0 +1,61 @@
+name: Isxees
+position: [232, 188]
+seed: 180 188 192 232 102 125
+limits:
+  blurs: 68
+  stars: 5907
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isxees
+  radius: 6376
+  rotationSpeed: 0.004545
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 637600
+  land:
+    ratio: 0.29
+    color: [0.376064, 0.66, 0.373828, 1]
+    polarColor: [0.833547, 0.934, 0.832756, 1]
+  sea:
+    color: [0.578986, 0.632812, 0.500317, 1]
+    polarColor: [0.9168, 0.936719, 0.887687, 1]
+  air:
+    color: [0.457176, 0.508663, 0.919652, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0684357, 0.290503, 0.761719, 1]
+    ratio: 0.31
+    polarColor: [0.363364, 0.516925, 0.842773, 1]
+  demographics:
+    type: 11
+    gdp: 1408
+    tech: 1
+    economy: 6
+    government: 0
+    description: The planet Isxees is reasonably fabled for Zero-G hockey and Isxeesian Atlethma brandy.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.566432, 0.59081, 0.705615, 1]
+  radius: 152363.984375
+  orbit:
+    type: static
+    parent: ~
+    radius: 765120
+    vector: [-0.226, 0.85, 0.475]
+  corona:
+    shimmer: 0.359803
+    hues: 0.936317
+    flare: 0.030209
+stations:
+- type: coriolis
+  orbit:
+    parent: Isxees
+    vector: undefined
+    radius: 12752

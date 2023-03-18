@@ -1,0 +1,61 @@
+name: Usinribe
+position: [202, 218]
+seed: 100 218 52 202 21 232
+limits:
+  blurs: 144
+  stars: 8749
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usinribe
+  radius: 5066
+  rotationSpeed: 0.004628
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 658580
+  land:
+    ratio: 0.58
+    color: [0.570974, 0.66, 0.440859, 1]
+    polarColor: [0.902504, 0.934, 0.856471, 1]
+  sea:
+    color: [0.554688, 0.418182, 0.530159, 1]
+    polarColor: [0.944531, 0.88642, 0.934089, 1]
+  air:
+    color: [0.519696, 0.971684, 0.851263, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.917969, 0.340765, 0.186462, 1]
+    ratio: 0.55
+    polarColor: [0.913086, 0.554252, 0.458326, 1]
+  demographics:
+    type: 49
+    gdp: 31360
+    tech: 10
+    economy: 2
+    government: 6
+    description: This planet is beset by deadly earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.294771, 0.602264, 0.768323, 1]
+  radius: 98258.879395
+  orbit:
+    type: static
+    parent: ~
+    radius: 405280
+    vector: [0.551, 0.405, 0.73]
+  corona:
+    shimmer: 0.552198
+    hues: 0.975311
+    flare: 0.061351
+stations:
+- type: coriolis
+  orbit:
+    parent: Usinribe
+    vector: undefined
+    radius: 10132

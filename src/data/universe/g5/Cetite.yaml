@@ -1,0 +1,61 @@
+name: Cetite
+position: [159, 114]
+seed: 175 114 117 159 64 69
+limits:
+  blurs: 91
+  stars: 6474
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cetite
+  radius: 4255
+  rotationSpeed: 0.002125
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 468050
+  land:
+    ratio: 0.61
+    color: [0.220413, 0.527344, 0.476988, 1]
+    polarColor: [0.809431, 0.947266, 0.924652, 1]
+  sea:
+    color: [0.693359, 0.485064, 0.444183, 1]
+    polarColor: [0.930664, 0.860768, 0.84705, 1]
+  air:
+    color: [0.838284, 0.766966, 0.980789, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.945312, 0.893616, 0.944505, 1]
+    ratio: 0.36
+    polarColor: [0.925391, 0.893761, 0.924896, 1]
+  demographics:
+    type: 53
+    gdp: 33920
+    tech: 11
+    economy: 2
+    government: 6
+    description: This world is ravaged by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.801688, 0.781622, 0.778678, 1]
+  radius: 111189.273834
+  orbit:
+    type: static
+    parent: ~
+    radius: 340400
+    vector: [-0.262, 0.96, -0.101]
+  corona:
+    shimmer: 0.738667
+    hues: 0.849297
+    flare: 0.049409
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Cetite
+    vector: undefined
+    radius: 8510

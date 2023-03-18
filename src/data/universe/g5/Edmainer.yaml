@@ -1,0 +1,61 @@
+name: Edmainer
+position: [232, 201]
+seed: 201 201 229 232 170 56
+limits:
+  blurs: 162
+  stars: 6914
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edmainer
+  radius: 5096
+  rotationSpeed: 0.003928
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 611520
+  land:
+    ratio: 0.57
+    color: [0.619141, 0.445007, 0.489901, 1]
+    polarColor: [0.938086, 0.872127, 0.889132, 1]
+  sea:
+    color: [0.701172, 0.539231, 0.460144, 1]
+    polarColor: [0.929883, 0.876192, 0.849971, 1]
+  air:
+    color: [0.686208, 0.542641, 0.912498, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.740234, 0.283371, 0.658142, 1]
+    ratio: 0.4
+    polarColor: [0.833105, 0.511742, 0.77536, 1]
+  demographics:
+    type: 38
+    gdp: 21888
+    tech: 8
+    economy: 1
+    government: 4
+    description: Edmainer is very notable for the Edmainerian tree grub.
+    inhabitants: Red Bug-Eyed Frogs
+- type: star
+  type: primary
+  color: [0.766791, 0.698432, 0.538293, 1]
+  radius: 140865.489502
+  orbit:
+    type: static
+    parent: ~
+    radius: 560560
+    vector: [0.596, -0.627, 0.502]
+  corona:
+    shimmer: 0.462048
+    hues: 0.779228
+    flare: 0.005261
+stations:
+- type: coriolis
+  orbit:
+    parent: Edmainer
+    vector: undefined
+    radius: 10192

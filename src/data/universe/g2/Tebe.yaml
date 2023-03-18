@@ -1,0 +1,61 @@
+name: Tebe
+position: [150, 101]
+seed: 17 101 105 150 237 32
+limits:
+  blurs: 125
+  stars: 6121
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tebe
+  radius: 2966
+  rotationSpeed: 0.001912
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 355920
+  land:
+    ratio: 0.63
+    color: [0.458906, 0.622295, 0.66, 1]
+    polarColor: [0.862855, 0.92066, 0.934, 1]
+  sea:
+    color: [0.628906, 0.572167, 0.474382, 1]
+    polarColor: [0.937109, 0.915973, 0.879547, 1]
+  air:
+    color: [0.5398, 0.485708, 0.926156, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.381947, 0.134277, 0.78125, 1]
+    ratio: 0.23
+    polarColor: [0.579537, 0.410812, 0.851562, 1]
+  demographics:
+    type: 39
+    gdp: 14040
+    tech: 7
+    economy: 5
+    government: 5
+    description: This planet is very notable for the Tebeian tree snake and its exotic goat meat.
+    inhabitants: Large Red Bony Lobsters
+- type: star
+  type: primary
+  color: [0.661755, 0.537571, 0.446291, 1]
+  radius: 92803.811951
+  orbit:
+    type: static
+    parent: ~
+    radius: 266940
+    vector: [-0.112, -0.946, 0.303]
+  corona:
+    shimmer: 0.563896
+    hues: 0.874481
+    flare: 0.011993
+stations:
+- type: coriolis
+  orbit:
+    parent: Tebe
+    vector: undefined
+    radius: 5932

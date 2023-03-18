@@ -1,0 +1,61 @@
+name: Maera
+position: [243, 145]
+seed: 36 145 164 243 117 11
+limits:
+  blurs: 81
+  stars: 9912
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maera
+  radius: 5875
+  rotationSpeed: 0.000159
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 763750
+  land:
+    ratio: 0.38
+    color: [0.550781, 0.488388, 0.492775, 1]
+    polarColor: [0.944922, 0.918161, 0.920043, 1]
+  sea:
+    color: [0.695074, 0.773438, 0.522675, 1]
+    polarColor: [0.899286, 0.922656, 0.847871, 1]
+  air:
+    color: [0.698646, 0.717013, 0.983391, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.696228, 0.742389, 0.953125, 1]
+    ratio: 0.15
+    polarColor: [0.772425, 0.800543, 0.928906, 1]
+  demographics:
+    type: 50
+    gdp: 28800
+    tech: 11
+    economy: 1
+    government: 4
+    description: This world is a revolting dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.721888, 0.808674, 0.835675, 1]
+  radius: 125608.42514
+  orbit:
+    type: static
+    parent: ~
+    radius: 352500
+    vector: [-0.064, 0.549, -0.834]
+  corona:
+    shimmer: 0.352651
+    hues: 0.800621
+    flare: 0.055096
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Maera
+    vector: undefined
+    radius: 11750

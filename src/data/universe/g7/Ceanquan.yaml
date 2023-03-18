@@ -1,0 +1,61 @@
+name: Ceanquan
+position: [185, 187]
+seed: 255 187 154 185 203 5
+limits:
+  blurs: 125
+  stars: 5339
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceanquan
+  radius: 4281
+  rotationSpeed: 0.004835
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 428100
+  land:
+    ratio: 0.71
+    color: [0.523438, 0.460979, 0.0531616, 1]
+    polarColor: [0.947656, 0.919387, 0.734804, 1]
+  sea:
+    color: [0.811084, 0.70625, 0.882812, 1]
+    polarColor: [0.893199, 0.866133, 0.911719, 1]
+  air:
+    color: [0.522549, 0.637125, 0.83315, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.241173, 0.501953, 0.477505, 1]
+    ratio: 0.18
+    polarColor: [0.490181, 0.725879, 0.703782, 1]
+  demographics:
+    type: 35
+    gdp: 13720
+    tech: 7
+    economy: 3
+    government: 3
+    description: This planet is plagued by deadly earthquakes.
+    inhabitants: Fierce Green Horned Lobsters
+- type: star
+  type: primary
+  color: [0.440718, 0.468034, 0.671274, 1]
+  radius: 113627.183075
+  orbit:
+    type: static
+    parent: ~
+    radius: 428100
+    vector: [0.451, 0.492, -0.745]
+  corona:
+    shimmer: 0.587324
+    hues: 0.953255
+    flare: 0.041391
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceanquan
+    vector: undefined
+    radius: 8562

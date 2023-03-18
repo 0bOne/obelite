@@ -1,0 +1,61 @@
+name: Teaatis
+position: [4, 238]
+seed: 202 238 204 4 91 28
+limits:
+  blurs: 144
+  stars: 6031
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teaatis
+  radius: 5892
+  rotationSpeed: 0.003646
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 824880
+  land:
+    ratio: 0.56
+    color: [0.66, 0.0670312, 0.414474, 1]
+    polarColor: [0.934, 0.724215, 0.847136, 1]
+  sea:
+    color: [0.623047, 0.600496, 0.478724, 1]
+    polarColor: [0.937695, 0.929211, 0.883393, 1]
+  air:
+    color: [0.435444, 0.599129, 0.909246, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0256805, 0.730469, 0.71395, 1]
+    ratio: 0.57
+    polarColor: [0.328976, 0.828711, 0.816998, 1]
+  demographics:
+    type: 16
+    gdp: 2560
+    tech: 2
+    economy: 6
+    government: 1
+    description: Teaatis is mildly well known for Teaatisian vicious brew.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.711258, 0.439991, 0.380102, 1]
+  radius: 161673.977051
+  orbit:
+    type: static
+    parent: ~
+    radius: 471360
+    vector: [0.392, 0.276, 0.877]
+  corona:
+    shimmer: 0.405304
+    hues: 0.769394
+    flare: 0.015961
+stations:
+- type: coriolis
+  orbit:
+    parent: Teaatis
+    vector: undefined
+    radius: 11784

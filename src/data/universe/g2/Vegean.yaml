@@ -1,0 +1,61 @@
+name: Vegean
+position: [32, 108]
+seed: 9 108 193 32 205 86
+limits:
+  blurs: 80
+  stars: 9545
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vegean
+  radius: 4384
+  rotationSpeed: 0.001607
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 482240
+  land:
+    ratio: 0.47
+    color: [0.284302, 0.388171, 0.535156, 1]
+    polarColor: [0.835568, 0.881494, 0.946484, 1]
+  sea:
+    color: [0.626689, 0.677734, 0.51439, 1]
+    polarColor: [0.914673, 0.932227, 0.876056, 1]
+  air:
+    color: [0.758812, 0.747687, 0.959326, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.835268, 0.825806, 0.880859, 1]
+    ratio: 0.59
+    polarColor: [0.86739, 0.861372, 0.896387, 1]
+  demographics:
+    type: 11
+    gdp: 1408
+    tech: 1
+    economy: 6
+    government: 0
+    description: The world Vegean is beset by dreadful earthquakes.
+    inhabitants: Yellow Fat Felines
+- type: star
+  type: primary
+  color: [0.557714, 0.767965, 0.789642, 1]
+  radius: 90728.383789
+  orbit:
+    type: static
+    parent: ~
+    radius: 394560
+    vector: [0.862, 0.363, 0.353]
+  corona:
+    shimmer: 0.528849
+    hues: 0.731827
+    flare: 0.013095
+stations:
+- type: coriolis
+  orbit:
+    parent: Vegean
+    vector: undefined
+    radius: 8768

@@ -1,0 +1,61 @@
+name: Maisrais
+position: [171, 198]
+seed: 123 198 6 171 191 107
+limits:
+  blurs: 133
+  stars: 8948
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maisrais
+  radius: 5803
+  rotationSpeed: 0.002692
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 696360
+  land:
+    ratio: 0.46
+    color: [0.183047, 0.268749, 0.66, 1]
+    polarColor: [0.76526, 0.79558, 0.934, 1]
+  sea:
+    color: [0.649528, 0.658203, 0.499566, 1]
+    polarColor: [0.931101, 0.93418, 0.877892, 1]
+  air:
+    color: [0.521318, 0.462363, 0.942416, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.353786, 0.0583649, 0.830078, 1]
+    ratio: 0.3
+    polarColor: [0.560268, 0.365963, 0.873535, 1]
+  demographics:
+    type: 23
+    gdp: 2944
+    tech: 4
+    economy: 6
+    government: 0
+    description: Maisrais is famous for its inhabitants’ ancient mating traditions but ravaged by unpredictable solar activity.
+    inhabitants: Small Blue Furry Rodents
+- type: star
+  type: primary
+  color: [0.656857, 0.644923, 0.624879, 1]
+  radius: 147476.387939
+  orbit:
+    type: static
+    parent: ~
+    radius: 290150
+    vector: [0.504, -0.652, 0.566]
+  corona:
+    shimmer: 0.483661
+    hues: 0.787346
+    flare: 0.049721
+stations:
+- type: coriolis
+  orbit:
+    parent: Maisrais
+    vector: undefined
+    radius: 11606

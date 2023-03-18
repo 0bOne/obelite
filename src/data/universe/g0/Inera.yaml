@@ -1,0 +1,61 @@
+name: Inera
+position: [82, 16]
+seed: 128 16 248 82 157 108
+limits:
+  blurs: 81
+  stars: 5055
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inera
+  radius: 5970
+  rotationSpeed: 0.003147
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 835800
+  land:
+    ratio: 0.71
+    color: [0.482109, 0.518243, 0.66, 1]
+    polarColor: [0.871064, 0.883848, 0.934, 1]
+  sea:
+    color: [0.621181, 0.628906, 0.487648, 1]
+    polarColor: [0.934232, 0.937109, 0.884488, 1]
+  air:
+    color: [0.656849, 0.849537, 0.936563, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.58448, 0.8125, 0.571289, 1]
+    ratio: 0.54
+    polarColor: [0.713795, 0.865625, 0.705011, 1]
+  demographics:
+    type: 60
+    gdp: 52800
+    tech: 13
+    economy: 0
+    government: 7
+    description: This planet is noted for its exotic fish meat.
+    inhabitants: Blue Horned Lizards
+- type: star
+  type: primary
+  color: [0.633503, 0.733461, 0.779367, 1]
+  radius: 132207.952881
+  orbit:
+    type: static
+    parent: ~
+    radius: 358200
+    vector: [-0.474, -0.352, -0.807]
+  corona:
+    shimmer: 0.374873
+    hues: 0.737762
+    flare: 0.080739
+stations:
+- type: icosahedron
+  orbit:
+    parent: Inera
+    vector: undefined
+    radius: 11940

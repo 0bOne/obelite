@@ -1,0 +1,61 @@
+name: Sorezaqu
+position: [111, 216]
+seed: 69 216 68 111 9 71
+limits:
+  blurs: 61
+  stars: 8806
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sorezaqu
+  radius: 4719
+  rotationSpeed: 0.00376
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 566280
+  land:
+    ratio: 0.62
+    color: [0.314813, 0.121172, 0.66, 1]
+    polarColor: [0.811877, 0.743369, 0.934, 1]
+  sea:
+    color: [0.594713, 0.601562, 0.476315, 1]
+    polarColor: [0.937168, 0.939844, 0.890924, 1]
+  air:
+    color: [0.588074, 0.514606, 0.911197, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.51263, 0.215721, 0.736328, 1]
+    ratio: 0.46
+    polarColor: [0.673494, 0.46398, 0.831348, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: This planet is fabled for its exciting sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.434925, 0.492619, 0.701895, 1]
+  radius: 85032.871857
+  orbit:
+    type: static
+    parent: ~
+    radius: 377520
+    vector: [0.26, 0.952, -0.163]
+  corona:
+    shimmer: 0.35178
+    hues: 0.875938
+    flare: 0.011142
+stations:
+- type: coriolis
+  orbit:
+    parent: Sorezaqu
+    vector: undefined
+    radius: 9438

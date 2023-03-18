@@ -1,0 +1,61 @@
+name: Orrira
+position: [92, 9]
+seed: 0 9 0 92 205 217
+limits:
+  blurs: 139
+  stars: 8776
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orrira
+  radius: 5212
+  rotationSpeed: 0.004137
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 781800
+  land:
+    ratio: 0.29
+    color: [0.66, 0.234891, 0.213984, 1]
+    polarColor: [0.934, 0.783602, 0.776205, 1]
+  sea:
+    color: [0.551899, 0.701172, 0.575223, 1]
+    polarColor: [0.880392, 0.929883, 0.888125, 1]
+  air:
+    color: [0.705003, 0.465262, 0.979488, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.941406, 0.0220642, 0.560741, 1]
+    ratio: 0.49
+    polarColor: [0.923633, 0.359892, 0.690209, 1]
+  demographics:
+    type: 20
+    gdp: 4480
+    tech: 4
+    economy: 3
+    government: 0
+    description: The planet Orrira is cursed by killer edible talking treeoids.
+    inhabitants: Furry Felines
+- type: star
+  type: primary
+  color: [0.709161, 0.621117, 0.439355, 1]
+  radius: 148341.905518
+  orbit:
+    type: static
+    parent: ~
+    radius: 260600
+    vector: [0.163, 0.922, 0.35]
+  corona:
+    shimmer: 0.26861
+    hues: 0.924927
+    flare: 0.047998
+stations:
+- type: coriolis
+  orbit:
+    parent: Orrira
+    vector: undefined
+    radius: 10424

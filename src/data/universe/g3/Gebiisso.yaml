@@ -1,0 +1,61 @@
+name: Gebiisso
+position: [179, 208]
+seed: 106 208 50 179 74 67
+limits:
+  blurs: 157
+  stars: 7385
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gebiisso
+  radius: 3763
+  rotationSpeed: 0.000683
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 526820
+  land:
+    ratio: 0.3
+    color: [0.66, 0.152109, 0.652064, 1]
+    polarColor: [0.934, 0.754314, 0.931192, 1]
+  sea:
+    color: [0.527344, 0.42987, 0.416931, 1]
+    polarColor: [0.947266, 0.903493, 0.897682, 1]
+  air:
+    color: [0.43163, 0.65138, 0.89884, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0273132, 0.699219, 0.431506, 1]
+    ratio: 0.29
+    polarColor: [0.325382, 0.814648, 0.619706, 1]
+  demographics:
+    type: 59
+    gdp: 47200
+    tech: 13
+    economy: 0
+    government: 6
+    description: This world is reasonably notable for its exotic cuisine but plagued by lethal disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.513511, 0.532004, 0.844043, 1]
+  radius: 92443.731232
+  orbit:
+    type: static
+    parent: ~
+    radius: 225780
+    vector: [0.107, -0.488, 0.867]
+  corona:
+    shimmer: 0.702588
+    hues: 0.800964
+    flare: 0.029434
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Gebiisso
+    vector: undefined
+    radius: 7526

@@ -1,0 +1,61 @@
+name: Iscege
+position: [102, 220]
+seed: 111 220 189 102 160 29
+limits:
+  blurs: 115
+  stars: 9587
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Iscege
+  radius: 6246
+  rotationSpeed: 0.001161
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 624600
+  land:
+    ratio: 0.6
+    color: [0.626444, 0.66, 0.572344, 1]
+    polarColor: [0.922128, 0.934, 0.902988, 1]
+  sea:
+    color: [0.0953064, 0.677734, 0.664084, 1]
+    polarColor: [0.731943, 0.932227, 0.927532, 1]
+  air:
+    color: [0.622649, 0.878027, 0.79205, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.636719, 0.462616, 0.462616, 1]
+    ratio: 0.45
+    polarColor: [0.786523, 0.652108, 0.652108, 1]
+  demographics:
+    type: 48
+    gdp: 25344
+    tech: 9
+    economy: 4
+    government: 7
+    description: The world Iscege is a dull world.
+    inhabitants: Green Horned Lobsters
+- type: star
+  type: primary
+  color: [0.67695, 0.618376, 0.517376, 1]
+  radius: 196537.038574
+  orbit:
+    type: static
+    parent: ~
+    radius: 562140
+    vector: [-0.354, -0.132, -0.926]
+  corona:
+    shimmer: 0.586441
+    hues: 0.781898
+    flare: 0.021313
+stations:
+- type: coriolis
+  orbit:
+    parent: Iscege
+    vector: undefined
+    radius: 12492

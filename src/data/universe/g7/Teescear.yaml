@@ -1,0 +1,61 @@
+name: Teescear
+position: [255, 204]
+seed: 197 204 196 255 137 92
+limits:
+  blurs: 132
+  stars: 5370
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teescear
+  radius: 6143
+  rotationSpeed: 0.003791
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 614300
+  land:
+    ratio: 0.68
+    color: [0.66, 0.174023, 0.12375, 1]
+    polarColor: [0.934, 0.762067, 0.744281, 1]
+  sea:
+    color: [0.613281, 0.497711, 0.457565, 1]
+    polarColor: [0.938672, 0.89445, 0.879088, 1]
+  air:
+    color: [0.725529, 0.611315, 0.860467, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.583984, 0.426582, 0.522499, 1]
+    ratio: 0.13
+    polarColor: [0.762793, 0.634295, 0.712599, 1]
+  demographics:
+    type: 23
+    gdp: 2944
+    tech: 4
+    economy: 6
+    government: 0
+    description: The planet Teescear is reasonably fabled for Teescearian evil juice and Teescearian evil brandy.
+    inhabitants: Yellow Bony Lobsters
+- type: star
+  type: primary
+  color: [0.72966, 0.725918, 0.688986, 1]
+  radius: 134913.350372
+  orbit:
+    type: static
+    parent: ~
+    radius: 614300
+    vector: [0.188, 0.565, 0.804]
+  corona:
+    shimmer: 0.373242
+    hues: 0.802063
+    flare: 0.023927
+stations:
+- type: coriolis
+  orbit:
+    parent: Teescear
+    vector: undefined
+    radius: 12286

@@ -1,0 +1,61 @@
+name: Getius
+position: [173, 6]
+seed: 188 6 248 173 21 131
+limits:
+  blurs: 133
+  stars: 7545
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Getius
+  radius: 3757
+  rotationSpeed: 0.002234
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 525980
+  land:
+    ratio: 0.25
+    color: [0.212131, 0.134062, 0.66, 1]
+    polarColor: [0.77555, 0.74793, 0.934, 1]
+  sea:
+    color: [0.574219, 0.54759, 0.456683, 1]
+    polarColor: [0.942578, 0.93165, 0.894345, 1]
+  air:
+    color: [0.613734, 0.893917, 0.954773, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.643034, 0.867188, 0.457306, 1]
+    ratio: 0.29
+    polarColor: [0.746415, 0.890234, 0.62725, 1]
+  demographics:
+    type: 38
+    gdp: 13376
+    tech: 6
+    economy: 6
+    government: 7
+    description: Getius is an unremarkable dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.74706, 0.763098, 0.832108, 1]
+  radius: 99226.052704
+  orbit:
+    type: static
+    parent: ~
+    radius: 262990
+    vector: [0.138, 0.989, 0.05]
+  corona:
+    shimmer: 0.502669
+    hues: 0.661522
+    flare: 0.081055
+stations:
+- type: coriolis
+  orbit:
+    parent: Getius
+    vector: undefined
+    radius: 7514

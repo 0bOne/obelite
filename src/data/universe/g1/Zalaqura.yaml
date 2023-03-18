@@ -1,0 +1,61 @@
+name: Zalaqura
+position: [192, 209]
+seed: 116 209 32 192 102 164
+limits:
+  blurs: 179
+  stars: 8350
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zalaqura
+  radius: 4032
+  rotationSpeed: 0.003307
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 362880
+  land:
+    ratio: 0.28
+    color: [0.519531, 0.501695, 0.062912, 1]
+    polarColor: [0.948047, 0.93991, 0.739736, 1]
+  sea:
+    color: [0.716797, 0.637872, 0.487198, 1]
+    polarColor: [0.92832, 0.902767, 0.853982, 1]
+  air:
+    color: [0.857757, 0.775397, 0.983391, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.953125, 0.919617, 0.946319, 1]
+    ratio: 0.22
+    polarColor: [0.928906, 0.908496, 0.92476, 1]
+  demographics:
+    type: 38
+    gdp: 21888
+    tech: 8
+    economy: 1
+    government: 4
+    description: The planet Zalaqura is most famous for the Zalaquraian spotted wolf.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.792215, 0.72815, 0.719831, 1]
+  radius: 81050.361328
+  orbit:
+    type: static
+    parent: ~
+    radius: 604800
+    vector: [0.787, 0.465, 0.406]
+  corona:
+    shimmer: 1.144774
+    hues: 0.84269
+    flare: 0.090469
+stations:
+- type: coriolis
+  orbit:
+    parent: Zalaqura
+    vector: undefined
+    radius: 8064

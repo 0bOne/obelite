@@ -1,0 +1,61 @@
+name: Erxebe
+position: [223, 210]
+seed: 50 210 162 223 244 144
+limits:
+  blurs: 85
+  stars: 8974
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erxebe
+  radius: 3039
+  rotationSpeed: 0.000022
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 425460
+  land:
+    ratio: 0.4
+    color: [0.66, 0.49363, 0.299063, 1]
+    polarColor: [0.934, 0.87514, 0.806305, 1]
+  sea:
+    color: [0.311783, 0.320814, 0.542969, 1]
+    polarColor: [0.845037, 0.84897, 0.945703, 1]
+  air:
+    color: [0.677391, 0.489538, 0.954773, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.867188, 0.118561, 0.697577, 1]
+    ratio: 0.31
+    polarColor: [0.890234, 0.409908, 0.78141, 1]
+  demographics:
+    type: 47
+    gdp: 24064
+    tech: 10
+    economy: 2
+    government: 4
+    description: The world Erxebe is reasonably fabled for its exciting sit coms and its inhabitants’ exceptional loathing of food blenders.
+    inhabitants: Black Furry Humanoids
+- type: star
+  type: primary
+  color: [0.750778, 0.412129, 0.294905, 1]
+  radius: 77790.906372
+  orbit:
+    type: static
+    parent: ~
+    radius: 212730
+    vector: [-0.257, 0.51, 0.821]
+  corona:
+    shimmer: 0.283365
+    hues: 0.525917
+    flare: 0.086441
+stations:
+- type: coriolis
+  orbit:
+    parent: Erxebe
+    vector: undefined
+    radius: 6078

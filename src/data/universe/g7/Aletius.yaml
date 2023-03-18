@@ -1,0 +1,61 @@
+name: Aletius
+position: [39, 234]
+seed: 211 234 94 39 39 15
+limits:
+  blurs: 161
+  stars: 5485
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aletius
+  radius: 6695
+  rotationSpeed: 0.003254
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 803400
+  land:
+    ratio: 0.3
+    color: [0.66, 0.108724, 0.0670312, 1]
+    polarColor: [0.934, 0.738965, 0.724215, 1]
+  sea:
+    color: [0.517578, 0.430031, 0.412849, 1]
+    polarColor: [0.948242, 0.908144, 0.900274, 1]
+  air:
+    color: [0.453185, 0.55735, 0.909246, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0684814, 0.513254, 0.730469, 1]
+    ratio: 0.36
+    polarColor: [0.359324, 0.674693, 0.828711, 1]
+  demographics:
+    type: 46
+    gdp: 20608
+    tech: 10
+    economy: 2
+    government: 3
+    description: The planet Aletius is most noted for its inhabitants’ eccentric love for poetry and its inhabitants’ unusual silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.719055, 0.495883, 0.398497, 1]
+  radius: 140522.87674
+  orbit:
+    type: static
+    parent: ~
+    radius: 602550
+    vector: [-0.455, -0.858, 0.237]
+  corona:
+    shimmer: 0.387581
+    hues: 0.696686
+    flare: 0.086472
+stations:
+- type: coriolis
+  orbit:
+    parent: Aletius
+    vector: undefined
+    radius: 13390

@@ -1,0 +1,61 @@
+name: Esgebi
+position: [152, 33]
+seed: 20 33 208 152 166 233
+limits:
+  blurs: 78
+  stars: 5971
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esgebi
+  radius: 5272
+  rotationSpeed: 0.002707
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 632640
+  land:
+    ratio: 0.58
+    color: [0.149531, 0.420718, 0.66, 1]
+    polarColor: [0.753402, 0.849345, 0.934, 1]
+  sea:
+    color: [0.569104, 0.71875, 0.634574, 1]
+    polarColor: [0.879815, 0.928125, 0.900951, 1]
+  air:
+    color: [0.475847, 0.55546, 0.896238, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.132339, 0.442447, 0.691406, 1]
+    ratio: 0.34
+    polarColor: [0.40121, 0.628589, 0.811133, 1]
+  demographics:
+    type: 32
+    gdp: 13824
+    tech: 7
+    economy: 1
+    government: 2
+    description: The world Esgebi is reasonably famous for the Esgebiian evil Atthoid.
+    inhabitants: Small Bug-Eyed Lizards
+- type: star
+  type: primary
+  color: [0.530502, 0.711513, 0.738596, 1]
+  radius: 147506.756592
+  orbit:
+    type: static
+    parent: ~
+    radius: 474480
+    vector: [0.092, -0.779, 0.621]
+  corona:
+    shimmer: 0.335226
+    hues: 0.59375
+    flare: 0.001913
+stations:
+- type: coriolis
+  orbit:
+    parent: Esgebi
+    vector: undefined
+    radius: 10544

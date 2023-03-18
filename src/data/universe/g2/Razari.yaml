@@ -1,0 +1,61 @@
+name: Razari
+position: [101, 138]
+seed: 173 138 193 101 85 212
+limits:
+  blurs: 134
+  stars: 5698
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Razari
+  radius: 3941
+  rotationSpeed: 0.002612
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 512330
+  land:
+    ratio: 0.33
+    color: [0.103125, 0.111826, 0.66, 1]
+    polarColor: [0.736984, 0.740063, 0.934, 1]
+  sea:
+    color: [0.650391, 0.567448, 0.479155, 1]
+    polarColor: [0.934961, 0.905153, 0.873421, 1]
+  air:
+    color: [0.678961, 0.834093, 0.923555, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.622375, 0.773438, 0.638898, 1]
+    ratio: 0.22
+    polarColor: [0.744526, 0.848047, 0.755848, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 6
+    economy: 2
+    government: 0
+    description: The planet Razari is well known for the Razariian tree wolf but beset by deadly solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.801132, 0.682868, 0.669082, 1]
+  radius: 95972.875366
+  orbit:
+    type: static
+    parent: ~
+    radius: 433510
+    vector: [0.804, -0.555, 0.212]
+  corona:
+    shimmer: 0.499764
+    hues: 0.672165
+    flare: 0.083725
+stations:
+- type: coriolis
+  orbit:
+    parent: Razari
+    vector: undefined
+    radius: 7882

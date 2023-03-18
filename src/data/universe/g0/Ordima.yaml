@@ -1,0 +1,61 @@
+name: Ordima
+position: [132, 79]
+seed: 58 79 80 132 179 25
+limits:
+  blurs: 179
+  stars: 5988
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ordima
+  radius: 5252
+  rotationSpeed: 0.004133
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 787800
+  land:
+    ratio: 0.38
+    color: [0.66, 0.0309375, 0.502734, 1]
+    polarColor: [0.934, 0.711445, 0.878361, 1]
+  sea:
+    color: [0.556641, 0.50082, 0.441399, 1]
+    polarColor: [0.944336, 0.920661, 0.895459, 1]
+  air:
+    color: [0.602545, 0.934691, 0.945018, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.796339, 0.837891, 0.428764, 1]
+    ratio: 0.06
+    polarColor: [0.849867, 0.877051, 0.609396, 1]
+  demographics:
+    type: 14
+    gdp: 2016
+    tech: 1
+    economy: 7
+    government: 2
+    description: This planet is reasonably noted for its exotic goat soup.
+    inhabitants: Green Bony Birds
+- type: star
+  type: primary
+  color: [0.660074, 0.566461, 0.454546, 1]
+  radius: 106315.81543
+  orbit:
+    type: static
+    parent: ~
+    radius: 420160
+    vector: [0.628, -0.721, -0.294]
+  corona:
+    shimmer: 0.650043
+    hues: 0.628014
+    flare: 0.004103
+stations:
+- type: coriolis
+  orbit:
+    parent: Ordima
+    vector: undefined
+    radius: 10504

@@ -1,0 +1,61 @@
+name: Lerela
+position: [36, 200]
+seed: 175 200 245 36 64 65
+limits:
+  blurs: 140
+  stars: 9196
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lerela
+  radius: 3108
+  rotationSpeed: 0.002105
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 310800
+  land:
+    ratio: 0.3
+    color: [0.605799, 0.66, 0.126328, 1]
+    polarColor: [0.914824, 0.934, 0.745193, 1]
+  sea:
+    color: [0.599999, 0.644531, 0.502029, 1]
+    polarColor: [0.919387, 0.935547, 0.883836, 1]
+  air:
+    color: [0.702149, 0.579956, 0.88258, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.650391, 0.370926, 0.587074, 1]
+    ratio: 0.4
+    polarColor: [0.792676, 0.579799, 0.744446, 1]
+  demographics:
+    type: 47
+    gdp: 37600
+    tech: 10
+    economy: 0
+    government: 6
+    description: The world Lerela is scourged by evil disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.331048, 0.418197, 0.661209, 1]
+  radius: 68159.650269
+  orbit:
+    type: static
+    parent: ~
+    radius: 404040
+    vector: [0.639, 0.163, 0.752]
+  corona:
+    shimmer: 0.393123
+    hues: 0.521561
+    flare: 0.086215
+stations:
+- type: coriolis
+  orbit:
+    parent: Lerela
+    vector: undefined
+    radius: 6216

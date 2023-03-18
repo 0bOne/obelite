@@ -1,0 +1,61 @@
+name: Isxevela
+position: [214, 109]
+seed: 228 109 212 214 85 93
+limits:
+  blurs: 183
+  stars: 6317
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isxevela
+  radius: 6358
+  rotationSpeed: 0.003317
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 762960
+  land:
+    ratio: 0.27
+    color: [0.489844, 0.644048, 0.66, 1]
+    polarColor: [0.873801, 0.928356, 0.934, 1]
+  sea:
+    color: [0.623903, 0.625, 0.484619, 1]
+    polarColor: [0.937089, 0.9375, 0.884857, 1]
+  air:
+    color: [0.469044, 0.563855, 0.89884, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.114716, 0.493729, 0.699219, 1]
+    ratio: 0.45
+    polarColor: [0.389026, 0.665016, 0.814648, 1]
+  demographics:
+    type: 28
+    gdp: 6720
+    tech: 5
+    economy: 5
+    government: 2
+    description: The planet Isxevela is mildly notable for its inhabitants’ weird shyness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.651852, 0.615562, 0.207476, 1]
+  radius: 153146.539917
+  orbit:
+    type: static
+    parent: ~
+    radius: 381480
+    vector: [-0.263, -0.212, -0.941]
+  corona:
+    shimmer: 0.901656
+    hues: 0.606079
+    flare: 0.003198
+stations:
+- type: coriolis
+  orbit:
+    parent: Isxevela
+    vector: undefined
+    radius: 12716

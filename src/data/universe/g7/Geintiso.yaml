@@ -1,0 +1,61 @@
+name: Geintiso
+position: [7, 33]
+seed: 227 33 238 7 23 99
+limits:
+  blurs: 107
+  stars: 6207
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geintiso
+  radius: 3591
+  rotationSpeed: 0.002038
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 430920
+  land:
+    ratio: 0.34
+    color: [0.507891, 0.635045, 0.66, 1]
+    polarColor: [0.880186, 0.925171, 0.934, 1]
+  sea:
+    color: [0.270358, 0.537109, 0.104904, 1]
+    polarColor: [0.828797, 0.946289, 0.755922, 1]
+  air:
+    color: [0.466383, 0.552425, 0.902742, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.10553, 0.455531, 0.710938, 1]
+    ratio: 0.24
+    polarColor: [0.383538, 0.635822, 0.819922, 1]
+  demographics:
+    type: 55
+    gdp: 35640
+    tech: 12
+    economy: 1
+    government: 5
+    description: The world Geintiso is scourged by killer edible poets.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.455576, 0.499284, 0.666867, 1]
+  radius: 71638.630829
+  orbit:
+    type: static
+    parent: ~
+    radius: 323190
+    vector: [-0.186, 0.399, 0.898]
+  corona:
+    shimmer: 0.380479
+    hues: 0.537201
+    flare: 0.001611
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Geintiso
+    vector: undefined
+    radius: 7182

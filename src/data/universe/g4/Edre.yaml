@@ -1,0 +1,61 @@
+name: Edre
+position: [153, 221]
+seed: 22 221 168 153 27 184
+limits:
+  blurs: 154
+  stars: 6528
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edre
+  radius: 5017
+  rotationSpeed: 0.004833
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 501700
+  land:
+    ratio: 0.57
+    color: [0.66, 0.126328, 0.276423, 1]
+    polarColor: [0.934, 0.745193, 0.798295, 1]
+  sea:
+    color: [0.515625, 0.428914, 0.411896, 1]
+    polarColor: [0.948438, 0.908563, 0.900738, 1]
+  air:
+    color: [0.693851, 0.752141, 0.967781, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.679688, 0.821289, 0.90625, 1]
+    ratio: 0.32
+    polarColor: [0.765967, 0.85462, 0.907812, 1]
+  demographics:
+    type: 35
+    gdp: 12600
+    tech: 6
+    economy: 5
+    government: 5
+    description: The planet Edre is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.847885, 0.83137, 0.826431, 1]
+  radius: 115504.452057
+  orbit:
+    type: static
+    parent: ~
+    radius: 501700
+    vector: [-0.374, -0.295, 0.879]
+  corona:
+    shimmer: 0.569868
+    hues: 0.619072
+    flare: 0.000294
+stations:
+- type: coriolis
+  orbit:
+    parent: Edre
+    vector: undefined
+    radius: 10034

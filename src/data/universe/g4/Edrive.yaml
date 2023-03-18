@@ -1,0 +1,61 @@
+name: Edrive
+position: [127, 166]
+seed: 164 166 68 127 181 152
+limits:
+  blurs: 59
+  stars: 9779
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edrive
+  radius: 4991
+  rotationSpeed: 0.003956
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 598920
+  land:
+    ratio: 0.48
+    color: [0.66, 0.291328, 0.343173, 1]
+    polarColor: [0.934, 0.803568, 0.82191, 1]
+  sea:
+    color: [0.550781, 0.438084, 0.426425, 1]
+    polarColor: [0.944922, 0.896586, 0.891585, 1]
+  air:
+    color: [0.523397, 0.964529, 0.829787, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.896484, 0.268114, 0.20311, 1]
+    ratio: 0.29
+    polarColor: [0.903418, 0.507649, 0.466707, 1]
+  demographics:
+    type: 23
+    gdp: 2944
+    tech: 4
+    economy: 6
+    government: 0
+    description: Edrive is cursed by vicious mountain monkeys.
+    inhabitants: Black Bug-Eyed Frogs
+- type: star
+  type: primary
+  color: [0.837088, 0.556527, 0.504078, 1]
+  radius: 123840.558319
+  orbit:
+    type: static
+    parent: ~
+    radius: 349370
+    vector: [-0.017, 0.85, 0.526]
+  corona:
+    shimmer: 0.48011
+    hues: 0.736366
+    flare: 0.075179
+stations:
+- type: coriolis
+  orbit:
+    parent: Edrive
+    vector: undefined
+    radius: 9982

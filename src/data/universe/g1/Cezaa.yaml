@@ -1,0 +1,61 @@
+name: Cezaa
+position: [165, 57]
+seed: 180 57 64 165 102 37
+limits:
+  blurs: 83
+  stars: 6297
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cezaa
+  radius: 4261
+  rotationSpeed: 0.004495
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 511320
+  land:
+    ratio: 0.34
+    color: [0.41814, 0.252656, 0.66, 1]
+    polarColor: [0.848433, 0.789887, 0.934, 1]
+  sea:
+    color: [0.57905, 0.675781, 0.524786, 1]
+    polarColor: [0.899055, 0.932422, 0.880337, 1]
+  air:
+    color: [0.685478, 0.846532, 0.902092, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.641911, 0.708984, 0.623131, 1]
+    ratio: 0.25
+    polarColor: [0.770615, 0.819043, 0.757055, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: This planet is plagued by deadly earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.764676, 0.666622, 0.551991, 1]
+  radius: 127621.293182
+  orbit:
+    type: static
+    parent: ~
+    radius: 213050
+    vector: [0.276, -0.957, -0.088]
+  corona:
+    shimmer: 0.373795
+    hues: 0.937973
+    flare: 0.081953
+stations:
+- type: coriolis
+  orbit:
+    parent: Cezaa
+    vector: undefined
+    radius: 8522

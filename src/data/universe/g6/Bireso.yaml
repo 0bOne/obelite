@@ -1,0 +1,61 @@
+name: Bireso
+position: [50, 246]
+seed: 18 246 10 50 212 134
+limits:
+  blurs: 72
+  stars: 8282
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bireso
+  radius: 4402
+  rotationSpeed: 0.000303
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 528240
+  land:
+    ratio: 0.64
+    color: [0.636173, 0.66, 0.626484, 1]
+    polarColor: [0.92557, 0.934, 0.922143, 1]
+  sea:
+    color: [0.15274, 0.558594, 0.28274, 1]
+    polarColor: [0.772646, 0.944141, 0.827578, 1]
+  air:
+    color: [0.630926, 0.913148, 0.904037, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.742188, 0.721259, 0.498657, 1]
+    ratio: 0.49
+    polarColor: [0.833984, 0.819286, 0.662952, 1]
+  demographics:
+    type: 24
+    gdp: 3840
+    tech: 4
+    economy: 6
+    government: 1
+    description: This planet is a tedious place.
+    inhabitants: Fierce Black Fat Felines
+- type: star
+  type: primary
+  color: [0.752252, 0.697116, 0.41284, 1]
+  radius: 88881.629944
+  orbit:
+    type: static
+    parent: ~
+    radius: 396180
+    vector: [-0.198, -0.823, 0.532]
+  corona:
+    shimmer: 0.293876
+    hues: 0.59478
+    flare: 0.044102
+stations:
+- type: coriolis
+  orbit:
+    parent: Bireso
+    vector: undefined
+    radius: 8804

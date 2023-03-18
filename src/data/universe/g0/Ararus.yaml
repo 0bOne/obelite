@@ -1,0 +1,61 @@
+name: Ararus
+position: [51, 237]
+seed: 26 237 64 51 51 234
+limits:
+  blurs: 180
+  stars: 6220
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ararus
+  radius: 5427
+  rotationSpeed: 0.003591
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 596970
+  land:
+    ratio: 0.53
+    color: [0.477437, 0.66, 0.433125, 1]
+    polarColor: [0.869411, 0.934, 0.853734, 1]
+  sea:
+    color: [0.642578, 0.549804, 0.499504, 1]
+    polarColor: [0.935742, 0.901967, 0.883655, 1]
+  air:
+    color: [0.610938, 0.514334, 0.917051, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.609972, 0.212036, 0.753906, 1]
+    ratio: 0.16
+    polarColor: [0.739114, 0.462247, 0.839258, 1]
+  demographics:
+    type: 20
+    gdp: 1920
+    tech: 3
+    economy: 7
+    government: 0
+    description: Ararus is most famous for its pink Stalbien plant plantations and its unusual dense forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.482167, 0.569928, 0.68363, 1]
+  radius: 134894.106903
+  orbit:
+    type: static
+    parent: ~
+    radius: 596970
+    vector: [0.459, -0.357, -0.813]
+  corona:
+    shimmer: 0.456557
+    hues: 0.90715
+    flare: 0.022517
+stations:
+- type: coriolis
+  orbit:
+    parent: Ararus
+    vector: undefined
+    radius: 10854

@@ -1,0 +1,61 @@
+name: Diqudi
+position: [37, 168]
+seed: 165 168 9 37 69 173
+limits:
+  blurs: 106
+  stars: 5879
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diqudi
+  radius: 6181
+  rotationSpeed: 0.003522
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 803530
+  land:
+    ratio: 0.42
+    color: [0.386316, 0.66, 0.216563, 1]
+    polarColor: [0.837174, 0.934, 0.777117, 1]
+  sea:
+    color: [0.621094, 0.569887, 0.472128, 1]
+    polarColor: [0.937891, 0.918559, 0.881654, 1]
+  air:
+    color: [0.415456, 0.846809, 0.83625, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.542969, 0.511419, 0.0381775, 1]
+    ratio: 0.33
+    polarColor: [0.744336, 0.717305, 0.311836, 1]
+  demographics:
+    type: 32
+    gdp: 10240
+    tech: 7
+    economy: 2
+    government: 1
+    description: This world is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.823361, 0.829728, 0.829886, 1]
+  radius: 183687.06665
+  orbit:
+    type: static
+    parent: ~
+    radius: 556290
+    vector: [-0.522, -0.683, -0.511]
+  corona:
+    shimmer: 0.305293
+    hues: 0.768387
+    flare: 0.074863
+stations:
+- type: coriolis
+  orbit:
+    parent: Diqudi
+    vector: undefined
+    radius: 12362

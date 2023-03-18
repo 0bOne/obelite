@@ -1,0 +1,61 @@
+name: Bilain
+position: [80, 29]
+seed: 178 29 226 80 116 134
+limits:
+  blurs: 144
+  stars: 8203
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bilain
+  radius: 4432
+  rotationSpeed: 0.002495
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 576160
+  land:
+    ratio: 0.47
+    color: [0.45375, 0.466641, 0.66, 1]
+    polarColor: [0.861031, 0.865592, 0.934, 1]
+  sea:
+    color: [0.667969, 0.459065, 0.448792, 1]
+    polarColor: [0.933203, 0.86024, 0.856651, 1]
+  air:
+    color: [0.543813, 0.974551, 0.987943, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.893154, 0.966797, 0.241699, 1]
+    ratio: 0.16
+    polarColor: [0.890543, 0.935059, 0.49675, 1]
+  demographics:
+    type: 26
+    gdp: 8320
+    tech: 4
+    economy: 5
+    government: 4
+    description: This world is fabled for its unusual dense forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.822998, 0.770408, 0.401559, 1]
+  radius: 106712.626953
+  orbit:
+    type: static
+    parent: ~
+    radius: 354560
+    vector: [0.506, -0.272, 0.818]
+  corona:
+    shimmer: 0.397284
+    hues: 0.771729
+    flare: 0.08037
+stations:
+- type: coriolis
+  orbit:
+    parent: Bilain
+    vector: undefined
+    radius: 8864

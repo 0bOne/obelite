@@ -1,0 +1,61 @@
+name: Didilaer
+position: [26, 68]
+seed: 223 68 122 26 235 237
+limits:
+  blurs: 52
+  stars: 9374
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Didilaer
+  radius: 6170
+  rotationSpeed: 0.002417
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 740400
+  land:
+    ratio: 0.32
+    color: [0.66, 0.183047, 0.585476, 1]
+    polarColor: [0.934, 0.76526, 0.907634, 1]
+  sea:
+    color: [0.654297, 0.487328, 0.465164, 1]
+    polarColor: [0.93457, 0.874948, 0.867033, 1]
+  air:
+    color: [0.649014, 0.505433, 0.935912, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.810547, 0.177307, 0.800653, 1]
+    ratio: 0.37
+    polarColor: [0.864746, 0.442507, 0.858149, 1]
+  demographics:
+    type: 48
+    gdp: 25344
+    tech: 9
+    economy: 4
+    government: 7
+    description: Didilaer is very notable for its inhabitants’ ingrained silliness.
+    inhabitants: Insects
+- type: star
+  type: primary
+  color: [0.324606, 0.389458, 0.81152, 1]
+  radius: 167126.448059
+  orbit:
+    type: static
+    parent: ~
+    radius: 555300
+    vector: [-0.596, 0.45, -0.665]
+  corona:
+    shimmer: 0.342822
+    hues: 0.686951
+    flare: 0.061342
+stations:
+- type: coriolis
+  orbit:
+    parent: Didilaer
+    vector: undefined
+    radius: 12340

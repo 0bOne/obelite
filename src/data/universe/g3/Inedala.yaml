@@ -1,0 +1,61 @@
+name: Inedala
+position: [10, 1]
+seed: 234 1 178 10 74 12
+limits:
+  blurs: 92
+  stars: 7638
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inedala
+  radius: 5898
+  rotationSpeed: 0.000631
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 707760
+  land:
+    ratio: 0.46
+    color: [0.591797, 0.388367, 0.58385, 1]
+    polarColor: [0.94082, 0.859969, 0.937662, 1]
+  sea:
+    color: [0.576409, 0.710938, 0.543756, 1]
+    polarColor: [0.884963, 0.928906, 0.874297, 1]
+  air:
+    color: [0.595011, 0.929408, 0.882075, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.791016, 0.633648, 0.410957, 1]
+    ratio: 0.37
+    polarColor: [0.855957, 0.749527, 0.598919, 1]
+  demographics:
+    type: 52
+    gdp: 37440
+    tech: 11
+    economy: 1
+    government: 6
+    description: Inedala is mildly notable for its inhabitants’ unusual silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.680579, 0.562832, 0.394651, 1]
+  radius: 183048.951416
+  orbit:
+    type: static
+    parent: ~
+    radius: 294900
+    vector: [0.44, 0.117, -0.89]
+  corona:
+    shimmer: 0.296251
+    hues: 0.755966
+    flare: 0.017694
+stations:
+- type: icosahedron
+  orbit:
+    parent: Inedala
+    vector: undefined
+    radius: 11796

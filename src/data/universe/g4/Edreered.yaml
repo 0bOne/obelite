@@ -1,0 +1,61 @@
+name: Edreered
+position: [9, 76]
+seed: 230 76 12 9 243 56
+limits:
+  blurs: 42
+  stars: 7322
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edreered
+  radius: 4873
+  rotationSpeed: 0.003972
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 633490
+  land:
+    ratio: 0.42
+    color: [0.635649, 0.66, 0.559453, 1]
+    polarColor: [0.925385, 0.934, 0.898428, 1]
+  sea:
+    color: [0.084671, 0.641605, 0.699219, 1]
+    polarColor: [0.725715, 0.910919, 0.930078, 1]
+  air:
+    color: [0.656809, 0.890911, 0.898189, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.682604, 0.697266, 0.55291, 1]
+    ratio: 0.24
+    polarColor: [0.803075, 0.81377, 0.708472, 1]
+  demographics:
+    type: 20
+    gdp: 3200
+    tech: 3
+    economy: 6
+    government: 1
+    description: The planet Edreered is most noted for its inhabitants’ exceptional loathing of casinos and its inhabitants’ ancient mating traditions.
+    inhabitants: Red Furry Humanoids
+- type: star
+  type: primary
+  color: [0.665781, 0.649507, 0.601306, 1]
+  radius: 95952.058716
+  orbit:
+    type: static
+    parent: ~
+    radius: 243650
+    vector: [0.473, 0.764, -0.438]
+  corona:
+    shimmer: 0.239714
+    hues: 0.869965
+    flare: 0.049223
+stations:
+- type: coriolis
+  orbit:
+    parent: Edreered
+    vector: undefined
+    radius: 9746

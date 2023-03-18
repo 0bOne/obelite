@@ -1,0 +1,61 @@
+name: Raceed
+position: [94, 50]
+seed: 7 50 209 94 104 244
+limits:
+  blurs: 162
+  stars: 5039
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raceed
+  radius: 3934
+  rotationSpeed: 0.000477
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 590100
+  land:
+    ratio: 0.59
+    color: [0.66, 0.139883, 0.100547, 1]
+    polarColor: [0.934, 0.749989, 0.736072, 1]
+  sea:
+    color: [0.505859, 0.382161, 0.483632, 1]
+    polarColor: [0.949414, 0.891374, 0.938985, 1]
+  air:
+    color: [0.698517, 0.80063, 0.935262, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.679092, 0.808594, 0.772171, 1]
+    ratio: 0.26
+    polarColor: [0.777396, 0.863867, 0.839547, 1]
+  demographics:
+    type: 37
+    gdp: 14208
+    tech: 8
+    economy: 2
+    government: 2
+    description: The planet Raceed is very famous for its fabulous goat burgers but plagued by unpredictable civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.664374, 0.576446, 0.396629, 1]
+  radius: 90132.756653
+  orbit:
+    type: static
+    parent: ~
+    radius: 157360
+    vector: [0.205, -0.939, 0.276]
+  corona:
+    shimmer: 0.40736
+    hues: 0.931496
+    flare: 0.078705
+stations:
+- type: coriolis
+  orbit:
+    parent: Raceed
+    vector: undefined
+    radius: 7868

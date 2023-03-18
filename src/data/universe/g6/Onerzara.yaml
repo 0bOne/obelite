@@ -1,0 +1,61 @@
+name: Onerzara
+position: [116, 59]
+seed: 242 59 194 116 180 31
+limits:
+  blurs: 120
+  stars: 8852
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onerzara
+  radius: 6772
+  rotationSpeed: 0.003703
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 812640
+  land:
+    ratio: 0.28
+    color: [0.0819041, 0.603516, 0.0777969, 1]
+    polarColor: [0.736617, 0.939648, 0.735018, 1]
+  sea:
+    color: [0.683594, 0.580037, 0.488663, 1]
+    polarColor: [0.931641, 0.896357, 0.865225, 1]
+  air:
+    color: [0.7579, 0.619981, 0.86632, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.601562, 0.448822, 0.49536, 1]
+    ratio: 0.15
+    polarColor: [0.770703, 0.648399, 0.685664, 1]
+  demographics:
+    type: 20
+    gdp: 4480
+    tech: 4
+    economy: 3
+    government: 0
+    description: The world Onerzara is reasonably famous for the Onerzaraian spotted shrew.
+    inhabitants: Green Lizards
+- type: star
+  type: primary
+  color: [0.225754, 0.403356, 0.837747, 1]
+  radius: 175090.754395
+  orbit:
+    type: static
+    parent: ~
+    radius: 609480
+    vector: [-0.141, 0.144, -0.979]
+  corona:
+    shimmer: 0.369125
+    hues: 0.867546
+    flare: 0.094699
+stations:
+- type: coriolis
+  orbit:
+    parent: Onerzara
+    vector: undefined
+    radius: 13544

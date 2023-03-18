@@ -1,0 +1,61 @@
+name: Esenesce
+position: [173, 27]
+seed: 89 27 113 173 141 137
+limits:
+  blurs: 191
+  stars: 5211
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esenesce
+  radius: 5293
+  rotationSpeed: 0.001026
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 582230
+  land:
+    ratio: 0.31
+    color: [0.648438, 0.440735, 0.469943, 1]
+    polarColor: [0.935156, 0.860271, 0.870801, 1]
+  sea:
+    color: [0.507812, 0.0748205, 0.00396729, 1]
+    polarColor: [0.949219, 0.746878, 0.713768, 1]
+  air:
+    color: [0.514123, 0.559574, 0.872174, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.227341, 0.371205, 0.619141, 1]
+    ratio: 0.13
+    polarColor: [0.470666, 0.58374, 0.778613, 1]
+  demographics:
+    type: 42
+    gdp: 23520
+    tech: 8
+    economy: 3
+    government: 6
+    description: The planet Esenesce is an unremarkable planet.
+    inhabitants: Small Black Insects
+- type: star
+  type: primary
+  color: [0.310826, 0.36386, 0.75242, 1]
+  radius: 92978.019104
+  orbit:
+    type: static
+    parent: ~
+    radius: 423440
+    vector: [0.388, 0.744, -0.544]
+  corona:
+    shimmer: 0.460315
+    hues: 0.50988
+    flare: 0.063046
+stations:
+- type: coriolis
+  orbit:
+    parent: Esenesce
+    vector: undefined
+    radius: 10586

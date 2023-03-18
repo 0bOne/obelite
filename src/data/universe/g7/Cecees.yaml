@@ -1,0 +1,61 @@
+name: Cecees
+position: [94, 96]
+seed: 59 96 198 94 255 69
+limits:
+  blurs: 70
+  stars: 9686
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cecees
+  radius: 4190
+  rotationSpeed: 0.002663
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 502800
+  land:
+    ratio: 0.44
+    color: [0.243378, 0.445271, 0.566406, 1]
+    polarColor: [0.808857, 0.892921, 0.943359, 1]
+  sea:
+    color: [0.58197, 0.78125, 0.63179, 1]
+    polarColor: [0.863087, 0.921875, 0.877784, 1]
+  air:
+    color: [0.669713, 0.741951, 0.985992, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.611847, 0.846392, 0.960938, 1]
+    ratio: 0.19
+    polarColor: [0.720715, 0.862955, 0.932422, 1]
+  demographics:
+    type: 31
+    gdp: 7936
+    tech: 7
+    economy: 2
+    government: 0
+    description: This planet is reasonably famous for the Ceceesian spotted cat.
+    inhabitants: Fierce Yellow Insects
+- type: star
+  type: primary
+  color: [0.467559, 0.686051, 0.739389, 1]
+  radius: 120140.270996
+  orbit:
+    type: static
+    parent: ~
+    radius: 335200
+    vector: [0.015, 0.127, -0.992]
+  corona:
+    shimmer: 0.922029
+    hues: 0.782768
+    flare: 0.091785
+stations:
+- type: coriolis
+  orbit:
+    parent: Cecees
+    vector: undefined
+    radius: 8380

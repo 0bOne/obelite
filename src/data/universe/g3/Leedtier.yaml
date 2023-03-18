@@ -1,0 +1,61 @@
+name: Leedtier
+position: [221, 217]
+seed: 82 217 66 221 154 65
+limits:
+  blurs: 178
+  stars: 7637
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leedtier
+  radius: 3293
+  rotationSpeed: 0.000688
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 329300
+  land:
+    ratio: 0.55
+    color: [0.358359, 0.66, 0.41256, 1]
+    polarColor: [0.827283, 0.934, 0.846459, 1]
+  sea:
+    color: [0.584533, 0.701172, 0.537109, 1]
+    polarColor: [0.891212, 0.929883, 0.875488, 1]
+  air:
+    color: [0.645802, 0.902302, 0.904043, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.709085, 0.714844, 0.530548, 1]
+    ratio: 0.18
+    polarColor: [0.817542, 0.82168, 0.68928, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: Leedtier is an unremarkable planet.
+    inhabitants: Large Yellow Fat Humanoids
+- type: star
+  type: primary
+  color: [0.701169, 0.624604, 0.399185, 1]
+  radius: 94479.293365
+  orbit:
+    type: static
+    parent: ~
+    radius: 230510
+    vector: [0.341, -0.734, 0.588]
+  corona:
+    shimmer: 0.277978
+    hues: 0.7593
+    flare: 0.05726
+stations:
+- type: coriolis
+  orbit:
+    parent: Leedtier
+    vector: undefined
+    radius: 6586

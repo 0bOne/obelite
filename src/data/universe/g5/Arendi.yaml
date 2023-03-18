@@ -1,0 +1,61 @@
+name: Arendi
+position: [48, 184]
+seed: 47 184 85 48 64 106
+limits:
+  blurs: 142
+  stars: 5969
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arendi
+  radius: 5424
+  rotationSpeed: 0.000875
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 705120
+  land:
+    ratio: 0.34
+    color: [0.239525, 0.430592, 0.583984, 1]
+    polarColor: [0.802752, 0.87977, 0.941602, 1]
+  sea:
+    color: [0.626195, 0.775391, 0.578514, 1]
+    polarColor: [0.878087, 0.922461, 0.863906, 1]
+  air:
+    color: [0.579946, 0.55094, 0.867621, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.391925, 0.305099, 0.605469, 1]
+    ratio: 0.46
+    polarColor: [0.602186, 0.532953, 0.772461, 1]
+  demographics:
+    type: 35
+    gdp: 16800
+    tech: 8
+    economy: 0
+    government: 2
+    description: This planet is most fabled for its inhabitants’ ingrained silliness but beset by lethal disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.300431, 0.67251, 0.678201, 1]
+  radius: 150810.307617
+  orbit:
+    type: static
+    parent: ~
+    radius: 596640
+    vector: [0.198, 0.556, -0.807]
+  corona:
+    shimmer: 0.320394
+    hues: 0.954346
+    flare: 0.06931
+stations:
+- type: coriolis
+  orbit:
+    parent: Arendi
+    vector: undefined
+    radius: 10848

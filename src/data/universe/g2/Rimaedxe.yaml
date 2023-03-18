@@ -1,0 +1,61 @@
+name: Rimaedxe
+position: [110, 30]
+seed: 85 30 57 110 229 62
+limits:
+  blurs: 199
+  stars: 8311
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rimaedxe
+  radius: 6510
+  rotationSpeed: 0.004107
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 781200
+  land:
+    ratio: 0.53
+    color: [0.612667, 0.66, 0.595547, 1]
+    polarColor: [0.917254, 0.934, 0.911197, 1]
+  sea:
+    color: [0.0781021, 0.689453, 0.660796, 1]
+    polarColor: [0.724659, 0.931055, 0.92138, 1]
+  air:
+    color: [0.557397, 0.962578, 0.921037, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.890625, 0.715044, 0.299194, 1]
+    ratio: 0.15
+    polarColor: [0.900781, 0.789792, 0.526922, 1]
+  demographics:
+    type: 42
+    gdp: 14784
+    tech: 7
+    economy: 6
+    government: 7
+    description: This planet is reasonably noted for its exotic fish meat.
+    inhabitants: Red Slimy Lizards
+- type: star
+  type: primary
+  color: [0.778354, 0.740426, 0.73525, 1]
+  radius: 150996.716309
+  orbit:
+    type: static
+    parent: ~
+    radius: 260400
+    vector: [-0.736, 0.492, -0.465]
+  corona:
+    shimmer: 0.29376
+    hues: 0.671181
+    flare: 0.018503
+stations:
+- type: coriolis
+  orbit:
+    parent: Rimaedxe
+    vector: undefined
+    radius: 13020

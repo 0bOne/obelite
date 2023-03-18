@@ -1,0 +1,61 @@
+name: Veatma
+position: [100, 183]
+seed: 185 183 1 100 26 182
+limits:
+  blurs: 110
+  stars: 5151
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veatma
+  radius: 4452
+  rotationSpeed: 0.003184
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 667800
+  land:
+    ratio: 0.5
+    color: [0.66, 0.385732, 0.265547, 1]
+    polarColor: [0.934, 0.836967, 0.794447, 1]
+  sea:
+    color: [0.658203, 0.571207, 0.501366, 1]
+    polarColor: [0.93418, 0.903312, 0.87853, 1]
+  air:
+    color: [0.43308, 0.808501, 0.846809, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.406862, 0.542969, 0.072113, 1]
+    ratio: 0.19
+    polarColor: [0.627721, 0.744336, 0.340912, 1]
+  demographics:
+    type: 8
+    gdp: 768
+    tech: 0
+    economy: 7
+    government: 0
+    description: Veatma is ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.218195, 0.252158, 0.660635, 1]
+  radius: 101044.286499
+  orbit:
+    type: static
+    parent: ~
+    radius: 400680
+    vector: [0.192, 0.096, -0.977]
+  corona:
+    shimmer: 0.292665
+    hues: 0.612427
+    flare: 0.092384
+stations:
+- type: coriolis
+  orbit:
+    parent: Veatma
+    vector: undefined
+    radius: 8904

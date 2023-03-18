@@ -1,0 +1,61 @@
+name: Usmaso
+position: [83, 208]
+seed: 0 208 0 83 154 40
+limits:
+  blurs: 175
+  stars: 8186
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usmaso
+  radius: 4947
+  rotationSpeed: 0.003078
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 643110
+  land:
+    ratio: 0.51
+    color: [0.60876, 0.66, 0.250078, 1]
+    polarColor: [0.915872, 0.934, 0.788975, 1]
+  sea:
+    color: [0.574219, 0.541712, 0.455338, 1]
+    polarColor: [0.942578, 0.929238, 0.893792, 1]
+  air:
+    color: [0.417518, 0.84876, 0.848301, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.544859, 0.548828, 0.0407333, 1]
+    ratio: 0.36
+    polarColor: [0.743596, 0.746973, 0.314764, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: The world Usmaso is a boring planet.
+    inhabitants: Small Red Bony Lobsters
+- type: star
+  type: primary
+  color: [0.584995, 0.633451, 0.735565, 1]
+  radius: 125857.277985
+  orbit:
+    type: static
+    parent: ~
+    radius: 445230
+    vector: [-0.933, -0.345, 0.098]
+  corona:
+    shimmer: 0.421372
+    hues: 0.837563
+    flare: 0.022968
+stations:
+- type: coriolis
+  orbit:
+    parent: Usmaso
+    vector: undefined
+    radius: 9894

@@ -1,0 +1,61 @@
+name: Soenisti
+position: [99, 103]
+seed: 90 103 130 99 170 71
+limits:
+  blurs: 162
+  stars: 6211
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soenisti
+  radius: 4707
+  rotationSpeed: 0.000047
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 564840
+  land:
+    ratio: 0.5
+    color: [0.66, 0.326838, 0.301641, 1]
+    polarColor: [0.934, 0.816131, 0.807217, 1]
+  sea:
+    color: [0.596001, 0.798828, 0.698999, 1]
+    polarColor: [0.861711, 0.920117, 0.891371, 1]
+  air:
+    color: [0.590854, 0.859077, 0.989244, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.383802, 0.970703, 0.379181, 1]
+    ratio: 0.11
+    polarColor: [0.582809, 0.936816, 0.580021, 1]
+  demographics:
+    type: 20
+    gdp: 1920
+    tech: 3
+    economy: 7
+    government: 0
+    description: This planet is reasonably famous for its inhabitants’ exceptional loathing of food blenders.
+    inhabitants: Fierce Yellow Fat Insects
+- type: star
+  type: primary
+  color: [0.559214, 0.594979, 0.728757, 1]
+  radius: 79596.536407
+  orbit:
+    type: static
+    parent: ~
+    radius: 470700
+    vector: [-0.78, -0.073, -0.622]
+  corona:
+    shimmer: 0.454102
+    hues: 0.831833
+    flare: 0.083041
+stations:
+- type: coriolis
+  orbit:
+    parent: Soenisti
+    vector: undefined
+    radius: 9414

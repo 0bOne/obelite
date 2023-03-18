@@ -1,0 +1,61 @@
+name: Ismaarbe
+position: [162, 139]
+seed: 239 139 37 162 64 125
+limits:
+  blurs: 111
+  stars: 5370
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ismaarbe
+  radius: 6306
+  rotationSpeed: 0.004027
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 756720
+  land:
+    ratio: 0.55
+    color: [0.446016, 0.524588, 0.66, 1]
+    polarColor: [0.858295, 0.886093, 0.934, 1]
+  sea:
+    color: [0.648438, 0.574412, 0.479236, 1]
+    polarColor: [0.935156, 0.908467, 0.874152, 1]
+  air:
+    color: [0.572882, 0.950871, 0.912118, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.855469, 0.704676, 0.347534, 1]
+    ratio: 0.15
+    polarColor: [0.884961, 0.787466, 0.556557, 1]
+  demographics:
+    type: 40
+    gdp: 17920
+    tech: 8
+    economy: 3
+    government: 4
+    description: Ismaarbe is famous for its inhabitants’ ancient loathing of casinos but plagued by frequent earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.510017, 0.572479, 0.833954, 1]
+  radius: 150201.460876
+  orbit:
+    type: static
+    parent: ~
+    radius: 441420
+    vector: [-0.427, -0.24, -0.872]
+  corona:
+    shimmer: 0.670912
+    hues: 0.992073
+    flare: 0.016101
+stations:
+- type: coriolis
+  orbit:
+    parent: Ismaarbe
+    vector: undefined
+    radius: 12612

@@ -1,0 +1,61 @@
+name: Laceus
+position: [141, 130]
+seed: 143 130 42 141 187 53
+limits:
+  blurs: 175
+  stars: 5692
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laceus
+  radius: 4237
+  rotationSpeed: 0.0036
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 423700
+  land:
+    ratio: 0.27
+    color: [0.66, 0.229473, 0.219141, 1]
+    polarColor: [0.934, 0.781685, 0.778029, 1]
+  sea:
+    color: [0.542068, 0.683594, 0.550914, 1]
+    polarColor: [0.883421, 0.931641, 0.886435, 1]
+  air:
+    color: [0.481915, 0.49616, 0.909896, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.137329, 0.18847, 0.732422, 1]
+    ratio: 0.12
+    polarColor: [0.408314, 0.444517, 0.82959, 1]
+  demographics:
+    type: 44
+    gdp: 25344
+    tech: 9
+    economy: 2
+    government: 5
+    description: This planet is very notable for its inhabitants’ weird silliness and its inhabitants’ ingrained silliness.
+    inhabitants: Red Rodents
+- type: star
+  type: primary
+  color: [0.299959, 0.471776, 0.660117, 1]
+  radius: 109487.943573
+  orbit:
+    type: static
+    parent: ~
+    radius: 423700
+    vector: [0.422, -0.669, 0.612]
+  corona:
+    shimmer: 0.517384
+    hues: 0.558334
+    flare: 0.092181
+stations:
+- type: coriolis
+  orbit:
+    parent: Laceus
+    vector: undefined
+    radius: 8474

@@ -1,0 +1,61 @@
+name: Orgein
+position: [144, 121]
+seed: 28 121 192 144 37 217
+limits:
+  blurs: 161
+  stars: 9454
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orgein
+  radius: 5264
+  rotationSpeed: 0.001956
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 579040
+  land:
+    ratio: 0.33
+    color: [0.66, 0.368672, 0.457436, 1]
+    polarColor: [0.934, 0.830932, 0.862335, 1]
+  sea:
+    color: [0.742188, 0.448194, 0.400085, 1]
+    polarColor: [0.925781, 0.834102, 0.819099, 1]
+  air:
+    color: [0.526189, 0.608753, 0.844207, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.250854, 0.468523, 0.535156, 1]
+    ratio: 0.38
+    polarColor: [0.494845, 0.68317, 0.74082, 1]
+  demographics:
+    type: 20
+    gdp: 4480
+    tech: 4
+    economy: 3
+    government: 0
+    description: The world Orgein is a boring world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.818585, 0.634192, 0.364764, 1]
+  radius: 135020.925293
+  orbit:
+    type: static
+    parent: ~
+    radius: 473760
+    vector: [0.083, 0.505, 0.859]
+  corona:
+    shimmer: 0.388619
+    hues: 0.780579
+    flare: 0.079227
+stations:
+- type: coriolis
+  orbit:
+    parent: Orgein
+    vector: undefined
+    radius: 10528

@@ -1,0 +1,61 @@
+name: Soisqu
+position: [213, 224]
+seed: 7 224 98 213 195 103
+limits:
+  blurs: 164
+  stars: 5838
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soisqu
+  radius: 4821
+  rotationSpeed: 0.001759
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 482100
+  land:
+    ratio: 0.37
+    color: [0.482109, 0.489058, 0.66, 1]
+    polarColor: [0.871064, 0.873523, 0.934, 1]
+  sea:
+    color: [0.683594, 0.540066, 0.469971, 1]
+    polarColor: [0.931641, 0.882739, 0.858856, 1]
+  air:
+    color: [0.525913, 0.590342, 0.852662, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.251808, 0.430298, 0.560547, 1]
+    ratio: 0.32
+    polarColor: [0.493294, 0.643001, 0.752246, 1]
+  demographics:
+    type: 45
+    gdp: 28800
+    tech: 10
+    economy: 0
+    government: 4
+    description: The planet Soisqu is mildly notable for Soisquian vicious brew.
+    inhabitants: Fierce Blue Furry Rodents
+- type: star
+  type: primary
+  color: [0.565166, 0.63334, 0.701736, 1]
+  radius: 146253.527069
+  orbit:
+    type: static
+    parent: ~
+    radius: 482100
+    vector: [-0.486, 0.479, 0.73]
+  corona:
+    shimmer: 0.433227
+    hues: 0.874176
+    flare: 0.01236
+stations:
+- type: coriolis
+  orbit:
+    parent: Soisqu
+    vector: undefined
+    radius: 9642

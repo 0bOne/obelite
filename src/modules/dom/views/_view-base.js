@@ -21,20 +21,40 @@ export default class ViewBase
 
     AddTitle(titleText)
     {
-        DomHelper.AppendElement(this.panel, Elements.Title, titleText);
+        this.title = DomHelper.AppendElement(this.panel, Elements.Title, titleText);
+        this.AddUnderline();
+    }
+
+    AddUnderline()
+    {
         DomHelper.AppendElement(this.panel, Elements.TitleUnderline);
     }
 
-    AddMenu(menuItems)
+    AddMenu(menuItems, defaultHelp)
     {
-        this.menu = new Menu(this.panel, menuItems);
+        this.menu = new Menu(this.panel, menuItems, defaultHelp);
     }
 
     AddInfo(lines)
     {
         const info = DomHelper.AppendElement(this.panel, Elements.Info);
-        lines.forEach(element => {
-            DomHelper.AppendElement(info, {tag: "div"}, element);
+        lines.forEach(line => {
+            const element = DomHelper.AppendElement(info, {tag: "div"}, line);
+        });
+    }
+
+    clearScene()
+    {
+        //TODO: remove this workaround 
+        //make the ship load in the existing context
+        window.$game.resetGLContext(); 
+    }
+
+    AddNotes(lines)
+    {
+        const notes = DomHelper.AppendElement(this.panel, Elements.Notes);
+        lines.forEach(line => {
+            const element = DomHelper.AppendElement(notes, Elements.Note, line);
         });
     }
 
@@ -45,6 +65,9 @@ export default class ViewBase
             this.menu.SetFocusButton(0);
         }
     }
+
+    async onKey(event) {} //override to handle keystrokes
+    async animate(gameCtx) {} //overrie to handle animation frames
 
     Destroy()
     {
@@ -72,6 +95,16 @@ const Styles = {
         justifyContent: "space-evenly",
         color: "lightgray",
         opacity: 0.7
+    },
+    Notes: {
+        flexGrow: 1,
+        color: "white",
+        alignSelf: "stretch",
+        opacity: 0.8,
+    },
+    Note: {
+        textAlign: "left",
+        paddingLeft: "24px"
     }
 };
 
@@ -96,5 +129,14 @@ const Elements = {
         tag: "div",
         classes: "info flex-down",
         styles: Styles.Info
+    },
+    Notes: {
+        tag: "div",
+        classes: "notes",
+        styles: Styles.Notes
+    },
+    Note: {
+        tag: "div",
+        styles: Styles.Note
     }
 };

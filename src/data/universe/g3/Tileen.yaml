@@ -1,0 +1,61 @@
+name: Tileen
+position: [185, 113]
+seed: 138 113 82 185 10 87
+limits:
+  blurs: 41
+  stars: 9313
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tileen
+  radius: 4793
+  rotationSpeed: 0.004442
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 671020
+  land:
+    ratio: 0.4
+    color: [0.66, 0.229453, 0.350544, 1]
+    polarColor: [0.934, 0.781678, 0.824518, 1]
+  sea:
+    color: [0.587891, 0.456362, 0.442755, 1]
+    polarColor: [0.941211, 0.888566, 0.883121, 1]
+  air:
+    color: [0.741421, 0.741865, 0.956074, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.806947, 0.806442, 0.871094, 1]
+    ratio: 0.28
+    polarColor: [0.850939, 0.850616, 0.891992, 1]
+  demographics:
+    type: 36
+    gdp: 15552
+    tech: 8
+    economy: 1
+    government: 2
+    description: Tileen is famous for its inhabitants’ ancient loathing of discos but ravaged by lethal spotted craboids.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.670612, 0.644993, 0.634664, 1]
+  radius: 110921.499329
+  orbit:
+    type: static
+    parent: ~
+    radius: 239650
+    vector: [-0.151, -0.988, -0.016]
+  corona:
+    shimmer: 0.512504
+    hues: 0.948341
+    flare: 0.021376
+stations:
+- type: coriolis
+  orbit:
+    parent: Tileen
+    vector: undefined
+    radius: 9586

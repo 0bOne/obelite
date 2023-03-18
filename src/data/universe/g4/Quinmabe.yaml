@@ -1,0 +1,61 @@
+name: Quinmabe
+position: [196, 45]
+seed: 102 45 76 196 243 218
+limits:
+  blurs: 112
+  stars: 5220
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Quinmabe
+  radius: 5572
+  rotationSpeed: 0.001575
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 724360
+  land:
+    ratio: 0.39
+    color: [0.66, 0.4096, 0.0876563, 1]
+    polarColor: [0.934, 0.845411, 0.731512, 1]
+  sea:
+    color: [0.58254, 0.597656, 0.476724, 1]
+    polarColor: [0.934289, 0.940234, 0.892672, 1]
+  air:
+    color: [0.604228, 0.562644, 0.863068, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.4415, 0.328262, 0.591797, 1]
+    ratio: 0.32
+    polarColor: [0.644673, 0.553029, 0.766309, 1]
+  demographics:
+    type: 13
+    gdp: 1560
+    tech: 1
+    economy: 7
+    government: 1
+    description: This planet is very well known for its inhabitants’ weird shyness and the Quinmabeian mountain Nusealoid.
+    inhabitants: Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.840466, 0.457366, 0.364886, 1]
+  radius: 138372.410278
+  orbit:
+    type: static
+    parent: ~
+    radius: 445760
+    vector: [-0.297, 0.881, -0.368]
+  corona:
+    shimmer: 0.907349
+    hues: 0.870636
+    flare: 0.065736
+stations:
+- type: coriolis
+  orbit:
+    parent: Quinmabe
+    vector: undefined
+    radius: 11144

@@ -1,0 +1,61 @@
+name: Xeines
+position: [90, 111]
+seed: 173 111 193 90 85 130
+limits:
+  blurs: 166
+  stars: 8493
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeines
+  radius: 3418
+  rotationSpeed: 0.002573
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 410160
+  land:
+    ratio: 0.52
+    color: [0.583984, 0.424301, 0.525351, 1]
+    polarColor: [0.941602, 0.877234, 0.917967, 1]
+  sea:
+    color: [0.810547, 0.540084, 0.360947, 1]
+    polarColor: [0.918945, 0.842287, 0.791513, 1]
+  air:
+    color: [0.567978, 0.467701, 0.94827, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.566829, 0.0662231, 0.847656, 1]
+    ratio: 0.31
+    polarColor: [0.698932, 0.373581, 0.881445, 1]
+  demographics:
+    type: 16
+    gdp: 1536
+    tech: 2
+    economy: 7
+    government: 0
+    description: This world is very notable for the Xeinesian tree snake and its exotic goat soup.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.65408, 0.50956, 0.386015, 1]
+  radius: 85524.580994
+  orbit:
+    type: static
+    parent: ~
+    radius: 205080
+    vector: [0.295, -0.743, 0.6]
+  corona:
+    shimmer: 0.306883
+    hues: 0.852715
+    flare: 0.000002
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeines
+    vector: undefined
+    radius: 6836

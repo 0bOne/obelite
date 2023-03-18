@@ -1,0 +1,61 @@
+name: Tionrebi
+position: [247, 207]
+seed: 209 207 169 247 237 215
+limits:
+  blurs: 157
+  stars: 6128
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tionrebi
+  radius: 4855
+  rotationSpeed: 0.004511
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 534050
+  land:
+    ratio: 0.39
+    color: [0.66, 0.509482, 0.250078, 1]
+    polarColor: [0.934, 0.880749, 0.788975, 1]
+  sea:
+    color: [0.552921, 0.710938, 0.5665, 1]
+    polarColor: [0.87729, 0.928906, 0.881726, 1]
+  air:
+    color: [0.498255, 0.622715, 0.858516, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.196472, 0.578125, 0.56918, 1]
+    ratio: 0.16
+    polarColor: [0.446518, 0.760156, 0.752805, 1]
+  demographics:
+    type: 37
+    gdp: 7992
+    tech: 6
+    economy: 7
+    government: 5
+    description: This world is most notable for its exotic night life but ravaged by unpredictable solar activity.
+    inhabitants: Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.818109, 0.754293, 0.725945, 1]
+  radius: 130316.627502
+  orbit:
+    type: static
+    parent: ~
+    radius: 534050
+    vector: [0.28, 0.924, 0.259]
+  corona:
+    shimmer: 0.43071
+    hues: 0.955383
+    flare: 0.002092
+stations:
+- type: coriolis
+  orbit:
+    parent: Tionrebi
+    vector: undefined
+    radius: 9710

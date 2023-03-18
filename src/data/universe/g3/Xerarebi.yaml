@@ -1,0 +1,61 @@
+name: Xerarebi
+position: [87, 26]
+seed: 234 26 178 87 74 130
+limits:
+  blurs: 169
+  stars: 7477
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xerarebi
+  radius: 3415
+  rotationSpeed: 0.000697
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 375650
+  land:
+    ratio: 0.49
+    color: [0.66, 0.568879, 0.211406, 1]
+    polarColor: [0.934, 0.901763, 0.775293, 1]
+  sea:
+    color: [0.595703, 0.587864, 0.47028, 1]
+    polarColor: [0.94043, 0.937336, 0.890929, 1]
+  air:
+    color: [0.656858, 0.885614, 0.904693, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.678144, 0.716797, 0.557198, 1]
+    ratio: 0.41
+    polarColor: [0.794836, 0.822559, 0.708091, 1]
+  demographics:
+    type: 53
+    gdp: 33920
+    tech: 11
+    economy: 2
+    government: 6
+    description: This world is very notable for the Xerarebiian edible arts graduate.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.769272, 0.538262, 0.375548, 1]
+  radius: 101390.628815
+  orbit:
+    type: static
+    parent: ~
+    radius: 204900
+    vector: [0.053, -0.328, -0.943]
+  corona:
+    shimmer: 0.317482
+    hues: 0.53817
+    flare: 0.09053
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Xerarebi
+    vector: undefined
+    radius: 6830

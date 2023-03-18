@@ -1,0 +1,61 @@
+name: Ariin
+position: [157, 209]
+seed: 7 209 241 157 232 15
+limits:
+  blurs: 41
+  stars: 5541
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ariin
+  radius: 6813
+  rotationSpeed: 0.001632
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 613170
+  land:
+    ratio: 0.53
+    color: [0.617188, 0.419495, 0.526063, 1]
+    polarColor: [0.938281, 0.863145, 0.903648, 1]
+  sea:
+    color: [0.814453, 0.752315, 0.416771, 1]
+    polarColor: [0.918555, 0.901035, 0.806426, 1]
+  air:
+    color: [0.729734, 0.634863, 0.838354, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.517578, 0.450859, 0.489952, 1]
+    ratio: 0.35
+    polarColor: [0.73291, 0.673862, 0.708461, 1]
+  demographics:
+    type: 48
+    gdp: 34560
+    tech: 10
+    economy: 1
+    government: 6
+    description: This planet is notable for the Ariinian edible arts graduate and its weird volcanoes.
+    inhabitants: Green Fat Insects
+- type: star
+  type: primary
+  color: [0.505916, 0.741924, 0.836642, 1]
+  radius: 156296.889954
+  orbit:
+    type: static
+    parent: ~
+    radius: 681300
+    vector: [0.944, 0.264, 0.197]
+  corona:
+    shimmer: 0.291199
+    hues: 0.644707
+    flare: 0.003886
+stations:
+- type: coriolis
+  orbit:
+    parent: Ariin
+    vector: undefined
+    radius: 13626

@@ -1,0 +1,61 @@
+name: Anbexeat
+position: [83, 68]
+seed: 212 68 48 83 166 91
+limits:
+  blurs: 127
+  stars: 9306
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anbexeat
+  radius: 5715
+  rotationSpeed: 0.001382
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 685800
+  land:
+    ratio: 0.55
+    color: [0.650896, 0.66, 0.368672, 1]
+    polarColor: [0.930779, 0.934, 0.830932, 1]
+  sea:
+    color: [0.592241, 0.785156, 0.685684, 1]
+    polarColor: [0.864881, 0.921484, 0.892299, 1]
+  air:
+    color: [0.559477, 0.550458, 0.859816, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.330785, 0.302383, 0.582031, 1]
+    ratio: 0.39
+    polarColor: [0.556354, 0.533117, 0.761914, 1]
+  demographics:
+    type: 47
+    gdp: 22560
+    tech: 9
+    economy: 4
+    government: 6
+    description: This planet is reasonably famous for its inhabitants’ ancient mating traditions.
+    inhabitants: Yellow Lizards
+- type: star
+  type: primary
+  color: [0.735712, 0.558055, 0.289964, 1]
+  radius: 146829.70047
+  orbit:
+    type: static
+    parent: ~
+    radius: 228600
+    vector: [-0.724, 0.466, 0.508]
+  corona:
+    shimmer: 0.41092
+    hues: 0.735504
+    flare: 0.04062
+stations:
+- type: coriolis
+  orbit:
+    parent: Anbexeat
+    vector: undefined
+    radius: 11430

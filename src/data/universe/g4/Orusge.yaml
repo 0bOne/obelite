@@ -1,0 +1,61 @@
+name: Orusge
+position: [129, 76]
+seed: 188 76 184 129 149 185
+limits:
+  blurs: 194
+  stars: 5972
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orusge
+  radius: 5249
+  rotationSpeed: 0.004752
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 629880
+  land:
+    ratio: 0.35
+    color: [0.48221, 0.66, 0.425391, 1]
+    polarColor: [0.8711, 0.934, 0.850998, 1]
+  sea:
+    color: [0.554285, 0.652344, 0.518817, 1]
+    polarColor: [0.899638, 0.934766, 0.886932, 1]
+  air:
+    color: [0.631393, 0.893637, 0.850376, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.683594, 0.590467, 0.491333, 1]
+    ratio: 0.23
+    polarColor: [0.807617, 0.738853, 0.665653, 1]
+  demographics:
+    type: 44
+    gdp: 23232
+    tech: 8
+    economy: 4
+    government: 7
+    description: The planet Orusge is famous for Orusgeian shrew steak but ravaged by unpredictable solar activity.
+    inhabitants: Harmless Furry Felines
+- type: star
+  type: primary
+  color: [0.699689, 0.65218, 0.578114, 1]
+  radius: 98617.381592
+  orbit:
+    type: static
+    parent: ~
+    radius: 367430
+    vector: [0.734, 0.424, -0.531]
+  corona:
+    shimmer: 0.460186
+    hues: 0.71492
+    flare: 0.089696
+stations:
+- type: coriolis
+  orbit:
+    parent: Orusge
+    vector: undefined
+    radius: 10498

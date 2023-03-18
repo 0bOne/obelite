@@ -1,0 +1,61 @@
+name: Gemasoti
+position: [152, 238]
+seed: 209 238 169 152 237 131
+limits:
+  blurs: 56
+  stars: 5235
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gemasoti
+  radius: 3736
+  rotationSpeed: 0.004458
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 523040
+  land:
+    ratio: 0.52
+    color: [0.1968, 0.354065, 0.654297, 1]
+    polarColor: [0.771203, 0.827361, 0.93457, 1]
+  sea:
+    color: [0.662109, 0.462434, 0.452614, 1]
+    polarColor: [0.933789, 0.863387, 0.859925, 1]
+  air:
+    color: [0.753208, 0.651514, 0.83315, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.501953, 0.474503, 0.482866, 1]
+    ratio: 0.33
+    polarColor: [0.725879, 0.701069, 0.708628, 1]
+  demographics:
+    type: 28
+    gdp: 8064
+    tech: 4
+    economy: 6
+    government: 5
+    description: Gemasoti is well known for the Gemasotiian spotted leopard but plagued by lethal spotted batoids.
+    inhabitants: Large Black Frogs
+- type: star
+  type: primary
+  color: [0.687708, 0.196789, 0.187368, 1]
+  radius: 67439.656982
+  orbit:
+    type: static
+    parent: ~
+    radius: 186800
+    vector: [0.378, 0.266, 0.887]
+  corona:
+    shimmer: 1.086436
+    hues: 0.845161
+    flare: 0.088785
+stations:
+- type: coriolis
+  orbit:
+    parent: Gemasoti
+    vector: undefined
+    radius: 7472

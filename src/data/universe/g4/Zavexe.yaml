@@ -1,0 +1,61 @@
+name: Zavexe
+position: [7, 75]
+seed: 36 75 44 7 101 36
+limits:
+  blurs: 146
+  stars: 5888
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zavexe
+  radius: 3847
+  rotationSpeed: 0.003572
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 538580
+  land:
+    ratio: 0.67
+    color: [0.53125, 0.442017, 0.498485, 1]
+    polarColor: [0.946875, 0.907114, 0.932275, 1]
+  sea:
+    color: [0.67629, 0.761719, 0.538559, 1]
+    polarColor: [0.897926, 0.923828, 0.856165, 1]
+  air:
+    color: [0.529557, 0.546181, 0.869572, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.260292, 0.306914, 0.611328, 1]
+    ratio: 0.44
+    polarColor: [0.496925, 0.53387, 0.775098, 1]
+  demographics:
+    type: 49
+    gdp: 24696
+    tech: 10
+    economy: 3
+    government: 5
+    description: Zavexe is mildly well known for its hoopy casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.705756, 0.558258, 0.222727, 1]
+  radius: 95609.713593
+  orbit:
+    type: static
+    parent: ~
+    radius: 346230
+    vector: [-0.166, -0.477, -0.863]
+  corona:
+    shimmer: 0.847901
+    hues: 0.930351
+    flare: 0.001791
+stations:
+- type: coriolis
+  orbit:
+    parent: Zavexe
+    vector: undefined
+    radius: 7694

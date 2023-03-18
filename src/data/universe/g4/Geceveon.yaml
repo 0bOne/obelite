@@ -1,0 +1,61 @@
+name: Geceveon
+position: [78, 243]
+seed: 102 243 16 78 155 163
+limits:
+  blurs: 115
+  stars: 7046
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geceveon
+  radius: 3662
+  rotationSpeed: 0.003875
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 512680
+  land:
+    ratio: 0.25
+    color: [0.335156, 0.66, 0.606705, 1]
+    polarColor: [0.819074, 0.934, 0.915145, 1]
+  sea:
+    color: [0.632812, 0.630545, 0.487711, 1]
+    polarColor: [0.936719, 0.93588, 0.883022, 1]
+  air:
+    color: [0.555348, 0.487597, 0.927457, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.446419, 0.138016, 0.785156, 1]
+    ratio: 0.33
+    polarColor: [0.623229, 0.413744, 0.85332, 1]
+  demographics:
+    type: 34
+    gdp: 11424
+    tech: 7
+    economy: 3
+    government: 2
+    description: This world is very well known for Geceveonian lethal water and the Geceveonian tree grub.
+    inhabitants: Large Harmless Furry Rodents
+- type: star
+  type: primary
+  color: [0.714153, 0.715668, 0.605592, 1]
+  radius: 99135.395813
+  orbit:
+    type: static
+    parent: ~
+    radius: 219720
+    vector: [-0.483, -0.86, -0.167]
+  corona:
+    shimmer: 0.254361
+    hues: 0.500389
+    flare: 0.073611
+stations:
+- type: coriolis
+  orbit:
+    parent: Geceveon
+    vector: undefined
+    radius: 7324

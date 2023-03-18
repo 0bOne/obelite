@@ -1,0 +1,61 @@
+name: Riarribi
+position: [149, 181]
+seed: 253 181 81 149 181 254
+limits:
+  blurs: 158
+  stars: 8564
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riarribi
+  radius: 6549
+  rotationSpeed: 0.004514
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 916860
+  land:
+    ratio: 0.28
+    color: [0.591498, 0.66, 0.198516, 1]
+    polarColor: [0.909765, 0.934, 0.770732, 1]
+  sea:
+    color: [0.537109, 0.418358, 0.418358, 1]
+    polarColor: [0.946289, 0.893984, 0.893984, 1]
+  air:
+    color: [0.604525, 0.896889, 0.803023, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.693359, 0.442956, 0.430641, 1]
+    ratio: 0.34
+    polarColor: [0.812012, 0.628728, 0.619714, 1]
+  demographics:
+    type: 24
+    gdp: 5760
+    tech: 4
+    economy: 5
+    government: 2
+    description: The world Riarribi is reasonably noted for its exotic fish meat.
+    inhabitants: Slimy Lizards
+- type: star
+  type: primary
+  color: [0.462171, 0.551987, 0.717685, 1]
+  radius: 151332.704315
+  orbit:
+    type: static
+    parent: ~
+    radius: 458430
+    vector: [-0.234, 0.946, -0.223]
+  corona:
+    shimmer: 0.340847
+    hues: 0.68383
+    flare: 0.092123
+stations:
+- type: coriolis
+  orbit:
+    parent: Riarribi
+    vector: undefined
+    radius: 13098

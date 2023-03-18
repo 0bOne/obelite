@@ -1,0 +1,61 @@
+name: Orso
+position: [237, 89]
+seed: 58 89 80 237 179 121
+limits:
+  blurs: 193
+  stars: 9155
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orso
+  radius: 5357
+  rotationSpeed: 0.004193
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 535700
+  land:
+    ratio: 0.31
+    color: [0.66, 0.268528, 0.216563, 1]
+    polarColor: [0.934, 0.795502, 0.777117, 1]
+  sea:
+    color: [0.560681, 0.71875, 0.592789, 1]
+    polarColor: [0.877096, 0.928125, 0.887461, 1]
+  air:
+    color: [0.592549, 0.93049, 0.958676, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.762498, 0.878906, 0.398254, 1]
+    ratio: 0.21
+    polarColor: [0.821379, 0.895508, 0.589426, 1]
+  demographics:
+    type: 36
+    gdp: 15552
+    tech: 8
+    economy: 1
+    government: 2
+    description: The world Orso is reasonably fabled for its exciting sit coms and its inhabitants’ exceptional love for food blenders.
+    inhabitants: Blue Fat Humanoids
+- type: star
+  type: primary
+  color: [0.795358, 0.774031, 0.76878, 1]
+  radius: 101155.71701
+  orbit:
+    type: static
+    parent: ~
+    radius: 535700
+    vector: [-0.984, 0.178, -0.009]
+  corona:
+    shimmer: 0.400323
+    hues: 0.783485
+    flare: 0.017856
+stations:
+- type: coriolis
+  orbit:
+    parent: Orso
+    vector: undefined
+    radius: 10714

@@ -1,0 +1,61 @@
+name: Vexeince
+position: [179, 247]
+seed: 103 247 185 179 232 214
+limits:
+  blurs: 44
+  stars: 8289
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vexeince
+  radius: 4531
+  rotationSpeed: 0.004539
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 543720
+  land:
+    ratio: 0.66
+    color: [0.619141, 0.509967, 0.488541, 1]
+    polarColor: [0.938086, 0.896733, 0.888617, 1]
+  sea:
+    color: [0.174957, 0.574219, 0.461926, 1]
+    polarColor: [0.778732, 0.942578, 0.896496, 1]
+  air:
+    color: [0.534008, 0.513946, 0.895588, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.301383, 0.22084, 0.689453, 1]
+    ratio: 0.58
+    polarColor: [0.525214, 0.466054, 0.810254, 1]
+  demographics:
+    type: 43
+    gdp: 11352
+    tech: 7
+    economy: 7
+    government: 7
+    description: The world Vexeince is reasonably fabled for its exciting sit coms and its inhabitants’ ancient loathing of casinos.
+    inhabitants: Fat Felines
+- type: star
+  type: primary
+  color: [0.729285, 0.583617, 0.542384, 1]
+  radius: 140576.044922
+  orbit:
+    type: static
+    parent: ~
+    radius: 407790
+    vector: [-0.622, 0.633, 0.461]
+  corona:
+    shimmer: 0.38764
+    hues: 0.729126
+    flare: 0.054659
+stations:
+- type: coriolis
+  orbit:
+    parent: Vexeince
+    vector: undefined
+    radius: 9062

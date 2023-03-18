@@ -1,0 +1,61 @@
+name: Usgeat
+position: [69, 85]
+seed: 162 85 82 69 218 232
+limits:
+  blurs: 183
+  stars: 7197
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usgeat
+  radius: 4933
+  rotationSpeed: 0.003867
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 641290
+  land:
+    ratio: 0.7
+    color: [0.541084, 0.66, 0.474375, 1]
+    polarColor: [0.891929, 0.934, 0.868328, 1]
+  sea:
+    color: [0.559883, 0.708984, 0.547247, 1]
+    polarColor: [0.880253, 0.929102, 0.876114, 1]
+  air:
+    color: [0.570766, 0.936114, 0.976887, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.744413, 0.933594, 0.328217, 1]
+    ratio: 0.22
+    polarColor: [0.803586, 0.920117, 0.547218, 1]
+  demographics:
+    type: 24
+    gdp: 5760
+    tech: 4
+    economy: 5
+    government: 2
+    description: Usgeat is cursed by dreadful civil war.
+    inhabitants: Small Slimy Rodents
+- type: star
+  type: primary
+  color: [0.671054, 0.651213, 0.592799, 1]
+  radius: 112432.445831
+  orbit:
+    type: static
+    parent: ~
+    radius: 345310
+    vector: [0.361, -0.847, -0.391]
+  corona:
+    shimmer: 0.592753
+    hues: 0.999413
+    flare: 0.064644
+stations:
+- type: coriolis
+  orbit:
+    parent: Usgeat
+    vector: undefined
+    radius: 9866

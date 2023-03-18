@@ -1,0 +1,61 @@
+name: Rainza
+position: [130, 85]
+seed: 178 85 58 130 244 116
+limits:
+  blurs: 128
+  stars: 5412
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rainza
+  radius: 3970
+  rotationSpeed: 0.000932
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 436700
+  land:
+    ratio: 0.31
+    color: [0.149269, 0.587891, 0.402847, 1]
+    polarColor: [0.765653, 0.941211, 0.867147, 1]
+  sea:
+    color: [0.511719, 0.394383, 0.449384, 1]
+    polarColor: [0.948828, 0.894437, 0.919933, 1]
+  air:
+    color: [0.755288, 0.575307, 0.905994, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.720703, 0.363167, 0.488863, 1]
+    ratio: 0.39
+    polarColor: [0.824316, 0.56873, 0.658585, 1]
+  demographics:
+    type: 45
+    gdp: 19800
+    tech: 8
+    economy: 5
+    government: 7
+    description: This world is ravaged by occasional solar activity.
+    inhabitants: Blue Insects
+- type: star
+  type: primary
+  color: [0.421796, 0.639383, 0.846564, 1]
+  radius: 91098.706055
+  orbit:
+    type: static
+    parent: ~
+    radius: 277900
+    vector: [0.206, -0.834, -0.512]
+  corona:
+    shimmer: 0.276456
+    hues: 0.646385
+    flare: 0.007472
+stations:
+- type: coriolis
+  orbit:
+    parent: Rainza
+    vector: undefined
+    radius: 7940

@@ -1,0 +1,61 @@
+name: Bianbies
+position: [132, 208]
+seed: 217 208 8 132 213 166
+limits:
+  blurs: 156
+  stars: 9955
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bianbies
+  radius: 4484
+  rotationSpeed: 0.000369
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 448400
+  land:
+    ratio: 0.66
+    color: [0.348194, 0.28006, 0.628906, 1]
+    polarColor: [0.83254, 0.807159, 0.937109, 1]
+  sea:
+    color: [0.667969, 0.474069, 0.45401, 1]
+    polarColor: [0.933203, 0.86548, 0.858474, 1]
+  air:
+    color: [0.455012, 0.524579, 0.917701, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0649567, 0.367227, 0.755859, 1]
+    ratio: 0.42
+    polarColor: [0.360176, 0.570159, 0.840137, 1]
+  demographics:
+    type: 28
+    gdp: 8960
+    tech: 6
+    economy: 2
+    government: 1
+    description: Bianbies is well known for the Bianbiesian spotted leopard but ravaged by frequent earthquakes.
+    inhabitants: Fierce Harmless Fat Felines
+- type: star
+  type: primary
+  color: [0.44218, 0.62219, 0.705963, 1]
+  radius: 93141.38855
+  orbit:
+    type: static
+    parent: ~
+    radius: 538080
+    vector: [0.098, -0.871, -0.482]
+  corona:
+    shimmer: 0.36993
+    hues: 0.814636
+    flare: 0.05916
+stations:
+- type: coriolis
+  orbit:
+    parent: Bianbies
+    vector: undefined
+    radius: 8968

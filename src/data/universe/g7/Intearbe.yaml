@@ -1,0 +1,61 @@
+name: Intearbe
+position: [194, 141]
+seed: 211 141 94 194 39 12
+limits:
+  blurs: 111
+  stars: 8731
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Intearbe
+  radius: 6082
+  rotationSpeed: 0.003277
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 790660
+  land:
+    ratio: 0.38
+    color: [0.156502, 0.548828, 0.263779, 1]
+    polarColor: [0.776214, 0.945117, 0.822399, 1]
+  sea:
+    color: [0.319824, 0.34531, 0.511719, 1]
+    polarColor: [0.859875, 0.871689, 0.948828, 1]
+  air:
+    color: [0.672665, 0.863068, 0.845033, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.591797, 0.581683, 0.55481, 1]
+    ratio: 0.24
+    polarColor: [0.766309, 0.758124, 0.736375, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 6
+    economy: 5
+    government: 3
+    description: This world is plagued by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.516051, 0.586045, 0.670798, 1]
+  radius: 121892.426758
+  orbit:
+    type: static
+    parent: ~
+    radius: 425740
+    vector: [-0.254, 0.964, -0.074]
+  corona:
+    shimmer: 0.252326
+    hues: 0.871796
+    flare: 0.050002
+stations:
+- type: coriolis
+  orbit:
+    parent: Intearbe
+    vector: undefined
+    radius: 12164

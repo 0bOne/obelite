@@ -1,0 +1,61 @@
+name: Inmaarxe
+position: [19, 107]
+seed: 228 107 124 19 5 76
+limits:
+  blurs: 102
+  stars: 9988
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inmaarxe
+  radius: 5907
+  rotationSpeed: 0.000467
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 708840
+  land:
+    ratio: 0.71
+    color: [0.586382, 0.66, 0.549141, 1]
+    polarColor: [0.907955, 0.934, 0.894779, 1]
+  sea:
+    color: [0.656667, 0.711628, 0.841797, 1]
+    polarColor: [0.865468, 0.880416, 0.91582, 1]
+  air:
+    color: [0.684039, 0.611201, 0.840305, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.519859, 0.408936, 0.523438, 1]
+    ratio: 0.19
+    polarColor: [0.732404, 0.634984, 0.735547, 1]
+  demographics:
+    type: 55
+    gdp: 33880
+    tech: 11
+    economy: 3
+    government: 7
+    description: The planet Inmaarxe is scourged by killer mountain Abzazaaboids.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.377093, 0.682037, 0.80293, 1]
+  radius: 155773.509979
+  orbit:
+    type: static
+    parent: ~
+    radius: 649770
+    vector: [-0.415, -0.718, -0.558]
+  corona:
+    shimmer: 0.322777
+    hues: 0.81916
+    flare: 0.064812
+stations:
+- type: icosahedron
+  orbit:
+    parent: Inmaarxe
+    vector: undefined
+    radius: 11814

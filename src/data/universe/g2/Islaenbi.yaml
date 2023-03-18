@@ -1,0 +1,61 @@
+name: Islaenbi
+position: [223, 248]
+seed: 73 248 129 223 205 189
+limits:
+  blurs: 111
+  stars: 6966
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Islaenbi
+  radius: 6367
+  rotationSpeed: 0.004183
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 764040
+  land:
+    ratio: 0.36
+    color: [0.415239, 0.66, 0.407344, 1]
+    polarColor: [0.847407, 0.934, 0.844613, 1]
+  sea:
+    color: [0.648634, 0.695312, 0.519583, 1]
+    polarColor: [0.914853, 0.930469, 0.871678, 1]
+  air:
+    color: [0.568126, 0.945018, 0.87402, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.837891, 0.560119, 0.33712, 1]
+    ratio: 0.42
+    polarColor: [0.877051, 0.69533, 0.549441, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: This planet is beset by lethal disease.
+    inhabitants: Harmless Rodents
+- type: star
+  type: primary
+  color: [0.546661, 0.591986, 0.65643, 1]
+  radius: 198941.547241
+  orbit:
+    type: static
+    parent: ~
+    radius: 573030
+    vector: [-0.54, 0.38, -0.751]
+  corona:
+    shimmer: 0.360468
+    hues: 0.5336
+    flare: 0.001445
+stations:
+- type: coriolis
+  orbit:
+    parent: Islaenbi
+    vector: undefined
+    radius: 12734

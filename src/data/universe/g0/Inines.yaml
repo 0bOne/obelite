@@ -1,0 +1,61 @@
+name: Inines
+position: [239, 16]
+seed: 186 16 228 239 91 236
+limits:
+  blurs: 42
+  stars: 5049
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inines
+  radius: 6127
+  rotationSpeed: 0.004714
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 673970
+  land:
+    ratio: 0.52
+    color: [0.207049, 0.515625, 0.143005, 1]
+    polarColor: [0.806539, 0.948438, 0.777089, 1]
+  sea:
+    color: [0.789062, 0.7763, 0.462341, 1]
+    polarColor: [0.921094, 0.917369, 0.825746, 1]
+  air:
+    color: [0.773256, 0.580437, 0.906645, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.722656, 0.375443, 0.448683, 1]
+    ratio: 0.51
+    polarColor: [0.825195, 0.577395, 0.629665, 1]
+  demographics:
+    type: 53
+    gdp: 33920
+    tech: 12
+    economy: 0
+    government: 4
+    description: This world is a tedious place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.587018, 0.605884, 0.671478, 1]
+  radius: 159354.728699
+  orbit:
+    type: static
+    parent: ~
+    radius: 551430
+    vector: [-0.039, -0.793, 0.608]
+  corona:
+    shimmer: 0.45947
+    hues: 0.71875
+    flare: 0.094402
+stations:
+- type: icosahedron
+  orbit:
+    parent: Inines
+    vector: undefined
+    radius: 12254

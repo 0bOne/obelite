@@ -1,0 +1,61 @@
+name: Edraisar
+position: [176, 76]
+seed: 113 76 9 176 109 216
+limits:
+  blurs: 70
+  stars: 7689
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edraisar
+  radius: 5040
+  rotationSpeed: 0.00325
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 453600
+  land:
+    ratio: 0.64
+    color: [0.632812, 0.620453, 0.553711, 1]
+    polarColor: [0.936719, 0.932145, 0.907446, 1]
+  sea:
+    color: [0.180603, 0.525391, 0.299124, 1]
+    polarColor: [0.792018, 0.947461, 0.845452, 1]
+  air:
+    color: [0.691695, 0.730648, 0.980789, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.675751, 0.781048, 0.945312, 1]
+    ratio: 0.29
+    polarColor: [0.760465, 0.824889, 0.925391, 1]
+  demographics:
+    type: 16
+    gdp: 2560
+    tech: 2
+    economy: 6
+    government: 1
+    description: The world Edraisar is reasonably noted for Zero-G hockey and Edraisarian Usenbiza brandy.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.82392, 0.748865, 0.684625, 1]
+  radius: 169001.806641
+  orbit:
+    type: static
+    parent: ~
+    radius: 604800
+    vector: [0.587, -0.246, -0.771]
+  corona:
+    shimmer: 0.319956
+    hues: 0.820908
+    flare: 0.062909
+stations:
+- type: coriolis
+  orbit:
+    parent: Edraisar
+    vector: undefined
+    radius: 10080

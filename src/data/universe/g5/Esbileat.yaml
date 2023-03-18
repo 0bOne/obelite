@@ -1,0 +1,61 @@
+name: Esbileat
+position: [48, 12]
+seed: 231 12 233 48 40 41
+limits:
+  blurs: 118
+  stars: 9012
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esbileat
+  radius: 5168
+  rotationSpeed: 0.003814
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 568480
+  land:
+    ratio: 0.65
+    color: [0.617461, 0.574922, 0.66, 1]
+    polarColor: [0.91895, 0.9039, 0.934, 1]
+  sea:
+    color: [0.35557, 0.541016, 0.0845337, 1]
+    polarColor: [0.864841, 0.945898, 0.746373, 1]
+  air:
+    color: [0.510164, 0.970383, 0.819035, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.914062, 0.178333, 0.160675, 1]
+    ratio: 0.21
+    polarColor: [0.911328, 0.452872, 0.44187, 1]
+  demographics:
+    type: 34
+    gdp: 14688
+    tech: 6
+    economy: 4
+    government: 5
+    description: The planet Esbileat is scourged by deadly disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.849976, 0.724189, 0.448281, 1]
+  radius: 135661.577148
+  orbit:
+    type: static
+    parent: ~
+    radius: 516800
+    vector: [0.067, -0.668, -0.741]
+  corona:
+    shimmer: 0.529353
+    hues: 0.682808
+    flare: 0.006497
+stations:
+- type: coriolis
+  orbit:
+    parent: Esbileat
+    vector: undefined
+    radius: 10336

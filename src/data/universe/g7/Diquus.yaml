@@ -1,0 +1,61 @@
+name: Diquus
+position: [65, 172]
+seed: 13 172 12 65 33 205
+limits:
+  blurs: 112
+  stars: 6163
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diquus
+  radius: 6209
+  rotationSpeed: 0.004439
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 869260
+  land:
+    ratio: 0.38
+    color: [0.66, 0.636293, 0.384141, 1]
+    polarColor: [0.934, 0.925613, 0.836404, 1]
+  sea:
+    color: [0.280846, 0.372965, 0.548828, 1]
+    polarColor: [0.829746, 0.869405, 0.945117, 1]
+  air:
+    color: [0.748022, 0.6168, 0.86502, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.597656, 0.441238, 0.503561, 1]
+    ratio: 0.4
+    polarColor: [0.768945, 0.643166, 0.693281, 1]
+  demographics:
+    type: 20
+    gdp: 3200
+    tech: 3
+    economy: 6
+    government: 1
+    description: Diquus is mildly famous for its vast rain forests and the Diquusian tree grub.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.682056, 0.557618, 0.528162, 1]
+  radius: 136626.233063
+  orbit:
+    type: static
+    parent: ~
+    radius: 620900
+    vector: [0.233, 0.38, 0.895]
+  corona:
+    shimmer: 0.377012
+    hues: 0.656441
+    flare: 0.019678
+stations:
+- type: coriolis
+  orbit:
+    parent: Diquus
+    vector: undefined
+    radius: 12418

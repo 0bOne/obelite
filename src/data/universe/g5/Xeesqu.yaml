@@ -1,0 +1,61 @@
+name: Xeesqu
+position: [46, 248]
+seed: 25 248 81 46 250 162
+limits:
+  blurs: 99
+  stars: 8944
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeesqu
+  radius: 3374
+  rotationSpeed: 0.002542
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 371140
+  land:
+    ratio: 0.41
+    color: [0.66, 0.250078, 0.432621, 1]
+    polarColor: [0.934, 0.788975, 0.853556, 1]
+  sea:
+    color: [0.640625, 0.612746, 0.485474, 1]
+    polarColor: [0.935938, 0.925755, 0.879269, 1]
+  air:
+    color: [0.545854, 0.577077, 0.847459, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.28949, 0.365321, 0.544922, 1]
+    ratio: 0.38
+    polarColor: [0.52689, 0.591705, 0.745215, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 10
+    economy: 0
+    government: 2
+    description: This world is a revolting dump.
+    inhabitants: Large Harmless Rodents
+- type: star
+  type: primary
+  color: [0.22044, 0.384887, 0.686365, 1]
+  radius: 84516.290588
+  orbit:
+    type: static
+    parent: ~
+    radius: 168700
+    vector: [0.769, -0.355, -0.532]
+  corona:
+    shimmer: 0.348055
+    hues: 0.64463
+    flare: 0.085939
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeesqu
+    vector: undefined
+    radius: 6748

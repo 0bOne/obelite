@@ -1,0 +1,61 @@
+name: Bezaorat
+position: [97, 14]
+seed: 112 14 248 97 186 179
+limits:
+  blurs: 138
+  stars: 8447
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bezaorat
+  radius: 3681
+  rotationSpeed: 0.001581
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 368100
+  land:
+    ratio: 0.45
+    color: [0.351861, 0.323723, 0.548828, 1]
+    polarColor: [0.86032, 0.848206, 0.945117, 1]
+  sea:
+    color: [0.604858, 0.78125, 0.756445, 1]
+    polarColor: [0.869839, 0.921875, 0.914558, 1]
+  air:
+    color: [0.538683, 0.591886, 0.844857, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.274849, 0.408028, 0.537109, 1]
+    ratio: 0.34
+    polarColor: [0.515351, 0.630293, 0.741699, 1]
+  demographics:
+    type: 38
+    gdp: 13376
+    tech: 6
+    economy: 6
+    government: 7
+    description: Bezaorat is ravaged by unpredictable civil war.
+    inhabitants: Harmless Lizards
+- type: star
+  type: primary
+  color: [0.6961, 0.584325, 0.495176, 1]
+  radius: 99958.112183
+  orbit:
+    type: static
+    parent: ~
+    radius: 331290
+    vector: [0.42, 0.487, 0.766]
+  corona:
+    shimmer: 0.589533
+    hues: 0.781143
+    flare: 0.045465
+stations:
+- type: coriolis
+  orbit:
+    parent: Bezaorat
+    vector: undefined
+    radius: 7362

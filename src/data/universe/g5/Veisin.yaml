@@ -1,0 +1,61 @@
+name: Veisin
+position: [152, 78]
+seed: 111 78 197 152 64 182
+limits:
+  blurs: 44
+  stars: 6198
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veisin
+  radius: 4504
+  rotationSpeed: 0.000301
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 630560
+  land:
+    ratio: 0.54
+    color: [0.495, 0.66, 0.555586, 1]
+    polarColor: [0.875625, 0.934, 0.89706, 1]
+  sea:
+    color: [0.501776, 0.379266, 0.515625, 1]
+    polarColor: [0.942069, 0.885733, 0.948438, 1]
+  air:
+    color: [0.620654, 0.889809, 0.94827, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.644848, 0.847656, 0.476807, 1]
+    ratio: 0.41
+    polarColor: [0.749637, 0.881445, 0.640425, 1]
+  demographics:
+    type: 11
+    gdp: 1408
+    tech: 1
+    economy: 6
+    government: 0
+    description: The planet Veisin is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.82305, 0.621392, 0.61276, 1]
+  radius: 122611.256104
+  orbit:
+    type: static
+    parent: ~
+    radius: 180160
+    vector: [0.783, -0.092, 0.615]
+  corona:
+    shimmer: 1.039034
+    hues: 0.516792
+    flare: 0.058557
+stations:
+- type: coriolis
+  orbit:
+    parent: Veisin
+    vector: undefined
+    radius: 9008

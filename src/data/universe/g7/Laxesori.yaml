@@ -1,0 +1,61 @@
+name: Laxesori
+position: [111, 60]
+seed: 203 60 214 111 111 53
+limits:
+  blurs: 85
+  stars: 5891
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laxesori
+  radius: 4207
+  rotationSpeed: 0.001408
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 588980
+  land:
+    ratio: 0.45
+    color: [0.113923, 0.638672, 0.0224533, 1]
+    polarColor: [0.743845, 0.936133, 0.710327, 1]
+  sea:
+    color: [0.566161, 0.673828, 0.527218, 1]
+    polarColor: [0.895363, 0.932617, 0.881888, 1]
+  air:
+    color: [0.49796, 0.492339, 0.907295, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.194818, 0.164169, 0.724609, 1]
+    ratio: 0.15
+    polarColor: [0.448589, 0.426751, 0.826074, 1]
+  demographics:
+    type: 35
+    gdp: 10080
+    tech: 7
+    economy: 4
+    government: 2
+    description: This planet is reasonably noted for its inhabitants’ exceptional love for tourists.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.727304, 0.726239, 0.674909, 1]
+  radius: 97058.987274
+  orbit:
+    type: static
+    parent: ~
+    radius: 168280
+    vector: [-0.583, 0.452, -0.675]
+  corona:
+    shimmer: 0.397164
+    hues: 0.889366
+    flare: 0.067197
+stations:
+- type: coriolis
+  orbit:
+    parent: Laxesori
+    vector: undefined
+    radius: 8414

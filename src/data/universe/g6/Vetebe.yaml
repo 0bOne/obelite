@@ -1,0 +1,61 @@
+name: Vetebe
+position: [174, 215]
+seed: 206 215 18 174 80 118
+limits:
+  blurs: 197
+  stars: 7030
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vetebe
+  radius: 4526
+  rotationSpeed: 0.000158
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 678900
+  land:
+    ratio: 0.6
+    color: [0.161691, 0.542969, 0.129379, 1]
+    polarColor: [0.779683, 0.945703, 0.765613, 1]
+  sea:
+    color: [0.818356, 0.709879, 0.892578, 1]
+    polarColor: [0.891809, 0.864138, 0.910742, 1]
+  air:
+    color: [0.774833, 0.628997, 0.86632, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.601562, 0.467621, 0.486456, 1]
+    ratio: 0.38
+    polarColor: [0.770703, 0.663452, 0.678534, 1]
+  demographics:
+    type: 22
+    gdp: 3168
+    tech: 3
+    economy: 7
+    government: 2
+    description: Vetebe is a revolting little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.666, 0.707162, 0.841367, 1]
+  radius: 154899.615173
+  orbit:
+    type: static
+    parent: ~
+    radius: 181040
+    vector: [0.544, 0.704, 0.456]
+  corona:
+    shimmer: 0.403209
+    hues: 0.861694
+    flare: 0.089999
+stations:
+- type: coriolis
+  orbit:
+    parent: Vetebe
+    vector: undefined
+    radius: 9052

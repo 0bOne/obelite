@@ -1,0 +1,61 @@
+name: Reteti
+position: [140, 129]
+seed: 173 129 193 140 85 14
+limits:
+  blurs: 87
+  stars: 7291
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reteti
+  radius: 6540
+  rotationSpeed: 0.002527
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 915600
+  land:
+    ratio: 0.34
+    color: [0.448594, 0.565858, 0.66, 1]
+    polarColor: [0.859207, 0.900694, 0.934, 1]
+  sea:
+    color: [0.618882, 0.667969, 0.510892, 1]
+    polarColor: [0.916059, 0.933203, 0.878341, 1]
+  air:
+    color: [0.628343, 0.850331, 0.961928, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.496407, 0.888672, 0.502536, 1]
+    ratio: 0.36
+    polarColor: [0.651638, 0.899902, 0.655517, 1]
+  demographics:
+    type: 20
+    gdp: 4480
+    tech: 4
+    economy: 3
+    government: 0
+    description: This planet is reasonably noted for its exotic fish meat.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.268135, 0.284179, 0.790024, 1]
+  radius: 167157.394409
+  orbit:
+    type: static
+    parent: ~
+    radius: 196200
+    vector: [-0.114, 0.993, 0.012]
+  corona:
+    shimmer: 0.347845
+    hues: 0.617149
+    flare: 0.062453
+stations:
+- type: coriolis
+  orbit:
+    parent: Reteti
+    vector: undefined
+    radius: 13080

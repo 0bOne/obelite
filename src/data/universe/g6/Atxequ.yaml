@@ -1,0 +1,61 @@
+name: Atxequ
+position: [38, 42]
+seed: 146 42 18 38 212 241
+limits:
+  blurs: 189
+  stars: 9315
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atxequ
+  radius: 3110
+  rotationSpeed: 0.000663
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 373200
+  land:
+    ratio: 0.47
+    color: [0.507299, 0.364372, 0.572266, 1]
+    polarColor: [0.916016, 0.85715, 0.942773, 1]
+  sea:
+    color: [0.509766, 0.461415, 0.0677032, 1]
+    polarColor: [0.949023, 0.92652, 0.743278, 1]
+  air:
+    color: [0.482935, 0.640961, 0.863068, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.164131, 0.591797, 0.491563, 1]
+    ratio: 0.14
+    polarColor: [0.420198, 0.766309, 0.685189, 1]
+  demographics:
+    type: 37
+    gdp: 14208
+    tech: 8
+    economy: 2
+    government: 2
+    description: Atxequ is mildly well known for its hoopy casinos and its exotic night life.
+    inhabitants: Fat Humanoids
+- type: star
+  type: primary
+  color: [0.402496, 0.633999, 0.779953, 1]
+  radius: 51843.93158
+  orbit:
+    type: static
+    parent: ~
+    radius: 342100
+    vector: [0.103, 0.69, -0.716]
+  corona:
+    shimmer: 0.33474
+    hues: 0.866455
+    flare: 0.02081
+stations:
+- type: coriolis
+  orbit:
+    parent: Atxequ
+    vector: undefined
+    radius: 6220

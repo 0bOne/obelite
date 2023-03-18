@@ -1,0 +1,61 @@
+name: Begeabi
+position: [24, 119]
+seed: 74 119 200 24 83 243
+limits:
+  blurs: 77
+  stars: 6530
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Begeabi
+  radius: 3608
+  rotationSpeed: 0.002653
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 360800
+  land:
+    ratio: 0.35
+    color: [0.573552, 0.66, 0.469219, 1]
+    polarColor: [0.903416, 0.934, 0.866504, 1]
+  sea:
+    color: [0.590798, 0.378204, 0.597656, 1]
+    polarColor: [0.937537, 0.853924, 0.940234, 1]
+  air:
+    color: [0.612589, 0.504984, 0.926156, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.650406, 0.183105, 0.78125, 1]
+    ratio: 0.22
+    polarColor: [0.762425, 0.444077, 0.851562, 1]
+  demographics:
+    type: 13
+    gdp: 1560
+    tech: 1
+    economy: 7
+    government: 1
+    description: Begeabi is very notable for its inhabitants’ weird silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.660519, 0.391961, 0.386731, 1]
+  radius: 61865.506592
+  orbit:
+    type: static
+    parent: ~
+    radius: 216480
+    vector: [-0.124, -0.459, -0.88]
+  corona:
+    shimmer: 0.600498
+    hues: 0.662354
+    flare: 0.09006
+stations:
+- type: coriolis
+  orbit:
+    parent: Begeabi
+    vector: undefined
+    radius: 7216

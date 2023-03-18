@@ -1,0 +1,61 @@
+name: Atoresra
+position: [94, 73]
+seed: 209 73 192 94 61 81
+limits:
+  blurs: 116
+  stars: 6024
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atoresra
+  radius: 3166
+  rotationSpeed: 0.004699
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 284940
+  land:
+    ratio: 0.55
+    color: [0.0605416, 0.654297, 0.0102234, 1]
+    polarColor: [0.722547, 0.93457, 0.704578, 1]
+  sea:
+    color: [0.582031, 0.43766, 0.43766, 1]
+    polarColor: [0.941797, 0.883394, 0.883394, 1]
+  air:
+    color: [0.58721, 0.522748, 0.902742, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.485949, 0.238831, 0.710938, 1]
+    ratio: 0.52
+    polarColor: [0.657748, 0.479622, 0.819922, 1]
+  demographics:
+    type: 28
+    gdp: 6272
+    tech: 6
+    economy: 3
+    government: 0
+    description: This planet is reasonably famous for its inhabitants’ exceptional love for tourists.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.680359, 0.630518, 0.330639, 1]
+  radius: 69520.502014
+  orbit:
+    type: static
+    parent: ~
+    radius: 316600
+    vector: [-0.477, 0.44, 0.761]
+  corona:
+    shimmer: 0.255754
+    hues: 0.540611
+    flare: 0.021695
+stations:
+- type: coriolis
+  orbit:
+    parent: Atoresra
+    vector: undefined
+    radius: 6332

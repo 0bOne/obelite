@@ -1,0 +1,61 @@
+name: Ceraqu
+position: [192, 14]
+seed: 52 14 128 192 102 37
+limits:
+  blurs: 55
+  stars: 5855
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceraqu
+  radius: 4288
+  rotationSpeed: 0.001999
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 557440
+  land:
+    ratio: 0.61
+    color: [0.66, 0.365328, 0.170156, 1]
+    polarColor: [0.934, 0.829749, 0.760699, 1]
+  sea:
+    color: [0.582031, 0.548336, 0.458804, 1]
+    polarColor: [0.941797, 0.928166, 0.891948, 1]
+  air:
+    color: [0.462256, 0.618507, 0.885832, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.108307, 0.660156, 0.60842, 1]
+    ratio: 0.55
+    polarColor: [0.380632, 0.79707, 0.758029, 1]
+  demographics:
+    type: 11
+    gdp: 1408
+    tech: 1
+    economy: 6
+    government: 0
+    description: This world is most fabled for Ceraquian lethal brandy but scourged by frequent civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.568371, 0.618144, 0.820322, 1]
+  radius: 117021.650391
+  orbit:
+    type: static
+    parent: ~
+    radius: 428800
+    vector: [-0.288, -0.785, -0.549]
+  corona:
+    shimmer: 0.368441
+    hues: 0.704262
+    flare: 0.07673
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceraqu
+    vector: undefined
+    radius: 8576

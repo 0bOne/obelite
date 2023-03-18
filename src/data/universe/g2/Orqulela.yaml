@@ -1,0 +1,61 @@
+name: Orqulela
+position: [77, 242]
+seed: 125 242 209 77 181 89
+limits:
+  blurs: 198
+  stars: 9359
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orqulela
+  radius: 5197
+  rotationSpeed: 0.004427
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 571670
+  land:
+    ratio: 0.47
+    color: [0.66, 0.221819, 0.0696094, 1]
+    polarColor: [0.934, 0.778977, 0.725127, 1]
+  sea:
+    color: [0.569806, 0.720703, 0.635823, 1]
+    polarColor: [0.879358, 0.92793, 0.900608, 1]
+  air:
+    color: [0.505007, 0.600587, 0.862418, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.209671, 0.509651, 0.589844, 1]
+    ratio: 0.38
+    polarColor: [0.45709, 0.700389, 0.76543, 1]
+  demographics:
+    type: 33
+    gdp: 12672
+    tech: 7
+    economy: 2
+    government: 2
+    description: This planet is a tedious place.
+    inhabitants: Yellow Rodents
+- type: star
+  type: primary
+  color: [0.246738, 0.534754, 0.658966, 1]
+  radius: 102775.084076
+  orbit:
+    type: static
+    parent: ~
+    radius: 571670
+    vector: [-0.519, -0.212, 0.828]
+  corona:
+    shimmer: 0.633064
+    hues: 0.627899
+    flare: 0.052499
+stations:
+- type: coriolis
+  orbit:
+    parent: Orqulela
+    vector: undefined
+    radius: 10394

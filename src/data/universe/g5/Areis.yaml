@@ -1,0 +1,61 @@
+name: Areis
+position: [66, 252]
+seed: 231 252 105 66 40 143
+limits:
+  blurs: 99
+  stars: 6089
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Areis
+  radius: 6722
+  rotationSpeed: 0.003864
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 604980
+  land:
+    ratio: 0.41
+    color: [0.507812, 0.449063, 0.0654602, 1]
+    polarColor: [0.949219, 0.921764, 0.742504, 1]
+  sea:
+    color: [0.631607, 0.683594, 0.517235, 1]
+    polarColor: [0.913928, 0.931641, 0.87496, 1]
+  air:
+    color: [0.476667, 0.556001, 0.895588, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.134659, 0.442396, 0.689453, 1]
+    ratio: 0.07
+    polarColor: [0.402753, 0.628789, 0.810254, 1]
+  demographics:
+    type: 42
+    gdp: 18144
+    tech: 8
+    economy: 4
+    government: 5
+    description: This world is noted for its exciting sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.657805, 0.696831, 0.709091, 1]
+  radius: 137064.755554
+  orbit:
+    type: static
+    parent: ~
+    radius: 941080
+    vector: [0.288, -0.093, -0.953]
+  corona:
+    shimmer: 0.488346
+    hues: 0.564316
+    flare: 0.053267
+stations:
+- type: coriolis
+  orbit:
+    parent: Areis
+    vector: undefined
+    radius: 13444

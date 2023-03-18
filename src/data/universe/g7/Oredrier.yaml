@@ -1,0 +1,61 @@
+name: Oredrier
+position: [237, 241]
+seed: 109 241 108 237 65 89
+limits:
+  blurs: 160
+  stars: 8286
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Oredrier
+  radius: 5357
+  rotationSpeed: 0.001912
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 696410
+  land:
+    ratio: 0.47
+    color: [0.397031, 0.66, 0.487427, 1]
+    polarColor: [0.840965, 0.934, 0.872946, 1]
+  sea:
+    color: [0.627791, 0.628906, 0.486174, 1]
+    polarColor: [0.936694, 0.937109, 0.883939, 1]
+  air:
+    color: [0.50266, 0.62425, 0.854613, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.205765, 0.566406, 0.557954, 1]
+    ratio: 0.55
+    polarColor: [0.454478, 0.754883, 0.747842, 1]
+  demographics:
+    type: 47
+    gdp: 30456
+    tech: 10
+    economy: 1
+    government: 5
+    description: The planet Oredrier is most famous for its pink Oredrierian Ce Ceweed plantations and its exciting sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.615259, 0.738266, 0.795447, 1]
+  radius: 150189.073029
+  orbit:
+    type: static
+    parent: ~
+    radius: 160710
+    vector: [0.155, 0.028, -0.988]
+  corona:
+    shimmer: 0.920088
+    hues: 0.630737
+    flare: 0.08222
+stations:
+- type: coriolis
+  orbit:
+    parent: Oredrier
+    vector: undefined
+    radius: 10714

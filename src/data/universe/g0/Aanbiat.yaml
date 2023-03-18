@@ -1,0 +1,61 @@
+name: Aanbiat
+position: [91, 47]
+seed: 122 47 240 91 179 111
+limits:
+  blurs: 120
+  stars: 6458
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aanbiat
+  radius: 6747
+  rotationSpeed: 0.000416
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 809640
+  land:
+    ratio: 0.35
+    color: [0.625, 0.463867, 0.47142, 1]
+    polarColor: [0.9375, 0.877075, 0.879908, 1]
+  sea:
+    color: [0.677734, 0.513554, 0.463295, 1]
+    polarColor: [0.932227, 0.875769, 0.858486, 1]
+  air:
+    color: [0.547035, 0.948944, 0.993797, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.753662, 0.984375, 0.246094, 1]
+    ratio: 0.22
+    polarColor: [0.804839, 0.942969, 0.500952, 1]
+  demographics:
+    type: 38
+    gdp: 9120
+    tech: 6
+    economy: 7
+    government: 6
+    description: This planet is fabled for its ancient Aanbiatian Alinet banana plantations.
+    inhabitants: Blue Fat Insects
+- type: star
+  type: primary
+  color: [0.204001, 0.575332, 0.680005, 1]
+  radius: 159421.759644
+  orbit:
+    type: static
+    parent: ~
+    radius: 742170
+    vector: [-0.119, -0.99, -0.077]
+  corona:
+    shimmer: 0.345166
+    hues: 0.92778
+    flare: 0.004817
+stations:
+- type: coriolis
+  orbit:
+    parent: Aanbiat
+    vector: undefined
+    radius: 13494

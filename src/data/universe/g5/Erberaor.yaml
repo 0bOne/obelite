@@ -1,0 +1,61 @@
+name: Erberaor
+position: [80, 50]
+seed: 231 50 73 80 168 144
+limits:
+  blurs: 74
+  stars: 7171
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erberaor
+  radius: 2896
+  rotationSpeed: 0.002617
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 318560
+  land:
+    ratio: 0.57
+    color: [0.410335, 0.361023, 0.507812, 1]
+    polarColor: [0.903667, 0.880623, 0.949219, 1]
+  sea:
+    color: [0.591003, 0.816406, 0.551712, 1]
+    polarColor: [0.854971, 0.918359, 0.843922, 1]
+  air:
+    color: [0.706538, 0.835647, 0.885832, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.655764, 0.660156, 0.654999, 1]
+    ratio: 0.47
+    polarColor: [0.793756, 0.79707, 0.793178, 1]
+  demographics:
+    type: 28
+    gdp: 8960
+    tech: 6
+    economy: 2
+    government: 1
+    description: This world is very notable for the Erberaorian tree grub.
+    inhabitants: Black Horned Lizards
+- type: star
+  type: primary
+  color: [0.758038, 0.480194, 0.429869, 1]
+  radius: 62360.598145
+  orbit:
+    type: static
+    parent: ~
+    radius: 231680
+    vector: [-0.698, -0.615, 0.366]
+  corona:
+    shimmer: 0.396952
+    hues: 0.938103
+    flare: 0.047951
+stations:
+- type: coriolis
+  orbit:
+    parent: Erberaor
+    vector: undefined
+    radius: 5792

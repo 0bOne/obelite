@@ -1,0 +1,61 @@
+name: Leeden
+position: [153, 254]
+seed: 14 254 2 153 80 193
+limits:
+  blurs: 74
+  stars: 5960
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leeden
+  radius: 3225
+  rotationSpeed: 0.004564
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 419250
+  land:
+    ratio: 0.66
+    color: [0.415078, 0.66, 0.573895, 1]
+    polarColor: [0.84735, 0.934, 0.903537, 1]
+  sea:
+    color: [0.582627, 0.597656, 0.477425, 1]
+    polarColor: [0.934323, 0.940234, 0.892947, 1]
+  air:
+    color: [0.646066, 0.88193, 0.844862, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.648438, 0.587726, 0.516724, 1]
+    ratio: 0.29
+    polarColor: [0.791797, 0.745463, 0.691276, 1]
+  demographics:
+    type: 15
+    gdp: 1920
+    tech: 2
+    economy: 6
+    government: 0
+    description: The planet Leeden is a boring world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.361721, 0.472869, 0.696368, 1]
+  radius: 94916.942596
+  orbit:
+    type: static
+    parent: ~
+    radius: 290250
+    vector: [-0.566, 0.15, -0.81]
+  corona:
+    shimmer: 0.440241
+    hues: 0.777069
+    flare: 0.040013
+stations:
+- type: coriolis
+  orbit:
+    parent: Leeden
+    vector: undefined
+    radius: 6450

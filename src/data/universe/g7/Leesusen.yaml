@@ -1,0 +1,61 @@
+name: Leesusen
+position: [125, 10]
+seed: 245 10 116 125 25 225
+limits:
+  blurs: 171
+  stars: 5761
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leesusen
+  radius: 3197
+  rotationSpeed: 0.002582
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 447580
+  land:
+    ratio: 0.71
+    color: [0.0902344, 0.539815, 0.66, 1]
+    polarColor: [0.732424, 0.89148, 0.934, 1]
+  sea:
+    color: [0.607256, 0.666016, 0.51252, 1]
+    polarColor: [0.912811, 0.933398, 0.879619, 1]
+  air:
+    color: [0.631618, 0.88258, 0.821594, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.650391, 0.531698, 0.485252, 1]
+    ratio: 0.22
+    polarColor: [0.792676, 0.702264, 0.666885, 1]
+  demographics:
+    type: 45
+    gdp: 28800
+    tech: 9
+    economy: 2
+    government: 6
+    description: The planet Leesusen is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.323076, 0.61326, 0.807071, 1]
+  radius: 63712.674255
+  orbit:
+    type: static
+    parent: ~
+    radius: 191820
+    vector: [-0.275, 0.962, 0.006]
+  corona:
+    shimmer: 0.484383
+    hues: 0.88028
+    flare: 0.070743
+stations:
+- type: coriolis
+  orbit:
+    parent: Leesusen
+    vector: undefined
+    radius: 6394

@@ -1,0 +1,61 @@
+name: Anle
+position: [228, 0]
+seed: 10 0 172 228 219 155
+limits:
+  blurs: 126
+  stars: 7614
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anle
+  radius: 5860
+  rotationSpeed: 0.002488
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 879000
+  land:
+    ratio: 0.56
+    color: [0.66, 0.649688, 0.65428, 1]
+    polarColor: [0.934, 0.930352, 0.931976, 1]
+  sea:
+    color: [0.505245, 0.574219, 0.0224304, 1]
+    polarColor: [0.914273, 0.942578, 0.716138, 1]
+  air:
+    color: [0.467208, 0.608783, 0.886482, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.118973, 0.662109, 0.662109, 1]
+    ratio: 0.34
+    polarColor: [0.388844, 0.797949, 0.797949, 1]
+  demographics:
+    type: 46
+    gdp: 33120
+    tech: 10
+    economy: 0
+    government: 5
+    description: The world Anle is notable for its great tropical forests and Anleian evil brandy.
+    inhabitants: Black Fat Insects
+- type: star
+  type: primary
+  color: [0.712628, 0.674861, 0.547465, 1]
+  radius: 154389.21814
+  orbit:
+    type: static
+    parent: ~
+    radius: 117200
+    vector: [-0.716, 0.643, 0.273]
+  corona:
+    shimmer: 0.390509
+    hues: 0.855911
+    flare: 0.036334
+stations:
+- type: coriolis
+  orbit:
+    parent: Anle
+    vector: undefined
+    radius: 11720

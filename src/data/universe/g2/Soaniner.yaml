@@ -1,0 +1,61 @@
+name: Soaniner
+position: [232, 107]
+seed: 117 107 217 232 165 135
+limits:
+  blurs: 165
+  stars: 9603
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soaniner
+  radius: 4840
+  rotationSpeed: 0.002909
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 580800
+  land:
+    ratio: 0.4
+    color: [0.444586, 0.66, 0.420234, 1]
+    polarColor: [0.857789, 0.934, 0.849174, 1]
+  sea:
+    color: [0.535156, 0.39426, 0.513141, 1]
+    polarColor: [0.946484, 0.884186, 0.93675, 1]
+  air:
+    color: [0.796072, 0.736907, 0.991846, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.9299, 0.810333, 0.978516, 1]
+    ratio: 0.4
+    polarColor: [0.911133, 0.83932, 0.940332, 1]
+  demographics:
+    type: 31
+    gdp: 12152
+    tech: 6
+    economy: 3
+    government: 3
+    description: The world Soaniner is reasonably fabled for its fabulous cuisine and its ancient Soaninerian Sestloxe banana plantations.
+    inhabitants: Fierce Black Bony Felines
+- type: star
+  type: primary
+  color: [0.84407, 0.336631, 0.249308, 1]
+  radius: 75782.305908
+  orbit:
+    type: static
+    parent: ~
+    radius: 338800
+    vector: [0.08, -0.949, 0.305]
+  corona:
+    shimmer: 0.390026
+    hues: 0.54921
+    flare: 0.00255
+stations:
+- type: coriolis
+  orbit:
+    parent: Soaniner
+    vector: undefined
+    radius: 9680

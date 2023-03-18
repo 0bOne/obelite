@@ -1,0 +1,61 @@
+name: Rean
+position: [214, 21]
+seed: 186 21 98 214 234 14
+limits:
+  blurs: 178
+  stars: 7814
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rean
+  radius: 6614
+  rotationSpeed: 0.001289
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 793680
+  land:
+    ratio: 0.61
+    color: [0.215332, 0.52375, 0.574219, 1]
+    polarColor: [0.7953, 0.921867, 0.942578, 1]
+  sea:
+    color: [0.610843, 0.792969, 0.573044, 1]
+    polarColor: [0.867837, 0.920703, 0.856865, 1]
+  air:
+    color: [0.556884, 0.519359, 0.896889, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.376811, 0.232925, 0.693359, 1]
+    ratio: 0.51
+    polarColor: [0.580313, 0.474995, 0.812012, 1]
+  demographics:
+    type: 34
+    gdp: 10880
+    tech: 6
+    economy: 5
+    government: 4
+    description: This world is reasonably notable for its exotic night life but cursed by deadly civil war.
+    inhabitants: Green Bony Humanoids
+- type: star
+  type: primary
+  color: [0.361827, 0.519735, 0.832718, 1]
+  radius: 184243.538513
+  orbit:
+    type: static
+    parent: ~
+    radius: 529120
+    vector: [-0.418, -0.616, -0.668]
+  corona:
+    shimmer: 0.310874
+    hues: 0.756882
+    flare: 0.045851
+stations:
+- type: coriolis
+  orbit:
+    parent: Rean
+    vector: undefined
+    radius: 13228

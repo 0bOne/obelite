@@ -1,0 +1,61 @@
+name: Teerma
+position: [254, 213]
+seed: 169 213 213 254 10 156
+limits:
+  blurs: 81
+  stars: 7090
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teerma
+  radius: 6142
+  rotationSpeed: 0.004602
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 859880
+  land:
+    ratio: 0.34
+    color: [0.66, 0.151384, 0.0515625, 1]
+    polarColor: [0.934, 0.754058, 0.718742, 1]
+  sea:
+    color: [0.511719, 0.406377, 0.406377, 1]
+    polarColor: [0.948828, 0.899997, 0.899997, 1]
+  air:
+    color: [0.529329, 0.987293, 0.954637, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.964844, 0.809435, 0.199753, 1]
+    ratio: 0.33
+    polarColor: [0.93418, 0.840136, 0.471195, 1]
+  demographics:
+    type: 28
+    gdp: 6720
+    tech: 5
+    economy: 5
+    government: 2
+    description: This planet is mildly noted for its exciting its exotic fish cutlet but plagued by frequent earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.776205, 0.533216, 0.262841, 1]
+  radius: 199009.572144
+  orbit:
+    type: static
+    parent: ~
+    radius: 368520
+    vector: [-0.427, 0.779, 0.458]
+  corona:
+    shimmer: 0.332397
+    hues: 0.870872
+    flare: 0.096646
+stations:
+- type: coriolis
+  orbit:
+    parent: Teerma
+    vector: undefined
+    radius: 12284

@@ -1,0 +1,61 @@
+name: Raormaor
+position: [157, 103]
+seed: 206 103 146 157 80 180
+limits:
+  blurs: 117
+  stars: 5049
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raormaor
+  radius: 3997
+  rotationSpeed: 0.000184
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 479640
+  land:
+    ratio: 0.57
+    color: [0.298848, 0.280884, 0.609375, 1]
+    polarColor: [0.81943, 0.812509, 0.939062, 1]
+  sea:
+    color: [0.757812, 0.514937, 0.408508, 1]
+    polarColor: [0.924219, 0.850167, 0.817717, 1]
+  air:
+    color: [0.713214, 0.624317, 0.840305, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.523438, 0.433472, 0.500946, 1]
+    ratio: 0.61
+    polarColor: [0.735547, 0.656533, 0.715793, 1]
+  demographics:
+    type: 18
+    gdp: 2592
+    tech: 2
+    economy: 7
+    government: 2
+    description: The planet Raormaor is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.683857, 0.718394, 0.804828, 1]
+  radius: 75483.506012
+  orbit:
+    type: static
+    parent: ~
+    radius: 239820
+    vector: [0.996, 0.083, 0.042]
+  corona:
+    shimmer: 0.301556
+    hues: 0.698532
+    flare: 0.096436
+stations:
+- type: coriolis
+  orbit:
+    parent: Raormaor
+    vector: undefined
+    radius: 7994

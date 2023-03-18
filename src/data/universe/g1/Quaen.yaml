@@ -1,0 +1,61 @@
+name: Quaen
+position: [168, 173]
+seed: 52 173 104 168 54 250
+limits:
+  blurs: 115
+  stars: 8095
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Quaen
+  radius: 5544
+  rotationSpeed: 0.00053
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 776160
+  land:
+    ratio: 0.43
+    color: [0.425391, 0.66, 0.632507, 1]
+    polarColor: [0.850998, 0.934, 0.924273, 1]
+  sea:
+    color: [0.59297, 0.615234, 0.485699, 1]
+    polarColor: [0.929986, 0.938477, 0.889078, 1]
+  air:
+    color: [0.633027, 0.823663, 0.971033, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.508102, 0.916016, 0.638762, 1]
+    ratio: 0.09
+    polarColor: [0.658321, 0.912207, 0.739644, 1]
+  demographics:
+    type: 31
+    gdp: 11160
+    tech: 5
+    economy: 5
+    government: 5
+    description: This planet is notable for its unusual oceans and its inhabitants’ eccentric love for tourists.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.621879, 0.655152, 0.694144, 1]
+  radius: 134828.76709
+  orbit:
+    type: static
+    parent: ~
+    radius: 554400
+    vector: [-0.01, 0.999, 0.047]
+  corona:
+    shimmer: 0.405244
+    hues: 0.958382
+    flare: 0.034209
+stations:
+- type: coriolis
+  orbit:
+    parent: Quaen
+    vector: undefined
+    radius: 11088

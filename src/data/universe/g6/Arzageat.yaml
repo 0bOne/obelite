@@ -1,0 +1,61 @@
+name: Arzageat
+position: [84, 100]
+seed: 222 100 250 84 64 138
+limits:
+  blurs: 123
+  stars: 6971
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arzageat
+  radius: 5460
+  rotationSpeed: 0.002341
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 764400
+  land:
+    ratio: 0.55
+    color: [0.66, 0.557358, 0.425391, 1]
+    polarColor: [0.934, 0.897687, 0.850998, 1]
+  sea:
+    color: [0.512798, 0.395737, 0.533203, 1]
+    polarColor: [0.937623, 0.885663, 0.94668, 1]
+  air:
+    color: [0.757291, 0.655337, 0.8325, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.5, 0.480469, 0.485504, 1]
+    ratio: 0.26
+    polarColor: [0.725, 0.7073, 0.711863, 1]
+  demographics:
+    type: 40
+    gdp: 21120
+    tech: 7
+    economy: 4
+    government: 7
+    description: This world is very notable for the Arzageatian tree snake and Arzageatian shrew cutlet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.457311, 0.652216, 0.803333, 1]
+  radius: 180658.383179
+  orbit:
+    type: static
+    parent: ~
+    radius: 327600
+    vector: [0.182, 0.925, -0.333]
+  corona:
+    shimmer: 0.325923
+    hues: 0.599884
+    flare: 0.092941
+stations:
+- type: coriolis
+  orbit:
+    parent: Arzageat
+    vector: undefined
+    radius: 10920

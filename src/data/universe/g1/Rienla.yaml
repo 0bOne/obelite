@@ -1,0 +1,61 @@
+name: Rienla
+position: [100, 175]
+seed: 48 175 104 100 154 254
+limits:
+  blurs: 154
+  stars: 8738
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rienla
+  radius: 6500
+  rotationSpeed: 0.002241
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 780000
+  land:
+    ratio: 0.27
+    color: [0.65625, 0.366577, 0.59741, 1]
+    polarColor: [0.934375, 0.831265, 0.913431, 1]
+  sea:
+    color: [0.554544, 0.697266, 0.590224, 1]
+    polarColor: [0.88267, 0.930273, 0.894571, 1]
+  air:
+    color: [0.419437, 0.829455, 0.852662, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.471353, 0.560547, 0.0416031, 1]
+    ratio: 0.29
+    polarColor: [0.677436, 0.752246, 0.316987, 1]
+  demographics:
+    type: 25
+    gdp: 5400
+    tech: 3
+    economy: 7
+    government: 5
+    description: The planet Rienla is very noted for its ancient mountains but plagued by lethal disease.
+    inhabitants: Bony Humanoids
+- type: star
+  type: primary
+  color: [0.785236, 0.779505, 0.766041, 1]
+  radius: 176831.817627
+  orbit:
+    type: static
+    parent: ~
+    radius: 650000
+    vector: [-0.463, 0.415, 0.783]
+  corona:
+    shimmer: 0.327248
+    hues: 0.647873
+    flare: 0.00867
+stations:
+- type: coriolis
+  orbit:
+    parent: Rienla
+    vector: undefined
+    radius: 13000

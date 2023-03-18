@@ -1,0 +1,61 @@
+name: Riordi
+position: [245, 133]
+seed: 133 133 105 245 133 126
+limits:
+  blurs: 53
+  stars: 6502
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riordi
+  radius: 6645
+  rotationSpeed: 0.004782
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 797400
+  land:
+    ratio: 0.44
+    color: [0.179901, 0.511719, 0.255079, 1]
+    polarColor: [0.795014, 0.948828, 0.829863, 1]
+  sea:
+    color: [0.75, 0.546753, 0.424805, 1]
+    polarColor: [0.925, 0.862332, 0.824731, 1]
+  air:
+    color: [0.897005, 0.787997, 0.991195, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.976562, 0.961304, 0.967026, 1]
+    ratio: 0.34
+    polarColor: [0.939453, 0.930279, 0.933719, 1]
+  demographics:
+    type: 35
+    gdp: 12600
+    tech: 6
+    economy: 5
+    government: 5
+    description: The world Riordi is scourged by killer edible talking treeoids.
+    inhabitants: Blue Slimy Lizards
+- type: star
+  type: primary
+  color: [0.795782, 0.422479, 0.342226, 1]
+  radius: 166186.850739
+  orbit:
+    type: static
+    parent: ~
+    radius: 465150
+    vector: [-0.701, -0.537, -0.469]
+  corona:
+    shimmer: 0.382081
+    hues: 0.620514
+    flare: 0.012149
+stations:
+- type: coriolis
+  orbit:
+    parent: Riordi
+    vector: undefined
+    radius: 13290

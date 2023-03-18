@@ -1,0 +1,61 @@
+name: Onusorle
+position: [81, 216]
+seed: 74 216 72 81 83 159
+limits:
+  blurs: 45
+  stars: 7165
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onusorle
+  radius: 6737
+  rotationSpeed: 0.002624
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 808440
+  land:
+    ratio: 0.24
+    color: [0.66, 0.250078, 0.326938, 1]
+    polarColor: [0.934, 0.788975, 0.816167, 1]
+  sea:
+    color: [0.575244, 0.601562, 0.48125, 1]
+    polarColor: [0.929564, 0.939844, 0.892852, 1]
+  air:
+    color: [0.610156, 0.823962, 0.989244, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.436058, 0.970703, 0.607312, 1]
+    ratio: 0.31
+    polarColor: [0.614328, 0.936816, 0.717625, 1]
+  demographics:
+    type: 32
+    gdp: 10240
+    tech: 7
+    economy: 2
+    government: 1
+    description: This world is mildly well known for Onusorleian vicious brew and Onusorleian wolf cutlet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.740866, 0.280492, 0.198689, 1]
+  radius: 218254.498444
+  orbit:
+    type: static
+    parent: ~
+    radius: 336850
+    vector: [-0.152, -0.69, -0.708]
+  corona:
+    shimmer: 0.358249
+    hues: 0.530914
+    flare: 0.088098
+stations:
+- type: coriolis
+  orbit:
+    parent: Onusorle
+    vector: undefined
+    radius: 13474

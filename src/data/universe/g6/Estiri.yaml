@@ -1,0 +1,61 @@
+name: Estiri
+position: [125, 144]
+seed: 50 144 122 125 116 233
+limits:
+  blurs: 64
+  stars: 9697
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Estiri
+  radius: 5245
+  rotationSpeed: 0.003484
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 629400
+  land:
+    ratio: 0.31
+    color: [0.376406, 0.66, 0.653353, 1]
+    polarColor: [0.833668, 0.934, 0.931648, 1]
+  sea:
+    color: [0.632812, 0.55122, 0.472137, 1]
+    polarColor: [0.936719, 0.906524, 0.877259, 1]
+  air:
+    color: [0.746883, 0.756602, 0.945668, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.813599, 0.817084, 0.839844, 1]
+    ratio: 0.43
+    polarColor: [0.860783, 0.86306, 0.87793, 1]
+  demographics:
+    type: 56
+    gdp: 49280
+    tech: 12
+    economy: 0
+    government: 7
+    description: The world Estiri is a boring world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.329055, 0.783467, 0.832333, 1]
+  radius: 155426.822662
+  orbit:
+    type: static
+    parent: ~
+    radius: 524500
+    vector: [0.857, 0.495, -0.146]
+  corona:
+    shimmer: 1.718301
+    hues: 0.656181
+    flare: 0.090123
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Estiri
+    vector: undefined
+    radius: 10490

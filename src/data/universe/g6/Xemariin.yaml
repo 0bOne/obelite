@@ -1,0 +1,61 @@
+name: Xemariin
+position: [177, 23]
+seed: 206 23 18 177 80 162
+limits:
+  blurs: 47
+  stars: 5105
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xemariin
+  radius: 3505
+  rotationSpeed: 0.000179
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 420600
+  land:
+    ratio: 0.59
+    color: [0.30266, 0.285255, 0.603516, 1]
+    polarColor: [0.822544, 0.815769, 0.939648, 1]
+  sea:
+    color: [0.627426, 0.738281, 0.543906, 1]
+    polarColor: [0.891405, 0.926172, 0.865211, 1]
+  air:
+    color: [0.498399, 0.680065, 0.834451, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.197601, 0.505859, 0.318015, 1]
+    ratio: 0.29
+    polarColor: [0.450509, 0.727637, 0.558762, 1]
+  demographics:
+    type: 18
+    gdp: 2592
+    tech: 2
+    economy: 7
+    government: 2
+    description: The planet Xemariin is mildly notable for vicious Enetit brew.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.802582, 0.776591, 0.549485, 1]
+  radius: 118761.183167
+  orbit:
+    type: static
+    parent: ~
+    radius: 210300
+    vector: [0.142, 0.856, 0.497]
+  corona:
+    shimmer: 0.47382
+    hues: 0.674568
+    flare: 0.030605
+stations:
+- type: coriolis
+  orbit:
+    parent: Xemariin
+    vector: undefined
+    radius: 7010

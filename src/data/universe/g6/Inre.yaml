@@ -1,0 +1,61 @@
+name: Inre
+position: [101, 219]
+seed: 178 219 226 101 116 172
+limits:
+  blurs: 59
+  stars: 8595
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inre
+  radius: 5989
+  rotationSpeed: 0.002515
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 718680
+  land:
+    ratio: 0.42
+    color: [0.658268, 0.66, 0.438281, 1]
+    polarColor: [0.933387, 0.934, 0.855559, 1]
+  sea:
+    color: [0.595703, 0.388603, 0.587613, 1]
+    polarColor: [0.94043, 0.858693, 0.937237, 1]
+  air:
+    color: [0.553861, 0.933021, 0.994447, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.676746, 0.986328, 0.265846, 1]
+    ratio: 0.4
+    polarColor: [0.758692, 0.943848, 0.512941, 1]
+  demographics:
+    type: 36
+    gdp: 16128
+    tech: 7
+    economy: 3
+    government: 4
+    description: Inre is ravaged by unpredictable civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.69487, 0.602552, 0.511008, 1]
+  radius: 141748.013153
+  orbit:
+    type: static
+    parent: ~
+    radius: 419230
+    vector: [0.54, -0.229, 0.81]
+  corona:
+    shimmer: 0.439326
+    hues: 0.605247
+    flare: 0.008311
+stations:
+- type: coriolis
+  orbit:
+    parent: Inre
+    vector: undefined
+    radius: 11978

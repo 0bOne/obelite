@@ -1,0 +1,61 @@
+name: Geinona
+position: [143, 153]
+seed: 192 153 8 143 189 99
+limits:
+  blurs: 184
+  stars: 7202
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geinona
+  radius: 3727
+  rotationSpeed: 0.002528
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 447240
+  land:
+    ratio: 0.26
+    color: [0.588397, 0.543984, 0.66, 1]
+    polarColor: [0.908668, 0.892955, 0.934, 1]
+  sea:
+    color: [0.541016, 0.281008, 0.00422668, 1]
+    polarColor: [0.945898, 0.832251, 0.711271, 1]
+  air:
+    color: [0.626881, 0.907295, 0.880734, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.724609, 0.659596, 0.486847, 1]
+    ratio: 0.3
+    polarColor: [0.826074, 0.779751, 0.656664, 1]
+  demographics:
+    type: 37
+    gdp: 10360
+    tech: 8
+    economy: 3
+    government: 1
+    description: This world is ravaged by unpredictable solar activity.
+    inhabitants: Large Blue Frogs
+- type: star
+  type: primary
+  color: [0.437948, 0.579346, 0.806802, 1]
+  radius: 97626.744995
+  orbit:
+    type: static
+    parent: ~
+    radius: 298160
+    vector: [-0.595, 0.786, -0.169]
+  corona:
+    shimmer: 0.256411
+    hues: 0.62426
+    flare: 0.091489
+stations:
+- type: coriolis
+  orbit:
+    parent: Geinona
+    vector: undefined
+    radius: 7454

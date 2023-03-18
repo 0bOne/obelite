@@ -1,0 +1,61 @@
+name: Errara
+position: [207, 148]
+seed: 20 148 88 207 182 176
+limits:
+  blurs: 176
+  stars: 6613
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Errara
+  radius: 3023
+  rotationSpeed: 0.004878
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 392990
+  land:
+    ratio: 0.56
+    color: [0.290344, 0.381396, 0.523438, 1]
+    polarColor: [0.842155, 0.883367, 0.947656, 1]
+  sea:
+    color: [0.798828, 0.589662, 0.386932, 1]
+    polarColor: [0.920117, 0.859886, 0.801508, 1]
+  air:
+    color: [0.70739, 0.809908, 0.918352, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.689728, 0.757812, 0.727494, 1]
+    ratio: 0.57
+    polarColor: [0.793791, 0.841016, 0.819986, 1]
+  demographics:
+    type: 40
+    gdp: 13440
+    tech: 8
+    economy: 4
+    government: 3
+    description: The world Errara is fabled for its fabulous cuisine and its ancient mountains.
+    inhabitants: Harmless Bony Lobsters
+- type: star
+  type: primary
+  color: [0.273731, 0.454663, 0.830194, 1]
+  radius: 61157.445068
+  orbit:
+    type: static
+    parent: ~
+    radius: 151150
+    vector: [0.059, -0.861, 0.505]
+  corona:
+    shimmer: 0.369679
+    hues: 0.654198
+    flare: 0.03037
+stations:
+- type: coriolis
+  orbit:
+    parent: Errara
+    vector: undefined
+    radius: 6046

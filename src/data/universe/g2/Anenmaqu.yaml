@@ -1,0 +1,61 @@
+name: Anenmaqu
+position: [221, 185]
+seed: 237 185 1 221 213 187
+limits:
+  blurs: 51
+  stars: 9695
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anenmaqu
+  radius: 5853
+  rotationSpeed: 0.000119
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 760890
+  land:
+    ratio: 0.32
+    color: [0.572344, 0.66, 0.60453, 1]
+    polarColor: [0.902988, 0.934, 0.914375, 1]
+  sea:
+    color: [0.892578, 0.400908, 0.230118, 1]
+    polarColor: [0.910742, 0.785323, 0.741757, 1]
+  air:
+    color: [0.708689, 0.608543, 0.856564, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.572266, 0.418022, 0.53732, 1]
+    ratio: 0.26
+    polarColor: [0.75752, 0.62991, 0.728608, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: The world Anenmaqu is beset by evil disease.
+    inhabitants: Harmless Fat Insects
+- type: star
+  type: primary
+  color: [0.67644, 0.457968, 0.430354, 1]
+  radius: 183036.642151
+  orbit:
+    type: static
+    parent: ~
+    radius: 409710
+    vector: [0.589, -0.7, -0.403]
+  corona:
+    shimmer: 0.432792
+    hues: 0.96077
+    flare: 0.054388
+stations:
+- type: coriolis
+  orbit:
+    parent: Anenmaqu
+    vector: undefined
+    radius: 11706

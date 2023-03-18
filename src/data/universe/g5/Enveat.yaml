@@ -1,0 +1,61 @@
+name: Enveat
+position: [72, 155]
+seed: 7 155 49 72 232 18
+limits:
+  blurs: 80
+  stars: 9898
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enveat
+  radius: 3400
+  rotationSpeed: 0.004121
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 340000
+  land:
+    ratio: 0.67
+    color: [0.20285, 0.564453, 0.539028, 1]
+    polarColor: [0.792439, 0.943555, 0.932929, 1]
+  sea:
+    color: [0.598435, 0.800781, 0.575562, 1]
+    polarColor: [0.861809, 0.919922, 0.85524, 1]
+  air:
+    color: [0.651007, 0.855264, 0.792874, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.568359, 0.507999, 0.501755, 1]
+    ratio: 0.33
+    polarColor: [0.755762, 0.705598, 0.700408, 1]
+  demographics:
+    type: 38
+    gdp: 21280
+    tech: 7
+    economy: 3
+    government: 6
+    description: The planet Enveat is famous for Enveatian wolf meat but beset by deadly edible moths.
+    inhabitants: Green Bony Humanoids
+- type: star
+  type: primary
+  color: [0.513088, 0.78497, 0.831354, 1]
+  radius: 71202.545166
+  orbit:
+    type: static
+    parent: ~
+    radius: 306000
+    vector: [-0.692, -0.59, 0.415]
+  corona:
+    shimmer: 0.385492
+    hues: 0.60733
+    flare: 0.013538
+stations:
+- type: coriolis
+  orbit:
+    parent: Enveat
+    vector: undefined
+    radius: 6800

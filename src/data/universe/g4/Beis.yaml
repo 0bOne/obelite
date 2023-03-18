@@ -1,0 +1,61 @@
+name: Beis
+position: [111, 154]
+seed: 156 154 112 111 69 51
+limits:
+  blurs: 53
+  stars: 9646
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beis
+  radius: 3695
+  rotationSpeed: 0.0025
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 406450
+  land:
+    ratio: 0.43
+    color: [0.66, 0.314531, 0.614117, 1]
+    polarColor: [0.934, 0.811777, 0.917767, 1]
+  sea:
+    color: [0.583984, 0.520781, 0.4535, 1]
+    polarColor: [0.941602, 0.916125, 0.889004, 1]
+  air:
+    color: [0.684923, 0.862984, 0.871523, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.613251, 0.617188, 0.590668, 1]
+    ratio: 0.15
+    polarColor: [0.774634, 0.777734, 0.756848, 1]
+  demographics:
+    type: 53
+    gdp: 33920
+    tech: 11
+    economy: 2
+    government: 6
+    description: This planet is reasonably famous for its inhabitants’ exceptional loathing of food blenders.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.789462, 0.409093, 0.388512, 1]
+  radius: 93100.626373
+  orbit:
+    type: static
+    parent: ~
+    radius: 406450
+    vector: [-0.034, -0.739, 0.673]
+  corona:
+    shimmer: 0.336849
+    hues: 0.548584
+    flare: 0.087077
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Beis
+    vector: undefined
+    radius: 7390

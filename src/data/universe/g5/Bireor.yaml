@@ -1,0 +1,61 @@
+name: Bireor
+position: [132, 67]
+seed: 7 67 161 132 168 38
+limits:
+  blurs: 151
+  stars: 8985
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bireor
+  radius: 4484
+  rotationSpeed: 0.001014
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 493240
+  land:
+    ratio: 0.5
+    color: [0.66, 0.108281, 0.37983, 1]
+    polarColor: [0.934, 0.738809, 0.834879, 1]
+  sea:
+    color: [0.609375, 0.55702, 0.466791, 1]
+    polarColor: [0.939062, 0.918892, 0.884131, 1]
+  air:
+    color: [0.617459, 0.886684, 0.954773, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.620486, 0.867188, 0.467468, 1]
+    ratio: 0.37
+    polarColor: [0.731948, 0.890234, 0.63377, 1]
+  demographics:
+    type: 32
+    gdp: 14336
+    tech: 6
+    economy: 3
+    government: 4
+    description: This planet is fabled for its exciting Zero-G cricket.
+    inhabitants: Fierce Red Frogs
+- type: star
+  type: primary
+  color: [0.795935, 0.405796, 0.336225, 1]
+  radius: 94375.692749
+  orbit:
+    type: static
+    parent: ~
+    radius: 582920
+    vector: [-0.357, 0.844, -0.399]
+  corona:
+    shimmer: 0.399707
+    hues: 0.837395
+    flare: 0.025981
+stations:
+- type: coriolis
+  orbit:
+    parent: Bireor
+    vector: undefined
+    radius: 8968

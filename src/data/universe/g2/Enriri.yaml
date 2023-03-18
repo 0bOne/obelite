@@ -1,0 +1,61 @@
+name: Enriri
+position: [77, 159]
+seed: 13 159 33 77 149 178
+limits:
+  blurs: 155
+  stars: 9039
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enriri
+  radius: 3405
+  rotationSpeed: 0.003843
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 374550
+  land:
+    ratio: 0.39
+    color: [0.580078, 0.66, 0.609424, 1]
+    polarColor: [0.905725, 0.934, 0.916107, 1]
+  sea:
+    color: [0.292664, 0.370337, 0.535156, 1]
+    polarColor: [0.839265, 0.873609, 0.946484, 1]
+  air:
+    color: [0.765368, 0.512391, 0.958025, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.876953, 0.178131, 0.374675, 1]
+    ratio: 0.33
+    polarColor: [0.894629, 0.449062, 0.574378, 1]
+  demographics:
+    type: 24
+    gdp: 4608
+    tech: 3
+    economy: 7
+    government: 4
+    description: This world is mildly famous for its hoopy night life and its exotic cuisine.
+    inhabitants: Harmless Horned Birds
+- type: star
+  type: primary
+  color: [0.411454, 0.732189, 0.743033, 1]
+  radius: 71474.55368
+  orbit:
+    type: static
+    parent: ~
+    radius: 238350
+    vector: [-0.571, 0.815, -0.102]
+  corona:
+    shimmer: 0.268421
+    hues: 0.723228
+    flare: 0.045724
+stations:
+- type: coriolis
+  orbit:
+    parent: Enriri
+    vector: undefined
+    radius: 6810

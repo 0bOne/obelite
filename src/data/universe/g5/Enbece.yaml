@@ -1,0 +1,61 @@
+name: Enbece
+position: [161, 140]
+seed: 231 140 41 161 40 146
+limits:
+  blurs: 124
+  stars: 5607
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enbece
+  radius: 3489
+  rotationSpeed: 0.00138
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 314010
+  land:
+    ratio: 0.27
+    color: [0.270703, 0.66, 0.441021, 1]
+    polarColor: [0.796272, 0.934, 0.856528, 1]
+  sea:
+    color: [0.537109, 0.456733, 0.425282, 1]
+    polarColor: [0.946289, 0.910887, 0.897034, 1]
+  air:
+    color: [0.522427, 0.585952, 0.857865, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.245323, 0.428841, 0.576172, 1]
+    ratio: 0.45
+    polarColor: [0.486783, 0.637932, 0.759277, 1]
+  demographics:
+    type: 38
+    gdp: 16416
+    tech: 7
+    economy: 4
+    government: 5
+    description: The planet Enbece is an unremarkable dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.258197, 0.802573, 0.842184, 1]
+  radius: 112603.514099
+  orbit:
+    type: static
+    parent: ~
+    radius: 279120
+    vector: [0.764, -0.57, -0.302]
+  corona:
+    shimmer: 0.797488
+    hues: 0.729286
+    flare: 0.018779
+stations:
+- type: coriolis
+  orbit:
+    parent: Enbece
+    vector: undefined
+    radius: 6978

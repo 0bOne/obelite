@@ -1,0 +1,61 @@
+name: Maonle
+position: [118, 126]
+seed: 33 126 153 118 45 11
+limits:
+  blurs: 55
+  stars: 8588
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maonle
+  radius: 5750
+  rotationSpeed: 0.001272
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 690000
+  land:
+    ratio: 0.57
+    color: [0.66, 0.222605, 0.201094, 1]
+    polarColor: [0.934, 0.779255, 0.771645, 1]
+  sea:
+    color: [0.579271, 0.753906, 0.647488, 1]
+    polarColor: [0.871065, 0.924609, 0.891981, 1]
+  air:
+    color: [0.53271, 0.991195, 0.987129, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.976562, 0.964522, 0.205994, 1]
+    ratio: 0.63
+    polarColor: [0.939453, 0.932214, 0.476149, 1]
+  demographics:
+    type: 30
+    gdp: 6720
+    tech: 5
+    economy: 6
+    government: 3
+    description: The world Maonle is a dull place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.618463, 0.693628, 0.787714, 1]
+  radius: 199994.468689
+  orbit:
+    type: static
+    parent: ~
+    radius: 517500
+    vector: [-0.32, -0.671, 0.669]
+  corona:
+    shimmer: 0.437712
+    hues: 0.623726
+    flare: 0.001494
+stations:
+- type: coriolis
+  orbit:
+    parent: Maonle
+    vector: undefined
+    radius: 11500

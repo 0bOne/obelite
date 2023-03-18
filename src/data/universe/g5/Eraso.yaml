@@ -1,0 +1,61 @@
+name: Eraso
+position: [104, 55]
+seed: 47 55 21 104 64 240
+limits:
+  blurs: 111
+  stars: 9815
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Eraso
+  radius: 2920
+  rotationSpeed: 0.003446
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 408800
+  land:
+    ratio: 0.64
+    color: [0.640625, 0.372864, 0.592512, 1]
+    polarColor: [0.935938, 0.838139, 0.918364, 1]
+  sea:
+    color: [0.580078, 0.467589, 0.44163, 1]
+    polarColor: [0.941992, 0.896324, 0.885785, 1]
+  air:
+    color: [0.666318, 0.826724, 0.943066, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.598022, 0.832031, 0.662009, 1]
+    ratio: 0.32
+    polarColor: [0.720708, 0.874414, 0.762737, 1]
+  demographics:
+    type: 14
+    gdp: 2016
+    tech: 1
+    economy: 7
+    government: 2
+    description: The planet Eraso is very noted for its exciting sit coms but ravaged by vicious killer cats.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.715891, 0.577194, 0.387911, 1]
+  radius: 55376.00708
+  orbit:
+    type: static
+    parent: ~
+    radius: 175200
+    vector: [-0.411, 0.479, 0.776]
+  corona:
+    shimmer: 0.87864
+    hues: 0.755646
+    flare: 0.063597
+stations:
+- type: coriolis
+  orbit:
+    parent: Eraso
+    vector: undefined
+    radius: 5840

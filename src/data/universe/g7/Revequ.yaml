@@ -1,0 +1,61 @@
+name: Revequ
+position: [85, 146]
+seed: 39 146 130 85 163 206
+limits:
+  blurs: 174
+  stars: 8908
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Revequ
+  radius: 6485
+  rotationSpeed: 0.004287
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 713350
+  land:
+    ratio: 0.59
+    color: [0.66, 0.366094, 0.441866, 1]
+    polarColor: [0.934, 0.83002, 0.856827, 1]
+  sea:
+    color: [0.632812, 0.497513, 0.479553, 1]
+    polarColor: [0.936719, 0.88665, 0.880003, 1]
+  air:
+    color: [0.515483, 0.646124, 0.835752, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.228996, 0.509766, 0.450541, 1]
+    ratio: 0.11
+    polarColor: [0.478309, 0.729395, 0.676431, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 6
+    economy: 2
+    government: 0
+    description: Revequ is cursed by dreadful civil war.
+    inhabitants: Frogs
+- type: star
+  type: primary
+  color: [0.761752, 0.756369, 0.720736, 1]
+  radius: 124087.371826
+  orbit:
+    type: static
+    parent: ~
+    radius: 324250
+    vector: [-0.698, 0.711, 0.084]
+  corona:
+    shimmer: 0.902203
+    hues: 0.926216
+    flare: 0.015613
+stations:
+- type: coriolis
+  orbit:
+    parent: Revequ
+    vector: undefined
+    radius: 12970

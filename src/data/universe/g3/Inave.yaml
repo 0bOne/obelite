@@ -1,0 +1,61 @@
+name: Inave
+position: [154, 233]
+seed: 10 233 210 154 10 236
+limits:
+  blurs: 64
+  stars: 6573
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inave
+  radius: 6042
+  rotationSpeed: 0.004506
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 845880
+  land:
+    ratio: 0.62
+    color: [0.493832, 0.66, 0.273281, 1]
+    polarColor: [0.875212, 0.934, 0.797184, 1]
+  sea:
+    color: [0.642528, 0.683594, 0.51403, 1]
+    polarColor: [0.917649, 0.931641, 0.873868, 1]
+  air:
+    color: [0.600214, 0.928107, 0.891931, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.787109, 0.670897, 0.424301, 1]
+    ratio: 0.16
+    polarColor: [0.854199, 0.775376, 0.608116, 1]
+  demographics:
+    type: 40
+    gdp: 17280
+    tech: 9
+    economy: 1
+    government: 2
+    description: The world Inave is reasonably famous for its inhabitants’ exceptional loathing of casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.579251, 0.664446, 0.680051, 1]
+  radius: 164619.054565
+  orbit:
+    type: static
+    parent: ~
+    radius: 302100
+    vector: [0.307, -0.914, -0.264]
+  corona:
+    shimmer: 0.567392
+    hues: 0.890686
+    flare: 0.046533
+stations:
+- type: coriolis
+  orbit:
+    parent: Inave
+    vector: undefined
+    radius: 12084

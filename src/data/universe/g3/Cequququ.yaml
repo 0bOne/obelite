@@ -1,0 +1,61 @@
+name: Cequququ
+position: [122, 219]
+seed: 106 219 50 122 74 101
+limits:
+  blurs: 159
+  stars: 9872
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cequququ
+  radius: 4218
+  rotationSpeed: 0.000689
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 463980
+  land:
+    ratio: 0.55
+    color: [0.311953, 0.66, 0.325549, 1]
+    polarColor: [0.810865, 0.934, 0.815675, 1]
+  sea:
+    color: [0.597656, 0.595701, 0.472522, 1]
+    polarColor: [0.940234, 0.939465, 0.891019, 1]
+  air:
+    color: [0.455158, 0.581471, 0.901441, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0800934, 0.604174, 0.707031, 1]
+    ratio: 0.41
+    polarColor: [0.364738, 0.743774, 0.818164, 1]
+  demographics:
+    type: 46
+    gdp: 25760
+    tech: 9
+    economy: 3
+    government: 6
+    description: This world is mildly well known for Cequququian shrew steak and Cequququian wolf meat.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.813766, 0.763861, 0.678684, 1]
+  radius: 104075.236816
+  orbit:
+    type: static
+    parent: ~
+    radius: 548340
+    vector: [0.808, -0.391, -0.44]
+  corona:
+    shimmer: 0.851338
+    hues: 0.637093
+    flare: 0.09268
+stations:
+- type: coriolis
+  orbit:
+    parent: Cequququ
+    vector: undefined
+    radius: 8436

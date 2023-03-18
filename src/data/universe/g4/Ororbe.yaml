@@ -1,0 +1,61 @@
+name: Ororbe
+position: [31, 185]
+seed: 86 185 244 31 83 128
+limits:
+  blurs: 152
+  stars: 6449
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ororbe
+  radius: 2847
+  rotationSpeed: 0.00432
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 313170
+  land:
+    ratio: 0.4
+    color: [0.519531, 0.476913, 0.487901, 1]
+    polarColor: [0.948047, 0.928604, 0.933617, 1]
+  sea:
+    color: [0.640625, 0.597174, 0.48172, 1]
+    polarColor: [0.935938, 0.920067, 0.877898, 1]
+  air:
+    color: [0.489933, 0.60687, 0.871523, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.175995, 0.575826, 0.617188, 1]
+    ratio: 0.45
+    polarColor: [0.43026, 0.745159, 0.777734, 1]
+  demographics:
+    type: 56
+    gdp: 40320
+    tech: 12
+    economy: 1
+    government: 6
+    description: This planet is mildly fabled for its inhabitants’ ingrained shyness but scourged by dreadful solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.680832, 0.563874, 0.534375, 1]
+  radius: 78225.59967
+  orbit:
+    type: static
+    parent: ~
+    radius: 199290
+    vector: [-0.867, -0.42, -0.267]
+  corona:
+    shimmer: 0.854936
+    hues: 0.735107
+    flare: 0.044429
+stations:
+- type: icosahedron
+  orbit:
+    parent: Ororbe
+    vector: undefined
+    radius: 5694

@@ -1,0 +1,61 @@
+name: Erisso
+position: [89, 19]
+seed: 178 19 226 89 26 16
+limits:
+  blurs: 115
+  stars: 5037
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erisso
+  radius: 2905
+  rotationSpeed: 0.001895
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 290500
+  land:
+    ratio: 0.33
+    color: [0.338137, 0.175313, 0.66, 1]
+    polarColor: [0.820129, 0.762523, 0.934, 1]
+  sea:
+    color: [0.5816, 0.599609, 0.478282, 1]
+    polarColor: [0.93298, 0.940039, 0.892486, 1]
+  air:
+    color: [0.656742, 0.879328, 0.856507, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.640625, 0.610166, 0.538025, 1]
+    ratio: 0.35
+    polarColor: [0.788281, 0.764856, 0.709376, 1]
+  demographics:
+    type: 36
+    gdp: 16128
+    tech: 7
+    economy: 3
+    government: 4
+    description: The world Erisso is very noted for its ancient A’ tulip plantations but ravaged by unpredictable solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.705267, 0.588016, 0.395295, 1]
+  radius: 68669.277954
+  orbit:
+    type: static
+    parent: ~
+    radius: 377650
+    vector: [-0.681, -0.49, -0.544]
+  corona:
+    shimmer: 0.639838
+    hues: 0.516006
+    flare: 0.096594
+stations:
+- type: coriolis
+  orbit:
+    parent: Erisso
+    vector: undefined
+    radius: 5810

@@ -1,0 +1,61 @@
+name: Xeatrien
+position: [203, 195]
+seed: 222 195 58 203 64 226
+limits:
+  blurs: 123
+  stars: 8668
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeatrien
+  radius: 3531
+  rotationSpeed: 0.0049
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 388410
+  land:
+    ratio: 0.53
+    color: [0.450625, 0.564453, 0.0440979, 1]
+    polarColor: [0.895985, 0.943555, 0.726095, 1]
+  sea:
+    color: [0.621094, 0.514161, 0.461938, 1]
+    polarColor: [0.937891, 0.897522, 0.877807, 1]
+  air:
+    color: [0.501875, 0.482297, 0.919652, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.224555, 0.13092, 0.761719, 1]
+    ratio: 0.31
+    polarColor: [0.471321, 0.406572, 0.842773, 1]
+  demographics:
+    type: 55
+    gdp: 33880
+    tech: 11
+    economy: 3
+    government: 7
+    description: This planet is beset by dreadful earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.47958, 0.750103, 0.793842, 1]
+  radius: 67758.497772
+  orbit:
+    type: static
+    parent: ~
+    radius: 247170
+    vector: [0.416, -0.753, 0.509]
+  corona:
+    shimmer: 0.318492
+    hues: 0.543503
+    flare: 0.073999
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Xeatrien
+    vector: undefined
+    radius: 7062

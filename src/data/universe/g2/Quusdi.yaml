@@ -1,0 +1,61 @@
+name: Quusdi
+position: [234, 36]
+seed: 37 36 137 234 69 250
+limits:
+  blurs: 187
+  stars: 8036
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Quusdi
+  radius: 5610
+  rotationSpeed: 0.003587
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 673200
+  land:
+    ratio: 0.6
+    color: [0.595547, 0.66, 0.644894, 1]
+    polarColor: [0.911197, 0.934, 0.928656, 1]
+  sea:
+    color: [0.5625, 0.52871, 0.448682, 1]
+    polarColor: [0.94375, 0.929577, 0.89601, 1]
+  air:
+    color: [0.483663, 0.996398, 0.863795, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.992188, 0.274087, 0.0542603, 1]
+    ratio: 0.07
+    polarColor: [0.946484, 0.518345, 0.387282, 1]
+  demographics:
+    type: 24
+    gdp: 3840
+    tech: 4
+    economy: 6
+    government: 1
+    description: This world is a tedious place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.523178, 0.621576, 0.822491, 1]
+  radius: 184738.114929
+  orbit:
+    type: static
+    parent: ~
+    radius: 392700
+    vector: [0.073, -0.952, -0.296]
+  corona:
+    shimmer: 0.387265
+    hues: 0.859535
+    flare: 0.06601
+stations:
+- type: coriolis
+  orbit:
+    parent: Quusdi
+    vector: undefined
+    radius: 11220

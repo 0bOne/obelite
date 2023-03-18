@@ -1,0 +1,61 @@
+name: Sobean
+position: [96, 203]
+seed: 164 203 76 96 165 199
+limits:
+  blurs: 139
+  stars: 8228
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sobean
+  radius: 4704
+  rotationSpeed: 0.00241
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 517440
+  land:
+    ratio: 0.64
+    color: [0.394439, 0.570312, 0.0467834, 1]
+    polarColor: [0.870271, 0.942969, 0.726565, 1]
+  sea:
+    color: [0.630859, 0.524596, 0.466984, 1]
+    polarColor: [0.936914, 0.89746, 0.87607, 1]
+  air:
+    color: [0.510245, 0.644614, 0.839654, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.220001, 0.521484, 0.45789, 1]
+    ratio: 0.53
+    polarColor: [0.469212, 0.734668, 0.678673, 1]
+  demographics:
+    type: 25
+    gdp: 7000
+    tech: 5
+    economy: 3
+    government: 1
+    description: Sobean is cursed by vicious killer cats.
+    inhabitants: Fierce Bony Felines
+- type: star
+  type: primary
+  color: [0.776651, 0.755459, 0.705378, 1]
+  radius: 149826.591797
+  orbit:
+    type: static
+    parent: ~
+    radius: 470400
+    vector: [-0.835, -0.458, 0.306]
+  corona:
+    shimmer: 0.321428
+    hues: 0.612373
+    flare: 0.093478
+stations:
+- type: coriolis
+  orbit:
+    parent: Sobean
+    vector: undefined
+    radius: 9408

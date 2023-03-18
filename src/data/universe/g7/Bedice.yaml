@@ -1,0 +1,61 @@
+name: Bedice
+position: [68, 149]
+seed: 131 149 142 68 119 19
+limits:
+  blurs: 174
+  stars: 5617
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bedice
+  radius: 3652
+  rotationSpeed: 0.004511
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 474760
+  land:
+    ratio: 0.63
+    color: [0.535156, 0.430634, 0.511475, 1]
+    polarColor: [0.946484, 0.900269, 0.936014, 1]
+  sea:
+    color: [0.635505, 0.806641, 0.529358, 1]
+    polarColor: [0.870575, 0.919336, 0.840331, 1]
+  air:
+    color: [0.624109, 0.898828, 0.940465, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.686882, 0.824219, 0.48616, 1]
+    ratio: 0.42
+    polarColor: [0.780202, 0.870898, 0.647646, 1]
+  demographics:
+    type: 13
+    gdp: 1560
+    tech: 1
+    economy: 7
+    government: 1
+    description: The planet Bedice is well known for its inhabitants’ ancient mating traditions but cursed by deadly civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.75972, 0.753724, 0.351235, 1]
+  radius: 87287.235718
+  orbit:
+    type: static
+    parent: ~
+    radius: 182600
+    vector: [-0.542, 0.322, 0.776]
+  corona:
+    shimmer: 0.455846
+    hues: 0.745468
+    flare: 0.02812
+stations:
+- type: coriolis
+  orbit:
+    parent: Bedice
+    vector: undefined
+    radius: 7304

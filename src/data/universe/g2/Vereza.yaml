@@ -1,0 +1,61 @@
+name: Vereza
+position: [123, 92]
+seed: 197 92 169 123 5 214
+limits:
+  blurs: 141
+  stars: 6097
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vereza
+  radius: 4475
+  rotationSpeed: 0.002303
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 537000
+  land:
+    ratio: 0.57
+    color: [0.66, 0.597158, 0.257812, 1]
+    polarColor: [0.934, 0.911767, 0.791711, 1]
+  sea:
+    color: [0.568896, 0.746094, 0.60489, 1]
+    polarColor: [0.870446, 0.925391, 0.881606, 1]
+  air:
+    color: [0.725629, 0.708523, 0.991846, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.775514, 0.726242, 0.978516, 1]
+    ratio: 0.62
+    polarColor: [0.818407, 0.788814, 0.940332, 1]
+  demographics:
+    type: 46
+    gdp: 19872
+    tech: 9
+    economy: 4
+    government: 5
+    description: The planet Vereza is an unremarkable dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.71693, 0.806623, 0.810458, 1]
+  radius: 101311.607361
+  orbit:
+    type: static
+    parent: ~
+    radius: 358000
+    vector: [0.642, -0.649, -0.408]
+  corona:
+    shimmer: 0.684835
+    hues: 0.934196
+    flare: 0.043135
+stations:
+- type: coriolis
+  orbit:
+    parent: Vereza
+    vector: undefined
+    radius: 8950

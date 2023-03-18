@@ -1,0 +1,61 @@
+name: Cevege
+position: [7, 73]
+seed: 24 73 228 7 109 229
+limits:
+  blurs: 126
+  stars: 9407
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cevege
+  radius: 4103
+  rotationSpeed: 0.001785
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 574420
+  land:
+    ratio: 0.69
+    color: [0.66, 0.518203, 0.433125, 1]
+    polarColor: [0.934, 0.883834, 0.853734, 1]
+  sea:
+    color: [0.845623, 0.721111, 0.958984, 1]
+    polarColor: [0.877383, 0.848037, 0.904102, 1]
+  air:
+    color: [0.435044, 0.806322, 0.844207, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.402821, 0.535156, 0.0773468, 1]
+    ratio: 0.25
+    polarColor: [0.626325, 0.74082, 0.344727, 1]
+  demographics:
+    type: 50
+    gdp: 28800
+    tech: 11
+    economy: 1
+    government: 4
+    description: This world is a revolting dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.369937, 0.441129, 0.748132, 1]
+  radius: 97490.074768
+  orbit:
+    type: static
+    parent: ~
+    radius: 328240
+    vector: [0.287, -0.047, -0.957]
+  corona:
+    shimmer: 0.311934
+    hues: 0.641968
+    flare: 0.095323
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Cevege
+    vector: undefined
+    radius: 8206

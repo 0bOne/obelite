@@ -1,0 +1,61 @@
+name: Regeza
+position: [115, 130]
+seed: 57 130 17 115 13 238
+limits:
+  blurs: 109
+  stars: 5119
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Regeza
+  radius: 6515
+  rotationSpeed: 0.002313
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 781800
+  land:
+    ratio: 0.25
+    color: [0.539062, 0.492737, 0.495994, 1]
+    polarColor: [0.946094, 0.925767, 0.927197, 1]
+  sea:
+    color: [0.705672, 0.707031, 0.533035, 1]
+    polarColor: [0.92885, 0.929297, 0.872123, 1]
+  air:
+    color: [0.631778, 0.909246, 0.895957, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.730469, 0.699772, 0.499344, 1]
+    ratio: 0.31
+    polarColor: [0.828711, 0.806946, 0.66483, 1]
+  demographics:
+    type: 41
+    gdp: 15744
+    tech: 9
+    economy: 2
+    government: 2
+    description: The planet Regeza is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.653452, 0.64821, 0.619082, 1]
+  radius: 136495.294189
+  orbit:
+    type: static
+    parent: ~
+    radius: 716650
+    vector: [-0.647, -0.629, -0.43]
+  corona:
+    shimmer: 0.480906
+    hues: 0.747063
+    flare: 0.051245
+stations:
+- type: coriolis
+  orbit:
+    parent: Regeza
+    vector: undefined
+    radius: 13030

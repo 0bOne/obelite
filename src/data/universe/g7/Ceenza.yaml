@@ -1,0 +1,61 @@
+name: Ceenza
+position: [141, 95]
+seed: 159 95 58 141 43 197
+limits:
+  blurs: 199
+  stars: 5590
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceenza
+  radius: 4237
+  rotationSpeed: 0.002416
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 550810
+  land:
+    ratio: 0.58
+    color: [0.301641, 0.66, 0.366033, 1]
+    polarColor: [0.807217, 0.934, 0.829998, 1]
+  sea:
+    color: [0.583532, 0.595703, 0.475864, 1]
+    polarColor: [0.935626, 0.94043, 0.893133, 1]
+  air:
+    color: [0.535404, 0.493211, 0.917701, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.34582, 0.159439, 0.755859, 1]
+    ratio: 0.26
+    polarColor: [0.555288, 0.425811, 0.840137, 1]
+  demographics:
+    type: 35
+    gdp: 9240
+    tech: 5
+    economy: 7
+    government: 7
+    description: The planet Ceenza is an unremarkable planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.218566, 0.246895, 0.667145, 1]
+  radius: 123609.121857
+  orbit:
+    type: static
+    parent: ~
+    radius: 169480
+    vector: [0.953, -0.237, -0.191]
+  corona:
+    shimmer: 0.356038
+    hues: 0.814896
+    flare: 0.073087
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceenza
+    vector: undefined
+    radius: 8474

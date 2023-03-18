@@ -1,0 +1,61 @@
+name: Usrelain
+position: [158, 135]
+seed: 85 135 212 158 57 8
+limits:
+  blurs: 93
+  stars: 5244
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usrelain
+  radius: 5022
+  rotationSpeed: 0.004988
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 652860
+  land:
+    ratio: 0.46
+    color: [0.579071, 0.533672, 0.66, 1]
+    polarColor: [0.905368, 0.889307, 0.934, 1]
+  sea:
+    color: [0.580078, 0.543618, 0.457265, 1]
+    polarColor: [0.941992, 0.92719, 0.892133, 1]
+  air:
+    color: [0.738374, 0.517919, 0.947619, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.845703, 0.201515, 0.48838, 1]
+    ratio: 0.52
+    polarColor: [0.880566, 0.461351, 0.648033, 1]
+  demographics:
+    type: 22
+    gdp: 3168
+    tech: 3
+    economy: 7
+    government: 2
+    description: This planet is fabled for its unusual tropical forests and its fabulous cuisine.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.726306, 0.528136, 0.226527, 1]
+  radius: 138414.58374
+  orbit:
+    type: static
+    parent: ~
+    radius: 200880
+    vector: [0.093, 0.945, -0.315]
+  corona:
+    shimmer: 1.094675
+    hues: 0.557137
+    flare: 0.042331
+stations:
+- type: coriolis
+  orbit:
+    parent: Usrelain
+    vector: undefined
+    radius: 10044

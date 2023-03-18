@@ -1,0 +1,61 @@
+name: Ra
+position: [12, 135]
+seed: 170 135 56 12 83 128
+limits:
+  blurs: 64
+  stars: 9557
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ra
+  radius: 2828
+  rotationSpeed: 0.001974
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 367640
+  land:
+    ratio: 0.68
+    color: [0.0979688, 0.35703, 0.66, 1]
+    polarColor: [0.73516, 0.826813, 0.934, 1]
+  sea:
+    color: [0.565038, 0.716797, 0.620762, 1]
+    polarColor: [0.879185, 0.92832, 0.897227, 1]
+  air:
+    color: [0.434508, 0.648679, 0.897539, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0353088, 0.695312, 0.447811, 1]
+    ratio: 0.36
+    polarColor: [0.330634, 0.812891, 0.632044, 1]
+  demographics:
+    type: 31
+    gdp: 8184
+    tech: 4
+    economy: 7
+    government: 7
+    description: The world Ra is beset by deadly earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.814172, 0.683129, 0.652207, 1]
+  radius: 81106.932983
+  orbit:
+    type: static
+    parent: ~
+    radius: 84840
+    vector: [-0.954, 0.22, -0.201]
+  corona:
+    shimmer: 0.386766
+    hues: 0.958115
+    flare: 0.090234
+stations:
+- type: coriolis
+  orbit:
+    parent: Ra
+    vector: undefined
+    radius: 5656

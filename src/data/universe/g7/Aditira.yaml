@@ -1,0 +1,61 @@
+name: Aditira
+position: [58, 67]
+seed: 103 67 194 58 99 79
+limits:
+  blurs: 185
+  stars: 7159
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aditira
+  radius: 6714
+  rotationSpeed: 0.004224
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 805680
+  land:
+    ratio: 0.65
+    color: [0.552734, 0.449097, 0.500106, 1]
+    polarColor: [0.944727, 0.900443, 0.922239, 1]
+  sea:
+    color: [0.329193, 0.5, 0.123047, 1]
+    polarColor: [0.868867, 0.95, 0.770947, 1]
+  air:
+    color: [0.602729, 0.828266, 0.991846, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.412811, 0.978516, 0.567496, 1]
+    ratio: 0.08
+    polarColor: [0.600564, 0.940332, 0.693469, 1]
+  demographics:
+    type: 28
+    gdp: 6272
+    tech: 6
+    economy: 3
+    government: 0
+    description: The world Aditira is mildly fabled for the Aditiraian edible moth but beset by evil disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.745947, 0.746521, 0.542098, 1]
+  radius: 186272.111206
+  orbit:
+    type: static
+    parent: ~
+    radius: 537120
+    vector: [-0.682, 0.05, -0.73]
+  corona:
+    shimmer: 0.361901
+    hues: 0.611015
+    flare: 0.089526
+stations:
+- type: coriolis
+  orbit:
+    parent: Aditira
+    vector: undefined
+    radius: 13428

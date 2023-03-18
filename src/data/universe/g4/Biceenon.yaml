@@ -1,0 +1,61 @@
+name: Biceenon
+position: [102, 24]
+seed: 70 24 60 102 243 38
+limits:
+  blurs: 72
+  stars: 9792
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biceenon
+  radius: 4454
+  rotationSpeed: 0.000853
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 489940
+  land:
+    ratio: 0.69
+    color: [0.66, 0.397031, 0.477155, 1]
+    polarColor: [0.934, 0.840965, 0.869312, 1]
+  sea:
+    color: [0.585247, 0.644531, 0.506561, 1]
+    polarColor: [0.914034, 0.935547, 0.885481, 1]
+  air:
+    color: [0.664782, 0.834524, 0.939164, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.592804, 0.820312, 0.628352, 1]
+    ratio: 0.28
+    polarColor: [0.718484, 0.869141, 0.742024, 1]
+  demographics:
+    type: 60
+    gdp: 52800
+    tech: 13
+    economy: 0
+    government: 7
+    description: The world Biceenon is a dull place.
+    inhabitants: Fierce Red Rodents
+- type: star
+  type: primary
+  color: [0.589048, 0.622097, 0.842111, 1]
+  radius: 99614.210205
+  orbit:
+    type: static
+    parent: ~
+    radius: 311780
+    vector: [0.344, 0.848, -0.403]
+  corona:
+    shimmer: 0.541039
+    hues: 0.517082
+    flare: 0.095166
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Biceenon
+    vector: undefined
+    radius: 8908

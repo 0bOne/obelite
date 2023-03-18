@@ -1,0 +1,61 @@
+name: Geonerbe
+position: [237, 174]
+seed: 242 174 162 237 26 35
+limits:
+  blurs: 41
+  stars: 6836
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geonerbe
+  radius: 3821
+  rotationSpeed: 0.004426
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 534940
+  land:
+    ratio: 0.4
+    color: [0.66, 0.208828, 0.303997, 1]
+    polarColor: [0.934, 0.774381, 0.808051, 1]
+  sea:
+    color: [0.605469, 0.485284, 0.453156, 1]
+    polarColor: [0.939453, 0.892833, 0.88037, 1]
+  air:
+    color: [0.602598, 0.873623, 0.974936, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.507581, 0.927734, 0.42038, 1]
+    ratio: 0.29
+    polarColor: [0.657787, 0.91748, 0.603889, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 4
+    economy: 6
+    government: 4
+    description: Geonerbe is an unremarkable planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.821246, 0.585094, 0.516098, 1]
+  radius: 95803.692322
+  orbit:
+    type: static
+    parent: ~
+    radius: 267470
+    vector: [0.045, 0.952, -0.302]
+  corona:
+    shimmer: 0.437315
+    hues: 0.536209
+    flare: 0.05822
+stations:
+- type: coriolis
+  orbit:
+    parent: Geonerbe
+    vector: undefined
+    radius: 7642

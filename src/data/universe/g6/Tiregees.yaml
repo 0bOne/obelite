@@ -1,0 +1,61 @@
+name: Tiregees
+position: [190, 88]
+seed: 94 88 42 190 128 183
+limits:
+  blurs: 153
+  stars: 9875
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiregees
+  radius: 4798
+  rotationSpeed: 0.001753
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 671720
+  land:
+    ratio: 0.45
+    color: [0.0876563, 0.405128, 0.66, 1]
+    polarColor: [0.731512, 0.843829, 0.934, 1]
+  sea:
+    color: [0.623047, 0.614209, 0.481644, 1]
+    polarColor: [0.937695, 0.93437, 0.884492, 1]
+  air:
+    color: [0.41989, 0.796011, 0.86502, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.328412, 0.597656, 0.0326843, 1]
+    ratio: 0.46
+    polarColor: [0.552439, 0.768945, 0.314637, 1]
+  demographics:
+    type: 54
+    gdp: 38880
+    tech: 12
+    economy: 0
+    government: 5
+    description: The world Tiregees is reasonably noted for its inhabitants’ exceptional love for tourists and the Tiregeesian edible arts graduate.
+    inhabitants: Harmless Frogs
+- type: star
+  type: primary
+  color: [0.31102, 0.384144, 0.664883, 1]
+  radius: 120952.267761
+  orbit:
+    type: static
+    parent: ~
+    radius: 191920
+    vector: [-0.616, -0.593, -0.519]
+  corona:
+    shimmer: 0.458146
+    hues: 0.623482
+    flare: 0.019542
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Tiregees
+    vector: undefined
+    radius: 9596

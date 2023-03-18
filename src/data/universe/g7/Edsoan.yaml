@@ -1,0 +1,61 @@
+name: Edsoan
+position: [123, 20]
+seed: 27 20 166 123 31 184
+limits:
+  blurs: 104
+  stars: 9626
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edsoan
+  radius: 4987
+  rotationSpeed: 0.000219
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 548570
+  land:
+    ratio: 0.27
+    color: [0.515625, 0.445129, 0.491392, 1]
+    polarColor: [0.948438, 0.91602, 0.937294, 1]
+  sea:
+    color: [0.686098, 0.6875, 0.508105, 1]
+    polarColor: [0.930775, 0.93125, 0.870501, 1]
+  air:
+    color: [0.669163, 0.852492, 0.918352, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.6268, 0.757812, 0.595001, 1]
+    ratio: 0.46
+    polarColor: [0.750143, 0.841016, 0.728086, 1]
+  demographics:
+    type: 41
+    gdp: 15744
+    tech: 8
+    economy: 4
+    government: 4
+    description: The planet Edsoan is well known for its inhabitants’ ancient mating traditions but ravaged by unpredictable civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.791168, 0.559367, 0.200617, 1]
+  radius: 144189.711761
+  orbit:
+    type: static
+    parent: ~
+    radius: 598440
+    vector: [0.458, -0.234, 0.857]
+  corona:
+    shimmer: 1.16745
+    hues: 0.805168
+    flare: 0.071571
+stations:
+- type: coriolis
+  orbit:
+    parent: Edsoan
+    vector: undefined
+    radius: 9974

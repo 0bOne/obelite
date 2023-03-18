@@ -1,0 +1,61 @@
+name: Raaran
+position: [124, 25]
+seed: 187 25 70 124 127 244
+limits:
+  blurs: 111
+  stars: 5770
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raaran
+  radius: 3964
+  rotationSpeed: 0.002747
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 475680
+  land:
+    ratio: 0.41
+    color: [0.0254822, 0.652344, 0.064661, 1]
+    polarColor: [0.710203, 0.934766, 0.724238, 1]
+  sea:
+    color: [0.545747, 0.660156, 0.525804, 1]
+    polarColor: [0.893518, 0.933984, 0.886464, 1]
+  air:
+    color: [0.732921, 0.53522, 0.93266, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.800781, 0.2565, 0.524389, 1]
+    ratio: 0.33
+    polarColor: [0.860352, 0.49487, 0.674756, 1]
+  demographics:
+    type: 20
+    gdp: 4480
+    tech: 4
+    economy: 3
+    government: 0
+    description: The world Raaran is a boring world.
+    inhabitants: Furry Humanoids
+- type: star
+  type: primary
+  color: [0.805634, 0.436671, 0.211698, 1]
+  radius: 88025.647583
+  orbit:
+    type: static
+    parent: ~
+    radius: 436040
+    vector: [-0.619, -0.088, 0.78]
+  corona:
+    shimmer: 0.318538
+    hues: 0.666183
+    flare: 0.077911
+stations:
+- type: coriolis
+  orbit:
+    parent: Raaran
+    vector: undefined
+    radius: 7928

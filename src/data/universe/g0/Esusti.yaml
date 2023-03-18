@@ -1,0 +1,61 @@
+name: Esusti
+position: [133, 121]
+seed: 58 121 164 133 91 73
+limits:
+  blurs: 148
+  stars: 9702
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esusti
+  radius: 5253
+  rotationSpeed: 0.002123
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 630360
+  land:
+    ratio: 0.38
+    color: [0.0154688, 0.66, 0.448513, 1]
+    polarColor: [0.705973, 0.934, 0.859179, 1]
+  sea:
+    color: [0.556641, 0.518147, 0.44466, 1]
+    polarColor: [0.944336, 0.92801, 0.896842, 1]
+  air:
+    color: [0.592267, 0.945014, 0.950221, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.828719, 0.853516, 0.400085, 1]
+    ratio: 0.63
+    polarColor: [0.868029, 0.884082, 0.590539, 1]
+  demographics:
+    type: 42
+    gdp: 24192
+    tech: 9
+    economy: 1
+    government: 4
+    description: This world is very well known for its inhabitants’ ancient loathing of discos and the Esustiian spotted cat.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.693704, 0.690963, 0.471902, 1]
+  radius: 159507.293701
+  orbit:
+    type: static
+    parent: ~
+    radius: 472770
+    vector: [0.789, -0.612, -0.059]
+  corona:
+    shimmer: 1.077328
+    hues: 0.635406
+    flare: 0.079471
+stations:
+- type: coriolis
+  orbit:
+    parent: Esusti
+    vector: undefined
+    radius: 10506

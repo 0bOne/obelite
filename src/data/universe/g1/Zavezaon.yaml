@@ -1,0 +1,61 @@
+name: Zavezaon
+position: [201, 232]
+seed: 116 232 160 201 102 228
+limits:
+  blurs: 192
+  stars: 5027
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zavezaon
+  radius: 4041
+  rotationSpeed: 0.003337
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 484920
+  land:
+    ratio: 0.53
+    color: [0.66, 0.128906, 0.290724, 1]
+    polarColor: [0.934, 0.746105, 0.803355, 1]
+  sea:
+    color: [0.605606, 0.619141, 0.48588, 1]
+    polarColor: [0.932959, 0.938086, 0.887609, 1]
+  air:
+    color: [0.639781, 0.878027, 0.82385, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.636719, 0.54481, 0.499924, 1]
+    ratio: 0.22
+    polarColor: [0.786523, 0.715565, 0.680911, 1]
+  demographics:
+    type: 45
+    gdp: 28800
+    tech: 10
+    economy: 0
+    government: 4
+    description: This planet is beset by dreadful earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.752637, 0.67985, 0.574394, 1]
+  radius: 99349.060364
+  orbit:
+    type: static
+    parent: ~
+    radius: 282870
+    vector: [-0.078, 0.903, 0.423]
+  corona:
+    shimmer: 0.352598
+    hues: 0.746872
+    flare: 0.025842
+stations:
+- type: coriolis
+  orbit:
+    parent: Zavezaon
+    vector: undefined
+    radius: 8082

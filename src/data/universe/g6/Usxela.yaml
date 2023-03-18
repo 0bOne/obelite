@@ -1,0 +1,61 @@
+name: Usxela
+position: [74, 176]
+seed: 14 176 66 74 80 200
+limits:
+  blurs: 128
+  stars: 7501
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usxela
+  radius: 4938
+  rotationSpeed: 0.002056
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 740700
+  land:
+    ratio: 0.42
+    color: [0.412595, 0.533203, 0.0791473, 1]
+    polarColor: [0.893146, 0.94668, 0.74514, 1]
+  sea:
+    color: [0.62655, 0.84375, 0.838659, 1]
+    polarColor: [0.856699, 0.915625, 0.914244, 1]
+  air:
+    color: [0.724977, 0.808705, 0.905994, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.720703, 0.720703, 0.720703, 1]
+    ratio: 0.24
+    polarColor: [0.824316, 0.824316, 0.824316, 1]
+  demographics:
+    type: 31
+    gdp: 7936
+    tech: 7
+    economy: 2
+    government: 0
+    description: Usxela is most noted for the Usxelaian deadly goat and its hoopy casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.799789, 0.799997, 0.769785, 1]
+  radius: 85793.379822
+  orbit:
+    type: static
+    parent: ~
+    radius: 197520
+    vector: [0.273, 0.93, 0.248]
+  corona:
+    shimmer: 0.347174
+    hues: 0.856575
+    flare: 0.041365
+stations:
+- type: coriolis
+  orbit:
+    parent: Usxela
+    vector: undefined
+    radius: 9876

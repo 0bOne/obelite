@@ -1,0 +1,61 @@
+name: Beenbeor
+position: [173, 112]
+seed: 217 112 241 173 141 19
+limits:
+  blurs: 127
+  stars: 7409
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beenbeor
+  radius: 3757
+  rotationSpeed: 0.000972
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 563550
+  land:
+    ratio: 0.25
+    color: [0.129593, 0.582031, 0.263911, 1]
+    polarColor: [0.758772, 0.941797, 0.813107, 1]
+  sea:
+    color: [0.529297, 0.40545, 0.446087, 1]
+    polarColor: [0.94707, 0.89167, 0.909849, 1]
+  air:
+    color: [0.671688, 0.810738, 0.94892, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.613976, 0.849609, 0.733633, 1]
+    ratio: 0.45
+    polarColor: [0.729382, 0.882324, 0.807048, 1]
+  demographics:
+    type: 51
+    gdp: 40800
+    tech: 11
+    economy: 0
+    government: 6
+    description: This planet is beset by deadly earthquakes.
+    inhabitants: Green Furry Rodents
+- type: star
+  type: primary
+  color: [0.18506, 0.281179, 0.701025, 1]
+  radius: 125630.9935
+  orbit:
+    type: static
+    parent: ~
+    radius: 262990
+    vector: [0.857, -0.343, 0.384]
+  corona:
+    shimmer: 0.41109
+    hues: 0.615395
+    flare: 0.095317
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Beenbeor
+    vector: undefined
+    radius: 7514

@@ -1,0 +1,61 @@
+name: Bexe
+position: [233, 69]
+seed: 182 69 100 233 211 115
+limits:
+  blurs: 190
+  stars: 8976
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bexe
+  radius: 3817
+  rotationSpeed: 0.003721
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 381700
+  land:
+    ratio: 0.69
+    color: [0.605013, 0.66, 0.559453, 1]
+    polarColor: [0.914546, 0.934, 0.898428, 1]
+  sea:
+    color: [0.622212, 0.773991, 0.798828, 1]
+    polarColor: [0.869259, 0.912965, 0.920117, 1]
+  air:
+    color: [0.571861, 0.914786, 0.985342, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.627607, 0.958984, 0.325905, 1]
+    ratio: 0.18
+    polarColor: [0.730358, 0.931543, 0.547191, 1]
+  demographics:
+    type: 30
+    gdp: 9600
+    tech: 5
+    economy: 5
+    government: 4
+    description: The planet Bexe is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ eccentric shyness.
+    inhabitants: Blue Fat Insects
+- type: star
+  type: primary
+  color: [0.436737, 0.711781, 0.732385, 1]
+  radius: 102756.020966
+  orbit:
+    type: static
+    parent: ~
+    radius: 419870
+    vector: [-0.815, 0.225, 0.534]
+  corona:
+    shimmer: 0.361981
+    hues: 0.823799
+    flare: 0.04238
+stations:
+- type: coriolis
+  orbit:
+    parent: Bexe
+    vector: undefined
+    radius: 7634

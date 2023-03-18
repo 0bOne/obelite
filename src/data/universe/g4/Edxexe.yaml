@@ -1,0 +1,61 @@
+name: Edxexe
+position: [39, 195]
+seed: 164 195 4 39 53 24
+limits:
+  blurs: 41
+  stars: 8466
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edxexe
+  radius: 4903
+  rotationSpeed: 0.001384
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 539330
+  land:
+    ratio: 0.39
+    color: [0.109456, 0.576172, 0.105782, 1]
+    polarColor: [0.751544, 0.942383, 0.750041, 1]
+  sea:
+    color: [0.548828, 0.418481, 0.442921, 1]
+    polarColor: [0.945117, 0.889001, 0.899523, 1]
+  air:
+    color: [0.78847, 0.521296, 0.956074, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.871094, 0.204163, 0.29795, 1]
+    ratio: 0.46
+    polarColor: [0.891992, 0.46516, 0.525183, 1]
+  demographics:
+    type: 32
+    gdp: 7168
+    tech: 7
+    economy: 3
+    government: 0
+    description: The planet Edxexe is cursed by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.666315, 0.661583, 0.634486, 1]
+  radius: 92199.831696
+  orbit:
+    type: static
+    parent: ~
+    radius: 588360
+    vector: [0.938, -0.238, -0.252]
+  corona:
+    shimmer: 0.277446
+    hues: 0.526764
+    flare: 0.040137
+stations:
+- type: coriolis
+  orbit:
+    parent: Edxexe
+    vector: undefined
+    radius: 9806

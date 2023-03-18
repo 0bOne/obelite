@@ -1,0 +1,61 @@
+name: Lalati
+position: [171, 212]
+seed: 42 212 242 171 202 117
+limits:
+  blurs: 79
+  stars: 7204
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lalati
+  radius: 4267
+  rotationSpeed: 0.003204
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 512040
+  land:
+    ratio: 0.57
+    color: [0.338439, 0.66, 0.260391, 1]
+    polarColor: [0.820236, 0.934, 0.792623, 1]
+  sea:
+    color: [0.654297, 0.640415, 0.492767, 1]
+    polarColor: [0.93457, 0.929613, 0.87689, 1]
+  air:
+    color: [0.578892, 0.889904, 0.988594, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.510214, 0.96875, 0.34436, 1]
+    ratio: 0.35
+    polarColor: [0.659059, 0.935938, 0.558912, 1]
+  demographics:
+    type: 47
+    gdp: 22560
+    tech: 9
+    economy: 4
+    government: 6
+    description: Lalati is a revolting little planet.
+    inhabitants: Blue Rodents
+- type: star
+  type: primary
+  color: [0.827875, 0.752401, 0.615462, 1]
+  radius: 114165.81955
+  orbit:
+    type: static
+    parent: ~
+    radius: 256020
+    vector: [-0.44, 0.118, -0.89]
+  corona:
+    shimmer: 0.320912
+    hues: 0.647621
+    flare: 0.029149
+stations:
+- type: coriolis
+  orbit:
+    parent: Lalati
+    vector: undefined
+    radius: 8534

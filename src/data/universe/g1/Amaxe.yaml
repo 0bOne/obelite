@@ -1,0 +1,61 @@
+name: Amaxe
+position: [71, 117]
+seed: 0 117 112 71 58 79
+limits:
+  blurs: 196
+  stars: 7107
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Amaxe
+  radius: 6727
+  rotationSpeed: 0.001218
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 739970
+  land:
+    ratio: 0.31
+    color: [0.66, 0.339124, 0.198516, 1]
+    polarColor: [0.934, 0.820478, 0.770732, 1]
+  sea:
+    color: [0.587891, 0.408768, 0.547308, 1]
+    polarColor: [0.941211, 0.869517, 0.924968, 1]
+  air:
+    color: [0.753946, 0.521099, 0.94892, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.849609, 0.209084, 0.434268, 1]
+    ratio: 0.38
+    polarColor: [0.882324, 0.466581, 0.61274, 1]
+  demographics:
+    type: 44
+    gdp: 17600
+    tech: 8
+    economy: 5
+    government: 6
+    description: The world Amaxe is a dull world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.652032, 0.617324, 0.572936, 1]
+  radius: 174004.259186
+  orbit:
+    type: static
+    parent: ~
+    radius: 807240
+    vector: [-0.027, 0.989, -0.144]
+  corona:
+    shimmer: 0.808248
+    hues: 0.817154
+    flare: 0.081114
+stations:
+- type: coriolis
+  orbit:
+    parent: Amaxe
+    vector: undefined
+    radius: 13454

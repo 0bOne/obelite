@@ -1,0 +1,61 @@
+name: Diis
+position: [239, 156]
+seed: 188 156 168 239 181 64
+limits:
+  blurs: 74
+  stars: 9728
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diis
+  radius: 3055
+  rotationSpeed: 0.002839
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 366600
+  land:
+    ratio: 0.24
+    color: [0.66, 0.56606, 0.386719, 1]
+    polarColor: [0.934, 0.900765, 0.837316, 1]
+  sea:
+    color: [0.595703, 0.4142, 0.537565, 1]
+    polarColor: [0.94043, 0.868795, 0.917484, 1]
+  air:
+    color: [0.725123, 0.792346, 0.924205, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.739044, 0.775391, 0.775391, 1]
+    ratio: 0.51
+    polarColor: [0.824055, 0.848926, 0.848926, 1]
+  demographics:
+    type: 46
+    gdp: 19872
+    tech: 9
+    economy: 4
+    government: 5
+    description: Diis is mildly well known for killer Ar juice.
+    inhabitants: Large Yellow Bony Lobsters
+- type: star
+  type: primary
+  color: [0.781461, 0.744662, 0.715684, 1]
+  radius: 75155.069733
+  orbit:
+    type: static
+    parent: ~
+    radius: 244400
+    vector: [0.229, -0.684, 0.693]
+  corona:
+    shimmer: 0.554253
+    hues: 0.705482
+    flare: 0.057025
+stations:
+- type: coriolis
+  orbit:
+    parent: Diis
+    vector: undefined
+    radius: 6110

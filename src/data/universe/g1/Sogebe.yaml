@@ -1,0 +1,61 @@
+name: Sogebe
+position: [233, 243]
+seed: 48 243 40 233 26 39
+limits:
+  blurs: 122
+  stars: 9595
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sogebe
+  radius: 4841
+  rotationSpeed: 0.004662
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 677740
+  land:
+    ratio: 0.4
+    color: [0.566406, 0.565853, 0.564194, 1]
+    polarColor: [0.943359, 0.943129, 0.942438, 1]
+  sea:
+    color: [0.707031, 0.676824, 0.513702, 1]
+    polarColor: [0.929297, 0.919371, 0.865771, 1]
+  air:
+    color: [0.65235, 0.88605, 0.909896, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.679493, 0.732422, 0.549316, 1]
+    ratio: 0.48
+    polarColor: [0.792121, 0.82959, 0.699966, 1]
+  demographics:
+    type: 41
+    gdp: 20664
+    tech: 8
+    economy: 3
+    government: 5
+    description: Sogebe is an unremarkable planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.481672, 0.513204, 0.712442, 1]
+  radius: 147452.682037
+  orbit:
+    type: static
+    parent: ~
+    radius: 290460
+    vector: [0.308, 0.861, -0.405]
+  corona:
+    shimmer: 0.385329
+    hues: 0.933395
+    flare: 0.028166
+stations:
+- type: coriolis
+  orbit:
+    parent: Sogebe
+    vector: undefined
+    radius: 9682

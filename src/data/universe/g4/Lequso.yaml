@@ -1,0 +1,61 @@
+name: Lequso
+position: [11, 44]
+seed: 164 44 196 11 181 33
+limits:
+  blurs: 91
+  stars: 5568
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lequso
+  radius: 3083
+  rotationSpeed: 0.003883
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 277470
+  land:
+    ratio: 0.69
+    color: [0.144375, 0.418301, 0.66, 1]
+    polarColor: [0.751578, 0.84849, 0.934, 1]
+  sea:
+    color: [0.634766, 0.472529, 0.468636, 1]
+    polarColor: [0.936523, 0.876683, 0.875247, 1]
+  air:
+    color: [0.552999, 0.96583, 0.923504, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.900391, 0.717664, 0.284889, 1]
+    ratio: 0.27
+    polarColor: [0.905176, 0.790365, 0.518443, 1]
+  demographics:
+    type: 23
+    gdp: 2944
+    tech: 4
+    economy: 6
+    government: 0
+    description: Lequso is most famous for its vast dense forests and its exotic night life.
+    inhabitants: Large Red Rodents
+- type: star
+  type: primary
+  color: [0.817657, 0.780019, 0.71613, 1]
+  radius: 66035.45517
+  orbit:
+    type: static
+    parent: ~
+    radius: 462450
+    vector: [0.289, -0.65, 0.703]
+  corona:
+    shimmer: 0.478484
+    hues: 0.615417
+    flare: 0.04176
+stations:
+- type: coriolis
+  orbit:
+    parent: Lequso
+    vector: undefined
+    radius: 6166

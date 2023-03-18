@@ -1,0 +1,61 @@
+name: Orus
+position: [207, 55]
+seed: 189 55 60 207 49 185
+limits:
+  blurs: 105
+  stars: 7497
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orus
+  radius: 5327
+  rotationSpeed: 0.003201
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 585970
+  land:
+    ratio: 0.64
+    color: [0.22194, 0.0438281, 0.66, 1]
+    polarColor: [0.77902, 0.716006, 0.934, 1]
+  sea:
+    color: [0.617188, 0.490682, 0.456863, 1]
+    polarColor: [0.938281, 0.890201, 0.877348, 1]
+  air:
+    color: [0.653659, 0.876727, 0.846892, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.632812, 0.592257, 0.528992, 1]
+    ratio: 0.31
+    polarColor: [0.784766, 0.753332, 0.704296, 1]
+  demographics:
+    type: 43
+    gdp: 11352
+    tech: 7
+    economy: 7
+    government: 7
+    description: The world Orus is notable for its unusual tropical forests and its exciting sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.395172, 0.72878, 0.836066, 1]
+  radius: 129954.544983
+  orbit:
+    type: static
+    parent: ~
+    radius: 426160
+    vector: [-0.044, 0.998, -0.044]
+  corona:
+    shimmer: 0.583206
+    hues: 0.70565
+    flare: 0.056567
+stations:
+- type: coriolis
+  orbit:
+    parent: Orus
+    vector: undefined
+    radius: 10654

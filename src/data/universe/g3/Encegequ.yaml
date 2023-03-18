@@ -1,0 +1,61 @@
+name: Encegequ
+position: [11, 198]
+seed: 250 198 162 11 106 50
+limits:
+  blurs: 113
+  stars: 6696
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Encegequ
+  radius: 3339
+  rotationSpeed: 0.003774
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 333900
+  land:
+    ratio: 0.37
+    color: [0.617844, 0.244922, 0.66, 1]
+    polarColor: [0.919086, 0.78715, 0.934, 1]
+  sea:
+    color: [0.565098, 0.671875, 0.526477, 1]
+    polarColor: [0.895751, 0.932813, 0.882346, 1]
+  air:
+    color: [0.410419, 0.845508, 0.814483, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.539062, 0.435554, 0.02948, 1]
+    ratio: 0.4
+    polarColor: [0.742578, 0.653461, 0.303848, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 6
+    economy: 6
+    government: 4
+    description: The planet Encegequ is most noted for the Encegequian evil talking treeoid and its inhabitants’ ingrained shyness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.698483, 0.527665, 0.40154, 1]
+  radius: 88064.494629
+  orbit:
+    type: static
+    parent: ~
+    radius: 333900
+    vector: [0.364, -0.361, -0.859]
+  corona:
+    shimmer: 0.295561
+    hues: 0.693817
+    flare: 0.051846
+stations:
+- type: coriolis
+  orbit:
+    parent: Encegequ
+    vector: undefined
+    radius: 6678

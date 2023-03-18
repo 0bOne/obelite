@@ -1,0 +1,61 @@
+name: Intiso
+position: [227, 199]
+seed: 155 199 38 227 159 108
+limits:
+  blurs: 88
+  stars: 5281
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Intiso
+  radius: 6115
+  rotationSpeed: 0.000201
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 733800
+  land:
+    ratio: 0.55
+    color: [0.446016, 0.514558, 0.66, 1]
+    polarColor: [0.858295, 0.882544, 0.934, 1]
+  sea:
+    color: [0.587891, 0.491287, 0.448956, 1]
+    polarColor: [0.941211, 0.902546, 0.885602, 1]
+  air:
+    color: [0.78584, 0.483105, 0.98209, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.949219, 0.0704498, 0.214623, 1]
+    ratio: 0.43
+    polarColor: [0.927148, 0.390688, 0.478701, 1]
+  demographics:
+    type: 32
+    gdp: 6144
+    tech: 5
+    economy: 7
+    government: 4
+    description: The planet Intiso is most famous for the Intisoian spotted shrew and the Intisoian edible poet.
+    inhabitants: Blue Fat Birds
+- type: star
+  type: primary
+  color: [0.282424, 0.353239, 0.650851, 1]
+  radius: 206732.086182
+  orbit:
+    type: static
+    parent: ~
+    radius: 366900
+    vector: [0.275, 0.943, 0.187]
+  corona:
+    shimmer: 0.375354
+    hues: 0.733376
+    flare: 0.042746
+stations:
+- type: coriolis
+  orbit:
+    parent: Intiso
+    vector: undefined
+    radius: 12230

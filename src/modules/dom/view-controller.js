@@ -25,6 +25,22 @@ export default class ViewController
         await this.ChangeView(event.detail.to);
     }
 
+    async onKey(event)
+    {
+        if (this._currentView)
+        {
+            this._currentView.onKey(event);
+        }
+    }
+
+    animate(gameCtx)
+    {
+        if (this._currentView)
+        {
+            this._currentView.animate(gameCtx);
+        }
+    }
+
     async ChangeView(viewId)
     {
         const viewClass = VIEW_CLASS_MAP[viewId];

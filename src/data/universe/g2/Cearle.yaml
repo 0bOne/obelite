@@ -1,0 +1,61 @@
+name: Cearle
+position: [241, 179]
+seed: 141 179 161 241 149 165
+limits:
+  blurs: 134
+  stars: 9859
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cearle
+  radius: 4337
+  rotationSpeed: 0.003862
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 650550
+  land:
+    ratio: 0.3
+    color: [0.223022, 0.509766, 0.429119, 1]
+    polarColor: [0.815567, 0.949023, 0.911489, 1]
+  sea:
+    color: [0.578125, 0.722656, 0.671844, 1]
+    polarColor: [0.881348, 0.927734, 0.911427, 1]
+  air:
+    color: [0.577636, 0.530649, 0.890385, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.428463, 0.260582, 0.673828, 1]
+    ratio: 0.25
+    polarColor: [0.620421, 0.495347, 0.803223, 1]
+  demographics:
+    type: 36
+    gdp: 16128
+    tech: 7
+    economy: 3
+    government: 4
+    description: The world Cearle is beset by dreadful earthquakes.
+    inhabitants: Fierce Harmless Horned Lobsters
+- type: star
+  type: primary
+  color: [0.386572, 0.518849, 0.795584, 1]
+  radius: 108723.45993
+  orbit:
+    type: static
+    parent: ~
+    radius: 173480
+    vector: [0.451, -0.445, -0.774]
+  corona:
+    shimmer: 0.284882
+    hues: 0.856285
+    flare: 0.014178
+stations:
+- type: coriolis
+  orbit:
+    parent: Cearle
+    vector: undefined
+    radius: 8674

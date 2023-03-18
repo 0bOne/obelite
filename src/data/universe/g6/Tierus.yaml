@@ -1,0 +1,61 @@
+name: Tierus
+position: [120, 79]
+seed: 210 79 234 120 148 247
+limits:
+  blurs: 63
+  stars: 8325
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tierus
+  radius: 4728
+  rotationSpeed: 0.001615
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 567360
+  land:
+    ratio: 0.4
+    color: [0.66, 0.00773438, 0.573371, 1]
+    polarColor: [0.934, 0.703236, 0.903352, 1]
+  sea:
+    color: [0.537109, 0.451009, 0.424652, 1]
+    polarColor: [0.946289, 0.908366, 0.896757, 1]
+  air:
+    color: [0.516374, 0.504849, 0.900141, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.249081, 0.197754, 0.703125, 1]
+    ratio: 0.44
+    polarColor: [0.486909, 0.449661, 0.816406, 1]
+  demographics:
+    type: 25
+    gdp: 5400
+    tech: 3
+    economy: 7
+    government: 5
+    description: The world Tierus is a boring world.
+    inhabitants: Lizards
+- type: star
+  type: primary
+  color: [0.718265, 0.477484, 0.261198, 1]
+  radius: 95441.594238
+  orbit:
+    type: static
+    parent: ~
+    radius: 567360
+    vector: [0.664, 0.682, 0.308]
+  corona:
+    shimmer: 0.260427
+    hues: 0.708496
+    flare: 0.083434
+stations:
+- type: coriolis
+  orbit:
+    parent: Tierus
+    vector: undefined
+    radius: 9456

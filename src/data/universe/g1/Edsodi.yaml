@@ -1,0 +1,61 @@
+name: Edsodi
+position: [206, 32]
+seed: 128 32 96 206 90 24
+limits:
+  blurs: 154
+  stars: 6163
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edsodi
+  radius: 5070
+  rotationSpeed: 0.004339
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 608400
+  land:
+    ratio: 0.63
+    color: [0.470508, 0.281016, 0.66, 1]
+    polarColor: [0.86696, 0.79992, 0.934, 1]
+  sea:
+    color: [0.583984, 0.523839, 0.4535, 1]
+    polarColor: [0.941602, 0.917358, 0.889004, 1]
+  air:
+    color: [0.633697, 0.895104, 0.929408, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.689966, 0.791016, 0.509834, 1]
+    ratio: 0.45
+    polarColor: [0.787616, 0.855957, 0.665791, 1]
+  demographics:
+    type: 49
+    gdp: 31360
+    tech: 11
+    economy: 0
+    government: 4
+    description: This world is reasonably notable for its exotic night life but ravaged by frequent earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.569347, 0.649775, 0.764996, 1]
+  radius: 157417.094421
+  orbit:
+    type: static
+    parent: ~
+    radius: 202800
+    vector: [0.036, 0.417, -0.908]
+  corona:
+    shimmer: 0.37044
+    hues: 0.889717
+    flare: 0.075905
+stations:
+- type: icosahedron
+  orbit:
+    parent: Edsodi
+    vector: undefined
+    radius: 10140

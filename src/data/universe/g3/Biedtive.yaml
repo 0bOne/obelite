@@ -1,0 +1,61 @@
+name: Biedtive
+position: [55, 90]
+seed: 202 90 146 55 138 38
+limits:
+  blurs: 94
+  stars: 5257
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biedtive
+  radius: 4407
+  rotationSpeed: 0.0019
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 572910
+  land:
+    ratio: 0.69
+    color: [0.66, 0.399448, 0.319688, 1]
+    polarColor: [0.934, 0.84182, 0.813602, 1]
+  sea:
+    color: [0.555275, 0.712891, 0.576208, 1]
+    polarColor: [0.877378, 0.928711, 0.884196, 1]
+  air:
+    color: [0.492145, 0.55163, 0.887783, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.174309, 0.389431, 0.666016, 1]
+    ratio: 0.17
+    polarColor: [0.430702, 0.592142, 0.799707, 1]
+  demographics:
+    type: 41
+    gdp: 15744
+    tech: 9
+    economy: 2
+    government: 2
+    description: The planet Biedtive is scourged by evil disease.
+    inhabitants: Fierce Red Furry Insects
+- type: star
+  type: primary
+  color: [0.70343, 0.649079, 0.393154, 1]
+  radius: 96122.711334
+  orbit:
+    type: static
+    parent: ~
+    radius: 308490
+    vector: [0.288, -0.773, 0.566]
+  corona:
+    shimmer: 0.293268
+    hues: 0.832596
+    flare: 0.028584
+stations:
+- type: coriolis
+  orbit:
+    parent: Biedtive
+    vector: undefined
+    radius: 8814

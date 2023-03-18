@@ -1,0 +1,61 @@
+name: Anquerbi
+position: [90, 163]
+seed: 210 163 234 90 148 155
+limits:
+  blurs: 137
+  stars: 6071
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anquerbi
+  radius: 5722
+  rotationSpeed: 0.001568
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 572200
+  land:
+    ratio: 0.3
+    color: [0.630859, 0.474434, 0.47068, 1]
+    polarColor: [0.936914, 0.878836, 0.877442, 1]
+  sea:
+    color: [0.144379, 0.601182, 0.648438, 1]
+    polarColor: [0.753422, 0.918119, 0.935156, 1]
+  air:
+    color: [0.563102, 0.957375, 0.910798, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.875, 0.683487, 0.317871, 1]
+    ratio: 0.24
+    polarColor: [0.89375, 0.771489, 0.538083, 1]
+  demographics:
+    type: 45
+    gdp: 22680
+    tech: 9
+    economy: 3
+    government: 5
+    description: This world is mildly famous for its hoopy night life and its fabulous cuisine.
+    inhabitants: Black Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.73739, 0.524641, 0.368262, 1]
+  radius: 120436.505127
+  orbit:
+    type: static
+    parent: ~
+    radius: 572200
+    vector: [-0.367, 0.375, -0.852]
+  corona:
+    shimmer: 0.336818
+    hues: 0.820801
+    flare: 0.058185
+stations:
+- type: coriolis
+  orbit:
+    parent: Anquerbi
+    vector: undefined
+    radius: 11444

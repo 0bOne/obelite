@@ -1,0 +1,61 @@
+name: Sodiri
+position: [201, 220]
+seed: 145 220 128 201 125 71
+limits:
+  blurs: 76
+  stars: 5553
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sodiri
+  radius: 4809
+  rotationSpeed: 0.004711
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 577080
+  land:
+    ratio: 0.4
+    color: [0.625, 0.492249, 0.478516, 1]
+    polarColor: [0.9375, 0.887718, 0.882568, 1]
+  sea:
+    color: [0.160507, 0.613281, 0.570834, 1]
+    polarColor: [0.765421, 0.938672, 0.92243, 1]
+  air:
+    color: [0.603718, 0.474844, 0.950221, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.721144, 0.0833511, 0.853516, 1]
+    ratio: 0.43
+    polarColor: [0.798387, 0.385491, 0.884082, 1]
+  demographics:
+    type: 15
+    gdp: 1920
+    tech: 2
+    economy: 6
+    government: 0
+    description: Sodiri is a revolting little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.677469, 0.490252, 0.250735, 1]
+  radius: 114742.08252
+  orbit:
+    type: static
+    parent: ~
+    radius: 288540
+    vector: [-0.746, -0.638, 0.193]
+  corona:
+    shimmer: 0.245869
+    hues: 0.881561
+    flare: 0.096172
+stations:
+- type: coriolis
+  orbit:
+    parent: Sodiri
+    vector: undefined
+    radius: 9618

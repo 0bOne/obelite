@@ -1,0 +1,61 @@
+name: Inzaquma
+position: [169, 14]
+seed: 244 14 8 169 182 12
+limits:
+  blurs: 190
+  stars: 6752
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inzaquma
+  radius: 6057
+  rotationSpeed: 0.001672
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 847980
+  land:
+    ratio: 0.61
+    color: [0.580078, 0.66, 0.616917, 1]
+    polarColor: [0.905725, 0.934, 0.918758, 1]
+  sea:
+    color: [0.601243, 0.742188, 0.550262, 1]
+    polarColor: [0.881829, 0.925781, 0.865931, 1]
+  air:
+    color: [0.661527, 0.865991, 0.917701, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.6447, 0.755859, 0.575752, 1]
+    ratio: 0.27
+    polarColor: [0.762915, 0.840137, 0.715019, 1]
+  demographics:
+    type: 20
+    gdp: 3200
+    tech: 3
+    economy: 6
+    government: 1
+    description: This planet is very well known for its inhabitants’ unusual mating traditions and its exotic night life.
+    inhabitants: Green Insects
+- type: star
+  type: primary
+  color: [0.398155, 0.748759, 0.77735, 1]
+  radius: 119893.220673
+  orbit:
+    type: static
+    parent: ~
+    radius: 423990
+    vector: [0.257, 0.49, -0.833]
+  corona:
+    shimmer: 0.541128
+    hues: 0.82531
+    flare: 0.040271
+stations:
+- type: coriolis
+  orbit:
+    parent: Inzaquma
+    vector: undefined
+    radius: 12114

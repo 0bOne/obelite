@@ -1,0 +1,61 @@
+name: Resobi
+position: [241, 72]
+seed: 11 72 22 241 47 110
+limits:
+  blurs: 159
+  stars: 6904
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Resobi
+  radius: 6641
+  rotationSpeed: 0.001454
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 863330
+  land:
+    ratio: 0.71
+    color: [0.0204468, 0.654297, 0.0303507, 1]
+    polarColor: [0.708229, 0.93457, 0.711766, 1]
+  sea:
+    color: [0.710938, 0.679695, 0.510986, 1]
+    polarColor: [0.928906, 0.918701, 0.863593, 1]
+  air:
+    color: [0.712889, 0.821738, 0.898189, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.683647, 0.697266, 0.687052, 1]
+    ratio: 0.23
+    polarColor: [0.803836, 0.81377, 0.806319, 1]
+  demographics:
+    type: 39
+    gdp: 18720
+    tech: 9
+    economy: 0
+    government: 2
+    description: The planet Resobi is reasonably fabled for Zero-G hockey and its inhabitants’ ingrained shyness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.753118, 0.764401, 0.764749, 1]
+  radius: 128390.70755
+  orbit:
+    type: static
+    parent: ~
+    radius: 730510
+    vector: [0.756, 0.629, -0.18]
+  corona:
+    shimmer: 0.322374
+    hues: 0.618362
+    flare: 0.0647
+stations:
+- type: coriolis
+  orbit:
+    parent: Resobi
+    vector: undefined
+    radius: 13282

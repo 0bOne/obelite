@@ -1,0 +1,61 @@
+name: Isteesge
+position: [16, 175]
+seed: 114 175 2 16 52 93
+limits:
+  blurs: 78
+  stars: 9228
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isteesge
+  radius: 6160
+  rotationSpeed: 0.001217
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 616000
+  land:
+    ratio: 0.37
+    color: [0.652668, 0.66, 0.525937, 1]
+    polarColor: [0.931406, 0.934, 0.88657, 1]
+  sea:
+    color: [0.635853, 0.780004, 0.830078, 1]
+    polarColor: [0.863352, 0.903163, 0.916992, 1]
+  air:
+    color: [0.658315, 0.833839, 0.945668, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.577393, 0.839844, 0.624552, 1]
+    ratio: 0.25
+    polarColor: [0.706459, 0.87793, 0.73727, 1]
+  demographics:
+    type: 8
+    gdp: 768
+    tech: 0
+    economy: 7
+    government: 0
+    description: The world Isteesge is scourged by deadly disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.693048, 0.502568, 0.281953, 1]
+  radius: 206492.907715
+  orbit:
+    type: static
+    parent: ~
+    radius: 431200
+    vector: [0.833, -0.15, -0.533]
+  corona:
+    shimmer: 0.477918
+    hues: 0.862984
+    flare: 0.088759
+stations:
+- type: coriolis
+  orbit:
+    parent: Isteesge
+    vector: undefined
+    radius: 12320

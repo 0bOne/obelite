@@ -1,0 +1,61 @@
+name: Riladi
+position: [57, 30]
+seed: 55 30 146 57 19 254
+limits:
+  blurs: 152
+  stars: 6585
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riladi
+  radius: 6457
+  rotationSpeed: 0.003054
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 645700
+  land:
+    ratio: 0.31
+    color: [0.145508, 0.582031, 0.356949, 1]
+    polarColor: [0.76521, 0.941797, 0.850744, 1]
+  sea:
+    color: [0.501953, 0.388622, 0.444402, 1]
+    polarColor: [0.949805, 0.896193, 0.92258, 1]
+  air:
+    color: [0.616305, 0.575824, 0.852662, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.445591, 0.350342, 0.560547, 1]
+    ratio: 0.53
+    polarColor: [0.655828, 0.575938, 0.752246, 1]
+  demographics:
+    type: 21
+    gdp: 4032
+    tech: 3
+    economy: 6
+    government: 2
+    description: The planet Riladi is cursed by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.304653, 0.761946, 0.814413, 1]
+  radius: 150738.869934
+  orbit:
+    type: static
+    parent: ~
+    radius: 581130
+    vector: [0.913, 0.396, 0.095]
+  corona:
+    shimmer: 0.4448
+    hues: 0.987175
+    flare: 0.001161
+stations:
+- type: coriolis
+  orbit:
+    parent: Riladi
+    vector: undefined
+    radius: 12914

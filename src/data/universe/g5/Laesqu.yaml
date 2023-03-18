@@ -1,0 +1,61 @@
+name: Laesqu
+position: [58, 121]
+seed: 7 121 225 58 168 21
+limits:
+  blurs: 171
+  stars: 8971
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laesqu
+  radius: 4154
+  rotationSpeed: 0.003494
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 415400
+  land:
+    ratio: 0.56
+    color: [0.0515625, 0.66, 0.66, 1]
+    polarColor: [0.718742, 0.934, 0.934, 1]
+  sea:
+    color: [0.556197, 0.726562, 0.554855, 1]
+    polarColor: [0.872982, 0.927344, 0.872554, 1]
+  air:
+    color: [0.472745, 0.711659, 0.844857, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.148964, 0.537109, 0.18232, 1]
+    ratio: 0.3
+    polarColor: [0.406703, 0.741699, 0.435492, 1]
+  demographics:
+    type: 46
+    gdp: 26496
+    tech: 10
+    economy: 1
+    government: 4
+    description: The planet Laesqu is scourged by deadly disease.
+    inhabitants: Green Bony Birds
+- type: star
+  type: primary
+  color: [0.700436, 0.668545, 0.212559, 1]
+  radius: 79521.565552
+  orbit:
+    type: static
+    parent: ~
+    radius: 415400
+    vector: [0.731, 0.584, -0.354]
+  corona:
+    shimmer: 0.803571
+    hues: 0.820488
+    flare: 0.098943
+stations:
+- type: coriolis
+  orbit:
+    parent: Laesqu
+    vector: undefined
+    radius: 8308

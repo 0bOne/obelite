@@ -1,0 +1,61 @@
+name: Isata
+position: [144, 99]
+seed: 103 99 121 144 232 61
+limits:
+  blurs: 181
+  stars: 8814
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isata
+  radius: 6288
+  rotationSpeed: 0.001964
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 880320
+  land:
+    ratio: 0.38
+    color: [0.413109, 0.35038, 0.537109, 1]
+    polarColor: [0.891673, 0.864043, 0.946289, 1]
+  sea:
+    color: [0.769531, 0.550729, 0.405807, 1]
+    polarColor: [0.923047, 0.857434, 0.813976, 1]
+  air:
+    color: [0.631448, 0.872824, 0.797213, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.621094, 0.488016, 0.477951, 1]
+    ratio: 0.2
+    polarColor: [0.779492, 0.675107, 0.667212, 1]
+  demographics:
+    type: 43
+    gdp: 26488
+    tech: 8
+    economy: 3
+    government: 7
+    description: This world is very well known for Isataian shrew cutlet and the Isataian tree grub.
+    inhabitants: Red Bony Birds
+- type: star
+  type: primary
+  color: [0.773084, 0.458771, 0.245045, 1]
+  radius: 156346.069336
+  orbit:
+    type: static
+    parent: ~
+    radius: 314400
+    vector: [-0.118, -0.723, -0.681]
+  corona:
+    shimmer: 0.340129
+    hues: 0.881485
+    flare: 0.009735
+stations:
+- type: coriolis
+  orbit:
+    parent: Isata
+    vector: undefined
+    radius: 12576

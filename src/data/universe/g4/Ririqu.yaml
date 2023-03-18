@@ -1,0 +1,61 @@
+name: Ririqu
+position: [61, 227]
+seed: 36 227 36 61 117 158
+limits:
+  blurs: 130
+  stars: 8753
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ririqu
+  radius: 6461
+  rotationSpeed: 0.000199
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 710710
+  land:
+    ratio: 0.51
+    color: [0.394849, 0.517578, 0.0930023, 1]
+    polarColor: [0.89203, 0.948242, 0.753778, 1]
+  sea:
+    color: [0.314003, 0.337124, 0.525391, 1]
+    polarColor: [0.85216, 0.862583, 0.947461, 1]
+  air:
+    color: [0.698213, 0.790446, 0.943066, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.682526, 0.832031, 0.814511, 1]
+    ratio: 0.25
+    polarColor: [0.776213, 0.874414, 0.862906, 1]
+  demographics:
+    type: 36
+    gdp: 16128
+    tech: 7
+    economy: 3
+    government: 4
+    description: This world is fabled for its ancient Za plant plantations.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.341344, 0.454306, 0.683054, 1]
+  radius: 170787.252045
+  orbit:
+    type: static
+    parent: ~
+    radius: 581490
+    vector: [-0.028, 0.996, -0.09]
+  corona:
+    shimmer: 0.273692
+    hues: 0.687279
+    flare: 0.071802
+stations:
+- type: coriolis
+  orbit:
+    parent: Ririqu
+    vector: undefined
+    radius: 12922

@@ -1,0 +1,61 @@
+name: Radiesar
+position: [167, 80]
+seed: 217 80 113 167 186 84
+limits:
+  blurs: 70
+  stars: 8997
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Radiesar
+  radius: 4007
+  rotationSpeed: 0.001275
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 480840
+  land:
+    ratio: 0.36
+    color: [0.381563, 0.607793, 0.66, 1]
+    polarColor: [0.835492, 0.91553, 0.934, 1]
+  sea:
+    color: [0.578669, 0.605469, 0.482956, 1]
+    polarColor: [0.929057, 0.939453, 0.89193, 1]
+  air:
+    color: [0.646282, 0.894938, 0.879147, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.6875, 0.658546, 0.526367, 1]
+    ratio: 0.41
+    polarColor: [0.809375, 0.788071, 0.690814, 1]
+  demographics:
+    type: 59
+    gdp: 47200
+    tech: 13
+    economy: 0
+    government: 6
+    description: This world is reasonably notable for its fabulous cuisine but plagued by evil spotted cats.
+    inhabitants: Yellow Insects
+- type: star
+  type: primary
+  color: [0.730051, 0.51687, 0.205889, 1]
+  radius: 94627.589264
+  orbit:
+    type: static
+    parent: ~
+    radius: 440770
+    vector: [0.641, 0.363, 0.676]
+  corona:
+    shimmer: 0.346366
+    hues: 0.998528
+    flare: 0.093092
+stations:
+- type: icosahedron
+  orbit:
+    parent: Radiesar
+    vector: undefined
+    radius: 8014

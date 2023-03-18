@@ -1,0 +1,61 @@
+name: Bisoaton
+position: [163, 156]
+seed: 228 156 188 163 133 38
+limits:
+  blurs: 141
+  stars: 7548
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bisoaton
+  radius: 4515
+  rotationSpeed: 0.002971
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 451500
+  land:
+    ratio: 0.33
+    color: [0.66, 0.556029, 0.201094, 1]
+    polarColor: [0.934, 0.897216, 0.771645, 1]
+  sea:
+    color: [0.612989, 0.677734, 0.518361, 1]
+    polarColor: [0.909962, 0.932227, 0.877422, 1]
+  air:
+    color: [0.451694, 0.722851, 0.859166, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.101967, 0.580078, 0.109437, 1]
+    ratio: 0.51
+    polarColor: [0.368998, 0.761035, 0.375124, 1]
+  demographics:
+    type: 52
+    gdp: 27456
+    tech: 10
+    economy: 4
+    government: 7
+    description: This planet is plagued by deadly earthquakes.
+    inhabitants: Fierce Red Frogs
+- type: star
+  type: primary
+  color: [0.753268, 0.690562, 0.654624, 1]
+  radius: 104954.322052
+  orbit:
+    type: static
+    parent: ~
+    radius: 496650
+    vector: [-0.45, 0.551, -0.702]
+  corona:
+    shimmer: 0.381831
+    hues: 0.764076
+    flare: 0.013358
+stations:
+- type: coriolis
+  orbit:
+    parent: Bisoaton
+    vector: undefined
+    radius: 9030

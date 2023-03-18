@@ -1,0 +1,61 @@
+name: Arveisri
+position: [187, 208]
+seed: 109 208 129 187 213 42
+limits:
+  blurs: 42
+  stars: 7098
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arveisri
+  radius: 5563
+  rotationSpeed: 0.000048
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 834450
+  land:
+    ratio: 0.61
+    color: [0.12375, 0.622295, 0.66, 1]
+    polarColor: [0.744281, 0.92066, 0.934, 1]
+  sea:
+    color: [0.6075, 0.634766, 0.495167, 1]
+    polarColor: [0.926467, 0.936523, 0.885033, 1]
+  air:
+    color: [0.506902, 0.554178, 0.879328, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.210205, 0.36825, 0.640625, 1]
+    ratio: 0.55
+    polarColor: [0.457265, 0.57881, 0.788281, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: This world is most fabled for Arveisriian Norest brandy but scourged by deadly civil war.
+    inhabitants: Small Red Bony Humanoids
+- type: star
+  type: primary
+  color: [0.67644, 0.669181, 0.58651, 1]
+  radius: 153244.793549
+  orbit:
+    type: static
+    parent: ~
+    radius: 278150
+    vector: [0.729, 0.636, -0.254]
+  corona:
+    shimmer: 0.608528
+    hues: 0.988914
+    flare: 0.040137
+stations:
+- type: coriolis
+  orbit:
+    parent: Arveisri
+    vector: undefined
+    radius: 11126

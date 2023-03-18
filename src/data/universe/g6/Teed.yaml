@@ -1,0 +1,61 @@
+name: Teed
+position: [187, 223]
+seed: 178 223 226 187 116 224
+limits:
+  blurs: 171
+  stars: 8705
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teed
+  radius: 3003
+  rotationSpeed: 0.002552
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 300300
+  land:
+    ratio: 0.36
+    color: [0.66, 0.590834, 0.139219, 1]
+    polarColor: [0.934, 0.90953, 0.749754, 1]
+  sea:
+    color: [0.583984, 0.461852, 0.441866, 1]
+    polarColor: [0.941602, 0.892371, 0.884315, 1]
+  air:
+    color: [0.405079, 0.839004, 0.767422, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.519531, 0.279679, 0.024353, 1]
+    ratio: 0.49
+    polarColor: [0.733789, 0.522059, 0.296669, 1]
+  demographics:
+    type: 32
+    gdp: 6144
+    tech: 5
+    economy: 7
+    government: 4
+    description: This planet is notable for the Teedian edible moth and the Teedian edible arts graduate.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.250298, 0.344524, 0.799558, 1]
+  radius: 68315.775604
+  orbit:
+    type: static
+    parent: ~
+    radius: 300300
+    vector: [0.66, 0.159, 0.735]
+  corona:
+    shimmer: 0.415416
+    hues: 0.725349
+    flare: 0.068509
+stations:
+- type: coriolis
+  orbit:
+    parent: Teed
+    vector: undefined
+    radius: 6006

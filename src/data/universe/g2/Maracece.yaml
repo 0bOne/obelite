@@ -1,0 +1,61 @@
+name: Maracece
+position: [165, 35]
+seed: 205 35 225 165 21 139
+limits:
+  blurs: 115
+  stars: 6562
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maracece
+  radius: 5797
+  rotationSpeed: 0.001338
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 811580
+  land:
+    ratio: 0.24
+    color: [0.649688, 0.66, 0.655891, 1]
+    polarColor: [0.930352, 0.934, 0.932546, 1]
+  sea:
+    color: [0.0543213, 0.695312, 0.575127, 1]
+    polarColor: [0.716025, 0.930469, 0.890261, 1]
+  air:
+    color: [0.5487, 0.478318, 0.935262, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.441558, 0.107391, 0.808594, 1]
+    ratio: 0.39
+    polarColor: [0.618789, 0.395658, 0.863867, 1]
+  demographics:
+    type: 36
+    gdp: 16128
+    tech: 7
+    economy: 3
+    government: 4
+    description: Maracece is an unremarkable dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.668683, 0.571397, 0.409654, 1]
+  radius: 134712.847137
+  orbit:
+    type: static
+    parent: ~
+    radius: 289850
+    vector: [-0.744, 0.538, -0.396]
+  corona:
+    shimmer: 0.323801
+    hues: 0.715996
+    flare: 0.062053
+stations:
+- type: coriolis
+  orbit:
+    parent: Maracece
+    vector: undefined
+    radius: 11594

@@ -1,0 +1,61 @@
+name: Isvetima
+position: [3, 149]
+seed: 233 149 117 3 74 29
+limits:
+  blurs: 76
+  stars: 5780
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isvetima
+  radius: 6147
+  rotationSpeed: 0.003255
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 676170
+  land:
+    ratio: 0.57
+    color: [0.0924683, 0.591797, 0.111973, 1]
+    polarColor: [0.742366, 0.94082, 0.750118, 1]
+  sea:
+    color: [0.623047, 0.485312, 0.45828, 1]
+    polarColor: [0.937695, 0.885872, 0.875701, 1]
+  air:
+    color: [0.761911, 0.533951, 0.941115, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.826172, 0.248497, 0.424507, 1]
+    ratio: 0.49
+    polarColor: [0.871777, 0.4908, 0.606879, 1]
+  demographics:
+    type: 44
+    gdp: 17600
+    tech: 8
+    economy: 5
+    government: 6
+    description: Isvetima is mildly well known for vicious Erma brew.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.656491, 0.653805, 0.59937, 1]
+  radius: 176112.825623
+  orbit:
+    type: static
+    parent: ~
+    radius: 676170
+    vector: [0.458, 0.049, -0.888]
+  corona:
+    shimmer: 0.464287
+    hues: 0.517906
+    flare: 0.090549
+stations:
+- type: coriolis
+  orbit:
+    parent: Isvetima
+    vector: undefined
+    radius: 12294

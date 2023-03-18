@@ -1,0 +1,61 @@
+name: Arazaes
+position: [160, 36]
+seed: 122 36 112 160 179 15
+limits:
+  blurs: 100
+  stars: 6980
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arazaes
+  radius: 6816
+  rotationSpeed: 0.000383
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 1022400
+  land:
+    ratio: 0.56
+    color: [0.558084, 0.66, 0.422813, 1]
+    polarColor: [0.897943, 0.934, 0.850086, 1]
+  sea:
+    color: [0.573585, 0.767578, 0.603896, 1]
+    polarColor: [0.864908, 0.923242, 0.874023, 1]
+  air:
+    color: [0.486255, 0.996398, 0.872429, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.992188, 0.323624, 0.0620117, 1]
+    ratio: 0.26
+    polarColor: [0.946484, 0.54788, 0.391904, 1]
+  demographics:
+    type: 35
+    gdp: 16800
+    tech: 6
+    economy: 4
+    government: 6
+    description: This planet is very notable for the Arazaesian tree ant and Arazaesian wolf meat.
+    inhabitants: Green Fat Insects
+- type: star
+  type: primary
+  color: [0.754443, 0.756989, 0.757416, 1]
+  radius: 196924.116211
+  orbit:
+    type: static
+    parent: ~
+    radius: 340800
+    vector: [0.717, 0.002, -0.697]
+  corona:
+    shimmer: 0.337203
+    hues: 0.873863
+    flare: 0.048862
+stations:
+- type: coriolis
+  orbit:
+    parent: Arazaes
+    vector: undefined
+    radius: 13632

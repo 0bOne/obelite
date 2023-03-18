@@ -1,0 +1,61 @@
+name: Uslaon
+position: [97, 43]
+seed: 188 43 8 97 245 200
+limits:
+  blurs: 156
+  stars: 6319
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Uslaon
+  radius: 4961
+  rotationSpeed: 0.00413
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 644930
+  land:
+    ratio: 0.66
+    color: [0.0464063, 0.127899, 0.66, 1]
+    polarColor: [0.716918, 0.745749, 0.934, 1]
+  sea:
+    color: [0.619141, 0.575917, 0.473546, 1]
+    polarColor: [0.938086, 0.921713, 0.882937, 1]
+  air:
+    color: [0.734103, 0.482422, 0.972984, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.921875, 0.0792236, 0.454467, 1]
+    ratio: 0.56
+    polarColor: [0.914844, 0.392204, 0.624942, 1]
+  demographics:
+    type: 29
+    gdp: 8120
+    tech: 6
+    economy: 3
+    government: 1
+    description: Uslaon is cursed by vicious mountain beasts.
+    inhabitants: Small Horned Lizards
+- type: star
+  type: primary
+  color: [0.388715, 0.420189, 0.809085, 1]
+  radius: 102898.964233
+  orbit:
+    type: static
+    parent: ~
+    radius: 248050
+    vector: [-0.367, 0.859, 0.357]
+  corona:
+    shimmer: 0.355544
+    hues: 0.980263
+    flare: 0.080315
+stations:
+- type: coriolis
+  orbit:
+    parent: Uslaon
+    vector: undefined
+    radius: 9922

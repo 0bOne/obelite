@@ -1,0 +1,61 @@
+name: Qumaus
+position: [195, 237]
+seed: 47 237 202 195 27 122
+limits:
+  blurs: 120
+  stars: 5684
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qumaus
+  radius: 5571
+  rotationSpeed: 0.00114
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 668520
+  land:
+    ratio: 0.37
+    color: [0.386719, 0.66, 0.403799, 1]
+    polarColor: [0.837316, 0.934, 0.843359, 1]
+  sea:
+    color: [0.605469, 0.497524, 0.455284, 1]
+    polarColor: [0.939453, 0.897581, 0.881196, 1]
+  air:
+    color: [0.57822, 0.531419, 0.889734, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.42878, 0.262451, 0.671875, 1]
+    ratio: 0.26
+    polarColor: [0.620906, 0.496764, 0.802344, 1]
+  demographics:
+    type: 25
+    gdp: 3000
+    tech: 4
+    economy: 7
+    government: 1
+    description: The planet Qumaus is mildly notable for its inhabitants’ ingrained silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.229726, 0.442481, 0.830548, 1]
+  radius: 160228.304901
+  orbit:
+    type: static
+    parent: ~
+    radius: 278550
+    vector: [-0.392, 0.916, -0.091]
+  corona:
+    shimmer: 0.49488
+    hues: 0.594933
+    flare: 0.094064
+stations:
+- type: coriolis
+  orbit:
+    parent: Qumaus
+    vector: undefined
+    radius: 11142

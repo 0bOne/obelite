@@ -1,0 +1,61 @@
+name: Onarmala
+position: [194, 168]
+seed: 222 168 10 194 128 95
+limits:
+  blurs: 72
+  stars: 5517
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onarmala
+  radius: 6850
+  rotationSpeed: 0.000463
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 959000
+  land:
+    ratio: 0.57
+    color: [0.66, 0.275859, 0.356889, 1]
+    polarColor: [0.934, 0.798096, 0.826763, 1]
+  sea:
+    color: [0.606322, 0.640625, 0.498987, 1]
+    polarColor: [0.923409, 0.935938, 0.884205, 1]
+  air:
+    color: [0.552089, 0.969123, 0.98209, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.880304, 0.949219, 0.270676, 1]
+    ratio: 0.33
+    polarColor: [0.885078, 0.927148, 0.51292, 1]
+  demographics:
+    type: 36
+    gdp: 11520
+    tech: 8
+    economy: 2
+    government: 1
+    description: Onarmala is an unremarkable dump.
+    inhabitants: Yellow Horned Humanoids
+- type: star
+  type: primary
+  color: [0.844305, 0.847, 0.459633, 1]
+  radius: 185488.082886
+  orbit:
+    type: static
+    parent: ~
+    radius: 548000
+    vector: [0.517, -0.855, -0.049]
+  corona:
+    shimmer: 0.800293
+    hues: 0.735176
+    flare: 0.018913
+stations:
+- type: coriolis
+  orbit:
+    parent: Onarmala
+    vector: undefined
+    radius: 13700

@@ -1,0 +1,61 @@
+name: Vereen
+position: [205, 169]
+seed: 164 169 204 205 165 54
+limits:
+  blurs: 140
+  stars: 7828
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vereen
+  radius: 4557
+  rotationSpeed: 0.00236
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 501270
+  land:
+    ratio: 0.28
+    color: [0.0587769, 0.626953, 0.107605, 1]
+    polarColor: [0.724947, 0.937305, 0.743196, 1]
+  sea:
+    color: [0.639867, 0.757812, 0.5802, 1]
+    polarColor: [0.888258, 0.924219, 0.870065, 1]
+  air:
+    color: [0.620835, 0.866454, 0.961928, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.536897, 0.888672, 0.475578, 1]
+    ratio: 0.1
+    polarColor: [0.677265, 0.899902, 0.638456, 1]
+  demographics:
+    type: 29
+    gdp: 8120
+    tech: 6
+    economy: 3
+    government: 1
+    description: Vereen is a revolting little planet.
+    inhabitants: Red Fat Felines
+- type: star
+  type: primary
+  color: [0.717783, 0.734847, 0.746985, 1]
+  radius: 124133.330841
+  orbit:
+    type: static
+    parent: ~
+    radius: 592410
+    vector: [0.359, -0.763, 0.537]
+  corona:
+    shimmer: 0.690376
+    hues: 0.750168
+    flare: 0.084407
+stations:
+- type: coriolis
+  orbit:
+    parent: Vereen
+    vector: undefined
+    radius: 9114

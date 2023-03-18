@@ -1,0 +1,61 @@
+name: Teabi
+position: [154, 216]
+seed: 14 216 98 154 208 28
+limits:
+  blurs: 110
+  stars: 8154
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teabi
+  radius: 6042
+  rotationSpeed: 0.003239
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 785460
+  land:
+    ratio: 0.63
+    color: [0.295356, 0.020625, 0.66, 1]
+    polarColor: [0.804994, 0.707797, 0.934, 1]
+  sea:
+    color: [0.9, 0.72, 0.828, 1]
+    polarColor: [0.91, 0.8645, 0.8918, 1]
+  air:
+    color: [0.438421, 0.804864, 0.842256, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.400801, 0.529297, 0.0847702, 1]
+    ratio: 0.29
+    polarColor: [0.626179, 0.738184, 0.350709, 1]
+  demographics:
+    type: 49
+    gdp: 31360
+    tech: 11
+    economy: 0
+    government: 4
+    description: This planet is very notable for the Teabiian tree wolf and its pink oceans.
+    inhabitants: Green Horned Lizards
+- type: star
+  type: primary
+  color: [0.680051, 0.636646, 0.287265, 1]
+  radius: 162409.173889
+  orbit:
+    type: static
+    parent: ~
+    radius: 483360
+    vector: [0.113, 0.508, 0.854]
+  corona:
+    shimmer: 0.361239
+    hues: 0.752487
+    flare: 0.059877
+stations:
+- type: icosahedron
+  orbit:
+    parent: Teabi
+    vector: undefined
+    radius: 12084

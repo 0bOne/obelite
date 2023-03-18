@@ -1,0 +1,61 @@
+name: Edbeis
+position: [209, 10]
+seed: 22 10 84 209 83 88
+limits:
+  blurs: 79
+  stars: 5323
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edbeis
+  radius: 5073
+  rotationSpeed: 0.003079
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 608760
+  land:
+    ratio: 0.65
+    color: [0.656213, 0.66, 0.538828, 1]
+    polarColor: [0.93266, 0.934, 0.891131, 1]
+  sea:
+    color: [0.0731964, 0.568944, 0.720703, 1]
+    polarColor: [0.719508, 0.879081, 0.92793, 1]
+  air:
+    color: [0.788825, 0.563619, 0.925506, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.779297, 0.33181, 0.38425, 1]
+    ratio: 0.34
+    polarColor: [0.850684, 0.545385, 0.581162, 1]
+  demographics:
+    type: 33
+    gdp: 12672
+    tech: 7
+    economy: 2
+    government: 2
+    description: Edbeis is an unremarkable planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.845877, 0.831994, 0.791784, 1]
+  radius: 116196.903992
+  orbit:
+    type: static
+    parent: ~
+    radius: 456570
+    vector: [0.677, 0.651, -0.343]
+  corona:
+    shimmer: 0.445417
+    hues: 0.711426
+    flare: 0.094978
+stations:
+- type: coriolis
+  orbit:
+    parent: Edbeis
+    vector: undefined
+    radius: 10146

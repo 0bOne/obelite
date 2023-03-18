@@ -1,0 +1,61 @@
+name: Bebeleus
+position: [27, 4]
+seed: 100 4 180 27 21 179
+limits:
+  blurs: 161
+  stars: 6126
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bebeleus
+  radius: 3611
+  rotationSpeed: 0.004577
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 469430
+  land:
+    ratio: 0.38
+    color: [0.191895, 0.511719, 0.316826, 1]
+    polarColor: [0.800574, 0.948828, 0.858486, 1]
+  sea:
+    color: [0.617307, 0.786596, 0.794922, 1]
+    polarColor: [0.869089, 0.918097, 0.920508, 1]
+  air:
+    color: [0.73795, 0.740122, 0.958025, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.798164, 0.799395, 0.876953, 1]
+    ratio: 0.19
+    polarColor: [0.844393, 0.845178, 0.894629, 1]
+  demographics:
+    type: 47
+    gdp: 22560
+    tech: 9
+    economy: 4
+    government: 6
+    description: This world is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.654553, 0.456733, 0.294772, 1]
+  radius: 93450.934448
+  orbit:
+    type: static
+    parent: ~
+    radius: 216660
+    vector: [-0.242, -0.752, -0.613]
+  corona:
+    shimmer: 0.278171
+    hues: 0.973717
+    flare: 0.080156
+stations:
+- type: coriolis
+  orbit:
+    parent: Bebeleus
+    vector: undefined
+    radius: 7222

@@ -1,0 +1,61 @@
+name: Areran
+position: [101, 239]
+seed: 223 239 122 101 235 202
+limits:
+  blurs: 101
+  stars: 9788
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Areran
+  radius: 5477
+  rotationSpeed: 0.002412
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 712010
+  land:
+    ratio: 0.24
+    color: [0.535399, 0.352478, 0.601562, 1]
+    polarColor: [0.914002, 0.842555, 0.939844, 1]
+  sea:
+    color: [0.710938, 0.485298, 0.433228, 1]
+    polarColor: [0.928906, 0.855202, 0.838193, 1]
+  air:
+    color: [0.495967, 0.641466, 0.852662, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.192688, 0.560547, 0.482952, 1]
+    ratio: 0.47
+    polarColor: [0.443708, 0.752246, 0.687164, 1]
+  demographics:
+    type: 35
+    gdp: 9240
+    tech: 5
+    economy: 7
+    government: 7
+    description: Areran is cursed by killer edible poets.
+    inhabitants: Small Horned Birds
+- type: star
+  type: primary
+  color: [0.606929, 0.633538, 0.815958, 1]
+  radius: 147189.360657
+  orbit:
+    type: static
+    parent: ~
+    radius: 438160
+    vector: [0.464, 0.034, 0.885]
+  corona:
+    shimmer: 0.370771
+    hues: 0.934898
+    flare: 0.05295
+stations:
+- type: coriolis
+  orbit:
+    parent: Areran
+    vector: undefined
+    radius: 10954

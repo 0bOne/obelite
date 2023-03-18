@@ -1,0 +1,61 @@
+name: Rainte
+position: [187, 93]
+seed: 28 93 0 187 165 212
+limits:
+  blurs: 71
+  stars: 5772
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rainte
+  radius: 4027
+  rotationSpeed: 0.004461
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 523510
+  land:
+    ratio: 0.71
+    color: [0.556641, 0.428352, 0.518555, 1]
+    polarColor: [0.944336, 0.889926, 0.928183, 1]
+  sea:
+    color: [0.583351, 0.6875, 0.530664, 1]
+    polarColor: [0.895981, 0.93125, 0.87814, 1]
+  air:
+    color: [0.571341, 0.514025, 0.905994, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.445117, 0.216774, 0.720703, 1]
+    ratio: 0.53
+    polarColor: [0.627312, 0.46408, 0.824316, 1]
+  demographics:
+    type: 20
+    gdp: 1920
+    tech: 3
+    economy: 7
+    government: 0
+    description: The world Rainte is fabled for its fabulous cuisine and the Rainteian edible poet.
+    inhabitants: Felines
+- type: star
+  type: primary
+  color: [0.240173, 0.44836, 0.809973, 1]
+  radius: 92240.150604
+  orbit:
+    type: static
+    parent: ~
+    radius: 442970
+    vector: [0.324, -0.501, -0.802]
+  corona:
+    shimmer: 0.225844
+    hues: 0.621307
+    flare: 0.018851
+stations:
+- type: coriolis
+  orbit:
+    parent: Rainte
+    vector: undefined
+    radius: 8054

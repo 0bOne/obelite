@@ -1,0 +1,61 @@
+name: Riraes
+position: [182, 224]
+seed: 154 224 0 182 51 222
+limits:
+  blurs: 146
+  stars: 5158
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riraes
+  radius: 6582
+  rotationSpeed: 0.001106
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 789840
+  land:
+    ratio: 0.28
+    color: [0.66, 0.440295, 0.381563, 1]
+    polarColor: [0.934, 0.856271, 0.835492, 1]
+  sea:
+    color: [0.617188, 0.402618, 0.548458, 1]
+    polarColor: [0.938281, 0.856731, 0.91216, 1]
+  air:
+    color: [0.582105, 0.928107, 0.846726, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.787109, 0.502777, 0.378181, 1]
+    ratio: 0.41
+    polarColor: [0.854199, 0.661344, 0.576835, 1]
+  demographics:
+    type: 31
+    gdp: 7936
+    tech: 7
+    economy: 2
+    government: 0
+    description: The world Riraes is fabled for its weird rock formations and its pink oceans.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.782501, 0.727115, 0.715634, 1]
+  radius: 175188.904724
+  orbit:
+    type: static
+    parent: ~
+    radius: 394920
+    vector: [0.492, -0.331, -0.805]
+  corona:
+    shimmer: 0.3678
+    hues: 0.593636
+    flare: 0.009143
+stations:
+- type: coriolis
+  orbit:
+    parent: Riraes
+    vector: undefined
+    radius: 13164

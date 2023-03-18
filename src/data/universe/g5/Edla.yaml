@@ -1,0 +1,61 @@
+name: Edla
+position: [61, 107]
+seed: 47 107 21 61 64 216
+limits:
+  blurs: 111
+  stars: 9218
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edla
+  radius: 4925
+  rotationSpeed: 0.003428
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 640250
+  land:
+    ratio: 0.45
+    color: [0.66, 0.446459, 0.219141, 1]
+    polarColor: [0.934, 0.858452, 0.778029, 1]
+  sea:
+    color: [0.613281, 0.462357, 0.480043, 1]
+    polarColor: [0.938672, 0.880922, 0.887689, 1]
+  air:
+    color: [0.702889, 0.788908, 0.941115, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.693855, 0.826172, 0.816868, 1]
+    ratio: 0.47
+    polarColor: [0.784514, 0.871777, 0.865642, 1]
+  demographics:
+    type: 30
+    gdp: 10080
+    tech: 6
+    economy: 3
+    government: 2
+    description: Edla is most famous for its pink Edlaian Thno Thnoweed plantations and Zero-G hockey.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.64035, 0.664399, 0.732742, 1]
+  radius: 95590.209961
+  orbit:
+    type: static
+    parent: ~
+    radius: 394000
+    vector: [-0.336, -0.525, -0.782]
+  corona:
+    shimmer: 0.704431
+    hues: 0.914093
+    flare: 0.063179
+stations:
+- type: coriolis
+  orbit:
+    parent: Edla
+    vector: undefined
+    radius: 9850

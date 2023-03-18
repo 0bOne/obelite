@@ -1,0 +1,61 @@
+name: Soaes
+position: [114, 53]
+seed: 242 53 162 114 26 71
+limits:
+  blurs: 52
+  stars: 7414
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soaes
+  radius: 4722
+  rotationSpeed: 0.004424
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 424980
+  land:
+    ratio: 0.65
+    color: [0.160034, 0.59375, 0.471767, 1]
+    polarColor: [0.768851, 0.940625, 0.892313, 1]
+  sea:
+    color: [0.679688, 0.668653, 0.503128, 1]
+    polarColor: [0.932031, 0.928248, 0.871504, 1]
+  air:
+    color: [0.492184, 0.666962, 0.846158, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.185974, 0.541016, 0.37459, 1]
+    ratio: 0.32
+    polarColor: [0.438523, 0.743457, 0.600519, 1]
+  demographics:
+    type: 34
+    gdp: 10880
+    tech: 6
+    economy: 5
+    government: 4
+    description: This planet is fabled for its fabulous Lole juice.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.69256, 0.74413, 0.771649, 1]
+  radius: 120782.932434
+  orbit:
+    type: static
+    parent: ~
+    radius: 377760
+    vector: [-0.919, -0.391, 0.061]
+  corona:
+    shimmer: 0.393019
+    hues: 0.889458
+    flare: 0.031439
+stations:
+- type: coriolis
+  orbit:
+    parent: Soaes
+    vector: undefined
+    radius: 9444

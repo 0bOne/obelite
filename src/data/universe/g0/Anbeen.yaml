@@ -1,0 +1,61 @@
+name: Anbeen
+position: [130, 52]
+seed: 56 52 236 130 253 155
+limits:
+  blurs: 128
+  stars: 6230
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anbeen
+  radius: 5762
+  rotationSpeed: 0.003958
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 691440
+  land:
+    ratio: 0.54
+    color: [0.66, 0.631641, 0.641611, 1]
+    polarColor: [0.934, 0.923967, 0.927494, 1]
+  sea:
+    color: [0.529297, 0.442831, 0.419716, 1]
+    polarColor: [0.94707, 0.908392, 0.898052, 1]
+  air:
+    color: [0.413069, 0.83751, 0.857865, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.494321, 0.576172, 0.0247574, 1]
+    ratio: 0.28
+    polarColor: [0.691863, 0.759277, 0.30512, 1]
+  demographics:
+    type: 42
+    gdp: 18144
+    tech: 8
+    economy: 4
+    government: 5
+    description: Anbeen is reasonably notable for its great tropical forests but cursed by dreadful solar activity.
+    inhabitants: Black Frogs
+- type: star
+  type: primary
+  color: [0.839914, 0.443504, 0.37172, 1]
+  radius: 119322.17865
+  orbit:
+    type: static
+    parent: ~
+    radius: 633820
+    vector: [-0.341, -0.853, -0.396]
+  corona:
+    shimmer: 0.588284
+    hues: 0.890228
+    flare: 0.005069
+stations:
+- type: coriolis
+  orbit:
+    parent: Anbeen
+    vector: undefined
+    radius: 11524

@@ -1,0 +1,61 @@
+name: Geonbi
+position: [67, 184]
+seed: 156 184 80 67 133 195
+limits:
+  blurs: 142
+  stars: 8428
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geonbi
+  radius: 3651
+  rotationSpeed: 0.00381
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 328590
+  land:
+    ratio: 0.31
+    color: [0.378984, 0.66, 0.455825, 1]
+    polarColor: [0.83458, 0.934, 0.861765, 1]
+  sea:
+    color: [0.584923, 0.644531, 0.505806, 1]
+    polarColor: [0.913916, 0.935547, 0.885206, 1]
+  air:
+    color: [0.481064, 0.478547, 0.917051, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.143382, 0.123688, 0.753906, 1]
+    ratio: 0.28
+    polarColor: [0.414481, 0.400778, 0.839258, 1]
+  demographics:
+    type: 47
+    gdp: 22560
+    tech: 11
+    economy: 0
+    government: 2
+    description: Geonbi is mildly famous for its hoopy casinos and its great parking meters.
+    inhabitants: Large Bony Felines
+- type: star
+  type: primary
+  color: [0.543427, 0.688569, 0.704788, 1]
+  radius: 93669.965973
+  orbit:
+    type: static
+    parent: ~
+    radius: 365100
+    vector: [0.049, 0.176, -0.983]
+  corona:
+    shimmer: 0.478295
+    hues: 0.503616
+    flare: 0.059779
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Geonbi
+    vector: undefined
+    radius: 7302

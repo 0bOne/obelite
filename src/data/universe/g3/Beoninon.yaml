@@ -1,0 +1,61 @@
+name: Beoninon
+position: [89, 146]
+seed: 242 146 162 89 26 147
+limits:
+  blurs: 166
+  stars: 5921
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beoninon
+  radius: 3673
+  rotationSpeed: 0.004455
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 514220
+  land:
+    ratio: 0.68
+    color: [0.254906, 0.488214, 0.505859, 1]
+    polarColor: [0.831665, 0.941135, 0.949414, 1]
+  sea:
+    color: [0.246483, 0.502148, 0.521484, 1]
+    polarColor: [0.822891, 0.939065, 0.947852, 1]
+  air:
+    color: [0.750864, 0.533696, 0.938514, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.818359, 0.249344, 0.462725, 1]
+    ratio: 0.53
+    polarColor: [0.868262, 0.490941, 0.632436, 1]
+  demographics:
+    type: 39
+    gdp: 19968
+    tech: 8
+    economy: 2
+    government: 4
+    description: This world is very well known for vicious Enoube brew and Beoninonian shrew steak.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.628351, 0.789164, 0.813095, 1]
+  radius: 92480.732727
+  orbit:
+    type: static
+    parent: ~
+    radius: 367300
+    vector: [-0.792, -0.314, 0.523]
+  corona:
+    shimmer: 0.410318
+    hues: 0.966629
+    flare: 0.000725
+stations:
+- type: coriolis
+  orbit:
+    parent: Beoninon
+    vector: undefined
+    radius: 7346

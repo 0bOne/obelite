@@ -1,0 +1,61 @@
+name: Isisan
+position: [36, 59]
+seed: 206 59 210 36 80 29
+limits:
+  blurs: 191
+  stars: 8068
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isisan
+  radius: 6180
+  rotationSpeed: 0.002596
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 618000
+  land:
+    ratio: 0.41
+    color: [0.66, 0.351834, 0.0799219, 1]
+    polarColor: [0.934, 0.824974, 0.728775, 1]
+  sea:
+    color: [0.605469, 0.485284, 0.453156, 1]
+    polarColor: [0.939453, 0.892833, 0.88037, 1]
+  air:
+    color: [0.522002, 0.606666, 0.848109, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.24353, 0.475779, 0.546875, 1]
+    ratio: 0.3
+    polarColor: [0.487438, 0.685471, 0.746094, 1]
+  demographics:
+    type: 26
+    gdp: 8736
+    tech: 5
+    economy: 3
+    government: 2
+    description: The planet Isisan is cursed by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.803317, 0.787816, 0.74471, 1]
+  radius: 174575.38147
+  orbit:
+    type: static
+    parent: ~
+    radius: 679800
+    vector: [-0.494, 0.477, 0.727]
+  corona:
+    shimmer: 0.287476
+    hues: 0.974457
+    flare: 0.021973
+stations:
+- type: coriolis
+  orbit:
+    parent: Isisan
+    vector: undefined
+    radius: 12360

@@ -1,0 +1,61 @@
+name: Xeononle
+position: [28, 32]
+seed: 229 32 73 28 197 130
+limits:
+  blurs: 53
+  stars: 8758
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeononle
+  radius: 3356
+  rotationSpeed: 0.001001
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 335600
+  land:
+    ratio: 0.39
+    color: [0.407344, 0.66, 0.506038, 1]
+    polarColor: [0.844613, 0.934, 0.87953, 1]
+  sea:
+    color: [0.65625, 0.588899, 0.510132, 1]
+    polarColor: [0.934375, 0.910401, 0.882364, 1]
+  air:
+    color: [0.415013, 0.739349, 0.885832, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.03854, 0.660156, 0.00257874, 1]
+    ratio: 0.37
+    polarColor: [0.327985, 0.79707, 0.300847, 1]
+  demographics:
+    type: 28
+    gdp: 8960
+    tech: 6
+    economy: 2
+    government: 1
+    description: This planet is mildly fabled for its inhabitants’ eccentric shyness but ravaged by killer disease.
+    inhabitants: Large Black Fat Felines
+- type: star
+  type: primary
+  color: [0.631804, 0.788177, 0.811447, 1]
+  radius: 92575.231323
+  orbit:
+    type: static
+    parent: ~
+    radius: 201360
+    vector: [-0.282, -0.959, -0.034]
+  corona:
+    shimmer: 0.422508
+    hues: 0.587013
+    flare: 0.009479
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeononle
+    vector: undefined
+    radius: 6712

@@ -1,0 +1,61 @@
+name: Qutius
+position: [213, 199]
+seed: 185 199 205 213 90 250
+limits:
+  blurs: 85
+  stars: 8728
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qutius
+  radius: 5589
+  rotationSpeed: 0.003701
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 726570
+  land:
+    ratio: 0.39
+    color: [0.658203, 0.620038, 0.529648, 1]
+    polarColor: [0.93418, 0.920638, 0.888565, 1]
+  sea:
+    color: [0.11351, 0.623068, 0.675781, 1]
+    polarColor: [0.738471, 0.914239, 0.932422, 1]
+  air:
+    color: [0.478177, 0.714194, 0.837053, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.160522, 0.513672, 0.174317, 1]
+    ratio: 0.3
+    polarColor: [0.416985, 0.731152, 0.429257, 1]
+  demographics:
+    type: 17
+    gdp: 2040
+    tech: 2
+    economy: 7
+    government: 1
+    description: This world is most fabled for its inhabitants’ ingrained silliness but scourged by deadly civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.797202, 0.581827, 0.321379, 1]
+  radius: 138492.684174
+  orbit:
+    type: static
+    parent: ~
+    radius: 447120
+    vector: [0.912, -0.41, 0.001]
+  corona:
+    shimmer: 0.394966
+    hues: 0.916199
+    flare: 0.062259
+stations:
+- type: coriolis
+  orbit:
+    parent: Qutius
+    vector: undefined
+    radius: 11178

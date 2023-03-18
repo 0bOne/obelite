@@ -1,0 +1,61 @@
+name: Anatma
+position: [95, 214]
+seed: 188 214 104 95 53 27
+limits:
+  blurs: 132
+  stars: 8442
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anatma
+  radius: 5727
+  rotationSpeed: 0.0003
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 629970
+  land:
+    ratio: 0.51
+    color: [0.556641, 0.552835, 0.547943, 1]
+    polarColor: [0.944336, 0.942722, 0.940647, 1]
+  sea:
+    color: [0.691406, 0.656296, 0.518555, 1]
+    polarColor: [0.930859, 0.919042, 0.872681, 1]
+  air:
+    color: [0.656146, 0.791403, 0.969732, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.573631, 0.912109, 0.816912, 1]
+    ratio: 0.1
+    polarColor: [0.699285, 0.910449, 0.851059, 1]
+  demographics:
+    type: 40
+    gdp: 11520
+    tech: 7
+    economy: 6
+    government: 5
+    description: The world Anatma is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.623795, 0.647983, 0.725677, 1]
+  radius: 161987.69165
+  orbit:
+    type: static
+    parent: ~
+    radius: 515430
+    vector: [-0.418, 0.849, -0.322]
+  corona:
+    shimmer: 0.38537
+    hues: 0.89653
+    flare: 0.061737
+stations:
+- type: coriolis
+  orbit:
+    parent: Anatma
+    vector: undefined
+    radius: 11454

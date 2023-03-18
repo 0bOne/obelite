@@ -1,0 +1,61 @@
+name: Rigete
+position: [121, 11]
+seed: 146 11 146 121 212 62
+limits:
+  blurs: 155
+  stars: 7205
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rigete
+  radius: 6521
+  rotationSpeed: 0.000593
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 847730
+  land:
+    ratio: 0.63
+    color: [0.649526, 0.634219, 0.66, 1]
+    polarColor: [0.930295, 0.924879, 0.934, 1]
+  sea:
+    color: [0.289814, 0.53125, 0.10791, 1]
+    polarColor: [0.839294, 0.946875, 0.75824, 1]
+  air:
+    color: [0.758006, 0.58924, 0.894938, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.6875, 0.394775, 0.490826, 1]
+    ratio: 0.45
+    polarColor: [0.809375, 0.59399, 0.664663, 1]
+  demographics:
+    type: 30
+    gdp: 10080
+    tech: 6
+    economy: 3
+    government: 2
+    description: This planet is fabled for its ancient Rigeteian On banana plantations.
+    inhabitants: Red Horned Birds
+- type: star
+  type: primary
+  color: [0.206757, 0.26516, 0.719092, 1]
+  radius: 211685.733643
+  orbit:
+    type: static
+    parent: ~
+    radius: 391260
+    vector: [-0.197, -0.738, 0.646]
+  corona:
+    shimmer: 0.528329
+    hues: 0.654282
+    flare: 0.005794
+stations:
+- type: coriolis
+  orbit:
+    parent: Rigete
+    vector: undefined
+    radius: 13042

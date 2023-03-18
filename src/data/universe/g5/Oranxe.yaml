@@ -1,0 +1,61 @@
+name: Oranxe
+position: [142, 148]
+seed: 47 148 45 142 32 121
+limits:
+  blurs: 143
+  stars: 6538
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Oranxe
+  radius: 5262
+  rotationSpeed: 0.000584
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 631440
+  land:
+    ratio: 0.31
+    color: [0.526824, 0.66, 0.366094, 1]
+    polarColor: [0.886884, 0.934, 0.83002, 1]
+  sea:
+    color: [0.564453, 0.425545, 0.523215, 1]
+    polarColor: [0.943555, 0.885504, 0.926321, 1]
+  air:
+    color: [0.71228, 0.79407, 0.929408, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.710678, 0.791016, 0.781601, 1]
+    ratio: 0.05
+    polarColor: [0.801624, 0.855957, 0.84959, 1]
+  demographics:
+    type: 42
+    gdp: 18144
+    tech: 8
+    economy: 4
+    government: 5
+    description: Oranxe is cursed by vicious ants.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.823593, 0.788994, 0.764082, 1]
+  radius: 111394.362488
+  orbit:
+    type: static
+    parent: ~
+    radius: 473580
+    vector: [-0.281, 0.941, -0.188]
+  corona:
+    shimmer: 0.272746
+    hues: 0.959282
+    flare: 0.011597
+stations:
+- type: coriolis
+  orbit:
+    parent: Oranxe
+    vector: undefined
+    radius: 10524

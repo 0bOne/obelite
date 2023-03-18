@@ -1,0 +1,61 @@
+name: Bisoge
+position: [150, 170]
+seed: 188 170 120 150 21 134
+limits:
+  blurs: 151
+  stars: 6630
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bisoge
+  radius: 4502
+  rotationSpeed: 0.002232
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 585260
+  land:
+    ratio: 0.53
+    color: [0.234609, 0.66, 0.251226, 1]
+    polarColor: [0.783502, 0.934, 0.789381, 1]
+  sea:
+    color: [0.580078, 0.452761, 0.43959, 1]
+    polarColor: [0.941992, 0.890305, 0.884957, 1]
+  air:
+    color: [0.688024, 0.793915, 0.947619, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.657402, 0.845703, 0.805983, 1]
+    ratio: 0.4
+    polarColor: [0.758027, 0.880566, 0.854718, 1]
+  demographics:
+    type: 54
+    gdp: 38016
+    tech: 11
+    economy: 2
+    government: 7
+    description: Bisoge is well known for the Bisogeian spotted shrew but plagued by evil tree leopards.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.651694, 0.606855, 0.600942, 1]
+  radius: 96940.419617
+  orbit:
+    type: static
+    parent: ~
+    radius: 225100
+    vector: [-0.589, 0.335, 0.735]
+  corona:
+    shimmer: 0.371355
+    hues: 0.778969
+    flare: 0.01649
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Bisoge
+    vector: undefined
+    radius: 9004

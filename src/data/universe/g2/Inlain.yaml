@@ -1,0 +1,61 @@
+name: Inlain
+position: [42, 30]
+seed: 1 30 185 42 173 108
+limits:
+  blurs: 123
+  stars: 8140
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inlain
+  radius: 5930
+  rotationSpeed: 0.002555
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 593000
+  land:
+    ratio: 0.31
+    color: [0.613594, 0.66, 0.618669, 1]
+    polarColor: [0.917582, 0.934, 0.919378, 1]
+  sea:
+    color: [0.0502625, 0.714844, 0.714844, 1]
+    polarColor: [0.712708, 0.928516, 0.928516, 1]
+  air:
+    color: [0.535211, 0.611383, 0.837703, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.265869, 0.451235, 0.515625, 1]
+    ratio: 0.44
+    polarColor: [0.51042, 0.674897, 0.732031, 1]
+  demographics:
+    type: 42
+    gdp: 14784
+    tech: 7
+    economy: 6
+    government: 7
+    description: The world Inlain is mildly fabled for its inhabitants’ eccentric love for poetry but ravaged by unpredictable civil war.
+    inhabitants: Blue Fat Birds
+- type: star
+  type: primary
+  color: [0.47261, 0.696456, 0.833862, 1]
+  radius: 138128.390503
+  orbit:
+    type: static
+    parent: ~
+    radius: 533700
+    vector: [0.217, 0.954, 0.206]
+  corona:
+    shimmer: 0.455238
+    hues: 0.590332
+    flare: 0.035675
+stations:
+- type: coriolis
+  orbit:
+    parent: Inlain
+    vector: undefined
+    radius: 11860

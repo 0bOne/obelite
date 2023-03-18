@@ -1,0 +1,61 @@
+name: Atorat
+position: [167, 97]
+seed: 0 97 64 167 26 113
+limits:
+  blurs: 101
+  stars: 8114
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atorat
+  radius: 3239
+  rotationSpeed: 0.000623
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 356290
+  land:
+    ratio: 0.48
+    color: [0.4953, 0.414062, 0.5, 1]
+    polarColor: [0.947768, 0.90918, 0.95, 1]
+  sea:
+    color: [0.666441, 0.675781, 0.504988, 1]
+    polarColor: [0.9292, 0.932422, 0.873508, 1]
+  air:
+    color: [0.615623, 0.922254, 0.902782, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.769531, 0.714437, 0.462921, 1]
+    ratio: 0.14
+    polarColor: [0.846289, 0.808421, 0.635543, 1]
+  demographics:
+    type: 32
+    gdp: 7168
+    tech: 7
+    economy: 3
+    government: 0
+    description: Atorat is well known for its inhabitants’ ancient mating traditions but ravaged by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.618778, 0.637087, 0.685074, 1]
+  radius: 103298.973236
+  orbit:
+    type: static
+    parent: ~
+    radius: 259120
+    vector: [0.646, -0.749, -0.148]
+  corona:
+    shimmer: 1.001253
+    hues: 0.58432
+    flare: 0.017192
+stations:
+- type: coriolis
+  orbit:
+    parent: Atorat
+    vector: undefined
+    radius: 6478

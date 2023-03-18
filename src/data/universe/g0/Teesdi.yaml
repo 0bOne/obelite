@@ -1,0 +1,61 @@
+name: Teesdi
+position: [166, 166]
+seed: 152 166 244 166 77 124
+limits:
+  blurs: 78
+  stars: 8241
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teesdi
+  radius: 6054
+  rotationSpeed: 0.003636
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 726480
+  land:
+    ratio: 0.59
+    color: [0.66, 0.278438, 0.376809, 1]
+    polarColor: [0.934, 0.799008, 0.833811, 1]
+  sea:
+    color: [0.578125, 0.499196, 0.446918, 1]
+    polarColor: [0.942187, 0.910029, 0.888729, 1]
+  air:
+    color: [0.427633, 0.643682, 0.902742, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0138855, 0.710938, 0.46588, 1]
+    ratio: 0.12
+    polarColor: [0.317479, 0.819922, 0.643282, 1]
+  demographics:
+    type: 37
+    gdp: 11840
+    tech: 6
+    economy: 6
+    government: 6
+    description: Teesdi is famous for Teesdiian shrew cutlet but ravaged by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.657384, 0.679139, 0.712814, 1]
+  radius: 108434.552307
+  orbit:
+    type: static
+    parent: ~
+    radius: 484320
+    vector: [0.595, 0.76, 0.261]
+  corona:
+    shimmer: 0.45311
+    hues: 0.662712
+    flare: 0.073961
+stations:
+- type: coriolis
+  orbit:
+    parent: Teesdi
+    vector: undefined
+    radius: 12108

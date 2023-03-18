@@ -1,0 +1,61 @@
+name: Beedbeon
+position: [199, 254]
+seed: 84 254 56 199 54 147
+limits:
+  blurs: 181
+  stars: 7898
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beedbeon
+  radius: 3783
+  rotationSpeed: 0.003613
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 416130
+  land:
+    ratio: 0.66
+    color: [0.182594, 0.513672, 0.280883, 1]
+    polarColor: [0.795777, 0.948633, 0.841156, 1]
+  sea:
+    color: [0.789062, 0.621849, 0.40686, 1]
+    polarColor: [0.921094, 0.872296, 0.809555, 1]
+  air:
+    color: [0.701557, 0.844101, 0.876727, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.632812, 0.632812, 0.632812, 1]
+    ratio: 0.24
+    polarColor: [0.784766, 0.784766, 0.784766, 1]
+  demographics:
+    type: 46
+    gdp: 16192
+    tech: 8
+    economy: 6
+    government: 7
+    description: The planet Beedbeon is most famous for its vast oceans.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.510266, 0.569404, 0.759363, 1]
+  radius: 120129.414368
+  orbit:
+    type: static
+    parent: ~
+    radius: 302640
+    vector: [0.435, -0.889, -0.144]
+  corona:
+    shimmer: 0.29158
+    hues: 0.538445
+    flare: 0.040021
+stations:
+- type: coriolis
+  orbit:
+    parent: Beedbeon
+    vector: undefined
+    radius: 7566

@@ -1,0 +1,61 @@
+name: Usdive
+position: [132, 131]
+seed: 244 131 96 132 102 128
+limits:
+  blurs: 116
+  stars: 5734
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usdive
+  radius: 2948
+  rotationSpeed: 0.000782
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 265320
+  land:
+    ratio: 0.29
+    color: [0.589844, 0.46312, 0.492821, 1]
+    polarColor: [0.941016, 0.890473, 0.902319, 1]
+  sea:
+    color: [0.755859, 0.583318, 0.431076, 1]
+    polarColor: [0.924414, 0.87166, 0.825112, 1]
+  air:
+    color: [0.852436, 0.757633, 0.997049, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.994141, 0.873756, 0.969688, 1]
+    ratio: 0.42
+    polarColor: [0.947363, 0.875663, 0.932799, 1]
+  demographics:
+    type: 32
+    gdp: 14336
+    tech: 6
+    economy: 3
+    government: 4
+    description: Usdive is ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.334344, 0.412067, 0.765475, 1]
+  radius: 83255.269775
+  orbit:
+    type: static
+    parent: ~
+    radius: 294800
+    vector: [-0.181, 0.389, 0.903]
+  corona:
+    shimmer: 0.63227
+    hues: 0.607674
+    flare: 0.019658
+stations:
+- type: coriolis
+  orbit:
+    parent: Usdive
+    vector: undefined
+    radius: 5896

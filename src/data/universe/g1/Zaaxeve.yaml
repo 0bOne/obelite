@@ -1,0 +1,61 @@
+name: Zaaxeve
+position: [110, 61]
+seed: 116 61 32 110 102 100
+limits:
+  blurs: 95
+  stars: 5521
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaaxeve
+  radius: 3950
+  rotationSpeed: 0.003265
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 434500
+  land:
+    ratio: 0.42
+    color: [0.66, 0.0386719, 0.51923, 1]
+    polarColor: [0.934, 0.714182, 0.884197, 1]
+  sea:
+    color: [0.576623, 0.609375, 0.486072, 1]
+    polarColor: [0.926444, 0.939062, 0.891559, 1]
+  air:
+    color: [0.831437, 0.748555, 0.997049, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.994141, 0.846573, 0.991835, 1]
+    ratio: 0.5
+    polarColor: [0.947363, 0.859473, 0.94599, 1]
+  demographics:
+    type: 34
+    gdp: 10880
+    tech: 6
+    economy: 5
+    government: 4
+    description: This world is very notable for the Zaaxeveian tree wolf and its unusual sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.765781, 0.408403, 0.352346, 1]
+  radius: 122780.532837
+  orbit:
+    type: static
+    parent: ~
+    radius: 237000
+    vector: [0.239, 0.955, 0.178]
+  corona:
+    shimmer: 0.395524
+    hues: 0.5289
+    flare: 0.009781
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaaxeve
+    vector: undefined
+    radius: 7900

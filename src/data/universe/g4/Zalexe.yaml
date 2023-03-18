@@ -1,0 +1,61 @@
+name: Zalexe
+position: [221, 128]
+seed: 156 128 16 221 5 132
+limits:
+  blurs: 58
+  stars: 8697
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zalexe
+  radius: 4061
+  rotationSpeed: 0.001304
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 406100
+  land:
+    ratio: 0.25
+    color: [0.175781, 0.5, 0.203644, 1]
+    polarColor: [0.795996, 0.95, 0.809231, 1]
+  sea:
+    color: [0.679688, 0.513001, 0.461975, 1]
+    polarColor: [0.932031, 0.874889, 0.857396, 1]
+  air:
+    color: [0.703237, 0.828534, 0.900791, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.663765, 0.705078, 0.668284, 1]
+    ratio: 0.28
+    polarColor: [0.787355, 0.817285, 0.790629, 1]
+  demographics:
+    type: 39
+    gdp: 18720
+    tech: 9
+    economy: 0
+    government: 2
+    description: The planet Zalexe is reasonably noted for its inhabitants’ exceptional love for tourists and its unusual oceans.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.741919, 0.737579, 0.737003, 1]
+  radius: 71741.069794
+  orbit:
+    type: static
+    parent: ~
+    radius: 527930
+    vector: [0.459, -0.741, -0.491]
+  corona:
+    shimmer: 0.727919
+    hues: 0.63266
+    flare: 0.020721
+stations:
+- type: coriolis
+  orbit:
+    parent: Zalexe
+    vector: undefined
+    radius: 8122

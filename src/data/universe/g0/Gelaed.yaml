@@ -1,0 +1,61 @@
+name: Gelaed
+position: [95, 19]
+seed: 56 19 76 95 61 3
+limits:
+  blurs: 61
+  stars: 5889
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gelaed
+  radius: 3679
+  rotationSpeed: 0.000132
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 515060
+  land:
+    ratio: 0.26
+    color: [0.66, 0.487185, 0.319688, 1]
+    polarColor: [0.934, 0.87286, 0.813602, 1]
+  sea:
+    color: [0.612614, 0.777344, 0.589081, 1]
+    polarColor: [0.873405, 0.922266, 0.866425, 1]
+  air:
+    color: [0.646844, 0.877384, 0.927457, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.652652, 0.785156, 0.542862, 1]
+    ratio: 0.44
+    polarColor: [0.763315, 0.85332, 0.688739, 1]
+  demographics:
+    type: 37
+    gdp: 10360
+    tech: 8
+    economy: 3
+    government: 1
+    description: The planet Gelaed is very noted for its pink Gelaedian So Soweed plantations but scourged by deadly solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.666388, 0.682588, 0.684402, 1]
+  radius: 104129.240265
+  orbit:
+    type: static
+    parent: ~
+    radius: 220740
+    vector: [0.25, 0.565, 0.786]
+  corona:
+    shimmer: 0.341953
+    hues: 0.609718
+    flare: 0.085246
+stations:
+- type: coriolis
+  orbit:
+    parent: Gelaed
+    vector: undefined
+    radius: 7358

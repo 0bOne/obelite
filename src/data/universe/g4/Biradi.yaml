@@ -1,0 +1,61 @@
+name: Biradi
+position: [210, 156]
+seed: 38 156 176 210 27 102
+limits:
+  blurs: 108
+  stars: 9617
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biradi
+  radius: 4562
+  rotationSpeed: 0.000117
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 593060
+  land:
+    ratio: 0.32
+    color: [0.556875, 0.66, 0.560903, 1]
+    polarColor: [0.897516, 0.934, 0.898941, 1]
+  sea:
+    color: [0.614446, 0.654297, 0.504269, 1]
+    polarColor: [0.92034, 0.93457, 0.880997, 1]
+  air:
+    color: [0.444417, 0.750369, 0.855914, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.194374, 0.570312, 0.0891113, 1]
+    ratio: 0.34
+    polarColor: [0.444914, 0.756641, 0.357631, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 8
+    economy: 4
+    government: 6
+    description: The planet Biradi is mildly notable for its inhabitants’ unusual silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.295616, 0.574613, 0.72821, 1]
+  radius: 138933.699646
+  orbit:
+    type: static
+    parent: ~
+    radius: 273720
+    vector: [-0.193, -0.886, -0.421]
+  corona:
+    shimmer: 0.706405
+    hues: 0.811981
+    flare: 0.052516
+stations:
+- type: coriolis
+  orbit:
+    parent: Biradi
+    vector: undefined
+    radius: 9124

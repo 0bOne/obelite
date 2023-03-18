@@ -1,0 +1,61 @@
+name: Esusale
+position: [94, 96]
+seed: 243 96 126 94 7 105
+limits:
+  blurs: 154
+  stars: 9901
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esusale
+  radius: 5214
+  rotationSpeed: 0.000804
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 469260
+  land:
+    ratio: 0.32
+    color: [0.492931, 0.345581, 0.59375, 1]
+    polarColor: [0.900696, 0.842337, 0.940625, 1]
+  sea:
+    color: [0.501953, 0.337081, 0.0529404, 1]
+    polarColor: [0.949805, 0.871811, 0.737397, 1]
+  air:
+    color: [0.685135, 0.814494, 0.935262, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.644348, 0.808594, 0.720055, 1]
+    ratio: 0.16
+    polarColor: [0.754197, 0.863867, 0.804748, 1]
+  demographics:
+    type: 60
+    gdp: 52800
+    tech: 13
+    economy: 0
+    government: 7
+    description: This planet is fabled for its ancient Esusaleian A’nuet tulip plantations.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.388097, 0.467169, 0.829697, 1]
+  radius: 149832.487793
+  orbit:
+    type: static
+    parent: ~
+    radius: 573540
+    vector: [-0.533, -0.256, -0.806]
+  corona:
+    shimmer: 0.292718
+    hues: 0.751854
+    flare: 0.091373
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Esusale
+    vector: undefined
+    radius: 10428

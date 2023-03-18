@@ -1,0 +1,61 @@
+name: Aquti
+position: [13, 221]
+seed: 166 221 240 13 27 207
+limits:
+  blurs: 184
+  stars: 9744
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aquti
+  radius: 6669
+  rotationSpeed: 0.002635
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 933660
+  land:
+    ratio: 0.52
+    color: [0.223721, 0.550781, 0.105423, 1]
+    polarColor: [0.804646, 0.944922, 0.753907, 1]
+  sea:
+    color: [0.812457, 0.706776, 0.884766, 1]
+    polarColor: [0.8929, 0.86568, 0.911523, 1]
+  air:
+    color: [0.506545, 0.588867, 0.866971, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.212173, 0.475106, 0.603516, 1]
+    ratio: 0.21
+    polarColor: [0.45888, 0.668977, 0.771582, 1]
+  demographics:
+    type: 36
+    gdp: 14400
+    tech: 6
+    economy: 5
+    government: 6
+    description: This world is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.262416, 0.462853, 0.655838, 1]
+  radius: 122827.398376
+  orbit:
+    type: static
+    parent: ~
+    radius: 466830
+    vector: [0.322, -0.739, 0.592]
+  corona:
+    shimmer: 0.697355
+    hues: 0.620232
+    flare: 0.057013
+stations:
+- type: coriolis
+  orbit:
+    parent: Aquti
+    vector: undefined
+    radius: 13338

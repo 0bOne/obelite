@@ -1,0 +1,61 @@
+name: Enqurale
+position: [232, 127]
+seed: 222 127 58 232 64 210
+limits:
+  blurs: 159
+  stars: 6429
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enqurale
+  radius: 3560
+  rotationSpeed: 0.004897
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 498400
+  land:
+    ratio: 0.66
+    color: [0.108093, 0.628906, 0.396982, 1]
+    polarColor: [0.743098, 0.937109, 0.850714, 1]
+  sea:
+    color: [0.720703, 0.603914, 0.467331, 1]
+    polarColor: [0.92793, 0.890337, 0.846373, 1]
+  air:
+    color: [0.693273, 0.853977, 0.873475, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.618959, 0.623047, 0.610878, 1]
+    ratio: 0.44
+    polarColor: [0.777171, 0.780371, 0.770845, 1]
+  demographics:
+    type: 31
+    gdp: 8184
+    tech: 4
+    economy: 7
+    government: 7
+    description: This planet is mildly fabled for the Enquraleian mountain poet but scourged by dreadful solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.341089, 0.599458, 0.738614, 1]
+  radius: 103686.303711
+  orbit:
+    type: static
+    parent: ~
+    radius: 178000
+    vector: [0.2, -0.917, 0.346]
+  corona:
+    shimmer: 0.745575
+    hues: 0.606674
+    flare: 0.001747
+stations:
+- type: coriolis
+  orbit:
+    parent: Enqurale
+    vector: undefined
+    radius: 7120

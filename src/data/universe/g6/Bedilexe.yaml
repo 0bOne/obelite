@@ -1,0 +1,61 @@
+name: Bedilexe
+position: [129, 24]
+seed: 210 24 114 129 20 211
+limits:
+  blurs: 59
+  stars: 7254
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bedilexe
+  radius: 3713
+  rotationSpeed: 0.001912
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 519820
+  land:
+    ratio: 0.6
+    color: [0.66, 0.0721875, 0.457939, 1]
+    polarColor: [0.934, 0.726039, 0.862513, 1]
+  sea:
+    color: [0.537109, 0.47211, 0.429058, 1]
+    polarColor: [0.946289, 0.91766, 0.898697, 1]
+  air:
+    color: [0.542083, 0.591793, 0.841605, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.280151, 0.399885, 0.527344, 1]
+    ratio: 0.33
+    polarColor: [0.521297, 0.625926, 0.737305, 1]
+  demographics:
+    type: 51
+    gdp: 40800
+    tech: 11
+    economy: 0
+    government: 6
+    description: The planet Bedilexe is an unremarkable planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.543125, 0.769031, 0.833472, 1]
+  radius: 83856.373596
+  orbit:
+    type: static
+    parent: ~
+    radius: 334170
+    vector: [-0.268, -0.963, 0.03]
+  corona:
+    shimmer: 0.31286
+    hues: 0.585007
+    flare: 0.082829
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Bedilexe
+    vector: undefined
+    radius: 7426

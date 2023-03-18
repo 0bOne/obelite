@@ -1,0 +1,61 @@
+name: Erlage
+position: [92, 168]
+seed: 128 168 80 92 250 208
+limits:
+  blurs: 72
+  stars: 6123
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erlage
+  radius: 2908
+  rotationSpeed: 0.002531
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 378040
+  land:
+    ratio: 0.69
+    color: [0.451172, 0.66, 0.66, 1]
+    polarColor: [0.860119, 0.934, 0.934, 1]
+  sea:
+    color: [0.632812, 0.546666, 0.470654, 1]
+    polarColor: [0.936719, 0.904839, 0.87671, 1]
+  air:
+    color: [0.669864, 0.796689, 0.958676, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.611115, 0.878906, 0.797313, 1]
+    ratio: 0.5
+    polarColor: [0.724977, 0.895508, 0.843549, 1]
+  demographics:
+    type: 35
+    gdp: 16800
+    tech: 8
+    economy: 0
+    government: 2
+    description: Erlage is cursed by vicious mountain bisons.
+    inhabitants: Fat Birds
+- type: star
+  type: primary
+  color: [0.638871, 0.811388, 0.823343, 1]
+  radius: 75684.054565
+  orbit:
+    type: static
+    parent: ~
+    radius: 290800
+    vector: [-0.552, 0.227, -0.802]
+  corona:
+    shimmer: 0.3178
+    hues: 0.999748
+    flare: 0.053252
+stations:
+- type: coriolis
+  orbit:
+    parent: Erlage
+    vector: undefined
+    radius: 5816

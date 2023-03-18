@@ -1,0 +1,61 @@
+name: Bearrabe
+position: [150, 160]
+seed: 233 160 121 150 138 243
+limits:
+  blurs: 91
+  stars: 7887
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bearrabe
+  radius: 3734
+  rotationSpeed: 0.001032
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 522760
+  land:
+    ratio: 0.66
+    color: [0.145683, 0.556641, 0.238791, 1]
+    polarColor: [0.77004, 0.944336, 0.809529, 1]
+  sea:
+    color: [0.740234, 0.645808, 0.465538, 1]
+    polarColor: [0.925977, 0.896446, 0.840071, 1]
+  air:
+    color: [0.672458, 0.540296, 0.910547, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.734375, 0.278259, 0.695178, 1]
+    ratio: 0.5
+    polarColor: [0.830469, 0.508094, 0.802765, 1]
+  demographics:
+    type: 60
+    gdp: 52800
+    tech: 13
+    economy: 0
+    government: 7
+    description: The world Bearrabe is reasonably noted for its inhabitants’ exceptional loathing of food blenders.
+    inhabitants: Frogs
+- type: star
+  type: primary
+  color: [0.810665, 0.819977, 0.844672, 1]
+  radius: 73732.483826
+  orbit:
+    type: static
+    parent: ~
+    radius: 224040
+    vector: [-0.312, 0.931, -0.19]
+  corona:
+    shimmer: 1.425005
+    hues: 0.552574
+    flare: 0.099857
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Bearrabe
+    vector: undefined
+    radius: 7468

@@ -1,0 +1,61 @@
+name: Ceised
+position: [53, 66]
+seed: 0 66 128 53 154 101
+limits:
+  blurs: 112
+  stars: 9676
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceised
+  radius: 4149
+  rotationSpeed: 0.003101
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 456390
+  land:
+    ratio: 0.34
+    color: [0.173172, 0.568359, 0.420164, 1]
+    polarColor: [0.779216, 0.943164, 0.881683, 1]
+  sea:
+    color: [0.730469, 0.45583, 0.410889, 1]
+    polarColor: [0.926953, 0.839825, 0.825568, 1]
+  air:
+    color: [0.630171, 0.592503, 0.837053, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.439101, 0.371208, 0.513672, 1]
+    ratio: 0.37
+    polarColor: [0.664813, 0.604415, 0.731152, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 6
+    economy: 2
+    government: 0
+    description: This planet is a dull world.
+    inhabitants: Fierce Blue Rodents
+- type: star
+  type: primary
+  color: [0.747122, 0.578429, 0.507556, 1]
+  radius: 125225.906067
+  orbit:
+    type: static
+    parent: ~
+    radius: 248940
+    vector: [-0.872, -0.296, -0.39]
+  corona:
+    shimmer: 0.261425
+    hues: 0.783638
+    flare: 0.002356
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceised
+    vector: undefined
+    radius: 8298

@@ -1,0 +1,61 @@
+name: Edrebi
+position: [95, 150]
+seed: 6 150 128 95 219 216
+limits:
+  blurs: 178
+  stars: 5524
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edrebi
+  radius: 4959
+  rotationSpeed: 0.000777
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 743850
+  land:
+    ratio: 0.31
+    color: [0.126328, 0.534921, 0.66, 1]
+    polarColor: [0.745193, 0.889748, 0.934, 1]
+  sea:
+    color: [0.591863, 0.730469, 0.547566, 1]
+    polarColor: [0.882981, 0.926953, 0.868928, 1]
+  air:
+    color: [0.582279, 0.9151, 0.805648, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.748047, 0.388497, 0.379868, 1]
+    ratio: 0.27
+    polarColor: [0.836621, 0.585294, 0.579262, 1]
+  demographics:
+    type: 23
+    gdp: 2944
+    tech: 4
+    economy: 6
+    government: 0
+    description: The planet Edrebi is scourged by killer edible arts graduates.
+    inhabitants: Bug-Eyed Frogs
+- type: star
+  type: primary
+  color: [0.814099, 0.6902, 0.601326, 1]
+  radius: 134884.103851
+  orbit:
+    type: static
+    parent: ~
+    radius: 99180
+    vector: [0.622, 0.541, -0.566]
+  corona:
+    shimmer: 0.380086
+    hues: 0.565369
+    flare: 0.010011
+stations:
+- type: coriolis
+  orbit:
+    parent: Edrebi
+    vector: undefined
+    radius: 9918

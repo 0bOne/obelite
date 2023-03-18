@@ -1,0 +1,61 @@
+name: Ange
+position: [7, 147]
+seed: 162 147 82 7 218 64
+limits:
+  blurs: 81
+  stars: 5188
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ange
+  radius: 2823
+  rotationSpeed: 0.00378
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 423450
+  land:
+    ratio: 0.48
+    color: [0.526062, 0.342773, 0.609375, 1]
+    polarColor: [0.906966, 0.836353, 0.939062, 1]
+  sea:
+    color: [0.580078, 0.511222, 0.450467, 1]
+    polarColor: [0.941992, 0.914038, 0.889373, 1]
+  air:
+    color: [0.527555, 0.630525, 0.8325, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.25, 0.5, 0.5, 1]
+    ratio: 0.4
+    polarColor: [0.498438, 0.725, 0.725, 1]
+  demographics:
+    type: 38
+    gdp: 12768
+    tech: 8
+    economy: 3
+    government: 2
+    description: The planet Ange is reasonably noted for its inhabitants’ eccentric love for tourists and the Angeian tree grub.
+    inhabitants: Large Yellow Fat Birds
+- type: star
+  type: primary
+  color: [0.757858, 0.736351, 0.724328, 1]
+  radius: 68910.129547
+  orbit:
+    type: static
+    parent: ~
+    radius: 141150
+    vector: [0.581, 0.108, -0.807]
+  corona:
+    shimmer: 0.482485
+    hues: 0.846237
+    flare: 0.08683
+stations:
+- type: coriolis
+  orbit:
+    parent: Ange
+    vector: undefined
+    radius: 5646

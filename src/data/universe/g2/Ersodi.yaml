@@ -1,0 +1,61 @@
+name: Ersodi
+position: [53, 65]
+seed: 137 65 65 53 205 16
+limits:
+  blurs: 148
+  stars: 9083
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ersodi
+  radius: 2869
+  rotationSpeed: 0.001578
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 372970
+  land:
+    ratio: 0.46
+    color: [0.550781, 0.471176, 0.491699, 1]
+    polarColor: [0.944922, 0.910779, 0.919582, 1]
+  sea:
+    color: [0.664849, 0.796875, 0.519836, 1]
+    polarColor: [0.882193, 0.920313, 0.840324, 1]
+  air:
+    color: [0.459473, 0.623906, 0.887133, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.101166, 0.664062, 0.584905, 1]
+    ratio: 0.29
+    polarColor: [0.375621, 0.798828, 0.739315, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: The planet Ersodi is cursed by killer mountain monkeys.
+    inhabitants: Green Fat Birds
+- type: star
+  type: primary
+  color: [0.6658, 0.687311, 0.785385, 1]
+  radius: 46121.749115
+  orbit:
+    type: static
+    parent: ~
+    radius: 286900
+    vector: [0.993, 0.001, -0.121]
+  corona:
+    shimmer: 0.231686
+    hues: 0.906212
+    flare: 0.011519
+stations:
+- type: coriolis
+  orbit:
+    parent: Ersodi
+    vector: undefined
+    radius: 5738

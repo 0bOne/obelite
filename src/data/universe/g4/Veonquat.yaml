@@ -1,0 +1,61 @@
+name: Veonquat
+position: [132, 229]
+seed: 86 229 8 132 155 150
+limits:
+  blurs: 146
+  stars: 7075
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veonquat
+  radius: 4484
+  rotationSpeed: 0.003565
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 538080
+  land:
+    ratio: 0.5
+    color: [0.658872, 0.654844, 0.66, 1]
+    polarColor: [0.933601, 0.932176, 0.934, 1]
+  sea:
+    color: [0.794922, 0.557959, 0.38504, 1]
+    polarColor: [0.920508, 0.851908, 0.801849, 1]
+  air:
+    color: [0.489835, 0.993146, 0.866909, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.982422, 0.310245, 0.0767517, 1]
+    ratio: 0.48
+    polarColor: [0.94209, 0.539226, 0.399284, 1]
+  demographics:
+    type: 13
+    gdp: 1560
+    tech: 1
+    economy: 7
+    government: 1
+    description: Veonquat is reasonably notable for its great volcanoes but plagued by lethal spotted yaks.
+    inhabitants: Black Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.830707, 0.291116, 0.226899, 1]
+  radius: 132911.436157
+  orbit:
+    type: static
+    parent: ~
+    radius: 403560
+    vector: [0.423, -0.556, -0.715]
+  corona:
+    shimmer: 1.22328
+    hues: 0.882782
+    flare: 0.048694
+stations:
+- type: coriolis
+  orbit:
+    parent: Veonquat
+    vector: undefined
+    radius: 8968

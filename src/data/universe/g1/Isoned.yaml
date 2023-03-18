@@ -1,0 +1,61 @@
+name: Isoned
+position: [91, 71]
+seed: 52 71 0 91 102 221
+limits:
+  blurs: 84
+  stars: 5514
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isoned
+  radius: 6235
+  rotationSpeed: 0.002068
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 623500
+  land:
+    ratio: 0.32
+    color: [0.506779, 0.414185, 0.509766, 1]
+    polarColor: [0.947633, 0.904538, 0.949023, 1]
+  sea:
+    color: [0.678632, 0.71875, 0.553101, 1]
+    polarColor: [0.915174, 0.928125, 0.874649, 1]
+  air:
+    color: [0.593708, 0.919787, 0.962578, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.714337, 0.890625, 0.400085, 1]
+    ratio: 0.44
+    polarColor: [0.789345, 0.900781, 0.590698, 1]
+  demographics:
+    type: 20
+    gdp: 1920
+    tech: 3
+    economy: 7
+    government: 0
+    description: The planet Isoned is scourged by killer edible arts graduates.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.727402, 0.546152, 0.291658, 1]
+  radius: 134465.020752
+  orbit:
+    type: static
+    parent: ~
+    radius: 623500
+    vector: [-0.427, 0.094, 0.899]
+  corona:
+    shimmer: 0.30108
+    hues: 0.543091
+    flare: 0.061465
+stations:
+- type: coriolis
+  orbit:
+    parent: Isoned
+    vector: undefined
+    radius: 12470

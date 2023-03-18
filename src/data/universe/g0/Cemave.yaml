@@ -1,0 +1,61 @@
+name: Cemave
+position: [6, 0]
+seed: 152 0 20 6 13 133
+limits:
+  blurs: 111
+  stars: 5442
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cemave
+  radius: 4102
+  rotationSpeed: 0.002366
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 369180
+  land:
+    ratio: 0.67
+    color: [0.180817, 0.585938, 0.528967, 1]
+    polarColor: [0.778683, 0.941406, 0.918523, 1]
+  sea:
+    color: [0.626953, 0.530308, 0.466296, 1]
+    polarColor: [0.937305, 0.901183, 0.877259, 1]
+  air:
+    color: [0.460251, 0.461222, 0.930709, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0709093, 0.0652084, 0.794922, 1]
+    ratio: 0.38
+    polarColor: [0.369462, 0.365618, 0.857715, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 10
+    economy: 0
+    government: 2
+    description: The world Cemave is beset by dreadful earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.84231, 0.795916, 0.652518, 1]
+  radius: 113203.708191
+  orbit:
+    type: static
+    parent: ~
+    radius: 287140
+    vector: [0.317, -0.901, 0.295]
+  corona:
+    shimmer: 0.338208
+    hues: 0.804153
+    flare: 0.015576
+stations:
+- type: coriolis
+  orbit:
+    parent: Cemave
+    vector: undefined
+    radius: 8204

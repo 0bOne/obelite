@@ -1,0 +1,61 @@
+name: Soinuste
+position: [244, 239]
+seed: 212 239 176 244 166 231
+limits:
+  blurs: 106
+  stars: 5750
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soinuste
+  radius: 4852
+  rotationSpeed: 0.00147
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 582240
+  land:
+    ratio: 0.52
+    color: [0.122776, 0.613281, 0.0527039, 1]
+    polarColor: [0.750983, 0.938672, 0.724171, 1]
+  sea:
+    color: [0.519531, 0.405275, 0.42402, 1]
+    polarColor: [0.948047, 0.895923, 0.904474, 1]
+  air:
+    color: [0.600392, 0.869029, 0.977537, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.47828, 0.935547, 0.412956, 1]
+    ratio: 0.35
+    polarColor: [0.639649, 0.920996, 0.599457, 1]
+  demographics:
+    type: 26
+    gdp: 6240
+    tech: 3
+    economy: 7
+    government: 6
+    description: This world is a tedious place.
+    inhabitants: Fierce Bony Felines
+- type: star
+  type: primary
+  color: [0.544993, 0.571867, 0.742203, 1]
+  radius: 139099.649658
+  orbit:
+    type: static
+    parent: ~
+    radius: 291120
+    vector: [-0.051, -0.538, -0.841]
+  corona:
+    shimmer: 0.243915
+    hues: 0.503036
+    flare: 0.07406
+stations:
+- type: coriolis
+  orbit:
+    parent: Soinuste
+    vector: undefined
+    radius: 9704

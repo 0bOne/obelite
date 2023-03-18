@@ -1,0 +1,61 @@
+name: Ceerdi
+position: [215, 84]
+seed: 45 84 65 215 85 69
+limits:
+  blurs: 55
+  stars: 6207
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceerdi
+  radius: 4311
+  rotationSpeed: 0.002564
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 603540
+  land:
+    ratio: 0.52
+    color: [0.45375, 0.66, 0.543984, 1]
+    polarColor: [0.861031, 0.934, 0.892955, 1]
+  sea:
+    color: [0.613018, 0.652344, 0.504292, 1]
+    polarColor: [0.920678, 0.934766, 0.881729, 1]
+  air:
+    color: [0.577076, 0.475604, 0.944367, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.58583, 0.0914307, 0.835938, 1]
+    ratio: 0.29
+    polarColor: [0.712331, 0.388459, 0.876172, 1]
+  demographics:
+    type: 23
+    gdp: 2944
+    tech: 4
+    economy: 6
+    government: 0
+    description: Ceerdi is an unremarkable planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.578621, 0.660113, 0.66105, 1]
+  radius: 127942.028503
+  orbit:
+    type: static
+    parent: ~
+    radius: 344880
+    vector: [-0.127, -0.992, 0.001]
+  corona:
+    shimmer: 0.35214
+    hues: 0.611855
+    flare: 0.01532
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceerdi
+    vector: undefined
+    radius: 8622

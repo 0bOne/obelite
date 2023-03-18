@@ -1,0 +1,61 @@
+name: Soceorbi
+position: [107, 18]
+seed: 115 18 254 107 135 39
+limits:
+  blurs: 91
+  stars: 5570
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soceorbi
+  radius: 4715
+  rotationSpeed: 0.000776
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 612950
+  land:
+    ratio: 0.27
+    color: [0.228004, 0.517578, 0.13546, 1]
+    polarColor: [0.815612, 0.948242, 0.773225, 1]
+  sea:
+    color: [0.818356, 0.709879, 0.892578, 1]
+    polarColor: [0.891809, 0.864138, 0.910742, 1]
+  air:
+    color: [0.784843, 0.514683, 0.959977, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.882812, 0.18277, 0.297621, 1]
+    ratio: 0.38
+    polarColor: [0.897266, 0.452576, 0.525533, 1]
+  demographics:
+    type: 58
+    gdp: 40832
+    tech: 12
+    economy: 2
+    government: 7
+    description: The world Soceorbi is a dull place.
+    inhabitants: Fierce Red Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.807831, 0.740317, 0.723166, 1]
+  radius: 113797.866058
+  orbit:
+    type: static
+    parent: ~
+    radius: 330050
+    vector: [-0.424, -0.153, 0.893]
+  corona:
+    shimmer: 0.495944
+    hues: 0.569824
+    flare: 0.035123
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Soceorbi
+    vector: undefined
+    radius: 9430

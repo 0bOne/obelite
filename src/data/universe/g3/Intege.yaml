@@ -1,0 +1,61 @@
+name: Intege
+position: [123, 20]
+seed: 146 20 2 123 154 76
+limits:
+  blurs: 169
+  stars: 9360
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Intege
+  radius: 6011
+  rotationSpeed: 0.003178
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 781430
+  land:
+    ratio: 0.31
+    color: [0.190298, 0.0928125, 0.66, 1]
+    polarColor: [0.767825, 0.733336, 0.934, 1]
+  sea:
+    color: [0.634766, 0.539438, 0.469875, 1]
+    polarColor: [0.936523, 0.901362, 0.875704, 1]
+  air:
+    color: [0.794153, 0.587935, 0.907295, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.724609, 0.39344, 0.408964, 1]
+    ratio: 0.57
+    polarColor: [0.826074, 0.590111, 0.601171, 1]
+  demographics:
+    type: 23
+    gdp: 2944
+    tech: 4
+    economy: 6
+    government: 0
+    description: This planet is very notable for the Integeian tree ant and its inhabitants’ ancient loathing of sit coms.
+    inhabitants: Yellow Insects
+- type: star
+  type: primary
+  color: [0.593179, 0.678776, 0.690033, 1]
+  radius: 130582.591248
+  orbit:
+    type: static
+    parent: ~
+    radius: 300550
+    vector: [0.169, -0.7, -0.694]
+  corona:
+    shimmer: 0.429964
+    hues: 0.767059
+    flare: 0.024292
+stations:
+- type: coriolis
+  orbit:
+    parent: Intege
+    vector: undefined
+    radius: 12022

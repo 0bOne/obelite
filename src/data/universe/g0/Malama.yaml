@@ -1,0 +1,61 @@
+name: Malama
+position: [234, 32]
+seed: 0 32 24 234 221 75
+limits:
+  blurs: 77
+  stars: 6594
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Malama
+  radius: 5866
+  rotationSpeed: 0.001906
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 703920
+  land:
+    ratio: 0.3
+    color: [0.66, 0.629888, 0.492422, 1]
+    polarColor: [0.934, 0.923347, 0.874713, 1]
+  sea:
+    color: [0.665661, 0.685353, 0.845703, 1]
+    polarColor: [0.866708, 0.872037, 0.91543, 1]
+  air:
+    color: [0.64955, 0.49845, 0.941115, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.826172, 0.154907, 0.799951, 1]
+    ratio: 0.44
+    polarColor: [0.871777, 0.429078, 0.854484, 1]
+  demographics:
+    type: 48
+    gdp: 26880
+    tech: 11
+    economy: 0
+    government: 3
+    description: The planet Malama is mildly well known for its exotic cuisine.
+    inhabitants: Small Yellow Horned Humanoids
+- type: star
+  type: primary
+  color: [0.703883, 0.728465, 0.732693, 1]
+  radius: 177008.447571
+  orbit:
+    type: static
+    parent: ~
+    radius: 527940
+    vector: [-0.743, 0.664, 0.088]
+  corona:
+    shimmer: 0.313798
+    hues: 0.521149
+    flare: 0.038293
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Malama
+    vector: undefined
+    radius: 11732

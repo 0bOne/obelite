@@ -1,0 +1,61 @@
+name: Bemaera
+position: [49, 198]
+seed: 192 198 144 49 109 243
+limits:
+  blurs: 68
+  stars: 7297
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bemaera
+  radius: 3633
+  rotationSpeed: 0.003516
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 435960
+  land:
+    ratio: 0.6
+    color: [0.129089, 0.550781, 0.135678, 1]
+    polarColor: [0.764058, 0.944922, 0.766884, 1]
+  sea:
+    color: [0.547948, 0.675781, 0.533498, 1]
+    polarColor: [0.888327, 0.932422, 0.883342, 1]
+  air:
+    color: [0.479722, 0.596699, 0.88193, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.149445, 0.578267, 0.648438, 1]
+    ratio: 0.37
+    polarColor: [0.410977, 0.738244, 0.791797, 1]
+  demographics:
+    type: 21
+    gdp: 4032
+    tech: 3
+    economy: 6
+    government: 2
+    description: Bemaera is most noted for the Bemaeraian deadly Noseoid and the Bemaeraian evil Noseoid.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.645796, 0.689013, 0.735315, 1]
+  radius: 101456.358948
+  orbit:
+    type: static
+    parent: ~
+    radius: 254310
+    vector: [-0.113, 0.79, 0.603]
+  corona:
+    shimmer: 0.528371
+    hues: 0.632622
+    flare: 0.026566
+stations:
+- type: coriolis
+  orbit:
+    parent: Bemaera
+    vector: undefined
+    radius: 7266

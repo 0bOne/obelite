@@ -3,8 +3,9 @@ export default class AnimationManager
     isAnimating;
     boundRenderFunction;
 
-    constructor(gameCtx)
+    constructor(gameCtx, viewController)
     {
+        this.viewController = viewController;
         this.gameCtx = gameCtx;
         this.isAnimating = false;
 
@@ -47,6 +48,8 @@ export default class AnimationManager
                 model.animator.animate(this.gameCtx);   
             }         
         });
+
+        this.viewController.animate(this.gameCtx);
 
         requestAnimationFrame(this.boundRenderFunction);
 

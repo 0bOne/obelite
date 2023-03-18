@@ -1,0 +1,61 @@
+name: Arance
+position: [223, 145]
+seed: 173 145 172 223 1 106
+limits:
+  blurs: 197
+  stars: 9693
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arance
+  radius: 5599
+  rotationSpeed: 0.001918
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 503910
+  land:
+    ratio: 0.49
+    color: [0.572266, 0.453789, 0.500994, 1]
+    polarColor: [0.942773, 0.893978, 0.91342, 1]
+  sea:
+    color: [0.573939, 0.609375, 0.486786, 1]
+    polarColor: [0.925411, 0.939062, 0.891834, 1]
+  air:
+    color: [0.783347, 0.751759, 0.967781, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.871403, 0.842529, 0.90625, 1]
+    ratio: 0.48
+    polarColor: [0.885995, 0.867918, 0.907812, 1]
+  demographics:
+    type: 55
+    gdp: 35640
+    tech: 12
+    economy: 1
+    government: 5
+    description: The planet Arance is most famous for its vast dense forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.703107, 0.667145, 0.20505, 1]
+  radius: 86788.942566
+  orbit:
+    type: static
+    parent: ~
+    radius: 503910
+    vector: [0.083, 0.11, 0.99]
+  corona:
+    shimmer: 0.515455
+    hues: 0.879639
+    flare: 0.097403
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Arance
+    vector: undefined
+    radius: 11198

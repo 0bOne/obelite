@@ -1,0 +1,61 @@
+name: Tibecea
+position: [250, 225]
+seed: 74 225 140 250 91 23
+limits:
+  blurs: 53
+  stars: 7821
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tibecea
+  radius: 4858
+  rotationSpeed: 0.001181
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 534380
+  land:
+    ratio: 0.41
+    color: [0.380564, 0.293564, 0.621094, 1]
+    polarColor: [0.847087, 0.814243, 0.937891, 1]
+  sea:
+    color: [0.75, 0.477219, 0.404297, 1]
+    polarColor: [0.925, 0.840892, 0.818408, 1]
+  air:
+    color: [0.7068, 0.781047, 0.943066, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.705276, 0.823119, 0.832031, 1]
+    ratio: 0.5
+    polarColor: [0.791157, 0.86856, 0.874414, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 7
+    economy: 3
+    government: 1
+    description: Tibecea is very fabled for the Tibeceaian edible poet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.747104, 0.509349, 0.508775, 1]
+  radius: 138146.409912
+  orbit:
+    type: static
+    parent: ~
+    radius: 388640
+    vector: [-0.021, -0.2, -0.98]
+  corona:
+    shimmer: 0.376142
+    hues: 0.8545
+    flare: 0.008879
+stations:
+- type: coriolis
+  orbit:
+    parent: Tibecea
+    vector: undefined
+    radius: 9716

@@ -1,0 +1,61 @@
+name: Usralaat
+position: [184, 179]
+seed: 90 179 212 184 27 8
+limits:
+  blurs: 142
+  stars: 9583
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usralaat
+  radius: 5048
+  rotationSpeed: 0.001476
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 555280
+  land:
+    ratio: 0.24
+    color: [0.625, 0.530777, 0.498047, 1]
+    polarColor: [0.9375, 0.902166, 0.889893, 1]
+  sea:
+    color: [0.168808, 0.583984, 0.476947, 1]
+    polarColor: [0.774247, 0.941602, 0.898455, 1]
+  air:
+    color: [0.588912, 0.874848, 0.985992, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.462287, 0.960938, 0.375366, 1]
+    ratio: 0.16
+    polarColor: [0.630014, 0.932422, 0.5773, 1]
+  demographics:
+    type: 26
+    gdp: 8736
+    tech: 5
+    economy: 3
+    government: 2
+    description: This planet is plagued by deadly earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.326238, 0.588706, 0.695544, 1]
+  radius: 119382.39624
+  orbit:
+    type: static
+    parent: ~
+    radius: 605760
+    vector: [0.417, 0.731, 0.54]
+  corona:
+    shimmer: 0.326131
+    hues: 0.759346
+    flare: 0.057478
+stations:
+- type: coriolis
+  orbit:
+    parent: Usralaat
+    vector: undefined
+    radius: 10096

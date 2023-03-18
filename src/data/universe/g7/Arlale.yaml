@@ -1,0 +1,61 @@
+name: Arlale
+position: [193, 72]
+seed: 151 72 242 193 179 202
+limits:
+  blurs: 93
+  stars: 9156
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arlale
+  radius: 5569
+  rotationSpeed: 0.000551
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 779660
+  land:
+    ratio: 0.68
+    color: [0.373828, 0.66, 0.3783, 1]
+    polarColor: [0.832756, 0.934, 0.834338, 1]
+  sea:
+    color: [0.654297, 0.569235, 0.500946, 1]
+    polarColor: [0.93457, 0.904196, 0.87981, 1]
+  air:
+    color: [0.546408, 0.958676, 0.871361, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.878906, 0.499105, 0.271225, 1]
+    ratio: 0.43
+    polarColor: [0.895508, 0.653649, 0.508533, 1]
+  demographics:
+    type: 51
+    gdp: 40800
+    tech: 11
+    economy: 0
+    government: 6
+    description: The world Arlale is fabled for its ancient Arlaleian Enalno banana plantations and its hoopy night life.
+    inhabitants: Small Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.601057, 0.619088, 0.707086, 1]
+  radius: 106482.821808
+  orbit:
+    type: static
+    parent: ~
+    radius: 501210
+    vector: [-0.156, -0.9, -0.408]
+  corona:
+    shimmer: 0.358101
+    hues: 0.790359
+    flare: 0.029364
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Arlale
+    vector: undefined
+    radius: 11138

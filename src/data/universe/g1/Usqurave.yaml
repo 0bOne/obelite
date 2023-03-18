@@ -1,0 +1,61 @@
+name: Usqurave
+position: [81, 160]
+seed: 112 160 184 81 58 168
+limits:
+  blurs: 175
+  stars: 9038
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usqurave
+  radius: 4945
+  rotationSpeed: 0.004073
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 494500
+  land:
+    ratio: 0.33
+    color: [0.618428, 0.66, 0.53625, 1]
+    polarColor: [0.919292, 0.934, 0.890219, 1]
+  sea:
+    color: [0.644638, 0.709446, 0.810547, 1]
+    polarColor: [0.871921, 0.89029, 0.918945, 1]
+  air:
+    color: [0.454287, 0.657521, 0.879328, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0950928, 0.640625, 0.410479, 1]
+    ratio: 0.1
+    polarColor: [0.368737, 0.788281, 0.611286, 1]
+  demographics:
+    type: 56
+    gdp: 49280
+    tech: 12
+    economy: 0
+    government: 7
+    description: This world is mildly well known for its exotic night life and its inhabitants’ ingrained silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.834006, 0.812713, 0.335271, 1]
+  radius: 98109.234619
+  orbit:
+    type: static
+    parent: ~
+    radius: 346150
+    vector: [0.223, 0.575, -0.787]
+  corona:
+    shimmer: 0.39979
+    hues: 0.781677
+    flare: 0.09523
+stations:
+- type: icosahedron
+  orbit:
+    parent: Usqurave
+    vector: undefined
+    radius: 9890

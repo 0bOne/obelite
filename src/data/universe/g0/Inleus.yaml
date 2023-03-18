@@ -1,0 +1,61 @@
+name: Inleus
+position: [186, 26]
+seed: 154 26 52 186 155 172
+limits:
+  blurs: 165
+  stars: 7649
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inleus
+  radius: 6074
+  rotationSpeed: 0.000302
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 546660
+  land:
+    ratio: 0.31
+    color: [0.638672, 0.436592, 0.488691, 1]
+    polarColor: [0.936133, 0.862083, 0.881174, 1]
+  sea:
+    color: [0.660156, 0.477872, 0.459015, 1]
+    polarColor: [0.933984, 0.869511, 0.862841, 1]
+  air:
+    color: [0.675126, 0.84793, 0.9151, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.628608, 0.748047, 0.607788, 1]
+    ratio: 0.21
+    polarColor: [0.753133, 0.836621, 0.73858, 1]
+  demographics:
+    type: 49
+    gdp: 31360
+    tech: 10
+    economy: 2
+    government: 6
+    description: The world Inleus is most famous for the Inleusian spotted wolf.
+    inhabitants: Harmless Slimy Rodents
+- type: star
+  type: primary
+  color: [0.278227, 0.651899, 0.664398, 1]
+  radius: 174161.31012
+  orbit:
+    type: static
+    parent: ~
+    radius: 668140
+    vector: [0.388, -0.522, -0.76]
+  corona:
+    shimmer: 0.288466
+    hues: 0.813416
+    flare: 0.09928
+stations:
+- type: coriolis
+  orbit:
+    parent: Inleus
+    vector: undefined
+    radius: 12148

@@ -1,0 +1,61 @@
+name: Insote
+position: [72, 178]
+seed: 162 178 82 72 218 236
+limits:
+  blurs: 123
+  stars: 6103
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Insote
+  radius: 5960
+  rotationSpeed: 0.003869
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 596000
+  land:
+    ratio: 0.29
+    color: [0.319688, 0.66, 0.47655, 1]
+    polarColor: [0.813602, 0.934, 0.869098, 1]
+  sea:
+    color: [0.58593, 0.607422, 0.482378, 1]
+    polarColor: [0.93095, 0.939258, 0.890919, 1]
+  air:
+    color: [0.491118, 0.995748, 0.884933, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.990234, 0.398294, 0.0773621, 1]
+    ratio: 0.51
+    polarColor: [0.945605, 0.592316, 0.400774, 1]
+  demographics:
+    type: 29
+    gdp: 11136
+    tech: 6
+    economy: 2
+    government: 2
+    description: The planet Insote is cursed by deadly civil war.
+    inhabitants: Horned Lizards
+- type: star
+  type: primary
+  color: [0.692465, 0.478197, 0.422774, 1]
+  radius: 135553.259277
+  orbit:
+    type: static
+    parent: ~
+    radius: 536400
+    vector: [0.219, 0.863, 0.456]
+  corona:
+    shimmer: 0.381653
+    hues: 0.688644
+    flare: 0.025931
+stations:
+- type: coriolis
+  orbit:
+    parent: Insote
+    vector: undefined
+    radius: 11920

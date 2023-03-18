@@ -1,0 +1,61 @@
+name: Onrequus
+position: [44, 161]
+seed: 214 161 200 44 155 159
+limits:
+  blurs: 61
+  stars: 5149
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onrequus
+  radius: 6700
+  rotationSpeed: 0.001055
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 804000
+  land:
+    ratio: 0.36
+    color: [0.66, 0.501365, 0.198516, 1]
+    polarColor: [0.934, 0.877877, 0.770732, 1]
+  sea:
+    color: [0.355914, 0.337639, 0.517578, 1]
+    polarColor: [0.874197, 0.865827, 0.948242, 1]
+  air:
+    color: [0.579489, 0.926762, 0.972334, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.717173, 0.919922, 0.355751, 1]
+    ratio: 0.17
+    polarColor: [0.788067, 0.913965, 0.563641, 1]
+  demographics:
+    type: 25
+    gdp: 7000
+    tech: 5
+    economy: 3
+    government: 1
+    description: This world is a tedious little planet.
+    inhabitants: Black Furry Rodents
+- type: star
+  type: primary
+  color: [0.800635, 0.696768, 0.508515, 1]
+  radius: 151651.702881
+  orbit:
+    type: static
+    parent: ~
+    radius: 402000
+    vector: [0.054, -0.939, 0.339]
+  corona:
+    shimmer: 1.432105
+    hues: 0.627769
+    flare: 0.010493
+stations:
+- type: coriolis
+  orbit:
+    parent: Onrequus
+    vector: undefined
+    radius: 13400

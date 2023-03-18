@@ -1,0 +1,61 @@
+name: Leveti
+position: [127, 149]
+seed: 18 149 138 127 212 161
+limits:
+  blurs: 180
+  stars: 6176
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leveti
+  radius: 3199
+  rotationSpeed: 0.000327
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 351890
+  land:
+    ratio: 0.56
+    color: [0.520298, 0.134062, 0.66, 1]
+    polarColor: [0.884575, 0.74793, 0.934, 1]
+  sea:
+    color: [0.642578, 0.629398, 0.489213, 1]
+    polarColor: [0.935742, 0.930944, 0.879908, 1]
+  air:
+    color: [0.420717, 0.821811, 0.855264, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.440926, 0.568359, 0.0421829, 1]
+    ratio: 0.34
+    polarColor: [0.649855, 0.755762, 0.318468, 1]
+  demographics:
+    type: 25
+    gdp: 3000
+    tech: 4
+    economy: 7
+    government: 1
+    description: Leveti is reasonably notable for its great tropical forests but cursed by dreadful solar activity.
+    inhabitants: Large Harmless Horned Lobsters
+- type: star
+  type: primary
+  color: [0.608698, 0.786512, 0.794998, 1]
+  radius: 78413.47641
+  orbit:
+    type: static
+    parent: ~
+    radius: 191940
+    vector: [-0.122, 0.094, -0.988]
+  corona:
+    shimmer: 0.276234
+    hues: 0.948822
+    flare: 0.069258
+stations:
+- type: coriolis
+  orbit:
+    parent: Leveti
+    vector: undefined
+    radius: 6398

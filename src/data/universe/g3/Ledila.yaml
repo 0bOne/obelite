@@ -1,0 +1,61 @@
+name: Ledila
+position: [101, 70]
+seed: 42 70 242 101 202 161
+limits:
+  blurs: 99
+  stars: 6743
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ledila
+  radius: 3173
+  rotationSpeed: 0.003214
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 317300
+  land:
+    ratio: 0.31
+    color: [0.461505, 0.66, 0.311953, 1]
+    polarColor: [0.863775, 0.934, 0.810865, 1]
+  sea:
+    color: [0.565322, 0.714844, 0.548419, 1]
+    polarColor: [0.879962, 0.928516, 0.874473, 1]
+  air:
+    color: [0.460264, 0.735133, 0.846158, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.176728, 0.541016, 0.124687, 1]
+    ratio: 0.39
+    polarColor: [0.430582, 0.743457, 0.385886, 1]
+  demographics:
+    type: 33
+    gdp: 10560
+    tech: 5
+    economy: 6
+    government: 6
+    description: Ledila is ravaged by occasional solar activity.
+    inhabitants: Large Harmless Bony Birds
+- type: star
+  type: primary
+  color: [0.437831, 0.528189, 0.696411, 1]
+  radius: 85262.270966
+  orbit:
+    type: static
+    parent: ~
+    radius: 349030
+    vector: [-0.682, 0.087, -0.726]
+  corona:
+    shimmer: 0.800958
+    hues: 0.640572
+    flare: 0.047035
+stations:
+- type: coriolis
+  orbit:
+    parent: Ledila
+    vector: undefined
+    radius: 6346

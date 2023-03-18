@@ -1,0 +1,61 @@
+name: Aquxein
+position: [183, 147]
+seed: 100 147 244 183 149 143
+limits:
+  blurs: 161
+  stars: 5423
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aquxein
+  radius: 6839
+  rotationSpeed: 0.002085
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 889070
+  land:
+    ratio: 0.47
+    color: [0.0670312, 0.229171, 0.66, 1]
+    polarColor: [0.724215, 0.781578, 0.934, 1]
+  sea:
+    color: [0.616245, 0.648438, 0.501273, 1]
+    polarColor: [0.92355, 0.935156, 0.882097, 1]
+  air:
+    color: [0.6022, 0.548817, 0.878678, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.470272, 0.301872, 0.638672, 1]
+    ratio: 0.24
+    polarColor: [0.657642, 0.527883, 0.787402, 1]
+  demographics:
+    type: 50
+    gdp: 28000
+    tech: 10
+    economy: 3
+    government: 6
+    description: The planet Aquxein is a boring world.
+    inhabitants: Black Fat Insects
+- type: star
+  type: primary
+  color: [0.487329, 0.530973, 0.775171, 1]
+  radius: 154995.140533
+  orbit:
+    type: static
+    parent: ~
+    radius: 615510
+    vector: [-0.173, -0.863, -0.475]
+  corona:
+    shimmer: 0.583611
+    hues: 0.759346
+    flare: 0.00088
+stations:
+- type: coriolis
+  orbit:
+    parent: Aquxein
+    vector: undefined
+    radius: 13678

@@ -1,0 +1,61 @@
+name: Aesaus
+position: [54, 4]
+seed: 112 4 56 54 58 175
+limits:
+  blurs: 150
+  stars: 8976
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aesaus
+  radius: 6710
+  rotationSpeed: 0.004072
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 805200
+  land:
+    ratio: 0.61
+    color: [0.55325, 0.531094, 0.66, 1]
+    polarColor: [0.896233, 0.888395, 0.934, 1]
+  sea:
+    color: [0.539062, 0.294471, 0.00842285, 1]
+    polarColor: [0.946094, 0.838775, 0.713266, 1]
+  air:
+    color: [0.479368, 0.596259, 0.881279, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.148994, 0.576525, 0.646484, 1]
+    ratio: 0.24
+    polarColor: [0.41052, 0.737425, 0.790918, 1]
+  demographics:
+    type: 48
+    gdp: 25344
+    tech: 9
+    economy: 4
+    government: 7
+    description: This world is very fabled for its weird volcanoes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.763043, 0.515523, 0.347576, 1]
+  radius: 167404.957581
+  orbit:
+    type: static
+    parent: ~
+    radius: 671000
+    vector: [-0.081, -0.596, 0.799]
+  corona:
+    shimmer: 0.457328
+    hues: 0.795807
+    flare: 0.001903
+stations:
+- type: coriolis
+  orbit:
+    parent: Aesaus
+    vector: undefined
+    radius: 13420

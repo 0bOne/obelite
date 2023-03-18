@@ -1,0 +1,61 @@
+name: Reenri
+position: [61, 166]
+seed: 242 166 66 61 180 78
+limits:
+  blurs: 71
+  stars: 9057
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reenri
+  radius: 6461
+  rotationSpeed: 0.003717
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 904540
+  land:
+    ratio: 0.68
+    color: [0.5625, 0.474609, 0.491089, 1]
+    polarColor: [0.94375, 0.906885, 0.913797, 1]
+  sea:
+    color: [0.943359, 0.635144, 0.19899, 1]
+    polarColor: [0.905664, 0.831689, 0.727008, 1]
+  air:
+    color: [0.720478, 0.730719, 0.969732, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.755341, 0.772487, 0.912109, 1]
+    ratio: 0.32
+    polarColor: [0.812647, 0.823344, 0.910449, 1]
+  demographics:
+    type: 15
+    gdp: 1920
+    tech: 2
+    economy: 6
+    government: 0
+    description: The world Reenri is mildly fabled for its inhabitants’ eccentric shyness but cursed by occasional earthquakes.
+    inhabitants: Yellow Bony Humanoids
+- type: star
+  type: primary
+  color: [0.841922, 0.491579, 0.343656, 1]
+  radius: 199294.679413
+  orbit:
+    type: static
+    parent: ~
+    radius: 387660
+    vector: [0.833, -0.506, 0.225]
+  corona:
+    shimmer: 0.412622
+    hues: 0.546562
+    flare: 0.012219
+stations:
+- type: coriolis
+  orbit:
+    parent: Reenri
+    vector: undefined
+    radius: 12922

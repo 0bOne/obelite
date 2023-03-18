@@ -1,0 +1,61 @@
+name: Onteer
+position: [115, 105]
+seed: 25 105 209 115 250 159
+limits:
+  blurs: 182
+  stars: 9764
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onteer
+  radius: 6771
+  rotationSpeed: 0.002551
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 744810
+  land:
+    ratio: 0.43
+    color: [0.66, 0.301641, 0.503218, 1]
+    polarColor: [0.934, 0.807217, 0.878532, 1]
+  sea:
+    color: [0.730469, 0.396622, 0.396622, 1]
+    polarColor: [0.926953, 0.821042, 0.821042, 1]
+  air:
+    color: [0.67805, 0.858516, 0.84283, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.578125, 0.573608, 0.560059, 1]
+    ratio: 0.15
+    polarColor: [0.760156, 0.756445, 0.745309, 1]
+  demographics:
+    type: 44
+    gdp: 19008
+    tech: 10
+    economy: 1
+    government: 2
+    description: Onteer is cursed by dreadful civil war.
+    inhabitants: Black Horned Humanoids
+- type: star
+  type: primary
+  color: [0.847333, 0.728453, 0.382092, 1]
+  radius: 132984.812164
+  orbit:
+    type: static
+    parent: ~
+    radius: 744810
+    vector: [0.48, 0.047, -0.876]
+  corona:
+    shimmer: 0.337133
+    hues: 0.850319
+    flare: 0.054478
+stations:
+- type: coriolis
+  orbit:
+    parent: Onteer
+    vector: undefined
+    radius: 13542

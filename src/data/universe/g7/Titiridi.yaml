@@ -1,0 +1,61 @@
+name: Titiridi
+position: [14, 17]
+seed: 121 17 168 14 181 55
+limits:
+  blurs: 120
+  stars: 8166
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Titiridi
+  radius: 4622
+  rotationSpeed: 0.002801
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 600860
+  land:
+    ratio: 0.46
+    color: [0.634622, 0.543984, 0.66, 1]
+    polarColor: [0.925021, 0.892955, 0.934, 1]
+  sea:
+    color: [0.642578, 0.629398, 0.489213, 1]
+    polarColor: [0.935742, 0.930944, 0.879908, 1]
+  air:
+    color: [0.439182, 0.563246, 0.917051, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0265045, 0.583421, 0.753906, 1]
+    ratio: 0.35
+    polarColor: [0.333162, 0.720642, 0.839258, 1]
+  demographics:
+    type: 51
+    gdp: 33048
+    tech: 11
+    economy: 1
+    government: 5
+    description: The planet Titiridi is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ eccentric love for poetry.
+    inhabitants: Red Lizards
+- type: star
+  type: primary
+  color: [0.839044, 0.71882, 0.683375, 1]
+  radius: 120515.039062
+  orbit:
+    type: static
+    parent: ~
+    radius: 415980
+    vector: [0.562, -0.521, 0.642]
+  corona:
+    shimmer: 0.477007
+    hues: 0.537186
+    flare: 0.069566
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Titiridi
+    vector: undefined
+    radius: 9244

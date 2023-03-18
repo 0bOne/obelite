@@ -20,7 +20,7 @@ export default class Rotator
         }
     }
 
-    onKeyPress(event)
+    onKey(event)
     {
         if (event.key === " ")
         {

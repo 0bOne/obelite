@@ -1,0 +1,61 @@
+name: Rainla
+position: [53, 162]
+seed: 146 162 2 53 154 84
+limits:
+  blurs: 102
+  stars: 9095
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rainla
+  radius: 3893
+  rotationSpeed: 0.003171
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 428230
+  land:
+    ratio: 0.65
+    color: [0.533203, 0.424896, 0.51628, 1]
+    polarColor: [0.94668, 0.898606, 0.939168, 1]
+  sea:
+    color: [0.631025, 0.806641, 0.532509, 1]
+    polarColor: [0.869298, 0.919336, 0.841228, 1]
+  air:
+    color: [0.45711, 0.764372, 0.838354, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.282292, 0.517578, 0.121307, 1]
+    ratio: 0.43
+    polarColor: [0.524677, 0.73291, 0.382201, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 6
+    economy: 2
+    government: 0
+    description: The world Rainla is mildly fabled for the Rainlaian mountain slug but ravaged by killer disease.
+    inhabitants: Yellow Insects
+- type: star
+  type: primary
+  color: [0.69749, 0.736481, 0.849676, 1]
+  radius: 86048.035889
+  orbit:
+    type: static
+    parent: ~
+    radius: 311440
+    vector: [0.988, 0.151, -0.025]
+  corona:
+    shimmer: 0.410791
+    hues: 0.934464
+    flare: 0.041353
+stations:
+- type: coriolis
+  orbit:
+    parent: Rainla
+    vector: undefined
+    radius: 7786

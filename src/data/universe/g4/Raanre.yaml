@@ -1,0 +1,61 @@
+name: Raanre
+position: [222, 104]
+seed: 6 104 128 222 219 180
+limits:
+  blurs: 139
+  stars: 7457
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raanre
+  radius: 4062
+  rotationSpeed: 0.00078
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 487440
+  land:
+    ratio: 0.26
+    color: [0.570312, 0.494168, 0.49234, 1]
+    polarColor: [0.942969, 0.911494, 0.910738, 1]
+  sea:
+    color: [0.612996, 0.851562, 0.49231, 1]
+    polarColor: [0.85077, 0.914844, 0.818356, 1]
+  air:
+    color: [0.741313, 0.47418, 0.979488, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.941406, 0.0478058, 0.40385, 1]
+    ratio: 0.23
+    polarColor: [0.923633, 0.375677, 0.594003, 1]
+  demographics:
+    type: 31
+    gdp: 7936
+    tech: 7
+    economy: 2
+    government: 0
+    description: The world Raanre is beset by evil disease.
+    inhabitants: Harmless Felines
+- type: star
+  type: primary
+  color: [0.753149, 0.665948, 0.3807, 1]
+  radius: 108329.503784
+  orbit:
+    type: static
+    parent: ~
+    radius: 284340
+    vector: [-0.928, 0.332, -0.172]
+  corona:
+    shimmer: 0.302316
+    hues: 0.554688
+    flare: 0.030072
+stations:
+- type: coriolis
+  orbit:
+    parent: Raanre
+    vector: undefined
+    radius: 8124

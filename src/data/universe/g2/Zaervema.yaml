@@ -1,0 +1,61 @@
+name: Zaervema
+position: [193, 235]
+seed: 113 235 9 193 109 68
+limits:
+  blurs: 192
+  stars: 8885
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaervema
+  radius: 4033
+  rotationSpeed: 0.003185
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 483960
+  land:
+    ratio: 0.29
+    color: [0.283051, 0.402147, 0.517578, 1]
+    polarColor: [0.840824, 0.895372, 0.948242, 1]
+  sea:
+    color: [0.242004, 0.507812, 0.489123, 1]
+    polarColor: [0.825005, 0.949219, 0.940485, 1]
+  air:
+    color: [0.440731, 0.747204, 0.861768, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.165703, 0.587891, 0.0780792, 1]
+    ratio: 0.3
+    polarColor: [0.421392, 0.764551, 0.35017, 1]
+  demographics:
+    type: 29
+    gdp: 8120
+    tech: 6
+    economy: 3
+    government: 1
+    description: Zaervema is well known for the Zaervemaian spotted cat but cursed by dreadful solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.320916, 0.635513, 0.843158, 1]
+  radius: 98847.761688
+  orbit:
+    type: static
+    parent: ~
+    radius: 483960
+    vector: [-0.903, -0.422, 0.079]
+  corona:
+    shimmer: 0.265704
+    hues: 0.870483
+    flare: 0.042731
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaervema
+    vector: undefined
+    radius: 8066

@@ -1,0 +1,61 @@
+name: Intisoar
+position: [99, 102]
+seed: 249 102 225 99 90 204
+limits:
+  blurs: 137
+  stars: 6505
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Intisoar
+  radius: 5987
+  rotationSpeed: 0.004444
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 658570
+  land:
+    ratio: 0.24
+    color: [0.442571, 0.66, 0.332578, 1]
+    polarColor: [0.857076, 0.934, 0.818162, 1]
+  sea:
+    color: [0.57172, 0.658203, 0.518078, 1]
+    polarColor: [0.903493, 0.93418, 0.88446, 1]
+  air:
+    color: [0.681497, 0.610108, 0.840305, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.517064, 0.406891, 0.523438, 1]
+    ratio: 0.47
+    polarColor: [0.729949, 0.633188, 0.735547, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 6
+    economy: 6
+    government: 4
+    description: Intisoar is cursed by killer edible talking treeoids.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.410561, 0.653237, 0.71044, 1]
+  radius: 142479.92981
+  orbit:
+    type: static
+    parent: ~
+    radius: 658570
+    vector: [-0.012, 0.844, -0.537]
+  corona:
+    shimmer: 0.468241
+    hues: 0.920357
+    flare: 0.006915
+stations:
+- type: coriolis
+  orbit:
+    parent: Intisoar
+    vector: undefined
+    radius: 11974

@@ -1,0 +1,61 @@
+name: Tecea
+position: [109, 220]
+seed: 7 220 193 109 40 252
+limits:
+  blurs: 149
+  stars: 9278
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tecea
+  radius: 5997
+  rotationSpeed: 0.002358
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 599700
+  land:
+    ratio: 0.33
+    color: [0.48785, 0.550781, 0.0473328, 1]
+    polarColor: [0.917931, 0.944922, 0.728992, 1]
+  sea:
+    color: [0.572266, 0.45228, 0.436353, 1]
+    polarColor: [0.942773, 0.893356, 0.886796, 1]
+  air:
+    color: [0.562135, 0.959977, 0.919188, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.882812, 0.713891, 0.313812, 1]
+    ratio: 0.2
+    polarColor: [0.897266, 0.789961, 0.535818, 1]
+  demographics:
+    type: 15
+    gdp: 1920
+    tech: 2
+    economy: 6
+    government: 0
+    description: The world Tecea is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.82319, 0.801922, 0.628465, 1]
+  radius: 170230.393982
+  orbit:
+    type: static
+    parent: ~
+    radius: 479760
+    vector: [-0.57, 0.324, -0.756]
+  corona:
+    shimmer: 0.302673
+    hues: 0.721977
+    flare: 0.054721
+stations:
+- type: coriolis
+  orbit:
+    parent: Tecea
+    vector: undefined
+    radius: 11994

@@ -1,0 +1,61 @@
+name: Quesla
+position: [113, 221]
+seed: 41 221 89 113 202 186
+limits:
+  blurs: 73
+  stars: 7210
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Quesla
+  radius: 5489
+  rotationSpeed: 0.002251
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 768460
+  land:
+    ratio: 0.68
+    color: [0.583984, 0.433426, 0.518115, 1]
+    polarColor: [0.941602, 0.880912, 0.91505, 1]
+  sea:
+    color: [0.650364, 0.798828, 0.527351, 1]
+    polarColor: [0.877366, 0.920117, 0.841943, 1]
+  air:
+    color: [0.691437, 0.786419, 0.94892, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.667076, 0.849609, 0.832497, 1]
+    ratio: 0.3
+    polarColor: [0.763848, 0.882324, 0.871217, 1]
+  demographics:
+    type: 29
+    gdp: 8120
+    tech: 5
+    economy: 5
+    government: 3
+    description: Quesla is reasonably well known for the Queslaian tree grub but plagued by frequent earthquakes.
+    inhabitants: Harmless Fat Felines
+- type: star
+  type: primary
+  color: [0.571834, 0.590886, 0.792328, 1]
+  radius: 173691.304169
+  orbit:
+    type: static
+    parent: ~
+    radius: 274450
+    vector: [0.203, 0.796, -0.57]
+  corona:
+    shimmer: 0.294094
+    hues: 0.802132
+    flare: 0.024202
+stations:
+- type: coriolis
+  orbit:
+    parent: Quesla
+    vector: undefined
+    radius: 10978

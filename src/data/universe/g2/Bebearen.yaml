@@ -1,0 +1,61 @@
+name: Bebearen
+position: [194, 29]
+seed: 117 29 217 194 165 243
+limits:
+  blurs: 44
+  stars: 7019
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bebearen
+  radius: 3778
+  rotationSpeed: 0.002953
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 377800
+  land:
+    ratio: 0.62
+    color: [0.276001, 0.303308, 0.59375, 1]
+    polarColor: [0.81478, 0.825594, 0.940625, 1]
+  sea:
+    color: [0.617744, 0.736328, 0.544192, 1]
+    polarColor: [0.88907, 0.926367, 0.865936, 1]
+  air:
+    color: [0.674398, 0.875384, 0.879979, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.63748, 0.642578, 0.577316, 1]
+    ratio: 0.23
+    polarColor: [0.785247, 0.78916, 0.739067, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 6
+    economy: 5
+    government: 3
+    description: This planet is beset by deadly earthquakes.
+    inhabitants: Lizards
+- type: star
+  type: primary
+  color: [0.264706, 0.335673, 0.753204, 1]
+  radius: 94843.733826
+  orbit:
+    type: static
+    parent: ~
+    radius: 340020
+    vector: [-0.152, -0.826, 0.543]
+  corona:
+    shimmer: 1.356797
+    hues: 0.773552
+    flare: 0.027403
+stations:
+- type: coriolis
+  orbit:
+    parent: Bebearen
+    vector: undefined
+    radius: 7556

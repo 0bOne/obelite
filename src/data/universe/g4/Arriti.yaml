@@ -1,0 +1,61 @@
+name: Arriti
+position: [206, 228]
+seed: 188 228 168 206 181 138
+limits:
+  blurs: 126
+  stars: 8964
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arriti
+  radius: 5582
+  rotationSpeed: 0.002868
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 725660
+  land:
+    ratio: 0.65
+    color: [0.0309375, 0.468333, 0.66, 1]
+    polarColor: [0.711445, 0.86619, 0.934, 1]
+  sea:
+    color: [0.9, 0.72, 0.828, 1]
+    polarColor: [0.91, 0.8645, 0.8918, 1]
+  air:
+    color: [0.558094, 0.527944, 0.887783, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.364146, 0.254959, 0.666016, 1]
+    ratio: 0.29
+    polarColor: [0.573166, 0.491226, 0.799707, 1]
+  demographics:
+    type: 42
+    gdp: 18144
+    tech: 8
+    economy: 4
+    government: 5
+    description: The planet Arriti is most famous for its pink oceans.
+    inhabitants: Small Black Horned Birds
+- type: star
+  type: primary
+  color: [0.727646, 0.295966, 0.253767, 1]
+  radius: 135447.993164
+  orbit:
+    type: static
+    parent: ~
+    radius: 502380
+    vector: [0.691, -0.485, -0.535]
+  corona:
+    shimmer: 0.356868
+    hues: 0.697678
+    flare: 0.084772
+stations:
+- type: coriolis
+  orbit:
+    parent: Arriti
+    vector: undefined
+    radius: 11164

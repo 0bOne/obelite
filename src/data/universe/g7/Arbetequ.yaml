@@ -1,0 +1,61 @@
+name: Arbetequ
+position: [222, 105]
+seed: 241 105 224 222 157 42
+limits:
+  blurs: 88
+  stars: 7542
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arbetequ
+  radius: 5598
+  rotationSpeed: 0.002201
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 783720
+  land:
+    ratio: 0.33
+    color: [0.433125, 0.66, 0.553652, 1]
+    polarColor: [0.853734, 0.934, 0.896375, 1]
+  sea:
+    color: [0.666016, 0.467682, 0.452682, 1]
+    polarColor: [0.933398, 0.863909, 0.858654, 1]
+  air:
+    color: [0.46211, 0.732209, 0.845508, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.170151, 0.539062, 0.128448, 1]
+    ratio: 0.38
+    polarColor: [0.42496, 0.742578, 0.389056, 1]
+  demographics:
+    type: 46
+    gdp: 26496
+    tech: 10
+    economy: 1
+    government: 4
+    description: Arbetequ is a revolting dump.
+    inhabitants: Small Red Frogs
+- type: star
+  type: primary
+  color: [0.676956, 0.539841, 0.33681, 1]
+  radius: 169006.025391
+  orbit:
+    type: static
+    parent: ~
+    radius: 279900
+    vector: [-0.979, 0.183, -0.087]
+  corona:
+    shimmer: 0.353149
+    hues: 0.510109
+    flare: 0.092795
+stations:
+- type: coriolis
+  orbit:
+    parent: Arbetequ
+    vector: undefined
+    radius: 11196

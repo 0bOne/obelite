@@ -1,0 +1,61 @@
+name: Belees
+position: [245, 89]
+seed: 167 89 2 245 35 147
+limits:
+  blurs: 120
+  stars: 5456
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Belees
+  radius: 3829
+  rotationSpeed: 0.004284
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 536060
+  land:
+    ratio: 0.64
+    color: [0.45375, 0.582656, 0.66, 1]
+    polarColor: [0.861031, 0.906637, 0.934, 1]
+  sea:
+    color: [0.610516, 0.634766, 0.493679, 1]
+    polarColor: [0.927579, 0.936523, 0.884484, 1]
+  air:
+    color: [0.432827, 0.781486, 0.857215, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.295766, 0.574219, 0.0650482, 1]
+    ratio: 0.57
+    polarColor: [0.528545, 0.758398, 0.338095, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: The world Belees is beset by evil disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.336825, 0.483715, 0.69599, 1]
+  radius: 90245.818787
+  orbit:
+    type: static
+    parent: ~
+    radius: 306320
+    vector: [0.794, -0.449, -0.411]
+  corona:
+    shimmer: 0.246844
+    hues: 0.797356
+    flare: 0.059062
+stations:
+- type: coriolis
+  orbit:
+    parent: Belees
+    vector: undefined
+    radius: 7658

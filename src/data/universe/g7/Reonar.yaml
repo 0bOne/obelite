@@ -1,0 +1,61 @@
+name: Reonar
+position: [61, 244]
+seed: 5 244 4 61 73 14
+limits:
+  blurs: 195
+  stars: 6310
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reonar
+  radius: 6461
+  rotationSpeed: 0.003726
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 839930
+  land:
+    ratio: 0.51
+    color: [0.66, 0.103125, 0.58604, 1]
+    polarColor: [0.934, 0.736984, 0.907834, 1]
+  sea:
+    color: [0.599609, 0.559835, 0.465634, 1]
+    polarColor: [0.940039, 0.92445, 0.887529, 1]
+  air:
+    color: [0.687783, 0.807048, 0.937213, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.652199, 0.814453, 0.746002, 1]
+    ratio: 0.38
+    polarColor: [0.758614, 0.866504, 0.820988, 1]
+  demographics:
+    type: 15
+    gdp: 1920
+    tech: 2
+    economy: 6
+    government: 0
+    description: The planet Reonar is scourged by killer edible arts graduates.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.799135, 0.802626, 0.810742, 1]
+  radius: 201843.154297
+  orbit:
+    type: static
+    parent: ~
+    radius: 452270
+    vector: [0.854, -0.106, -0.509]
+  corona:
+    shimmer: 0.924266
+    hues: 0.815689
+    flare: 0.044693
+stations:
+- type: coriolis
+  orbit:
+    parent: Reonar
+    vector: undefined
+    radius: 12922

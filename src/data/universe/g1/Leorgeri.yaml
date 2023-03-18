@@ -1,0 +1,61 @@
+name: Leorgeri
+position: [104, 207]
+seed: 84 207 112 104 166 33
+limits:
+  blurs: 163
+  stars: 9819
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leorgeri
+  radius: 3176
+  rotationSpeed: 0.003859
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 381120
+  land:
+    ratio: 0.66
+    color: [0.250816, 0.49519, 0.513672, 1]
+    polarColor: [0.827275, 0.9401, 0.948633, 1]
+  sea:
+    color: [0.576097, 0.666016, 0.520325, 1]
+    polarColor: [0.901894, 0.933398, 0.882353, 1]
+  air:
+    color: [0.697958, 0.729229, 0.978838, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.693581, 0.772337, 0.939453, 1]
+    ratio: 0.37
+    polarColor: [0.771815, 0.820163, 0.922754, 1]
+  demographics:
+    type: 26
+    gdp: 6240
+    tech: 3
+    economy: 7
+    government: 6
+    description: The world Leorgeri is a dull place.
+    inhabitants: Large Red Rodents
+- type: star
+  type: primary
+  color: [0.841867, 0.586658, 0.376757, 1]
+  radius: 74590.639648
+  orbit:
+    type: static
+    parent: ~
+    radius: 222320
+    vector: [-0.668, 0.637, -0.385]
+  corona:
+    shimmer: 0.395653
+    hues: 0.610863
+    flare: 0.049484
+stations:
+- type: coriolis
+  orbit:
+    parent: Leorgeri
+    vector: undefined
+    radius: 6352

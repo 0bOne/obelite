@@ -1,0 +1,61 @@
+name: Leeson
+position: [85, 242]
+seed: 14 242 34 85 208 225
+limits:
+  blurs: 192
+  stars: 7807
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leeson
+  radius: 3157
+  rotationSpeed: 0.000819
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 410410
+  land:
+    ratio: 0.31
+    color: [0.0257813, 0.541084, 0.66, 1]
+    polarColor: [0.709621, 0.891929, 0.934, 1]
+  sea:
+    color: [0.546875, 0.490682, 0.436218, 1]
+    polarColor: [0.945312, 0.921029, 0.897493, 1]
+  air:
+    color: [0.40442, 0.83315, 0.739003, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.501953, 0.194268, 0.0274506, 1]
+    ratio: 0.5
+    polarColor: [0.725879, 0.447787, 0.297015, 1]
+  demographics:
+    type: 39
+    gdp: 19968
+    tech: 8
+    economy: 2
+    government: 4
+    description: The planet Leeson is cursed by killer mountain A’onsethoids.
+    inhabitants: Large Rodents
+- type: star
+  type: primary
+  color: [0.703634, 0.733251, 0.787149, 1]
+  radius: 89558.968353
+  orbit:
+    type: static
+    parent: ~
+    radius: 220990
+    vector: [0.147, -0.304, -0.941]
+  corona:
+    shimmer: 0.469341
+    hues: 0.758736
+    flare: 0.081107
+stations:
+- type: coriolis
+  orbit:
+    parent: Leeson
+    vector: undefined
+    radius: 6314

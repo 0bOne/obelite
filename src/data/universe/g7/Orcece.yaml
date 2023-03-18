@@ -1,0 +1,61 @@
+name: Orcece
+position: [70, 69]
+seed: 141 69 140 70 161 121
+limits:
+  blurs: 154
+  stars: 7941
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orcece
+  radius: 5190
+  rotationSpeed: 0.004402
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 726600
+  land:
+    ratio: 0.71
+    color: [0.39115, 0.66, 0.293906, 1]
+    polarColor: [0.838884, 0.934, 0.80448, 1]
+  sea:
+    color: [0.578125, 0.474557, 0.442853, 1]
+    polarColor: [0.942187, 0.899991, 0.887073, 1]
+  air:
+    color: [0.739698, 0.74015, 0.958676, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.803965, 0.803375, 0.878906, 1]
+    ratio: 0.24
+    polarColor: [0.847785, 0.847409, 0.895508, 1]
+  demographics:
+    type: 21
+    gdp: 2520
+    tech: 3
+    economy: 7
+    government: 1
+    description: This planet is reasonably famous for its inhabitants’ exceptional love for tourists.
+    inhabitants: Blue Bony Birds
+- type: star
+  type: primary
+  color: [0.82576, 0.631667, 0.32295, 1]
+  radius: 143168.481445
+  orbit:
+    type: static
+    parent: ~
+    radius: 155700
+    vector: [-0.322, -0.942, -0.098]
+  corona:
+    shimmer: 0.382375
+    hues: 0.536163
+    flare: 0.042735
+stations:
+- type: coriolis
+  orbit:
+    parent: Orcece
+    vector: undefined
+    radius: 10380

@@ -1,0 +1,61 @@
+name: Anisis
+position: [100, 29]
+seed: 28 29 160 100 101 123
+limits:
+  blurs: 140
+  stars: 5631
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anisis
+  radius: 5732
+  rotationSpeed: 0.003157
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 745160
+  land:
+    ratio: 0.55
+    color: [0.66, 0.655005, 0.340313, 1]
+    polarColor: [0.934, 0.932233, 0.820898, 1]
+  sea:
+    color: [0.626953, 0.513203, 0.463358, 1]
+    polarColor: [0.937305, 0.89479, 0.87616, 1]
+  air:
+    color: [0.456143, 0.572258, 0.903393, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0807571, 0.564734, 0.712891, 1]
+    ratio: 0.49
+    polarColor: [0.365914, 0.714187, 0.820801, 1]
+  demographics:
+    type: 26
+    gdp: 8320
+    tech: 4
+    economy: 5
+    government: 4
+    description: This world is very notable for its inhabitants’ unusual silliness and its exotic cuisine.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.484835, 0.728976, 0.734973, 1]
+  radius: 159701.132812
+  orbit:
+    type: static
+    parent: ~
+    radius: 401240
+    vector: [-0.334, -0.694, -0.638]
+  corona:
+    shimmer: 0.324436
+    hues: 0.503883
+    flare: 0.079971
+stations:
+- type: coriolis
+  orbit:
+    parent: Anisis
+    vector: undefined
+    radius: 11464

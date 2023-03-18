@@ -1,0 +1,61 @@
+name: Riave
+position: [8, 105]
+seed: 41 105 33 8 77 222
+limits:
+  blurs: 99
+  stars: 8471
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riave
+  radius: 6408
+  rotationSpeed: 0.000415
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 833040
+  land:
+    ratio: 0.62
+    color: [0.609243, 0.567188, 0.66, 1]
+    polarColor: [0.916043, 0.901164, 0.934, 1]
+  sea:
+    color: [0.744141, 0.519795, 0.421486, 1]
+    polarColor: [0.925586, 0.855824, 0.825254, 1]
+  air:
+    color: [0.684708, 0.591601, 0.864369, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.595703, 0.388603, 0.587613, 1]
+    ratio: 0.27
+    polarColor: [0.768066, 0.601177, 0.761547, 1]
+  demographics:
+    type: 38
+    gdp: 21888
+    tech: 8
+    economy: 1
+    government: 4
+    description: This world is a revolting little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.691306, 0.512031, 0.370278, 1]
+  radius: 167265.461426
+  orbit:
+    type: static
+    parent: ~
+    radius: 256320
+    vector: [0.236, 0.967, 0.094]
+  corona:
+    shimmer: 0.38977
+    hues: 0.642853
+    flare: 0.069116
+stations:
+- type: coriolis
+  orbit:
+    parent: Riave
+    vector: undefined
+    radius: 12816

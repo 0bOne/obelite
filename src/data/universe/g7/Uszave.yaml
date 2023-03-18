@@ -1,0 +1,61 @@
+name: Uszave
+position: [137, 210]
+seed: 175 210 74 137 155 72
+limits:
+  blurs: 191
+  stars: 5401
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Uszave
+  radius: 5001
+  rotationSpeed: 0.001108
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 700140
+  land:
+    ratio: 0.42
+    color: [0.196419, 0.529297, 0.381062, 1]
+    polarColor: [0.798166, 0.94707, 0.880761, 1]
+  sea:
+    color: [0.636749, 0.835938, 0.751905, 1]
+    polarColor: [0.861816, 0.916406, 0.893376, 1]
+  air:
+    color: [0.504738, 0.637012, 0.84876, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.210098, 0.548828, 0.501194, 1]
+    ratio: 0.36
+    polarColor: [0.458834, 0.746973, 0.706453, 1]
+  demographics:
+    type: 32
+    gdp: 10240
+    tech: 7
+    economy: 2
+    government: 1
+    description: This world is very well known for Uszaveian wolf cutlet and the Uszaveian edible arts graduate.
+    inhabitants: Small Yellow Bony Lobsters
+- type: star
+  type: primary
+  color: [0.415879, 0.546844, 0.835321, 1]
+  radius: 122412.935944
+  orbit:
+    type: static
+    parent: ~
+    radius: 250050
+    vector: [-0.018, -0.869, 0.495]
+  corona:
+    shimmer: 0.339868
+    hues: 0.560745
+    flare: 0.065111
+stations:
+- type: coriolis
+  orbit:
+    parent: Uszave
+    vector: undefined
+    radius: 10002

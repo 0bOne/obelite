@@ -1,0 +1,61 @@
+name: Esrece
+position: [109, 151]
+seed: 128 151 32 109 218 169
+limits:
+  blurs: 195
+  stars: 8746
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esrece
+  radius: 5229
+  rotationSpeed: 0.001891
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 679770
+  land:
+    ratio: 0.47
+    color: [0.160629, 0.623047, 0.623047, 1]
+    polarColor: [0.763709, 0.937695, 0.937695, 1]
+  sea:
+    color: [0.705061, 0.724609, 0.532135, 1]
+    polarColor: [0.921283, 0.927539, 0.865945, 1]
+  air:
+    color: [0.451443, 0.582887, 0.903393, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0696182, 0.62243, 0.712891, 1]
+    ratio: 0.39
+    polarColor: [0.357898, 0.755705, 0.820801, 1]
+  demographics:
+    type: 24
+    gdp: 4608
+    tech: 3
+    economy: 7
+    government: 4
+    description: Esrece is cursed by dreadful civil war.
+    inhabitants: Small Harmless Horned Lobsters
+- type: star
+  type: primary
+  color: [0.816287, 0.478874, 0.386813, 1]
+  radius: 172982.430725
+  orbit:
+    type: static
+    parent: ~
+    radius: 209160
+    vector: [-0.271, 0.903, 0.335]
+  corona:
+    shimmer: 0.275999
+    hues: 0.726616
+    flare: 0.077682
+stations:
+- type: coriolis
+  orbit:
+    parent: Esrece
+    vector: undefined
+    radius: 10458

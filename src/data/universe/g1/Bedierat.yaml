@@ -1,0 +1,61 @@
+name: Bedierat
+position: [143, 234]
+seed: 116 234 72 143 182 147
+limits:
+  blurs: 118
+  stars: 8089
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bedierat
+  radius: 3727
+  rotationSpeed: 0.00423
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 447240
+  land:
+    ratio: 0.59
+    color: [0.372738, 0.274429, 0.644531, 1]
+    polarColor: [0.836919, 0.801245, 0.935547, 1]
+  sea:
+    color: [0.679779, 0.703125, 0.516357, 1]
+    polarColor: [0.92197, 0.929688, 0.86795, 1]
+  air:
+    color: [0.774094, 0.759451, 0.952172, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.854287, 0.852661, 0.859375, 1]
+    ratio: 0.12
+    polarColor: [0.883438, 0.882389, 0.886719, 1]
+  demographics:
+    type: 40
+    gdp: 12800
+    tech: 9
+    economy: 2
+    government: 1
+    description: Bedierat is well known for the Bedieratian spotted leopard but ravaged by frequent earthquakes.
+    inhabitants: Black Furry Rodents
+- type: star
+  type: primary
+  color: [0.782715, 0.749601, 0.647251, 1]
+  radius: 98646.415253
+  orbit:
+    type: static
+    parent: ~
+    radius: 335430
+    vector: [0.514, -0.438, 0.738]
+  corona:
+    shimmer: 0.276869
+    hues: 0.631584
+    flare: 0.058316
+stations:
+- type: coriolis
+  orbit:
+    parent: Bedierat
+    vector: undefined
+    radius: 7454

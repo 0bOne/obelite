@@ -1,0 +1,61 @@
+name: Andiso
+position: [126, 19]
+seed: 54 19 36 126 211 155
+limits:
+  blurs: 160
+  stars: 9424
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Andiso
+  radius: 5758
+  rotationSpeed: 0.001223
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 690960
+  land:
+    ratio: 0.5
+    color: [0.66, 0.301641, 0.494819, 1]
+    polarColor: [0.934, 0.807217, 0.875561, 1]
+  sea:
+    color: [0.732422, 0.402734, 0.394821, 1]
+    polarColor: [0.926758, 0.822466, 0.819963, 1]
+  air:
+    color: [0.446497, 0.560206, 0.912498, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0491562, 0.545869, 0.740234, 1]
+    ratio: 0.23
+    polarColor: [0.346992, 0.696386, 0.833105, 1]
+  demographics:
+    type: 40
+    gdp: 17920
+    tech: 8
+    economy: 3
+    government: 4
+    description: Andiso is cursed by killer mountain goats.
+    inhabitants: Black Furry Rodents
+- type: star
+  type: primary
+  color: [0.721193, 0.806628, 0.847638, 1]
+  radius: 113987.067566
+  orbit:
+    type: static
+    parent: ~
+    radius: 403060
+    vector: [-0.461, 0.876, -0.142]
+  corona:
+    shimmer: 0.673823
+    hues: 0.835777
+    flare: 0.065134
+stations:
+- type: coriolis
+  orbit:
+    parent: Andiso
+    vector: undefined
+    radius: 11516

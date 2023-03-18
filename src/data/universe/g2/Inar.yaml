@@ -1,0 +1,61 @@
+name: Inar
+position: [233, 148]
+seed: 149 148 121 233 101 236
+limits:
+  blurs: 188
+  stars: 5739
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inar
+  radius: 6121
+  rotationSpeed: 0.001705
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 734520
+  land:
+    ratio: 0.46
+    color: [0.53625, 0.651299, 0.66, 1]
+    polarColor: [0.890219, 0.930922, 0.934, 1]
+  sea:
+    color: [0.359329, 0.564453, 0.0595322, 1]
+    polarColor: [0.857832, 0.943555, 0.732545, 1]
+  air:
+    color: [0.670583, 0.860236, 0.910547, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.644326, 0.734375, 0.593811, 1]
+    ratio: 0.16
+    polarColor: [0.766824, 0.830469, 0.731121, 1]
+  demographics:
+    type: 44
+    gdp: 23232
+    tech: 8
+    economy: 4
+    government: 7
+    description: This world is most notable for its exotic night life but ravaged by frequent earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.677939, 0.508352, 0.243492, 1]
+  radius: 175443.573456
+  orbit:
+    type: static
+    parent: ~
+    radius: 734520
+    vector: [0.958, 0.209, 0.194]
+  corona:
+    shimmer: 0.323734
+    hues: 0.802414
+    flare: 0.062616
+stations:
+- type: coriolis
+  orbit:
+    parent: Inar
+    vector: undefined
+    radius: 12242

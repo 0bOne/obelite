@@ -1,0 +1,61 @@
+name: Bedixe
+position: [33, 151]
+seed: 188 151 136 33 245 115
+limits:
+  blurs: 57
+  stars: 8773
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bedixe
+  radius: 3617
+  rotationSpeed: 0.004081
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 470210
+  land:
+    ratio: 0.29
+    color: [0.256967, 0.211406, 0.66, 1]
+    polarColor: [0.791412, 0.775293, 0.934, 1]
+  sea:
+    color: [0.681641, 0.674724, 0.504574, 1]
+    polarColor: [0.931836, 0.929472, 0.871321, 1]
+  air:
+    color: [0.477681, 0.650213, 0.863719, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.153076, 0.59375, 0.449154, 1]
+    ratio: 0.35
+    polarColor: [0.411314, 0.767187, 0.650417, 1]
+  demographics:
+    type: 17
+    gdp: 2040
+    tech: 2
+    economy: 7
+    government: 1
+    description: The world Bedixe is mildly fabled for the Bedixeian mountain slug but ravaged by vicious disease.
+    inhabitants: Blue Frogs
+- type: star
+  type: primary
+  color: [0.552447, 0.636136, 0.845609, 1]
+  radius: 96807.843781
+  orbit:
+    type: static
+    parent: ~
+    radius: 180850
+    vector: [0.122, 0.6, 0.79]
+  corona:
+    shimmer: 0.269969
+    hues: 0.629227
+    flare: 0.030661
+stations:
+- type: coriolis
+  orbit:
+    parent: Bedixe
+    vector: undefined
+    radius: 7234

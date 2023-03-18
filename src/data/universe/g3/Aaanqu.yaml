@@ -1,0 +1,61 @@
+name: Aaanqu
+position: [60, 67]
+seed: 242 67 162 60 26 143
+limits:
+  blurs: 177
+  stars: 9461
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aaanqu
+  radius: 6716
+  rotationSpeed: 0.004449
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 738760
+  land:
+    ratio: 0.35
+    color: [0.471459, 0.503906, 0.0885773, 1]
+    polarColor: [0.934323, 0.949609, 0.753938, 1]
+  sea:
+    color: [0.682358, 0.838822, 0.886719, 1]
+    polarColor: [0.85882, 0.899022, 0.911328, 1]
+  air:
+    color: [0.658246, 0.889084, 0.883433, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.669922, 0.662398, 0.549545, 1]
+    ratio: 0.14
+    polarColor: [0.801465, 0.795839, 0.711457, 1]
+  demographics:
+    type: 32
+    gdp: 14336
+    tech: 6
+    economy: 3
+    government: 4
+    description: This planet is noted for its exotic goat soup.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.479882, 0.823474, 0.837494, 1]
+  radius: 170514.214478
+  orbit:
+    type: static
+    parent: ~
+    radius: 470120
+    vector: [0.242, -0.098, -0.965]
+  corona:
+    shimmer: 0.263237
+    hues: 0.651787
+    flare: 0.068959
+stations:
+- type: coriolis
+  orbit:
+    parent: Aaanqu
+    vector: undefined
+    radius: 13432

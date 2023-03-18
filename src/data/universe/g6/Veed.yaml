@@ -1,0 +1,61 @@
+name: Veed
+position: [9, 76]
+seed: 82 76 178 9 148 64
+limits:
+  blurs: 138
+  stars: 7244
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veed
+  radius: 2825
+  rotationSpeed: 0.004327
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 339000
+  land:
+    ratio: 0.49
+    color: [0.548828, 0.441635, 0.506956, 1]
+    polarColor: [0.945117, 0.898969, 0.927091, 1]
+  sea:
+    color: [0.9375, 0.598211, 0.201416, 1]
+    polarColor: [0.90625, 0.824255, 0.728363, 1]
+  air:
+    color: [0.65036, 0.835864, 0.950221, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.556786, 0.853516, 0.60315, 1]
+    ratio: 0.21
+    polarColor: [0.691984, 0.884082, 0.721999, 1]
+  demographics:
+    type: 39
+    gdp: 18720
+    tech: 7
+    economy: 4
+    government: 6
+    description: The planet Veed is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained shyness.
+    inhabitants: Large Yellow Furry Humanoids
+- type: star
+  type: primary
+  color: [0.671933, 0.57964, 0.410046, 1]
+  radius: 61893.432617
+  orbit:
+    type: static
+    parent: ~
+    radius: 226000
+    vector: [-0.367, 0.779, 0.508]
+  corona:
+    shimmer: 0.243256
+    hues: 0.98185
+    flare: 0.04381
+stations:
+- type: coriolis
+  orbit:
+    parent: Veed
+    vector: undefined
+    radius: 5650

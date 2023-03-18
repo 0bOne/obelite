@@ -1,0 +1,61 @@
+name: Enlabean
+position: [43, 246]
+seed: 93 246 177 43 245 18
+limits:
+  blurs: 168
+  stars: 5269
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enlabean
+  radius: 3371
+  rotationSpeed: 0.00064
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 505650
+  land:
+    ratio: 0.38
+    color: [0.527344, 0.465546, 0.490168, 1]
+    polarColor: [0.947266, 0.919514, 0.930571, 1]
+  sea:
+    color: [0.694268, 0.699219, 0.540802, 1]
+    polarColor: [0.928432, 0.930078, 0.877398, 1]
+  air:
+    color: [0.682598, 0.857215, 0.844764, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.574219, 0.572852, 0.56749, 1]
+    ratio: 0.11
+    polarColor: [0.758398, 0.75727, 0.752844, 1]
+  demographics:
+    type: 41
+    gdp: 13120
+    tech: 7
+    economy: 6
+    government: 6
+    description: The planet Enlabean is cursed by dreadful civil war.
+    inhabitants: Green Furry Insects
+- type: star
+  type: primary
+  color: [0.435673, 0.507474, 0.75946, 1]
+  radius: 107025.237885
+  orbit:
+    type: static
+    parent: ~
+    radius: 101130
+    vector: [-0.34, 0.7, -0.628]
+  corona:
+    shimmer: 0.343675
+    hues: 0.876923
+    flare: 0.036163
+stations:
+- type: coriolis
+  orbit:
+    parent: Enlabean
+    vector: undefined
+    radius: 6742

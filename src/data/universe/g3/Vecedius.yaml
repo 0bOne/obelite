@@ -1,0 +1,61 @@
+name: Vecedius
+position: [241, 28]
+seed: 250 28 162 241 106 246
+limits:
+  blurs: 183
+  stars: 7390
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vecedius
+  radius: 4593
+  rotationSpeed: 0.003899
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 551160
+  land:
+    ratio: 0.63
+    color: [0.191884, 0.595703, 0.0628281, 1]
+    polarColor: [0.781053, 0.94043, 0.730119, 1]
+  sea:
+    color: [0.685547, 0.596673, 0.492737, 1]
+    polarColor: [0.931445, 0.901257, 0.865953, 1]
+  air:
+    color: [0.609556, 0.881295, 0.963879, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.574069, 0.894531, 0.443771, 1]
+    ratio: 0.16
+    polarColor: [0.700457, 0.902539, 0.618292, 1]
+  demographics:
+    type: 33
+    gdp: 12672
+    tech: 6
+    economy: 4
+    government: 4
+    description: This world is a tedious place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.642151, 0.665509, 0.671515, 1]
+  radius: 107935.780334
+  orbit:
+    type: static
+    parent: ~
+    radius: 229650
+    vector: [0.734, 0.121, -0.669]
+  corona:
+    shimmer: 0.612658
+    hues: 0.877769
+    flare: 0.049838
+stations:
+- type: coriolis
+  orbit:
+    parent: Vecedius
+    vector: undefined
+    radius: 9186

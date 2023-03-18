@@ -1,0 +1,61 @@
+name: Tiusriri
+position: [191, 49]
+seed: 102 49 16 191 155 87
+limits:
+  blurs: 86
+  stars: 9174
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiusriri
+  radius: 4799
+  rotationSpeed: 0.003858
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 431910
+  land:
+    ratio: 0.46
+    color: [0.0154688, 0.66, 0.206814, 1]
+    polarColor: [0.705973, 0.934, 0.773668, 1]
+  sea:
+    color: [0.566357, 0.708984, 0.635442, 1]
+    polarColor: [0.882374, 0.929102, 0.905008, 1]
+  air:
+    color: [0.458964, 0.470917, 0.928107, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0645676, 0.109726, 0.787109, 1]
+    ratio: 0.41
+    polarColor: [0.364119, 0.394749, 0.854199, 1]
+  demographics:
+    type: 44
+    gdp: 19008
+    tech: 10
+    economy: 1
+    government: 2
+    description: Tiusriri is a revolting little planet.
+    inhabitants: Yellow Frogs
+- type: star
+  type: primary
+  color: [0.729954, 0.730303, 0.730573, 1]
+  radius: 129194.270325
+  orbit:
+    type: static
+    parent: ~
+    radius: 479900
+    vector: [0.2, -0.945, 0.258]
+  corona:
+    shimmer: 0.509659
+    hues: 0.648636
+    flare: 0.089351
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiusriri
+    vector: undefined
+    radius: 9598

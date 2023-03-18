@@ -1,0 +1,61 @@
+name: Oreseren
+position: [206, 1]
+seed: 202 1 8 206 83 57
+limits:
+  blurs: 40
+  stars: 5493
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Oreseren
+  radius: 5326
+  rotationSpeed: 0.000096
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 585860
+  land:
+    ratio: 0.31
+    color: [0.66, 0.172734, 0.640966, 1]
+    polarColor: [0.934, 0.761611, 0.927266, 1]
+  sea:
+    color: [0.533203, 0.425928, 0.417815, 1]
+    polarColor: [0.94668, 0.899064, 0.895463, 1]
+  air:
+    color: [0.731386, 0.526371, 0.938514, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.818359, 0.230164, 0.519666, 1]
+    ratio: 0.51
+    polarColor: [0.868262, 0.478222, 0.670195, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 7
+    economy: 3
+    government: 1
+    description: Oreseren is a revolting little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.848883, 0.798123, 0.722067, 1]
+  radius: 132411.271057
+  orbit:
+    type: static
+    parent: ~
+    radius: 532600
+    vector: [-0.471, 0.816, -0.336]
+  corona:
+    shimmer: 0.444023
+    hues: 0.952454
+    flare: 0.011723
+stations:
+- type: coriolis
+  orbit:
+    parent: Oreseren
+    vector: undefined
+    radius: 10652

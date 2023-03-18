@@ -1,0 +1,61 @@
+name: Tibeenis
+position: [8, 211]
+seed: 249 211 81 8 13 183
+limits:
+  blurs: 98
+  stars: 9863
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tibeenis
+  radius: 4616
+  rotationSpeed: 0.004772
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 507760
+  land:
+    ratio: 0.71
+    color: [0.66, 0.04125, 0.389297, 1]
+    polarColor: [0.934, 0.715094, 0.838229, 1]
+  sea:
+    color: [0.621094, 0.618925, 0.482318, 1]
+    polarColor: [0.937891, 0.937072, 0.885501, 1]
+  air:
+    color: [0.444199, 0.555429, 0.9151, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0409088, 0.532591, 0.748047, 1]
+    ratio: 0.37
+    polarColor: [0.342328, 0.686016, 0.836621, 1]
+  demographics:
+    type: 26
+    gdp: 8736
+    tech: 5
+    economy: 3
+    government: 2
+    description: This planet is most notable for its fabulous It brandy but ravaged by frequent earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.740036, 0.633377, 0.621469, 1]
+  radius: 136278.919678
+  orbit:
+    type: static
+    parent: ~
+    radius: 230800
+    vector: [0.133, 0.881, -0.455]
+  corona:
+    shimmer: 0.706237
+    hues: 0.555237
+    flare: 0.050974
+stations:
+- type: coriolis
+  orbit:
+    parent: Tibeenis
+    vector: undefined
+    radius: 9232

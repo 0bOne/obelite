@@ -1,0 +1,61 @@
+name: Ensoza
+position: [105, 203]
+seed: 170 203 114 105 202 50
+limits:
+  blurs: 66
+  stars: 8181
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ensoza
+  radius: 3433
+  rotationSpeed: 0.003164
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 480620
+  land:
+    ratio: 0.36
+    color: [0.66, 0.0747656, 0.40396, 1]
+    polarColor: [0.934, 0.726951, 0.843416, 1]
+  sea:
+    color: [0.617188, 0.581265, 0.473499, 1]
+    polarColor: [0.938281, 0.924628, 0.88367, 1]
+  air:
+    color: [0.690425, 0.476386, 0.968432, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.908203, 0.0674057, 0.638885, 1]
+    ratio: 0.47
+    polarColor: [0.908691, 0.38291, 0.740277, 1]
+  demographics:
+    type: 42
+    gdp: 23520
+    tech: 8
+    economy: 3
+    government: 6
+    description: This planet is reasonably famous for the Ensozaian spotted cat.
+    inhabitants: Red Horned Birds
+- type: star
+  type: primary
+  color: [0.80517, 0.556424, 0.249401, 1]
+  radius: 112089.524384
+  orbit:
+    type: static
+    parent: ~
+    radius: 137320
+    vector: [0.18, -0.878, -0.443]
+  corona:
+    shimmer: 0.33098
+    hues: 0.691254
+    flare: 0.030565
+stations:
+- type: coriolis
+  orbit:
+    parent: Ensoza
+    vector: undefined
+    radius: 6866

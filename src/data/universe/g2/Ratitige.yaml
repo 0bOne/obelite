@@ -1,0 +1,61 @@
+name: Ratitige
+position: [235, 151]
+seed: 85 151 57 235 229 148
+limits:
+  blurs: 147
+  stars: 7093
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ratitige
+  radius: 4075
+  rotationSpeed: 0.004166
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 611250
+  land:
+    ratio: 0.56
+    color: [0.456328, 0.483378, 0.66, 1]
+    polarColor: [0.861943, 0.871513, 0.934, 1]
+  sea:
+    color: [0.646484, 0.602222, 0.484611, 1]
+    polarColor: [0.935352, 0.919342, 0.876801, 1]
+  air:
+    color: [0.600374, 0.904143, 0.963229, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.655487, 0.892578, 0.418396, 1]
+    ratio: 0.26
+    polarColor: [0.75197, 0.90166, 0.602281, 1]
+  demographics:
+    type: 43
+    gdp: 11352
+    tech: 7
+    economy: 7
+    government: 7
+    description: The world Ratitige is scourged by deadly tree grubs.
+    inhabitants: Black Fat Birds
+- type: star
+  type: primary
+  color: [0.814243, 0.768945, 0.617907, 1]
+  radius: 88764.438629
+  orbit:
+    type: static
+    parent: ~
+    radius: 326000
+    vector: [-0.81, -0.38, -0.446]
+  corona:
+    shimmer: 0.345869
+    hues: 0.617165
+    flare: 0.067946
+stations:
+- type: coriolis
+  orbit:
+    parent: Ratitige
+    vector: undefined
+    radius: 8150

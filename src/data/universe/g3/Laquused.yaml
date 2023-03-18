@@ -1,0 +1,61 @@
+name: Laquused
+position: [56, 140]
+seed: 90 140 130 56 170 181
+limits:
+  blurs: 109
+  stars: 6948
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laquused
+  radius: 4152
+  rotationSpeed: 0.000091
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 622800
+  land:
+    ratio: 0.69
+    color: [0.66, 0.183047, 0.563119, 1]
+    polarColor: [0.934, 0.76526, 0.899725, 1]
+  sea:
+    color: [0.580078, 0.555684, 0.459984, 1]
+    polarColor: [0.941992, 0.932089, 0.893237, 1]
+  air:
+    color: [0.687811, 0.852634, 0.888434, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.63943, 0.667969, 0.615784, 1]
+    ratio: 0.43
+    polarColor: [0.779208, 0.800586, 0.761495, 1]
+  demographics:
+    type: 11
+    gdp: 1408
+    tech: 1
+    economy: 6
+    government: 0
+    description: This world is very notable for the Laquusedian edible moth.
+    inhabitants: Harmless Fat Humanoids
+- type: star
+  type: primary
+  color: [0.832498, 0.644745, 0.363894, 1]
+  radius: 109500.637207
+  orbit:
+    type: static
+    parent: ~
+    radius: 207600
+    vector: [-0.391, -0.79, -0.473]
+  corona:
+    shimmer: 0.978383
+    hues: 0.603218
+    flare: 0.017378
+stations:
+- type: coriolis
+  orbit:
+    parent: Laquused
+    vector: undefined
+    radius: 8304

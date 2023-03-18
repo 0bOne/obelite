@@ -1,0 +1,61 @@
+name: Vezadi
+position: [178, 156]
+seed: 0 156 0 178 154 86
+limits:
+  blurs: 62
+  stars: 8458
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vezadi
+  radius: 4530
+  rotationSpeed: 0.003113
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 453000
+  land:
+    ratio: 0.32
+    color: [0.642376, 0.66, 0.337734, 1]
+    polarColor: [0.927765, 0.934, 0.819986, 1]
+  sea:
+    color: [0.28125, 0.423096, 0.5, 1]
+    polarColor: [0.846094, 0.91347, 0.95, 1]
+  air:
+    color: [0.57766, 0.924855, 0.826935, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.777344, 0.43467, 0.367416, 1]
+    ratio: 0.37
+    polarColor: [0.849805, 0.615669, 0.569718, 1]
+  demographics:
+    type: 19
+    gdp: 2432
+    tech: 3
+    economy: 6
+    government: 0
+    description: Vezadi is reasonably well known for the Vezadiian tree ant but cursed by killer edible Aroids.
+    inhabitants: Yellow Rodents
+- type: star
+  type: primary
+  color: [0.50582, 0.765478, 0.803983, 1]
+  radius: 156329.79126
+  orbit:
+    type: static
+    parent: ~
+    radius: 407700
+    vector: [-0.672, 0.698, -0.247]
+  corona:
+    shimmer: 0.431783
+    hues: 0.504715
+    flare: 0.081723
+stations:
+- type: coriolis
+  orbit:
+    parent: Vezadi
+    vector: undefined
+    radius: 9060

@@ -1,0 +1,61 @@
+name: Enqura
+position: [166, 128]
+seed: 153 128 253 166 186 18
+limits:
+  blurs: 159
+  stars: 9289
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enqura
+  radius: 3494
+  rotationSpeed: 0.001713
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 314460
+  land:
+    ratio: 0.65
+    color: [0.66, 0.340252, 0.332578, 1]
+    polarColor: [0.934, 0.820877, 0.818162, 1]
+  sea:
+    color: [0.277519, 0.350229, 0.568359, 1]
+    polarColor: [0.822505, 0.85267, 0.943164, 1]
+  air:
+    color: [0.702832, 0.803515, 0.928107, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.685646, 0.787109, 0.753817, 1]
+    ratio: 0.21
+    polarColor: [0.785379, 0.854199, 0.831618, 1]
+  demographics:
+    type: 60
+    gdp: 52800
+    tech: 13
+    economy: 0
+    government: 7
+    description: This planet is very well known for its inhabitants’ ancient loathing of discos and the Enquraian evil Beabbeaboid.
+    inhabitants: Green Rodents
+- type: star
+  type: primary
+  color: [0.815683, 0.74083, 0.534884, 1]
+  radius: 104452.6651
+  orbit:
+    type: static
+    parent: ~
+    radius: 384340
+    vector: [-0.955, -0.232, -0.183]
+  corona:
+    shimmer: 0.512665
+    hues: 0.901703
+    flare: 0.031436
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Enqura
+    vector: undefined
+    radius: 6988

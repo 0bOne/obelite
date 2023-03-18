@@ -1,0 +1,61 @@
+name: Xeraso
+position: [48, 2]
+seed: 18 2 10 48 212 194
+limits:
+  blurs: 153
+  stars: 9480
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeraso
+  radius: 3376
+  rotationSpeed: 0.00033
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 337600
+  land:
+    ratio: 0.26
+    color: [0.648438, 0.629777, 0.544586, 1]
+    polarColor: [0.935156, 0.928428, 0.897713, 1]
+  sea:
+    color: [0.147583, 0.609375, 0.490319, 1]
+    polarColor: [0.761154, 0.939062, 0.893196, 1]
+  air:
+    color: [0.674025, 0.861203, 0.904043, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.647958, 0.714844, 0.597565, 1]
+    ratio: 0.47
+    polarColor: [0.773628, 0.82168, 0.737425, 1]
+  demographics:
+    type: 28
+    gdp: 8960
+    tech: 6
+    economy: 2
+    government: 1
+    description: This world is very notable for the Xerasoian edible moth.
+    inhabitants: Large Horned Birds
+- type: star
+  type: primary
+  color: [0.356224, 0.57042, 0.694537, 1]
+  radius: 66724.11377
+  orbit:
+    type: static
+    parent: ~
+    radius: 405120
+    vector: [0.673, 0.592, -0.443]
+  corona:
+    shimmer: 0.716366
+    hues: 0.603729
+    flare: 0.037782
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeraso
+    vector: undefined
+    radius: 6752

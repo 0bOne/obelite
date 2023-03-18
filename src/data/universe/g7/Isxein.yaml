@@ -1,0 +1,61 @@
+name: Isxein
+position: [140, 120]
+seed: 129 120 112 140 205 221
+limits:
+  blurs: 163
+  stars: 9991
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isxein
+  radius: 6284
+  rotationSpeed: 0.003521
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 942600
+  land:
+    ratio: 0.34
+    color: [0.66, 0.0103125, 0.17781, 1]
+    polarColor: [0.934, 0.704148, 0.763407, 1]
+  sea:
+    color: [0.550781, 0.484112, 0.435461, 1]
+    polarColor: [0.944922, 0.916327, 0.895461, 1]
+  air:
+    color: [0.521465, 0.641306, 0.83315, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.239212, 0.501953, 0.465005, 1]
+    ratio: 0.33
+    polarColor: [0.488409, 0.725879, 0.692485, 1]
+  demographics:
+    type: 47
+    gdp: 37600
+    tech: 10
+    economy: 0
+    government: 6
+    description: The world Isxein is a boring world.
+    inhabitants: Fat Humanoids
+- type: star
+  type: primary
+  color: [0.420241, 0.715307, 0.758682, 1]
+  radius: 117870.066528
+  orbit:
+    type: static
+    parent: ~
+    radius: 439880
+    vector: [0.441, 0.84, 0.317]
+  corona:
+    shimmer: 0.503434
+    hues: 0.607857
+    flare: 0.023759
+stations:
+- type: coriolis
+  orbit:
+    parent: Isxein
+    vector: undefined
+    radius: 12568

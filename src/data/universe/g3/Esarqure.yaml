@@ -1,0 +1,61 @@
+name: Esarqure
+position: [134, 122]
+seed: 90 122 130 134 170 41
+limits:
+  blurs: 119
+  stars: 8670
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esarqure
+  radius: 5254
+  rotationSpeed: 0.000039
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 683020
+  land:
+    ratio: 0.55
+    color: [0.269736, 0.213984, 0.66, 1]
+    polarColor: [0.795929, 0.776205, 0.934, 1]
+  sea:
+    color: [0.724609, 0.49923, 0.430237, 1]
+    polarColor: [0.927539, 0.855415, 0.833336, 1]
+  air:
+    color: [0.670841, 0.857865, 0.831392, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.576172, 0.563125, 0.544662, 1]
+    ratio: 0.47
+    polarColor: [0.759277, 0.748532, 0.733325, 1]
+  demographics:
+    type: 31
+    gdp: 7936
+    tech: 7
+    economy: 2
+    government: 0
+    description: This planet is fabled for its ancient Esarqureian Eninarxe tulip plantations and its inhabitants’ unusual silliness.
+    inhabitants: Small Red Fat Humanoids
+- type: star
+  type: primary
+  color: [0.795847, 0.774093, 0.695743, 1]
+  radius: 88850.450439
+  orbit:
+    type: static
+    parent: ~
+    radius: 472860
+    vector: [-0.74, 0.443, -0.507]
+  corona:
+    shimmer: 0.424066
+    hues: 0.890709
+    flare: 0.00576
+stations:
+- type: coriolis
+  orbit:
+    parent: Esarqure
+    vector: undefined
+    radius: 10508

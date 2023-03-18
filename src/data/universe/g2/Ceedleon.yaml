@@ -1,0 +1,61 @@
+name: Ceedleon
+position: [35, 207]
+seed: 65 207 121 35 173 229
+limits:
+  blurs: 140
+  stars: 6200
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceedleon
+  radius: 4131
+  rotationSpeed: 0.00011
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 495720
+  land:
+    ratio: 0.33
+    color: [0.541406, 0.568275, 0.66, 1]
+    polarColor: [0.892043, 0.901549, 0.934, 1]
+  sea:
+    color: [0.539062, 0.496175, 0.0400085, 1]
+    polarColor: [0.946094, 0.927276, 0.727125, 1]
+  air:
+    color: [0.585701, 0.926156, 0.848736, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.78125, 0.516748, 0.387573, 1]
+    ratio: 0.27
+    polarColor: [0.851562, 0.671371, 0.58337, 1]
+  demographics:
+    type: 43
+    gdp: 11352
+    tech: 7
+    economy: 7
+    government: 7
+    description: Ceedleon is mildly notable for Ceedleonian Erzaaler water.
+    inhabitants: Fierce Fat Humanoids
+- type: star
+  type: primary
+  color: [0.747168, 0.578952, 0.565082, 1]
+  radius: 103035.470581
+  orbit:
+    type: static
+    parent: ~
+    radius: 289170
+    vector: [-0.787, -0.345, 0.511]
+  corona:
+    shimmer: 0.693019
+    hues: 0.945595
+    flare: 0.056264
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceedleon
+    vector: undefined
+    radius: 8262

@@ -1,0 +1,61 @@
+name: Teenatle
+position: [33, 20]
+seed: 87 20 178 33 243 92
+limits:
+  blurs: 175
+  stars: 8662
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teenatle
+  radius: 5921
+  rotationSpeed: 0.000477
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 769730
+  land:
+    ratio: 0.54
+    color: [0.592203, 0.66, 0.404766, 1]
+    polarColor: [0.910014, 0.934, 0.843701, 1]
+  sea:
+    color: [0.364162, 0.322998, 0.5625, 1]
+    polarColor: [0.860558, 0.843292, 0.94375, 1]
+  air:
+    color: [0.541743, 0.515901, 0.894938, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.32663, 0.225586, 0.6875, 1]
+    ratio: 0.29
+    polarColor: [0.543848, 0.469501, 0.809375, 1]
+  demographics:
+    type: 39
+    gdp: 18720
+    tech: 7
+    economy: 4
+    government: 6
+    description: The world Teenatle is very famous for its unusual casinos but beset by lethal disease.
+    inhabitants: Yellow Furry Humanoids
+- type: star
+  type: primary
+  color: [0.828888, 0.699215, 0.552071, 1]
+  radius: 138656.889496
+  orbit:
+    type: static
+    parent: ~
+    radius: 651310
+    vector: [0.544, 0.659, 0.52]
+  corona:
+    shimmer: 0.520515
+    hues: 0.656769
+    flare: 0.071416
+stations:
+- type: coriolis
+  orbit:
+    parent: Teenatle
+    vector: undefined
+    radius: 11842

@@ -1,0 +1,61 @@
+name: Anve
+position: [239, 203]
+seed: 180 203 40 239 54 251
+limits:
+  blurs: 76
+  stars: 8374
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anve
+  radius: 5871
+  rotationSpeed: 0.003042
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 880650
+  land:
+    ratio: 0.66
+    color: [0.139618, 0.595703, 0.0744629, 1]
+    polarColor: [0.760426, 0.94043, 0.734711, 1]
+  sea:
+    color: [0.666016, 0.561158, 0.491707, 1]
+    polarColor: [0.933398, 0.89666, 0.872326, 1]
+  air:
+    color: [0.719531, 0.495952, 0.959977, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.882812, 0.131042, 0.536294, 1]
+    ratio: 0.43
+    polarColor: [0.897266, 0.419717, 0.677146, 1]
+  demographics:
+    type: 49
+    gdp: 24696
+    tech: 10
+    economy: 3
+    government: 5
+    description: This world is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.746976, 0.744866, 0.739804, 1]
+  radius: 154757.861481
+  orbit:
+    type: static
+    parent: ~
+    radius: 352260
+    vector: [0.045, -0.554, 0.832]
+  corona:
+    shimmer: 0.483489
+    hues: 0.710327
+    flare: 0.01395
+stations:
+- type: coriolis
+  orbit:
+    parent: Anve
+    vector: undefined
+    radius: 11742

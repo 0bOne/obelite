@@ -1,0 +1,61 @@
+name: Rige
+position: [36, 121]
+seed: 153 121 49 36 141 128
+limits:
+  blurs: 40
+  stars: 9383
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rige
+  radius: 2852
+  rotationSpeed: 0.003501
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 342240
+  land:
+    ratio: 0.44
+    color: [0.53125, 0.419189, 0.52162, 1]
+    polarColor: [0.946875, 0.896942, 0.942584, 1]
+  sea:
+    color: [0.626112, 0.808594, 0.533798, 1]
+    polarColor: [0.867283, 0.919141, 0.84105, 1]
+  air:
+    color: [0.768167, 0.721673, 0.995748, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.883318, 0.765884, 0.990234, 1]
+    ratio: 0.43
+    polarColor: [0.881794, 0.811706, 0.945605, 1]
+  demographics:
+    type: 44
+    gdp: 31680
+    tech: 9
+    economy: 1
+    government: 6
+    description: This planet is most notable for Rigeian Ala’ water but scourged by deadly tree grubs.
+    inhabitants: Large Black Furry Humanoids
+- type: star
+  type: primary
+  color: [0.648398, 0.656942, 0.83183, 1]
+  radius: 59860.841064
+  orbit:
+    type: static
+    parent: ~
+    radius: 256680
+    vector: [-0.649, 0.732, -0.209]
+  corona:
+    shimmer: 0.382103
+    hues: 0.7388
+    flare: 0.045334
+stations:
+- type: coriolis
+  orbit:
+    parent: Rige
+    vector: undefined
+    radius: 5704

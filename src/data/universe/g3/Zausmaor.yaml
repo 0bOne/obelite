@@ -1,0 +1,61 @@
+name: Zausmaor
+position: [190, 101]
+seed: 234 101 178 190 74 228
+limits:
+  blurs: 95
+  stars: 9081
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zausmaor
+  radius: 4030
+  rotationSpeed: 0.000758
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 483600
+  land:
+    ratio: 0.42
+    color: [0.187378, 0.570624, 0.599609, 1]
+    polarColor: [0.77847, 0.928679, 0.940039, 1]
+  sea:
+    color: [0.548828, 0.476607, 0.433274, 1]
+    polarColor: [0.945117, 0.914025, 0.895369, 1]
+  air:
+    color: [0.694364, 0.838631, 0.901441, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.648472, 0.707031, 0.643509, 1]
+    ratio: 0.32
+    polarColor: [0.775811, 0.818164, 0.772222, 1]
+  demographics:
+    type: 40
+    gdp: 16000
+    tech: 7
+    economy: 5
+    government: 6
+    description: This planet is very notable for its inhabitants’ ingrained shyness and its fabulous cuisine.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.685571, 0.629233, 0.564794, 1]
+  radius: 73859.761047
+  orbit:
+    type: static
+    parent: ~
+    radius: 282100
+    vector: [-0.119, -0.949, 0.293]
+  corona:
+    shimmer: 0.462956
+    hues: 0.912506
+    flare: 0.042493
+stations:
+- type: coriolis
+  orbit:
+    parent: Zausmaor
+    vector: undefined
+    radius: 8060

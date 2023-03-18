@@ -1,0 +1,61 @@
+name: Bibira
+position: [168, 247]
+seed: 61 247 145 168 53 6
+limits:
+  blurs: 188
+  stars: 8938
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bibira
+  radius: 4520
+  rotationSpeed: 0.001903
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 632800
+  land:
+    ratio: 0.54
+    color: [0.152109, 0.290986, 0.66, 1]
+    polarColor: [0.754314, 0.803447, 0.934, 1]
+  sea:
+    color: [0.95, 0.8075, 0.8075, 1]
+    polarColor: [0.905, 0.871062, 0.871062, 1]
+  air:
+    color: [0.785842, 0.503178, 0.969082, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.910156, 0.142212, 0.268203, 1]
+    ratio: 0.46
+    polarColor: [0.90957, 0.429914, 0.508608, 1]
+  demographics:
+    type: 14
+    gdp: 2016
+    tech: 1
+    economy: 7
+    government: 2
+    description: This planet is very notable for the Bibiraian tree wolf and its pink oceans.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.687039, 0.712053, 0.722824, 1]
+  radius: 100876.501465
+  orbit:
+    type: static
+    parent: ~
+    radius: 180800
+    vector: [-0.036, 0.999, 0.039]
+  corona:
+    shimmer: 0.248357
+    hues: 0.941055
+    flare: 0.003688
+stations:
+- type: coriolis
+  orbit:
+    parent: Bibira
+    vector: undefined
+    radius: 9040

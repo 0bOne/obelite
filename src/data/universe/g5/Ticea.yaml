@@ -1,0 +1,61 @@
+name: Ticea
+position: [82, 27]
+seed: 41 27 149 82 138 183
+limits:
+  blurs: 79
+  stars: 5649
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ticea
+  radius: 4690
+  rotationSpeed: 0.002088
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 469000
+  land:
+    ratio: 0.33
+    color: [0.66, 0.270703, 0.526179, 1]
+    polarColor: [0.934, 0.796272, 0.886656, 1]
+  sea:
+    color: [0.529297, 0.420714, 0.415374, 1]
+    polarColor: [0.94707, 0.898499, 0.89611, 1]
+  air:
+    color: [0.778914, 0.745675, 0.972984, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.870672, 0.828247, 0.921875, 1]
+    ratio: 0.45
+    polarColor: [0.883086, 0.856773, 0.914844, 1]
+  demographics:
+    type: 34
+    gdp: 11424
+    tech: 7
+    economy: 3
+    government: 2
+    description: Ticea is mildly famous for its pink Ticeaian Indi Indiweed plantations and its exciting sit coms.
+    inhabitants: Harmless Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.828281, 0.64257, 0.441417, 1]
+  radius: 120888.299561
+  orbit:
+    type: static
+    parent: ~
+    radius: 469000
+    vector: [0.087, 0.855, 0.511]
+  corona:
+    shimmer: 0.284823
+    hues: 0.97831
+    flare: 0.07101
+stations:
+- type: coriolis
+  orbit:
+    parent: Ticea
+    vector: undefined
+    radius: 9380

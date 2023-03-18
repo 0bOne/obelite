@@ -1,0 +1,61 @@
+name: Reatte
+position: [187, 231]
+seed: 178 231 58 187 244 142
+limits:
+  blurs: 42
+  stars: 6073
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reatte
+  radius: 6587
+  rotationSpeed: 0.000953
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 922180
+  land:
+    ratio: 0.5
+    color: [0.561487, 0.66, 0.471797, 1]
+    polarColor: [0.899147, 0.934, 0.867416, 1]
+  sea:
+    color: [0.583868, 0.379295, 0.595703, 1]
+    polarColor: [0.935759, 0.85502, 0.94043, 1]
+  air:
+    color: [0.443963, 0.615801, 0.900141, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0549316, 0.703125, 0.627165, 1]
+    ratio: 0.48
+    polarColor: [0.346016, 0.816406, 0.761282, 1]
+  demographics:
+    type: 43
+    gdp: 11352
+    tech: 7
+    economy: 7
+    government: 7
+    description: The planet Reatte is mildly notable for Reatteian lethal brandy.
+    inhabitants: Black Fat Felines
+- type: star
+  type: primary
+  color: [0.842151, 0.360242, 0.225139, 1]
+  radius: 147547.151642
+  orbit:
+    type: static
+    parent: ~
+    radius: 658700
+    vector: [0.792, -0.567, -0.228]
+  corona:
+    shimmer: 0.310839
+    hues: 0.852951
+    flare: 0.06216
+stations:
+- type: coriolis
+  orbit:
+    parent: Reatte
+    vector: undefined
+    radius: 13174

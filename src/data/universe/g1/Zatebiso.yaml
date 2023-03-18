@@ -1,0 +1,61 @@
+name: Zatebiso
+position: [133, 51]
+seed: 116 51 32 133 102 4
+limits:
+  blurs: 77
+  stars: 8744
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zatebiso
+  radius: 3973
+  rotationSpeed: 0.003225
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 476760
+  land:
+    ratio: 0.65
+    color: [0.607189, 0.66, 0.513047, 1]
+    polarColor: [0.915316, 0.934, 0.88201, 1]
+  sea:
+    color: [0.570007, 0.728516, 0.628209, 1]
+    polarColor: [0.876717, 0.927148, 0.895235, 1]
+  air:
+    color: [0.662561, 0.863068, 0.829992, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.591797, 0.563804, 0.534004, 1]
+    ratio: 0.34
+    polarColor: [0.766309, 0.743654, 0.719537, 1]
+  demographics:
+    type: 36
+    gdp: 16128
+    tech: 7
+    economy: 3
+    government: 4
+    description: The world Zatebiso is most famous for the Zatebisoian spotted shrew.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.8104, 0.388042, 0.244538, 1]
+  radius: 125717.2966
+  orbit:
+    type: static
+    parent: ~
+    radius: 357570
+    vector: [-0.249, -0.513, -0.822]
+  corona:
+    shimmer: 0.324867
+    hues: 0.946465
+    flare: 0.008206
+stations:
+- type: coriolis
+  orbit:
+    parent: Zatebiso
+    vector: undefined
+    radius: 7946

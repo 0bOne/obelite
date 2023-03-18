@@ -1,0 +1,61 @@
+name: Xeeden
+position: [247, 127]
+seed: 9 127 5 247 234 130
+limits:
+  blurs: 63
+  stars: 9072
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeeden
+  radius: 3575
+  rotationSpeed: 0.002714
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 536250
+  land:
+    ratio: 0.49
+    color: [0.411767, 0.328598, 0.576172, 1]
+    polarColor: [0.875158, 0.84115, 0.942383, 1]
+  sea:
+    color: [0.730469, 0.557103, 0.442276, 1]
+    polarColor: [0.926953, 0.871953, 0.835525, 1]
+  air:
+    color: [0.738056, 0.724696, 0.978838, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.799659, 0.770645, 0.939453, 1]
+    ratio: 0.48
+    polarColor: [0.836936, 0.819124, 0.922754, 1]
+  demographics:
+    type: 20
+    gdp: 1920
+    tech: 3
+    economy: 7
+    government: 0
+    description: The world Xeeden is scourged by deadly tree grubs.
+    inhabitants: Large Black Slimy Lizards
+- type: star
+  type: primary
+  color: [0.714645, 0.727336, 0.740729, 1]
+  radius: 92040.32135
+  orbit:
+    type: static
+    parent: ~
+    radius: 143000
+    vector: [0.561, 0.804, 0.199]
+  corona:
+    shimmer: 0.354878
+    hues: 0.53862
+    flare: 0.088864
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeeden
+    vector: undefined
+    radius: 7150

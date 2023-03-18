@@ -1,0 +1,61 @@
+name: Laindi
+position: [236, 138]
+seed: 14 138 34 236 208 149
+limits:
+  blurs: 62
+  stars: 7022
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laindi
+  radius: 4332
+  rotationSpeed: 0.000807
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 606480
+  land:
+    ratio: 0.58
+    color: [0.654844, 0.66, 0.659879, 1]
+    polarColor: [0.932176, 0.934, 0.933957, 1]
+  sea:
+    color: [0.197937, 0.550781, 0.459814, 1]
+    polarColor: [0.793587, 0.944922, 0.905906, 1]
+  air:
+    color: [0.655331, 0.862418, 0.816942, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.589844, 0.543528, 0.518417, 1]
+    ratio: 0.58
+    polarColor: [0.76543, 0.727865, 0.707499, 1]
+  demographics:
+    type: 35
+    gdp: 17920
+    tech: 7
+    economy: 2
+    government: 4
+    description: The world Laindi is scourged by deadly tree snakes.
+    inhabitants: Black Insects
+- type: star
+  type: primary
+  color: [0.717593, 0.71183, 0.626315, 1]
+  radius: 121210.861816
+  orbit:
+    type: static
+    parent: ~
+    radius: 259920
+    vector: [-0.582, -0.612, -0.535]
+  corona:
+    shimmer: 0.412648
+    hues: 0.785896
+    flare: 0.027754
+stations:
+- type: coriolis
+  orbit:
+    parent: Laindi
+    vector: undefined
+    radius: 8664

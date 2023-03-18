@@ -1,0 +1,13 @@
+interstellar:
+  color1: [0, 1, 0.5]
+  color2: [0, 1, 0]
+nebula:
+  color1: [0, 1, 0.5]
+  color2: [0, 1, 0]
+limits:
+  stars: 2048
+  blurs: 256
+universe:
+  color1: [0.75, 0.8, 1]
+  color2: [0.75, 0.8, 1]
+galaxies: [g0, g1, g2, g3, g4, g5, g6, g7]

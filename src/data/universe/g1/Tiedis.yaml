@@ -1,0 +1,61 @@
+name: Tiedis
+position: [12, 52]
+seed: 48 52 200 12 218 119
+limits:
+  blurs: 162
+  stars: 8436
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiedis
+  radius: 4620
+  rotationSpeed: 0.003415
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 693000
+  land:
+    ratio: 0.6
+    color: [0.62163, 0.621328, 0.66, 1]
+    polarColor: [0.920425, 0.920318, 0.934, 1]
+  sea:
+    color: [0.670548, 0.671875, 0.502069, 1]
+    polarColor: [0.932352, 0.932813, 0.873874, 1]
+  air:
+    color: [0.651155, 0.893637, 0.883916, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.683594, 0.66753, 0.536728, 1]
+    ratio: 0.37
+    polarColor: [0.807617, 0.795756, 0.699172, 1]
+  demographics:
+    type: 16
+    gdp: 2560
+    tech: 2
+    economy: 6
+    government: 1
+    description: The world Tiedis is beset by dreadful earthquakes.
+    inhabitants: Blue Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.198872, 0.579566, 0.765323, 1]
+  radius: 115465.457153
+  orbit:
+    type: static
+    parent: ~
+    radius: 184800
+    vector: [0.259, -0.662, 0.704]
+  corona:
+    shimmer: 0.307525
+    hues: 0.726768
+    flare: 0.0577
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiedis
+    vector: undefined
+    radius: 9240

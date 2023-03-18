@@ -1,0 +1,61 @@
+name: Ataren
+position: [22, 98]
+seed: 9 98 133 22 234 113
+limits:
+  blurs: 54
+  stars: 8169
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ataren
+  radius: 3094
+  rotationSpeed: 0.002672
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 371280
+  land:
+    ratio: 0.63
+    color: [0.645337, 0.190781, 0.66, 1]
+    polarColor: [0.928812, 0.767996, 0.934, 1]
+  sea:
+    color: [0.617188, 0.499271, 0.45831, 1]
+    polarColor: [0.938281, 0.893465, 0.877898, 1]
+  air:
+    color: [0.669693, 0.837278, 0.930709, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.602402, 0.794922, 0.618946, 1]
+    ratio: 0.25
+    polarColor: [0.727885, 0.857715, 0.739042, 1]
+  demographics:
+    type: 31
+    gdp: 7936
+    tech: 7
+    economy: 2
+    government: 0
+    description: The world Ataren is very famous for its unusual casinos but plagued by frequent solar activity.
+    inhabitants: Blue Fat Humanoids
+- type: star
+  type: primary
+  color: [0.681311, 0.571149, 0.429055, 1]
+  radius: 68927.612305
+  orbit:
+    type: static
+    parent: ~
+    radius: 185640
+    vector: [0.363, 0.628, 0.688]
+  corona:
+    shimmer: 0.860821
+    hues: 0.759476
+    flare: 0.082693
+stations:
+- type: coriolis
+  orbit:
+    parent: Ataren
+    vector: undefined
+    radius: 6188

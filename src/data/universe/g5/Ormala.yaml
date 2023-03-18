@@ -1,0 +1,61 @@
+name: Ormala
+position: [81, 193]
+seed: 9 193 41 81 42 121
+limits:
+  blurs: 64
+  stars: 8032
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ormala
+  radius: 5201
+  rotationSpeed: 0.001591
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 676130
+  land:
+    ratio: 0.34
+    color: [0.613594, 0.649124, 0.66, 1]
+    polarColor: [0.917582, 0.930152, 0.934, 1]
+  sea:
+    color: [0.0798111, 0.619141, 0.189362, 1]
+    polarColor: [0.733796, 0.938086, 0.775292, 1]
+  air:
+    color: [0.547336, 0.973635, 0.93991, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.923828, 0.774208, 0.263435, 1]
+    ratio: 0.56
+    polarColor: [0.915723, 0.82303, 0.506599, 1]
+  demographics:
+    type: 47
+    gdp: 30456
+    tech: 10
+    economy: 1
+    government: 5
+    description: This planet is fabled for its exciting vacuum karate.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.848285, 0.723637, 0.240117, 1]
+  radius: 99853.5495
+  orbit:
+    type: static
+    parent: ~
+    radius: 364070
+    vector: [-0.26, 0.738, -0.622]
+  corona:
+    shimmer: 0.33386
+    hues: 0.912849
+    flare: 0.064577
+stations:
+- type: coriolis
+  orbit:
+    parent: Ormala
+    vector: undefined
+    radius: 10402

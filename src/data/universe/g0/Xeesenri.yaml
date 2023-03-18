@@ -1,0 +1,61 @@
+name: Xeesenri
+position: [230, 127]
+seed: 250 127 68 230 219 66
+limits:
+  blurs: 121
+  stars: 8372
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeesenri
+  radius: 3558
+  rotationSpeed: 0.003385
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 426960
+  land:
+    ratio: 0.65
+    color: [0.487266, 0.639758, 0.66, 1]
+    polarColor: [0.872889, 0.926839, 0.934, 1]
+  sea:
+    color: [0.654297, 0.63663, 0.492767, 1]
+    polarColor: [0.93457, 0.928262, 0.87689, 1]
+  air:
+    color: [0.710438, 0.828061, 0.893637, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.672913, 0.683594, 0.673831, 1]
+    ratio: 0.32
+    polarColor: [0.79973, 0.807617, 0.800408, 1]
+  demographics:
+    type: 16
+    gdp: 1536
+    tech: 2
+    economy: 7
+    government: 0
+    description: Xeesenri is mildly notable for its inhabitants’ weird shyness.
+    inhabitants: Large Yellow Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.4521, 0.584955, 0.698621, 1]
+  radius: 83781.518555
+  orbit:
+    type: static
+    parent: ~
+    radius: 249060
+    vector: [-0.685, 0.684, -0.25]
+  corona:
+    shimmer: 0.536187
+    hues: 0.57798
+    flare: 0.075815
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeesenri
+    vector: undefined
+    radius: 7116

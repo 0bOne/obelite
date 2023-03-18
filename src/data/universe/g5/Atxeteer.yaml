@@ -1,0 +1,61 @@
+name: Atxeteer
+position: [233, 40]
+seed: 73 40 37 233 42 209
+limits:
+  blurs: 173
+  stars: 7299
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atxeteer
+  radius: 3305
+  rotationSpeed: 0.001498
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 429650
+  land:
+    ratio: 0.66
+    color: [0.462189, 0.66, 0.244922, 1]
+    polarColor: [0.864017, 0.934, 0.78715, 1]
+  sea:
+    color: [0.563968, 0.707031, 0.623205, 1]
+    polarColor: [0.882288, 0.929297, 0.901752, 1]
+  air:
+    color: [0.538112, 0.968432, 0.890728, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.908203, 0.55388, 0.241241, 1]
+    ratio: 0.39
+    polarColor: [0.908691, 0.68712, 0.491616, 1]
+  demographics:
+    type: 45
+    gdp: 28800
+    tech: 10
+    economy: 0
+    government: 4
+    description: This planet is mildly fabled for the Atxeteerian edible poet but scourged by frequent civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.736539, 0.631054, 0.573985, 1]
+  radius: 79352.577972
+  orbit:
+    type: static
+    parent: ~
+    radius: 297450
+    vector: [0.016, 0.937, 0.349]
+  corona:
+    shimmer: 0.362791
+    hues: 0.838951
+    flare: 0.069249
+stations:
+- type: coriolis
+  orbit:
+    parent: Atxeteer
+    vector: undefined
+    radius: 6610

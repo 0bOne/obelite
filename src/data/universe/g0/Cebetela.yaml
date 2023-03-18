@@ -1,0 +1,61 @@
+name: Cebetela
+position: [194, 11]
+seed: 122 11 132 194 219 37
+limits:
+  blurs: 73
+  stars: 6786
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cebetela
+  radius: 4290
+  rotationSpeed: 0.000867
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 514800
+  land:
+    ratio: 0.63
+    color: [0.0438281, 0.501143, 0.66, 1]
+    polarColor: [0.716006, 0.877798, 0.934, 1]
+  sea:
+    color: [0.666016, 0.587886, 0.504715, 1]
+    polarColor: [0.933398, 0.906024, 0.876884, 1]
+  air:
+    color: [0.510164, 0.970383, 0.819035, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.914062, 0.178333, 0.160675, 1]
+    ratio: 0.31
+    polarColor: [0.911328, 0.452872, 0.44187, 1]
+  demographics:
+    type: 28
+    gdp: 6272
+    tech: 6
+    economy: 3
+    government: 0
+    description: This world is most notable for its fabulous Cebetelaian lethal brandy but scourged by killer mountain Esbionoids.
+    inhabitants: Fierce Red Bug-Eyed Lizards
+- type: star
+  type: primary
+  color: [0.749329, 0.637436, 0.406665, 1]
+  radius: 135071.896362
+  orbit:
+    type: static
+    parent: ~
+    radius: 343200
+    vector: [-0.942, -0.277, 0.192]
+  corona:
+    shimmer: 0.452766
+    hues: 0.646393
+    flare: 0.001292
+stations:
+- type: coriolis
+  orbit:
+    parent: Cebetela
+    vector: undefined
+    radius: 8580

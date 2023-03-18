@@ -1,0 +1,61 @@
+name: Aratusza
+position: [75, 122]
+seed: 112 122 216 75 250 138
+limits:
+  blurs: 136
+  stars: 6473
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aratusza
+  radius: 5451
+  rotationSpeed: 0.002809
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 817650
+  land:
+    ratio: 0.46
+    color: [0.639375, 0.66, 0.649365, 1]
+    polarColor: [0.926703, 0.934, 0.930238, 1]
+  sea:
+    color: [0.0521851, 0.703125, 0.611587, 1]
+    polarColor: [0.714516, 0.929688, 0.899429, 1]
+  air:
+    color: [0.672893, 0.713958, 0.996398, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.620117, 0.756737, 0.992188, 1]
+    ratio: 0.55
+    polarColor: [0.724652, 0.806106, 0.946484, 1]
+  demographics:
+    type: 46
+    gdp: 20608
+    tech: 10
+    economy: 2
+    government: 3
+    description: This world is fabled for its ancient mountains.
+    inhabitants: Small Black Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.282023, 0.411423, 0.715607, 1]
+  radius: 157172.052612
+  orbit:
+    type: static
+    parent: ~
+    radius: 272550
+    vector: [-0.964, 0.249, 0.093]
+  corona:
+    shimmer: 0.392629
+    hues: 0.543724
+    flare: 0.047823
+stations:
+- type: coriolis
+  orbit:
+    parent: Aratusza
+    vector: undefined
+    radius: 10902

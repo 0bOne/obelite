@@ -1,0 +1,61 @@
+name: Axeed
+position: [166, 12]
+seed: 150 12 232 166 27 239
+limits:
+  blurs: 118
+  stars: 8626
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Axeed
+  radius: 6822
+  rotationSpeed: 0.002361
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 613980
+  land:
+    ratio: 0.29
+    color: [0.66, 0.0464063, 0.132693, 1]
+    polarColor: [0.934, 0.716918, 0.747445, 1]
+  sea:
+    color: [0.583984, 0.549989, 0.45966, 1]
+    polarColor: [0.941602, 0.927898, 0.891487, 1]
+  air:
+    color: [0.70191, 0.82537, 0.906645, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.666199, 0.722656, 0.677667, 1]
+    ratio: 0.27
+    polarColor: [0.784903, 0.825195, 0.793087, 1]
+  demographics:
+    type: 42
+    gdp: 18144
+    tech: 8
+    economy: 4
+    government: 5
+    description: The world Axeed is fabled for its exciting Zero-G cricket and its fabulous vicious Alab gargle blasters.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.5856, 0.593479, 0.75918, 1]
+  radius: 204924.402466
+  orbit:
+    type: static
+    parent: ~
+    radius: 886860
+    vector: [-0.909, 0.328, 0.258]
+  corona:
+    shimmer: 0.482102
+    hues: 0.968369
+    flare: 0.058731
+stations:
+- type: coriolis
+  orbit:
+    parent: Axeed
+    vector: undefined
+    radius: 13644

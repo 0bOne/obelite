@@ -1,0 +1,61 @@
+name: Anenveza
+position: [199, 46]
+seed: 193 46 249 199 173 187
+limits:
+  blurs: 146
+  stars: 6059
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anenveza
+  radius: 5831
+  rotationSpeed: 0.000115
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 699720
+  land:
+    ratio: 0.59
+    color: [0.66, 0.198516, 0.566261, 1]
+    polarColor: [0.934, 0.770732, 0.900836, 1]
+  sea:
+    color: [0.527344, 0.43914, 0.418785, 1]
+    polarColor: [0.947266, 0.907656, 0.898515, 1]
+  air:
+    color: [0.582741, 0.917701, 0.815389, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.755859, 0.416036, 0.380882, 1]
+    ratio: 0.24
+    polarColor: [0.840137, 0.604066, 0.579645, 1]
+  demographics:
+    type: 46
+    gdp: 16192
+    tech: 8
+    economy: 6
+    government: 7
+    description: The world Anenveza is fabled for its fabulous lethal Dilose water and the Anenvezaian tree wolf.
+    inhabitants: Harmless Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.335184, 0.695643, 0.722836, 1]
+  radius: 170452.828369
+  orbit:
+    type: static
+    parent: ~
+    radius: 583100
+    vector: [0.829, 0.302, 0.471]
+  corona:
+    shimmer: 0.427351
+    hues: 0.976746
+    flare: 0.084627
+stations:
+- type: coriolis
+  orbit:
+    parent: Anenveza
+    vector: undefined
+    radius: 11662

@@ -1,0 +1,61 @@
+name: Soinisat
+position: [72, 251]
+seed: 103 251 249 72 232 39
+limits:
+  blurs: 92
+  stars: 9861
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soinisat
+  radius: 4680
+  rotationSpeed: 0.001942
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 655200
+  land:
+    ratio: 0.4
+    color: [0.66, 0.171002, 0.146953, 1]
+    polarColor: [0.934, 0.760998, 0.75249, 1]
+  sea:
+    color: [0.9, 0.72, 0.828, 1]
+    polarColor: [0.91, 0.8645, 0.8918, 1]
+  air:
+    color: [0.722689, 0.60755, 0.863068, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.591797, 0.420731, 0.528983, 1]
+    ratio: 0.23
+    polarColor: [0.766309, 0.627864, 0.715474, 1]
+  demographics:
+    type: 43
+    gdp: 26488
+    tech: 8
+    economy: 3
+    government: 7
+    description: The world Soinisat is very noted for its pink oceans but scourged by deadly solar activity.
+    inhabitants: Fierce Red Bony Felines
+- type: star
+  type: primary
+  color: [0.594022, 0.633628, 0.667038, 1]
+  radius: 95866.589355
+  orbit:
+    type: static
+    parent: ~
+    radius: 280800
+    vector: [0.678, 0.345, -0.649]
+  corona:
+    shimmer: 0.67927
+    hues: 0.872101
+    flare: 0.036807
+stations:
+- type: coriolis
+  orbit:
+    parent: Soinisat
+    vector: undefined
+    radius: 9360

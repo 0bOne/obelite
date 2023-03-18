@@ -1,0 +1,61 @@
+name: Atlaar
+position: [66, 1]
+seed: 177 1 201 66 109 49
+limits:
+  blurs: 51
+  stars: 5653
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atlaar
+  radius: 3138
+  rotationSpeed: 0.000657
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 345180
+  land:
+    ratio: 0.44
+    color: [0.200043, 0.539062, 0.427822, 1]
+    polarColor: [0.797343, 0.946094, 0.897285, 1]
+  sea:
+    color: [1, 0.68, 0.8912, 1]
+    polarColor: [0.9, 0.828, 0.87552, 1]
+  air:
+    color: [0.674162, 0.773527, 0.968432, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.62439, 0.908203, 0.908203, 1]
+    ratio: 0.51
+    polarColor: [0.731213, 0.908691, 0.908691, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 7
+    economy: 3
+    government: 1
+    description: The world Atlaar is very noted for its pink oceans but scourged by dreadful solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.768613, 0.691705, 0.197677, 1]
+  radius: 87713.267212
+  orbit:
+    type: static
+    parent: ~
+    radius: 251040
+    vector: [-0.21, 0.069, -0.975]
+  corona:
+    shimmer: 0.338289
+    hues: 0.974678
+    flare: 0.098563
+stations:
+- type: coriolis
+  orbit:
+    parent: Atlaar
+    vector: undefined
+    radius: 6276

@@ -1,0 +1,61 @@
+name: Ribiraor
+position: [48, 215]
+seed: 206 215 18 48 80 190
+limits:
+  blurs: 158
+  stars: 7303
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ribiraor
+  radius: 6448
+  rotationSpeed: 0.000172
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 838240
+  land:
+    ratio: 0.7
+    color: [0.5, 0.447266, 0.481873, 1]
+    polarColor: [0.95, 0.924951, 0.941389, 1]
+  sea:
+    color: [0.609375, 0.557282, 0.467505, 1]
+    polarColor: [0.939062, 0.918993, 0.884406, 1]
+  air:
+    color: [0.515438, 0.975586, 0.856583, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.929688, 0.348576, 0.170685, 1]
+    ratio: 0.35
+    polarColor: [0.918359, 0.55959, 0.449763, 1]
+  demographics:
+    type: 14
+    gdp: 2016
+    tech: 1
+    economy: 7
+    government: 2
+    description: This world is very fabled for the Ribiraorian edible poet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.764475, 0.362748, 0.320442, 1]
+  radius: 222361.350098
+  orbit:
+    type: static
+    parent: ~
+    radius: 515840
+    vector: [-0.302, -0.596, 0.744]
+  corona:
+    shimmer: 0.369217
+    hues: 0.829895
+    flare: 0.027641
+stations:
+- type: coriolis
+  orbit:
+    parent: Ribiraor
+    vector: undefined
+    radius: 12896

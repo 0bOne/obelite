@@ -1,0 +1,61 @@
+name: Anrige
+position: [137, 25]
+seed: 54 25 36 137 211 219
+limits:
+  blurs: 186
+  stars: 8400
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anrige
+  radius: 5769
+  rotationSpeed: 0.001254
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 749970
+  land:
+    ratio: 0.29
+    color: [0.240374, 0.554688, 0.0975037, 1]
+    polarColor: [0.810727, 0.944531, 0.749906, 1]
+  sea:
+    color: [0.53125, 0.444465, 0.421265, 1]
+    polarColor: [0.946875, 0.908204, 0.897867, 1]
+  air:
+    color: [0.61125, 0.898836, 0.954773, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.658859, 0.867188, 0.450531, 1]
+    ratio: 0.33
+    polarColor: [0.756569, 0.890234, 0.622903, 1]
+  demographics:
+    type: 42
+    gdp: 24192
+    tech: 9
+    economy: 1
+    government: 4
+    description: The planet Anrige is a boring world.
+    inhabitants: Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.834274, 0.505907, 0.239474, 1]
+  radius: 168793.60199
+  orbit:
+    type: static
+    parent: ~
+    radius: 346140
+    vector: [0.898, -0.438, 0.03]
+  corona:
+    shimmer: 0.309295
+    hues: 0.606956
+    flare: 0.03172
+stations:
+- type: coriolis
+  orbit:
+    parent: Anrige
+    vector: undefined
+    radius: 11538

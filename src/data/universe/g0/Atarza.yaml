@@ -1,0 +1,61 @@
+name: Atarza
+position: [168, 113]
+seed: 24 113 132 168 45 49
+limits:
+  blurs: 171
+  stars: 6136
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atarza
+  radius: 3240
+  rotationSpeed: 0.000477
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 324000
+  land:
+    ratio: 0.49
+    color: [0.162422, 0.298478, 0.66, 1]
+    polarColor: [0.757963, 0.806098, 0.934, 1]
+  sea:
+    color: [0.554118, 0.716797, 0.564285, 1]
+    polarColor: [0.875649, 0.92832, 0.878941, 1]
+  air:
+    color: [0.608665, 0.928107, 0.910315, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.787109, 0.733783, 0.445824, 1]
+    ratio: 0.32
+    polarColor: [0.854199, 0.81803, 0.622715, 1]
+  demographics:
+    type: 20
+    gdp: 4480
+    tech: 4
+    economy: 3
+    government: 0
+    description: This world is plagued by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.834796, 0.76761, 0.590533, 1]
+  radius: 57747.601318
+  orbit:
+    type: static
+    parent: ~
+    radius: 291600
+    vector: [0.206, 0.583, -0.786]
+  corona:
+    shimmer: 0.318625
+    hues: 0.90641
+    flare: 0.052481
+stations:
+- type: coriolis
+  orbit:
+    parent: Atarza
+    vector: undefined
+    radius: 6480

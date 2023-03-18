@@ -1,0 +1,61 @@
+name: Dieranor
+position: [190, 100]
+seed: 101 100 100 190 105 109
+limits:
+  blurs: 148
+  stars: 5388
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Dieranor
+  radius: 6334
+  rotationSpeed: 0.00129
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 696740
+  land:
+    ratio: 0.68
+    color: [0.647109, 0.66, 0.656979, 1]
+    polarColor: [0.929439, 0.934, 0.932931, 1]
+  sea:
+    color: [0.602916, 0.755859, 0.755859, 1]
+    polarColor: [0.877652, 0.924414, 0.924414, 1]
+  air:
+    color: [0.594912, 0.912997, 0.964529, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.684319, 0.896484, 0.402718, 1]
+    ratio: 0.16
+    polarColor: [0.769789, 0.903418, 0.592427, 1]
+  demographics:
+    type: 37
+    gdp: 14208
+    tech: 7
+    economy: 4
+    government: 4
+    description: Dieranor is an unremarkable planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.298197, 0.561937, 0.676093, 1]
+  radius: 164596.435852
+  orbit:
+    type: static
+    parent: ~
+    radius: 633400
+    vector: [-0.504, -0.767, -0.397]
+  corona:
+    shimmer: 0.277897
+    hues: 0.845871
+    flare: 0.068837
+stations:
+- type: coriolis
+  orbit:
+    parent: Dieranor
+    vector: undefined
+    radius: 12668

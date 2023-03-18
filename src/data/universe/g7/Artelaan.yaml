@@ -1,0 +1,61 @@
+name: Artelaan
+position: [46, 99]
+seed: 89 99 136 46 85 10
+limits:
+  blurs: 42
+  stars: 7574
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Artelaan
+  radius: 5422
+  rotationSpeed: 0.000284
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 596420
+  land:
+    ratio: 0.32
+    color: [0.335479, 0.66, 0.268125, 1]
+    polarColor: [0.819188, 0.934, 0.795359, 1]
+  sea:
+    color: [0.610573, 0.666016, 0.511739, 1]
+    polarColor: [0.913973, 0.933398, 0.879345, 1]
+  air:
+    color: [0.676329, 0.859166, 0.841848, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.580078, 0.573882, 0.557419, 1]
+    ratio: 0.25
+    polarColor: [0.761035, 0.755955, 0.742455, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 7
+    economy: 3
+    government: 1
+    description: The planet Artelaan is cursed by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.230836, 0.332789, 0.716461, 1]
+  radius: 148915.541077
+  orbit:
+    type: static
+    parent: ~
+    radius: 487980
+    vector: [0.438, -0.487, 0.756]
+  corona:
+    shimmer: 1.11779
+    hues: 0.666718
+    flare: 0.095966
+stations:
+- type: coriolis
+  orbit:
+    parent: Artelaan
+    vector: undefined
+    radius: 10844

@@ -1,0 +1,61 @@
+name: Verave
+position: [235, 83]
+seed: 48 83 168 235 26 22
+limits:
+  blurs: 193
+  stars: 9458
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Verave
+  radius: 4587
+  rotationSpeed: 0.004655
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 550440
+  land:
+    ratio: 0.25
+    color: [0.625, 0.567932, 0.517578, 1]
+    polarColor: [0.9375, 0.9161, 0.897217, 1]
+  sea:
+    color: [0.178574, 0.550781, 0.376309, 1]
+    polarColor: [0.785282, 0.944922, 0.870091, 1]
+  air:
+    color: [0.596479, 0.913148, 0.831252, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.742188, 0.491364, 0.414581, 1]
+    ratio: 0.11
+    polarColor: [0.833984, 0.65783, 0.603906, 1]
+  demographics:
+    type: 49
+    gdp: 24696
+    tech: 10
+    economy: 3
+    government: 5
+    description: Verave is a revolting dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.407475, 0.628031, 0.779984, 1]
+  radius: 117295.50293
+  orbit:
+    type: static
+    parent: ~
+    radius: 275220
+    vector: [-0.787, 0.388, -0.48]
+  corona:
+    shimmer: 0.659661
+    hues: 0.589592
+    flare: 0.051326
+stations:
+- type: coriolis
+  orbit:
+    parent: Verave
+    vector: undefined
+    radius: 9174

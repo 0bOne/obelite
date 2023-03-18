@@ -1,0 +1,61 @@
+name: Ririor
+position: [187, 132]
+seed: 182 132 88 187 219 158
+limits:
+  blurs: 136
+  stars: 7532
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ririor
+  radius: 6587
+  rotationSpeed: 0.004202
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 790440
+  land:
+    ratio: 0.66
+    color: [0.171875, 0.5, 0.192383, 1]
+    polarColor: [0.794141, 0.95, 0.803882, 1]
+  sea:
+    color: [0.630859, 0.545371, 0.469941, 1]
+    polarColor: [0.936914, 0.905174, 0.877168, 1]
+  air:
+    color: [0.541246, 0.59788, 0.840305, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.278076, 0.414175, 0.523438, 1]
+    ratio: 0.42
+    polarColor: [0.520055, 0.639585, 0.735547, 1]
+  demographics:
+    type: 40
+    gdp: 13440
+    tech: 8
+    economy: 4
+    government: 3
+    description: The planet Ririor is most well known for its hoopy casinos.
+    inhabitants: Black Frogs
+- type: star
+  type: primary
+  color: [0.288528, 0.393287, 0.762051, 1]
+  radius: 204934.137726
+  orbit:
+    type: static
+    parent: ~
+    radius: 592830
+    vector: [0.836, -0.451, 0.311]
+  corona:
+    shimmer: 0.351023
+    hues: 0.552971
+    flare: 0.011687
+stations:
+- type: coriolis
+  orbit:
+    parent: Ririor
+    vector: undefined
+    radius: 13174

@@ -1,0 +1,61 @@
+name: Vetele
+position: [173, 88]
+seed: 156 88 208 173 133 118
+limits:
+  blurs: 105
+  stars: 7649
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vetele
+  radius: 4525
+  rotationSpeed: 0.003791
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 543000
+  land:
+    ratio: 0.6
+    color: [0.270159, 0.0283594, 0.66, 1]
+    polarColor: [0.796079, 0.710533, 0.934, 1]
+  sea:
+    color: [0.611328, 0.448944, 0.448944, 1]
+    polarColor: [0.938867, 0.876521, 0.876521, 1]
+  air:
+    color: [0.508377, 0.535529, 0.883881, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.212135, 0.301949, 0.654297, 1]
+    ratio: 0.33
+    polarColor: [0.458894, 0.52705, 0.794434, 1]
+  demographics:
+    type: 39
+    gdp: 18720
+    tech: 9
+    economy: 0
+    government: 2
+    description: Vetele is a revolting little planet.
+    inhabitants: Blue Furry Insects
+- type: star
+  type: primary
+  color: [0.835596, 0.74529, 0.355762, 1]
+  radius: 93060.916901
+  orbit:
+    type: static
+    parent: ~
+    radius: 452500
+    vector: [-0.316, -0.703, 0.638]
+  corona:
+    shimmer: 0.278969
+    hues: 0.597176
+    flare: 0.049939
+stations:
+- type: coriolis
+  orbit:
+    parent: Vetele
+    vector: undefined
+    radius: 9050

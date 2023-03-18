@@ -1,0 +1,61 @@
+name: Tezaxe
+position: [64, 167]
+seed: 50 167 250 64 116 60
+limits:
+  blurs: 114
+  stars: 5100
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tezaxe
+  radius: 5952
+  rotationSpeed: 0.003396
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 773760
+  land:
+    ratio: 0.53
+    color: [0.541406, 0.66, 0.584952, 1]
+    polarColor: [0.892043, 0.934, 0.907449, 1]
+  sea:
+    color: [0.458064, 0.364807, 0.542969, 1]
+    polarColor: [0.908733, 0.868126, 0.945703, 1]
+  air:
+    color: [0.443387, 0.804946, 0.835102, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.408367, 0.507812, 0.0971985, 1]
+    ratio: 0.15
+    polarColor: [0.639349, 0.728516, 0.360345, 1]
+  demographics:
+    type: 31
+    gdp: 8184
+    tech: 4
+    economy: 7
+    government: 7
+    description: The world Tezaxe is mildly noted for the Tezaxeian mountain lobstoid but beset by dreadful earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.842847, 0.794198, 0.694073, 1]
+  radius: 156431.630859
+  orbit:
+    type: static
+    parent: ~
+    radius: 535680
+    vector: [-0.636, -0.476, 0.608]
+  corona:
+    shimmer: 0.257602
+    hues: 0.967056
+    flare: 0.020853
+stations:
+- type: coriolis
+  orbit:
+    parent: Tezaxe
+    vector: undefined
+    radius: 11904

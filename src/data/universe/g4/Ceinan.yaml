@@ -1,0 +1,61 @@
+name: Ceinan
+position: [105, 93]
+seed: 36 93 172 105 101 101
+limits:
+  blurs: 136
+  stars: 5471
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceinan
+  radius: 4201
+  rotationSpeed: 0.003616
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 546130
+  land:
+    ratio: 0.38
+    color: [0.600784, 0.66, 0.389297, 1]
+    polarColor: [0.91305, 0.934, 0.838229, 1]
+  sea:
+    color: [0.537778, 0.664062, 0.530472, 1]
+    polarColor: [0.889208, 0.933594, 0.886641, 1]
+  air:
+    color: [0.604877, 0.880858, 0.968432, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.556485, 0.908203, 0.429268, 1]
+    ratio: 0.34
+    polarColor: [0.688749, 0.908691, 0.609196, 1]
+  demographics:
+    type: 35
+    gdp: 12600
+    tech: 6
+    economy: 5
+    government: 5
+    description: This world is very notable for the Ceinanian edible arts graduate and its unusual dense forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.737787, 0.749231, 0.842935, 1]
+  radius: 120875.544281
+  orbit:
+    type: static
+    parent: ~
+    radius: 252060
+    vector: [-0.67, 0.586, -0.456]
+  corona:
+    shimmer: 0.258614
+    hues: 0.965569
+    flare: 0.099867
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceinan
+    vector: undefined
+    radius: 8402

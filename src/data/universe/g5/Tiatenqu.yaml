@@ -1,0 +1,61 @@
+name: Tiatenqu
+position: [9, 16]
+seed: 73 16 137 9 106 215
+limits:
+  blurs: 81
+  stars: 9677
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiatenqu
+  radius: 4617
+  rotationSpeed: 0.002873
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 554040
+  land:
+    ratio: 0.56
+    color: [0.66, 0.381563, 0.394614, 1]
+    polarColor: [0.934, 0.835492, 0.84011, 1]
+  sea:
+    color: [0.611385, 0.650391, 0.503545, 1]
+    polarColor: [0.920943, 0.934961, 0.882187, 1]
+  air:
+    color: [0.662205, 0.862161, 0.920303, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.636518, 0.763672, 0.57872, 1]
+    ratio: 0.25
+    polarColor: [0.755858, 0.843652, 0.715951, 1]
+  demographics:
+    type: 32
+    gdp: 10240
+    tech: 7
+    economy: 2
+    government: 1
+    description: This world is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.45472, 0.483807, 0.733136, 1]
+  radius: 116430.319061
+  orbit:
+    type: static
+    parent: ~
+    radius: 369360
+    vector: [0.947, -0.099, -0.305]
+  corona:
+    shimmer: 0.808149
+    hues: 0.586052
+    flare: 0.099452
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiatenqu
+    vector: undefined
+    radius: 9234

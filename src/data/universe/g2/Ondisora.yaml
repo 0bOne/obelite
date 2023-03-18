@@ -1,0 +1,61 @@
+name: Ondisora
+position: [57, 243]
+seed: 213 243 185 57 229 95
+limits:
+  blurs: 84
+  stars: 7613
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ondisora
+  radius: 6713
+  rotationSpeed: 0.004114
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 671300
+  land:
+    ratio: 0.33
+    color: [0.630859, 0.518079, 0.48793, 1]
+    polarColor: [0.936914, 0.895041, 0.883847, 1]
+  sea:
+    color: [0.153328, 0.623047, 0.59002, 1]
+    polarColor: [0.760962, 0.937695, 0.925269, 1]
+  air:
+    color: [0.45904, 0.463695, 0.930709, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0621033, 0.0735536, 0.794922, 1]
+    ratio: 0.34
+    polarColor: [0.363524, 0.371245, 0.857715, 1]
+  demographics:
+    type: 47
+    gdp: 28952
+    tech: 9
+    economy: 3
+    government: 7
+    description: This planet is a dull world.
+    inhabitants: Yellow Horned Humanoids
+- type: star
+  type: primary
+  color: [0.789401, 0.785184, 0.777693, 1]
+  radius: 189878.663635
+  orbit:
+    type: static
+    parent: ~
+    radius: 671300
+    vector: [-0.533, 0.842, -0.083]
+  corona:
+    shimmer: 0.389641
+    hues: 0.604431
+    flare: 0.019049
+stations:
+- type: coriolis
+  orbit:
+    parent: Ondisora
+    vector: undefined
+    radius: 13426

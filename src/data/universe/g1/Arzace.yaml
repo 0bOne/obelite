@@ -1,0 +1,61 @@
+name: Arzace
+position: [53, 4]
+seed: 128 4 80 53 250 42
+limits:
+  blurs: 56
+  stars: 5213
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arzace
+  radius: 5429
+  rotationSpeed: 0.002449
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 651480
+  land:
+    ratio: 0.24
+    color: [0.640819, 0.654297, 0.585289, 1]
+    polarColor: [0.929757, 0.93457, 0.909928, 1]
+  sea:
+    color: [0.155296, 0.576172, 0.369022, 1]
+    polarColor: [0.770288, 0.942383, 0.85768, 1]
+  air:
+    color: [0.650067, 0.864369, 0.810619, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.595703, 0.531802, 0.509605, 1]
+    ratio: 0.16
+    polarColor: [0.768066, 0.716573, 0.698685, 1]
+  demographics:
+    type: 27
+    gdp: 7776
+    tech: 5
+    economy: 4
+    government: 2
+    description: The planet Arzace is scourged by evil disease.
+    inhabitants: Small Red Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.331583, 0.600012, 0.813461, 1]
+  radius: 94931.287231
+  orbit:
+    type: static
+    parent: ~
+    radius: 597190
+    vector: [0.83, 0.31, 0.463]
+  corona:
+    shimmer: 0.379136
+    hues: 0.516251
+    flare: 0.015591
+stations:
+- type: coriolis
+  orbit:
+    parent: Arzace
+    vector: undefined
+    radius: 10858

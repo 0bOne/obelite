@@ -1,0 +1,61 @@
+name: Isence
+position: [52, 128]
+seed: 152 128 212 52 141 61
+limits:
+  blurs: 51
+  stars: 5298
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isence
+  radius: 6196
+  rotationSpeed: 0.00484
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 805480
+  land:
+    ratio: 0.42
+    color: [0.222046, 0.53125, 0.487768, 1]
+    polarColor: [0.809097, 0.946875, 0.9275, 1]
+  sea:
+    color: [0.75, 0.56369, 0.427734, 1]
+    polarColor: [0.925, 0.867554, 0.825635, 1]
+  air:
+    color: [0.636273, 0.530442, 0.909896, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.6615, 0.254631, 0.732422, 1]
+    ratio: 0.32
+    polarColor: [0.779383, 0.491354, 0.82959, 1]
+  demographics:
+    type: 35
+    gdp: 16800
+    tech: 8
+    economy: 0
+    government: 2
+    description: The world Isence is very famous for its unusual casinos but beset by evil disease.
+    inhabitants: Red Fat Humanoids
+- type: star
+  type: primary
+  color: [0.811569, 0.717584, 0.237637, 1]
+  radius: 125990.501709
+  orbit:
+    type: static
+    parent: ~
+    radius: 619600
+    vector: [-0.099, 0.875, -0.474]
+  corona:
+    shimmer: 0.340631
+    hues: 0.963715
+    flare: 0.036688
+stations:
+- type: coriolis
+  orbit:
+    parent: Isence
+    vector: undefined
+    radius: 12392

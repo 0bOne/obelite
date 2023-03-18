@@ -1,0 +1,61 @@
+name: Axeus
+position: [85, 221]
+seed: 38 221 172 85 243 47
+limits:
+  blurs: 91
+  stars: 7405
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Axeus
+  radius: 6741
+  rotationSpeed: 0.00023
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 876330
+  land:
+    ratio: 0.61
+    color: [0.207336, 0.453887, 0.617188, 1]
+    polarColor: [0.782512, 0.876217, 0.938281, 1]
+  sea:
+    color: [0.688975, 0.701172, 0.545052, 1]
+    polarColor: [0.925839, 0.929883, 0.878122, 1]
+  air:
+    color: [0.558224, 0.56556, 0.846158, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.312775, 0.32704, 0.541016, 1]
+    ratio: 0.11
+    polarColor: [0.547428, 0.55968, 0.743457, 1]
+  demographics:
+    type: 35
+    gdp: 12600
+    tech: 6
+    economy: 5
+    government: 5
+    description: The world Axeus is a boring world.
+    inhabitants: Red Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.463135, 0.668645, 0.77533, 1]
+  radius: 155254.067688
+  orbit:
+    type: static
+    parent: ~
+    radius: 337050
+    vector: [0.995, 0.017, 0.101]
+  corona:
+    shimmer: 0.900838
+    hues: 0.666786
+    flare: 0.082964
+stations:
+- type: coriolis
+  orbit:
+    parent: Axeus
+    vector: undefined
+    radius: 13482

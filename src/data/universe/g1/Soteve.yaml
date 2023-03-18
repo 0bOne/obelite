@@ -1,0 +1,61 @@
+name: Soteve
+position: [241, 162]
+seed: 128 162 208 241 250 135
+limits:
+  blurs: 189
+  stars: 5491
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soteve
+  radius: 4849
+  rotationSpeed: 0.00252
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 630370
+  land:
+    ratio: 0.49
+    color: [0.66, 0.376185, 0.188203, 1]
+    polarColor: [0.934, 0.83359, 0.767084, 1]
+  sea:
+    color: [0.59375, 0.442993, 0.506594, 1]
+    polarColor: [0.940625, 0.880917, 0.906107, 1]
+  air:
+    color: [0.778318, 0.655263, 0.843557, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.533203, 0.495712, 0.496591, 1]
+    ratio: 0.21
+    polarColor: [0.739941, 0.707424, 0.708187, 1]
+  demographics:
+    type: 33
+    gdp: 12672
+    tech: 7
+    economy: 2
+    government: 2
+    description: The world Soteve is scourged by killer edible arts graduates.
+    inhabitants: Fierce Black Bony Felines
+- type: star
+  type: primary
+  color: [0.839145, 0.452499, 0.306808, 1]
+  radius: 100032.082062
+  orbit:
+    type: static
+    parent: ~
+    radius: 290940
+    vector: [0.848, 0.228, 0.479]
+  corona:
+    shimmer: 0.322428
+    hues: 0.721237
+    flare: 0.052481
+stations:
+- type: coriolis
+  orbit:
+    parent: Soteve
+    vector: undefined
+    radius: 9698

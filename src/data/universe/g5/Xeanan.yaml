@@ -1,0 +1,61 @@
+name: Xeanan
+position: [189, 123]
+seed: 7 123 161 189 168 66
+limits:
+  blurs: 105
+  stars: 9438
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeanan
+  radius: 3517
+  rotationSpeed: 0.001035
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 492380
+  land:
+    ratio: 0.39
+    color: [0.0968323, 0.652344, 0.496106, 1]
+    polarColor: [0.735763, 0.934766, 0.878796, 1]
+  sea:
+    color: [0.591871, 0.595703, 0.473072, 1]
+    polarColor: [0.938917, 0.94043, 0.892031, 1]
+  air:
+    color: [0.522897, 0.534695, 0.877377, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.245476, 0.27893, 0.634766, 1]
+    ratio: 0.35
+    polarColor: [0.484506, 0.510385, 0.785645, 1]
+  demographics:
+    type: 36
+    gdp: 16128
+    tech: 7
+    economy: 3
+    government: 4
+    description: This world is reasonably well known for the Xeananian tree ant but ravaged by dreadful civil war.
+    inhabitants: Large Yellow Rodents
+- type: star
+  type: primary
+  color: [0.468665, 0.678862, 0.692734, 1]
+  radius: 107217.625427
+  orbit:
+    type: static
+    parent: ~
+    radius: 351700
+    vector: [-0.823, -0.098, -0.559]
+  corona:
+    shimmer: 0.280911
+    hues: 0.641266
+    flare: 0.043886
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeanan
+    vector: undefined
+    radius: 7034

@@ -1,0 +1,61 @@
+name: Soesgera
+position: [241, 175]
+seed: 217 175 241 241 186 231
+limits:
+  blurs: 158
+  stars: 9366
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soesgera
+  radius: 4849
+  rotationSpeed: 0.001353
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 484900
+  land:
+    ratio: 0.49
+    color: [0.580078, 0.407867, 0.549134, 1]
+    polarColor: [0.941992, 0.872079, 0.92943, 1]
+  sea:
+    color: [0.265012, 0.517578, 0.123329, 1]
+    polarColor: [0.832562, 0.948242, 0.767669, 1]
+  air:
+    color: [0.690677, 0.851876, 0.883231, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.634506, 0.652344, 0.616669, 1]
+    ratio: 0.36
+    polarColor: [0.779993, 0.793555, 0.766431, 1]
+  demographics:
+    type: 30
+    gdp: 7200
+    tech: 4
+    economy: 7
+    government: 6
+    description: This world is reasonably well known for its great tropical forests but cursed by unpredictable solar activity.
+    inhabitants: Fierce Frogs
+- type: star
+  type: primary
+  color: [0.478513, 0.614607, 0.793066, 1]
+  radius: 131332.75589
+  orbit:
+    type: static
+    parent: ~
+    radius: 436410
+    vector: [-0.97, 0.181, -0.16]
+  corona:
+    shimmer: 0.33652
+    hues: 0.83506
+    flare: 0.017505
+stations:
+- type: coriolis
+  orbit:
+    parent: Soesgera
+    vector: undefined
+    radius: 9698

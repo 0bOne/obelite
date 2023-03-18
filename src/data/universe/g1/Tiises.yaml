@@ -1,0 +1,61 @@
+name: Tiises
+position: [19, 242]
+seed: 148 242 144 19 166 23
+limits:
+  blurs: 120
+  stars: 6295
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiises
+  radius: 4627
+  rotationSpeed: 0.000091
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 555240
+  land:
+    ratio: 0.66
+    color: [0.604611, 0.66, 0.337734, 1]
+    polarColor: [0.914404, 0.934, 0.819986, 1]
+  sea:
+    color: [0.415367, 0.362411, 0.509766, 1]
+    polarColor: [0.905088, 0.880442, 0.949023, 1]
+  air:
+    color: [0.605357, 0.889738, 0.96518, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.599415, 0.898438, 0.431671, 1]
+    ratio: 0.38
+    polarColor: [0.716189, 0.904297, 0.610665, 1]
+  demographics:
+    type: 41
+    gdp: 15744
+    tech: 9
+    economy: 2
+    government: 2
+    description: Tiises is most famous for its vast rain forests and the Tiisesian tree grub.
+    inhabitants: Green Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.66701, 0.552734, 0.528496, 1]
+  radius: 151953.345947
+  orbit:
+    type: static
+    parent: ~
+    radius: 416430
+    vector: [-0.103, 0.993, -0.051]
+  corona:
+    shimmer: 0.276909
+    hues: 0.880081
+    flare: 0.041432
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiises
+    vector: undefined
+    radius: 9254

@@ -1,0 +1,61 @@
+name: Edtira
+position: [228, 187]
+seed: 10 187 210 228 10 120
+limits:
+  blurs: 179
+  stars: 7317
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edtira
+  radius: 5092
+  rotationSpeed: 0.004464
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 611040
+  land:
+    ratio: 0.68
+    color: [0.0773438, 0.18204, 0.66, 1]
+    polarColor: [0.727863, 0.764903, 0.934, 1]
+  sea:
+    color: [0.667969, 0.641102, 0.496019, 1]
+    polarColor: [0.933203, 0.923819, 0.873146, 1]
+  air:
+    color: [0.735014, 0.772936, 0.935262, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.773849, 0.793122, 0.808594, 1]
+    ratio: 0.41
+    polarColor: [0.840668, 0.853536, 0.863867, 1]
+  demographics:
+    type: 26
+    gdp: 8736
+    tech: 5
+    economy: 3
+    government: 2
+    description: The planet Edtira is reasonably noted for its inhabitants’ exceptional love for tourists and its weird volcanoes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.786948, 0.617858, 0.236345, 1]
+  radius: 140704.416504
+  orbit:
+    type: static
+    parent: ~
+    radius: 407360
+    vector: [-0.849, -0.525, 0.063]
+  corona:
+    shimmer: 0.431749
+    hues: 0.527626
+    flare: 0.038304
+stations:
+- type: coriolis
+  orbit:
+    parent: Edtira
+    vector: undefined
+    radius: 10184

@@ -1,0 +1,61 @@
+name: Ininbi
+position: [173, 242]
+seed: 138 242 104 173 83 204
+limits:
+  blurs: 146
+  stars: 8422
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ininbi
+  radius: 6061
+  rotationSpeed: 0.003908
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 545490
+  land:
+    ratio: 0.5
+    color: [0.243378, 0.311599, 0.623047, 1]
+    polarColor: [0.794843, 0.820512, 0.937695, 1]
+  sea:
+    color: [0.548828, 0.479702, 0.433917, 1]
+    polarColor: [0.945117, 0.915357, 0.895646, 1]
+  air:
+    color: [0.798, 0.542419, 0.943066, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.832031, 0.26976, 0.309295, 1]
+    ratio: 0.33
+    polarColor: [0.874414, 0.505094, 0.531062, 1]
+  demographics:
+    type: 44
+    gdp: 25344
+    tech: 9
+    economy: 2
+    government: 5
+    description: The world Ininbi is reasonably famous for its inhabitants’ exceptional loathing of casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.799335, 0.684595, 0.461347, 1]
+  radius: 183346.729736
+  orbit:
+    type: static
+    parent: ~
+    radius: 606100
+    vector: [0.446, -0.693, 0.566]
+  corona:
+    shimmer: 0.32616
+    hues: 0.87117
+    flare: 0.014738
+stations:
+- type: coriolis
+  orbit:
+    parent: Ininbi
+    vector: undefined
+    radius: 12122

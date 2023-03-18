@@ -1,0 +1,61 @@
+name: Onsoor
+position: [82, 148]
+seed: 188 148 184 82 149 191
+limits:
+  blurs: 119
+  stars: 6690
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onsoor
+  radius: 6738
+  rotationSpeed: 0.004748
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 741180
+  land:
+    ratio: 0.42
+    color: [0.570128, 0.66, 0.409922, 1]
+    polarColor: [0.902204, 0.934, 0.845525, 1]
+  sea:
+    color: [0.738281, 0.510272, 0.421051, 1]
+    polarColor: [0.926172, 0.854663, 0.826681, 1]
+  air:
+    color: [0.614077, 0.930513, 0.93266, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.790126, 0.800781, 0.459824, 1]
+    ratio: 0.13
+    polarColor: [0.853197, 0.860352, 0.631401, 1]
+  demographics:
+    type: 48
+    gdp: 25344
+    tech: 9
+    economy: 4
+    government: 7
+    description: Onsoor is most noted for the Onsoorian evil arts graduate and its fabulous Zaleen juice.
+    inhabitants: Harmless Frogs
+- type: star
+  type: primary
+  color: [0.653311, 0.188914, 0.186378, 1]
+  radius: 128277.59491
+  orbit:
+    type: static
+    parent: ~
+    radius: 741180
+    vector: [0.084, -0.054, -0.995]
+  corona:
+    shimmer: 0.399079
+    hues: 0.836044
+    flare: 0.0196
+stations:
+- type: coriolis
+  orbit:
+    parent: Onsoor
+    vector: undefined
+    radius: 13476

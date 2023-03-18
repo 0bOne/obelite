@@ -1,0 +1,61 @@
+name: Ledius
+position: [90, 81]
+seed: 57 81 65 90 154 161
+limits:
+  blurs: 132
+  stars: 7240
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ledius
+  radius: 3162
+  rotationSpeed: 0.000673
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 411060
+  land:
+    ratio: 0.36
+    color: [0.621328, 0.622839, 0.66, 1]
+    polarColor: [0.920318, 0.920853, 0.934, 1]
+  sea:
+    color: [0.580773, 0.664062, 0.518021, 1]
+    polarColor: [0.90432, 0.933594, 0.882264, 1]
+  air:
+    color: [0.647898, 0.858516, 0.794183, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.578125, 0.506495, 0.499084, 1]
+    ratio: 0.35
+    polarColor: [0.760156, 0.701291, 0.695202, 1]
+  demographics:
+    type: 28
+    gdp: 6272
+    tech: 6
+    economy: 3
+    government: 0
+    description: This world is mildly famous for its unusual sit coms and the Lediusian spotted shrew.
+    inhabitants: Large Harmless Bony Birds
+- type: star
+  type: primary
+  color: [0.304877, 0.386035, 0.758594, 1]
+  radius: 96153.054199
+  orbit:
+    type: static
+    parent: ~
+    radius: 221340
+    vector: [0.824, 0.157, 0.544]
+  corona:
+    shimmer: 0.289383
+    hues: 0.627281
+    flare: 0.007065
+stations:
+- type: coriolis
+  orbit:
+    parent: Ledius
+    vector: undefined
+    radius: 6324

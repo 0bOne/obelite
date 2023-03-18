@@ -1,0 +1,61 @@
+name: Usquen
+position: [142, 67]
+seed: 50 67 250 142 116 200
+limits:
+  blurs: 182
+  stars: 9821
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usquen
+  radius: 5006
+  rotationSpeed: 0.003472
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 750900
+  land:
+    ratio: 0.63
+    color: [0.365812, 0.0979688, 0.66, 1]
+    polarColor: [0.82992, 0.73516, 0.934, 1]
+  sea:
+    color: [0.629149, 0.640625, 0.493732, 1]
+    polarColor: [0.931746, 0.935938, 0.882286, 1]
+  air:
+    color: [0.455993, 0.538882, 0.912498, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0722885, 0.427135, 0.740234, 1]
+    ratio: 0.16
+    polarColor: [0.363263, 0.612867, 0.833105, 1]
+  demographics:
+    type: 51
+    gdp: 31416
+    tech: 10
+    economy: 3
+    government: 7
+    description: The planet Usquen is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.581104, 0.702654, 0.829831, 1]
+  radius: 123992.759705
+  orbit:
+    type: static
+    parent: ~
+    radius: 150180
+    vector: [-0.008, 0.767, -0.641]
+  corona:
+    shimmer: 0.241561
+    hues: 0.561043
+    flare: 0.020428
+stations:
+- type: coriolis
+  orbit:
+    parent: Usquen
+    vector: undefined
+    radius: 10012

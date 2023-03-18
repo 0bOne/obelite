@@ -1,0 +1,61 @@
+name: Soreisbe
+position: [231, 62]
+seed: 112 62 248 231 186 103
+limits:
+  blurs: 97
+  stars: 9201
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soreisbe
+  radius: 4839
+  rotationSpeed: 0.001566
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 580680
+  land:
+    ratio: 0.55
+    color: [0.0902344, 0.312799, 0.66, 1]
+    polarColor: [0.732424, 0.811165, 0.934, 1]
+  sea:
+    color: [0.582031, 0.512219, 0.450619, 1]
+    polarColor: [0.941797, 0.913556, 0.888637, 1]
+  air:
+    color: [0.459622, 0.752076, 0.840955, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.240874, 0.525391, 0.125191, 1]
+    ratio: 0.16
+    polarColor: [0.487176, 0.736426, 0.385832, 1]
+  demographics:
+    type: 46
+    gdp: 16192
+    tech: 8
+    economy: 6
+    government: 7
+    description: The planet Soreisbe is most famous for the Soreisbeian deadly goat and its hoopy casinos.
+    inhabitants: Fierce Blue Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.543222, 0.652816, 0.696695, 1]
+  radius: 130040.741272
+  orbit:
+    type: static
+    parent: ~
+    radius: 387120
+    vector: [0.485, 0.163, 0.859]
+  corona:
+    shimmer: 0.254207
+    hues: 0.585556
+    flare: 0.047441
+stations:
+- type: coriolis
+  orbit:
+    parent: Soreisbe
+    vector: undefined
+    radius: 9678

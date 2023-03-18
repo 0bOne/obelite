@@ -1,0 +1,61 @@
+name: Rasoso
+position: [171, 103]
+seed: 18 103 210 171 84 52
+limits:
+  blurs: 58
+  stars: 6884
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rasoso
+  radius: 4011
+  rotationSpeed: 0.003096
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 441210
+  land:
+    ratio: 0.55
+    color: [0.66, 0.582455, 0.461484, 1]
+    polarColor: [0.934, 0.906565, 0.863768, 1]
+  sea:
+    color: [0.748771, 0.697194, 0.910156, 1]
+    polarColor: [0.86869, 0.855812, 0.908984, 1]
+  air:
+    color: [0.516168, 0.643775, 0.835102, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.230103, 0.507812, 0.455742, 1]
+    ratio: 0.22
+    polarColor: [0.479511, 0.728516, 0.681827, 1]
+  demographics:
+    type: 26
+    gdp: 3744
+    tech: 4
+    economy: 7
+    government: 2
+    description: This world is ravaged by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.802319, 0.344379, 0.288211, 1]
+  radius: 119268.739929
+  orbit:
+    type: static
+    parent: ~
+    radius: 360990
+    vector: [0.539, 0.49, -0.686]
+  corona:
+    shimmer: 0.520011
+    hues: 0.560776
+    flare: 0.026619
+stations:
+- type: coriolis
+  orbit:
+    parent: Rasoso
+    vector: undefined
+    radius: 8022

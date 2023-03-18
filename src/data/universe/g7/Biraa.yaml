@@ -1,0 +1,61 @@
+name: Biraa
+position: [117, 248]
+seed: 181 248 52 117 89 70
+limits:
+  blurs: 124
+  stars: 9523
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biraa
+  radius: 4469
+  rotationSpeed: 0.002511
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 536280
+  land:
+    ratio: 0.67
+    color: [0.583462, 0.66, 0.268125, 1]
+    polarColor: [0.906922, 0.934, 0.795359, 1]
+  sea:
+    color: [0.569806, 0.720703, 0.635823, 1]
+    polarColor: [0.879358, 0.92793, 0.900608, 1]
+  air:
+    color: [0.646378, 0.871523, 0.820325, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.617188, 0.544296, 0.508698, 1]
+    ratio: 0.4
+    polarColor: [0.777734, 0.720326, 0.69229, 1]
+  demographics:
+    type: 51
+    gdp: 40800
+    tech: 11
+    economy: 0
+    government: 6
+    description: This planet is fabled for its ancient Biraaian Geer banana plantations.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.666649, 0.668311, 0.499262, 1]
+  radius: 105483.429413
+  orbit:
+    type: static
+    parent: ~
+    radius: 491590
+    vector: [-0.254, -0.51, -0.822]
+  corona:
+    shimmer: 0.291484
+    hues: 0.981544
+    flare: 0.097346
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Biraa
+    vector: undefined
+    radius: 8938

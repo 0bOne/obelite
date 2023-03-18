@@ -1,0 +1,61 @@
+name: Enlaus
+position: [33, 108]
+seed: 202 108 146 33 138 242
+limits:
+  blurs: 183
+  stars: 6719
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enlaus
+  radius: 3361
+  rotationSpeed: 0.00199
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 369710
+  land:
+    ratio: 0.43
+    color: [0.623906, 0.66, 0.61875, 1]
+    polarColor: [0.92123, 0.934, 0.919406, 1]
+  sea:
+    color: [0.11158, 0.634766, 0.463095, 1]
+    polarColor: [0.743548, 0.936523, 0.873204, 1]
+  air:
+    color: [0.536088, 0.471435, 0.938514, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.400863, 0.0863113, 0.818359, 1]
+    ratio: 0.58
+    polarColor: [0.591415, 0.382832, 0.868262, 1]
+  demographics:
+    type: 27
+    gdp: 7776
+    tech: 5
+    economy: 4
+    government: 2
+    description: Enlaus is mildly well known for Enlausian shrew cutlet and the Enlausian edible moth.
+    inhabitants: Furry Insects
+- type: star
+  type: primary
+  color: [0.514248, 0.638969, 0.720569, 1]
+  radius: 68748.799591
+  orbit:
+    type: static
+    parent: ~
+    radius: 268880
+    vector: [0.491, -0.234, 0.839]
+  corona:
+    shimmer: 0.260751
+    hues: 0.602768
+    flare: 0.002771
+stations:
+- type: coriolis
+  orbit:
+    parent: Enlaus
+    vector: undefined
+    radius: 6722

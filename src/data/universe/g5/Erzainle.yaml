@@ -1,0 +1,61 @@
+name: Erzainle
+position: [120, 59]
+seed: 73 59 165 120 42 176
+limits:
+  blurs: 167
+  stars: 9107
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erzainle
+  radius: 2936
+  rotationSpeed: 0.001465
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 411040
+  land:
+    ratio: 0.64
+    color: [0.66, 0.657422, 0.657603, 1]
+    polarColor: [0.934, 0.933088, 0.933152, 1]
+  sea:
+    color: [0.5, 0.00195312, 0.00195312, 1]
+    polarColor: [0.95, 0.713428, 0.713428, 1]
+  air:
+    color: [0.487968, 0.495391, 0.907945, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.153259, 0.175654, 0.726562, 1]
+    ratio: 0.04
+    polarColor: [0.41913, 0.43506, 0.826953, 1]
+  demographics:
+    type: 32
+    gdp: 14336
+    tech: 6
+    economy: 3
+    government: 4
+    description: Erzainle is reasonably well known for the Erzainleian tree grub but plagued by frequent solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.756497, 0.49052, 0.305896, 1]
+  radius: 87983.232422
+  orbit:
+    type: static
+    parent: ~
+    radius: 146800
+    vector: [0.784, -0.02, -0.621]
+  corona:
+    shimmer: 0.675559
+    hues: 0.641121
+    flare: 0.082181
+stations:
+- type: coriolis
+  orbit:
+    parent: Erzainle
+    vector: undefined
+    radius: 5872

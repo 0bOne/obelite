@@ -1,0 +1,61 @@
+name: Ororre
+position: [186, 101]
+seed: 20 101 208 186 166 89
+limits:
+  blurs: 89
+  stars: 5253
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ororre
+  radius: 5306
+  rotationSpeed: 0.002647
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 530600
+  land:
+    ratio: 0.44
+    color: [0.2005, 0.570312, 0.552978, 1]
+    polarColor: [0.790105, 0.942969, 0.935803, 1]
+  sea:
+    color: [0.753906, 0.749903, 0.497696, 1]
+    polarColor: [0.924609, 0.923382, 0.846054, 1]
+  air:
+    color: [0.46294, 0.754169, 0.835102, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.25885, 0.507812, 0.132904, 1]
+    ratio: 0.56
+    polarColor: [0.505287, 0.728516, 0.39236, 1]
+  demographics:
+    type: 28
+    gdp: 6720
+    tech: 5
+    economy: 5
+    government: 2
+    description: Ororre is a revolting little planet.
+    inhabitants: Yellow Rodents
+- type: star
+  type: primary
+  color: [0.722156, 0.679812, 0.596156, 1]
+  radius: 99865.597839
+  orbit:
+    type: static
+    parent: ~
+    radius: 583660
+    vector: [-0.147, -0.336, 0.93]
+  corona:
+    shimmer: 0.245213
+    hues: 0.799728
+    flare: 0.001425
+stations:
+- type: coriolis
+  orbit:
+    parent: Ororre
+    vector: undefined
+    radius: 10612

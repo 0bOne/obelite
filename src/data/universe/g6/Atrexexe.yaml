@@ -1,0 +1,61 @@
+name: Atrexexe
+position: [129, 91]
+seed: 206 91 210 129 80 81
+limits:
+  blurs: 126
+  stars: 8748
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atrexexe
+  radius: 3201
+  rotationSpeed: 0.002634
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 416130
+  land:
+    ratio: 0.42
+    color: [0.226855, 0.00773438, 0.66, 1]
+    polarColor: [0.780759, 0.703236, 0.934, 1]
+  sea:
+    color: [0.608163, 0.650391, 0.504307, 1]
+    polarColor: [0.919785, 0.934961, 0.882461, 1]
+  air:
+    color: [0.662045, 0.545452, 0.903393, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.709606, 0.292397, 0.712891, 1]
+    ratio: 0.23
+    polarColor: [0.818437, 0.518211, 0.820801, 1]
+  demographics:
+    type: 30
+    gdp: 10080
+    tech: 6
+    economy: 3
+    government: 2
+    description: This world is very well known for Atrexexeian vicious brew and its inhabitants’ ancient loathing of casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.181548, 0.241678, 0.665732, 1]
+  radius: 87341.738892
+  orbit:
+    type: static
+    parent: ~
+    radius: 256080
+    vector: [0.897, -0.438, -0.064]
+  corona:
+    shimmer: 0.425741
+    hues: 0.943069
+    flare: 0.039639
+stations:
+- type: coriolis
+  orbit:
+    parent: Atrexexe
+    vector: undefined
+    radius: 6402

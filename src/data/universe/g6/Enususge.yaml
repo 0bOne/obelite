@@ -1,0 +1,61 @@
+name: Enususge
+position: [46, 135]
+seed: 222 135 58 46 64 114
+limits:
+  blurs: 92
+  stars: 7896
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enususge
+  radius: 3374
+  rotationSpeed: 0.004824
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 404880
+  land:
+    ratio: 0.4
+    color: [0.66, 0.319688, 0.359568, 1]
+    polarColor: [0.934, 0.813602, 0.827711, 1]
+  sea:
+    color: [0.660156, 0.4487, 0.4487, 1]
+    polarColor: [0.933984, 0.859193, 0.859193, 1]
+  air:
+    color: [0.759475, 0.610322, 0.876727, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.632812, 0.435059, 0.495312, 1]
+    ratio: 0.32
+    polarColor: [0.784766, 0.631491, 0.678192, 1]
+  demographics:
+    type: 39
+    gdp: 10296
+    tech: 6
+    economy: 7
+    government: 7
+    description: This planet is a dull world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.708218, 0.580274, 0.542173, 1]
+  radius: 70827.434692
+  orbit:
+    type: static
+    parent: ~
+    radius: 269920
+    vector: [0.769, 0.639, -0.012]
+  corona:
+    shimmer: 0.303045
+    hues: 0.626144
+    flare: 0.098206
+stations:
+- type: coriolis
+  orbit:
+    parent: Enususge
+    vector: undefined
+    radius: 6748

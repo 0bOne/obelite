@@ -1,0 +1,61 @@
+name: Ceanve
+position: [84, 65]
+seed: 61 65 188 84 177 133
+limits:
+  blurs: 187
+  stars: 8204
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceanve
+  radius: 4180
+  rotationSpeed: 0.003159
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 501600
+  land:
+    ratio: 0.5
+    color: [0.66, 0.257812, 0.257812, 1]
+    polarColor: [0.934, 0.791711, 0.791711, 1]
+  sea:
+    color: [0.556641, 0.406609, 0.55078, 1]
+    polarColor: [0.944336, 0.880704, 0.94185, 1]
+  air:
+    color: [0.726881, 0.630876, 0.840305, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.523438, 0.44574, 0.493087, 1]
+    ratio: 0.36
+    polarColor: [0.735547, 0.667308, 0.708891, 1]
+  demographics:
+    type: 49
+    gdp: 38808
+    tech: 10
+    economy: 1
+    government: 7
+    description: This world is very notable for the Ceanveian edible poet.
+    inhabitants: Fierce Black Furry Felines
+- type: star
+  type: primary
+  color: [0.771121, 0.769926, 0.769745, 1]
+  radius: 85868.078613
+  orbit:
+    type: static
+    parent: ~
+    radius: 334400
+    vector: [0.29, 0.756, 0.587]
+  corona:
+    shimmer: 0.595923
+    hues: 0.713036
+    flare: 0.072624
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceanve
+    vector: undefined
+    radius: 8360

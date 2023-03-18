@@ -1,0 +1,61 @@
+name: Aaored
+position: [187, 228]
+seed: 210 228 114 187 20 175
+limits:
+  blurs: 71
+  stars: 9781
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aaored
+  radius: 6843
+  rotationSpeed: 0.001905
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 821160
+  land:
+    ratio: 0.34
+    color: [0.66, 0.165, 0.420234, 1]
+    polarColor: [0.934, 0.758875, 0.849174, 1]
+  sea:
+    color: [0.576302, 0.644531, 0.508072, 1]
+    polarColor: [0.910788, 0.935547, 0.886029, 1]
+  air:
+    color: [0.613057, 0.839744, 0.979488, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.448639, 0.941406, 0.525634, 1]
+    ratio: 0.24
+    polarColor: [0.621468, 0.923633, 0.668681, 1]
+  demographics:
+    type: 47
+    gdp: 22560
+    tech: 9
+    economy: 4
+    government: 6
+    description: The world Aaored is most famous for the Aaoredian deadly monkey.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.770654, 0.704081, 0.684779, 1]
+  radius: 153867.260742
+  orbit:
+    type: static
+    parent: ~
+    radius: 684300
+    vector: [0.822, -0.486, 0.297]
+  corona:
+    shimmer: 0.374068
+    hues: 0.905167
+    flare: 0.068137
+stations:
+- type: coriolis
+  orbit:
+    parent: Aaored
+    vector: undefined
+    radius: 13686

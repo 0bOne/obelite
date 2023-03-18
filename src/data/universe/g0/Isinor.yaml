@@ -1,0 +1,61 @@
+name: Isinor
+position: [47, 191]
+seed: 10 191 44 47 219 189
+limits:
+  blurs: 66
+  stars: 6429
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isinor
+  radius: 6191
+  rotationSpeed: 0.002476
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 681010
+  land:
+    ratio: 0.69
+    color: [0.337473, 0.0438281, 0.66, 1]
+    polarColor: [0.819894, 0.716006, 0.934, 1]
+  sea:
+    color: [0.642578, 0.534331, 0.491974, 1]
+    polarColor: [0.935742, 0.896334, 0.880914, 1]
+  air:
+    color: [0.766834, 0.756659, 0.950221, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.845233, 0.843513, 0.853516, 1]
+    ratio: 0.22
+    polarColor: [0.87872, 0.877607, 0.884082, 1]
+  demographics:
+    type: 37
+    gdp: 7992
+    tech: 6
+    economy: 7
+    government: 5
+    description: This world is very fabled for its unusual oceans.
+    inhabitants: Harmless Slimy Frogs
+- type: star
+  type: primary
+  color: [0.588983, 0.806236, 0.813354, 1]
+  radius: 137618.818512
+  orbit:
+    type: static
+    parent: ~
+    radius: 495280
+    vector: [-0.387, -0.705, 0.594]
+  corona:
+    shimmer: 0.368159
+    hues: 0.810669
+    flare: 0.053661
+stations:
+- type: coriolis
+  orbit:
+    parent: Isinor
+    vector: undefined
+    radius: 12382

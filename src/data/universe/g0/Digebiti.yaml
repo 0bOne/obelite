@@ -1,0 +1,61 @@
+name: Digebiti
+position: [117, 192]
+seed: 202 192 136 117 83 173
+limits:
+  blurs: 114
+  stars: 8845
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Digebiti
+  radius: 6261
+  rotationSpeed: 0.000135
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 751320
+  land:
+    ratio: 0.58
+    color: [0.578125, 0.467468, 0.49081, 1]
+    polarColor: [0.942187, 0.897102, 0.906613, 1]
+  sea:
+    color: [0.273328, 0.580078, 0.063446, 1]
+    polarColor: [0.817459, 0.941992, 0.732252, 1]
+  air:
+    color: [0.649315, 0.883507, 0.919002, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.672956, 0.759766, 0.546082, 1]
+    ratio: 0.39
+    polarColor: [0.781774, 0.841895, 0.693905, 1]
+  demographics:
+    type: 32
+    gdp: 10240
+    tech: 7
+    economy: 2
+    government: 1
+    description: Digebiti is cursed by killer mountain Seoids.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.682144, 0.49475, 0.253964, 1]
+  radius: 185181.762085
+  orbit:
+    type: static
+    parent: ~
+    radius: 438270
+    vector: [-0.365, -0.728, -0.58]
+  corona:
+    shimmer: 0.758659
+    hues: 0.67662
+    flare: 0.011839
+stations:
+- type: coriolis
+  orbit:
+    parent: Digebiti
+    vector: undefined
+    radius: 12522

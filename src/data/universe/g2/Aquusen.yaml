@@ -1,0 +1,61 @@
+name: Aquusen
+position: [94, 43]
+seed: 125 43 209 94 181 207
+limits:
+  blurs: 150
+  stars: 5390
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aquusen
+  radius: 6750
+  rotationSpeed: 0.004483
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 945000
+  land:
+    ratio: 0.7
+    color: [0.66, 0.354049, 0.260391, 1]
+    polarColor: [0.934, 0.825758, 0.792623, 1]
+  sea:
+    color: [0.660156, 0.571472, 0.500275, 1]
+    polarColor: [0.933984, 0.902617, 0.877435, 1]
+  air:
+    color: [0.500705, 0.984041, 0.855269, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.955078, 0.295664, 0.119385, 1]
+    ratio: 0.21
+    polarColor: [0.929785, 0.528566, 0.421309, 1]
+  demographics:
+    type: 34
+    gdp: 11424
+    tech: 7
+    economy: 3
+    government: 2
+    description: Aquusen is cursed by killer mountain goats.
+    inhabitants: Furry Rodents
+- type: star
+  type: primary
+  color: [0.759848, 0.746847, 0.736726, 1]
+  radius: 194435.348511
+  orbit:
+    type: static
+    parent: ~
+    radius: 540000
+    vector: [-0.197, 0.748, 0.634]
+  corona:
+    shimmer: 0.410869
+    hues: 0.915588
+    flare: 0.082713
+stations:
+- type: coriolis
+  orbit:
+    parent: Aquusen
+    vector: undefined
+    radius: 13500

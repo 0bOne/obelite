@@ -1,0 +1,61 @@
+name: Inbe
+position: [224, 231]
+seed: 22 231 168 224 27 204
+limits:
+  blurs: 52
+  stars: 7505
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inbe
+  radius: 6112
+  rotationSpeed: 0.004853
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 672320
+  land:
+    ratio: 0.52
+    color: [0.605469, 0.465927, 0.48228, 1]
+    polarColor: [0.939453, 0.885324, 0.891668, 1]
+  sea:
+    color: [0.744141, 0.508054, 0.415672, 1]
+    polarColor: [0.925586, 0.852173, 0.823446, 1]
+  air:
+    color: [0.434921, 0.682554, 0.886482, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0465546, 0.662109, 0.272579, 1]
+    ratio: 0.29
+    polarColor: [0.334297, 0.797949, 0.504544, 1]
+  demographics:
+    type: 25
+    gdp: 5400
+    tech: 3
+    economy: 7
+    government: 5
+    description: This planet is plagued by frequent earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.724143, 0.745939, 0.759894, 1]
+  radius: 137104.052734
+  orbit:
+    type: static
+    parent: ~
+    radius: 366720
+    vector: [-0.824, -0.132, 0.551]
+  corona:
+    shimmer: 0.391451
+    hues: 0.966125
+    flare: 0.014613
+stations:
+- type: coriolis
+  orbit:
+    parent: Inbe
+    vector: undefined
+    radius: 12224

@@ -1,0 +1,61 @@
+name: Tiinisle
+position: [216, 92]
+seed: 98 92 146 216 218 55
+limits:
+  blurs: 166
+  stars: 6554
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiinisle
+  radius: 4824
+  rotationSpeed: 0.001308
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 675360
+  land:
+    ratio: 0.39
+    color: [0.59458, 0.66, 0.585234, 1]
+    polarColor: [0.910855, 0.934, 0.907549, 1]
+  sea:
+    color: [0.611226, 0.763848, 0.775391, 1]
+    polarColor: [0.873635, 0.919028, 0.922461, 1]
+  air:
+    color: [0.705326, 0.795274, 0.934611, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.696358, 0.806641, 0.788547, 1]
+    ratio: 0.33
+    polarColor: [0.789247, 0.862988, 0.85089, 1]
+  demographics:
+    type: 23
+    gdp: 6624
+    tech: 4
+    economy: 4
+    government: 2
+    description: Tiinisle is a revolting dump.
+    inhabitants: Red Fat Insects
+- type: star
+  type: primary
+  color: [0.195656, 0.412072, 0.731741, 1]
+  radius: 147946.992188
+  orbit:
+    type: static
+    parent: ~
+    radius: 385920
+    vector: [0.385, 0.005, -0.923]
+  corona:
+    shimmer: 0.685537
+    hues: 0.935593
+    flare: 0.061705
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiinisle
+    vector: undefined
+    radius: 9648

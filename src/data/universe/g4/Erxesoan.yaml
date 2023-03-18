@@ -1,0 +1,61 @@
+name: Erxesoan
+position: [147, 125]
+seed: 198 125 252 147 243 16
+limits:
+  blurs: 74
+  stars: 6814
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erxesoan
+  radius: 2963
+  rotationSpeed: 0.003349
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 325930
+  land:
+    ratio: 0.44
+    color: [0.628857, 0.634766, 0.622368, 1]
+    polarColor: [0.934344, 0.936523, 0.931951, 1]
+  sea:
+    color: [0.54601, 0.925781, 0.408646, 1]
+    polarColor: [0.814362, 0.907422, 0.780702, 1]
+  air:
+    color: [0.656842, 0.888339, 0.901441, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.680923, 0.707031, 0.55513, 1]
+    ratio: 0.15
+    polarColor: [0.799282, 0.818164, 0.708303, 1]
+  demographics:
+    type: 49
+    gdp: 21560
+    tech: 9
+    economy: 5
+    government: 7
+    description: This planet is fabled for its fabulous Sebese juice and its ancient mountains.
+    inhabitants: Green Felines
+- type: star
+  type: primary
+  color: [0.192399, 0.439216, 0.651422, 1]
+  radius: 73345.281677
+  orbit:
+    type: static
+    parent: ~
+    radius: 266670
+    vector: [0.367, -0.481, -0.796]
+  corona:
+    shimmer: 0.564576
+    hues: 0.833298
+    flare: 0.083109
+stations:
+- type: coriolis
+  orbit:
+    parent: Erxesoan
+    vector: undefined
+    radius: 5926

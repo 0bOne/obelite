@@ -1,0 +1,61 @@
+name: Qulearbi
+position: [47, 23]
+seed: 206 23 18 47 80 90
+limits:
+  blurs: 158
+  stars: 8145
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qulearbi
+  radius: 5423
+  rotationSpeed: 0.000126
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 542300
+  land:
+    ratio: 0.65
+    color: [0.646484, 0.602903, 0.527794, 1]
+    polarColor: [0.935352, 0.919588, 0.89242, 1]
+  sea:
+    color: [0.142044, 0.626953, 0.558763, 1]
+    polarColor: [0.756068, 0.937305, 0.911818, 1]
+  air:
+    color: [0.64727, 0.882324, 0.922904, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.667703, 0.771484, 0.54245, 1]
+    ratio: 0.18
+    polarColor: [0.775942, 0.847168, 0.689979, 1]
+  demographics:
+    type: 26
+    gdp: 3744
+    tech: 4
+    economy: 7
+    government: 2
+    description: The world Qulearbi is mildly noted for the Qulearbiian mountain lobstoid but beset by frequent solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.690994, 0.604447, 0.498945, 1]
+  radius: 136789.746704
+  orbit:
+    type: static
+    parent: ~
+    radius: 488070
+    vector: [-0.352, 0.739, -0.575]
+  corona:
+    shimmer: 0.266428
+    hues: 0.930832
+    flare: 0.007944
+stations:
+- type: coriolis
+  orbit:
+    parent: Qulearbi
+    vector: undefined
+    radius: 10846

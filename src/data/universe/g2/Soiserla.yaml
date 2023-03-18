@@ -1,0 +1,61 @@
+name: Soiserla
+position: [43, 137]
+seed: 221 137 49 43 245 135
+limits:
+  blurs: 51
+  stars: 7276
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soiserla
+  radius: 4651
+  rotationSpeed: 0.000693
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 465100
+  land:
+    ratio: 0.59
+    color: [0.560722, 0.250078, 0.66, 1]
+    polarColor: [0.898877, 0.788975, 0.934, 1]
+  sea:
+    color: [0.626953, 0.534498, 0.467031, 1]
+    polarColor: [0.937305, 0.902749, 0.877533, 1]
+  air:
+    color: [0.60849, 0.564889, 0.863068, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.450205, 0.332886, 0.591797, 1]
+    ratio: 0.36
+    polarColor: [0.651718, 0.556771, 0.766309, 1]
+  demographics:
+    type: 56
+    gdp: 40320
+    tech: 12
+    economy: 1
+    government: 6
+    description: This planet is a dull place.
+    inhabitants: Fierce Black Horned Humanoids
+- type: star
+  type: primary
+  color: [0.218438, 0.490897, 0.672177, 1]
+  radius: 120419.567871
+  orbit:
+    type: static
+    parent: ~
+    radius: 372080
+    vector: [-0.71, 0.632, -0.309]
+  corona:
+    shimmer: 0.457634
+    hues: 0.608368
+    flare: 0.031357
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Soiserla
+    vector: undefined
+    radius: 9302

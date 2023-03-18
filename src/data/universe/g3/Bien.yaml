@@ -1,0 +1,61 @@
+name: Bien
+position: [204, 186]
+seed: 26 186 66 204 42 32
+limits:
+  blurs: 158
+  stars: 5142
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bien
+  radius: 3020
+  rotationSpeed: 0.002545
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 422800
+  land:
+    ratio: 0.68
+    color: [0.66, 0.368672, 0.573512, 1]
+    polarColor: [0.934, 0.830932, 0.903402, 1]
+  sea:
+    color: [0.620715, 0.714844, 0.535016, 1]
+    polarColor: [0.89795, 0.928516, 0.870121, 1]
+  air:
+    color: [0.70865, 0.739676, 0.969082, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.721725, 0.786499, 0.910156, 1]
+    ratio: 0.37
+    polarColor: [0.791877, 0.832334, 0.90957, 1]
+  demographics:
+    type: 23
+    gdp: 5888
+    tech: 5
+    economy: 2
+    government: 0
+    description: This world is reasonably notable for its weird tropical forests but scourged by frequent civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.752832, 0.710231, 0.544544, 1]
+  radius: 57532.345581
+  orbit:
+    type: static
+    parent: ~
+    radius: 181200
+    vector: [-0.215, 0.473, -0.854]
+  corona:
+    shimmer: 0.239999
+    hues: 0.722969
+    flare: 0.00558
+stations:
+- type: coriolis
+  orbit:
+    parent: Bien
+    vector: undefined
+    radius: 6040

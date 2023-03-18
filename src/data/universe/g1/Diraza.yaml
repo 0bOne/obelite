@@ -1,0 +1,61 @@
+name: Diraza
+position: [98, 100]
+seed: 20 100 80 98 166 141
+limits:
+  blurs: 60
+  stars: 5385
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diraza
+  radius: 6242
+  rotationSpeed: 0.002657
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 811460
+  land:
+    ratio: 0.24
+    color: [0.66, 0.273281, 0.545193, 1]
+    polarColor: [0.934, 0.797184, 0.893383, 1]
+  sea:
+    color: [0.642578, 0.504093, 0.476913, 1]
+    polarColor: [0.935742, 0.885326, 0.875431, 1]
+  air:
+    color: [0.537632, 0.548506, 0.864369, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.276909, 0.304305, 0.595703, 1]
+    ratio: 0.35
+    polarColor: [0.511169, 0.533246, 0.768066, 1]
+  demographics:
+    type: 31
+    gdp: 8928
+    tech: 6
+    economy: 4
+    government: 2
+    description: This world is mildly well known for its hoopy night life and vicious Mare brew.
+    inhabitants: Black Insects
+- type: star
+  type: primary
+  color: [0.524901, 0.570287, 0.685883, 1]
+  radius: 149694.277039
+  orbit:
+    type: static
+    parent: ~
+    radius: 374520
+    vector: [-0.126, 0.899, -0.42]
+  corona:
+    shimmer: 0.349354
+    hues: 0.943886
+    flare: 0.014149
+stations:
+- type: coriolis
+  orbit:
+    parent: Diraza
+    vector: undefined
+    radius: 12484

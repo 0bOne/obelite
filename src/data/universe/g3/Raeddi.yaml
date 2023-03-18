@@ -1,0 +1,61 @@
+name: Raeddi
+position: [98, 145]
+seed: 202 145 146 98 138 128
+limits:
+  blurs: 84
+  stars: 6523
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raeddi
+  radius: 2914
+  rotationSpeed: 0.001948
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 407960
+  land:
+    ratio: 0.58
+    color: [0.217201, 0.636719, 0.00497437, 1]
+    polarColor: [0.782097, 0.936328, 0.704075, 1]
+  sea:
+    color: [0.573022, 0.765625, 0.603117, 1]
+    polarColor: [0.865362, 0.923437, 0.874436, 1]
+  air:
+    color: [0.613887, 0.919652, 0.893076, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.761719, 0.685844, 0.458221, 1]
+    ratio: 0.54
+    polarColor: [0.842773, 0.790306, 0.632903, 1]
+  demographics:
+    type: 40
+    gdp: 17280
+    tech: 9
+    economy: 1
+    government: 2
+    description: This world is very well known for its inhabitants’ unusual mating traditions and its vast rain forests.
+    inhabitants: Large Black Bony Lobsters
+- type: star
+  type: primary
+  color: [0.347582, 0.614154, 0.718301, 1]
+  radius: 60853.582764
+  orbit:
+    type: static
+    parent: ~
+    radius: 58280
+    vector: [0.214, 0.24, -0.947]
+  corona:
+    shimmer: 0.295008
+    hues: 0.692398
+    flare: 0.005824
+stations:
+- type: coriolis
+  orbit:
+    parent: Raeddi
+    vector: undefined
+    radius: 5828

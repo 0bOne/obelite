@@ -1,0 +1,61 @@
+name: Didira
+position: [88, 6]
+seed: 128 6 208 88 250 237
+limits:
+  blurs: 83
+  stars: 8660
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Didira
+  radius: 6232
+  rotationSpeed: 0.002544
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 872480
+  land:
+    ratio: 0.46
+    color: [0.66, 0.213984, 0.569403, 1]
+    polarColor: [0.934, 0.776205, 0.901948, 1]
+  sea:
+    color: [0.558538, 0.654297, 0.519604, 1]
+    polarColor: [0.900376, 0.93457, 0.886473, 1]
+  air:
+    color: [0.427983, 0.809441, 0.852012, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.402444, 0.558594, 0.0589142, 1]
+    ratio: 0.26
+    polarColor: [0.620093, 0.751367, 0.331291, 1]
+  demographics:
+    type: 17
+    gdp: 3264
+    tech: 2
+    economy: 6
+    government: 2
+    description: The planet Didira is well known for its inhabitants’ weird silliness but ravaged by unpredictable solar activity.
+    inhabitants: Insects
+- type: star
+  type: primary
+  color: [0.646387, 0.755566, 0.807138, 1]
+  radius: 129872.004395
+  orbit:
+    type: static
+    parent: ~
+    radius: 498560
+    vector: [-0.625, -0.78, -0.037]
+  corona:
+    shimmer: 0.381867
+    hues: 0.864799
+    flare: 0.065768
+stations:
+- type: coriolis
+  orbit:
+    parent: Didira
+    vector: undefined
+    radius: 12464

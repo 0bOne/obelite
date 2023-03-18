@@ -1,0 +1,61 @@
+name: Xeer
+position: [141, 116]
+seed: 154 116 52 141 155 64
+limits:
+  blurs: 193
+  stars: 9052
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeer
+  radius: 2957
+  rotationSpeed: 0.000246
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 413980
+  land:
+    ratio: 0.38
+    color: [0.605469, 0.385513, 0.591722, 1]
+    polarColor: [0.939453, 0.854132, 0.934121, 1]
+  sea:
+    color: [0.474393, 0.519531, 0.0750885, 1]
+    polarColor: [0.927454, 0.948047, 0.745291, 1]
+  air:
+    color: [0.606792, 0.811327, 0.996398, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.422455, 0.992188, 0.671713, 1]
+    ratio: 0.23
+    polarColor: [0.606804, 0.946484, 0.755414, 1]
+  demographics:
+    type: 39
+    gdp: 18720
+    tech: 7
+    economy: 4
+    government: 6
+    description: This world is very well known for Xeerian wolf meat and its fabulous cuisine.
+    inhabitants: Large Yellow Bug-Eyed Frogs
+- type: star
+  type: primary
+  color: [0.513528, 0.530388, 0.810178, 1]
+  radius: 87958.296814
+  orbit:
+    type: static
+    parent: ~
+    radius: 147850
+    vector: [-0.107, 0.72, 0.685]
+  corona:
+    shimmer: 0.359874
+    hues: 0.659752
+    flare: 0.055379
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeer
+    vector: undefined
+    radius: 5914

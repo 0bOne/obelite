@@ -1,0 +1,61 @@
+name: Beused
+position: [124, 120]
+seed: 0 120 176 124 186 51
+limits:
+  blurs: 124
+  stars: 7404
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beused
+  radius: 3708
+  rotationSpeed: 0.003714
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 444960
+  land:
+    ratio: 0.56
+    color: [0.66, 0.410728, 0.190781, 1]
+    polarColor: [0.934, 0.84581, 0.767996, 1]
+  sea:
+    color: [0.601562, 0.470301, 0.448822, 1]
+    polarColor: [0.939844, 0.888575, 0.880186, 1]
+  air:
+    color: [0.610775, 0.508013, 0.922904, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.631351, 0.192871, 0.771484, 1]
+    ratio: 0.3
+    polarColor: [0.750993, 0.450058, 0.847168, 1]
+  demographics:
+    type: 47
+    gdp: 37600
+    tech: 10
+    economy: 0
+    government: 6
+    description: This planet is fabled for its exciting Zero-G cricket.
+    inhabitants: Red Fat Insects
+- type: star
+  type: primary
+  color: [0.328698, 0.468579, 0.663138, 1]
+  radius: 86129.978027
+  orbit:
+    type: static
+    parent: ~
+    radius: 148320
+    vector: [0.449, -0.747, -0.49]
+  corona:
+    shimmer: 0.318297
+    hues: 0.908768
+    flare: 0.038275
+stations:
+- type: coriolis
+  orbit:
+    parent: Beused
+    vector: undefined
+    radius: 7416

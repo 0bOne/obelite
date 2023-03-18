@@ -1,0 +1,61 @@
+name: Rebite
+position: [102, 241]
+seed: 63 241 218 102 139 142
+limits:
+  blurs: 95
+  stars: 7877
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rebite
+  radius: 6502
+  rotationSpeed: 0.004885
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 975300
+  land:
+    ratio: 0.29
+    color: [0.66, 0.212776, 0.190781, 1]
+    polarColor: [0.934, 0.775778, 0.767996, 1]
+  sea:
+    color: [0.484334, 0.358673, 0.570312, 1]
+    polarColor: [0.907429, 0.855486, 0.942969, 1]
+  air:
+    color: [0.400342, 0.847459, 0.791149, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.544922, 0.34796, 0.0085144, 1]
+    ratio: 0.14
+    polarColor: [0.745215, 0.576866, 0.286733, 1]
+  demographics:
+    type: 45
+    gdp: 22680
+    tech: 10
+    economy: 1
+    government: 3
+    description: This world is mildly famous for its vast dense forests and its great volcanoes.
+    inhabitants: Black Frogs
+- type: star
+  type: primary
+  color: [0.809937, 0.516357, 0.437082, 1]
+  radius: 153243.85376
+  orbit:
+    type: static
+    parent: ~
+    radius: 390120
+    vector: [-0.812, 0.329, -0.483]
+  corona:
+    shimmer: 0.693092
+    hues: 0.978012
+    flare: 0.090634
+stations:
+- type: coriolis
+  orbit:
+    parent: Rebite
+    vector: undefined
+    radius: 13004

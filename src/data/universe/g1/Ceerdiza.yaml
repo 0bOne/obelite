@@ -1,0 +1,61 @@
+name: Ceerdiza
+position: [214, 148]
+seed: 84 148 240 214 166 5
+limits:
+  blurs: 111
+  stars: 8316
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceerdiza
+  radius: 4310
+  rotationSpeed: 0.003862
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 431000
+  land:
+    ratio: 0.52
+    color: [0.66, 0.51917, 0.185625, 1]
+    polarColor: [0.934, 0.884176, 0.766172, 1]
+  sea:
+    color: [0.616124, 0.626953, 0.488338, 1]
+    polarColor: [0.933257, 0.937305, 0.885497, 1]
+  air:
+    color: [0.579315, 0.46683, 0.951522, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.627, 0.0602875, 0.857422, 1]
+    ratio: 0.44
+    polarColor: [0.737053, 0.371118, 0.88584, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 8
+    economy: 4
+    government: 6
+    description: This world is most notable for its fabulous vicious Geer brew but ravaged by unpredictable civil war.
+    inhabitants: Fierce Green Horned Lobsters
+- type: star
+  type: primary
+  color: [0.706415, 0.236562, 0.184866, 1]
+  radius: 77628.140259
+  orbit:
+    type: static
+    parent: ~
+    radius: 517200
+    vector: [-0.421, 0.707, 0.568]
+  corona:
+    shimmer: 1.514373
+    hues: 0.558632
+    flare: 0.055322
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceerdiza
+    vector: undefined
+    radius: 8620

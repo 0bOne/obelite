@@ -1,0 +1,61 @@
+name: Bilera
+position: [140, 175]
+seed: 36 175 44 140 101 230
+limits:
+  blurs: 143
+  stars: 8208
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bilera
+  radius: 4492
+  rotationSpeed: 0.003681
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 404280
+  land:
+    ratio: 0.42
+    color: [0.0902344, 0.499753, 0.66, 1]
+    polarColor: [0.732424, 0.877307, 0.934, 1]
+  sea:
+    color: [0.533203, 0.460714, 0.425313, 1]
+    polarColor: [0.94668, 0.914505, 0.898791, 1]
+  air:
+    color: [0.661676, 0.857941, 0.922904, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.625324, 0.771484, 0.578613, 1]
+    ratio: 0.26
+    polarColor: [0.746856, 0.847168, 0.714798, 1]
+  demographics:
+    type: 25
+    gdp: 5400
+    tech: 3
+    economy: 7
+    government: 5
+    description: The world Bilera is a dull place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.6547, 0.647331, 0.622789, 1]
+  radius: 146439.638672
+  orbit:
+    type: static
+    parent: ~
+    radius: 583960
+    vector: [-0.022, 0.176, -0.984]
+  corona:
+    shimmer: 0.518998
+    hues: 0.789101
+    flare: 0.06638
+stations:
+- type: coriolis
+  orbit:
+    parent: Bilera
+    vector: undefined
+    radius: 8984

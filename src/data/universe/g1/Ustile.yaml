@@ -1,0 +1,61 @@
+name: Ustile
+position: [97, 142]
+seed: 0 142 48 97 186 104
+limits:
+  blurs: 121
+  stars: 7852
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ustile
+  radius: 4961
+  rotationSpeed: 0.003734
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 694540
+  land:
+    ratio: 0.34
+    color: [0.556641, 0.555842, 0.554466, 1]
+    polarColor: [0.944336, 0.943997, 0.943414, 1]
+  sea:
+    color: [0.679688, 0.635402, 0.517731, 1]
+    polarColor: [0.932031, 0.91685, 0.87651, 1]
+  air:
+    color: [0.707535, 0.576868, 0.888434, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.667969, 0.365295, 0.585207, 1]
+    ratio: 0.49
+    polarColor: [0.800586, 0.573857, 0.73859, 1]
+  demographics:
+    type: 33
+    gdp: 10560
+    tech: 5
+    economy: 6
+    government: 6
+    description: This planet is fabled for its weird volcanoes.
+    inhabitants: Small Blue Insects
+- type: star
+  type: primary
+  color: [0.817191, 0.65838, 0.293871, 1]
+  radius: 89338.27179
+  orbit:
+    type: static
+    parent: ~
+    radius: 496100
+    vector: [-0.811, -0.503, -0.3]
+  corona:
+    shimmer: 0.265528
+    hues: 0.801048
+    flare: 0.043938
+stations:
+- type: coriolis
+  orbit:
+    parent: Ustile
+    vector: undefined
+    radius: 9922

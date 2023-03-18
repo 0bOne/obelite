@@ -1,0 +1,61 @@
+name: Esisraan
+position: [174, 101]
+seed: 122 101 34 174 106 169
+limits:
+  blurs: 145
+  stars: 8260
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esisraan
+  radius: 5294
+  rotationSpeed: 0.003854
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 582340
+  land:
+    ratio: 0.63
+    color: [0.66, 0.490549, 0.198516, 1]
+    polarColor: [0.934, 0.87405, 0.770732, 1]
+  sea:
+    color: [0.478309, 0.387619, 0.519531, 1]
+    polarColor: [0.929241, 0.887868, 0.948047, 1]
+  air:
+    color: [0.534174, 0.557908, 0.862418, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.269577, 0.334631, 0.589844, 1]
+    ratio: 0.35
+    polarColor: [0.505677, 0.558439, 0.76543, 1]
+  demographics:
+    type: 34
+    gdp: 10880
+    tech: 6
+    economy: 5
+    government: 4
+    description: The planet Esisraan is mildly notable for vicious Cein gargle blasters.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.669208, 0.242358, 0.184457, 1]
+  radius: 156038.743591
+  orbit:
+    type: static
+    parent: ~
+    radius: 476460
+    vector: [-0.882, -0.465, -0.073]
+  corona:
+    shimmer: 0.355332
+    hues: 0.534309
+    flare: 0.025165
+stations:
+- type: coriolis
+  orbit:
+    parent: Esisraan
+    vector: undefined
+    radius: 10588

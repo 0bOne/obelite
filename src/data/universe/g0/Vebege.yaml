@@ -1,0 +1,61 @@
+name: Vebege
+position: [89, 195]
+seed: 154 195 128 89 51 22
+limits:
+  blurs: 149
+  stars: 8257
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vebege
+  radius: 4441
+  rotationSpeed: 0.000999
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 399690
+  land:
+    ratio: 0.39
+    color: [0.66, 0.623443, 0.234609, 1]
+    polarColor: [0.934, 0.921067, 0.783502, 1]
+  sea:
+    color: [0.619141, 0.491662, 0.457584, 1]
+    polarColor: [0.938086, 0.889799, 0.87689, 1]
+  air:
+    color: [0.68389, 0.839588, 0.912498, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.630988, 0.740234, 0.627464, 1]
+    ratio: 0.37
+    polarColor: [0.75626, 0.833105, 0.753781, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: The world Vebege is mildly fabled for the Vebegeian mountain lobstoid but beset by deadly solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.589473, 0.686849, 0.74751, 1]
+  radius: 105125.441589
+  orbit:
+    type: static
+    parent: ~
+    radius: 532920
+    vector: [0.033, 0.322, 0.946]
+  corona:
+    shimmer: 0.408446
+    hues: 0.538887
+    flare: 0.098495
+stations:
+- type: coriolis
+  orbit:
+    parent: Vebege
+    vector: undefined
+    radius: 8882

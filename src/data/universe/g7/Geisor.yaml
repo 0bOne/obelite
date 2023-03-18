@@ -1,0 +1,61 @@
+name: Geisor
+position: [88, 97]
+seed: 153 97 200 88 21 35
+limits:
+  blurs: 188
+  stars: 8213
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geisor
+  radius: 3672
+  rotationSpeed: 0.000302
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 403920
+  land:
+    ratio: 0.51
+    color: [0.319732, 0.312027, 0.558594, 1]
+    polarColor: [0.843209, 0.839953, 0.944141, 1]
+  sea:
+    color: [0.686725, 0.753906, 0.538925, 1]
+    polarColor: [0.904011, 0.924609, 0.858695, 1]
+  air:
+    color: [0.421392, 0.72042, 0.887133, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.015564, 0.664062, 0.0712943, 1]
+    ratio: 0.3
+    polarColor: [0.311262, 0.798828, 0.353162, 1]
+  demographics:
+    type: 25
+    gdp: 7000
+    tech: 5
+    economy: 3
+    government: 1
+    description: The world Geisor is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.240448, 0.575356, 0.692728, 1]
+  radius: 90041.209717
+  orbit:
+    type: static
+    parent: ~
+    radius: 257040
+    vector: [-0.183, -0.237, -0.954]
+  corona:
+    shimmer: 0.274568
+    hues: 0.838463
+    flare: 0.043684
+stations:
+- type: coriolis
+  orbit:
+    parent: Geisor
+    vector: undefined
+    radius: 7344

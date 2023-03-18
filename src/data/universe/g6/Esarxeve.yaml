@@ -1,0 +1,61 @@
+name: Esarxeve
+position: [45, 211]
+seed: 94 211 234 45 128 9
+limits:
+  blurs: 156
+  stars: 6064
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esarxeve
+  radius: 5165
+  rotationSpeed: 0.004151
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 619800
+  land:
+    ratio: 0.31
+    color: [0.66, 0.146953, 0.303272, 1]
+    polarColor: [0.934, 0.75249, 0.807794, 1]
+  sea:
+    color: [0.62311, 0.630859, 0.489162, 1]
+    polarColor: [0.934037, 0.936914, 0.884304, 1]
+  air:
+    color: [0.721039, 0.507328, 0.950871, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.855469, 0.170425, 0.539707, 1]
+    ratio: 0.54
+    polarColor: [0.884961, 0.442048, 0.680806, 1]
+  demographics:
+    type: 41
+    gdp: 20664
+    tech: 8
+    economy: 3
+    government: 5
+    description: The planet Esarxeve is reasonably fabled for mud tennis and its ancient mountains.
+    inhabitants: Small Green Insects
+- type: star
+  type: primary
+  color: [0.671502, 0.680488, 0.751743, 1]
+  radius: 154431.419373
+  orbit:
+    type: static
+    parent: ~
+    radius: 361550
+    vector: [0.527, 0.765, -0.37]
+  corona:
+    shimmer: 0.361881
+    hues: 0.623985
+    flare: 0.011739
+stations:
+- type: coriolis
+  orbit:
+    parent: Esarxeve
+    vector: undefined
+    radius: 10330

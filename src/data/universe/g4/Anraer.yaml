@@ -1,0 +1,61 @@
+name: Anraer
+position: [160, 88]
+seed: 188 88 40 160 181 251
+limits:
+  blurs: 60
+  stars: 9283
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anraer
+  radius: 5792
+  rotationSpeed: 0.002913
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 868800
+  land:
+    ratio: 0.36
+    color: [0.476953, 0.66, 0.293906, 1]
+    polarColor: [0.86924, 0.934, 0.80448, 1]
+  sea:
+    color: [0.644655, 0.681641, 0.512562, 1]
+    polarColor: [0.919196, 0.931836, 0.874051, 1]
+  air:
+    color: [0.721383, 0.506783, 0.952172, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.859375, 0.167847, 0.540624, 1]
+    ratio: 0.15
+    polarColor: [0.886719, 0.440762, 0.68116, 1]
+  demographics:
+    type: 46
+    gdp: 33120
+    tech: 10
+    economy: 0
+    government: 5
+    description: This planet is fabled for its fabulous vicious On brew and Anraerian wolf cutlet.
+    inhabitants: Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.290066, 0.703246, 0.824799, 1]
+  radius: 166375.942383
+  orbit:
+    type: static
+    parent: ~
+    radius: 463360
+    vector: [-0.3, 0.886, -0.353]
+  corona:
+    shimmer: 0.294721
+    hues: 0.579498
+    flare: 0.004002
+stations:
+- type: coriolis
+  orbit:
+    parent: Anraer
+    vector: undefined
+    radius: 11584

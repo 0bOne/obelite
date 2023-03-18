@@ -1,0 +1,61 @@
+name: Zarevees
+position: [194, 7]
+seed: 109 7 129 194 213 164
+limits:
+  blurs: 188
+  stars: 5325
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zarevees
+  radius: 4034
+  rotationSpeed: 0.000104
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 484080
+  land:
+    ratio: 0.3
+    color: [0.251175, 0.462306, 0.544922, 1]
+    polarColor: [0.818086, 0.90967, 0.945508, 1]
+  sea:
+    color: [0.761719, 0.590978, 0.425491, 1]
+    polarColor: [0.923828, 0.872059, 0.821882, 1]
+  air:
+    color: [0.710165, 0.819447, 0.906645, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.685959, 0.722656, 0.698574, 1]
+    ratio: 0.56
+    polarColor: [0.799005, 0.825195, 0.808008, 1]
+  demographics:
+    type: 16
+    gdp: 1536
+    tech: 2
+    economy: 7
+    government: 0
+    description: The world Zarevees is most famous for the Zareveesian spotted cat.
+    inhabitants: Fierce Harmless Furry Humanoids
+- type: star
+  type: primary
+  color: [0.820367, 0.801652, 0.705585, 1]
+  radius: 107343.942261
+  orbit:
+    type: static
+    parent: ~
+    radius: 242040
+    vector: [0.192, -0.927, -0.322]
+  corona:
+    shimmer: 0.318108
+    hues: 0.937263
+    flare: 0.034882
+stations:
+- type: coriolis
+  orbit:
+    parent: Zarevees
+    vector: undefined
+    radius: 8068

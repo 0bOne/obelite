@@ -1,0 +1,61 @@
+name: Quriti
+position: [191, 68]
+seed: 128 68 96 191 90 154
+limits:
+  blurs: 84
+  stars: 7998
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Quriti
+  radius: 5567
+  rotationSpeed: 0.004396
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 612370
+  land:
+    ratio: 0.66
+    color: [0.564609, 0.66, 0.595164, 1]
+    polarColor: [0.900252, 0.934, 0.911062, 1]
+  sea:
+    color: [0.580078, 0.549715, 0.458624, 1]
+    polarColor: [0.941992, 0.929665, 0.892685, 1]
+  air:
+    color: [0.6098, 0.858041, 0.974285, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.456336, 0.925781, 0.441193, 1]
+    ratio: 0.49
+    polarColor: [0.626108, 0.916602, 0.616737, 1]
+  demographics:
+    type: 41
+    gdp: 15744
+    tech: 8
+    economy: 4
+    government: 4
+    description: The planet Quriti is most well known for its great parking meters.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.721242, 0.828828, 0.843747, 1]
+  radius: 168070.12207
+  orbit:
+    type: static
+    parent: ~
+    radius: 278350
+    vector: [0.494, -0.482, -0.724]
+  corona:
+    shimmer: 0.413847
+    hues: 0.671371
+    flare: 0.067436
+stations:
+- type: coriolis
+  orbit:
+    parent: Quriti
+    vector: undefined
+    radius: 11134

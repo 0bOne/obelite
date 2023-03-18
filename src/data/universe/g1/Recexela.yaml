@@ -1,0 +1,61 @@
+name: Recexela
+position: [110, 40]
+seed: 112 40 184 110 58 238
+limits:
+  blurs: 146
+  stars: 9598
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Recexela
+  radius: 6510
+  rotationSpeed: 0.004109
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 846300
+  land:
+    ratio: 0.68
+    color: [0.66, 0.309536, 0.273281, 1]
+    polarColor: [0.934, 0.81001, 0.797184, 1]
+  sea:
+    color: [0.616745, 0.703125, 0.530365, 1]
+    polarColor: [0.901134, 0.929688, 0.872581, 1]
+  air:
+    color: [0.634008, 0.496538, 0.939814, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.785554, 0.150963, 0.822266, 1]
+    ratio: 0.41
+    polarColor: [0.845742, 0.426089, 0.87002, 1]
+  demographics:
+    type: 60
+    gdp: 52800
+    tech: 13
+    economy: 0
+    government: 7
+    description: The planet Recexela is very noted for its ancient Innu tulip plantations but ravaged by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.313839, 0.446175, 0.784961, 1]
+  radius: 189740.235901
+  orbit:
+    type: static
+    parent: ~
+    radius: 455700
+    vector: [0.213, 0.964, -0.16]
+  corona:
+    shimmer: 0.351102
+    hues: 0.703247
+    flare: 0.055646
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Recexela
+    vector: undefined
+    radius: 13020

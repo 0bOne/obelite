@@ -1,0 +1,61 @@
+name: Isditixe
+position: [12, 162]
+seed: 221 162 49 12 245 221
+limits:
+  blurs: 192
+  stars: 5178
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isditixe
+  radius: 6156
+  rotationSpeed: 0.000728
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 800280
+  land:
+    ratio: 0.66
+    color: [0.59375, 0.470825, 0.488111, 1]
+    polarColor: [0.940625, 0.89194, 0.898787, 1]
+  sea:
+    color: [0.835938, 0.767058, 0.395111, 1]
+    polarColor: [0.916406, 0.897529, 0.795591, 1]
+  air:
+    color: [0.748508, 0.759539, 0.943066, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.815781, 0.81832, 0.832031, 1]
+    ratio: 0.24
+    polarColor: [0.86374, 0.865408, 0.874414, 1]
+  demographics:
+    type: 41
+    gdp: 26240
+    tech: 8
+    economy: 2
+    government: 6
+    description: This world is a revolting dump.
+    inhabitants: Insects
+- type: star
+  type: primary
+  color: [0.221845, 0.662631, 0.674634, 1]
+  radius: 156702.024536
+  orbit:
+    type: static
+    parent: ~
+    radius: 307800
+    vector: [0.681, 0.398, -0.615]
+  corona:
+    shimmer: 0.833219
+    hues: 0.813049
+    flare: 0.078453
+stations:
+- type: coriolis
+  orbit:
+    parent: Isditixe
+    vector: undefined
+    radius: 12312

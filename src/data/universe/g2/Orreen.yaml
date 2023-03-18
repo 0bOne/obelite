@@ -1,0 +1,61 @@
+name: Orreen
+position: [170, 235]
+seed: 181 235 25 170 37 249
+limits:
+  blurs: 89
+  stars: 8923
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orreen
+  radius: 5290
+  rotationSpeed: 0.000452
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 634800
+  land:
+    ratio: 0.43
+    color: [0.66, 0.185625, 0.508052, 1]
+    polarColor: [0.934, 0.766172, 0.880243, 1]
+  sea:
+    color: [0.605631, 0.632812, 0.493643, 1]
+    polarColor: [0.92666, 0.936719, 0.885218, 1]
+  air:
+    color: [0.665366, 0.884548, 0.887783, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.660467, 0.666016, 0.564552, 1]
+    ratio: 0.49
+    polarColor: [0.795543, 0.799707, 0.723563, 1]
+  demographics:
+    type: 39
+    gdp: 15288
+    tech: 8
+    economy: 3
+    government: 3
+    description: This planet is notable for its great tropical forests and Zero-G cricket.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.715927, 0.611657, 0.45473, 1]
+  radius: 120107.441711
+  orbit:
+    type: static
+    parent: ~
+    radius: 317400
+    vector: [0.545, -0.353, 0.76]
+  corona:
+    shimmer: 0.44833
+    hues: 0.816208
+    flare: 0.02989
+stations:
+- type: coriolis
+  orbit:
+    parent: Orreen
+    vector: undefined
+    radius: 10580

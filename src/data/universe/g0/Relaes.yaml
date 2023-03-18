@@ -1,0 +1,61 @@
+name: Relaes
+position: [6, 129]
+seed: 128 129 32 6 13 206
+limits:
+  blurs: 95
+  stars: 9038
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Relaes
+  radius: 6406
+  rotationSpeed: 0.002868
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 832780
+  land:
+    ratio: 0.44
+    color: [0.65625, 0.597871, 0.515259, 1]
+    polarColor: [0.934375, 0.913595, 0.884189, 1]
+  sea:
+    color: [0.109482, 0.589404, 0.683594, 1]
+    polarColor: [0.736032, 0.899549, 0.931641, 1]
+  air:
+    color: [0.587653, 0.949434, 0.954773, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.840882, 0.867188, 0.386169, 1]
+    ratio: 0.45
+    polarColor: [0.873356, 0.890234, 0.581608, 1]
+  demographics:
+    type: 46
+    gdp: 26496
+    tech: 10
+    economy: 1
+    government: 4
+    description: This world is a tedious place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.79834, 0.734657, 0.637075, 1]
+  radius: 178367.257996
+  orbit:
+    type: static
+    parent: ~
+    radius: 256240
+    vector: [0.209, -0.243, -0.947]
+  corona:
+    shimmer: 0.684549
+    hues: 0.820717
+    flare: 0.034637
+stations:
+- type: coriolis
+  orbit:
+    parent: Relaes
+    vector: undefined
+    radius: 12812

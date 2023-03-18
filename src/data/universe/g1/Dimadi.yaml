@@ -1,0 +1,61 @@
+name: Dimadi
+position: [243, 10]
+seed: 180 10 192 243 102 205
+limits:
+  blurs: 130
+  stars: 7401
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Dimadi
+  radius: 6387
+  rotationSpeed: 0.004583
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 958050
+  land:
+    ratio: 0.24
+    color: [0.311953, 0.66, 0.431594, 1]
+    polarColor: [0.810865, 0.934, 0.853193, 1]
+  sea:
+    color: [0.58339, 0.601562, 0.479135, 1]
+    polarColor: [0.932746, 0.939844, 0.892026, 1]
+  air:
+    color: [0.711325, 0.581665, 0.885182, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.658203, 0.375381, 0.57424, 1]
+    ratio: 0.4
+    polarColor: [0.796191, 0.58237, 0.732713, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: This planet is most fabled for Zero-G cricket but cursed by unpredictable solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.848621, 0.66086, 0.643345, 1]
+  radius: 212314.927826
+  orbit:
+    type: static
+    parent: ~
+    radius: 255480
+    vector: [0.353, -0.93, 0.097]
+  corona:
+    shimmer: 0.478882
+    hues: 0.929993
+    flare: 0.00782
+stations:
+- type: coriolis
+  orbit:
+    parent: Dimadi
+    vector: undefined
+    radius: 12774

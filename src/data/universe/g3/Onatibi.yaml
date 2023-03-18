@@ -1,0 +1,61 @@
+name: Onatibi
+position: [168, 39]
+seed: 242 39 162 168 26 255
+limits:
+  blurs: 72
+  stars: 5086
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onatibi
+  radius: 6824
+  rotationSpeed: 0.004517
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 750640
+  land:
+    ratio: 0.47
+    color: [0.390787, 0.239766, 0.66, 1]
+    polarColor: [0.838756, 0.785326, 0.934, 1]
+  sea:
+    color: [0.695312, 0.444204, 0.431854, 1]
+    polarColor: [0.930469, 0.84646, 0.842329, 1]
+  air:
+    color: [0.653557, 0.889136, 0.906645, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.684988, 0.722656, 0.550461, 1]
+    ratio: 0.2
+    polarColor: [0.798312, 0.825195, 0.702302, 1]
+  demographics:
+    type: 20
+    gdp: 3840
+    tech: 2
+    economy: 7
+    government: 4
+    description: This planet is notable for the Onatibiian edible arts graduate and its weird tropical forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.634023, 0.717638, 0.828806, 1]
+  radius: 163047.74292
+  orbit:
+    type: static
+    parent: ~
+    radius: 477680
+    vector: [-0.078, 0.909, 0.408]
+  corona:
+    shimmer: 0.443716
+    hues: 0.708992
+    flare: 0.006
+stations:
+- type: coriolis
+  orbit:
+    parent: Onatibi
+    vector: undefined
+    radius: 13648

@@ -1,0 +1,61 @@
+name: Eninre
+position: [47, 106]
+seed: 26 106 192 47 51 18
+limits:
+  blurs: 105
+  stars: 7376
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Eninre
+  radius: 3375
+  rotationSpeed: 0.003491
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 405000
+  land:
+    ratio: 0.41
+    color: [0.234146, 0.269414, 0.644531, 1]
+    polarColor: [0.786627, 0.799425, 0.935547, 1]
+  sea:
+    color: [0.60132, 0.701172, 0.533, 1]
+    polarColor: [0.896777, 0.929883, 0.874126, 1]
+  air:
+    color: [0.727212, 0.627083, 0.845508, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.539062, 0.444305, 0.502048, 1]
+    ratio: 0.3
+    polarColor: [0.742578, 0.660996, 0.71071, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: The planet Eninre is cursed by deadly civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.737448, 0.714211, 0.485649, 1]
+  radius: 72440.757751
+  orbit:
+    type: static
+    parent: ~
+    radius: 303750
+    vector: [-0.773, 0.075, -0.629]
+  corona:
+    shimmer: 0.380514
+    hues: 0.657768
+    flare: 0.006631
+stations:
+- type: coriolis
+  orbit:
+    parent: Eninre
+    vector: undefined
+    radius: 6750

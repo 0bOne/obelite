@@ -1,0 +1,61 @@
+name: Riraed
+position: [101, 240]
+seed: 36 240 108 101 229 30
+limits:
+  blurs: 62
+  stars: 8778
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riraed
+  radius: 6501
+  rotationSpeed: 0.001084
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 845130
+  land:
+    ratio: 0.6
+    color: [0.586685, 0.66, 0.425391, 1]
+    polarColor: [0.908062, 0.934, 0.850998, 1]
+  sea:
+    color: [0.568359, 0.410728, 0.54373, 1]
+    polarColor: [0.943164, 0.877769, 0.932946, 1]
+  air:
+    color: [0.499016, 0.592328, 0.869572, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.195816, 0.504204, 0.611328, 1]
+    ratio: 0.29
+    polarColor: [0.445833, 0.690209, 0.775098, 1]
+  demographics:
+    type: 50
+    gdp: 36000
+    tech: 11
+    economy: 0
+    government: 5
+    description: The world Riraed is a dull world.
+    inhabitants: Green Furry Insects
+- type: star
+  type: primary
+  color: [0.20992, 0.685824, 0.834637, 1]
+  radius: 206770.010834
+  orbit:
+    type: static
+    parent: ~
+    radius: 390060
+    vector: [-0.438, 0.099, -0.894]
+  corona:
+    shimmer: 0.494246
+    hues: 0.697433
+    flare: 0.071829
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Riraed
+    vector: undefined
+    radius: 13002

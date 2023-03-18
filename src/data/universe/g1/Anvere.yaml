@@ -1,0 +1,61 @@
+name: Anvere
+position: [91, 159]
+seed: 48 159 232 91 154 91
+limits:
+  blurs: 134
+  stars: 6317
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anvere
+  radius: 5723
+  rotationSpeed: 0.002164
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 743990
+  land:
+    ratio: 0.63
+    color: [0.325508, 0.333011, 0.517578, 1]
+    polarColor: [0.860271, 0.863707, 0.948242, 1]
+  sea:
+    color: [0.58715, 0.720703, 0.544469, 1]
+    polarColor: [0.884941, 0.92793, 0.871203, 1]
+  air:
+    color: [0.659361, 0.876727, 0.856138, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.632812, 0.607804, 0.541351, 1]
+    ratio: 0.35
+    polarColor: [0.784766, 0.765382, 0.713876, 1]
+  demographics:
+    type: 37
+    gdp: 7992
+    tech: 6
+    economy: 7
+    government: 5
+    description: This planet is reasonably noted for its fabulous goat soup.
+    inhabitants: Yellow Fat Insects
+- type: star
+  type: primary
+  color: [0.632743, 0.640338, 0.698914, 1]
+  radius: 191512.140045
+  orbit:
+    type: static
+    parent: ~
+    radius: 228920
+    vector: [0.73, -0.453, -0.512]
+  corona:
+    shimmer: 0.380025
+    hues: 0.717377
+    flare: 0.065512
+stations:
+- type: coriolis
+  orbit:
+    parent: Anvere
+    vector: undefined
+    radius: 11446

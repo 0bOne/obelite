@@ -1,0 +1,61 @@
+name: Rebees
+position: [38, 222]
+seed: 9 222 193 38 205 78
+limits:
+  blurs: 56
+  stars: 7946
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rebees
+  radius: 6438
+  rotationSpeed: 0.001604
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 836940
+  land:
+    ratio: 0.45
+    color: [0.647919, 0.65625, 0.574219, 1]
+    polarColor: [0.931409, 0.934375, 0.905176, 1]
+  sea:
+    color: [0.146599, 0.595703, 0.427289, 1]
+    polarColor: [0.763181, 0.94043, 0.873961, 1]
+  air:
+    color: [0.626341, 0.565044, 0.870223, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.5069, 0.335388, 0.613281, 1]
+    ratio: 0.25
+    polarColor: [0.69185, 0.556218, 0.775977, 1]
+  demographics:
+    type: 19
+    gdp: 2432
+    tech: 3
+    economy: 6
+    government: 0
+    description: The world Rebees is very famous for its fabulous goat burgers but plagued by unpredictable civil war.
+    inhabitants: Yellow Slimy Lizards
+- type: star
+  type: primary
+  color: [0.365824, 0.44102, 0.696017, 1]
+  radius: 133372.184143
+  orbit:
+    type: static
+    parent: ~
+    radius: 515040
+    vector: [-0.124, -0.991, 0.056]
+  corona:
+    shimmer: 0.455035
+    hues: 0.941437
+    flare: 0.058136
+stations:
+- type: coriolis
+  orbit:
+    parent: Rebees
+    vector: undefined
+    radius: 12876

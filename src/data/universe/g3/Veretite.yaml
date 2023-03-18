@@ -1,0 +1,61 @@
+name: Veretite
+position: [50, 133]
+seed: 218 133 2 50 170 22
+limits:
+  blurs: 123
+  stars: 9962
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veretite
+  radius: 4402
+  rotationSpeed: 0.000017
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 396180
+  land:
+    ratio: 0.48
+    color: [0.245178, 0.353299, 0.609375, 1]
+    polarColor: [0.798753, 0.840408, 0.939062, 1]
+  sea:
+    color: [0.570181, 0.726562, 0.634933, 1]
+    polarColor: [0.877445, 0.927344, 0.898106, 1]
+  air:
+    color: [0.431426, 0.804764, 0.850061, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.389535, 0.552734, 0.0669327, 1]
+    ratio: 0.28
+    polarColor: [0.610563, 0.74873, 0.337441, 1]
+  demographics:
+    type: 16
+    gdp: 1536
+    tech: 2
+    economy: 7
+    government: 0
+    description: The planet Veretite is cursed by killer mountain monkeys.
+    inhabitants: Green Frogs
+- type: star
+  type: primary
+  color: [0.846735, 0.806203, 0.471766, 1]
+  radius: 99377.487488
+  orbit:
+    type: static
+    parent: ~
+    radius: 616280
+    vector: [0.484, 0.763, 0.43]
+  corona:
+    shimmer: 0.271027
+    hues: 0.553452
+    flare: 0.049641
+stations:
+- type: coriolis
+  orbit:
+    parent: Veretite
+    vector: undefined
+    radius: 8804

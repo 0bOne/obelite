@@ -1,0 +1,61 @@
+name: Geritior
+position: [117, 198]
+seed: 74 198 18 117 138 35
+limits:
+  blurs: 87
+  stars: 8749
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geritior
+  radius: 3701
+  rotationSpeed: 0.001909
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 407110
+  land:
+    ratio: 0.32
+    color: [0.66, 0.629063, 0.64864, 1]
+    polarColor: [0.934, 0.923055, 0.929981, 1]
+  sea:
+    color: [0.705078, 0.621161, 0.49025, 1]
+    polarColor: [0.929492, 0.901836, 0.858691, 1]
+  air:
+    color: [0.682673, 0.864369, 0.859922, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.595703, 0.59454, 0.577087, 1]
+    ratio: 0.26
+    polarColor: [0.768066, 0.767129, 0.753065, 1]
+  demographics:
+    type: 21
+    gdp: 4032
+    tech: 3
+    economy: 6
+    government: 2
+    description: The world Geritior is reasonably famous for the Geritiorian deadly Nuthoid.
+    inhabitants: Large Red Bony Felines
+- type: star
+  type: primary
+  color: [0.753195, 0.716563, 0.526197, 1]
+  radius: 97843.041534
+  orbit:
+    type: static
+    parent: ~
+    radius: 296080
+    vector: [-0.285, -0.89, 0.357]
+  corona:
+    shimmer: 0.506664
+    hues: 0.671829
+    flare: 0.079712
+stations:
+- type: coriolis
+  orbit:
+    parent: Geritior
+    vector: undefined
+    radius: 7402

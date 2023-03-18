@@ -1,0 +1,61 @@
+name: Anlebi
+position: [106, 156]
+seed: 7 156 17 106 104 251
+limits:
+  blurs: 131
+  stars: 5610
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anlebi
+  radius: 5738
+  rotationSpeed: 0.002982
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 631180
+  land:
+    ratio: 0.29
+    color: [0.346697, 0.00257813, 0.66, 1]
+    polarColor: [0.823157, 0.701412, 0.934, 1]
+  sea:
+    color: [0.529297, 0.433527, 0.417855, 1]
+    polarColor: [0.94707, 0.90423, 0.89722, 1]
+  air:
+    color: [0.746045, 0.748066, 0.950871, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.815369, 0.815995, 0.855469, 1]
+    ratio: 0.35
+    polarColor: [0.859034, 0.859439, 0.884961, 1]
+  demographics:
+    type: 31
+    gdp: 8928
+    tech: 6
+    economy: 4
+    government: 2
+    description: The planet Anlebi is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.711571, 0.780371, 0.806738, 1]
+  radius: 116343.868713
+  orbit:
+    type: static
+    parent: ~
+    radius: 344280
+    vector: [0.612, -0.534, -0.583]
+  corona:
+    shimmer: 0.413899
+    hues: 0.642929
+    flare: 0.08551
+stations:
+- type: coriolis
+  orbit:
+    parent: Anlebi
+    vector: undefined
+    radius: 11476

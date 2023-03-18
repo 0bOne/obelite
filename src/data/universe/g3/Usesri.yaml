@@ -1,0 +1,61 @@
+name: Usesri
+position: [75, 117]
+seed: 130 117 242 75 90 40
+limits:
+  blurs: 162
+  stars: 6309
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usesri
+  radius: 4939
+  rotationSpeed: 0.000029
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 493900
+  land:
+    ratio: 0.44
+    color: [0.194115, 0.501953, 0.299934, 1]
+    polarColor: [0.80418, 0.949805, 0.854239, 1]
+  sea:
+    color: [0.568359, 0.5059, 0.445363, 1]
+    polarColor: [0.943164, 0.917252, 0.892137, 1]
+  air:
+    color: [0.643215, 0.889884, 0.922254, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.68419, 0.769531, 0.532059, 1]
+    ratio: 0.41
+    polarColor: [0.78763, 0.846289, 0.683064, 1]
+  demographics:
+    type: 44
+    gdp: 17600
+    tech: 8
+    economy: 5
+    government: 6
+    description: The world Usesri is mildly noted for its ancient mountains but ravaged by frequent earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.763721, 0.762674, 0.714663, 1]
+  radius: 137910.813141
+  orbit:
+    type: static
+    parent: ~
+    radius: 395120
+    vector: [-0.123, 0.842, 0.525]
+  corona:
+    shimmer: 0.375586
+    hues: 0.848419
+    flare: 0.03119
+stations:
+- type: coriolis
+  orbit:
+    parent: Usesri
+    vector: undefined
+    radius: 9878

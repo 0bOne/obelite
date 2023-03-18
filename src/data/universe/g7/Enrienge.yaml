@@ -1,0 +1,61 @@
+name: Enrienge
+position: [129, 10]
+seed: 111 10 10 129 219 114
+limits:
+  blurs: 193
+  stars: 5066
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enrienge
+  radius: 3457
+  rotationSpeed: 0.001126
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 449410
+  land:
+    ratio: 0.27
+    color: [0.572266, 0.453789, 0.498218, 1]
+    polarColor: [0.942773, 0.893978, 0.912276, 1]
+  sea:
+    color: [0.648054, 0.759766, 0.563889, 1]
+    polarColor: [0.890058, 0.924023, 0.864467, 1]
+  air:
+    color: [0.568911, 0.562821, 0.848109, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.340095, 0.322571, 0.546875, 1]
+    ratio: 0.25
+    polarColor: [0.569777, 0.554834, 0.746094, 1]
+  demographics:
+    type: 32
+    gdp: 10240
+    tech: 7
+    economy: 2
+    government: 1
+    description: This world is ravaged by occasional solar activity.
+    inhabitants: Blue Bony Humanoids
+- type: star
+  type: primary
+  color: [0.621198, 0.652981, 0.796759, 1]
+  radius: 92365.136261
+  orbit:
+    type: static
+    parent: ~
+    radius: 276560
+    vector: [-0.467, 0.884, 0]
+  corona:
+    shimmer: 0.577674
+    hues: 0.536392
+    flare: 0.060764
+stations:
+- type: coriolis
+  orbit:
+    parent: Enrienge
+    vector: undefined
+    radius: 6914

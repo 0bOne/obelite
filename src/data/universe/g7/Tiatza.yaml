@@ -1,0 +1,61 @@
+name: Tiatza
+position: [123, 62]
+seed: 137 62 184 123 101 151
+limits:
+  blurs: 131
+  stars: 9048
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiatza
+  radius: 4731
+  rotationSpeed: 0.004111
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 709650
+  land:
+    ratio: 0.42
+    color: [0.66, 0.641147, 0.358359, 1]
+    polarColor: [0.934, 0.92733, 0.827283, 1]
+  sea:
+    color: [0.566592, 0.728516, 0.614663, 1]
+    polarColor: [0.87563, 0.927148, 0.890925, 1]
+  air:
+    color: [0.473485, 0.655188, 0.86632, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.143341, 0.601562, 0.429729, 1]
+    ratio: 0.42
+    polarColor: [0.403791, 0.770703, 0.633111, 1]
+  demographics:
+    type: 46
+    gdp: 16192
+    tech: 8
+    economy: 6
+    government: 7
+    description: Tiatza is cursed by deadly civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.52551, 0.644155, 0.671368, 1]
+  radius: 137556.048431
+  orbit:
+    type: static
+    parent: ~
+    radius: 236550
+    vector: [0.512, -0.844, -0.161]
+  corona:
+    shimmer: 0.259027
+    hues: 0.754066
+    flare: 0.000148
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiatza
+    vector: undefined
+    radius: 9462

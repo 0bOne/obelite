@@ -1,0 +1,61 @@
+name: Istiteat
+position: [135, 179]
+seed: 94 179 26 135 64 125
+limits:
+  blurs: 182
+  stars: 7117
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Istiteat
+  radius: 6279
+  rotationSpeed: 0.003593
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 941850
+  land:
+    ratio: 0.28
+    color: [0.66, 0.550551, 0.291328, 1]
+    polarColor: [0.934, 0.895278, 0.803568, 1]
+  sea:
+    color: [0.642578, 0.539901, 0.471893, 1]
+    polarColor: [0.935742, 0.898362, 0.873603, 1]
+  air:
+    color: [0.544494, 0.519044, 0.892336, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.331215, 0.233643, 0.679688, 1]
+    ratio: 0.14
+    polarColor: [0.547634, 0.475331, 0.805859, 1]
+  demographics:
+    type: 43
+    gdp: 16856
+    tech: 9
+    economy: 3
+    government: 3
+    description: Istiteat is ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.682108, 0.26542, 0.255567, 1]
+  radius: 135658.247223
+  orbit:
+    type: static
+    parent: ~
+    radius: 313950
+    vector: [-0.689, 0.472, -0.551]
+  corona:
+    shimmer: 0.634105
+    hues: 0.844261
+    flare: 0.084013
+stations:
+- type: coriolis
+  orbit:
+    parent: Istiteat
+    vector: undefined
+    radius: 12558

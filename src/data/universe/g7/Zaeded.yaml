@@ -1,0 +1,61 @@
+name: Zaeded
+position: [124, 184]
+seed: 43 184 54 124 15 164
+limits:
+  blurs: 56
+  stars: 6735
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaeded
+  radius: 3964
+  rotationSpeed: 0.00396
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 436040
+  land:
+    ratio: 0.56
+    color: [0.317754, 0.66, 0.28875, 1]
+    polarColor: [0.812917, 0.934, 0.802656, 1]
+  sea:
+    color: [0.550781, 0.462318, 0.431589, 1]
+    polarColor: [0.944922, 0.90698, 0.8938, 1]
+  air:
+    color: [0.67776, 0.835572, 0.923555, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.619354, 0.773438, 0.632596, 1]
+    ratio: 0.13
+    polarColor: [0.742455, 0.848047, 0.751529, 1]
+  demographics:
+    type: 47
+    gdp: 37600
+    tech: 10
+    economy: 0
+    government: 6
+    description: Zaeded is reasonably notable for its great parking meters but cursed by occasional earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.719772, 0.626413, 0.537732, 1]
+  radius: 112691.773071
+  orbit:
+    type: static
+    parent: ~
+    radius: 396400
+    vector: [-0.882, -0.361, 0.302]
+  corona:
+    shimmer: 0.43955
+    hues: 0.965729
+    flare: 0.055254
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaeded
+    vector: undefined
+    radius: 7928

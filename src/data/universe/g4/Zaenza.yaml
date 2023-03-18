@@ -1,0 +1,61 @@
+name: Zaenza
+position: [237, 33]
+seed: 150 33 20 237 83 132
+limits:
+  blurs: 64
+  stars: 8439
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaenza
+  radius: 4077
+  rotationSpeed: 0.000604
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 489240
+  land:
+    ratio: 0.41
+    color: [0.528516, 0.66, 0.601448, 1]
+    polarColor: [0.887482, 0.934, 0.913285, 1]
+  sea:
+    color: [0.800781, 0.566544, 0.378494, 1]
+    polarColor: [0.919922, 0.85265, 0.798643, 1]
+  air:
+    color: [0.638507, 0.850125, 0.952822, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.5275, 0.861328, 0.524872, 1]
+    ratio: 0.33
+    polarColor: [0.672592, 0.887598, 0.670899, 1]
+  demographics:
+    type: 36
+    gdp: 15552
+    tech: 8
+    economy: 1
+    government: 2
+    description: The world Zaenza is fabled for its ancient Zaenzaian Us banana plantations and its hoopy casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.721344, 0.703661, 0.688456, 1]
+  radius: 101515.035553
+  orbit:
+    type: static
+    parent: ~
+    radius: 244620
+    vector: [-0.118, -0.52, -0.846]
+  corona:
+    shimmer: 0.311981
+    hues: 0.636612
+    flare: 0.035492
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaenza
+    vector: undefined
+    radius: 8154

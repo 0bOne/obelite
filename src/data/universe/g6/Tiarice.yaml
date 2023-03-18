@@ -1,0 +1,61 @@
+name: Tiarice
+position: [120, 223]
+seed: 82 223 50 120 148 87
+limits:
+  blurs: 176
+  stars: 5063
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiarice
+  radius: 4728
+  rotationSpeed: 0.004355
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 567360
+  land:
+    ratio: 0.39
+    color: [0.533672, 0.66, 0.642235, 1]
+    polarColor: [0.889307, 0.934, 0.927715, 1]
+  sea:
+    color: [0.553387, 0.654297, 0.521137, 1]
+    polarColor: [0.898536, 0.93457, 0.88702, 1]
+  air:
+    color: [0.602316, 0.911197, 0.838547, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.736328, 0.522337, 0.428566, 1]
+    ratio: 0.25
+    polarColor: [0.831348, 0.680344, 0.614174, 1]
+  demographics:
+    type: 26
+    gdp: 6240
+    tech: 3
+    economy: 7
+    government: 6
+    description: This world is very notable for its inhabitants’ weird shyness and its inhabitants’ ingrained shyness.
+    inhabitants: Yellow Lizards
+- type: star
+  type: primary
+  color: [0.214011, 0.720576, 0.829172, 1]
+  radius: 123103.597412
+  orbit:
+    type: static
+    parent: ~
+    radius: 283680
+    vector: [0.384, 0.898, -0.216]
+  corona:
+    shimmer: 0.854758
+    hues: 0.721985
+    flare: 0.085245
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiarice
+    vector: undefined
+    radius: 9456

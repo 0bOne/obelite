@@ -1,0 +1,61 @@
+name: Usbege
+position: [6, 132]
+seed: 170 132 114 6 202 72
+limits:
+  blurs: 70
+  stars: 9845
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usbege
+  radius: 4870
+  rotationSpeed: 0.003159
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 633100
+  land:
+    ratio: 0.55
+    color: [0.66, 0.559473, 0.100547, 1]
+    polarColor: [0.934, 0.898435, 0.736072, 1]
+  sea:
+    color: [0.565334, 0.652344, 0.516524, 1]
+    polarColor: [0.903596, 0.934766, 0.88611, 1]
+  air:
+    color: [0.473172, 0.566355, 0.895588, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.126579, 0.491568, 0.689453, 1]
+    ratio: 0.3
+    polarColor: [0.396819, 0.664906, 0.810254, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 8
+    economy: 4
+    government: 6
+    description: The planet Usbege is reasonably noted for mud tennis and its ancient A’ce tulip plantations.
+    inhabitants: Small Yellow Horned Lizards
+- type: star
+  type: primary
+  color: [0.774844, 0.596339, 0.591786, 1]
+  radius: 161239.981079
+  orbit:
+    type: static
+    parent: ~
+    radius: 292200
+    vector: [-0.036, -0.435, -0.9]
+  corona:
+    shimmer: 0.644646
+    hues: 0.814125
+    flare: 0.056873
+stations:
+- type: coriolis
+  orbit:
+    parent: Usbege
+    vector: undefined
+    radius: 9740

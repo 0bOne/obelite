@@ -1,0 +1,61 @@
+name: Ararin
+position: [183, 39]
+seed: 253 39 81 183 181 234
+limits:
+  blurs: 105
+  stars: 9371
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ararin
+  radius: 5559
+  rotationSpeed: 0.00451
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 667080
+  land:
+    ratio: 0.42
+    color: [0.64625, 0.654297, 0.575066, 1]
+    polarColor: [0.931697, 0.93457, 0.906278, 1]
+  sea:
+    color: [0.151566, 0.587891, 0.414042, 1]
+    polarColor: [0.766572, 0.941211, 0.871628, 1]
+  air:
+    color: [0.509408, 0.479011, 0.924855, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.262562, 0.118423, 0.777344, 1]
+    ratio: 0.41
+    polarColor: [0.498075, 0.399591, 0.849805, 1]
+  demographics:
+    type: 26
+    gdp: 3744
+    tech: 4
+    economy: 7
+    government: 2
+    description: This planet is notable for the Ararinian tree snake and its fabulous monkey burgers.
+    inhabitants: Small Slimy Lizards
+- type: star
+  type: primary
+  color: [0.760175, 0.470727, 0.254733, 1]
+  radius: 128087.889862
+  orbit:
+    type: static
+    parent: ~
+    radius: 389130
+    vector: [-0.34, 0.872, -0.352]
+  corona:
+    shimmer: 0.612417
+    hues: 0.65731
+    flare: 0.046899
+stations:
+- type: coriolis
+  orbit:
+    parent: Ararin
+    vector: undefined
+    radius: 11118

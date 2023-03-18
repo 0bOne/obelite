@@ -1,0 +1,61 @@
+name: Ontiat
+position: [57, 190]
+seed: 10 190 172 57 219 31
+limits:
+  blurs: 136
+  stars: 8269
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ontiat
+  radius: 6713
+  rotationSpeed: 0.002405
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 671300
+  land:
+    ratio: 0.65
+    color: [0.66, 0.547207, 0.37125, 1]
+    polarColor: [0.934, 0.894095, 0.831844, 1]
+  sea:
+    color: [0.588932, 0.783203, 0.673926, 1]
+    polarColor: [0.864525, 0.92168, 0.88953, 1]
+  air:
+    color: [0.570399, 0.961277, 0.945608, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.886719, 0.826482, 0.335983, 1]
+    ratio: 0.4
+    polarColor: [0.899023, 0.860853, 0.550037, 1]
+  demographics:
+    type: 32
+    gdp: 9216
+    tech: 5
+    economy: 6
+    government: 5
+    description: The planet Ontiat is scourged by evil disease.
+    inhabitants: Green Lizards
+- type: star
+  type: primary
+  color: [0.73226, 0.330132, 0.292089, 1]
+  radius: 123010.890198
+  orbit:
+    type: static
+    parent: ~
+    radius: 469910
+    vector: [0.735, 0.116, 0.669]
+  corona:
+    shimmer: 0.399454
+    hues: 0.750244
+    flare: 0.064455
+stations:
+- type: coriolis
+  orbit:
+    parent: Ontiat
+    vector: undefined
+    radius: 13426

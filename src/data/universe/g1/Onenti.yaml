@@ -1,0 +1,61 @@
+name: Onenti
+position: [38, 141]
+seed: 0 141 64 38 26 127
+limits:
+  blurs: 71
+  stars: 8391
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onenti
+  radius: 6694
+  rotationSpeed: 0.00061
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 803280
+  land:
+    ratio: 0.45
+    color: [0.66, 0.489199, 0.386719, 1]
+    polarColor: [0.934, 0.873573, 0.837316, 1]
+  sea:
+    color: [0.638672, 0.396675, 0.544142, 1]
+    polarColor: [0.936133, 0.847456, 0.901493, 1]
+  air:
+    color: [0.712289, 0.601499, 0.86567, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.599609, 0.409889, 0.547733, 1]
+    ratio: 0.29
+    polarColor: [0.769824, 0.617588, 0.728197, 1]
+  demographics:
+    type: 16
+    gdp: 1536
+    tech: 2
+    economy: 7
+    government: 0
+    description: This planet is most notable for Onentiian Cea’allo water but beset by evil disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.79733, 0.364488, 0.297898, 1]
+  radius: 218202.582397
+  orbit:
+    type: static
+    parent: ~
+    radius: 468580
+    vector: [0.426, -0.679, 0.598]
+  corona:
+    shimmer: 0.783942
+    hues: 0.641602
+    flare: 0.061316
+stations:
+- type: coriolis
+  orbit:
+    parent: Onenti
+    vector: undefined
+    radius: 13388

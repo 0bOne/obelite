@@ -1,0 +1,61 @@
+name: Tetied
+position: [131, 23]
+seed: 7 23 177 131 232 28
+limits:
+  blurs: 177
+  stars: 8935
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tetied
+  radius: 6019
+  rotationSpeed: 0.004134
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 722280
+  land:
+    ratio: 0.4
+    color: [0.518203, 0.653353, 0.66, 1]
+    polarColor: [0.883834, 0.931648, 0.934, 1]
+  sea:
+    color: [0.695312, 0.612091, 0.494324, 1]
+    polarColor: [0.930469, 0.902627, 0.863228, 1]
+  air:
+    color: [0.741232, 0.766275, 0.938514, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.792786, 0.802176, 0.818359, 1]
+    ratio: 0.38
+    polarColor: [0.851303, 0.85753, 0.868262, 1]
+  demographics:
+    type: 38
+    gdp: 9120
+    tech: 6
+    economy: 7
+    government: 6
+    description: This planet is reasonably noted for its exotic fish meat.
+    inhabitants: Green Fat Birds
+- type: star
+  type: primary
+  color: [0.678253, 0.679956, 0.307877, 1]
+  radius: 153486.520538
+  orbit:
+    type: static
+    parent: ~
+    radius: 541710
+    vector: [-0.513, -0.005, 0.858]
+  corona:
+    shimmer: 0.314853
+    hues: 0.875282
+    flare: 0.062762
+stations:
+- type: coriolis
+  orbit:
+    parent: Tetied
+    vector: undefined
+    radius: 12038

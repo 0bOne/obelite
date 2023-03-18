@@ -1,0 +1,61 @@
+name: Veveesve
+position: [61, 162]
+seed: 70 162 96 61 91 86
+limits:
+  blurs: 116
+  stars: 6221
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veveesve
+  radius: 4413
+  rotationSpeed: 0.004462
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 573690
+  land:
+    ratio: 0.28
+    color: [0.23204, 0.528052, 0.535156, 1]
+    polarColor: [0.812461, 0.943343, 0.946484, 1]
+  sea:
+    color: [0.740234, 0.546863, 0.43084, 1]
+    polarColor: [0.925977, 0.865503, 0.829219, 1]
+  air:
+    color: [0.674434, 0.759302, 0.974285, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.625626, 0.876537, 0.925781, 1]
+    ratio: 0.13
+    polarColor: [0.730864, 0.886129, 0.916602, 1]
+  demographics:
+    type: 39
+    gdp: 19968
+    tech: 8
+    economy: 2
+    government: 4
+    description: The world Veveesve is a dull world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.714908, 0.611955, 0.600285, 1]
+  radius: 86612.262726
+  orbit:
+    type: static
+    parent: ~
+    radius: 397170
+    vector: [-0.082, 0.582, -0.809]
+  corona:
+    shimmer: 0.564323
+    hues: 0.948723
+    flare: 0.016859
+stations:
+- type: coriolis
+  orbit:
+    parent: Veveesve
+    vector: undefined
+    radius: 8826

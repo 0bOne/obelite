@@ -1,0 +1,61 @@
+name: Riare
+position: [33, 144]
+seed: 7 144 65 33 40 62
+limits:
+  blurs: 117
+  stars: 7008
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riare
+  radius: 6433
+  rotationSpeed: 0.002259
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 578970
+  land:
+    ratio: 0.71
+    color: [0.613594, 0.66, 0.28875, 1]
+    polarColor: [0.917582, 0.934, 0.802656, 1]
+  sea:
+    color: [0.555908, 0.6875, 0.537109, 1]
+    polarColor: [0.886688, 0.93125, 0.880322, 1]
+  air:
+    color: [0.5216, 0.637246, 0.835102, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.240021, 0.507812, 0.482707, 1]
+    ratio: 0.38
+    polarColor: [0.488404, 0.728516, 0.706005, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 6
+    economy: 2
+    government: 0
+    description: The planet Riare is scourged by deadly tree grubs.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.828964, 0.822864, 0.794489, 1]
+  radius: 162447.581329
+  orbit:
+    type: static
+    parent: ~
+    radius: 836290
+    vector: [0.169, 0.978, 0.125]
+  corona:
+    shimmer: 0.330353
+    hues: 0.980591
+    flare: 0.026877
+stations:
+- type: coriolis
+  orbit:
+    parent: Riare
+    vector: undefined
+    radius: 12866

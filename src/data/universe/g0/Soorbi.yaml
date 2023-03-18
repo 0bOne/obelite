@@ -1,0 +1,61 @@
+name: Soorbi
+position: [134, 235]
+seed: 128 235 160 134 13 199
+limits:
+  blurs: 45
+  stars: 8619
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soorbi
+  radius: 4742
+  rotationSpeed: 0.002884
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 426780
+  land:
+    ratio: 0.53
+    color: [0.66, 0.0489844, 0.636132, 1]
+    polarColor: [0.934, 0.71783, 0.925556, 1]
+  sea:
+    color: [0.609375, 0.495071, 0.455365, 1]
+    polarColor: [0.939062, 0.895026, 0.879729, 1]
+  air:
+    color: [0.660342, 0.591143, 0.853963, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.52871, 0.381447, 0.564453, 1]
+    ratio: 0.4
+    polarColor: [0.724162, 0.601215, 0.754004, 1]
+  demographics:
+    type: 40
+    gdp: 17920
+    tech: 8
+    economy: 3
+    government: 4
+    description: The planet Soorbi is an unremarkable dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.43584, 0.460039, 0.718594, 1]
+  radius: 104771.746216
+  orbit:
+    type: static
+    parent: ~
+    radius: 616460
+    vector: [0.336, 0.76, -0.556]
+  corona:
+    shimmer: 0.291522
+    hues: 0.564255
+    flare: 0.094627
+stations:
+- type: coriolis
+  orbit:
+    parent: Soorbi
+    vector: undefined
+    radius: 9484

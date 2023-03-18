@@ -1,0 +1,61 @@
+name: Arusqudi
+position: [39, 22]
+seed: 218 22 160 39 51 202
+limits:
+  blurs: 94
+  stars: 7956
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arusqudi
+  radius: 5415
+  rotationSpeed: 0.002324
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 595650
+  land:
+    ratio: 0.25
+    color: [0.448849, 0.364494, 0.533203, 1]
+    polarColor: [0.909238, 0.871796, 0.94668, 1]
+  sea:
+    color: [0.584717, 0.708984, 0.53977, 1]
+    polarColor: [0.88839, 0.929102, 0.873664, 1]
+  air:
+    color: [0.565683, 0.955424, 0.912424, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.869141, 0.695143, 0.325928, 1]
+    ratio: 0.39
+    polarColor: [0.891113, 0.779615, 0.543022, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 6
+    economy: 6
+    government: 4
+    description: This world is very fabled for its unusual oceans.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.6944, 0.339239, 0.323222, 1]
+  radius: 115967.724609
+  orbit:
+    type: static
+    parent: ~
+    radius: 595650
+    vector: [-0.932, 0.197, 0.304]
+  corona:
+    shimmer: 0.41241
+    hues: 0.7397
+    flare: 0.022995
+stations:
+- type: coriolis
+  orbit:
+    parent: Arusqudi
+    vector: undefined
+    radius: 10830

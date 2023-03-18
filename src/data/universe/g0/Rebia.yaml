@@ -1,0 +1,61 @@
+name: Rebia
+position: [26, 61]
+seed: 24 61 36 26 237 238
+limits:
+  blurs: 198
+  stars: 8308
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rebia
+  radius: 6426
+  rotationSpeed: 0.004292
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 771120
+  land:
+    ratio: 0.33
+    color: [0.613281, 0.395279, 0.569, 1]
+    polarColor: [0.938672, 0.855255, 0.921728, 1]
+  sea:
+    color: [0.824219, 0.563481, 0.354156, 1]
+    polarColor: [0.917578, 0.84501, 0.786752, 1]
+  air:
+    color: [0.723415, 0.809782, 0.904043, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.714844, 0.714844, 0.714844, 1]
+    ratio: 0.57
+    polarColor: [0.82168, 0.82168, 0.82168, 1]
+  demographics:
+    type: 34
+    gdp: 10880
+    tech: 6
+    economy: 5
+    government: 4
+    description: Rebia is very notable for its inhabitants’ weird shyness.
+    inhabitants: Frogs
+- type: star
+  type: primary
+  color: [0.817975, 0.765844, 0.722596, 1]
+  radius: 199615.273132
+  orbit:
+    type: static
+    parent: ~
+    radius: 514080
+    vector: [0.171, 0.917, -0.359]
+  corona:
+    shimmer: 0.3373
+    hues: 0.784355
+    flare: 0.01817
+stations:
+- type: coriolis
+  orbit:
+    parent: Rebia
+    vector: undefined
+    radius: 12852

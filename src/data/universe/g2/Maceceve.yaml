@@ -1,0 +1,61 @@
+name: Maceceve
+position: [51, 229]
+seed: 213 229 185 51 229 11
+limits:
+  blurs: 111
+  stars: 8380
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maceceve
+  radius: 5683
+  rotationSpeed: 0.004075
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 681960
+  land:
+    ratio: 0.39
+    color: [0.435985, 0.232031, 0.66, 1]
+    polarColor: [0.854746, 0.78259, 0.934, 1]
+  sea:
+    color: [0.578125, 0.559635, 0.45979, 1]
+    polarColor: [0.942187, 0.934654, 0.893974, 1]
+  air:
+    color: [0.456026, 0.666708, 0.876076, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.101036, 0.630859, 0.370087, 1]
+    ratio: 0.38
+    polarColor: [0.372423, 0.783887, 0.581369, 1]
+  demographics:
+    type: 49
+    gdp: 21560
+    tech: 9
+    economy: 5
+    government: 7
+    description: The planet Maceceve is cursed by deadly civil war.
+    inhabitants: Small Green Frogs
+- type: star
+  type: primary
+  color: [0.582387, 0.753586, 0.782843, 1]
+  radius: 164454.587402
+  orbit:
+    type: static
+    parent: ~
+    radius: 454640
+    vector: [0.088, -0.962, -0.258]
+  corona:
+    shimmer: 0.556692
+    hues: 0.86116
+    flare: 0.015668
+stations:
+- type: coriolis
+  orbit:
+    parent: Maceceve
+    vector: undefined
+    radius: 11366

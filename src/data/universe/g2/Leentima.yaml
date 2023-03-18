@@ -1,0 +1,61 @@
+name: Leentima
+position: [67, 141]
+seed: 89 141 113 67 141 65
+limits:
+  blurs: 103
+  stars: 6655
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leentima
+  radius: 3139
+  rotationSpeed: 0.000977
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 282510
+  land:
+    ratio: 0.61
+    color: [0.66, 0.622617, 0.510469, 1]
+    polarColor: [0.934, 0.920774, 0.881098, 1]
+  sea:
+    color: [0.0476074, 0.410242, 0.761719, 1]
+    polarColor: [0.707306, 0.817259, 0.923828, 1]
+  air:
+    color: [0.798946, 0.755039, 0.973635, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.89758, 0.855263, 0.923828, 1]
+    ratio: 0.55
+    polarColor: [0.899462, 0.873245, 0.915723, 1]
+  demographics:
+    type: 44
+    gdp: 17600
+    tech: 8
+    economy: 5
+    government: 6
+    description: The world Leentima is mildly fabled for its inhabitants’ eccentric love for poetry but plagued by frequent earthquakes.
+    inhabitants: Large Yellow Insects
+- type: star
+  type: primary
+  color: [0.65538, 0.569384, 0.383144, 1]
+  radius: 90267.803802
+  orbit:
+    type: static
+    parent: ~
+    radius: 439460
+    vector: [0.131, -0.898, -0.421]
+  corona:
+    shimmer: 0.518112
+    hues: 0.914742
+    flare: 0.09789
+stations:
+- type: coriolis
+  orbit:
+    parent: Leentima
+    vector: undefined
+    radius: 6278

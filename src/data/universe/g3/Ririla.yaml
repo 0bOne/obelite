@@ -1,0 +1,61 @@
+name: Ririla
+position: [249, 7]
+seed: 26 7 66 249 42 158
+limits:
+  blurs: 106
+  stars: 7511
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ririla
+  radius: 6649
+  rotationSpeed: 0.00261
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 598410
+  land:
+    ratio: 0.31
+    color: [0.170563, 0.539062, 0.305871, 1]
+    polarColor: [0.784408, 0.946094, 0.843777, 1]
+  sea:
+    color: [0.588574, 0.75, 0.697032, 1]
+    polarColor: [0.875227, 0.925, 0.908668, 1]
+  air:
+    color: [0.703953, 0.498232, 0.954773, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.867188, 0.142273, 0.601008, 1]
+    ratio: 0.32
+    polarColor: [0.890234, 0.425122, 0.719451, 1]
+  demographics:
+    type: 12
+    gdp: 1152
+    tech: 1
+    economy: 7
+    government: 0
+    description: The world Ririla is beset by deadly earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.795874, 0.683059, 0.655218, 1]
+  radius: 118658.515015
+  orbit:
+    type: static
+    parent: ~
+    radius: 864370
+    vector: [0.324, -0.831, 0.453]
+  corona:
+    shimmer: 0.538328
+    hues: 0.887962
+    flare: 0.050215
+stations:
+- type: coriolis
+  orbit:
+    parent: Ririla
+    vector: undefined
+    radius: 13298

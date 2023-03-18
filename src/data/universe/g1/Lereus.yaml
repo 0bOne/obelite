@@ -1,0 +1,61 @@
+name: Lereus
+position: [89, 148]
+seed: 48 148 8 89 90 1
+limits:
+  blurs: 148
+  stars: 6556
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lereus
+  radius: 3161
+  rotationSpeed: 0.000873
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 379320
+  land:
+    ratio: 0.66
+    color: [0.23291, 0.492977, 0.5625, 1]
+    polarColor: [0.805505, 0.914589, 0.94375, 1]
+  sea:
+    color: [0.58976, 0.798828, 0.593027, 1]
+    polarColor: [0.859914, 0.920117, 0.860855, 1]
+  air:
+    color: [0.494674, 0.485516, 0.914449, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.189939, 0.142807, 0.746094, 1]
+    ratio: 0.55
+    polarColor: [0.446379, 0.413382, 0.835742, 1]
+  demographics:
+    type: 20
+    gdp: 3200
+    tech: 3
+    economy: 6
+    government: 1
+    description: The planet Lereus is very famous for its hoopy night life but scourged by deadly tree grubs.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.585522, 0.677854, 0.704169, 1]
+  radius: 72316.267548
+  orbit:
+    type: static
+    parent: ~
+    radius: 347710
+    vector: [-0.541, 0.828, -0.148]
+  corona:
+    shimmer: 0.573459
+    hues: 0.996475
+    flare: 0.054828
+stations:
+- type: coriolis
+  orbit:
+    parent: Lereus
+    vector: undefined
+    radius: 6322

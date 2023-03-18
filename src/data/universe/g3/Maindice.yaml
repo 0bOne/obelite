@@ -1,0 +1,61 @@
+name: Maindice
+position: [245, 202]
+seed: 210 202 194 245 154 11
+limits:
+  blurs: 144
+  stars: 8557
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maindice
+  radius: 5877
+  rotationSpeed: 0.000667
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 881550
+  land:
+    ratio: 0.25
+    color: [0.633353, 0.172734, 0.66, 1]
+    polarColor: [0.924573, 0.761611, 0.934, 1]
+  sea:
+    color: [0.650391, 0.548251, 0.492874, 1]
+    polarColor: [0.934961, 0.898254, 0.878352, 1]
+  air:
+    color: [0.578683, 0.951002, 0.962578, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.836565, 0.890625, 0.358337, 1]
+    ratio: 0.4
+    polarColor: [0.866608, 0.900781, 0.564308, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 6
+    economy: 2
+    government: 0
+    description: Maindice is a revolting dump.
+    inhabitants: Small Green Lizards
+- type: star
+  type: primary
+  color: [0.333594, 0.45997, 0.707361, 1]
+  radius: 140727.498322
+  orbit:
+    type: static
+    parent: ~
+    radius: 117540
+    vector: [0.38, -0.187, -0.906]
+  corona:
+    shimmer: 0.560022
+    hues: 0.525673
+    flare: 0.099074
+stations:
+- type: coriolis
+  orbit:
+    parent: Maindice
+    vector: undefined
+    radius: 11754

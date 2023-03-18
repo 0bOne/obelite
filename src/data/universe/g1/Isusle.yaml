@@ -1,0 +1,61 @@
+name: Isusle
+position: [26, 112]
+seed: 180 112 192 26 102 221
+limits:
+  blurs: 148
+  stars: 9586
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isusle
+  radius: 6170
+  rotationSpeed: 0.004558
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 740400
+  land:
+    ratio: 0.31
+    color: [0.00257813, 0.66, 0.151525, 1]
+    polarColor: [0.701412, 0.934, 0.754108, 1]
+  sea:
+    color: [0.566406, 0.507678, 0.44516, 1]
+    polarColor: [0.943359, 0.918906, 0.892875, 1]
+  air:
+    color: [0.495944, 0.585272, 0.874125, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.187988, 0.491848, 0.625, 1]
+    ratio: 0.33
+    polarColor: [0.439835, 0.677225, 0.78125, 1]
+  demographics:
+    type: 31
+    gdp: 7936
+    tech: 7
+    economy: 2
+    government: 0
+    description: This world is very fabled for its unusual tropical forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.630064, 0.757359, 0.830176, 1]
+  radius: 151054.660034
+  orbit:
+    type: static
+    parent: ~
+    radius: 617000
+    vector: [0.493, -0.061, 0.868]
+  corona:
+    shimmer: 0.534482
+    hues: 0.566566
+    flare: 0.014151
+stations:
+- type: coriolis
+  orbit:
+    parent: Isusle
+    vector: undefined
+    radius: 12340

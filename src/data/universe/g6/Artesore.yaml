@@ -1,0 +1,61 @@
+name: Artesore
+position: [225, 240]
+seed: 114 240 130 225 52 234
+limits:
+  blurs: 99
+  stars: 9987
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Artesore
+  radius: 5601
+  rotationSpeed: 0.001313
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 504090
+  land:
+    ratio: 0.35
+    color: [0.544922, 0.511097, 0.506607, 1]
+    polarColor: [0.945508, 0.930835, 0.928888, 1]
+  sea:
+    color: [0.708984, 0.706172, 0.528969, 1]
+    polarColor: [0.929102, 0.92818, 0.870125, 1]
+  air:
+    color: [0.516987, 0.483662, 0.922254, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.286602, 0.132263, 0.769531, 1]
+    ratio: 0.4
+    polarColor: [0.514351, 0.408268, 0.846289, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 6
+    economy: 2
+    government: 0
+    description: This planet is most fabled for mud hockey but ravaged by occasional earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.503209, 0.534597, 0.740836, 1]
+  radius: 90678.665314
+  orbit:
+    type: static
+    parent: ~
+    radius: 672120
+    vector: [-0.229, -0.717, -0.659]
+  corona:
+    shimmer: 0.532328
+    hues: 0.827805
+    flare: 0.040155
+stations:
+- type: coriolis
+  orbit:
+    parent: Artesore
+    vector: undefined
+    radius: 11202

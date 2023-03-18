@@ -1,0 +1,61 @@
+name: Mariar
+position: [96, 178]
+seed: 128 178 120 96 157 107
+limits:
+  blurs: 67
+  stars: 5336
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Mariar
+  radius: 5728
+  rotationSpeed: 0.003149
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 687360
+  land:
+    ratio: 0.36
+    color: [0.507891, 0.513832, 0.66, 1]
+    polarColor: [0.880186, 0.882288, 0.934, 1]
+  sea:
+    color: [0.574219, 0.544498, 0.455338, 1]
+    polarColor: [0.942578, 0.930382, 0.893792, 1]
+  air:
+    color: [0.451908, 0.508097, 0.923555, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0513611, 0.299575, 0.773438, 1]
+    ratio: 0.36
+    polarColor: [0.353215, 0.523313, 0.848047, 1]
+  demographics:
+    type: 46
+    gdp: 32384
+    tech: 9
+    economy: 2
+    government: 7
+    description: This world is fabled for its unusual tropical forests.
+    inhabitants: Small Blue Horned Humanoids
+- type: star
+  type: primary
+  color: [0.713913, 0.655421, 0.624303, 1]
+  radius: 154980.087891
+  orbit:
+    type: static
+    parent: ~
+    radius: 572800
+    vector: [0.614, 0.588, -0.526]
+  corona:
+    shimmer: 0.256658
+    hues: 0.702446
+    flare: 0.079787
+stations:
+- type: coriolis
+  orbit:
+    parent: Mariar
+    vector: undefined
+    radius: 11456

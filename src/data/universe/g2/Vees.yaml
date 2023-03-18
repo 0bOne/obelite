@@ -1,0 +1,61 @@
+name: Vees
+position: [210, 100]
+seed: 13 100 33 210 149 64
+limits:
+  blurs: 189
+  stars: 7875
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vees
+  radius: 3026
+  rotationSpeed: 0.003811
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 302600
+  land:
+    ratio: 0.42
+    color: [0.378984, 0.554619, 0.66, 1]
+    polarColor: [0.83458, 0.896718, 0.934, 1]
+  sea:
+    color: [0.552734, 0.497933, 0.439597, 1]
+    polarColor: [0.944727, 0.92131, 0.896383, 1]
+  air:
+    color: [0.616594, 0.89437, 0.951522, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.652303, 0.857422, 0.465553, 1]
+    ratio: 0.31
+    polarColor: [0.753392, 0.88584, 0.632805, 1]
+  demographics:
+    type: 37
+    gdp: 14208
+    tech: 7
+    economy: 4
+    government: 4
+    description: Vees is a revolting dump.
+    inhabitants: Large Yellow Felines
+- type: star
+  type: primary
+  color: [0.842334, 0.646889, 0.432221, 1]
+  radius: 63527.715454
+  orbit:
+    type: static
+    parent: ~
+    radius: 332860
+    vector: [-0.328, -0.678, 0.658]
+  corona:
+    shimmer: 0.521211
+    hues: 0.779976
+    flare: 0.036768
+stations:
+- type: coriolis
+  orbit:
+    parent: Vees
+    vector: undefined
+    radius: 6052

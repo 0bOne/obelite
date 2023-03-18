@@ -1,0 +1,61 @@
+name: Betierte
+position: [133, 126]
+seed: 222 126 138 133 128 179
+limits:
+  blurs: 176
+  stars: 8457
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Betierte
+  radius: 3717
+  rotationSpeed: 0.000492
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 557550
+  land:
+    ratio: 0.32
+    color: [0.301178, 0.344625, 0.542969, 1]
+    polarColor: [0.84042, 0.859338, 0.945703, 1]
+  sea:
+    color: [0.55, 0.6875, 0.581152, 1]
+    polarColor: [0.884687, 0.93125, 0.895237, 1]
+  air:
+    color: [0.659923, 0.875605, 0.910547, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.662883, 0.734375, 0.567993, 1]
+    ratio: 0.06
+    polarColor: [0.779939, 0.830469, 0.712873, 1]
+  demographics:
+    type: 20
+    gdp: 3200
+    tech: 3
+    economy: 6
+    government: 1
+    description: The planet Betierte is famous for Betierteian shrew cutlet but plagued by frequent earthquakes.
+    inhabitants: Harmless Bony Felines
+- type: star
+  type: primary
+  color: [0.287562, 0.300051, 0.729343, 1]
+  radius: 81229.404144
+  orbit:
+    type: static
+    parent: ~
+    radius: 260190
+    vector: [-0.619, 0.446, -0.646]
+  corona:
+    shimmer: 0.256609
+    hues: 0.849968
+    flare: 0.025366
+stations:
+- type: coriolis
+  orbit:
+    parent: Betierte
+    vector: undefined
+    radius: 7434

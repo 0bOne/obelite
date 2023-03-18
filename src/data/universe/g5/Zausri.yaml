@@ -1,0 +1,61 @@
+name: Zausri
+position: [50, 177]
+seed: 47 177 149 50 64 68
+limits:
+  blurs: 178
+  stars: 6963
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zausri
+  radius: 3890
+  rotationSpeed: 0.003358
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 466800
+  land:
+    ratio: 0.46
+    color: [0.401299, 0.59375, 0.020874, 1]
+    polarColor: [0.864404, 0.940625, 0.713736, 1]
+  sea:
+    color: [0.683594, 0.506604, 0.45929, 1]
+    polarColor: [0.931641, 0.871338, 0.855217, 1]
+  air:
+    color: [0.769402, 0.518992, 0.954123, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.865234, 0.199409, 0.371067, 1]
+    ratio: 0.38
+    polarColor: [0.889355, 0.461614, 0.571891, 1]
+  demographics:
+    type: 40
+    gdp: 17280
+    tech: 9
+    economy: 1
+    government: 2
+    description: The world Zausri is very famous for its unusual casinos but plagued by frequent solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.766562, 0.630554, 0.600347, 1]
+  radius: 99468.753052
+  orbit:
+    type: static
+    parent: ~
+    radius: 272300
+    vector: [0.932, -0.332, -0.144]
+  corona:
+    shimmer: 0.367503
+    hues: 0.589439
+    flare: 0.000757
+stations:
+- type: coriolis
+  orbit:
+    parent: Zausri
+    vector: undefined
+    radius: 7780

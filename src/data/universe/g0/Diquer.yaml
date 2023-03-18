@@ -1,0 +1,61 @@
+name: Diquer
+position: [104, 69]
+seed: 42 69 156 104 27 45
+limits:
+  blurs: 120
+  stars: 6940
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diquer
+  radius: 6248
+  rotationSpeed: 0.004294
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 687280
+  land:
+    ratio: 0.29
+    color: [0.491495, 0.66, 0.430547, 1]
+    polarColor: [0.874385, 0.934, 0.852822, 1]
+  sea:
+    color: [0.625, 0.507782, 0.461914, 1]
+    polarColor: [0.9375, 0.893543, 0.876343, 1]
+  air:
+    color: [0.58371, 0.474125, 0.946318, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.623178, 0.085495, 0.841797, 1]
+    ratio: 0.43
+    polarColor: [0.736164, 0.385337, 0.878809, 1]
+  demographics:
+    type: 25
+    gdp: 7000
+    tech: 4
+    economy: 5
+    government: 3
+    description: The world Diquer is a dull place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.687915, 0.412903, 0.244343, 1]
+  radius: 209721.190186
+  orbit:
+    type: static
+    parent: ~
+    radius: 499840
+    vector: [0.919, -0.324, 0.225]
+  corona:
+    shimmer: 0.451748
+    hues: 0.762337
+    flare: 0.073625
+stations:
+- type: coriolis
+  orbit:
+    parent: Diquer
+    vector: undefined
+    radius: 12496

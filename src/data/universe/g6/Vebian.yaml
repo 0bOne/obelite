@@ -1,0 +1,61 @@
+name: Vebian
+position: [94, 17]
+seed: 18 17 210 94 84 150
+limits:
+  blurs: 118
+  stars: 7741
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vebian
+  radius: 4446
+  rotationSpeed: 0.003129
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 533520
+  land:
+    ratio: 0.28
+    color: [0.289841, 0.392113, 0.511719, 1]
+    polarColor: [0.845977, 0.893385, 0.948828, 1]
+  sea:
+    color: [0.595635, 0.650391, 0.507356, 1]
+    polarColor: [0.915283, 0.934961, 0.883556, 1]
+  air:
+    color: [0.549564, 0.588652, 0.839654, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.293335, 0.382456, 0.521484, 1]
+    ratio: 0.46
+    polarColor: [0.533782, 0.612253, 0.734668, 1]
+  demographics:
+    type: 40
+    gdp: 17280
+    tech: 9
+    economy: 1
+    government: 2
+    description: This world is mildly famous for its hoopy night life and its exotic cuisine.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.745712, 0.693646, 0.658367, 1]
+  radius: 131154.150696
+  orbit:
+    type: static
+    parent: ~
+    radius: 222300
+    vector: [0.035, -0.708, -0.706]
+  corona:
+    shimmer: 0.433118
+    hues: 0.902161
+    flare: 0.073412
+stations:
+- type: coriolis
+  orbit:
+    parent: Vebian
+    vector: undefined
+    radius: 8892

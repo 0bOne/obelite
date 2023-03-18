@@ -1,0 +1,61 @@
+name: Erbierso
+position: [89, 124]
+seed: 218 124 2 89 170 208
+limits:
+  blurs: 45
+  stars: 9166
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erbierso
+  radius: 2905
+  rotationSpeed: 0.000109
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 406700
+  land:
+    ratio: 0.65
+    color: [0.66, 0.343193, 0.281016, 1]
+    polarColor: [0.934, 0.821917, 0.79992, 1]
+  sea:
+    color: [0.819295, 0.709335, 0.894531, 1]
+    polarColor: [0.891401, 0.863419, 0.910547, 1]
+  air:
+    color: [0.6315, 0.473759, 0.958025, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.870664, 0.0719376, 0.876953, 1]
+    ratio: 0.46
+    polarColor: [0.890619, 0.381353, 0.894629, 1]
+  demographics:
+    type: 15
+    gdp: 1920
+    tech: 2
+    economy: 6
+    government: 0
+    description: Erbierso is cursed by deadly civil war.
+    inhabitants: Furry Humanoids
+- type: star
+  type: primary
+  color: [0.674647, 0.685373, 0.743912, 1]
+  radius: 60913.864136
+  orbit:
+    type: static
+    parent: ~
+    radius: 87150
+    vector: [-0.316, -0.948, -0.05]
+  corona:
+    shimmer: 0.306897
+    hues: 0.534576
+    flare: 0.035992
+stations:
+- type: coriolis
+  orbit:
+    parent: Erbierso
+    vector: undefined
+    radius: 5810

@@ -1,0 +1,61 @@
+name: Orxete
+position: [97, 200]
+seed: 47 200 45 97 32 249
+limits:
+  blurs: 76
+  stars: 7020
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orxete
+  radius: 5217
+  rotationSpeed: 0.000636
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 678210
+  land:
+    ratio: 0.66
+    color: [0.66, 0.236664, 0.180469, 1]
+    polarColor: [0.934, 0.784229, 0.764348, 1]
+  sea:
+    color: [0.591797, 0.402237, 0.562178, 1]
+    polarColor: [0.94082, 0.865481, 0.929049, 1]
+  air:
+    color: [0.712553, 0.740751, 0.96583, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.731567, 0.785644, 0.900391, 1]
+    ratio: 0.23
+    polarColor: [0.799101, 0.833078, 0.905176, 1]
+  demographics:
+    type: 50
+    gdp: 36000
+    tech: 11
+    economy: 0
+    government: 5
+    description: The planet Orxete is very noted for its unusual sit coms but plagued by unpredictable civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.722217, 0.70441, 0.560675, 1]
+  radius: 107019.507751
+  orbit:
+    type: static
+    parent: ~
+    radius: 208680
+    vector: [0.032, -0.147, -0.989]
+  corona:
+    shimmer: 0.661098
+    hues: 0.894257
+    flare: 0.096556
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Orxete
+    vector: undefined
+    radius: 10434

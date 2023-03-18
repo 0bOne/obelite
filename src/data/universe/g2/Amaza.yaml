@@ -1,0 +1,61 @@
+name: Amaza
+position: [137, 147]
+seed: 49 147 73 137 109 143
+limits:
+  blurs: 105
+  stars: 8195
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Amaza
+  radius: 6793
+  rotationSpeed: 0.000711
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 747230
+  land:
+    ratio: 0.48
+    color: [0.309939, 0.284729, 0.607422, 1]
+    polarColor: [0.824258, 0.814513, 0.939258, 1]
+  sea:
+    color: [0.55308, 0.699219, 0.544626, 1]
+    polarColor: [0.881481, 0.930078, 0.87867, 1]
+  air:
+    color: [0.685693, 0.850452, 0.896238, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.642982, 0.691406, 0.618484, 1]
+    ratio: 0.28
+    polarColor: [0.775627, 0.811133, 0.757665, 1]
+  demographics:
+    type: 29
+    gdp: 8120
+    tech: 6
+    economy: 3
+    government: 1
+    description: Amaza is reasonably notable for its great parking meters but ravaged by occasional earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.51436, 0.752691, 0.794351, 1]
+  radius: 148157.386475
+  orbit:
+    type: static
+    parent: ~
+    radius: 747230
+    vector: [-0.523, -0.424, 0.739]
+  corona:
+    shimmer: 0.234834
+    hues: 0.680405
+    flare: 0.093571
+stations:
+- type: coriolis
+  orbit:
+    parent: Amaza
+    vector: undefined
+    radius: 13586

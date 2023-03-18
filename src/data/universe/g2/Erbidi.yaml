@@ -1,0 +1,61 @@
+name: Erbidi
+position: [119, 254]
+seed: 61 254 145 119 53 208
+limits:
+  blurs: 124
+  stars: 7856
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erbidi
+  radius: 2935
+  rotationSpeed: 0.001988
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 322850
+  land:
+    ratio: 0.47
+    color: [0.447628, 0.365959, 0.529297, 1]
+    polarColor: [0.910538, 0.874005, 0.94707, 1]
+  sea:
+    color: [0.583434, 0.646484, 0.507339, 1]
+    polarColor: [0.912546, 0.935352, 0.885022, 1]
+  air:
+    color: [0.685907, 0.790107, 0.951522, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.653114, 0.857422, 0.823903, 1]
+    ratio: 0.31
+    polarColor: [0.753915, 0.88584, 0.864196, 1]
+  demographics:
+    type: 29
+    gdp: 5568
+    tech: 5
+    economy: 6
+    government: 2
+    description: The planet Erbidi is very famous for its hoopy night life but scourged by deadly edible moths.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.691452, 0.314481, 0.211795, 1]
+  radius: 62060.184479
+  orbit:
+    type: static
+    parent: ~
+    radius: 234800
+    vector: [-0.615, 0.788, -0.026]
+  corona:
+    shimmer: 0.381298
+    hues: 0.982552
+    flare: 0.092868
+stations:
+- type: coriolis
+  orbit:
+    parent: Erbidi
+    vector: undefined
+    radius: 5870

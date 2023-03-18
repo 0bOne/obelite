@@ -1,0 +1,61 @@
+name: Esleve
+position: [203, 172]
+seed: 178 172 98 203 116 9
+limits:
+  blurs: 55
+  stars: 5486
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esleve
+  radius: 5323
+  rotationSpeed: 0.002457
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 532300
+  land:
+    ratio: 0.45
+    color: [0.315545, 0.300354, 0.578125, 1]
+    polarColor: [0.835204, 0.829015, 0.942187, 1]
+  sea:
+    color: [0.638672, 0.595763, 0.481748, 1]
+    polarColor: [0.936133, 0.920409, 0.87863, 1]
+  air:
+    color: [0.540286, 0.540957, 0.86502, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.284948, 0.282486, 0.597656, 1]
+    ratio: 0.4
+    polarColor: [0.517489, 0.515509, 0.768945, 1]
+  demographics:
+    type: 41
+    gdp: 15744
+    tech: 8
+    economy: 4
+    government: 4
+    description: This world is most fabled for its inhabitants’ ingrained silliness but scourged by deadly civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.76843, 0.335118, 0.208077, 1]
+  radius: 155512.725067
+  orbit:
+    type: static
+    parent: ~
+    radius: 425840
+    vector: [0.276, -0.961, -0.005]
+  corona:
+    shimmer: 0.401347
+    hues: 0.85183
+    flare: 0.014522
+stations:
+- type: coriolis
+  orbit:
+    parent: Esleve
+    vector: undefined
+    radius: 10646

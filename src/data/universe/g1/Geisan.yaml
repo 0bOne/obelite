@@ -1,0 +1,61 @@
+name: Geisan
+position: [250, 127]
+seed: 148 127 16 250 166 67
+limits:
+  blurs: 53
+  stars: 5358
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geisan
+  radius: 3834
+  rotationSpeed: 0.000147
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 498420
+  land:
+    ratio: 0.37
+    color: [0.657422, 0.66, 0.659879, 1]
+    polarColor: [0.933088, 0.934, 0.933957, 1]
+  sea:
+    color: [1, 0.7462, 0.73, 1]
+    polarColor: [0.9, 0.842895, 0.83925, 1]
+  air:
+    color: [0.721835, 0.532422, 0.93201, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.798828, 0.249634, 0.558556, 1]
+    ratio: 0.35
+    polarColor: [0.859473, 0.490168, 0.697902, 1]
+  demographics:
+    type: 22
+    gdp: 3168
+    tech: 3
+    economy: 7
+    government: 2
+    description: The planet Geisan is most famous for its pink oceans and Zero-G hockey.
+    inhabitants: Large Yellow Furry Rodents
+- type: star
+  type: primary
+  color: [0.248168, 0.319122, 0.719452, 1]
+  radius: 99963.874512
+  orbit:
+    type: static
+    parent: ~
+    radius: 191700
+    vector: [-0.053, -0.206, -0.977]
+  corona:
+    shimmer: 0.35472
+    hues: 0.869621
+    flare: 0.012743
+stations:
+- type: coriolis
+  orbit:
+    parent: Geisan
+    vector: undefined
+    radius: 7668

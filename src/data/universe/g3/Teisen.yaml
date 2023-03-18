@@ -1,0 +1,61 @@
+name: Teisen
+position: [152, 104]
+seed: 178 104 226 152 26 124
+limits:
+  blurs: 68
+  stars: 9349
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teisen
+  radius: 6040
+  rotationSpeed: 0.001954
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 664400
+  land:
+    ratio: 0.3
+    color: [0.66, 0.598125, 0.4125, 1]
+    polarColor: [0.934, 0.912109, 0.846438, 1]
+  sea:
+    color: [0.632812, 0.390564, 0.566573, 1]
+    polarColor: [0.936719, 0.847072, 0.912206, 1]
+  air:
+    color: [0.631728, 0.569699, 0.866971, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.510321, 0.344193, 0.603516, 1]
+    ratio: 0.22
+    polarColor: [0.697115, 0.56437, 0.771582, 1]
+  demographics:
+    type: 41
+    gdp: 26240
+    tech: 9
+    economy: 0
+    government: 4
+    description: Teisen is reasonably well known for its vast oceans but ravaged by lethal spotted craboids.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.690469, 0.736179, 0.814694, 1]
+  radius: 196017.059326
+  orbit:
+    type: static
+    parent: ~
+    radius: 543600
+    vector: [-0.258, -0.336, -0.906]
+  corona:
+    shimmer: 0.397029
+    hues: 0.715782
+    flare: 0.012305
+stations:
+- type: coriolis
+  orbit:
+    parent: Teisen
+    vector: undefined
+    radius: 12080

@@ -1,0 +1,61 @@
+name: Esmara
+position: [159, 194]
+seed: 135 194 226 159 67 105
+limits:
+  blurs: 74
+  stars: 7740
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esmara
+  radius: 5279
+  rotationSpeed: 0.001751
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 580690
+  land:
+    ratio: 0.33
+    color: [0.040968, 0.0360938, 0.66, 1]
+    polarColor: [0.714994, 0.71327, 0.934, 1]
+  sea:
+    color: [0.571812, 0.626953, 0.498624, 1]
+    polarColor: [0.916695, 0.937305, 0.889341, 1]
+  air:
+    color: [0.552233, 0.44975, 0.959977, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.546181, 0.00344849, 0.882812, 1]
+    ratio: 0.16
+    polarColor: [0.683426, 0.338665, 0.897266, 1]
+  demographics:
+    type: 47
+    gdp: 24064
+    tech: 10
+    economy: 2
+    government: 4
+    description: Esmara is reasonably notable for its unusual oceans but plagued by occasional civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.633495, 0.750479, 0.788156, 1]
+  radius: 135524.889069
+  orbit:
+    type: static
+    parent: ~
+    radius: 633480
+    vector: [-0.405, 0.774, 0.486]
+  corona:
+    shimmer: 0.436621
+    hues: 0.519882
+    flare: 0.050153
+stations:
+- type: coriolis
+  orbit:
+    parent: Esmara
+    vector: undefined
+    radius: 10558

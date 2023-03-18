@@ -1,0 +1,61 @@
+name: Riattein
+position: [204, 38]
+seed: 215 38 50 204 115 254
+limits:
+  blurs: 195
+  stars: 7350
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riattein
+  radius: 6604
+  rotationSpeed: 0.000577
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 792480
+  land:
+    ratio: 0.34
+    color: [0.381563, 0.66, 0.601267, 1]
+    polarColor: [0.835492, 0.934, 0.913221, 1]
+  sea:
+    color: [0.564496, 0.65625, 0.518079, 1]
+    polarColor: [0.901715, 0.934375, 0.885193, 1]
+  air:
+    color: [0.717472, 0.619559, 0.84876, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.548828, 0.43306, 0.514459, 1]
+    ratio: 0.38
+    polarColor: [0.746973, 0.648495, 0.717737, 1]
+  demographics:
+    type: 29
+    gdp: 9280
+    tech: 4
+    economy: 6
+    government: 6
+    description: This planet is plagued by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.665342, 0.814596, 0.823056, 1]
+  radius: 172786.662598
+  orbit:
+    type: static
+    parent: ~
+    radius: 396240
+    vector: [0.401, 0.697, -0.595]
+  corona:
+    shimmer: 0.371502
+    hues: 0.586357
+    flare: 0.014737
+stations:
+- type: coriolis
+  orbit:
+    parent: Riattein
+    vector: undefined
+    radius: 13208

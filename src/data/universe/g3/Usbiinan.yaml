@@ -1,0 +1,61 @@
+name: Usbiinan
+position: [61, 160]
+seed: 218 160 2 61 170 232
+limits:
+  blurs: 61
+  stars: 6340
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usbiinan
+  radius: 4925
+  rotationSpeed: 0.000115
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 689500
+  land:
+    ratio: 0.61
+    color: [0.66, 0.219141, 0.518787, 1]
+    polarColor: [0.934, 0.778029, 0.884041, 1]
+  sea:
+    color: [0.691406, 0.446857, 0.43483, 1]
+    polarColor: [0.930859, 0.848548, 0.8445, 1]
+  air:
+    color: [0.665896, 0.808532, 0.954773, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.599579, 0.867188, 0.741746, 1]
+    ratio: 0.07
+    polarColor: [0.718534, 0.890234, 0.80975, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 6
+    economy: 2
+    government: 0
+    description: Usbiinan is most noted for its inhabitants’ exceptional love for food blenders and its weird rock formations.
+    inhabitants: Small Furry Humanoids
+- type: star
+  type: primary
+  color: [0.710014, 0.71987, 0.729337, 1]
+  radius: 103267.486572
+  orbit:
+    type: static
+    parent: ~
+    radius: 246250
+    vector: [-0.301, -0.797, 0.524]
+  corona:
+    shimmer: 0.652035
+    hues: 0.828606
+    flare: 0.026862
+stations:
+- type: coriolis
+  orbit:
+    parent: Usbiinan
+    vector: undefined
+    radius: 9850

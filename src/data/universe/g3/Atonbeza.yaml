@@ -1,0 +1,61 @@
+name: Atonbeza
+position: [3, 11]
+seed: 114 11 34 3 26 81
+limits:
+  blurs: 120
+  stars: 9870
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atonbeza
+  radius: 3075
+  rotationSpeed: 0.004412
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 369000
+  land:
+    ratio: 0.6
+    color: [0.66, 0.144375, 0.651943, 1]
+    polarColor: [0.934, 0.751578, 0.93115, 1]
+  sea:
+    color: [0.625, 0.619459, 0.483154, 1]
+    polarColor: [0.9375, 0.935422, 0.884308, 1]
+  air:
+    color: [0.578239, 0.551953, 0.86567, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.384601, 0.306831, 0.599609, 1]
+    ratio: 0.51
+    polarColor: [0.597296, 0.534892, 0.769824, 1]
+  demographics:
+    type: 44
+    gdp: 19712
+    tech: 9
+    economy: 3
+    government: 4
+    description: The planet Atonbeza is reasonably fabled for Zero-G hockey and its inhabitants’ ingrained shyness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.688306, 0.55964, 0.259228, 1]
+  radius: 65189.380646
+  orbit:
+    type: static
+    parent: ~
+    radius: 307500
+    vector: [-0.289, -0.759, -0.583]
+  corona:
+    shimmer: 0.413842
+    hues: 0.720215
+    flare: 0.080353
+stations:
+- type: coriolis
+  orbit:
+    parent: Atonbeza
+    vector: undefined
+    radius: 6150

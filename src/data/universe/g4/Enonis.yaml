@@ -1,0 +1,61 @@
+name: Enonis
+position: [204, 225]
+seed: 28 225 64 204 37 82
+limits:
+  blurs: 78
+  stars: 9263
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enonis
+  radius: 3532
+  rotationSpeed: 0.001904
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 494480
+  land:
+    ratio: 0.54
+    color: [0.552734, 0.455574, 0.498841, 1]
+    polarColor: [0.944727, 0.90321, 0.921698, 1]
+  sea:
+    color: [0.612254, 0.833984, 0.511467, 1]
+    polarColor: [0.855678, 0.916602, 0.827985, 1]
+  air:
+    color: [0.617064, 0.811768, 0.987943, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.456963, 0.966797, 0.680015, 1]
+    ratio: 0.45
+    polarColor: [0.626873, 0.935059, 0.761704, 1]
+  demographics:
+    type: 20
+    gdp: 4480
+    tech: 4
+    economy: 3
+    government: 0
+    description: Enonis is an unremarkable dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.838641, 0.658928, 0.638524, 1]
+  radius: 75099.193115
+  orbit:
+    type: static
+    parent: ~
+    radius: 247240
+    vector: [0.026, 0.787, 0.617]
+  corona:
+    shimmer: 0.377951
+    hues: 0.519447
+    flare: 0.095686
+stations:
+- type: coriolis
+  orbit:
+    parent: Enonis
+    vector: undefined
+    radius: 7064

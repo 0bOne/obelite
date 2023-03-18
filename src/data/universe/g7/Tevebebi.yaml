@@ -1,0 +1,61 @@
+name: Tevebebi
+position: [191, 218]
+seed: 95 218 250 191 107 220
+limits:
+  blurs: 184
+  stars: 9911
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tevebebi
+  radius: 6079
+  rotationSpeed: 0.002434
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 607900
+  land:
+    ratio: 0.36
+    color: [0.570624, 0.355682, 0.615234, 1]
+    polarColor: [0.921464, 0.839497, 0.938477, 1]
+  sea:
+    color: [0.570312, 0.497415, 0.44422, 1]
+    polarColor: [0.942969, 0.912836, 0.890848, 1]
+  air:
+    color: [0.784434, 0.571997, 0.917701, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.755859, 0.354309, 0.410777, 1]
+    ratio: 0.54
+    polarColor: [0.840137, 0.561185, 0.600413, 1]
+  demographics:
+    type: 58
+    gdp: 40832
+    tech: 12
+    economy: 2
+    government: 7
+    description: This planet is notable for the Tevebebiian tree grub and its inhabitants’ ancient loathing of discos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.293574, 0.413932, 0.693426, 1]
+  radius: 128819.775848
+  orbit:
+    type: static
+    parent: ~
+    radius: 486320
+    vector: [0.149, -0.514, 0.845]
+  corona:
+    shimmer: 0.330977
+    hues: 0.865822
+    flare: 0.09507
+stations:
+- type: icosahedron
+  orbit:
+    parent: Tevebebi
+    vector: undefined
+    radius: 12158

@@ -1,0 +1,61 @@
+name: Veenar
+position: [225, 123]
+seed: 52 123 104 225 54 118
+limits:
+  blurs: 43
+  stars: 9437
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veenar
+  radius: 4577
+  rotationSpeed: 0.000478
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 411930
+  land:
+    ratio: 0.64
+    color: [0.66, 0.634622, 0.497578, 1]
+    polarColor: [0.934, 0.925021, 0.876537, 1]
+  sea:
+    color: [0.6588, 0.689927, 0.832031, 1]
+    polarColor: [0.869077, 0.877652, 0.916797, 1]
+  air:
+    color: [0.692205, 0.702199, 0.992496, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.677902, 0.703904, 0.980469, 1]
+    ratio: 0.5
+    polarColor: [0.759679, 0.775279, 0.941211, 1]
+  demographics:
+    type: 41
+    gdp: 20664
+    tech: 8
+    economy: 3
+    government: 5
+    description: The planet Veenar is most famous for the Veenarian evil arts graduate and its fabulous Be juice.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.729706, 0.631292, 0.59155, 1]
+  radius: 114104.436798
+  orbit:
+    type: static
+    parent: ~
+    radius: 686550
+    vector: [-0.308, 0.06, -0.95]
+  corona:
+    shimmer: 0.52625
+    hues: 0.919739
+    flare: 0.015729
+stations:
+- type: coriolis
+  orbit:
+    parent: Veenar
+    vector: undefined
+    radius: 9154

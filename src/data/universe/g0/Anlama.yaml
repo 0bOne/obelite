@@ -1,0 +1,61 @@
+name: Anlama
+position: [25, 96]
+seed: 152 96 212 25 141 187
+limits:
+  blurs: 74
+  stars: 8625
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anlama
+  radius: 5657
+  rotationSpeed: 0.004893
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 678840
+  land:
+    ratio: 0.45
+    color: [0.659617, 0.611016, 0.66, 1]
+    polarColor: [0.933865, 0.91667, 0.934, 1]
+  sea:
+    color: [0.572266, 0.537058, 0.00894165, 1]
+    polarColor: [0.942773, 0.928273, 0.710763, 1]
+  air:
+    color: [0.633573, 0.897952, 0.927457, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.698896, 0.785156, 0.509125, 1]
+    ratio: 0.12
+    polarColor: [0.794727, 0.85332, 0.665823, 1]
+  demographics:
+    type: 39
+    gdp: 18720
+    tech: 9
+    economy: 0
+    government: 2
+    description: This world is a tedious little planet.
+    inhabitants: Harmless Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.791696, 0.689899, 0.574359, 1]
+  radius: 167335.365143
+  orbit:
+    type: static
+    parent: ~
+    radius: 226280
+    vector: [-0.811, -0.071, 0.58]
+  corona:
+    shimmer: 0.578991
+    hues: 0.887749
+    flare: 0.072588
+stations:
+- type: coriolis
+  orbit:
+    parent: Anlama
+    vector: undefined
+    radius: 11314

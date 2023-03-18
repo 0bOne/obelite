@@ -1,0 +1,61 @@
+name: Edrari
+position: [242, 233]
+seed: 146 233 2 242 154 88
+limits:
+  blurs: 122
+  stars: 7969
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edrari
+  radius: 5106
+  rotationSpeed: 0.003202
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 510600
+  land:
+    ratio: 0.5
+    color: [0.127819, 0.597656, 0.074707, 1]
+    polarColor: [0.755447, 0.940234, 0.734558, 1]
+  sea:
+    color: [0.95, 0.76, 0.8968, 1]
+    polarColor: [0.905, 0.85975, 0.89233, 1]
+  air:
+    color: [0.622916, 0.863928, 0.961277, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.532118, 0.886719, 0.481461, 1]
+    ratio: 0.56
+    polarColor: [0.674322, 0.899023, 0.642222, 1]
+  demographics:
+    type: 28
+    gdp: 6272
+    tech: 6
+    economy: 3
+    government: 0
+    description: The planet Edrari is most famous for the Edrariian deadly goat and its pink oceans.
+    inhabitants: Yellow Bony Lobsters
+- type: star
+  type: primary
+  color: [0.362394, 0.461562, 0.760165, 1]
+  radius: 106672.361755
+  orbit:
+    type: static
+    parent: ~
+    radius: 510600
+    vector: [-0.058, -0.986, -0.153]
+  corona:
+    shimmer: 0.493628
+    hues: 0.549133
+    flare: 0.005463
+stations:
+- type: coriolis
+  orbit:
+    parent: Edrari
+    vector: undefined
+    radius: 10212

@@ -1,0 +1,61 @@
+name: Ededleen
+position: [207, 16]
+seed: 202 16 204 207 91 120
+limits:
+  blurs: 131
+  stars: 6319
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ededleen
+  radius: 5071
+  rotationSpeed: 0.003719
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 557810
+  land:
+    ratio: 0.47
+    color: [0.66, 0.0979688, 0.177004, 1]
+    polarColor: [0.934, 0.73516, 0.763122, 1]
+  sea:
+    color: [0.595703, 0.495389, 0.451431, 1]
+    polarColor: [0.94043, 0.900839, 0.88349, 1]
+  air:
+    color: [0.587285, 0.898243, 0.976887, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.589223, 0.933594, 0.375626, 1]
+    ratio: 0.32
+    polarColor: [0.707992, 0.920117, 0.576421, 1]
+  demographics:
+    type: 40
+    gdp: 12800
+    tech: 9
+    economy: 2
+    government: 1
+    description: The planet Ededleen is mildly well known for its exotic cuisine.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.222962, 0.737635, 0.820383, 1]
+  radius: 129288.989105
+  orbit:
+    type: static
+    parent: ~
+    radius: 659230
+    vector: [0.845, -0.05, -0.533]
+  corona:
+    shimmer: 0.315775
+    hues: 0.833473
+    flare: 0.051476
+stations:
+- type: coriolis
+  orbit:
+    parent: Ededleen
+    vector: undefined
+    radius: 10142

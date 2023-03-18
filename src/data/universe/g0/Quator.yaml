@@ -1,0 +1,61 @@
+name: Quator
+position: [14, 137]
+seed: 24 137 4 14 45 90
+limits:
+  blurs: 106
+  stars: 9183
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Quator
+  radius: 5390
+  rotationSpeed: 0.000473
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 646800
+  land:
+    ratio: 0.32
+    color: [0.631238, 0.134062, 0.66, 1]
+    polarColor: [0.923824, 0.74793, 0.934, 1]
+  sea:
+    color: [0.587891, 0.58037, 0.467557, 1]
+    polarColor: [0.941211, 0.938201, 0.893047, 1]
+  air:
+    color: [0.647331, 0.863719, 0.806068, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.59375, 0.522376, 0.503296, 1]
+    ratio: 0.51
+    polarColor: [0.767187, 0.709548, 0.69414, 1]
+  demographics:
+    type: 28
+    gdp: 6272
+    tech: 6
+    economy: 3
+    government: 0
+    description: The world Quator is scourged by deadly edible arts graduates.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.536381, 0.544416, 0.729077, 1]
+  radius: 126546.073914
+  orbit:
+    type: static
+    parent: ~
+    radius: 377300
+    vector: [0.569, 0.597, -0.566]
+  corona:
+    shimmer: 0.43155
+    hues: 0.954643
+    flare: 0.016846
+stations:
+- type: coriolis
+  orbit:
+    parent: Quator
+    vector: undefined
+    radius: 10780

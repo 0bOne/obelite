@@ -1,0 +1,61 @@
+name: Maeser
+position: [122, 162]
+seed: 134 162 220 122 243 171
+limits:
+  blurs: 88
+  stars: 9136
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maeser
+  radius: 5754
+  rotationSpeed: 0.002167
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 690480
+  land:
+    ratio: 0.2
+    color: [0.497578, 0.66, 0.591478, 1]
+    polarColor: [0.876537, 0.934, 0.909758, 1]
+  sea:
+    color: [0.610216, 0.669922, 0.513956, 1]
+    polarColor: [0.91222, 0.933008, 0.878704, 1]
+  air:
+    color: [0.501658, 0.596331, 0.86632, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.202087, 0.507936, 0.601562, 1]
+    ratio: 0.33
+    polarColor: [0.450831, 0.695733, 0.770703, 1]
+  demographics:
+    type: 42
+    gdp: 18816
+    tech: 9
+    economy: 2
+    government: 3
+    description: Maeser is reasonably well known for its vast oceans but ravaged by lethal spotted craboids.
+    inhabitants: Small Harmless Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.755246, 0.355004, 0.335468, 1]
+  radius: 143945.700989
+  orbit:
+    type: static
+    parent: ~
+    radius: 402780
+    vector: [0.436, -0.716, 0.545]
+  corona:
+    shimmer: 0.355907
+    hues: 0.803764
+    flare: 0.089566
+stations:
+- type: coriolis
+  orbit:
+    parent: Maeser
+    vector: undefined
+    radius: 11508

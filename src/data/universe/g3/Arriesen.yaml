@@ -1,0 +1,61 @@
+name: Arriesen
+position: [64, 243]
+seed: 218 243 2 64 170 10
+limits:
+  blurs: 159
+  stars: 5448
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arriesen
+  radius: 5440
+  rotationSpeed: 0.000014
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 598400
+  land:
+    ratio: 0.5
+    color: [0.630674, 0.626484, 0.66, 1]
+    polarColor: [0.923625, 0.922143, 0.934, 1]
+  sea:
+    color: [0.84375, 0.332989, 0.280151, 1]
+    polarColor: [0.915625, 0.777057, 0.762723, 1]
+  air:
+    color: [0.658207, 0.739618, 0.991846, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.577171, 0.865638, 0.978516, 1]
+    ratio: 0.43
+    polarColor: [0.69928, 0.872536, 0.940332, 1]
+  demographics:
+    type: 20
+    gdp: 4480
+    tech: 4
+    economy: 3
+    government: 0
+    description: The planet Arriesen is scourged by deadly edible arts graduates.
+    inhabitants: Small Green Bony Humanoids
+- type: star
+  type: primary
+  color: [0.360772, 0.470818, 0.67597, 1]
+  radius: 122812.548828
+  orbit:
+    type: static
+    parent: ~
+    radius: 326400
+    vector: [-0.307, 0.863, -0.401]
+  corona:
+    shimmer: 0.391877
+    hues: 0.523056
+    flare: 0.032466
+stations:
+- type: coriolis
+  orbit:
+    parent: Arriesen
+    vector: undefined
+    radius: 10880

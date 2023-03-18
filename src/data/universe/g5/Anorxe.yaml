@@ -1,0 +1,61 @@
+name: Anorxe
+position: [173, 144]
+seed: 175 144 141 173 32 187
+limits:
+  blurs: 90
+  stars: 5219
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anorxe
+  radius: 5805
+  rotationSpeed: 0.004369
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 812700
+  land:
+    ratio: 0.32
+    color: [0.66, 0.0773438, 0.50068, 1]
+    polarColor: [0.934, 0.727863, 0.877635, 1]
+  sea:
+    color: [0.519531, 0.437062, 0.415016, 1]
+    polarColor: [0.948047, 0.910424, 0.900367, 1]
+  air:
+    color: [0.53624, 0.498368, 0.911848, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.338477, 0.175919, 0.738281, 1]
+    ratio: 0.37
+    polarColor: [0.550552, 0.436025, 0.832227, 1]
+  demographics:
+    type: 32
+    gdp: 10240
+    tech: 7
+    economy: 2
+    government: 1
+    description: The world Anorxe is most well known for its vast dense forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.799182, 0.776784, 0.773665, 1]
+  radius: 155241.410065
+  orbit:
+    type: static
+    parent: ~
+    radius: 522450
+    vector: [-0.477, 0.235, 0.847]
+  corona:
+    shimmer: 0.497306
+    hues: 0.972046
+    flare: 0.09366
+stations:
+- type: coriolis
+  orbit:
+    parent: Anorxe
+    vector: undefined
+    radius: 11610

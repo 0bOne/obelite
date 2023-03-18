@@ -1,0 +1,61 @@
+name: Xeoresce
+position: [14, 104]
+seed: 249 104 40 14 53 162
+limits:
+  blurs: 160
+  stars: 8288
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeoresce
+  radius: 3342
+  rotationSpeed: 0.002849
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 401040
+  land:
+    ratio: 0.56
+    color: [0.259484, 0.131484, 0.66, 1]
+    polarColor: [0.792302, 0.747018, 0.934, 1]
+  sea:
+    color: [0.623047, 0.571428, 0.472883, 1]
+    polarColor: [0.937695, 0.918274, 0.881195, 1]
+  air:
+    color: [0.648658, 0.868863, 0.930059, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.630469, 0.792969, 0.548264, 1]
+    ratio: 0.08
+    polarColor: [0.747094, 0.856836, 0.691577, 1]
+  demographics:
+    type: 54
+    gdp: 38880
+    tech: 12
+    economy: 0
+    government: 5
+    description: This planet is most fabled for mud hockey but ravaged by occasional earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.22482, 0.276017, 0.773358, 1]
+  radius: 67823.181152
+  orbit:
+    type: static
+    parent: ~
+    radius: 300780
+    vector: [0.209, 0.816, 0.539]
+  corona:
+    shimmer: 0.278827
+    hues: 0.597687
+    flare: 0.058484
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Xeoresce
+    vector: undefined
+    radius: 6684

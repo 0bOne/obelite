@@ -1,0 +1,61 @@
+name: Zadige
+position: [112, 56]
+seed: 130 56 242 112 90 164
+limits:
+  blurs: 146
+  stars: 5420
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zadige
+  radius: 3952
+  rotationSpeed: 0.000091
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 513760
+  land:
+    ratio: 0.45
+    color: [0.364905, 0.66, 0.244922, 1]
+    polarColor: [0.829599, 0.934, 0.78715, 1]
+  sea:
+    color: [0.568359, 0.503017, 0.445363, 1]
+    polarColor: [0.943164, 0.916056, 0.892137, 1]
+  air:
+    color: [0.628379, 0.842405, 0.96583, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.495918, 0.900391, 0.540157, 1]
+    ratio: 0.42
+    polarColor: [0.651037, 0.905176, 0.678833, 1]
+  demographics:
+    type: 47
+    gdp: 37600
+    tech: 10
+    economy: 0
+    government: 6
+    description: Zadige is cursed by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.752393, 0.660083, 0.214842, 1]
+  radius: 105846.977539
+  orbit:
+    type: static
+    parent: ~
+    radius: 276640
+    vector: [-0.421, 0.806, -0.416]
+  corona:
+    shimmer: 0.70787
+    hues: 0.77124
+    flare: 0.004982
+stations:
+- type: coriolis
+  orbit:
+    parent: Zadige
+    vector: undefined
+    radius: 7904

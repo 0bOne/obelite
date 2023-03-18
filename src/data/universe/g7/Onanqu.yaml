@@ -1,0 +1,61 @@
+name: Onanqu
+position: [128, 123]
+seed: 181 123 52 128 89 63
+limits:
+  blurs: 191
+  stars: 7083
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onanqu
+  radius: 6784
+  rotationSpeed: 0.002509
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 881920
+  land:
+    ratio: 0.71
+    color: [0.655065, 0.0283594, 0.66, 1]
+    polarColor: [0.932254, 0.710533, 0.934, 1]
+  sea:
+    color: [0.607422, 0.569727, 0.469566, 1]
+    polarColor: [0.939258, 0.924686, 0.885966, 1]
+  air:
+    color: [0.677735, 0.833763, 0.926807, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.621056, 0.783203, 0.642591, 1]
+    ratio: 0.24
+    polarColor: [0.74214, 0.852441, 0.75679, 1]
+  demographics:
+    type: 38
+    gdp: 21280
+    tech: 7
+    economy: 3
+    government: 6
+    description: This planet is notable for the Onanquian edible arts graduate and its fabulous cuisine.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.276036, 0.303111, 0.730914, 1]
+  radius: 160006.171875
+  orbit:
+    type: static
+    parent: ~
+    radius: 203520
+    vector: [-0.128, 0.897, -0.424]
+  corona:
+    shimmer: 0.536767
+    hues: 0.701057
+    flare: 0.00226
+stations:
+- type: coriolis
+  orbit:
+    parent: Onanqu
+    vector: undefined
+    radius: 13568

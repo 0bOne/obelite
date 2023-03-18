@@ -1,0 +1,61 @@
+name: Geerra
+position: [108, 214]
+seed: 64 214 240 108 45 64
+limits:
+  blurs: 42
+  stars: 6535
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geerra
+  radius: 2924
+  rotationSpeed: 0.004693
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 321640
+  land:
+    ratio: 0.53
+    color: [0.195129, 0.542969, 0.428834, 1]
+    polarColor: [0.794243, 0.945703, 0.896005, 1]
+  sea:
+    color: [0.562768, 0.640625, 0.509497, 1]
+    polarColor: [0.907501, 0.935938, 0.888044, 1]
+  air:
+    color: [0.648665, 0.823512, 0.958676, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.55275, 0.878906, 0.657222, 1]
+    ratio: 0.36
+    polarColor: [0.687809, 0.895508, 0.754338, 1]
+  demographics:
+    type: 29
+    gdp: 9280
+    tech: 4
+    economy: 6
+    government: 6
+    description: This planet is reasonably noted for its exotic goat soup.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.788065, 0.749304, 0.664491, 1]
+  radius: 73452.471924
+  orbit:
+    type: static
+    parent: ~
+    radius: 233920
+    vector: [0.2, 0.851, 0.485]
+  corona:
+    shimmer: 0.393993
+    hues: 0.802193
+    flare: 0.07894
+stations:
+- type: coriolis
+  orbit:
+    parent: Geerra
+    vector: undefined
+    radius: 5848

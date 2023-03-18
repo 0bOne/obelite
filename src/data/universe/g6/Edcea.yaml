@@ -1,0 +1,61 @@
+name: Edcea
+position: [145, 59]
+seed: 18 59 210 145 84 120
+limits:
+  blurs: 181
+  stars: 6807
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edcea
+  radius: 5009
+  rotationSpeed: 0.003123
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 450810
+  land:
+    ratio: 0.33
+    color: [0.572266, 0.552077, 0.534264, 1]
+    polarColor: [0.942773, 0.934459, 0.927122, 1]
+  sea:
+    color: [0.706202, 0.789062, 0.502411, 1]
+    polarColor: [0.896913, 0.921094, 0.83744, 1]
+  air:
+    color: [0.569907, 0.520489, 0.89884, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.423526, 0.234894, 0.699219, 1]
+    ratio: 0.28
+    polarColor: [0.613895, 0.476538, 0.814648, 1]
+  demographics:
+    type: 30
+    gdp: 10080
+    tech: 6
+    economy: 3
+    government: 2
+    description: Edcea is reasonably notable for its fabulous cuisine but plagued by evil tree wolfs.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.739719, 0.569691, 0.493976, 1]
+  radius: 147264.72229
+  orbit:
+    type: static
+    parent: ~
+    radius: 751350
+    vector: [0.423, -0.285, -0.86]
+  corona:
+    shimmer: 0.734807
+    hues: 0.691826
+    flare: 0.004326
+stations:
+- type: coriolis
+  orbit:
+    parent: Edcea
+    vector: undefined
+    radius: 10018

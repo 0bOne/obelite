@@ -1,0 +1,61 @@
+name: Usraer
+position: [51, 120]
+seed: 173 120 193 51 85 72
+limits:
+  blurs: 98
+  stars: 7946
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usraer
+  radius: 4915
+  rotationSpeed: 0.00254
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 540650
+  land:
+    ratio: 0.51
+    color: [0.2, 0.62, 0.8, 1]
+    polarColor: [0.7475, 0.86825, 0.92, 1]
+  sea:
+    color: [0.9, 0.495, 0.5679, 1]
+    polarColor: [0.91, 0.807625, 0.826053, 1]
+  air:
+    color: [0.449745, 0.454549, 0.936563, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0317383, 0.0439377, 0.8125, 1]
+    ratio: 0.51
+    polarColor: [0.345743, 0.353866, 0.865625, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: The world Usraer is very noted for its pink oceans but cursed by unpredictable earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.783038, 0.759845, 0.634167, 1]
+  radius: 126272.361755
+  orbit:
+    type: static
+    parent: ~
+    radius: 442350
+    vector: [-0.487, 0.836, -0.254]
+  corona:
+    shimmer: 0.458602
+    hues: 0.522659
+    flare: 0.019888
+stations:
+- type: coriolis
+  orbit:
+    parent: Usraer
+    vector: undefined
+    radius: 9830

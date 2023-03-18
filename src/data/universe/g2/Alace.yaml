@@ -1,0 +1,61 @@
+name: Alace
+position: [101, 137]
+seed: 85 137 57 101 229 64
+limits:
+  blurs: 186
+  stars: 5172
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Alace
+  radius: 2917
+  rotationSpeed: 0.004107
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 379210
+  land:
+    ratio: 0.46
+    color: [0.66, 0.177891, 0.59597, 1]
+    polarColor: [0.934, 0.763436, 0.911347, 1]
+  sea:
+    color: [0.545718, 0.650391, 0.520312, 1]
+    polarColor: [0.897343, 0.934961, 0.888213, 1]
+  air:
+    color: [0.595969, 0.467502, 0.955424, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.710659, 0.0577164, 0.869141, 1]
+    ratio: 0.43
+    polarColor: [0.789558, 0.371152, 0.891113, 1]
+  demographics:
+    type: 53
+    gdp: 41976
+    tech: 11
+    economy: 1
+    government: 7
+    description: This planet is reasonably famous for its inhabitants’ ancient loathing of casinos.
+    inhabitants: Large Yellow Fat Birds
+- type: star
+  type: primary
+  color: [0.787506, 0.616215, 0.575636, 1]
+  radius: 67780.102081
+  orbit:
+    type: static
+    parent: ~
+    radius: 262530
+    vector: [-0.002, 0.685, -0.728]
+  corona:
+    shimmer: 1.060453
+    hues: 0.725166
+    flare: 0.017796
+stations:
+- type: icosahedron
+  orbit:
+    parent: Alace
+    vector: undefined
+    radius: 5834

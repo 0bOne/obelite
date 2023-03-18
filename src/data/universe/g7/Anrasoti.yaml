@@ -1,0 +1,61 @@
+name: Anrasoti
+position: [119, 129]
+seed: 215 129 50 119 115 187
+limits:
+  blurs: 48
+  stars: 6265
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anrasoti
+  radius: 5751
+  rotationSpeed: 0.000533
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 517590
+  land:
+    ratio: 0.26
+    color: [0.66, 0.337734, 0.541668, 1]
+    polarColor: [0.934, 0.819986, 0.892136, 1]
+  sea:
+    color: [0.660156, 0.530414, 0.479645, 1]
+    polarColor: [0.933984, 0.888095, 0.870138, 1]
+  air:
+    color: [0.695639, 0.735545, 0.975586, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.686371, 0.787119, 0.929688, 1]
+    ratio: 0.38
+    polarColor: [0.768139, 0.83034, 0.918359, 1]
+  demographics:
+    type: 56
+    gdp: 40320
+    tech: 12
+    economy: 1
+    government: 6
+    description: Anrasoti is well known for the Anrasotiian spotted cat but ravaged by occasional earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.802625, 0.54285, 0.417889, 1]
+  radius: 156349.169769
+  orbit:
+    type: static
+    parent: ~
+    radius: 862650
+    vector: [-0.828, 0.462, 0.319]
+  corona:
+    shimmer: 0.416281
+    hues: 0.556992
+    flare: 0.02762
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Anrasoti
+    vector: undefined
+    radius: 11502

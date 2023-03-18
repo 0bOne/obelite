@@ -1,0 +1,61 @@
+name: Reedated
+position: [10, 30]
+seed: 102 30 204 10 243 78
+limits:
+  blurs: 117
+  stars: 5242
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reedated
+  radius: 6410
+  rotationSpeed: 0.001482
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 769200
+  land:
+    ratio: 0.65
+    color: [0.655952, 0.141797, 0.66, 1]
+    polarColor: [0.932568, 0.750666, 0.934, 1]
+  sea:
+    color: [0.568359, 0.432042, 0.432042, 1]
+    polarColor: [0.943164, 0.886611, 0.886611, 1]
+  air:
+    color: [0.479311, 0.624472, 0.872824, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.152847, 0.621094, 0.577196, 1]
+    ratio: 0.17
+    polarColor: [0.412202, 0.779492, 0.745059, 1]
+  demographics:
+    type: 24
+    gdp: 3840
+    tech: 4
+    economy: 6
+    government: 1
+    description: The planet Reedated is reasonably fabled for its exciting Reedatedian evil brandy and its fabulous lethal Ildi brew.
+    inhabitants: Yellow Fat Felines
+- type: star
+  type: primary
+  color: [0.704868, 0.589346, 0.428378, 1]
+  radius: 205270.429993
+  orbit:
+    type: static
+    parent: ~
+    radius: 705100
+    vector: [-0.646, 0.613, -0.456]
+  corona:
+    shimmer: 0.4174
+    hues: 0.757744
+    flare: 0.075438
+stations:
+- type: coriolis
+  orbit:
+    parent: Reedated
+    vector: undefined
+    radius: 12820

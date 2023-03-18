@@ -1,0 +1,61 @@
+name: Diarrive
+position: [70, 119]
+seed: 106 119 50 70 74 141
+limits:
+  blurs: 133
+  stars: 8491
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diarrive
+  radius: 6214
+  rotationSpeed: 0.0007
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 683540
+  land:
+    ratio: 0.43
+    color: [0.659053, 0.66, 0.538828, 1]
+    polarColor: [0.933665, 0.934, 0.891131, 1]
+  sea:
+    color: [0.0707626, 0.55604, 0.724609, 1]
+    polarColor: [0.718299, 0.873594, 0.927539, 1]
+  air:
+    color: [0.428723, 0.778258, 0.862418, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.271089, 0.589844, 0.0529938, 1]
+    ratio: 0.42
+    polarColor: [0.506903, 0.76543, 0.330017, 1]
+  demographics:
+    type: 34
+    gdp: 8160
+    tech: 5
+    economy: 7
+    government: 6
+    description: This world is fabled for its exciting lethal Lesooues water.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.454062, 0.663112, 0.671808, 1]
+  radius: 153525.699463
+  orbit:
+    type: static
+    parent: ~
+    radius: 559260
+    vector: [-0.414, -0.324, -0.85]
+  corona:
+    shimmer: 0.374723
+    hues: 0.543716
+    flare: 0.081805
+stations:
+- type: coriolis
+  orbit:
+    parent: Diarrive
+    vector: undefined
+    radius: 12428

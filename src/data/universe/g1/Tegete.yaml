@@ -1,0 +1,61 @@
+name: Tegete
+position: [189, 9]
+seed: 128 9 16 189 122 188
+limits:
+  blurs: 60
+  stars: 5527
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tegete
+  radius: 6077
+  rotationSpeed: 0.000036
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 668470
+  land:
+    ratio: 0.49
+    color: [0.313705, 0.341301, 0.521484, 1]
+    polarColor: [0.853437, 0.865976, 0.947852, 1]
+  sea:
+    color: [0.585507, 0.613281, 0.486313, 1]
+    polarColor: [0.928044, 0.938672, 0.890088, 1]
+  air:
+    color: [0.592463, 0.556875, 0.86632, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.419412, 0.31723, 0.601562, 1]
+    ratio: 0.3
+    polarColor: [0.62485, 0.54303, 0.770703, 1]
+  demographics:
+    type: 36
+    gdp: 15552
+    tech: 8
+    economy: 1
+    government: 2
+    description: The world Tegete is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained shyness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.73584, 0.705013, 0.340945, 1]
+  radius: 109807.169037
+  orbit:
+    type: static
+    parent: ~
+    radius: 425390
+    vector: [-0.019, -0.956, -0.291]
+  corona:
+    shimmer: 0.326592
+    hues: 0.85836
+    flare: 0.09449
+stations:
+- type: coriolis
+  orbit:
+    parent: Tegete
+    vector: undefined
+    radius: 12154

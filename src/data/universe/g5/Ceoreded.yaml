@@ -1,0 +1,61 @@
+name: Ceoreded
+position: [185, 250]
+seed: 233 250 121 185 138 69
+limits:
+  blurs: 55
+  stars: 7303
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceoreded
+  radius: 4281
+  rotationSpeed: 0.000958
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 470910
+  land:
+    ratio: 0.2
+    color: [0.66, 0.291328, 0.602395, 1]
+    polarColor: [0.934, 0.803568, 0.91362, 1]
+  sea:
+    color: [0.647642, 0.65625, 0.498853, 1]
+    polarColor: [0.931311, 0.934375, 0.878349, 1]
+  air:
+    color: [0.710864, 0.472291, 0.975586, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.929688, 0.0472107, 0.543604, 1]
+    ratio: 0.25
+    polarColor: [0.918359, 0.373532, 0.679997, 1]
+  demographics:
+    type: 50
+    gdp: 35200
+    tech: 10
+    economy: 2
+    government: 7
+    description: This world is reasonably well known for its vast oceans but ravaged by lethal spotted yaks.
+    inhabitants: Fierce Yellow Bony Birds
+- type: star
+  type: primary
+  color: [0.394009, 0.549723, 0.820337, 1]
+  radius: 89052.063904
+  orbit:
+    type: static
+    parent: ~
+    radius: 256860
+    vector: [-0.045, 0.505, 0.862]
+  corona:
+    shimmer: 0.356453
+    hues: 0.624237
+    flare: 0.084325
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceoreded
+    vector: undefined
+    radius: 8562

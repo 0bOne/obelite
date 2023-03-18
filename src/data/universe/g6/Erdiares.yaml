@@ -1,0 +1,61 @@
+name: Erdiares
+position: [204, 112]
+seed: 242 112 66 204 180 16
+limits:
+  blurs: 58
+  stars: 7105
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erdiares
+  radius: 3020
+  rotationSpeed: 0.00371
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 332200
+  land:
+    ratio: 0.53
+    color: [0.66, 0.151425, 0.139219, 1]
+    polarColor: [0.934, 0.754072, 0.749754, 1]
+  sea:
+    color: [0.416493, 0.354309, 0.527344, 1]
+    polarColor: [0.897486, 0.86956, 0.947266, 1]
+  air:
+    color: [0.655111, 0.869572, 0.830847, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.611328, 0.565658, 0.52536, 1]
+    ratio: 0.22
+    polarColor: [0.775098, 0.738907, 0.706974, 1]
+  demographics:
+    type: 23
+    gdp: 5888
+    tech: 5
+    economy: 2
+    government: 0
+    description: This world is most fabled for Erdiaresian evil juice but cursed by dreadful solar activity.
+    inhabitants: Green Fat Birds
+- type: star
+  type: primary
+  color: [0.275016, 0.285178, 0.662961, 1]
+  radius: 91823.925781
+  orbit:
+    type: static
+    parent: ~
+    radius: 332200
+    vector: [0.158, 0.552, -0.818]
+  corona:
+    shimmer: 0.356008
+    hues: 0.76384
+    flare: 0.051366
+stations:
+- type: coriolis
+  orbit:
+    parent: Erdiares
+    vector: undefined
+    radius: 6040

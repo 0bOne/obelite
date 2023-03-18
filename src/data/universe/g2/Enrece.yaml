@@ -1,0 +1,61 @@
+name: Enrece
+position: [67, 151]
+seed: 145 151 233 67 237 242
+limits:
+  blurs: 135
+  stars: 9080
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enrece
+  radius: 3395
+  rotationSpeed: 0.001996
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 509250
+  land:
+    ratio: 0.3
+    color: [0.621094, 0.40274, 0.546035, 1]
+    polarColor: [0.937891, 0.855459, 0.909555, 1]
+  sea:
+    color: [0.724609, 0.49923, 0.430237, 1]
+    polarColor: [0.927539, 0.855415, 0.833336, 1]
+  air:
+    color: [0.696841, 0.516605, 0.938514, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.818359, 0.20459, 0.636147, 1]
+    ratio: 0.44
+    polarColor: [0.868262, 0.461264, 0.747434, 1]
+  demographics:
+    type: 37
+    gdp: 7992
+    tech: 6
+    economy: 7
+    government: 5
+    description: The planet Enrece is cursed by deadly civil war.
+    inhabitants: Fat Felines
+- type: star
+  type: primary
+  color: [0.660739, 0.684121, 0.764301, 1]
+  radius: 85793.477631
+  orbit:
+    type: static
+    parent: ~
+    radius: 101850
+    vector: [-0.835, -0.03, -0.55]
+  corona:
+    shimmer: 0.353412
+    hues: 0.874359
+    flare: 0.043048
+stations:
+- type: coriolis
+  orbit:
+    parent: Enrece
+    vector: undefined
+    radius: 6790

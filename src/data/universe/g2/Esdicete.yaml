@@ -1,0 +1,61 @@
+name: Esdicete
+position: [78, 212]
+seed: 221 212 49 78 245 137
+limits:
+  blurs: 57
+  stars: 5704
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esdicete
+  radius: 5198
+  rotationSpeed: 0.000699
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 779700
+  land:
+    ratio: 0.48
+    color: [0.613281, 0.380905, 0.598758, 1]
+    polarColor: [0.938672, 0.849755, 0.933115, 1]
+  sea:
+    color: [0.638233, 0.669922, 0.507675, 1]
+    polarColor: [0.921974, 0.933008, 0.876517, 1]
+  air:
+    color: [0.710026, 0.714823, 0.981439, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.728951, 0.737478, 0.947266, 1]
+    ratio: 0.48
+    polarColor: [0.792847, 0.798059, 0.92627, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 8
+    economy: 4
+    government: 6
+    description: This world is fabled for its unusual tropical forests.
+    inhabitants: Small Black Horned Lobsters
+- type: star
+  type: primary
+  color: [0.79494, 0.731594, 0.679185, 1]
+  radius: 133367.691345
+  orbit:
+    type: static
+    parent: ~
+    radius: 363860
+    vector: [-0.574, 0.415, -0.706]
+  corona:
+    shimmer: 0.289705
+    hues: 0.779037
+    flare: 0.020552
+stations:
+- type: coriolis
+  orbit:
+    parent: Esdicete
+    vector: undefined
+    radius: 10396

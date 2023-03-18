@@ -1,0 +1,61 @@
+name: Legece
+position: [226, 126]
+seed: 109 126 108 226 65 128
+limits:
+  blurs: 137
+  stars: 6567
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Legece
+  radius: 3042
+  rotationSpeed: 0.001928
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 365040
+  land:
+    ratio: 0.27
+    color: [0.66, 0.571498, 0.224297, 1]
+    polarColor: [0.934, 0.902689, 0.779854, 1]
+  sea:
+    color: [0.59375, 0.475217, 0.447864, 1]
+    polarColor: [0.940625, 0.89368, 0.882846, 1]
+  air:
+    color: [0.587635, 0.565842, 0.852662, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.386317, 0.330635, 0.560547, 1]
+    ratio: 0.35
+    polarColor: [0.606112, 0.55941, 0.752246, 1]
+  demographics:
+    type: 36
+    gdp: 10368
+    tech: 6
+    economy: 6
+    government: 5
+    description: The planet Legece is reasonably noted for its inhabitants’ eccentric shyness and Zero-G cricket.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.543944, 0.629, 0.745071, 1]
+  radius: 84626.048584
+  orbit:
+    type: static
+    parent: ~
+    radius: 304200
+    vector: [-0.072, 0.51, -0.857]
+  corona:
+    shimmer: 0.562889
+    hues: 0.548264
+    flare: 0.021065
+stations:
+- type: coriolis
+  orbit:
+    parent: Legece
+    vector: undefined
+    radius: 6084

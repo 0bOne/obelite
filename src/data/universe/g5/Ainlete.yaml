@@ -1,0 +1,61 @@
+name: Ainlete
+position: [101, 182]
+seed: 239 182 229 101 64 79
+limits:
+  blurs: 103
+  stars: 9947
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ainlete
+  radius: 6757
+  rotationSpeed: 0.001496
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 878410
+  land:
+    ratio: 0.61
+    color: [0.337694, 0.66, 0.335156, 1]
+    polarColor: [0.819972, 0.934, 0.819074, 1]
+  sea:
+    color: [0.529297, 0.451873, 0.421577, 1]
+    polarColor: [0.94707, 0.912437, 0.898884, 1]
+  air:
+    color: [0.432525, 0.835102, 0.831531, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.507812, 0.501087, 0.0773621, 1]
+    ratio: 0.22
+    polarColor: [0.728516, 0.722485, 0.342559, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 4
+    economy: 6
+    government: 4
+    description: This planet is noted for mud hockey.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.213063, 0.68088, 0.701489, 1]
+  radius: 115180.166779
+  orbit:
+    type: static
+    parent: ~
+    radius: 472990
+    vector: [0.278, -0.709, -0.648]
+  corona:
+    shimmer: 0.249027
+    hues: 0.643791
+    flare: 0.09175
+stations:
+- type: coriolis
+  orbit:
+    parent: Ainlete
+    vector: undefined
+    radius: 13514

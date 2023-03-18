@@ -1,0 +1,61 @@
+name: Onlema
+position: [138, 248]
+seed: 58 248 36 138 91 95
+limits:
+  blurs: 82
+  stars: 8286
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onlema
+  radius: 6794
+  rotationSpeed: 0.002135
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 747340
+  land:
+    ratio: 0.65
+    color: [0.572266, 0.549946, 0.532028, 1]
+    polarColor: [0.942773, 0.933581, 0.926201, 1]
+  sea:
+    color: [0.703708, 0.794922, 0.503036, 1]
+    polarColor: [0.894102, 0.920508, 0.836008, 1]
+  air:
+    color: [0.640793, 0.867786, 0.939814, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.607615, 0.822266, 0.529976, 1]
+    ratio: 0.38
+    polarColor: [0.728072, 0.87002, 0.676729, 1]
+  demographics:
+    type: 49
+    gdp: 31360
+    tech: 11
+    economy: 0
+    government: 4
+    description: This world is plagued by frequent solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.751859, 0.645489, 0.314474, 1]
+  radius: 170964.433289
+  orbit:
+    type: static
+    parent: ~
+    radius: 679400
+    vector: [-0.636, -0.681, -0.363]
+  corona:
+    shimmer: 0.388408
+    hues: 0.681061
+    flare: 0.055128
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Onlema
+    vector: undefined
+    radius: 13588

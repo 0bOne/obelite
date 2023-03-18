@@ -1,0 +1,61 @@
+name: Erenanri
+position: [56, 72]
+seed: 244 72 224 56 102 112
+limits:
+  blurs: 55
+  stars: 8466
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erenanri
+  radius: 2872
+  rotationSpeed: 0.000762
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 373360
+  land:
+    ratio: 0.49
+    color: [0.0799219, 0.53764, 0.66, 1]
+    polarColor: [0.728775, 0.89071, 0.934, 1]
+  sea:
+    color: [0.597656, 0.540913, 0.460616, 1]
+    polarColor: [0.940234, 0.917917, 0.886336, 1]
+  air:
+    color: [0.657404, 0.874125, 0.84514, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.625, 0.589714, 0.534668, 1]
+    ratio: 0.45
+    polarColor: [0.78125, 0.753683, 0.710678, 1]
+  demographics:
+    type: 41
+    gdp: 26240
+    tech: 9
+    economy: 0
+    government: 4
+    description: This planet is a dull place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.703171, 0.628807, 0.562837, 1]
+  radius: 68475.568848
+  orbit:
+    type: static
+    parent: ~
+    radius: 172320
+    vector: [0.039, 0.916, -0.4]
+  corona:
+    shimmer: 0.567864
+    hues: 0.565063
+    flare: 0.034171
+stations:
+- type: coriolis
+  orbit:
+    parent: Erenanri
+    vector: undefined
+    radius: 5744

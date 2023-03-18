@@ -1,0 +1,61 @@
+name: Veteerza
+position: [125, 104]
+seed: 234 104 178 125 74 22
+limits:
+  blurs: 165
+  stars: 9980
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veteerza
+  radius: 4477
+  rotationSpeed: 0.000653
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 402930
+  land:
+    ratio: 0.27
+    color: [0.579879, 0.321075, 0.652344, 1]
+    polarColor: [0.908806, 0.816094, 0.934766, 1]
+  sea:
+    color: [0.527344, 0.422971, 0.415077, 1]
+    polarColor: [0.947266, 0.900394, 0.89685, 1]
+  air:
+    color: [0.68708, 0.861425, 0.872824, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.616355, 0.621094, 0.596832, 1]
+    ratio: 0.37
+    polarColor: [0.775775, 0.779492, 0.760462, 1]
+  demographics:
+    type: 51
+    gdp: 40800
+    tech: 11
+    economy: 0
+    government: 6
+    description: The world Veteerza is reasonably famous for the Veteerzaian evil Usa’geoid.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.69744, 0.626273, 0.559973, 1]
+  radius: 135398.235626
+  orbit:
+    type: static
+    parent: ~
+    radius: 358160
+    vector: [-0.232, -0.364, -0.902]
+  corona:
+    shimmer: 0.983817
+    hues: 0.524986
+    flare: 0.022401
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Veteerza
+    vector: undefined
+    radius: 8954

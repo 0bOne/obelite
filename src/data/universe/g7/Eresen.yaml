@@ -1,0 +1,61 @@
+name: Eresen
+position: [184, 63]
+seed: 185 63 232 184 117 176
+limits:
+  blurs: 107
+  stars: 8615
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Eresen
+  radius: 3000
+  rotationSpeed: 0.002881
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 390000
+  land:
+    ratio: 0.33
+    color: [0.562031, 0.57045, 0.66, 1]
+    polarColor: [0.89934, 0.902318, 0.934, 1]
+  sea:
+    color: [0.703125, 0.620513, 0.491638, 1]
+    polarColor: [0.929688, 0.90238, 0.859779, 1]
+  air:
+    color: [0.677623, 0.856564, 0.838218, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.572266, 0.56762, 0.556618, 1]
+    ratio: 0.53
+    polarColor: [0.75752, 0.753676, 0.744574, 1]
+  demographics:
+    type: 25
+    gdp: 5400
+    tech: 3
+    economy: 7
+    government: 5
+    description: The world Eresen is most famous for the Eresenian spotted shrew.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.738383, 0.777171, 0.785199, 1]
+  radius: 64904.937744
+  orbit:
+    type: static
+    parent: ~
+    radius: 270000
+    vector: [-0.695, -0.719, -0.02]
+  corona:
+    shimmer: 0.383247
+    hues: 0.911171
+    flare: 0.025977
+stations:
+- type: coriolis
+  orbit:
+    parent: Eresen
+    vector: undefined
+    radius: 6000

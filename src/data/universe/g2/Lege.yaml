@@ -1,0 +1,61 @@
+name: Lege
+position: [161, 95]
+seed: 1 95 185 161 173 192
+limits:
+  blurs: 71
+  stars: 8159
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lege
+  radius: 2977
+  rotationSpeed: 0.002612
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 327470
+  land:
+    ratio: 0.26
+    color: [0.500156, 0.596312, 0.66, 1]
+    polarColor: [0.877449, 0.911468, 0.934, 1]
+  sea:
+    color: [0.710938, 0.623068, 0.485992, 1]
+    polarColor: [0.928906, 0.900204, 0.855428, 1]
+  air:
+    color: [0.594539, 0.866351, 0.984691, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.436634, 0.957031, 0.392532, 1]
+    ratio: 0.42
+    polarColor: [0.614377, 0.930664, 0.587573, 1]
+  demographics:
+    type: 35
+    gdp: 9240
+    tech: 5
+    economy: 7
+    government: 7
+    description: The planet Lege is mildly well known for its exotic cuisine.
+    inhabitants: Large Felines
+- type: star
+  type: primary
+  color: [0.6965, 0.619483, 0.44903, 1]
+  radius: 65295.85434
+  orbit:
+    type: static
+    parent: ~
+    radius: 267930
+    vector: [-0.359, -0.245, -0.901]
+  corona:
+    shimmer: 0.520168
+    hues: 0.515701
+    flare: 0.048358
+stations:
+- type: coriolis
+  orbit:
+    parent: Lege
+    vector: undefined
+    radius: 5954

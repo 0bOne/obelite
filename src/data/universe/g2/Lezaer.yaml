@@ -1,0 +1,61 @@
+name: Lezaer
+position: [138, 152]
+seed: 21 152 249 138 101 129
+limits:
+  blurs: 176
+  stars: 6693
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lezaer
+  radius: 3210
+  rotationSpeed: 0.001642
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 353100
+  land:
+    ratio: 0.36
+    color: [0.0515625, 0.66, 0.389055, 1]
+    polarColor: [0.718742, 0.934, 0.838143, 1]
+  sea:
+    color: [0.594021, 0.679688, 0.523041, 1]
+    polarColor: [0.902664, 0.932031, 0.87833, 1]
+  air:
+    color: [0.518295, 0.616597, 0.847459, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.236275, 0.508752, 0.544922, 1]
+    ratio: 0.46
+    polarColor: [0.481406, 0.7143, 0.745215, 1]
+  demographics:
+    type: 60
+    gdp: 52800
+    tech: 13
+    economy: 0
+    government: 7
+    description: Lezaer is cursed by vicious shrews.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.765417, 0.748005, 0.746549, 1]
+  radius: 80380.778503
+  orbit:
+    type: static
+    parent: ~
+    radius: 385200
+    vector: [0.375, 0.277, -0.885]
+  corona:
+    shimmer: 0.337804
+    hues: 0.796341
+    flare: 0.034705
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Lezaer
+    vector: undefined
+    radius: 6420

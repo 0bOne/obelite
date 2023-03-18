@@ -1,0 +1,61 @@
+name: Ridiusla
+position: [60, 242]
+seed: 112 242 120 60 186 126
+limits:
+  blurs: 92
+  stars: 8317
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ridiusla
+  radius: 6460
+  rotationSpeed: 0.001551
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 710600
+  land:
+    ratio: 0.67
+    color: [0.0852981, 0.640625, 0.022522, 1]
+    polarColor: [0.733108, 0.935938, 0.710179, 1]
+  sea:
+    color: [0.565981, 0.695312, 0.539139, 1]
+    polarColor: [0.887201, 0.930469, 0.878221, 1]
+  air:
+    color: [0.442911, 0.773171, 0.84876, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.287177, 0.548828, 0.0900421, 1]
+    ratio: 0.59
+    polarColor: [0.5244, 0.746973, 0.356709, 1]
+  demographics:
+    type: 46
+    gdp: 32384
+    tech: 9
+    economy: 2
+    government: 7
+    description: This planet is a tedious little planet.
+    inhabitants: Blue Rodents
+- type: star
+  type: primary
+  color: [0.676749, 0.656837, 0.563574, 1]
+  radius: 147070.077515
+  orbit:
+    type: static
+    parent: ~
+    radius: 581400
+    vector: [-0.765, -0.045, 0.642]
+  corona:
+    shimmer: 0.378567
+    hues: 0.779922
+    flare: 0.036812
+stations:
+- type: coriolis
+  orbit:
+    parent: Ridiusla
+    vector: undefined
+    radius: 12920

@@ -1,0 +1,61 @@
+name: Edaranis
+position: [56, 152]
+seed: 249 152 109 56 154 56
+limits:
+  blurs: 194
+  stars: 6626
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edaranis
+  radius: 4920
+  rotationSpeed: 0.002339
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 590400
+  land:
+    ratio: 0.41
+    color: [0.159199, 0.0876563, 0.66, 1]
+    polarColor: [0.756823, 0.731512, 0.934, 1]
+  sea:
+    color: [0.642578, 0.51582, 0.481934, 1]
+    polarColor: [0.935742, 0.889595, 0.877258, 1]
+  air:
+    color: [0.413718, 0.845508, 0.824828, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.539062, 0.472223, 0.0357971, 1]
+    ratio: 0.32
+    polarColor: [0.742578, 0.685032, 0.309287, 1]
+  demographics:
+    type: 46
+    gdp: 33120
+    tech: 10
+    economy: 0
+    government: 5
+    description: The world Edaranis is very famous for its unusual casinos but plagued by frequent earthquakes.
+    inhabitants: Red Slimy Rodents
+- type: star
+  type: primary
+  color: [0.543528, 0.627331, 0.693353, 1]
+  radius: 102938.928223
+  orbit:
+    type: static
+    parent: ~
+    radius: 442800
+    vector: [-0.372, -0.676, 0.636]
+  corona:
+    shimmer: 0.642031
+    hues: 0.637093
+    flare: 0.096727
+stations:
+- type: coriolis
+  orbit:
+    parent: Edaranis
+    vector: undefined
+    radius: 9840

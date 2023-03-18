@@ -1,0 +1,61 @@
+name: Reinen
+position: [55, 102]
+seed: 56 102 172 55 125 142
+limits:
+  blurs: 81
+  stars: 7674
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reinen
+  radius: 6455
+  rotationSpeed: 0.00144
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 645500
+  land:
+    ratio: 0.29
+    color: [0.618105, 0.66, 0.12375, 1]
+    polarColor: [0.919178, 0.934, 0.744281, 1]
+  sea:
+    color: [0.582879, 0.613281, 0.48775, 1]
+    polarColor: [0.927039, 0.938672, 0.890638, 1]
+  air:
+    color: [0.678938, 0.609015, 0.840305, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.514173, 0.404846, 0.523438, 1]
+    ratio: 0.6
+    polarColor: [0.72741, 0.631392, 0.735547, 1]
+  demographics:
+    type: 40
+    gdp: 11520
+    tech: 7
+    economy: 6
+    government: 5
+    description: This planet is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.520182, 0.665409, 0.815112, 1]
+  radius: 218081.804657
+  orbit:
+    type: static
+    parent: ~
+    radius: 580950
+    vector: [-0.296, -0.889, 0.349]
+  corona:
+    shimmer: 0.313407
+    hues: 0.581802
+    flare: 0.033209
+stations:
+- type: coriolis
+  orbit:
+    parent: Reinen
+    vector: undefined
+    radius: 12910

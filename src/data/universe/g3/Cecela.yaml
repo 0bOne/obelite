@@ -1,0 +1,61 @@
+name: Cecela
+position: [202, 182]
+seed: 138 182 82 202 10 5
+limits:
+  blurs: 180
+  stars: 5628
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cecela
+  radius: 4298
+  rotationSpeed: 0.004407
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 386820
+  land:
+    ratio: 0.39
+    color: [0.66, 0.193359, 0.598024, 1]
+    polarColor: [0.934, 0.768908, 0.912074, 1]
+  sea:
+    color: [0.671875, 0.648695, 0.497345, 1]
+    polarColor: [0.932813, 0.924767, 0.872234, 1]
+  air:
+    color: [0.787814, 0.626238, 0.873475, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.623047, 0.467285, 0.470936, 1]
+    ratio: 0.19
+    polarColor: [0.780371, 0.658438, 0.661296, 1]
+  demographics:
+    type: 25
+    gdp: 4800
+    tech: 4
+    economy: 6
+    government: 2
+    description: This world is most fabled for its inhabitants’ eccentric love for tourists but beset by lethal disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.556791, 0.59716, 0.727139, 1]
+  radius: 101590.223694
+  orbit:
+    type: static
+    parent: ~
+    radius: 429800
+    vector: [-0.766, -0.634, -0.102]
+  corona:
+    shimmer: 0.439132
+    hues: 0.535973
+    flare: 0.064827
+stations:
+- type: coriolis
+  orbit:
+    parent: Cecela
+    vector: undefined
+    radius: 8596

@@ -1,0 +1,61 @@
+name: Ederditi
+position: [100, 179]
+seed: 234 179 178 100 74 120
+limits:
+  blurs: 102
+  stars: 8610
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ederditi
+  radius: 4964
+  rotationSpeed: 0.000694
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 694960
+  land:
+    ratio: 0.52
+    color: [0.305341, 0.288544, 0.595703, 1]
+    polarColor: [0.825832, 0.819202, 0.94043, 1]
+  sea:
+    color: [0.598144, 0.658203, 0.510365, 1]
+    polarColor: [0.912869, 0.93418, 0.881723, 1]
+  air:
+    color: [0.718415, 0.794568, 0.924855, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.722687, 0.777344, 0.77222, 1]
+    ratio: 0.35
+    polarColor: [0.81246, 0.849805, 0.846304, 1]
+  demographics:
+    type: 38
+    gdp: 21280
+    tech: 7
+    economy: 3
+    government: 6
+    description: This world is very notable for its inhabitants’ weird shyness and its inhabitants’ ingrained shyness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.800708, 0.789804, 0.710046, 1]
+  radius: 147339.967041
+  orbit:
+    type: static
+    parent: ~
+    radius: 446760
+    vector: [0.797, 0.315, 0.515]
+  corona:
+    shimmer: 0.357035
+    hues: 0.612793
+    flare: 0.070909
+stations:
+- type: coriolis
+  orbit:
+    parent: Ederditi
+    vector: undefined
+    radius: 9928

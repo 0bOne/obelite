@@ -1,0 +1,61 @@
+name: Tile
+position: [201, 12]
+seed: 177 12 160 201 221 192
+limits:
+  blurs: 153
+  stars: 5756
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tile
+  radius: 3017
+  rotationSpeed: 0.002267
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 392210
+  land:
+    ratio: 0.66
+    color: [0.358359, 0.66, 0.617582, 1]
+    polarColor: [0.827283, 0.934, 0.918993, 1]
+  sea:
+    color: [0.652344, 0.5536, 0.494354, 1]
+    polarColor: [0.934766, 0.899392, 0.878169, 1]
+  air:
+    color: [0.62542, 0.885182, 0.813948, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.658203, 0.507793, 0.473083, 1]
+    ratio: 0.41
+    polarColor: [0.796191, 0.682478, 0.656236, 1]
+  demographics:
+    type: 33
+    gdp: 12672
+    tech: 6
+    economy: 4
+    government: 4
+    description: The world Tile is fabled for its weird exuberant forests and its inhabitants’ eccentric shyness.
+    inhabitants: Large Furry Humanoids
+- type: star
+  type: primary
+  color: [0.755902, 0.759442, 0.782211, 1]
+  radius: 65506.133728
+  orbit:
+    type: static
+    parent: ~
+    radius: 150850
+    vector: [0.926, -0.361, -0.112]
+  corona:
+    shimmer: 0.447589
+    hues: 0.938408
+    flare: 0.024237
+stations:
+- type: coriolis
+  orbit:
+    parent: Tile
+    vector: undefined
+    radius: 6034

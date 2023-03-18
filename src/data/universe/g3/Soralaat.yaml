@@ -1,0 +1,61 @@
+name: Soralaat
+position: [121, 20]
+seed: 66 20 50 121 90 167
+limits:
+  blurs: 64
+  stars: 7586
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soralaat
+  radius: 4729
+  rotationSpeed: 0.002595
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 567480
+  land:
+    ratio: 0.56
+    color: [0.66, 0.407344, 0.50209, 1]
+    polarColor: [0.934, 0.844613, 0.878133, 1]
+  sea:
+    color: [0.590012, 0.677734, 0.52392, 1]
+    polarColor: [0.902061, 0.932227, 0.879334, 1]
+  air:
+    color: [0.658608, 0.890859, 0.894287, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.678371, 0.685547, 0.554329, 1]
+    ratio: 0.37
+    polarColor: [0.803207, 0.808496, 0.711777, 1]
+  demographics:
+    type: 39
+    gdp: 18720
+    tech: 7
+    economy: 4
+    government: 6
+    description: Soralaat is reasonably notable for its unusual oceans but plagued by unpredictable civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.797354, 0.737243, 0.710001, 1]
+  radius: 114422.952118
+  orbit:
+    type: static
+    parent: ~
+    radius: 520190
+    vector: [0.738, 0.674, -0.046]
+  corona:
+    shimmer: 0.387141
+    hues: 0.648598
+    flare: 0.0627
+stations:
+- type: coriolis
+  orbit:
+    parent: Soralaat
+    vector: undefined
+    radius: 9458

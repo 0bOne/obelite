@@ -1,0 +1,61 @@
+name: Xeleza
+position: [159, 31]
+seed: 146 31 146 159 212 194
+limits:
+  blurs: 155
+  stars: 5008
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeleza
+  radius: 3487
+  rotationSpeed: 0.00066
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 523050
+  land:
+    ratio: 0.25
+    color: [0.640261, 0.623906, 0.66, 1]
+    polarColor: [0.927017, 0.92123, 0.934, 1]
+  sea:
+    color: [0.517578, 0.341635, 0.038414, 1]
+    polarColor: [0.948242, 0.867657, 0.728776, 1]
+  air:
+    color: [0.502365, 0.611905, 0.859816, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.20462, 0.546649, 0.582031, 1]
+    ratio: 0.56
+    polarColor: [0.453131, 0.732966, 0.761914, 1]
+  demographics:
+    type: 26
+    gdp: 3744
+    tech: 4
+    economy: 7
+    government: 2
+    description: The planet Xeleza is mildly notable for killer Nustza juice.
+    inhabitants: Large Slimy Lizards
+- type: star
+  type: primary
+  color: [0.781876, 0.611376, 0.603357, 1]
+  radius: 74124.821625
+  orbit:
+    type: static
+    parent: ~
+    radius: 139480
+    vector: [0.2, -0.149, -0.968]
+  corona:
+    shimmer: 0.313554
+    hues: 0.783661
+    flare: 0.037418
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeleza
+    vector: undefined
+    radius: 6974

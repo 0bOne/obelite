@@ -1,0 +1,61 @@
+name: Diatin
+position: [142, 118]
+seed: 14 118 2 142 80 141
+limits:
+  blurs: 188
+  stars: 9414
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diatin
+  radius: 6286
+  rotationSpeed: 0.004539
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 754320
+  land:
+    ratio: 0.51
+    color: [0.0326309, 0.642578, 0.0421613, 1]
+    polarColor: [0.713686, 0.935742, 0.717156, 1]
+  sea:
+    color: [0.56358, 0.685547, 0.533977, 1]
+    polarColor: [0.890017, 0.931445, 0.879961, 1]
+  air:
+    color: [0.618472, 0.888434, 0.810188, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.667969, 0.488583, 0.459229, 1]
+    ratio: 0.38
+    polarColor: [0.800586, 0.66621, 0.644221, 1]
+  demographics:
+    type: 19
+    gdp: 2432
+    tech: 3
+    economy: 6
+    government: 0
+    description: Diatin is reasonably well known for the Diatinian tree grub but plagued by frequent earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.671652, 0.606151, 0.585395, 1]
+  radius: 187833.7677
+  orbit:
+    type: static
+    parent: ~
+    radius: 565740
+    vector: [0.246, -0.958, -0.147]
+  corona:
+    shimmer: 0.442913
+    hues: 0.726051
+    flare: 0.092778
+stations:
+- type: coriolis
+  orbit:
+    parent: Diatin
+    vector: undefined
+    radius: 12572

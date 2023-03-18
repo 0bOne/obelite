@@ -1,0 +1,61 @@
+name: Anisat
+position: [152, 232]
+seed: 164 232 196 152 181 219
+limits:
+  blurs: 86
+  stars: 9422
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anisat
+  radius: 5784
+  rotationSpeed: 0.00399
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 694080
+  land:
+    ratio: 0.44
+    color: [0.499794, 0.66, 0.448594, 1]
+    polarColor: [0.877321, 0.934, 0.859207, 1]
+  sea:
+    color: [0.634766, 0.526398, 0.467644, 1]
+    polarColor: [0.936523, 0.896552, 0.874881, 1]
+  air:
+    color: [0.461794, 0.53966, 0.909896, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0886917, 0.415586, 0.732422, 1]
+    ratio: 0.3
+    polarColor: [0.373883, 0.605296, 0.82959, 1]
+  demographics:
+    type: 23
+    gdp: 5888
+    tech: 5
+    economy: 2
+    government: 0
+    description: The world Anisat is most well known for its vast dense forests.
+    inhabitants: Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.442275, 0.671656, 0.730099, 1]
+  radius: 110907.070312
+  orbit:
+    type: static
+    parent: ~
+    radius: 347040
+    vector: [-0.088, -0.664, -0.743]
+  corona:
+    shimmer: 0.398861
+    hues: 0.657852
+    flare: 0.075694
+stations:
+- type: coriolis
+  orbit:
+    parent: Anisat
+    vector: undefined
+    radius: 11568

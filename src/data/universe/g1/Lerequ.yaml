@@ -1,0 +1,61 @@
+name: Lerequ
+position: [105, 3]
+seed: 20 3 208 105 166 97
+limits:
+  blurs: 90
+  stars: 8983
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lerequ
+  radius: 3177
+  rotationSpeed: 0.002638
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 476550
+  land:
+    ratio: 0.35
+    color: [0.66, 0.159562, 0.0257813, 1]
+    polarColor: [0.934, 0.756951, 0.709621, 1]
+  sea:
+    color: [0.545128, 0.664062, 0.528137, 1]
+    polarColor: [0.891792, 0.933594, 0.88582, 1]
+  air:
+    color: [0.440219, 0.683163, 0.883231, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0611572, 0.652344, 0.278234, 1]
+    ratio: 0.4
+    polarColor: [0.34408, 0.793555, 0.509122, 1]
+  demographics:
+    type: 30
+    gdp: 10080
+    tech: 6
+    economy: 3
+    government: 2
+    description: This planet is very notable for the Lerequian edible poet and Zero-G cricket.
+    inhabitants: Large Blue Horned Lobsters
+- type: star
+  type: primary
+  color: [0.670023, 0.598664, 0.288327, 1]
+  radius: 61218.912964
+  orbit:
+    type: static
+    parent: ~
+    radius: 158850
+    vector: [0.31, -0.727, -0.613]
+  corona:
+    shimmer: 0.370381
+    hues: 0.993668
+    flare: 0.002316
+stations:
+- type: coriolis
+  orbit:
+    parent: Lerequ
+    vector: undefined
+    radius: 6354

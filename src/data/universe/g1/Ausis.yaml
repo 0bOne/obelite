@@ -1,0 +1,61 @@
+name: Ausis
+position: [4, 180]
+seed: 148 180 144 4 166 111
+limits:
+  blurs: 136
+  stars: 7882
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ausis
+  radius: 6660
+  rotationSpeed: 0.000129
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 732600
+  land:
+    ratio: 0.43
+    color: [0.66, 0.626484, 0.646122, 1]
+    polarColor: [0.934, 0.922143, 0.92909, 1]
+  sea:
+    color: [0.515625, 0.432745, 0.0543823, 1]
+    polarColor: [0.948438, 0.910325, 0.736336, 1]
+  air:
+    color: [0.630091, 0.496728, 0.937863, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.764584, 0.153076, 0.816406, 1]
+    ratio: 0.38
+    polarColor: [0.832971, 0.426915, 0.867383, 1]
+  demographics:
+    type: 23
+    gdp: 6624
+    tech: 4
+    economy: 4
+    government: 2
+    description: The world Ausis is scourged by deadly tree ants.
+    inhabitants: Blue Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.666535, 0.705181, 0.760623, 1]
+  radius: 215050.643921
+  orbit:
+    type: static
+    parent: ~
+    radius: 399600
+    vector: [0.257, -0.899, 0.356]
+  corona:
+    shimmer: 0.334986
+    hues: 0.613647
+    flare: 0.084846
+stations:
+- type: coriolis
+  orbit:
+    parent: Ausis
+    vector: undefined
+    radius: 13320

@@ -1,0 +1,61 @@
+name: Edorza
+position: [178, 45]
+seed: 164 45 204 178 165 152
+limits:
+  blurs: 116
+  stars: 7965
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edorza
+  radius: 5042
+  rotationSpeed: 0.002401
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 705880
+  land:
+    ratio: 0.51
+    color: [0.420234, 0.180469, 0.66, 1]
+    polarColor: [0.849174, 0.764348, 0.934, 1]
+  sea:
+    color: [0.6875, 0.676086, 0.504883, 1]
+    polarColor: [0.93125, 0.927385, 0.869409, 1]
+  air:
+    color: [0.608854, 0.922904, 0.893157, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.771484, 0.682489, 0.446014, 1]
+    ratio: 0.51
+    polarColor: [0.847168, 0.786089, 0.623794, 1]
+  demographics:
+    type: 21
+    gdp: 2520
+    tech: 3
+    economy: 7
+    government: 1
+    description: The planet Edorza is a boring world.
+    inhabitants: Black Insects
+- type: star
+  type: primary
+  color: [0.346602, 0.660906, 0.843463, 1]
+  radius: 134577.454834
+  orbit:
+    type: static
+    parent: ~
+    radius: 352940
+    vector: [0.039, 0.894, -0.446]
+  corona:
+    shimmer: 0.699424
+    hues: 0.527473
+    flare: 0.020906
+stations:
+- type: coriolis
+  orbit:
+    parent: Edorza
+    vector: undefined
+    radius: 10084

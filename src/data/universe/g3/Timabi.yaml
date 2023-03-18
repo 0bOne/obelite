@@ -1,0 +1,61 @@
+name: Timabi
+position: [163, 47]
+seed: 58 47 226 163 234 55
+limits:
+  blurs: 142
+  stars: 9025
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Timabi
+  radius: 4771
+  rotationSpeed: 0.0013
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 524810
+  land:
+    ratio: 0.51
+    color: [0.626484, 0.66, 0.656072, 1]
+    polarColor: [0.922143, 0.934, 0.93261, 1]
+  sea:
+    color: [0.572266, 0.548609, 0.455801, 1]
+    polarColor: [0.942773, 0.93303, 0.894806, 1]
+  air:
+    color: [0.59618, 0.882211, 0.976887, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.530104, 0.933594, 0.401154, 1]
+    ratio: 0.25
+    polarColor: [0.671576, 0.920117, 0.592146, 1]
+  demographics:
+    type: 32
+    gdp: 6144
+    tech: 5
+    economy: 7
+    government: 4
+    description: This world is plagued by occasional solar activity.
+    inhabitants: Red Fat Insects
+- type: star
+  type: primary
+  color: [0.754426, 0.756882, 0.34218, 1]
+  radius: 109139.100189
+  orbit:
+    type: static
+    parent: ~
+    radius: 572520
+    vector: [0.306, -0.243, -0.921]
+  corona:
+    shimmer: 0.514008
+    hues: 0.931946
+    flare: 0.049585
+stations:
+- type: coriolis
+  orbit:
+    parent: Timabi
+    vector: undefined
+    radius: 9542

@@ -1,0 +1,61 @@
+name: Engeatso
+position: [156, 148]
+seed: 70 148 96 156 91 82
+limits:
+  blurs: 105
+  stars: 6950
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Engeatso
+  radius: 3484
+  rotationSpeed: 0.004475
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 487760
+  land:
+    ratio: 0.71
+    color: [0.397997, 0.297478, 0.619141, 1]
+    polarColor: [0.85432, 0.816245, 0.938086, 1]
+  sea:
+    color: [0.53125, 0.428191, 0.417529, 1]
+    polarColor: [0.946875, 0.900953, 0.896202, 1]
+  air:
+    color: [0.435057, 0.775294, 0.857215, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.274562, 0.574219, 0.0695343, 1]
+    ratio: 0.43
+    polarColor: [0.511042, 0.758398, 0.341798, 1]
+  demographics:
+    type: 29
+    gdp: 11136
+    tech: 5
+    economy: 4
+    government: 4
+    description: This world is ravaged by unpredictable civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.747198, 0.7527, 0.75405, 1]
+  radius: 66410.560303
+  orbit:
+    type: static
+    parent: ~
+    radius: 174200
+    vector: [0.71, 0.653, 0.263]
+  corona:
+    shimmer: 0.639139
+    hues: 0.587082
+    flare: 0.014084
+stations:
+- type: coriolis
+  orbit:
+    parent: Engeatso
+    vector: undefined
+    radius: 6968

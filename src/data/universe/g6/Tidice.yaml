@@ -1,0 +1,61 @@
+name: Tidice
+position: [96, 213]
+seed: 50 213 34 96 244 247
+limits:
+  blurs: 73
+  stars: 8503
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tidice
+  radius: 4704
+  rotationSpeed: 0.000049
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 611520
+  land:
+    ratio: 0.64
+    color: [0.399609, 0.66, 0.586765, 1]
+    polarColor: [0.841877, 0.934, 0.90809, 1]
+  sea:
+    color: [0.600966, 0.679688, 0.522244, 1]
+    polarColor: [0.905044, 0.932031, 0.878057, 1]
+  air:
+    color: [0.577368, 0.89713, 0.985992, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.549648, 0.960938, 0.341583, 1]
+    ratio: 0.47
+    polarColor: [0.682994, 0.932422, 0.556812, 1]
+  demographics:
+    type: 26
+    gdp: 8320
+    tech: 4
+    economy: 5
+    government: 4
+    description: The planet Tidice is very famous for its unusual casinos but beset by dreadful earthquakes.
+    inhabitants: Furry Rodents
+- type: star
+  type: primary
+  color: [0.701288, 0.703353, 0.708136, 1]
+  radius: 97078.857422
+  orbit:
+    type: static
+    parent: ~
+    radius: 329280
+    vector: [0.451, 0.196, 0.871]
+  corona:
+    shimmer: 0.269573
+    hues: 0.811386
+    flare: 0.021603
+stations:
+- type: coriolis
+  orbit:
+    parent: Tidice
+    vector: undefined
+    radius: 9408

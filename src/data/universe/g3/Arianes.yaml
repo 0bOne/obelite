@@ -1,0 +1,61 @@
+name: Arianes
+position: [205, 2]
+seed: 106 2 50 205 74 47
+limits:
+  blurs: 178
+  stars: 8049
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arianes
+  radius: 6861
+  rotationSpeed: 0.000677
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 823320
+  land:
+    ratio: 0.36
+    color: [0.66, 0.368672, 0.505232, 1]
+    polarColor: [0.934, 0.830932, 0.879245, 1]
+  sea:
+    color: [0.667787, 0.685547, 0.510679, 1]
+    polarColor: [0.925413, 0.931445, 0.872047, 1]
+  air:
+    color: [0.503772, 0.624977, 0.854613, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.207977, 0.566406, 0.558006, 1]
+    ratio: 0.31
+    polarColor: [0.456321, 0.754883, 0.747885, 1]
+  demographics:
+    type: 45
+    gdp: 28800
+    tech: 9
+    economy: 2
+    government: 6
+    description: This world is reasonably well known for the Arianesian spotted leopard but plagued by vicious disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.707532, 0.654538, 0.588748, 1]
+  radius: 168439.76944
+  orbit:
+    type: static
+    parent: ~
+    radius: 343050
+    vector: [-0.134, -0.575, -0.807]
+  corona:
+    shimmer: 0.373625
+    hues: 0.697433
+    flare: 0.065274
+stations:
+- type: coriolis
+  orbit:
+    parent: Arianes
+    vector: undefined
+    radius: 13722

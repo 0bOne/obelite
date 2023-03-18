@@ -1,0 +1,61 @@
+name: Ausaso
+position: [184, 224]
+seed: 222 224 10 184 128 47
+limits:
+  blurs: 168
+  stars: 6652
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ausaso
+  radius: 6840
+  rotationSpeed: 0.00044
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 820800
+  land:
+    ratio: 0.63
+    color: [0.523359, 0.643987, 0.66, 1]
+    polarColor: [0.885658, 0.928335, 0.934, 1]
+  sea:
+    color: [0.707031, 0.62793, 0.491608, 1]
+    polarColor: [0.929297, 0.903305, 0.858511, 1]
+  air:
+    color: [0.649192, 0.765547, 0.985992, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.551788, 0.960938, 0.951348, 1]
+    ratio: 0.31
+    polarColor: [0.684292, 0.932422, 0.926606, 1]
+  demographics:
+    type: 28
+    gdp: 8960
+    tech: 6
+    economy: 2
+    government: 1
+    description: This world is most fabled for Ausasoian Leth brandy but cursed by deadly civil war.
+    inhabitants: Red Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.739273, 0.609113, 0.521132, 1]
+  radius: 188049.902344
+  orbit:
+    type: static
+    parent: ~
+    radius: 615600
+    vector: [0.237, 0.74, 0.629]
+  corona:
+    shimmer: 0.570543
+    hues: 0.666649
+    flare: 0.021597
+stations:
+- type: coriolis
+  orbit:
+    parent: Ausaso
+    vector: undefined
+    radius: 13680

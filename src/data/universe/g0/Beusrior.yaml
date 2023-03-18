@@ -1,0 +1,61 @@
+name: Beusrior
+position: [66, 146]
+seed: 64 146 104 66 125 83
+limits:
+  blurs: 180
+  stars: 9184
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beusrior
+  radius: 3650
+  rotationSpeed: 0.003759
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 401500
+  land:
+    ratio: 0.3
+    color: [0.460215, 0.66, 0.378984, 1]
+    polarColor: [0.863319, 0.934, 0.83458, 1]
+  sea:
+    color: [0.313416, 0.357459, 0.507812, 1]
+    polarColor: [0.858376, 0.878957, 0.949219, 1]
+  air:
+    color: [0.527072, 0.973635, 0.886027, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.923828, 0.508658, 0.205696, 1]
+    ratio: 0.19
+    polarColor: [0.915723, 0.658518, 0.470828, 1]
+  demographics:
+    type: 48
+    gdp: 27648
+    tech: 10
+    economy: 2
+    government: 5
+    description: The world Beusrior is a dull world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.186869, 0.224503, 0.679681, 1]
+  radius: 84117.195129
+  orbit:
+    type: static
+    parent: ~
+    radius: 328500
+    vector: [0.717, 0.037, 0.697]
+  corona:
+    shimmer: 0.295761
+    hues: 0.951416
+    flare: 0.024481
+stations:
+- type: coriolis
+  orbit:
+    parent: Beusrior
+    vector: undefined
+    radius: 7300

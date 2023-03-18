@@ -1,0 +1,61 @@
+name: Orqure
+position: [122, 134]
+seed: 183 134 18 122 147 217
+limits:
+  blurs: 172
+  stars: 7854
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orqure
+  radius: 5242
+  rotationSpeed: 0.003047
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 733880
+  land:
+    ratio: 0.59
+    color: [0.607632, 0.66, 0.592969, 1]
+    polarColor: [0.915473, 0.934, 0.910285, 1]
+  sea:
+    color: [0.0686646, 0.703125, 0.703125, 1]
+    polarColor: [0.719963, 0.929688, 0.929688, 1]
+  air:
+    color: [0.539846, 0.449776, 0.957375, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.481613, 0.00683594, 0.875, 1]
+    ratio: 0.41
+    polarColor: [0.642615, 0.33952, 0.89375, 1]
+  demographics:
+    type: 25
+    gdp: 4800
+    tech: 4
+    economy: 6
+    government: 2
+    description: The planet Orqure is an unremarkable dump.
+    inhabitants: Fat Humanoids
+- type: star
+  type: primary
+  color: [0.614913, 0.710124, 0.813931, 1]
+  radius: 147811.986084
+  orbit:
+    type: static
+    parent: ~
+    radius: 262100
+    vector: [0.542, 0.403, -0.738]
+  corona:
+    shimmer: 0.607884
+    hues: 0.959137
+    flare: 0.032793
+stations:
+- type: coriolis
+  orbit:
+    parent: Orqure
+    vector: undefined
+    radius: 10484

@@ -1,0 +1,61 @@
+name: Tionis
+position: [103, 128]
+seed: 156 128 144 103 5 23
+limits:
+  blurs: 123
+  stars: 7098
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tionis
+  radius: 4711
+  rotationSpeed: 0.001236
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 565320
+  land:
+    ratio: 0.54
+    color: [0.5245, 0.384033, 0.558594, 1]
+    polarColor: [0.929734, 0.87038, 0.944141, 1]
+  sea:
+    color: [0.685547, 0.480728, 0.447212, 1]
+    polarColor: [0.931445, 0.861874, 0.85049, 1]
+  air:
+    color: [0.591456, 0.94892, 0.94575, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.849609, 0.842557, 0.398254, 1]
+    ratio: 0.52
+    polarColor: [0.882324, 0.877747, 0.589365, 1]
+  demographics:
+    type: 47
+    gdp: 22560
+    tech: 11
+    economy: 0
+    government: 2
+    description: The world Tionis is a boring world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.534308, 0.752967, 0.771707, 1]
+  radius: 114018.334045
+  orbit:
+    type: static
+    parent: ~
+    radius: 471100
+    vector: [-0.133, -0.102, -0.986]
+  corona:
+    shimmer: 0.471367
+    hues: 0.677261
+    flare: 0.021129
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Tionis
+    vector: undefined
+    radius: 9422

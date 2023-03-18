@@ -1,0 +1,61 @@
+name: Tirige
+position: [78, 56]
+seed: 47 56 202 78 27 23
+limits:
+  blurs: 154
+  stars: 7454
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tirige
+  radius: 4686
+  rotationSpeed: 0.001076
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 421740
+  land:
+    ratio: 0.29
+    color: [0.457094, 0.0953906, 0.66, 1]
+    polarColor: [0.862214, 0.734248, 0.934, 1]
+  sea:
+    color: [0.632812, 0.616536, 0.484003, 1]
+    polarColor: [0.936719, 0.930696, 0.88165, 1]
+  air:
+    color: [0.414381, 0.80443, 0.867621, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.353436, 0.605469, 0.0189209, 1]
+    ratio: 0.11
+    polarColor: [0.571496, 0.772461, 0.30476, 1]
+  demographics:
+    type: 36
+    gdp: 11520
+    tech: 8
+    economy: 2
+    government: 1
+    description: The planet Tirige is very noted for its unusual sit coms but plagued by frequent solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.67428, 0.578971, 0.480996, 1]
+  radius: 141602.488403
+  orbit:
+    type: static
+    parent: ~
+    radius: 515460
+    vector: [0.092, 0.88, -0.467]
+  corona:
+    shimmer: 1.229753
+    hues: 0.531471
+    flare: 0.033408
+stations:
+- type: coriolis
+  orbit:
+    parent: Tirige
+    vector: undefined
+    radius: 9372

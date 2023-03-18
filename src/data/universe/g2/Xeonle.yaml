@@ -1,0 +1,61 @@
+name: Xeonle
+position: [95, 253]
+seed: 129 253 57 95 173 130
+limits:
+  blurs: 69
+  stars: 8484
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeonle
+  radius: 3423
+  rotationSpeed: 0.002574
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 410760
+  land:
+    ratio: 0.58
+    color: [0.257973, 0.413607, 0.564453, 1]
+    polarColor: [0.815475, 0.880515, 0.943555, 1]
+  sea:
+    color: [0.5816, 0.599609, 0.478282, 1]
+    polarColor: [0.93298, 0.940039, 0.892486, 1]
+  air:
+    color: [0.675957, 0.815159, 0.941115, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.622856, 0.826172, 0.711807, 1]
+    ratio: 0.35
+    polarColor: [0.737691, 0.871777, 0.796354, 1]
+  demographics:
+    type: 49
+    gdp: 21560
+    tech: 9
+    economy: 5
+    government: 7
+    description: This world is very notable for its inhabitants’ unusual silliness and its exotic cuisine.
+    inhabitants: Large Black Horned Birds
+- type: star
+  type: primary
+  color: [0.593052, 0.707021, 0.783014, 1]
+  radius: 95129.586639
+  orbit:
+    type: static
+    parent: ~
+    radius: 410760
+    vector: [-0.092, 0.996, -0.011]
+  corona:
+    shimmer: 0.303554
+    hues: 0.92585
+    flare: 0.04951
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeonle
+    vector: undefined
+    radius: 6846

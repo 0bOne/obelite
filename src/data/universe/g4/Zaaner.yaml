@@ -1,0 +1,61 @@
+name: Zaaner
+position: [16, 71]
+seed: 36 71 36 16 117 132
+limits:
+  blurs: 128
+  stars: 7092
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaaner
+  radius: 3856
+  rotationSpeed: 0.00018
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 462720
+  land:
+    ratio: 0.28
+    color: [0.525937, 0.66, 0.391875, 1]
+    polarColor: [0.88657, 0.934, 0.839141, 1]
+  sea:
+    color: [0.505859, 0.399945, 0.412357, 1]
+    polarColor: [0.949414, 0.899718, 0.905542, 1]
+  air:
+    color: [0.667532, 0.881375, 0.884531, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.651343, 0.65625, 0.566528, 1]
+    ratio: 0.29
+    polarColor: [0.791596, 0.795313, 0.727354, 1]
+  demographics:
+    type: 20
+    gdp: 3840
+    tech: 2
+    economy: 7
+    government: 4
+    description: The world Zaaner is mildly noted for its pink Zaanerian Alusabus plant plantations but beset by frequent civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.580385, 0.695007, 0.804495, 1]
+  radius: 103747.675781
+  orbit:
+    type: static
+    parent: ~
+    radius: 231360
+    vector: [0.016, 0.896, -0.444]
+  corona:
+    shimmer: 0.449591
+    hues: 0.860184
+    flare: 0.059259
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaaner
+    vector: undefined
+    radius: 7712

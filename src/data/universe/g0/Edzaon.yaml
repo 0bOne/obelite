@@ -1,0 +1,61 @@
+name: Edzaon
+position: [162, 201]
+seed: 56 201 140 162 189 88
+limits:
+  blurs: 192
+  stars: 5242
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edzaon
+  radius: 5026
+  rotationSpeed: 0.002682
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 653380
+  land:
+    ratio: 0.34
+    color: [0.360938, 0.589907, 0.66, 1]
+    polarColor: [0.828195, 0.909202, 0.934, 1]
+  sea:
+    color: [0.552734, 0.453442, 0.430528, 1]
+    polarColor: [0.944727, 0.902299, 0.892508, 1]
+  air:
+    color: [0.42823, 0.819063, 0.848109, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.440798, 0.546875, 0.0619507, 1]
+    ratio: 0.26
+    polarColor: [0.655644, 0.746094, 0.332609, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 7
+    economy: 3
+    government: 1
+    description: This world is most notable for Edzaonian lethal water but plagued by occasional solar activity.
+    inhabitants: Yellow Bony Lobsters
+- type: star
+  type: primary
+  color: [0.427794, 0.580826, 0.747125, 1]
+  radius: 124393.806763
+  orbit:
+    type: static
+    parent: ~
+    radius: 452340
+    vector: [-0.013, 0.663, 0.748]
+  corona:
+    shimmer: 0.496711
+    hues: 0.562103
+    flare: 0.042062
+stations:
+- type: coriolis
+  orbit:
+    parent: Edzaon
+    vector: undefined
+    radius: 10052

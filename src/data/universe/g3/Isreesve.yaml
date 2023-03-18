@@ -1,0 +1,61 @@
+name: Isreesve
+position: [61, 51]
+seed: 194 51 178 61 90 253
+limits:
+  blurs: 80
+  stars: 6007
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isreesve
+  radius: 6205
+  rotationSpeed: 0.002624
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 806650
+  land:
+    ratio: 0.34
+    color: [0.200684, 0.535156, 0.417568, 1]
+    polarColor: [0.798596, 0.946484, 0.894492, 1]
+  sea:
+    color: [0.599609, 0.591675, 0.472661, 1]
+    polarColor: [0.940039, 0.936929, 0.890283, 1]
+  air:
+    color: [0.501153, 0.995098, 0.90976, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.988281, 0.541311, 0.108093, 1]
+    ratio: 0.5
+    polarColor: [0.944727, 0.677682, 0.418853, 1]
+  demographics:
+    type: 42
+    gdp: 23520
+    tech: 8
+    economy: 3
+    government: 6
+    description: The planet Isreesve is cursed by deadly civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.400987, 0.608193, 0.771518, 1]
+  radius: 117588.802338
+  orbit:
+    type: static
+    parent: ~
+    radius: 434350
+    vector: [-0.575, -0.81, -0.117]
+  corona:
+    shimmer: 0.361546
+    hues: 0.844315
+    flare: 0.011087
+stations:
+- type: coriolis
+  orbit:
+    parent: Isreesve
+    vector: undefined
+    radius: 12410

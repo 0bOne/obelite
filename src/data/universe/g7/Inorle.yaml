@@ -1,0 +1,61 @@
+name: Inorle
+position: [59, 80]
+seed: 169 80 216 59 197 172
+limits:
+  blurs: 116
+  stars: 9612
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inorle
+  radius: 5947
+  rotationSpeed: 0.001611
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 713640
+  land:
+    ratio: 0.64
+    color: [0.66, 0.591458, 0.446016, 1]
+    polarColor: [0.934, 0.909751, 0.858295, 1]
+  sea:
+    color: [0.653231, 0.666016, 0.502374, 1]
+    polarColor: [0.928919, 0.933398, 0.876064, 1]
+  air:
+    color: [0.675489, 0.494959, 0.950871, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.855469, 0.137009, 0.709532, 1]
+    ratio: 0.49
+    polarColor: [0.884961, 0.420443, 0.790606, 1]
+  demographics:
+    type: 52
+    gdp: 29120
+    tech: 12
+    economy: 0
+    government: 3
+    description: This world is very fabled for the Inorleian edible poet.
+    inhabitants: Harmless Bony Lobsters
+- type: star
+  type: primary
+  color: [0.839023, 0.536254, 0.374812, 1]
+  radius: 107456.344452
+  orbit:
+    type: static
+    parent: ~
+    radius: 475760
+    vector: [-0.923, -0.223, -0.314]
+  corona:
+    shimmer: 0.639738
+    hues: 0.502617
+    flare: 0.040323
+stations:
+- type: icosahedron
+  orbit:
+    parent: Inorle
+    vector: undefined
+    radius: 11894

@@ -1,0 +1,61 @@
+name: Ataor
+position: [152, 198]
+seed: 7 198 129 152 40 145
+limits:
+  blurs: 72
+  stars: 8185
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ataor
+  radius: 3224
+  rotationSpeed: 0.004815
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 354640
+  land:
+    ratio: 0.65
+    color: [0.591797, 0.386055, 0.588582, 1]
+    polarColor: [0.94082, 0.85905, 0.939543, 1]
+  sea:
+    color: [0.830078, 0.648955, 0.366402, 1]
+    polarColor: [0.916992, 0.86697, 0.788936, 1]
+  air:
+    color: [0.662393, 0.870223, 0.844049, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.613281, 0.586892, 0.541412, 1]
+    ratio: 0.3
+    polarColor: [0.775977, 0.755108, 0.719142, 1]
+  demographics:
+    type: 11
+    gdp: 1408
+    tech: 1
+    economy: 6
+    government: 0
+    description: Ataor is famous for its inhabitants’ exceptional love for food blenders but scourged by frequent civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.775421, 0.648664, 0.553838, 1]
+  radius: 68995.056152
+  orbit:
+    type: static
+    parent: ~
+    radius: 257920
+    vector: [-0.578, -0.22, -0.786]
+  corona:
+    shimmer: 0.295599
+    hues: 0.510971
+    flare: 0.046562
+stations:
+- type: coriolis
+  orbit:
+    parent: Ataor
+    vector: undefined
+    radius: 6448

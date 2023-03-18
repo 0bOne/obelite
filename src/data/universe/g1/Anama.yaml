@@ -1,0 +1,61 @@
+name: Anama
+position: [21, 190]
+seed: 116 190 72 21 182 219
+limits:
+  blurs: 59
+  stars: 7051
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anama
+  radius: 5653
+  rotationSpeed: 0.004244
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 565300
+  land:
+    ratio: 0.25
+    color: [0.581448, 0.66, 0.466641, 1]
+    polarColor: [0.906209, 0.934, 0.865592, 1]
+  sea:
+    color: [0.589013, 0.381622, 0.595703, 1]
+    polarColor: [0.937789, 0.855938, 0.94043, 1]
+  air:
+    color: [0.691601, 0.561358, 0.896889, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.693359, 0.330429, 0.628145, 1]
+    ratio: 0.17
+    polarColor: [0.812012, 0.546363, 0.764278, 1]
+  demographics:
+    type: 20
+    gdp: 3200
+    tech: 3
+    economy: 6
+    government: 1
+    description: This world is noted for its exciting lethal Zamaon water.
+    inhabitants: Bony Felines
+- type: star
+  type: primary
+  color: [0.252872, 0.618187, 0.661896, 1]
+  radius: 150957.423553
+  orbit:
+    type: static
+    parent: ~
+    radius: 621830
+    vector: [-0.932, 0.35, 0.089]
+  corona:
+    shimmer: 0.391059
+    hues: 0.965477
+    flare: 0.089632
+stations:
+- type: coriolis
+  orbit:
+    parent: Anama
+    vector: undefined
+    radius: 11306

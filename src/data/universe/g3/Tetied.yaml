@@ -1,0 +1,61 @@
+name: Tetied
+position: [196, 54]
+seed: 162 54 82 196 218 60
+limits:
+  blurs: 109
+  stars: 5376
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tetied
+  radius: 6084
+  rotationSpeed: 0.003807
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 608400
+  land:
+    ratio: 0.25
+    color: [0.525937, 0.66, 0.575164, 1]
+    polarColor: [0.88657, 0.934, 0.903986, 1]
+  sea:
+    color: [0.252394, 0.509766, 0.135406, 1]
+    polarColor: [0.829237, 0.949023, 0.774789, 1]
+  air:
+    color: [0.432311, 0.80902, 0.847459, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.40771, 0.544922, 0.0702438, 1]
+    ratio: 0.11
+    polarColor: [0.627936, 0.745215, 0.339495, 1]
+  demographics:
+    type: 17
+    gdp: 3264
+    tech: 2
+    economy: 6
+    government: 2
+    description: Tetied is reasonably well known for the Tetiedian spotted leopard but plagued by vicious disease.
+    inhabitants: Red Horned Lizards
+- type: star
+  type: primary
+  color: [0.754275, 0.755305, 0.766922, 1]
+  radius: 141496.446533
+  orbit:
+    type: static
+    parent: ~
+    radius: 608400
+    vector: [-0.476, 0.197, 0.857]
+  corona:
+    shimmer: 0.529729
+    hues: 0.733261
+    flare: 0.08383
+stations:
+- type: coriolis
+  orbit:
+    parent: Tetied
+    vector: undefined
+    radius: 12168

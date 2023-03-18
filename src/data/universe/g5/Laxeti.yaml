@@ -1,0 +1,61 @@
+name: Laxeti
+position: [127, 174]
+seed: 7 174 129 127 40 149
+limits:
+  blurs: 176
+  stars: 8280
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laxeti
+  radius: 4223
+  rotationSpeed: 0.004813
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 506760
+  land:
+    ratio: 0.44
+    color: [0.144579, 0.628906, 0.0270233, 1]
+    polarColor: [0.75669, 0.937109, 0.712899, 1]
+  sea:
+    color: [0.603141, 0.623047, 0.488946, 1]
+    polarColor: [0.930206, 0.937695, 0.887239, 1]
+  air:
+    color: [0.557736, 0.961429, 0.980789, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.847746, 0.945312, 0.288025, 1]
+    ratio: 0.26
+    polarColor: [0.865697, 0.925391, 0.523243, 1]
+  demographics:
+    type: 23
+    gdp: 2944
+    tech: 4
+    economy: 6
+    government: 0
+    description: Laxeti is cursed by vicious killer shrews.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.823795, 0.434364, 0.375494, 1]
+  radius: 90910.874786
+  orbit:
+    type: static
+    parent: ~
+    radius: 422300
+    vector: [0.093, 0.114, -0.989]
+  corona:
+    shimmer: 0.800332
+    hues: 0.559715
+    flare: 0.077461
+stations:
+- type: coriolis
+  orbit:
+    parent: Laxeti
+    vector: undefined
+    radius: 8446

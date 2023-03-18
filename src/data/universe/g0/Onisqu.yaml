@@ -1,0 +1,61 @@
+name: Onisqu
+position: [29, 1]
+seed: 24 1 132 29 45 159
+limits:
+  blurs: 51
+  stars: 5379
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onisqu
+  radius: 6685
+  rotationSpeed: 0.000506
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 869050
+  land:
+    ratio: 0.68
+    color: [0.0438281, 0.28452, 0.66, 1]
+    polarColor: [0.716006, 0.80116, 0.934, 1]
+  sea:
+    color: [0.585938, 0.511413, 0.451584, 1]
+    polarColor: [0.941406, 0.911472, 0.887441, 1]
+  air:
+    color: [0.645463, 0.855121, 0.943066, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.572148, 0.832031, 0.54277, 1]
+    ratio: 0.28
+    polarColor: [0.703713, 0.874414, 0.684417, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: This planet is a dull place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.809137, 0.657585, 0.573456, 1]
+  radius: 119576.387024
+  orbit:
+    type: static
+    parent: ~
+    radius: 534800
+    vector: [-0.185, 0.004, 0.983]
+  corona:
+    shimmer: 0.507465
+    hues: 0.568443
+    flare: 0.042767
+stations:
+- type: coriolis
+  orbit:
+    parent: Onisqu
+    vector: undefined
+    radius: 13370

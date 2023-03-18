@@ -1,0 +1,61 @@
+name: Usenat
+position: [214, 244]
+seed: 22 244 84 214 83 8
+limits:
+  blurs: 120
+  stars: 6396
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usenat
+  radius: 5078
+  rotationSpeed: 0.003043
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 558580
+  land:
+    ratio: 0.54
+    color: [0.66, 0.270703, 0.444062, 1]
+    polarColor: [0.934, 0.796272, 0.857604, 1]
+  sea:
+    color: [0.554617, 0.648438, 0.51647, 1]
+    polarColor: [0.90133, 0.935156, 0.887577, 1]
+  air:
+    color: [0.488472, 0.572473, 0.883231, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.168182, 0.470783, 0.652344, 1]
+    ratio: 0.47
+    polarColor: [0.425451, 0.655516, 0.793555, 1]
+  demographics:
+    type: 31
+    gdp: 8928
+    tech: 6
+    economy: 4
+    government: 2
+    description: This world is most notable for its fabulous cuisine but beset by occasional civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.256044, 0.331128, 0.745923, 1]
+  radius: 169908.751831
+  orbit:
+    type: static
+    parent: ~
+    radius: 507800
+    vector: [0.969, -0.177, -0.173]
+  corona:
+    shimmer: 0.262587
+    hues: 0.980125
+    flare: 0.012679
+stations:
+- type: coriolis
+  orbit:
+    parent: Usenat
+    vector: undefined
+    radius: 10156

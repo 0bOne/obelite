@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { text } = require("node:stream/consumers");
 const path = require("path");
 
 let scaleFactor = 1;
@@ -11,10 +10,9 @@ let description = modelName;
 if (modelName.startsWith("oolite"))
 {
     modelName = modelName.replace("oolite_", "");
-    target = path.join(target, "detailed", modelName);
+    //put them all in 'ships' move them to the other folders (misc, weapons, etc) manually
+    target = path.join(target, "ships", modelName);
 }
-
-
 else if (modelName.endsWith("redux"))
 {
     modelName = modelName.replace("_redux", "");
@@ -26,7 +24,7 @@ if (fs.existsSync(target) === false)
     fs.mkdirSync(target, {recursive: true});
 }
 
-target = path.join(target, "geometry.yaml");
+target = path.join(target, "model.yaml");
 
 console.log("source", source);
 console.log("target", target);

@@ -1,0 +1,61 @@
+name: Gesolaon
+position: [10, 56]
+seed: 246 56 184 10 91 3
+limits:
+  blurs: 199
+  stars: 8296
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gesolaon
+  radius: 3594
+  rotationSpeed: 0.002854
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 431280
+  land:
+    ratio: 0.37
+    color: [0.469219, 0.66, 0.583986, 1]
+    polarColor: [0.866504, 0.934, 0.907107, 1]
+  sea:
+    color: [0.542916, 0.681641, 0.558089, 1]
+    polarColor: [0.884425, 0.931836, 0.889611, 1]
+  air:
+    color: [0.707415, 0.625168, 0.837053, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.513672, 0.431404, 0.498889, 1]
+    ratio: 0.33
+    polarColor: [0.731152, 0.657966, 0.718002, 1]
+  demographics:
+    type: 60
+    gdp: 52800
+    tech: 13
+    economy: 0
+    government: 7
+    description: Gesolaon is very notable for the Gesolaonian tree snake.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.349633, 0.458981, 0.659824, 1]
+  radius: 106441.868591
+  orbit:
+    type: static
+    parent: ~
+    radius: 215640
+    vector: [-0.018, -0.972, -0.232]
+  corona:
+    shimmer: 0.241191
+    hues: 0.615456
+    flare: 0.075769
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Gesolaon
+    vector: undefined
+    radius: 7188

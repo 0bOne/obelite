@@ -1,0 +1,61 @@
+name: Arqua
+position: [106, 37]
+seed: 7 37 98 106 195 106
+limits:
+  blurs: 192
+  stars: 5872
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arqua
+  radius: 5482
+  rotationSpeed: 0.001744
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 712660
+  land:
+    ratio: 0.45
+    color: [0.271751, 0.0309375, 0.66, 1]
+    polarColor: [0.796642, 0.711445, 0.934, 1]
+  sea:
+    color: [0.615234, 0.596786, 0.476326, 1]
+    polarColor: [0.938477, 0.931441, 0.885504, 1]
+  air:
+    color: [0.746163, 0.581613, 0.897539, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.695312, 0.377533, 0.511596, 1]
+    ratio: 0.35
+    polarColor: [0.812891, 0.580693, 0.678651, 1]
+  demographics:
+    type: 34
+    gdp: 10880
+    tech: 6
+    economy: 5
+    government: 4
+    description: This world is very notable for its inhabitants’ ingrained shyness and its fabulous lethal At water.
+    inhabitants: Small Blue Frogs
+- type: star
+  type: primary
+  color: [0.215478, 0.453379, 0.783279, 1]
+  radius: 169855.339966
+  orbit:
+    type: static
+    parent: ~
+    radius: 493380
+    vector: [-0.022, -0.159, -0.987]
+  corona:
+    shimmer: 0.276754
+    hues: 0.808838
+    flare: 0.064879
+stations:
+- type: coriolis
+  orbit:
+    parent: Arqua
+    vector: undefined
+    radius: 10964

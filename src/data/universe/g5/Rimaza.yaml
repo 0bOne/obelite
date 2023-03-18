@@ -1,0 +1,61 @@
+name: Rimaza
+position: [154, 210]
+seed: 47 210 213 154 64 94
+limits:
+  blurs: 184
+  stars: 5143
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rimaza
+  radius: 6554
+  rotationSpeed: 0.000886
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 786480
+  land:
+    ratio: 0.32
+    color: [0.66, 0.503137, 0.203672, 1]
+    polarColor: [0.934, 0.878504, 0.772557, 1]
+  sea:
+    color: [0.558594, 0.425928, 0.435256, 1]
+    polarColor: [0.944141, 0.888082, 0.892024, 1]
+  air:
+    color: [0.625682, 0.534894, 0.901441, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.600679, 0.267899, 0.707031, 1]
+    ratio: 0.63
+    polarColor: [0.741246, 0.500566, 0.818164, 1]
+  demographics:
+    type: 37
+    gdp: 14208
+    tech: 8
+    economy: 2
+    government: 2
+    description: This world is ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.791245, 0.640089, 0.309288, 1]
+  radius: 145693.891907
+  orbit:
+    type: static
+    parent: ~
+    radius: 393240
+    vector: [0.011, -0.938, 0.347]
+  corona:
+    shimmer: 0.537083
+    hues: 0.546974
+    flare: 0.057619
+stations:
+- type: coriolis
+  orbit:
+    parent: Rimaza
+    vector: undefined
+    radius: 13108

@@ -1,0 +1,61 @@
+name: Biarge
+position: [83, 208]
+seed: 152 208 148 83 13 134
+limits:
+  blurs: 102
+  stars: 9585
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biarge
+  radius: 4435
+  rotationSpeed: 0.002378
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 532200
+  land:
+    ratio: 0.49
+    color: [0.507812, 0.416751, 0.0595093, 1]
+    polarColor: [0.949219, 0.906665, 0.739723, 1]
+  sea:
+    color: [0.525391, 0.391991, 0.495167, 1]
+    polarColor: [0.947461, 0.887319, 0.933835, 1]
+  air:
+    color: [0.65648, 0.750663, 0.989244, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.572563, 0.905383, 0.970703, 1]
+    ratio: 0.39
+    polarColor: [0.696666, 0.897417, 0.936816, 1]
+  demographics:
+    type: 47
+    gdp: 22560
+    tech: 11
+    economy: 0
+    government: 2
+    description: This world is very fabled for the Biargeian edible poet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.794492, 0.397627, 0.336652, 1]
+  radius: 98050.341034
+  orbit:
+    type: static
+    parent: ~
+    radius: 354800
+    vector: [0.927, -0.174, 0.332]
+  corona:
+    shimmer: 0.539178
+    hues: 0.751572
+    flare: 0.025475
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Biarge
+    vector: undefined
+    radius: 8870

@@ -89,10 +89,22 @@ let jsonData = JSON.parse(rawData);
 rawData = null;
 //console.log(jsonData);
 
-let universal;
-let interstellar;
+let universeFile = path.join(target, "index.yaml");
+fs.writeFileSync(universeFile, "");
 
-const starSystems = [];
+let galaxyFolders = [];
+let galaxyIds = [];
+let systems = [];
+for (let g = 0; g < 8; g++)
+{
+    let galaxyId = "g" + g;
+    galaxyIds.push(galaxyId);
+    galaxyFolders[galaxyId] = path.join(target, galaxyId);
+    ensureFolder(galaxyFolders[galaxyId] );
+    let galaxyfile = path.join(galaxyFolders[galaxyId] , "index.yaml");
+    systems[galaxyId] = {};
+    fs.writeFileSync(galaxyfile, "");
+}
 
 //convert to systems 
 for (let key in jsonData)
@@ -100,174 +112,130 @@ for (let key in jsonData)
     const value = jsonData[key];
     if (key === "universal")
     {
-        universal = {
-            id: key,
-            background: {
-                color_1: value.sky_color_1,
-                color_2: value.sky_color_2,
-                docking_clearance: value.stations_require_docking_clearance
-            }
-        }
+        appendLine(universeFile, "universe:");
+        appendLine(universeFile, "  color1: " + arrayToYaml(value.sky_color_1));
+        appendLine(universeFile, "  color2: " + arrayToYaml(value.sky_color_1));
     }
     else if (key === "interstellar space")
     {   
-        interstellar = {
-            id: key,
-            background: {
-                color_1: value.sky_color_1,
-                color_2: value.sky_color_2,
-            },
-            nebula: {
-                color_1: value.nebula_color_1,
-                color_2: value.nebula_color_2,
-            },
-            counts: {
-                stars: value.sky_n_stars,
-                blurs: value.sky_n_blurs
-            }
-        }
+        appendLine(universeFile, "interstellar:");
+        appendLine(universeFile, "  color1: " + arrayToYaml(value.sky_color_1));
+        appendLine(universeFile, "  color2: " + arrayToYaml(value.sky_color_2));
+        appendLine(universeFile, "nebula:");
+        appendLine(universeFile, "  color1: " + arrayToYaml(value.nebula_color_1));
+        appendLine(universeFile, "  color2: " + arrayToYaml(value.nebula_color_2));
+        appendLine(universeFile, "limits:");
+        appendLine(universeFile, "  stars: " + value.sky_n_stars);
+        appendLine(universeFile, "  blurs: " + value.sky_n_blurs);
+
     }
     else //star system
     {
         const parts = toNumberArray(key);
-        const starSystem = {
-            galaxyId: "galaxy" + parts[0],
-            systemId: "system" + parts[1],
-            position: toNumberArray(value.coordinates), // "2 90";
-            space: {
-                blurs: value.sky_n_blurs,               // 46
-                stars: value.sky_n_stars,               // 5808
-                ambient_level: value.ambient_level      // 0.1
-            },
-            bodies: [{
-                type: "planet",
-                class: "habitable",
-                id: value.name,
-                name: value.name,
-                seed: value.random_seed,                             // "74 90 72 2 83 183";
-                body: {
-                    radius: value.radius,
-                    rotation_v: value.rotation_speed,                                               //  0.002623
-                    terminator_threshold_vector: toNumberArray(value.terminator_threshold_vector)   //"0.105 0.18 0.28"
-                },
-                orbit: {
-                    type: "static",
-                    parent: "primary",
-                    radius: value.planet_distance                // planet_distance = 507100.000000;
-                },
-                land: {
-                    fraction: value.land_faction,                           // 0.650000;
-                    color: toNumberArray(value.land_color),                 // "0.077525 0.0438281 0.66 1";
-                    polar_color: toNumberArray(value.polar_land_color)      // "0.727927 0.716006 0.934 1";
-                },
-                sea: {
-                    color: toNumberArray(value.sea_color),                  // "0.547074 0.673828 0.532745 1";
-                    polar: toNumberArray(value.polar_sea_color)             // "0.888758 0.932617 0.883801 1";
-                },
-                atmosphere: {
-                    color: toNumberArray(value.air_color),      // "0.735411 0.597965 0.878678 1";
-                    color_ratio: value.air_color_mix_ratio,     // 0.5
-                    density: value.air_density                  // 0.75
-                },
-                cloud: {
-                    alpha: 1.000000,                                // 1.000000;
-                    color: toNumberArray(value.cloud_color),        // "0.638672 0.409149 0.527497 1";
-                    fraction: value.cloud_fraction,                  // 0.300000;
-                    polar_color: toNumberArray(value.polar_cloud_color)
-                },
-                demographics: {
-                    type: value.population,   //36 TODO: verify what '36' means
-                    productivity: value.productivity,                //11520;
-                    techLevel: value.techlevel,                      //8
-                    economy:  value.economy,                         //2
-                    government: value.government ,                   //1
-                    description: value.description,                  //  "This planet is most notable for...                                     
-                    inhabitants: value.inhabitants,                  // "Human Colonials";
-                },
-            }, {
-                type: "star",
-                id: "primary",
-                name: "primary",
-                color: toNumberArray(value.sun_color),              //"0.781 0.520397 0.402831 1";
-                radius: value.sun_radius,                           //150815.429688;
-                orbit: {
-                    type: "static",
-                    parent: null,                                   //null = system barycenter (0, 0, 0)
-                    //relative positions are as yet unefined, so I'm taking the diff of the plan/sun distance as the offset from barycenter
-                    radius: Math.abs(value.sun_distance - value.planet_distance),   //sun_distance = 783700;
-                    vector: toNumberArray(value.sun_vector),                        // "0.484 -0.815 0.319";
-                },
-                corona: {
-                    shimmer: value.corona_shimmer,                 // 0.349376;
-                    hues: value.corona_hues,                       // 0.658028   
-                    flare: value.corona_flare,                      // 0.009911
-                }
-            }],
-            stations: [{
-                type: value.station,                    // "coriolis"
-                orbit: {
-                    type: "static",
-                    parent: value.name,                 // first planet
-                    vector: value.vector,               // initial vector
-                    radius: value.radius * 2            // planetary radius * 2 TODO: confirm this
-                }
-            }]
-        };
-                    
-        starSystems.push(starSystem);
+        const galaxyId = "g" + parts[0];
+        const planetName = value.name;
+        const systemName = planetName;
+        systems[galaxyId] = systems[galaxyId] || {};
+        const systemFile = path.join(galaxyFolders[galaxyId], systemName + ".yaml");
+        fs.writeFileSync(systemFile, "");
+
+        console.log("processing system " + systemName);
+
+        const position = toNumberArray(value.coordinates);
+
+        appendLine(systemFile, "name: " + systemName);
+        appendLine(systemFile, "position: " + arrayToYaml(position));
+        appendLine(systemFile, "seed: " + value.random_seed);
+        appendLine(systemFile, "limits:");
+        appendLine(systemFile, "  blurs: " + value.sky_n_blurs);
+        appendLine(systemFile, "  stars: " + value.sky_n_stars);
+        appendLine(systemFile, "ambientLightLevel: " + value.ambient_level);
+        appendLine(systemFile, "bodies:");
+        appendLine(systemFile, "- type: planet");
+        appendLine(systemFile, "  class: habitable");
+        appendLine(systemFile, "  name: " + planetName);
+        appendLine(systemFile, "  radius: " + value.radius);
+        appendLine(systemFile, "  rotationSpeed: " + value.rotation_speed);
+        appendLine(systemFile, "  terminatorVector: " + arrayToYaml(toNumberArray(value.terminator_threshold_vector)));
+        appendLine(systemFile, "  orbit:");
+        appendLine(systemFile, "    type: static");
+        appendLine(systemFile, "    parent: primary");
+        appendLine(systemFile, "    distance: " + value.planet_distance);
+        appendLine(systemFile, "  land:");
+        appendLine(systemFile, "    ratio: " + value.land_fraction);
+        appendLine(systemFile, "    color: " + arrayToYaml(toNumberArray(value.land_color)));
+        appendLine(systemFile, "    polarColor: " + arrayToYaml(toNumberArray(value.polar_land_color)));
+        appendLine(systemFile, "  sea:");
+        appendLine(systemFile, "    color: " + arrayToYaml(toNumberArray(value.sea_color)));
+        appendLine(systemFile, "    polarColor: " + arrayToYaml(toNumberArray(value.polar_sea_color)));
+        appendLine(systemFile, "  air:");
+        appendLine(systemFile, "    color: " + arrayToYaml(toNumberArray(value.air_color)));
+        appendLine(systemFile, "    colorRatio: " + value.air_color_mix_ratio);
+        appendLine(systemFile, "    density: " + value.air_density);
+        appendLine(systemFile, "  cloud:");
+        appendLine(systemFile, "    alpha: 1.0");
+        appendLine(systemFile, "    color: " + arrayToYaml(toNumberArray(value.cloud_color)));
+        appendLine(systemFile, "    ratio: " + value.cloud_fraction);
+        appendLine(systemFile, "    polarColor: " + arrayToYaml(toNumberArray(value.polar_cloud_color)));
+        appendLine(systemFile, "  demographics:");
+        appendLine(systemFile, "    type: " + value.population);
+        appendLine(systemFile, "    gdp: " + value.productivity);
+        appendLine(systemFile, "    tech: " + value.techlevel);
+        appendLine(systemFile, "    economy: " + value.economy);
+        appendLine(systemFile, "    government: " + value.government);
+        appendLine(systemFile, "    description: " + value.description);
+        appendLine(systemFile, "    inhabitants: " + value.inhabitants);
+
+        appendLine(systemFile, "- type: star");
+        appendLine(systemFile, "  type: primary");
+        const starColor = toNumberArray(value.sun_color);
+        appendLine(systemFile, "  color: " + arrayToYaml(starColor));
+        appendLine(systemFile, "  radius: " + value.sun_radius);
+        appendLine(systemFile, "  orbit:");
+        appendLine(systemFile, "    type: static");
+        appendLine(systemFile, "    parent: ~");
+        appendLine(systemFile, "    radius: " + Math.abs(value.sun_distance - value.planet_distance));
+        appendLine(systemFile, "    vector: " + arrayToYaml(toNumberArray(value.sun_vector)));
+        appendLine(systemFile, "  corona:");
+        appendLine(systemFile, "    shimmer: " + value.corona_shimmer);
+        appendLine(systemFile, "    hues: " + value.corona_hues);
+        appendLine(systemFile, "    flare: " + value.corona_flare);
+
+        appendLine(systemFile, "stations:");
+        appendLine(systemFile, "- type: " + value.station);
+        appendLine(systemFile, "  orbit:");
+        appendLine(systemFile, "    parent: " + planetName);
+        appendLine(systemFile, "    vector: " + value.vector);
+        appendLine(systemFile, "    radius: " + value.radius * 2); //// planetary radius * 2 TODO: confirm this
+        
+        systems[galaxyId][systemName] = {
+            location: position,
+            color: starColor,
+            size: value.sun_radius
+        }
     }
 } //end for (let key in jsonData)
 
-//save systems:
-const galaxies = {};
+//write out system indexes for each galaxy:
+galaxyIds.forEach(galaxyId => {
+    const galaxyIndexFile = path.join(target, galaxyId + ".yaml");
+    fs.writeFileSync(galaxyIndexFile, "name: " + galaxyId + "\r\n");
+    appendLine(galaxyIndexFile, "systems:");
 
-starSystems.forEach(starSystem => {
-    //write the system
-    const folderSpec = path.join(target, starSystem.galaxyId);
-    ensureFolder(folderSpec);
-    const fileSpec = path.join(folderSpec, starSystem.systemId + ".json");
-    fs.writeFileSync(fileSpec, JSON.stringify(starSystem, null, "\t"));
-
-    //add to list of galaxies
-    if (galaxies[starSystem.galaxyId] === undefined)
-    {
-        galaxies[starSystem.galaxyId] = {
-            id: starSystem.galaxyId,
-           systems: []          
-        };
-    }
-    galaxies[starSystem.galaxyId].systems.push(starSystem.systemId);
+    Object.keys(systems[galaxyId]).sort().forEach(systemId => {
+        //console.log("galaxy", galaxyId, "system", systemId);
+        const system = systems[galaxyId][systemId];
+        appendLine(galaxyIndexFile, "  " + systemId + ":");
+        appendLine(galaxyIndexFile, "    size: " + system.size);
+        appendLine(galaxyIndexFile, "    color: " + arrayToYaml(system.color));
+        appendLine(galaxyIndexFile, "    location: " + arrayToYaml(system.location));
+    });
 });
 
-let galaxyIndex = [];
-//save galaxies:
-for (let galaxyId in galaxies)
-{
-    let galaxy = galaxies[galaxyId];
-    let fileSpec = path.join(target, galaxyId + ".json");
-    fs.writeFileSync(fileSpec, JSON.stringify(galaxy, null, "\t"));
-    galaxyIndex.push(galaxyId);
-}
+console.log(galaxyIds);
+appendLine(universeFile, "galaxies: " + arrayToYaml(galaxyIds));
 
-//save universe:
-{
-    const universe = {
-        universal:  universal,
-        interstellar: interstellar,
-        galaxies: galaxyIndex
-    };
-    let fileSpec = path.join(target, "_UNIVERSE.json");
-    fs.writeFileSync(fileSpec, JSON.stringify(universe, null, "\t"));
-}
-
-
-
-
-
-
-
-//console.log("universal", universal);
-//console.log("interstellar", interstellar);
+console.log("completed");
 
 function ensureFolder(folderSpec)
 {
@@ -293,4 +261,15 @@ function toNumberArray(source, delimiter = " ")
     });
 
     return numbers;
+}
+
+function arrayToYaml(elements = [])
+{
+    return "[" + elements.join(", ") + "]";
+}
+
+function appendLine(file, line)
+{
+    fs.appendFileSync(file, line + "\r\n");
+
 }

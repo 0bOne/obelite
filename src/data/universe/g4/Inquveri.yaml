@@ -1,0 +1,61 @@
+name: Inquveri
+position: [111, 29]
+seed: 230 29 140 111 243 140
+limits:
+  blurs: 137
+  stars: 6881
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inquveri
+  radius: 5999
+  rotationSpeed: 0.004026
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 899850
+  land:
+    ratio: 0.36
+    color: [0.264221, 0.293883, 0.609375, 1]
+    polarColor: [0.80609, 0.817517, 0.939062, 1]
+  sea:
+    color: [0.736328, 0.462227, 0.408432, 1]
+    polarColor: [0.926367, 0.840156, 0.823236, 1]
+  air:
+    color: [0.659978, 0.54113, 0.905994, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.717272, 0.281525, 0.720703, 1]
+    ratio: 0.18
+    polarColor: [0.821864, 0.510368, 0.824316, 1]
+  demographics:
+    type: 25
+    gdp: 3000
+    tech: 4
+    economy: 7
+    government: 1
+    description: This world is ravaged by occasional solar activity.
+    inhabitants: Black Horned Lizards
+- type: star
+  type: primary
+  color: [0.737302, 0.353528, 0.279529, 1]
+  radius: 140600.647125
+  orbit:
+    type: static
+    parent: ~
+    radius: 179970
+    vector: [0.042, -0.051, -0.998]
+  corona:
+    shimmer: 0.46182
+    hues: 0.693794
+    flare: 0.021577
+stations:
+- type: coriolis
+  orbit:
+    parent: Inquveri
+    vector: undefined
+    radius: 11998

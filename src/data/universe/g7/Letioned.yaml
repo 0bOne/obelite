@@ -1,0 +1,61 @@
+name: Letioned
+position: [198, 47]
+seed: 239 47 138 198 91 193
+limits:
+  blurs: 76
+  stars: 5036
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Letioned
+  radius: 3270
+  rotationSpeed: 0.001173
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 359700
+  land:
+    ratio: 0.63
+    color: [0.63148, 0.629063, 0.66, 1]
+    polarColor: [0.92391, 0.923055, 0.934, 1]
+  sea:
+    color: [0.666016, 0.655495, 0.497691, 1]
+    polarColor: [0.933398, 0.929712, 0.874423, 1]
+  air:
+    color: [0.669176, 0.87283, 0.897539, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.656991, 0.695312, 0.581238, 1]
+    ratio: 0.31
+    polarColor: [0.784889, 0.812891, 0.729538, 1]
+  demographics:
+    type: 21
+    gdp: 2520
+    tech: 3
+    economy: 7
+    government: 1
+    description: The world Letioned is fabled for its fabulous cuisine and the Letionedian mountain lobstoid.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.231544, 0.410647, 0.717844, 1]
+  radius: 100454.603577
+  orbit:
+    type: static
+    parent: ~
+    radius: 228900
+    vector: [0.543, 0.18, -0.82]
+  corona:
+    shimmer: 0.582449
+    hues: 0.849388
+    flare: 0.000768
+stations:
+- type: coriolis
+  orbit:
+    parent: Letioned
+    vector: undefined
+    radius: 6540

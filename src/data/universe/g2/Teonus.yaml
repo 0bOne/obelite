@@ -1,0 +1,61 @@
+name: Teonus
+position: [44, 22]
+seed: 137 22 65 44 205 156
+limits:
+  blurs: 148
+  stars: 6808
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teonus
+  radius: 5932
+  rotationSpeed: 0.00164
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 593200
+  land:
+    ratio: 0.33
+    color: [0.210411, 0.427549, 0.619141, 1]
+    polarColor: [0.783265, 0.865514, 0.938086, 1]
+  sea:
+    color: [0.683806, 0.689453, 0.508741, 1]
+    polarColor: [0.929148, 0.931055, 0.870045, 1]
+  air:
+    color: [0.680335, 0.789879, 0.954123, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.638786, 0.865234, 0.822775, 1]
+    ratio: 0.48
+    polarColor: [0.74388, 0.889355, 0.862079, 1]
+  demographics:
+    type: 11
+    gdp: 1408
+    tech: 1
+    economy: 6
+    government: 0
+    description: This planet is a tedious little planet.
+    inhabitants: Black Horned Lizards
+- type: star
+  type: primary
+  color: [0.809503, 0.645938, 0.497166, 1]
+  radius: 148933.605957
+  orbit:
+    type: static
+    parent: ~
+    radius: 593200
+    vector: [-0.438, 0.133, -0.889]
+  corona:
+    shimmer: 0.289286
+    hues: 0.928925
+    flare: 0.042397
+stations:
+- type: coriolis
+  orbit:
+    parent: Teonus
+    vector: undefined
+    radius: 11864

@@ -1,0 +1,61 @@
+name: Onrear
+position: [61, 81]
+seed: 137 81 69 61 106 223
+limits:
+  blurs: 81
+  stars: 9737
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onrear
+  radius: 6717
+  rotationSpeed: 0.000228
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 738870
+  land:
+    ratio: 0.52
+    color: [0.629063, 0.66, 0.635347, 1]
+    polarColor: [0.923055, 0.934, 0.925278, 1]
+  sea:
+    color: [0.0767746, 0.677734, 0.565054, 1]
+    polarColor: [0.725571, 0.932227, 0.893479, 1]
+  air:
+    color: [0.534084, 0.577098, 0.853312, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.268066, 0.38308, 0.5625, 1]
+    ratio: 0.61
+    polarColor: [0.506741, 0.602985, 0.753125, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: Onrear is most noted for the Onrearian deadly Gestesoid and its inhabitants’ exceptional loathing of sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.471298, 0.591521, 0.794168, 1]
+  radius: 159401.658325
+  orbit:
+    type: static
+    parent: ~
+    radius: 671700
+    vector: [-0.583, 0.704, 0.405]
+  corona:
+    shimmer: 0.492782
+    hues: 0.70755
+    flare: 0.013258
+stations:
+- type: coriolis
+  orbit:
+    parent: Onrear
+    vector: undefined
+    radius: 13434

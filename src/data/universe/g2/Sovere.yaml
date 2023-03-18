@@ -1,0 +1,61 @@
+name: Sovere
+position: [16, 95]
+seed: 165 95 9 16 69 7
+limits:
+  blurs: 154
+  stars: 7446
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sovere
+  radius: 4624
+  rotationSpeed: 0.003443
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 462400
+  land:
+    ratio: 0.47
+    color: [0.606423, 0.66, 0.562031, 1]
+    polarColor: [0.915045, 0.934, 0.89934, 1]
+  sea:
+    color: [0.61738, 0.772967, 0.789062, 1]
+    polarColor: [0.870991, 0.916397, 0.921094, 1]
+  air:
+    color: [0.663417, 0.885182, 0.883215, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.658203, 0.656636, 0.55793, 1]
+    ratio: 0.32
+    polarColor: [0.796191, 0.795007, 0.720382, 1]
+  demographics:
+    type: 13
+    gdp: 1560
+    tech: 1
+    economy: 7
+    government: 1
+    description: Sovere is mildly well known for Sovereian lethal water.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.253457, 0.500834, 0.836276, 1]
+  radius: 143645.559082
+  orbit:
+    type: static
+    parent: ~
+    radius: 369920
+    vector: [-0.06, -0.979, 0.196]
+  corona:
+    shimmer: 0.967492
+    hues: 0.948341
+    flare: 0.046068
+stations:
+- type: coriolis
+  orbit:
+    parent: Sovere
+    vector: undefined
+    radius: 9248

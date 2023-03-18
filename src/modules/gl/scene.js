@@ -40,7 +40,7 @@ export default class Scene
 
     Draw() 
     {
-        console.log("model count is " + this.models.length);
+        //console.log("model count is " + this.models.length);
         this.models.forEach(model => {
             this.drawModel(model);
         })

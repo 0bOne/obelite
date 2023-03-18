@@ -1,0 +1,61 @@
+name: Esrasoce
+position: [169, 193]
+seed: 84 193 112 169 166 169
+limits:
+  blurs: 167
+  stars: 7325
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esrasoce
+  radius: 5289
+  rotationSpeed: 0.003931
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 581790
+  land:
+    ratio: 0.59
+    color: [0.652266, 0.66, 0.652749, 1]
+    polarColor: [0.931264, 0.934, 0.931435, 1]
+  sea:
+    color: [0.145683, 0.556641, 0.248423, 1]
+    polarColor: [0.77004, 0.944336, 0.813614, 1]
+  air:
+    color: [0.589856, 0.940465, 0.912728, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.824219, 0.727203, 0.396011, 1]
+    ratio: 0.53
+    polarColor: [0.870898, 0.80683, 0.588112, 1]
+  demographics:
+    type: 48
+    gdp: 34560
+    tech: 10
+    economy: 1
+    government: 6
+    description: The planet Esrasoce is a boring world.
+    inhabitants: Small Harmless Slimy Frogs
+- type: star
+  type: primary
+  color: [0.461349, 0.659668, 0.733511, 1]
+  radius: 116796.866913
+  orbit:
+    type: static
+    parent: ~
+    radius: 528900
+    vector: [-0.439, -0.528, 0.727]
+  corona:
+    shimmer: 0.94069
+    hues: 0.663345
+    flare: 0.058655
+stations:
+- type: coriolis
+  orbit:
+    parent: Esrasoce
+    vector: undefined
+    radius: 10578

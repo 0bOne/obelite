@@ -1,0 +1,61 @@
+name: Cesousla
+position: [218, 103]
+seed: 100 103 244 218 149 165
+limits:
+  blurs: 170
+  stars: 5472
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cesousla
+  radius: 4314
+  rotationSpeed: 0.0021
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 431400
+  land:
+    ratio: 0.56
+    color: [0.522255, 0.347778, 0.601562, 1]
+    polarColor: [0.908867, 0.84072, 0.939844, 1]
+  sea:
+    color: [0.568111, 0.730469, 0.620116, 1]
+    polarColor: [0.875446, 0.926953, 0.891944, 1]
+  air:
+    color: [0.55126, 0.954123, 0.865656, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.865234, 0.49047, 0.287285, 1]
+    ratio: 0.13
+    polarColor: [0.889355, 0.648598, 0.518067, 1]
+  demographics:
+    type: 34
+    gdp: 8160
+    tech: 5
+    economy: 7
+    government: 6
+    description: The world Cesousla is notable for its weird tropical forests and Cesouslaian evil juice.
+    inhabitants: Fierce Harmless Furry Felines
+- type: star
+  type: primary
+  color: [0.789077, 0.796793, 0.812643, 1]
+  radius: 96130.264893
+  orbit:
+    type: static
+    parent: ~
+    radius: 258840
+    vector: [0.632, -0.209, -0.746]
+  corona:
+    shimmer: 0.290162
+    hues: 0.891479
+    flare: 0.003831
+stations:
+- type: coriolis
+  orbit:
+    parent: Cesousla
+    vector: undefined
+    radius: 8628

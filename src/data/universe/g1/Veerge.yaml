@@ -1,0 +1,61 @@
+name: Veerge
+position: [93, 124]
+seed: 128 124 96 93 90 22
+limits:
+  blurs: 112
+  stars: 7035
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veerge
+  radius: 4445
+  rotationSpeed: 0.00432
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 577850
+  land:
+    ratio: 0.44
+    color: [0.66, 0.553471, 0.327422, 1]
+    polarColor: [0.934, 0.896311, 0.816338, 1]
+  sea:
+    color: [0.279083, 0.339429, 0.576172, 1]
+    polarColor: [0.820904, 0.845579, 0.942383, 1]
+  air:
+    color: [0.724267, 0.751729, 0.954773, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.758789, 0.796051, 0.867188, 1]
+    ratio: 0.35
+    polarColor: [0.820685, 0.844592, 0.890234, 1]
+  demographics:
+    type: 33
+    gdp: 12672
+    tech: 6
+    economy: 4
+    government: 4
+    description: The world Veerge is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.336742, 0.555165, 0.76416, 1]
+  radius: 141219.093323
+  orbit:
+    type: static
+    parent: ~
+    radius: 133350
+    vector: [0.24, 0.971, 0.019]
+  corona:
+    shimmer: 0.259505
+    hues: 0.849991
+    flare: 0.085381
+stations:
+- type: coriolis
+  orbit:
+    parent: Veerge
+    vector: undefined
+    radius: 8890

@@ -1,0 +1,61 @@
+name: Xeisare
+position: [239, 10]
+seed: 212 10 248 239 54 34
+limits:
+  blurs: 107
+  stars: 6096
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeisare
+  radius: 3567
+  rotationSpeed: 0.001067
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 392370
+  land:
+    ratio: 0.42
+    color: [0.638771, 0.66, 0.580078, 1]
+    polarColor: [0.926489, 0.934, 0.905725, 1]
+  sea:
+    color: [0.129799, 0.626953, 0.498781, 1]
+    polarColor: [0.751491, 0.937305, 0.8894, 1]
+  air:
+    color: [0.613849, 0.888434, 0.800277, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.667969, 0.459065, 0.448792, 1]
+    ratio: 0.31
+    polarColor: [0.800586, 0.644099, 0.636403, 1]
+  demographics:
+    type: 58
+    gdp: 40832
+    tech: 12
+    economy: 2
+    government: 7
+    description: Xeisare is very fabled for its unusual tropical forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.2346, 0.290728, 0.775171, 1]
+  radius: 88579.012299
+  orbit:
+    type: static
+    parent: ~
+    radius: 428040
+    vector: [-0.605, 0.722, 0.336]
+  corona:
+    shimmer: 0.292402
+    hues: 0.946777
+    flare: 0.055736
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Xeisare
+    vector: undefined
+    radius: 7134

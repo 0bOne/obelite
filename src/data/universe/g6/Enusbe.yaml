@@ -1,0 +1,61 @@
+name: Enusbe
+position: [120, 61]
+seed: 18 61 210 120 84 82
+limits:
+  blurs: 44
+  stars: 5795
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enusbe
+  radius: 3448
+  rotationSpeed: 0.003102
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 482720
+  land:
+    ratio: 0.34
+    color: [0.212708, 0.349775, 0.640625, 1]
+    polarColor: [0.779643, 0.829706, 0.935938, 1]
+  sea:
+    color: [0.619141, 0.607127, 0.47935, 1]
+    polarColor: [0.938086, 0.933536, 0.885135, 1]
+  air:
+    color: [0.693087, 0.770141, 0.958025, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.674843, 0.848531, 0.876953, 1]
+    ratio: 0.38
+    polarColor: [0.765764, 0.876507, 0.894629, 1]
+  demographics:
+    type: 20
+    gdp: 4800
+    tech: 3
+    economy: 5
+    government: 2
+    description: This planet is very notable for the Enusbeian tree snake and its unusual casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.444839, 0.638175, 0.700217, 1]
+  radius: 102870.20874
+  orbit:
+    type: static
+    parent: ~
+    radius: 137920
+    vector: [-0.55, 0.397, -0.734]
+  corona:
+    shimmer: 0.348096
+    hues: 0.763634
+    flare: 0.051427
+stations:
+- type: coriolis
+  orbit:
+    parent: Enusbe
+    vector: undefined
+    radius: 6896

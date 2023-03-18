@@ -1,0 +1,61 @@
+name: Ribeties
+position: [229, 207]
+seed: 210 207 242 229 20 62
+limits:
+  blurs: 184
+  stars: 5518
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ribeties
+  radius: 6629
+  rotationSpeed: 0.001859
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 662900
+  land:
+    ratio: 0.59
+    color: [0.559453, 0.66, 0.655287, 1]
+    polarColor: [0.898428, 0.934, 0.932333, 1]
+  sea:
+    color: [0.228149, 0.521484, 0.480234, 1]
+    polarColor: [0.81456, 0.947852, 0.929107, 1]
+  air:
+    color: [0.781398, 0.607181, 0.887133, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.664062, 0.433197, 0.460252, 1]
+    ratio: 0.39
+    polarColor: [0.798828, 0.625255, 0.645595, 1]
+  demographics:
+    type: 30
+    gdp: 7200
+    tech: 4
+    economy: 7
+    government: 6
+    description: Ribeties is very notable for the Ribetiesian tree ant.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.726804, 0.721122, 0.555045, 1]
+  radius: 185945.998993
+  orbit:
+    type: static
+    parent: ~
+    radius: 530320
+    vector: [-0.109, 0.77, -0.628]
+  corona:
+    shimmer: 0.295138
+    hues: 0.918915
+    flare: 0.013248
+stations:
+- type: coriolis
+  orbit:
+    parent: Ribeties
+    vector: undefined
+    radius: 13258

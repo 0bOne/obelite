@@ -1,0 +1,61 @@
+name: Beesed
+position: [155, 123]
+seed: 138 123 82 155 10 51
+limits:
+  blurs: 193
+  stars: 9180
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beesed
+  radius: 3739
+  rotationSpeed: 0.004421
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 448680
+  land:
+    ratio: 0.38
+    color: [0.636719, 0.477889, 0.470078, 1]
+    polarColor: [0.936328, 0.877936, 0.875064, 1]
+  sea:
+    color: [0.126709, 0.559961, 0.675781, 1]
+    polarColor: [0.743024, 0.892471, 0.932422, 1]
+  air:
+    color: [0.691316, 0.852929, 0.88258, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.634651, 0.650391, 0.617363, 1]
+    ratio: 0.17
+    polarColor: [0.780686, 0.792676, 0.767518, 1]
+  demographics:
+    type: 38
+    gdp: 12768
+    tech: 8
+    economy: 3
+    government: 2
+    description: This world is plagued by deadly earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.729428, 0.379195, 0.26302, 1]
+  radius: 88217.03125
+  orbit:
+    type: static
+    parent: ~
+    radius: 373900
+    vector: [-0.263, 0.964, 0.022]
+  corona:
+    shimmer: 0.284813
+    hues: 0.718399
+    flare: 0.007294
+stations:
+- type: coriolis
+  orbit:
+    parent: Beesed
+    vector: undefined
+    radius: 7478

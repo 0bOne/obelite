@@ -1,0 +1,61 @@
+name: Ravequce
+position: [175, 50]
+seed: 218 50 2 175 170 244
+limits:
+  blurs: 120
+  stars: 8483
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ravequce
+  radius: 4015
+  rotationSpeed: 0.000138
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 481800
+  land:
+    ratio: 0.43
+    color: [0.532604, 0.66, 0.518203, 1]
+    polarColor: [0.888929, 0.934, 0.883834, 1]
+  sea:
+    color: [0.445457, 0.371384, 0.519531, 1]
+    polarColor: [0.914254, 0.880462, 0.948047, 1]
+  air:
+    color: [0.571087, 0.509043, 0.911848, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.457505, 0.201874, 0.738281, 1]
+    ratio: 0.53
+    polarColor: [0.634412, 0.454311, 0.832227, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: This planet is notable for the Ravequceian edible arts graduate and its great volcanoes.
+    inhabitants: Furry Humanoids
+- type: star
+  type: primary
+  color: [0.363499, 0.447374, 0.691653, 1]
+  radius: 80970.228577
+  orbit:
+    type: static
+    parent: ~
+    radius: 361350
+    vector: [-0.382, 0.554, 0.74]
+  corona:
+    shimmer: 0.55691
+    hues: 0.699776
+    flare: 0.049655
+stations:
+- type: coriolis
+  orbit:
+    parent: Ravequce
+    vector: undefined
+    radius: 8030

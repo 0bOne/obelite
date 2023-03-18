@@ -1,0 +1,61 @@
+name: Leerte
+position: [201, 229]
+seed: 188 229 200 201 117 129
+limits:
+  blurs: 121
+  stars: 5636
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leerte
+  radius: 3273
+  rotationSpeed: 0.001612
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 392760
+  land:
+    ratio: 0.51
+    color: [0.66, 0.631641, 0.655569, 1]
+    polarColor: [0.934, 0.923967, 0.932432, 1]
+  sea:
+    color: [0.625, 0.591702, 0.478027, 1]
+    polarColor: [0.9375, 0.925013, 0.882385, 1]
+  air:
+    color: [0.673681, 0.841475, 0.922904, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.610021, 0.771484, 0.608749, 1]
+    ratio: 0.65
+    polarColor: [0.736353, 0.847168, 0.735481, 1]
+  demographics:
+    type: 17
+    gdp: 2040
+    tech: 2
+    economy: 7
+    government: 1
+    description: The planet Leerte is mildly well known for its exotic cuisine.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.409016, 0.72386, 0.770776, 1]
+  radius: 75681.632538
+  orbit:
+    type: static
+    parent: ~
+    radius: 294570
+    vector: [0.099, 0.835, -0.542]
+  corona:
+    shimmer: 0.460309
+    hues: 0.890144
+    flare: 0.037889
+stations:
+- type: coriolis
+  orbit:
+    parent: Leerte
+    vector: undefined
+    radius: 6546

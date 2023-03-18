@@ -1,0 +1,61 @@
+name: Usmate
+position: [40, 250]
+seed: 169 250 161 40 77 104
+limits:
+  blurs: 155
+  stars: 9554
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usmate
+  radius: 4904
+  rotationSpeed: 0.000365
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 637520
+  land:
+    ratio: 0.24
+    color: [0.66, 0.0257813, 0.0257813, 1]
+    polarColor: [0.934, 0.709621, 0.709621, 1]
+  sea:
+    color: [0.552734, 0.406562, 0.502488, 1]
+    polarColor: [0.944727, 0.882268, 0.923256, 1]
+  air:
+    color: [0.416413, 0.84876, 0.844925, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.548828, 0.540856, 0.0385895, 1]
+    ratio: 0.34
+    polarColor: [0.746973, 0.740191, 0.312941, 1]
+  demographics:
+    type: 35
+    gdp: 17920
+    tech: 7
+    economy: 2
+    government: 4
+    description: The world Usmate is mildly fabled for the Usmateian mountain A’oid but ravaged by lethal vicious wolfs.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.392993, 0.443653, 0.656723, 1]
+  radius: 155825.617676
+  orbit:
+    type: static
+    parent: ~
+    radius: 294240
+    vector: [-0.169, -0.707, -0.687]
+  corona:
+    shimmer: 0.390793
+    hues: 0.765297
+    flare: 0.085503
+stations:
+- type: coriolis
+  orbit:
+    parent: Usmate
+    vector: undefined
+    radius: 9808

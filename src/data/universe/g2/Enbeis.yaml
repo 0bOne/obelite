@@ -1,0 +1,61 @@
+name: Enbeis
+position: [120, 9]
+seed: 57 9 17 120 13 146
+limits:
+  blurs: 75
+  stars: 6287
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enbeis
+  radius: 3448
+  rotationSpeed: 0.002272
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 379280
+  land:
+    ratio: 0.34
+    color: [0.204391, 0.556641, 0.507106, 1]
+    polarColor: [0.794939, 0.944336, 0.923327, 1]
+  sea:
+    color: [0.606963, 0.785156, 0.760098, 1]
+    polarColor: [0.869201, 0.921484, 0.914132, 1]
+  air:
+    color: [0.720783, 0.591812, 0.878027, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.636719, 0.395462, 0.548132, 1]
+    ratio: 0.4
+    polarColor: [0.786523, 0.600262, 0.718131, 1]
+  demographics:
+    type: 32
+    gdp: 13824
+    tech: 7
+    economy: 1
+    government: 2
+    description: Enbeis is ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.660093, 0.679859, 0.808664, 1]
+  radius: 74454.302979
+  orbit:
+    type: static
+    parent: ~
+    radius: 275840
+    vector: [-0.216, -0.665, -0.715]
+  corona:
+    shimmer: 0.99505
+    hues: 0.628136
+    flare: 0.027847
+stations:
+- type: coriolis
+  orbit:
+    parent: Enbeis
+    vector: undefined
+    radius: 6896

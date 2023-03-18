@@ -1,0 +1,61 @@
+name: Isbeus
+position: [214, 95]
+seed: 48 95 232 214 154 253
+limits:
+  blurs: 80
+  stars: 6465
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isbeus
+  radius: 6358
+  rotationSpeed: 0.002257
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 635800
+  land:
+    ratio: 0.44
+    color: [0.26355, 0.443411, 0.53125, 1]
+    polarColor: [0.827591, 0.907735, 0.946875, 1]
+  sea:
+    color: [0.573063, 0.732422, 0.642782, 1]
+    polarColor: [0.876347, 0.926758, 0.898402, 1]
+  air:
+    color: [0.707385, 0.728767, 0.974285, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.71965, 0.766352, 0.925781, 1]
+    ratio: 0.41
+    polarColor: [0.789047, 0.817946, 0.916602, 1]
+  demographics:
+    type: 33
+    gdp: 7128
+    tech: 5
+    economy: 7
+    government: 5
+    description: This world is most fabled for Isbeusian Onablo brandy but scourged by killer mountain goats.
+    inhabitants: Bug-Eyed Lizards
+- type: star
+  type: primary
+  color: [0.516967, 0.604069, 0.661179, 1]
+  radius: 200325.119629
+  orbit:
+    type: static
+    parent: ~
+    radius: 445060
+    vector: [0.416, 0.816, -0.401]
+  corona:
+    shimmer: 0.2896
+    hues: 0.501114
+    flare: 0.029013
+stations:
+- type: coriolis
+  orbit:
+    parent: Isbeus
+    vector: undefined
+    radius: 12716

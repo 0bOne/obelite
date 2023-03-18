@@ -1,0 +1,61 @@
+name: Gebequat
+position: [162, 173]
+seed: 114 173 154 162 180 131
+limits:
+  blurs: 62
+  stars: 5549
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gebequat
+  radius: 3746
+  rotationSpeed: 0.002194
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 486980
+  land:
+    ratio: 0.61
+    color: [0.353203, 0.66, 0.501808, 1]
+    polarColor: [0.825459, 0.934, 0.878034, 1]
+  sea:
+    color: [0.597656, 0.460769, 0.446608, 1]
+    polarColor: [0.940234, 0.886396, 0.880827, 1]
+  air:
+    color: [0.669811, 0.875627, 0.889084, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.651522, 0.669922, 0.575714, 1]
+    ratio: 0.51
+    polarColor: [0.787707, 0.801465, 0.731024, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 6
+    economy: 5
+    government: 3
+    description: Gebequat is famous for Gebequatian wolf cutlet but plagued by frequent earthquakes.
+    inhabitants: Large Black Lizards
+- type: star
+  type: primary
+  color: [0.82695, 0.675508, 0.667723, 1]
+  radius: 108216.507568
+  orbit:
+    type: static
+    parent: ~
+    radius: 412060
+    vector: [-0.669, 0.738, -0.088]
+  corona:
+    shimmer: 0.414465
+    hues: 0.887047
+    flare: 0.07644
+stations:
+- type: coriolis
+  orbit:
+    parent: Gebequat
+    vector: undefined
+    radius: 7492

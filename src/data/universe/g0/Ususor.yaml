@@ -1,0 +1,61 @@
+name: Ususor
+position: [168, 23]
+seed: 56 23 204 168 61 8
+limits:
+  blurs: 79
+  stars: 5832
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ususor
+  radius: 5032
+  rotationSpeed: 0.000146
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 704480
+  land:
+    ratio: 0.56
+    color: [0.66, 0.162422, 0.523943, 1]
+    polarColor: [0.934, 0.757963, 0.885865, 1]
+  sea:
+    color: [0.666016, 0.470101, 0.455284, 1]
+    polarColor: [0.933398, 0.864757, 0.859565, 1]
+  air:
+    color: [0.72964, 0.776456, 0.934611, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.759377, 0.791132, 0.806641, 1]
+    ratio: 0.38
+    polarColor: [0.831385, 0.852618, 0.862988, 1]
+  demographics:
+    type: 13
+    gdp: 1560
+    tech: 1
+    economy: 7
+    government: 1
+    description: This planet is very notable for its inhabitants’ weird shyness and the Ususorian edible poet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.391074, 0.638344, 0.728015, 1]
+  radius: 114785.5896
+  orbit:
+    type: static
+    parent: ~
+    radius: 301920
+    vector: [-0.889, -0.362, -0.282]
+  corona:
+    shimmer: 0.698708
+    hues: 0.708305
+    flare: 0.053717
+stations:
+- type: coriolis
+  orbit:
+    parent: Ususor
+    vector: undefined
+    radius: 10064

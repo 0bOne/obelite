@@ -1,0 +1,61 @@
+name: Zauseris
+position: [35, 193]
+seed: 77 193 97 35 21 196
+limits:
+  blurs: 55
+  stars: 7219
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zauseris
+  radius: 3875
+  rotationSpeed: 0.001344
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 465000
+  land:
+    ratio: 0.63
+    color: [0.66, 0.00515625, 0.158635, 1]
+    polarColor: [0.934, 0.702324, 0.756623, 1]
+  sea:
+    color: [0.587891, 0.513118, 0.453089, 1]
+    polarColor: [0.941211, 0.911283, 0.887257, 1]
+  air:
+    color: [0.729126, 0.560432, 0.910547, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.734375, 0.327026, 0.546613, 1]
+    ratio: 0.31
+    polarColor: [0.830469, 0.542562, 0.697762, 1]
+  demographics:
+    type: 50
+    gdp: 28800
+    tech: 11
+    economy: 1
+    government: 4
+    description: This world is noted for its exciting Zauserisian evil brandy.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.722818, 0.631805, 0.460612, 1]
+  radius: 72206.878662
+  orbit:
+    type: static
+    parent: ~
+    radius: 310000
+    vector: [0.106, 0.069, 0.992]
+  corona:
+    shimmer: 0.536073
+    hues: 0.528076
+    flare: 0.001913
+stations:
+- type: icosahedron
+  orbit:
+    parent: Zauseris
+    vector: undefined
+    radius: 7750

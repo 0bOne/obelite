@@ -1,0 +1,61 @@
+name: Enorar
+position: [190, 8]
+seed: 137 8 197 190 106 242
+limits:
+  blurs: 109
+  stars: 5032
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enorar
+  radius: 3518
+  rotationSpeed: 0.000256
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 527700
+  land:
+    ratio: 0.56
+    color: [0.160217, 0.546875, 0.275006, 1]
+    polarColor: [0.778221, 0.945312, 0.827826, 1]
+  sea:
+    color: [0.6338, 0.765625, 0.5802, 1]
+    polarColor: [0.883688, 0.923437, 0.867526, 1]
+  air:
+    color: [0.568016, 0.928758, 0.815755, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.789062, 0.373557, 0.342133, 1]
+    ratio: 0.25
+    polarColor: [0.855078, 0.573661, 0.552377, 1]
+  demographics:
+    type: 31
+    gdp: 7936
+    tech: 7
+    economy: 2
+    government: 0
+    description: This planet is beset by lethal disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.709155, 0.446708, 0.356442, 1]
+  radius: 97779.421692
+  orbit:
+    type: static
+    parent: ~
+    radius: 70360
+    vector: [-0.095, 0.627, -0.773]
+  corona:
+    shimmer: 0.383328
+    hues: 0.678391
+    flare: 0.016658
+stations:
+- type: coriolis
+  orbit:
+    parent: Enorar
+    vector: undefined
+    radius: 7036

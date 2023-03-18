@@ -1,0 +1,61 @@
+name: Belaus
+position: [159, 34]
+seed: 17 34 0 159 253 115
+limits:
+  blurs: 117
+  stars: 5488
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Belaus
+  radius: 3743
+  rotationSpeed: 0.004725
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 411730
+  land:
+    ratio: 0.42
+    color: [0.427969, 0.66, 0.496853, 1]
+    polarColor: [0.85191, 0.934, 0.876281, 1]
+  sea:
+    color: [0.652344, 0.483763, 0.466324, 1]
+    polarColor: [0.934766, 0.874374, 0.868127, 1]
+  air:
+    color: [0.747195, 0.736919, 0.96648, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.815298, 0.800125, 0.902344, 1]
+    ratio: 0.33
+    polarColor: [0.851427, 0.841905, 0.906055, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: Belaus is reasonably well known for the Belausian tree ant but ravaged by dreadful civil war.
+    inhabitants: Blue Furry Rodents
+- type: star
+  type: primary
+  color: [0.741437, 0.733196, 0.727114, 1]
+  radius: 107755.176392
+  orbit:
+    type: static
+    parent: ~
+    radius: 374300
+    vector: [0.728, -0.686, 0.012]
+  corona:
+    shimmer: 0.791976
+    hues: 0.853081
+    flare: 0.014952
+stations:
+- type: coriolis
+  orbit:
+    parent: Belaus
+    vector: undefined
+    radius: 7486

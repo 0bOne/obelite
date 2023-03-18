@@ -1,0 +1,61 @@
+name: Ergerexe
+position: [89, 89]
+seed: 83 89 222 89 167 144
+limits:
+  blurs: 146
+  stars: 5613
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ergerexe
+  radius: 2905
+  rotationSpeed: 0.003321
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 319550
+  land:
+    ratio: 0.66
+    color: [0.46519, 0.66, 0.180469, 1]
+    polarColor: [0.865079, 0.934, 0.764348, 1]
+  sea:
+    color: [0.5, 0.391211, 0.429457, 1]
+    polarColor: [0.95, 0.898325, 0.916492, 1]
+  air:
+    color: [0.496615, 0.682239, 0.835102, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.194397, 0.507812, 0.309479, 1]
+    ratio: 0.33
+    polarColor: [0.447496, 0.728516, 0.550683, 1]
+  demographics:
+    type: 41
+    gdp: 20664
+    tech: 9
+    economy: 1
+    government: 3
+    description: This world is very well known for Ergerexeian lethal water and the Ergerexeian tree snake.
+    inhabitants: Black Slimy Rodents
+- type: star
+  type: primary
+  color: [0.681696, 0.655809, 0.486965, 1]
+  radius: 71835.983276
+  orbit:
+    type: static
+    parent: ~
+    radius: 261450
+    vector: [-0.904, -0.401, -0.15]
+  corona:
+    shimmer: 0.308748
+    hues: 0.692581
+    flare: 0.073619
+stations:
+- type: coriolis
+  orbit:
+    parent: Ergerexe
+    vector: undefined
+    radius: 5810

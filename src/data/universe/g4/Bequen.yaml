@@ -1,0 +1,61 @@
+name: Bequen
+position: [99, 194]
+seed: 182 194 228 99 211 83
+limits:
+  blurs: 61
+  stars: 9468
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bequen
+  radius: 3683
+  rotationSpeed: 0.003685
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 441960
+  land:
+    ratio: 0.63
+    color: [0.66, 0.652266, 0.653172, 1]
+    polarColor: [0.934, 0.931264, 0.931584, 1]
+  sea:
+    color: [0.513672, 0.416482, 0.409132, 1]
+    polarColor: [0.948633, 0.903761, 0.900367, 1]
+  air:
+    color: [0.501237, 0.5721, 0.875426, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.19899, 0.437459, 0.628906, 1]
+    ratio: 0.33
+    polarColor: [0.448471, 0.634034, 0.783008, 1]
+  demographics:
+    type: 47
+    gdp: 24064
+    tech: 10
+    economy: 2
+    government: 4
+    description: This planet is noted for Zero-G hockey.
+    inhabitants: Yellow Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.440895, 0.606155, 0.765173, 1]
+  radius: 121545.856171
+  orbit:
+    type: static
+    parent: ~
+    radius: 405130
+    vector: [0.31, -0.735, -0.603]
+  corona:
+    shimmer: 0.256933
+    hues: 0.930664
+    flare: 0.058543
+stations:
+- type: coriolis
+  orbit:
+    parent: Bequen
+    vector: undefined
+    radius: 7366

@@ -1,0 +1,61 @@
+name: Xeceator
+position: [42, 25]
+seed: 105 25 57 42 10 194
+limits:
+  blurs: 195
+  stars: 6471
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeceator
+  radius: 3370
+  rotationSpeed: 0.003493
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 438100
+  land:
+    ratio: 0.68
+    color: [0.66, 0.650252, 0.546562, 1]
+    polarColor: [0.934, 0.930551, 0.893867, 1]
+  sea:
+    color: [0.109909, 0.656797, 0.669922, 1]
+    polarColor: [0.738024, 0.928438, 0.933008, 1]
+  air:
+    color: [0.664374, 0.473531, 0.96518, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.898438, 0.0631714, 0.748351, 1]
+    ratio: 0.23
+    polarColor: [0.904297, 0.378851, 0.809881, 1]
+  demographics:
+    type: 57
+    gdp: 45144
+    tech: 12
+    economy: 1
+    government: 7
+    description: This world is very fabled for its weird tropical forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.295752, 0.723459, 0.817374, 1]
+  radius: 78495.350647
+  orbit:
+    type: static
+    parent: ~
+    radius: 168500
+    vector: [0.091, 0.973, 0.212]
+  corona:
+    shimmer: 0.461125
+    hues: 0.693642
+    flare: 0.05746
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Xeceator
+    vector: undefined
+    radius: 6740

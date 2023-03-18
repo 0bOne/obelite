@@ -1,0 +1,61 @@
+name: Araron
+position: [74, 118]
+seed: 9 118 169 74 42 138
+limits:
+  blurs: 84
+  stars: 5685
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Araron
+  radius: 5450
+  rotationSpeed: 0.001597
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 654000
+  land:
+    ratio: 0.44
+    color: [0.518203, 0.540359, 0.66, 1]
+    polarColor: [0.883834, 0.891672, 0.934, 1]
+  sea:
+    color: [0.501953, 0.243103, 0.0352936, 1]
+    polarColor: [0.949805, 0.827354, 0.729049, 1]
+  air:
+    color: [0.666103, 0.576245, 0.873475, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.602512, 0.360199, 0.623047, 1]
+    ratio: 0.37
+    polarColor: [0.764296, 0.574609, 0.780371, 1]
+  demographics:
+    type: 36
+    gdp: 10368
+    tech: 6
+    economy: 6
+    government: 5
+    description: This world is fabled for its ancient Araronian Re tulip plantations.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.785997, 0.822162, 0.830225, 1]
+  radius: 131490.730286
+  orbit:
+    type: static
+    parent: ~
+    radius: 381500
+    vector: [-0.544, 0.814, -0.204]
+  corona:
+    shimmer: 0.504915
+    hues: 0.831406
+    flare: 0.029446
+stations:
+- type: coriolis
+  orbit:
+    parent: Araron
+    vector: undefined
+    radius: 10900

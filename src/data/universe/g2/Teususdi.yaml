@@ -1,0 +1,61 @@
+name: Teususdi
+position: [99, 41]
+seed: 113 41 9 99 109 28
+limits:
+  blurs: 43
+  stars: 9460
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teususdi
+  radius: 5987
+  rotationSpeed: 0.003153
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 838180
+  land:
+    ratio: 0.55
+    color: [0.537109, 0.478363, 0.490755, 1]
+    polarColor: [0.946289, 0.920414, 0.925872, 1]
+  sea:
+    color: [0.703734, 0.722656, 0.536346, 1]
+    polarColor: [0.921661, 0.927734, 0.867939, 1]
+  air:
+    color: [0.572001, 0.544431, 0.873475, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.379973, 0.292053, 0.623047, 1]
+    ratio: 0.32
+    polarColor: [0.590089, 0.521263, 0.780371, 1]
+  demographics:
+    type: 37
+    gdp: 10360
+    tech: 8
+    economy: 3
+    government: 1
+    description: The world Teususdi is a boring world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.684711, 0.684296, 0.678873, 1]
+  radius: 152014.585419
+  orbit:
+    type: static
+    parent: ~
+    radius: 239480
+    vector: [0.146, -0.945, -0.292]
+  corona:
+    shimmer: 0.351562
+    hues: 0.545166
+    flare: 0.039308
+stations:
+- type: coriolis
+  orbit:
+    parent: Teususdi
+    vector: undefined
+    radius: 11974

@@ -1,0 +1,61 @@
+name: Esanbe
+position: [173, 132]
+seed: 128 132 224 173 141 105
+limits:
+  blurs: 117
+  stars: 9456
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esanbe
+  radius: 5293
+  rotationSpeed: 0.000347
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 793950
+  land:
+    ratio: 0.47
+    color: [0.456167, 0.00773438, 0.66, 1]
+    polarColor: [0.861886, 0.703236, 0.934, 1]
+  sea:
+    color: [0.613281, 0.574633, 0.471939, 1]
+    polarColor: [0.938672, 0.923883, 0.884588, 1]
+  air:
+    color: [0.631858, 0.484069, 0.94892, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.826482, 0.10952, 0.849609, 1]
+    ratio: 0.37
+    polarColor: [0.867313, 0.401957, 0.882324, 1]
+  demographics:
+    type: 33
+    gdp: 12672
+    tech: 6
+    economy: 4
+    government: 4
+    description: Esanbe is famous for its inhabitants’ ancient loathing of casinos but plagued by deadly earthquakes.
+    inhabitants: Small Blue Bug-Eyed Lizards
+- type: star
+  type: primary
+  color: [0.757297, 0.554051, 0.546465, 1]
+  radius: 158979.797211
+  orbit:
+    type: static
+    parent: ~
+    radius: 370510
+    vector: [0.919, 0.224, -0.325]
+  corona:
+    shimmer: 0.891064
+    hues: 0.555573
+    flare: 0.050757
+stations:
+- type: coriolis
+  orbit:
+    parent: Esanbe
+    vector: undefined
+    radius: 10586

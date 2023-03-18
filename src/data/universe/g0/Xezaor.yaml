@@ -1,0 +1,61 @@
+name: Xezaor
+position: [146, 112]
+seed: 90 112 84 146 27 226
+limits:
+  blurs: 69
+  stars: 6768
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xezaor
+  radius: 3474
+  rotationSpeed: 0.00157
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 416880
+  land:
+    ratio: 0.44
+    color: [0.407344, 0.66, 0.4409, 1]
+    polarColor: [0.844613, 0.934, 0.856485, 1]
+  sea:
+    color: [0.71875, 0.674837, 0.502563, 1]
+    polarColor: [0.928125, 0.913949, 0.858334, 1]
+  air:
+    color: [0.766332, 0.634017, 0.857865, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.576172, 0.47039, 0.492704, 1]
+    ratio: 0.47
+    polarColor: [0.759277, 0.672153, 0.690531, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 10
+    economy: 0
+    government: 2
+    description: The world Xezaor is most well known for its hoopy casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.181204, 0.472203, 0.658063, 1]
+  radius: 94804.535522
+  orbit:
+    type: static
+    parent: ~
+    radius: 416880
+    vector: [-0.106, -0.936, 0.336]
+  corona:
+    shimmer: 0.290664
+    hues: 0.513924
+    flare: 0.040836
+stations:
+- type: coriolis
+  orbit:
+    parent: Xezaor
+    vector: undefined
+    radius: 6948

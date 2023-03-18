@@ -1,0 +1,61 @@
+name: Xebeis
+position: [39, 73]
+seed: 149 73 20 39 249 66
+limits:
+  blurs: 88
+  stars: 6154
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xebeis
+  radius: 3367
+  rotationSpeed: 0.004997
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 505050
+  land:
+    ratio: 0.34
+    color: [0.338658, 0.564453, 0.0661469, 1]
+    polarColor: [0.849193, 0.943555, 0.735309, 1]
+  sea:
+    color: [0.580078, 0.452145, 0.438911, 1]
+    polarColor: [0.941992, 0.890054, 0.884682, 1]
+  air:
+    color: [0.705373, 0.468796, 0.976236, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.931641, 0.0363922, 0.560952, 1]
+    ratio: 0.4
+    polarColor: [0.919238, 0.367157, 0.690642, 1]
+  demographics:
+    type: 44
+    gdp: 19008
+    tech: 10
+    economy: 1
+    government: 2
+    description: The world Xebeis is scourged by evil disease.
+    inhabitants: Large Yellow Rodents
+- type: star
+  type: primary
+  color: [0.840945, 0.692477, 0.391521, 1]
+  radius: 85410.601044
+  orbit:
+    type: static
+    parent: ~
+    radius: 303030
+    vector: [-0.954, -0.211, -0.212]
+  corona:
+    shimmer: 0.422415
+    hues: 0.752769
+    flare: 0.089079
+stations:
+- type: coriolis
+  orbit:
+    parent: Xebeis
+    vector: undefined
+    radius: 6734

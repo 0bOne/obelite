@@ -1,0 +1,61 @@
+name: Celace
+position: [74, 165]
+seed: 105 165 225 74 77 37
+limits:
+  blurs: 60
+  stars: 6035
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Celace
+  radius: 4170
+  rotationSpeed: 0.00284
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 500400
+  land:
+    ratio: 0.4
+    color: [0.9, 0.72, 0.828, 1]
+    polarColor: [0.91, 0.8645, 0.8918, 1]
+  sea:
+    color: [0.645733, 0.728516, 0.535857, 1]
+    polarColor: [0.90081, 0.927148, 0.865852, 1]
+  air:
+    color: [0.687796, 0.577819, 0.879328, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.640625, 0.365356, 0.610518, 1]
+    ratio: 0.19
+    polarColor: [0.788281, 0.576585, 0.765127, 1]
+  demographics:
+    type: 34
+    gdp: 10880
+    tech: 6
+    economy: 5
+    government: 4
+    description: The world Celace is very noted for its pink Celaceian Ondiab Ondiabweed plantations but scourged by deadly solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.636577, 0.668786, 0.719446, 1]
+  radius: 81538.847351
+  orbit:
+    type: static
+    parent: ~
+    radius: 333600
+    vector: [-0.613, -0.35, -0.708]
+  corona:
+    shimmer: 1.109651
+    hues: 0.810036
+    flare: 0.079953
+stations:
+- type: coriolis
+  orbit:
+    parent: Celace
+    vector: undefined
+    radius: 8340

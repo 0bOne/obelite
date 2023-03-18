@@ -1,0 +1,61 @@
+name: Ededxebe
+position: [145, 111]
+seed: 77 111 97 145 21 248
+limits:
+  blurs: 50
+  stars: 7858
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ededxebe
+  radius: 5009
+  rotationSpeed: 0.001385
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 500900
+  land:
+    ratio: 0.65
+    color: [0.201094, 0.229775, 0.66, 1]
+    polarColor: [0.771645, 0.781792, 0.934, 1]
+  sea:
+    color: [0.607422, 0.502165, 0.456041, 1]
+    polarColor: [0.939258, 0.898568, 0.880738, 1]
+  air:
+    color: [0.67047, 0.587578, 0.861768, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.571564, 0.378914, 0.587891, 1]
+    ratio: 0.3
+    polarColor: [0.751281, 0.594692, 0.764551, 1]
+  demographics:
+    type: 24
+    gdp: 4608
+    tech: 3
+    economy: 7
+    government: 4
+    description: The world Ededxebe is reasonably famous for its inhabitants’ ancient mating traditions.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.664416, 0.521332, 0.301297, 1]
+  radius: 87983.097229
+  orbit:
+    type: static
+    parent: ~
+    radius: 450810
+    vector: [-0.777, 0.04, 0.628]
+  corona:
+    shimmer: 0.427112
+    hues: 0.654892
+    flare: 0.08394
+stations:
+- type: coriolis
+  orbit:
+    parent: Ededxebe
+    vector: undefined
+    radius: 10018

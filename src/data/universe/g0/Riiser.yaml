@@ -1,0 +1,61 @@
+name: Riiser
+position: [52, 74]
+seed: 170 74 220 52 27 254
+limits:
+  blurs: 52
+  stars: 6513
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riiser
+  radius: 6452
+  rotationSpeed: 0.001881
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 709720
+  land:
+    ratio: 0.26
+    color: [0.592928, 0.66, 0.427969, 1]
+    polarColor: [0.910271, 0.934, 0.85191, 1]
+  sea:
+    color: [0.595269, 0.621094, 0.488869, 1]
+    polarColor: [0.928141, 0.937891, 0.887974, 1]
+  air:
+    color: [0.793142, 0.552144, 0.934611, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.806641, 0.299339, 0.346899, 1]
+    ratio: 0.2
+    polarColor: [0.862988, 0.523777, 0.555578, 1]
+  demographics:
+    type: 34
+    gdp: 15232
+    tech: 7
+    economy: 2
+    government: 3
+    description: Riiser is cursed by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.657028, 0.404879, 0.300781, 1]
+  radius: 192662.138672
+  orbit:
+    type: static
+    parent: ~
+    radius: 580680
+    vector: [0.677, -0.108, 0.728]
+  corona:
+    shimmer: 0.654627
+    hues: 0.875679
+    flare: 0.015019
+stations:
+- type: coriolis
+  orbit:
+    parent: Riiser
+    vector: undefined
+    radius: 12904

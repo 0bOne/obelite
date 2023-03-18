@@ -1,0 +1,61 @@
+name: Geerma
+position: [87, 21]
+seed: 7 21 97 87 168 35
+limits:
+  blurs: 62
+  stars: 6208
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geerma
+  radius: 3671
+  rotationSpeed: 0.003506
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 330390
+  land:
+    ratio: 0.51
+    color: [0.66, 0.100547, 0.362791, 1]
+    polarColor: [0.934, 0.736072, 0.828851, 1]
+  sea:
+    color: [0.619141, 0.477431, 0.47403, 1]
+    polarColor: [0.938086, 0.884408, 0.88312, 1]
+  air:
+    color: [0.708816, 0.814155, 0.912498, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.688187, 0.740234, 0.712177, 1]
+    ratio: 0.53
+    polarColor: [0.796494, 0.833105, 0.81337, 1]
+  demographics:
+    type: 38
+    gdp: 12160
+    tech: 7
+    economy: 5
+    government: 4
+    description: The world Geerma is a boring planet.
+    inhabitants: Large Red Horned Humanoids
+- type: star
+  type: primary
+  color: [0.80448, 0.796491, 0.736002, 1]
+  radius: 87556.509247
+  orbit:
+    type: static
+    parent: ~
+    radius: 477230
+    vector: [-0.071, 0.983, -0.169]
+  corona:
+    shimmer: 0.645497
+    hues: 0.927803
+    flare: 0.001659
+stations:
+- type: coriolis
+  orbit:
+    parent: Geerma
+    vector: undefined
+    radius: 7342

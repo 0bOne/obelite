@@ -1,0 +1,61 @@
+name: Onusra
+position: [172, 60]
+seed: 161 60 144 172 45 63
+limits:
+  blurs: 139
+  stars: 9157
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onusra
+  radius: 6828
+  rotationSpeed: 0.000953
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 682800
+  land:
+    ratio: 0.67
+    color: [0.66, 0.342891, 0.446942, 1]
+    polarColor: [0.934, 0.821811, 0.858623, 1]
+  sea:
+    color: [0.654297, 0.548229, 0.490723, 1]
+    polarColor: [0.93457, 0.896695, 0.87616, 1]
+  air:
+    color: [0.720238, 0.790648, 0.928758, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.730499, 0.789062, 0.789062, 1]
+    ratio: 0.48
+    polarColor: [0.815414, 0.855078, 0.855078, 1]
+  demographics:
+    type: 23
+    gdp: 6624
+    tech: 4
+    economy: 4
+    government: 2
+    description: This world is ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.849384, 0.704, 0.638693, 1]
+  radius: 126161.09436
+  orbit:
+    type: static
+    parent: ~
+    radius: 819360
+    vector: [0.553, 0.102, 0.827]
+  corona:
+    shimmer: 0.266947
+    hues: 0.92511
+    flare: 0.083549
+stations:
+- type: coriolis
+  orbit:
+    parent: Onusra
+    vector: undefined
+    radius: 13656

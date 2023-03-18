@@ -1,0 +1,61 @@
+name: Esxear
+position: [158, 122]
+seed: 155 122 38 158 159 73
+limits:
+  blurs: 158
+  stars: 9697
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esxear
+  radius: 5278
+  rotationSpeed: 0.000174
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 686140
+  land:
+    ratio: 0.63
+    color: [0.529724, 0.66, 0.319688, 1]
+    polarColor: [0.88791, 0.934, 0.813602, 1]
+  sea:
+    color: [0.563878, 0.646484, 0.512642, 1]
+    polarColor: [0.905472, 0.935352, 0.88694, 1]
+  air:
+    color: [0.712908, 0.55843, 0.907295, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.724609, 0.322678, 0.586445, 1]
+    ratio: 0.5
+    polarColor: [0.826074, 0.539691, 0.72763, 1]
+  demographics:
+    type: 43
+    gdp: 22016
+    tech: 9
+    economy: 2
+    government: 4
+    description: This world is ravaged by occasional solar activity.
+    inhabitants: Small Yellow Fat Humanoids
+- type: star
+  type: primary
+  color: [0.631825, 0.705097, 0.715176, 1]
+  radius: 129286.678162
+  orbit:
+    type: static
+    parent: ~
+    radius: 369460
+    vector: [0.269, -0.538, -0.799]
+  corona:
+    shimmer: 0.420286
+    hues: 0.528839
+    flare: 0.081541
+stations:
+- type: coriolis
+  orbit:
+    parent: Esxear
+    vector: undefined
+    radius: 10556

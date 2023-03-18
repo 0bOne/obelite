@@ -1,0 +1,61 @@
+name: Vebi
+position: [36, 204]
+seed: 22 204 40 36 27 54
+limits:
+  blurs: 102
+  stars: 6786
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vebi
+  radius: 4388
+  rotationSpeed: 0.004756
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 482680
+  land:
+    ratio: 0.66
+    color: [0.587891, 0.522657, 0.505219, 1]
+    polarColor: [0.941211, 0.915101, 0.908121, 1]
+  sea:
+    color: [0.503409, 0.908203, 0.457649, 1]
+    polarColor: [0.807872, 0.90918, 0.79642, 1]
+  air:
+    color: [0.655357, 0.885182, 0.868794, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.658203, 0.634179, 0.539932, 1]
+    ratio: 0.2
+    polarColor: [0.796191, 0.778029, 0.706775, 1]
+  demographics:
+    type: 34
+    gdp: 14688
+    tech: 6
+    economy: 4
+    government: 5
+    description: The planet Vebi is scourged by deadly edible arts graduates.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.661173, 0.350537, 0.223313, 1]
+  radius: 130353.114014
+  orbit:
+    type: static
+    parent: ~
+    radius: 307160
+    vector: [-0.832, 0.227, 0.505]
+  corona:
+    shimmer: 0.441053
+    hues: 0.982758
+    flare: 0.035431
+stations:
+- type: coriolis
+  orbit:
+    parent: Vebi
+    vector: undefined
+    radius: 8776

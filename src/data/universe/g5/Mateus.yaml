@@ -1,0 +1,61 @@
+name: Mateus
+position: [56, 248]
+seed: 239 248 101 56 64 43
+limits:
+  blurs: 178
+  stars: 6484
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Mateus
+  radius: 5688
+  rotationSpeed: 0.001473
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 568800
+  land:
+    ratio: 0.28
+    color: [0.309556, 0.66, 0.306797, 1]
+    polarColor: [0.810017, 0.934, 0.809041, 1]
+  sea:
+    color: [0.515625, 0.425963, 0.411292, 1]
+    polarColor: [0.948438, 0.907207, 0.90046, 1]
+  air:
+    color: [0.630662, 0.885717, 0.941115, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.649683, 0.826172, 0.503448, 1]
+    ratio: 0.34
+    polarColor: [0.755383, 0.871777, 0.658941, 1]
+  demographics:
+    type: 41
+    gdp: 26240
+    tech: 9
+    economy: 0
+    government: 4
+    description: The planet Mateus is very famous for Mateusian wolf meat but scourged by frequent civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.67995, 0.667105, 0.62576, 1]
+  radius: 185379.016113
+  orbit:
+    type: static
+    parent: ~
+    radius: 568800
+    vector: [0.595, 0.01, 0.804]
+  corona:
+    shimmer: 0.27881
+    hues: 0.514305
+    flare: 0.084406
+stations:
+- type: coriolis
+  orbit:
+    parent: Mateus
+    vector: undefined
+    radius: 11376

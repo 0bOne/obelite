@@ -1,0 +1,61 @@
+name: Maanusre
+position: [130, 237]
+seed: 82 237 170 130 20 75
+limits:
+  blurs: 140
+  stars: 6487
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maanusre
+  radius: 5762
+  rotationSpeed: 0.004038
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 518580
+  land:
+    ratio: 0.37
+    color: [0.257115, 0.517578, 0.125351, 1]
+    polarColor: [0.828945, 0.948242, 0.768595, 1]
+  sea:
+    color: [0.603617, 0.783203, 0.745322, 1]
+    polarColor: [0.868845, 0.92168, 0.910535, 1]
+  air:
+    color: [0.758591, 0.756013, 0.946318, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.838688, 0.838509, 0.841797, 1]
+    ratio: 0.43
+    polarColor: [0.87678, 0.876663, 0.878809, 1]
+  demographics:
+    type: 39
+    gdp: 14040
+    tech: 7
+    economy: 5
+    government: 5
+    description: This world is very well known for its inhabitants’ unusual mating traditions and its great parking meters.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.655045, 0.366866, 0.186663, 1]
+  radius: 137636.152649
+  orbit:
+    type: static
+    parent: ~
+    radius: 691440
+    vector: [-0.976, 0.055, 0.212]
+  corona:
+    shimmer: 0.991258
+    hues: 0.865013
+    flare: 0.016171
+stations:
+- type: coriolis
+  orbit:
+    parent: Maanusre
+    vector: undefined
+    radius: 11524

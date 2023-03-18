@@ -1,0 +1,61 @@
+name: Teanrebi
+position: [214, 7]
+seed: 106 7 252 214 155 220
+limits:
+  blurs: 139
+  stars: 6094
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teanrebi
+  radius: 6102
+  rotationSpeed: 0.00314
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 854280
+  land:
+    ratio: 0.59
+    color: [0.636719, 0.549628, 0.502411, 1]
+    polarColor: [0.936328, 0.90431, 0.886951, 1]
+  sea:
+    color: [0.146942, 0.626953, 0.593202, 1]
+    polarColor: [0.757899, 0.937305, 0.92469, 1]
+  air:
+    color: [0.574459, 0.927457, 0.8279, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.785156, 0.428783, 0.358841, 1]
+    ratio: 0.14
+    polarColor: [0.85332, 0.61125, 0.563741, 1]
+  demographics:
+    type: 39
+    gdp: 10296
+    tech: 6
+    economy: 7
+    government: 7
+    description: This planet is plagued by frequent earthquakes.
+    inhabitants: Bug-Eyed Frogs
+- type: star
+  type: primary
+  color: [0.749193, 0.788018, 0.800446, 1]
+  radius: 169899.024353
+  orbit:
+    type: static
+    parent: ~
+    radius: 366120
+    vector: [0.195, 0.874, -0.444]
+  corona:
+    shimmer: 0.367009
+    hues: 0.647072
+    flare: 0.074188
+stations:
+- type: coriolis
+  orbit:
+    parent: Teanrebi
+    vector: undefined
+    radius: 12204

@@ -1,0 +1,61 @@
+name: Ertear
+position: [125, 78]
+seed: 137 78 197 125 106 80
+limits:
+  blurs: 113
+  stars: 7523
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ertear
+  radius: 2941
+  rotationSpeed: 0.000172
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 352920
+  land:
+    ratio: 0.37
+    color: [0.653414, 0.66, 0.652266, 1]
+    polarColor: [0.93167, 0.934, 0.931264, 1]
+  sea:
+    color: [0.167961, 0.505859, 0.18116, 1]
+    polarColor: [0.790869, 0.949414, 0.797063, 1]
+  air:
+    color: [0.646921, 0.801895, 0.971033, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.547462, 0.916016, 0.760532, 1]
+    ratio: 0.37
+    polarColor: [0.682819, 0.912207, 0.815434, 1]
+  demographics:
+    type: 15
+    gdp: 1920
+    tech: 2
+    economy: 6
+    government: 0
+    description: This world is very notable for its inhabitants’ weird silliness and Ertearian Le water.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.654902, 0.678961, 0.698969, 1]
+  radius: 86427.775879
+  orbit:
+    type: static
+    parent: ~
+    radius: 176460
+    vector: [0.137, -0.899, -0.416]
+  corona:
+    shimmer: 0.777617
+    hues: 0.628677
+    flare: 0.02319
+stations:
+- type: coriolis
+  orbit:
+    parent: Ertear
+    vector: undefined
+    radius: 5882

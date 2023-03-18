@@ -1,0 +1,61 @@
+name: Laedon
+position: [50, 81]
+seed: 5 81 4 50 73 85
+limits:
+  blurs: 173
+  stars: 9954
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laedon
+  radius: 4146
+  rotationSpeed: 0.003757
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 497520
+  land:
+    ratio: 0.63
+    color: [0.66, 0.177891, 0.256987, 1]
+    polarColor: [0.934, 0.763436, 0.791419, 1]
+  sea:
+    color: [0.575153, 0.607422, 0.485938, 1]
+    polarColor: [0.926783, 0.939258, 0.892295, 1]
+  air:
+    color: [0.571576, 0.563252, 0.84876, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.346585, 0.323723, 0.548828, 1]
+    ratio: 0.42
+    polarColor: [0.574936, 0.555488, 0.746973, 1]
+  demographics:
+    type: 28
+    gdp: 6272
+    tech: 6
+    economy: 3
+    government: 0
+    description: The world Laedon is mildly noted for the Laedonian mountain lobstoid but beset by deadly earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.392266, 0.494773, 0.680331, 1]
+  radius: 127651.326599
+  orbit:
+    type: static
+    parent: ~
+    radius: 331680
+    vector: [0.363, -0.46, -0.81]
+  corona:
+    shimmer: 1.119814
+    hues: 0.539459
+    flare: 0.086765
+stations:
+- type: coriolis
+  orbit:
+    parent: Laedon
+    vector: undefined
+    radius: 8292

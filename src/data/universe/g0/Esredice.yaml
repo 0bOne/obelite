@@ -1,0 +1,61 @@
+name: Esredice
+position: [85, 16]
+seed: 74 16 12 85 91 41
+limits:
+  blurs: 143
+  stars: 5218
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esredice
+  radius: 5205
+  rotationSpeed: 0.001164
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 624600
+  land:
+    ratio: 0.54
+    color: [0.477104, 0.374062, 0.541016, 1]
+    polarColor: [0.917963, 0.872924, 0.945898, 1]
+  sea:
+    color: [0.608131, 0.806641, 0.643801, 1]
+    polarColor: [0.862775, 0.919336, 0.872939, 1]
+  air:
+    color: [0.659341, 0.812804, 0.956074, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.581863, 0.871094, 0.715181, 1]
+    ratio: 0.58
+    polarColor: [0.706886, 0.891992, 0.792209, 1]
+  demographics:
+    type: 32
+    gdp: 10240
+    tech: 7
+    economy: 2
+    government: 1
+    description: The world Esredice is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.435626, 0.49996, 0.71835, 1]
+  radius: 126631.226349
+  orbit:
+    type: static
+    parent: ~
+    radius: 468450
+    vector: [-0.119, 0.843, -0.525]
+  corona:
+    shimmer: 0.544998
+    hues: 0.501297
+    flare: 0.068758
+stations:
+- type: coriolis
+  orbit:
+    parent: Esredice
+    vector: undefined
+    radius: 10410

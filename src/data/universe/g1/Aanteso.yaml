@@ -1,0 +1,61 @@
+name: Aanteso
+position: [17, 57]
+seed: 212 57 176 17 166 111
+limits:
+  blurs: 173
+  stars: 9659
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aanteso
+  radius: 6673
+  rotationSpeed: 0.001381
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 1000950
+  land:
+    ratio: 0.57
+    color: [0.634219, 0.649728, 0.66, 1]
+    polarColor: [0.924879, 0.930366, 0.934, 1]
+  sea:
+    color: [0.621094, 0.618937, 0.483046, 1]
+    polarColor: [0.937891, 0.937076, 0.885775, 1]
+  air:
+    color: [0.781323, 0.493206, 0.974285, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.925781, 0.10849, 0.261732, 1]
+    ratio: 0.35
+    polarColor: [0.916602, 0.410859, 0.505686, 1]
+  demographics:
+    type: 48
+    gdp: 34560
+    tech: 10
+    economy: 1
+    government: 6
+    description: The world Aanteso is beset by dreadful earthquakes.
+    inhabitants: Blue Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.588992, 0.646785, 0.66265, 1]
+  radius: 139916.526642
+  orbit:
+    type: static
+    parent: ~
+    radius: 266920
+    vector: [-0.145, 0.748, -0.648]
+  corona:
+    shimmer: 0.351328
+    hues: 0.646965
+    flare: 0.020007
+stations:
+- type: coriolis
+  orbit:
+    parent: Aanteso
+    vector: undefined
+    radius: 13346

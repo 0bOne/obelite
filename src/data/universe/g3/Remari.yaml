@@ -1,0 +1,61 @@
+name: Remari
+position: [228, 153]
+seed: 2 153 114 228 90 110
+limits:
+  blurs: 159
+  stars: 7106
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Remari
+  radius: 6628
+  rotationSpeed: 0.000084
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 861640
+  land:
+    ratio: 0.59
+    color: [0.66, 0.12375, 0.639053, 1]
+    polarColor: [0.934, 0.744281, 0.926589, 1]
+  sea:
+    color: [0.607422, 0.455674, 0.448211, 1]
+    polarColor: [0.939258, 0.880596, 0.877711, 1]
+  air:
+    color: [0.671782, 0.842256, 0.800829, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.529297, 0.526325, 0.525162, 1]
+    ratio: 0.18
+    polarColor: [0.738184, 0.735593, 0.734579, 1]
+  demographics:
+    type: 44
+    gdp: 31680
+    tech: 9
+    economy: 1
+    government: 6
+    description: The planet Remari is most famous for the Remariian evil Ernolooid and its inhabitants’ exceptional loathing of food blenders.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.655988, 0.635309, 0.632625, 1]
+  radius: 142189.087524
+  orbit:
+    type: static
+    parent: ~
+    radius: 198840
+    vector: [0.452, -0.885, 0.11]
+  corona:
+    shimmer: 0.411028
+    hues: 0.906227
+    flare: 0.037831
+stations:
+- type: coriolis
+  orbit:
+    parent: Remari
+    vector: undefined
+    radius: 13256

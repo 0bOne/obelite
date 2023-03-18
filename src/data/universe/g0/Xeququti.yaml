@@ -1,0 +1,61 @@
+name: Xeququti
+position: [221, 250]
+seed: 64 250 240 221 45 194
+limits:
+  blurs: 140
+  stars: 9110
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeququti
+  radius: 3549
+  rotationSpeed: 0.00477
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 354900
+  land:
+    ratio: 0.4
+    color: [0.520781, 0.591478, 0.66, 1]
+    polarColor: [0.884746, 0.909758, 0.934, 1]
+  sea:
+    color: [0.574219, 0.519853, 0.449954, 1]
+    polarColor: [0.942578, 0.920268, 0.891583, 1]
+  air:
+    color: [0.736777, 0.727662, 0.974285, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.796045, 0.777512, 0.925781, 1]
+    ratio: 0.5
+    polarColor: [0.836321, 0.824852, 0.916602, 1]
+  demographics:
+    type: 45
+    gdp: 28800
+    tech: 9
+    economy: 2
+    government: 6
+    description: This planet is beset by dreadful earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.652838, 0.596573, 0.581205, 1]
+  radius: 83265.249939
+  orbit:
+    type: static
+    parent: ~
+    radius: 461370
+    vector: [-0.816, -0.57, -0.095]
+  corona:
+    shimmer: 0.841932
+    hues: 0.688637
+    flare: 0.016652
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeququti
+    vector: undefined
+    radius: 7098

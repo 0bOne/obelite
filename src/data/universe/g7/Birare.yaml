@@ -1,0 +1,61 @@
+name: Birare
+position: [18, 59]
+seed: 51 59 190 18 199 166
+limits:
+  blurs: 76
+  stars: 9430
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Birare
+  radius: 4370
+  rotationSpeed: 0.000821
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 568100
+  land:
+    ratio: 0.65
+    color: [0.543541, 0.66, 0.355781, 1]
+    polarColor: [0.892798, 0.934, 0.826371, 1]
+  sea:
+    color: [0.623047, 0.600496, 0.478724, 1]
+    polarColor: [0.937695, 0.929211, 0.883393, 1]
+  air:
+    color: [0.573932, 0.936626, 0.973635, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.754839, 0.923828, 0.339218, 1]
+    ratio: 0.57
+    polarColor: [0.811031, 0.915723, 0.553547, 1]
+  demographics:
+    type: 51
+    gdp: 31416
+    tech: 10
+    economy: 3
+    government: 7
+    description: This planet is a dull world.
+    inhabitants: Fierce Harmless Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.283593, 0.490767, 0.679495, 1]
+  radius: 71019.8349
+  orbit:
+    type: static
+    parent: ~
+    radius: 131100
+    vector: [0.108, 0.213, -0.971]
+  corona:
+    shimmer: 0.731853
+    hues: 0.583878
+    flare: 0.07202
+stations:
+- type: coriolis
+  orbit:
+    parent: Birare
+    vector: undefined
+    radius: 8740

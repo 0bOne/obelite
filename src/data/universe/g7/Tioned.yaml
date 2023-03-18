@@ -1,0 +1,61 @@
+name: Tioned
+position: [65, 38]
+seed: 187 38 70 65 127 151
+limits:
+  blurs: 68
+  stars: 5784
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tioned
+  radius: 4673
+  rotationSpeed: 0.002696
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 514030
+  land:
+    ratio: 0.49
+    color: [0.546039, 0.482109, 0.66, 1]
+    polarColor: [0.893682, 0.871064, 0.934, 1]
+  sea:
+    color: [0.583984, 0.527197, 0.454185, 1]
+    polarColor: [0.941602, 0.918711, 0.88928, 1]
+  air:
+    color: [0.75572, 0.622614, 0.863719, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.59375, 0.452271, 0.498693, 1]
+    ratio: 0.42
+    polarColor: [0.767187, 0.652933, 0.690423, 1]
+  demographics:
+    type: 15
+    gdp: 1920
+    tech: 2
+    economy: 6
+    government: 0
+    description: This world is fabled for its ancient Senole plant plantations.
+    inhabitants: Black Lizards
+- type: star
+  type: primary
+  color: [0.726398, 0.567445, 0.220762, 1]
+  radius: 108677.76825
+  orbit:
+    type: static
+    parent: ~
+    radius: 373840
+    vector: [0.64, 0.656, -0.399]
+  corona:
+    shimmer: 0.26619
+    hues: 0.686104
+    flare: 0.08972
+stations:
+- type: coriolis
+  orbit:
+    parent: Tioned
+    vector: undefined
+    radius: 9346

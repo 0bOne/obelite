@@ -1,0 +1,61 @@
+name: Orerbia
+position: [92, 90]
+seed: 73 90 137 92 106 89
+limits:
+  blurs: 183
+  stars: 9694
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orerbia
+  radius: 5212
+  rotationSpeed: 0.002828
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 677560
+  land:
+    ratio: 0.61
+    color: [0.582031, 0.477448, 0.489703, 1]
+    polarColor: [0.941797, 0.89949, 0.904447, 1]
+  sea:
+    color: [0.840697, 0.867188, 0.382782, 1]
+    polarColor: [0.906307, 0.913281, 0.785743, 1]
+  air:
+    color: [0.467628, 0.723663, 0.843557, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.151851, 0.533203, 0.139549, 1]
+    ratio: 0.24
+    polarColor: [0.409183, 0.739941, 0.398513, 1]
+  demographics:
+    type: 28
+    gdp: 8960
+    tech: 6
+    economy: 2
+    government: 1
+    description: This planet is reasonably noted for its fabulous goat burgers.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.550677, 0.691411, 0.81604, 1]
+  radius: 133538.413086
+  orbit:
+    type: static
+    parent: ~
+    radius: 312720
+    vector: [0.236, -0.747, -0.622]
+  corona:
+    shimmer: 0.369121
+    hues: 0.510025
+    flare: 0.038826
+stations:
+- type: coriolis
+  orbit:
+    parent: Orerbia
+    vector: undefined
+    radius: 10424

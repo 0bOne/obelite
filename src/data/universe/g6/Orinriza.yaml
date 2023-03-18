@@ -1,0 +1,61 @@
+name: Orinriza
+position: [151, 251]
+seed: 94 251 234 151 128 153
+limits:
+  blurs: 125
+  stars: 9388
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orinriza
+  radius: 5271
+  rotationSpeed: 0.004233
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 737940
+  land:
+    ratio: 0.25
+    color: [0.641953, 0.66, 0.64858, 1]
+    polarColor: [0.927615, 0.934, 0.92996, 1]
+  sea:
+    color: [0.0850983, 0.660156, 0.484943, 1]
+    polarColor: [0.730587, 0.933984, 0.872012, 1]
+  air:
+    color: [0.639305, 0.768872, 0.990545, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.521568, 0.974609, 0.932137, 1]
+    ratio: 0.24
+    polarColor: [0.665893, 0.938574, 0.91301, 1]
+  demographics:
+    type: 49
+    gdp: 24696
+    tech: 10
+    economy: 3
+    government: 5
+    description: Orinriza is famous for its exotic fish meat but scourged by deadly solar activity.
+    inhabitants: Black Fat Humanoids
+- type: star
+  type: primary
+  color: [0.680034, 0.681574, 0.59887, 1]
+  radius: 148546.071167
+  orbit:
+    type: static
+    parent: ~
+    radius: 105420
+    vector: [-0.465, -0.798, 0.384]
+  corona:
+    shimmer: 0.333669
+    hues: 0.860512
+    flare: 0.030356
+stations:
+- type: coriolis
+  orbit:
+    parent: Orinriza
+    vector: undefined
+    radius: 10542

@@ -1,0 +1,61 @@
+name: Enlace
+position: [28, 198]
+seed: 34 198 210 28 218 178
+limits:
+  blurs: 178
+  stars: 9511
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enlace
+  radius: 3356
+  rotationSpeed: 0.003836
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 369160
+  land:
+    ratio: 0.39
+    color: [0.128181, 0.619141, 0.458045, 1]
+    polarColor: [0.752118, 0.938086, 0.877065, 1]
+  sea:
+    color: [0.658203, 0.514161, 0.475655, 1]
+    polarColor: [0.93418, 0.88307, 0.869407, 1]
+  air:
+    color: [0.768242, 0.556816, 0.924205, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.775391, 0.315002, 0.433696, 1]
+    ratio: 0.36
+    polarColor: [0.848926, 0.533895, 0.615114, 1]
+  demographics:
+    type: 17
+    gdp: 3264
+    tech: 2
+    economy: 6
+    government: 2
+    description: This world is a tedious little planet.
+    inhabitants: Harmless Horned Birds
+- type: star
+  type: primary
+  color: [0.821121, 0.690751, 0.596872, 1]
+  radius: 61900.317993
+  orbit:
+    type: static
+    parent: ~
+    radius: 268480
+    vector: [0.288, 0.878, 0.382]
+  corona:
+    shimmer: 0.520226
+    hues: 0.971413
+    flare: 0.000806
+stations:
+- type: coriolis
+  orbit:
+    parent: Enlace
+    vector: undefined
+    radius: 6712

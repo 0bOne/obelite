@@ -1,0 +1,61 @@
+name: Anisus
+position: [80, 145]
+seed: 29 145 113 80 117 91
+limits:
+  blurs: 186
+  stars: 9009
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anisus
+  radius: 5712
+  rotationSpeed: 0.003179
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 742560
+  land:
+    ratio: 0.52
+    color: [0.607534, 0.373718, 0.609375, 1]
+    polarColor: [0.938353, 0.848274, 0.939062, 1]
+  sea:
+    color: [0.636686, 0.652344, 0.498177, 1]
+    polarColor: [0.929157, 0.934766, 0.879538, 1]
+  air:
+    color: [0.632086, 0.507966, 0.929408, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.729821, 0.188484, 0.791016, 1]
+    ratio: 0.43
+    polarColor: [0.81457, 0.448458, 0.855957, 1]
+  demographics:
+    type: 44
+    gdp: 31680
+    tech: 9
+    economy: 1
+    government: 6
+    description: This planet is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.754184, 0.272604, 0.209355, 1]
+  radius: 191270.419922
+  orbit:
+    type: static
+    parent: ~
+    radius: 571200
+    vector: [0.119, -0.461, -0.879]
+  corona:
+    shimmer: 0.270285
+    hues: 0.761253
+    flare: 0.093921
+stations:
+- type: coriolis
+  orbit:
+    parent: Anisus
+    vector: undefined
+    radius: 11424

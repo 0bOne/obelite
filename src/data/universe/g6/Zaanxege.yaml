@@ -1,0 +1,61 @@
+name: Zaanxege
+position: [66, 20]
+seed: 242 20 66 66 180 100
+limits:
+  blurs: 78
+  stars: 5858
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaanxege
+  radius: 3906
+  rotationSpeed: 0.003727
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 507780
+  land:
+    ratio: 0.47
+    color: [0.66, 0.0876563, 0.154728, 1]
+    polarColor: [0.934, 0.731512, 0.755241, 1]
+  sea:
+    color: [0.578125, 0.522797, 0.45166, 1]
+    polarColor: [0.942187, 0.919645, 0.890662, 1]
+  air:
+    color: [0.441717, 0.5219, 0.924855, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.024292, 0.389051, 0.777344, 1]
+    ratio: 0.3
+    polarColor: [0.335275, 0.5845, 0.849805, 1]
+  demographics:
+    type: 19
+    gdp: 2432
+    tech: 3
+    economy: 6
+    government: 0
+    description: This planet is a dull place.
+    inhabitants: Fierce Blue Felines
+- type: star
+  type: primary
+  color: [0.769626, 0.764832, 0.763998, 1]
+  radius: 119732.107544
+  orbit:
+    type: static
+    parent: ~
+    radius: 234360
+    vector: [0.608, 0.683, -0.405]
+  corona:
+    shimmer: 0.651542
+    hues: 0.596283
+    flare: 0.089696
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaanxege
+    vector: undefined
+    radius: 7812

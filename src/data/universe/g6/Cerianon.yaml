@@ -1,0 +1,61 @@
+name: Cerianon
+position: [151, 160]
+seed: 206 160 178 151 208 165
+limits:
+  blurs: 181
+  stars: 7885
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cerianon
+  radius: 4247
+  rotationSpeed: 0.001426
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 509640
+  land:
+    ratio: 0.37
+    color: [0.605469, 0.574427, 0.534515, 1]
+    polarColor: [0.939453, 0.927412, 0.91193, 1]
+  sea:
+    color: [0.430597, 0.941406, 0.426575, 1]
+    polarColor: [0.782979, 0.905859, 0.782011, 1]
+  air:
+    color: [0.667893, 0.859816, 0.829654, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.582031, 0.563168, 0.541107, 1]
+    ratio: 0.36
+    polarColor: [0.761914, 0.746481, 0.728432, 1]
+  demographics:
+    type: 59
+    gdp: 47200
+    tech: 13
+    economy: 0
+    government: 6
+    description: The planet Cerianon is an unremarkable dump.
+    inhabitants: Fierce Harmless Rodents
+- type: star
+  type: primary
+  color: [0.654755, 0.418836, 0.383153, 1]
+  radius: 75471.476288
+  orbit:
+    type: static
+    parent: ~
+    radius: 254820
+    vector: [-0.733, 0.019, -0.68]
+  corona:
+    shimmer: 0.406864
+    hues: 0.954483
+    flare: 0.060414
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Cerianon
+    vector: undefined
+    radius: 8494

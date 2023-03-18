@@ -1,0 +1,61 @@
+name: Dienve
+position: [22, 109]
+seed: 151 109 242 22 179 13
+limits:
+  blurs: 92
+  stars: 5546
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Dienve
+  radius: 6166
+  rotationSpeed: 0.000438
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 801580
+  land:
+    ratio: 0.2
+    color: [0.638672, 0.40416, 0.536073, 1]
+    polarColor: [0.936133, 0.850199, 0.898537, 1]
+  sea:
+    color: [0.623903, 0.625, 0.484619, 1]
+    polarColor: [0.937089, 0.9375, 0.884857, 1]
+  air:
+    color: [0.636843, 0.804743, 0.976887, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.517853, 0.933594, 0.738715, 1]
+    ratio: 0.48
+    polarColor: [0.66403, 0.920117, 0.800076, 1]
+  demographics:
+    type: 40
+    gdp: 16000
+    tech: 7
+    economy: 5
+    government: 6
+    description: Dienve is mildly famous for its hoopy casinos and its vast oceans.
+    inhabitants: Green Bony Birds
+- type: star
+  type: primary
+  color: [0.498015, 0.519393, 0.697858, 1]
+  radius: 194690.584412
+  orbit:
+    type: static
+    parent: ~
+    radius: 616600
+    vector: [0.693, -0.29, 0.66]
+  corona:
+    shimmer: 0.567805
+    hues: 0.787773
+    flare: 0.093279
+stations:
+- type: coriolis
+  orbit:
+    parent: Dienve
+    vector: undefined
+    radius: 12332

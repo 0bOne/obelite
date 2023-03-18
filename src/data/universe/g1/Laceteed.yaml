@@ -1,0 +1,61 @@
+name: Laceteed
+position: [96, 175]
+seed: 116 175 200 96 182 53
+limits:
+  blurs: 80
+  stars: 8765
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laceteed
+  radius: 4192
+  rotationSpeed: 0.004179
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 503040
+  land:
+    ratio: 0.3
+    color: [0.484688, 0.66, 0.561387, 1]
+    polarColor: [0.871977, 0.934, 0.899112, 1]
+  sea:
+    color: [0.505859, 0.0895998, 0.00790405, 1]
+    polarColor: [0.949414, 0.754102, 0.715769, 1]
+  air:
+    color: [0.620081, 0.889084, 0.813216, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.669922, 0.497105, 0.463188, 1]
+    ratio: 0.07
+    polarColor: [0.801465, 0.672246, 0.646885, 1]
+  demographics:
+    type: 13
+    gdp: 1560
+    tech: 1
+    economy: 7
+    government: 1
+    description: The world Laceteed is a dull place.
+    inhabitants: Red Rodents
+- type: star
+  type: primary
+  color: [0.740848, 0.676691, 0.497189, 1]
+  radius: 94151.132812
+  orbit:
+    type: static
+    parent: ~
+    radius: 503040
+    vector: [0.938, -0.195, 0.287]
+  corona:
+    shimmer: 0.376419
+    hues: 0.50695
+    flare: 0.002563
+stations:
+- type: coriolis
+  orbit:
+    parent: Laceteed
+    vector: undefined
+    radius: 8384

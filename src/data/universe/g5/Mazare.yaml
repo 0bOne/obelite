@@ -1,0 +1,61 @@
+name: Mazare
+position: [31, 185]
+seed: 175 185 77 31 32 171
+limits:
+  blurs: 198
+  stars: 7014
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Mazare
+  radius: 5663
+  rotationSpeed: 0.00184
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 622930
+  land:
+    ratio: 0.34
+    color: [0.0515347, 0.640625, 0.0325317, 1]
+    polarColor: [0.720776, 0.935938, 0.713835, 1]
+  sea:
+    color: [0.565751, 0.644531, 0.511848, 1]
+    polarColor: [0.906959, 0.935547, 0.887399, 1]
+  air:
+    color: [0.71475, 0.810847, 0.912498, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.702644, 0.740234, 0.723495, 1]
+    ratio: 0.46
+    polarColor: [0.806664, 0.833105, 0.821331, 1]
+  demographics:
+    type: 37
+    gdp: 10360
+    tech: 8
+    economy: 3
+    government: 1
+    description: This planet is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.83075, 0.445192, 0.342575, 1]
+  radius: 171294.17099
+  orbit:
+    type: static
+    parent: ~
+    radius: 509670
+    vector: [-0.064, -0.287, -0.956]
+  corona:
+    shimmer: 0.479836
+    hues: 0.751518
+    flare: 0.037672
+stations:
+- type: coriolis
+  orbit:
+    parent: Mazare
+    vector: undefined
+    radius: 11326

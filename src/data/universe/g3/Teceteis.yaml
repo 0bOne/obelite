@@ -1,0 +1,61 @@
+name: Teceteis
+position: [218, 205]
+seed: 250 205 162 218 106 124
+limits:
+  blurs: 86
+  stars: 5234
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teceteis
+  radius: 6106
+  rotationSpeed: 0.003839
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 915900
+  land:
+    ratio: 0.62
+    color: [0.185471, 0.558594, 0.436163, 1]
+    polarColor: [0.786476, 0.944141, 0.892407, 1]
+  sea:
+    color: [0.621006, 0.646484, 0.498248, 1]
+    polarColor: [0.926136, 0.935352, 0.881733, 1]
+  air:
+    color: [0.65474, 0.763578, 0.984691, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.568237, 0.947919, 0.957031, 1]
+    ratio: 0.22
+    polarColor: [0.694363, 0.925126, 0.930664, 1]
+  demographics:
+    type: 34
+    gdp: 10880
+    tech: 6
+    economy: 5
+    government: 4
+    description: The planet Teceteis is most famous for the Teceteisian spotted shrew.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.786603, 0.745588, 0.734031, 1]
+  radius: 149826.012268
+  orbit:
+    type: static
+    parent: ~
+    radius: 122120
+    vector: [0.376, -0.786, 0.49]
+  corona:
+    shimmer: 0.551001
+    hues: 0.636185
+    flare: 0.036314
+stations:
+- type: coriolis
+  orbit:
+    parent: Teceteis
+    vector: undefined
+    radius: 12212

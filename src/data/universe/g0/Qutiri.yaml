@@ -1,0 +1,61 @@
+name: Qutiri
+position: [44, 176]
+seed: 152 176 84 44 141 90
+limits:
+  blurs: 87
+  stars: 9186
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qutiri
+  radius: 5420
+  rotationSpeed: 0.004852
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 650400
+  land:
+    ratio: 0.63
+    color: [0.66, 0.0386719, 0.475543, 1]
+    polarColor: [0.934, 0.714182, 0.868741, 1]
+  sea:
+    color: [0.607422, 0.60539, 0.477396, 1]
+    polarColor: [0.939258, 0.938472, 0.888993, 1]
+  air:
+    color: [0.450496, 0.705289, 0.867621, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0946045, 0.605469, 0.1864, 1]
+    ratio: 0.34
+    polarColor: [0.365108, 0.772461, 0.438305, 1]
+  demographics:
+    type: 35
+    gdp: 16800
+    tech: 8
+    economy: 0
+    government: 2
+    description: The world Qutiri is mildly noted for its ancient mountains but plagued by deadly earthquakes.
+    inhabitants: Yellow Fat Felines
+- type: star
+  type: primary
+  color: [0.612425, 0.628298, 0.743295, 1]
+  radius: 136381.610107
+  orbit:
+    type: static
+    parent: ~
+    radius: 433600
+    vector: [-0.053, -0.721, 0.691]
+  corona:
+    shimmer: 0.633712
+    hues: 0.587379
+    flare: 0.095195
+stations:
+- type: coriolis
+  orbit:
+    parent: Qutiri
+    vector: undefined
+    radius: 10840

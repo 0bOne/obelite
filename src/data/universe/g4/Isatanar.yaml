@@ -1,0 +1,61 @@
+name: Isatanar
+position: [109, 198]
+seed: 198 198 32 109 91 189
+limits:
+  blurs: 105
+  stars: 7744
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isatanar
+  radius: 6253
+  rotationSpeed: 0.002017
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 750360
+  land:
+    ratio: 0.66
+    color: [0.265547, 0.66, 0.280955, 1]
+    polarColor: [0.794447, 0.934, 0.799899, 1]
+  sea:
+    color: [0.533203, 0.454759, 0.424063, 1]
+    polarColor: [0.94668, 0.911861, 0.898236, 1]
+  air:
+    color: [0.768391, 0.754802, 0.954123, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.846751, 0.841576, 0.865234, 1]
+    ratio: 0.32
+    polarColor: [0.877481, 0.874157, 0.889355, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 4
+    economy: 6
+    government: 4
+    description: Isatanar is cursed by killer edible talking treeoids.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.535581, 0.559453, 0.718799, 1]
+  radius: 194238.392334
+  orbit:
+    type: static
+    parent: ~
+    radius: 250120
+    vector: [0.364, -0.22, -0.905]
+  corona:
+    shimmer: 0.287502
+    hues: 0.989761
+    flare: 0.002728
+stations:
+- type: coriolis
+  orbit:
+    parent: Isatanar
+    vector: undefined
+    radius: 12506

@@ -1,0 +1,61 @@
+name: Aneded
+position: [100, 57]
+seed: 55 57 146 100 19 59
+limits:
+  blurs: 100
+  stars: 8964
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aneded
+  radius: 5732
+  rotationSpeed: 0.002971
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 630520
+  land:
+    ratio: 0.39
+    color: [0.580078, 0.396538, 0.568607, 1]
+    polarColor: [0.941992, 0.867479, 0.937335, 1]
+  sea:
+    color: [0.523438, 0.330152, 0.0286255, 1]
+    polarColor: [0.947656, 0.860173, 0.723698, 1]
+  air:
+    color: [0.679701, 0.788377, 0.956725, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.637733, 0.873047, 0.834441, 1]
+    ratio: 0.43
+    polarColor: [0.742461, 0.892871, 0.868194, 1]
+  demographics:
+    type: 32
+    gdp: 13824
+    tech: 7
+    economy: 1
+    government: 2
+    description: This planet is reasonably famous for the Anededian spotted leopard.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.754269, 0.625116, 0.35941, 1]
+  radius: 140458.314819
+  orbit:
+    type: static
+    parent: ~
+    radius: 515880
+    vector: [-0.904, -0.145, 0.401]
+  corona:
+    shimmer: 0.381733
+    hues: 0.76194
+    flare: 0.088213
+stations:
+- type: coriolis
+  orbit:
+    parent: Aneded
+    vector: undefined
+    radius: 11464

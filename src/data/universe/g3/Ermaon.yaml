@@ -1,0 +1,61 @@
+name: Ermaon
+position: [131, 23]
+seed: 162 23 82 131 218 144
+limits:
+  blurs: 157
+  stars: 9453
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ermaon
+  radius: 2947
+  rotationSpeed: 0.003836
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 442050
+  land:
+    ratio: 0.44
+    color: [0.626484, 0.5775, 0.66, 1]
+    polarColor: [0.922143, 0.904813, 0.934, 1]
+  sea:
+    color: [0.685547, 0.464702, 0.441856, 1]
+    polarColor: [0.931445, 0.856431, 0.84867, 1]
+  air:
+    color: [0.702117, 0.726331, 0.977537, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.705315, 0.762873, 0.935547, 1]
+    ratio: 0.57
+    polarColor: [0.779339, 0.814753, 0.920996, 1]
+  demographics:
+    type: 26
+    gdp: 3744
+    tech: 4
+    economy: 7
+    government: 2
+    description: Ermaon is cursed by vicious mountain beasts.
+    inhabitants: Black Fat Birds
+- type: star
+  type: primary
+  color: [0.770496, 0.616836, 0.589285, 1]
+  radius: 67924.087067
+  orbit:
+    type: static
+    parent: ~
+    radius: 235760
+    vector: [0.681, 0.46, 0.57]
+  corona:
+    shimmer: 0.430546
+    hues: 0.710655
+    flare: 0.007321
+stations:
+- type: coriolis
+  orbit:
+    parent: Ermaon
+    vector: undefined
+    radius: 5894

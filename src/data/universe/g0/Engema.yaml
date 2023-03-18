@@ -1,0 +1,61 @@
+name: Engema
+position: [244, 92]
+seed: 56 92 188 244 221 146
+limits:
+  blurs: 82
+  stars: 7998
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Engema
+  radius: 3572
+  rotationSpeed: 0.003346
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 392920
+  land:
+    ratio: 0.63
+    color: [0.66, 0.371391, 0.244922, 1]
+    polarColor: [0.934, 0.831894, 0.78715, 1]
+  sea:
+    color: [0.539932, 0.658203, 0.526563, 1]
+    polarColor: [0.892215, 0.93418, 0.887471, 1]
+  air:
+    color: [0.612691, 0.551919, 0.879979, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.499132, 0.308739, 0.642578, 1]
+    ratio: 0.22
+    polarColor: [0.679054, 0.532914, 0.78916, 1]
+  demographics:
+    type: 40
+    gdp: 21120
+    tech: 7
+    economy: 4
+    government: 7
+    description: The world Engema is beset by evil disease.
+    inhabitants: Black Slimy Lizards
+- type: star
+  type: primary
+  color: [0.69895, 0.669869, 0.567961, 1]
+  radius: 96219.87793
+  orbit:
+    type: static
+    parent: ~
+    radius: 357200
+    vector: [0.506, 0.859, 0.08]
+  corona:
+    shimmer: 0.549826
+    hues: 0.927208
+    flare: 0.014861
+stations:
+- type: coriolis
+  orbit:
+    parent: Engema
+    vector: undefined
+    radius: 7144

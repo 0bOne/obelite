@@ -1,0 +1,61 @@
+name: Esisor
+position: [241, 98]
+seed: 42 98 242 241 202 73
+limits:
+  blurs: 103
+  stars: 7265
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esisor
+  radius: 5361
+  rotationSpeed: 0.003195
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 536100
+  land:
+    ratio: 0.35
+    color: [0.161911, 0.511719, 0.175575, 1]
+    polarColor: [0.786675, 0.948828, 0.793009, 1]
+  sea:
+    color: [0.632431, 0.847656, 0.771991, 1]
+    polarColor: [0.857138, 0.915234, 0.89481, 1]
+  air:
+    color: [0.606694, 0.825811, 0.989895, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.425537, 0.972656, 0.587963, 1]
+    ratio: 0.29
+    polarColor: [0.608037, 0.937695, 0.705904, 1]
+  demographics:
+    type: 45
+    gdp: 28800
+    tech: 9
+    economy: 2
+    government: 6
+    description: The planet Esisor is most well known for its hoopy casinos.
+    inhabitants: Small Yellow Bony Birds
+- type: star
+  type: primary
+  color: [0.422049, 0.506351, 0.714944, 1]
+  radius: 142816.300507
+  orbit:
+    type: static
+    parent: ~
+    radius: 536100
+    vector: [-0.523, 0.349, -0.778]
+  corona:
+    shimmer: 0.334811
+    hues: 0.835556
+    flare: 0.053049
+stations:
+- type: coriolis
+  orbit:
+    parent: Esisor
+    vector: undefined
+    radius: 10722

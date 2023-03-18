@@ -1,0 +1,61 @@
+name: Maedra
+position: [112, 221]
+seed: 45 221 65 112 85 139
+limits:
+  blurs: 103
+  stars: 9477
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maedra
+  radius: 5744
+  rotationSpeed: 0.00258
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 746720
+  land:
+    ratio: 0.35
+    color: [0.445882, 0.359268, 0.541016, 1]
+    polarColor: [0.904316, 0.866458, 0.945898, 1]
+  sea:
+    color: [0.541016, 0.473934, 0.0359268, 1]
+    polarColor: [0.945898, 0.916577, 0.725127, 1]
+  air:
+    color: [0.719563, 0.772509, 0.943717, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.73951, 0.805199, 0.833984, 1]
+    ratio: 0.34
+    polarColor: [0.813322, 0.856411, 0.875293, 1]
+  demographics:
+    type: 8
+    gdp: 768
+    tech: 0
+    economy: 7
+    government: 0
+    description: This world is ravaged by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.215934, 0.510732, 0.728171, 1]
+  radius: 171223.54248
+  orbit:
+    type: static
+    parent: ~
+    radius: 402080
+    vector: [-0.215, -0.891, -0.4]
+  corona:
+    shimmer: 0.257359
+    hues: 0.580559
+    flare: 0.046967
+stations:
+- type: coriolis
+  orbit:
+    parent: Maedra
+    vector: undefined
+    radius: 11488

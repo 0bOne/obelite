@@ -1,0 +1,61 @@
+name: Teerbi
+position: [249, 26]
+seed: 25 26 81 249 250 220
+limits:
+  blurs: 148
+  stars: 7991
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teerbi
+  radius: 6137
+  rotationSpeed: 0.002599
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 736440
+  land:
+    ratio: 0.46
+    color: [0.66, 0.348047, 0.508898, 1]
+    polarColor: [0.934, 0.823635, 0.880542, 1]
+  sea:
+    color: [0.765625, 0.419753, 0.37384, 1]
+    polarColor: [0.923437, 0.819146, 0.805302, 1]
+  air:
+    color: [0.603486, 0.582067, 0.837703, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.395814, 0.352478, 0.515625, 1]
+    ratio: 0.36
+    polarColor: [0.625722, 0.587269, 0.732031, 1]
+  demographics:
+    type: 33
+    gdp: 12672
+    tech: 7
+    economy: 2
+    government: 2
+    description: This world is a tedious place.
+    inhabitants: Bony Lobsters
+- type: star
+  type: primary
+  color: [0.789014, 0.720563, 0.215358, 1]
+  radius: 143326.518555
+  orbit:
+    type: static
+    parent: ~
+    radius: 675070
+    vector: [-0.109, -0.604, -0.789]
+  corona:
+    shimmer: 0.331395
+    hues: 0.875931
+    flare: 0.024164
+stations:
+- type: coriolis
+  orbit:
+    parent: Teerbi
+    vector: undefined
+    radius: 12274

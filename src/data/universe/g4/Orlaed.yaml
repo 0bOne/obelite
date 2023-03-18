@@ -1,0 +1,61 @@
+name: Orlaed
+position: [10, 209]
+seed: 150 209 104 10 27 57
+limits:
+  blurs: 195
+  stars: 9349
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orlaed
+  radius: 5130
+  rotationSpeed: 0.002253
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 461700
+  land:
+    ratio: 0.43
+    color: [0.18492, 0.0696094, 0.66, 1]
+    polarColor: [0.765922, 0.725127, 0.934, 1]
+  sea:
+    color: [0.595703, 0.475646, 0.447941, 1]
+    polarColor: [0.94043, 0.893047, 0.882112, 1]
+  air:
+    color: [0.682804, 0.830936, 0.922254, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.631256, 0.769531, 0.652862, 1]
+    ratio: 0.41
+    polarColor: [0.751247, 0.846289, 0.766097, 1]
+  demographics:
+    type: 51
+    gdp: 33048
+    tech: 11
+    economy: 1
+    government: 5
+    description: The planet Orlaed is most noted for its inhabitants’ exceptional loathing of food blenders and its exciting Orlaedian evil juice.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.278487, 0.546211, 0.653851, 1]
+  radius: 140293.006897
+  orbit:
+    type: static
+    parent: ~
+    radius: 461700
+    vector: [-0.145, 0.184, -0.972]
+  corona:
+    shimmer: 0.387127
+    hues: 0.85952
+    flare: 0.042654
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Orlaed
+    vector: undefined
+    radius: 10260

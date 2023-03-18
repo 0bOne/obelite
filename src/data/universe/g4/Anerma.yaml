@@ -1,0 +1,61 @@
+name: Anerma
+position: [159, 85]
+seed: 28 85 128 159 165 59
+limits:
+  blurs: 96
+  stars: 8299
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anerma
+  radius: 5791
+  rotationSpeed: 0.004387
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 521190
+  land:
+    ratio: 0.5
+    color: [0.507891, 0.66, 0.549483, 1]
+    polarColor: [0.880186, 0.934, 0.8949, 1]
+  sea:
+    color: [0.582176, 0.751953, 0.668391, 1]
+    polarColor: [0.872604, 0.924805, 0.899112, 1]
+  air:
+    color: [0.731426, 0.463221, 0.985992, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.960938, 0.00750732, 0.432082, 1]
+    ratio: 0.52
+    polarColor: [0.932422, 0.354211, 0.611696, 1]
+  demographics:
+    type: 20
+    gdp: 1920
+    tech: 3
+    economy: 7
+    government: 0
+    description: This world is plagued by frequent solar activity.
+    inhabitants: Red Horned Humanoids
+- type: star
+  type: primary
+  color: [0.7546, 0.757364, 0.777429, 1]
+  radius: 111195.046692
+  orbit:
+    type: static
+    parent: ~
+    radius: 637010
+    vector: [0.071, -0.285, 0.956]
+  corona:
+    shimmer: 0.38581
+    hues: 0.713852
+    flare: 0.099852
+stations:
+- type: coriolis
+  orbit:
+    parent: Anerma
+    vector: undefined
+    radius: 11582

@@ -1,0 +1,61 @@
+name: Tiacein
+position: [222, 25]
+seed: 242 25 162 222 26 183
+limits:
+  blurs: 96
+  stars: 8231
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiacein
+  radius: 4830
+  rotationSpeed: 0.004492
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 434700
+  land:
+    ratio: 0.29
+    color: [0.66, 0.301641, 0.301641, 1]
+    polarColor: [0.934, 0.807217, 0.807217, 1]
+  sea:
+    color: [0.581097, 0.765625, 0.644529, 1]
+    polarColor: [0.867797, 0.923437, 0.886923, 1]
+  air:
+    color: [0.765444, 0.553561, 0.926807, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.783203, 0.305939, 0.440169, 1]
+    ratio: 0.36
+    polarColor: [0.852441, 0.527781, 0.619092, 1]
+  demographics:
+    type: 46
+    gdp: 26496
+    tech: 10
+    economy: 1
+    government: 4
+    description: The world Tiacein is beset by evil disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.828665, 0.820325, 0.81683, 1]
+  radius: 116319.895935
+  orbit:
+    type: static
+    parent: ~
+    radius: 386400
+    vector: [0.352, 0.839, -0.414]
+  corona:
+    shimmer: 0.333357
+    hues: 0.968521
+    flare: 0.070364
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiacein
+    vector: undefined
+    radius: 9660

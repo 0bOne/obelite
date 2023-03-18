@@ -1,0 +1,61 @@
+name: Bibeer
+position: [246, 23]
+seed: 2 23 114 246 90 198
+limits:
+  blurs: 90
+  stars: 8167
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bibeer
+  radius: 4598
+  rotationSpeed: 0.000127
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 689700
+  land:
+    ratio: 0.69
+    color: [0.350625, 0.66, 0.493228, 1]
+    polarColor: [0.824547, 0.934, 0.874998, 1]
+  sea:
+    color: [0.561655, 0.681641, 0.532532, 1]
+    polarColor: [0.890829, 0.931836, 0.880876, 1]
+  air:
+    color: [0.556283, 0.934519, 0.991846, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.692797, 0.978516, 0.275208, 1]
+    ratio: 0.29
+    polarColor: [0.768726, 0.940332, 0.517917, 1]
+  demographics:
+    type: 34
+    gdp: 8160
+    tech: 5
+    economy: 7
+    government: 6
+    description: This planet is most fabled for mud hockey but ravaged by killer disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.214634, 0.50049, 0.67861, 1]
+  radius: 141138.590393
+  orbit:
+    type: static
+    parent: ~
+    radius: 367840
+    vector: [-0.589, -0.481, 0.649]
+  corona:
+    shimmer: 0.67039
+    hues: 0.744766
+    flare: 0.052022
+stations:
+- type: coriolis
+  orbit:
+    parent: Bibeer
+    vector: undefined
+    radius: 9196

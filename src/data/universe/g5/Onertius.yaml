@@ -1,0 +1,61 @@
+name: Onertius
+position: [6, 106]
+seed: 201 106 73 6 234 223
+limits:
+  blurs: 52
+  stars: 9155
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onertius
+  radius: 6662
+  rotationSpeed: 0.000376
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 999300
+  land:
+    ratio: 0.62
+    color: [0.379533, 0.313568, 0.585938, 1]
+    polarColor: [0.8585, 0.832005, 0.941406, 1]
+  sea:
+    color: [0.626953, 0.496127, 0.461153, 1]
+    polarColor: [0.937305, 0.888408, 0.875336, 1]
+  air:
+    color: [0.555529, 0.942416, 0.833301, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.830078, 0.390974, 0.304794, 1]
+    ratio: 0.52
+    polarColor: [0.873535, 0.584727, 0.528045, 1]
+  demographics:
+    type: 36
+    gdp: 11520
+    tech: 8
+    economy: 2
+    government: 1
+    description: This world is a revolting little planet.
+    inhabitants: Fat Insects
+- type: star
+  type: primary
+  color: [0.691568, 0.614853, 0.595203, 1]
+  radius: 184307.946472
+  orbit:
+    type: static
+    parent: ~
+    radius: 266480
+    vector: [0.312, 0.859, -0.407]
+  corona:
+    shimmer: 0.719796
+    hues: 0.954926
+    flare: 0.081313
+stations:
+- type: coriolis
+  orbit:
+    parent: Onertius
+    vector: undefined
+    radius: 13324

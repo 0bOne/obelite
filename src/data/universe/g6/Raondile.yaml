@@ -1,0 +1,61 @@
+name: Raondile
+position: [217, 112]
+seed: 206 112 114 217 208 212
+limits:
+  blurs: 86
+  stars: 8090
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raondile
+  radius: 4057
+  rotationSpeed: 0.003958
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 567980
+  land:
+    ratio: 0.54
+    color: [0.66, 0.438442, 0.0928125, 1]
+    polarColor: [0.934, 0.855616, 0.733336, 1]
+  sea:
+    color: [0.53125, 0.406946, 0.447733, 1]
+    polarColor: [0.946875, 0.891486, 0.909661, 1]
+  air:
+    color: [0.575529, 0.56748, 0.843557, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.349817, 0.329086, 0.533203, 1]
+    ratio: 0.45
+    polarColor: [0.580885, 0.562905, 0.739941, 1]
+  demographics:
+    type: 51
+    gdp: 40800
+    tech: 11
+    economy: 0
+    government: 6
+    description: This planet is plagued by deadly earthquakes.
+    inhabitants: Bug-Eyed Frogs
+- type: star
+  type: primary
+  color: [0.290865, 0.408483, 0.699817, 1]
+  radius: 119735.233459
+  orbit:
+    type: static
+    parent: ~
+    radius: 162280
+    vector: [0.234, 0.057, -0.971]
+  corona:
+    shimmer: 0.291005
+    hues: 0.593285
+    flare: 0.055298
+stations:
+- type: icosahedron
+  orbit:
+    parent: Raondile
+    vector: undefined
+    radius: 8114

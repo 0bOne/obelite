@@ -1,0 +1,61 @@
+name: Maregeis
+position: [73, 121]
+seed: 74 121 200 73 83 139
+limits:
+  blurs: 81
+  stars: 5961
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maregeis
+  radius: 5705
+  rotationSpeed: 0.002613
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 741650
+  land:
+    ratio: 0.44
+    color: [0.527344, 0.473785, 0.490104, 1]
+    polarColor: [0.947266, 0.923214, 0.930542, 1]
+  sea:
+    color: [0.689453, 0.682299, 0.506317, 1]
+    polarColor: [0.931055, 0.92864, 0.869227, 1]
+  air:
+    color: [0.583766, 0.920063, 0.971033, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.693609, 0.916016, 0.368553, 1]
+    ratio: 0.55
+    polarColor: [0.773781, 0.912207, 0.571466, 1]
+  demographics:
+    type: 29
+    gdp: 8120
+    tech: 6
+    economy: 3
+    government: 1
+    description: This world is fabled for its ancient Maregeisian Bidial tulip plantations.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.707233, 0.375802, 0.283911, 1]
+  radius: 157469.87381
+  orbit:
+    type: static
+    parent: ~
+    radius: 171150
+    vector: [0.095, 0.938, -0.333]
+  corona:
+    shimmer: 0.376095
+    hues: 0.762062
+    flare: 0.04241
+stations:
+- type: coriolis
+  orbit:
+    parent: Maregeis
+    vector: undefined
+    radius: 11410

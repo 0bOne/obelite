@@ -1,0 +1,61 @@
+name: Zaonen
+position: [46, 141]
+seed: 10 141 210 46 10 4
+limits:
+  blurs: 64
+  stars: 9479
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaonen
+  radius: 3886
+  rotationSpeed: 0.004383
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 544040
+  land:
+    ratio: 0.26
+    color: [0.607422, 0.521299, 0.498276, 1]
+    polarColor: [0.939258, 0.905965, 0.897065, 1]
+  sea:
+    color: [0.196838, 0.503906, 0.30959, 1]
+    polarColor: [0.804942, 0.949609, 0.858062, 1]
+  air:
+    color: [0.457352, 0.585753, 0.89884, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0874023, 0.613182, 0.699219, 1]
+    ratio: 0.35
+    polarColor: [0.369138, 0.751998, 0.814648, 1]
+  demographics:
+    type: 28
+    gdp: 6720
+    tech: 5
+    economy: 5
+    government: 2
+    description: Zaonen is most noted for its inhabitants’ eccentric shyness and its inhabitants’ eccentric shyness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.79473, 0.72469, 0.685727, 1]
+  radius: 76245.910034
+  orbit:
+    type: static
+    parent: ~
+    radius: 194300
+    vector: [0.473, -0.02, 0.881]
+  corona:
+    shimmer: 0.385103
+    hues: 0.50209
+    flare: 0.069926
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaonen
+    vector: undefined
+    radius: 7772

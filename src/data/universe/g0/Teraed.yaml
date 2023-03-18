@@ -1,0 +1,61 @@
+name: Teraed
+position: [199, 80]
+seed: 152 80 84 199 141 92
+limits:
+  blurs: 67
+  stars: 9674
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teraed
+  radius: 6087
+  rotationSpeed: 0.004877
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 791310
+  land:
+    ratio: 0.6
+    color: [0.0335156, 0.557217, 0.66, 1]
+    polarColor: [0.712357, 0.897637, 0.934, 1]
+  sea:
+    color: [0.673828, 0.594967, 0.502739, 1]
+    polarColor: [0.932617, 0.90533, 0.873418, 1]
+  air:
+    color: [0.543516, 0.969082, 0.908844, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.910156, 0.639287, 0.255981, 1]
+    ratio: 0.5
+    polarColor: [0.90957, 0.740386, 0.500974, 1]
+  demographics:
+    type: 47
+    gdp: 22560
+    tech: 11
+    economy: 0
+    government: 2
+    description: Teraed is an unremarkable dump.
+    inhabitants: Yellow Insects
+- type: star
+  type: primary
+  color: [0.815857, 0.814772, 0.810908, 1]
+  radius: 147173.39859
+  orbit:
+    type: static
+    parent: ~
+    radius: 547830
+    vector: [-0.014, -0.631, -0.776]
+  corona:
+    shimmer: 0.394448
+    hues: 0.698196
+    flare: 0.01707
+stations:
+- type: icosahedron
+  orbit:
+    parent: Teraed
+    vector: undefined
+    radius: 12174

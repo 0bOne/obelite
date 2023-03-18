@@ -1,0 +1,61 @@
+name: Qubibi
+position: [198, 5]
+seed: 61 5 145 198 53 154
+limits:
+  blurs: 54
+  stars: 5057
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qubibi
+  radius: 5574
+  rotationSpeed: 0.001975
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 668880
+  land:
+    ratio: 0.24
+    color: [0.0934296, 0.613281, 0.235577, 1]
+    polarColor: [0.739754, 0.938672, 0.794146, 1]
+  sea:
+    color: [0.695312, 0.581323, 0.480743, 1]
+    polarColor: [0.930469, 0.892333, 0.858685, 1]
+  air:
+    color: [0.454702, 0.720273, 0.858516, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.108398, 0.578125, 0.126747, 1]
+    ratio: 0.45
+    polarColor: [0.374139, 0.760156, 0.389218, 1]
+  demographics:
+    type: 28
+    gdp: 6720
+    tech: 5
+    economy: 5
+    government: 2
+    description: The planet Qubibi is most famous for the Qubibiian spotted shrew.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.756467, 0.706393, 0.704187, 1]
+  radius: 117311.19873
+  orbit:
+    type: static
+    parent: ~
+    radius: 390180
+    vector: [0.287, -0.314, -0.905]
+  corona:
+    shimmer: 0.717464
+    hues: 0.744736
+    flare: 0.016504
+stations:
+- type: coriolis
+  orbit:
+    parent: Qubibi
+    vector: undefined
+    radius: 11148

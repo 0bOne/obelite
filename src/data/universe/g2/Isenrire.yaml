@@ -1,0 +1,61 @@
+name: Isenrire
+position: [206, 70]
+seed: 89 70 113 206 141 157
+limits:
+  blurs: 140
+  stars: 6661
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isenrire
+  radius: 6350
+  rotationSpeed: 0.00104
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 889000
+  land:
+    ratio: 0.36
+    color: [0.564453, 0.463028, 0.493931, 1]
+    polarColor: [0.943555, 0.901168, 0.914083, 1]
+  sea:
+    color: [0.438899, 0.591797, 0.0161819, 1]
+    polarColor: [0.880052, 0.94082, 0.712047, 1]
+  air:
+    color: [0.743462, 0.646674, 0.8325, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.5, 0.464844, 0.479675, 1]
+    ratio: 0.34
+    polarColor: [0.725, 0.69314, 0.706581, 1]
+  demographics:
+    type: 37
+    gdp: 11840
+    tech: 6
+    economy: 6
+    government: 6
+    description: The world Isenrire is reasonably noted for its inhabitants’ eccentric love for poetry and its inhabitants’ weird shyness.
+    inhabitants: Black Slimy Frogs
+- type: star
+  type: primary
+  color: [0.338412, 0.497768, 0.681964, 1]
+  radius: 109304.374695
+  orbit:
+    type: static
+    parent: ~
+    radius: 381000
+    vector: [-0.234, 0.6, -0.765]
+  corona:
+    shimmer: 0.323022
+    hues: 0.800491
+    flare: 0.030798
+stations:
+- type: coriolis
+  orbit:
+    parent: Isenrire
+    vector: undefined
+    radius: 12700

@@ -1,0 +1,61 @@
+name: Laanat
+position: [0, 228]
+seed: 58 228 226 0 234 181
+limits:
+  blurs: 66
+  stars: 6142
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laanat
+  radius: 4096
+  rotationSpeed: 0.001333
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 573440
+  land:
+    ratio: 0.62
+    color: [0.126968, 0.613281, 0.408118, 1]
+    polarColor: [0.752587, 0.938672, 0.860168, 1]
+  sea:
+    color: [0.634766, 0.494671, 0.476074, 1]
+    polarColor: [0.936523, 0.88485, 0.877991, 1]
+  air:
+    color: [0.601724, 0.914393, 0.955424, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.709307, 0.869141, 0.424385, 1]
+    ratio: 0.21
+    polarColor: [0.788692, 0.891113, 0.606114, 1]
+  demographics:
+    type: 29
+    gdp: 11136
+    tech: 5
+    economy: 4
+    government: 4
+    description: This planet is most fabled for its inhabitants’ ingrained silliness but scourged by deadly edible arts graduates.
+    inhabitants: Harmless Fat Humanoids
+- type: star
+  type: primary
+  color: [0.600576, 0.706168, 0.715381, 1]
+  radius: 94095
+  orbit:
+    type: static
+    parent: ~
+    radius: 204800
+    vector: [-0.481, 0.839, 0.255]
+  corona:
+    shimmer: 0.501423
+    hues: 0.519272
+    flare: 0.080029
+stations:
+- type: coriolis
+  orbit:
+    parent: Laanat
+    vector: undefined
+    radius: 8192

@@ -1,0 +1,61 @@
+name: Isesusa
+position: [161, 11]
+seed: 94 11 26 161 64 61
+limits:
+  blurs: 97
+  stars: 8512
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isesusa
+  radius: 6305
+  rotationSpeed: 0.003568
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 819650
+  land:
+    ratio: 0.54
+    color: [0.16613, 0.471234, 0.654297, 1]
+    polarColor: [0.760251, 0.869201, 0.93457, 1]
+  sea:
+    color: [0.710938, 0.535546, 0.44989, 1]
+    polarColor: [0.928906, 0.871615, 0.843636, 1]
+  air:
+    color: [0.540987, 0.558916, 0.857215, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.282623, 0.328185, 0.574219, 1]
+    ratio: 0.38
+    polarColor: [0.517696, 0.555306, 0.758398, 1]
+  demographics:
+    type: 35
+    gdp: 13720
+    tech: 7
+    economy: 3
+    government: 3
+    description: This world is plagued by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.728933, 0.72902, 0.7293, 1]
+  radius: 138149.884796
+  orbit:
+    type: static
+    parent: ~
+    radius: 378300
+    vector: [-0.22, -0.398, 0.89]
+  corona:
+    shimmer: 0.329254
+    hues: 0.792076
+    flare: 0.078247
+stations:
+- type: coriolis
+  orbit:
+    parent: Isesusa
+    vector: undefined
+    radius: 12610

@@ -1,0 +1,61 @@
+name: Riarquge
+position: [81, 250]
+seed: 239 250 138 81 91 94
+limits:
+  blurs: 69
+  stars: 6555
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riarquge
+  radius: 6481
+  rotationSpeed: 0.001109
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 777720
+  land:
+    ratio: 0.55
+    color: [0.66, 0.549221, 0.337734, 1]
+    polarColor: [0.934, 0.894808, 0.819986, 1]
+  sea:
+    color: [0.314621, 0.349686, 0.509766, 1]
+    polarColor: [0.858199, 0.874519, 0.949023, 1]
+  air:
+    color: [0.543772, 0.960627, 0.872341, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.884766, 0.495953, 0.262665, 1]
+    ratio: 0.23
+    polarColor: [0.898145, 0.651462, 0.503452, 1]
+  demographics:
+    type: 32
+    gdp: 10240
+    tech: 7
+    economy: 2
+    government: 1
+    description: This planet is reasonably famous for the Riarqugeian evil talking treeoid.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.327487, 0.355807, 0.816574, 1]
+  radius: 143729.940796
+  orbit:
+    type: static
+    parent: ~
+    radius: 583290
+    vector: [-0.359, -0.882, 0.305]
+  corona:
+    shimmer: 0.40092
+    hues: 0.903091
+    flare: 0.033035
+stations:
+- type: coriolis
+  orbit:
+    parent: Riarquge
+    vector: undefined
+    radius: 12962

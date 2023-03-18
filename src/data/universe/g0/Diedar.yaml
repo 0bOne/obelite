@@ -1,0 +1,61 @@
+name: Diedar
+position: [164, 134]
+seed: 152 134 116 164 77 77
+limits:
+  blurs: 76
+  stars: 7537
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diedar
+  radius: 6308
+  rotationSpeed: 0.003614
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 630800
+  land:
+    ratio: 0.26
+    color: [0.515409, 0.355949, 0.587891, 1]
+    polarColor: [0.9122, 0.848377, 0.941211, 1]
+  sea:
+    color: [0.740234, 0.575033, 0.442406, 1]
+    polarColor: [0.925977, 0.874313, 0.832836, 1]
+  air:
+    color: [0.549666, 0.53431, 0.877377, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.324376, 0.270271, 0.634766, 1]
+    ratio: 0.35
+    polarColor: [0.54554, 0.503687, 0.785645, 1]
+  demographics:
+    type: 29
+    gdp: 9280
+    tech: 4
+    economy: 6
+    government: 6
+    description: This world is ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.722982, 0.79094, 0.802505, 1]
+  radius: 209854.385376
+  orbit:
+    type: static
+    parent: ~
+    radius: 567720
+    vector: [-0.922, -0.233, 0.31]
+  corona:
+    shimmer: 0.321794
+    hues: 0.913513
+    flare: 0.028027
+stations:
+- type: coriolis
+  orbit:
+    parent: Diedar
+    vector: undefined
+    radius: 12616

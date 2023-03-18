@@ -1,0 +1,61 @@
+name: Legees
+position: [4, 253]
+seed: 10 253 44 4 219 193
+limits:
+  blurs: 80
+  stars: 6328
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Legees
+  radius: 3076
+  rotationSpeed: 0.002472
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 430640
+  land:
+    ratio: 0.3
+    color: [0.66, 0.0953906, 0.360051, 1]
+    polarColor: [0.934, 0.734248, 0.827882, 1]
+  sea:
+    color: [0.583391, 0.630859, 0.498773, 1]
+    polarColor: [0.91929, 0.936914, 0.887873, 1]
+  air:
+    color: [0.567331, 0.945958, 0.977537, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.78597, 0.935547, 0.31794, 1]
+    ratio: 0.29
+    polarColor: [0.828965, 0.920996, 0.540995, 1]
+  demographics:
+    type: 31
+    gdp: 11160
+    tech: 5
+    economy: 5
+    government: 5
+    description: This planet is most notable for its exotic night life but ravaged by frequent earthquakes.
+    inhabitants: Large Bug-Eyed Lizards
+- type: star
+  type: primary
+  color: [0.733419, 0.752607, 0.779276, 1]
+  radius: 69113.311768
+  orbit:
+    type: static
+    parent: ~
+    radius: 215320
+    vector: [-0.062, 0.995, 0.084]
+  corona:
+    shimmer: 0.430128
+    hues: 0.859482
+    flare: 0.055644
+stations:
+- type: coriolis
+  orbit:
+    parent: Legees
+    vector: undefined
+    radius: 6152

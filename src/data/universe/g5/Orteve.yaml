@@ -1,0 +1,61 @@
+name: Orteve
+position: [171, 215]
+seed: 103 215 89 171 104 57
+limits:
+  blurs: 120
+  stars: 7486
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orteve
+  radius: 5291
+  rotationSpeed: 0.000716
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 529100
+  land:
+    ratio: 0.61
+    color: [0.66, 0.404222, 0.265547, 1]
+    polarColor: [0.934, 0.843509, 0.794447, 1]
+  sea:
+    color: [0.677734, 0.595975, 0.500359, 1]
+    polarColor: [0.932227, 0.904112, 0.871231, 1]
+  air:
+    color: [0.658447, 0.859166, 0.815089, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.580078, 0.541876, 0.521164, 1]
+    ratio: 0.61
+    polarColor: [0.761035, 0.729711, 0.712727, 1]
+  demographics:
+    type: 31
+    gdp: 5208
+    tech: 5
+    economy: 7
+    government: 3
+    description: This world is ravaged by unpredictable civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.638659, 0.657262, 0.699683, 1]
+  radius: 137449.25827
+  orbit:
+    type: static
+    parent: ~
+    radius: 476190
+    vector: [-0.283, -0.28, -0.917]
+  corona:
+    shimmer: 0.346037
+    hues: 0.577835
+    flare: 0.042662
+stations:
+- type: coriolis
+  orbit:
+    parent: Orteve
+    vector: undefined
+    radius: 10582

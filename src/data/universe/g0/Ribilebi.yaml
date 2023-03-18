@@ -1,0 +1,61 @@
+name: Ribilebi
+position: [252, 11]
+seed: 90 11 224 252 51 62
+limits:
+  blurs: 59
+  stars: 8139
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ribilebi
+  radius: 6652
+  rotationSpeed: 0.004793
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 731720
+  land:
+    ratio: 0.34
+    color: [0.152109, 0.231467, 0.66, 1]
+    polarColor: [0.754314, 0.78239, 0.934, 1]
+  sea:
+    color: [0.563107, 0.644531, 0.512604, 1]
+    polarColor: [0.906, 0.935547, 0.887673, 1]
+  air:
+    color: [0.632574, 0.833928, 0.96648, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.507568, 0.902344, 0.587757, 1]
+    ratio: 0.43
+    polarColor: [0.658305, 0.906055, 0.708629, 1]
+  demographics:
+    type: 32
+    gdp: 14336
+    tech: 6
+    economy: 3
+    government: 4
+    description: The planet Ribilebi is most famous for its vast oceans and its fabulous goat soup.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.697378, 0.706958, 0.221019, 1]
+  radius: 190309.156494
+  orbit:
+    type: static
+    parent: ~
+    radius: 598680
+    vector: [-0.653, -0.589, 0.476]
+  corona:
+    shimmer: 0.359117
+    hues: 0.655777
+    flare: 0.086357
+stations:
+- type: coriolis
+  orbit:
+    parent: Ribilebi
+    vector: undefined
+    radius: 13304

@@ -1,0 +1,61 @@
+name: Gelesoma
+position: [34, 219]
+seed: 206 219 82 34 80 35
+limits:
+  blurs: 180
+  stars: 6672
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gelesoma
+  radius: 3618
+  rotationSpeed: 0.002599
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 397980
+  land:
+    ratio: 0.45
+    color: [0.595043, 0.66, 0.466641, 1]
+    polarColor: [0.911019, 0.934, 0.865592, 1]
+  sea:
+    color: [0.5584, 0.383911, 0.578125, 1]
+    polarColor: [0.934151, 0.863058, 0.942187, 1]
+  air:
+    color: [0.762692, 0.647679, 0.842256, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.529297, 0.479675, 0.490142, 1]
+    ratio: 0.41
+    polarColor: [0.738184, 0.694931, 0.704054, 1]
+  demographics:
+    type: 34
+    gdp: 11424
+    tech: 7
+    economy: 3
+    government: 2
+    description: The planet Gelesoma is cursed by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.766632, 0.682744, 0.50908, 1]
+  radius: 83996.383667
+  orbit:
+    type: static
+    parent: ~
+    radius: 325620
+    vector: [-0.575, -0.713, 0.401]
+  corona:
+    shimmer: 0.314171
+    hues: 0.559059
+    flare: 0.023056
+stations:
+- type: coriolis
+  orbit:
+    parent: Gelesoma
+    vector: undefined
+    radius: 7236

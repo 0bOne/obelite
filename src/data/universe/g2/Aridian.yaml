@@ -1,0 +1,61 @@
+name: Aridian
+position: [30, 111]
+seed: 193 111 249 30 173 143
+limits:
+  blurs: 149
+  stars: 6994
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aridian
+  radius: 6686
+  rotationSpeed: 0.000069
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 869180
+  land:
+    ratio: 0.54
+    color: [0.66, 0.415078, 0.478222, 1]
+    polarColor: [0.934, 0.84735, 0.869689, 1]
+  sea:
+    color: [0.779297, 0.526634, 0.389648, 1]
+    polarColor: [0.92207, 0.847332, 0.806812, 1]
+  air:
+    color: [0.687259, 0.863068, 0.862881, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.591743, 0.591797, 0.584862, 1]
+    ratio: 0.48
+    polarColor: [0.766265, 0.766309, 0.760696, 1]
+  demographics:
+    type: 39
+    gdp: 10296
+    tech: 6
+    economy: 7
+    government: 7
+    description: This planet is a dull world.
+    inhabitants: Black Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.682269, 0.638662, 0.573895, 1]
+  radius: 204669.992371
+  orbit:
+    type: static
+    parent: ~
+    radius: 200580
+    vector: [0.944, 0.016, -0.328]
+  corona:
+    shimmer: 0.683293
+    hues: 0.720947
+    flare: 0.021671
+stations:
+- type: coriolis
+  orbit:
+    parent: Aridian
+    vector: undefined
+    radius: 13372

@@ -1,0 +1,61 @@
+name: Ingece
+position: [21, 129]
+seed: 169 129 161 21 77 108
+limits:
+  blurs: 185
+  stars: 8270
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ingece
+  radius: 5909
+  rotationSpeed: 0.000364
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 709080
+  land:
+    ratio: 0.57
+    color: [0.513672, 0.44545, 0.488622, 1]
+    polarColor: [0.948633, 0.917135, 0.937067, 1]
+  sea:
+    color: [0.673828, 0.667083, 0.50116, 1]
+    polarColor: [0.932617, 0.930283, 0.872871, 1]
+  air:
+    color: [0.583804, 0.508478, 0.9151, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.511999, 0.1987, 0.748047, 1]
+    ratio: 0.14
+    polarColor: [0.671623, 0.452625, 0.836621, 1]
+  demographics:
+    type: 42
+    gdp: 24192
+    tech: 9
+    economy: 1
+    government: 4
+    description: The world Ingece is beset by dreadful earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.223857, 0.662681, 0.835138, 1]
+  radius: 188288.964996
+  orbit:
+    type: static
+    parent: ~
+    radius: 413630
+    vector: [0.195, 0.566, -0.801]
+  corona:
+    shimmer: 0.398187
+    hues: 0.96109
+    flare: 0.050887
+stations:
+- type: coriolis
+  orbit:
+    parent: Ingece
+    vector: undefined
+    radius: 11818

@@ -1,0 +1,61 @@
+name: Aniseres
+position: [23, 106]
+seed: 231 106 9 23 168 59
+limits:
+  blurs: 120
+  stars: 8852
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aniseres
+  radius: 5655
+  rotationSpeed: 0.000069
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 678600
+  land:
+    ratio: 0.58
+    color: [0.66, 0.629647, 0.306797, 1]
+    polarColor: [0.934, 0.923261, 0.809041, 1]
+  sea:
+    color: [0.632812, 0.52574, 0.467688, 1]
+    polarColor: [0.936719, 0.897095, 0.875612, 1]
+  air:
+    color: [0.642048, 0.587541, 0.84876, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.484881, 0.370888, 0.548828, 1]
+    ratio: 0.55
+    polarColor: [0.692576, 0.595609, 0.746973, 1]
+  demographics:
+    type: 40
+    gdp: 12800
+    tech: 9
+    economy: 2
+    government: 1
+    description: The planet Aniseres is cursed by deadly civil war.
+    inhabitants: Red Furry Rodents
+- type: star
+  type: primary
+  color: [0.771606, 0.75709, 0.749751, 1]
+  radius: 141446.619415
+  orbit:
+    type: static
+    parent: ~
+    radius: 339300
+    vector: [0.015, -0.406, -0.914]
+  corona:
+    shimmer: 0.453141
+    hues: 0.744339
+    flare: 0.007597
+stations:
+- type: coriolis
+  orbit:
+    parent: Aniseres
+    vector: undefined
+    radius: 11310

@@ -1,0 +1,61 @@
+name: Leatge
+position: [111, 0]
+seed: 41 0 217 111 202 161
+limits:
+  blurs: 52
+  stars: 5731
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leatge
+  radius: 3183
+  rotationSpeed: 0.002238
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 381960
+  land:
+    ratio: 0.41
+    color: [0.66, 0.657422, 0.657784, 1]
+    polarColor: [0.934, 0.933088, 0.933216, 1]
+  sea:
+    color: [0.617188, 0.478166, 0.455417, 1]
+    polarColor: [0.938281, 0.885444, 0.876798, 1]
+  air:
+    color: [0.785885, 0.626238, 0.873475, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.623047, 0.467285, 0.474586, 1]
+    ratio: 0.36
+    polarColor: [0.780371, 0.658438, 0.664154, 1]
+  demographics:
+    type: 52
+    gdp: 29120
+    tech: 12
+    economy: 0
+    government: 3
+    description: Leatge is ravaged by dreadful civil war.
+    inhabitants: Large Harmless Rodents
+- type: star
+  type: primary
+  color: [0.317447, 0.366024, 0.810812, 1]
+  radius: 85456.186981
+  orbit:
+    type: static
+    parent: ~
+    radius: 222810
+    vector: [-0.996, 0.033, 0.078]
+  corona:
+    shimmer: 0.429626
+    hues: 0.942429
+    flare: 0.092204
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Leatge
+    vector: undefined
+    radius: 6366

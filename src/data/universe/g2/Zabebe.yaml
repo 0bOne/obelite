@@ -1,0 +1,61 @@
+name: Zabebe
+position: [187, 115]
+seed: 169 115 161 187 77 100
+limits:
+  blurs: 89
+  stars: 7008
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zabebe
+  radius: 4027
+  rotationSpeed: 0.000386
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 402700
+  land:
+    ratio: 0.55
+    color: [0.139219, 0.330443, 0.66, 1]
+    polarColor: [0.749754, 0.817407, 0.934, 1]
+  sea:
+    color: [0.556107, 0.722656, 0.562612, 1]
+    polarColor: [0.874281, 0.927734, 0.876369, 1]
+  air:
+    color: [0.69726, 0.724462, 0.981439, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.691948, 0.761761, 0.947266, 1]
+    ratio: 0.16
+    polarColor: [0.770233, 0.812899, 0.92627, 1]
+  demographics:
+    type: 44
+    gdp: 19712
+    tech: 9
+    economy: 3
+    government: 4
+    description: Zabebe is a revolting dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.784033, 0.56861, 0.435252, 1]
+  radius: 124373.319855
+  orbit:
+    type: static
+    parent: ~
+    radius: 402700
+    vector: [0.81, 0.584, 0.051]
+  corona:
+    shimmer: 0.26494
+    hues: 0.560349
+    flare: 0.038538
+stations:
+- type: coriolis
+  orbit:
+    parent: Zabebe
+    vector: undefined
+    radius: 8054

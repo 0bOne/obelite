@@ -1,0 +1,61 @@
+name: Usatqura
+position: [97, 39]
+seed: 64 39 48 97 173 72
+limits:
+  blurs: 49
+  stars: 8108
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usatqura
+  radius: 4961
+  rotationSpeed: 0.002196
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 694540
+  land:
+    ratio: 0.5
+    color: [0.66, 0.394453, 0.425572, 1]
+    polarColor: [0.934, 0.840053, 0.851062, 1]
+  sea:
+    color: [0.601562, 0.564809, 0.467151, 1]
+    polarColor: [0.939844, 0.925489, 0.887345, 1]
+  air:
+    color: [0.569596, 0.927235, 0.981439, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.69322, 0.947266, 0.321922, 1]
+    ratio: 0.39
+    polarColor: [0.77101, 0.92627, 0.544093, 1]
+  demographics:
+    type: 30
+    gdp: 7200
+    tech: 4
+    economy: 7
+    government: 6
+    description: This planet is reasonably famous for its inhabitants’ exceptional loathing of sit coms.
+    inhabitants: Small Yellow Felines
+- type: star
+  type: primary
+  color: [0.702396, 0.701123, 0.698819, 1]
+  radius: 112206.895142
+  orbit:
+    type: static
+    parent: ~
+    radius: 248050
+    vector: [0.365, 0.871, -0.33]
+  corona:
+    shimmer: 0.252347
+    hues: 0.545364
+    flare: 0.079352
+stations:
+- type: coriolis
+  orbit:
+    parent: Usatqura
+    vector: undefined
+    radius: 9922

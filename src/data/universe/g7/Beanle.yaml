@@ -1,0 +1,61 @@
+name: Beanle
+position: [178, 181]
+seed: 31 181 186 178 171 51
+limits:
+  blurs: 97
+  stars: 9948
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beanle
+  radius: 3762
+  rotationSpeed: 0.002355
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 526680
+  land:
+    ratio: 0.62
+    color: [0.102386, 0.595703, 0.179467, 1]
+    polarColor: [0.745731, 0.94043, 0.776153, 1]
+  sea:
+    color: [0.619141, 0.474595, 0.455407, 1]
+    polarColor: [0.938086, 0.883334, 0.876066, 1]
+  air:
+    color: [0.786391, 0.548043, 0.935912, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.810547, 0.288124, 0.36159, 1]
+    ratio: 0.43
+    polarColor: [0.864746, 0.516399, 0.565385, 1]
+  demographics:
+    type: 45
+    gdp: 19800
+    tech: 8
+    economy: 5
+    government: 7
+    description: This world is ravaged by unpredictable civil war.
+    inhabitants: Red Lizards
+- type: star
+  type: primary
+  color: [0.693314, 0.298355, 0.178065, 1]
+  radius: 94080.997925
+  orbit:
+    type: static
+    parent: ~
+    radius: 225720
+    vector: [-0.621, -0.757, -0.203]
+  corona:
+    shimmer: 0.506829
+    hues: 0.578461
+    flare: 0.045151
+stations:
+- type: coriolis
+  orbit:
+    parent: Beanle
+    vector: undefined
+    radius: 7524

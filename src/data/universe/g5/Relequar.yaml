@@ -1,0 +1,61 @@
+name: Relequar
+position: [170, 135]
+seed: 233 135 249 170 138 78
+limits:
+  blurs: 93
+  stars: 6701
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Relequar
+  radius: 6570
+  rotationSpeed: 0.000959
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 919800
+  land:
+    ratio: 0.33
+    color: [0.66, 0.443478, 0.438281, 1]
+    polarColor: [0.934, 0.857397, 0.855559, 1]
+  sea:
+    color: [0.682701, 0.673158, 0.847656, 1]
+    polarColor: [0.870708, 0.868132, 0.915234, 1]
+  air:
+    color: [0.580424, 0.921604, 0.822717, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.767578, 0.430029, 0.374794, 1]
+    ratio: 0.35
+    polarColor: [0.84541, 0.61305, 0.575028, 1]
+  demographics:
+    type: 39
+    gdp: 10296
+    tech: 6
+    economy: 7
+    government: 7
+    description: This world is reasonably notable for its fabulous cuisine but beset by evil tree snakes.
+    inhabitants: Yellow Furry Insects
+- type: star
+  type: primary
+  color: [0.666287, 0.661871, 0.562404, 1]
+  radius: 169756.745911
+  orbit:
+    type: static
+    parent: ~
+    radius: 328500
+    vector: [0.167, -0.546, -0.821]
+  corona:
+    shimmer: 0.376722
+    hues: 0.863571
+    flare: 0.088728
+stations:
+- type: coriolis
+  orbit:
+    parent: Relequar
+    vector: undefined
+    radius: 13140

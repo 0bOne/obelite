@@ -1,0 +1,61 @@
+name: Sotiera
+position: [81, 30]
+seed: 192 30 200 81 61 39
+limits:
+  blurs: 130
+  stars: 9693
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sotiera
+  radius: 4689
+  rotationSpeed: 0.00499
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 656460
+  land:
+    ratio: 0.48
+    color: [0.66, 0.148887, 0.0309375, 1]
+    polarColor: [0.934, 0.753174, 0.711445, 1]
+  sea:
+    color: [0.551238, 0.650391, 0.51955, 1]
+    polarColor: [0.899327, 0.934961, 0.887939, 1]
+  air:
+    color: [0.684315, 0.742133, 0.977537, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.654152, 0.816833, 0.935547, 1]
+    ratio: 0.44
+    polarColor: [0.74786, 0.847954, 0.920996, 1]
+  demographics:
+    type: 20
+    gdp: 3200
+    tech: 3
+    economy: 6
+    government: 1
+    description: The world Sotiera is mildly fabled for the Sotieraian mountain poet but cursed by unpredictable earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.557342, 0.652416, 0.835367, 1]
+  radius: 91599.202881
+  orbit:
+    type: static
+    parent: ~
+    radius: 328230
+    vector: [0.593, -0.725, -0.349]
+  corona:
+    shimmer: 0.326739
+    hues: 0.654289
+    flare: 0.021927
+stations:
+- type: coriolis
+  orbit:
+    parent: Sotiera
+    vector: undefined
+    radius: 9378

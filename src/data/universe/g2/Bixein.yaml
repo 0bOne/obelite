@@ -1,0 +1,61 @@
+name: Bixein
+position: [130, 120]
+seed: 145 120 233 130 237 198
+limits:
+  blurs: 79
+  stars: 6088
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bixein
+  radius: 4482
+  rotationSpeed: 0.001985
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 537840
+  land:
+    ratio: 0.49
+    color: [0.289274, 0.517578, 0.117264, 1]
+    polarColor: [0.843675, 0.948242, 0.764891, 1]
+  sea:
+    color: [0.625648, 0.827194, 0.832031, 1]
+    polarColor: [0.859945, 0.915464, 0.916797, 1]
+  air:
+    color: [0.487374, 0.624439, 0.866971, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.172096, 0.603516, 0.573181, 1]
+    ratio: 0.52
+    polarColor: [0.426857, 0.771582, 0.747343, 1]
+  demographics:
+    type: 54
+    gdp: 38880
+    tech: 12
+    economy: 0
+    government: 5
+    description: The planet Bixein is an unremarkable dump.
+    inhabitants: Fierce Horned Birds
+- type: star
+  type: primary
+  color: [0.610449, 0.66707, 0.679425, 1]
+  radius: 112940.436401
+  orbit:
+    type: static
+    parent: ~
+    radius: 403380
+    vector: [-0.369, 0.916, -0.156]
+  corona:
+    shimmer: 0.516731
+    hues: 0.911346
+    flare: 0.055258
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Bixein
+    vector: undefined
+    radius: 8964

@@ -1,0 +1,61 @@
+name: Esdi
+position: [132, 19]
+seed: 48 19 40 132 26 169
+limits:
+  blurs: 78
+  stars: 5391
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esdi
+  radius: 5252
+  rotationSpeed: 0.004706
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 577720
+  land:
+    ratio: 0.69
+    color: [0.451555, 0.66, 0.322266, 1]
+    polarColor: [0.860255, 0.934, 0.814514, 1]
+  sea:
+    color: [0.567388, 0.693359, 0.536812, 1]
+    polarColor: [0.888393, 0.930664, 0.878132, 1]
+  air:
+    color: [0.508932, 0.639949, 0.842906, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.217896, 0.53125, 0.47984, 1]
+    ratio: 0.59
+    polarColor: [0.466605, 0.739062, 0.694363, 1]
+  demographics:
+    type: 37
+    gdp: 18648
+    tech: 7
+    economy: 3
+    government: 5
+    description: Esdi is well known for its inhabitants’ ancient mating traditions but ravaged by unpredictable solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.738037, 0.687142, 0.62295, 1]
+  radius: 158289.266357
+  orbit:
+    type: static
+    parent: ~
+    radius: 367640
+    vector: [0.782, -0.428, 0.453]
+  corona:
+    shimmer: 0.266236
+    hues: 0.868477
+    flare: 0.054033
+stations:
+- type: coriolis
+  orbit:
+    parent: Esdi
+    vector: undefined
+    radius: 10504

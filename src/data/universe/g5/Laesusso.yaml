@@ -1,0 +1,61 @@
+name: Laesusso
+position: [41, 42]
+seed: 239 42 29 41 160 21
+limits:
+  blurs: 120
+  stars: 5150
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laesusso
+  radius: 4137
+  rotationSpeed: 0.004898
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 455070
+  land:
+    ratio: 0.38
+    color: [0.381563, 0.555586, 0.66, 1]
+    polarColor: [0.835492, 0.89706, 0.934, 1]
+  sea:
+    color: [0.640625, 0.63474, 0.489978, 1]
+    polarColor: [0.935938, 0.933788, 0.880915, 1]
+  air:
+    color: [0.601, 0.927457, 0.888891, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.785156, 0.661805, 0.426315, 1]
+    ratio: 0.25
+    polarColor: [0.85332, 0.769533, 0.609574, 1]
+  demographics:
+    type: 38
+    gdp: 17024
+    tech: 8
+    economy: 2
+    government: 3
+    description: The planet Laesusso is cursed by dreadful civil war.
+    inhabitants: Green Bony Birds
+- type: star
+  type: primary
+  color: [0.31244, 0.63973, 0.807202, 1]
+  radius: 75075.288391
+  orbit:
+    type: static
+    parent: ~
+    radius: 413700
+    vector: [0.44, -0.143, 0.887]
+  corona:
+    shimmer: 0.750854
+    hues: 0.942245
+    flare: 0.040347
+stations:
+- type: coriolis
+  orbit:
+    parent: Laesusso
+    vector: undefined
+    radius: 8274

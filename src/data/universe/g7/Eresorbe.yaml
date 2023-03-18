@@ -1,0 +1,61 @@
+name: Eresorbe
+position: [95, 218]
+seed: 113 218 96 95 29 240
+limits:
+  blurs: 87
+  stars: 9917
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Eresorbe
+  radius: 2911
+  rotationSpeed: 0.002272
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 349320
+  land:
+    ratio: 0.55
+    color: [0.0386719, 0.66, 0.35419, 1]
+    polarColor: [0.714182, 0.934, 0.825808, 1]
+  sea:
+    color: [0.583984, 0.576556, 0.465134, 1]
+    polarColor: [0.941602, 0.938607, 0.893694, 1]
+  air:
+    color: [0.75237, 0.643992, 0.840305, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.523438, 0.470276, 0.48772, 1]
+    ratio: 0.42
+    polarColor: [0.735547, 0.688857, 0.704177, 1]
+  demographics:
+    type: 47
+    gdp: 24064
+    tech: 10
+    economy: 2
+    government: 4
+    description: The planet Eresorbe is famous for Eresorbeian shrew steak but ravaged by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.716061, 0.687592, 0.588774, 1]
+  radius: 71430.012817
+  orbit:
+    type: static
+    parent: ~
+    radius: 232880
+    vector: [0.212, -0.141, -0.967]
+  corona:
+    shimmer: 0.471903
+    hues: 0.750237
+    flare: 0.03403
+stations:
+- type: coriolis
+  orbit:
+    parent: Eresorbe
+    vector: undefined
+    radius: 5822

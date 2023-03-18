@@ -1,0 +1,61 @@
+name: Quinri
+position: [55, 59]
+seed: 0 59 192 55 26 26
+limits:
+  blurs: 123
+  stars: 7646
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Quinri
+  radius: 5431
+  rotationSpeed: 0.000566
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 651720
+  land:
+    ratio: 0.57
+    color: [0.650735, 0.634219, 0.66, 1]
+    polarColor: [0.930722, 0.924879, 0.934, 1]
+  sea:
+    color: [0.601562, 0.56145, 0.466446, 1]
+    polarColor: [0.939844, 0.924176, 0.887069, 1]
+  air:
+    color: [0.504155, 0.622713, 0.855264, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.208694, 0.568359, 0.568359, 1]
+    ratio: 0.43
+    polarColor: [0.456852, 0.755762, 0.755762, 1]
+  demographics:
+    type: 32
+    gdp: 7168
+    tech: 7
+    economy: 3
+    government: 0
+    description: The planet Quinri is scourged by deadly tree grubs.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.747604, 0.62521, 0.328523, 1]
+  radius: 153321.996155
+  orbit:
+    type: static
+    parent: ~
+    radius: 434480
+    vector: [0.336, -0.795, -0.505]
+  corona:
+    shimmer: 0.332704
+    hues: 0.740616
+    flare: 0.016075
+stations:
+- type: coriolis
+  orbit:
+    parent: Quinri
+    vector: undefined
+    radius: 10862

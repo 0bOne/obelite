@@ -1,0 +1,61 @@
+name: Erlage
+position: [220, 104]
+seed: 56 104 108 220 253 16
+limits:
+  blurs: 167
+  stars: 6893
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erlage
+  radius: 3036
+  rotationSpeed: 0.003908
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 303600
+  land:
+    ratio: 0.69
+    color: [0.363516, 0.604409, 0.66, 1]
+    polarColor: [0.829107, 0.914333, 0.934, 1]
+  sea:
+    color: [0.527344, 0.438638, 0.418167, 1]
+    polarColor: [0.947266, 0.90743, 0.898237, 1]
+  air:
+    color: [0.612284, 0.901441, 0.83343, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.707031, 0.528439, 0.45018, 1]
+    ratio: 0.27
+    polarColor: [0.818164, 0.688999, 0.632399, 1]
+  demographics:
+    type: 46
+    gdp: 33120
+    tech: 10
+    economy: 0
+    government: 5
+    description: This world is reasonably well known for the Erlageian tree ant but cursed by vicious mountain goats.
+    inhabitants: Green Fat Birds
+- type: star
+  type: primary
+  color: [0.344284, 0.36746, 0.68447, 1]
+  radius: 79432.333374
+  orbit:
+    type: static
+    parent: ~
+    radius: 364320
+    vector: [-0.002, -0.94, 0.341]
+  corona:
+    shimmer: 0.375049
+    hues: 0.890488
+    flare: 0.03871
+stations:
+- type: coriolis
+  orbit:
+    parent: Erlage
+    vector: undefined
+    radius: 6072

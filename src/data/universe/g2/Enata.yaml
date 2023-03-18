@@ -1,0 +1,61 @@
+name: Enata
+position: [171, 179]
+seed: 133 179 105 171 133 242
+limits:
+  blurs: 169
+  stars: 8972
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enata
+  radius: 3499
+  rotationSpeed: 0.004824
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 489860
+  land:
+    ratio: 0.38
+    color: [0.66, 0.427969, 0.466036, 1]
+    polarColor: [0.934, 0.85191, 0.865378, 1]
+  sea:
+    color: [0.660156, 0.642077, 0.494859, 1]
+    polarColor: [0.933984, 0.92759, 0.875519, 1]
+  air:
+    color: [0.693154, 0.844357, 0.892336, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.644591, 0.679688, 0.631897, 1]
+    ratio: 0.48
+    polarColor: [0.779852, 0.805859, 0.770446, 1]
+  demographics:
+    type: 49
+    gdp: 24696
+    tech: 10
+    economy: 3
+    government: 5
+    description: This planet is fabled for its unusual tropical forests and its exciting Zero-G cricket.
+    inhabitants: Slimy Lizards
+- type: star
+  type: primary
+  color: [0.732678, 0.337727, 0.263144, 1]
+  radius: 86154.652863
+  orbit:
+    type: static
+    parent: ~
+    radius: 314910
+    vector: [-0.307, 0, 0.952]
+  corona:
+    shimmer: 0.487517
+    hues: 0.676758
+    flare: 0.031154
+stations:
+- type: coriolis
+  orbit:
+    parent: Enata
+    vector: undefined
+    radius: 6998

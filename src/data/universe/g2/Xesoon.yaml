@@ -1,0 +1,61 @@
+name: Xesoon
+position: [181, 240]
+seed: 41 240 33 181 77 226
+limits:
+  blurs: 122
+  stars: 9374
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xesoon
+  radius: 3509
+  rotationSpeed: 0.000443
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 421080
+  land:
+    ratio: 0.31
+    color: [0.45375, 0.66, 0.519814, 1]
+    polarColor: [0.861031, 0.934, 0.884404, 1]
+  sea:
+    color: [0.671468, 0.712891, 0.523529, 1]
+    polarColor: [0.91522, 0.928711, 0.867039, 1]
+  air:
+    color: [0.627802, 0.799382, 0.986643, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.488968, 0.962891, 0.762954, 1]
+    ratio: 0.27
+    polarColor: [0.646201, 0.933301, 0.812181, 1]
+  demographics:
+    type: 45
+    gdp: 28800
+    tech: 10
+    economy: 0
+    government: 4
+    description: The world Xesoon is fabled for its weird exuberant forests and its inhabitants’ eccentric love for poetry.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.280937, 0.329058, 0.651135, 1]
+  radius: 87693.409576
+  orbit:
+    type: static
+    parent: ~
+    radius: 315810
+    vector: [-0.799, -0.601, -0.01]
+  corona:
+    shimmer: 0.309798
+    hues: 0.604996
+    flare: 0.01349
+stations:
+- type: coriolis
+  orbit:
+    parent: Xesoon
+    vector: undefined
+    radius: 7018

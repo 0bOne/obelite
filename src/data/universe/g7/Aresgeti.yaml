@@ -1,0 +1,61 @@
+name: Aresgeti
+position: [143, 175]
+seed: 247 175 82 143 83 106
+limits:
+  blurs: 113
+  stars: 7354
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aresgeti
+  radius: 5519
+  rotationSpeed: 0.003
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 551900
+  land:
+    ratio: 0.33
+    color: [0.648239, 0.65625, 0.645996, 1]
+    polarColor: [0.931524, 0.934375, 0.930725, 1]
+  sea:
+    color: [0.353146, 0.990234, 0.348129, 1]
+    polarColor: [0.756061, 0.900977, 0.75492, 1]
+  air:
+    color: [0.85795, 0.768153, 0.990545, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.974609, 0.902275, 0.958221, 1]
+    ratio: 0.35
+    polarColor: [0.938574, 0.895037, 0.92871, 1]
+  demographics:
+    type: 26
+    gdp: 3744
+    tech: 4
+    economy: 7
+    government: 2
+    description: This world is ravaged by unpredictable civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.565517, 0.692147, 0.749036, 1]
+  radius: 145596.299744
+  orbit:
+    type: static
+    parent: ~
+    radius: 551900
+    vector: [0.021, -0.655, 0.756]
+  corona:
+    shimmer: 0.514532
+    hues: 0.962677
+    flare: 0.099818
+stations:
+- type: coriolis
+  orbit:
+    parent: Aresgeti
+    vector: undefined
+    radius: 11038

@@ -1,0 +1,61 @@
+name: Xeorusge
+position: [12, 73]
+seed: 242 73 218 12 52 98
+limits:
+  blurs: 60
+  stars: 8901
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeorusge
+  radius: 3340
+  rotationSpeed: 0.004655
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 367400
+  land:
+    ratio: 0.38
+    color: [0.223877, 0.511719, 0.43751, 1]
+    polarColor: [0.815399, 0.948828, 0.914428, 1]
+  sea:
+    color: [0.553062, 0.693359, 0.588137, 1]
+    polarColor: [0.883586, 0.930664, 0.895355, 1]
+  air:
+    color: [0.627947, 0.589519, 0.839004, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.439861, 0.367325, 0.519531, 1]
+    ratio: 0.18
+    polarColor: [0.66346, 0.599428, 0.733789, 1]
+  demographics:
+    type: 37
+    gdp: 18648
+    tech: 8
+    economy: 1
+    government: 3
+    description: The world Xeorusge is scourged by deadly tree snakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.558289, 0.728177, 0.748309, 1]
+  radius: 92122.149658
+  orbit:
+    type: static
+    parent: ~
+    radius: 267200
+    vector: [0.936, 0.027, -0.352]
+  corona:
+    shimmer: 0.32407
+    hues: 0.570366
+    flare: 0.025081
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeorusge
+    vector: undefined
+    radius: 6680

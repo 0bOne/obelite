@@ -1,0 +1,61 @@
+name: Tigebere
+position: [216, 180]
+seed: 84 180 56 216 54 119
+limits:
+  blurs: 160
+  stars: 5704
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tigebere
+  radius: 4824
+  rotationSpeed: 0.003602
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 482400
+  land:
+    ratio: 0.55
+    color: [0.226959, 0.523438, 0.488694, 1]
+    polarColor: [0.813467, 0.947656, 0.931931, 1]
+  sea:
+    color: [0.560333, 0.833984, 0.571023, 1]
+    polarColor: [0.841412, 0.916602, 0.844349, 1]
+  air:
+    color: [0.577641, 0.488246, 0.933311, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.547054, 0.134834, 0.802734, 1]
+    ratio: 0.14
+    polarColor: [0.689785, 0.413374, 0.86123, 1]
+  demographics:
+    type: 40
+    gdp: 21120
+    tech: 7
+    economy: 4
+    government: 7
+    description: The planet Tigebere is most famous for its vast rain forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.364683, 0.709831, 0.727988, 1]
+  radius: 153662.684326
+  orbit:
+    type: static
+    parent: ~
+    radius: 578880
+    vector: [-0.588, -0.306, -0.748]
+  corona:
+    shimmer: 0.560213
+    hues: 0.766502
+    flare: 0.028442
+stations:
+- type: coriolis
+  orbit:
+    parent: Tigebere
+    vector: undefined
+    radius: 9648

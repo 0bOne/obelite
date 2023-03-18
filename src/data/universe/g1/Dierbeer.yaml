@@ -1,0 +1,61 @@
+name: Dierbeer
+position: [85, 173]
+seed: 84 173 184 85 54 205
+limits:
+  blurs: 174
+  stars: 6404
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Dierbeer
+  radius: 6229
+  rotationSpeed: 0.003622
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 872060
+  land:
+    ratio: 0.58
+    color: [0.66, 0.020625, 0.200449, 1]
+    polarColor: [0.934, 0.707797, 0.771417, 1]
+  sea:
+    color: [0.552734, 0.509299, 0.44154, 1]
+    polarColor: [0.944727, 0.926167, 0.897213, 1]
+  air:
+    color: [0.513521, 0.641463, 0.839654, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.226112, 0.521484, 0.473025, 1]
+    ratio: 0.57
+    polarColor: [0.474593, 0.734668, 0.691999, 1]
+  demographics:
+    type: 41
+    gdp: 18040
+    tech: 7
+    economy: 5
+    government: 7
+    description: Dierbeer is cursed by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.685764, 0.36459, 0.359289, 1]
+  radius: 168458.446198
+  orbit:
+    type: static
+    parent: ~
+    radius: 436030
+    vector: [0.197, -0.29, -0.936]
+  corona:
+    shimmer: 0.500603
+    hues: 0.72467
+    flare: 0.082112
+stations:
+- type: coriolis
+  orbit:
+    parent: Dierbeer
+    vector: undefined
+    radius: 12458

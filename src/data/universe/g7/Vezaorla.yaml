@@ -1,0 +1,61 @@
+name: Vezaorla
+position: [190, 47]
+seed: 77 47 76 190 225 86
+limits:
+  blurs: 177
+  stars: 6258
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vezaorla
+  radius: 4542
+  rotationSpeed: 0.004404
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 545040
+  land:
+    ratio: 0.45
+    color: [0.66, 0.432621, 0.250078, 1]
+    polarColor: [0.934, 0.853556, 0.788975, 1]
+  sea:
+    color: [0.54513, 0.667969, 0.531244, 1]
+    polarColor: [0.890299, 0.933203, 0.885449, 1]
+  air:
+    color: [0.582546, 0.858382, 0.997049, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.349503, 0.994141, 0.359575, 1]
+    ratio: 0.48
+    polarColor: [0.563422, 0.947363, 0.569421, 1]
+  demographics:
+    type: 21
+    gdp: 2520
+    tech: 3
+    economy: 7
+    government: 1
+    description: Vezaorla is a revolting little planet.
+    inhabitants: Yellow Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.719124, 0.778667, 0.824167, 1]
+  radius: 134391.525879
+  orbit:
+    type: static
+    parent: ~
+    radius: 454200
+    vector: [0.387, 0.007, -0.922]
+  corona:
+    shimmer: 0.283108
+    hues: 0.715492
+    flare: 0.067024
+stations:
+- type: coriolis
+  orbit:
+    parent: Vezaorla
+    vector: undefined
+    radius: 9084

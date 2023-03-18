@@ -1,0 +1,61 @@
+name: Zabeso
+position: [142, 224]
+seed: 128 224 80 142 250 4
+limits:
+  blurs: 69
+  stars: 7574
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zabeso
+  radius: 3982
+  rotationSpeed: 0.002445
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 438020
+  land:
+    ratio: 0.27
+    color: [0.648438, 0.392609, 0.548504, 1]
+    polarColor: [0.935156, 0.842919, 0.899126, 1]
+  sea:
+    color: [0.736328, 0.591728, 0.451576, 1]
+    polarColor: [0.926367, 0.880887, 0.836806, 1]
+  air:
+    color: [0.472739, 0.581168, 0.890385, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.128975, 0.546128, 0.673828, 1]
+    ratio: 0.52
+    polarColor: [0.397297, 0.708084, 0.803223, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 10
+    economy: 0
+    government: 2
+    description: The world Zabeso is reasonably noted for its inhabitants’ exceptional love for tourists.
+    inhabitants: Fierce Green Felines
+- type: star
+  type: primary
+  color: [0.789462, 0.61041, 0.366206, 1]
+  radius: 68520.221252
+  orbit:
+    type: static
+    parent: ~
+    radius: 358380
+    vector: [-0.674, -0.692, -0.259]
+  corona:
+    shimmer: 0.562821
+    hues: 0.523621
+    flare: 0.05058
+stations:
+- type: coriolis
+  orbit:
+    parent: Zabeso
+    vector: undefined
+    radius: 7964

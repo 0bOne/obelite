@@ -1,0 +1,61 @@
+name: Bianmadi
+position: [9, 74]
+seed: 228 74 148 9 213 70
+limits:
+  blurs: 50
+  stars: 9045
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bianmadi
+  radius: 4361
+  rotationSpeed: 0.000775
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 566930
+  land:
+    ratio: 0.55
+    color: [0.538847, 0.398026, 0.550781, 1]
+    polarColor: [0.939803, 0.879405, 0.944922, 1]
+  sea:
+    color: [0.611717, 0.794922, 0.640343, 1]
+    polarColor: [0.867471, 0.920508, 0.875758, 1]
+  air:
+    color: [0.44382, 0.691359, 0.876727, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0741577, 0.632812, 0.240008, 1]
+    ratio: 0.31
+    polarColor: [0.351765, 0.784766, 0.480312, 1]
+  demographics:
+    type: 33
+    gdp: 12672
+    tech: 7
+    economy: 2
+    government: 2
+    description: The planet Bianmadi is reasonably fabled for mud hockey and the Bianmadiian edible moth.
+    inhabitants: Fierce Yellow Bony Humanoids
+- type: star
+  type: primary
+  color: [0.842859, 0.835262, 0.708378, 1]
+  radius: 78611.257172
+  orbit:
+    type: static
+    parent: ~
+    radius: 392490
+    vector: [0.045, -0.954, 0.297]
+  corona:
+    shimmer: 0.326879
+    hues: 0.826859
+    flare: 0.015117
+stations:
+- type: coriolis
+  orbit:
+    parent: Bianmadi
+    vector: undefined
+    radius: 8722

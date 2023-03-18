@@ -1,0 +1,61 @@
+name: Zarausxe
+position: [143, 64]
+seed: 82 64 178 143 148 36
+limits:
+  blurs: 61
+  stars: 8694
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zarausxe
+  radius: 3983
+  rotationSpeed: 0.004334
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 398300
+  land:
+    ratio: 0.59
+    color: [0.66, 0.603281, 0.64582, 1]
+    polarColor: [0.934, 0.913934, 0.928983, 1]
+  sea:
+    color: [0.537109, 0.462821, 0.42654, 1]
+    polarColor: [0.946289, 0.913568, 0.897588, 1]
+  air:
+    color: [0.556178, 0.935262, 0.807637, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.808594, 0.30954, 0.30954, 1]
+    ratio: 0.41
+    polarColor: [0.863867, 0.530637, 0.530637, 1]
+  demographics:
+    type: 59
+    gdp: 47200
+    tech: 13
+    economy: 0
+    government: 6
+    description: This planet is notable for its great tropical forests and Zero-G hockey.
+    inhabitants: Fierce Red Insects
+- type: star
+  type: primary
+  color: [0.309716, 0.648903, 0.67916, 1]
+  radius: 84742.068787
+  orbit:
+    type: static
+    parent: ~
+    radius: 278810
+    vector: [0.91, 0.316, -0.267]
+  corona:
+    shimmer: 0.320463
+    hues: 0.749687
+    flare: 0.03447
+stations:
+- type: icosahedron
+  orbit:
+    parent: Zarausxe
+    vector: undefined
+    radius: 7966

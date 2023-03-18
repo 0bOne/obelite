@@ -1,0 +1,61 @@
+name: Sobiondi
+position: [240, 237]
+seed: 193 237 249 240 173 231
+limits:
+  blurs: 65
+  stars: 7669
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sobiondi
+  radius: 4848
+  rotationSpeed: 0.000142
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 533280
+  land:
+    ratio: 0.48
+    color: [0.640499, 0.652344, 0.634506, 1]
+    polarColor: [0.930522, 0.934766, 0.928376, 1]
+  sea:
+    color: [0.359398, 0.986328, 0.354462, 1]
+    polarColor: [0.758135, 0.901367, 0.757008, 1]
+  air:
+    color: [0.754919, 0.593916, 0.889734, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.671875, 0.404175, 0.498288, 1]
+    ratio: 0.55
+    polarColor: [0.802344, 0.602541, 0.672784, 1]
+  demographics:
+    type: 37
+    gdp: 16280
+    tech: 6
+    economy: 5
+    government: 7
+    description: This world is reasonably well known for its great volcanoes but ravaged by vicious disease.
+    inhabitants: Fierce Furry Rodents
+- type: star
+  type: primary
+  color: [0.817087, 0.703585, 0.690393, 1]
+  radius: 138911.740723
+  orbit:
+    type: static
+    parent: ~
+    radius: 533280
+    vector: [-0.497, 0.867, 0.034]
+  corona:
+    shimmer: 0.246795
+    hues: 0.702507
+    flare: 0.067213
+stations:
+- type: coriolis
+  orbit:
+    parent: Sobiondi
+    vector: undefined
+    radius: 9696

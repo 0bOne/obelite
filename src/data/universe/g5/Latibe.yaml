@@ -1,0 +1,61 @@
+name: Latibe
+position: [7, 186]
+seed: 169 186 85 7 10 149
+limits:
+  blurs: 89
+  stars: 8392
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Latibe
+  radius: 4103
+  rotationSpeed: 0.004561
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 492360
+  land:
+    ratio: 0.36
+    color: [0.633615, 0.322266, 0.66, 1]
+    polarColor: [0.924665, 0.814514, 0.934, 1]
+  sea:
+    color: [0.652966, 0.710938, 0.525427, 1]
+    polarColor: [0.90997, 0.928906, 0.86831, 1]
+  air:
+    color: [0.798355, 0.504191, 0.971033, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.916016, 0.143127, 0.215586, 1]
+    ratio: 0.18
+    polarColor: [0.912207, 0.43116, 0.476258, 1]
+  demographics:
+    type: 41
+    gdp: 15744
+    tech: 9
+    economy: 2
+    government: 2
+    description: This planet is mildly noted for its ancient Latibeian Zainnu tulip plantations but ravaged by unpredictable solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.513181, 0.796583, 0.808185, 1]
+  radius: 118975.480347
+  orbit:
+    type: static
+    parent: ~
+    radius: 451330
+    vector: [-0.614, 0.151, -0.775]
+  corona:
+    shimmer: 0.397376
+    hues: 0.904762
+    flare: 0.023108
+stations:
+- type: coriolis
+  orbit:
+    parent: Latibe
+    vector: undefined
+    radius: 8206

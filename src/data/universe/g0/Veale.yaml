@@ -1,0 +1,61 @@
+name: Veale
+position: [155, 60]
+seed: 128 60 248 155 157 214
+limits:
+  blurs: 79
+  stars: 7300
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veale
+  radius: 4507
+  rotationSpeed: 0.003207
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 585910
+  land:
+    ratio: 0.42
+    color: [0.387468, 0.33902, 0.539062, 1]
+    polarColor: [0.879579, 0.858321, 0.946094, 1]
+  sea:
+    color: [0.767578, 0.647574, 0.440758, 1]
+    polarColor: [0.923242, 0.887157, 0.824967, 1]
+  air:
+    color: [0.769064, 0.643115, 0.850711, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.554688, 0.481018, 0.493104, 1]
+    ratio: 0.27
+    polarColor: [0.749609, 0.687386, 0.697594, 1]
+  demographics:
+    type: 52
+    gdp: 27456
+    tech: 10
+    economy: 4
+    government: 7
+    description: The world Veale is most well known for its vast dense forests.
+    inhabitants: Frogs
+- type: star
+  type: primary
+  color: [0.835385, 0.816269, 0.812565, 1]
+  radius: 139321.839752
+  orbit:
+    type: static
+    parent: ~
+    radius: 225350
+    vector: [0.07, -0.775, 0.628]
+  corona:
+    shimmer: 0.310786
+    hues: 0.826469
+    flare: 0.04915
+stations:
+- type: coriolis
+  orbit:
+    parent: Veale
+    vector: undefined
+    radius: 9014

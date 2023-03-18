@@ -1,0 +1,61 @@
+name: Ormabiin
+position: [129, 239]
+seed: 253 239 124 129 241 153
+limits:
+  blurs: 193
+  stars: 9462
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ormabiin
+  radius: 5249
+  rotationSpeed: 0.003175
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 682370
+  land:
+    ratio: 0.51
+    color: [0.500156, 0.66, 0.495, 1]
+    polarColor: [0.877449, 0.934, 0.875625, 1]
+  sea:
+    color: [0.71875, 0.434237, 0.41272, 1]
+    polarColor: [0.928125, 0.836277, 0.82933, 1]
+  air:
+    color: [0.786514, 0.47278, 0.989895, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.972656, 0.0303955, 0.184985, 1]
+    ratio: 0.46
+    polarColor: [0.937695, 0.36995, 0.463096, 1]
+  demographics:
+    type: 35
+    gdp: 9240
+    tech: 5
+    economy: 7
+    government: 7
+    description: Ormabiin is reasonably notable for its great volcanoes but plagued by lethal spotted batoids.
+    inhabitants: Black Insects
+- type: star
+  type: primary
+  color: [0.463443, 0.683214, 0.690717, 1]
+  radius: 171141.139679
+  orbit:
+    type: static
+    parent: ~
+    radius: 367430
+    vector: [0.037, -0.853, -0.521]
+  corona:
+    shimmer: 0.338352
+    hues: 0.988251
+    flare: 0.038625
+stations:
+- type: coriolis
+  orbit:
+    parent: Ormabiin
+    vector: undefined
+    radius: 10498

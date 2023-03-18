@@ -1,0 +1,61 @@
+name: Labilaen
+position: [88, 120]
+seed: 84 120 240 88 166 21
+limits:
+  blurs: 190
+  stars: 7232
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Labilaen
+  radius: 4184
+  rotationSpeed: 0.00385
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 502080
+  land:
+    ratio: 0.38
+    color: [0.511758, 0.185625, 0.66, 1]
+    polarColor: [0.881554, 0.766172, 0.934, 1]
+  sea:
+    color: [0.658315, 0.679688, 0.508704, 1]
+    polarColor: [0.924704, 0.932031, 0.873415, 1]
+  air:
+    color: [0.69872, 0.808091, 0.927457, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.674744, 0.785156, 0.738576, 1]
+    ratio: 0.15
+    polarColor: [0.778321, 0.85332, 0.82168, 1]
+  demographics:
+    type: 47
+    gdp: 37600
+    tech: 10
+    economy: 0
+    government: 6
+    description: The world Labilaen is mildly noted for its ancient mountains but ravaged by unpredictable solar activity.
+    inhabitants: Green Slimy Frogs
+- type: star
+  type: primary
+  color: [0.205599, 0.43636, 0.708719, 1]
+  radius: 78166.538086
+  orbit:
+    type: static
+    parent: ~
+    radius: 418400
+    vector: [-0.461, 0.69, -0.558]
+  corona:
+    shimmer: 0.410853
+    hues: 0.969429
+    flare: 0.013469
+stations:
+- type: coriolis
+  orbit:
+    parent: Labilaen
+    vector: undefined
+    radius: 8368

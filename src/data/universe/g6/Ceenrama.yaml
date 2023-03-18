@@ -1,0 +1,61 @@
+name: Ceenrama
+position: [92, 240]
+seed: 242 240 90 92 52 5
+limits:
+  blurs: 182
+  stars: 6162
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceenrama
+  radius: 4188
+  rotationSpeed: 0.004625
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 460680
+  land:
+    ratio: 0.25
+    color: [0.471797, 0.57178, 0.66, 1]
+    polarColor: [0.867416, 0.902789, 0.934, 1]
+  sea:
+    color: [0.589844, 0.582211, 0.467728, 1]
+    polarColor: [0.941016, 0.937972, 0.892311, 1]
+  air:
+    color: [0.617858, 0.888346, 0.953473, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.629019, 0.863281, 0.468735, 1]
+    ratio: 0.28
+    polarColor: [0.73779, 0.888477, 0.634688, 1]
+  demographics:
+    type: 40
+    gdp: 22400
+    tech: 9
+    economy: 0
+    government: 3
+    description: The planet Ceenrama is very noted for its exciting Zero-G cricket but cursed by deadly civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.525241, 0.553379, 0.752603, 1]
+  radius: 95327.228394
+  orbit:
+    type: static
+    parent: ~
+    radius: 376920
+    vector: [0.696, 0.414, 0.587]
+  corona:
+    shimmer: 0.329973
+    hues: 0.80323
+    flare: 0.011435
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceenrama
+    vector: undefined
+    radius: 8376

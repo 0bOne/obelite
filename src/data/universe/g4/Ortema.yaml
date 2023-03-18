@@ -1,0 +1,61 @@
+name: Ortema
+position: [246, 76]
+seed: 166 76 112 246 27 249
+limits:
+  blurs: 185
+  stars: 5504
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ortema
+  radius: 5366
+  rotationSpeed: 0.00269
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 482940
+  land:
+    ratio: 0.71
+    color: [0.66, 0.0696094, 0.484728, 1]
+    polarColor: [0.934, 0.725127, 0.871991, 1]
+  sea:
+    color: [0.585938, 0.538622, 0.457077, 1]
+    polarColor: [0.941406, 0.922401, 0.889647, 1]
+  air:
+    color: [0.791832, 0.528716, 0.951522, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.857422, 0.227753, 0.301542, 1]
+    ratio: 0.41
+    polarColor: [0.88584, 0.479253, 0.5269, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 8
+    economy: 4
+    government: 6
+    description: This world is a revolting little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.680542, 0.675685, 0.670534, 1]
+  radius: 116185.821533
+  orbit:
+    type: static
+    parent: ~
+    radius: 751240
+    vector: [0.268, -0.817, 0.51]
+  corona:
+    shimmer: 0.384587
+    hues: 0.567802
+    flare: 0.005724
+stations:
+- type: coriolis
+  orbit:
+    parent: Ortema
+    vector: undefined
+    radius: 10732

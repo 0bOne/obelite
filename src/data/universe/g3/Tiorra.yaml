@@ -1,0 +1,61 @@
+name: Tiorra
+position: [226, 191]
+seed: 42 191 242 226 202 119
+limits:
+  blurs: 43
+  stars: 5837
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiorra
+  radius: 4834
+  rotationSpeed: 0.003213
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 628420
+  land:
+    ratio: 0.66
+    color: [0.66, 0.613312, 0.502734, 1]
+    polarColor: [0.934, 0.917482, 0.878361, 1]
+  sea:
+    color: [0.612795, 0.775215, 0.783203, 1]
+    polarColor: [0.871545, 0.91933, 0.92168, 1]
+  air:
+    color: [0.396304, 0.843557, 0.755814, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.533203, 0.227353, 0.00416565, 1]
+    ratio: 0.2
+    polarColor: [0.739941, 0.474669, 0.281091, 1]
+  demographics:
+    type: 34
+    gdp: 8160
+    tech: 5
+    economy: 7
+    government: 6
+    description: The planet Tiorra is most noted for its inhabitants’ exceptional loathing of sit coms and Tiorraian wolf meat.
+    inhabitants: Blue Furry Rodents
+- type: star
+  type: primary
+  color: [0.812469, 0.69054, 0.221611, 1]
+  radius: 127602.080688
+  orbit:
+    type: static
+    parent: ~
+    radius: 435060
+    vector: [-0.188, 0.901, 0.39]
+  corona:
+    shimmer: 0.496974
+    hues: 0.592415
+    flare: 0.049043
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiorra
+    vector: undefined
+    radius: 9668

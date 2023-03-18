@@ -1,0 +1,61 @@
+name: Ridivexe
+position: [106, 99]
+seed: 244 99 136 106 182 190
+limits:
+  blurs: 94
+  stars: 7489
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ridivexe
+  radius: 6506
+  rotationSpeed: 0.001744
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 845780
+  land:
+    ratio: 0.64
+    color: [0.66, 0.565093, 0.464063, 1]
+    polarColor: [0.934, 0.900423, 0.86468, 1]
+  sea:
+    color: [0.710216, 0.685559, 0.882812, 1]
+    polarColor: [0.867157, 0.860791, 0.911719, 1]
+  air:
+    color: [0.573241, 0.931359, 0.838743, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.796875, 0.458456, 0.354858, 1]
+    ratio: 0.58
+    polarColor: [0.858594, 0.6307, 0.560937, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 7
+    economy: 3
+    government: 1
+    description: Ridivexe is cursed by killer mountain goats.
+    inhabitants: Harmless Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.679837, 0.666646, 0.315681, 1]
+  radius: 155394.086609
+  orbit:
+    type: static
+    parent: ~
+    radius: 390360
+    vector: [0.123, -0.9, -0.417]
+  corona:
+    shimmer: 0.301196
+    hues: 0.862183
+    flare: 0.095132
+stations:
+- type: coriolis
+  orbit:
+    parent: Ridivexe
+    vector: undefined
+    radius: 13012

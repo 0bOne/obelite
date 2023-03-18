@@ -1,0 +1,61 @@
+name: Xezaerti
+position: [42, 56]
+seed: 82 56 42 42 20 194
+limits:
+  blurs: 97
+  stars: 8061
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xezaerti
+  radius: 3370
+  rotationSpeed: 0.004079
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 438100
+  land:
+    ratio: 0.68
+    color: [0.33995, 0.0747656, 0.66, 1]
+    polarColor: [0.82077, 0.726951, 0.934, 1]
+  sea:
+    color: [0.641734, 0.646484, 0.49446, 1]
+    polarColor: [0.933633, 0.935352, 0.880363, 1]
+  air:
+    color: [0.50501, 0.561095, 0.878027, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.206436, 0.394685, 0.636719, 1]
+    ratio: 0.35
+    polarColor: [0.454325, 0.599662, 0.786523, 1]
+  demographics:
+    type: 54
+    gdp: 38880
+    tech: 12
+    economy: 0
+    government: 5
+    description: This world is very fabled for its weird volcanoes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.677206, 0.65029, 0.539179, 1]
+  radius: 62566.320801
+  orbit:
+    type: static
+    parent: ~
+    radius: 235900
+    vector: [-0.117, -0.87, 0.479]
+  corona:
+    shimmer: 0.30531
+    hues: 0.87532
+    flare: 0.038734
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Xezaerti
+    vector: undefined
+    radius: 6740

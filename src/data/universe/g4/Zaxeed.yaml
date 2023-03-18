@@ -1,0 +1,61 @@
+name: Zaxeed
+position: [17, 172]
+seed: 230 172 80 17 155 68
+limits:
+  blurs: 101
+  stars: 7486
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaxeed
+  radius: 3857
+  rotationSpeed: 0.001322
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 539980
+  land:
+    ratio: 0.62
+    color: [0.402188, 0.66, 0.484768, 1]
+    polarColor: [0.842789, 0.934, 0.872005, 1]
+  sea:
+    color: [0.638672, 0.546646, 0.472767, 1]
+    polarColor: [0.936133, 0.902411, 0.875339, 1]
+  air:
+    color: [0.451132, 0.677189, 0.875426, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0908966, 0.628906, 0.313666, 1]
+    ratio: 0.3
+    polarColor: [0.364359, 0.783008, 0.537706, 1]
+  demographics:
+    type: 27
+    gdp: 7776
+    tech: 5
+    economy: 4
+    government: 2
+    description: The planet Zaxeed is cursed by deadly civil war.
+    inhabitants: Fierce Yellow Furry Humanoids
+- type: star
+  type: primary
+  color: [0.802808, 0.640746, 0.293072, 1]
+  radius: 98926.25885
+  orbit:
+    type: static
+    parent: ~
+    radius: 192850
+    vector: [-0.547, -0.83, 0.109]
+  corona:
+    shimmer: 0.499132
+    hues: 0.922974
+    flare: 0.096465
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaxeed
+    vector: undefined
+    radius: 7714

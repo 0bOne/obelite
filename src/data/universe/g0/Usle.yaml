@@ -1,0 +1,61 @@
+name: Usle
+position: [85, 99]
+seed: 138 99 232 85 83 136
+limits:
+  blurs: 170
+  stars: 6537
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usle
+  radius: 4949
+  rotationSpeed: 0.003864
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 445410
+  land:
+    ratio: 0.54
+    color: [0.115562, 0.597656, 0.074707, 1]
+    polarColor: [0.750627, 0.940234, 0.734558, 1]
+  sea:
+    color: [0.671875, 0.571426, 0.490784, 1]
+    polarColor: [0.932813, 0.897947, 0.869957, 1]
+  air:
+    color: [0.735592, 0.566285, 0.906645, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.722656, 0.341568, 0.529135, 1]
+    ratio: 0.56
+    polarColor: [0.825195, 0.553219, 0.687083, 1]
+  demographics:
+    type: 41
+    gdp: 20664
+    tech: 8
+    economy: 3
+    government: 5
+    description: This world is very notable for the Usleian tree ant and its inhabitants’ exceptional loathing of sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.512532, 0.552487, 0.775519, 1]
+  radius: 130152.900391
+  orbit:
+    type: static
+    parent: ~
+    radius: 643370
+    vector: [-0.047, -0.98, -0.195]
+  corona:
+    shimmer: 0.545888
+    hues: 0.521667
+    flare: 0.038078
+stations:
+- type: coriolis
+  orbit:
+    parent: Usle
+    vector: undefined
+    radius: 9898

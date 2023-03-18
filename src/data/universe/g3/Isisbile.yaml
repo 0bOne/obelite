@@ -1,0 +1,61 @@
+name: Isisbile
+position: [76, 115]
+seed: 122 115 34 76 106 61
+limits:
+  blurs: 127
+  stars: 7682
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isisbile
+  radius: 6220
+  rotationSpeed: 0.003789
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 808600
+  land:
+    ratio: 0.65
+    color: [0.127419, 0.572266, 0.207352, 1]
+    polarColor: [0.759559, 0.942773, 0.79248, 1]
+  sea:
+    color: [0.5, 0.388867, 0.438356, 1]
+    polarColor: [0.95, 0.897212, 0.920719, 1]
+  air:
+    color: [0.615407, 0.918352, 0.889657, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.757812, 0.676869, 0.461792, 1]
+    ratio: 0.41
+    polarColor: [0.841016, 0.784872, 0.63569, 1]
+  demographics:
+    type: 32
+    gdp: 14336
+    tech: 6
+    economy: 3
+    government: 4
+    description: The world Isisbile is a boring world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.55423, 0.610372, 0.754382, 1]
+  radius: 192065.847778
+  orbit:
+    type: static
+    parent: ~
+    radius: 311000
+    vector: [0.63, 0.178, -0.756]
+  corona:
+    shimmer: 0.247069
+    hues: 0.600258
+    flare: 0.0022
+stations:
+- type: coriolis
+  orbit:
+    parent: Isisbile
+    vector: undefined
+    radius: 12440

@@ -1,0 +1,61 @@
+name: Errius
+position: [184, 149]
+seed: 128 149 160 184 218 112
+limits:
+  blurs: 82
+  stars: 9678
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Errius
+  radius: 3000
+  rotationSpeed: 0.001876
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 300000
+  land:
+    ratio: 0.65
+    color: [0.5, 0.460938, 0.479248, 1]
+    polarColor: [0.95, 0.931445, 0.940143, 1]
+  sea:
+    color: [0.582031, 0.512581, 0.451302, 1]
+    polarColor: [0.941797, 0.913702, 0.888913, 1]
+  air:
+    color: [0.754789, 0.642697, 0.842906, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.53125, 0.471069, 0.489406, 1]
+    ratio: 0.13
+    polarColor: [0.739062, 0.686736, 0.702679, 1]
+  demographics:
+    type: 26
+    gdp: 8320
+    tech: 4
+    economy: 5
+    government: 4
+    description: Errius is an unremarkable dump.
+    inhabitants: Blue Furry Humanoids
+- type: star
+  type: primary
+  color: [0.752319, 0.627398, 0.598974, 1]
+  radius: 84089.355469
+  orbit:
+    type: static
+    parent: ~
+    radius: 180000
+    vector: [0.028, 0.871, 0.491]
+  corona:
+    shimmer: 0.298366
+    hues: 0.847626
+    flare: 0.063846
+stations:
+- type: coriolis
+  orbit:
+    parent: Errius
+    vector: undefined
+    radius: 6000

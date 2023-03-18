@@ -1,21 +1,21 @@
 @font-face {
     font-family: AlmaraiLight;
-    src: url(./Almarai/Almarai-Light.ttf);
+    src: url(./fonts/Almarai/Almarai-Light.ttf);
 }
 
 @font-face {
     font-family: AlmaraiRegular;
-    src: url(./Almarai/Almarai-Regular.ttf);
+    src: url(./fonts/Almarai/Almarai-Regular.ttf);
 }
 
 @font-face {
     font-family: AlmaraiBold;
-    src: url(./Almarai/Almarai-Bold.ttf);
+    src: url(./fonts/Almarai/Almarai-Bold.ttf);
 }
 
 @font-face {
     font-family: AlmaraiExtra;
-    src: url(./Almarai/Almarai-ExtraBold.ttf);
+    src: url(./fonts/Almarai/Almarai-ExtraBold.ttf);
 }
 
 .light {

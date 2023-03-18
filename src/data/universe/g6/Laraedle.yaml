@@ -1,0 +1,61 @@
+name: Laraedle
+position: [79, 15]
+seed: 82 15 170 79 20 245
+limits:
+  blurs: 174
+  stars: 6312
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laraedle
+  radius: 4175
+  rotationSpeed: 0.004108
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 501000
+  land:
+    ratio: 0.44
+    color: [0.267883, 0.436959, 0.519531, 1]
+    polarColor: [0.833244, 0.910377, 0.948047, 1]
+  sea:
+    color: [0.617344, 0.833984, 0.788287, 1]
+    polarColor: [0.857076, 0.916602, 0.904045, 1]
+  air:
+    color: [0.502392, 0.462569, 0.937863, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.263698, 0.0637817, 0.816406, 1]
+    ratio: 0.42
+    polarColor: [0.50037, 0.367621, 0.867383, 1]
+  demographics:
+    type: 37
+    gdp: 7992
+    tech: 6
+    economy: 7
+    government: 5
+    description: The planet Laraedle is scourged by deadly disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.194659, 0.544415, 0.678638, 1]
+  radius: 95861.404419
+  orbit:
+    type: static
+    parent: ~
+    radius: 501000
+    vector: [0.155, -0.91, -0.383]
+  corona:
+    shimmer: 0.90397
+    hues: 0.84108
+    flare: 0.029614
+stations:
+- type: coriolis
+  orbit:
+    parent: Laraedle
+    vector: undefined
+    radius: 8350

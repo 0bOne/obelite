@@ -1,0 +1,61 @@
+name: Edandi
+position: [89, 234]
+seed: 25 234 72 89 149 120
+limits:
+  blurs: 88
+  stars: 9865
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edandi
+  radius: 4953
+  rotationSpeed: 0.000342
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 693420
+  land:
+    ratio: 0.42
+    color: [0.621771, 0.283594, 0.66, 1]
+    polarColor: [0.920475, 0.800832, 0.934, 1]
+  sea:
+    color: [0.537483, 0.673828, 0.542809, 1]
+    polarColor: [0.88544, 0.932617, 0.887283, 1]
+  air:
+    color: [0.401445, 0.847459, 0.794769, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.544922, 0.361264, 0.010643, 1]
+    ratio: 0.53
+    polarColor: [0.745215, 0.588237, 0.288552, 1]
+  demographics:
+    type: 32
+    gdp: 10240
+    tech: 7
+    economy: 2
+    government: 1
+    description: This world is fabled for its unusual dense forests.
+    inhabitants: Blue Bony Lobsters
+- type: star
+  type: primary
+  color: [0.692586, 0.694905, 0.701465, 1]
+  radius: 143041.152649
+  orbit:
+    type: static
+    parent: ~
+    radius: 445770
+    vector: [-0.959, 0.212, 0.19]
+  corona:
+    shimmer: 0.42349
+    hues: 0.729492
+    flare: 0.096996
+stations:
+- type: coriolis
+  orbit:
+    parent: Edandi
+    vector: undefined
+    radius: 9906

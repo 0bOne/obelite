@@ -1,0 +1,61 @@
+name: Lebedixe
+position: [184, 185]
+seed: 222 185 74 184 128 193
+limits:
+  blurs: 160
+  stars: 6401
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lebedixe
+  radius: 3256
+  rotationSpeed: 0.003007
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 390720
+  land:
+    ratio: 0.5
+    color: [0.460155, 0.66, 0.448594, 1]
+    polarColor: [0.863297, 0.934, 0.859207, 1]
+  sea:
+    color: [0.393029, 0.513672, 0.0963135, 1]
+    polarColor: [0.892933, 0.948633, 0.755942, 1]
+  air:
+    color: [0.662377, 0.883711, 0.896238, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.669589, 0.691406, 0.564468, 1]
+    ratio: 0.57
+    polarColor: [0.795136, 0.811133, 0.718058, 1]
+  demographics:
+    type: 25
+    gdp: 7000
+    tech: 5
+    economy: 3
+    government: 1
+    description: The world Lebedixe is reasonably noted for its inhabitants’ eccentric love for tourists.
+    inhabitants: Large Bug-Eyed Lizards
+- type: star
+  type: primary
+  color: [0.733505, 0.733492, 0.730559, 1]
+  radius: 77893.400879
+  orbit:
+    type: static
+    parent: ~
+    radius: 227920
+    vector: [-0.682, 0.154, 0.715]
+  corona:
+    shimmer: 0.647666
+    hues: 0.989235
+    flare: 0.011127
+stations:
+- type: coriolis
+  orbit:
+    parent: Lebedixe
+    vector: undefined
+    radius: 6512

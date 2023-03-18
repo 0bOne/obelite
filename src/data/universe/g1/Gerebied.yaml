@@ -1,0 +1,61 @@
+name: Gerebied
+position: [180, 22]
+seed: 212 22 48 180 166 195
+limits:
+  blurs: 66
+  stars: 8045
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gerebied
+  radius: 3764
+  rotationSpeed: 0.001445
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 414040
+  land:
+    ratio: 0.48
+    color: [0.550692, 0.66, 0.451172, 1]
+    polarColor: [0.895328, 0.934, 0.860119, 1]
+  sea:
+    color: [0.498803, 0.376826, 0.505859, 1]
+    polarColor: [0.946103, 0.88887, 0.949414, 1]
+  air:
+    color: [0.613889, 0.587405, 0.834451, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.408757, 0.359634, 0.505859, 1]
+    ratio: 0.42
+    polarColor: [0.640341, 0.596179, 0.727637, 1]
+  demographics:
+    type: 29
+    gdp: 9280
+    tech: 4
+    economy: 6
+    government: 6
+    description: The world Gerebied is reasonably noted for its inhabitants’ exceptional loathing of food blenders.
+    inhabitants: Large Horned Humanoids
+- type: star
+  type: primary
+  color: [0.764395, 0.280294, 0.238118, 1]
+  radius: 91553.372803
+  orbit:
+    type: static
+    parent: ~
+    radius: 451680
+    vector: [-0.163, 0.518, -0.84]
+  corona:
+    shimmer: 0.274542
+    hues: 0.706131
+    flare: 0.003726
+stations:
+- type: coriolis
+  orbit:
+    parent: Gerebied
+    vector: undefined
+    radius: 7528

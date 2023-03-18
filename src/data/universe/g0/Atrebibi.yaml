@@ -1,0 +1,61 @@
+name: Atrebibi
+position: [166, 182]
+seed: 234 182 60 166 155 209
+limits:
+  blurs: 117
+  stars: 6890
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atrebibi
+  radius: 3238
+  rotationSpeed: 0.000629
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 420940
+  land:
+    ratio: 0.48
+    color: [0.593875, 0.66, 0.487266, 1]
+    polarColor: [0.910606, 0.934, 0.872889, 1]
+  sea:
+    color: [0.44766, 0.377419, 0.505859, 1]
+    polarColor: [0.922106, 0.889149, 0.949414, 1]
+  air:
+    color: [0.548712, 0.967131, 0.917701, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.904297, 0.686943, 0.271996, 1]
+    ratio: 0.15
+    polarColor: [0.906934, 0.770692, 0.510593, 1]
+  demographics:
+    type: 42
+    gdp: 14784
+    tech: 7
+    economy: 6
+    government: 7
+    description: The world Atrebibi is most famous for the Atrebibiian deadly monkey.
+    inhabitants: Slimy Frogs
+- type: star
+  type: primary
+  color: [0.222489, 0.504022, 0.735822, 1]
+  radius: 83264.268799
+  orbit:
+    type: static
+    parent: ~
+    radius: 226660
+    vector: [-0.632, -0.574, 0.52]
+  corona:
+    shimmer: 0.342493
+    hues: 0.593597
+    flare: 0.076268
+stations:
+- type: coriolis
+  orbit:
+    parent: Atrebibi
+    vector: undefined
+    radius: 6476

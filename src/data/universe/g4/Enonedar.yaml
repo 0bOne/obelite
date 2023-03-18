@@ -1,0 +1,61 @@
+name: Enonedar
+position: [103, 70]
+seed: 100 70 52 103 21 18
+limits:
+  blurs: 92
+  stars: 7744
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enonedar
+  radius: 3431
+  rotationSpeed: 0.004515
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 411720
+  land:
+    ratio: 0.49
+    color: [0.621328, 0.642779, 0.66, 1]
+    polarColor: [0.920318, 0.927907, 0.934, 1]
+  sea:
+    color: [0.478018, 0.591797, 0.00924683, 1]
+    polarColor: [0.8956, 0.94082, 0.70929, 1]
+  air:
+    color: [0.668685, 0.608977, 0.835752, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.488375, 0.400246, 0.509766, 1]
+    ratio: 0.4
+    polarColor: [0.710265, 0.631453, 0.729395, 1]
+  demographics:
+    type: 41
+    gdp: 13120
+    tech: 7
+    economy: 6
+    government: 6
+    description: The world Enonedar is a boring world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.398302, 0.566069, 0.729123, 1]
+  radius: 74049.519806
+  orbit:
+    type: static
+    parent: ~
+    radius: 274480
+    vector: [-0.685, -0.581, 0.44]
+  corona:
+    shimmer: 0.563751
+    hues: 0.9533
+    flare: 0.08894
+stations:
+- type: coriolis
+  orbit:
+    parent: Enonedar
+    vector: undefined
+    radius: 6862

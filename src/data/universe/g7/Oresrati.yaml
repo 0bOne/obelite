@@ -1,0 +1,61 @@
+name: Oresrati
+position: [16, 255]
+seed: 201 255 248 16 37 121
+limits:
+  blurs: 138
+  stars: 6126
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Oresrati
+  radius: 5136
+  rotationSpeed: 0.004081
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 564960
+  land:
+    ratio: 0.66
+    color: [0.647109, 0.656375, 0.66, 1]
+    polarColor: [0.929439, 0.932717, 0.934, 1]
+  sea:
+    color: [0.131035, 0.619141, 0.0459518, 1]
+    polarColor: [0.753198, 0.938086, 0.72097, 1]
+  air:
+    color: [0.713628, 0.528785, 0.93201, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.798828, 0.240273, 0.580642, 1]
+    ratio: 0.22
+    polarColor: [0.859473, 0.483873, 0.712754, 1]
+  demographics:
+    type: 31
+    gdp: 8184
+    tech: 4
+    economy: 7
+    government: 7
+    description: The world Oresrati is very famous for its unusual casinos but plagued by deadly earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.27779, 0.744507, 0.767392, 1]
+  radius: 89706.804199
+  orbit:
+    type: static
+    parent: ~
+    radius: 462240
+    vector: [0.953, 0.206, 0.221]
+  corona:
+    shimmer: 0.290641
+    hues: 0.812035
+    flare: 0.000627
+stations:
+- type: coriolis
+  orbit:
+    parent: Oresrati
+    vector: undefined
+    radius: 10272

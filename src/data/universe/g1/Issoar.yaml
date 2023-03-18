@@ -1,0 +1,61 @@
+name: Issoar
+position: [37, 68]
+seed: 0 68 176 37 186 189
+limits:
+  blurs: 47
+  stars: 9795
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Issoar
+  radius: 6181
+  rotationSpeed: 0.003764
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 679910
+  land:
+    ratio: 0.59
+    color: [0.37125, 0.66, 0.490811, 1]
+    polarColor: [0.831844, 0.934, 0.874143, 1]
+  sea:
+    color: [0.632812, 0.601983, 0.481036, 1]
+    polarColor: [0.936719, 0.92531, 0.880552, 1]
+  air:
+    color: [0.456239, 0.696745, 0.86567, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.107742, 0.599609, 0.230709, 1]
+    ratio: 0.19
+    polarColor: [0.375139, 0.769824, 0.47381, 1]
+  demographics:
+    type: 39
+    gdp: 18720
+    tech: 7
+    economy: 4
+    government: 6
+    description: This world is noted for its exciting sit coms.
+    inhabitants: Harmless Bug-Eyed Lizards
+- type: star
+  type: primary
+  color: [0.709283, 0.685172, 0.647975, 1]
+  radius: 140689.994965
+  orbit:
+    type: static
+    parent: ~
+    radius: 741720
+    vector: [0.522, 0.391, 0.758]
+  corona:
+    shimmer: 0.619152
+    hues: 0.736115
+    flare: 0.025908
+stations:
+- type: coriolis
+  orbit:
+    parent: Issoar
+    vector: undefined
+    radius: 12362

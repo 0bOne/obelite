@@ -1,0 +1,61 @@
+name: Diesdi
+position: [22, 165]
+seed: 21 165 148 22 121 13
+limits:
+  blurs: 65
+  stars: 7503
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diesdi
+  radius: 6166
+  rotationSpeed: 0.00497
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 678260
+  land:
+    ratio: 0.59
+    color: [0.66, 0.631802, 0.208828, 1]
+    polarColor: [0.934, 0.924024, 0.774381, 1]
+  sea:
+    color: [0.558594, 0.414145, 0.481855, 1]
+    polarColor: [0.944141, 0.883103, 0.911715, 1]
+  air:
+    color: [0.559586, 0.948053, 0.984041, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.778682, 0.955078, 0.291, 1]
+    ratio: 0.36
+    polarColor: [0.822457, 0.929785, 0.525728, 1]
+  demographics:
+    type: 28
+    gdp: 6720
+    tech: 5
+    economy: 5
+    government: 2
+    description: Diesdi is mildly well known for its hoopy casinos and its great parking meters.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.664444, 0.702823, 0.805759, 1]
+  radius: 128705.465088
+  orbit:
+    type: static
+    parent: ~
+    radius: 554940
+    vector: [-0.08, 0.977, 0.197]
+  corona:
+    shimmer: 0.409533
+    hues: 0.574295
+    flare: 0.060913
+stations:
+- type: coriolis
+  orbit:
+    parent: Diesdi
+    vector: undefined
+    radius: 12332

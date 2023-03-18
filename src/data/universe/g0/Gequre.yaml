@@ -1,0 +1,61 @@
+name: Gequre
+position: [208, 230]
+seed: 26 230 116 208 155 35
+limits:
+  blurs: 63
+  stars: 5920
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gequre
+  radius: 3792
+  rotationSpeed: 0.002743
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 455040
+  land:
+    ratio: 0.28
+    color: [0.66, 0.239766, 0.387504, 1]
+    polarColor: [0.934, 0.785326, 0.837594, 1]
+  sea:
+    color: [0.597656, 0.504252, 0.453612, 1]
+    polarColor: [0.940234, 0.903499, 0.883582, 1]
+  air:
+    color: [0.611798, 0.911197, 0.859471, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.736328, 0.591728, 0.451576, 1]
+    ratio: 0.32
+    polarColor: [0.831348, 0.72931, 0.630412, 1]
+  demographics:
+    type: 29
+    gdp: 9280
+    tech: 4
+    economy: 6
+    government: 6
+    description: This world is reasonably well known for the Gequreian tree ant but ravaged by dreadful civil war.
+    inhabitants: Large Red Frogs
+- type: star
+  type: primary
+  color: [0.735931, 0.650616, 0.549172, 1]
+  radius: 64613.166504
+  orbit:
+    type: static
+    parent: ~
+    radius: 379200
+    vector: [-0.802, -0.24, 0.547]
+  corona:
+    shimmer: 0.319897
+    hues: 0.958717
+    flare: 0.099928
+stations:
+- type: coriolis
+  orbit:
+    parent: Gequre
+    vector: undefined
+    radius: 7584

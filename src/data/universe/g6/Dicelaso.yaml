@@ -1,0 +1,61 @@
+name: Dicelaso
+position: [66, 21]
+seed: 94 21 106 66 128 13
+limits:
+  blurs: 90
+  stars: 8552
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Dicelaso
+  radius: 6210
+  rotationSpeed: 0.004156
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 683100
+  land:
+    ratio: 0.56
+    color: [0.527831, 0.162422, 0.66, 1]
+    polarColor: [0.88724, 0.757963, 0.934, 1]
+  sea:
+    color: [0.671875, 0.479568, 0.454041, 1]
+    polarColor: [0.932813, 0.866064, 0.857204, 1]
+  air:
+    color: [0.549514, 0.966638, 0.986643, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.858485, 0.962891, 0.259529, 1]
+    ratio: 0.2
+    polarColor: [0.870053, 0.933301, 0.507209, 1]
+  demographics:
+    type: 39
+    gdp: 14040
+    tech: 7
+    economy: 5
+    government: 5
+    description: The planet Dicelaso is scourged by deadly disease.
+    inhabitants: Green Rodents
+- type: star
+  type: primary
+  color: [0.820926, 0.663729, 0.642567, 1]
+  radius: 153575.642395
+  orbit:
+    type: static
+    parent: ~
+    radius: 558900
+    vector: [-0.728, -0.221, -0.649]
+  corona:
+    shimmer: 0.420383
+    hues: 0.673996
+    flare: 0.025282
+stations:
+- type: coriolis
+  orbit:
+    parent: Dicelaso
+    vector: undefined
+    radius: 12420

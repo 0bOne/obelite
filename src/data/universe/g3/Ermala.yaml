@@ -1,0 +1,61 @@
+name: Ermala
+position: [89, 160]
+seed: 186 160 98 89 234 208
+limits:
+  blurs: 77
+  stars: 6448
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ermala
+  radius: 2905
+  rotationSpeed: 0.001359
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 377650
+  land:
+    ratio: 0.66
+    color: [0.589464, 0.572344, 0.66, 1]
+    polarColor: [0.909045, 0.902988, 0.934, 1]
+  sea:
+    color: [0.560547, 0.500614, 0.442526, 1]
+    polarColor: [0.943945, 0.918714, 0.894259, 1]
+  air:
+    color: [0.802374, 0.537641, 0.947619, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.845703, 0.254372, 0.28209, 1]
+    ratio: 0.2
+    polarColor: [0.880566, 0.495749, 0.513787, 1]
+  demographics:
+    type: 45
+    gdp: 28800
+    tech: 10
+    economy: 0
+    government: 4
+    description: Ermala is cursed by deadly civil war.
+    inhabitants: Bug-Eyed Frogs
+- type: star
+  type: primary
+  color: [0.77887, 0.762966, 0.715878, 1]
+  radius: 79067.454529
+  orbit:
+    type: static
+    parent: ~
+    radius: 145250
+    vector: [-0.227, 0.602, -0.765]
+  corona:
+    shimmer: 0.438069
+    hues: 0.538124
+    flare: 0.022687
+stations:
+- type: coriolis
+  orbit:
+    parent: Ermala
+    vector: undefined
+    radius: 5810

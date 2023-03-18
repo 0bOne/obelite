@@ -1,0 +1,61 @@
+name: Zaatxe
+position: [236, 0]
+seed: 170 0 184 236 83 196
+limits:
+  blurs: 175
+  stars: 9244
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaatxe
+  radius: 4076
+  rotationSpeed: 0.002039
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 570640
+  land:
+    ratio: 0.56
+    color: [0.656697, 0.654844, 0.66, 1]
+    polarColor: [0.932831, 0.932176, 0.934, 1]
+  sea:
+    color: [0.515553, 0.587891, 0.00918579, 1]
+    polarColor: [0.912258, 0.941211, 0.709585, 1]
+  air:
+    color: [0.719797, 0.772381, 0.942416, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.739288, 0.802416, 0.830078, 1]
+    ratio: 0.36
+    polarColor: [0.813821, 0.855341, 0.873535, 1]
+  demographics:
+    type: 52
+    gdp: 45760
+    tech: 11
+    economy: 0
+    government: 7
+    description: This planet is mildly noted for the Zaatxeian deadly Ouenbeoid but plagued by lethal spotted craboids.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.561819, 0.593857, 0.693158, 1]
+  radius: 129574.830933
+  orbit:
+    type: static
+    parent: ~
+    radius: 244560
+    vector: [0.447, -0.497, -0.744]
+  corona:
+    shimmer: 0.320188
+    hues: 0.830612
+    flare: 0.037599
+stations:
+- type: icosahedron
+  orbit:
+    parent: Zaatxe
+    vector: undefined
+    radius: 8152

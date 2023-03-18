@@ -1,0 +1,61 @@
+name: Querbeis
+position: [136, 13]
+seed: 245 13 116 136 25 218
+limits:
+  blurs: 59
+  stars: 7296
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Querbeis
+  radius: 5512
+  rotationSpeed: 0.002581
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 606320
+  land:
+    ratio: 0.27
+    color: [0.658832, 0.66, 0.510469, 1]
+    polarColor: [0.933587, 0.934, 0.881098, 1]
+  sea:
+    color: [0.657825, 0.697293, 0.832031, 1]
+    polarColor: [0.868808, 0.879681, 0.916797, 1]
+  air:
+    color: [0.553756, 0.945668, 0.838195, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.839844, 0.400033, 0.298538, 1]
+    ratio: 0.52
+    polarColor: [0.87793, 0.590582, 0.524271, 1]
+  demographics:
+    type: 32
+    gdp: 12800
+    tech: 5
+    economy: 5
+    government: 6
+    description: The planet Querbeis is a boring world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.794128, 0.49255, 0.451035, 1]
+  radius: 109751.341553
+  orbit:
+    type: static
+    parent: ~
+    radius: 385840
+    vector: [-0.568, 0.466, -0.678]
+  corona:
+    shimmer: 0.400621
+    hues: 0.630836
+    flare: 0.02168
+stations:
+- type: coriolis
+  orbit:
+    parent: Querbeis
+    vector: undefined
+    radius: 11024

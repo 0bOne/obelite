@@ -1,0 +1,61 @@
+name: Rareat
+position: [205, 235]
+seed: 182 235 216 205 219 84
+limits:
+  blurs: 87
+  stars: 9985
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rareat
+  radius: 4045
+  rotationSpeed: 0.004171
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 566300
+  land:
+    ratio: 0.58
+    color: [0.518203, 0.543682, 0.66, 1]
+    polarColor: [0.883834, 0.892848, 0.934, 1]
+  sea:
+    color: [0.5, 0.231262, 0.0351562, 1]
+    polarColor: [0.95, 0.82235, 0.729199, 1]
+  air:
+    color: [0.703483, 0.807299, 0.924205, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.684525, 0.775391, 0.739186, 1]
+    ratio: 0.32
+    polarColor: [0.786749, 0.848926, 0.824152, 1]
+  demographics:
+    type: 35
+    gdp: 13720
+    tech: 7
+    economy: 3
+    government: 3
+    description: Rareat is an unremarkable planet.
+    inhabitants: Yellow Felines
+- type: star
+  type: primary
+  color: [0.662485, 0.381114, 0.248328, 1]
+  radius: 107360.136414
+  orbit:
+    type: static
+    parent: ~
+    radius: 121350
+    vector: [0.226, -0.222, -0.948]
+  corona:
+    shimmer: 0.292157
+    hues: 0.754204
+    flare: 0.078506
+stations:
+- type: coriolis
+  orbit:
+    parent: Rareat
+    vector: undefined
+    radius: 8090

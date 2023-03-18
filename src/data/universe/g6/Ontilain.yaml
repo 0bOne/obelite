@@ -1,0 +1,61 @@
+name: Ontilain
+position: [63, 153]
+seed: 114 153 2 63 52 191
+limits:
+  blurs: 187
+  stars: 5047
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ontilain
+  radius: 6719
+  rotationSpeed: 0.001269
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 1007850
+  land:
+    ratio: 0.38
+    color: [0.437832, 0.587891, 0.0229645, 1]
+    polarColor: [0.88115, 0.941211, 0.7151, 1]
+  sea:
+    color: [0.730469, 0.69391, 0.49649, 1]
+    polarColor: [0.926953, 0.915355, 0.852724, 1]
+  air:
+    color: [0.711699, 0.77261, 0.946318, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.720131, 0.813281, 0.841797, 1]
+    ratio: 0.42
+    polarColor: [0.799424, 0.860203, 0.878809, 1]
+  demographics:
+    type: 32
+    gdp: 7168
+    tech: 7
+    economy: 3
+    government: 0
+    description: This world is mildly well known for killer A’a’arbi gargle blasters and its ancient Ontilainian A’a’arbi banana plantations.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.782388, 0.727756, 0.633739, 1]
+  radius: 218433.115234
+  orbit:
+    type: static
+    parent: ~
+    radius: 134380
+    vector: [0.286, -0.954, 0.094]
+  corona:
+    shimmer: 1.092485
+    hues: 0.900108
+    flare: 0.03558
+stations:
+- type: coriolis
+  orbit:
+    parent: Ontilain
+    vector: undefined
+    radius: 13438

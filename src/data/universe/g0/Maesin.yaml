@@ -1,0 +1,61 @@
+name: Maesin
+position: [152, 229]
+seed: 24 229 68 152 173 171
+limits:
+  blurs: 56
+  stars: 9550
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maesin
+  radius: 5784
+  rotationSpeed: 0.003031
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 867600
+  land:
+    ratio: 0.44
+    color: [0.66, 0.414957, 0.252656, 1]
+    polarColor: [0.934, 0.847307, 0.789887, 1]
+  sea:
+    color: [0.544482, 0.65625, 0.525, 1]
+    polarColor: [0.894591, 0.934375, 0.887656, 1]
+  air:
+    color: [0.766631, 0.739562, 0.974936, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.853443, 0.811768, 0.927734, 1]
+    ratio: 0.19
+    polarColor: [0.871562, 0.845802, 0.91748, 1]
+  demographics:
+    type: 8
+    gdp: 768
+    tech: 0
+    economy: 7
+    government: 0
+    description: The planet Maesin is an unremarkable dump.
+    inhabitants: Small Harmless Furry Rodents
+- type: star
+  type: primary
+  color: [0.300605, 0.346934, 0.718777, 1]
+  radius: 112887.553711
+  orbit:
+    type: static
+    parent: ~
+    radius: 289200
+    vector: [0.86, 0.039, 0.51]
+  corona:
+    shimmer: 0.31378
+    hues: 0.571228
+    flare: 0.048651
+stations:
+- type: coriolis
+  orbit:
+    parent: Maesin
+    vector: undefined
+    radius: 11568

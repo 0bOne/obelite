@@ -1,0 +1,61 @@
+name: Xeate
+position: [169, 3]
+seed: 20 3 216 169 182 130
+limits:
+  blurs: 45
+  stars: 5826
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeate
+  radius: 3497
+  rotationSpeed: 0.00485
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 384670
+  land:
+    ratio: 0.68
+    color: [0.501953, 0.46522, 0.0745087, 1]
+    polarColor: [0.949805, 0.932428, 0.7476, 1]
+  sea:
+    color: [0.615601, 0.636719, 0.494452, 1]
+    polarColor: [0.928564, 0.936328, 0.884025, 1]
+  air:
+    color: [0.636616, 0.902282, 0.919652, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.713484, 0.761719, 0.514755, 1]
+    ratio: 0.31
+    polarColor: [0.809419, 0.842773, 0.671997, 1]
+  demographics:
+    type: 35
+    gdp: 13720
+    tech: 7
+    economy: 3
+    government: 3
+    description: Xeate is an unremarkable dump.
+    inhabitants: Large Black Horned Birds
+- type: star
+  type: primary
+  color: [0.776608, 0.766257, 0.719728, 1]
+  radius: 90271.221619
+  orbit:
+    type: static
+    parent: ~
+    radius: 454610
+    vector: [0.103, 0.966, -0.236]
+  corona:
+    shimmer: 0.322187
+    hues: 0.774132
+    flare: 0.016684
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeate
+    vector: undefined
+    radius: 6994

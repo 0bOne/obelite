@@ -1,0 +1,61 @@
+name: Xeongeza
+position: [1, 122]
+seed: 249 122 109 1 154 226
+limits:
+  blurs: 68
+  stars: 6286
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeongeza
+  radius: 3329
+  rotationSpeed: 0.002408
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 366190
+  land:
+    ratio: 0.6
+    color: [0.617188, 0.491671, 0.482178, 1]
+    polarColor: [0.938281, 0.890577, 0.886969, 1]
+  sea:
+    color: [0.178833, 0.572266, 0.461613, 1]
+    polarColor: [0.780734, 0.942773, 0.8972, 1]
+  air:
+    color: [0.635078, 0.596709, 0.833801, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.439934, 0.375961, 0.503906, 1]
+    ratio: 0.51
+    polarColor: [0.669093, 0.611428, 0.726758, 1]
+  demographics:
+    type: 44
+    gdp: 25344
+    tech: 9
+    economy: 2
+    government: 5
+    description: This world is a tedious little planet.
+    inhabitants: Large Bony Humanoids
+- type: star
+  type: primary
+  color: [0.835248, 0.299617, 0.278179, 1]
+  radius: 66651.623077
+  orbit:
+    type: static
+    parent: ~
+    radius: 332900
+    vector: [0.074, 0.582, 0.81]
+  corona:
+    shimmer: 0.339646
+    hues: 0.650543
+    flare: 0.058072
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeongeza
+    vector: undefined
+    radius: 6658

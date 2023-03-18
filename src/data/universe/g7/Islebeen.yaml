@@ -1,0 +1,61 @@
+name: Islebeen
+position: [52, 207]
+seed: 81 207 64 52 189 253
+limits:
+  blurs: 127
+  stars: 9209
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Islebeen
+  radius: 6196
+  rotationSpeed: 0.004772
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 929400
+  land:
+    ratio: 0.26
+    color: [0.638726, 0.335815, 0.65625, 1]
+    polarColor: [0.928137, 0.820316, 0.934375, 1]
+  sea:
+    color: [0.684846, 0.734375, 0.547913, 1]
+    polarColor: [0.91094, 0.926562, 0.867747, 1]
+  air:
+    color: [0.592613, 0.546864, 0.877377, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.442445, 0.297546, 0.634766, 1]
+    ratio: 0.45
+    polarColor: [0.636874, 0.524786, 0.785645, 1]
+  demographics:
+    type: 8
+    gdp: 768
+    tech: 0
+    economy: 7
+    government: 0
+    description: Islebeen is cursed by dreadful civil war.
+    inhabitants: Bony Birds
+- type: star
+  type: primary
+  color: [0.538907, 0.848521, 0.84939, 1]
+  radius: 98814.93042
+  orbit:
+    type: static
+    parent: ~
+    radius: 371760
+    vector: [-0.298, 0.698, -0.651]
+  corona:
+    shimmer: 0.343433
+    hues: 0.543365
+    flare: 0.057544
+stations:
+- type: coriolis
+  orbit:
+    parent: Islebeen
+    vector: undefined
+    radius: 12392

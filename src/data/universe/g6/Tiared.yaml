@@ -1,0 +1,61 @@
+name: Tiared
+position: [21, 124]
+seed: 178 124 186 21 244 23
+limits:
+  blurs: 129
+  stars: 8295
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiared
+  radius: 4629
+  rotationSpeed: 0.000873
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 601770
+  land:
+    ratio: 0.69
+    color: [0.476953, 0.66, 0.617098, 1]
+    polarColor: [0.86924, 0.934, 0.918822, 1]
+  sea:
+    color: [0.615273, 0.712891, 0.534389, 1]
+    polarColor: [0.896918, 0.928711, 0.870576, 1]
+  air:
+    color: [0.736448, 0.534752, 0.933961, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.804688, 0.254608, 0.512458, 1]
+    ratio: 0.33
+    polarColor: [0.862109, 0.493777, 0.666433, 1]
+  demographics:
+    type: 44
+    gdp: 23232
+    tech: 8
+    economy: 4
+    government: 7
+    description: Tiared is most famous for its pink Tiaredian Loa’ Loa’weed plantations and Zero-G hockey.
+    inhabitants: Green Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.790265, 0.637756, 0.578295, 1]
+  radius: 135678.804016
+  orbit:
+    type: static
+    parent: ~
+    radius: 462900
+    vector: [0.76, 0.58, -0.292]
+  corona:
+    shimmer: 0.287408
+    hues: 0.55101
+    flare: 0.069313
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiared
+    vector: undefined
+    radius: 9258

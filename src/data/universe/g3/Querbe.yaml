@@ -1,0 +1,61 @@
+name: Querbe
+position: [232, 237]
+seed: 18 237 130 232 154 218
+limits:
+  blurs: 134
+  stars: 7663
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Querbe
+  radius: 5608
+  rotationSpeed: 0.00326
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 672960
+  land:
+    ratio: 0.26
+    color: [0.503906, 0.392693, 0.0590515, 1]
+    polarColor: [0.949609, 0.897214, 0.740028, 1]
+  sea:
+    color: [0.823039, 0.710925, 0.892578, 1]
+    polarColor: [0.893004, 0.864405, 0.910742, 1]
+  air:
+    color: [0.682556, 0.833346, 0.920303, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.629433, 0.763672, 0.644115, 1]
+    ratio: 0.38
+    polarColor: [0.750966, 0.843652, 0.761104, 1]
+  demographics:
+    type: 8
+    gdp: 768
+    tech: 0
+    economy: 7
+    government: 0
+    description: This planet is most fabled for its inhabitants’ ingrained shyness but cursed by unpredictable solar activity.
+    inhabitants: Furry Insects
+- type: star
+  type: primary
+  color: [0.81705, 0.761191, 0.740321, 1]
+  radius: 140211.97998
+  orbit:
+    type: static
+    parent: ~
+    radius: 336480
+    vector: [0.638, 0.755, -0.155]
+  corona:
+    shimmer: 0.334098
+    hues: 0.873123
+    flare: 0.056151
+stations:
+- type: coriolis
+  orbit:
+    parent: Querbe
+    vector: undefined
+    radius: 11216

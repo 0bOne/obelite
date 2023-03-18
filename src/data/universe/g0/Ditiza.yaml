@@ -1,0 +1,61 @@
+name: Ditiza
+position: [27, 110]
+seed: 64 110 104 27 125 45
+limits:
+  blurs: 171
+  stars: 9301
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ditiza
+  radius: 6171
+  rotationSpeed: 0.003735
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 617100
+  land:
+    ratio: 0.49
+    color: [0.171539, 0.601562, 0.561248, 1]
+    polarColor: [0.771883, 0.939844, 0.924097, 1]
+  sea:
+    color: [0.696191, 0.705078, 0.54258, 1]
+    polarColor: [0.926563, 0.929492, 0.875937, 1]
+  air:
+    color: [0.577367, 0.534089, 0.886482, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.419476, 0.268982, 0.662109, 1]
+    ratio: 0.21
+    polarColor: [0.615191, 0.501835, 0.797949, 1]
+  demographics:
+    type: 40
+    gdp: 11520
+    tech: 7
+    economy: 6
+    government: 5
+    description: The planet Ditiza is reasonably fabled for Ditizaian evil juice and its inhabitants’ ingrained silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.680246, 0.748586, 0.841266, 1]
+  radius: 145438.839111
+  orbit:
+    type: static
+    parent: ~
+    radius: 678810
+    vector: [0.158, -0.249, 0.956]
+  corona:
+    shimmer: 0.297272
+    hues: 0.574448
+    flare: 0.026363
+stations:
+- type: coriolis
+  orbit:
+    parent: Ditiza
+    vector: undefined
+    radius: 12342

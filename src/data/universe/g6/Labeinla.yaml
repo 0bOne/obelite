@@ -1,0 +1,61 @@
+name: Labeinla
+position: [226, 123]
+seed: 206 123 210 226 80 21
+limits:
+  blurs: 118
+  stars: 5383
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Labeinla
+  radius: 4322
+  rotationSpeed: 0.002621
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 518640
+  land:
+    ratio: 0.31
+    color: [0.139313, 0.624572, 0.648438, 1]
+    polarColor: [0.751595, 0.926552, 0.935156, 1]
+  sea:
+    color: [0.690703, 0.720703, 0.546158, 1]
+    polarColor: [0.918273, 0.92793, 0.871746, 1]
+  air:
+    color: [0.580916, 0.93201, 0.860391, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.798828, 0.543539, 0.374451, 1]
+    ratio: 0.18
+    polarColor: [0.859473, 0.687804, 0.574101, 1]
+  demographics:
+    type: 34
+    gdp: 11424
+    tech: 7
+    economy: 3
+    government: 2
+    description: This world is a revolting little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.525315, 0.531865, 0.666858, 1]
+  radius: 117205.628357
+  orbit:
+    type: static
+    parent: ~
+    radius: 345760
+    vector: [0.587, -0.575, 0.57]
+  corona:
+    shimmer: 0.328202
+    hues: 0.846649
+    flare: 0.087405
+stations:
+- type: coriolis
+  orbit:
+    parent: Labeinla
+    vector: undefined
+    radius: 8644

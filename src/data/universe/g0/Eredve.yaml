@@ -1,0 +1,61 @@
+name: Eredve
+position: [205, 250]
+seed: 128 250 96 205 141 208
+limits:
+  blurs: 137
+  stars: 9590
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Eredve
+  radius: 3021
+  rotationSpeed: 0.0004
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 332310
+  land:
+    ratio: 0.38
+    color: [0.479531, 0.66, 0.50773, 1]
+    polarColor: [0.870152, 0.934, 0.880129, 1]
+  sea:
+    color: [0.753906, 0.428927, 0.385788, 1]
+    polarColor: [0.924609, 0.824969, 0.811742, 1]
+  air:
+    color: [0.559829, 0.947619, 0.865489, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.845703, 0.513286, 0.313835, 1]
+    ratio: 0.35
+    polarColor: [0.880566, 0.664241, 0.534445, 1]
+  demographics:
+    type: 39
+    gdp: 19968
+    tech: 8
+    economy: 2
+    government: 4
+    description: This planet is beset by evil disease.
+    inhabitants: Insects
+- type: star
+  type: primary
+  color: [0.372186, 0.518352, 0.69628, 1]
+  radius: 72723.697357
+  orbit:
+    type: static
+    parent: ~
+    radius: 362520
+    vector: [-0.177, 0.364, -0.914]
+  corona:
+    shimmer: 0.537727
+    hues: 0.991394
+    flare: 0.001381
+stations:
+- type: coriolis
+  orbit:
+    parent: Eredve
+    vector: undefined
+    radius: 6042

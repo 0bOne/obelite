@@ -1,0 +1,61 @@
+name: Beor
+position: [197, 13]
+seed: 24 13 36 197 237 96
+limits:
+  blurs: 159
+  stars: 9885
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beor
+  radius: 3013
+  rotationSpeed: 0.004253
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 391690
+  land:
+    ratio: 0.62
+    color: [0.66, 0.594681, 0.296484, 1]
+    polarColor: [0.934, 0.910891, 0.805393, 1]
+  sea:
+    color: [0.710938, 0.647455, 0.497101, 1]
+    polarColor: [0.928906, 0.90817, 0.859057, 1]
+  air:
+    color: [0.449306, 0.4914, 0.928107, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0399704, 0.226755, 0.787109, 1]
+    ratio: 0.34
+    polarColor: [0.347436, 0.474126, 0.854199, 1]
+  demographics:
+    type: 30
+    gdp: 9600
+    tech: 5
+    economy: 5
+    government: 4
+    description: Beor is an unremarkable dump.
+    inhabitants: Large Blue Slimy Rodents
+- type: star
+  type: primary
+  color: [0.663995, 0.628942, 0.481122, 1]
+  radius: 93505.247803
+  orbit:
+    type: static
+    parent: ~
+    radius: 241040
+    vector: [0.654, 0.7, -0.286]
+  corona:
+    shimmer: 0.358759
+    hues: 0.522865
+    flare: 0.060924
+stations:
+- type: coriolis
+  orbit:
+    parent: Beor
+    vector: undefined
+    radius: 6026

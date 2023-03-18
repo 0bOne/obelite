@@ -1,0 +1,61 @@
+name: Arxetige
+position: [170, 237]
+seed: 89 237 93 170 122 234
+limits:
+  blurs: 147
+  stars: 8828
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arxetige
+  radius: 5546
+  rotationSpeed: 0.003062
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 610060
+  land:
+    ratio: 0.29
+    color: [0.66, 0.653232, 0.551719, 1]
+    polarColor: [0.934, 0.931606, 0.895691, 1]
+  sea:
+    color: [0.121948, 0.650391, 0.613235, 1]
+    polarColor: [0.745047, 0.934961, 0.921608, 1]
+  air:
+    color: [0.68819, 0.849977, 0.894938, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.644699, 0.6875, 0.623047, 1]
+    ratio: 0.43
+    polarColor: [0.777882, 0.809375, 0.761951, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 6
+    economy: 5
+    government: 3
+    description: The world Arxetige is fabled for its exciting lethal Es water and the Arxetigeian spotted shrew.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.578801, 0.707528, 0.810345, 1]
+  radius: 136052.005005
+  orbit:
+    type: static
+    parent: ~
+    radius: 554600
+    vector: [0.133, 0.975, -0.177]
+  corona:
+    shimmer: 0.346465
+    hues: 0.822678
+    flare: 0.040518
+stations:
+- type: coriolis
+  orbit:
+    parent: Arxetige
+    vector: undefined
+    radius: 11092

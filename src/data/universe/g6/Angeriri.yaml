@@ -1,0 +1,61 @@
+name: Angeriri
+position: [159, 8]
+seed: 206 8 50 159 208 59
+limits:
+  blurs: 197
+  stars: 5724
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Angeriri
+  radius: 5791
+  rotationSpeed: 0.001379
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 637010
+  land:
+    ratio: 0.51
+    color: [0.392681, 0.226875, 0.66, 1]
+    polarColor: [0.839426, 0.780766, 0.934, 1]
+  sea:
+    color: [0.667969, 0.490825, 0.461838, 1]
+    polarColor: [0.933203, 0.871332, 0.861208, 1]
+  air:
+    color: [0.667984, 0.829009, 0.938514, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.600983, 0.818359, 0.650232, 1]
+    ratio: 0.38
+    polarColor: [0.724117, 0.868262, 0.756775, 1]
+  demographics:
+    type: 59
+    gdp: 47200
+    tech: 13
+    economy: 0
+    government: 6
+    description: This world is plagued by frequent solar activity.
+    inhabitants: Red Lizards
+- type: star
+  type: primary
+  color: [0.253271, 0.385455, 0.742398, 1]
+  radius: 136065.878906
+  orbit:
+    type: static
+    parent: ~
+    radius: 405370
+    vector: [-0.237, -0.221, -0.946]
+  corona:
+    shimmer: 0.247464
+    hues: 0.752342
+    flare: 0.054416
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Angeriri
+    vector: undefined
+    radius: 11582

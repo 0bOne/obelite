@@ -1,0 +1,61 @@
+name: Inusge
+position: [14, 13]
+seed: 57 13 104 14 245 12
+limits:
+  blurs: 129
+  stars: 8786
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inusge
+  radius: 5902
+  rotationSpeed: 0.002781
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 708240
+  land:
+    ratio: 0.51
+    color: [0.66, 0.547489, 0.281016, 1]
+    polarColor: [0.934, 0.894195, 0.79992, 1]
+  sea:
+    color: [0.569839, 0.751953, 0.598295, 1]
+    polarColor: [0.868811, 0.924805, 0.87756, 1]
+  air:
+    color: [0.617489, 0.879153, 0.958676, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.586009, 0.878906, 0.466919, 1]
+    ratio: 0.14
+    polarColor: [0.708989, 0.895508, 0.633152, 1]
+  demographics:
+    type: 39
+    gdp: 14040
+    tech: 7
+    economy: 5
+    government: 5
+    description: Inusge is mildly well known for killer Soza gargle blasters.
+    inhabitants: Green Bony Lobsters
+- type: star
+  type: primary
+  color: [0.754324, 0.498952, 0.491938, 1]
+  radius: 170496.618652
+  orbit:
+    type: static
+    parent: ~
+    radius: 649220
+    vector: [-0.565, -0.777, 0.279]
+  corona:
+    shimmer: 0.230386
+    hues: 0.625168
+    flare: 0.031035
+stations:
+- type: coriolis
+  orbit:
+    parent: Inusge
+    vector: undefined
+    radius: 11804

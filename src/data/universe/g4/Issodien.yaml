@@ -1,0 +1,61 @@
+name: Issodien
+position: [40, 161]
+seed: 246 161 56 40 91 157
+limits:
+  blurs: 190
+  stars: 7957
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Issodien
+  radius: 6184
+  rotationSpeed: 0.002929
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 803920
+  land:
+    ratio: 0.29
+    color: [0.613281, 0.462357, 0.480043, 1]
+    polarColor: [0.938672, 0.880922, 0.887689, 1]
+  sea:
+    color: [0.551308, 0.65625, 0.521924, 1]
+    polarColor: [0.897021, 0.934375, 0.886561, 1]
+  air:
+    color: [0.52717, 0.959977, 0.821021, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.882812, 0.248453, 0.217255, 1]
+    ratio: 0.3
+    polarColor: [0.897266, 0.4943, 0.474482, 1]
+  demographics:
+    type: 49
+    gdp: 38808
+    tech: 10
+    economy: 1
+    government: 7
+    description: This planet is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.681586, 0.685254, 0.715527, 1]
+  radius: 144036.358643
+  orbit:
+    type: static
+    parent: ~
+    radius: 494720
+    vector: [0.649, 0.271, -0.711]
+  corona:
+    shimmer: 1.176378
+    hues: 0.627647
+    flare: 0.099406
+stations:
+- type: coriolis
+  orbit:
+    parent: Issodien
+    vector: undefined
+    radius: 12368

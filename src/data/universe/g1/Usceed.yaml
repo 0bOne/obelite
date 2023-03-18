@@ -1,0 +1,61 @@
+name: Usceed
+position: [75, 17]
+seed: 128 17 16 75 122 200
+limits:
+  blurs: 120
+  stars: 6550
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usceed
+  radius: 4939
+  rotationSpeed: 0.000025
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 642070
+  land:
+    ratio: 0.43
+    color: [0.461714, 0.282822, 0.658203, 1]
+    polarColor: [0.864461, 0.800986, 0.93418, 1]
+  sea:
+    color: [0.597656, 0.485227, 0.45081, 1]
+    polarColor: [0.940234, 0.896016, 0.88248, 1]
+  air:
+    color: [0.438591, 0.726259, 0.870873, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0672913, 0.615234, 0.0758529, 1]
+    ratio: 0.39
+    polarColor: [0.344426, 0.776855, 0.351183, 1]
+  demographics:
+    type: 44
+    gdp: 19008
+    tech: 10
+    economy: 1
+    government: 2
+    description: Usceed is most noted for the Usceedian deadly lobstoid and its pink Usceedian Benulobi Benulobiweed plantations.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.697675, 0.643694, 0.556449, 1]
+  radius: 92332.681732
+  orbit:
+    type: static
+    parent: ~
+    radius: 296340
+    vector: [-0.437, 0.699, 0.566]
+  corona:
+    shimmer: 0.243655
+    hues: 0.834099
+    flare: 0.05766
+stations:
+- type: coriolis
+  orbit:
+    parent: Usceed
+    vector: undefined
+    radius: 9878

@@ -1,0 +1,61 @@
+name: Lelale
+position: [234, 73]
+seed: 47 73 237 234 32 129
+limits:
+  blurs: 75
+  stars: 9248
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lelale
+  radius: 3306
+  rotationSpeed: 0.003102
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 297540
+  land:
+    ratio: 0.35
+    color: [0.0489844, 0.316304, 0.66, 1]
+    polarColor: [0.71783, 0.812404, 0.934, 1]
+  sea:
+    color: [0.535156, 0.446743, 0.423108, 1]
+    polarColor: [0.946484, 0.907392, 0.896942, 1]
+  air:
+    color: [0.751407, 0.560458, 0.9164, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.751953, 0.326042, 0.485759, 1]
+    ratio: 0.44
+    polarColor: [0.838379, 0.541589, 0.652886, 1]
+  demographics:
+    type: 51
+    gdp: 33048
+    tech: 11
+    economy: 1
+    government: 5
+    description: The world Lelale is reasonably fabled for its exciting Zero-G cricket and its fabulous cuisine.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.397571, 0.517576, 0.659354, 1]
+  radius: 76157.152405
+  orbit:
+    type: static
+    parent: ~
+    radius: 396720
+    vector: [0.062, 0.85, 0.523]
+  corona:
+    shimmer: 0.28517
+    hues: 0.918083
+    flare: 0.094104
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Lelale
+    vector: undefined
+    radius: 6612

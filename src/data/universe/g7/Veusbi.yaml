@@ -1,0 +1,61 @@
+name: Veusbi
+position: [103, 138]
+seed: 31 138 186 103 171 86
+limits:
+  blurs: 45
+  stars: 8587
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veusbi
+  radius: 4455
+  rotationSpeed: 0.002359
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 579150
+  land:
+    ratio: 0.7
+    color: [0.569766, 0.66, 0.621932, 1]
+    polarColor: [0.902076, 0.934, 0.920532, 1]
+  sea:
+    color: [0.636194, 0.777344, 0.564789, 1]
+    polarColor: [0.880399, 0.922266, 0.85922, 1]
+  air:
+    color: [0.455583, 0.680084, 0.870873, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.10334, 0.615234, 0.303299, 1]
+    ratio: 0.25
+    polarColor: [0.372875, 0.776855, 0.53068, 1]
+  demographics:
+    type: 58
+    gdp: 40832
+    tech: 12
+    economy: 2
+    government: 7
+    description: This planet is fabled for its exciting Veusbiian evil brandy.
+    inhabitants: Yellow Furry Insects
+- type: star
+  type: primary
+  color: [0.726257, 0.575954, 0.510603, 1]
+  radius: 112359.999847
+  orbit:
+    type: static
+    parent: ~
+    radius: 311850
+    vector: [-0.109, -0.753, 0.649]
+  corona:
+    shimmer: 0.455706
+    hues: 0.846954
+    flare: 0.09411
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Veusbi
+    vector: undefined
+    radius: 8910

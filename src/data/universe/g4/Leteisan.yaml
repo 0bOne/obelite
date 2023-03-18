@@ -1,0 +1,61 @@
+name: Leteisan
+position: [255, 27]
+seed: 246 27 56 255 91 161
+limits:
+  blurs: 49
+  stars: 9870
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leteisan
+  radius: 3327
+  rotationSpeed: 0.002964
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 332700
+  land:
+    ratio: 0.4
+    color: [0.425391, 0.473046, 0.66, 1]
+    polarColor: [0.850998, 0.867858, 0.934, 1]
+  sea:
+    color: [0.646484, 0.629277, 0.489156, 1]
+    polarColor: [0.935352, 0.929127, 0.878445, 1]
+  air:
+    color: [0.416561, 0.8159, 0.860467, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.410757, 0.583984, 0.0296555, 1]
+    ratio: 0.46
+    polarColor: [0.621376, 0.762793, 0.310257, 1]
+  demographics:
+    type: 55
+    gdp: 33880
+    tech: 11
+    economy: 3
+    government: 7
+    description: This planet is mildly noted for its ancient Eserce tulip plantations but ravaged by frequent earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.728862, 0.752316, 0.814224, 1]
+  radius: 106189.254456
+  orbit:
+    type: static
+    parent: ~
+    radius: 299430
+    vector: [-0.244, -0.883, 0.4]
+  corona:
+    shimmer: 0.463499
+    hues: 0.946571
+    flare: 0.059464
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Leteisan
+    vector: undefined
+    radius: 6654

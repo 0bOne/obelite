@@ -1,0 +1,61 @@
+name: Gexeala
+position: [137, 52]
+seed: 241 52 224 137 157 3
+limits:
+  blurs: 177
+  stars: 9695
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gexeala
+  radius: 3721
+  rotationSpeed: 0.00217
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 558150
+  land:
+    ratio: 0.69
+    color: [0.650695, 0.605859, 0.66, 1]
+    polarColor: [0.930708, 0.914846, 0.934, 1]
+  sea:
+    color: [0.605469, 0.59106, 0.473732, 1]
+    polarColor: [0.939453, 0.933864, 0.888352, 1]
+  air:
+    color: [0.650805, 0.834094, 0.950871, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.55806, 0.855469, 0.6115, 1]
+    ratio: 0.35
+    polarColor: [0.692672, 0.884961, 0.727224, 1]
+  demographics:
+    type: 33
+    gdp: 12672
+    tech: 6
+    economy: 4
+    government: 4
+    description: The world Gexeala is reasonably famous for the Gexealaian evil poet.
+    inhabitants: Large Green Furry Rodents
+- type: star
+  type: primary
+  color: [0.723767, 0.651759, 0.503965, 1]
+  radius: 78170.183868
+  orbit:
+    type: static
+    parent: ~
+    radius: 223260
+    vector: [-0.404, -0.411, 0.817]
+  corona:
+    shimmer: 0.362061
+    hues: 0.912941
+    flare: 0.004636
+stations:
+- type: coriolis
+  orbit:
+    parent: Gexeala
+    vector: undefined
+    radius: 7442

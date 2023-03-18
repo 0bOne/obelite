@@ -1,0 +1,61 @@
+name: Raried
+position: [165, 36]
+seed: 153 36 49 165 141 148
+limits:
+  blurs: 137
+  stars: 5606
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raried
+  radius: 4005
+  rotationSpeed: 0.00353
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 440550
+  land:
+    ratio: 0.33
+    color: [0.62157, 0.613594, 0.66, 1]
+    polarColor: [0.920404, 0.917582, 0.934, 1]
+  sea:
+    color: [0.798828, 0.555289, 0.377571, 1]
+    polarColor: [0.920117, 0.849988, 0.798813, 1]
+  air:
+    color: [0.779707, 0.629941, 0.867621, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.605469, 0.470657, 0.483296, 1]
+    ratio: 0.3
+    polarColor: [0.772461, 0.664965, 0.675043, 1]
+  demographics:
+    type: 39
+    gdp: 18720
+    tech: 7
+    economy: 4
+    government: 6
+    description: The planet Raried is an unremarkable dump.
+    inhabitants: Black Bug-Eyed Frogs
+- type: star
+  type: primary
+  color: [0.713535, 0.768312, 0.787289, 1]
+  radius: 120292.389679
+  orbit:
+    type: static
+    parent: ~
+    radius: 320400
+    vector: [0.382, 0.613, 0.692]
+  corona:
+    shimmer: 0.34106
+    hues: 0.696556
+    flare: 0.013658
+stations:
+- type: coriolis
+  orbit:
+    parent: Raried
+    vector: undefined
+    radius: 8010

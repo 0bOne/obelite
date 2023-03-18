@@ -1,0 +1,61 @@
+name: Tizabea
+position: [183, 117]
+seed: 205 117 225 183 21 87
+limits:
+  blurs: 176
+  stars: 5342
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tizabea
+  radius: 4791
+  rotationSpeed: 0.001317
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 574920
+  land:
+    ratio: 0.38
+    color: [0.571377, 0.66, 0.45375, 1]
+    polarColor: [0.902646, 0.934, 0.861031, 1]
+  sea:
+    color: [0.398562, 0.326347, 0.576172, 1]
+    polarColor: [0.869759, 0.84023, 0.942383, 1]
+  air:
+    color: [0.50805, 0.628414, 0.84876, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.21653, 0.548828, 0.533252, 1]
+    ratio: 0.54
+    polarColor: [0.464305, 0.746973, 0.733723, 1]
+  demographics:
+    type: 38
+    gdp: 12160
+    tech: 7
+    economy: 5
+    government: 4
+    description: Tizabea is famous for its inhabitants’ ancient mating traditions but ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.680237, 0.511405, 0.450682, 1]
+  radius: 112620.227509
+  orbit:
+    type: static
+    parent: ~
+    radius: 431190
+    vector: [-0.439, -0.891, 0.119]
+  corona:
+    shimmer: 0.564819
+    hues: 0.999283
+    flare: 0.05177
+stations:
+- type: coriolis
+  orbit:
+    parent: Tizabea
+    vector: undefined
+    radius: 9582

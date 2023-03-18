@@ -1,0 +1,61 @@
+name: Engean
+position: [69, 44]
+seed: 47 44 85 69 64 146
+limits:
+  blurs: 70
+  stars: 9982
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Engean
+  radius: 3397
+  rotationSpeed: 0.000897
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 407640
+  land:
+    ratio: 0.47
+    color: [0.647029, 0.600703, 0.66, 1]
+    polarColor: [0.929411, 0.913022, 0.934, 1]
+  sea:
+    color: [0.521484, 0.29238, 0.0244446, 1]
+    polarColor: [0.947852, 0.843746, 0.721996, 1]
+  air:
+    color: [0.525663, 0.971033, 0.869756, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.916016, 0.437601, 0.203957, 1]
+    ratio: 0.44
+    polarColor: [0.912207, 0.614441, 0.46902, 1]
+  demographics:
+    type: 27
+    gdp: 7776
+    tech: 5
+    economy: 4
+    government: 2
+    description: This world is fabled for its ancient Engeanian On banana plantations.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.604203, 0.746313, 0.831653, 1]
+  radius: 93009.565582
+  orbit:
+    type: static
+    parent: ~
+    radius: 373670
+    vector: [0.27, -0.813, -0.516]
+  corona:
+    shimmer: 0.429142
+    hues: 0.522964
+    flare: 0.092929
+stations:
+- type: coriolis
+  orbit:
+    parent: Engean
+    vector: undefined
+    radius: 6794

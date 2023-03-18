@@ -1,0 +1,61 @@
+name: Vebixe
+position: [229, 75]
+seed: 45 75 44 229 129 214
+limits:
+  blurs: 181
+  stars: 9459
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Vebixe
+  radius: 4581
+  rotationSpeed: 0.001969
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 503910
+  land:
+    ratio: 0.67
+    color: [0.574922, 0.65003, 0.66, 1]
+    polarColor: [0.9039, 0.930473, 0.934, 1]
+  sea:
+    color: [0.824219, 0.574498, 0.354156, 1]
+    polarColor: [0.917578, 0.848076, 0.786752, 1]
+  air:
+    color: [0.824259, 0.762387, 0.978188, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.930176, 0.878906, 0.9375, 1]
+    ratio: 0.57
+    polarColor: [0.917374, 0.885864, 0.921875, 1]
+  demographics:
+    type: 41
+    gdp: 20664
+    tech: 8
+    economy: 3
+    government: 5
+    description: This planet is mildly noted for the Vebixeian mountain poet but cursed by unpredictable earthquakes.
+    inhabitants: Rodents
+- type: star
+  type: primary
+  color: [0.515484, 0.565406, 0.748764, 1]
+  radius: 135871.917572
+  orbit:
+    type: static
+    parent: ~
+    radius: 503910
+    vector: [0.328, -0.363, -0.872]
+  corona:
+    shimmer: 0.372859
+    hues: 0.921959
+    flare: 0.013686
+stations:
+- type: coriolis
+  orbit:
+    parent: Vebixe
+    vector: undefined
+    radius: 9162

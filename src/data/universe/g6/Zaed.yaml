@@ -1,0 +1,61 @@
+name: Zaed
+position: [242, 233]
+seed: 146 233 146 242 212 196
+limits:
+  blurs: 76
+  stars: 9566
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaed
+  radius: 4082
+  rotationSpeed: 0.000673
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 489840
+  land:
+    ratio: 0.62
+    color: [0.581045, 0.66, 0.45375, 1]
+    polarColor: [0.906067, 0.934, 0.861031, 1]
+  sea:
+    color: [0.598663, 0.761719, 0.738789, 1]
+    polarColor: [0.874389, 0.923828, 0.916876, 1]
+  air:
+    color: [0.704346, 0.783091, 0.943066, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.698776, 0.828908, 0.832031, 1]
+    ratio: 0.45
+    polarColor: [0.786887, 0.872363, 0.874414, 1]
+  demographics:
+    type: 40
+    gdp: 17280
+    tech: 9
+    economy: 1
+    government: 2
+    description: This planet is mildly fabled for its inhabitants’ eccentric love for tourists but beset by lethal disease.
+    inhabitants: Fierce Bony Lobsters
+- type: star
+  type: primary
+  color: [0.245806, 0.344184, 0.697653, 1]
+  radius: 84593.619995
+  orbit:
+    type: static
+    parent: ~
+    radius: 285740
+    vector: [0.324, 0.923, -0.21]
+  corona:
+    shimmer: 0.317584
+    hues: 0.949585
+    flare: 0.093217
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaed
+    vector: undefined
+    radius: 8164

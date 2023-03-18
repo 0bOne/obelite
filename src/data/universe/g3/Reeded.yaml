@@ -1,0 +1,61 @@
+name: Reeded
+position: [17, 152]
+seed: 18 152 130 17 154 206
+limits:
+  blurs: 196
+  stars: 6692
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reeded
+  radius: 6417
+  rotationSpeed: 0.003222
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 705870
+  land:
+    ratio: 0.55
+    color: [0.0876563, 0.217328, 0.66, 1]
+    polarColor: [0.731512, 0.777388, 0.934, 1]
+  sea:
+    color: [0.564453, 0.503095, 0.443625, 1]
+    polarColor: [0.943555, 0.917913, 0.89306, 1]
+  air:
+    color: [0.63231, 0.595624, 0.833801, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.435905, 0.373993, 0.503906, 1]
+    ratio: 0.3
+    polarColor: [0.665461, 0.609653, 0.726758, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 6
+    economy: 2
+    government: 0
+    description: This world is a revolting little planet.
+    inhabitants: Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.81619, 0.425906, 0.266984, 1]
+  radius: 105463.966827
+  orbit:
+    type: static
+    parent: ~
+    radius: 834210
+    vector: [-0.022, -0.965, 0.262]
+  corona:
+    shimmer: 0.524145
+    hues: 0.649673
+    flare: 0.053581
+stations:
+- type: coriolis
+  orbit:
+    parent: Reeded
+    vector: undefined
+    radius: 12834

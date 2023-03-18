@@ -1,0 +1,61 @@
+name: Ceered
+position: [3, 135]
+seed: 150 135 104 3 27 229
+limits:
+  blurs: 148
+  stars: 8935
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceered
+  radius: 4099
+  rotationSpeed: 0.002331
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 491880
+  land:
+    ratio: 0.64
+    color: [0.655408, 0.66, 0.513047, 1]
+    polarColor: [0.932375, 0.934, 0.88201, 1]
+  sea:
+    color: [0.652995, 0.69928, 0.822266, 1]
+    polarColor: [0.87054, 0.883456, 0.917773, 1]
+  air:
+    color: [0.558094, 0.527944, 0.887783, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.364146, 0.254959, 0.666016, 1]
+    ratio: 0.28
+    polarColor: [0.573166, 0.491226, 0.799707, 1]
+  demographics:
+    type: 37
+    gdp: 7992
+    tech: 6
+    economy: 7
+    government: 5
+    description: This world is a revolting little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.732169, 0.708187, 0.702725, 1]
+  radius: 107113.394775
+  orbit:
+    type: static
+    parent: ~
+    radius: 245940
+    vector: [-0.655, 0.726, 0.209]
+  corona:
+    shimmer: 0.342489
+    hues: 0.86277
+    flare: 0.085794
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceered
+    vector: undefined
+    radius: 8198

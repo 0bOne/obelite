@@ -1,0 +1,61 @@
+name: Rieresed
+position: [154, 24]
+seed: 77 24 97 154 21 94
+limits:
+  blurs: 96
+  stars: 9992
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rieresed
+  radius: 6554
+  rotationSpeed: 0.001316
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 852020
+  land:
+    ratio: 0.32
+    color: [0.66, 0.298901, 0.103125, 1]
+    polarColor: [0.934, 0.806248, 0.736984, 1]
+  sea:
+    color: [0.62311, 0.630859, 0.489162, 1]
+    polarColor: [0.934037, 0.936914, 0.884304, 1]
+  air:
+    color: [0.687197, 0.695125, 0.99835, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.662766, 0.683721, 0.998047, 1]
+    ratio: 0.54
+    polarColor: [0.749843, 0.762298, 0.949121, 1]
+  demographics:
+    type: 49
+    gdp: 31360
+    tech: 11
+    economy: 0
+    government: 4
+    description: This world is ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.402548, 0.655033, 0.795093, 1]
+  radius: 122144.454651
+  orbit:
+    type: static
+    parent: ~
+    radius: 393240
+    vector: [-0.107, 0.848, 0.519]
+  corona:
+    shimmer: 0.312842
+    hues: 0.611076
+    flare: 0.052448
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Rieresed
+    vector: undefined
+    radius: 13108

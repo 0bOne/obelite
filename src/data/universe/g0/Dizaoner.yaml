@@ -1,0 +1,61 @@
+name: Dizaoner
+position: [77, 41]
+seed: 218 41 148 77 27 205
+limits:
+  blurs: 135
+  stars: 7067
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Dizaoner
+  radius: 6221
+  rotationSpeed: 0.00405
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 870940
+  land:
+    ratio: 0.5
+    color: [0.0103125, 0.568638, 0.66, 1]
+    polarColor: [0.704148, 0.901677, 0.934, 1]
+  sea:
+    color: [0.566011, 0.714844, 0.627637, 1]
+    polarColor: [0.880186, 0.928516, 0.900197, 1]
+  air:
+    color: [0.764088, 0.576899, 0.906645, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.722656, 0.366974, 0.46701, 1]
+    ratio: 0.27
+    polarColor: [0.825195, 0.571351, 0.642745, 1]
+  demographics:
+    type: 36
+    gdp: 15552
+    tech: 8
+    economy: 1
+    government: 2
+    description: Dizaoner is ravaged by unpredictable solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.331803, 0.3857, 0.823154, 1]
+  radius: 157861.102448
+  orbit:
+    type: static
+    parent: ~
+    radius: 435470
+    vector: [-0.954, 0.186, -0.236]
+  corona:
+    shimmer: 0.335288
+    hues: 0.710274
+    flare: 0.030159
+stations:
+- type: coriolis
+  orbit:
+    parent: Dizaoner
+    vector: undefined
+    radius: 12442

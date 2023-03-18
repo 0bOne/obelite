@@ -1,0 +1,61 @@
+name: Qugeza
+position: [166, 33]
+seed: 178 33 226 166 116 186
+limits:
+  blurs: 95
+  stars: 6367
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qugeza
+  radius: 5542
+  rotationSpeed: 0.002532
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 831300
+  land:
+    ratio: 0.25
+    color: [0.154688, 0.257329, 0.66, 1]
+    polarColor: [0.755227, 0.79154, 0.934, 1]
+  sea:
+    color: [0.554799, 0.667969, 0.52733, 1]
+    polarColor: [0.893676, 0.933203, 0.884082, 1]
+  air:
+    color: [0.598597, 0.472695, 0.950871, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.703396, 0.0768585, 0.855469, 1]
+    ratio: 0.25
+    polarColor: [0.786639, 0.381553, 0.884961, 1]
+  demographics:
+    type: 46
+    gdp: 26496
+    tech: 10
+    economy: 1
+    government: 4
+    description: The planet Qugeza is most well known for its exotic cuisine.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.285348, 0.622827, 0.820731, 1]
+  radius: 128346.482544
+  orbit:
+    type: static
+    parent: ~
+    radius: 387940
+    vector: [0.703, 0.325, 0.632]
+  corona:
+    shimmer: 0.377773
+    hues: 0.699219
+    flare: 0.009042
+stations:
+- type: coriolis
+  orbit:
+    parent: Qugeza
+    vector: undefined
+    radius: 11084

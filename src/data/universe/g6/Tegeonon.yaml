@@ -1,0 +1,61 @@
+name: Tegeonon
+position: [159, 231]
+seed: 206 231 146 159 80 124
+limits:
+  blurs: 160
+  stars: 8595
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tegeonon
+  radius: 6047
+  rotationSpeed: 0.000158
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 604700
+  land:
+    ratio: 0.51
+    color: [0.539594, 0.66, 0.407344, 1]
+    polarColor: [0.891402, 0.934, 0.844613, 1]
+  sea:
+    color: [0.263947, 0.426385, 0.544922, 1]
+    polarColor: [0.823626, 0.894089, 0.945508, 1]
+  air:
+    color: [0.587, 0.935912, 0.889247, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.810547, 0.646053, 0.389442, 1]
+    ratio: 0.48
+    polarColor: [0.864746, 0.755063, 0.583957, 1]
+  demographics:
+    type: 26
+    gdp: 3744
+    tech: 4
+    economy: 7
+    government: 2
+    description: Tegeonon is well known for its inhabitants’ weird silliness but cursed by deadly civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.844223, 0.72371, 0.358971, 1]
+  radius: 177073.314819
+  orbit:
+    type: static
+    parent: ~
+    radius: 604700
+    vector: [-0.581, -0.812, 0.06]
+  corona:
+    shimmer: 0.277122
+    hues: 0.786034
+    flare: 0.034605
+stations:
+- type: coriolis
+  orbit:
+    parent: Tegeonon
+    vector: undefined
+    radius: 12094

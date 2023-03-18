@@ -1,0 +1,61 @@
+name: Aona
+position: [78, 224]
+seed: 64 224 232 78 125 160
+limits:
+  blurs: 188
+  stars: 6683
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aona
+  radius: 2894
+  rotationSpeed: 0.003795
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 434100
+  land:
+    ratio: 0.71
+    color: [0.293906, 0.66, 0.488394, 1]
+    polarColor: [0.80448, 0.934, 0.873288, 1]
+  sea:
+    color: [0.573276, 0.628906, 0.49944, 1]
+    polarColor: [0.916386, 0.937109, 0.888881, 1]
+  air:
+    color: [0.494686, 0.573666, 0.879979, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.183235, 0.459559, 0.642578, 1]
+    ratio: 0.2
+    polarColor: [0.436581, 0.648679, 0.78916, 1]
+  demographics:
+    type: 54
+    gdp: 38880
+    tech: 12
+    economy: 0
+    government: 5
+    description: This world is very well known for Aonaian lethal brandy and its great volcanoes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.739127, 0.732931, 0.350926, 1]
+  radius: 50399.917908
+  orbit:
+    type: static
+    parent: ~
+    radius: 57880
+    vector: [0.176, -0.163, -0.971]
+  corona:
+    shimmer: 0.36114
+    hues: 0.853844
+    flare: 0.068925
+stations:
+- type: icosahedron
+  orbit:
+    parent: Aona
+    vector: undefined
+    radius: 5788

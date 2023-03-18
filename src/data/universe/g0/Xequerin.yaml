@@ -1,0 +1,61 @@
+name: Xequerin
+position: [180, 131]
+seed: 218 131 32 180 51 226
+limits:
+  blurs: 169
+  stars: 7010
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xequerin
+  radius: 3508
+  rotationSpeed: 0.002357
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 491120
+  land:
+    ratio: 0.3
+    color: [0.19043, 0.540642, 0.609375, 1]
+    polarColor: [0.777661, 0.912583, 0.939062, 1]
+  sea:
+    color: [0.675781, 0.664909, 0.50182, 1]
+    polarColor: [0.932422, 0.928671, 0.872415, 1]
+  air:
+    color: [0.627757, 0.532498, 0.905344, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.618641, 0.261108, 0.71875, 1]
+    ratio: 0.19
+    polarColor: [0.751756, 0.495751, 0.823438, 1]
+  demographics:
+    type: 32
+    gdp: 14336
+    tech: 6
+    economy: 3
+    government: 4
+    description: The world Xequerin is fabled for its weird volcanoes and the Xequerinian mountain lobstoid.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.605841, 0.747134, 0.805695, 1]
+  radius: 88926.322632
+  orbit:
+    type: static
+    parent: ~
+    radius: 315720
+    vector: [0.355, -0.935, 0.018]
+  corona:
+    shimmer: 0.372199
+    hues: 0.872391
+    flare: 0.083528
+stations:
+- type: coriolis
+  orbit:
+    parent: Xequerin
+    vector: undefined
+    radius: 7016

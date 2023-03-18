@@ -1,0 +1,61 @@
+name: Arbeis
+position: [8, 224]
+seed: 253 224 81 8 181 224
+limits:
+  blurs: 58
+  stars: 9158
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arbeis
+  radius: 2824
+  rotationSpeed: 0.004479
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 310640
+  land:
+    ratio: 0.65
+    color: [0.632812, 0.422699, 0.511341, 1]
+    polarColor: [0.936719, 0.858964, 0.891767, 1]
+  sea:
+    color: [0.675184, 0.730469, 0.553558, 1]
+    polarColor: [0.909414, 0.926953, 0.870829, 1]
+  air:
+    color: [0.584064, 0.91628, 0.973635, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.672008, 0.923828, 0.368088, 1]
+    ratio: 0.33
+    polarColor: [0.759716, 0.915723, 0.571432, 1]
+  demographics:
+    type: 35
+    gdp: 16800
+    tech: 8
+    economy: 0
+    government: 2
+    description: This world is a revolting dump.
+    inhabitants: Large Slimy Rodents
+- type: star
+  type: primary
+  color: [0.393674, 0.517773, 0.815887, 1]
+  radius: 68367.895508
+  orbit:
+    type: static
+    parent: ~
+    radius: 225920
+    vector: [0.125, -0.956, -0.266]
+  corona:
+    shimmer: 0.30806
+    hues: 0.87487
+    flare: 0.017929
+stations:
+- type: coriolis
+  orbit:
+    parent: Arbeis
+    vector: undefined
+    radius: 5648

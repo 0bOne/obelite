@@ -1,0 +1,61 @@
+name: Orgetibe
+position: [26, 47]
+seed: 218 47 148 26 27 153
+limits:
+  blurs: 120
+  stars: 6014
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orgetibe
+  radius: 5146
+  rotationSpeed: 0.004019
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 463140
+  land:
+    ratio: 0.59
+    color: [0.66, 0.12375, 0.488232, 1]
+    polarColor: [0.934, 0.744281, 0.873231, 1]
+  sea:
+    color: [0.615234, 0.490267, 0.45686, 1]
+    polarColor: [0.938477, 0.89082, 0.87808, 1]
+  air:
+    color: [0.605354, 0.510172, 0.920303, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.600697, 0.199867, 0.763672, 1]
+    ratio: 0.24
+    polarColor: [0.731125, 0.454369, 0.843652, 1]
+  demographics:
+    type: 22
+    gdp: 3168
+    tech: 3
+    economy: 7
+    government: 2
+    description: This planet is a dull world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.675426, 0.6782, 0.783832, 1]
+  radius: 134184.211426
+  orbit:
+    type: static
+    parent: ~
+    radius: 566060
+    vector: [0.248, -0.764, 0.596]
+  corona:
+    shimmer: 0.373225
+    hues: 0.535202
+    flare: 0.020438
+stations:
+- type: coriolis
+  orbit:
+    parent: Orgetibe
+    vector: undefined
+    radius: 10292

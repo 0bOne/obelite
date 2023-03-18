@@ -1,0 +1,61 @@
+name: Orverace
+position: [35, 25]
+seed: 116 25 200 35 182 89
+limits:
+  blurs: 186
+  stars: 6608
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orverace
+  radius: 5155
+  rotationSpeed: 0.004186
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 463950
+  land:
+    ratio: 0.53
+    color: [0.578145, 0.5775, 0.66, 1]
+    polarColor: [0.905041, 0.904813, 0.934, 1]
+  sea:
+    color: [0.147934, 0.541016, 0.135254, 1]
+    polarColor: [0.774085, 0.945898, 0.768542, 1]
+  air:
+    color: [0.5175, 0.979488, 0.881643, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.941406, 0.46105, 0.172836, 1]
+    ratio: 0.36
+    polarColor: [0.923633, 0.629078, 0.452346, 1]
+  demographics:
+    type: 37
+    gdp: 10360
+    tech: 8
+    economy: 3
+    government: 1
+    description: The world Orverace is very famous for its unusual casinos but beset by lethal disease.
+    inhabitants: Yellow Horned Lobsters
+- type: star
+  type: primary
+  color: [0.602017, 0.661396, 0.701126, 1]
+  radius: 116387.874603
+  orbit:
+    type: static
+    parent: ~
+    radius: 773250
+    vector: [0.536, -0.707, 0.461]
+  corona:
+    shimmer: 0.31914
+    hues: 0.694336
+    flare: 0.047881
+stations:
+- type: coriolis
+  orbit:
+    parent: Orverace
+    vector: undefined
+    radius: 10310

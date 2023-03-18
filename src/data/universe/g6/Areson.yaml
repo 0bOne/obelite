@@ -1,0 +1,61 @@
+name: Areson
+position: [106, 52]
+seed: 50 52 162 106 244 10
+limits:
+  blurs: 65
+  stars: 6399
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Areson
+  radius: 5482
+  rotationSpeed: 0.004942
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 657840
+  land:
+    ratio: 0.45
+    color: [0.216293, 0.428231, 0.615234, 1]
+    polarColor: [0.786341, 0.867163, 0.938477, 1]
+  sea:
+    color: [0.621094, 0.580958, 0.474312, 1]
+    polarColor: [0.937891, 0.922739, 0.882478, 1]
+  air:
+    color: [0.599194, 0.904693, 0.811379, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.716797, 0.447823, 0.419998, 1]
+    ratio: 0.62
+    polarColor: [0.822559, 0.629646, 0.609689, 1]
+  demographics:
+    type: 37
+    gdp: 14208
+    tech: 7
+    economy: 4
+    government: 4
+    description: The world Areson is a boring world.
+    inhabitants: Small Green Rodents
+- type: star
+  type: primary
+  color: [0.663525, 0.721514, 0.747543, 1]
+  radius: 149720.265808
+  orbit:
+    type: static
+    parent: ~
+    radius: 438560
+    vector: [0.254, -0.521, 0.815]
+  corona:
+    shimmer: 0.353062
+    hues: 0.942513
+    flare: 0.002737
+stations:
+- type: coriolis
+  orbit:
+    parent: Areson
+    vector: undefined
+    radius: 10964

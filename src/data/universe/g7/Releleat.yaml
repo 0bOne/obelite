@@ -1,0 +1,61 @@
+name: Releleat
+position: [81, 129]
+seed: 233 129 24 81 133 110
+limits:
+  blurs: 150
+  stars: 8950
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Releleat
+  radius: 6481
+  rotationSpeed: 0.001586
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 712910
+  land:
+    ratio: 0.71
+    color: [0.110537, 0.0928125, 0.66, 1]
+    polarColor: [0.739607, 0.733336, 0.934, 1]
+  sea:
+    color: [0.599646, 0.632812, 0.495868, 1]
+    polarColor: [0.924445, 0.936719, 0.886041, 1]
+  air:
+    color: [0.566545, 0.963229, 0.94423, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.892578, 0.817098, 0.324257, 1]
+    ratio: 0.45
+    polarColor: [0.90166, 0.854005, 0.542845, 1]
+  demographics:
+    type: 41
+    gdp: 20664
+    tech: 9
+    economy: 1
+    government: 3
+    description: This planet is noted for its exotic fish meat.
+    inhabitants: Blue Slimy Lizards
+- type: star
+  type: primary
+  color: [0.773328, 0.674207, 0.373182, 1]
+  radius: 167718.22464
+  orbit:
+    type: static
+    parent: ~
+    radius: 518480
+    vector: [-0.447, 0.113, -0.888]
+  corona:
+    shimmer: 0.387333
+    hues: 0.586334
+    flare: 0.016592
+stations:
+- type: coriolis
+  orbit:
+    parent: Releleat
+    vector: undefined
+    radius: 12962

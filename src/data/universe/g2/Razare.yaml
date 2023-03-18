@@ -1,0 +1,61 @@
+name: Razare
+position: [149, 91]
+seed: 37 91 137 149 69 212
+limits:
+  blurs: 49
+  stars: 6621
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Razare
+  radius: 3989
+  rotationSpeed: 0.003557
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 359010
+  land:
+    ratio: 0.33
+    color: [0.620583, 0.611016, 0.66, 1]
+    polarColor: [0.920055, 0.91667, 0.934, 1]
+  sea:
+    color: [0.519531, 0.136954, 0.00405884, 1]
+    polarColor: [0.948047, 0.773514, 0.712887, 1]
+  air:
+    color: [0.496157, 0.662266, 0.843557, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.193703, 0.533203, 0.389976, 1]
+    ratio: 0.29
+    polarColor: [0.445482, 0.739941, 0.615716, 1]
+  demographics:
+    type: 29
+    gdp: 8120
+    tech: 6
+    economy: 3
+    government: 1
+    description: The world Razare is a dull place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.322934, 0.548213, 0.786438, 1]
+  radius: 94699.794922
+  orbit:
+    type: static
+    parent: ~
+    radius: 359010
+    vector: [0.131, 0.989, -0.066]
+  corona:
+    shimmer: 0.817565
+    hues: 0.997078
+    flare: 0.039003
+stations:
+- type: coriolis
+  orbit:
+    parent: Razare
+    vector: undefined
+    radius: 7978

@@ -1,0 +1,61 @@
+name: Laesinma
+position: [77, 165]
+seed: 246 165 132 77 211 245
+limits:
+  blurs: 193
+  stars: 9415
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laesinma
+  radius: 4173
+  rotationSpeed: 0.000006
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 542490
+  land:
+    ratio: 0.42
+    color: [0.645015, 0.644531, 0.66, 1]
+    polarColor: [0.928698, 0.928527, 0.934, 1]
+  sea:
+    color: [0.188507, 0.554688, 0.443117, 1]
+    polarColor: [0.788647, 0.944531, 0.897035, 1]
+  air:
+    color: [0.780915, 0.648036, 0.851361, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.556641, 0.491409, 0.492938, 1]
+    ratio: 0.12
+    polarColor: [0.750488, 0.695521, 0.696809, 1]
+  demographics:
+    type: 12
+    gdp: 1152
+    tech: 1
+    economy: 7
+    government: 0
+    description: The planet Laesinma is scourged by deadly edible arts graduates.
+    inhabitants: Slimy Frogs
+- type: star
+  type: primary
+  color: [0.800934, 0.779244, 0.649265, 1]
+  radius: 107220.935669
+  orbit:
+    type: static
+    parent: ~
+    radius: 333840
+    vector: [0.112, 0.837, 0.535]
+  corona:
+    shimmer: 1.099782
+    hues: 0.559486
+    flare: 0.036389
+stations:
+- type: coriolis
+  orbit:
+    parent: Laesinma
+    vector: undefined
+    radius: 8346

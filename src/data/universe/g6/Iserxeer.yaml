@@ -1,0 +1,61 @@
+name: Iserxeer
+position: [212, 31]
+seed: 94 31 26 212 64 157
+limits:
+  blurs: 68
+  stars: 9864
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Iserxeer
+  radius: 6356
+  rotationSpeed: 0.003619
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 635600
+  land:
+    ratio: 0.41
+    color: [0.621094, 0.371201, 0.611332, 1]
+    polarColor: [0.937891, 0.843552, 0.934206, 1]
+  sea:
+    color: [0.740234, 0.519077, 0.422165, 1]
+    polarColor: [0.925977, 0.856814, 0.826506, 1]
+  air:
+    color: [0.679894, 0.829573, 0.928107, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.627228, 0.787109, 0.659704, 1]
+    ratio: 0.16
+    polarColor: [0.745756, 0.854199, 0.767784, 1]
+  demographics:
+    type: 19
+    gdp: 3192
+    tech: 2
+    economy: 7
+    government: 3
+    description: The world Iserxeer is reasonably noted for Zero-G hockey and its inhabitants’ ingrained silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.680222, 0.71898, 0.820474, 1]
+  radius: 196330.338135
+  orbit:
+    type: static
+    parent: ~
+    radius: 826280
+    vector: [0.974, 0.174, 0.149]
+  corona:
+    shimmer: 0.901731
+    hues: 0.706963
+    flare: 0.037523
+stations:
+- type: coriolis
+  orbit:
+    parent: Iserxeer
+    vector: undefined
+    radius: 12712

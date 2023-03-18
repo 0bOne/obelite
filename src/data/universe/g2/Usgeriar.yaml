@@ -1,0 +1,61 @@
+name: Usgeriar
+position: [17, 41]
+seed: 229 41 73 17 197 232
+limits:
+  blurs: 146
+  stars: 5334
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usgeriar
+  radius: 4881
+  rotationSpeed: 0.001046
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 634530
+  land:
+    ratio: 0.34
+    color: [0.66, 0.318237, 0.226875, 1]
+    polarColor: [0.934, 0.813089, 0.780766, 1]
+  sea:
+    color: [0.551788, 0.703125, 0.568341, 1]
+    polarColor: [0.879662, 0.929688, 0.885134, 1]
+  air:
+    color: [0.501036, 0.984691, 0.859609, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.957031, 0.315895, 0.119629, 1]
+    ratio: 0.56
+    polarColor: [0.930664, 0.540994, 0.421707, 1]
+  demographics:
+    type: 29
+    gdp: 8120
+    tech: 6
+    economy: 3
+    government: 1
+    description: This world is very fabled for its ancient mountains.
+    inhabitants: Small Slimy Rodents
+- type: star
+  type: primary
+  color: [0.552054, 0.573467, 0.661923, 1]
+  radius: 131331.789551
+  orbit:
+    type: static
+    parent: ~
+    radius: 488100
+    vector: [-0.242, -0.282, -0.928]
+  corona:
+    shimmer: 0.387626
+    hues: 0.948296
+    flare: 0.033157
+stations:
+- type: coriolis
+  orbit:
+    parent: Usgeriar
+    vector: undefined
+    radius: 9762

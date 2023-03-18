@@ -1,0 +1,61 @@
+name: Tiintele
+position: [152, 124]
+seed: 201 124 101 152 170 55
+limits:
+  blurs: 57
+  stars: 6256
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiintele
+  radius: 4760
+  rotationSpeed: 0.003915
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 571200
+  land:
+    ratio: 0.4
+    color: [0.66, 0.355781, 0.384302, 1]
+    polarColor: [0.934, 0.826371, 0.836461, 1]
+  sea:
+    color: [0.583207, 0.671875, 0.52254, 1]
+    polarColor: [0.902037, 0.932813, 0.880979, 1]
+  air:
+    color: [0.628963, 0.900141, 0.863872, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.703125, 0.61944, 0.488892, 1]
+    ratio: 0.2
+    polarColor: [0.816406, 0.755677, 0.660938, 1]
+  demographics:
+    type: 29
+    gdp: 11136
+    tech: 5
+    economy: 4
+    government: 4
+    description: This world is plagued by deadly earthquakes.
+    inhabitants: Red Fat Insects
+- type: star
+  type: primary
+  color: [0.276007, 0.744365, 0.786026, 1]
+  radius: 110154.168701
+  orbit:
+    type: static
+    parent: ~
+    radius: 238000
+    vector: [-0.531, -0.656, -0.536]
+  corona:
+    shimmer: 0.675016
+    hues: 0.798294
+    flare: 0.068076
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiintele
+    vector: undefined
+    radius: 9520

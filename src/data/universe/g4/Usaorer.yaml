@@ -1,0 +1,61 @@
+name: Usaorer
+position: [97, 37]
+seed: 118 37 120 97 91 72
+limits:
+  blurs: 58
+  stars: 9261
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usaorer
+  radius: 4961
+  rotationSpeed: 0.000399
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 595320
+  land:
+    ratio: 0.5
+    color: [0.453589, 0.226875, 0.66, 1]
+    polarColor: [0.860974, 0.780766, 0.934, 1]
+  sea:
+    color: [0.535156, 0.458992, 0.425616, 1]
+    polarColor: [0.946484, 0.912808, 0.898051, 1]
+  air:
+    color: [0.75616, 0.650794, 0.836402, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.511719, 0.477737, 0.487295, 1]
+    ratio: 0.33
+    polarColor: [0.730273, 0.699964, 0.708489, 1]
+  demographics:
+    type: 41
+    gdp: 18040
+    tech: 7
+    economy: 5
+    government: 7
+    description: This planet is reasonably famous for its inhabitants’ exceptional loathing of sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.713196, 0.678742, 0.305616, 1]
+  radius: 104509.835815
+  orbit:
+    type: static
+    parent: ~
+    radius: 248050
+    vector: [0.734, -0.644, 0.219]
+  corona:
+    shimmer: 0.553168
+    hues: 0.661636
+    flare: 0.007445
+stations:
+- type: coriolis
+  orbit:
+    parent: Usaorer
+    vector: undefined
+    radius: 9922

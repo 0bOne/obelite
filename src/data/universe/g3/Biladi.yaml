@@ -1,0 +1,61 @@
+name: Biladi
+position: [241, 94]
+seed: 50 94 98 241 26 6
+limits:
+  blurs: 59
+  stars: 6383
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biladi
+  radius: 4593
+  rotationSpeed: 0.001914
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 459300
+  land:
+    ratio: 0.31
+    color: [0.66, 0.0383093, 0.00773438, 1]
+    polarColor: [0.934, 0.714053, 0.703236, 1]
+  sea:
+    color: [0.549221, 0.652344, 0.520346, 1]
+    polarColor: [0.897823, 0.934766, 0.88748, 1]
+  air:
+    color: [0.532777, 0.573878, 0.856564, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.266014, 0.378466, 0.572266, 1]
+    ratio: 0.49
+    polarColor: [0.50415, 0.597184, 0.75752, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 4
+    economy: 6
+    government: 4
+    description: This world is a revolting little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.214258, 0.677377, 0.802789, 1]
+  radius: 127503.827362
+  orbit:
+    type: static
+    parent: ~
+    radius: 643020
+    vector: [-0.157, 0.078, 0.985]
+  corona:
+    shimmer: 0.476625
+    hues: 0.787407
+    flare: 0.052003
+stations:
+- type: coriolis
+  orbit:
+    parent: Biladi
+    vector: undefined
+    radius: 9186

@@ -1,0 +1,61 @@
+name: Anonmabi
+position: [112, 20]
+seed: 112 20 56 112 58 59
+limits:
+  blurs: 99
+  stars: 6974
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anonmabi
+  radius: 5744
+  rotationSpeed: 0.004028
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 574400
+  land:
+    ratio: 0.51
+    color: [0.202394, 0.636719, 0.00497437, 1]
+    polarColor: [0.776654, 0.936328, 0.704075, 1]
+  sea:
+    color: [0.580139, 0.78125, 0.62099, 1]
+    polarColor: [0.862547, 0.921875, 0.874598, 1]
+  air:
+    color: [0.423246, 0.698033, 0.891035, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0158386, 0.675781, 0.180824, 1]
+    ratio: 0.22
+    polarColor: [0.313317, 0.804102, 0.436013, 1]
+  demographics:
+    type: 40
+    gdp: 21120
+    tech: 7
+    economy: 4
+    government: 7
+    description: This planet is reasonably noted for its exotic goat soup.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.79057, 0.274648, 0.243069, 1]
+  radius: 146100.554199
+  orbit:
+    type: static
+    parent: ~
+    radius: 631840
+    vector: [-0.107, -0.986, -0.126]
+  corona:
+    shimmer: 0.536617
+    hues: 0.830536
+    flare: 0.046646
+stations:
+- type: coriolis
+  orbit:
+    parent: Anonmabi
+    vector: undefined
+    radius: 11488

@@ -1,0 +1,61 @@
+name: Zaxerice
+position: [215, 199]
+seed: 116 199 32 215 102 68
+limits:
+  blurs: 86
+  stars: 5273
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaxerice
+  radius: 4055
+  rotationSpeed: 0.003267
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 567700
+  land:
+    ratio: 0.51
+    color: [0.554297, 0.65009, 0.66, 1]
+    polarColor: [0.896604, 0.930494, 0.934, 1]
+  sea:
+    color: [0.5795, 0.644531, 0.508072, 1]
+    polarColor: [0.911948, 0.935547, 0.886029, 1]
+  air:
+    color: [0.55948, 0.972135, 0.974936, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.908029, 0.927734, 0.297165, 1]
+    ratio: 0.55
+    polarColor: [0.905301, 0.91748, 0.52773, 1]
+  demographics:
+    type: 32
+    gdp: 6144
+    tech: 5
+    economy: 7
+    government: 4
+    description: Zaxerice is an unremarkable dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.301416, 0.70069, 0.716034, 1]
+  radius: 83780.39856
+  orbit:
+    type: static
+    parent: ~
+    radius: 162200
+    vector: [-0.559, -0.761, 0.329]
+  corona:
+    shimmer: 0.857913
+    hues: 0.842873
+    flare: 0.009744
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaxerice
+    vector: undefined
+    radius: 8110

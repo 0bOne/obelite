@@ -1,0 +1,61 @@
+name: Atius
+position: [226, 133]
+seed: 180 133 40 226 54 239
+limits:
+  blurs: 105
+  stars: 5419
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atius
+  radius: 6882
+  rotationSpeed: 0.003034
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 825840
+  land:
+    ratio: 0.41
+    color: [0.66, 0.134062, 0.294309, 1]
+    polarColor: [0.934, 0.74793, 0.804623, 1]
+  sea:
+    color: [0.583984, 0.576556, 0.465134, 1]
+    polarColor: [0.941602, 0.938607, 0.893694, 1]
+  air:
+    color: [0.550043, 0.557786, 0.853963, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.299866, 0.316402, 0.564453, 1]
+    ratio: 0.43
+    polarColor: [0.533104, 0.546911, 0.754004, 1]
+  demographics:
+    type: 39
+    gdp: 14040
+    tech: 7
+    economy: 5
+    government: 5
+    description: This world is most notable for Atiusian lethal brandy but beset by deadly tree wolfs.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.776105, 0.579453, 0.50004, 1]
+  radius: 182572.10083
+  orbit:
+    type: static
+    parent: ~
+    radius: 619380
+    vector: [-0.299, -0.703, 0.645]
+  corona:
+    shimmer: 0.388265
+    hues: 0.802307
+    flare: 0.016808
+stations:
+- type: coriolis
+  orbit:
+    parent: Atius
+    vector: undefined
+    radius: 13764

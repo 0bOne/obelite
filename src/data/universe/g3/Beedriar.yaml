@@ -1,0 +1,61 @@
+name: Beedriar
+position: [82, 211]
+seed: 66 211 50 82 90 147
+limits:
+  blurs: 121
+  stars: 9509
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beedriar
+  radius: 3666
+  rotationSpeed: 0.002579
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 403260
+  land:
+    ratio: 0.61
+    color: [0.0257813, 0.526219, 0.66, 1]
+    polarColor: [0.709621, 0.88667, 0.934, 1]
+  sea:
+    color: [0.617928, 0.628906, 0.488385, 1]
+    polarColor: [0.93302, 0.937109, 0.884763, 1]
+  air:
+    color: [0.573807, 0.888863, 0.993146, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.485125, 0.982422, 0.326195, 1]
+    ratio: 0.5
+    polarColor: [0.644039, 0.94209, 0.548786, 1]
+  demographics:
+    type: 46
+    gdp: 25760
+    tech: 9
+    economy: 3
+    government: 6
+    description: This world is very notable for its inhabitants’ ingrained silliness and its weird rock formations.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.400453, 0.662238, 0.69328, 1]
+  radius: 126794.620056
+  orbit:
+    type: static
+    parent: ~
+    radius: 329940
+    vector: [0.023, -0.14, -0.99]
+  corona:
+    shimmer: 0.282334
+    hues: 0.580925
+    flare: 0.061989
+stations:
+- type: coriolis
+  orbit:
+    parent: Beedriar
+    vector: undefined
+    radius: 7332

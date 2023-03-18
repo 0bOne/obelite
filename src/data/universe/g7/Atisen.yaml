@@ -1,0 +1,61 @@
+name: Atisen
+position: [131, 8]
+seed: 89 8 136 131 85 209
+limits:
+  blurs: 183
+  stars: 7803
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atisen
+  radius: 3203
+  rotationSpeed: 0.000388
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 448420
+  land:
+    ratio: 0.6
+    color: [0.518445, 0.0128906, 0.66, 1]
+    polarColor: [0.88392, 0.705061, 0.934, 1]
+  sea:
+    color: [0.621094, 0.591722, 0.476495, 1]
+    polarColor: [0.937891, 0.926802, 0.883303, 1]
+  air:
+    color: [0.697614, 0.592456, 0.868922, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.609375, 0.392761, 0.575529, 1]
+    ratio: 0.53
+    polarColor: [0.774219, 0.602212, 0.747343, 1]
+  demographics:
+    type: 40
+    gdp: 12800
+    tech: 9
+    economy: 2
+    government: 1
+    description: The planet Atisen is an unremarkable planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.810779, 0.645482, 0.460631, 1]
+  radius: 81596.933289
+  orbit:
+    type: static
+    parent: ~
+    radius: 256240
+    vector: [0.244, -0.54, 0.806]
+  corona:
+    shimmer: 0.314771
+    hues: 0.822556
+    flare: 0.052336
+stations:
+- type: coriolis
+  orbit:
+    parent: Atisen
+    vector: undefined
+    radius: 6406

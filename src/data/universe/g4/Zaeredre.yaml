@@ -1,0 +1,61 @@
+name: Zaeredre
+position: [35, 104]
+seed: 214 104 180 35 83 196
+limits:
+  blurs: 146
+  stars: 6920
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaeredre
+  radius: 3875
+  rotationSpeed: 0.001852
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 426250
+  land:
+    ratio: 0.63
+    color: [0.541016, 0.321377, 0.0105667, 1]
+    polarColor: [0.945898, 0.849896, 0.714042, 1]
+  sea:
+    color: [0.609375, 0.519735, 0.460364, 1]
+    polarColor: [0.939062, 0.904528, 0.881655, 1]
+  air:
+    color: [0.574818, 0.569012, 0.840955, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.345653, 0.330421, 0.525391, 1]
+    ratio: 0.57
+    polarColor: [0.578968, 0.565624, 0.736426, 1]
+  demographics:
+    type: 59
+    gdp: 47200
+    tech: 13
+    economy: 0
+    government: 6
+    description: This world is noted for its exciting vacuum karate.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.320785, 0.555321, 0.729199, 1]
+  radius: 75382.041931
+  orbit:
+    type: static
+    parent: ~
+    radius: 348750
+    vector: [-0.393, -0.707, 0.589]
+  corona:
+    shimmer: 1.01336
+    hues: 0.581741
+    flare: 0.04505
+stations:
+- type: icosahedron
+  orbit:
+    parent: Zaeredre
+    vector: undefined
+    radius: 7750

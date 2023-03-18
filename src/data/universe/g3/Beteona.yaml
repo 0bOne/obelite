@@ -1,0 +1,61 @@
+name: Beteona
+position: [143, 216]
+seed: 210 216 194 143 154 19
+limits:
+  blurs: 92
+  stars: 9201
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beteona
+  radius: 3727
+  rotationSpeed: 0.000655
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 484510
+  land:
+    ratio: 0.43
+    color: [0.605859, 0.66, 0.615588, 1]
+    polarColor: [0.914846, 0.934, 0.918288, 1]
+  sea:
+    color: [0.605568, 0.759966, 0.763672, 1]
+    polarColor: [0.875828, 0.922512, 0.923633, 1]
+  air:
+    color: [0.450984, 0.750328, 0.84941, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.213283, 0.550781, 0.105423, 1]
+    ratio: 0.38
+    polarColor: [0.461442, 0.747852, 0.369909, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: This planet is fabled for its exciting sit coms.
+    inhabitants: Green Lizards
+- type: star
+  type: primary
+  color: [0.77038, 0.555443, 0.394109, 1]
+  radius: 91404.652252
+  orbit:
+    type: static
+    parent: ~
+    radius: 223620
+    vector: [0.819, 0.564, -0.106]
+  corona:
+    shimmer: 0.473157
+    hues: 0.570068
+    flare: 0.074715
+stations:
+- type: coriolis
+  orbit:
+    parent: Beteona
+    vector: undefined
+    radius: 7454

@@ -1,0 +1,61 @@
+name: Birior
+position: [85, 99]
+seed: 26 99 66 85 42 6
+limits:
+  blurs: 116
+  stars: 8952
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Birior
+  radius: 4437
+  rotationSpeed: 0.002515
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 399330
+  land:
+    ratio: 0.67
+    color: [0.617844, 0.66, 0.600703, 1]
+    polarColor: [0.919086, 0.934, 0.913022, 1]
+  sea:
+    color: [0.10479, 0.654297, 0.538385, 1]
+    polarColor: [0.738347, 0.93457, 0.893179, 1]
+  air:
+    color: [0.718211, 0.817953, 0.897539, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.695312, 0.695312, 0.695312, 1]
+    ratio: 0.3
+    polarColor: [0.812891, 0.812891, 0.812891, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: The planet Birior is very famous for its exotic fish meat but beset by frequent civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.725168, 0.395757, 0.367154, 1]
+  radius: 88675.004883
+  orbit:
+    type: static
+    parent: ~
+    radius: 488070
+    vector: [0.108, -0.474, -0.874]
+  corona:
+    shimmer: 0.230125
+    hues: 0.975891
+    flare: 0.035141
+stations:
+- type: coriolis
+  orbit:
+    parent: Birior
+    vector: undefined
+    radius: 8874

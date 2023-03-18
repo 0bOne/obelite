@@ -1,0 +1,61 @@
+name: Aenqute
+position: [248, 41]
+seed: 217 41 241 248 141 111
+limits:
+  blurs: 143
+  stars: 6027
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aenqute
+  radius: 6904
+  rotationSpeed: 0.001025
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 828480
+  land:
+    ratio: 0.32
+    color: [0.66, 0.177891, 0.302184, 1]
+    polarColor: [0.934, 0.763436, 0.807409, 1]
+  sea:
+    color: [0.578125, 0.548033, 0.457758, 1]
+    polarColor: [0.942187, 0.929927, 0.893146, 1]
+  air:
+    color: [0.765083, 0.538206, 0.937863, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.816406, 0.261505, 0.417571, 1]
+    ratio: 0.43
+    polarColor: [0.867383, 0.498915, 0.602546, 1]
+  demographics:
+    type: 44
+    gdp: 31680
+    tech: 9
+    economy: 1
+    government: 6
+    description: The world Aenqute is reasonably fabled for its fabulous cuisine and the Aenquteian mountain slug.
+    inhabitants: Blue Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.754509, 0.75599, 0.772427, 1]
+  radius: 153931.514893
+  orbit:
+    type: static
+    parent: ~
+    radius: 276160
+    vector: [0.329, -0.422, -0.845]
+  corona:
+    shimmer: 0.495764
+    hues: 0.828133
+    flare: 0.075459
+stations:
+- type: coriolis
+  orbit:
+    parent: Aenqute
+    vector: undefined
+    radius: 13808

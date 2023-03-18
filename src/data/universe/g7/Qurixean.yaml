@@ -1,0 +1,61 @@
+name: Qurixean
+position: [9, 155]
+seed: 127 155 26 9 75 250
+limits:
+  blurs: 131
+  stars: 6598
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qurixean
+  radius: 5385
+  rotationSpeed: 0.00492
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 700050
+  land:
+    ratio: 0.27
+    color: [0.475443, 0.177891, 0.66, 1]
+    polarColor: [0.868706, 0.763436, 0.934, 1]
+  sea:
+    color: [0.6875, 0.455305, 0.437744, 1]
+    polarColor: [0.93125, 0.85262, 0.846674, 1]
+  air:
+    color: [0.445032, 0.593069, 0.904693, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0531998, 0.685691, 0.716797, 1]
+    ratio: 0.61
+    polarColor: [0.346615, 0.800249, 0.822559, 1]
+  demographics:
+    type: 35
+    gdp: 13720
+    tech: 7
+    economy: 3
+    government: 3
+    description: Qurixean is very fabled for its unusual oceans.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.778809, 0.773819, 0.630162, 1]
+  radius: 112290.758514
+  orbit:
+    type: static
+    parent: ~
+    radius: 269250
+    vector: [-0.321, 0.417, 0.85]
+  corona:
+    shimmer: 0.336894
+    hues: 0.932114
+    flare: 0.030766
+stations:
+- type: coriolis
+  orbit:
+    parent: Qurixean
+    vector: undefined
+    radius: 10770

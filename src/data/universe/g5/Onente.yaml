@@ -1,0 +1,61 @@
+name: Onente
+position: [74, 136]
+seed: 185 136 77 74 90 223
+limits:
+  blurs: 109
+  stars: 6436
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onente
+  radius: 6730
+  rotationSpeed: 0.003668
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 740300
+  land:
+    ratio: 0.65
+    color: [0.496718, 0.310898, 0.636719, 1]
+    polarColor: [0.884858, 0.816544, 0.936328, 1]
+  sea:
+    color: [0.609375, 0.607326, 0.478217, 1]
+    polarColor: [0.939062, 0.938273, 0.888533, 1]
+  air:
+    color: [0.456375, 0.683326, 0.870223, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.105408, 0.613281, 0.291893, 1]
+    ratio: 0.39
+    polarColor: [0.374348, 0.775977, 0.521821, 1]
+  demographics:
+    type: 36
+    gdp: 11520
+    tech: 8
+    economy: 2
+    government: 1
+    description: Onente is cursed by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.649783, 0.684171, 0.751996, 1]
+  radius: 140237.771606
+  orbit:
+    type: static
+    parent: ~
+    radius: 538400
+    vector: [-0.497, 0.821, -0.283]
+  corona:
+    shimmer: 0.666301
+    hues: 0.708565
+    flare: 0.083873
+stations:
+- type: coriolis
+  orbit:
+    parent: Onente
+    vector: undefined
+    radius: 13460

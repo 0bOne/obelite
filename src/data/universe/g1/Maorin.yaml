@@ -1,0 +1,61 @@
+name: Maorin
+position: [7, 70]
+seed: 128 70 224 7 90 11
+limits:
+  blurs: 62
+  stars: 9924
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maorin
+  radius: 5639
+  rotationSpeed: 0.004302
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 845850
+  land:
+    ratio: 0.43
+    color: [0.203674, 0.554688, 0.505326, 1]
+    polarColor: [0.795103, 0.944531, 0.923518, 1]
+  sea:
+    color: [0.593567, 0.759766, 0.716918, 1]
+    polarColor: [0.873491, 0.924023, 0.910996, 1]
+  air:
+    color: [0.679192, 0.83157, 0.925506, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.624046, 0.779297, 0.648304, 1]
+    ratio: 0.53
+    polarColor: [0.744763, 0.850684, 0.761313, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 6
+    economy: 6
+    government: 4
+    description: Maorin is very notable for its inhabitants’ ingrained silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.639314, 0.644789, 0.65802, 1]
+  radius: 154446.957855
+  orbit:
+    type: static
+    parent: ~
+    radius: 281950
+    vector: [0.189, 0.515, 0.836]
+  corona:
+    shimmer: 0.273443
+    hues: 0.950371
+    flare: 0.074812
+stations:
+- type: coriolis
+  orbit:
+    parent: Maorin
+    vector: undefined
+    radius: 11278

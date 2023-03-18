@@ -1,0 +1,61 @@
+name: Orarra
+position: [144, 33]
+seed: 0 33 112 144 58 57
+limits:
+  blurs: 94
+  stars: 7971
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orarra
+  radius: 5264
+  rotationSpeed: 0.001219
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 526400
+  land:
+    ratio: 0.34
+    color: [0.461484, 0.511113, 0.66, 1]
+    polarColor: [0.863768, 0.881326, 0.934, 1]
+  sea:
+    color: [0.576311, 0.628906, 0.49944, 1]
+    polarColor: [0.917517, 0.937109, 0.888881, 1]
+  air:
+    color: [0.700118, 0.837033, 0.892336, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.65181, 0.679688, 0.647827, 1]
+    ratio: 0.21
+    polarColor: [0.785201, 0.805859, 0.78225, 1]
+  demographics:
+    type: 44
+    gdp: 31680
+    tech: 9
+    economy: 1
+    government: 6
+    description: This planet is very well known for vicious Zast brew and its exotic goat soup.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.235006, 0.46402, 0.729611, 1]
+  radius: 134605.65918
+  orbit:
+    type: static
+    parent: ~
+    radius: 526400
+    vector: [-0.054, -0.967, 0.248]
+  corona:
+    shimmer: 0.952088
+    hues: 0.620995
+    flare: 0.01644
+stations:
+- type: coriolis
+  orbit:
+    parent: Orarra
+    vector: undefined
+    radius: 10528

@@ -1,0 +1,61 @@
+name: Edlate
+position: [205, 78]
+seed: 153 78 253 205 186 216
+limits:
+  blurs: 176
+  stars: 6450
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edlate
+  radius: 5069
+  rotationSpeed: 0.001809
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 709660
+  land:
+    ratio: 0.46
+    color: [0.352376, 0.339203, 0.507812, 1]
+    polarColor: [0.876582, 0.870426, 0.949219, 1]
+  sea:
+    color: [0.871094, 0.80195, 0.350479, 1]
+    polarColor: [0.912891, 0.894775, 0.776492, 1]
+  air:
+    color: [0.657881, 0.865797, 0.920953, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.639174, 0.765625, 0.568237, 1]
+    ratio: 0.5
+    polarColor: [0.757354, 0.844531, 0.70845, 1]
+  demographics:
+    type: 38
+    gdp: 13376
+    tech: 6
+    economy: 6
+    government: 7
+    description: This planet is beset by lethal disease.
+    inhabitants: Bony Lobsters
+- type: star
+  type: primary
+  color: [0.201767, 0.505201, 0.782669, 1]
+  radius: 142949.265137
+  orbit:
+    type: static
+    parent: ~
+    radius: 253450
+    vector: [-0.661, 0.669, 0.34]
+  corona:
+    shimmer: 0.632905
+    hues: 0.798111
+    flare: 0.056859
+stations:
+- type: coriolis
+  orbit:
+    parent: Edlate
+    vector: undefined
+    radius: 10138

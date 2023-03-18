@@ -1,0 +1,61 @@
+name: Inisre
+position: [196, 76]
+seed: 178 76 226 196 26 236
+limits:
+  blurs: 106
+  stars: 7616
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inisre
+  radius: 6084
+  rotationSpeed: 0.002012
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 669240
+  land:
+    ratio: 0.56
+    color: [0.53625, 0.66, 0.601992, 1]
+    polarColor: [0.890219, 0.934, 0.913478, 1]
+  sea:
+    color: [0.699219, 0.59338, 0.480713, 1]
+    polarColor: [0.930078, 0.894882, 0.857416, 1]
+  air:
+    color: [0.80782, 0.757316, 0.974936, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.908878, 0.862503, 0.927734, 1]
+    ratio: 0.56
+    polarColor: [0.905826, 0.877162, 0.91748, 1]
+  demographics:
+    type: 29
+    gdp: 11136
+    tech: 5
+    economy: 4
+    government: 4
+    description: This planet is beset by dreadful earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.205142, 0.327188, 0.706335, 1]
+  radius: 190779.483032
+  orbit:
+    type: static
+    parent: ~
+    radius: 669240
+    vector: [0.342, 0.22, -0.914]
+  corona:
+    shimmer: 0.293652
+    hues: 0.916206
+    flare: 0.007568
+stations:
+- type: coriolis
+  orbit:
+    parent: Inisre
+    vector: undefined
+    radius: 12168

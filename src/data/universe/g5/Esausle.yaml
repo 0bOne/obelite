@@ -1,0 +1,61 @@
+name: Esausle
+position: [47, 215]
+seed: 89 215 49 47 58 201
+limits:
+  blurs: 157
+  stars: 7354
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esausle
+  radius: 5167
+  rotationSpeed: 0.00381
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 775050
+  land:
+    ratio: 0.32
+    color: [0.66, 0.587813, 0.638569, 1]
+    polarColor: [0.934, 0.908461, 0.926418, 1]
+  sea:
+    color: [0.605469, 0.554231, 0.465927, 1]
+    polarColor: [0.939453, 0.919578, 0.885324, 1]
+  air:
+    color: [0.72032, 0.763735, 0.94957, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.745117, 0.804161, 0.851562, 1]
+    ratio: 0.25
+    polarColor: [0.814203, 0.852476, 0.883203, 1]
+  demographics:
+    type: 38
+    gdp: 9120
+    tech: 6
+    economy: 7
+    government: 6
+    description: This world is very notable for its inhabitants’ ingrained shyness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.701918, 0.70466, 0.775824, 1]
+  radius: 134409.331207
+  orbit:
+    type: static
+    parent: ~
+    radius: 413360
+    vector: [-0.731, 0.079, -0.678]
+  corona:
+    shimmer: 0.253438
+    hues: 0.967941
+    flare: 0.015036
+stations:
+- type: coriolis
+  orbit:
+    parent: Esausle
+    vector: undefined
+    radius: 10334

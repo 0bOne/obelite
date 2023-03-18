@@ -1,0 +1,61 @@
+name: Anenus
+position: [186, 60]
+seed: 175 60 141 186 32 27
+limits:
+  blurs: 71
+  stars: 8299
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anenus
+  radius: 5818
+  rotationSpeed: 0.004298
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 523620
+  land:
+    ratio: 0.45
+    color: [0.541016, 0.334635, 0.0126801, 1]
+    polarColor: [0.945898, 0.855691, 0.714966, 1]
+  sea:
+    color: [0.601562, 0.507091, 0.455872, 1]
+    polarColor: [0.939844, 0.902945, 0.882939, 1]
+  air:
+    color: [0.673076, 0.814054, 0.945668, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.61676, 0.839844, 0.719588, 1]
+    ratio: 0.41
+    polarColor: [0.73218, 0.87793, 0.799361, 1]
+  demographics:
+    type: 24
+    gdp: 3840
+    tech: 4
+    economy: 6
+    government: 1
+    description: This world is plagued by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.342969, 0.703275, 0.736606, 1]
+  radius: 161933.859863
+  orbit:
+    type: static
+    parent: ~
+    radius: 581800
+    vector: [0.138, -0.98, -0.142]
+  corona:
+    shimmer: 0.803511
+    hues: 0.784897
+    flare: 0.096111
+stations:
+- type: coriolis
+  orbit:
+    parent: Anenus
+    vector: undefined
+    radius: 11636

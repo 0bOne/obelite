@@ -1,0 +1,61 @@
+name: Zaquesso
+position: [74, 235]
+seed: 118 235 120 74 91 132
+limits:
+  blurs: 100
+  stars: 6555
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaquesso
+  radius: 3914
+  rotationSpeed: 0.000423
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 587100
+  land:
+    ratio: 0.39
+    color: [0.134062, 0.339507, 0.66, 1]
+    polarColor: [0.74793, 0.820613, 0.934, 1]
+  sea:
+    color: [0.572266, 0.499119, 0.445741, 1]
+    polarColor: [0.942773, 0.912647, 0.890663, 1]
+  air:
+    color: [0.680329, 0.845701, 0.912498, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.63397, 0.740234, 0.61879, 1]
+    ratio: 0.54
+    polarColor: [0.758358, 0.833105, 0.74768, 1]
+  demographics:
+    type: 51
+    gdp: 31416
+    tech: 10
+    economy: 3
+    government: 7
+    description: This world is fabled for its exciting Zaquessoian evil juice.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.184493, 0.200809, 0.671683, 1]
+  radius: 81296.603699
+  orbit:
+    type: static
+    parent: ~
+    radius: 234840
+    vector: [-0.77, -0.271, -0.578]
+  corona:
+    shimmer: 0.285655
+    hues: 0.629501
+    flare: 0.007967
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaquesso
+    vector: undefined
+    radius: 7828

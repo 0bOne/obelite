@@ -1,0 +1,61 @@
+name: Onesed
+position: [110, 219]
+seed: 42 219 242 110 202 31
+limits:
+  blurs: 91
+  stars: 7000
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onesed
+  radius: 6766
+  rotationSpeed: 0.003155
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 879580
+  land:
+    ratio: 0.7
+    color: [0.615245, 0.66, 0.399609, 1]
+    polarColor: [0.918166, 0.934, 0.841877, 1]
+  sea:
+    color: [0.284752, 0.40429, 0.509766, 1]
+    polarColor: [0.844297, 0.899933, 0.949023, 1]
+  air:
+    color: [0.7531, 0.727899, 0.981439, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.832789, 0.780754, 0.947266, 1]
+    ratio: 0.54
+    polarColor: [0.856307, 0.824507, 0.92627, 1]
+  demographics:
+    type: 46
+    gdp: 25760
+    tech: 9
+    economy: 3
+    government: 6
+    description: The world Onesed is a dull place.
+    inhabitants: Green Furry Rodents
+- type: star
+  type: primary
+  color: [0.758142, 0.787093, 0.800629, 1]
+  radius: 187871.716919
+  orbit:
+    type: static
+    parent: ~
+    radius: 405960
+    vector: [0.58, 0.09, -0.81]
+  corona:
+    shimmer: 0.315432
+    hues: 0.584023
+    flare: 0.026457
+stations:
+- type: coriolis
+  orbit:
+    parent: Onesed
+    vector: undefined
+    radius: 13532

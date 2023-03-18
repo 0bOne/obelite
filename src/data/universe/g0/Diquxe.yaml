@@ -1,0 +1,61 @@
+name: Diquxe
+position: [249, 211]
+seed: 26 211 244 249 155 173
+limits:
+  blurs: 127
+  stars: 6563
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diquxe
+  radius: 6393
+  rotationSpeed: 0.002812
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 958950
+  land:
+    ratio: 0.47
+    color: [0.66, 0.253381, 0.128906, 1]
+    polarColor: [0.934, 0.790143, 0.746105, 1]
+  sea:
+    color: [0.560547, 0.425446, 0.441278, 1]
+    polarColor: [0.943945, 0.887069, 0.893734, 1]
+  air:
+    color: [0.753806, 0.518459, 0.950871, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.855469, 0.2005, 0.430763, 1]
+    ratio: 0.08
+    polarColor: [0.884961, 0.461493, 0.610369, 1]
+  demographics:
+    type: 42
+    gdp: 23520
+    tech: 8
+    economy: 3
+    government: 6
+    description: This planet is mildly noted for its ancient mountains but plagued by frequent earthquakes.
+    inhabitants: Harmless Horned Lobsters
+- type: star
+  type: primary
+  color: [0.76303, 0.819003, 0.827512, 1]
+  radius: 132850.629272
+  orbit:
+    type: static
+    parent: ~
+    radius: 255720
+    vector: [-0.972, -0.232, 0.024]
+  corona:
+    shimmer: 0.422966
+    hues: 0.80896
+    flare: 0.078288
+stations:
+- type: coriolis
+  orbit:
+    parent: Diquxe
+    vector: undefined
+    radius: 12786

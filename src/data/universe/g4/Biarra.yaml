@@ -1,0 +1,61 @@
+name: Biarra
+position: [36, 64]
+seed: 156 64 16 36 5 166
+limits:
+  blurs: 103
+  stars: 9280
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biarra
+  radius: 4388
+  rotationSpeed: 0.001292
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 482680
+  land:
+    ratio: 0.34
+    color: [0.391875, 0.66, 0.421201, 1]
+    polarColor: [0.839141, 0.934, 0.849516, 1]
+  sea:
+    color: [0.601562, 0.49482, 0.453052, 1]
+    polarColor: [0.939844, 0.898152, 0.881838, 1]
+  air:
+    color: [0.712066, 0.79272, 0.930709, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.711082, 0.794922, 0.787062, 1]
+    ratio: 0.5
+    polarColor: [0.801176, 0.857715, 0.852414, 1]
+  demographics:
+    type: 35
+    gdp: 16800
+    tech: 8
+    economy: 0
+    government: 2
+    description: This planet is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.637911, 0.69209, 0.781927, 1]
+  radius: 81503.671875
+  orbit:
+    type: static
+    parent: ~
+    radius: 438800
+    vector: [-0.535, 0.729, 0.426]
+  corona:
+    shimmer: 0.507213
+    hues: 0.557106
+    flare: 0.059027
+stations:
+- type: coriolis
+  orbit:
+    parent: Biarra
+    vector: undefined
+    radius: 8776

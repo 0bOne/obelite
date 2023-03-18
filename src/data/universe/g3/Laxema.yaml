@@ -1,0 +1,61 @@
+name: Laxema
+position: [19, 121]
+seed: 154 121 194 19 42 181
+limits:
+  blurs: 170
+  stars: 7861
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laxema
+  radius: 4115
+  rotationSpeed: 0.002585
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 493800
+  land:
+    ratio: 0.32
+    color: [0.411775, 0.66, 0.257812, 1]
+    polarColor: [0.846181, 0.934, 0.791711, 1]
+  sea:
+    color: [0.607624, 0.679688, 0.520651, 1]
+    polarColor: [0.907327, 0.932031, 0.877511, 1]
+  air:
+    color: [0.605215, 0.933961, 0.923348, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.804688, 0.773082, 0.43692, 1]
+    ratio: 0.49
+    polarColor: [0.862109, 0.840947, 0.615853, 1]
+  demographics:
+    type: 32
+    gdp: 7168
+    tech: 7
+    economy: 3
+    government: 0
+    description: This planet is a tedious place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.782294, 0.759505, 0.268009, 1]
+  radius: 99242.603302
+  orbit:
+    type: static
+    parent: ~
+    radius: 205750
+    vector: [0.236, 0.924, -0.302]
+  corona:
+    shimmer: 0.327343
+    hues: 0.770416
+    flare: 0.056744
+stations:
+- type: coriolis
+  orbit:
+    parent: Laxema
+    vector: undefined
+    radius: 8230

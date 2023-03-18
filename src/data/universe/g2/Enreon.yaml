@@ -1,0 +1,61 @@
+name: Enreon
+position: [126, 157]
+seed: 25 157 177 126 141 210
+limits:
+  blurs: 183
+  stars: 8154
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enreon
+  radius: 3454
+  rotationSpeed: 0.003552
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 518100
+  land:
+    ratio: 0.56
+    color: [0.53625, 0.66, 0.616494, 1]
+    polarColor: [0.890219, 0.934, 0.918608, 1]
+  sea:
+    color: [0.229874, 0.511719, 0.458873, 1]
+    polarColor: [0.818179, 0.948828, 0.924331, 1]
+  air:
+    color: [0.424844, 0.811466, 0.854613, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.405307, 0.566406, 0.0508881, 1]
+    ratio: 0.49
+    polarColor: [0.620691, 0.754883, 0.325469, 1]
+  demographics:
+    type: 40
+    gdp: 16000
+    tech: 7
+    economy: 5
+    government: 6
+    description: The planet Enreon is an unremarkable dump.
+    inhabitants: Bony Humanoids
+- type: star
+  type: primary
+  color: [0.700333, 0.69517, 0.581275, 1]
+  radius: 85778.690186
+  orbit:
+    type: static
+    parent: ~
+    radius: 172700
+    vector: [0.311, 0.875, 0.371]
+  corona:
+    shimmer: 0.49313
+    hues: 0.948326
+    flare: 0.06627
+stations:
+- type: coriolis
+  orbit:
+    parent: Enreon
+    vector: undefined
+    radius: 6908

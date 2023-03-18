@@ -1,0 +1,61 @@
+name: Belebi
+position: [81, 220]
+seed: 9 220 56 81 229 19
+limits:
+  blurs: 127
+  stars: 9873
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Belebi
+  radius: 3665
+  rotationSpeed: 0.004044
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 476450
+  land:
+    ratio: 0.29
+    color: [0.328248, 0.193359, 0.66, 1]
+    polarColor: [0.81663, 0.768908, 0.934, 1]
+  sea:
+    color: [0.703125, 0.637143, 0.497131, 1]
+    polarColor: [0.929688, 0.907877, 0.861595, 1]
+  air:
+    color: [0.703546, 0.805366, 0.927457, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.687012, 0.785156, 0.750652, 1]
+    ratio: 0.5
+    polarColor: [0.786655, 0.85332, 0.829883, 1]
+  demographics:
+    type: 44
+    gdp: 23232
+    tech: 8
+    economy: 4
+    government: 7
+    description: The planet Belebi is very noted for its unusual sit coms but ravaged by dreadful civil war.
+    inhabitants: Green Furry Rodents
+- type: star
+  type: primary
+  color: [0.420806, 0.515643, 0.741666, 1]
+  radius: 92697.052765
+  orbit:
+    type: static
+    parent: ~
+    radius: 256550
+    vector: [0.704, -0.702, 0.104]
+  corona:
+    shimmer: 0.397467
+    hues: 0.518181
+    flare: 0.063979
+stations:
+- type: coriolis
+  orbit:
+    parent: Belebi
+    vector: undefined
+    radius: 7330

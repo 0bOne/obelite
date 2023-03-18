@@ -1,0 +1,61 @@
+name: Isdidied
+position: [130, 204]
+seed: 117 204 244 130 153 221
+limits:
+  blurs: 150
+  stars: 8313
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isdidied
+  radius: 6274
+  rotationSpeed: 0.002581
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 627400
+  land:
+    ratio: 0.24
+    color: [0.324844, 0.66, 0.432198, 1]
+    polarColor: [0.815426, 0.934, 0.853407, 1]
+  sea:
+    color: [0.568359, 0.530669, 0.450691, 1]
+    polarColor: [0.943164, 0.927528, 0.894348, 1]
+  air:
+    color: [0.597157, 0.903393, 0.802684, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.712891, 0.421908, 0.414925, 1]
+    ratio: 0.24
+    polarColor: [0.820801, 0.611408, 0.606383, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 8
+    economy: 4
+    government: 6
+    description: The planet Isdidied is a boring planet.
+    inhabitants: Insects
+- type: star
+  type: primary
+  color: [0.784056, 0.78439, 0.785449, 1]
+  radius: 156371.331787
+  orbit:
+    type: static
+    parent: ~
+    radius: 501920
+    vector: [0.252, -0.162, -0.954]
+  corona:
+    shimmer: 0.498183
+    hues: 0.815659
+    flare: 0.014601
+stations:
+- type: coriolis
+  orbit:
+    parent: Isdidied
+    vector: undefined
+    radius: 12548

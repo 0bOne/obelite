@@ -1,0 +1,61 @@
+name: Tiveorso
+position: [75, 52]
+seed: 74 52 18 75 138 215
+limits:
+  blurs: 161
+  stars: 5682
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiveorso
+  radius: 4683
+  rotationSpeed: 0.001985
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 421470
+  land:
+    ratio: 0.58
+    color: [0.66, 0.66, 0.66, 1]
+    polarColor: [0.934, 0.934, 0.934, 1]
+  sea:
+    color: [0.159912, 0.511719, 0.165409, 1]
+    polarColor: [0.785748, 0.948828, 0.788296, 1]
+  air:
+    color: [0.677678, 0.586861, 0.86567, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.597889, 0.37944, 0.599609, 1]
+    ratio: 0.53
+    polarColor: [0.768444, 0.593156, 0.769824, 1]
+  demographics:
+    type: 35
+    gdp: 10080
+    tech: 7
+    economy: 4
+    government: 2
+    description: Tiveorso is ravaged by unpredictable solar activity.
+    inhabitants: Lizards
+- type: star
+  type: primary
+  color: [0.747922, 0.769199, 0.800546, 1]
+  radius: 118860.70816
+  orbit:
+    type: static
+    parent: ~
+    radius: 515130
+    vector: [0.89, 0.194, 0.412]
+  corona:
+    shimmer: 0.290845
+    hues: 0.900276
+    flare: 0.00192
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiveorso
+    vector: undefined
+    radius: 9366

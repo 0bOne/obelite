@@ -1,0 +1,61 @@
+name: Zasoceat
+position: [186, 72]
+seed: 192 72 16 186 109 100
+limits:
+  blurs: 162
+  stars: 7380
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zasoceat
+  radius: 4026
+  rotationSpeed: 0.003472
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 442860
+  land:
+    ratio: 0.54
+    color: [0.187549, 0.619141, 0.0314407, 1]
+    polarColor: [0.774605, 0.938086, 0.715474, 1]
+  sea:
+    color: [0.592241, 0.785156, 0.685684, 1]
+    polarColor: [0.864881, 0.921484, 0.892299, 1]
+  air:
+    color: [0.437569, 0.626787, 0.901441, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0386658, 0.707031, 0.566048, 1]
+    ratio: 0.42
+    polarColor: [0.334776, 0.818164, 0.716199, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 10
+    economy: 0
+    government: 2
+    description: Zasoceat is a revolting dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.479926, 0.61908, 0.776743, 1]
+  radius: 93033.060608
+  orbit:
+    type: static
+    parent: ~
+    radius: 281820
+    vector: [0.692, 0.461, 0.556]
+  corona:
+    shimmer: 0.421058
+    hues: 0.798737
+    flare: 0.088591
+stations:
+- type: coriolis
+  orbit:
+    parent: Zasoceat
+    vector: undefined
+    radius: 8052

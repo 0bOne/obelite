@@ -1,0 +1,61 @@
+name: Edxeri
+position: [35, 6]
+seed: 149 6 121 35 101 24
+limits:
+  blurs: 92
+  stars: 6506
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edxeri
+  radius: 4899
+  rotationSpeed: 0.001578
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 489900
+  land:
+    ratio: 0.36
+    color: [0.542969, 0.483582, 0.493325, 1]
+    polarColor: [0.945703, 0.919844, 0.924087, 1]
+  sea:
+    color: [0.704452, 0.740234, 0.532043, 1]
+    polarColor: [0.914786, 0.925977, 0.860869, 1]
+  air:
+    color: [0.471869, 0.646511, 0.869572, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.138504, 0.611328, 0.467265, 1]
+    ratio: 0.38
+    polarColor: [0.400417, 0.775098, 0.660937, 1]
+  demographics:
+    type: 46
+    gdp: 16192
+    tech: 8
+    economy: 6
+    government: 7
+    description: The planet Edxeri is reasonably noted for its fabulous goat soup and Zero-G cricket.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.26746, 0.624838, 0.746432, 1]
+  radius: 105103.195038
+  orbit:
+    type: static
+    parent: ~
+    radius: 685860
+    vector: [0.641, -0.569, 0.515]
+  corona:
+    shimmer: 0.326957
+    hues: 0.822815
+    flare: 0.038522
+stations:
+- type: coriolis
+  orbit:
+    parent: Edxeri
+    vector: undefined
+    radius: 9798

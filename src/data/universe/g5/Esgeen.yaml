@@ -1,0 +1,61 @@
+name: Esgeen
+position: [5, 149]
+seed: 25 149 61 5 58 201
+limits:
+  blurs: 88
+  stars: 6900
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esgeen
+  radius: 5125
+  rotationSpeed: 0.004272
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 666250
+  land:
+    ratio: 0.38
+    color: [0.555727, 0.229453, 0.66, 1]
+    polarColor: [0.897109, 0.781678, 0.934, 1]
+  sea:
+    color: [0.509766, 0.416829, 0.407215, 1]
+    polarColor: [0.949023, 0.905769, 0.901294, 1]
+  air:
+    color: [0.687186, 0.847363, 0.898189, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.64326, 0.697266, 0.623726, 1]
+    ratio: 0.21
+    polarColor: [0.774376, 0.81377, 0.760127, 1]
+  demographics:
+    type: 41
+    gdp: 18040
+    tech: 7
+    economy: 5
+    government: 7
+    description: This world is a tedious place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.553819, 0.626431, 0.67478, 1]
+  radius: 138709.545135
+  orbit:
+    type: static
+    parent: ~
+    radius: 461250
+    vector: [-0.335, -0.276, 0.901]
+  corona:
+    shimmer: 1.056964
+    hues: 0.903549
+    flare: 0.006332
+stations:
+- type: coriolis
+  orbit:
+    parent: Esgeen
+    vector: undefined
+    radius: 10250

@@ -1,0 +1,61 @@
+name: Getere
+position: [207, 41]
+seed: 175 41 53 207 64 195
+limits:
+  blurs: 181
+  stars: 5267
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Getere
+  radius: 3791
+  rotationSpeed: 0.004691
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 568650
+  land:
+    ratio: 0.26
+    color: [0.411767, 0.328598, 0.576172, 1]
+    polarColor: [0.875158, 0.84115, 0.942383, 1]
+  sea:
+    color: [0.738281, 0.566553, 0.441238, 1]
+    polarColor: [0.926172, 0.872314, 0.833012, 1]
+  air:
+    color: [0.469408, 0.528585, 0.908596, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.108139, 0.350474, 0.728516, 1]
+    ratio: 0.32
+    polarColor: [0.387238, 0.559345, 0.827832, 1]
+  demographics:
+    type: 56
+    gdp: 40320
+    tech: 12
+    economy: 1
+    government: 6
+    description: The world Getere is notable for the Getereian tree grub and its inhabitants’ weird silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.240503, 0.497779, 0.722122, 1]
+  radius: 103871.872864
+  orbit:
+    type: static
+    parent: ~
+    radius: 151640
+    vector: [-0.298, 0.702, 0.647]
+  corona:
+    shimmer: 0.259501
+    hues: 0.511192
+    flare: 0.046947
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Getere
+    vector: undefined
+    radius: 7582

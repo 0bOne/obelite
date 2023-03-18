@@ -1,0 +1,61 @@
+name: Engela
+position: [95, 18]
+seed: 10 18 210 95 10 242
+limits:
+  blurs: 95
+  stars: 9341
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Engela
+  radius: 3423
+  rotationSpeed: 0.0045
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 308070
+  land:
+    ratio: 0.57
+    color: [0.380273, 0.66, 0.340313, 1]
+    polarColor: [0.835036, 0.934, 0.820898, 1]
+  sea:
+    color: [0.576932, 0.681641, 0.529337, 1]
+    polarColor: [0.89605, 0.931836, 0.879784, 1]
+  air:
+    color: [0.532339, 0.589792, 0.84876, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.263695, 0.415172, 0.548828, 1]
+    ratio: 0.36
+    polarColor: [0.504425, 0.633279, 0.746973, 1]
+  demographics:
+    type: 41
+    gdp: 15744
+    tech: 9
+    economy: 2
+    government: 2
+    description: The planet Engela is very famous for its fabulous monkey burgers but plagued by frequent solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.492712, 0.743834, 0.838351, 1]
+  radius: 94375.373383
+  orbit:
+    type: static
+    parent: ~
+    radius: 308070
+    vector: [0.034, 0.201, -0.979]
+  corona:
+    shimmer: 0.524666
+    hues: 0.951157
+    flare: 0.00049
+stations:
+- type: coriolis
+  orbit:
+    parent: Engela
+    vector: undefined
+    radius: 6846

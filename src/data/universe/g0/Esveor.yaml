@@ -1,0 +1,61 @@
+name: Esveor
+position: [88, 52]
+seed: 58 52 208 88 179 169
+limits:
+  blurs: 47
+  stars: 6284
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esveor
+  radius: 5208
+  rotationSpeed: 0.004192
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 624960
+  land:
+    ratio: 0.26
+    color: [0.629063, 0.656375, 0.66, 1]
+    polarColor: [0.923055, 0.932717, 0.934, 1]
+  sea:
+    color: [0.95, 0.76, 0.8968, 1]
+    polarColor: [0.905, 0.85975, 0.89233, 1]
+  air:
+    color: [0.55764, 0.46372, 0.950221, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.528446, 0.0533447, 0.853516, 1]
+    ratio: 0.26
+    polarColor: [0.673638, 0.366065, 0.884082, 1]
+  demographics:
+    type: 23
+    gdp: 6624
+    tech: 4
+    economy: 4
+    government: 2
+    description: Esveor is mildly famous for its pink oceans and Zero-G hockey.
+    inhabitants: Small Harmless Fat Humanoids
+- type: star
+  type: primary
+  color: [0.654282, 0.63851, 0.469306, 1]
+  radius: 127453.59375
+  orbit:
+    type: static
+    parent: ~
+    radius: 572880
+    vector: [-0.357, 0.933, 0.034]
+  corona:
+    shimmer: 0.386452
+    hues: 0.610794
+    flare: 0.097742
+stations:
+- type: coriolis
+  orbit:
+    parent: Esveor
+    vector: undefined
+    radius: 10416

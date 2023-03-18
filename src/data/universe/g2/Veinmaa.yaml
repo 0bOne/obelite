@@ -1,0 +1,61 @@
+name: Veinmaa
+position: [200, 13]
+seed: 225 13 217 200 45 214
+limits:
+  blurs: 146
+  stars: 9488
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veinmaa
+  radius: 4552
+  rotationSpeed: 0.003878
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 500720
+  land:
+    ratio: 0.38
+    color: [0.27876, 0.12375, 0.66, 1]
+    polarColor: [0.799122, 0.744281, 0.934, 1]
+  sea:
+    color: [0.636719, 0.612974, 0.484752, 1]
+    polarColor: [0.936328, 0.927599, 0.880459, 1]
+  air:
+    color: [0.458694, 0.530569, 0.913148, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0782776, 0.384299, 0.742188, 1]
+    ratio: 0.23
+    polarColor: [0.367719, 0.582638, 0.833984, 1]
+  demographics:
+    type: 25
+    gdp: 7000
+    tech: 4
+    economy: 5
+    government: 3
+    description: This planet is beset by evil disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.703864, 0.643302, 0.597102, 1]
+  radius: 137845.667725
+  orbit:
+    type: static
+    parent: ~
+    radius: 364160
+    vector: [0.613, 0.604, 0.51]
+  corona:
+    shimmer: 0.31583
+    hues: 0.640686
+    flare: 0.088954
+stations:
+- type: coriolis
+  orbit:
+    parent: Veinmaa
+    vector: undefined
+    radius: 9104

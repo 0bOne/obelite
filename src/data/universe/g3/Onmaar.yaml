@@ -1,0 +1,61 @@
+name: Onmaar
+position: [159, 203]
+seed: 58 203 226 159 234 223
+limits:
+  blurs: 132
+  stars: 7321
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onmaar
+  radius: 6815
+  rotationSpeed: 0.001376
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 749650
+  land:
+    ratio: 0.55
+    color: [0.437617, 0.66, 0.193359, 1]
+    polarColor: [0.855323, 0.934, 0.768908, 1]
+  sea:
+    color: [0.542969, 0.4875, 0.433739, 1]
+    polarColor: [0.945703, 0.92155, 0.898141, 1]
+  air:
+    color: [0.593912, 0.937213, 0.910054, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.814453, 0.722191, 0.407227, 1]
+    ratio: 0.39
+    polarColor: [0.866504, 0.805155, 0.595721, 1]
+  demographics:
+    type: 44
+    gdp: 19712
+    tech: 9
+    economy: 3
+    government: 4
+    description: The world Onmaar is reasonably famous for the Onmaarian evil talking treeoid.
+    inhabitants: Fat Insects
+- type: star
+  type: primary
+  color: [0.689481, 0.558874, 0.180837, 1]
+  radius: 215831.557465
+  orbit:
+    type: static
+    parent: ~
+    radius: 681500
+    vector: [0.183, 0.344, -0.921]
+  corona:
+    shimmer: 0.380197
+    hues: 0.925262
+    flare: 0.039784
+stations:
+- type: coriolis
+  orbit:
+    parent: Onmaar
+    vector: undefined
+    radius: 13630

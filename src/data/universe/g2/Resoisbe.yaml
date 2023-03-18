@@ -1,0 +1,61 @@
+name: Resoisbe
+position: [134, 50]
+seed: 229 50 73 134 197 78
+limits:
+  blurs: 139
+  stars: 5136
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Resoisbe
+  radius: 6534
+  rotationSpeed: 0.000993
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 784080
+  land:
+    ratio: 0.45
+    color: [0.536676, 0.552734, 0.0388641, 1]
+    polarColor: [0.937865, 0.944727, 0.725151, 1]
+  sea:
+    color: [0.591797, 0.478157, 0.447778, 1]
+    polarColor: [0.94082, 0.895655, 0.883581, 1]
+  air:
+    color: [0.566562, 0.942416, 0.862813, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.830078, 0.520015, 0.333977, 1]
+    ratio: 0.29
+    polarColor: [0.873535, 0.6696, 0.547239, 1]
+  demographics:
+    type: 36
+    gdp: 11520
+    tech: 8
+    economy: 2
+    government: 1
+    description: This world is very well known for Resoisbeian shrew cutlet and its inhabitants’ weird shyness.
+    inhabitants: Yellow Fat Felines
+- type: star
+  type: primary
+  color: [0.635528, 0.64617, 0.680319, 1]
+  radius: 178395.867004
+  orbit:
+    type: static
+    parent: ~
+    radius: 457380
+    vector: [-0.913, -0.037, 0.406]
+  corona:
+    shimmer: 1.026888
+    hues: 0.764809
+    flare: 0.064098
+stations:
+- type: coriolis
+  orbit:
+    parent: Resoisbe
+    vector: undefined
+    radius: 13068

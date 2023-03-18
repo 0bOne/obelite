@@ -1,0 +1,61 @@
+name: Isatre
+position: [113, 2]
+seed: 106 2 152 113 83 253
+limits:
+  blurs: 81
+  stars: 7369
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isatre
+  radius: 6257
+  rotationSpeed: 0.000796
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 750840
+  land:
+    ratio: 0.38
+    color: [0.448594, 0.66, 0.640181, 1]
+    polarColor: [0.859207, 0.934, 0.926988, 1]
+  sea:
+    color: [0.556641, 0.441562, 0.429657, 1]
+    polarColor: [0.944336, 0.895528, 0.890479, 1]
+  air:
+    color: [0.505842, 0.632339, 0.84876, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.212242, 0.548828, 0.517273, 1]
+    ratio: 0.44
+    polarColor: [0.460657, 0.746973, 0.720131, 1]
+  demographics:
+    type: 38
+    gdp: 17024
+    tech: 8
+    economy: 2
+    government: 3
+    description: The world Isatre is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.784006, 0.675855, 0.581359, 1]
+  radius: 208929.150543
+  orbit:
+    type: static
+    parent: ~
+    radius: 312850
+    vector: [-0.618, 0.184, -0.764]
+  corona:
+    shimmer: 0.335449
+    hues: 0.886887
+    flare: 0.057458
+stations:
+- type: coriolis
+  orbit:
+    parent: Isatre
+    vector: undefined
+    radius: 12514

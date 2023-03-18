@@ -1,0 +1,61 @@
+name: Tivere
+position: [50, 75]
+seed: 212 75 176 50 166 23
+limits:
+  blurs: 44
+  stars: 7729
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tivere
+  radius: 4658
+  rotationSpeed: 0.001346
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 465800
+  land:
+    ratio: 0.5
+    color: [0.65625, 0.644474, 0.548584, 1]
+    polarColor: [0.934375, 0.930183, 0.896051, 1]
+  sea:
+    color: [0.12973, 0.638672, 0.57903, 1]
+    polarColor: [0.749638, 0.936133, 0.914278, 1]
+  air:
+    color: [0.733351, 0.760303, 0.945668, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.777512, 0.800399, 0.839844, 1]
+    ratio: 0.49
+    polarColor: [0.837205, 0.852159, 0.87793, 1]
+  demographics:
+    type: 46
+    gdp: 25760
+    tech: 9
+    economy: 3
+    government: 6
+    description: The planet Tivere is cursed by killer mountain goats.
+    inhabitants: Green Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.275497, 0.513755, 0.739072, 1]
+  radius: 99707.469482
+  orbit:
+    type: static
+    parent: ~
+    radius: 419220
+    vector: [-0.45, -0.037, -0.892]
+  corona:
+    shimmer: 0.578092
+    hues: 0.528877
+    flare: 0.046585
+stations:
+- type: coriolis
+  orbit:
+    parent: Tivere
+    vector: undefined
+    radius: 9316

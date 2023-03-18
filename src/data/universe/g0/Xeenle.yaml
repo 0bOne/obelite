@@ -1,0 +1,61 @@
+name: Xeenle
+position: [236, 163]
+seed: 0 163 128 236 205 194
+limits:
+  blurs: 97
+  stars: 5652
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeenle
+  radius: 3564
+  rotationSpeed: 0.004148
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 392040
+  land:
+    ratio: 0.54
+    color: [0.66, 0.265547, 0.348752, 1]
+    polarColor: [0.934, 0.794447, 0.823884, 1]
+  sea:
+    color: [0.580078, 0.524265, 0.452506, 1]
+    polarColor: [0.941992, 0.919334, 0.890201, 1]
+  air:
+    color: [0.660064, 0.859816, 0.817511, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.582031, 0.546507, 0.525192, 1]
+    ratio: 0.35
+    polarColor: [0.761914, 0.732849, 0.715411, 1]
+  demographics:
+    type: 20
+    gdp: 4480
+    tech: 4
+    economy: 3
+    government: 0
+    description: This planet is mildly noted for its ancient mountains but plagued by lethal disease.
+    inhabitants: Large Frogs
+- type: star
+  type: primary
+  color: [0.182608, 0.590355, 0.693872, 1]
+  radius: 81007.366333
+  orbit:
+    type: static
+    parent: ~
+    radius: 320760
+    vector: [-0.3, -0.335, 0.893]
+  corona:
+    shimmer: 1.112779
+    hues: 0.708626
+    flare: 0.095201
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeenle
+    vector: undefined
+    radius: 7128

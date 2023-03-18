@@ -1,0 +1,61 @@
+name: Teesso
+position: [12, 47]
+seed: 103 47 57 12 232 96
+limits:
+  blurs: 96
+  stars: 6249
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teesso
+  radius: 2828
+  rotationSpeed: 0.00446
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 282800
+  land:
+    ratio: 0.37
+    color: [0.66, 0.193359, 0.641772, 1]
+    polarColor: [0.934, 0.768908, 0.927551, 1]
+  sea:
+    color: [0.679688, 0.62696, 0.515076, 1]
+    polarColor: [0.932031, 0.913956, 0.8756, 1]
+  air:
+    color: [0.576731, 0.945018, 0.895761, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.837891, 0.651227, 0.360031, 1]
+    ratio: 0.53
+    polarColor: [0.877051, 0.754933, 0.56443, 1]
+  demographics:
+    type: 31
+    gdp: 8184
+    tech: 4
+    economy: 7
+    government: 7
+    description: The world Teesso is scourged by deadly tree ants.
+    inhabitants: Large Blue Bony Lobsters
+- type: star
+  type: primary
+  color: [0.697992, 0.665181, 0.634992, 1]
+  radius: 78996.375732
+  orbit:
+    type: static
+    parent: ~
+    radius: 254520
+    vector: [-0.948, -0.307, -0.086]
+  corona:
+    shimmer: 0.414182
+    hues: 0.980782
+    flare: 0.013376
+stations:
+- type: coriolis
+  orbit:
+    parent: Teesso
+    vector: undefined
+    radius: 5656

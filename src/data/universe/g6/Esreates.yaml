@@ -1,0 +1,61 @@
+name: Esreates
+position: [90, 203]
+seed: 114 203 2 90 52 201
+limits:
+  blurs: 81
+  stars: 8661
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esreates
+  radius: 5210
+  rotationSpeed: 0.001277
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 625200
+  land:
+    ratio: 0.59
+    color: [0.446938, 0.539062, 0.0673828, 1]
+    polarColor: [0.905672, 0.946094, 0.739136, 1]
+  sea:
+    color: [0.998047, 0.786742, 0.841219, 1]
+    polarColor: [0.900195, 0.852548, 0.864832, 1]
+  air:
+    color: [0.530484, 0.503057, 0.905344, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.306381, 0.190918, 0.71875, 1]
+    ratio: 0.21
+    polarColor: [0.528168, 0.445493, 0.823438, 1]
+  demographics:
+    type: 28
+    gdp: 6272
+    tech: 6
+    economy: 3
+    government: 0
+    description: Esreates is cursed by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.827249, 0.627965, 0.514787, 1]
+  radius: 116013.446045
+  orbit:
+    type: static
+    parent: ~
+    radius: 468900
+    vector: [0.393, -0.311, -0.865]
+  corona:
+    shimmer: 0.390486
+    hues: 0.827072
+    flare: 0.003857
+stations:
+- type: coriolis
+  orbit:
+    parent: Esreates
+    vector: undefined
+    radius: 10420

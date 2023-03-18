@@ -1,0 +1,61 @@
+name: Esceso
+position: [183, 132]
+seed: 48 132 200 183 218 105
+limits:
+  blurs: 142
+  stars: 8282
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esceso
+  radius: 5303
+  rotationSpeed: 0.003435
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 636360
+  land:
+    ratio: 0.57
+    color: [0.147079, 0.597656, 0.42869, 1]
+    polarColor: [0.763022, 0.940234, 0.87378, 1]
+  sea:
+    color: [0.617188, 0.520601, 0.46265, 1]
+    polarColor: [0.938281, 0.901572, 0.879547, 1]
+  air:
+    color: [0.645922, 0.576984, 0.864369, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.532657, 0.358353, 0.595703, 1]
+    ratio: 0.14
+    polarColor: [0.717261, 0.5768, 0.768066, 1]
+  demographics:
+    type: 28
+    gdp: 4480
+    tech: 5
+    economy: 6
+    government: 1
+    description: Esceso is a revolting dump.
+    inhabitants: Small Blue Bony Birds
+- type: star
+  type: primary
+  color: [0.553734, 0.635993, 0.67153, 1]
+  radius: 127405.999146
+  orbit:
+    type: static
+    parent: ~
+    radius: 583330
+    vector: [-0.817, -0.236, 0.527]
+  corona:
+    shimmer: 0.279393
+    hues: 0.8479
+    flare: 0.070877
+stations:
+- type: coriolis
+  orbit:
+    parent: Esceso
+    vector: undefined
+    radius: 10606

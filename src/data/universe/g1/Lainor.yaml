@@ -1,0 +1,61 @@
+name: Lainor
+position: [23, 223]
+seed: 128 223 144 23 122 21
+limits:
+  blurs: 135
+  stars: 6505
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lainor
+  radius: 4119
+  rotationSpeed: 0.004934
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 576660
+  land:
+    ratio: 0.68
+    color: [0.187035, 0.146953, 0.66, 1]
+    polarColor: [0.766671, 0.75249, 0.934, 1]
+  sea:
+    color: [1, 0.75, 0.75, 1]
+    polarColor: [0.9, 0.84375, 0.84375, 1]
+  air:
+    color: [0.658635, 0.842256, 0.78187, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.529297, 0.501029, 0.500351, 1]
+    ratio: 0.15
+    polarColor: [0.738184, 0.713544, 0.712953, 1]
+  demographics:
+    type: 26
+    gdp: 3744
+    tech: 4
+    economy: 7
+    government: 2
+    description: Lainor is most famous for its pink oceans and its exciting sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.1906, 0.539669, 0.715283, 1]
+  radius: 104374.690704
+  orbit:
+    type: static
+    parent: ~
+    radius: 329520
+    vector: [0.006, -0.976, 0.218]
+  corona:
+    shimmer: 0.384434
+    hues: 0.61454
+    flare: 0.007744
+stations:
+- type: coriolis
+  orbit:
+    parent: Lainor
+    vector: undefined
+    radius: 8238

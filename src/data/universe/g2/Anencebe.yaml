@@ -1,0 +1,61 @@
+name: Anencebe
+position: [151, 254]
+seed: 217 254 241 151 141 91
+limits:
+  blurs: 146
+  stars: 7002
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anencebe
+  radius: 5783
+  rotationSpeed: 0.001002
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 751790
+  land:
+    ratio: 0.27
+    color: [0.31864, 0.0850781, 0.66, 1]
+    polarColor: [0.813231, 0.7306, 0.934, 1]
+  sea:
+    color: [0.587891, 0.487536, 0.448267, 1]
+    polarColor: [0.941211, 0.901044, 0.885327, 1]
+  air:
+    color: [0.474444, 0.672739, 0.857865, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.148544, 0.576172, 0.345654, 1]
+    ratio: 0.42
+    polarColor: [0.407073, 0.759277, 0.569417, 1]
+  demographics:
+    type: 41
+    gdp: 13120
+    tech: 7
+    economy: 6
+    government: 6
+    description: This world is ravaged by unpredictable civil war.
+    inhabitants: Yellow Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.353137, 0.411576, 0.753464, 1]
+  radius: 191125.079193
+  orbit:
+    type: static
+    parent: ~
+    radius: 520470
+    vector: [-0.215, -0.711, 0.669]
+  corona:
+    shimmer: 0.675796
+    hues: 0.594986
+    flare: 0.039546
+stations:
+- type: coriolis
+  orbit:
+    parent: Anencebe
+    vector: undefined
+    radius: 11566

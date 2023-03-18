@@ -1,0 +1,61 @@
+name: Bigeve
+position: [204, 48]
+seed: 164 48 140 204 37 230
+limits:
+  blurs: 152
+  stars: 5851
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bigeve
+  radius: 4556
+  rotationSpeed: 0.00494
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 501160
+  land:
+    ratio: 0.58
+    color: [0.0953906, 0.461505, 0.66, 1]
+    polarColor: [0.734248, 0.863775, 0.934, 1]
+  sea:
+    color: [0.646484, 0.479793, 0.467186, 1]
+    polarColor: [0.935352, 0.875058, 0.870498, 1]
+  air:
+    color: [0.544283, 0.959326, 0.868185, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.880859, 0.481478, 0.264946, 1]
+    ratio: 0.53
+    polarColor: [0.896387, 0.642373, 0.504655, 1]
+  demographics:
+    type: 28
+    gdp: 8960
+    tech: 6
+    economy: 2
+    government: 1
+    description: This planet is beset by deadly earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.779599, 0.684195, 0.524525, 1]
+  radius: 129665.528564
+  orbit:
+    type: static
+    parent: ~
+    radius: 364480
+    vector: [-0.08, -0.143, -0.987]
+  corona:
+    shimmer: 0.359519
+    hues: 0.86972
+    flare: 0.058005
+stations:
+- type: coriolis
+  orbit:
+    parent: Bigeve
+    vector: undefined
+    radius: 9112

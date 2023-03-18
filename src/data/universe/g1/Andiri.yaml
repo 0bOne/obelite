@@ -1,0 +1,61 @@
+name: Andiri
+position: [53, 157]
+seed: 0 157 112 53 58 251
+limits:
+  blurs: 169
+  stars: 5987
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Andiri
+  radius: 5685
+  rotationSpeed: 0.001294
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 739050
+  land:
+    ratio: 0.25
+    color: [0.66, 0.00257813, 0.387786, 1]
+    polarColor: [0.934, 0.701412, 0.837694, 1]
+  sea:
+    color: [0.580078, 0.47512, 0.442989, 1]
+    polarColor: [0.941992, 0.899381, 0.886337, 1]
+  air:
+    color: [0.671645, 0.837559, 0.930059, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.607117, 0.792969, 0.623088, 1]
+    ratio: 0.28
+    polarColor: [0.731323, 0.856836, 0.742109, 1]
+  demographics:
+    type: 36
+    gdp: 14400
+    tech: 6
+    economy: 5
+    government: 6
+    description: Andiri is ravaged by unpredictable solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.804047, 0.634065, 0.554463, 1]
+  radius: 140529.737091
+  orbit:
+    type: static
+    parent: ~
+    radius: 170550
+    vector: [-0.001, 0.735, -0.678]
+  corona:
+    shimmer: 0.307254
+    hues: 0.897713
+    flare: 0.020485
+stations:
+- type: coriolis
+  orbit:
+    parent: Andiri
+    vector: undefined
+    radius: 11370

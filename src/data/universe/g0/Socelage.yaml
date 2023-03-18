@@ -1,0 +1,61 @@
+name: Socelage
+position: [104, 85]
+seed: 64 85 176 104 173 71
+limits:
+  blurs: 62
+  stars: 6542
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Socelage
+  radius: 4712
+  rotationSpeed: 0.002196
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 565440
+  land:
+    ratio: 0.56
+    color: [0.319768, 0.66, 0.237188, 1]
+    polarColor: [0.81363, 0.934, 0.784414, 1]
+  sea:
+    color: [0.573542, 0.636719, 0.504152, 1]
+    polarColor: [0.913102, 0.936328, 0.887592, 1]
+  air:
+    color: [0.5584, 0.96648, 0.937382, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.902344, 0.779913, 0.299606, 1]
+    ratio: 0.37
+    polarColor: [0.906055, 0.829221, 0.527795, 1]
+  demographics:
+    type: 32
+    gdp: 12800
+    tech: 5
+    economy: 5
+    government: 6
+    description: This planet is reasonably noted for its exotic goat meat.
+    inhabitants: Fierce Yellow Furry Rodents
+- type: star
+  type: primary
+  color: [0.695975, 0.700391, 0.786505, 1]
+  radius: 130006.363525
+  orbit:
+    type: static
+    parent: ~
+    radius: 424080
+    vector: [-0.073, 0.987, -0.146]
+  corona:
+    shimmer: 0.360337
+    hues: 0.833656
+    flare: 0.031056
+stations:
+- type: coriolis
+  orbit:
+    parent: Socelage
+    vector: undefined
+    radius: 9424

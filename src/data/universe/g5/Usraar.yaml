@@ -1,0 +1,61 @@
+name: Usraar
+position: [76, 95]
+seed: 7 95 177 76 232 72
+limits:
+  blurs: 50
+  stars: 5403
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usraar
+  radius: 4940
+  rotationSpeed: 0.004146
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 543400
+  land:
+    ratio: 0.29
+    color: [0.66, 0.39403, 0.301641, 1]
+    polarColor: [0.934, 0.839903, 0.807217, 1]
+  sea:
+    color: [0.286148, 0.399193, 0.519531, 1]
+    polarColor: [0.841577, 0.893148, 0.948047, 1]
+  air:
+    color: [0.687329, 0.844853, 0.901441, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.642581, 0.707031, 0.626938, 1]
+    ratio: 0.41
+    polarColor: [0.771551, 0.818164, 0.760237, 1]
+  demographics:
+    type: 26
+    gdp: 6240
+    tech: 3
+    economy: 7
+    government: 6
+    description: The world Usraar is a dull world.
+    inhabitants: Small Yellow Bony Lobsters
+- type: star
+  type: primary
+  color: [0.833215, 0.81646, 0.664487, 1]
+  radius: 126079.449463
+  orbit:
+    type: static
+    parent: ~
+    radius: 395200
+    vector: [-0.564, 0.687, 0.459]
+  corona:
+    shimmer: 0.658799
+    hues: 0.902618
+    flare: 0.023392
+stations:
+- type: coriolis
+  orbit:
+    parent: Usraar
+    vector: undefined
+    radius: 9880

@@ -1,0 +1,61 @@
+name: Biorle
+position: [1, 17]
+seed: 161 17 144 1 45 166
+limits:
+  blurs: 186
+  stars: 7964
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Biorle
+  radius: 4353
+  rotationSpeed: 0.000974
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 391770
+  land:
+    ratio: 0.47
+    color: [0.0860023, 0.652344, 0.00509644, 1]
+    polarColor: [0.731883, 0.934766, 0.7029, 1]
+  sea:
+    color: [0.505859, 0.381568, 0.489352, 1]
+    polarColor: [0.949414, 0.891096, 0.941669, 1]
+  air:
+    color: [0.460409, 0.47591, 0.926156, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0701904, 0.131297, 0.78125, 1]
+    ratio: 0.29
+    polarColor: [0.367153, 0.408782, 0.851562, 1]
+  demographics:
+    type: 36
+    gdp: 15552
+    tech: 8
+    economy: 1
+    government: 2
+    description: This planet is mildly noted for the Biorleian mountain lobstoid but plagued by unpredictable civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.488832, 0.573973, 0.826535, 1]
+  radius: 81803.401794
+  orbit:
+    type: static
+    parent: ~
+    radius: 522360
+    vector: [-0.831, 0.322, -0.453]
+  corona:
+    shimmer: 0.267999
+    hues: 0.56675
+    flare: 0.029799
+stations:
+- type: coriolis
+  orbit:
+    parent: Biorle
+    vector: undefined
+    radius: 8706

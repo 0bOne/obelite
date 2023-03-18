@@ -1,0 +1,61 @@
+name: Xetila
+position: [122, 122]
+seed: 53 122 180 122 217 194
+limits:
+  blurs: 178
+  stars: 8187
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xetila
+  radius: 3450
+  rotationSpeed: 0.002568
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 448500
+  land:
+    ratio: 0.37
+    color: [0.520781, 0.620845, 0.66, 1]
+    polarColor: [0.884746, 0.920147, 0.934, 1]
+  sea:
+    color: [0.708984, 0.66318, 0.506813, 1]
+    polarColor: [0.929102, 0.914095, 0.862867, 1]
+  air:
+    color: [0.670913, 0.552456, 0.89949, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.701172, 0.309502, 0.685872, 1]
+    ratio: 0.54
+    polarColor: [0.815527, 0.53081, 0.804406, 1]
+  demographics:
+    type: 49
+    gdp: 31360
+    tech: 10
+    economy: 2
+    government: 6
+    description: The planet Xetila is famous for Xetilaian wolf cutlet but plagued by lethal disease.
+    inhabitants: Large Slimy Lizards
+- type: star
+  type: primary
+  color: [0.653705, 0.522221, 0.290978, 1]
+  radius: 95431.434631
+  orbit:
+    type: static
+    parent: ~
+    radius: 345000
+    vector: [0.857, -0.493, 0.151]
+  corona:
+    shimmer: 0.314944
+    hues: 0.575714
+    flare: 0.008543
+stations:
+- type: coriolis
+  orbit:
+    parent: Xetila
+    vector: undefined
+    radius: 6900

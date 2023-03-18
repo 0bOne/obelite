@@ -1,0 +1,61 @@
+name: Sobiatri
+position: [195, 59]
+seed: 206 59 82 195 80 39
+limits:
+  blurs: 52
+  stars: 8281
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sobiatri
+  radius: 4803
+  rotationSpeed: 0.002625
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 672420
+  land:
+    ratio: 0.66
+    color: [0.66, 0.446217, 0.435703, 1]
+    polarColor: [0.934, 0.858366, 0.854647, 1]
+  sea:
+    color: [0.718281, 0.68616, 0.873047, 1]
+    polarColor: [0.872247, 0.863852, 0.912695, 1]
+  air:
+    color: [0.700744, 0.519186, 0.936563, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.8125, 0.212646, 0.620359, 1]
+    ratio: 0.26
+    polarColor: [0.865625, 0.466203, 0.737685, 1]
+  demographics:
+    type: 38
+    gdp: 12768
+    tech: 8
+    economy: 3
+    government: 2
+    description: This world is reasonably notable for its fabulous cuisine but beset by evil tree snakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.729263, 0.635871, 0.578614, 1]
+  radius: 106529.185638
+  orbit:
+    type: static
+    parent: ~
+    radius: 288180
+    vector: [-0.635, -0.722, -0.276]
+  corona:
+    shimmer: 0.27024
+    hues: 0.624283
+    flare: 0.056448
+stations:
+- type: coriolis
+  orbit:
+    parent: Sobiatri
+    vector: undefined
+    radius: 9606

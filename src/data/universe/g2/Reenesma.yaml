@@ -1,0 +1,61 @@
+name: Reenesma
+position: [232, 27]
+seed: 241 27 137 232 109 206
+limits:
+  blurs: 116
+  stars: 9099
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reenesma
+  radius: 6632
+  rotationSpeed: 0.003254
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 862160
+  land:
+    ratio: 0.62
+    color: [0.190781, 0.198113, 0.66, 1]
+    polarColor: [0.767996, 0.77059, 0.934, 1]
+  sea:
+    color: [0.580078, 0.47564, 0.443669, 1]
+    polarColor: [0.941992, 0.899593, 0.886613, 1]
+  air:
+    color: [0.72443, 0.790543, 0.924855, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.737869, 0.776419, 0.777344, 1]
+    ratio: 0.28
+    polarColor: [0.822833, 0.849173, 0.849805, 1]
+  demographics:
+    type: 25
+    gdp: 7000
+    tech: 5
+    economy: 3
+    government: 1
+    description: This planet is mildly noted for the Reenesmaian mountain lobstoid but plagued by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.537122, 0.634894, 0.671304, 1]
+  radius: 121122.850342
+  orbit:
+    type: static
+    parent: ~
+    radius: 265280
+    vector: [0.682, 0.095, 0.725]
+  corona:
+    shimmer: 0.282702
+    hues: 0.886002
+    flare: 0.003271
+stations:
+- type: coriolis
+  orbit:
+    parent: Reenesma
+    vector: undefined
+    radius: 13264

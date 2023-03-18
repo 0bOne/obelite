@@ -1,0 +1,61 @@
+name: Beatza
+position: [158, 127]
+seed: 182 127 100 158 211 115
+limits:
+  blurs: 140
+  stars: 9230
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beatza
+  radius: 3742
+  rotationSpeed: 0.003709
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 486460
+  land:
+    ratio: 0.42
+    color: [0.580078, 0.66, 0.605678, 1]
+    polarColor: [0.905725, 0.934, 0.914782, 1]
+  sea:
+    color: [0.116213, 0.623047, 0.043808, 1]
+    polarColor: [0.746997, 0.937695, 0.719754, 1]
+  air:
+    color: [0.639837, 0.49335, 0.943066, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.826623, 0.139755, 0.832031, 1]
+    ratio: 0.3
+    polarColor: [0.870862, 0.419702, 0.874414, 1]
+  demographics:
+    type: 28
+    gdp: 5376
+    tech: 4
+    economy: 7
+    government: 4
+    description: Beatza is reasonably well known for the Beatzaian tree grub but ravaged by unpredictable civil war.
+    inhabitants: Blue Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.615815, 0.630328, 0.716479, 1]
+  radius: 102492.749634
+  orbit:
+    type: static
+    parent: ~
+    radius: 299360
+    vector: [0.085, 0.463, -0.882]
+  corona:
+    shimmer: 0.591843
+    hues: 0.867287
+    flare: 0.057152
+stations:
+- type: coriolis
+  orbit:
+    parent: Beatza
+    vector: undefined
+    radius: 7484

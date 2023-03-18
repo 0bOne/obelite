@@ -1,0 +1,61 @@
+name: Ceorat
+position: [209, 98]
+seed: 177 98 201 209 109 69
+limits:
+  blurs: 88
+  stars: 6793
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceorat
+  radius: 4305
+  rotationSpeed: 0.000688
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 516600
+  land:
+    ratio: 0.47
+    color: [0.131484, 0.251226, 0.66, 1]
+    polarColor: [0.747018, 0.789381, 0.934, 1]
+  sea:
+    color: [0.615898, 0.691406, 0.524767, 1]
+    polarColor: [0.905445, 0.930859, 0.874771, 1]
+  air:
+    color: [0.454582, 0.737668, 0.852012, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.167196, 0.558594, 0.111282, 1]
+    ratio: 0.18
+    polarColor: [0.422323, 0.751367, 0.375317, 1]
+  demographics:
+    type: 32
+    gdp: 10240
+    tech: 7
+    economy: 2
+    government: 1
+    description: Ceorat is a revolting dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.435058, 0.664302, 0.713107, 1]
+  radius: 115851.901245
+  orbit:
+    type: static
+    parent: ~
+    radius: 258300
+    vector: [-0.305, 0.669, 0.678]
+  corona:
+    shimmer: 0.371431
+    hues: 0.901375
+    flare: 0.058276
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceorat
+    vector: undefined
+    radius: 8610

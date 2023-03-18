@@ -1,0 +1,61 @@
+name: Laorbila
+position: [246, 236]
+seed: 213 236 185 246 229 53
+limits:
+  blurs: 89
+  stars: 7622
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laorbila
+  radius: 4342
+  rotationSpeed: 0.004124
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 564460
+  land:
+    ratio: 0.68
+    color: [0.539062, 0.460098, 0.0336914, 1]
+    polarColor: [0.946094, 0.911447, 0.724353, 1]
+  sea:
+    color: [0.558594, 0.442518, 0.43051, 1]
+    polarColor: [0.944141, 0.895092, 0.890018, 1]
+  air:
+    color: [0.583278, 0.945668, 0.91417, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.839844, 0.724201, 0.377274, 1]
+    ratio: 0.47
+    polarColor: [0.87793, 0.802375, 0.575713, 1]
+  demographics:
+    type: 48
+    gdp: 25344
+    tech: 9
+    economy: 4
+    government: 7
+    description: Laorbila is mildly well known for Laorbilaian wolf meat.
+    inhabitants: Red Horned Lobsters
+- type: star
+  type: primary
+  color: [0.702591, 0.683061, 0.601682, 1]
+  radius: 119016.091003
+  orbit:
+    type: static
+    parent: ~
+    radius: 260520
+    vector: [-0.705, -0.608, -0.365]
+  corona:
+    shimmer: 0.342611
+    hues: 0.759277
+    flare: 0.087671
+stations:
+- type: coriolis
+  orbit:
+    parent: Laorbila
+    vector: undefined
+    radius: 8684

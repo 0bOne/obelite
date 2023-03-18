@@ -1,0 +1,61 @@
+name: Oresreat
+position: [10, 133]
+seed: 95 133 250 10 107 185
+limits:
+  blurs: 127
+  stars: 5569
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Oresreat
+  radius: 5130
+  rotationSpeed: 0.00239
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 564300
+  land:
+    ratio: 0.28
+    color: [0.615608, 0.585234, 0.66, 1]
+    polarColor: [0.918295, 0.907549, 0.934, 1]
+  sea:
+    color: [0.587737, 0.636719, 0.500421, 1]
+    polarColor: [0.91832, 0.936328, 0.88622, 1]
+  air:
+    color: [0.756328, 0.637094, 0.850061, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.552734, 0.468529, 0.494185, 1]
+    ratio: 0.46
+    polarColor: [0.74873, 0.67744, 0.699161, 1]
+  demographics:
+    type: 45
+    gdp: 19800
+    tech: 8
+    economy: 5
+    government: 7
+    description: This planet is a dull world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.385916, 0.569152, 0.730032, 1]
+  radius: 115833.609009
+  orbit:
+    type: static
+    parent: ~
+    radius: 513000
+    vector: [-0.179, -0.175, -0.968]
+  corona:
+    shimmer: 0.402699
+    hues: 0.646393
+    flare: 0.009854
+stations:
+- type: coriolis
+  orbit:
+    parent: Oresreat
+    vector: undefined
+    radius: 10260

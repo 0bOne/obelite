@@ -1,0 +1,61 @@
+name: Arveaa
+position: [206, 28]
+seed: 222 28 250 206 64 170
+limits:
+  blurs: 62
+  stars: 6877
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arveaa
+  radius: 5582
+  rotationSpeed: 0.002374
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 669840
+  land:
+    ratio: 0.49
+    color: [0.384141, 0.595345, 0.66, 1]
+    polarColor: [0.836404, 0.911126, 0.934, 1]
+  sea:
+    color: [0.59375, 0.483121, 0.449255, 1]
+    polarColor: [0.940625, 0.89681, 0.883398, 1]
+  air:
+    color: [0.638898, 0.593253, 0.839654, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.458463, 0.374817, 0.521484, 1]
+    ratio: 0.32
+    polarColor: [0.679178, 0.605527, 0.734668, 1]
+  demographics:
+    type: 48
+    gdp: 25344
+    tech: 9
+    economy: 4
+    government: 7
+    description: The world Arveaa is reasonably fabled for its exciting sit coms and its inhabitants’ ancient loathing of discos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.735233, 0.547883, 0.467968, 1]
+  radius: 179126.359558
+  orbit:
+    type: static
+    parent: ~
+    radius: 614020
+    vector: [0.753, 0.04, 0.656]
+  corona:
+    shimmer: 0.262948
+    hues: 0.743187
+    flare: 0.019133
+stations:
+- type: coriolis
+  orbit:
+    parent: Arveaa
+    vector: undefined
+    radius: 11164

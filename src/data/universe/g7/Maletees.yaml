@@ -1,0 +1,61 @@
+name: Maletees
+position: [239, 102]
+seed: 71 102 162 239 131 75
+limits:
+  blurs: 114
+  stars: 7866
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maletees
+  radius: 5871
+  rotationSpeed: 0.00175
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 763230
+  land:
+    ratio: 0.34
+    color: [0.317421, 0.339313, 0.517578, 1]
+    polarColor: [0.856566, 0.866593, 0.948242, 1]
+  sea:
+    color: [0.607269, 0.785156, 0.618387, 1]
+    polarColor: [0.869291, 0.921484, 0.872553, 1]
+  air:
+    color: [0.457881, 0.769654, 0.833801, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.305053, 0.503906, 0.124008, 1]
+    ratio: 0.45
+    polarColor: [0.547511, 0.726758, 0.384316, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 6
+    economy: 6
+    government: 4
+    description: The planet Maletees is mildly well known for its hoopy casinos.
+    inhabitants: Small Yellow Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.35424, 0.697596, 0.753479, 1]
+  radius: 163738.692627
+  orbit:
+    type: static
+    parent: ~
+    radius: 469680
+    vector: [-0.811, -0.505, 0.296]
+  corona:
+    shimmer: 0.635359
+    hues: 0.56649
+    flare: 0.056113
+stations:
+- type: coriolis
+  orbit:
+    parent: Maletees
+    vector: undefined
+    radius: 11742

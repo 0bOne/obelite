@@ -1,0 +1,61 @@
+name: Maesvear
+position: [161, 28]
+seed: 231 28 105 161 40 11
+limits:
+  blurs: 44
+  stars: 8269
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maesvear
+  radius: 5793
+  rotationSpeed: 0.003818
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 811020
+  land:
+    ratio: 0.52
+    color: [0.591797, 0.399925, 0.561817, 1]
+    polarColor: [0.94082, 0.864562, 0.928905, 1]
+  sea:
+    color: [0.658203, 0.636212, 0.492624, 1]
+    polarColor: [0.93418, 0.926377, 0.875428, 1]
+  air:
+    color: [0.570097, 0.516446, 0.904043, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.434561, 0.223389, 0.714844, 1]
+    ratio: 0.49
+    polarColor: [0.620322, 0.468614, 0.82168, 1]
+  demographics:
+    type: 38
+    gdp: 16416
+    tech: 7
+    economy: 4
+    government: 5
+    description: This planet is notable for the Maesvearian edible moth and its great dense forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.705737, 0.573907, 0.468425, 1]
+  radius: 120279.708252
+  orbit:
+    type: static
+    parent: ~
+    radius: 289650
+    vector: [0.312, -0.582, -0.75]
+  corona:
+    shimmer: 0.297456
+    hues: 0.702217
+    flare: 0.051833
+stations:
+- type: coriolis
+  orbit:
+    parent: Maesvear
+    vector: undefined
+    radius: 11586

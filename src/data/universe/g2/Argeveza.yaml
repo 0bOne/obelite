@@ -1,0 +1,61 @@
+name: Argeveza
+position: [232, 16]
+seed: 85 16 57 232 229 234
+limits:
+  blurs: 166
+  stars: 8172
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Argeveza
+  radius: 5608
+  rotationSpeed: 0.004205
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 560800
+  land:
+    ratio: 0.43
+    color: [0.245865, 0.511719, 0.511719, 1]
+    polarColor: [0.825592, 0.948828, 0.948828, 1]
+  sea:
+    color: [0.716797, 0.624922, 0.481598, 1]
+    polarColor: [0.92832, 0.898574, 0.852169, 1]
+  air:
+    color: [0.6716, 0.86526, 0.900791, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.649951, 0.705078, 0.589401, 1]
+    ratio: 0.25
+    polarColor: [0.777348, 0.817285, 0.733482, 1]
+  demographics:
+    type: 52
+    gdp: 45760
+    tech: 11
+    economy: 0
+    government: 7
+    description: This world is most notable for its fabulous cuisine but beset by occasional civil war.
+    inhabitants: Small Slimy Lizards
+- type: star
+  type: primary
+  color: [0.404507, 0.502548, 0.82225, 1]
+  radius: 118730.163574
+  orbit:
+    type: static
+    parent: ~
+    radius: 504720
+    vector: [0.088, -0.336, -0.938]
+  corona:
+    shimmer: 0.334866
+    hues: 0.638626
+    flare: 0.007912
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Argeveza
+    vector: undefined
+    radius: 11216

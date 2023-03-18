@@ -1,0 +1,61 @@
+name: Orlatein
+position: [204, 111]
+seed: 87 111 178 204 243 25
+limits:
+  blurs: 132
+  stars: 5912
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orlatein
+  radius: 5324
+  rotationSpeed: 0.000472
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 745360
+  land:
+    ratio: 0.62
+    color: [0.299072, 0.337791, 0.546875, 1]
+    polarColor: [0.838226, 0.854959, 0.945312, 1]
+  sea:
+    color: [0.614145, 0.638672, 0.495969, 1]
+    polarColor: [0.927145, 0.936133, 0.883841, 1]
+  air:
+    color: [0.642803, 0.834953, 0.957375, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.536621, 0.875, 0.597424, 1]
+    ratio: 0.32
+    polarColor: [0.677731, 0.89375, 0.716547, 1]
+  demographics:
+    type: 26
+    gdp: 6240
+    tech: 3
+    economy: 7
+    government: 6
+    description: This world is reasonably notable for its exotic cuisine but plagued by lethal disease.
+    inhabitants: Green Bony Birds
+- type: star
+  type: primary
+  color: [0.737479, 0.485939, 0.415029, 1]
+  radius: 121593.479004
+  orbit:
+    type: static
+    parent: ~
+    radius: 159720
+    vector: [-0.354, 0.807, -0.473]
+  corona:
+    shimmer: 0.481606
+    hues: 0.546906
+    flare: 0.0145
+stations:
+- type: coriolis
+  orbit:
+    parent: Orlatein
+    vector: undefined
+    radius: 10648

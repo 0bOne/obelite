@@ -1,0 +1,61 @@
+name: Quzadi
+position: [78, 219]
+seed: 186 219 100 78 91 218
+limits:
+  blurs: 189
+  stars: 7504
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Quzadi
+  radius: 5454
+  rotationSpeed: 0.004681
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 654480
+  land:
+    ratio: 0.65
+    color: [0.66, 0.394453, 0.450467, 1]
+    polarColor: [0.934, 0.840053, 0.85987, 1]
+  sea:
+    color: [0.552734, 0.497619, 0.438949, 1]
+    polarColor: [0.944727, 0.921176, 0.896106, 1]
+  air:
+    color: [0.574406, 0.937213, 0.863205, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.814453, 0.538859, 0.356323, 1]
+    ratio: 0.33
+    polarColor: [0.866504, 0.68325, 0.561874, 1]
+  demographics:
+    type: 40
+    gdp: 17920
+    tech: 8
+    economy: 3
+    government: 4
+    description: Quzadi is cursed by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.706787, 0.474861, 0.450073, 1]
+  radius: 120791.752625
+  orbit:
+    type: static
+    parent: ~
+    radius: 218160
+    vector: [-0.535, 0.806, 0.254]
+  corona:
+    shimmer: 0.558809
+    hues: 0.761116
+    flare: 0.038568
+stations:
+- type: coriolis
+  orbit:
+    parent: Quzadi
+    vector: undefined
+    radius: 10908

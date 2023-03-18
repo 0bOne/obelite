@@ -1,0 +1,61 @@
+name: Teorge
+position: [45, 46]
+seed: 152 46 180 45 205 156
+limits:
+  blurs: 123
+  stars: 5375
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teorge
+  radius: 5933
+  rotationSpeed: 0.001133
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 830620
+  land:
+    ratio: 0.34
+    color: [0.632906, 0.634766, 0.575256, 1]
+    polarColor: [0.935838, 0.936523, 0.914574, 1]
+  sea:
+    color: [0.181091, 0.503906, 0.246663, 1]
+    polarColor: [0.797523, 0.949609, 0.828416, 1]
+  air:
+    color: [0.668615, 0.816571, 0.946318, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.605042, 0.841797, 0.703073, 1]
+    ratio: 0.18
+    polarColor: [0.724331, 0.878809, 0.788294, 1]
+  demographics:
+    type: 33
+    gdp: 10560
+    tech: 5
+    economy: 6
+    government: 6
+    description: This planet is a tedious little planet.
+    inhabitants: Black Bony Lobsters
+- type: star
+  type: primary
+  color: [0.668909, 0.601606, 0.189687, 1]
+  radius: 183458.035889
+  orbit:
+    type: static
+    parent: ~
+    radius: 415310
+    vector: [-0.758, 0.546, -0.357]
+  corona:
+    shimmer: 0.290669
+    hues: 0.900658
+    flare: 0.07511
+stations:
+- type: coriolis
+  orbit:
+    parent: Teorge
+    vector: undefined
+    radius: 11866

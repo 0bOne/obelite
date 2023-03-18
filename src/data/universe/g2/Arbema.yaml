@@ -1,0 +1,61 @@
+name: Arbema
+position: [238, 251]
+seed: 57 251 17 238 13 74
+limits:
+  blurs: 80
+  stars: 7170
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arbema
+  radius: 5614
+  rotationSpeed: 0.002257
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 729820
+  land:
+    ratio: 0.32
+    color: [0.66, 0.304219, 0.304219, 1]
+    polarColor: [0.934, 0.808129, 0.808129, 1]
+  sea:
+    color: [0.55014, 0.703125, 0.559702, 1]
+    polarColor: [0.879118, 0.929688, 0.882278, 1]
+  air:
+    color: [0.52479, 0.53101, 0.876727, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.249664, 0.264631, 0.632812, 1]
+    ratio: 0.26
+    polarColor: [0.487796, 0.499397, 0.784766, 1]
+  demographics:
+    type: 34
+    gdp: 11424
+    tech: 7
+    economy: 3
+    government: 2
+    description: The planet Arbema is mildly well known for its hoopy night life.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.551857, 0.610906, 0.672794, 1]
+  radius: 120041.910095
+  orbit:
+    type: static
+    parent: ~
+    radius: 168420
+    vector: [0.19, -0.91, 0.367]
+  corona:
+    shimmer: 0.751473
+    hues: 0.74498
+    flare: 0.092715
+stations:
+- type: coriolis
+  orbit:
+    parent: Arbema
+    vector: undefined
+    radius: 11228

@@ -1,0 +1,61 @@
+name: Orbeat
+position: [164, 246]
+seed: 164 246 12 164 37 121
+limits:
+  blurs: 98
+  stars: 6098
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orbeat
+  radius: 5284
+  rotationSpeed: 0.004885
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 581240
+  land:
+    ratio: 0.53
+    color: [0.459309, 0.66, 0.417656, 1]
+    polarColor: [0.862998, 0.934, 0.848262, 1]
+  sea:
+    color: [0.638672, 0.538061, 0.493973, 1]
+    polarColor: [0.936133, 0.899265, 0.88311, 1]
+  air:
+    color: [0.614999, 0.559802, 0.870873, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.483468, 0.32444, 0.615234, 1]
+    ratio: 0.13
+    polarColor: [0.672867, 0.547364, 0.776855, 1]
+  demographics:
+    type: 16
+    gdp: 2560
+    tech: 2
+    economy: 6
+    government: 1
+    description: Orbeat is famous for its inhabitants’ ancient loathing of discos but plagued by occasional civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.556679, 0.626088, 0.651468, 1]
+  radius: 129460.257568
+  orbit:
+    type: static
+    parent: ~
+    radius: 317040
+    vector: [-0.232, 0.501, -0.834]
+  corona:
+    shimmer: 0.769997
+    hues: 0.583138
+    flare: 0.077367
+stations:
+- type: coriolis
+  orbit:
+    parent: Orbeat
+    vector: undefined
+    radius: 10568

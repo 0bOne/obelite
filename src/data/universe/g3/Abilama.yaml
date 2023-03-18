@@ -1,0 +1,61 @@
+name: Abilama
+position: [159, 88]
+seed: 74 88 18 159 138 111
+limits:
+  blurs: 195
+  stars: 7733
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Abilama
+  radius: 6815
+  rotationSpeed: 0.00195
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 613350
+  land:
+    ratio: 0.38
+    color: [0.505859, 0.458435, 0.481777, 1]
+    polarColor: [0.949414, 0.927162, 0.938114, 1]
+  sea:
+    color: [0.613281, 0.560327, 0.469064, 1]
+    polarColor: [0.938672, 0.918409, 0.883488, 1]
+  air:
+    color: [0.791758, 0.567236, 0.923555, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.773438, 0.3414, 0.381904, 1]
+    ratio: 0.48
+    polarColor: [0.848047, 0.551976, 0.579732, 1]
+  demographics:
+    type: 47
+    gdp: 22560
+    tech: 11
+    economy: 0
+    government: 2
+    description: Abilama is reasonably well known for its great dense forests but scourged by frequent civil war.
+    inhabitants: Blue Lizards
+- type: star
+  type: primary
+  color: [0.706204, 0.692827, 0.515787, 1]
+  radius: 174583.420563
+  orbit:
+    type: static
+    parent: ~
+    radius: 749650
+    vector: [-0.662, 0.043, 0.748]
+  corona:
+    shimmer: 0.286511
+    hues: 0.976784
+    flare: 0.065666
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Abilama
+    vector: undefined
+    radius: 13630

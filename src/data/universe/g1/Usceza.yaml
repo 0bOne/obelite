@@ -1,0 +1,61 @@
+name: Usceza
+position: [246, 39]
+seed: 0 39 192 246 26 232
+limits:
+  blurs: 87
+  stars: 7895
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usceza
+  radius: 5110
+  rotationSpeed: 0.00069
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 664300
+  land:
+    ratio: 0.54
+    color: [0.639375, 0.65855, 0.66, 1]
+    polarColor: [0.926703, 0.933487, 0.934, 1]
+  sea:
+    color: [0.596743, 0.705078, 0.53597, 1]
+    polarColor: [0.893788, 0.929492, 0.873759, 1]
+  air:
+    color: [0.802078, 0.503265, 0.971684, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.917969, 0.139847, 0.194559, 1]
+    ratio: 0.37
+    polarColor: [0.913086, 0.429347, 0.463359, 1]
+  demographics:
+    type: 16
+    gdp: 1536
+    tech: 2
+    economy: 7
+    government: 0
+    description: This world is a tedious place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.548497, 0.643669, 0.694873, 1]
+  radius: 79343.167114
+  orbit:
+    type: static
+    parent: ~
+    radius: 306600
+    vector: [0.044, -0.747, 0.664]
+  corona:
+    shimmer: 0.511648
+    hues: 0.579102
+    flare: 0.068579
+stations:
+- type: coriolis
+  orbit:
+    parent: Usceza
+    vector: undefined
+    radius: 10220

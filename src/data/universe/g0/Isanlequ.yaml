@@ -1,0 +1,61 @@
+name: Isanlequ
+position: [200, 149]
+seed: 192 149 8 200 189 221
+limits:
+  blurs: 54
+  stars: 7817
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isanlequ
+  radius: 6344
+  rotationSpeed: 0.002592
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 951600
+  land:
+    ratio: 0.45
+    color: [0.289604, 0.260353, 0.634766, 1]
+    polarColor: [0.809212, 0.798423, 0.936523, 1]
+  sea:
+    color: [0.634766, 0.603841, 0.482521, 1]
+    polarColor: [0.936523, 0.925117, 0.880369, 1]
+  air:
+    color: [0.617179, 0.894938, 0.825272, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.6875, 0.51808, 0.459229, 1]
+    ratio: 0.22
+    polarColor: [0.809375, 0.684716, 0.641414, 1]
+  demographics:
+    type: 13
+    gdp: 1560
+    tech: 1
+    economy: 7
+    government: 1
+    description: This planet is beset by evil disease.
+    inhabitants: Furry Felines
+- type: star
+  type: primary
+  color: [0.631176, 0.804256, 0.821973, 1]
+  radius: 158246.673584
+  orbit:
+    type: static
+    parent: ~
+    radius: 507520
+    vector: [-0.99, -0.115, -0.076]
+  corona:
+    shimmer: 0.348577
+    hues: 0.979439
+    flare: 0.062918
+stations:
+- type: coriolis
+  orbit:
+    parent: Isanlequ
+    vector: undefined
+    radius: 12688

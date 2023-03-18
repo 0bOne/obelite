@@ -1,0 +1,61 @@
+name: Dixeza
+position: [148, 129]
+seed: 52 129 0 148 102 109
+limits:
+  blurs: 148
+  stars: 7323
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Dixeza
+  radius: 6292
+  rotationSpeed: 0.002025
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 817960
+  land:
+    ratio: 0.25
+    color: [0.103125, 0.333706, 0.66, 1]
+    polarColor: [0.736984, 0.818561, 0.934, 1]
+  sea:
+    color: [0.560541, 0.708984, 0.60461, 1]
+    polarColor: [0.880469, 0.929102, 0.894907, 1]
+  air:
+    color: [0.49506, 0.667134, 0.843557, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.19162, 0.533203, 0.373086, 1]
+    ratio: 0.23
+    polarColor: [0.443676, 0.739941, 0.601067, 1]
+  demographics:
+    type: 20
+    gdp: 4480
+    tech: 4
+    economy: 3
+    government: 0
+    description: Dixeza is ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.303571, 0.807154, 0.81702, 1]
+  radius: 138611.984253
+  orbit:
+    type: static
+    parent: ~
+    radius: 440440
+    vector: [0.014, 0.959, 0.284]
+  corona:
+    shimmer: 0.312133
+    hues: 0.933975
+    flare: 0.016475
+stations:
+- type: coriolis
+  orbit:
+    parent: Dixeza
+    vector: undefined
+    radius: 12584

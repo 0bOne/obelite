@@ -1,0 +1,61 @@
+name: Onenla
+position: [162, 176]
+seed: 148 176 144 162 166 63
+limits:
+  blurs: 161
+  stars: 7617
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onenla
+  radius: 6818
+  rotationSpeed: 0.000131
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 886340
+  land:
+    ratio: 0.57
+    color: [0.378984, 0.66, 0.640241, 1]
+    polarColor: [0.83458, 0.934, 0.92701, 1]
+  sea:
+    color: [0.554688, 0.508214, 0.44245, 1]
+    polarColor: [0.944531, 0.924747, 0.896751, 1]
+  air:
+    color: [0.644763, 0.870873, 0.815926, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.615234, 0.535777, 0.504684, 1]
+    ratio: 0.59
+    polarColor: [0.776855, 0.714148, 0.689611, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 10
+    economy: 0
+    government: 2
+    description: This world is plagued by occasional solar activity.
+    inhabitants: Red Horned Humanoids
+- type: star
+  type: primary
+  color: [0.686499, 0.58125, 0.356406, 1]
+  radius: 215810.049133
+  orbit:
+    type: static
+    parent: ~
+    radius: 272720
+    vector: [-0.963, -0.261, -0.067]
+  corona:
+    shimmer: 0.256599
+    hues: 0.825104
+    flare: 0.060915
+stations:
+- type: coriolis
+  orbit:
+    parent: Onenla
+    vector: undefined
+    radius: 13636

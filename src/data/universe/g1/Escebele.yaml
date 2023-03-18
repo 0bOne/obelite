@@ -1,0 +1,61 @@
+name: Escebele
+position: [4, 55]
+seed: 84 55 184 4 54 41
+limits:
+  blurs: 56
+  stars: 9051
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Escebele
+  radius: 5124
+  rotationSpeed: 0.003534
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 563640
+  land:
+    ratio: 0.69
+    color: [0.464063, 0.66, 0.490085, 1]
+    polarColor: [0.86468, 0.934, 0.873886, 1]
+  sea:
+    color: [0.199951, 0.533203, 0.408234, 1]
+    polarColor: [0.798761, 0.94668, 0.89121, 1]
+  air:
+    color: [0.601738, 0.577356, 0.843557, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.401416, 0.347832, 0.533203, 1]
+    ratio: 0.23
+    polarColor: [0.625638, 0.579163, 0.739941, 1]
+  demographics:
+    type: 31
+    gdp: 8184
+    tech: 4
+    economy: 7
+    government: 7
+    description: Escebele is mildly well known for its hoopy casinos.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.221298, 0.56495, 0.713071, 1]
+  radius: 147325.946045
+  orbit:
+    type: static
+    parent: ~
+    radius: 512400
+    vector: [0.736, -0.584, 0.341]
+  corona:
+    shimmer: 0.444378
+    hues: 0.664215
+    flare: 0.057813
+stations:
+- type: coriolis
+  orbit:
+    parent: Escebele
+    vector: undefined
+    radius: 10248

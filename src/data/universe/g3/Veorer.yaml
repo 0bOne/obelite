@@ -1,0 +1,61 @@
+name: Veorer
+position: [63, 35]
+seed: 34 35 210 63 218 54
+limits:
+  blurs: 143
+  stars: 9133
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veorer
+  radius: 4415
+  rotationSpeed: 0.003784
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 529800
+  land:
+    ratio: 0.46
+    color: [0.370542, 0.291718, 0.617188, 1]
+    polarColor: [0.84454, 0.814582, 0.938281, 1]
+  sea:
+    color: [0.621164, 0.662109, 0.507962, 1]
+    polarColor: [0.919353, 0.933789, 0.87944, 1]
+  air:
+    color: [0.575243, 0.934611, 0.852891, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.806641, 0.506021, 0.359207, 1]
+    ratio: 0.22
+    polarColor: [0.862988, 0.661976, 0.563808, 1]
+  demographics:
+    type: 38
+    gdp: 12768
+    tech: 8
+    economy: 3
+    government: 2
+    description: The world Veorer is very noted for its pink Veorerian Cenureit Cenureitweed plantations but scourged by deadly solar activity.
+    inhabitants: Red Fat Felines
+- type: star
+  type: primary
+  color: [0.690737, 0.7745, 0.823248, 1]
+  radius: 84476.217651
+  orbit:
+    type: static
+    parent: ~
+    radius: 397350
+    vector: [-0.403, -0.691, -0.6]
+  corona:
+    shimmer: 0.46558
+    hues: 0.501419
+    flare: 0.055219
+stations:
+- type: coriolis
+  orbit:
+    parent: Veorer
+    vector: undefined
+    radius: 8830

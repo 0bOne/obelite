@@ -1,0 +1,61 @@
+name: Enedza
+position: [217, 141]
+seed: 53 141 153 217 37 114
+limits:
+  blurs: 185
+  stars: 7852
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enedza
+  radius: 3545
+  rotationSpeed: 0.000397
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 319050
+  land:
+    ratio: 0.51
+    color: [0.649688, 0.651782, 0.66, 1]
+    polarColor: [0.930352, 0.931093, 0.934, 1]
+  sea:
+    color: [0.208647, 0.605469, 0.0473022, 1]
+    polarColor: [0.785525, 0.939453, 0.722939, 1]
+  air:
+    color: [0.55282, 0.963686, 0.983391, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.851989, 0.953125, 0.27179, 1]
+    ratio: 0.31
+    polarColor: [0.867303, 0.928906, 0.513892, 1]
+  demographics:
+    type: 29
+    gdp: 8120
+    tech: 5
+    economy: 5
+    government: 3
+    description: The planet Enedza is most well known for its vast dense forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.70482, 0.735593, 0.761002, 1]
+  radius: 65255.99823
+  orbit:
+    type: static
+    parent: ~
+    radius: 425400
+    vector: [0.165, -0.919, 0.358]
+  corona:
+    shimmer: 0.444704
+    hues: 0.687317
+    flare: 0.052644
+stations:
+- type: coriolis
+  orbit:
+    parent: Enedza
+    vector: undefined
+    radius: 7090

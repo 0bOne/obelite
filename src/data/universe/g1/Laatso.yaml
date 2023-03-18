@@ -1,0 +1,61 @@
+name: Laatso
+position: [59, 217]
+seed: 244 217 96 59 102 128
+limits:
+  blurs: 114
+  stars: 9764
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laatso
+  radius: 2875
+  rotationSpeed: 0.00077
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 402500
+  land:
+    ratio: 0.68
+    color: [0.415078, 0.562414, 0.66, 1]
+    polarColor: [0.84735, 0.899475, 0.934, 1]
+  sea:
+    color: [0.53125, 0.459445, 0.424377, 1]
+    polarColor: [0.946875, 0.91488, 0.899254, 1]
+  air:
+    color: [0.590477, 0.906635, 0.971684, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.64018, 0.917969, 0.387268, 1]
+    ratio: 0.21
+    polarColor: [0.740392, 0.913086, 0.583162, 1]
+  demographics:
+    type: 50
+    gdp: 28800
+    tech: 11
+    economy: 1
+    government: 4
+    description: This planet is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.688071, 0.491885, 0.205586, 1]
+  radius: 82506.656647
+  orbit:
+    type: static
+    parent: ~
+    radius: 258750
+    vector: [-0.224, 0.921, -0.318]
+  corona:
+    shimmer: 0.30586
+    hues: 0.865936
+    flare: 0.086768
+stations:
+- type: icosahedron
+  orbit:
+    parent: Laatso
+    vector: undefined
+    radius: 5750

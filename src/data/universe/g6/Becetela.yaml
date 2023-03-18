@@ -1,0 +1,61 @@
+name: Becetela
+position: [227, 142]
+seed: 94 142 170 227 128 19
+limits:
+  blurs: 73
+  stars: 7127
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Becetela
+  radius: 3811
+  rotationSpeed: 0.001683
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 533540
+  land:
+    ratio: 0.3
+    color: [0.164383, 0.519531, 0.211551, 1]
+    polarColor: [0.786027, 0.948047, 0.807545, 1]
+  sea:
+    color: [0.515625, 0.413878, 0.408875, 1]
+    polarColor: [0.948438, 0.90165, 0.899348, 1]
+  air:
+    color: [0.479722, 0.596699, 0.88193, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.149445, 0.578267, 0.648438, 1]
+    ratio: 0.42
+    polarColor: [0.410977, 0.738244, 0.791797, 1]
+  demographics:
+    type: 40
+    gdp: 11520
+    tech: 7
+    economy: 6
+    government: 5
+    description: This world is a revolting little planet.
+    inhabitants: Green Furry Rodents
+- type: star
+  type: primary
+  color: [0.528039, 0.681108, 0.838202, 1]
+  radius: 80746.49292
+  orbit:
+    type: static
+    parent: ~
+    radius: 190550
+    vector: [0.868, -0.415, -0.271]
+  corona:
+    shimmer: 0.576019
+    hues: 0.829155
+    flare: 0.027591
+stations:
+- type: coriolis
+  orbit:
+    parent: Becetela
+    vector: undefined
+    radius: 7622

@@ -1,0 +1,61 @@
+name: Ineddien
+position: [168, 66]
+seed: 198 66 124 168 243 204
+limits:
+  blurs: 181
+  stars: 7054
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ineddien
+  radius: 6056
+  rotationSpeed: 0.003439
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 605600
+  land:
+    ratio: 0.45
+    color: [0.573995, 0.502734, 0.66, 1]
+    polarColor: [0.903573, 0.878361, 0.934, 1]
+  sea:
+    color: [0.654297, 0.506856, 0.472832, 1]
+    polarColor: [0.93457, 0.881921, 0.869771, 1]
+  air:
+    color: [0.642624, 0.885507, 0.924855, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.671659, 0.777344, 0.531387, 1]
+    ratio: 0.31
+    polarColor: [0.777595, 0.849805, 0.681753, 1]
+  demographics:
+    type: 46
+    gdp: 32384
+    tech: 9
+    economy: 2
+    government: 7
+    description: The world Ineddien is most famous for the Ineddienian spotted cat.
+    inhabitants: Horned Lizards
+- type: star
+  type: primary
+  color: [0.758536, 0.351554, 0.297848, 1]
+  radius: 110442.344971
+  orbit:
+    type: static
+    parent: ~
+    radius: 545040
+    vector: [-0.156, -0.116, 0.981]
+  corona:
+    shimmer: 0.431584
+    hues: 0.943169
+    flare: 0.074471
+stations:
+- type: coriolis
+  orbit:
+    parent: Ineddien
+    vector: undefined
+    radius: 12112

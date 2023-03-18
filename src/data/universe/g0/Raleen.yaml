@@ -1,0 +1,61 @@
+name: Raleen
+position: [156, 208]
+seed: 138 208 104 156 83 20
+limits:
+  blurs: 159
+  stars: 8192
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raleen
+  radius: 3996
+  rotationSpeed: 0.003821
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 559440
+  land:
+    ratio: 0.57
+    color: [0.651138, 0.66, 0.546562, 1]
+    polarColor: [0.930865, 0.934, 0.893867, 1]
+  sea:
+    color: [0.0849075, 0.61451, 0.701172, 1]
+    polarColor: [0.725563, 0.90115, 0.929883, 1]
+  air:
+    color: [0.693192, 0.838275, 0.901441, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.645926, 0.707031, 0.640747, 1]
+    ratio: 0.27
+    polarColor: [0.77397, 0.818164, 0.770225, 1]
+  demographics:
+    type: 46
+    gdp: 33120
+    tech: 10
+    economy: 0
+    government: 5
+    description: This planet is notable for the Raleenian tree grub and its inhabitants’ unusual silliness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.177929, 0.454473, 0.655762, 1]
+  radius: 126689.589844
+  orbit:
+    type: static
+    parent: ~
+    radius: 199800
+    vector: [-0.774, -0.113, -0.622]
+  corona:
+    shimmer: 0.382272
+    hues: 0.790359
+    flare: 0.076398
+stations:
+- type: coriolis
+  orbit:
+    parent: Raleen
+    vector: undefined
+    radius: 7992

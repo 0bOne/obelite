@@ -1,0 +1,61 @@
+name: Tianve
+position: [227, 0]
+seed: 26 0 116 227 155 119
+limits:
+  blurs: 58
+  stars: 5438
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tianve
+  radius: 4835
+  rotationSpeed: 0.002784
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 435150
+  land:
+    ratio: 0.67
+    color: [0.382771, 0.66, 0.373828, 1]
+    polarColor: [0.83592, 0.934, 0.832756, 1]
+  sea:
+    color: [0.697266, 0.640664, 0.506607, 1]
+    polarColor: [0.930273, 0.911394, 0.866681, 1]
+  air:
+    color: [0.659452, 0.876934, 0.909896, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.665009, 0.732422, 0.566483, 1]
+    ratio: 0.32
+    polarColor: [0.781867, 0.82959, 0.712119, 1]
+  demographics:
+    type: 59
+    gdp: 47200
+    tech: 13
+    economy: 0
+    government: 6
+    description: The planet Tianve is reasonably noted for its inhabitants’ exceptional loathing of food blenders and Zero-G cricket.
+    inhabitants: Blue Bony Felines
+- type: star
+  type: primary
+  color: [0.303727, 0.427148, 0.693707, 1]
+  radius: 78835.820007
+  orbit:
+    type: static
+    parent: ~
+    radius: 435150
+    vector: [-0.247, -0.476, -0.844]
+  corona:
+    shimmer: 0.362157
+    hues: 0.622223
+    flare: 0.090872
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Tianve
+    vector: undefined
+    radius: 9670

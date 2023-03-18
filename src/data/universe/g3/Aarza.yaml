@@ -1,0 +1,61 @@
+name: Aarza
+position: [42, 144]
+seed: 154 144 194 42 42 143
+limits:
+  blurs: 199
+  stars: 6982
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aarza
+  radius: 6698
+  rotationSpeed: 0.002571
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 602820
+  land:
+    ratio: 0.65
+    color: [0.447385, 0.66, 0.190781, 1]
+    polarColor: [0.858779, 0.934, 0.767996, 1]
+  sea:
+    color: [0.642162, 0.662109, 0.502531, 1]
+    polarColor: [0.926756, 0.933789, 0.877525, 1]
+  air:
+    color: [0.737426, 0.748021, 0.954123, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.794258, 0.803685, 0.865234, 1]
+    ratio: 0.36
+    polarColor: [0.843759, 0.849814, 0.889355, 1]
+  demographics:
+    type: 31
+    gdp: 7936
+    tech: 7
+    economy: 2
+    government: 0
+    description: This planet is a tedious place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.678693, 0.571396, 0.212702, 1]
+  radius: 162437.946777
+  orbit:
+    type: static
+    parent: ~
+    radius: 535840
+    vector: [0.933, -0.35, -0.082]
+  corona:
+    shimmer: 0.306885
+    hues: 0.72049
+    flare: 0.005093
+stations:
+- type: coriolis
+  orbit:
+    parent: Aarza
+    vector: undefined
+    radius: 13396

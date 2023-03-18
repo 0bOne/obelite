@@ -1,0 +1,61 @@
+name: Soteoris
+position: [20, 224]
+seed: 98 224 146 20 218 135
+limits:
+  blurs: 164
+  stars: 5662
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soteoris
+  radius: 4628
+  rotationSpeed: 0.001315
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 647920
+  land:
+    ratio: 0.35
+    color: [0.66, 0.280129, 0.131484, 1]
+    polarColor: [0.934, 0.799606, 0.747018, 1]
+  sea:
+    color: [0.513672, 0.422445, 0.410336, 1]
+    polarColor: [0.948633, 0.906514, 0.900923, 1]
+  air:
+    color: [0.7687, 0.481189, 0.980789, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.945312, 0.0664673, 0.293045, 1]
+    ratio: 0.29
+    polarColor: [0.925391, 0.387688, 0.526314, 1]
+  demographics:
+    type: 35
+    gdp: 16800
+    tech: 8
+    economy: 0
+    government: 2
+    description: This planet is mildly noted for the Soteorisian mountain Stoid but plagued by lethal spotted craboids.
+    inhabitants: Fierce Black Fat Insects
+- type: star
+  type: primary
+  color: [0.681853, 0.682424, 0.695114, 1]
+  radius: 144898.996582
+  orbit:
+    type: static
+    parent: ~
+    radius: 277680
+    vector: [-0.503, 0.609, -0.614]
+  corona:
+    shimmer: 0.552291
+    hues: 0.545311
+    flare: 0.020609
+stations:
+- type: coriolis
+  orbit:
+    parent: Soteoris
+    vector: undefined
+    radius: 9256

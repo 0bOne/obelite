@@ -1,0 +1,61 @@
+name: Bibe
+position: [172, 238]
+seed: 0 238 64 172 77 70
+limits:
+  blurs: 175
+  stars: 8647
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bibe
+  radius: 4524
+  rotationSpeed: 0.001581
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 588120
+  land:
+    ratio: 0.26
+    color: [0.118594, 0.393527, 0.66, 1]
+    polarColor: [0.742457, 0.839725, 0.934, 1]
+  sea:
+    color: [0.593516, 0.609375, 0.482501, 1]
+    polarColor: [0.932953, 0.939062, 0.890184, 1]
+  air:
+    color: [0.693788, 0.587866, 0.872174, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.619141, 0.384544, 0.587983, 1]
+    ratio: 0.28
+    polarColor: [0.778613, 0.594225, 0.754124, 1]
+  demographics:
+    type: 11
+    gdp: 1408
+    tech: 1
+    economy: 6
+    government: 0
+    description: This world is most fabled for Bibeian lethal brandy but beset by evil disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.733316, 0.762058, 0.811441, 1]
+  radius: 120073.487549
+  orbit:
+    type: static
+    parent: ~
+    radius: 316680
+    vector: [-0.278, 0.243, -0.929]
+  corona:
+    shimmer: 0.250457
+    hues: 0.807747
+    flare: 0.050725
+stations:
+- type: coriolis
+  orbit:
+    parent: Bibe
+    vector: undefined
+    radius: 9048

@@ -1,0 +1,61 @@
+name: Onbeso
+position: [244, 31]
+seed: 175 31 181 244 64 95
+limits:
+  blurs: 136
+  stars: 9227
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onbeso
+  radius: 6900
+  rotationSpeed: 0.00465
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 759000
+  land:
+    ratio: 0.59
+    color: [0.578024, 0.66, 0.376406, 1]
+    polarColor: [0.904998, 0.934, 0.833668, 1]
+  sea:
+    color: [0.614188, 0.666016, 0.511739, 1]
+    polarColor: [0.91524, 0.933398, 0.879345, 1]
+  air:
+    color: [0.458183, 0.655655, 0.878027, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.104462, 0.636719, 0.424648, 1]
+    ratio: 0.25
+    polarColor: [0.375596, 0.786523, 0.622794, 1]
+  demographics:
+    type: 26
+    gdp: 6240
+    tech: 3
+    economy: 7
+    government: 6
+    description: The planet Onbeso is reasonably noted for its inhabitants’ exceptional love for tourists and its unusual dense forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.657758, 0.734091, 0.748788, 1]
+  radius: 227076.919556
+  orbit:
+    type: static
+    parent: ~
+    radius: 483000
+    vector: [-0.923, -0.024, 0.383]
+  corona:
+    shimmer: 0.271121
+    hues: 0.92981
+    flare: 0.02879
+stations:
+- type: coriolis
+  orbit:
+    parent: Onbeso
+    vector: undefined
+    radius: 13800

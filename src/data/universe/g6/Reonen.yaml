@@ -1,0 +1,61 @@
+name: Reonen
+position: [196, 236]
+seed: 14 236 194 196 80 46
+limits:
+  blurs: 74
+  stars: 5901
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reonen
+  radius: 6596
+  rotationSpeed: 0.002003
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 923440
+  land:
+    ratio: 0.26
+    color: [0.157266, 0.224035, 0.66, 1]
+    polarColor: [0.756139, 0.779761, 0.934, 1]
+  sea:
+    color: [0.574219, 0.532428, 0.452646, 1]
+    polarColor: [0.942578, 0.925428, 0.892688, 1]
+  air:
+    color: [0.673824, 0.874775, 0.871425, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.626953, 0.624753, 0.570625, 1]
+    ratio: 0.41
+    polarColor: [0.782129, 0.780413, 0.738211, 1]
+  demographics:
+    type: 11
+    gdp: 1408
+    tech: 1
+    economy: 6
+    government: 0
+    description: This world is reasonably notable for its great volcanoes but plagued by lethal spotted batoids.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.808939, 0.745104, 0.714567, 1]
+  radius: 150045.513306
+  orbit:
+    type: static
+    parent: ~
+    radius: 395760
+    vector: [-0.95, 0.234, -0.208]
+  corona:
+    shimmer: 0.294388
+    hues: 0.987709
+    flare: 0.035208
+stations:
+- type: coriolis
+  orbit:
+    parent: Reonen
+    vector: undefined
+    radius: 13192

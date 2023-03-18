@@ -1,0 +1,61 @@
+name: Riantiat
+position: [189, 63]
+seed: 64 63 40 189 253 222
+limits:
+  blurs: 196
+  stars: 8533
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riantiat
+  radius: 6589
+  rotationSpeed: 0.001341
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 790680
+  land:
+    ratio: 0.36
+    color: [0.66, 0.630815, 0.497578, 1]
+    polarColor: [0.934, 0.923675, 0.876537, 1]
+  sea:
+    color: [0.658226, 0.693133, 0.830078, 1]
+    polarColor: [0.869531, 0.879171, 0.916992, 1]
+  air:
+    color: [0.587265, 0.575529, 0.837703, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.366404, 0.340393, 0.515625, 1]
+    ratio: 0.42
+    polarColor: [0.599626, 0.576546, 0.732031, 1]
+  demographics:
+    type: 29
+    gdp: 6264
+    tech: 4
+    economy: 7
+    government: 5
+    description: This planet is notable for the Riantiatian edible grub and the Riantiatian spotted wolf.
+    inhabitants: Horned Birds
+- type: star
+  type: primary
+  color: [0.530332, 0.760824, 0.764386, 1]
+  radius: 156516.901245
+  orbit:
+    type: static
+    parent: ~
+    radius: 461230
+    vector: [0.486, -0.183, -0.854]
+  corona:
+    shimmer: 0.27096
+    hues: 0.876488
+    flare: 0.048679
+stations:
+- type: coriolis
+  orbit:
+    parent: Riantiat
+    vector: undefined
+    radius: 13178

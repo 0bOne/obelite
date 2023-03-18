@@ -1,0 +1,61 @@
+name: Xelaed
+position: [114, 175]
+seed: 244 175 96 114 102 0
+limits:
+  blurs: 183
+  stars: 9111
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xelaed
+  radius: 2930
+  rotationSpeed: 0.00072
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 322300
+  land:
+    ratio: 0.43
+    color: [0.601048, 0.601562, 0.585114, 1]
+    polarColor: [0.939643, 0.939844, 0.933419, 1]
+  sea:
+    color: [0.687363, 0.835938, 0.470215, 1]
+    polarColor: [0.875687, 0.916406, 0.816174, 1]
+  air:
+    color: [0.614105, 0.887133, 0.795213, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.664062, 0.448761, 0.448761, 1]
+    ratio: 0.4
+    polarColor: [0.798828, 0.636956, 0.636956, 1]
+  demographics:
+    type: 28
+    gdp: 5376
+    tech: 4
+    economy: 7
+    government: 4
+    description: The world Xelaed is a boring world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.734902, 0.824944, 0.841113, 1]
+  radius: 85823.748779
+  orbit:
+    type: static
+    parent: ~
+    radius: 175800
+    vector: [0.892, 0.231, -0.389]
+  corona:
+    shimmer: 0.536776
+    hues: 0.623276
+    flare: 0.06709
+stations:
+- type: coriolis
+  orbit:
+    parent: Xelaed
+    vector: undefined
+    radius: 5860

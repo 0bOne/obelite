@@ -1,0 +1,61 @@
+name: Uszaa
+position: [3, 153]
+seed: 24 153 4 3 45 72
+limits:
+  blurs: 174
+  stars: 7534
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Uszaa
+  radius: 4867
+  rotationSpeed: 0.000463
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 535370
+  land:
+    ratio: 0.51
+    color: [0.588152, 0.335327, 0.640625, 1]
+    polarColor: [0.916772, 0.824429, 0.935938, 1]
+  sea:
+    color: [0.546188, 0.677734, 0.53504, 1]
+    polarColor: [0.886991, 0.932227, 0.883157, 1]
+  air:
+    color: [0.643013, 0.555998, 0.886482, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.594925, 0.318123, 0.662109, 1]
+    ratio: 0.38
+    polarColor: [0.747344, 0.538849, 0.797949, 1]
+  demographics:
+    type: 32
+    gdp: 7168
+    tech: 7
+    economy: 3
+    government: 0
+    description: The planet Uszaa is reasonably noted for its inhabitants’ eccentric love for tourists and the Uszaaian tree grub.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.257044, 0.752965, 0.777399, 1]
+  radius: 115243.692017
+  orbit:
+    type: static
+    parent: ~
+    radius: 486700
+    vector: [-0.79, -0.459, -0.406]
+  corona:
+    shimmer: 0.548501
+    hues: 0.988953
+    flare: 0.044383
+stations:
+- type: coriolis
+  orbit:
+    parent: Uszaa
+    vector: undefined
+    radius: 9734

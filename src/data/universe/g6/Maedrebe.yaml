@@ -1,0 +1,61 @@
+name: Maedrebe
+position: [10, 98]
+seed: 222 98 138 10 128 203
+limits:
+  blurs: 150
+  stars: 5550
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Maedrebe
+  radius: 5642
+  rotationSpeed: 0.000484
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 564200
+  land:
+    ratio: 0.45
+    color: [0.66, 0.242344, 0.594741, 1]
+    polarColor: [0.934, 0.786238, 0.910912, 1]
+  sea:
+    color: [0.65625, 0.638362, 0.4927, 1]
+    polarColor: [0.934375, 0.928008, 0.876159, 1]
+  air:
+    color: [0.638554, 0.885832, 0.84118, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.660156, 0.576589, 0.502853, 1]
+    ratio: 0.39
+    polarColor: [0.79707, 0.734009, 0.678366, 1]
+  demographics:
+    type: 36
+    gdp: 11520
+    tech: 8
+    economy: 2
+    government: 1
+    description: This world is a tedious place.
+    inhabitants: Small Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.284462, 0.617059, 0.683978, 1]
+  radius: 126647.128296
+  orbit:
+    type: static
+    parent: ~
+    radius: 507780
+    vector: [-0.382, -0.678, -0.628]
+  corona:
+    shimmer: 0.28725
+    hues: 0.516479
+    flare: 0.097194
+stations:
+- type: coriolis
+  orbit:
+    parent: Maedrebe
+    vector: undefined
+    radius: 11284

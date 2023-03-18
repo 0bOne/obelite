@@ -1,0 +1,61 @@
+name: Geen
+position: [234, 132]
+seed: 173 132 172 234 1 67
+limits:
+  blurs: 167
+  stars: 8271
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Geen
+  radius: 3818
+  rotationSpeed: 0.001902
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 381800
+  land:
+    ratio: 0.69
+    color: [0.490286, 0.570312, 0.031189, 1]
+    polarColor: [0.909889, 0.942969, 0.720119, 1]
+  sea:
+    color: [0.658203, 0.585971, 0.509079, 1]
+    polarColor: [0.93418, 0.90855, 0.881267, 1]
+  air:
+    color: [0.730919, 0.794998, 0.9164, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.746078, 0.751953, 0.751815, 1]
+    ratio: 0.42
+    polarColor: [0.834285, 0.838379, 0.838283, 1]
+  demographics:
+    type: 42
+    gdp: 18144
+    tech: 8
+    economy: 4
+    government: 5
+    description: Geen is mildly notable for Geenian lethal brandy.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.664401, 0.357922, 0.210185, 1]
+  radius: 60009.876404
+  orbit:
+    type: static
+    parent: ~
+    radius: 458160
+    vector: [-0.542, 0.59, 0.599]
+  corona:
+    shimmer: 0.30743
+    hues: 0.885292
+    flare: 0.071344
+stations:
+- type: coriolis
+  orbit:
+    parent: Geen
+    vector: undefined
+    radius: 7636

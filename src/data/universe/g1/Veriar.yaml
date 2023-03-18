@@ -1,0 +1,61 @@
+name: Veriar
+position: [53, 147]
+seed: 0 147 192 53 26 54
+limits:
+  blurs: 112
+  stars: 8525
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veriar
+  radius: 4405
+  rotationSpeed: 0.000579
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 440500
+  land:
+    ratio: 0.35
+    color: [0.487266, 0.66, 0.314531, 1]
+    polarColor: [0.872889, 0.934, 0.811777, 1]
+  sea:
+    color: [0.565491, 0.689453, 0.535403, 1]
+    polarColor: [0.889204, 0.931055, 0.879047, 1]
+  air:
+    color: [0.758589, 0.633354, 0.853963, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.564453, 0.465233, 0.493139, 1]
+    ratio: 0.46
+    polarColor: [0.754004, 0.671167, 0.694465, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: The world Veriar is very famous for Veriarian shrew steak but ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.821469, 0.688744, 0.40604, 1]
+  radius: 123508.843994
+  orbit:
+    type: static
+    parent: ~
+    radius: 528600
+    vector: [0.199, 0.909, 0.365]
+  corona:
+    shimmer: 0.258002
+    hues: 0.964149
+    flare: 0.02337
+stations:
+- type: coriolis
+  orbit:
+    parent: Veriar
+    vector: undefined
+    radius: 8810

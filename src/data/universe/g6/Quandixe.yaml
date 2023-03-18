@@ -1,0 +1,61 @@
+name: Quandixe
+position: [87, 200]
+seed: 222 200 250 87 64 186
+limits:
+  blurs: 156
+  stars: 9451
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Quandixe
+  radius: 5463
+  rotationSpeed: 0.002363
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 600930
+  land:
+    ratio: 0.42
+    color: [0.66, 0.611016, 0.648902, 1]
+    polarColor: [0.934, 0.91667, 0.930074, 1]
+  sea:
+    color: [0.521484, 0.354828, 0.0366669, 1]
+    polarColor: [0.947852, 0.872123, 0.72755, 1]
+  air:
+    color: [0.514919, 0.509709, 0.894287, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.237477, 0.211555, 0.685547, 1]
+    ratio: 0.33
+    polarColor: [0.478228, 0.459122, 0.808496, 1]
+  demographics:
+    type: 64
+    gdp: 56320
+    tech: 14
+    economy: 0
+    government: 7
+    description: Quandixe is ravaged by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.714315, 0.720281, 0.76131, 1]
+  radius: 178734.528809
+  orbit:
+    type: static
+    parent: ~
+    radius: 327780
+    vector: [0.683, -0.497, -0.535]
+  corona:
+    shimmer: 0.429097
+    hues: 0.669792
+    flare: 0.04449
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Quandixe
+    vector: undefined
+    radius: 10926

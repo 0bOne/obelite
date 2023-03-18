@@ -1,0 +1,61 @@
+name: Edriuson
+position: [80, 117]
+seed: 109 117 129 80 213 152
+limits:
+  blurs: 43
+  stars: 9240
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edriuson
+  radius: 4944
+  rotationSpeed: 0.000082
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 494400
+  land:
+    ratio: 0.64
+    color: [0.556641, 0.392679, 0.00434875, 1]
+    polarColor: [0.944336, 0.874796, 0.710096, 1]
+  sea:
+    color: [0.666016, 0.61504, 0.517723, 1]
+    polarColor: [0.933398, 0.915538, 0.881442, 1]
+  air:
+    color: [0.69623, 0.54177, 0.917051, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.753906, 0.27977, 0.635372, 1]
+    ratio: 0.23
+    polarColor: [0.839258, 0.509374, 0.756787, 1]
+  demographics:
+    type: 8
+    gdp: 768
+    tech: 0
+    economy: 7
+    government: 0
+    description: This world is very notable for its inhabitants’ weird shyness and its inhabitants’ eccentric shyness.
+    inhabitants: Black Furry Humanoids
+- type: star
+  type: primary
+  color: [0.640972, 0.706376, 0.816418, 1]
+  radius: 135519.433594
+  orbit:
+    type: static
+    parent: ~
+    radius: 543840
+    vector: [0.632, 0.33, -0.701]
+  corona:
+    shimmer: 0.351038
+    hues: 0.897247
+    flare: 0.052927
+stations:
+- type: coriolis
+  orbit:
+    parent: Edriuson
+    vector: undefined
+    radius: 9888

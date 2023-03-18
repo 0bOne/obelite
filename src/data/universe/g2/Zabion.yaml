@@ -1,0 +1,61 @@
+name: Zabion
+position: [149, 12]
+seed: 61 12 145 149 53 100
+limits:
+  blurs: 67
+  stars: 7348
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zabion
+  radius: 3989
+  rotationSpeed: 0.001943
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 359010
+  land:
+    ratio: 0.33
+    color: [0.404766, 0.648036, 0.66, 1]
+    polarColor: [0.843701, 0.929767, 0.934, 1]
+  sea:
+    color: [0.565757, 0.667969, 0.524199, 1]
+    polarColor: [0.897504, 0.933203, 0.882989, 1]
+  air:
+    color: [0.714904, 0.793552, 0.928107, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.716393, 0.787109, 0.78048, 1]
+    ratio: 0.33
+    polarColor: [0.806234, 0.854199, 0.849702, 1]
+  demographics:
+    type: 27
+    gdp: 7776
+    tech: 5
+    economy: 4
+    government: 2
+    description: This world is ravaged by dreadful civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.824387, 0.789247, 0.654153, 1]
+  radius: 86753.567657
+  orbit:
+    type: static
+    parent: ~
+    radius: 359010
+    vector: [0.029, 0.974, -0.225]
+  corona:
+    shimmer: 0.332009
+    hues: 0.924232
+    flare: 0.055276
+stations:
+- type: coriolis
+  orbit:
+    parent: Zabion
+    vector: undefined
+    radius: 7978

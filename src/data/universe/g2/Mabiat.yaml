@@ -1,0 +1,61 @@
+name: Mabiat
+position: [32, 90]
+seed: 189 90 17 32 53 75
+limits:
+  blurs: 114
+  stars: 5631
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Mabiat
+  radius: 5664
+  rotationSpeed: 0.001914
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 566400
+  land:
+    ratio: 0.35
+    color: [0.407424, 0.234609, 0.66, 1]
+    polarColor: [0.844642, 0.783502, 0.934, 1]
+  sea:
+    color: [0.716797, 0.473373, 0.425598, 1]
+    polarColor: [0.92832, 0.849506, 0.834038, 1]
+  air:
+    color: [0.627956, 0.84447, 0.96518, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.494843, 0.898438, 0.529526, 1]
+    ratio: 0.34
+    polarColor: [0.650405, 0.904297, 0.672224, 1]
+  demographics:
+    type: 29
+    gdp: 11136
+    tech: 6
+    economy: 2
+    government: 2
+    description: The world Mabiat is scourged by evil disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.829895, 0.829547, 0.827274, 1]
+  radius: 156636.357422
+  orbit:
+    type: static
+    parent: ~
+    radius: 566400
+    vector: [0.8, 0.431, 0.417]
+  corona:
+    shimmer: 0.262001
+    hues: 0.965134
+    flare: 0.027882
+stations:
+- type: coriolis
+  orbit:
+    parent: Mabiat
+    vector: undefined
+    radius: 11328

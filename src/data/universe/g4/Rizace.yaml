@@ -1,0 +1,61 @@
+name: Rizace
+position: [162, 67]
+seed: 188 67 8 162 245 94
+limits:
+  blurs: 178
+  stars: 9797
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rizace
+  radius: 6562
+  rotationSpeed: 0.004091
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 787440
+  land:
+    ratio: 0.25
+    color: [0.142822, 0.609375, 0.478157, 1]
+    polarColor: [0.75932, 0.939062, 0.88851, 1]
+  sea:
+    color: [0.623047, 0.489174, 0.45828, 1]
+    polarColor: [0.937695, 0.887325, 0.875701, 1]
+  air:
+    color: [0.700381, 0.766764, 0.956074, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.694153, 0.829623, 0.871094, 1]
+    ratio: 0.48
+    polarColor: [0.778751, 0.865451, 0.891992, 1]
+  demographics:
+    type: 33
+    gdp: 9240
+    tech: 7
+    economy: 3
+    government: 1
+    description: Rizace is reasonably notable for its exotic cuisine but plagued by lethal disease.
+    inhabitants: Yellow Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.653286, 0.653619, 0.35844, 1]
+  radius: 138532.3349
+  orbit:
+    type: static
+    parent: ~
+    radius: 590580
+    vector: [0.359, -0.609, 0.707]
+  corona:
+    shimmer: 0.402714
+    hues: 0.522545
+    flare: 0.009218
+stations:
+- type: coriolis
+  orbit:
+    parent: Rizace
+    vector: undefined
+    radius: 13124

@@ -1,0 +1,61 @@
+name: Ororra
+position: [96, 95]
+seed: 48 95 232 96 154 57
+limits:
+  blurs: 99
+  stars: 7042
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ororra
+  radius: 5216
+  rotationSpeed: 0.002149
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 625920
+  land:
+    ratio: 0.34
+    color: [0.462048, 0.172734, 0.66, 1]
+    polarColor: [0.863967, 0.761611, 0.934, 1]
+  sea:
+    color: [0.523438, 0.421549, 0.413843, 1]
+    polarColor: [0.947656, 0.90154, 0.898052, 1]
+  air:
+    color: [0.588884, 0.579534, 0.8325, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.363281, 0.34375, 0.5, 1]
+    ratio: 0.23
+    polarColor: [0.601099, 0.583398, 0.725, 1]
+  demographics:
+    type: 25
+    gdp: 5400
+    tech: 3
+    economy: 7
+    government: 5
+    description: This planet is a dull place.
+    inhabitants: Red Rodents
+- type: star
+  type: primary
+  color: [0.421421, 0.738286, 0.779181, 1]
+  radius: 123521.845703
+  orbit:
+    type: static
+    parent: ~
+    radius: 625920
+    vector: [0.833, 0.376, -0.405]
+  corona:
+    shimmer: 0.289388
+    hues: 0.648209
+    flare: 0.022072
+stations:
+- type: coriolis
+  orbit:
+    parent: Ororra
+    vector: undefined
+    radius: 10432

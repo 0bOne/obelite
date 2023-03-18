@@ -1,0 +1,61 @@
+name: Atanorbi
+position: [11, 158]
+seed: 217 158 29 11 250 209
+limits:
+  blurs: 73
+  stars: 5623
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atanorbi
+  radius: 3083
+  rotationSpeed: 0.000527
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 308300
+  land:
+    ratio: 0.53
+    color: [0.226715, 0.337223, 0.630859, 1]
+    polarColor: [0.786861, 0.827891, 0.936914, 1]
+  sea:
+    color: [0.634766, 0.543716, 0.470619, 1]
+    polarColor: [0.936523, 0.90294, 0.875979, 1]
+  air:
+    color: [0.431915, 0.721823, 0.878027, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0472565, 0.636719, 0.0840979, 1]
+    ratio: 0.55
+    polarColor: [0.331431, 0.786523, 0.359874, 1]
+  demographics:
+    type: 34
+    gdp: 7616
+    tech: 6
+    economy: 6
+    government: 3
+    description: This world is a tedious little planet.
+    inhabitants: Furry Felines
+- type: star
+  type: primary
+  color: [0.60787, 0.668942, 0.782825, 1]
+  radius: 86957.290802
+  orbit:
+    type: static
+    parent: ~
+    radius: 246640
+    vector: [-0.672, 0.678, 0.297]
+  corona:
+    shimmer: 0.374111
+    hues: 0.871933
+    flare: 0.045598
+stations:
+- type: coriolis
+  orbit:
+    parent: Atanorbi
+    vector: undefined
+    radius: 6166

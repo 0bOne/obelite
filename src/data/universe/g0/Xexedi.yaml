@@ -1,0 +1,61 @@
+name: Xexedi
+position: [71, 88]
+seed: 138 88 108 71 219 2
+limits:
+  blurs: 168
+  stars: 7062
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xexedi
+  radius: 3399
+  rotationSpeed: 0.004894
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 407880
+  land:
+    ratio: 0.5
+    color: [0.66, 0.291328, 0.455502, 1]
+    polarColor: [0.934, 0.803568, 0.861651, 1]
+  sea:
+    color: [0.587921, 0.619141, 0.490234, 1]
+    polarColor: [0.92626, 0.938086, 0.889258, 1]
+  air:
+    color: [0.620329, 0.887783, 0.812352, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.666016, 0.496382, 0.463089, 1]
+    ratio: 0.08
+    polarColor: [0.799707, 0.672404, 0.647419, 1]
+  demographics:
+    type: 58
+    gdp: 41760
+    tech: 13
+    economy: 0
+    government: 5
+    description: The planet Xexedi is scourged by deadly disease.
+    inhabitants: Large Green Frogs
+- type: star
+  type: primary
+  color: [0.70643, 0.755372, 0.767682, 1]
+  radius: 71205.460968
+  orbit:
+    type: static
+    parent: ~
+    radius: 305910
+    vector: [-0.104, -0.774, 0.625]
+  corona:
+    shimmer: 0.305398
+    hues: 0.56308
+    flare: 0.028917
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Xexedi
+    vector: undefined
+    radius: 6798

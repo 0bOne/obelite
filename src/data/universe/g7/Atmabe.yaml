@@ -1,0 +1,61 @@
+name: Atmabe
+position: [54, 67]
+seed: 1 67 240 54 77 209
+limits:
+  blurs: 146
+  stars: 5471
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atmabe
+  radius: 3126
+  rotationSpeed: 0.003502
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 375120
+  land:
+    ratio: 0.32
+    color: [0.327422, 0.66, 0.605436, 1]
+    polarColor: [0.816338, 0.934, 0.914696, 1]
+  sea:
+    color: [0.595703, 0.47966, 0.448639, 1]
+    polarColor: [0.94043, 0.894631, 0.882388, 1]
+  air:
+    color: [0.556261, 0.502643, 0.913148, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.411682, 0.185547, 0.742188, 1]
+    ratio: 0.41
+    polarColor: [0.60187, 0.443054, 0.833984, 1]
+  demographics:
+    type: 46
+    gdp: 25760
+    tech: 9
+    economy: 3
+    government: 6
+    description: Atmabe is mildly well known for its exotic cuisine and its inhabitants’ ingrained shyness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.711945, 0.297254, 0.286797, 1]
+  radius: 76261.120605
+  orbit:
+    type: static
+    parent: ~
+    radius: 343860
+    vector: [0.45, 0.868, -0.211]
+  corona:
+    shimmer: 0.484755
+    hues: 0.692764
+    flare: 0.041292
+stations:
+- type: coriolis
+  orbit:
+    parent: Atmabe
+    vector: undefined
+    radius: 6252

@@ -1,0 +1,61 @@
+name: Raarcege
+position: [230, 110]
+seed: 253 110 81 230 181 244
+limits:
+  blurs: 97
+  stars: 6571
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raarcege
+  radius: 4070
+  rotationSpeed: 0.004522
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 529100
+  land:
+    ratio: 0.51
+    color: [0.66, 0.0592969, 0.284561, 1]
+    polarColor: [0.934, 0.721479, 0.801174, 1]
+  sea:
+    color: [0.59375, 0.576962, 0.467346, 1]
+    polarColor: [0.940625, 0.933976, 0.890562, 1]
+  air:
+    color: [0.86289, 0.772561, 0.987943, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.966797, 0.913925, 0.95234, 1]
+    ratio: 0.44
+    polarColor: [0.935059, 0.903099, 0.92632, 1]
+  demographics:
+    type: 25
+    gdp: 4800
+    tech: 4
+    economy: 6
+    government: 2
+    description: This world is reasonably notable for its weird tropical forests but scourged by deadly civil war.
+    inhabitants: Slimy Rodents
+- type: star
+  type: primary
+  color: [0.670436, 0.730931, 0.749301, 1]
+  radius: 92284.21936
+  orbit:
+    type: static
+    parent: ~
+    radius: 407000
+    vector: [-0.616, 0.786, 0.052]
+  corona:
+    shimmer: 0.349227
+    hues: 0.594841
+    flare: 0.013303
+stations:
+- type: coriolis
+  orbit:
+    parent: Raarcege
+    vector: undefined
+    radius: 8140

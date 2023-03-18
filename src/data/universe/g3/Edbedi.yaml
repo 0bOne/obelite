@@ -1,0 +1,61 @@
+name: Edbedi
+position: [193, 217]
+seed: 162 217 82 193 218 56
+limits:
+  blurs: 139
+  stars: 9088
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edbedi
+  radius: 5057
+  rotationSpeed: 0.003805
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 657410
+  land:
+    ratio: 0.34
+    color: [0.288374, 0.613281, 0.019165, 1]
+    polarColor: [0.814348, 0.938672, 0.711337, 1]
+  sea:
+    color: [0.591797, 0.501108, 0.451939, 1]
+    polarColor: [0.94082, 0.904777, 0.885235, 1]
+  air:
+    color: [0.680765, 0.554427, 0.900791, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.705078, 0.31398, 0.662302, 1]
+    ratio: 0.49
+    polarColor: [0.817285, 0.533949, 0.786295, 1]
+  demographics:
+    type: 36
+    gdp: 15552
+    tech: 8
+    economy: 1
+    government: 2
+    description: This world is reasonably well known for its vast rain forests but beset by lethal disease.
+    inhabitants: Red Slimy Rodents
+- type: star
+  type: primary
+  color: [0.751585, 0.77895, 0.807404, 1]
+  radius: 117854.428253
+  orbit:
+    type: static
+    parent: ~
+    radius: 151710
+    vector: [-0.666, -0.527, -0.528]
+  corona:
+    shimmer: 1.046767
+    hues: 0.538338
+    flare: 0.062964
+stations:
+- type: coriolis
+  orbit:
+    parent: Edbedi
+    vector: undefined
+    radius: 10114

@@ -1,0 +1,61 @@
+name: Atistiso
+position: [136, 163]
+seed: 73 163 129 136 205 49
+limits:
+  blurs: 174
+  stars: 6271
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atistiso
+  radius: 3208
+  rotationSpeed: 0.004105
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 481200
+  land:
+    ratio: 0.65
+    color: [0.655529, 0.0876563, 0.66, 1]
+    polarColor: [0.932418, 0.731512, 0.934, 1]
+  sea:
+    color: [0.615234, 0.609921, 0.47921, 1]
+    polarColor: [0.938477, 0.93645, 0.886604, 1]
+  air:
+    color: [0.697963, 0.811764, 0.924855, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.671066, 0.777344, 0.725035, 1]
+    ratio: 0.24
+    polarColor: [0.77719, 0.849805, 0.814064, 1]
+  demographics:
+    type: 20
+    gdp: 4480
+    tech: 4
+    economy: 3
+    government: 0
+    description: This planet is notable for the Atistisoian edible poet and Atistisoian evil brandy.
+    inhabitants: Red Bony Birds
+- type: star
+  type: primary
+  color: [0.450206, 0.577883, 0.724002, 1]
+  radius: 73191.800537
+  orbit:
+    type: static
+    parent: ~
+    radius: 224560
+    vector: [0.22, 0.6, -0.769]
+  corona:
+    shimmer: 0.425128
+    hues: 0.916122
+    flare: 0.048752
+stations:
+- type: coriolis
+  orbit:
+    parent: Atistiso
+    vector: undefined
+    radius: 6416

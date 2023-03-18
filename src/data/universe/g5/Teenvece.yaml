@@ -1,0 +1,61 @@
+name: Teenvece
+position: [7, 173]
+seed: 233 173 249 7 138 124
+limits:
+  blurs: 59
+  stars: 8443
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teenvece
+  radius: 5895
+  rotationSpeed: 0.000956
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 766350
+  land:
+    ratio: 0.6
+    color: [0.649688, 0.659033, 0.66, 1]
+    polarColor: [0.930352, 0.933658, 0.934, 1]
+  sea:
+    color: [0.394267, 0.34684, 0.525391, 1]
+    polarColor: [0.888346, 0.866964, 0.947461, 1]
+  air:
+    color: [0.788603, 0.587513, 0.906645, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.722656, 0.39238, 0.423343, 1]
+    ratio: 0.27
+    polarColor: [0.825195, 0.589483, 0.611581, 1]
+  demographics:
+    type: 49
+    gdp: 21560
+    tech: 9
+    economy: 5
+    government: 7
+    description: The world Teenvece is beset by dreadful earthquakes.
+    inhabitants: Blue Horned Lizards
+- type: star
+  type: primary
+  color: [0.762137, 0.445974, 0.198785, 1]
+  radius: 156341.271973
+  orbit:
+    type: static
+    parent: ~
+    radius: 412650
+    vector: [-0.002, 0.867, -0.499]
+  corona:
+    shimmer: 0.343642
+    hues: 0.903252
+    flare: 0.074175
+stations:
+- type: coriolis
+  orbit:
+    parent: Teenvece
+    vector: undefined
+    radius: 11790

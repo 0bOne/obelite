@@ -1,0 +1,61 @@
+name: Beedriar
+position: [114, 242]
+seed: 212 242 48 114 166 115
+limits:
+  blurs: 123
+  stars: 9409
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beedriar
+  radius: 3698
+  rotationSpeed: 0.001398
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 480740
+  land:
+    ratio: 0.62
+    color: [0.580078, 0.562322, 0.541557, 1]
+    polarColor: [0.941992, 0.934784, 0.926354, 1]
+  sea:
+    color: [0.694536, 0.806641, 0.494698, 1]
+    polarColor: [0.887394, 0.919336, 0.830455, 1]
+  air:
+    color: [0.735582, 0.638234, 0.837053, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.513672, 0.455482, 0.485486, 1]
+    ratio: 0.35
+    polarColor: [0.731152, 0.679386, 0.706078, 1]
+  demographics:
+    type: 49
+    gdp: 31360
+    tech: 10
+    economy: 2
+    government: 6
+    description: This world is mildly well known for its hoopy night life and Beedriarian lethal brandy.
+    inhabitants: Blue Slimy Lobsters
+- type: star
+  type: primary
+  color: [0.752063, 0.66735, 0.594655, 1]
+  radius: 93641.738281
+  orbit:
+    type: static
+    parent: ~
+    radius: 110940
+    vector: [0.585, 0.52, -0.622]
+  corona:
+    shimmer: 0.346345
+    hues: 0.531693
+    flare: 0.030559
+stations:
+- type: coriolis
+  orbit:
+    parent: Beedriar
+    vector: undefined
+    radius: 7396

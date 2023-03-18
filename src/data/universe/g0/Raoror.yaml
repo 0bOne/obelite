@@ -1,0 +1,61 @@
+name: Raoror
+position: [11, 58]
+seed: 0 58 64 11 77 244
+limits:
+  blurs: 175
+  stars: 5391
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raoror
+  radius: 3851
+  rotationSpeed: 0.001636
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 385100
+  land:
+    ratio: 0.39
+    color: [0.628906, 0.560734, 0.510986, 1]
+    polarColor: [0.937109, 0.911714, 0.893182, 1]
+  sea:
+    color: [0.169373, 0.578125, 0.444003, 1]
+    polarColor: [0.775648, 0.942187, 0.887542, 1]
+  air:
+    color: [0.780705, 0.610704, 0.883881, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.654297, 0.439606, 0.464765, 1]
+    ratio: 0.4
+    polarColor: [0.794434, 0.631513, 0.650605, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: This world is very fabled for its weird volcanoes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.398553, 0.523837, 0.827963, 1]
+  radius: 101182.180939
+  orbit:
+    type: static
+    parent: ~
+    radius: 423610
+    vector: [-0.254, -0.967, -0.004]
+  corona:
+    shimmer: 0.458858
+    hues: 0.604118
+    flare: 0.085837
+stations:
+- type: coriolis
+  orbit:
+    parent: Raoror
+    vector: undefined
+    radius: 7702

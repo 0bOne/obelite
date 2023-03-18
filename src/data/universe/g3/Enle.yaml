@@ -1,0 +1,61 @@
+name: Enle
+position: [110, 95]
+seed: 18 95 130 110 154 210
+limits:
+  blurs: 108
+  stars: 8764
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enle
+  radius: 3438
+  rotationSpeed: 0.003238
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 343800
+  land:
+    ratio: 0.4
+    color: [0.565496, 0.66, 0.304219, 1]
+    polarColor: [0.900566, 0.934, 0.808129, 1]
+  sea:
+    color: [0.562884, 0.671875, 0.528052, 1]
+    polarColor: [0.894982, 0.932813, 0.882892, 1]
+  air:
+    color: [0.555514, 0.959326, 0.899016, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.880859, 0.624946, 0.295914, 1]
+    ratio: 0.38
+    polarColor: [0.896387, 0.733621, 0.524351, 1]
+  demographics:
+    type: 16
+    gdp: 1536
+    tech: 2
+    economy: 7
+    government: 0
+    description: The planet Enle is famous for its inhabitants’ ancient loathing of casinos but ravaged by unpredictable civil war.
+    inhabitants: Bug-Eyed Lobsters
+- type: star
+  type: primary
+  color: [0.831659, 0.469475, 0.212274, 1]
+  radius: 88782.824707
+  orbit:
+    type: static
+    parent: ~
+    radius: 275040
+    vector: [-0.391, 0.915, -0.097]
+  corona:
+    shimmer: 0.24149
+    hues: 0.68615
+    flare: 0.086865
+stations:
+- type: coriolis
+  orbit:
+    parent: Enle
+    vector: undefined
+    radius: 6876

@@ -1,0 +1,61 @@
+name: Inenares
+position: [140, 153]
+seed: 214 153 52 140 83 204
+limits:
+  blurs: 69
+  stars: 5925
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Inenares
+  radius: 6028
+  rotationSpeed: 0.001872
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 783640
+  land:
+    ratio: 0.64
+    color: [0.0180469, 0.66, 0.629908, 1]
+    polarColor: [0.706885, 0.934, 0.923354, 1]
+  sea:
+    color: [0.584717, 0.708984, 0.53977, 1]
+    polarColor: [0.88839, 0.929102, 0.873664, 1]
+  air:
+    color: [0.595602, 0.554441, 0.869572, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.434094, 0.312828, 0.611328, 1]
+    ratio: 0.39
+    polarColor: [0.634651, 0.538557, 0.775098, 1]
+  demographics:
+    type: 44
+    gdp: 31680
+    tech: 9
+    economy: 1
+    government: 6
+    description: The planet Inenares is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.226412, 0.284694, 0.690588, 1]
+  radius: 143037.147827
+  orbit:
+    type: static
+    parent: ~
+    radius: 180840
+    vector: [-0.765, -0.066, 0.641]
+  corona:
+    shimmer: 0.293688
+    hues: 0.658592
+    flare: 0.026723
+stations:
+- type: coriolis
+  orbit:
+    parent: Inenares
+    vector: undefined
+    radius: 12056

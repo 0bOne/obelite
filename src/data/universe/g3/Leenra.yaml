@@ -1,0 +1,61 @@
+name: Leenra
+position: [172, 69]
+seed: 106 69 50 172 74 161
+limits:
+  blurs: 61
+  stars: 6274
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leenra
+  radius: 3244
+  rotationSpeed: 0.000725
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 421720
+  land:
+    ratio: 0.53
+    color: [0.267982, 0.410599, 0.548828, 1]
+    polarColor: [0.824209, 0.885607, 0.945117, 1]
+  sea:
+    color: [0.714844, 0.520164, 0.443985, 1]
+    polarColor: [0.928516, 0.865298, 0.84056, 1]
+  air:
+    color: [0.640382, 0.904693, 0.896161, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.716797, 0.699713, 0.517998, 1]
+    ratio: 0.48
+    polarColor: [0.822559, 0.810305, 0.679976, 1]
+  demographics:
+    type: 32
+    gdp: 12800
+    tech: 5
+    economy: 5
+    government: 6
+    description: The planet Leenra is a boring world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.71358, 0.685716, 0.663447, 1]
+  radius: 110042.364502
+  orbit:
+    type: static
+    parent: ~
+    radius: 356840
+    vector: [-0.768, -0.635, 0.081]
+  corona:
+    shimmer: 1.692212
+    hues: 0.536247
+    flare: 0.058447
+stations:
+- type: coriolis
+  orbit:
+    parent: Leenra
+    vector: undefined
+    radius: 6488

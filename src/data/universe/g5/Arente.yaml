@@ -1,0 +1,61 @@
+name: Arente
+position: [95, 72]
+seed: 137 72 105 95 170 42
+limits:
+  blurs: 188
+  stars: 6217
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Arente
+  radius: 5471
+  rotationSpeed: 0.004057
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 711230
+  land:
+    ratio: 0.66
+    color: [0.646484, 0.391426, 0.546852, 1]
+    polarColor: [0.935352, 0.843095, 0.899314, 1]
+  sea:
+    color: [0.57828, 0.611328, 0.486913, 1]
+    polarColor: [0.926179, 0.938867, 0.891099, 1]
+  air:
+    color: [0.670791, 0.87348, 0.890385, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.650879, 0.673828, 0.579071, 1]
+    ratio: 0.52
+    polarColor: [0.786125, 0.803223, 0.732627, 1]
+  demographics:
+    type: 58
+    gdp: 41760
+    tech: 13
+    economy: 0
+    government: 5
+    description: The world Arente is a dull world.
+    inhabitants: Small Red Frogs
+- type: star
+  type: primary
+  color: [0.242716, 0.680017, 0.71196, 1]
+  radius: 148741.142883
+  orbit:
+    type: static
+    parent: ~
+    radius: 382970
+    vector: [-0.76, 0.193, -0.62]
+  corona:
+    shimmer: 0.39471
+    hues: 0.525047
+    flare: 0.08604
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Arente
+    vector: undefined
+    radius: 10942

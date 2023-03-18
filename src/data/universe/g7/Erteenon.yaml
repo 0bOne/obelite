@@ -1,0 +1,61 @@
+name: Erteenon
+position: [69, 197]
+seed: 231 197 66 69 227 16
+limits:
+  blurs: 74
+  stars: 8409
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erteenon
+  radius: 2885
+  rotationSpeed: 0.004197
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 375050
+  land:
+    ratio: 0.62
+    color: [0.617289, 0.619141, 0.614304, 1]
+    polarColor: [0.937385, 0.938086, 0.936254, 1]
+  sea:
+    color: [0.656723, 0.871094, 0.442352, 1]
+    polarColor: [0.856726, 0.912891, 0.800562, 1]
+  air:
+    color: [0.723137, 0.778715, 0.937213, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.744461, 0.798049, 0.814453, 1]
+    ratio: 0.58
+    polarColor: [0.819963, 0.855596, 0.866504, 1]
+  demographics:
+    type: 12
+    gdp: 1152
+    tech: 1
+    economy: 7
+    government: 0
+    description: The planet Erteenon is well known for its inhabitants’ ancient mating traditions but cursed by vicious killer monkeys.
+    inhabitants: Green Slimy Rodents
+- type: star
+  type: primary
+  color: [0.251764, 0.359945, 0.738205, 1]
+  radius: 95562.543488
+  orbit:
+    type: static
+    parent: ~
+    radius: 173100
+    vector: [-0.229, 0.831, -0.507]
+  corona:
+    shimmer: 0.718864
+    hues: 0.53212
+    flare: 0.068773
+stations:
+- type: coriolis
+  orbit:
+    parent: Erteenon
+    vector: undefined
+    radius: 5770

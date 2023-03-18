@@ -1,0 +1,61 @@
+name: Quceri
+position: [254, 235]
+seed: 157 235 241 254 117 90
+limits:
+  blurs: 163
+  stars: 9361
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Quceri
+  radius: 5630
+  rotationSpeed: 0.003204
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 844500
+  land:
+    ratio: 0.65
+    color: [0.66, 0.435703, 0.456731, 1]
+    polarColor: [0.934, 0.854647, 0.862086, 1]
+  sea:
+    color: [0.599609, 0.531992, 0.460013, 1]
+    polarColor: [0.940039, 0.913537, 0.885326, 1]
+  air:
+    color: [0.728661, 0.5835, 0.889734, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.671875, 0.380554, 0.544422, 1]
+    ratio: 0.21
+    polarColor: [0.802344, 0.584912, 0.707217, 1]
+  demographics:
+    type: 46
+    gdp: 25760
+    tech: 9
+    economy: 3
+    government: 6
+    description: The planet Quceri is reasonably fabled for Zero-G cricket and vicious Le brew.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.728213, 0.683211, 0.678086, 1]
+  radius: 154335.3302
+  orbit:
+    type: static
+    parent: ~
+    radius: 450400
+    vector: [0.706, -0.141, 0.694]
+  corona:
+    shimmer: 0.332707
+    hues: 0.703812
+    flare: 0.009047
+stations:
+- type: coriolis
+  orbit:
+    parent: Quceri
+    vector: undefined
+    radius: 11260

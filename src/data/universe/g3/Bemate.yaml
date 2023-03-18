@@ -1,0 +1,61 @@
+name: Bemate
+position: [29, 25]
+seed: 58 25 226 29 234 179
+limits:
+  blurs: 91
+  stars: 5126
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bemate
+  radius: 3613
+  rotationSpeed: 0.001336
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 469690
+  land:
+    ratio: 0.41
+    color: [0.636797, 0.642054, 0.66, 1]
+    polarColor: [0.925791, 0.927651, 0.934, 1]
+  sea:
+    color: [0.714844, 0.518157, 0.441193, 1]
+    polarColor: [0.928516, 0.864646, 0.839654, 1]
+  air:
+    color: [0.668394, 0.775309, 0.971033, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.608292, 0.916016, 0.901591, 1]
+    ratio: 0.5
+    polarColor: [0.720679, 0.912207, 0.903229, 1]
+  demographics:
+    type: 42
+    gdp: 24192
+    tech: 9
+    economy: 1
+    government: 4
+    description: This world is a tedious little planet.
+    inhabitants: Harmless Fat Insects
+- type: star
+  type: primary
+  color: [0.73942, 0.528432, 0.395474, 1]
+  radius: 82396.753998
+  orbit:
+    type: static
+    parent: ~
+    radius: 361300
+    vector: [0.189, -0.125, 0.974]
+  corona:
+    shimmer: 0.435149
+    hues: 0.564461
+    flare: 0.04561
+stations:
+- type: coriolis
+  orbit:
+    parent: Bemate
+    vector: undefined
+    radius: 7226

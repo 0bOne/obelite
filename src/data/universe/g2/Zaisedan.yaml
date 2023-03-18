@@ -1,0 +1,61 @@
+name: Zaisedan
+position: [150, 130]
+seed: 245 130 89 150 165 164
+limits:
+  blurs: 45
+  stars: 7749
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaisedan
+  radius: 3990
+  rotationSpeed: 0.00291
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 399000
+  land:
+    ratio: 0.35
+    color: [0.402188, 0.66, 0.605618, 1]
+    polarColor: [0.842789, 0.934, 0.91476, 1]
+  sea:
+    color: [0.59982, 0.673828, 0.518532, 1]
+    polarColor: [0.907009, 0.932617, 0.878882, 1]
+  air:
+    color: [0.653432, 0.72952, 0.99835, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.561401, 0.844539, 0.998047, 1]
+    ratio: 0.34
+    polarColor: [0.689596, 0.857882, 0.949121, 1]
+  demographics:
+    type: 42
+    gdp: 18816
+    tech: 9
+    economy: 2
+    government: 3
+    description: The planet Zaisedan is an unremarkable dump.
+    inhabitants: Fierce Harmless Fat Birds
+- type: star
+  type: primary
+  color: [0.653955, 0.266078, 0.249501, 1]
+  radius: 83588.722229
+  orbit:
+    type: static
+    parent: ~
+    radius: 359100
+    vector: [-0.174, 0.981, -0.09]
+  corona:
+    shimmer: 0.471231
+    hues: 0.809143
+    flare: 0.083891
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaisedan
+    vector: undefined
+    radius: 7980

@@ -1,0 +1,61 @@
+name: Xemadi
+position: [104, 84]
+seed: 249 84 225 104 90 98
+limits:
+  blurs: 101
+  stars: 7139
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xemadi
+  radius: 3432
+  rotationSpeed: 0.004396
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 480480
+  land:
+    ratio: 0.35
+    color: [0.536049, 0.193359, 0.66, 1]
+    polarColor: [0.890148, 0.768908, 0.934, 1]
+  sea:
+    color: [0.654297, 0.636546, 0.492001, 1]
+    polarColor: [0.93457, 0.928232, 0.876616, 1]
+  air:
+    color: [0.428723, 0.778258, 0.862418, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.271089, 0.589844, 0.0529938, 1]
+    ratio: 0.37
+    polarColor: [0.506903, 0.76543, 0.330017, 1]
+  demographics:
+    type: 29
+    gdp: 11136
+    tech: 5
+    economy: 4
+    government: 4
+    description: This planet is notable for the Xemadiian edible poet and mud tennis.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.746274, 0.603458, 0.58726, 1]
+  radius: 84232.62085
+  orbit:
+    type: static
+    parent: ~
+    radius: 205920
+    vector: [-0.256, -0.957, -0.139]
+  corona:
+    shimmer: 1.064518
+    hues: 0.83519
+    flare: 0.091556
+stations:
+- type: coriolis
+  orbit:
+    parent: Xemadi
+    vector: undefined
+    radius: 6864

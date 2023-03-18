@@ -1,0 +1,61 @@
+name: Teceri
+position: [156, 236]
+seed: 48 236 72 156 218 124
+limits:
+  blurs: 174
+  stars: 8404
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teceri
+  radius: 6044
+  rotationSpeed: 0.00344
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 604400
+  land:
+    ratio: 0.49
+    color: [0.166231, 0.570312, 0.0957947, 1]
+    polarColor: [0.775939, 0.942969, 0.746824, 1]
+  sea:
+    color: [0.546875, 0.418274, 0.439373, 1]
+    polarColor: [0.945312, 0.889738, 0.898856, 1]
+  air:
+    color: [0.54326, 0.596841, 0.838354, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.281029, 0.406696, 0.517578, 1]
+    ratio: 0.42
+    polarColor: [0.523558, 0.634777, 0.73291, 1]
+  demographics:
+    type: 16
+    gdp: 2560
+    tech: 2
+    economy: 6
+    government: 1
+    description: Teceri is well known for the Teceriian spotted leopard but plagued by lethal yaks.
+    inhabitants: Blue Slimy Rodents
+- type: star
+  type: primary
+  color: [0.69715, 0.468398, 0.264545, 1]
+  radius: 115163.948975
+  orbit:
+    type: static
+    parent: ~
+    radius: 483520
+    vector: [-0.827, 0.373, 0.42]
+  corona:
+    shimmer: 0.606725
+    hues: 0.763069
+    flare: 0.042188
+stations:
+- type: coriolis
+  orbit:
+    parent: Teceri
+    vector: undefined
+    radius: 12088

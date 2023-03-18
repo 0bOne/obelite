@@ -1,0 +1,61 @@
+name: Istixeti
+position: [13, 76]
+seed: 251 76 134 13 63 61
+limits:
+  blurs: 94
+  stars: 5030
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Istixeti
+  radius: 6157
+  rotationSpeed: 0.002646
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 800410
+  land:
+    ratio: 0.5
+    color: [0.113438, 0.455039, 0.66, 1]
+    polarColor: [0.740633, 0.861487, 0.934, 1]
+  sea:
+    color: [0.583984, 0.579369, 0.465819, 1]
+    polarColor: [0.941602, 0.939741, 0.89397, 1]
+  air:
+    color: [0.618211, 0.590363, 0.8325, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.412415, 0.363281, 0.5, 1]
+    ratio: 0.42
+    polarColor: [0.645626, 0.601099, 0.725, 1]
+  demographics:
+    type: 15
+    gdp: 1920
+    tech: 2
+    economy: 6
+    government: 0
+    description: The planet Istixeti is reasonably noted for its fabulous goat soup and mud tennis.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.849442, 0.758925, 0.457779, 1]
+  radius: 133926.2117
+  orbit:
+    type: static
+    parent: ~
+    radius: 492560
+    vector: [-0.583, -0.605, 0.542]
+  corona:
+    shimmer: 0.379681
+    hues: 0.549309
+    flare: 0.03631
+stations:
+- type: coriolis
+  orbit:
+    parent: Istixeti
+    vector: undefined
+    radius: 12314

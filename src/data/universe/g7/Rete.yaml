@@ -1,0 +1,61 @@
+name: Rete
+position: [46, 3]
+seed: 147 3 30 46 103 238
+limits:
+  blurs: 176
+  stars: 5933
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rete
+  radius: 6446
+  rotationSpeed: 0.003358
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 709060
+  land:
+    ratio: 0.2
+    color: [0.66, 0.201094, 0.265627, 1]
+    polarColor: [0.934, 0.771645, 0.794476, 1]
+  sea:
+    color: [0.558594, 0.459594, 0.433128, 1]
+    polarColor: [0.944141, 0.902308, 0.891125, 1]
+  air:
+    color: [0.6616, 0.885832, 0.880343, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.660156, 0.653548, 0.554428, 1]
+    ratio: 0.4
+    polarColor: [0.79707, 0.792084, 0.717285, 1]
+  demographics:
+    type: 39
+    gdp: 15288
+    tech: 8
+    economy: 3
+    government: 3
+    description: Rete is most famous for its vast oceans and its fabulous goat soup.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.265989, 0.385853, 0.671896, 1]
+  radius: 204992.163696
+  orbit:
+    type: static
+    parent: ~
+    radius: 580140
+    vector: [0.233, -0.924, 0.303]
+  corona:
+    shimmer: 0.794318
+    hues: 0.886894
+    flare: 0.081386
+stations:
+- type: coriolis
+  orbit:
+    parent: Rete
+    vector: undefined
+    radius: 12892

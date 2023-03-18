@@ -1,0 +1,61 @@
+name: Dienorqu
+position: [153, 171]
+seed: 226 171 18 153 218 77
+limits:
+  blurs: 150
+  stars: 8400
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Dienorqu
+  radius: 6297
+  rotationSpeed: 0.001308
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 818610
+  land:
+    ratio: 0.62
+    color: [0.66, 0.494053, 0.461484, 1]
+    polarColor: [0.934, 0.87529, 0.863768, 1]
+  sea:
+    color: [0.647678, 0.781209, 0.861328, 1]
+    polarColor: [0.857197, 0.892616, 0.913867, 1]
+  air:
+    color: [0.738596, 0.488051, 0.969082, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.910156, 0.0995483, 0.441524, 1]
+    ratio: 0.35
+    polarColor: [0.90957, 0.403267, 0.616863, 1]
+  demographics:
+    type: 30
+    gdp: 10080
+    tech: 6
+    economy: 3
+    government: 2
+    description: This world is ravaged by occasional solar activity.
+    inhabitants: Yellow Horned Lobsters
+- type: star
+  type: primary
+  color: [0.807617, 0.407549, 0.364026, 1]
+  radius: 163103.599548
+  orbit:
+    type: static
+    parent: ~
+    radius: 251880
+    vector: [-0.158, 0.241, -0.958]
+  corona:
+    shimmer: 0.374834
+    hues: 0.712616
+    flare: 0.07843
+stations:
+- type: coriolis
+  orbit:
+    parent: Dienorqu
+    vector: undefined
+    radius: 12594

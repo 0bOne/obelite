@@ -1,0 +1,61 @@
+name: Georatre
+position: [52, 225]
+seed: 233 225 97 52 77 163
+limits:
+  blurs: 167
+  stars: 8503
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Georatre
+  radius: 3636
+  rotationSpeed: 0.002894
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 363600
+  land:
+    ratio: 0.48
+    color: [0.66, 0.227761, 0.183047, 1]
+    polarColor: [0.934, 0.781079, 0.76526, 1]
+  sea:
+    color: [0.662791, 0.667969, 0.502281, 1]
+    polarColor: [0.931395, 0.933203, 0.875334, 1]
+  air:
+    color: [0.733761, 0.511388, 0.951522, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.857422, 0.180862, 0.498, 1]
+    ratio: 0.56
+    polarColor: [0.88584, 0.448975, 0.653756, 1]
+  demographics:
+    type: 38
+    gdp: 21888
+    tech: 8
+    economy: 1
+    government: 4
+    description: This world is noted for its unusual sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.685867, 0.581097, 0.50511, 1]
+  radius: 86421.577148
+  orbit:
+    type: static
+    parent: ~
+    radius: 363600
+    vector: [0.579, 0.387, -0.718]
+  corona:
+    shimmer: 0.903546
+    hues: 0.753204
+    flare: 0.047
+stations:
+- type: coriolis
+  orbit:
+    parent: Georatre
+    vector: undefined
+    radius: 7272

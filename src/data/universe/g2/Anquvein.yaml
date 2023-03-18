@@ -1,0 +1,61 @@
+name: Anquvein
+position: [0, 157]
+seed: 125 157 209 0 181 187
+limits:
+  blurs: 48
+  stars: 6223
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anquvein
+  radius: 5632
+  rotationSpeed: 0.00446
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 675840
+  land:
+    ratio: 0.68
+    color: [0.641953, 0.656616, 0.66, 1]
+    polarColor: [0.927615, 0.932803, 0.934, 1]
+  sea:
+    color: [0.333782, 0.53125, 0.095459, 1]
+    polarColor: [0.858886, 0.946875, 0.752692, 1]
+  air:
+    color: [0.560981, 0.534749, 0.879979, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.361058, 0.271088, 0.642578, 1]
+    ratio: 0.26
+    polarColor: [0.573073, 0.504014, 0.78916, 1]
+  demographics:
+    type: 20
+    gdp: 4800
+    tech: 3
+    economy: 5
+    government: 2
+    description: This planet is most notable for Anquveinian evil juice but cursed by unpredictable solar activity.
+    inhabitants: Harmless Furry Rodents
+- type: star
+  type: primary
+  color: [0.357034, 0.473226, 0.766721, 1]
+  radius: 110048.125
+  orbit:
+    type: static
+    parent: ~
+    radius: 394240
+    vector: [-0.216, -0.845, -0.489]
+  corona:
+    shimmer: 0.510365
+    hues: 0.808868
+    flare: 0.097665
+stations:
+- type: coriolis
+  orbit:
+    parent: Anquvein
+    vector: undefined
+    radius: 11264

@@ -1,0 +1,61 @@
+name: Sobeteve
+position: [1, 202]
+seed: 242 202 90 1 52 135
+limits:
+  blurs: 133
+  stars: 6312
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sobeteve
+  radius: 4609
+  rotationSpeed: 0.004671
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 645260
+  land:
+    ratio: 0.64
+    color: [0.66, 0.482975, 0.177891, 1]
+    polarColor: [0.934, 0.871371, 0.763436, 1]
+  sea:
+    color: [0.581593, 0.615234, 0.488583, 1]
+    polarColor: [0.925647, 0.938477, 0.890178, 1]
+  air:
+    color: [0.457194, 0.595165, 0.896238, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0891266, 0.649058, 0.691406, 1]
+    ratio: 0.32
+    polarColor: [0.369525, 0.780082, 0.811133, 1]
+  demographics:
+    type: 38
+    gdp: 17024
+    tech: 8
+    economy: 2
+    government: 3
+    description: The world Sobeteve is beset by dreadful earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.757483, 0.656522, 0.574331, 1]
+  radius: 103145.50415
+  orbit:
+    type: static
+    parent: ~
+    radius: 184360
+    vector: [-0.924, 0.217, 0.315]
+  corona:
+    shimmer: 0.333272
+    hues: 0.937096
+    flare: 0.017053
+stations:
+- type: coriolis
+  orbit:
+    parent: Sobeteve
+    vector: undefined
+    radius: 9218

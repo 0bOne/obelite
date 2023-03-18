@@ -1,0 +1,61 @@
+name: Lerela
+position: [37, 103]
+seed: 128 103 144 37 122 161
+limits:
+  blurs: 132
+  stars: 7278
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lerela
+  radius: 3109
+  rotationSpeed: 0.000001
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 466350
+  land:
+    ratio: 0.3
+    color: [0.528867, 0.33886, 0.615234, 1]
+    polarColor: [0.905541, 0.833081, 0.938477, 1]
+  sea:
+    color: [0.720703, 0.543629, 0.447624, 1]
+    polarColor: [0.92793, 0.870932, 0.84003, 1]
+  air:
+    color: [0.630744, 0.785373, 0.989244, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.496727, 0.970703, 0.837397, 1]
+    ratio: 0.26
+    polarColor: [0.650923, 0.936816, 0.856409, 1]
+  demographics:
+    type: 18
+    gdp: 2592
+    tech: 2
+    economy: 7
+    government: 2
+    description: This planet is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.717381, 0.769708, 0.777185, 1]
+  radius: 75320.287933
+  orbit:
+    type: static
+    parent: ~
+    radius: 124360
+    vector: [0.182, -0.647, 0.741]
+  corona:
+    shimmer: 0.65219
+    hues: 0.970184
+    flare: 0.006175
+stations:
+- type: coriolis
+  orbit:
+    parent: Lerela
+    vector: undefined
+    radius: 6218

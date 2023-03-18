@@ -1,0 +1,61 @@
+name: Reriveza
+position: [73, 198]
+seed: 70 198 60 73 243 206
+limits:
+  blurs: 82
+  stars: 7995
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reriveza
+  radius: 6473
+  rotationSpeed: 0.000926
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 776760
+  land:
+    ratio: 0.48
+    color: [0.447385, 0.190781, 0.66, 1]
+    polarColor: [0.858779, 0.767996, 0.934, 1]
+  sea:
+    color: [0.599609, 0.572967, 0.468445, 1]
+    polarColor: [0.940039, 0.929597, 0.888631, 1]
+  air:
+    color: [0.762789, 0.596951, 0.889084, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.669922, 0.410851, 0.483714, 1]
+    ratio: 0.3
+    polarColor: [0.801465, 0.607751, 0.662233, 1]
+  demographics:
+    type: 38
+    gdp: 13376
+    tech: 6
+    economy: 6
+    government: 7
+    description: Reriveza is most noted for the Rerivezaian mountain lobstoid and the Rerivezaian evil poet.
+    inhabitants: Frogs
+- type: star
+  type: primary
+  color: [0.356443, 0.414, 0.672821, 1]
+  radius: 137978.924713
+  orbit:
+    type: static
+    parent: ~
+    radius: 582570
+    vector: [0.407, 0.281, -0.869]
+  corona:
+    shimmer: 0.671888
+    hues: 0.681435
+    flare: 0.033012
+stations:
+- type: coriolis
+  orbit:
+    parent: Reriveza
+    vector: undefined
+    radius: 12946

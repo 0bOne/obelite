@@ -1,0 +1,61 @@
+name: Lemadior
+position: [64, 137]
+seed: 121 137 209 64 13 65
+limits:
+  blurs: 41
+  stars: 8879
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lemadior
+  radius: 3136
+  rotationSpeed: 0.004726
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 376320
+  land:
+    ratio: 0.57
+    color: [0.609042, 0.66, 0.603281, 1]
+    polarColor: [0.915972, 0.934, 0.913934, 1]
+  sea:
+    color: [0.0682831, 0.699219, 0.669644, 1]
+    polarColor: [0.720266, 0.930078, 0.920243, 1]
+  air:
+    color: [0.684698, 0.85414, 0.894938, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.644447, 0.6875, 0.61499, 1]
+    ratio: 0.35
+    polarColor: [0.777697, 0.809375, 0.756023, 1]
+  demographics:
+    type: 32
+    gdp: 13824
+    tech: 7
+    economy: 1
+    government: 2
+    description: The world Lemadior is mildly fabled for the Lemadiorian mountain Atetoid but ravaged by vicious disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.808554, 0.540952, 0.468824, 1]
+  radius: 78518.671875
+  orbit:
+    type: static
+    parent: ~
+    radius: 282240
+    vector: [-0.354, 0.572, 0.74]
+  corona:
+    shimmer: 0.655806
+    hues: 0.852112
+    flare: 0.036284
+stations:
+- type: coriolis
+  orbit:
+    parent: Lemadior
+    vector: undefined
+    radius: 6272

@@ -1,0 +1,61 @@
+name: Uszasora
+position: [90, 161]
+seed: 71 161 162 90 131 72
+limits:
+  blurs: 167
+  stars: 6110
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Uszasora
+  radius: 4954
+  rotationSpeed: 0.001726
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 693560
+  land:
+    ratio: 0.42
+    color: [0.190186, 0.429482, 0.640625, 1]
+    polarColor: [0.771417, 0.858819, 0.935938, 1]
+  sea:
+    color: [0.730469, 0.58343, 0.45369, 1]
+    polarColor: [0.926953, 0.880306, 0.839146, 1]
+  air:
+    color: [0.685092, 0.501006, 0.94827, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.847656, 0.155624, 0.674648, 1]
+    ratio: 0.41
+    polarColor: [0.881445, 0.431684, 0.769005, 1]
+  demographics:
+    type: 46
+    gdp: 26496
+    tech: 10
+    economy: 1
+    government: 4
+    description: This planet is a tedious little planet.
+    inhabitants: Small Yellow Bony Lobsters
+- type: star
+  type: primary
+  color: [0.328692, 0.645362, 0.674115, 1]
+  radius: 142890.879211
+  orbit:
+    type: static
+    parent: ~
+    radius: 247700
+    vector: [-0.971, -0.16, 0.179]
+  corona:
+    shimmer: 0.253146
+    hues: 0.988365
+    flare: 0.070619
+stations:
+- type: coriolis
+  orbit:
+    parent: Uszasora
+    vector: undefined
+    radius: 9908

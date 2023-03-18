@@ -1,0 +1,61 @@
+name: Lemaar
+position: [254, 139]
+seed: 137 139 69 254 106 1
+limits:
+  blurs: 43
+  stars: 6354
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Lemaar
+  radius: 3326
+  rotationSpeed: 0.000156
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 465640
+  land:
+    ratio: 0.39
+    color: [0.500156, 0.66, 0.603805, 1]
+    polarColor: [0.877449, 0.934, 0.914119, 1]
+  sea:
+    color: [0.555278, 0.699219, 0.594637, 1]
+    polarColor: [0.882212, 0.930078, 0.8953, 1]
+  air:
+    color: [0.610297, 0.891686, 0.801344, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.677734, 0.45316, 0.442116, 1]
+    ratio: 0.31
+    polarColor: [0.80498, 0.638269, 0.63007, 1]
+  demographics:
+    type: 28
+    gdp: 6272
+    tech: 6
+    economy: 3
+    government: 0
+    description: This world is a revolting dump.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.494422, 0.672447, 0.721289, 1]
+  radius: 80321.661682
+  orbit:
+    type: static
+    parent: ~
+    radius: 133040
+    vector: [-0.544, 0.71, -0.447]
+  corona:
+    shimmer: 0.395448
+    hues: 0.885056
+    flare: 0.035832
+stations:
+- type: coriolis
+  orbit:
+    parent: Lemaar
+    vector: undefined
+    radius: 6652

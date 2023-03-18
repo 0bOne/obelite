@@ -1,0 +1,61 @@
+name: Abege
+position: [160, 35]
+seed: 128 35 32 160 218 207
+limits:
+  blurs: 172
+  stars: 8802
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Abege
+  radius: 6816
+  rotationSpeed: 0.001916
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 954240
+  land:
+    ratio: 0.4
+    color: [0.66, 0.645095, 0.278438, 1]
+    polarColor: [0.934, 0.928727, 0.799008, 1]
+  sea:
+    color: [0.553536, 0.693359, 0.541687, 1]
+    polarColor: [0.883745, 0.930664, 0.879768, 1]
+  air:
+    color: [0.720742, 0.787944, 0.929408, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.732307, 0.788264, 0.791016, 1]
+    ratio: 0.45
+    polarColor: [0.816252, 0.854096, 0.855957, 1]
+  demographics:
+    type: 32
+    gdp: 14336
+    tech: 6
+    economy: 3
+    government: 4
+    description: The world Abege is most well known for its vast dense forests.
+    inhabitants: Bony Felines
+- type: star
+  type: primary
+  color: [0.341103, 0.60661, 0.67796, 1]
+  radius: 153249.755859
+  orbit:
+    type: static
+    parent: ~
+    radius: 408960
+    vector: [-0.513, -0.858, -0.023]
+  corona:
+    shimmer: 0.552897
+    hues: 0.609688
+    flare: 0.063399
+stations:
+- type: coriolis
+  orbit:
+    parent: Abege
+    vector: undefined
+    radius: 13632

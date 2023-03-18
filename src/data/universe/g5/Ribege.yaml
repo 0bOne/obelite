@@ -1,0 +1,61 @@
+name: Ribege
+position: [145, 99]
+seed: 7 99 49 145 232 190
+limits:
+  blurs: 197
+  stars: 6870
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ribege
+  radius: 6545
+  rotationSpeed: 0.00421
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 850850
+  land:
+    ratio: 0.56
+    color: [0.66, 0.394131, 0.350625, 1]
+    polarColor: [0.934, 0.839939, 0.824547, 1]
+  sea:
+    color: [0.708984, 0.387726, 0.463021, 1]
+    polarColor: [0.929102, 0.823852, 0.84852, 1]
+  air:
+    color: [0.470811, 0.654352, 0.867621, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.137177, 0.605469, 0.429859, 1]
+    ratio: 0.15
+    polarColor: [0.399055, 0.772461, 0.632434, 1]
+  demographics:
+    type: 42
+    gdp: 23520
+    tech: 8
+    economy: 3
+    government: 6
+    description: The planet Ribege is an unremarkable planet.
+    inhabitants: Harmless Horned Birds
+- type: star
+  type: primary
+  color: [0.483306, 0.693151, 0.708075, 1]
+  radius: 125830.661011
+  orbit:
+    type: static
+    parent: ~
+    radius: 392700
+    vector: [0.511, 0.768, 0.387]
+  corona:
+    shimmer: 0.386415
+    hues: 0.79277
+    flare: 0.049495
+stations:
+- type: coriolis
+  orbit:
+    parent: Ribege
+    vector: undefined
+    radius: 13090

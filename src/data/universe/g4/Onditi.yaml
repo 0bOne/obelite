@@ -1,0 +1,61 @@
+name: Onditi
+position: [169, 164]
+seed: 36 164 228 169 245 223
+limits:
+  blurs: 149
+  stars: 9750
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onditi
+  radius: 6825
+  rotationSpeed: 0.002745
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 887250
+  land:
+    ratio: 0.65
+    color: [0.554186, 0.317574, 0.650391, 1]
+    polarColor: [0.900386, 0.815352, 0.934961, 1]
+  sea:
+    color: [0.574219, 0.479583, 0.442552, 1]
+    polarColor: [0.942578, 0.903742, 0.888546, 1]
+  air:
+    color: [0.480784, 0.585435, 0.883881, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.150795, 0.536289, 0.654297, 1]
+    ratio: 0.4
+    polarColor: [0.412345, 0.704882, 0.794434, 1]
+  demographics:
+    type: 33
+    gdp: 12672
+    tech: 6
+    economy: 4
+    government: 4
+    description: The world Onditi is reasonably noted for mud tennis and its ancient mountains.
+    inhabitants: Furry Rodents
+- type: star
+  type: primary
+  color: [0.807562, 0.622847, 0.621524, 1]
+  radius: 189593.284607
+  orbit:
+    type: static
+    parent: ~
+    radius: 477750
+    vector: [-0.766, -0.634, 0.103]
+  corona:
+    shimmer: 0.349686
+    hues: 0.658501
+    flare: 0.077214
+stations:
+- type: coriolis
+  orbit:
+    parent: Onditi
+    vector: undefined
+    radius: 13650

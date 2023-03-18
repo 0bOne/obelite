@@ -1,0 +1,61 @@
+name: Ersoonve
+position: [231, 47]
+seed: 212 47 120 231 54 176
+limits:
+  blurs: 120
+  stars: 6640
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ersoonve
+  radius: 3047
+  rotationSpeed: 0.001131
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 335170
+  land:
+    ratio: 0.32
+    color: [0.59375, 0.398926, 0.567875, 1]
+    polarColor: [0.940625, 0.863464, 0.930377, 1]
+  sea:
+    color: [0.687581, 0.755859, 0.537369, 1]
+    polarColor: [0.903538, 0.924414, 0.857611, 1]
+  air:
+    color: [0.408689, 0.844207, 0.802955, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.535156, 0.396255, 0.0271759, 1]
+    ratio: 0.32
+    polarColor: [0.74082, 0.620644, 0.30132, 1]
+  demographics:
+    type: 43
+    gdp: 11352
+    tech: 7
+    economy: 7
+    government: 7
+    description: The world Ersoonve is beset by dreadful earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.475398, 0.535783, 0.707413, 1]
+  radius: 87883.930664
+  orbit:
+    type: static
+    parent: ~
+    radius: 213290
+    vector: [-0.432, -0.854, -0.29]
+  corona:
+    shimmer: 0.356503
+    hues: 0.996956
+    flare: 0.085593
+stations:
+- type: coriolis
+  orbit:
+    parent: Ersoonve
+    vector: undefined
+    radius: 6094

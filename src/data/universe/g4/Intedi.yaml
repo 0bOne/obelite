@@ -1,0 +1,61 @@
+name: Intedi
+position: [196, 74]
+seed: 156 74 176 196 197 108
+limits:
+  blurs: 79
+  stars: 7741
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Intedi
+  radius: 6084
+  rotationSpeed: 0.00004
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 669240
+  land:
+    ratio: 0.25
+    color: [0.316025, 0.542969, 0.0890808, 1]
+    polarColor: [0.846885, 0.945703, 0.748066, 1]
+  sea:
+    color: [0.970703, 0.772012, 0.860492, 1]
+    polarColor: [0.90293, 0.856725, 0.877301, 1]
+  air:
+    color: [0.563107, 0.572333, 0.840305, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.31897, 0.336541, 0.523438, 1]
+    ratio: 0.31
+    polarColor: [0.55597, 0.571402, 0.735547, 1]
+  demographics:
+    type: 41
+    gdp: 26240
+    tech: 8
+    economy: 2
+    government: 6
+    description: Intedi is an unremarkable planet.
+    inhabitants: Blue Felines
+- type: star
+  type: primary
+  color: [0.67305, 0.660749, 0.455402, 1]
+  radius: 132235.279541
+  orbit:
+    type: static
+    parent: ~
+    radius: 425880
+    vector: [-0.791, -0.427, -0.438]
+  corona:
+    shimmer: 0.431954
+    hues: 0.715874
+    flare: 0.037889
+stations:
+- type: coriolis
+  orbit:
+    parent: Intedi
+    vector: undefined
+    radius: 12168

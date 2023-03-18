@@ -1,0 +1,61 @@
+name: Riardi
+position: [4, 231]
+seed: 0 231 240 4 58 222
+limits:
+  blurs: 123
+  stars: 6799
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riardi
+  radius: 6404
+  rotationSpeed: 0.001273
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 896560
+  land:
+    ratio: 0.59
+    color: [0.53125, 0.306091, 0.0166016, 1]
+    polarColor: [0.946875, 0.846547, 0.717554, 1]
+  sea:
+    color: [0.5625, 0.45824, 0.43418, 1]
+    polarColor: [0.94375, 0.900019, 0.889927, 1]
+  air:
+    color: [0.723652, 0.739147, 0.963879, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.761749, 0.785609, 0.894531, 1]
+    ratio: 0.54
+    polarColor: [0.818807, 0.833853, 0.902539, 1]
+  demographics:
+    type: 26
+    gdp: 6240
+    tech: 3
+    economy: 7
+    government: 6
+    description: This world is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.655704, 0.67829, 0.707245, 1]
+  radius: 129607.321167
+  orbit:
+    type: static
+    parent: ~
+    radius: 256160
+    vector: [0.616, -0.786, 0.053]
+  corona:
+    shimmer: 0.368296
+    hues: 0.801781
+    flare: 0.052698
+stations:
+- type: coriolis
+  orbit:
+    parent: Riardi
+    vector: undefined
+    radius: 12808

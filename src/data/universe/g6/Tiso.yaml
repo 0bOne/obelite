@@ -1,0 +1,61 @@
+name: Tiso
+position: [239, 200]
+seed: 18 200 10 239 212 160
+limits:
+  blurs: 92
+  stars: 5675
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tiso
+  radius: 3055
+  rotationSpeed: 0.000344
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 458250
+  land:
+    ratio: 0.71
+    color: [0.0232031, 0.421201, 0.66, 1]
+    polarColor: [0.708709, 0.849516, 0.934, 1]
+  sea:
+    color: [0.576172, 0.55785, 0.458912, 1]
+    polarColor: [0.942383, 0.934891, 0.894435, 1]
+  air:
+    color: [0.653029, 0.882398, 0.912498, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.67269, 0.740234, 0.552284, 1]
+    ratio: 0.3
+    polarColor: [0.785594, 0.833105, 0.700899, 1]
+  demographics:
+    type: 40
+    gdp: 12800
+    tech: 9
+    economy: 2
+    government: 1
+    description: The world Tiso is beset by lethal disease.
+    inhabitants: Large Harmless Insects
+- type: star
+  type: primary
+  color: [0.812808, 0.789995, 0.525065, 1]
+  radius: 57490.087891
+  orbit:
+    type: static
+    parent: ~
+    radius: 183300
+    vector: [0.403, 0.056, 0.914]
+  corona:
+    shimmer: 0.345891
+    hues: 0.991463
+    flare: 0.027649
+stations:
+- type: coriolis
+  orbit:
+    parent: Tiso
+    vector: undefined
+    radius: 6110

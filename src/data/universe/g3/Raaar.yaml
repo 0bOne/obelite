@@ -1,0 +1,61 @@
+name: Raaar
+position: [6, 116]
+seed: 162 116 82 6 218 148
+limits:
+  blurs: 80
+  stars: 8304
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Raaar
+  radius: 3846
+  rotationSpeed: 0.003818
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 461520
+  land:
+    ratio: 0.35
+    color: [0.422813, 0.66, 0.521023, 1]
+    polarColor: [0.850086, 0.934, 0.884832, 1]
+  sea:
+    color: [0.554679, 0.689453, 0.539443, 1]
+    polarColor: [0.885554, 0.931055, 0.88041, 1]
+  air:
+    color: [0.437698, 0.750167, 0.862418, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.17268, 0.589844, 0.0714264, 1]
+    ratio: 0.38
+    polarColor: [0.427088, 0.76543, 0.344967, 1]
+  demographics:
+    type: 31
+    gdp: 8928
+    tech: 6
+    economy: 4
+    government: 2
+    description: This planet is mildly noted for its pink Inresoxe tulip plantations but plagued by vicious disease.
+    inhabitants: Black Horned Lizards
+- type: star
+  type: primary
+  color: [0.547786, 0.627537, 0.703809, 1]
+  radius: 91539.682617
+  orbit:
+    type: static
+    parent: ~
+    radius: 153840
+    vector: [0.986, -0.135, 0.095]
+  corona:
+    shimmer: 0.47709
+    hues: 0.696754
+    flare: 0.031654
+stations:
+- type: coriolis
+  orbit:
+    parent: Raaar
+    vector: undefined
+    radius: 7692

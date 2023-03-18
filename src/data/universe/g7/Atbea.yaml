@@ -1,0 +1,61 @@
+name: Atbea
+position: [106, 151]
+seed: 39 151 130 106 163 81
+limits:
+  blurs: 158
+  stars: 9262
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atbea
+  radius: 3178
+  rotationSpeed: 0.004233
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 444920
+  land:
+    ratio: 0.67
+    color: [0.66, 0.313021, 0.244922, 1]
+    polarColor: [0.934, 0.811243, 0.78715, 1]
+  sea:
+    color: [0.602112, 0.78125, 0.739264, 1]
+    polarColor: [0.869029, 0.921875, 0.909489, 1]
+  air:
+    color: [0.677223, 0.705341, 0.997049, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.632988, 0.723276, 0.994141, 1]
+    ratio: 0.37
+    polarColor: [0.732264, 0.786039, 0.947363, 1]
+  demographics:
+    type: 16
+    gdp: 1536
+    tech: 2
+    economy: 7
+    government: 0
+    description: This planet is fabled for its exciting Zero-G cricket.
+    inhabitants: Yellow Furry Felines
+- type: star
+  type: primary
+  color: [0.686517, 0.498887, 0.393994, 1]
+  radius: 63301.535339
+  orbit:
+    type: static
+    parent: ~
+    radius: 286020
+    vector: [-0.02, -0.968, -0.25]
+  corona:
+    shimmer: 0.324317
+    hues: 0.538429
+    flare: 0.071323
+stations:
+- type: coriolis
+  orbit:
+    parent: Atbea
+    vector: undefined
+    radius: 6356

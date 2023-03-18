@@ -1,0 +1,61 @@
+name: Xeaqu
+position: [104, 36]
+seed: 26 36 192 104 51 34
+limits:
+  blurs: 99
+  stars: 7503
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Xeaqu
+  radius: 3432
+  rotationSpeed: 0.003507
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 377520
+  land:
+    ratio: 0.66
+    color: [0.66, 0.136641, 0.381965, 1]
+    polarColor: [0.934, 0.748842, 0.835635, 1]
+  sea:
+    color: [0.576811, 0.619141, 0.493136, 1]
+    polarColor: [0.922052, 0.938086, 0.890357, 1]
+  air:
+    color: [0.708109, 0.536379, 0.924205, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.775391, 0.263512, 0.599432, 1]
+    ratio: 0.32
+    polarColor: [0.848926, 0.498661, 0.728522, 1]
+  demographics:
+    type: 11
+    gdp: 1408
+    tech: 1
+    economy: 6
+    government: 0
+    description: The world Xeaqu is a dull place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.193022, 0.456387, 0.745538, 1]
+  radius: 72038.170166
+  orbit:
+    type: static
+    parent: ~
+    radius: 205920
+    vector: [-0.712, 0.268, -0.649]
+  corona:
+    shimmer: 0.943616
+    hues: 0.822044
+    flare: 0.032054
+stations:
+- type: coriolis
+  orbit:
+    parent: Xeaqu
+    vector: undefined
+    radius: 6864

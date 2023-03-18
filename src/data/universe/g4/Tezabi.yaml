@@ -1,0 +1,61 @@
+name: Tezabi
+position: [37, 130]
+seed: 150 130 148 37 83 188
+limits:
+  blurs: 117
+  stars: 6595
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Tezabi
+  radius: 5925
+  rotationSpeed: 0.000599
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 711000
+  land:
+    ratio: 0.57
+    color: [0.591797, 0.455406, 0.496963, 1]
+    polarColor: [0.94082, 0.886613, 0.903129, 1]
+  sea:
+    color: [0.890625, 0.455858, 0.24353, 1]
+    polarColor: [0.910937, 0.799767, 0.745474, 1]
+  air:
+    color: [0.780441, 0.624171, 0.872174, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.619141, 0.461937, 0.476675, 1]
+    ratio: 0.16
+    polarColor: [0.778613, 0.655054, 0.666638, 1]
+  demographics:
+    type: 33
+    gdp: 12672
+    tech: 7
+    economy: 2
+    government: 2
+    description: This world is noted for its unusual sit coms.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.758081, 0.752515, 0.75213, 1]
+  radius: 122938.144684
+  orbit:
+    type: static
+    parent: ~
+    radius: 414750
+    vector: [0.112, 0.384, 0.917]
+  corona:
+    shimmer: 0.247214
+    hues: 0.583305
+    flare: 0.066063
+stations:
+- type: coriolis
+  orbit:
+    parent: Tezabi
+    vector: undefined
+    radius: 11850

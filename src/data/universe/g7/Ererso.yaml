@@ -1,0 +1,61 @@
+name: Ererso
+position: [38, 249]
+seed: 137 249 184 38 101 144
+limits:
+  blurs: 117
+  stars: 8251
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ererso
+  radius: 2854
+  rotationSpeed: 0.004094
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 342480
+  land:
+    ratio: 0.62
+    color: [0.66, 0.118594, 0.397756, 1]
+    polarColor: [0.934, 0.742457, 0.841221, 1]
+  sea:
+    color: [0.605321, 0.609375, 0.479645, 1]
+    polarColor: [0.937501, 0.939062, 0.889083, 1]
+  air:
+    color: [0.573782, 0.94827, 0.901107, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.847656, 0.665284, 0.350983, 1]
+    ratio: 0.36
+    polarColor: [0.881445, 0.762919, 0.55865, 1]
+  demographics:
+    type: 57
+    gdp: 45144
+    tech: 12
+    economy: 1
+    government: 7
+    description: This planet is a dull place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.650943, 0.240349, 0.208744, 1]
+  radius: 84645.38269
+  orbit:
+    type: static
+    parent: ~
+    radius: 256860
+    vector: [-0.783, -0.622, 0.013]
+  corona:
+    shimmer: 1.083096
+    hues: 0.575722
+    flare: 0.042342
+stations:
+- type: icosahedron
+  orbit:
+    parent: Ererso
+    vector: undefined
+    radius: 5708

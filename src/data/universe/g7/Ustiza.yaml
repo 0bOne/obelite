@@ -1,0 +1,61 @@
+name: Ustiza
+position: [133, 201]
+seed: 179 201 62 133 71 104
+limits:
+  blurs: 47
+  stars: 6927
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ustiza
+  radius: 4997
+  rotationSpeed: 0.00081
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 599640
+  land:
+    ratio: 0.69
+    color: [0.333404, 0.66, 0.296484, 1]
+    polarColor: [0.818454, 0.934, 0.805393, 1]
+  sea:
+    color: [0.636719, 0.534822, 0.494949, 1]
+    polarColor: [0.936328, 0.898867, 0.884208, 1]
+  air:
+    color: [0.687449, 0.803096, 0.941766, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.653442, 0.828125, 0.766713, 1]
+    ratio: 0.09
+    polarColor: [0.757609, 0.872656, 0.83221, 1]
+  demographics:
+    type: 53
+    gdp: 41976
+    tech: 11
+    economy: 1
+    government: 7
+    description: This world is plagued by occasional solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.809189, 0.781995, 0.671421, 1]
+  radius: 104885.456238
+  orbit:
+    type: static
+    parent: ~
+    radius: 199880
+    vector: [0.256, -0.394, -0.883]
+  corona:
+    shimmer: 0.293517
+    hues: 0.543961
+    flare: 0.070493
+stations:
+- type: icosahedron
+  orbit:
+    parent: Ustiza
+    vector: undefined
+    radius: 9994

@@ -1,0 +1,61 @@
+name: Riareror
+position: [8, 164]
+seed: 82 164 42 8 20 222
+limits:
+  blurs: 146
+  stars: 8032
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riareror
+  radius: 6408
+  rotationSpeed: 0.004086
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 704880
+  land:
+    ratio: 0.62
+    color: [0.415078, 0.522231, 0.66, 1]
+    polarColor: [0.84735, 0.885259, 0.934, 1]
+  sea:
+    color: [0.648438, 0.564969, 0.504059, 1]
+    polarColor: [0.935156, 0.905062, 0.883102, 1]
+  air:
+    color: [0.584372, 0.953473, 0.950199, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.863281, 0.855694, 0.377686, 1]
+    ratio: 0.26
+    polarColor: [0.888477, 0.883596, 0.576122, 1]
+  demographics:
+    type: 34
+    gdp: 14688
+    tech: 6
+    economy: 4
+    government: 5
+    description: This world is a revolting little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.65668, 0.60189, 0.373766, 1]
+  radius: 119017.727051
+  orbit:
+    type: static
+    parent: ~
+    radius: 448560
+    vector: [0.15, -0.978, 0.144]
+  corona:
+    shimmer: 0.424621
+    hues: 0.506035
+    flare: 0.08262
+stations:
+- type: coriolis
+  orbit:
+    parent: Riareror
+    vector: undefined
+    radius: 12816

@@ -1,0 +1,61 @@
+name: Labeis
+position: [181, 168]
+seed: 7 168 145 181 104 149
+limits:
+  blurs: 141
+  stars: 5425
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Labeis
+  radius: 4277
+  rotationSpeed: 0.002947
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 513240
+  land:
+    ratio: 0.5
+    color: [0.25795, 0.263746, 0.628906, 1]
+    polarColor: [0.798922, 0.801081, 0.937109, 1]
+  sea:
+    color: [0.554688, 0.489907, 0.4379, 1]
+    polarColor: [0.944531, 0.916954, 0.894814, 1]
+  air:
+    color: [0.648685, 0.792236, 0.975586, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.552002, 0.929688, 0.814611, 1]
+    ratio: 0.09
+    polarColor: [0.685182, 0.918359, 0.847313, 1]
+  demographics:
+    type: 39
+    gdp: 18720
+    tech: 9
+    economy: 0
+    government: 2
+    description: The planet Labeis is a boring world.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.622992, 0.833896, 0.846527, 1]
+  radius: 66560.551453
+  orbit:
+    type: static
+    parent: ~
+    radius: 213850
+    vector: [0.589, -0.618, -0.522]
+  corona:
+    shimmer: 0.304549
+    hues: 0.68457
+    flare: 0.045596
+stations:
+- type: coriolis
+  orbit:
+    parent: Labeis
+    vector: undefined
+    radius: 8554

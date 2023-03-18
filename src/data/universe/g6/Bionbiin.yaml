@@ -1,0 +1,61 @@
+name: Bionbiin
+position: [127, 184]
+seed: 206 184 242 127 208 166
+limits:
+  blurs: 91
+  stars: 9193
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bionbiin
+  radius: 4479
+  rotationSpeed: 0.003923
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 537480
+  land:
+    ratio: 0.62
+    color: [0.597964, 0.546562, 0.66, 1]
+    polarColor: [0.912052, 0.893867, 0.934, 1]
+  sea:
+    color: [0.542969, 0.490369, 0.434375, 1]
+    polarColor: [0.945703, 0.922799, 0.898418, 1]
+  air:
+    color: [0.411838, 0.850711, 0.839968, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.554688, 0.52178, 0.0281677, 1]
+    ratio: 0.37
+    polarColor: [0.749609, 0.721815, 0.304895, 1]
+  demographics:
+    type: 59
+    gdp: 47200
+    tech: 13
+    economy: 0
+    government: 6
+    description: Bionbiin is well known for the Bionbiinian tree ant but cursed by vicious mountain beasts.
+    inhabitants: Fierce Harmless Frogs
+- type: star
+  type: primary
+  color: [0.668048, 0.664202, 0.204718, 1]
+  radius: 113864.031372
+  orbit:
+    type: static
+    parent: ~
+    radius: 358320
+    vector: [-0.441, 0.896, 0.05]
+  corona:
+    shimmer: 0.392126
+    hues: 0.617363
+    flare: 0.040836
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Bionbiin
+    vector: undefined
+    radius: 8958

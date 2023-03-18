@@ -1,0 +1,61 @@
+name: Veceised
+position: [2, 44]
+seed: 231 44 41 2 40 214
+limits:
+  blurs: 80
+  stars: 9766
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veceised
+  radius: 4354
+  rotationSpeed: 0.001387
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 522480
+  land:
+    ratio: 0.48
+    color: [0.161636, 0.0747656, 0.66, 1]
+    polarColor: [0.757685, 0.726951, 0.934, 1]
+  sea:
+    color: [0.533203, 0.454759, 0.424063, 1]
+    polarColor: [0.94668, 0.911861, 0.898236, 1]
+  air:
+    color: [0.690893, 0.596765, 0.860467, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.583984, 0.396927, 0.567909, 1]
+    ratio: 0.3
+    polarColor: [0.762793, 0.610085, 0.74967, 1]
+  demographics:
+    type: 42
+    gdp: 18144
+    tech: 8
+    economy: 4
+    government: 5
+    description: This world is a tedious place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.808807, 0.721279, 0.577711, 1]
+  radius: 142682.923889
+  orbit:
+    type: static
+    parent: ~
+    radius: 348320
+    vector: [0.358, -0.155, -0.921]
+  corona:
+    shimmer: 0.472338
+    hues: 0.644722
+    flare: 0.053218
+stations:
+- type: coriolis
+  orbit:
+    parent: Veceised
+    vector: undefined
+    radius: 8708

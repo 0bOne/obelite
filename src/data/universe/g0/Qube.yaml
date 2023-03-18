@@ -1,0 +1,61 @@
+name: Qube
+position: [152, 205]
+seed: 128 205 184 152 29 122
+limits:
+  blurs: 84
+  stars: 5052
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Qube
+  radius: 5528
+  rotationSpeed: 0.000664
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 608080
+  land:
+    ratio: 0.42
+    color: [0.529805, 0.66, 0.399609, 1]
+    polarColor: [0.887938, 0.934, 0.841877, 1]
+  sea:
+    color: [0.550711, 0.707031, 0.556817, 1]
+    polarColor: [0.877931, 0.929297, 0.879938, 1]
+  air:
+    color: [0.706241, 0.835974, 0.88258, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.650391, 0.650391, 0.650391, 1]
+    ratio: 0.38
+    polarColor: [0.792676, 0.792676, 0.792676, 1]
+  demographics:
+    type: 37
+    gdp: 16280
+    tech: 6
+    economy: 5
+    government: 7
+    description: Qube is reasonably well known for its great dense forests but scourged by deadly civil war.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.789368, 0.649365, 0.607485, 1]
+  radius: 133270.551758
+  orbit:
+    type: static
+    parent: ~
+    radius: 663360
+    vector: [-0.822, 0.449, 0.349]
+  corona:
+    shimmer: 0.342672
+    hues: 0.548996
+    flare: 0.022607
+stations:
+- type: coriolis
+  orbit:
+    parent: Qube
+    vector: undefined
+    radius: 11056

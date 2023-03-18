@@ -1,0 +1,61 @@
+name: Larivear
+position: [130, 166]
+seed: 111 166 61 130 160 53
+limits:
+  blurs: 111
+  stars: 5119
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Larivear
+  radius: 4226
+  rotationSpeed: 0.001177
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 549380
+  land:
+    ratio: 0.64
+    color: [0.324656, 0.523438, 0.106323, 1]
+    polarColor: [0.857686, 0.947656, 0.758865, 1]
+  sea:
+    color: [0.315826, 0.351026, 0.511719, 1]
+    polarColor: [0.858022, 0.874339, 0.948828, 1]
+  air:
+    color: [0.692981, 0.74175, 0.973635, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.678436, 0.803049, 0.923828, 1]
+    ratio: 0.26
+    polarColor: [0.763698, 0.840898, 0.915723, 1]
+  demographics:
+    type: 42
+    gdp: 14784
+    tech: 7
+    economy: 6
+    government: 7
+    description: This planet is fabled for its unusual tropical forests and its exciting Larivearian evil brandy.
+    inhabitants: Red Fat Humanoids
+- type: star
+  type: primary
+  color: [0.84559, 0.734799, 0.681526, 1]
+  radius: 110323.774414
+  orbit:
+    type: static
+    parent: ~
+    radius: 211300
+    vector: [-0.16, -0.967, 0.2]
+  corona:
+    shimmer: 0.307779
+    hues: 0.957756
+    flare: 0.02448
+stations:
+- type: coriolis
+  orbit:
+    parent: Larivear
+    vector: undefined
+    radius: 8452

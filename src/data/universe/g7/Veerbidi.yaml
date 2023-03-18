@@ -1,0 +1,61 @@
+name: Veerbidi
+position: [223, 90]
+seed: 81 90 64 223 189 86
+limits:
+  blurs: 57
+  stars: 5041
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Veerbidi
+  radius: 4575
+  rotationSpeed: 0.004722
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 549000
+  land:
+    ratio: 0.3
+    color: [0.296605, 0.180469, 0.66, 1]
+    polarColor: [0.805435, 0.764348, 0.934, 1]
+  sea:
+    color: [0.675781, 0.619521, 0.512115, 1]
+    polarColor: [0.932422, 0.913015, 0.875967, 1]
+  air:
+    color: [0.710169, 0.82869, 0.890385, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.668564, 0.673828, 0.668769, 1]
+    ratio: 0.46
+    polarColor: [0.799301, 0.803223, 0.799454, 1]
+  demographics:
+    type: 35
+    gdp: 8960
+    tech: 8
+    economy: 2
+    government: 0
+    description: The planet Veerbidi is mildly notable for Veerbidiian vicious water.
+    inhabitants: Yellow Furry Insects
+- type: star
+  type: primary
+  color: [0.261373, 0.684017, 0.808569, 1]
+  radius: 119415.206909
+  orbit:
+    type: static
+    parent: ~
+    radius: 320250
+    vector: [-0.3, -0.847, 0.439]
+  corona:
+    shimmer: 0.37739
+    hues: 0.750732
+    flare: 0.069437
+stations:
+- type: coriolis
+  orbit:
+    parent: Veerbidi
+    vector: undefined
+    radius: 9150

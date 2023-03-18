@@ -1,0 +1,61 @@
+name: Enanar
+position: [156, 171]
+seed: 186 171 98 156 234 18
+limits:
+  blurs: 98
+  stars: 6826
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enanar
+  radius: 3484
+  rotationSpeed: 0.001282
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 348400
+  land:
+    ratio: 0.55
+    color: [0.632812, 0.610565, 0.543823, 1]
+    polarColor: [0.936719, 0.928486, 0.903787, 1]
+  sea:
+    color: [0.176041, 0.542969, 0.345172, 1]
+    polarColor: [0.785931, 0.945703, 0.859576, 1]
+  air:
+    color: [0.662527, 0.850061, 0.801561, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.552734, 0.526285, 0.518188, 1]
+    ratio: 0.32
+    polarColor: [0.74873, 0.726338, 0.719483, 1]
+  demographics:
+    type: 32
+    gdp: 14336
+    tech: 6
+    economy: 3
+    government: 4
+    description: This planet is notable for the Enanarian edible moth and its great dense forests.
+    inhabitants: Green Frogs
+- type: star
+  type: primary
+  color: [0.239445, 0.303538, 0.786185, 1]
+  radius: 98214.500122
+  orbit:
+    type: static
+    parent: ~
+    radius: 418080
+    vector: [0.259, 0.605, -0.753]
+  corona:
+    shimmer: 0.38292
+    hues: 0.996384
+    flare: 0.08965
+stations:
+- type: coriolis
+  orbit:
+    parent: Enanar
+    vector: undefined
+    radius: 6968

@@ -1,0 +1,61 @@
+name: Riesonso
+position: [55, 83]
+seed: 103 83 153 55 104 94
+limits:
+  blurs: 158
+  stars: 6581
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Riesonso
+  radius: 6455
+  rotationSpeed: 0.003215
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 645500
+  land:
+    ratio: 0.29
+    color: [0.635024, 0.634219, 0.66, 1]
+    polarColor: [0.925164, 0.924879, 0.934, 1]
+  sea:
+    color: [0.720703, 0.412786, 0.405396, 1]
+    polarColor: [0.92793, 0.828816, 0.826437, 1]
+  air:
+    color: [0.599946, 0.911197, 0.833131, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.736328, 0.503641, 0.422813, 1]
+    ratio: 0.24
+    polarColor: [0.831348, 0.667152, 0.610115, 1]
+  demographics:
+    type: 43
+    gdp: 16856
+    tech: 9
+    economy: 3
+    government: 3
+    description: The world Riesonso is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.667133, 0.782714, 0.785876, 1]
+  radius: 154540.398407
+  orbit:
+    type: static
+    parent: ~
+    radius: 580950
+    vector: [0.53, 0.458, -0.714]
+  corona:
+    shimmer: 0.454833
+    hues: 0.844963
+    flare: 0.048296
+stations:
+- type: coriolis
+  orbit:
+    parent: Riesonso
+    vector: undefined
+    radius: 12910

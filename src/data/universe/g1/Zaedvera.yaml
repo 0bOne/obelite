@@ -1,0 +1,61 @@
+name: Zaedvera
+position: [121, 218]
+seed: 112 218 120 121 186 164
+limits:
+  blurs: 47
+  stars: 8995
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Zaedvera
+  radius: 3961
+  rotationSpeed: 0.001578
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 554540
+  land:
+    ratio: 0.54
+    color: [0.143639, 0.548828, 0.206949, 1]
+    polarColor: [0.770677, 0.945117, 0.797933, 1]
+  sea:
+    color: [0.742188, 0.529869, 0.426178, 1]
+    polarColor: [0.925781, 0.859571, 0.827236, 1]
+  air:
+    color: [0.612466, 0.53335, 0.89884, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.553328, 0.264938, 0.699219, 1]
+    ratio: 0.2
+    polarColor: [0.708414, 0.498415, 0.814648, 1]
+  demographics:
+    type: 50
+    gdp: 35200
+    tech: 10
+    economy: 2
+    government: 7
+    description: Zaedvera is cursed by killer mountain goats.
+    inhabitants: Fierce Harmless Bony Lobsters
+- type: star
+  type: primary
+  color: [0.647603, 0.649383, 0.667188, 1]
+  radius: 87563.146362
+  orbit:
+    type: static
+    parent: ~
+    radius: 158440
+    vector: [-0.654, 0.653, -0.381]
+  corona:
+    shimmer: 0.614473
+    hues: 0.548584
+    flare: 0.005443
+stations:
+- type: coriolis
+  orbit:
+    parent: Zaedvera
+    vector: undefined
+    radius: 7922

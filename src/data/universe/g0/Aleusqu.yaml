@@ -1,0 +1,61 @@
+name: Aleusqu
+position: [215, 122]
+seed: 122 122 112 215 179 15
+limits:
+  blurs: 167
+  stars: 7696
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aleusqu
+  radius: 6871
+  rotationSpeed: 0.000391
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 824520
+  land:
+    ratio: 0.63
+    color: [0.319688, 0.66, 0.340957, 1]
+    polarColor: [0.813602, 0.934, 0.821126, 1]
+  sea:
+    color: [0.646484, 0.633029, 0.489914, 1]
+    polarColor: [0.935352, 0.930485, 0.878719, 1]
+  air:
+    color: [0.45751, 0.465861, 0.930059, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0588531, 0.0875295, 0.792969, 1]
+    ratio: 0.45
+    polarColor: [0.361059, 0.380426, 0.856836, 1]
+  demographics:
+    type: 53
+    gdp: 33920
+    tech: 11
+    economy: 2
+    government: 6
+    description: This world is reasonably notable for its great volcanoes but ravaged by vicious shrews.
+    inhabitants: Green Furry Rodents
+- type: star
+  type: primary
+  color: [0.287828, 0.350557, 0.802686, 1]
+  radius: 196148.933105
+  orbit:
+    type: static
+    parent: ~
+    radius: 549680
+    vector: [-0.933, -0.172, -0.316]
+  corona:
+    shimmer: 0.372842
+    hues: 0.89135
+    flare: 0.031999
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Aleusqu
+    vector: undefined
+    radius: 13742

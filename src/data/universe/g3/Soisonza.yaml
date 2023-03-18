@@ -1,0 +1,61 @@
+name: Soisonza
+position: [59, 58]
+seed: 122 58 34 59 106 71
+limits:
+  blurs: 192
+  stars: 8176
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soisonza
+  radius: 4667
+  rotationSpeed: 0.003791
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 466700
+  land:
+    ratio: 0.58
+    color: [0.66, 0.286172, 0.584066, 1]
+    polarColor: [0.934, 0.801744, 0.907136, 1]
+  sea:
+    color: [0.728516, 0.416593, 0.401253, 1]
+    polarColor: [0.927148, 0.827906, 0.823025, 1]
+  air:
+    color: [0.522158, 0.528482, 0.879979, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.243477, 0.259067, 0.642578, 1]
+    ratio: 0.4
+    polarColor: [0.482821, 0.494787, 0.78916, 1]
+  demographics:
+    type: 47
+    gdp: 24064
+    tech: 10
+    economy: 2
+    government: 4
+    description: The world Soisonza is mildly noted for the Soisonzaian mountain lobstoid but beset by deadly earthquakes.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.665775, 0.607853, 0.500042, 1]
+  radius: 144265.675049
+  orbit:
+    type: static
+    parent: ~
+    radius: 653380
+    vector: [-0.169, -0.598, -0.784]
+  corona:
+    shimmer: 0.27051
+    hues: 0.832558
+    flare: 0.095474
+stations:
+- type: coriolis
+  orbit:
+    parent: Soisonza
+    vector: undefined
+    radius: 9334

@@ -1,0 +1,61 @@
+name: Orlaaror
+position: [122, 128]
+seed: 79 128 234 122 251 57
+limits:
+  blurs: 133
+  stars: 7129
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Orlaaror
+  radius: 5242
+  rotationSpeed: 0.003599
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 629040
+  land:
+    ratio: 0.6
+    color: [0.366353, 0.338631, 0.525391, 1]
+    polarColor: [0.875761, 0.863263, 0.947461, 1]
+  sea:
+    color: [0.571495, 0.763672, 0.565296, 1]
+    polarColor: [0.865525, 0.923633, 0.863651, 1]
+  air:
+    color: [0.674022, 0.852012, 0.82265, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.558594, 0.551195, 0.54332, 1]
+    ratio: 0.32
+    polarColor: [0.751367, 0.745147, 0.738526, 1]
+  demographics:
+    type: 54
+    gdp: 38880
+    tech: 12
+    economy: 0
+    government: 5
+    description: This planet is fabled for its fabulous cuisine.
+    inhabitants: Red Horned Lobsters
+- type: star
+  type: primary
+  color: [0.744177, 0.743995, 0.741239, 1]
+  radius: 149027.781982
+  orbit:
+    type: static
+    parent: ~
+    radius: 471780
+    vector: [-0.472, 0.379, -0.796]
+  corona:
+    shimmer: 0.354092
+    hues: 0.534935
+    flare: 0.002536
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Orlaaror
+    vector: undefined
+    radius: 10484

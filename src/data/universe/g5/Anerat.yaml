@@ -1,0 +1,61 @@
+name: Anerat
+position: [101, 79]
+seed: 175 79 205 101 32 155
+limits:
+  blurs: 69
+  stars: 7722
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Anerat
+  radius: 5733
+  rotationSpeed: 0.001843
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 802620
+  land:
+    ratio: 0.24
+    color: [0.66, 0.239766, 0.495846, 1]
+    polarColor: [0.934, 0.785326, 0.875924, 1]
+  sea:
+    color: [0.603516, 0.542044, 0.46301, 1]
+    polarColor: [0.939648, 0.915721, 0.884958, 1]
+  air:
+    color: [0.444651, 0.742673, 0.858516, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.160816, 0.578125, 0.0880737, 1]
+    ratio: 0.27
+    polarColor: [0.417215, 0.760156, 0.357437, 1]
+  demographics:
+    type: 17
+    gdp: 2040
+    tech: 2
+    economy: 7
+    government: 1
+    description: Anerat is ravaged by frequent solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.658502, 0.615802, 0.433441, 1]
+  radius: 142912.10083
+  orbit:
+    type: static
+    parent: ~
+    radius: 458640
+    vector: [0.664, -0.74, -0.107]
+  corona:
+    shimmer: 0.293029
+    hues: 0.857101
+    flare: 0.006203
+stations:
+- type: coriolis
+  orbit:
+    parent: Anerat
+    vector: undefined
+    radius: 11466

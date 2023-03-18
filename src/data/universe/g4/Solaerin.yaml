@@ -1,0 +1,61 @@
+name: Solaerin
+position: [211, 249]
+seed: 228 249 212 211 85 39
+limits:
+  blurs: 157
+  stars: 6874
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Solaerin
+  radius: 4819
+  rotationSpeed: 0.003291
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 530090
+  land:
+    ratio: 0.34
+    color: [0.587813, 0.614319, 0.66, 1]
+    polarColor: [0.908461, 0.917839, 0.934, 1]
+  sea:
+    color: [0.728516, 0.573822, 0.449631, 1]
+    polarColor: [0.927148, 0.87793, 0.838417, 1]
+  air:
+    color: [0.598722, 0.87694, 0.976887, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.511015, 0.933594, 0.408447, 1]
+    ratio: 0.4
+    polarColor: [0.659818, 0.920117, 0.596639, 1]
+  demographics:
+    type: 44
+    gdp: 19008
+    tech: 10
+    economy: 1
+    government: 2
+    description: This world is a tedious place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.565896, 0.691001, 0.760992, 1]
+  radius: 118075.64743
+  orbit:
+    type: static
+    parent: ~
+    radius: 433710
+    vector: [0.704, -0.474, 0.529]
+  corona:
+    shimmer: 0.343484
+    hues: 0.956779
+    flare: 0.095158
+stations:
+- type: coriolis
+  orbit:
+    parent: Solaerin
+    vector: undefined
+    radius: 9638

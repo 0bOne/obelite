@@ -1,0 +1,61 @@
+name: Bivea
+position: [210, 61]
+seed: 154 61 128 210 51 230
+limits:
+  blurs: 74
+  stars: 8789
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Bivea
+  radius: 4562
+  rotationSpeed: 0.001113
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 547440
+  land:
+    ratio: 0.64
+    color: [0.66, 0.296484, 0.466882, 1]
+    polarColor: [0.934, 0.805393, 0.865677, 1]
+  sea:
+    color: [0.546875, 0.472212, 0.431732, 1]
+    polarColor: [0.945312, 0.913047, 0.895554, 1]
+  air:
+    color: [0.578916, 0.907, 0.98209, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.606645, 0.949219, 0.348541, 1]
+    ratio: 0.3
+    polarColor: [0.718018, 0.927148, 0.560454, 1]
+  demographics:
+    type: 16
+    gdp: 1536
+    tech: 2
+    economy: 7
+    government: 0
+    description: This planet is plagued by frequent solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.590134, 0.618065, 0.721704, 1]
+  radius: 143206.39801
+  orbit:
+    type: static
+    parent: ~
+    radius: 319340
+    vector: [0.312, 0.069, -0.948]
+  corona:
+    shimmer: 0.32035
+    hues: 0.814957
+    flare: 0.079179
+stations:
+- type: coriolis
+  orbit:
+    parent: Bivea
+    vector: undefined
+    radius: 9124

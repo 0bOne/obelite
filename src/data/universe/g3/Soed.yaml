@@ -1,0 +1,61 @@
+name: Soed
+position: [80, 23]
+seed: 10 23 210 80 10 96
+limits:
+  blurs: 136
+  stars: 7661
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Soed
+  radius: 2896
+  rotationSpeed: 0.00443
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 347520
+  land:
+    ratio: 0.56
+    color: [0.564453, 0.401291, 0.55808, 1]
+    polarColor: [0.943555, 0.875368, 0.940891, 1]
+  sea:
+    color: [0.748047, 0.563912, 0.429543, 1]
+    polarColor: [0.925195, 0.86826, 0.826713, 1]
+  air:
+    color: [0.593835, 0.9164, 0.835496, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.751953, 0.496888, 0.408287, 1]
+    ratio: 0.28
+    polarColor: [0.838379, 0.660641, 0.598901, 1]
+  demographics:
+    type: 14
+    gdp: 2016
+    tech: 1
+    economy: 7
+    government: 2
+    description: This planet is reasonably famous for the Soedian evil talking treeoid.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.761533, 0.627934, 0.593332, 1]
+  radius: 83214.042969
+  orbit:
+    type: static
+    parent: ~
+    radius: 260640
+    vector: [-0.558, 0.789, 0.257]
+  corona:
+    shimmer: 0.454732
+    hues: 0.962013
+    flare: 0.068726
+stations:
+- type: coriolis
+  orbit:
+    parent: Soed
+    vector: undefined
+    radius: 5792

@@ -1,0 +1,61 @@
+name: Sotera
+position: [15, 5]
+seed: 24 5 164 15 237 7
+limits:
+  blurs: 157
+  stars: 5279
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Sotera
+  radius: 4623
+  rotationSpeed: 0.004185
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 508530
+  land:
+    ratio: 0.47
+    color: [0.379982, 0.333252, 0.546875, 1]
+    polarColor: [0.873191, 0.852997, 0.945312, 1]
+  sea:
+    color: [0.84375, 0.772167, 0.38562, 1]
+    polarColor: [0.915625, 0.896205, 0.791336, 1]
+  air:
+    color: [0.484668, 0.581763, 0.88258, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.160057, 0.512484, 0.650391, 1]
+    ratio: 0.41
+    polarColor: [0.419174, 0.687628, 0.792676, 1]
+  demographics:
+    type: 38
+    gdp: 12160
+    tech: 7
+    economy: 5
+    government: 4
+    description: Sotera is mildly notable for Soteraian lethal brandy.
+    inhabitants: Fierce Green Horned Humanoids
+- type: star
+  type: primary
+  color: [0.706085, 0.696465, 0.660544, 1]
+  radius: 128632.915192
+  orbit:
+    type: static
+    parent: ~
+    radius: 600990
+    vector: [-0.792, 0.611, 0.011]
+  corona:
+    shimmer: 0.226391
+    hues: 0.807594
+    flare: 0.063986
+stations:
+- type: coriolis
+  orbit:
+    parent: Sotera
+    vector: undefined
+    radius: 9246

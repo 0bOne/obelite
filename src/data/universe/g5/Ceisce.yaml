@@ -1,0 +1,61 @@
+name: Ceisce
+position: [130, 117]
+seed: 7 117 113 130 232 37
+limits:
+  blurs: 109
+  stars: 9985
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceisce
+  radius: 4226
+  rotationSpeed: 0.001638
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 507120
+  land:
+    ratio: 0.48
+    color: [0.66, 0.438966, 0.203672, 1]
+    polarColor: [0.934, 0.855801, 0.772557, 1]
+  sea:
+    color: [0.417651, 0.364151, 0.503906, 1]
+    polarColor: [0.908973, 0.883767, 0.949609, 1]
+  air:
+    color: [0.549513, 0.961928, 0.897113, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.888672, 0.607057, 0.27771, 1]
+    ratio: 0.24
+    polarColor: [0.899902, 0.721668, 0.513226, 1]
+  demographics:
+    type: 40
+    gdp: 16000
+    tech: 7
+    economy: 5
+    government: 6
+    description: This planet is noted for its exciting sit coms.
+    inhabitants: Fierce Red Rodents
+- type: star
+  type: primary
+  color: [0.755429, 0.722182, 0.698509, 1]
+  radius: 118075.353088
+  orbit:
+    type: static
+    parent: ~
+    radius: 338080
+    vector: [0.003, 0.937, -0.35]
+  corona:
+    shimmer: 0.720255
+    hues: 0.773987
+    flare: 0.017409
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceisce
+    vector: undefined
+    radius: 8452

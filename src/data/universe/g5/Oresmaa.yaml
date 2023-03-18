@@ -1,0 +1,61 @@
+name: Oresmaa
+position: [39, 168]
+seed: 105 168 181 39 202 57
+limits:
+  blurs: 165
+  stars: 5497
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Oresmaa
+  radius: 5159
+  rotationSpeed: 0.000774
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 619080
+  land:
+    ratio: 0.25
+    color: [0.66, 0.190781, 0.44372, 1]
+    polarColor: [0.934, 0.767996, 0.857483, 1]
+  sea:
+    color: [0.597656, 0.551271, 0.462717, 1]
+    polarColor: [0.940234, 0.921991, 0.887163, 1]
+  air:
+    color: [0.720191, 0.803289, 0.9164, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.719643, 0.751953, 0.743623, 1]
+    ratio: 0.39
+    polarColor: [0.815864, 0.838379, 0.832574, 1]
+  demographics:
+    type: 59
+    gdp: 47200
+    tech: 13
+    economy: 0
+    government: 6
+    description: The planet Oresmaa is scourged by deadly disease.
+    inhabitants: Red Rodents
+- type: star
+  type: primary
+  color: [0.406135, 0.460658, 0.775702, 1]
+  radius: 132626.037903
+  orbit:
+    type: static
+    parent: ~
+    radius: 257950
+    vector: [-0.343, -0.54, -0.769]
+  corona:
+    shimmer: 0.314895
+    hues: 0.574677
+    flare: 0.011858
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Oresmaa
+    vector: undefined
+    radius: 10318

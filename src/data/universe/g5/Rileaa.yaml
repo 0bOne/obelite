@@ -1,0 +1,61 @@
+name: Rileaa
+position: [239, 178]
+seed: 231 178 201 239 168 62
+limits:
+  blurs: 109
+  stars: 5442
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Rileaa
+  radius: 6639
+  rotationSpeed: 0.002603
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 863070
+  land:
+    ratio: 0.7
+    color: [0.182022, 0.589844, 0.55161, 1]
+    polarColor: [0.77836, 0.941016, 0.925767, 1]
+  sea:
+    color: [0.587077, 0.767578, 0.678738, 1]
+    polarColor: [0.868966, 0.923242, 0.896528, 1]
+  air:
+    color: [0.678064, 0.864135, 0.892336, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.646251, 0.679688, 0.597382, 1]
+    ratio: 0.29
+    polarColor: [0.781082, 0.805859, 0.744869, 1]
+  demographics:
+    type: 40
+    gdp: 12800
+    tech: 9
+    economy: 2
+    government: 1
+    description: Rileaa is mildly well known for vicious Thal gargle blasters.
+    inhabitants: Red Furry Insects
+- type: star
+  type: primary
+  color: [0.841548, 0.845778, 0.846362, 1]
+  radius: 107209.07135
+  orbit:
+    type: static
+    parent: ~
+    radius: 331950
+    vector: [0.685, -0.544, -0.485]
+  corona:
+    shimmer: 0.418509
+    hues: 0.790627
+    flare: 0.090175
+stations:
+- type: coriolis
+  orbit:
+    parent: Rileaa
+    vector: undefined
+    radius: 13278

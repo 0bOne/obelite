@@ -1,0 +1,61 @@
+name: Diesdi
+position: [150, 165]
+seed: 28 165 128 150 165 173
+limits:
+  blurs: 66
+  stars: 9378
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Diesdi
+  radius: 6294
+  rotationSpeed: 0.004438
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 881160
+  land:
+    ratio: 0.43
+    color: [0.491002, 0.293922, 0.654297, 1]
+    polarColor: [0.87626, 0.805884, 0.93457, 1]
+  sea:
+    color: [0.599609, 0.49766, 0.452986, 1]
+    polarColor: [0.940039, 0.900081, 0.882572, 1]
+  air:
+    color: [0.556326, 0.952172, 0.871425, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.859375, 0.524154, 0.302124, 1]
+    ratio: 0.41
+    polarColor: [0.886719, 0.670539, 0.527355, 1]
+  demographics:
+    type: 16
+    gdp: 1536
+    tech: 2
+    economy: 7
+    government: 0
+    description: The planet Diesdi is an unremarkable dump.
+    inhabitants: Harmless Bony Birds
+- type: star
+  type: primary
+  color: [0.779797, 0.485296, 0.239623, 1]
+  radius: 178892.467346
+  orbit:
+    type: static
+    parent: ~
+    radius: 377640
+    vector: [-0.527, 0.395, -0.753]
+  corona:
+    shimmer: 0.350565
+    hues: 0.542313
+    flare: 0.014439
+stations:
+- type: coriolis
+  orbit:
+    parent: Diesdi
+    vector: undefined
+    radius: 12588

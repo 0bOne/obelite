@@ -1,0 +1,61 @@
+name: Onanorra
+position: [127, 124]
+seed: 94 124 42 127 128 191
+limits:
+  blurs: 104
+  stars: 5884
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onanorra
+  radius: 6783
+  rotationSpeed: 0.001747
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 610470
+  land:
+    ratio: 0.38
+    color: [0.0845642, 0.636719, 0.326132, 1]
+    polarColor: [0.733335, 0.936328, 0.822145, 1]
+  sea:
+    color: [0.555121, 0.714844, 0.572591, 1]
+    polarColor: [0.876649, 0.928516, 0.882322, 1]
+  air:
+    color: [0.68982, 0.575364, 0.88258, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.650391, 0.360764, 0.611925, 1]
+    ratio: 0.21
+    polarColor: [0.792676, 0.572058, 0.763375, 1]
+  demographics:
+    type: 46
+    gdp: 19872
+    tech: 9
+    economy: 4
+    government: 5
+    description: The planet Onanorra is famous for its fabulous monkey burgers but plagued by unpredictable civil war.
+    inhabitants: Harmless Bony Felines
+- type: star
+  type: primary
+  color: [0.78204, 0.591379, 0.528145, 1]
+  radius: 173267.893066
+  orbit:
+    type: static
+    parent: ~
+    radius: 610470
+    vector: [-0.866, -0.29, -0.407]
+  corona:
+    shimmer: 0.944949
+    hues: 0.906433
+    flare: 0.067529
+stations:
+- type: coriolis
+  orbit:
+    parent: Onanorra
+    vector: undefined
+    radius: 13566

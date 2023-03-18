@@ -1,0 +1,61 @@
+name: Eddi
+position: [20, 132]
+seed: 7 132 193 20 40 192
+limits:
+  blurs: 59
+  stars: 7381
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Eddi
+  radius: 2836
+  rotationSpeed: 0.002317
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 311960
+  land:
+    ratio: 0.44
+    color: [0.479531, 0.49504, 0.66, 1]
+    polarColor: [0.870152, 0.875639, 0.934, 1]
+  sea:
+    color: [0.523438, 0.445284, 0.418137, 1]
+    polarColor: [0.947656, 0.912283, 0.899996, 1]
+  air:
+    color: [0.450232, 0.630305, 0.891686, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0767746, 0.677734, 0.550969, 1]
+    ratio: 0.43
+    polarColor: [0.358861, 0.80498, 0.710877, 1]
+  demographics:
+    type: 11
+    gdp: 1408
+    tech: 1
+    economy: 6
+    government: 0
+    description: This world is a tedious little planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.828412, 0.813305, 0.808579, 1]
+  radius: 83327.838745
+  orbit:
+    type: static
+    parent: ~
+    radius: 255240
+    vector: [-0.709, -0.109, 0.697]
+  corona:
+    shimmer: 0.29867
+    hues: 0.557152
+    flare: 0.053775
+stations:
+- type: coriolis
+  orbit:
+    parent: Eddi
+    vector: undefined
+    radius: 5672

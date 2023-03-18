@@ -1,0 +1,61 @@
+name: Ceteceso
+position: [164, 242]
+seed: 210 242 114 164 20 165
+limits:
+  blurs: 196
+  stars: 6486
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceteceso
+  radius: 4260
+  rotationSpeed: 0.001897
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 468600
+  land:
+    ratio: 0.49
+    color: [0.544922, 0.429977, 0.513492, 1]
+    polarColor: [0.945508, 0.895647, 0.931874, 1]
+  sea:
+    color: [0.951172, 0.635789, 0.189491, 1]
+    polarColor: [0.904883, 0.829874, 0.723729, 1]
+  air:
+    color: [0.586313, 0.941635, 0.958676, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.805011, 0.878906, 0.381088, 1]
+    ratio: 0.53
+    polarColor: [0.848451, 0.895508, 0.578495, 1]
+  demographics:
+    type: 41
+    gdp: 26240
+    tech: 8
+    economy: 2
+    government: 6
+    description: The planet Ceteceso is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.389578, 0.438475, 0.678931, 1]
+  radius: 96712.582397
+  orbit:
+    type: static
+    parent: ~
+    radius: 213000
+    vector: [-0.237, -0.942, 0.238]
+  corona:
+    shimmer: 0.263841
+    hues: 0.863113
+    flare: 0.014198
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceteceso
+    vector: undefined
+    radius: 8520

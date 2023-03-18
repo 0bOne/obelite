@@ -1,0 +1,61 @@
+name: Aislaxe
+position: [41, 228]
+seed: 94 228 42 41 128 143
+limits:
+  blurs: 87
+  stars: 7048
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Aislaxe
+  radius: 6697
+  rotationSpeed: 0.001712
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 736670
+  land:
+    ratio: 0.64
+    color: [0.609375, 0.38562, 0.584902, 1]
+    polarColor: [0.939062, 0.852859, 0.929634, 1]
+  sea:
+    color: [0.662109, 0.595349, 0.509514, 1]
+    polarColor: [0.933789, 0.910251, 0.879987, 1]
+  air:
+    color: [0.404736, 0.833801, 0.742929, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.503906, 0.206188, 0.0275574, 1]
+    ratio: 0.19
+    polarColor: [0.726758, 0.458393, 0.297375, 1]
+  demographics:
+    type: 38
+    gdp: 16416
+    tech: 7
+    economy: 4
+    government: 5
+    description: This planet is a tedious place.
+    inhabitants: Black Furry Rodents
+- type: star
+  type: primary
+  color: [0.462125, 0.748214, 0.755701, 1]
+  radius: 177027.61673
+  orbit:
+    type: static
+    parent: ~
+    radius: 401820
+    vector: [0.901, -0.244, -0.359]
+  corona:
+    shimmer: 0.303872
+    hues: 0.540184
+    flare: 0.023779
+stations:
+- type: coriolis
+  orbit:
+    parent: Aislaxe
+    vector: undefined
+    radius: 13394

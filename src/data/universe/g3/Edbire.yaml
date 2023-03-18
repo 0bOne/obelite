@@ -1,0 +1,61 @@
+name: Edbire
+position: [112, 94]
+seed: 26 94 66 112 42 184
+limits:
+  blurs: 70
+  stars: 8394
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edbire
+  radius: 4976
+  rotationSpeed: 0.002601
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 696640
+  land:
+    ratio: 0.64
+    color: [0.513672, 0.495613, 0.49646, 1]
+    polarColor: [0.948633, 0.940295, 0.940686, 1]
+  sea:
+    color: [0.578125, 0.49612, 0.446918, 1]
+    polarColor: [0.942187, 0.908776, 0.888729, 1]
+  air:
+    color: [0.62066, 0.903393, 0.856752, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.712891, 0.59554, 0.470619, 1]
+    ratio: 0.41
+    polarColor: [0.820801, 0.736355, 0.646461, 1]
+  demographics:
+    type: 11
+    gdp: 1408
+    tech: 1
+    economy: 6
+    government: 0
+    description: Edbire is cursed by killer edible talking treeoids.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.742206, 0.647941, 0.280836, 1]
+  radius: 92119.32373
+  orbit:
+    type: static
+    parent: ~
+    radius: 298560
+    vector: [-0.582, -0.704, -0.406]
+  corona:
+    shimmer: 0.342507
+    hues: 0.540565
+    flare: 0.078662
+stations:
+- type: coriolis
+  orbit:
+    parent: Edbire
+    vector: undefined
+    radius: 9952

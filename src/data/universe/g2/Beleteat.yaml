@@ -1,0 +1,61 @@
+name: Beleteat
+position: [199, 198]
+seed: 201 198 1 199 205 243
+limits:
+  blurs: 170
+  stars: 8300
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Beleteat
+  radius: 3783
+  rotationSpeed: 0.004204
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 453960
+  land:
+    ratio: 0.66
+    color: [0.484688, 0.66, 0.503862, 1]
+    polarColor: [0.871977, 0.934, 0.87876, 1]
+  sea:
+    color: [0.783203, 0.678754, 0.431374, 1]
+    polarColor: [0.92168, 0.89095, 0.818171, 1]
+  air:
+    color: [0.67146, 0.877587, 0.880629, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.640538, 0.644531, 0.571518, 1]
+    ratio: 0.31
+    polarColor: [0.78698, 0.790039, 0.734104, 1]
+  demographics:
+    type: 23
+    gdp: 2944
+    tech: 4
+    economy: 6
+    government: 0
+    description: This planet is plagued by deadly earthquakes.
+    inhabitants: Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.750391, 0.516023, 0.385644, 1]
+  radius: 98358.808136
+  orbit:
+    type: static
+    parent: ~
+    radius: 416130
+    vector: [-0.069, -0.617, 0.784]
+  corona:
+    shimmer: 0.271425
+    hues: 0.856773
+    flare: 0.030304
+stations:
+- type: coriolis
+  orbit:
+    parent: Beleteat
+    vector: undefined
+    radius: 7566

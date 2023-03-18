@@ -1,0 +1,61 @@
+name: Gedienza
+position: [65, 40]
+seed: 206 40 50 65 208 163
+limits:
+  blurs: 199
+  stars: 6122
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Gedienza
+  radius: 3649
+  rotationSpeed: 0.001412
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 474370
+  land:
+    ratio: 0.61
+    color: [0.328066, 0.66, 0.2475, 1]
+    polarColor: [0.816566, 0.934, 0.788063, 1]
+  sea:
+    color: [0.556641, 0.520981, 0.445312, 1]
+    polarColor: [0.944336, 0.929212, 0.897119, 1]
+  air:
+    color: [0.609484, 0.811582, 0.994447, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.431519, 0.986328, 0.674248, 1]
+    ratio: 0.59
+    polarColor: [0.612026, 0.943848, 0.757198, 1]
+  demographics:
+    type: 51
+    gdp: 40800
+    tech: 11
+    economy: 0
+    government: 6
+    description: This world is very fabled for the Gedienzaian edible poet.
+    inhabitants: Large Harmless Bug-Eyed Birds
+- type: star
+  type: primary
+  color: [0.20086, 0.639212, 0.705151, 1]
+  radius: 85103.615417
+  orbit:
+    type: static
+    parent: ~
+    radius: 182450
+    vector: [-0.529, 0.7, -0.48]
+  corona:
+    shimmer: 0.399971
+    hues: 0.664101
+    flare: 0.079541
+stations:
+- type: dodecahedron
+  orbit:
+    parent: Gedienza
+    vector: undefined
+    radius: 7298

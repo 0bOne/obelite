@@ -1,0 +1,61 @@
+name: Enonlebe
+position: [79, 253]
+seed: 219 253 102 79 95 50
+limits:
+  blurs: 151
+  stars: 5256
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Enonlebe
+  radius: 3407
+  rotationSpeed: 0.000151
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 340700
+  land:
+    ratio: 0.58
+    color: [0.578125, 0.456177, 0.496191, 1]
+    polarColor: [0.942187, 0.892502, 0.908805, 1]
+  sea:
+    color: [0.939453, 0.480277, 0.176147, 1]
+    polarColor: [0.906055, 0.795342, 0.722012, 1]
+  air:
+    color: [0.497371, 0.498205, 0.901441, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.183641, 0.17952, 0.707031, 1]
+    ratio: 0.41
+    polarColor: [0.439628, 0.436647, 0.818164, 1]
+  demographics:
+    type: 38
+    gdp: 12160
+    tech: 7
+    economy: 5
+    government: 4
+    description: The world Enonlebe is a boring planet.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.286696, 0.472882, 0.769849, 1]
+  radius: 77230.393372
+  orbit:
+    type: static
+    parent: ~
+    radius: 374770
+    vector: [-0.229, 0.056, -0.972]
+  corona:
+    shimmer: 0.525566
+    hues: 0.929405
+    flare: 0.058649
+stations:
+- type: coriolis
+  orbit:
+    parent: Enonlebe
+    vector: undefined
+    radius: 6814

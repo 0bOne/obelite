@@ -1,0 +1,61 @@
+name: Ervean
+position: [20, 241]
+seed: 146 241 202 20 84 176
+limits:
+  blurs: 129
+  stars: 8375
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ervean
+  radius: 2836
+  rotationSpeed: 0.002817
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 397040
+  land:
+    ratio: 0.28
+    color: [0.489844, 0.612144, 0.66, 1]
+    polarColor: [0.873801, 0.917069, 0.934, 1]
+  sea:
+    color: [0.527344, 0.44036, 0.0432587, 1]
+    polarColor: [0.947266, 0.908203, 0.729876, 1]
+  air:
+    color: [0.600991, 0.902092, 0.810121, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.708984, 0.450472, 0.423729, 1]
+    ratio: 0.35
+    polarColor: [0.819043, 0.632391, 0.613082, 1]
+  demographics:
+    type: 25
+    gdp: 7000
+    tech: 5
+    economy: 3
+    government: 1
+    description: This planet is a tedious place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.705646, 0.354135, 0.291899, 1]
+  radius: 64049.30481
+  orbit:
+    type: static
+    parent: ~
+    radius: 170160
+    vector: [0.987, -0.096, -0.125]
+  corona:
+    shimmer: 0.46272
+    hues: 0.866402
+    flare: 0.036465
+stations:
+- type: coriolis
+  orbit:
+    parent: Ervean
+    vector: undefined
+    radius: 5672

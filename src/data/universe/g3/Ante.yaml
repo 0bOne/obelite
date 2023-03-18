@@ -1,0 +1,61 @@
+name: Ante
+position: [3, 65]
+seed: 98 65 146 3 218 155
+limits:
+  blurs: 47
+  stars: 8720
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ante
+  radius: 5635
+  rotationSpeed: 0.001321
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 619850
+  land:
+    ratio: 0.38
+    color: [0.541016, 0.347793, 0.0147934, 1]
+    polarColor: [0.945898, 0.861442, 0.71589, 1]
+  sea:
+    color: [0.601562, 0.506634, 0.455167, 1]
+    polarColor: [0.939844, 0.902766, 0.882664, 1]
+  air:
+    color: [0.678407, 0.58176, 0.871523, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.617188, 0.371277, 0.613345, 1]
+    ratio: 0.43
+    polarColor: [0.777734, 0.58406, 0.774708, 1]
+  demographics:
+    type: 44
+    gdp: 19008
+    tech: 10
+    economy: 1
+    government: 2
+    description: This planet is mildly noted for its ancient Anteian Enxeleer tulip plantations but cursed by dreadful civil war.
+    inhabitants: Black Horned Humanoids
+- type: star
+  type: primary
+  color: [0.385023, 0.445898, 0.781409, 1]
+  radius: 176201.229095
+  orbit:
+    type: static
+    parent: ~
+    radius: 563500
+    vector: [0.963, 0.198, -0.185]
+  corona:
+    shimmer: 0.371608
+    hues: 0.699913
+    flare: 0.040154
+stations:
+- type: coriolis
+  orbit:
+    parent: Ante
+    vector: undefined
+    radius: 11270

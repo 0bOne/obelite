@@ -1,0 +1,61 @@
+name: Laorusti
+position: [57, 105]
+seed: 242 105 194 57 180 245
+limits:
+  blurs: 125
+  stars: 8987
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Laorusti
+  radius: 4153
+  rotationSpeed: 0.003792
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 456830
+  land:
+    ratio: 0.71
+    color: [0.440859, 0.66, 0.454556, 1]
+    polarColor: [0.856471, 0.934, 0.861316, 1]
+  sea:
+    color: [0.519531, 0.390663, 0.484294, 1]
+    polarColor: [0.948047, 0.889257, 0.931971, 1]
+  air:
+    color: [0.65898, 0.881195, 0.905994, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.671436, 0.720703, 0.563049, 1]
+    ratio: 0.52
+    polarColor: [0.789098, 0.824316, 0.711617, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: Laorusti is ravaged by dreadful civil war.
+    inhabitants: Slimy Frogs
+- type: star
+  type: primary
+  color: [0.658102, 0.595262, 0.298803, 1]
+  radius: 102399.180603
+  orbit:
+    type: static
+    parent: ~
+    radius: 415300
+    vector: [0.274, 0.853, -0.443]
+  corona:
+    shimmer: 0.31106
+    hues: 0.984352
+    flare: 0.070328
+stations:
+- type: coriolis
+  orbit:
+    parent: Laorusti
+    vector: undefined
+    radius: 8306

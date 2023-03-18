@@ -1,0 +1,61 @@
+name: Reesdice
+position: [149, 101]
+seed: 90 101 224 149 51 238
+limits:
+  blurs: 99
+  stars: 8861
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Reesdice
+  radius: 6549
+  rotationSpeed: 0.004857
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 654900
+  land:
+    ratio: 0.59
+    color: [0.626484, 0.627794, 0.66, 1]
+    polarColor: [0.922143, 0.922606, 0.934, 1]
+  sea:
+    color: [0.529297, 0.510721, 0.0537567, 1]
+    polarColor: [0.94707, 0.938761, 0.734349, 1]
+  air:
+    color: [0.488231, 0.989895, 0.840578, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.972656, 0.181067, 0.0759888, 1]
+    ratio: 0.31
+    polarColor: [0.937695, 0.460735, 0.397422, 1]
+  demographics:
+    type: 30
+    gdp: 9600
+    tech: 5
+    economy: 5
+    government: 4
+    description: The world Reesdice is reasonably famous for the Reesdiceian deadly lobstoid.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.678311, 0.539322, 0.460887, 1]
+  radius: 183140.362701
+  orbit:
+    type: static
+    parent: ~
+    radius: 720390
+    vector: [0.552, 0.823, 0.137]
+  corona:
+    shimmer: 1.081202
+    hues: 0.609909
+    flare: 0.014259
+stations:
+- type: coriolis
+  orbit:
+    parent: Reesdice
+    vector: undefined
+    radius: 13098

@@ -1,0 +1,61 @@
+name: Isti
+position: [12, 45]
+seed: 56 45 12 12 189 61
+limits:
+  blurs: 122
+  stars: 5849
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Isti
+  radius: 6156
+  rotationSpeed: 0.002647
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 923400
+  land:
+    ratio: 0.49
+    color: [0.134062, 0.351834, 0.66, 1]
+    polarColor: [0.74793, 0.824974, 0.934, 1]
+  sea:
+    color: [0.621094, 0.483791, 0.456844, 1]
+    polarColor: [0.937891, 0.886057, 0.875884, 1]
+  air:
+    color: [0.623313, 0.482503, 0.94827, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.789711, 0.105957, 0.847656, 1]
+    ratio: 0.46
+    polarColor: [0.843786, 0.399405, 0.881445, 1]
+  demographics:
+    type: 13
+    gdp: 1560
+    tech: 1
+    economy: 7
+    government: 1
+    description: The planet Isti is reasonably noted for its inhabitants’ eccentric shyness and Zero-G hockey.
+    inhabitants: Red Bug-Eyed Lizards
+- type: star
+  type: primary
+  color: [0.793711, 0.801656, 0.817975, 1]
+  radius: 128574.695435
+  orbit:
+    type: static
+    parent: ~
+    radius: 307800
+    vector: [0.069, 0.159, -0.985]
+  corona:
+    shimmer: 1.915025
+    hues: 0.958595
+    flare: 0.00891
+stations:
+- type: coriolis
+  orbit:
+    parent: Isti
+    vector: undefined
+    radius: 12312

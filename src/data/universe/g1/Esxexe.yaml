@@ -1,0 +1,61 @@
+name: Esxexe
+position: [86, 226]
+seed: 128 226 224 86 90 73
+limits:
+  blurs: 49
+  stars: 8160
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esxexe
+  radius: 5206
+  rotationSpeed: 0.004343
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 624720
+  land:
+    ratio: 0.4
+    color: [0.108032, 0.576172, 0.126319, 1]
+    polarColor: [0.750961, 0.942383, 0.758439, 1]
+  sea:
+    color: [0.544922, 0.416142, 0.443306, 1]
+    polarColor: [0.945508, 0.889645, 0.901429, 1]
+  air:
+    color: [0.77487, 0.666166, 0.8325, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.5, 0.5, 0.5, 1]
+    ratio: 0.39
+    polarColor: [0.725, 0.725, 0.725, 1]
+  demographics:
+    type: 43
+    gdp: 22016
+    tech: 9
+    economy: 2
+    government: 4
+    description: This planet is a dull place.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.203479, 0.567375, 0.680057, 1]
+  radius: 137650.465698
+  orbit:
+    type: static
+    parent: ~
+    radius: 520600
+    vector: [0.098, -0.111, -0.989]
+  corona:
+    shimmer: 0.444035
+    hues: 0.547531
+    flare: 0.041298
+stations:
+- type: coriolis
+  orbit:
+    parent: Esxexe
+    vector: undefined
+    radius: 10412

@@ -1,0 +1,61 @@
+name: Titequ
+position: [229, 159]
+seed: 48 159 232 229 154 151
+limits:
+  blurs: 41
+  stars: 6310
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Titequ
+  radius: 4837
+  rotationSpeed: 0.002213
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 725550
+  land:
+    ratio: 0.53
+    color: [0.66, 0.260391, 0.569464, 1]
+    polarColor: [0.934, 0.792623, 0.901969, 1]
+  sea:
+    color: [0.681641, 0.546968, 0.473953, 1]
+    polarColor: [0.931836, 0.88581, 0.860856, 1]
+  air:
+    color: [0.486532, 0.610521, 0.871523, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.168762, 0.596168, 0.617188, 1]
+    ratio: 0.22
+    polarColor: [0.424564, 0.76118, 0.777734, 1]
+  demographics:
+    type: 29
+    gdp: 6264
+    tech: 4
+    economy: 7
+    government: 5
+    description: The world Titequ is notable for its great volcanoes and its inhabitants’ eccentric shyness.
+    inhabitants: Black Horned Humanoids
+- type: star
+  type: primary
+  color: [0.575151, 0.640468, 0.844971, 1]
+  radius: 155561.775665
+  orbit:
+    type: static
+    parent: ~
+    radius: 145110
+    vector: [0.395, 0.767, -0.505]
+  corona:
+    shimmer: 0.511257
+    hues: 0.918518
+    flare: 0.081523
+stations:
+- type: coriolis
+  orbit:
+    parent: Titequ
+    vector: undefined
+    radius: 9674

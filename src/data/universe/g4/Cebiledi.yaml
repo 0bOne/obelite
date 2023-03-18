@@ -1,0 +1,61 @@
+name: Cebiledi
+position: [85, 170]
+seed: 118 170 196 85 211 229
+limits:
+  blurs: 187
+  stars: 7723
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Cebiledi
+  radius: 4181
+  rotationSpeed: 0.0025
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 418100
+  land:
+    ratio: 0.35
+    color: [0.66, 0.237188, 0.564207, 1]
+    polarColor: [0.934, 0.784414, 0.900109, 1]
+  sea:
+    color: [0.652344, 0.573178, 0.480594, 1]
+    polarColor: [0.934766, 0.906406, 0.873239, 1]
+  air:
+    color: [0.713886, 0.764314, 0.950871, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.728485, 0.80785, 0.855469, 1]
+    ratio: 0.26
+    polarColor: [0.80286, 0.854173, 0.884961, 1]
+  demographics:
+    type: 27
+    gdp: 6912
+    tech: 6
+    economy: 2
+    government: 0
+    description: The planet Cebiledi is scourged by killer edible arts graduates.
+    inhabitants: Fierce Rodents
+- type: star
+  type: primary
+  color: [0.405006, 0.418802, 0.747913, 1]
+  radius: 97256.608124
+  orbit:
+    type: static
+    parent: ~
+    radius: 543530
+    vector: [0.211, -0.969, -0.129]
+  corona:
+    shimmer: 0.458255
+    hues: 0.856842
+    flare: 0.027458
+stations:
+- type: coriolis
+  orbit:
+    parent: Cebiledi
+    vector: undefined
+    radius: 8362

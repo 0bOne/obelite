@@ -1,0 +1,61 @@
+name: Usrarema
+position: [81, 249]
+seed: 106 249 252 81 155 136
+limits:
+  blurs: 150
+  stars: 7630
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Usrarema
+  radius: 4945
+  rotationSpeed: 0.003082
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 543950
+  land:
+    ratio: 0.5
+    color: [0.169296, 0.598054, 0.619141, 1]
+    polarColor: [0.767691, 0.930099, 0.938086, 1]
+  sea:
+    color: [0.606737, 0.722656, 0.54171, 1]
+    polarColor: [0.890531, 0.927734, 0.86966, 1]
+  air:
+    color: [0.692062, 0.590883, 0.868271, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.607422, 0.38913, 0.583546, 1]
+    ratio: 0.47
+    polarColor: [0.77334, 0.59964, 0.754341, 1]
+  demographics:
+    type: 53
+    gdp: 41976
+    tech: 11
+    economy: 1
+    government: 7
+    description: This world is very notable for the Usraremaian edible poet.
+    inhabitants: Small Black Slimy Rodents
+- type: star
+  type: primary
+  color: [0.745374, 0.629452, 0.522481, 1]
+  radius: 144841.355896
+  orbit:
+    type: static
+    parent: ~
+    radius: 494500
+    vector: [-0.145, -0.772, -0.619]
+  corona:
+    shimmer: 0.289054
+    hues: 0.889702
+    flare: 0.079408
+stations:
+- type: icosahedron
+  orbit:
+    parent: Usrarema
+    vector: undefined
+    radius: 9890

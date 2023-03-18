@@ -1,0 +1,61 @@
+name: Eresan
+position: [24, 23]
+seed: 234 23 178 24 74 80
+limits:
+  blurs: 190
+  stars: 5968
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Eresan
+  radius: 2840
+  rotationSpeed: 0.000665
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 397600
+  land:
+    ratio: 0.32
+    color: [0.0848694, 0.603516, 0.129441, 1]
+    polarColor: [0.737771, 0.939648, 0.75512, 1]
+  sea:
+    color: [0.669922, 0.559727, 0.48674, 1]
+    polarColor: [0.933008, 0.89464, 0.869228, 1]
+  air:
+    color: [0.718027, 0.623922, 0.844207, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.535156, 0.436905, 0.505988, 1]
+    ratio: 0.54
+    polarColor: [0.74082, 0.655814, 0.715584, 1]
+  demographics:
+    type: 26
+    gdp: 6240
+    tech: 3
+    economy: 7
+    government: 6
+    description: The world Eresan is scourged by deadly disease.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.797009, 0.721648, 0.203111, 1]
+  radius: 86478.381348
+  orbit:
+    type: static
+    parent: ~
+    radius: 198800
+    vector: [0.835, 0.469, -0.288]
+  corona:
+    shimmer: 0.241282
+    hues: 0.628647
+    flare: 0.009428
+stations:
+- type: coriolis
+  orbit:
+    parent: Eresan
+    vector: undefined
+    radius: 5680

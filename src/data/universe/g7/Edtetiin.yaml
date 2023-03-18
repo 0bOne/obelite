@@ -1,0 +1,61 @@
+name: Edtetiin
+position: [1, 97]
+seed: 225 97 208 1 237 56
+limits:
+  blurs: 46
+  stars: 8161
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edtetiin
+  radius: 4865
+  rotationSpeed: 0.000924
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 632450
+  land:
+    ratio: 0.34
+    color: [0.512412, 0.583984, 0.0114059, 1]
+    polarColor: [0.912751, 0.941602, 0.710799, 1]
+  sea:
+    color: [0.9, 0.72, 0.828, 1]
+    polarColor: [0.91, 0.8645, 0.8918, 1]
+  air:
+    color: [0.699725, 0.828533, 0.905344, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.65979, 0.71875, 0.667621, 1]
+    ratio: 0.21
+    polarColor: [0.78122, 0.823438, 0.786827, 1]
+  demographics:
+    type: 36
+    gdp: 15552
+    tech: 8
+    economy: 1
+    government: 2
+    description: The planet Edtetiin is most famous for its pink oceans and its unusual sit coms.
+    inhabitants: Red Slimy Rodents
+- type: star
+  type: primary
+  color: [0.23534, 0.443219, 0.659424, 1]
+  radius: 131766.850281
+  orbit:
+    type: static
+    parent: ~
+    radius: 437850
+    vector: [0.696, 0.127, -0.707]
+  corona:
+    shimmer: 0.56971
+    hues: 0.696419
+    flare: 0.08119
+stations:
+- type: coriolis
+  orbit:
+    parent: Edtetiin
+    vector: undefined
+    radius: 9730

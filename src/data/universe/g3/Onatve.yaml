@@ -1,0 +1,61 @@
+name: Onatve
+position: [165, 205]
+seed: 138 205 82 165 10 63
+limits:
+  blurs: 120
+  stars: 6496
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Onatve
+  radius: 6821
+  rotationSpeed: 0.004428
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 954940
+  land:
+    ratio: 0.6
+    color: [0.621328, 0.623745, 0.66, 1]
+    polarColor: [0.920318, 0.921173, 0.934, 1]
+  sea:
+    color: [0.627791, 0.628906, 0.486174, 1]
+    polarColor: [0.936694, 0.937109, 0.883939, 1]
+  air:
+    color: [0.521162, 0.594576, 0.853963, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.242538, 0.45128, 0.564453, 1]
+    ratio: 0.57
+    polarColor: [0.485243, 0.659518, 0.754004, 1]
+  demographics:
+    type: 24
+    gdp: 5760
+    tech: 4
+    economy: 5
+    government: 2
+    description: This world is ravaged by unpredictable solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.666043, 0.655821, 0.537067, 1]
+  radius: 159906.737976
+  orbit:
+    type: static
+    parent: ~
+    radius: 136420
+    vector: [0.017, -0.683, -0.73]
+  corona:
+    shimmer: 0.334183
+    hues: 0.904907
+    flare: 0.025615
+stations:
+- type: coriolis
+  orbit:
+    parent: Onatve
+    vector: undefined
+    radius: 13642

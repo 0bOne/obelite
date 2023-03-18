@@ -1,0 +1,61 @@
+name: Mageesti
+position: [26, 124]
+seed: 235 124 246 26 79 11
+limits:
+  blurs: 178
+  stars: 7594
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Mageesti
+  radius: 5658
+  rotationSpeed: 0.003875
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 678960
+  land:
+    ratio: 0.2
+    color: [0.66, 0.598125, 0.63583, 1]
+    polarColor: [0.934, 0.912109, 0.925449, 1]
+  sea:
+    color: [0.582031, 0.519039, 0.451984, 1]
+    polarColor: [0.941797, 0.916315, 0.889189, 1]
+  air:
+    color: [0.897611, 0.790057, 0.990545, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.974609, 0.966995, 0.969851, 1]
+    ratio: 0.41
+    polarColor: [0.938574, 0.933991, 0.93571, 1]
+  demographics:
+    type: 43
+    gdp: 20640
+    tech: 8
+    economy: 4
+    government: 6
+    description: Mageesti is most famous for its vast oceans and its inhabitants’ exceptional love for tourists.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.826141, 0.76425, 0.489478, 1]
+  radius: 128219.27948
+  orbit:
+    type: static
+    parent: ~
+    radius: 452640
+    vector: [-0.713, 0.439, 0.547]
+  corona:
+    shimmer: 0.519715
+    hues: 0.927437
+    flare: 0.045384
+stations:
+- type: coriolis
+  orbit:
+    parent: Mageesti
+    vector: undefined
+    radius: 11316

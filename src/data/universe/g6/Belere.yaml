@@ -1,0 +1,61 @@
+name: Belere
+position: [57, 180]
+seed: 146 180 18 57 212 179
+limits:
+  blurs: 132
+  stars: 9905
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Belere
+  radius: 3641
+  rotationSpeed: 0.000637
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 473330
+  land:
+    ratio: 0.68
+    color: [0.508837, 0.66, 0.415078, 1]
+    polarColor: [0.88052, 0.934, 0.84735, 1]
+  sea:
+    color: [0.539767, 0.679688, 0.545233, 1]
+    polarColor: [0.884064, 0.932031, 0.885938, 1]
+  air:
+    color: [0.489026, 0.528067, 0.896889, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.162506, 0.307661, 0.693359, 1]
+    ratio: 0.34
+    polarColor: [0.423451, 0.529698, 0.812012, 1]
+  demographics:
+    type: 27
+    gdp: 7776
+    tech: 5
+    economy: 4
+    government: 2
+    description: This world is very notable for the Belereian edible moth.
+    inhabitants: Harmless Furry Rodents
+- type: star
+  type: primary
+  color: [0.741357, 0.735424, 0.686711, 1]
+  radius: 98326.889496
+  orbit:
+    type: static
+    parent: ~
+    radius: 145640
+    vector: [-0.423, -0.663, 0.617]
+  corona:
+    shimmer: 0.323504
+    hues: 0.577827
+    flare: 0.031259
+stations:
+- type: coriolis
+  orbit:
+    parent: Belere
+    vector: undefined
+    radius: 7282

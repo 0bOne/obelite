@@ -1,0 +1,61 @@
+name: Leenor
+position: [37, 203]
+seed: 154 203 194 37 42 129
+limits:
+  blurs: 140
+  stars: 7935
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Leenor
+  radius: 3109
+  rotationSpeed: 0.002564
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 435260
+  land:
+    ratio: 0.46
+    color: [0.66, 0.328228, 0.061875, 1]
+    polarColor: [0.934, 0.816623, 0.722391, 1]
+  sea:
+    color: [0.61549, 0.636719, 0.493706, 1]
+    polarColor: [0.928524, 0.936328, 0.883751, 1]
+  air:
+    color: [0.547244, 0.601635, 0.834451, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.286522, 0.408186, 0.505859, 1]
+    ratio: 0.33
+    polarColor: [0.53045, 0.639827, 0.727637, 1]
+  demographics:
+    type: 24
+    gdp: 5376
+    tech: 5
+    economy: 3
+    government: 0
+    description: This planet is most notable for Leenorian evil juice but cursed by dreadful solar activity.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.313191, 0.717501, 0.733478, 1]
+  radius: 75814.608307
+  orbit:
+    type: static
+    parent: ~
+    radius: 310900
+    vector: [-0.073, 0.515, -0.854]
+  corona:
+    shimmer: 0.575534
+    hues: 0.978462
+    flare: 0.066734
+stations:
+- type: coriolis
+  orbit:
+    parent: Leenor
+    vector: undefined
+    radius: 6218

@@ -1,0 +1,61 @@
+name: Teatriin
+position: [49, 227]
+seed: 214 227 52 49 83 220
+limits:
+  blurs: 100
+  stars: 8431
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Teatriin
+  radius: 5937
+  rotationSpeed: 0.001866
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 712440
+  land:
+    ratio: 0.37
+    color: [0.492422, 0.66, 0.656072, 1]
+    polarColor: [0.874713, 0.934, 0.93261, 1]
+  sea:
+    color: [0.409702, 0.527344, 0.0844574, 1]
+    polarColor: [0.894436, 0.947266, 0.748377, 1]
+  air:
+    color: [0.468481, 0.612214, 0.884531, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.123047, 0.65625, 0.643753, 1]
+    ratio: 0.3
+    polarColor: [0.391443, 0.795313, 0.785847, 1]
+  demographics:
+    type: 42
+    gdp: 23520
+    tech: 8
+    economy: 3
+    government: 6
+    description: Teatriin is mildly well known for its exotic night life and Teatriinian Oubeab brandy.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.54525, 0.651374, 0.656821, 1]
+  radius: 143562.052002
+  orbit:
+    type: static
+    parent: ~
+    radius: 237480
+    vector: [0.899, -0.098, 0.427]
+  corona:
+    shimmer: 0.333853
+    hues: 0.803406
+    flare: 0.040001
+stations:
+- type: coriolis
+  orbit:
+    parent: Teatriin
+    vector: undefined
+    radius: 11874

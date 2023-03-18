@@ -1,0 +1,61 @@
+name: Esvesoso
+position: [103, 133]
+seed: 222 133 74 103 128 41
+limits:
+  blurs: 79
+  stars: 8452
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esvesoso
+  radius: 5223
+  rotationSpeed: 0.002925
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 470070
+  land:
+    ratio: 0.25
+    color: [0.66, 0.324844, 0.340554, 1]
+    polarColor: [0.934, 0.815426, 0.820984, 1]
+  sea:
+    color: [0.599609, 0.477623, 0.449473, 1]
+    polarColor: [0.940039, 0.892228, 0.881195, 1]
+  air:
+    color: [0.799626, 0.767132, 0.958676, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.878906, 0.878906, 0.878906, 1]
+    ratio: 0.53
+    polarColor: [0.895508, 0.895508, 0.895508, 1]
+  demographics:
+    type: 25
+    gdp: 3000
+    tech: 4
+    economy: 7
+    government: 1
+    description: The world Esvesoso is a dull place.
+    inhabitants: Small Red Horned Lobsters
+- type: star
+  type: primary
+  color: [0.811322, 0.684658, 0.365845, 1]
+  radius: 133412.200928
+  orbit:
+    type: static
+    parent: ~
+    radius: 470070
+    vector: [-0.673, 0.31, 0.671]
+  corona:
+    shimmer: 1.973857
+    hues: 0.968704
+    flare: 0.096994
+stations:
+- type: coriolis
+  orbit:
+    parent: Esvesoso
+    vector: undefined
+    radius: 10446

@@ -1,0 +1,61 @@
+name: Atia
+position: [136, 31]
+seed: 5 31 233 136 133 47
+limits:
+  blurs: 196
+  stars: 8975
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Atia
+  radius: 6792
+  rotationSpeed: 0.004729
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 882960
+  land:
+    ratio: 0.64
+    color: [0.558164, 0.66, 0.456328, 1]
+    polarColor: [0.897972, 0.934, 0.861943, 1]
+  sea:
+    color: [0.513672, 0.384451, 0.499538, 1]
+    polarColor: [0.948633, 0.888973, 0.942107, 1]
+  air:
+    color: [0.54139, 0.52217, 0.887783, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.314837, 0.241951, 0.666016, 1]
+    ratio: 0.48
+    polarColor: [0.536162, 0.481464, 0.799707, 1]
+  demographics:
+    type: 25
+    gdp: 5400
+    tech: 3
+    economy: 7
+    government: 5
+    description: This planet is notable for the Atiaian edible poet and Atiaian In brandy.
+    inhabitants: Red Lizards
+- type: star
+  type: primary
+  color: [0.709016, 0.740828, 0.75152, 1]
+  radius: 144522.766113
+  orbit:
+    type: static
+    parent: ~
+    radius: 611280
+    vector: [0.769, 0.578, 0.273]
+  corona:
+    shimmer: 0.355494
+    hues: 0.997414
+    flare: 0.095259
+stations:
+- type: coriolis
+  orbit:
+    parent: Atia
+    vector: undefined
+    radius: 13584

@@ -1,0 +1,61 @@
+name: Edsoeded
+position: [249, 53]
+seed: 111 53 133 249 64 56
+limits:
+  blurs: 136
+  stars: 7271
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edsoeded
+  radius: 5113
+  rotationSpeed: 0.002758
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 460170
+  land:
+    ratio: 0.25
+    color: [0.613433, 0.66, 0.484688, 1]
+    polarColor: [0.917525, 0.934, 0.871977, 1]
+  sea:
+    color: [0.652966, 0.710938, 0.525427, 1]
+    polarColor: [0.90997, 0.928906, 0.86831, 1]
+  air:
+    color: [0.802985, 0.492018, 0.979488, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.941406, 0.0992889, 0.1585, 1]
+    ratio: 0.15
+    polarColor: [0.923633, 0.407246, 0.443555, 1]
+  demographics:
+    type: 12
+    gdp: 1152
+    tech: 1
+    economy: 7
+    government: 0
+    description: Edsoeded is mildly well known for its hoopy night life.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.229624, 0.554222, 0.782184, 1]
+  radius: 153587.386017
+  orbit:
+    type: static
+    parent: ~
+    radius: 460170
+    vector: [0.781, -0.211, 0.588]
+  corona:
+    shimmer: 0.419511
+    hues: 0.545128
+    flare: 0.089575
+stations:
+- type: coriolis
+  orbit:
+    parent: Edsoeded
+    vector: undefined
+    radius: 10226

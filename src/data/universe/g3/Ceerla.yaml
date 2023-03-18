@@ -1,0 +1,61 @@
+name: Ceerla
+position: [234, 224]
+seed: 82 224 66 234 154 197
+limits:
+  blurs: 162
+  stars: 6588
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ceerla
+  radius: 4330
+  rotationSpeed: 0.000751
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 562900
+  land:
+    ratio: 0.56
+    color: [0.574922, 0.66, 0.600179, 1]
+    polarColor: [0.9039, 0.934, 0.912836, 1]
+  sea:
+    color: [0.302124, 0.370511, 0.515625, 1]
+    polarColor: [0.850259, 0.881707, 0.948438, 1]
+  air:
+    color: [0.616711, 0.916252, 0.938514, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.741438, 0.818359, 0.466721, 1]
+    ratio: 0.47
+    polarColor: [0.817254, 0.868262, 0.635086, 1]
+  demographics:
+    type: 31
+    gdp: 7936
+    tech: 7
+    economy: 2
+    government: 0
+    description: This planet is mildly noted for its ancient mountains but plagued by deadly earthquakes.
+    inhabitants: Fierce Horned Lobsters
+- type: star
+  type: primary
+  color: [0.757019, 0.410697, 0.267277, 1]
+  radius: 119693.42041
+  orbit:
+    type: static
+    parent: ~
+    radius: 173200
+    vector: [-0.369, -0.237, -0.899]
+  corona:
+    shimmer: 0.546006
+    hues: 0.625572
+    flare: 0.033591
+stations:
+- type: coriolis
+  orbit:
+    parent: Ceerla
+    vector: undefined
+    radius: 8660

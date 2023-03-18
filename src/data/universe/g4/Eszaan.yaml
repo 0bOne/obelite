@@ -1,0 +1,61 @@
+name: Eszaan
+position: [205, 237]
+seed: 28 237 160 205 101 169
+limits:
+  blurs: 54
+  stars: 6046
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Eszaan
+  radius: 5325
+  rotationSpeed: 0.003194
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 639000
+  land:
+    ratio: 0.46
+    color: [0.469219, 0.619757, 0.66, 1]
+    polarColor: [0.866504, 0.919763, 0.934, 1]
+  sea:
+    color: [0.533203, 0.416565, 0.416565, 1]
+    polarColor: [0.94668, 0.894908, 0.894908, 1]
+  air:
+    color: [0.75468, 0.557662, 0.919652, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.761719, 0.318375, 0.474238, 1]
+    ratio: 0.25
+    polarColor: [0.842773, 0.536198, 0.643979, 1]
+  demographics:
+    type: 30
+    gdp: 9600
+    tech: 5
+    economy: 5
+    government: 4
+    description: The world Eszaan is reasonably noted for Zero-G hockey and its inhabitants’ ingrained shyness.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.745844, 0.698345, 0.687384, 1]
+  radius: 143069.561005
+  orbit:
+    type: static
+    parent: ~
+    radius: 266250
+    vector: [-0.074, 0.967, -0.245]
+  corona:
+    shimmer: 0.548887
+    hues: 0.815773
+    flare: 0.05202
+stations:
+- type: coriolis
+  orbit:
+    parent: Eszaan
+    vector: undefined
+    radius: 10650

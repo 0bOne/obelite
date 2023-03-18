@@ -1,0 +1,61 @@
+name: Israza
+position: [210, 228]
+seed: 180 228 168 210 54 189
+limits:
+  blurs: 50
+  stars: 6500
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Israza
+  radius: 6354
+  rotationSpeed: 0.003008
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 762480
+  land:
+    ratio: 0.71
+    color: [0.53125, 0.429565, 0.510595, 1]
+    polarColor: [0.946875, 0.901566, 0.937671, 1]
+  sea:
+    color: [0.650842, 0.789062, 0.536316, 1]
+    polarColor: [0.880757, 0.921094, 0.847334, 1]
+  air:
+    color: [0.705092, 0.837056, 0.88258, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.648406, 0.650391, 0.64785, 1]
+    ratio: 0.35
+    polarColor: [0.791164, 0.792676, 0.790741, 1]
+  demographics:
+    type: 42
+    gdp: 18144
+    tech: 8
+    economy: 4
+    government: 5
+    description: The world Israza is notable for the Israzaian edible grub and the Israzaian tree snake.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.557753, 0.653097, 0.688483, 1]
+  radius: 139812.044678
+  orbit:
+    type: static
+    parent: ~
+    radius: 381240
+    vector: [-0.582, 0.793, 0.181]
+  corona:
+    shimmer: 0.331258
+    hues: 0.517334
+    flare: 0.003456
+stations:
+- type: coriolis
+  orbit:
+    parent: Israza
+    vector: undefined
+    radius: 12708

@@ -1,0 +1,61 @@
+name: Edrilain
+position: [222, 103]
+seed: 206 103 146 222 80 88
+limits:
+  blurs: 76
+  stars: 5968
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Edrilain
+  radius: 5086
+  rotationSpeed: 0.000152
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 559460
+  land:
+    ratio: 0.3
+    color: [0.169937, 0.587891, 0.489933, 1]
+    polarColor: [0.773925, 0.941211, 0.902003, 1]
+  sea:
+    color: [0.556641, 0.485353, 0.438137, 1]
+    polarColor: [0.944336, 0.914101, 0.894076, 1]
+  air:
+    color: [0.775991, 0.634659, 0.861768, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.587891, 0.475365, 0.488551, 1]
+    ratio: 0.17
+    polarColor: [0.764551, 0.673088, 0.683807, 1]
+  demographics:
+    type: 22
+    gdp: 3168
+    tech: 3
+    economy: 7
+    government: 2
+    description: The planet Edrilain is mildly notable for Edrilainian lethal water.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.786896, 0.780236, 0.628654, 1]
+  radius: 148268.975525
+  orbit:
+    type: static
+    parent: ~
+    radius: 406880
+    vector: [-0.137, -0.983, -0.119]
+  corona:
+    shimmer: 0.939665
+    hues: 0.508804
+    flare: 0.066283
+stations:
+- type: coriolis
+  orbit:
+    parent: Edrilain
+    vector: undefined
+    radius: 10172

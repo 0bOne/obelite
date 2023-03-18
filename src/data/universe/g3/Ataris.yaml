@@ -1,0 +1,61 @@
+name: Ataris
+position: [4, 116]
+seed: 194 116 178 4 90 145
+limits:
+  blurs: 100
+  stars: 8470
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Ataris
+  radius: 3076
+  rotationSpeed: 0.002566
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 307600
+  land:
+    ratio: 0.29
+    color: [0.230988, 0.509766, 0.457495, 1]
+    polarColor: [0.819274, 0.949023, 0.924695, 1]
+  sea:
+    color: [0.602014, 0.796875, 0.728369, 1]
+    polarColor: [0.864051, 0.920313, 0.900533, 1]
+  air:
+    color: [0.442128, 0.473978, 0.935912, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.0126648, 0.156034, 0.810547, 1]
+    ratio: 0.58
+    polarColor: [0.332725, 0.428322, 0.864746, 1]
+  demographics:
+    type: 35
+    gdp: 16800
+    tech: 6
+    economy: 4
+    government: 6
+    description: The world Ataris is very famous for its unusual sit coms but ravaged by lethal spotted snails.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.654126, 0.471891, 0.190069, 1]
+  radius: 92582.737427
+  orbit:
+    type: static
+    parent: ~
+    radius: 307600
+    vector: [-0.816, 0.169, 0.553]
+  corona:
+    shimmer: 0.257859
+    hues: 0.721962
+    flare: 0.051364
+stations:
+- type: coriolis
+  orbit:
+    parent: Ataris
+    vector: undefined
+    radius: 6152

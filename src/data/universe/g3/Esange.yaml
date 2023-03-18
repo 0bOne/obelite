@@ -1,0 +1,61 @@
+name: Esange
+position: [254, 50]
+seed: 58 50 226 254 234 137
+limits:
+  blurs: 57
+  stars: 5016
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Esange
+  radius: 5374
+  rotationSpeed: 0.001351
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 644880
+  land:
+    ratio: 0.64
+    color: [0.590068, 0.66, 0.580078, 1]
+    polarColor: [0.909259, 0.934, 0.905725, 1]
+  sea:
+    color: [0.623438, 0.724503, 0.779297, 1]
+    polarColor: [0.875967, 0.905862, 0.92207, 1]
+  air:
+    color: [0.56578, 0.941115, 0.855764, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.826172, 0.494422, 0.332405, 1]
+    ratio: 0.19
+    polarColor: [0.871777, 0.652988, 0.546138, 1]
+  demographics:
+    type: 43
+    gdp: 22016
+    tech: 9
+    economy: 2
+    government: 4
+    description: The world Esange is beset by lethal disease.
+    inhabitants: Small Black Fat Humanoids
+- type: star
+  type: primary
+  color: [0.696237, 0.334528, 0.275115, 1]
+  radius: 170386.04187
+  orbit:
+    type: static
+    parent: ~
+    radius: 376180
+    vector: [0.087, -0.97, 0.229]
+  corona:
+    shimmer: 0.314874
+    hues: 0.603455
+    flare: 0.049678
+stations:
+- type: coriolis
+  orbit:
+    parent: Esange
+    vector: undefined
+    radius: 10748

@@ -1,0 +1,61 @@
+name: Erinain
+position: [82, 138]
+seed: 113 138 9 82 109 176
+limits:
+  blurs: 166
+  stars: 9474
+ambientLightLevel: 0.1
+bodies:
+- type: planet
+  class: habitable
+  name: Erinain
+  radius: 2898
+  rotationSpeed: 0.003218
+  terminatorVector: [0.105, 0.18, 0.28]
+  orbit:
+    type: static
+    parent: primary
+    distance: 318780
+  land:
+    ratio: 0.26
+    color: [0.1427, 0.580675, 0.652344, 1]
+    polarColor: [0.752194, 0.909092, 0.934766, 1]
+  sea:
+    color: [0.572639, 0.744141, 0.623554, 1]
+    polarColor: [0.872256, 0.925586, 0.888089, 1]
+  air:
+    color: [0.655167, 0.886482, 0.871793, 1]
+    colorRatio: 0.5
+    density: 0.75
+  cloud:
+    alpha: 1.0
+    color: [0.662109, 0.640267, 0.54055, 1]
+    ratio: 0.47
+    polarColor: [0.797949, 0.781497, 0.706388, 1]
+  demographics:
+    type: 36
+    gdp: 11520
+    tech: 8
+    economy: 2
+    government: 1
+    description: Erinain is mildly famous for its vast rain forests and its great dense forests.
+    inhabitants: Human Colonials
+- type: star
+  type: primary
+  color: [0.686264, 0.671588, 0.456827, 1]
+  radius: 70749.299927
+  orbit:
+    type: static
+    parent: ~
+    radius: 202860
+    vector: [0.613, 0.042, -0.789]
+  corona:
+    shimmer: 0.237166
+    hues: 0.78511
+    flare: 0.043698
+stations:
+- type: coriolis
+  orbit:
+    parent: Erinain
+    vector: undefined
+    radius: 5796
