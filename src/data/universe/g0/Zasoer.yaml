@@ -41,7 +41,7 @@ bodies:
     description: Zasoer is mildly well known for its exotic night life.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.71304, 0.68748, 0.675006, 1]
   radius: 95640.146484
   orbit:

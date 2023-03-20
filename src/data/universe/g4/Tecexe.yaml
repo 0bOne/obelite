@@ -41,7 +41,7 @@ bodies:
     description: Tecexe is an unremarkable planet.
     inhabitants: Red Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.782922, 0.723233, 0.710652, 1]
   radius: 153030.4953
   orbit:

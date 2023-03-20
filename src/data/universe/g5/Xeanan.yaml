@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for the Xeananian tree ant but ravaged by dreadful civil war.
     inhabitants: Large Yellow Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.468665, 0.678862, 0.692734, 1]
   radius: 107217.625427
   orbit:

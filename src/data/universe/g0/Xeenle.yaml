@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for its ancient mountains but plagued by lethal disease.
     inhabitants: Large Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.182608, 0.590355, 0.693872, 1]
   radius: 81007.366333
   orbit:

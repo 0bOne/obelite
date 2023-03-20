@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its vast rain forests and its great dense forests.
     inhabitants: Blue Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.492522, 0.749988, 0.846552, 1]
   radius: 135290.445557
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Zageuser is most well known for its exotic cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.834308, 0.437393, 0.245823, 1]
   radius: 100304.56543
   orbit:

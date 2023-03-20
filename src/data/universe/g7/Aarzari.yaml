@@ -41,7 +41,7 @@ bodies:
     description: Aarzari is mildly notable for Aarzariian lethal brandy.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.695224, 0.66407, 0.539012, 1]
   radius: 155692.233582
   orbit:

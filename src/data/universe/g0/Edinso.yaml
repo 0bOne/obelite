@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for its pink Edinsoian Maarleil Maarleilweed plantations but scourged by dreadful solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.7388, 0.706373, 0.619129, 1]
   radius: 119998.84964
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Belereian edible moth.
     inhabitants: Harmless Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.741357, 0.735424, 0.686711, 1]
   radius: 98326.889496
   orbit:

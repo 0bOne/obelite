@@ -41,7 +41,7 @@ bodies:
     description: Atriso is mildly well known for its exotic cuisine and its inhabitants’ ingrained silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.716061, 0.659283, 0.576121, 1]
   radius: 71377.153168
   orbit:

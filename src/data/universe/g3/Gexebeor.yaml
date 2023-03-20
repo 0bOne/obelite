@@ -41,7 +41,7 @@ bodies:
     description: The world Gexebeor is reasonably noted for its fabulous goat burgers and its inhabitants’ exceptional loathing of casinos.
     inhabitants: Large Harmless Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.742892, 0.514747, 0.39155, 1]
   radius: 96897.13028
   orbit:

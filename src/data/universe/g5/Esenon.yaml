@@ -41,7 +41,7 @@ bodies:
     description: Esenon is ravaged by occasional solar activity.
     inhabitants: Small Harmless Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.267066, 0.759061, 0.759521, 1]
   radius: 134503.766022
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for the Tereaian edible poet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.697026, 0.708687, 0.714777, 1]
   radius: 165699.059753
   orbit:

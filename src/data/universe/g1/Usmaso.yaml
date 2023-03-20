@@ -41,7 +41,7 @@ bodies:
     description: The world Usmaso is a boring planet.
     inhabitants: Small Red Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.584995, 0.633451, 0.735565, 1]
   radius: 125857.277985
   orbit:

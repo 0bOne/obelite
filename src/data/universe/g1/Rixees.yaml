@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its weird volcanoes.
     inhabitants: Yellow Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.845251, 0.816022, 0.579937, 1]
   radius: 174230.309753
   orbit:

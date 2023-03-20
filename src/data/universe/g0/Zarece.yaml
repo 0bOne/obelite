@@ -41,7 +41,7 @@ bodies:
     description: This planet is a tedious place.
     inhabitants: Fierce Black Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.845078, 0.548207, 0.409982, 1]
   radius: 97781.029205
   orbit:

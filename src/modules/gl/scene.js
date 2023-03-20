@@ -53,11 +53,13 @@ export default class Scene
    
         this.viewMatrix.setTranslation(model.worldPosition);
 
+        //debugger;
         if (isFinite(model.Rotation)) 
         {
             const axesRatio = (model.dimensions === 3) ? {x: 0.3, y: 0.7, z: 1} :{x: 0, y: 0, z: 1};
             this.viewMatrix.setRotation(model.rotation, axesRatio);
         }
+
 
         ///////////////////////////////////
         this.gl.useProgram(model.shader.program);
@@ -69,7 +71,15 @@ export default class Scene
 
         this.gl.uniformMatrix4fv(model.shader.locations.uProjectionMatrix, false, this.projectionMatrix);
         this.gl.uniformMatrix4fv(model.shader.locations.uModelViewMatrix, false, this.viewMatrix);
-        
+
+        if (model.shader.locations.uNormalMatrix)
+        {
+            const normalMatrix = this.viewMatrix.clone();
+            normalMatrix.setInverted(normalMatrix);
+            normalMatrix.setTransposed(normalMatrix);            
+            this.gl.uniformMatrix4fv(model.shader.locations.uNormalMatrix, false, normalMatrix);
+        }
+
         model.attributes.forEach(attribute => {
             attribute.Position(model.shader, this.viewMatrix);
         });

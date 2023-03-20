@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.215934, 0.510732, 0.728171, 1]
   radius: 171223.54248
   orbit:

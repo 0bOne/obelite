@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for the Cetiisquian evil Stoid.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.610857, 0.734736, 0.744547, 1]
   radius: 100838.017578
   orbit:

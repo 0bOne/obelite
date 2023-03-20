@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ weird silliness and its inhabitants’ ingrained silliness.
     inhabitants: Blue Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.822595, 0.721328, 0.551335, 1]
   radius: 186285.175781
   orbit:

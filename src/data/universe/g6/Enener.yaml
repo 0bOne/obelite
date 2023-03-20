@@ -41,7 +41,7 @@ bodies:
     description: Enener is mildly well known for killer Xeones gargle blasters.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.718436, 0.475559, 0.21003, 1]
   radius: 113895.177155
   orbit:

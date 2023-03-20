@@ -41,7 +41,7 @@ bodies:
     description: Aroratla is reasonably notable for its great parking meters but cursed by occasional earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.708221, 0.687078, 0.646745, 1]
   radius: 139632.166748
   orbit:

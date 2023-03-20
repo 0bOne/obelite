@@ -41,7 +41,7 @@ bodies:
     description: The planet Arceonre is very famous for Arceonreian wolf cutlet but plagued by deadly earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.780203, 0.752628, 0.366473, 1]
   radius: 143150.466919
   orbit:

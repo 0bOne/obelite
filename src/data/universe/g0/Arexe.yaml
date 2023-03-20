@@ -41,7 +41,7 @@ bodies:
     description: The world Arexe is fabled for its exciting sit coms and its inhabitants’ ancient loathing of sit coms.
     inhabitants: Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.513365, 0.734486, 0.747351, 1]
   radius: 219838.22937
   orbit:

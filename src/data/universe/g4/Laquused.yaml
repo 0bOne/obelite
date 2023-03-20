@@ -41,7 +41,7 @@ bodies:
     description: The world Laquused is mildly fabled for its inhabitants’ eccentric love for poetry but ravaged by occasional solar activity.
     inhabitants: Yellow Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.776685, 0.77454, 0.771298, 1]
   radius: 112093.736572
   orbit:

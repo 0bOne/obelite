@@ -41,7 +41,7 @@ bodies:
     description: Xeesenri is mildly notable for its inhabitants’ weird shyness.
     inhabitants: Large Yellow Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.4521, 0.584955, 0.698621, 1]
   radius: 83781.518555
   orbit:

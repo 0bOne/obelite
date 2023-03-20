@@ -41,7 +41,7 @@ bodies:
     description: Dixeza is ravaged by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.303571, 0.807154, 0.81702, 1]
   radius: 138611.984253
   orbit:

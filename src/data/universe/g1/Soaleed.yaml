@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Soaleedian Atonilno water but scourged by evil disease.
     inhabitants: Fierce Yellow Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.777322, 0.362251, 0.260408, 1]
   radius: 161157.418976
   orbit:

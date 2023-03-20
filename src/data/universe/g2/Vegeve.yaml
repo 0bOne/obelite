@@ -41,7 +41,7 @@ bodies:
     description: The planet Vegeve is mildly well known for its hoopy casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.485577, 0.636896, 0.752988, 1]
   radius: 98709.288025
   orbit:

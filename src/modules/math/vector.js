@@ -1,9 +1,43 @@
-//compact vector, based on square matrix
+//compact vector, always 4
 export default class Vector extends Float32Array
 {
-    constructor(length)
+    constructor(values)
     {
-        super(length);
+        super(4);
+        if (values)
+        {
+            this.set(values);
+        }
+    }
+
+    setFrom(target)
+    {
+        this.set(target);
+        return this;
+    }
+
+    multiplyScalar( scalar ) {
+
+		this[0] *= scalar;
+		this[1] *= scalar;
+		this[2] *= scalar;
+        this[3] *= scalar;
+		return this;
+	}
+
+    divideScalar(scalar) 
+    {
+		return this.multiplyScalar(1 / scalar);
+	}
+
+	length() 
+    {
+		return Math.sqrt( this.x * this.x + this.y * this.y + this.z * this.z );
+	}
+
+    normalize()
+    {
+        return this.divideScalar( this.length() || 1 );
     }
 
     AsCSSColor()

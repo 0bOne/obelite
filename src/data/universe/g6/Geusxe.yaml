@@ -41,7 +41,7 @@ bodies:
     description: Geusxe is very notable for its inhabitants’ ingrained shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.755606, 0.721921, 0.715128, 1]
   radius: 110134.707642
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Isqueder is most famous for its pink Ou plant plantations and its unusual dense forests.
     inhabitants: Red Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.501548, 0.581114, 0.696155, 1]
   radius: 165755.625
   orbit:

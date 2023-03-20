@@ -41,7 +41,7 @@ bodies:
     description: The world Ersoonve is beset by dreadful earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.475398, 0.535783, 0.707413, 1]
   radius: 87883.930664
   orbit:

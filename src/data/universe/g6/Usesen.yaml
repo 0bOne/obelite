@@ -41,7 +41,7 @@ bodies:
     description: Usesen is a revolting little planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.350299, 0.492926, 0.782227, 1]
   radius: 89832.055664
   orbit:

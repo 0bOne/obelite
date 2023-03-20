@@ -41,7 +41,7 @@ bodies:
     description: Teceri is well known for the Teceriian spotted leopard but plagued by lethal yaks.
     inhabitants: Blue Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.69715, 0.468398, 0.264545, 1]
   radius: 115163.948975
   orbit:

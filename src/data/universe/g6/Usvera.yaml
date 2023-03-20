@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for its inhabitants’ exceptional loathing of casinos.
     inhabitants: Small Red Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.441366, 0.46423, 0.659647, 1]
   radius: 117483.197021
   orbit:

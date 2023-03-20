@@ -41,7 +41,7 @@ bodies:
     description: Enustien is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.752609, 0.746233, 0.313643, 1]
   radius: 92963.85498
   orbit:

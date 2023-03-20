@@ -41,7 +41,7 @@ bodies:
     description: Anorcequ is most famous for its vast dense forests and its great volcanoes.
     inhabitants: Green Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.701874, 0.528435, 0.430454, 1]
   radius: 141298.217926
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Zavete is scourged by killer edible poets.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.694781, 0.700098, 0.399224, 1]
   radius: 78584.290466
   orbit:

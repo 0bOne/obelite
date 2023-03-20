@@ -41,7 +41,7 @@ bodies:
     description: The planet Geteanan is very noted for its unusual sit coms but ravaged by unpredictable civil war.
     inhabitants: Large Green Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.828574, 0.826549, 0.79585, 1]
   radius: 91755.558014
   orbit:

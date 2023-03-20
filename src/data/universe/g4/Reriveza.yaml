@@ -41,7 +41,7 @@ bodies:
     description: Reriveza is most noted for the Rerivezaian mountain lobstoid and the Rerivezaian evil poet.
     inhabitants: Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.356443, 0.414, 0.672821, 1]
   radius: 137978.924713
   orbit:

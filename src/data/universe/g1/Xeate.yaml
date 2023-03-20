@@ -41,7 +41,7 @@ bodies:
     description: Xeate is an unremarkable dump.
     inhabitants: Large Black Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.776608, 0.766257, 0.719728, 1]
   radius: 90271.221619
   orbit:

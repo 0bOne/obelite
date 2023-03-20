@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its pink oceans and its exotic fish meat.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.658554, 0.653225, 0.621143, 1]
   radius: 82376.096802
   orbit:

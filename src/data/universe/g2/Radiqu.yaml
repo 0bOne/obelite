@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for its unusual oceans and its inhabitants’ exceptional love for food blenders.
     inhabitants: Green Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.7595, 0.652669, 0.555904, 1]
   radius: 92812.050781
   orbit:

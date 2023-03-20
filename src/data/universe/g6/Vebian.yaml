@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its hoopy night life and its exotic cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.745712, 0.693646, 0.658367, 1]
   radius: 131154.150696
   orbit:

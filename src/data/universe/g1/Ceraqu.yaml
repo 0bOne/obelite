@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Ceraquian lethal brandy but scourged by frequent civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.568371, 0.618144, 0.820322, 1]
   radius: 117021.650391
   orbit:

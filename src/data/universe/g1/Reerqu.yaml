@@ -41,7 +41,7 @@ bodies:
     description: The world Reerqu is mildly fabled for the Reerquian edible moth but plagued by vicious disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.23803, 0.362885, 0.72605, 1]
   radius: 169623.652954
   orbit:

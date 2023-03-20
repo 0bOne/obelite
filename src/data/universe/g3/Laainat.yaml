@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for its inhabitants’ unusual mating traditions and its great parking meters.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.722427, 0.663738, 0.553092, 1]
   radius: 85277.893066
   orbit:

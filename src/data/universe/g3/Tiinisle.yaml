@@ -41,7 +41,7 @@ bodies:
     description: Tiinisle is a revolting dump.
     inhabitants: Red Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.195656, 0.412072, 0.731741, 1]
   radius: 147946.992188
   orbit:

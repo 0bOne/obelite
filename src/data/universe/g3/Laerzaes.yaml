@@ -41,7 +41,7 @@ bodies:
     description: The world Laerzaes is most well known for its vast oceans.
     inhabitants: Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.796326, 0.772448, 0.624213, 1]
   radius: 119116.673584
   orbit:

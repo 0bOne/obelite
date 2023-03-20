@@ -41,7 +41,7 @@ bodies:
     description: Gelegeus is mildly notable for Gelegeusian Di water.
     inhabitants: Large Red Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.832465, 0.815851, 0.808752, 1]
   radius: 98464.811096
   orbit:

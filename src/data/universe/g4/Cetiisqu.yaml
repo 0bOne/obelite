@@ -41,7 +41,7 @@ bodies:
     description: The world Cetiisqu is most well known for its vast oceans.
     inhabitants: Fierce Green Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.664005, 0.463497, 0.248062, 1]
   radius: 104050.546875
   orbit:

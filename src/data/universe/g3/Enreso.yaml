@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably notable for its fabulous vicious Nore brew but ravaged by lethal vicious ants.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.735816, 0.737367, 0.739081, 1]
   radius: 66110.40802
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Reesdice is reasonably famous for the Reesdiceian deadly lobstoid.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.678311, 0.539322, 0.460887, 1]
   radius: 183140.362701
   orbit:

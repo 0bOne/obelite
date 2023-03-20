@@ -41,7 +41,7 @@ bodies:
     description: Enatce is very notable for its inhabitants’ ingrained shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.610486, 0.668608, 0.800781, 1]
   radius: 74494.096069
   orbit:

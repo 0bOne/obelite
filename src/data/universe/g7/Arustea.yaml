@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for Arusteaian No brandy but cursed by unpredictable solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.236489, 0.39099, 0.779733, 1]
   radius: 117599.67041
   orbit:

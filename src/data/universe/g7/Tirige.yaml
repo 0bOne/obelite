@@ -41,7 +41,7 @@ bodies:
     description: The planet Tirige is very noted for its unusual sit coms but plagued by frequent solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.67428, 0.578971, 0.480996, 1]
   radius: 141602.488403
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Esed is a revolting little planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.68343, 0.795466, 0.809219, 1]
   radius: 97669.955444
   orbit:

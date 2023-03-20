@@ -41,7 +41,7 @@ bodies:
     description: Azavear is an unremarkable dump.
     inhabitants: Black Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.788278, 0.694826, 0.644166, 1]
   radius: 160208.851318
   orbit:

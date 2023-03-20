@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably notable for its exotic cuisine but ravaged by vicious disease.
     inhabitants: Yellow Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.460377, 0.473526, 0.684152, 1]
   radius: 161490.099335
   orbit:

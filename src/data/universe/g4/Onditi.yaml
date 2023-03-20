@@ -41,7 +41,7 @@ bodies:
     description: The world Onditi is reasonably noted for mud tennis and its ancient mountains.
     inhabitants: Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.807562, 0.622847, 0.621524, 1]
   radius: 189593.284607
   orbit:

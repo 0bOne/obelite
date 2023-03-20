@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for its inhabitants’ ingrained silliness but scourged by deadly edible arts graduates.
     inhabitants: Harmless Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.600576, 0.706168, 0.715381, 1]
   radius: 94095
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for Esdiian lethal water but beset by lethal disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.757291, 0.21544, 0.207436, 1]
   radius: 77061.626587
   orbit:

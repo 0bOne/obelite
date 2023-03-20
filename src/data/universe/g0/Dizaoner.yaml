@@ -41,7 +41,7 @@ bodies:
     description: Dizaoner is ravaged by unpredictable solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.331803, 0.3857, 0.823154, 1]
   radius: 157861.102448
   orbit:

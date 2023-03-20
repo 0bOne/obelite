@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its weird volcanoes.
     inhabitants: Small Blue Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.817191, 0.65838, 0.293871, 1]
   radius: 89338.27179
   orbit:

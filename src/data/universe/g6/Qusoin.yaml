@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by evil disease.
     inhabitants: Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.839893, 0.831126, 0.621109, 1]
   radius: 121330.555573
   orbit:

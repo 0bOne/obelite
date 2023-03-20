@@ -41,7 +41,7 @@ bodies:
     description: The planet Divees is most noted for its inhabitants’ exceptional love for food blenders and its weird rock formations.
     inhabitants: Green Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.567632, 0.590563, 0.688528, 1]
   radius: 161203.41507
   orbit:

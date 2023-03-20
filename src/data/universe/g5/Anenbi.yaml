@@ -41,7 +41,7 @@ bodies:
     description: The planet Anenbi is mildly well known for its exotic cuisine.
     inhabitants: Black Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.415096, 0.540208, 0.769391, 1]
   radius: 121037.69043
   orbit:

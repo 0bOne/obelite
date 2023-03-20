@@ -41,7 +41,7 @@ bodies:
     description: The world Xeverive is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.796738, 0.616263, 0.441384, 1]
   radius: 77834.476318
   orbit:

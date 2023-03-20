@@ -41,7 +41,7 @@ bodies:
     description: Oresqu is mildly notable for its inhabitants’ unusual mating traditions.
     inhabitants: Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.72504, 0.642847, 0.580698, 1]
   radius: 137757.362366
   orbit:

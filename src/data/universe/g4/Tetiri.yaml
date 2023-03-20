@@ -41,7 +41,7 @@ bodies:
     description: Tetiri is mildly well known for its hoopy night life.
     inhabitants: Green Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.205036, 0.463173, 0.720825, 1]
   radius: 92439.738464
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Ceiner is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.230725, 0.498163, 0.767358, 1]
   radius: 103117.402344
   orbit:

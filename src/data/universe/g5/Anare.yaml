@@ -41,7 +41,7 @@ bodies:
     description: The world Anare is beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.280511, 0.50707, 0.725418, 1]
   radius: 142538.272095
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably noted for mud tennis.
     inhabitants: Green Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.825021, 0.593812, 0.51443, 1]
   radius: 58961.230469
   orbit:

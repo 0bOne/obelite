@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its great parking meters but cursed by unpredictable earthquakes.
     inhabitants: Red Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.737674, 0.797416, 0.825589, 1]
   radius: 104075.236969
   orbit:

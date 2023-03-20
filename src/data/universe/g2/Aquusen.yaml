@@ -41,7 +41,7 @@ bodies:
     description: Aquusen is cursed by killer mountain goats.
     inhabitants: Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.759848, 0.746847, 0.736726, 1]
   radius: 194435.348511
   orbit:

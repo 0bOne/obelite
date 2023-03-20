@@ -41,7 +41,7 @@ bodies:
     description: Vezadi is reasonably well known for the Vezadiian tree ant but cursed by killer edible Aroids.
     inhabitants: Yellow Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.50582, 0.765478, 0.803983, 1]
   radius: 156329.79126
   orbit:

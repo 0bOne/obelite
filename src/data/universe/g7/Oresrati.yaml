@@ -41,7 +41,7 @@ bodies:
     description: The world Oresrati is very famous for its unusual casinos but plagued by deadly earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.27779, 0.744507, 0.767392, 1]
   radius: 89706.804199
   orbit:

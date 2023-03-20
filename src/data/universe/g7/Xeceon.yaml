@@ -41,7 +41,7 @@ bodies:
     description: The world Xeceon is fabled for its fabulous vicious It gargle blasters and its exotic fish cutlet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.760214, 0.768856, 0.779126, 1]
   radius: 102637.346191
   orbit:

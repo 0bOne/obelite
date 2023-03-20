@@ -41,7 +41,7 @@ bodies:
     description: Oranxe is cursed by vicious ants.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.823593, 0.788994, 0.764082, 1]
   radius: 111394.362488
   orbit:

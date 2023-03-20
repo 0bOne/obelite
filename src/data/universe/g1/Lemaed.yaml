@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for its inhabitants’ eccentric shyness but cursed by unpredictable earthquakes.
     inhabitants: Large Harmless Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.653179, 0.653369, 0.653583, 1]
   radius: 67446.966553
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Cebitiza is most famous for its vast oceans and its inhabitants’ exceptional love for tourists.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.735486, 0.729204, 0.726825, 1]
   radius: 126683.052063
   orbit:

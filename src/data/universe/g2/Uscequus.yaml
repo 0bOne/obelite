@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by deadly earthquakes.
     inhabitants: Small Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.570023, 0.742441, 0.810181, 1]
   radius: 147854.816895
   orbit:

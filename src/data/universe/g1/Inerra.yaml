@@ -41,7 +41,7 @@ bodies:
     description: The planet Inerra is an unremarkable dump.
     inhabitants: Harmless Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.724341, 0.406212, 0.223502, 1]
   radius: 167874.752808
   orbit:

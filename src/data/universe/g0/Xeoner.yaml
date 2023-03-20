@@ -41,7 +41,7 @@ bodies:
     description: The world Xeoner is a dull world.
     inhabitants: Large Yellow Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.681946, 0.62889, 0.280066, 1]
   radius: 88240.221558
   orbit:

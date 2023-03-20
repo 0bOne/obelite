@@ -41,7 +41,7 @@ bodies:
     description: Atmaa is a revolting little planet.
     inhabitants: Red Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.246058, 0.6676, 0.703485, 1]
   radius: 107844.368591
   orbit:

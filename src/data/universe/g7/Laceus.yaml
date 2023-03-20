@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for its inhabitants’ weird silliness and its inhabitants’ ingrained silliness.
     inhabitants: Red Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.299959, 0.471776, 0.660117, 1]
   radius: 109487.943573
   orbit:

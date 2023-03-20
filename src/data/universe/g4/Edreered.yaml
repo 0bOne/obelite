@@ -41,7 +41,7 @@ bodies:
     description: The planet Edreered is most noted for its inhabitants’ exceptional loathing of casinos and its inhabitants’ ancient mating traditions.
     inhabitants: Red Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.665781, 0.649507, 0.601306, 1]
   radius: 95952.058716
   orbit:

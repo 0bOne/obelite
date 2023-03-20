@@ -41,7 +41,7 @@ bodies:
     description: The world Xequerin is fabled for its weird volcanoes and the Xequerinian mountain lobstoid.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.605841, 0.747134, 0.805695, 1]
   radius: 88926.322632
   orbit:

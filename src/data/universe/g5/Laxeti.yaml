@@ -41,7 +41,7 @@ bodies:
     description: Laxeti is cursed by vicious killer shrews.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.823795, 0.434364, 0.375494, 1]
   radius: 90910.874786
   orbit:

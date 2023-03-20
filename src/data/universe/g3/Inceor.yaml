@@ -41,7 +41,7 @@ bodies:
     description: Inceor is ravaged by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.802731, 0.779001, 0.763468, 1]
   radius: 160454.785156
   orbit:

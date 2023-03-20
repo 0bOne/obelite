@@ -41,7 +41,7 @@ bodies:
     description: The planet Gelaed is very noted for its pink Gelaedian So Soweed plantations but scourged by deadly solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.666388, 0.682588, 0.684402, 1]
   radius: 104129.240265
   orbit:

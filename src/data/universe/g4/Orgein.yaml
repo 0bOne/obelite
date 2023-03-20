@@ -41,7 +41,7 @@ bodies:
     description: The world Orgein is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.818585, 0.634192, 0.364764, 1]
   radius: 135020.925293
   orbit:

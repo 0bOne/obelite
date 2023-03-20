@@ -41,7 +41,7 @@ bodies:
     description: The planet Lereus is very famous for its hoopy night life but scourged by deadly tree grubs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.585522, 0.677854, 0.704169, 1]
   radius: 72316.267548
   orbit:

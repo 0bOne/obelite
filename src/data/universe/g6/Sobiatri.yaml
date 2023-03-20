@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably notable for its fabulous cuisine but beset by evil tree snakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.729263, 0.635871, 0.578614, 1]
   radius: 106529.185638
   orbit:

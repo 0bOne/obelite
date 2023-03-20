@@ -41,7 +41,7 @@ bodies:
     description: The world Teveri is reasonably fabled for Teveriian evil juice and its inhabitants’ ingrained shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.457119, 0.47144, 0.670102, 1]
   radius: 136685.585632
   orbit:

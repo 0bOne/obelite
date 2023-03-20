@@ -41,7 +41,7 @@ bodies:
     description: The world Orso is reasonably fabled for its exciting sit coms and its inhabitants’ exceptional love for food blenders.
     inhabitants: Blue Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.795358, 0.774031, 0.76878, 1]
   radius: 101155.71701
   orbit:

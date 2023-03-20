@@ -41,7 +41,7 @@ bodies:
     description: Argean is famous for its inhabitants’ ancient loathing of discos but plagued by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.738315, 0.475852, 0.332273, 1]
   radius: 129149.554291
   orbit:

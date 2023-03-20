@@ -41,7 +41,7 @@ bodies:
     description: Ondira is a revolting dump.
     inhabitants: Green Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.678191, 0.736423, 0.760858, 1]
   radius: 164434.270935
   orbit:

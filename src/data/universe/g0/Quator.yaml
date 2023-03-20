@@ -41,7 +41,7 @@ bodies:
     description: The world Quator is scourged by deadly edible arts graduates.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.536381, 0.544416, 0.729077, 1]
   radius: 126546.073914
   orbit:

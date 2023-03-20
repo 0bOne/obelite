@@ -41,7 +41,7 @@ bodies:
     description: The planet Laesqu is scourged by deadly disease.
     inhabitants: Green Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.700436, 0.668545, 0.212559, 1]
   radius: 79521.565552
   orbit:

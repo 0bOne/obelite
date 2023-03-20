@@ -41,7 +41,7 @@ bodies:
     description: The world Veriar is very famous for Veriarian shrew steak but ravaged by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.821469, 0.688744, 0.40604, 1]
   radius: 123508.843994
   orbit:

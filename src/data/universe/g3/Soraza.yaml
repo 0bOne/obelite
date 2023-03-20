@@ -41,7 +41,7 @@ bodies:
     description: Soraza is cursed by vicious killer cats.
     inhabitants: Fierce Black Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.771609, 0.359864, 0.226211, 1]
   radius: 112523.776855
   orbit:

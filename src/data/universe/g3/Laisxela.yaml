@@ -41,7 +41,7 @@ bodies:
     description: Laisxela is mildly well known for its hoopy night life and its exotic cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.765253, 0.648595, 0.564957, 1]
   radius: 88601.628418
   orbit:

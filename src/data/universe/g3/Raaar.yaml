@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for its pink Inresoxe tulip plantations but plagued by vicious disease.
     inhabitants: Black Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.547786, 0.627537, 0.703809, 1]
   radius: 91539.682617
   orbit:

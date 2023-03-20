@@ -41,7 +41,7 @@ bodies:
     description: The world Ratitige is scourged by deadly tree grubs.
     inhabitants: Black Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.814243, 0.768945, 0.617907, 1]
   radius: 88764.438629
   orbit:

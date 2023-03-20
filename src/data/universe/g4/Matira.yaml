@@ -41,7 +41,7 @@ bodies:
     description: The world Matira is reasonably noted for its inhabitants’ exceptional love for tourists.
     inhabitants: Small Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.834781, 0.634973, 0.45091, 1]
   radius: 151947.329102
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is plagued by frequent earthquakes.
     inhabitants: Large Red Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.5525, 0.630946, 0.663824, 1]
   radius: 81318.317871
   orbit:

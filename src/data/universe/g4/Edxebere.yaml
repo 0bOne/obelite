@@ -41,7 +41,7 @@ bodies:
     description: The world Edxebere is reasonably noted for its fabulous goat burgers.
     inhabitants: Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.84624, 0.839318, 0.4448, 1]
   radius: 109230.563965
   orbit:

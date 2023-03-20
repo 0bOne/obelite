@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by occasional solar activity.
     inhabitants: Fierce Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.620561, 0.783987, 0.790823, 1]
   radius: 145939.956665
   orbit:

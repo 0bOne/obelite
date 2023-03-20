@@ -41,7 +41,7 @@ bodies:
     description: The world Riarribi is reasonably noted for its exotic fish meat.
     inhabitants: Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.462171, 0.551987, 0.717685, 1]
   radius: 151332.704315
   orbit:

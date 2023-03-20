@@ -41,7 +41,7 @@ bodies:
     description: Bianbies is well known for the Bianbiesian spotted leopard but ravaged by frequent earthquakes.
     inhabitants: Fierce Harmless Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.44218, 0.62219, 0.705963, 1]
   radius: 93141.38855
   orbit:

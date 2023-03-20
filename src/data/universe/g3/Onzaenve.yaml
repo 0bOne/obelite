@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its hoopy casinos and its vast oceans.
     inhabitants: Blue Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.675153, 0.703692, 0.789026, 1]
   radius: 161980.947266
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by lethal disease.
     inhabitants: Small Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.814005, 0.569614, 0.526126, 1]
   radius: 145556.282501
   orbit:

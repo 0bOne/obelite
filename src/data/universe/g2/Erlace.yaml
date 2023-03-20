@@ -41,7 +41,7 @@ bodies:
     description: The world Erlace is scourged by killer edible arts graduates.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.540555, 0.673841, 0.840555, 1]
   radius: 83671.348114
   orbit:

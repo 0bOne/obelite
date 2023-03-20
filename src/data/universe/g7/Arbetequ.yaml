@@ -41,7 +41,7 @@ bodies:
     description: Arbetequ is a revolting dump.
     inhabitants: Small Red Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.676956, 0.539841, 0.33681, 1]
   radius: 169006.025391
   orbit:

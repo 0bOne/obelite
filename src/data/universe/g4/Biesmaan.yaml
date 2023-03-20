@@ -41,7 +41,7 @@ bodies:
     description: The planet Biesmaan is famous for its exotic goat soup but cursed by killer disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.738425, 0.745611, 0.811719, 1]
   radius: 127838.218689
   orbit:

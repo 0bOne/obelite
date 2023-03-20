@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Onanquian edible arts graduate and its fabulous cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.276036, 0.303111, 0.730914, 1]
   radius: 160006.171875
   orbit:

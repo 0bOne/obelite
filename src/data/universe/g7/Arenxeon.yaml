@@ -41,7 +41,7 @@ bodies:
     description: The world Arenxeon is most famous for its vast oceans.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.658964, 0.661892, 0.664838, 1]
   radius: 124258.210144
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Usmate is mildly fabled for the Usmateian mountain A’oid but ravaged by lethal vicious wolfs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.392993, 0.443653, 0.656723, 1]
   radius: 155825.617676
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Bedixe is mildly fabled for the Bedixeian mountain slug but ravaged by vicious disease.
     inhabitants: Blue Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.552447, 0.636136, 0.845609, 1]
   radius: 96807.843781
   orbit:

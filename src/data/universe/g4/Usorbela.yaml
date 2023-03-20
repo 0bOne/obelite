@@ -41,7 +41,7 @@ bodies:
     description: The world Usorbela is very noted for its pink oceans but cursed by occasional earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.826398, 0.824462, 0.820241, 1]
   radius: 111880.178833
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Dierlabe is reasonably noted for its fabulous goat soup and mud tennis.
     inhabitants: Red Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.725952, 0.658542, 0.520549, 1]
   radius: 124051.403198
   orbit:

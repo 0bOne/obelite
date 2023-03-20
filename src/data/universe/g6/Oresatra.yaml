@@ -41,7 +41,7 @@ bodies:
     description: The planet Oresatra is mildly well known for its exotic cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.741876, 0.620252, 0.225101, 1]
   radius: 99588.625793
   orbit:

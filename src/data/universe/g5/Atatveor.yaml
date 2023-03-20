@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably noted for its inhabitants’ eccentric shyness.
     inhabitants: Red Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.67529, 0.656422, 0.571224, 1]
   radius: 95572.555084
   orbit:

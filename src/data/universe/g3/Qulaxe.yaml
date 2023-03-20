@@ -41,7 +41,7 @@ bodies:
     description: The world Qulaxe is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.687936, 0.655748, 0.645966, 1]
   radius: 150098.179321
   orbit:

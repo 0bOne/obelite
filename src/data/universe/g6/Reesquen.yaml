@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by frequent solar activity.
     inhabitants: Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.769174, 0.717265, 0.683737, 1]
   radius: 162416.419983
   orbit:

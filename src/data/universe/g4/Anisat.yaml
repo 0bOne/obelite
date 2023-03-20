@@ -41,7 +41,7 @@ bodies:
     description: The world Anisat is most well known for its vast dense forests.
     inhabitants: Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.442275, 0.671656, 0.730099, 1]
   radius: 110907.070312
   orbit:

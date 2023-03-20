@@ -41,7 +41,7 @@ bodies:
     description: This planet is a tedious little planet.
     inhabitants: Small Yellow Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.328692, 0.645362, 0.674115, 1]
   radius: 142890.879211
   orbit:

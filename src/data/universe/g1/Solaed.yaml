@@ -41,7 +41,7 @@ bodies:
     description: Solaed is ravaged by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.654626, 0.465342, 0.427421, 1]
   radius: 132158.948975
   orbit:

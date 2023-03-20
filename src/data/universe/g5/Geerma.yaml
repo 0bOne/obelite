@@ -41,7 +41,7 @@ bodies:
     description: The world Geerma is a boring planet.
     inhabitants: Large Red Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.80448, 0.796491, 0.736002, 1]
   radius: 87556.509247
   orbit:

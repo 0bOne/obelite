@@ -41,7 +41,7 @@ bodies:
     description: Soatqube is well known for the Soatqubeian spotted wolf but beset by frequent civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.810699, 0.562213, 0.399363, 1]
   radius: 110169.800262
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ ingrained silliness and its weird rock formations.
     inhabitants: Yellow Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.773901, 0.683046, 0.333038, 1]
   radius: 164927.371216
   orbit:

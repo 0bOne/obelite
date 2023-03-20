@@ -41,7 +41,7 @@ bodies:
     description: Releorar is famous for its inhabitants’ ancient mating traditions but cursed by vicious killer cats.
     inhabitants: Blue Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.602377, 0.645021, 0.682242, 1]
   radius: 139434.883423
   orbit:

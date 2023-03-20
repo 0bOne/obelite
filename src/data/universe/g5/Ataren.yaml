@@ -41,7 +41,7 @@ bodies:
     description: The world Ataren is very famous for its unusual casinos but plagued by frequent solar activity.
     inhabitants: Blue Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.681311, 0.571149, 0.429055, 1]
   radius: 68927.612305
   orbit:

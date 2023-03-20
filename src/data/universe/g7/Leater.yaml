@@ -41,7 +41,7 @@ bodies:
     description: The world Leater is very famous for its hoopy night life but scourged by killer mountain monkeys.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.663715, 0.302258, 0.212558, 1]
   radius: 65839.468994
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is fabled for its unusual dense forests.
     inhabitants: Blue Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.692586, 0.694905, 0.701465, 1]
   radius: 143041.152649
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is a dull place.
     inhabitants: Red Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.421421, 0.738286, 0.779181, 1]
   radius: 123521.845703
   orbit:

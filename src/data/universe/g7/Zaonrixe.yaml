@@ -41,7 +41,7 @@ bodies:
     description: The planet Zaonrixe is scourged by killer edible arts graduates.
     inhabitants: Fierce Yellow Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.544104, 0.757339, 0.767252, 1]
   radius: 96827.56134
   orbit:

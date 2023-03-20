@@ -41,7 +41,7 @@ bodies:
     description: Ervein is a revolting little planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.743231, 0.745726, 0.808307, 1]
   radius: 78356.304932
   orbit:

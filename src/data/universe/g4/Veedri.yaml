@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.324991, 0.379762, 0.801135, 1]
   radius: 147520.545502
   orbit:

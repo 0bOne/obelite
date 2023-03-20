@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for Ceorgeian Sous brandy but cursed by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.330725, 0.47755, 0.667798, 1]
   radius: 94739.383698
   orbit:

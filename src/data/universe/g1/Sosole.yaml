@@ -41,7 +41,7 @@ bodies:
     description: The world Sosole is fabled for its weird rock formations and the Sosoleian deadly goat.
     inhabitants: Fierce Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.689709, 0.511054, 0.229873, 1]
   radius: 145122.706604
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ ingrained shyness.
     inhabitants: Fierce Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.733347, 0.583989, 0.545363, 1]
   radius: 105053.955688
   orbit:

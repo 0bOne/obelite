@@ -41,7 +41,7 @@ bodies:
     description: The world Rainla is mildly fabled for the Rainlaian mountain slug but ravaged by killer disease.
     inhabitants: Yellow Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.69749, 0.736481, 0.849676, 1]
   radius: 86048.035889
   orbit:

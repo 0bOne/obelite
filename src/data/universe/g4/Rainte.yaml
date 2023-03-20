@@ -41,7 +41,7 @@ bodies:
     description: The world Rainte is fabled for its fabulous cuisine and the Rainteian edible poet.
     inhabitants: Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.240173, 0.44836, 0.809973, 1]
   radius: 92240.150604
   orbit:

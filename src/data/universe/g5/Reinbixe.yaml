@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Reinbixeian tree wolf and its pink oceans.
     inhabitants: Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.670332, 0.678834, 0.692007, 1]
   radius: 169189.346008
   orbit:

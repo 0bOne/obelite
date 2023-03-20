@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Zaaxeveian tree wolf and its unusual sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.765781, 0.408403, 0.352346, 1]
   radius: 122780.532837
   orbit:

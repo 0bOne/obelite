@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for its inhabitants’ unusual mating traditions and its vast dense forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.837219, 0.771692, 0.750222, 1]
   radius: 118685.176392
   orbit:

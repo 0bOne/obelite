@@ -41,7 +41,7 @@ bodies:
     description: The planet Aanan is very famous for its hoopy night life but scourged by killer edible Onzaoids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.34034, 0.417492, 0.728186, 1]
   radius: 168582.954102
   orbit:

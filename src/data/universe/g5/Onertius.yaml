@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting little planet.
     inhabitants: Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.691568, 0.614853, 0.595203, 1]
   radius: 184307.946472
   orbit:

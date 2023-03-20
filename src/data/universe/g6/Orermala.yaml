@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by lethal disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.765427, 0.780009, 0.783991, 1]
   radius: 96803.091431
   orbit:

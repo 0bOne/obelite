@@ -41,7 +41,7 @@ bodies:
     description: The planet Anesce is well known for its inhabitants’ unusual silliness but cursed by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.634651, 0.74291, 0.765866, 1]
   radius: 56479.627228
   orbit:

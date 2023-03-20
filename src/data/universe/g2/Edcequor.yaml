@@ -41,7 +41,7 @@ bodies:
     description: The world Edcequor is very noted for its pink oceans but cursed by unpredictable earthquakes.
     inhabitants: Red Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.737211, 0.740408, 0.383996, 1]
   radius: 159063.773193
   orbit:

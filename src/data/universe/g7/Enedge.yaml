@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by occasional solar activity.
     inhabitants: Yellow Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.654535, 0.626986, 0.178667, 1]
   radius: 88947.729492
   orbit:

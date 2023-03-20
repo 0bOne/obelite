@@ -41,7 +41,7 @@ bodies:
     description: The planet Geondi is scourged by deadly disease.
     inhabitants: Large Green Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.812723, 0.597264, 0.568612, 1]
   radius: 82533.848267
   orbit:

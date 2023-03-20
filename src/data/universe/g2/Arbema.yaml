@@ -41,7 +41,7 @@ bodies:
     description: The planet Arbema is mildly well known for its hoopy night life.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.551857, 0.610906, 0.672794, 1]
   radius: 120041.910095
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Labirior is scourged by deadly disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.28392, 0.351268, 0.69577, 1]
   radius: 81661.729431
   orbit:

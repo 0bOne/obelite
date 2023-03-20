@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by lethal disease.
     inhabitants: Fierce Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.674514, 0.711527, 0.765152, 1]
   radius: 85144.364166
   orbit:

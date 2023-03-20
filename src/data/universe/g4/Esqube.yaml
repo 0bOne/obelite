@@ -41,7 +41,7 @@ bodies:
     description: The world Esqube is a boring world.
     inhabitants: Small Green Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.812241, 0.688007, 0.530089, 1]
   radius: 160316.386414
   orbit:

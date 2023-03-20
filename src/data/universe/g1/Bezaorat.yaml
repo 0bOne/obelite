@@ -41,7 +41,7 @@ bodies:
     description: Bezaorat is ravaged by unpredictable civil war.
     inhabitants: Harmless Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.6961, 0.584325, 0.495176, 1]
   radius: 99958.112183
   orbit:

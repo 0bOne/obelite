@@ -41,7 +41,7 @@ bodies:
     description: The world Titequ is notable for its great volcanoes and its inhabitants’ eccentric shyness.
     inhabitants: Black Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.575151, 0.640468, 0.844971, 1]
   radius: 155561.775665
   orbit:

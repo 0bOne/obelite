@@ -41,7 +41,7 @@ bodies:
     description: This world is noted for its unusual casinos.
     inhabitants: Small Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.835529, 0.819358, 0.567242, 1]
   radius: 125851.695557
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Teesso is scourged by deadly tree ants.
     inhabitants: Large Blue Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.697992, 0.665181, 0.634992, 1]
   radius: 78996.375732
   orbit:

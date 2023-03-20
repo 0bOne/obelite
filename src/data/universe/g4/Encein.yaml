@@ -41,7 +41,7 @@ bodies:
     description: The world Encein is a dull place.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.324483, 0.351182, 0.669, 1]
   radius: 63255.963135
   orbit:

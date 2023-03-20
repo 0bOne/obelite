@@ -41,7 +41,7 @@ bodies:
     description: The world Esusesqu is mildly noted for its ancient mountains but ravaged by frequent earthquakes.
     inhabitants: Small Yellow Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.676071, 0.732581, 0.759583, 1]
   radius: 153546.741486
   orbit:

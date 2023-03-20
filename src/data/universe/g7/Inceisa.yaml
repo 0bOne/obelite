@@ -41,7 +41,7 @@ bodies:
     description: Inceisa is famous for its inhabitants’ ancient loathing of discos but ravaged by lethal spotted batoids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.762177, 0.522504, 0.45008, 1]
   radius: 125057.775879
   orbit:

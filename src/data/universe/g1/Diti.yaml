@@ -41,7 +41,7 @@ bodies:
     description: The planet Diti is famous for Ditiian shrew steak but ravaged by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.39764, 0.581596, 0.70625, 1]
   radius: 57228.173523
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Laorusti is ravaged by dreadful civil war.
     inhabitants: Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.658102, 0.595262, 0.298803, 1]
   radius: 102399.180603
   orbit:

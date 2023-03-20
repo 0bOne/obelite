@@ -41,7 +41,7 @@ bodies:
     description: Maracece is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.668683, 0.571397, 0.409654, 1]
   radius: 134712.847137
   orbit:

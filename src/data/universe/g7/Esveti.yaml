@@ -41,7 +41,7 @@ bodies:
     description: The planet Esveti is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.784482, 0.777946, 0.777003, 1]
   radius: 129818.964844
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Isbeusian Onablo brandy but scourged by killer mountain goats.
     inhabitants: Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.516967, 0.604069, 0.661179, 1]
   radius: 200325.119629
   orbit:

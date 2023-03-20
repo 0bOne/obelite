@@ -41,7 +41,7 @@ bodies:
     description: The world Vegean is beset by dreadful earthquakes.
     inhabitants: Yellow Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.557714, 0.767965, 0.789642, 1]
   radius: 90728.383789
   orbit:

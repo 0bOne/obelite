@@ -41,7 +41,7 @@ bodies:
     description: The world Begeorer is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.240362, 0.342142, 0.681494, 1]
   radius: 111060.9729
   orbit:

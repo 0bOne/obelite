@@ -41,7 +41,7 @@ bodies:
     description: The planet Isoned is scourged by killer edible arts graduates.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.727402, 0.546152, 0.291658, 1]
   radius: 134465.020752
   orbit:

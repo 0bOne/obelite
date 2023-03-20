@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for Isataian shrew cutlet and the Isataian tree grub.
     inhabitants: Red Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.773084, 0.458771, 0.245045, 1]
   radius: 156346.069336
   orbit:

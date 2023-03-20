@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its ancient Rigeteian On banana plantations.
     inhabitants: Red Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.206757, 0.26516, 0.719092, 1]
   radius: 211685.733643
   orbit:

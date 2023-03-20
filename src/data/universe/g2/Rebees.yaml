@@ -41,7 +41,7 @@ bodies:
     description: The world Rebees is very famous for its fabulous goat burgers but plagued by unpredictable civil war.
     inhabitants: Yellow Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.365824, 0.44102, 0.696017, 1]
   radius: 133372.184143
   orbit:

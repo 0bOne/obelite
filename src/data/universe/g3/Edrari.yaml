@@ -41,7 +41,7 @@ bodies:
     description: The planet Edrari is most famous for the Edrariian deadly goat and its pink oceans.
     inhabitants: Yellow Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.362394, 0.461562, 0.760165, 1]
   radius: 106672.361755
   orbit:

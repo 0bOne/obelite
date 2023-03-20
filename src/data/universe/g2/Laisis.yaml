@@ -41,7 +41,7 @@ bodies:
     description: This planet is a dull place.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.307031, 0.483141, 0.756735, 1]
   radius: 81340.960693
   orbit:

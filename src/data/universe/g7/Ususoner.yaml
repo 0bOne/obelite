@@ -41,7 +41,7 @@ bodies:
     description: The world Ususoner is beset by dreadful earthquakes.
     inhabitants: Small Harmless Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.846307, 0.695663, 0.376138, 1]
   radius: 127635.635376
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Anreer is cursed by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.81365, 0.770065, 0.655364, 1]
   radius: 167483.441467
   orbit:

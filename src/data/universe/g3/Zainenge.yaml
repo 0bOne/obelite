@@ -41,7 +41,7 @@ bodies:
     description: The world Zainenge is reasonably noted for its inhabitants’ exceptional loathing of sit coms.
     inhabitants: Fierce Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.233819, 0.271343, 0.815909, 1]
   radius: 119051.513672
   orbit:

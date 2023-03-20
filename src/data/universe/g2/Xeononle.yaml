@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for its inhabitants’ eccentric shyness but ravaged by killer disease.
     inhabitants: Large Black Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.631804, 0.788177, 0.811447, 1]
   radius: 92575.231323
   orbit:

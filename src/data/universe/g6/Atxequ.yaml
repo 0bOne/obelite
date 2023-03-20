@@ -41,7 +41,7 @@ bodies:
     description: Atxequ is mildly well known for its hoopy casinos and its exotic night life.
     inhabitants: Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.402496, 0.633999, 0.779953, 1]
   radius: 51843.93158
   orbit:

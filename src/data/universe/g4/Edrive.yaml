@@ -41,7 +41,7 @@ bodies:
     description: Edrive is cursed by vicious mountain monkeys.
     inhabitants: Black Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.837088, 0.556527, 0.504078, 1]
   radius: 123840.558319
   orbit:

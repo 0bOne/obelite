@@ -41,7 +41,7 @@ bodies:
     description: The planet Erbidi is very famous for its hoopy night life but scourged by deadly edible moths.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.691452, 0.314481, 0.211795, 1]
   radius: 62060.184479
   orbit:

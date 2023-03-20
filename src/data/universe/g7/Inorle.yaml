@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for the Inorleian edible poet.
     inhabitants: Harmless Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.839023, 0.536254, 0.374812, 1]
   radius: 107456.344452
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Razare is a dull place.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.322934, 0.548213, 0.786438, 1]
   radius: 94699.794922
   orbit:

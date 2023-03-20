@@ -41,7 +41,7 @@ bodies:
     description: This planet is very well known for Vegediusian wolf meat and its weird volcanoes.
     inhabitants: Red Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.830185, 0.586358, 0.340319, 1]
   radius: 119571.277313
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Telaan is cursed by deadly civil war.
     inhabitants: Green Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.391565, 0.683951, 0.743954, 1]
   radius: 173300.392609
   orbit:

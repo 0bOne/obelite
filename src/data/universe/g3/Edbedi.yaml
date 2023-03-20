@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its vast rain forests but beset by lethal disease.
     inhabitants: Red Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.751585, 0.77895, 0.807404, 1]
   radius: 117854.428253
   orbit:

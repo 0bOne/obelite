@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for mud hockey but ravaged by occasional earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.648663, 0.750129, 0.756531, 1]
   radius: 110539.539337
   orbit:

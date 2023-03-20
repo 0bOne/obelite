@@ -41,7 +41,7 @@ bodies:
     description: The world Maesqua is reasonably noted for its inhabitants’ eccentric love for tourists and the Maesquaian edible grub.
     inhabitants: Small Harmless Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.202105, 0.62481, 0.807162, 1]
   radius: 125845.242462
   orbit:

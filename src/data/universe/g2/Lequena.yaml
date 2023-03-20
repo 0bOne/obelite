@@ -41,7 +41,7 @@ bodies:
     description: The planet Lequena is a boring planet.
     inhabitants: Large Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.669672, 0.617388, 0.527976, 1]
   radius: 102048.84613
   orbit:

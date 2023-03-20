@@ -41,7 +41,7 @@ bodies:
     description: Tiatza is cursed by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.52551, 0.644155, 0.671368, 1]
   radius: 137556.048431
   orbit:

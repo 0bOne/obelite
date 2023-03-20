@@ -41,7 +41,7 @@ bodies:
     description: Gemasoti is well known for the Gemasotiian spotted leopard but plagued by lethal spotted batoids.
     inhabitants: Large Black Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.687708, 0.196789, 0.187368, 1]
   radius: 67439.656982
   orbit:

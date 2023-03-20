@@ -41,7 +41,7 @@ bodies:
     description: The world Zabeso is reasonably noted for its inhabitants’ exceptional love for tourists.
     inhabitants: Fierce Green Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.789462, 0.61041, 0.366206, 1]
   radius: 68520.221252
   orbit:

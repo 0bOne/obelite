@@ -41,7 +41,7 @@ bodies:
     description: Aatdire is mildly well known for Aatdireian vicious brew.
     inhabitants: Green Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.607113, 0.656671, 0.752399, 1]
   radius: 121193.260498
   orbit:

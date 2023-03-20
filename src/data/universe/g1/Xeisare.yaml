@@ -41,7 +41,7 @@ bodies:
     description: Xeisare is very fabled for its unusual tropical forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.2346, 0.290728, 0.775171, 1]
   radius: 88579.012299
   orbit:

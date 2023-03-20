@@ -41,7 +41,7 @@ bodies:
     description: The world Beraanxe is reasonably noted for its inhabitants’ exceptional love for tourists and its unusual oceans.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.584656, 0.646426, 0.827197, 1]
   radius: 75719.588623
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Isare is mildly notable for killer Re gargle blasters.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.750229, 0.6551, 0.619907, 1]
   radius: 177546.51413
   orbit:

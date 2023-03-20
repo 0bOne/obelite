@@ -41,7 +41,7 @@ bodies:
     description: The planet Legean is famous for its inhabitants’ ancient loathing of discos but plagued by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.709857, 0.598714, 0.500754, 1]
   radius: 90138.348999
   orbit:

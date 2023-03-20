@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting little planet.
     inhabitants: Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.815665, 0.399675, 0.222464, 1]
   radius: 71614.421539
   orbit:

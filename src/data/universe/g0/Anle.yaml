@@ -41,7 +41,7 @@ bodies:
     description: The world Anle is notable for its great tropical forests and Anleian evil brandy.
     inhabitants: Black Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.712628, 0.674861, 0.547465, 1]
   radius: 154389.21814
   orbit:

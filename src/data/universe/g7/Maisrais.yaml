@@ -41,7 +41,7 @@ bodies:
     description: Maisrais is famous for its inhabitants’ ancient mating traditions but ravaged by unpredictable solar activity.
     inhabitants: Small Blue Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.656857, 0.644923, 0.624879, 1]
   radius: 147476.387939
   orbit:

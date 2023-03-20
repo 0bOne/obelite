@@ -41,7 +41,7 @@ bodies:
     description: The planet Soreisbe is most famous for the Soreisbeian deadly goat and its hoopy casinos.
     inhabitants: Fierce Blue Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.543222, 0.652816, 0.696695, 1]
   radius: 130040.741272
   orbit:

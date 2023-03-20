@@ -41,7 +41,7 @@ bodies:
     description: Edanma is ravaged by unpredictable solar activity.
     inhabitants: Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.530517, 0.535496, 0.652512, 1]
   radius: 116243.431702
   orbit:

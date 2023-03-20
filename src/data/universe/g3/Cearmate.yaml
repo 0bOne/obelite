@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for its inhabitants’ ingrained silliness but scourged by deadly edible poets.
     inhabitants: Fierce Red Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.841864, 0.818615, 0.800427, 1]
   radius: 111281.144409
   orbit:

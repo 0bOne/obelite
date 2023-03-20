@@ -41,7 +41,7 @@ bodies:
     description: The planet Leesusen is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.323076, 0.61326, 0.807071, 1]
   radius: 63712.674255
   orbit:

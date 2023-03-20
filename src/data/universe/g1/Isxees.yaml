@@ -41,7 +41,7 @@ bodies:
     description: The planet Isxees is reasonably fabled for Zero-G hockey and Isxeesian Atlethma brandy.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.566432, 0.59081, 0.705615, 1]
   radius: 152363.984375
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Lerela is scourged by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.331048, 0.418197, 0.661209, 1]
   radius: 68159.650269
   orbit:

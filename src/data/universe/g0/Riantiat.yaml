@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Riantiatian edible grub and the Riantiatian spotted wolf.
     inhabitants: Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.530332, 0.760824, 0.764386, 1]
   radius: 156516.901245
   orbit:

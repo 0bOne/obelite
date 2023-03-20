@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for its great tropical forests and mud tennis.
     inhabitants: Yellow Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.749893, 0.684305, 0.683272, 1]
   radius: 163196.148071
   orbit:

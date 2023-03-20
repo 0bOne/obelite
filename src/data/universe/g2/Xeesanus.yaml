@@ -41,7 +41,7 @@ bodies:
     description: The planet Xeesanus is well known for its inhabitants’ ancient loathing of casinos but ravaged by unpredictable solar activity.
     inhabitants: Large Green Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.848581, 0.840046, 0.811523, 1]
   radius: 111001.469879
   orbit:

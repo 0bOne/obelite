@@ -41,7 +41,7 @@ bodies:
     description: The world Artear is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.760132, 0.653041, 0.472873, 1]
   radius: 156440.061951
   orbit:

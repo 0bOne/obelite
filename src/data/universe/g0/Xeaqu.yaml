@@ -41,7 +41,7 @@ bodies:
     description: The world Xeaqu is a dull place.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.193022, 0.456387, 0.745538, 1]
   radius: 72038.170166
   orbit:

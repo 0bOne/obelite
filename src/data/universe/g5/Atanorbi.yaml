@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious little planet.
     inhabitants: Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.60787, 0.668942, 0.782825, 1]
   radius: 86957.290802
   orbit:

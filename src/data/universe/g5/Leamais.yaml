@@ -41,7 +41,7 @@ bodies:
     description: The planet Leamais is an unremarkable dump.
     inhabitants: Large Harmless Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.719925, 0.683957, 0.632263, 1]
   radius: 87720.039368
   orbit:

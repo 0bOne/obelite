@@ -41,7 +41,7 @@ bodies:
     description: The world Arzaquar is very famous for its hoopy night life but scourged by frequent civil war.
     inhabitants: Small Yellow Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.683313, 0.335275, 0.331496, 1]
   radius: 166659.717712
   orbit:

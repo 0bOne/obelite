@@ -41,7 +41,7 @@ bodies:
     description: The planet Tiinve is well known for its inhabitants’ weird silliness but cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.57355, 0.695298, 0.785132, 1]
   radius: 122324.897003
   orbit:

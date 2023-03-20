@@ -41,7 +41,7 @@ bodies:
     description: Tegeonon is well known for its inhabitants’ weird silliness but cursed by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.844223, 0.72371, 0.358971, 1]
   radius: 177073.314819
   orbit:

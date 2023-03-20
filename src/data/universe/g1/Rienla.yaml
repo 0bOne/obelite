@@ -41,7 +41,7 @@ bodies:
     description: The planet Rienla is very noted for its ancient mountains but plagued by lethal disease.
     inhabitants: Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.785236, 0.779505, 0.766041, 1]
   radius: 176831.817627
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is a tedious little planet.
     inhabitants: Blue Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.676749, 0.656837, 0.563574, 1]
   radius: 147070.077515
   orbit:

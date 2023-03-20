@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its unusual sit coms and the Anistiian spotted wolf.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.744966, 0.772758, 0.778854, 1]
   radius: 136930.873413
   orbit:

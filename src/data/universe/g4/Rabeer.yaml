@@ -41,7 +41,7 @@ bodies:
     description: This planet is very well known for killer Ongearet gargle blasters and its exciting sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.672388, 0.533848, 0.289391, 1]
   radius: 104814.924316
   orbit:

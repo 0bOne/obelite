@@ -41,7 +41,7 @@ bodies:
     description: The world Ririla is beset by deadly earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.795874, 0.683059, 0.655218, 1]
   radius: 118658.515015
   orbit:

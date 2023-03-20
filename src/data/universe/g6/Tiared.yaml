@@ -41,7 +41,7 @@ bodies:
     description: Tiared is most famous for its pink Tiaredian Loa’ Loa’weed plantations and Zero-G hockey.
     inhabitants: Green Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.790265, 0.637756, 0.578295, 1]
   radius: 135678.804016
   orbit:

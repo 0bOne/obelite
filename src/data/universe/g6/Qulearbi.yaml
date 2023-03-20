@@ -41,7 +41,7 @@ bodies:
     description: The world Qulearbi is mildly noted for the Qulearbiian mountain lobstoid but beset by frequent solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.690994, 0.604447, 0.498945, 1]
   radius: 136789.746704
   orbit:

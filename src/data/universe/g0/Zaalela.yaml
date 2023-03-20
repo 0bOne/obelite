@@ -41,7 +41,7 @@ bodies:
     description: This world is noted for its fabulous goat soup.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.533252, 0.778025, 0.802826, 1]
   radius: 92631.671143
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Isvequre is very noted for its pink oceans but cursed by deadly disease.
     inhabitants: Yellow Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.183562, 0.696709, 0.719879, 1]
   radius: 141162.709961
   orbit:

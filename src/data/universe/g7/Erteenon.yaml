@@ -41,7 +41,7 @@ bodies:
     description: The planet Erteenon is well known for its inhabitants’ ancient mating traditions but cursed by vicious killer monkeys.
     inhabitants: Green Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.251764, 0.359945, 0.738205, 1]
   radius: 95562.543488
   orbit:

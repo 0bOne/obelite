@@ -41,7 +41,7 @@ bodies:
     description: Anbiat is mildly well known for Anbiatian wolf meat and its unusual dense forests.
     inhabitants: Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.303429, 0.713682, 0.717889, 1]
   radius: 140974.440308
   orbit:

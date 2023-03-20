@@ -41,7 +41,7 @@ bodies:
     description: The planet Enrece is cursed by deadly civil war.
     inhabitants: Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.660739, 0.684121, 0.764301, 1]
   radius: 85793.477631
   orbit:

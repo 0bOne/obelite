@@ -41,7 +41,7 @@ bodies:
     description: Anen is cursed by deadly civil war.
     inhabitants: Large Harmless Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.757306, 0.718596, 0.627609, 1]
   radius: 77260.597229
   orbit:

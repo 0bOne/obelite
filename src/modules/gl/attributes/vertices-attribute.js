@@ -5,12 +5,22 @@ export default class VerticesAttribute
     glBuffer;
     dimensions;
 
+    offset;
+    stride;
+    normalize;
+    
+
     constructor(gl, elements, dimensions = 3)
     {
+        this.stride = 0;
+        this.offset = 0;
+        this.normalize = false;
+
         this.gl = gl;
         this.glBuffer = gl.createBuffer();
         gl.bindBuffer(gl.ARRAY_BUFFER, this.glBuffer);
         gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(elements), gl.STATIC_DRAW);    
+        gl.bindBuffer(gl.ARRAY_BUFFER, null);
 
         this.count = elements.length;
         this.dimensions = dimensions;
@@ -30,20 +40,17 @@ export default class VerticesAttribute
             return;
         }
     
-        const type = this.gl.FLOAT;     // the data in the buffer is 32bit floats
         const normalize = false;        // don't normalize
-        const stride = 0;               // how many bytes to get from one set of values to the next
-        const offset = 0;               // how many bytes inside the buffer to start from
 
         this.gl.bindBuffer(this.gl.ARRAY_BUFFER, this.glBuffer);
         //console.log("setting positions");
         this.gl.vertexAttribPointer(
             shader.locations.aVertexPosition,
             this.dimensions,
-            type,
-            normalize,
-            stride,
-            offset
+            this.gl.FLOAT,
+            this.normalize,
+            this.stride,
+            this.offset
         );
         this.gl.enableVertexAttribArray(shader.locations.aVertexPosition);
         

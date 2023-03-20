@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its weird tropical forests and Zero-G cricket.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.676561, 0.680417, 0.750302, 1]
   radius: 78923.911133
   orbit:

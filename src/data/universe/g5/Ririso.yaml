@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by deadly earthquakes.
     inhabitants: Green Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.641188, 0.698122, 0.785437, 1]
   radius: 205885.931396
   orbit:

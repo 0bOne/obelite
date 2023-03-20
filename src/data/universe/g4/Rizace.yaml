@@ -41,7 +41,7 @@ bodies:
     description: Rizace is reasonably notable for its exotic cuisine but plagued by lethal disease.
     inhabitants: Yellow Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.653286, 0.653619, 0.35844, 1]
   radius: 138532.3349
   orbit:

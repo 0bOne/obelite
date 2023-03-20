@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by occasional solar activity.
     inhabitants: Blue Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.421796, 0.639383, 0.846564, 1]
   radius: 91098.706055
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Regeza is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.653452, 0.64821, 0.619082, 1]
   radius: 136495.294189
   orbit:

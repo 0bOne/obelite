@@ -1,5 +1,4 @@
-import ModelLoader from "../../gl/model-loader.js";
-import Rotator from "../../logic/animators/rotator.js";
+import ShipLoader from "../../gl/ship-loader.js";
 import StatisticsExpander from "../../logic/library/statistics-expander.js";
 import DomHelper from "../utilities/dom-helper.js";
 import ViewBase from "./_view-base.js";
@@ -49,7 +48,6 @@ export default class ShipLibrary extends ViewBase
         this.itemMenu = DomHelper.AppendElement(this.rightSide, Elements.Combo);
         this.groupMenu.addEventListener("change", this.onGroupChanged.bind(this));
         this.itemMenu.addEventListener("change", this.onItemChanged.bind(this));
-
      }
 
     populateGroupMenu() 
@@ -100,8 +98,8 @@ export default class ShipLibrary extends ViewBase
         const itemIndex = this.itemMenu.value;
         const itemData = groupData.items[itemIndex];
 
-        if (this.gameCtx.demoShip === undefined
-            || this.gameCtx.demoShip.name !== itemData.model) 
+        if (this.gameCtx.demoModel === undefined
+            || this.gameCtx.demoModel.name !== itemData.model) 
         {
             await this.loadNewModel(itemData.model, itemData);
         }
@@ -111,7 +109,7 @@ export default class ShipLibrary extends ViewBase
     {    
         this.clearScene();
         this.clearShipInfo();
-        const modelLoader = new ModelLoader(this.gameCtx);
+        const modelLoader = new ShipLoader(this.gameCtx);
         const modelData = await modelLoader.LoadData(shipName);
 
         if (modelData.limits && modelData.library)
@@ -128,12 +126,8 @@ export default class ShipLibrary extends ViewBase
             newShip.worldPosition.y += modelData.library.offset[1] || 0;
             newShip.worldPosition.z += modelData.library.offset[2] || 0;
         }
-        this.gameCtx.demoShip = newShip;
-        this.gameCtx.demoShip.Rotation = 0;
-        this.gameCtx.demoShip.isVisible = true;
-        this.gameCtx.demoShip.animator = new Rotator(this.gameCtx.demoShip, 0.5);
 
-        this.gameCtx.scene.models.push(this.gameCtx.demoShip);
+        this.SetDemoModel(newShip);
 
     }
 

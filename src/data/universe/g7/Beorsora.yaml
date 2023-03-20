@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for Beorsoraian wolf cutlet and its unusual oceans.
     inhabitants: Black Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.819113, 0.674162, 0.389737, 1]
   radius: 80948.979187
   orbit:

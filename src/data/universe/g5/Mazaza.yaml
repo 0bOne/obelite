@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably noted for its inhabitants’ exceptional love for food blenders.
     inhabitants: Small Red Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.662451, 0.539825, 0.400985, 1]
   radius: 121328.497467
   orbit:

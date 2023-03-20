@@ -41,7 +41,7 @@ bodies:
     description: The planet Esrireti is scourged by deadly disease.
     inhabitants: Small Green Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.743768, 0.680045, 0.252802, 1]
   radius: 139710.118103
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Onorti is famous for Onortiian shrew steak but ravaged by unpredictable solar activity.
     inhabitants: Harmless Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.686649, 0.625495, 0.279687, 1]
   radius: 164791.754761
   orbit:

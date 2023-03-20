@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by deadly earthquakes.
     inhabitants: Fierce Harmless Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.296121, 0.444684, 0.805905, 1]
   radius: 122368.334351
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Reonar is scourged by killer edible arts graduates.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.799135, 0.802626, 0.810742, 1]
   radius: 201843.154297
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Esbeena is scourged by evil disease.
     inhabitants: Small Red Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.770007, 0.513951, 0.479369, 1]
   radius: 119607.470245
   orbit:

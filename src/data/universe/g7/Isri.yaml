@@ -41,7 +41,7 @@ bodies:
     description: The planet Isri is reasonably fabled for its fabulous cuisine and its ancient Isriian Ouetonle banana plantations.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.78093, 0.782566, 0.786484, 1]
   radius: 55046.181335
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Somate is an unremarkable planet.
     inhabitants: Fierce Red Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.699924, 0.5534, 0.503326, 1]
   radius: 107304.046631
   orbit:

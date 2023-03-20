@@ -41,7 +41,7 @@ bodies:
     description: This planet is a dull world.
     inhabitants: Yellow Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.789401, 0.785184, 0.777693, 1]
   radius: 189878.663635
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Sotiqu is famous for its exotic goat soup but ravaged by killer disease.
     inhabitants: Fierce Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.663593, 0.411385, 0.285864, 1]
   radius: 134358.061066
   orbit:

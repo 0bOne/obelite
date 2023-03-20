@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by unpredictable civil war.
     inhabitants: Blue Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.352716, 0.550642, 0.700912, 1]
   radius: 124716.636047
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Biorle is a dull world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.577615, 0.61041, 0.688547, 1]
   radius: 108699.627686
   orbit:

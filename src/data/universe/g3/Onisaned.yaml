@@ -41,7 +41,7 @@ bodies:
     description: Onisaned is mildly notable for its inhabitants’ unusual mating traditions.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.470563, 0.731847, 0.781522, 1]
   radius: 207182.365112
   orbit:

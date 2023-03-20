@@ -41,7 +41,7 @@ bodies:
     description: The world Eresen is most famous for the Eresenian spotted shrew.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.738383, 0.777171, 0.785199, 1]
   radius: 64904.937744
   orbit:

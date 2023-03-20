@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for Usoronian lethal brandy and its exotic night life.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.366502, 0.586675, 0.827844, 1]
   radius: 99135.461731
   orbit:

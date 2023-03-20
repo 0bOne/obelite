@@ -41,7 +41,7 @@ bodies:
     description: The planet Orrira is cursed by killer edible talking treeoids.
     inhabitants: Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.709161, 0.621117, 0.439355, 1]
   radius: 148341.905518
   orbit:

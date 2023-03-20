@@ -41,7 +41,7 @@ bodies:
     description: Arvelele is mildly famous for its unusual casinos and its vast oceans.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.245824, 0.306326, 0.836847, 1]
   radius: 121392.285156
   orbit:

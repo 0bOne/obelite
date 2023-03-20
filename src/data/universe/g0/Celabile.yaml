@@ -41,7 +41,7 @@ bodies:
     description: The planet Celabile is most famous for the Celabileian evil poet and Zero-G hockey.
     inhabitants: Fierce Blue Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.211073, 0.409362, 0.702292, 1]
   radius: 112926.780548
   orbit:

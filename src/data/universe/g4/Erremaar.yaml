@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably noted for Zero-G hockey.
     inhabitants: Green Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.189727, 0.420733, 0.677637, 1]
   radius: 55732.615967
   orbit:

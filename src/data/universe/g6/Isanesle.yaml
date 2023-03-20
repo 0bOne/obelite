@@ -41,7 +41,7 @@ bodies:
     description: Isanesle is most famous for its vast oceans and its inhabitants’ eccentric shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.702812, 0.711524, 0.729251, 1]
   radius: 172857.104492
   orbit:

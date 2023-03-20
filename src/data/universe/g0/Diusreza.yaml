@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for its inhabitants’ eccentric love for tourists but beset by deadly edible moths.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.418406, 0.55664, 0.806241, 1]
   radius: 173245.367432
   orbit:

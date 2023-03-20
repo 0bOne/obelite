@@ -41,7 +41,7 @@ bodies:
     description: The world Vegera is mildly noted for its ancient mountains but plagued by vicious disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.366178, 0.400214, 0.793277, 1]
   radius: 99196.410828
   orbit:

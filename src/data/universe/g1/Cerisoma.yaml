@@ -41,7 +41,7 @@ bodies:
     description: The planet Cerisoma is most noted for its inhabitants’ exceptional loathing of food blenders and its exciting sit coms.
     inhabitants: Fierce Yellow Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.758426, 0.638601, 0.557617, 1]
   radius: 101612.091064
   orbit:

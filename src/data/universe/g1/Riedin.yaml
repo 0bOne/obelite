@@ -41,7 +41,7 @@ bodies:
     description: This world is fabled for its unusual tropical forests.
     inhabitants: Blue Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.555103, 0.690649, 0.80957, 1]
   radius: 106175.302124
   orbit:

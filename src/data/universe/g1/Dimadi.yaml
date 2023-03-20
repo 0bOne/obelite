@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for Zero-G cricket but cursed by unpredictable solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.848621, 0.66086, 0.643345, 1]
   radius: 212314.927826
   orbit:

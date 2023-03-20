@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Maleveian lethal brandy but scourged by deadly tree ants.
     inhabitants: Small Yellow Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.40326, 0.517302, 0.787387, 1]
   radius: 157075.073242
   orbit:

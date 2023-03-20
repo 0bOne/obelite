@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for its inhabitants’ unusual mating traditions and its vast rain forests.
     inhabitants: Large Black Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.347582, 0.614154, 0.718301, 1]
   radius: 60853.582764
   orbit:

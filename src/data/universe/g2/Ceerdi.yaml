@@ -41,7 +41,7 @@ bodies:
     description: Ceerdi is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.578621, 0.660113, 0.66105, 1]
   radius: 127942.028503
   orbit:

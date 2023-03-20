@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for the Arianesian spotted leopard but plagued by vicious disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.707532, 0.654538, 0.588748, 1]
   radius: 168439.76944
   orbit:

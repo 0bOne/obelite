@@ -41,7 +41,7 @@ bodies:
     description: The planet Xericebi is cursed by deadly civil war.
     inhabitants: Large Red Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.249565, 0.743788, 0.798941, 1]
   radius: 75943.059692
   orbit:

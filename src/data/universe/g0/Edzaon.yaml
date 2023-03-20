@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for Edzaonian lethal water but plagued by occasional solar activity.
     inhabitants: Yellow Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.427794, 0.580826, 0.747125, 1]
   radius: 124393.806763
   orbit:

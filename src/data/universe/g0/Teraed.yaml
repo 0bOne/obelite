@@ -41,7 +41,7 @@ bodies:
     description: Teraed is an unremarkable dump.
     inhabitants: Yellow Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.815857, 0.814772, 0.810908, 1]
   radius: 147173.39859
   orbit:

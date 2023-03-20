@@ -41,7 +41,7 @@ bodies:
     description: The planet Ditegere is most well known for its hoopy night life.
     inhabitants: Blue Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.723914, 0.775274, 0.83638, 1]
   radius: 131403.335876
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its fabulous vicious Bi gargle blasters.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.187785, 0.429806, 0.714789, 1]
   radius: 173327.876587
   orbit:

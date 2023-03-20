@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its vast rain forests and its great dense forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.759467, 0.749522, 0.640055, 1]
   radius: 122085.927429
   orbit:

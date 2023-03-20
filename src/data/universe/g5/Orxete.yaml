@@ -41,7 +41,7 @@ bodies:
     description: The planet Orxete is very noted for its unusual sit coms but plagued by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.722217, 0.70441, 0.560675, 1]
   radius: 107019.507751
   orbit:

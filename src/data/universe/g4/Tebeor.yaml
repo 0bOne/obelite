@@ -41,7 +41,7 @@ bodies:
     description: Tebeor is mildly well known for its hoopy night life.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.554732, 0.63212, 0.750018, 1]
   radius: 160702.860718
   orbit:

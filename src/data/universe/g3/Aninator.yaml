@@ -41,7 +41,7 @@ bodies:
     description: The planet Aninator is cursed by deadly civil war.
     inhabitants: Green Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.791452, 0.82846, 0.828873, 1]
   radius: 142417.957306
   orbit:

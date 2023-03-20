@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for the Lalaleian evil Reoid.
     inhabitants: Yellow Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.542775, 0.75717, 0.849753, 1]
   radius: 108849.6698
   orbit:

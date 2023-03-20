@@ -41,7 +41,7 @@ bodies:
     description: The planet Uscearti is reasonably fabled for its fabulous vicious Innoilza gargle blasters and its exciting sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.650939, 0.665445, 0.811395, 1]
   radius: 125195.083618
   orbit:

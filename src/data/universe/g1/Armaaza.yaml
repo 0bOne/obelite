@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for Armaazaian lethal water but plagued by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.771475, 0.43144, 0.23779, 1]
   radius: 132411.86142
   orbit:

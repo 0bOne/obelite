@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for the Leazaian mountain poet but scourged by deadly solar activity.
     inhabitants: Large Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.667014, 0.311718, 0.275201, 1]
   radius: 60729.306793
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Digebiti is cursed by killer mountain Seoids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.682144, 0.49475, 0.253964, 1]
   radius: 185181.762085
   orbit:

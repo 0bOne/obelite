@@ -41,7 +41,7 @@ bodies:
     description: Ceenerus is most noted for the Ceenerusian deadly lobstoid and the Ceenerusian spotted shrew.
     inhabitants: Fierce Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.650232, 0.57713, 0.461766, 1]
   radius: 73176.339111
   orbit:

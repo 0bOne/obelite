@@ -41,7 +41,7 @@ bodies:
     description: The planet Beored is reasonably noted for its exotic fish meat and its exciting sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.513452, 0.680674, 0.757907, 1]
   radius: 99648.980713
   orbit:

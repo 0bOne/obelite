@@ -41,7 +41,7 @@ bodies:
     description: The planet Geerbi is famous for Geerbiian wolf cutlet but plagued by vicious disease.
     inhabitants: Large Green Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.366062, 0.396586, 0.66012, 1]
   radius: 67350.219727
   orbit:

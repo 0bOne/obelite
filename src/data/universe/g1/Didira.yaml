@@ -41,7 +41,7 @@ bodies:
     description: The planet Didira is well known for its inhabitants’ weird silliness but ravaged by unpredictable solar activity.
     inhabitants: Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.646387, 0.755566, 0.807138, 1]
   radius: 129872.004395
   orbit:

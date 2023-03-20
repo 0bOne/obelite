@@ -41,7 +41,7 @@ bodies:
     description: Onarmala is an unremarkable dump.
     inhabitants: Yellow Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.844305, 0.847, 0.459633, 1]
   radius: 185488.082886
   orbit:

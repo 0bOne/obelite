@@ -41,7 +41,7 @@ bodies:
     description: The world Laedon is mildly noted for the Laedonian mountain lobstoid but beset by deadly earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.392266, 0.494773, 0.680331, 1]
   radius: 127651.326599
   orbit:

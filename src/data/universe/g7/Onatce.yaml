@@ -41,7 +41,7 @@ bodies:
     description: The planet Onatce is scourged by deadly edible arts graduates.
     inhabitants: Green Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.295821, 0.31842, 0.69798, 1]
   radius: 175030.225983
   orbit:

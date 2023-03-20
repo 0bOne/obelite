@@ -41,7 +41,7 @@ bodies:
     description: Esdirece is a revolting little planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.732631, 0.762508, 0.780365, 1]
   radius: 99456.526184
   orbit:

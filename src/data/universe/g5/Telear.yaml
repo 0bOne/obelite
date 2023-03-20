@@ -41,7 +41,7 @@ bodies:
     description: The world Telear is scourged by evil disease.
     inhabitants: Red Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.615631, 0.772283, 0.810791, 1]
   radius: 156875.404053
   orbit:

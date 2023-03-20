@@ -41,7 +41,7 @@ bodies:
     description: The world Inlain is mildly fabled for its inhabitants’ eccentric love for poetry but ravaged by unpredictable civil war.
     inhabitants: Blue Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.47261, 0.696456, 0.833862, 1]
   radius: 138128.390503
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Atlaeser is most famous for its vast dense forests and its great parking meters.
     inhabitants: Red Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.45904, 0.758923, 0.759222, 1]
   radius: 80282.076721
   orbit:

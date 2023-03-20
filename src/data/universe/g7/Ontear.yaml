@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Ontearian Onrese water but scourged by deadly tree ants.
     inhabitants: Red Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.179599, 0.231353, 0.691736, 1]
   radius: 196467.759705
   orbit:

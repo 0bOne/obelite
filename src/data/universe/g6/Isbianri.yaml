@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably notable for its exotic cuisine but ravaged by vicious disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.651151, 0.750641, 0.783603, 1]
   radius: 169450.182037
   orbit:

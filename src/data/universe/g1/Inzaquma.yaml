@@ -41,7 +41,7 @@ bodies:
     description: This planet is very well known for its inhabitants’ unusual mating traditions and its exotic night life.
     inhabitants: Green Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.398155, 0.748759, 0.77735, 1]
   radius: 119893.220673
   orbit:

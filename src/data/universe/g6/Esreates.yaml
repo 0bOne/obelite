@@ -41,7 +41,7 @@ bodies:
     description: Esreates is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.827249, 0.627965, 0.514787, 1]
   radius: 116013.446045
   orbit:

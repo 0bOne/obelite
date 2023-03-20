@@ -41,7 +41,7 @@ bodies:
     description: This planet is very well known for its inhabitants’ unusual silliness and its fabulous cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.787988, 0.784381, 0.623828, 1]
   radius: 151797.901917
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for the Integeian tree ant and its inhabitants’ ancient loathing of sit coms.
     inhabitants: Yellow Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.593179, 0.678776, 0.690033, 1]
   radius: 130582.591248
   orbit:

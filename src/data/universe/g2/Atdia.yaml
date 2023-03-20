@@ -41,7 +41,7 @@ bodies:
     description: The world Atdia is most famous for the Atdiaian spotted leopard.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.527225, 0.66739, 0.689816, 1]
   radius: 102881.069794
   orbit:

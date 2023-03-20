@@ -41,7 +41,7 @@ bodies:
     description: The planet Diesdi is an unremarkable dump.
     inhabitants: Harmless Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.779797, 0.485296, 0.239623, 1]
   radius: 178892.467346
   orbit:

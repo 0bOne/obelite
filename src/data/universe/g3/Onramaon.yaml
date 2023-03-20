@@ -41,7 +41,7 @@ bodies:
     description: The planet Onramaon is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained silliness.
     inhabitants: Yellow Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.398052, 0.66133, 0.66181, 1]
   radius: 208360.654602
   orbit:

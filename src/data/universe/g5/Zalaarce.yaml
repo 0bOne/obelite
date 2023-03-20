@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Zalaarceian edible poet and Zalaarceian evil juice.
     inhabitants: Fierce Red Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.503707, 0.559769, 0.76102, 1]
   radius: 68671.743164
   orbit:

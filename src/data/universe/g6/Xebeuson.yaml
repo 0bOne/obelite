@@ -41,7 +41,7 @@ bodies:
     description: The world Xebeuson is a boring world.
     inhabitants: Large Green Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.721259, 0.442988, 0.330515, 1]
   radius: 92968.033447
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is a dull world.
     inhabitants: Black Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.682269, 0.638662, 0.573895, 1]
   radius: 204669.992371
   orbit:

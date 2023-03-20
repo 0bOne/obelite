@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for its inhabitants’ ancient mating traditions.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.240378, 0.435814, 0.802118, 1]
   radius: 166912.416992
   orbit:

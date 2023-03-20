@@ -41,7 +41,7 @@ bodies:
     description: The planet Esenesce is an unremarkable planet.
     inhabitants: Small Black Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.310826, 0.36386, 0.75242, 1]
   radius: 92978.019104
   orbit:

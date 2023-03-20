@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for its inhabitants’ exceptional love for tourists.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.763998, 0.642605, 0.45238, 1]
   radius: 140657.37793
   orbit:

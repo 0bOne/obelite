@@ -41,7 +41,7 @@ bodies:
     description: Insoaza is famous for Insoazaian wolf cutlet but beset by evil disease.
     inhabitants: Black Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.599889, 0.792431, 0.819543, 1]
   radius: 161449.419098
   orbit:

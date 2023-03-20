@@ -41,7 +41,7 @@ bodies:
     description: Erinain is mildly famous for its vast rain forests and its great dense forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.686264, 0.671588, 0.456827, 1]
   radius: 70749.299927
   orbit:

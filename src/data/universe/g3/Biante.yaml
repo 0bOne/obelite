@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for its exciting sit coms.
     inhabitants: Fierce Blue Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.623076, 0.633451, 0.710483, 1]
   radius: 124321.911926
   orbit:

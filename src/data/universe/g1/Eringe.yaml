@@ -41,7 +41,7 @@ bodies:
     description: Eringe is well known for its inhabitants’ unusual silliness but cursed by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.307963, 0.608666, 0.673306, 1]
   radius: 69046.113281
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Erbierso is cursed by deadly civil war.
     inhabitants: Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.674647, 0.685373, 0.743912, 1]
   radius: 60913.864136
   orbit:

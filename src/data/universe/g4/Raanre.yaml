@@ -41,7 +41,7 @@ bodies:
     description: The world Raanre is beset by evil disease.
     inhabitants: Harmless Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.753149, 0.665948, 0.3807, 1]
   radius: 108329.503784
   orbit:

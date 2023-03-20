@@ -41,7 +41,7 @@ bodies:
     description: The world Isteesge is scourged by deadly disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.693048, 0.502568, 0.281953, 1]
   radius: 206492.907715
   orbit:

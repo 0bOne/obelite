@@ -41,7 +41,7 @@ bodies:
     description: Tibecea is very fabled for the Tibeceaian edible poet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.747104, 0.509349, 0.508775, 1]
   radius: 138146.409912
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is noted for its exciting vacuum karate.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.320785, 0.555321, 0.729199, 1]
   radius: 75382.041931
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is fabled for its ancient Engeanian On banana plantations.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.604203, 0.746313, 0.831653, 1]
   radius: 93009.565582
   orbit:

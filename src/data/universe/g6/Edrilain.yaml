@@ -41,7 +41,7 @@ bodies:
     description: The planet Edrilain is mildly notable for Edrilainian lethal water.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.786896, 0.780236, 0.628654, 1]
   radius: 148268.975525
   orbit:

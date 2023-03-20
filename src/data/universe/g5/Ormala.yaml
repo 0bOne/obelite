@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its exciting vacuum karate.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.848285, 0.723637, 0.240117, 1]
   radius: 99853.5495
   orbit:

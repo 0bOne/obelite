@@ -41,7 +41,7 @@ bodies:
     description: This world is plagued by deadly earthquakes.
     inhabitants: Small Red Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.664657, 0.674329, 0.67767, 1]
   radius: 179379.647827
   orbit:

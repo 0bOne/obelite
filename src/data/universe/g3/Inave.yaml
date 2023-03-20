@@ -41,7 +41,7 @@ bodies:
     description: The world Inave is reasonably famous for its inhabitants’ exceptional loathing of casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.579251, 0.664446, 0.680051, 1]
   radius: 164619.054565
   orbit:

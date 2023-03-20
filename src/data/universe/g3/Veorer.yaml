@@ -41,7 +41,7 @@ bodies:
     description: The world Veorer is very noted for its pink Veorerian Cenureit Cenureitweed plantations but scourged by deadly solar activity.
     inhabitants: Red Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.690737, 0.7745, 0.823248, 1]
   radius: 84476.217651
   orbit:

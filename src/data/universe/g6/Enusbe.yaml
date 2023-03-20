@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for the Enusbeian tree snake and its unusual casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.444839, 0.638175, 0.700217, 1]
   radius: 102870.20874
   orbit:

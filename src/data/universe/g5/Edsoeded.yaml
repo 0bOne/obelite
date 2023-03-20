@@ -41,7 +41,7 @@ bodies:
     description: Edsoeded is mildly well known for its hoopy night life.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.229624, 0.554222, 0.782184, 1]
   radius: 153587.386017
   orbit:

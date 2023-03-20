@@ -41,7 +41,7 @@ bodies:
     description: Tileen is famous for its inhabitants’ ancient loathing of discos but ravaged by lethal spotted craboids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.670612, 0.644993, 0.634664, 1]
   radius: 110921.499329
   orbit:

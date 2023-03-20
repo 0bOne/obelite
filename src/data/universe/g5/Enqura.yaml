@@ -41,7 +41,7 @@ bodies:
     description: This planet is very well known for its inhabitants’ ancient loathing of discos and the Enquraian evil Beabbeaboid.
     inhabitants: Green Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.815683, 0.74083, 0.534884, 1]
   radius: 104452.6651
   orbit:

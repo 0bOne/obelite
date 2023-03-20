@@ -41,7 +41,7 @@ bodies:
     description: Ananri is famous for Ananriian wolf cutlet but plagued by deadly earthquakes.
     inhabitants: Blue Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.272097, 0.422816, 0.684024, 1]
   radius: 186079.031677
   orbit:

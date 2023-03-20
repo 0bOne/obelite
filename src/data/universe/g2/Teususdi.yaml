@@ -41,7 +41,7 @@ bodies:
     description: The world Teususdi is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.684711, 0.684296, 0.678873, 1]
   radius: 152014.585419
   orbit:

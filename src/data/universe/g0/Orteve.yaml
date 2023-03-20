@@ -41,7 +41,7 @@ bodies:
     description: This world is fabled for its fabulous vicious Gezabeza gargle blasters.
     inhabitants: Black Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.688882, 0.564156, 0.493518, 1]
   radius: 141170.63385
   orbit:

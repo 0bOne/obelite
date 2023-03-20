@@ -41,7 +41,7 @@ bodies:
     description: Esgelage is mildly well known for its exotic night life and Esgelageian Oubeouab brandy.
     inhabitants: Small Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.732025, 0.581131, 0.324366, 1]
   radius: 124362.487793
   orbit:

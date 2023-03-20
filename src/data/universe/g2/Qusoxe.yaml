@@ -41,7 +41,7 @@ bodies:
     description: Qusoxe is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.729321, 0.719576, 0.692731, 1]
   radius: 75148.048096
   orbit:

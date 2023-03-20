@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ ingrained shyness.
     inhabitants: Black Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.493926, 0.514526, 0.816074, 1]
   radius: 191912.360535
   orbit:

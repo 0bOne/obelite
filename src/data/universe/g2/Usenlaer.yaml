@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its fabulous cuisine and the Usenlaerian mountain Beoid.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.174953, 0.652628, 0.656903, 1]
   radius: 135881.706543
   orbit:

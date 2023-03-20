@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Atistisoian edible poet and Atistisoian evil brandy.
     inhabitants: Red Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.450206, 0.577883, 0.724002, 1]
   radius: 73191.800537
   orbit:

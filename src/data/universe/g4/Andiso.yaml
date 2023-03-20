@@ -41,7 +41,7 @@ bodies:
     description: Andiso is cursed by killer mountain goats.
     inhabitants: Black Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.721193, 0.806628, 0.847638, 1]
   radius: 113987.067566
   orbit:

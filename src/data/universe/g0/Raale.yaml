@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for the Raaleian edible poet.
     inhabitants: Blue Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.514647, 0.559371, 0.73082, 1]
   radius: 99498.25058
   orbit:

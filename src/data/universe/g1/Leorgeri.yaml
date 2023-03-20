@@ -41,7 +41,7 @@ bodies:
     description: The world Leorgeri is a dull place.
     inhabitants: Large Red Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.841867, 0.586658, 0.376757, 1]
   radius: 74590.639648
   orbit:

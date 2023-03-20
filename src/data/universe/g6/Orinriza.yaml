@@ -41,7 +41,7 @@ bodies:
     description: Orinriza is famous for its exotic fish meat but scourged by deadly solar activity.
     inhabitants: Black Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.680034, 0.681574, 0.59887, 1]
   radius: 148546.071167
   orbit:

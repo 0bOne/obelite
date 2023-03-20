@@ -41,7 +41,7 @@ bodies:
     description: Inve is reasonably notable for its great volcanoes but plagued by lethal spotted snails.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.743451, 0.736221, 0.733743, 1]
   radius: 113553.467102
   orbit:

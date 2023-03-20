@@ -41,7 +41,7 @@ bodies:
     description: The planet Rarere is mildly notable for Rarereian lethal brandy.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.531524, 0.571799, 0.723837, 1]
   radius: 100770.861969
   orbit:

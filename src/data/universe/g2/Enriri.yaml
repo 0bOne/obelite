@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its hoopy night life and its exotic cuisine.
     inhabitants: Harmless Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.411454, 0.732189, 0.743033, 1]
   radius: 71474.55368
   orbit:

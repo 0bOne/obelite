@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for its ancient Rilalelaian Loenstet banana plantations but cursed by dreadful civil war.
     inhabitants: Harmless Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.332452, 0.391951, 0.758759, 1]
   radius: 194300.565033
   orbit:

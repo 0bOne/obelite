@@ -41,7 +41,7 @@ bodies:
     description: Usceed is most noted for the Usceedian deadly lobstoid and its pink Usceedian Benulobi Benulobiweed plantations.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.697675, 0.643694, 0.556449, 1]
   radius: 92332.681732
   orbit:

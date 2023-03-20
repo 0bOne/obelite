@@ -41,7 +41,7 @@ bodies:
     description: The world Raaran is a boring world.
     inhabitants: Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.805634, 0.436671, 0.211698, 1]
   radius: 88025.647583
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by unpredictable civil war.
     inhabitants: Fierce Yellow Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.757355, 0.453888, 0.352551, 1]
   radius: 100254.573364
   orbit:

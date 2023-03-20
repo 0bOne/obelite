@@ -41,7 +41,7 @@ bodies:
     description: The planet Cediza is famous for Cedizaian wolf meat but scourged by deadly civil war.
     inhabitants: Fierce Green Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.785605, 0.685163, 0.291863, 1]
   radius: 124350.314941
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Vegeedat is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.585378, 0.636043, 0.682394, 1]
   radius: 117498.382568
   orbit:

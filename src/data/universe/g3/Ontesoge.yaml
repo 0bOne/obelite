@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for its hoopy night life and Ontesogeian lethal brandy.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.752582, 0.745979, 0.371663, 1]
   radius: 233842.365417
   orbit:

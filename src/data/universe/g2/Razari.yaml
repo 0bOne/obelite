@@ -41,7 +41,7 @@ bodies:
     description: The planet Razari is well known for the Razariian tree wolf but beset by deadly solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.801132, 0.682868, 0.669082, 1]
   radius: 95972.875366
   orbit:

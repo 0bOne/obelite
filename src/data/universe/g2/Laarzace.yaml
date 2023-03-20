@@ -41,7 +41,7 @@ bodies:
     description: The planet Laarzace is a boring world.
     inhabitants: Harmless Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.246903, 0.483899, 0.830392, 1]
   radius: 134926.217651
   orbit:

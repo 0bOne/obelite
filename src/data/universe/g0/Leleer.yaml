@@ -41,7 +41,7 @@ bodies:
     description: The world Leleer is very noted for its pink Leleerian Er plant plantations but beset by frequent civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.330061, 0.574241, 0.813336, 1]
   radius: 106508.42865
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Isdilaon is reasonably well known for its great dense forests but beset by deadly tree snakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.587009, 0.727276, 0.784891, 1]
   radius: 168135.684814
   orbit:

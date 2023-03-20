@@ -41,7 +41,7 @@ bodies:
     description: The planet Maesaron is an unremarkable dump.
     inhabitants: Small Harmless Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.536432, 0.560718, 0.78157, 1]
   radius: 142751.075592
   orbit:

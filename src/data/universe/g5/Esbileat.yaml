@@ -41,7 +41,7 @@ bodies:
     description: The planet Esbileat is scourged by deadly disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.849976, 0.724189, 0.448281, 1]
   radius: 135661.577148
   orbit:

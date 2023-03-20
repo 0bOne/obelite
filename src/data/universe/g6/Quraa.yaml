@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious little planet.
     inhabitants: Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.731851, 0.759137, 0.848355, 1]
   radius: 135343.234863
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is very well known for its inhabitants’ weird shyness and the Quinmabeian mountain Nusealoid.
     inhabitants: Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.840466, 0.457366, 0.364886, 1]
   radius: 138372.410278
   orbit:

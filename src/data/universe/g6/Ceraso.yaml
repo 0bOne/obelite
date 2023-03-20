@@ -41,7 +41,7 @@ bodies:
     description: The planet Ceraso is reasonably fabled for its exciting sit coms and its inhabitants’ exceptional love for food blenders.
     inhabitants: Fierce Yellow Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.807275, 0.42743, 0.256899, 1]
   radius: 101294.223328
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for Tibediedian Arma brandy but scourged by deadly edible grubs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.781, 0.520397, 0.402831, 1]
   radius: 150815.429688
   orbit:

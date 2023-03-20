@@ -41,7 +41,7 @@ bodies:
     description: This planet is a tedious place.
     inhabitants: Yellow Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.694556, 0.694806, 0.601766, 1]
   radius: 116110.059357
   orbit:

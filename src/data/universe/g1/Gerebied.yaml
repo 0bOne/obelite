@@ -41,7 +41,7 @@ bodies:
     description: The world Gerebied is reasonably noted for its inhabitants’ exceptional loathing of food blenders.
     inhabitants: Large Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.764395, 0.280294, 0.238118, 1]
   radius: 91553.372803
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Oranesri is very notable for its inhabitants’ weird shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.834738, 0.524383, 0.499845, 1]
   radius: 148070.681763
   orbit:

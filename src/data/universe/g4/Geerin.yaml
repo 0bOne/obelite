@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for its inhabitants’ exceptional loathing of casinos.
     inhabitants: Large Red Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.602839, 0.699831, 0.732434, 1]
   radius: 96394.622803
   orbit:

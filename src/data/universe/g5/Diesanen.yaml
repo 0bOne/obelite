@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for Diesanenian lethal brandy but beset by evil disease.
     inhabitants: Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.664255, 0.751463, 0.760086, 1]
   radius: 122071.299744
   orbit:

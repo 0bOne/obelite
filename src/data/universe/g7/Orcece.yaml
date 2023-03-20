@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for its inhabitants’ exceptional love for tourists.
     inhabitants: Blue Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.82576, 0.631667, 0.32295, 1]
   radius: 143168.481445
   orbit:

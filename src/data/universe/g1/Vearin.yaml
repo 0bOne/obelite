@@ -41,7 +41,7 @@ bodies:
     description: Vearin is most famous for its pink Vearinian A’stou A’stouweed plantations and its exciting Vearinian evil juice.
     inhabitants: Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.204105, 0.631215, 0.766754, 1]
   radius: 113184.253235
   orbit:

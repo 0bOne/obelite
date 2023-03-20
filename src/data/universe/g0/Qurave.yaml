@@ -41,7 +41,7 @@ bodies:
     description: The planet Qurave is mildly notable for Quraveian Aron water.
     inhabitants: Blue Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.810999, 0.501697, 0.265156, 1]
   radius: 139654.872894
   orbit:

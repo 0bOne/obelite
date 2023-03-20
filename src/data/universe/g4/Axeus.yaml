@@ -41,7 +41,7 @@ bodies:
     description: The world Axeus is a boring world.
     inhabitants: Red Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.463135, 0.668645, 0.77533, 1]
   radius: 155254.067688
   orbit:

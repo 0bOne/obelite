@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting dump.
     inhabitants: Fierce Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.343603, 0.385629, 0.849823, 1]
   radius: 94597.72171
   orbit:

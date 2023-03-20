@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for Inbeedian lethal brandy but beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.765677, 0.686892, 0.562975, 1]
   radius: 96455.493164
   orbit:

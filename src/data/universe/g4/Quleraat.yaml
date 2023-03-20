@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its great volcanoes but plagued by evil tree leopards.
     inhabitants: Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.588166, 0.686195, 0.819205, 1]
   radius: 141365.219574
   orbit:

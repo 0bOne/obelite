@@ -41,7 +41,7 @@ bodies:
     description: Enlaus is mildly well known for Enlausian shrew cutlet and the Enlausian edible moth.
     inhabitants: Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.514248, 0.638969, 0.720569, 1]
   radius: 68748.799591
   orbit:

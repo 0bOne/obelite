@@ -41,7 +41,7 @@ bodies:
     description: The planet Tiorra is most noted for its inhabitants’ exceptional loathing of sit coms and Tiorraian wolf meat.
     inhabitants: Blue Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.812469, 0.69054, 0.221611, 1]
   radius: 127602.080688
   orbit:

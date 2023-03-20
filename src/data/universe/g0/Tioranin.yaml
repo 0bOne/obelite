@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for Tioraninian vicious brew but ravaged by unpredictable civil war.
     inhabitants: Green Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.595645, 0.633129, 0.658536, 1]
   radius: 125398.643494
   orbit:

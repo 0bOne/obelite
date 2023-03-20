@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its ancient Biraaian Geer banana plantations.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.666649, 0.668311, 0.499262, 1]
   radius: 105483.429413
   orbit:

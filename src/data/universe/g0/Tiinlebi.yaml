@@ -41,7 +41,7 @@ bodies:
     description: The planet Tiinlebi is most noted for the Tiinlebiian mountain slug and its inhabitants’ exceptional loathing of food blenders.
     inhabitants: Green Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.818707, 0.80436, 0.634852, 1]
   radius: 102718.578339
   orbit:

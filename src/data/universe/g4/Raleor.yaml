@@ -41,7 +41,7 @@ bodies:
     description: The planet Raleor is scourged by killer edible Leilcearoids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.553082, 0.687878, 0.799643, 1]
   radius: 80079.178772
   orbit:

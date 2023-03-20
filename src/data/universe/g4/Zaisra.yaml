@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for Zaisraian vicious water but plagued by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.698624, 0.635018, 0.267375, 1]
   radius: 109513.94043
   orbit:

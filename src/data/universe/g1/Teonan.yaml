@@ -41,7 +41,7 @@ bodies:
     description: The planet Teonan is mildly well known for its hoopy night life.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.499167, 0.530743, 0.677124, 1]
   radius: 119157.50885
   orbit:

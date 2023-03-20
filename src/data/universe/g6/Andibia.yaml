@@ -41,7 +41,7 @@ bodies:
     description: The planet Andibia is famous for Andibiaian wolf meat but beset by deadly edible moths.
     inhabitants: Harmless Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.600859, 0.746314, 0.749335, 1]
   radius: 145488.430481
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Raave is a boring world.
     inhabitants: Black Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.658688, 0.656747, 0.646333, 1]
   radius: 97746.237183
   orbit:

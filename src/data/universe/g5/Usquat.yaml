@@ -41,7 +41,7 @@ bodies:
     description: The world Usquat is reasonably famous for the Usquatian evil arts graduate.
     inhabitants: Small Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.7853, 0.730587, 0.671614, 1]
   radius: 156980.869751
   orbit:

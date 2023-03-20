@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for its inhabitants’ ingrained silliness but scourged by deadly edible poets.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.793835, 0.672795, 0.436869, 1]
   radius: 130621.71936
   orbit:

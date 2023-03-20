@@ -41,7 +41,7 @@ bodies:
     description: The world Arlale is fabled for its ancient Arlaleian Enalno banana plantations and its hoopy night life.
     inhabitants: Small Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.601057, 0.619088, 0.707086, 1]
   radius: 106482.821808
   orbit:

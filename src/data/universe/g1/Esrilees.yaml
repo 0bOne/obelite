@@ -41,7 +41,7 @@ bodies:
     description: The world Esrilees is notable for its unusual tropical forests and its fabulous Esrileesian lethal water.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.201978, 0.2599, 0.737769, 1]
   radius: 127942.717896
   orbit:

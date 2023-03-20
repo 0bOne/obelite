@@ -41,7 +41,7 @@ bodies:
     description: The planet Cerianon is an unremarkable dump.
     inhabitants: Fierce Harmless Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.654755, 0.418836, 0.383153, 1]
   radius: 75471.476288
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by deadly earthquakes.
     inhabitants: Green Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.724799, 0.474011, 0.452667, 1]
   radius: 127255.202484
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Issoinen is very noted for its ancient mountains but ravaged by occasional earthquakes.
     inhabitants: Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.751135, 0.542595, 0.488087, 1]
   radius: 193359.523315
   orbit:

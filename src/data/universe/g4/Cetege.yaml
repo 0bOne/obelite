@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for the Cetegeian tree snake and Cetegeian shrew steak.
     inhabitants: Large Red Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.503626, 0.601212, 0.752621, 1]
   radius: 85967.203674
   orbit:

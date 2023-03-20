@@ -41,7 +41,7 @@ bodies:
     description: The world Reatqu is very famous for its fabulous monkey burgers but beset by deadly solar activity.
     inhabitants: Red Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.829657, 0.775381, 0.446689, 1]
   radius: 124168.377991
   orbit:

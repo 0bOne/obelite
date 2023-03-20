@@ -41,7 +41,7 @@ bodies:
     description: The world Teenatle is very famous for its unusual casinos but beset by lethal disease.
     inhabitants: Yellow Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.828888, 0.699215, 0.552071, 1]
   radius: 138656.889496
   orbit:

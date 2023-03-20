@@ -41,7 +41,7 @@ bodies:
     description: The planet Erorle is well known for its inhabitants’ weird silliness but ravaged by occasional earthquakes.
     inhabitants: Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.704172, 0.603449, 0.517196, 1]
   radius: 75867.975769
   orbit:

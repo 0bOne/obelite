@@ -41,7 +41,7 @@ bodies:
     description: The world Soteve is scourged by killer edible arts graduates.
     inhabitants: Fierce Black Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.839145, 0.452499, 0.306808, 1]
   radius: 100032.082062
   orbit:

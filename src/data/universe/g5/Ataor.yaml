@@ -41,7 +41,7 @@ bodies:
     description: Ataor is famous for its inhabitants’ exceptional love for food blenders but scourged by frequent civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.775421, 0.648664, 0.553838, 1]
   radius: 68995.056152
   orbit:

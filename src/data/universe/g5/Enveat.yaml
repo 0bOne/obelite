@@ -41,7 +41,7 @@ bodies:
     description: The planet Enveat is famous for Enveatian wolf meat but beset by deadly edible moths.
     inhabitants: Green Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.513088, 0.78497, 0.831354, 1]
   radius: 71202.545166
   orbit:

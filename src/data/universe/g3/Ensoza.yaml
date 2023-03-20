@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for the Ensozaian spotted cat.
     inhabitants: Red Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.80517, 0.556424, 0.249401, 1]
   radius: 112089.524384
   orbit:

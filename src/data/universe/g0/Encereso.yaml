@@ -41,7 +41,7 @@ bodies:
     description: Encereso is cursed by dreadful civil war.
     inhabitants: Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.454662, 0.475182, 0.837946, 1]
   radius: 103859.12735
   orbit:

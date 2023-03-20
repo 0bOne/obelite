@@ -41,7 +41,7 @@ bodies:
     description: The planet Zalaqura is most famous for the Zalaquraian spotted wolf.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.792215, 0.72815, 0.719831, 1]
   radius: 81050.361328
   orbit:

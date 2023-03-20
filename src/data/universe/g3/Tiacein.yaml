@@ -41,7 +41,7 @@ bodies:
     description: The world Tiacein is beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.828665, 0.820325, 0.81683, 1]
   radius: 116319.895935
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Lausmaes is scourged by deadly tree grubs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.70567, 0.608038, 0.192238, 1]
   radius: 82502.329102
   orbit:

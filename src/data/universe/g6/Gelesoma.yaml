@@ -41,7 +41,7 @@ bodies:
     description: The planet Gelesoma is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.766632, 0.682744, 0.50908, 1]
   radius: 83996.383667
   orbit:

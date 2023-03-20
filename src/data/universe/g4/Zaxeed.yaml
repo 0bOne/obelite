@@ -41,7 +41,7 @@ bodies:
     description: The planet Zaxeed is cursed by deadly civil war.
     inhabitants: Fierce Yellow Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.802808, 0.640746, 0.293072, 1]
   radius: 98926.25885
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by occasional solar activity.
     inhabitants: Small Yellow Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.631825, 0.705097, 0.715176, 1]
   radius: 129286.678162
   orbit:

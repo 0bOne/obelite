@@ -41,7 +41,7 @@ bodies:
     description: Soorte is a revolting little planet.
     inhabitants: Fierce Red Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.239421, 0.314288, 0.770502, 1]
   radius: 114200.798035
   orbit:

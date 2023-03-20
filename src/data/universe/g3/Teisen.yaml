@@ -41,7 +41,7 @@ bodies:
     description: Teisen is reasonably well known for its vast oceans but ravaged by lethal spotted craboids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.690469, 0.736179, 0.814694, 1]
   radius: 196017.059326
   orbit:

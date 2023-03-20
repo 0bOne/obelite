@@ -41,7 +41,7 @@ bodies:
     description: The world Zaaner is mildly noted for its pink Zaanerian Alusabus plant plantations but beset by frequent civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.580385, 0.695007, 0.804495, 1]
   radius: 103747.675781
   orbit:

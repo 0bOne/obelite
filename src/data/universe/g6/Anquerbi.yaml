@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its hoopy night life and its fabulous cuisine.
     inhabitants: Black Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.73739, 0.524641, 0.368262, 1]
   radius: 120436.505127
   orbit:

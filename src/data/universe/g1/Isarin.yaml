@@ -41,7 +41,7 @@ bodies:
     description: The world Isarin is beset by lethal disease.
     inhabitants: Blue Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.816269, 0.724945, 0.21197, 1]
   radius: 151775.935669
   orbit:

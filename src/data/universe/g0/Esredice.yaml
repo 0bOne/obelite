@@ -41,7 +41,7 @@ bodies:
     description: The world Esredice is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.435626, 0.49996, 0.71835, 1]
   radius: 126631.226349
   orbit:

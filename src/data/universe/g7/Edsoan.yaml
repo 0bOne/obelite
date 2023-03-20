@@ -41,7 +41,7 @@ bodies:
     description: The planet Edsoan is well known for its inhabitants’ ancient mating traditions but ravaged by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.791168, 0.559367, 0.200617, 1]
   radius: 144189.711761
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting little planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.680542, 0.675685, 0.670534, 1]
   radius: 116185.821533
   orbit:

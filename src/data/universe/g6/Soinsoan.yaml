@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for its unusual tropical forests.
     inhabitants: Fierce Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.746808, 0.444016, 0.322959, 1]
   radius: 119961.070557
   orbit:

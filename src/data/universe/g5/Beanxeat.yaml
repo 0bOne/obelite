@@ -41,7 +41,7 @@ bodies:
     description: The world Beanxeat is notable for its unusual oceans and the Beanxeatian evil poet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.721698, 0.565223, 0.357666, 1]
   radius: 78273.033142
   orbit:

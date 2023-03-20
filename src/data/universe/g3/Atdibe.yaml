@@ -41,7 +41,7 @@ bodies:
     description: The planet Atdibe is very noted for its exciting Zero-G hockey but ravaged by vicious disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.682697, 0.596935, 0.54712, 1]
   radius: 76649.63562
   orbit:

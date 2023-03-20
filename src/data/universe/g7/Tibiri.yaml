@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Tibiriian tree snake and its unusual casinos.
     inhabitants: Blue Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.352185, 0.37743, 0.788412, 1]
   radius: 128371.634674
   orbit:

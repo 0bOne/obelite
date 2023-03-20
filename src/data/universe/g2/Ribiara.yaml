@@ -41,7 +41,7 @@ bodies:
     description: The world Ribiara is very famous for its unusual casinos but beset by deadly earthquakes.
     inhabitants: Green Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.534779, 0.601803, 0.671835, 1]
   radius: 183498.132172
   orbit:

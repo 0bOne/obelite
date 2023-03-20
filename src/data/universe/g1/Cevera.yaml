@@ -41,7 +41,7 @@ bodies:
     description: The planet Cevera is most well known for its hoopy casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.222118, 0.490056, 0.652176, 1]
   radius: 95624.719238
   orbit:

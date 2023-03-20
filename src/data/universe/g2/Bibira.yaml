@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for the Bibiraian tree wolf and its pink oceans.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.687039, 0.712053, 0.722824, 1]
   radius: 100876.501465
   orbit:

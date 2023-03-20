@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for the Beenriian mountain A’oid but plagued by unpredictable civil war.
     inhabitants: Harmless Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.778296, 0.250683, 0.21677, 1]
   radius: 109390.46051
   orbit:

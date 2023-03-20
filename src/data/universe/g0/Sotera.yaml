@@ -41,7 +41,7 @@ bodies:
     description: Sotera is mildly notable for Soteraian lethal brandy.
     inhabitants: Fierce Green Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.706085, 0.696465, 0.660544, 1]
   radius: 128632.915192
   orbit:

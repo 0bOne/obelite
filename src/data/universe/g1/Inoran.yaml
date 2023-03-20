@@ -41,7 +41,7 @@ bodies:
     description: The planet Inoran is scourged by killer edible talking treeoids.
     inhabitants: Yellow Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.376891, 0.545531, 0.662024, 1]
   radius: 151065.583038
   orbit:

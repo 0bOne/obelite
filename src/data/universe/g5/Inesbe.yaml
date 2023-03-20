@@ -41,7 +41,7 @@ bodies:
     description: The world Inesbe is scourged by killer mountain monkeys.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.191227, 0.256809, 0.720233, 1]
   radius: 142634.695129
   orbit:

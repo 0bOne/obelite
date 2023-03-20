@@ -41,7 +41,7 @@ bodies:
     description: The planet Ceraerar is very famous for its unusual casinos but beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.713718, 0.512498, 0.221662, 1]
   radius: 133533.543396
   orbit:

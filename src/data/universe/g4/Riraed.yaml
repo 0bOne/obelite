@@ -41,7 +41,7 @@ bodies:
     description: The world Riraed is a dull world.
     inhabitants: Green Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.20992, 0.685824, 0.834637, 1]
   radius: 206770.010834
   orbit:

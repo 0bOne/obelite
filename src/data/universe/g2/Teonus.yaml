@@ -41,7 +41,7 @@ bodies:
     description: This planet is a tedious little planet.
     inhabitants: Black Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.809503, 0.645938, 0.497166, 1]
   radius: 148933.605957
   orbit:

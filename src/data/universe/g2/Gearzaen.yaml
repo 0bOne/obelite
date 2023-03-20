@@ -41,7 +41,7 @@ bodies:
     description: The planet Gearzaen is reasonably noted for its exotic fish meat and its exciting sit coms.
     inhabitants: Large Blue Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.696725, 0.516812, 0.43999, 1]
   radius: 113296.006165
   orbit:

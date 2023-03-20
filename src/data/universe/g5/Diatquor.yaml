@@ -41,7 +41,7 @@ bodies:
     description: The world Diatquor is very famous for its exotic goat meat but scourged by dreadful solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.284624, 0.301208, 0.799518, 1]
   radius: 103980.615234
   orbit:

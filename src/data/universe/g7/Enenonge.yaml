@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for its exciting sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.463838, 0.585463, 0.677701, 1]
   radius: 107212.906189
   orbit:

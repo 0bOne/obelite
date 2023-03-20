@@ -41,7 +41,7 @@ bodies:
     description: Eszausve is famous for its inhabitants’ ancient loathing of discos but ravaged by lethal spotted craboids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.24855, 0.587987, 0.796509, 1]
   radius: 126084.781494
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Leonrala is very famous for its unusual casinos but plagued by frequent earthquakes.
     inhabitants: Large Yellow Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.285802, 0.533037, 0.794928, 1]
   radius: 58523.369293
   orbit:

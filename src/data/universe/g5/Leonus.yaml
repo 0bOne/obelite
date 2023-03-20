@@ -41,7 +41,7 @@ bodies:
     description: The world Leonus is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.799802, 0.765491, 0.693618, 1]
   radius: 94592.578888
   orbit:

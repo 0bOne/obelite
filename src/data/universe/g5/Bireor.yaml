@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its exciting Zero-G cricket.
     inhabitants: Fierce Red Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.795935, 0.405796, 0.336225, 1]
   radius: 94375.692749
   orbit:

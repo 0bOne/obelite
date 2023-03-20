@@ -41,7 +41,7 @@ bodies:
     description: The world Vezaaes is very famous for Vezaaesian shrew steak but ravaged by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.818677, 0.790204, 0.756345, 1]
   radius: 113871.247559
   orbit:

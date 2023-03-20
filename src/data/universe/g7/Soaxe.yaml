@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for Soaxeian lethal water and the Soaxeian tree grub.
     inhabitants: Fierce Harmless Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.768494, 0.52418, 0.523139, 1]
   radius: 124521.524506
   orbit:

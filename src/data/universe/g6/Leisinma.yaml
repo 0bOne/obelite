@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for its inhabitants’ ingrained silliness but beset by deadly edible grubs.
     inhabitants: Large Harmless Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.67514, 0.504842, 0.366766, 1]
   radius: 89413.694458
   orbit:

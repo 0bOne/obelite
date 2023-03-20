@@ -41,7 +41,7 @@ bodies:
     description: Rileaa is mildly well known for vicious Thal gargle blasters.
     inhabitants: Red Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.841548, 0.845778, 0.846362, 1]
   radius: 107209.07135
   orbit:

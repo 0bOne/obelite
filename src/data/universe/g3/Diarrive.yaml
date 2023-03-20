@@ -41,7 +41,7 @@ bodies:
     description: This world is fabled for its exciting lethal Lesooues water.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.454062, 0.663112, 0.671808, 1]
   radius: 153525.699463
   orbit:

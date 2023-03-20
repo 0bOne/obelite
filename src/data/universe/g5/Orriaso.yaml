@@ -41,7 +41,7 @@ bodies:
     description: Orriaso is cursed by killer mountain goats.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.24034, 0.386097, 0.737888, 1]
   radius: 144974.648438
   orbit:

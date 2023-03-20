@@ -41,7 +41,7 @@ bodies:
     description: The world Veesqu is scourged by deadly disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.565302, 0.608423, 0.670267, 1]
   radius: 111627.329407
   orbit:

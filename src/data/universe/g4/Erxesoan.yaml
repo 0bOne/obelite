@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its fabulous Sebese juice and its ancient mountains.
     inhabitants: Green Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.192399, 0.439216, 0.651422, 1]
   radius: 73345.281677
   orbit:

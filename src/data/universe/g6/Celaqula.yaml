@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its unusual sit coms and the Celaqulaian spotted wolf.
     inhabitants: Fierce Blue Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.718546, 0.714454, 0.68206, 1]
   radius: 126532.771606
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for the Anededian spotted leopard.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.754269, 0.625116, 0.35941, 1]
   radius: 140458.314819
   orbit:

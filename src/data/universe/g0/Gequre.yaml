@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for the Gequreian tree ant but ravaged by dreadful civil war.
     inhabitants: Large Red Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.735931, 0.650616, 0.549172, 1]
   radius: 64613.166504
   orbit:

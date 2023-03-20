@@ -41,7 +41,7 @@ bodies:
     description: Ororre is a revolting little planet.
     inhabitants: Yellow Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.722156, 0.679812, 0.596156, 1]
   radius: 99865.597839
   orbit:

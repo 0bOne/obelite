@@ -41,7 +41,7 @@ bodies:
     description: The world Ingequ is beset by dreadful earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.699493, 0.556176, 0.370741, 1]
   radius: 181418.056641
   orbit:

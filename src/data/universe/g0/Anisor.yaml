@@ -41,7 +41,7 @@ bodies:
     description: This planet is very well known for its inhabitants’ ancient mating traditions and its inhabitants’ ancient loathing of casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.548326, 0.632068, 0.687283, 1]
   radius: 136124.726562
   orbit:

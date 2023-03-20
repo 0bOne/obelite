@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by dreadful civil war.
     inhabitants: Yellow Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.484542, 0.650427, 0.826898, 1]
   radius: 137984.921112
   orbit:

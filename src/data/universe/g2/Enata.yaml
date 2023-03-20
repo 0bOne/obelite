@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its unusual tropical forests and its exciting Zero-G cricket.
     inhabitants: Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.732678, 0.337727, 0.263144, 1]
   radius: 86154.652863
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Oratzaa is reasonably fabled for its exciting sit coms and its inhabitants’ ancient loathing of casinos.
     inhabitants: Black Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.313361, 0.619255, 0.781284, 1]
   radius: 119993.734589
   orbit:

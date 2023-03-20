@@ -41,7 +41,7 @@ bodies:
     description: The world Tile is fabled for its weird exuberant forests and its inhabitants’ eccentric shyness.
     inhabitants: Large Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.755902, 0.759442, 0.782211, 1]
   radius: 65506.133728
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Eresan is scourged by deadly disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.797009, 0.721648, 0.203111, 1]
   radius: 86478.381348
   orbit:

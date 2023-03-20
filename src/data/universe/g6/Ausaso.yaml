@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Ausasoian Leth brandy but cursed by deadly civil war.
     inhabitants: Red Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.739273, 0.609113, 0.521132, 1]
   radius: 188049.902344
   orbit:

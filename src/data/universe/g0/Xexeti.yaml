@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Xexetiian edible arts graduate and its great volcanoes.
     inhabitants: Large Red Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.230651, 0.730407, 0.811105, 1]
   radius: 88820.875854
   orbit:

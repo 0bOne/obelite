@@ -41,7 +41,7 @@ bodies:
     description: Sotean is mildly notable for its inhabitants’ ingrained silliness.
     inhabitants: Fierce Red Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.653824, 0.651724, 0.613613, 1]
   radius: 119139.125061
   orbit:

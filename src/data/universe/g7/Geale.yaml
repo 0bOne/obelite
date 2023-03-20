@@ -41,7 +41,7 @@ bodies:
     description: The planet Geale is scourged by killer edible Stleusoids.
     inhabitants: Large Red Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.714722, 0.600118, 0.542939, 1]
   radius: 61846.275635
   orbit:

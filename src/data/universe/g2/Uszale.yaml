@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting little planet.
     inhabitants: Small Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.319056, 0.580039, 0.767706, 1]
   radius: 150779.042358
   orbit:

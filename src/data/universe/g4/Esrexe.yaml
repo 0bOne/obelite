@@ -41,7 +41,7 @@ bodies:
     description: Esrexe is a revolting dump.
     inhabitants: Small Yellow Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.735828, 0.596298, 0.565734, 1]
   radius: 143443.719177
   orbit:

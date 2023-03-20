@@ -41,7 +41,7 @@ bodies:
     description: Anondi is most noted for the Anondiian deadly goat and its pink oceans.
     inhabitants: Harmless Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.769, 0.751627, 0.712316, 1]
   radius: 117655.947266
   orbit:

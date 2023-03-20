@@ -41,7 +41,7 @@ bodies:
     description: The world Gexequon is beset by deadly earthquakes.
     inhabitants: Large Harmless Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.765883, 0.771931, 0.785913, 1]
   radius: 120623.822021
   orbit:

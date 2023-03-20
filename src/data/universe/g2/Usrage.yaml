@@ -41,7 +41,7 @@ bodies:
     description: Usrage is reasonably well known for the Usrageian tree ant but ravaged by vicious wolfs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.78816, 0.788738, 0.794434, 1]
   radius: 94565.013123
   orbit:

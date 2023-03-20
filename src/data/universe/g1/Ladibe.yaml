@@ -41,7 +41,7 @@ bodies:
     description: Ladibe is mildly notable for its inhabitants’ unusual silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.475452, 0.486292, 0.682886, 1]
   radius: 127325.009766
   orbit:

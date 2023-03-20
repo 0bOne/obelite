@@ -41,7 +41,7 @@ bodies:
     description: Lavema is reasonably well known for the Lavemaian spotted wolf but beset by deadly solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.610948, 0.639042, 0.669046, 1]
   radius: 98558.325195
   orbit:

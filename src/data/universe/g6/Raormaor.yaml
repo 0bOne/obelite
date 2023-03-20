@@ -41,7 +41,7 @@ bodies:
     description: The planet Raormaor is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.683857, 0.718394, 0.804828, 1]
   radius: 75483.506012
   orbit:

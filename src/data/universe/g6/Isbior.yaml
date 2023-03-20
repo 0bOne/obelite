@@ -41,7 +41,7 @@ bodies:
     description: This world is plagued by deadly earthquakes.
     inhabitants: Red Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.533099, 0.585685, 0.736264, 1]
   radius: 136360.176239
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Aten is scourged by killer edible talking treeoids.
     inhabitants: Large Red Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.769672, 0.761877, 0.695533, 1]
   radius: 68164.440765
   orbit:

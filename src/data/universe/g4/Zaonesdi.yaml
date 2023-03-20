@@ -41,7 +41,7 @@ bodies:
     description: This world is plagued by frequent solar activity.
     inhabitants: Fierce Blue Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.196818, 0.387293, 0.771521, 1]
   radius: 76351.243896
   orbit:

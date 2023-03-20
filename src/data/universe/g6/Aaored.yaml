@@ -41,7 +41,7 @@ bodies:
     description: The world Aaored is most famous for the Aaoredian deadly monkey.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.770654, 0.704081, 0.684779, 1]
   radius: 153867.260742
   orbit:

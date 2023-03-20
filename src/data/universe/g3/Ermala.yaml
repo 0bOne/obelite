@@ -41,7 +41,7 @@ bodies:
     description: Ermala is cursed by deadly civil war.
     inhabitants: Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.77887, 0.762966, 0.715878, 1]
   radius: 79067.454529
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Onatzala is a revolting dump.
     inhabitants: Red Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.748456, 0.746256, 0.475468, 1]
   radius: 206734.044342
   orbit:

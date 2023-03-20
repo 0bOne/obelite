@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Ravequceian edible arts graduate and its great volcanoes.
     inhabitants: Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.363499, 0.447374, 0.691653, 1]
   radius: 80970.228577
   orbit:

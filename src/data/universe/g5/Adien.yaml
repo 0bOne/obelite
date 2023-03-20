@@ -41,7 +41,7 @@ bodies:
     description: Adien is mildly well known for its hoopy casinos and its vast dense forests.
     inhabitants: Green Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.845963, 0.820159, 0.66074, 1]
   radius: 153583.429718
   orbit:

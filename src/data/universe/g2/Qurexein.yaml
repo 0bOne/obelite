@@ -41,7 +41,7 @@ bodies:
     description: The world Qurexein is very famous for its unusual sit coms but plagued by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.701498, 0.601272, 0.5792, 1]
   radius: 165393.300018
   orbit:

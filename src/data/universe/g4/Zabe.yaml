@@ -41,7 +41,7 @@ bodies:
     description: The planet Zabe is very famous for its unusual casinos but beset by lethal disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.598528, 0.646396, 0.727399, 1]
   radius: 51289.829712
   orbit:

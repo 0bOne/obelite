@@ -41,7 +41,7 @@ bodies:
     description: Diriceen is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.231182, 0.346096, 0.749036, 1]
   radius: 122536.799164
   orbit:

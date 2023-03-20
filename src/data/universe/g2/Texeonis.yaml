@@ -41,7 +41,7 @@ bodies:
     description: Texeonis is a revolting dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.849893, 0.788277, 0.358163, 1]
   radius: 140456.201172
   orbit:

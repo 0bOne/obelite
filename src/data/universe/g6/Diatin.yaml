@@ -41,7 +41,7 @@ bodies:
     description: Diatin is reasonably well known for the Diatinian tree grub but plagued by frequent earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.671652, 0.606151, 0.585395, 1]
   radius: 187833.7677
   orbit:

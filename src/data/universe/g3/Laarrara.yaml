@@ -41,7 +41,7 @@ bodies:
     description: Laarrara is cursed by dreadful civil war.
     inhabitants: Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.724625, 0.632332, 0.607474, 1]
   radius: 105919.781494
   orbit:

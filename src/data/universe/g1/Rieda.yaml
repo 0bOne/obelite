@@ -41,7 +41,7 @@ bodies:
     description: The world Rieda is reasonably famous for the Riedaian evil Zanuoid.
     inhabitants: Green Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.342511, 0.383855, 0.662378, 1]
   radius: 120008.551025
   orbit:

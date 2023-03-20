@@ -41,7 +41,7 @@ bodies:
     description: The world Maleve is very noted for its ancient Biso tulip plantations but ravaged by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.693985, 0.719686, 0.848447, 1]
   radius: 140089.87793
   orbit:

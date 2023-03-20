@@ -41,7 +41,7 @@ bodies:
     description: Onusan is famous for its inhabitants’ ancient loathing of casinos but plagued by frequent earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.40223, 0.679056, 0.691547, 1]
   radius: 185717.105103
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Zaati is very famous for its hoopy night life but scourged by deadly tree grubs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.204831, 0.414021, 0.754337, 1]
   radius: 72744.743958
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Letibema is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.735455, 0.766492, 0.803149, 1]
   radius: 86337.79541
   orbit:

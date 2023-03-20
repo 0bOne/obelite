@@ -41,7 +41,7 @@ bodies:
     description: The planet Anxeonis is most famous for its vast rain forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.585787, 0.714842, 0.789575, 1]
   radius: 152084.087372
   orbit:

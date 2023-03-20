@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for its inhabitants’ ingrained shyness and its fabulous cuisine.
     inhabitants: Large Red Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.676575, 0.63221, 0.412019, 1]
   radius: 86452.69165
   orbit:

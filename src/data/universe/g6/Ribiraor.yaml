@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for the Ribiraorian edible poet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.764475, 0.362748, 0.320442, 1]
   radius: 222361.350098
   orbit:

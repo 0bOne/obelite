@@ -41,7 +41,7 @@ bodies:
     description: The world Qudira is reasonably fabled for Qudiraian Bima water and its great volcanoes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.707003, 0.748562, 0.800739, 1]
   radius: 137600.869141
   orbit:

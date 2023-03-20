@@ -41,7 +41,7 @@ bodies:
     description: The world Biabi is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.423448, 0.435087, 0.847504, 1]
   radius: 110433.867188
   orbit:

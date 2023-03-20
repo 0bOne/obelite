@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for the Rileisisian edible poet.
     inhabitants: Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.845337, 0.814615, 0.776883, 1]
   radius: 144861.477051
   orbit:

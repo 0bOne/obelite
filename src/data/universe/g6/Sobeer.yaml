@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for the Sobeerian mountain slug but cursed by occasional earthquakes.
     inhabitants: Fierce Black Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.768594, 0.752676, 0.642567, 1]
   radius: 113077.677612
   orbit:

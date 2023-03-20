@@ -41,7 +41,7 @@ bodies:
     description: The planet Edorza is a boring world.
     inhabitants: Black Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.346602, 0.660906, 0.843463, 1]
   radius: 134577.454834
   orbit:

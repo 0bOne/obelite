@@ -41,7 +41,7 @@ bodies:
     description: The world Teteus is most famous for its vast oceans.
     inhabitants: Harmless Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.650986, 0.579158, 0.559068, 1]
   radius: 146562.46582
   orbit:

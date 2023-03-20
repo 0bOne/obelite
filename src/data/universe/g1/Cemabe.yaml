@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its vast oceans but ravaged by vicious wolfs.
     inhabitants: Fierce Green Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.655087, 0.602715, 0.434334, 1]
   radius: 105842.610168
   orbit:

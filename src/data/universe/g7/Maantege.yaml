@@ -41,7 +41,7 @@ bodies:
     description: Maantege is cursed by killer mountain goats.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.7121, 0.664777, 0.652732, 1]
   radius: 130094.634705
   orbit:

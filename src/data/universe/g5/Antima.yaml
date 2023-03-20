@@ -41,7 +41,7 @@ bodies:
     description: Antima is mildly well known for Antimaian vicious brew.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.653372, 0.29979, 0.288923, 1]
   radius: 139740.379639
   orbit:

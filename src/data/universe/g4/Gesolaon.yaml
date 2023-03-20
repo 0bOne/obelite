@@ -41,7 +41,7 @@ bodies:
     description: Gesolaon is very notable for the Gesolaonian tree snake.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.349633, 0.458981, 0.659824, 1]
   radius: 106441.868591
   orbit:

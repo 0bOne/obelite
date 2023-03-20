@@ -28,8 +28,6 @@ const CURSOR_MOVE_RATE = 10;  //cursor movement pixels per second (when zoomed i
 // //TODO: refactor into SOLID components
 
 
-
-
 const ARROW_KEYS = ["ArrowRight", "ArrowLeft", "ArrowUp", "ArrowDown"];
 const DEFAULT_HELP = "To zoom in and out use '6' (not F6). Click or use arrows to select a different system";
 
@@ -85,7 +83,6 @@ export default class GalacticChart extends ViewBase
         this.leftInfo = DomHelper.AppendElement(this.leftSide, Elements.LeftInfo);
         this.rightInfo = DomHelper.AppendElement(this.rightSide, Elements.RightInfo);
 
-        debugger;
         this.AddMenu(MenuMain, DEFAULT_HELP);
 
         this.cursorSpeed = {X: 0, Y: 0};

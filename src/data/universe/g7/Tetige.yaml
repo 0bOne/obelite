@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ unusual silliness and Tetigeian lethal water.
     inhabitants: Black Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.776031, 0.683924, 0.622302, 1]
   radius: 172526.386871
   orbit:

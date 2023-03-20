@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for its weird volcanoes.
     inhabitants: Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.454551, 0.465777, 0.65029, 1]
   radius: 204302.570801
   orbit:

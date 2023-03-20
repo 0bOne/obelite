@@ -41,7 +41,7 @@ bodies:
     description: The world Latius is most well known for its great parking meters.
     inhabitants: Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.768158, 0.651721, 0.577853, 1]
   radius: 142515.983582
   orbit:

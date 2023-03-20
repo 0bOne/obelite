@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for vicious Be gargle blasters but scourged by unpredictable earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.782907, 0.538498, 0.308171, 1]
   radius: 61948.987579
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Veisti is reasonably noted for its inhabitants’ eccentric shyness and Zero-G cricket.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.39587, 0.701567, 0.748456, 1]
   radius: 95730.66452
   orbit:

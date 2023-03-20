@@ -41,7 +41,7 @@ bodies:
     description: Intedi is an unremarkable planet.
     inhabitants: Blue Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.67305, 0.660749, 0.455402, 1]
   radius: 132235.279541
   orbit:

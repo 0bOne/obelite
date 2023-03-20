@@ -41,7 +41,7 @@ bodies:
     description: The planet Atan is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.418742, 0.596602, 0.721512, 1]
   radius: 93510.307007
   orbit:

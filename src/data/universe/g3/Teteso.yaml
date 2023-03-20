@@ -41,7 +41,7 @@ bodies:
     description: The planet Teteso is most famous for the Tetesoian deadly goat and its hoopy casinos.
     inhabitants: Yellow Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.657373, 0.630113, 0.447247, 1]
   radius: 127938.147278
   orbit:

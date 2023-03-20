@@ -41,7 +41,7 @@ bodies:
     description: The planet Birior is very famous for its exotic fish meat but beset by frequent civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.725168, 0.395757, 0.367154, 1]
   radius: 88675.004883
   orbit:

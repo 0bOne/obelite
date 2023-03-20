@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably notable for its exotic night life but ravaged by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.338631, 0.715729, 0.749887, 1]
   radius: 156023.396149
   orbit:

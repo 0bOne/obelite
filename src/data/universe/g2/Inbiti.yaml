@@ -41,7 +41,7 @@ bodies:
     description: Inbiti is an unremarkable dump.
     inhabitants: Black Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.820514, 0.796174, 0.304287, 1]
   radius: 125428.291016
   orbit:

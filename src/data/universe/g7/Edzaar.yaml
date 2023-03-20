@@ -41,7 +41,7 @@ bodies:
     description: Edzaar is a revolting little planet.
     inhabitants: Blue Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.78096, 0.472933, 0.376106, 1]
   radius: 124718.919067
   orbit:

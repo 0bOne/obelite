@@ -41,7 +41,7 @@ bodies:
     description: The planet Leerte is mildly well known for its exotic cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.409016, 0.72386, 0.770776, 1]
   radius: 75681.632538
   orbit:

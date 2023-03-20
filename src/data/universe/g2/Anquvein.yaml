@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for Anquveinian evil juice but cursed by unpredictable solar activity.
     inhabitants: Harmless Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.357034, 0.473226, 0.766721, 1]
   radius: 110048.125
   orbit:

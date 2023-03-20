@@ -41,7 +41,7 @@ bodies:
     description: Teaatis is mildly well known for Teaatisian vicious brew.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.711258, 0.439991, 0.380102, 1]
   radius: 161673.977051
   orbit:

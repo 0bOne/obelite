@@ -41,7 +41,7 @@ bodies:
     description: The planet Soamaxe is famous for its inhabitants’ exceptional loathing of sit coms but cursed by deadly disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.223555, 0.293574, 0.735535, 1]
   radius: 131295.101166
   orbit:

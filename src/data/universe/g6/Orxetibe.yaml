@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ weird shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.667673, 0.666576, 0.614889, 1]
   radius: 99175.131531
   orbit:

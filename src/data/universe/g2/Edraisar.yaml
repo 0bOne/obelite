@@ -41,7 +41,7 @@ bodies:
     description: The world Edraisar is reasonably noted for Zero-G hockey and Edraisarian Usenbiza brandy.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.82392, 0.748865, 0.684625, 1]
   radius: 169001.806641
   orbit:

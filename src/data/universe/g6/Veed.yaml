@@ -41,7 +41,7 @@ bodies:
     description: The planet Veed is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained shyness.
     inhabitants: Large Yellow Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.671933, 0.57964, 0.410046, 1]
   radius: 61893.432617
   orbit:

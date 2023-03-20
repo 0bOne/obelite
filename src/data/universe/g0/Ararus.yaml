@@ -41,7 +41,7 @@ bodies:
     description: Ararus is most famous for its pink Stalbien plant plantations and its unusual dense forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.482167, 0.569928, 0.68363, 1]
   radius: 134894.106903
   orbit:

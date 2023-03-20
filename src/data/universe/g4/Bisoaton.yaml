@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by deadly earthquakes.
     inhabitants: Fierce Red Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.753268, 0.690562, 0.654624, 1]
   radius: 104954.322052
   orbit:

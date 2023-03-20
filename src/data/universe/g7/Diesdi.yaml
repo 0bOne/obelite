@@ -41,7 +41,7 @@ bodies:
     description: Diesdi is mildly well known for its hoopy casinos and its great parking meters.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.664444, 0.702823, 0.805759, 1]
   radius: 128705.465088
   orbit:

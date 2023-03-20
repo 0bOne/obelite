@@ -18,7 +18,12 @@ export default class Texture
         image.src = url;
         await image.decode();
         //console.log( `texture image loaded. width: ${ image.width }, height: ${ image.height }` );
+        this.Create(image);
+        //console.log( `texture image loaded. width: ${ image.width }, height: ${ image.height }` );
+    }
 
+    Create(imageOrCanvas)
+    {
         this.glTexture = this.gl.createTexture();
         this.gl.bindTexture(this.gl.TEXTURE_2D, this.glTexture);
 
@@ -27,19 +32,24 @@ export default class Texture
         const srcFormat = this.gl.RGBA;
         const srcType = this.gl.UNSIGNED_BYTE;
 
-        this.gl.texImage2D(this.gl.TEXTURE_2D, level, internalFormat, srcFormat, srcType, image);
-        this.gl.generateMipmap(this.gl.TEXTURE_2D);
-
+    
         this.gl.texParameteri(this.gl.TEXTURE_2D, this.gl.TEXTURE_MAG_FILTER, this.gl.LINEAR);
         this.gl.texParameteri(this.gl.TEXTURE_2D, this.gl.TEXTURE_MIN_FILTER, this.gl.LINEAR_MIPMAP_LINEAR);
-
+ 
         this.gl.texParameteri(this.gl.TEXTURE_2D, this.gl.TEXTURE_WRAP_S, this.gl.CLAMP_TO_EDGE);
         this.gl.texParameteri(this.gl.TEXTURE_2D, this.gl.TEXTURE_WRAP_T, this.gl.CLAMP_TO_EDGE);
 
+ 
         const ext = this.gl.getExtension("EXT_texture_filter_anisotropic");
         this.gl.texParameterf(this.gl.TEXTURE_2D, ext.TEXTURE_MAX_ANISOTROPY_EXT, 1);
 
-        this.gl.pixelStorei(this.gl.UNPACK_FLIP_Y_WEBGL, true);
+        //this.gl.pixelStorei(this.gl.UNPACK_FLIP_Y_WEBGL, true);
+
+        this.gl.texImage2D(this.gl.TEXTURE_2D, level, internalFormat, srcFormat, srcType, imageOrCanvas);
+        this.gl.generateMipmap(this.gl.TEXTURE_2D);
+
+        this.gl.bindTexture(this.gl.TEXTURE_2D, null);
+
     }
 
     SetSampler(shader, number)

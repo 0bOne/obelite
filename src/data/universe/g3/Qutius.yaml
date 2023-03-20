@@ -41,7 +41,7 @@ bodies:
     description: The planet Qutius is very noted for its exciting sit coms but ravaged by vicious mountain goats.
     inhabitants: Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.656946, 0.631577, 0.294421, 1]
   radius: 172178.426971
   orbit:

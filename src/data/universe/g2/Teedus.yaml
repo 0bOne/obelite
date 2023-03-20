@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for Teedusian Dier water but beset by lethal disease.
     inhabitants: Black Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.190497, 0.6276, 0.667828, 1]
   radius: 184301.716919
   orbit:

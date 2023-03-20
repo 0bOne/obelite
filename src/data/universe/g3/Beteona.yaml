@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its exciting sit coms.
     inhabitants: Green Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.77038, 0.555443, 0.394109, 1]
   radius: 91404.652252
   orbit:

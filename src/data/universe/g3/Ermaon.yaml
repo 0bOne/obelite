@@ -41,7 +41,7 @@ bodies:
     description: Ermaon is cursed by vicious mountain beasts.
     inhabitants: Black Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.770496, 0.616836, 0.589285, 1]
   radius: 67924.087067
   orbit:

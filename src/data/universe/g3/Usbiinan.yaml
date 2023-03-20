@@ -41,7 +41,7 @@ bodies:
     description: Usbiinan is most noted for its inhabitants’ exceptional love for food blenders and its weird rock formations.
     inhabitants: Small Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.710014, 0.71987, 0.729337, 1]
   radius: 103267.486572
   orbit:

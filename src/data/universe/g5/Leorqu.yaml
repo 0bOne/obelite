@@ -41,7 +41,7 @@ bodies:
     description: Leorqu is a revolting little planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.807341, 0.808375, 0.81434, 1]
   radius: 67017.600861
   orbit:

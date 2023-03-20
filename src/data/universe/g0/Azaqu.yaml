@@ -41,7 +41,7 @@ bodies:
     description: The planet Azaqu is most famous for its pink oceans and Zero-G cricket.
     inhabitants: Red Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.584958, 0.809818, 0.833252, 1]
   radius: 179628.810425
   orbit:

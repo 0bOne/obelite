@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for its fabulous Rearce juice but plagued by lethal disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.280049, 0.465107, 0.685034, 1]
   radius: 100207.443695
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Biradi is mildly notable for its inhabitants’ unusual silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.295616, 0.574613, 0.72821, 1]
   radius: 138933.699646
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Maonle is a dull place.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.618463, 0.693628, 0.787714, 1]
   radius: 199994.468689
   orbit:

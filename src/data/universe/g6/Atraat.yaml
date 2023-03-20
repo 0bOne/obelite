@@ -41,7 +41,7 @@ bodies:
     description: This world is plagued by occasional solar activity.
     inhabitants: Red Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.829419, 0.62947, 0.362358, 1]
   radius: 70109.784393
   orbit:

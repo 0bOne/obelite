@@ -41,7 +41,7 @@ bodies:
     description: The world Raraar is reasonably famous for its inhabitants’ exceptional loathing of casinos.
     inhabitants: Green Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.314523, 0.716433, 0.75994, 1]
   radius: 103978.521881
   orbit:

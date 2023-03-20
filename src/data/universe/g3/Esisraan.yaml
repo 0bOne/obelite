@@ -41,7 +41,7 @@ bodies:
     description: The planet Esisraan is mildly notable for vicious Cein gargle blasters.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.669208, 0.242358, 0.184457, 1]
   radius: 156038.743591
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Biabiteian tree snake.
     inhabitants: Fierce Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.482181, 0.785219, 0.799814, 1]
   radius: 106431.57959
   orbit:

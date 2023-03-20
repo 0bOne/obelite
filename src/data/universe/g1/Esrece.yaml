@@ -41,7 +41,7 @@ bodies:
     description: Esrece is cursed by dreadful civil war.
     inhabitants: Small Harmless Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.816287, 0.478874, 0.386813, 1]
   radius: 172982.430725
   orbit:

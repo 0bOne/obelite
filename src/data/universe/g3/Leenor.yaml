@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for Leenorian evil juice but cursed by dreadful solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.313191, 0.717501, 0.733478, 1]
   radius: 75814.608307
   orbit:

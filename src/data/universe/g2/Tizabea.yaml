@@ -41,7 +41,7 @@ bodies:
     description: Tizabea is famous for its inhabitants’ ancient mating traditions but ravaged by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.680237, 0.511405, 0.450682, 1]
   radius: 112620.227509
   orbit:

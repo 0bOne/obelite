@@ -41,7 +41,7 @@ bodies:
     description: Aqutebi is mildly famous for its vast dense forests and its great parking meters.
     inhabitants: Harmless Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.66207, 0.653558, 0.646196, 1]
   radius: 145571.890869
   orbit:

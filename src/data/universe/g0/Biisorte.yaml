@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for its fabulous Biisorteian lethal water but beset by lethal disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.801895, 0.776999, 0.589779, 1]
   radius: 97161.58371
   orbit:

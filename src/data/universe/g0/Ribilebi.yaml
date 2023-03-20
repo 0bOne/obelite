@@ -41,7 +41,7 @@ bodies:
     description: The planet Ribilebi is most famous for its vast oceans and its fabulous goat soup.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.697378, 0.706958, 0.221019, 1]
   radius: 190309.156494
   orbit:

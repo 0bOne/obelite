@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for Atiusian lethal brandy but beset by deadly tree wolfs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.776105, 0.579453, 0.50004, 1]
   radius: 182572.10083
   orbit:

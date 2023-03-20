@@ -41,7 +41,7 @@ bodies:
     description: The planet Cebiledi is scourged by killer edible arts graduates.
     inhabitants: Fierce Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.405006, 0.418802, 0.747913, 1]
   radius: 97256.608124
   orbit:

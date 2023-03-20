@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its vast dense forests and its great volcanoes.
     inhabitants: Black Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.809937, 0.516357, 0.437082, 1]
   radius: 153243.85376
   orbit:

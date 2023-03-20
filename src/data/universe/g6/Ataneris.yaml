@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for its inhabitants’ weird shyness and the Atanerisian edible moth.
     inhabitants: Green Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.240919, 0.31502, 0.838339, 1]
   radius: 94138.633118
   orbit:

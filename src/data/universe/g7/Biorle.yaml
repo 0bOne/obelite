@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for the Biorleian mountain lobstoid but plagued by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.488832, 0.573973, 0.826535, 1]
   radius: 81803.401794
   orbit:

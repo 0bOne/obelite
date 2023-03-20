@@ -41,7 +41,7 @@ bodies:
     description: The planet Orxeteed is most noted for the Orxeteedian evil arts graduate and its exotic night life.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.268362, 0.488105, 0.748804, 1]
   radius: 181105.302734
   orbit:

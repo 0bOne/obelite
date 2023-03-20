@@ -41,7 +41,7 @@ bodies:
     description: The world Rilace is a dull world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.691067, 0.723517, 0.754044, 1]
   radius: 150820.51239
   orbit:

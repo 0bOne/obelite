@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably notable for its exotic night life but cursed by deadly civil war.
     inhabitants: Green Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.361827, 0.519735, 0.832718, 1]
   radius: 184243.538513
   orbit:

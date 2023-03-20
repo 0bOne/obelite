@@ -41,7 +41,7 @@ bodies:
     description: The world Soceorbi is a dull place.
     inhabitants: Fierce Red Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.807831, 0.740317, 0.723166, 1]
   radius: 113797.866058
   orbit:

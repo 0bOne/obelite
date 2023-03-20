@@ -41,7 +41,7 @@ bodies:
     description: The world Raonbe is a dull world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.819821, 0.807429, 0.802764, 1]
   radius: 91041.715088
   orbit:

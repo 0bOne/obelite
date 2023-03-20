@@ -41,7 +41,7 @@ bodies:
     description: Quandixe is ravaged by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.714315, 0.720281, 0.76131, 1]
   radius: 178734.528809
   orbit:

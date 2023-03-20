@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious little planet.
     inhabitants: Harmless Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.69333, 0.723281, 0.769348, 1]
   radius: 150041.656494
   orbit:

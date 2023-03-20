@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for its fabulous cuisine but plagued by evil spotted cats.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.755914, 0.553127, 0.335773, 1]
   radius: 103138.718719
   orbit:

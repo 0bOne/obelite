@@ -41,7 +41,7 @@ bodies:
     description: The planet Arriti is most famous for its pink oceans.
     inhabitants: Small Black Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.727646, 0.295966, 0.253767, 1]
   radius: 135447.993164
   orbit:

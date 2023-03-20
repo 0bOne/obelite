@@ -41,7 +41,7 @@ bodies:
     description: Rebia is very notable for its inhabitants’ weird shyness.
     inhabitants: Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.817975, 0.765844, 0.722596, 1]
   radius: 199615.273132
   orbit:

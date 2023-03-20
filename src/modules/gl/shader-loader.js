@@ -22,14 +22,25 @@ export default class Loader
         if (options.vertex === true)
         {
             sources.vertex = await this.loadGLSL(folderPath + "vertex.glsl");
-            this.setInputNames(sources, sources.vertex.text);
         }
 
         if (options.fragment === true)
         {
             sources.fragment = await this.loadGLSL(folderPath + "fragment.glsl");
-            this.setInputNames(sources, sources.fragment.text);
         }   
+
+        //catch any inputs that are predefined in the options    
+        const definedInputs = options.inputs || [];
+        definedInputs.forEach(inputName => {
+            if (inputName.startsWith("u"))
+            {
+                sources.uniforms.push(inputName);
+            }
+            else if (inputName.startsWith("a"))
+            {
+                sources.attributes.push(inputName);
+            }
+        });
 
         return sources;
     } 
@@ -43,23 +54,6 @@ export default class Loader
         };
         //console.log("loaded glsl source " + url);
         return values;
-    }
-
-    setInputNames(sources, text)
-    {
-        //parse the input names (eg, uniforms and attributes) for access from JS
-        const matches = text.match(INPUT_EXPRESSION) || [];
-        matches.forEach(match => {
-            const tokens = match.replace(";", "").trim().split("\t").join(" ").split(" ");
-            let inputType = tokens[0];
-
-            if (ALLOWED_NAMES.indexOf(inputType) > -1)
-            {
-                const inputName = tokens.pop();
-                sources[inputType + "s"].push(inputName); 
-                console.log("registering input " + inputName + "/" + inputType);
-            }
-        });
     }
 
     CreateProgram(sources)
@@ -78,7 +72,15 @@ export default class Loader
             this.gl.attachShader(program, shader);          
         }
         this.gl.linkProgram(program);
-        //console.error($gl.getProgramInfoLog(program));                   
+
+        if (this.gl.getProgramParameter(program, this.gl.LINK_STATUS) === false) 
+        {
+            console.error('An error occurred linking the shader');
+            console.error('    name: ' + sources.name);
+            console.error('    link log:');                   
+            console.error(this.gl.getProgramInfoLog(program));                   
+        }
+
         return this.getProgramInfo(program, sources);
     }
 
@@ -90,9 +92,30 @@ export default class Loader
             locations: {},
         };
 
-        sources.attributes.forEach(name => {
-            info.locations[name] = this.gl.getAttribLocation(program, name);
-        });
+        // add attributes locations
+        let count = this.gl.getProgramParameter(program, this.gl.ACTIVE_ATTRIBUTES);
+        for(let i = 0; i < count; ++i)
+        {
+            let attr = this.gl.getActiveAttrib(program, i); // return WebGLActiveInfo
+            info.locations[attr.name] = this.gl.getAttribLocation(program, attr.name);
+            //log("ATTRIBUTE: " + info.name + " = " + program.attribute[info.name]);
+        }
+
+        count = this.gl.getProgramParameter(program, this.gl.ACTIVE_UNIFORMS);
+        for(let i = 0; i < count; ++i)
+        {
+            let uniform = this.gl.getActiveUniform(program, i); // return WebGLActiveInfo
+            if (uniform.name.indexOf(".") === -1)
+            {
+                info.locations[uniform.name] = this.gl.getUniformLocation(program, uniform.name);
+            }
+            else
+            {
+                debugger; //its a struct and needs special handling
+                //see http://www.songho.ca/glsl/files/js/webglUtils.js
+            }
+            //log("ATTRIBUTE: " + info.name + " = " + program.attribute[info.name]);
+        }
 
         sources.uniforms.forEach(name => {
             info.locations[name] = this.gl.getUniformLocation(program, name);

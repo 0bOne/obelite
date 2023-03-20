@@ -41,7 +41,7 @@ bodies:
     description: The planet Eresorbe is famous for Eresorbeian shrew steak but ravaged by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.716061, 0.687592, 0.588774, 1]
   radius: 71430.012817
   orbit:

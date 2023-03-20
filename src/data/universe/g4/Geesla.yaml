@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ ingrained silliness and its weird volcanoes.
     inhabitants: Large Harmless Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.467256, 0.603555, 0.790421, 1]
   radius: 88819.891357
   orbit:

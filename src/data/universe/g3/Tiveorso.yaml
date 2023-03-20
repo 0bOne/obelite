@@ -41,7 +41,7 @@ bodies:
     description: Tiveorso is ravaged by unpredictable solar activity.
     inhabitants: Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.747922, 0.769199, 0.800546, 1]
   radius: 118860.70816
   orbit:

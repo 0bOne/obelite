@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for the Reenesmaian mountain lobstoid but plagued by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.537122, 0.634894, 0.671304, 1]
   radius: 121122.850342
   orbit:

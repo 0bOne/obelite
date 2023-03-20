@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for the Aleriian tree snake and its unusual casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.320574, 0.354408, 0.826505, 1]
   radius: 150977.920532
   orbit:

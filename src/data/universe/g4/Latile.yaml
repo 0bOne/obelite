@@ -41,7 +41,7 @@ bodies:
     description: The planet Latile is reasonably fabled for mud tennis and the Latileian mountain slug.
     inhabitants: Red Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.680981, 0.51957, 0.441925, 1]
   radius: 119438.352203
   orbit:

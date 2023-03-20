@@ -41,7 +41,7 @@ bodies:
     description: Bionbiin is well known for the Bionbiinian tree ant but cursed by vicious mountain beasts.
     inhabitants: Fierce Harmless Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.668048, 0.664202, 0.204718, 1]
   radius: 113864.031372
   orbit:

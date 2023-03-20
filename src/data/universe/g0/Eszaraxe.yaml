@@ -41,7 +41,7 @@ bodies:
     description: The planet Eszaraxe is most famous for the Eszaraxeian spotted shrew and the Eszaraxeian mountain poet.
     inhabitants: Small Blue Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.401209, 0.766341, 0.842313, 1]
   radius: 164579.529877
   orbit:

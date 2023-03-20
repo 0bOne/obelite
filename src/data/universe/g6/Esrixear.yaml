@@ -41,7 +41,7 @@ bodies:
     description: Esrixear is reasonably well known for the Esrixearian spotted wolf but beset by deadly solar activity.
     inhabitants: Small Yellow Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.614158, 0.638098, 0.781479, 1]
   radius: 136498.799744
   orbit:

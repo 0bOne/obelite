@@ -41,7 +41,7 @@ bodies:
     description: The world Diquer is a dull place.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.687915, 0.412903, 0.244343, 1]
   radius: 209721.190186
   orbit:

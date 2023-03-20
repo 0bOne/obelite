@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably noted for its exotic goat soup.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.788065, 0.749304, 0.664491, 1]
   radius: 73452.471924
   orbit:

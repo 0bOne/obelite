@@ -41,7 +41,7 @@ bodies:
     description: Zavexe is mildly well known for its hoopy casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.705756, 0.558258, 0.222727, 1]
   radius: 95609.713593
   orbit:

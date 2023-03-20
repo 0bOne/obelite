@@ -41,7 +41,7 @@ bodies:
     description: The world Esenma is most well known for its great dense forests.
     inhabitants: Small Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.300071, 0.589616, 0.839508, 1]
   radius: 168052.048645
   orbit:

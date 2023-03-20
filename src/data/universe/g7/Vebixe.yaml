@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for the Vebixeian mountain poet but cursed by unpredictable earthquakes.
     inhabitants: Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.515484, 0.565406, 0.748764, 1]
   radius: 135871.917572
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Xelaed is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.734902, 0.824944, 0.841113, 1]
   radius: 85823.748779
   orbit:

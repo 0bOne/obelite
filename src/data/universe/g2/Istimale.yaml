@@ -41,7 +41,7 @@ bodies:
     description: The planet Istimale is cursed by deadly civil war.
     inhabitants: Red Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.679144, 0.390972, 0.257985, 1]
   radius: 169658.850861
   orbit:

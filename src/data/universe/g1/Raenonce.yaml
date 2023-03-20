@@ -41,7 +41,7 @@ bodies:
     description: The world Raenonce is a dull world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.799454, 0.508077, 0.251327, 1]
   radius: 81095.914307
   orbit:

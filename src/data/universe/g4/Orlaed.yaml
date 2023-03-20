@@ -41,7 +41,7 @@ bodies:
     description: The planet Orlaed is most noted for its inhabitants’ exceptional loathing of food blenders and its exciting Orlaedian evil juice.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.278487, 0.546211, 0.653851, 1]
   radius: 140293.006897
   orbit:

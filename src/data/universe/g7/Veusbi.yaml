@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its exciting Veusbiian evil brandy.
     inhabitants: Yellow Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.726257, 0.575954, 0.510603, 1]
   radius: 112359.999847
   orbit:

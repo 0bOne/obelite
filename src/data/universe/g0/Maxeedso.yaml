@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its vast rain forests and the Maxeedsoian tree wolf.
     inhabitants: Small Black Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.342753, 0.407919, 0.83519, 1]
   radius: 114096.583405
   orbit:

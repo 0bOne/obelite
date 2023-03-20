@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for its fabulous It brandy but ravaged by frequent earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.740036, 0.633377, 0.621469, 1]
   radius: 136278.919678
   orbit:

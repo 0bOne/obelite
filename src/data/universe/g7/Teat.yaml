@@ -41,7 +41,7 @@ bodies:
     description: Teat is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.838666, 0.774745, 0.758812, 1]
   radius: 69605.025024
   orbit:

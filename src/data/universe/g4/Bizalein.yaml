@@ -41,7 +41,7 @@ bodies:
     description: The planet Bizalein is most famous for its vast rain forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.773672, 0.660519, 0.447253, 1]
   radius: 115638.371124
   orbit:

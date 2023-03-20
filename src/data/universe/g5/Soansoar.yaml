@@ -41,7 +41,7 @@ bodies:
     description: The world Soansoar is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.723916, 0.793185, 0.797284, 1]
   radius: 102619.6875
   orbit:

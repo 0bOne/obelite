@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Bebimaian tree grub and its inhabitants’ ancient mating traditions.
     inhabitants: Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.785945, 0.80257, 0.833282, 1]
   radius: 95217.528992
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Ramaa is fabled for its ancient mountains and its inhabitants’ ingrained shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.734625, 0.664483, 0.454399, 1]
   radius: 83693.215332
   orbit:

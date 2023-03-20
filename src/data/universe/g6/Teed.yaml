@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Teedian edible moth and the Teedian edible arts graduate.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.250298, 0.344524, 0.799558, 1]
   radius: 68315.775604
   orbit:

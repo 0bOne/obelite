@@ -41,7 +41,7 @@ bodies:
     description: The world Edtixeen is reasonably noted for its inhabitants’ eccentric love for tourists and the Edtixeenian tree snake.
     inhabitants: Black Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.735754, 0.622467, 0.404662, 1]
   radius: 93931.248169
   orbit:

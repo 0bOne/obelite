@@ -41,7 +41,7 @@ bodies:
     description: The planet Maessote is scourged by killer mountain goats.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.275813, 0.390275, 0.811826, 1]
   radius: 159439.903259
   orbit:

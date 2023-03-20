@@ -41,7 +41,7 @@ bodies:
     description: The planet Edxexe is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.666315, 0.661583, 0.634486, 1]
   radius: 92199.831696
   orbit:

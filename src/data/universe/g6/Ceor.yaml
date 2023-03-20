@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for Zero-G cricket.
     inhabitants: Fierce Red Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.314536, 0.711371, 0.841348, 1]
   radius: 120547.324219
   orbit:

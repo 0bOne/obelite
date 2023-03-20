@@ -41,7 +41,7 @@ bodies:
     description: The planet Tivere is cursed by killer mountain goats.
     inhabitants: Green Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.275497, 0.513755, 0.739072, 1]
   radius: 99707.469482
   orbit:

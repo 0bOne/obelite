@@ -41,7 +41,7 @@ bodies:
     description: This planet is a dull world.
     inhabitants: Fierce Harmless Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.283593, 0.490767, 0.679495, 1]
   radius: 71019.8349
   orbit:

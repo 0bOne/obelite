@@ -41,7 +41,7 @@ bodies:
     description: The world Xeesle is a boring planet.
     inhabitants: Large Blue Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.7686, 0.760823, 0.590008, 1]
   radius: 85737.880096
   orbit:

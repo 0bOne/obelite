@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Ceinanian edible arts graduate and its unusual dense forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.737787, 0.749231, 0.842935, 1]
   radius: 120875.544281
   orbit:

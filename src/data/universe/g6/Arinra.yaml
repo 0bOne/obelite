@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for its fabulous cuisine but plagued by lethal spotted batoids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.820123, 0.701928, 0.596869, 1]
   radius: 119609.378662
   orbit:

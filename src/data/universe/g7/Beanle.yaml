@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by unpredictable civil war.
     inhabitants: Red Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.693314, 0.298355, 0.178065, 1]
   radius: 94080.997925
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Geverare is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.712921, 0.396798, 0.384344, 1]
   radius: 95774.842529
   orbit:

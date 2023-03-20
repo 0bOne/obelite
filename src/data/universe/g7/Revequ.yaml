@@ -41,7 +41,7 @@ bodies:
     description: Revequ is cursed by dreadful civil war.
     inhabitants: Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.761752, 0.756369, 0.720736, 1]
   radius: 124087.371826
   orbit:

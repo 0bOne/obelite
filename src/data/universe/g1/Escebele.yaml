@@ -41,7 +41,7 @@ bodies:
     description: Escebele is mildly well known for its hoopy casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.221298, 0.56495, 0.713071, 1]
   radius: 147325.946045
   orbit:

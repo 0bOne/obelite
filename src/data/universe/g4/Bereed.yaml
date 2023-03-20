@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its great tropical forests but cursed by dreadful solar activity.
     inhabitants: Green Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.807324, 0.739995, 0.663351, 1]
   radius: 115451.990662
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is noted for its exciting Zauserisian evil brandy.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.722818, 0.631805, 0.460612, 1]
   radius: 72206.878662
   orbit:

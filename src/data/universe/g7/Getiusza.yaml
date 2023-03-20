@@ -41,7 +41,7 @@ bodies:
     description: This planet is very well known for its inhabitants’ unusual silliness and killer Re gargle blasters.
     inhabitants: Large Green Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.616873, 0.683444, 0.68591, 1]
   radius: 67765.993195
   orbit:

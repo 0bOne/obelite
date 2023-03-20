@@ -41,7 +41,7 @@ bodies:
     description: Erisriin is ravaged by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.768033, 0.731906, 0.59496, 1]
   radius: 79138.007812
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is plagued by occasional solar activity.
     inhabitants: Red Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.754426, 0.756882, 0.34218, 1]
   radius: 109139.100189
   orbit:

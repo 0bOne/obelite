@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Raleenian tree grub and its inhabitants’ unusual silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.177929, 0.454473, 0.655762, 1]
   radius: 126689.589844
   orbit:

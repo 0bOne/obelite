@@ -41,7 +41,7 @@ bodies:
     description: Aenlege is mildly well known for its hoopy night life.
     inhabitants: Red Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.806146, 0.344075, 0.261226, 1]
   radius: 180446.741486
   orbit:

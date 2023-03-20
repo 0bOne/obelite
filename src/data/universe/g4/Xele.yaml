@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its pink oceans and mud hockey.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.197009, 0.44066, 0.779721, 1]
   radius: 63490.202026
   orbit:

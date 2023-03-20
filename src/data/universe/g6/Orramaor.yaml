@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious little planet.
     inhabitants: Harmless Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.672441, 0.713296, 0.795776, 1]
   radius: 128475.155334
   orbit:

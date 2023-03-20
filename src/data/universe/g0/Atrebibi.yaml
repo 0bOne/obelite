@@ -41,7 +41,7 @@ bodies:
     description: The world Atrebibi is most famous for the Atrebibiian deadly monkey.
     inhabitants: Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.222489, 0.504022, 0.735822, 1]
   radius: 83264.268799
   orbit:

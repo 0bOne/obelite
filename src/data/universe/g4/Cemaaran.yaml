@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for its inhabitants’ eccentric love for tourists but plagued by deadly earthquakes.
     inhabitants: Fierce Black Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.665589, 0.745466, 0.77626, 1]
   radius: 73908.993073
   orbit:

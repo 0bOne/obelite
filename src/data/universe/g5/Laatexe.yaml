@@ -41,7 +41,7 @@ bodies:
     description: This planet is very well known for its inhabitants’ ancient mating traditions and its inhabitants’ ancient loathing of sit coms.
     inhabitants: Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.798833, 0.807494, 0.812341, 1]
   radius: 135025.903015
   orbit:

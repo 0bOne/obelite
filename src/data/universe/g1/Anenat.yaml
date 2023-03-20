@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for the Anenatian mountain poet but scourged by frequent civil war.
     inhabitants: Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.68053, 0.647307, 0.362302, 1]
   radius: 134272.947083
   orbit:

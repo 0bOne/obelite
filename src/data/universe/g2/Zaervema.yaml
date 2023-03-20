@@ -41,7 +41,7 @@ bodies:
     description: Zaervema is well known for the Zaervemaian spotted cat but cursed by dreadful solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.320916, 0.635513, 0.843158, 1]
   radius: 98847.761688
   orbit:

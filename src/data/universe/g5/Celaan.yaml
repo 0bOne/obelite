@@ -41,7 +41,7 @@ bodies:
     description: The world Celaan is a boring world.
     inhabitants: Fierce Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.609244, 0.770479, 0.847928, 1]
   radius: 104870.630493
   orbit:

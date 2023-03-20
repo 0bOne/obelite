@@ -41,7 +41,7 @@ bodies:
     description: The planet Remari is most famous for the Remariian evil Ernolooid and its inhabitants’ exceptional loathing of food blenders.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.655988, 0.635309, 0.632625, 1]
   radius: 142189.087524
   orbit:

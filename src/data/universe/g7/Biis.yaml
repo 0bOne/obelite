@@ -41,7 +41,7 @@ bodies:
     description: Biis is ravaged by unpredictable solar activity.
     inhabitants: Large Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.80575, 0.719665, 0.666133, 1]
   radius: 76433.444214
   orbit:

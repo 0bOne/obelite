@@ -41,7 +41,7 @@ bodies:
     description: The world Raceedat is beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.572886, 0.767569, 0.841431, 1]
   radius: 100645.628357
   orbit:

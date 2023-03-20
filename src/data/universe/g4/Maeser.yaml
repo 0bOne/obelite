@@ -41,7 +41,7 @@ bodies:
     description: Maeser is reasonably well known for its vast oceans but ravaged by lethal spotted craboids.
     inhabitants: Small Harmless Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.755246, 0.355004, 0.335468, 1]
   radius: 143945.700989
   orbit:

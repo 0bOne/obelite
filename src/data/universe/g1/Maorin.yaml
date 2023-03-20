@@ -41,7 +41,7 @@ bodies:
     description: Maorin is very notable for its inhabitants’ ingrained silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.639314, 0.644789, 0.65802, 1]
   radius: 154446.957855
   orbit:

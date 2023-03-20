@@ -41,7 +41,7 @@ bodies:
     description: The world Isdibi is scourged by deadly tree ants.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.727523, 0.778674, 0.783182, 1]
   radius: 196029.349518
   orbit:

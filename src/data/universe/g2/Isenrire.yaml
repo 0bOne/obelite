@@ -41,7 +41,7 @@ bodies:
     description: The world Isenrire is reasonably noted for its inhabitants’ eccentric love for poetry and its inhabitants’ weird shyness.
     inhabitants: Black Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.338412, 0.497768, 0.681964, 1]
   radius: 109304.374695
   orbit:

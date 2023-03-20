@@ -41,7 +41,7 @@ bodies:
     description: The planet Zaatso is reasonably noted for its inhabitants’ exceptional love for tourists and its great volcanoes.
     inhabitants: Fierce Blue Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.759634, 0.657515, 0.587254, 1]
   radius: 78540.070496
   orbit:

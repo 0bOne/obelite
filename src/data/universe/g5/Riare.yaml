@@ -41,7 +41,7 @@ bodies:
     description: The planet Riare is scourged by deadly tree grubs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.828964, 0.822864, 0.794489, 1]
   radius: 162447.581329
   orbit:

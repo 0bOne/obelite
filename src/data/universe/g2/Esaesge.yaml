@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by deadly earthquakes.
     inhabitants: Small Harmless Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.365682, 0.420456, 0.777496, 1]
   radius: 135929.347229
   orbit:

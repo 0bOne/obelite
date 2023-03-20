@@ -41,7 +41,7 @@ bodies:
     description: The planet Enarines is a boring world.
     inhabitants: Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.670813, 0.575448, 0.470639, 1]
   radius: 86769.590759
   orbit:

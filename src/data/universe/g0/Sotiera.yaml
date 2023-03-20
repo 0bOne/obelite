@@ -41,7 +41,7 @@ bodies:
     description: The world Sotiera is mildly fabled for the Sotieraian mountain poet but cursed by unpredictable earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.557342, 0.652416, 0.835367, 1]
   radius: 91599.202881
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Ceenrama is very noted for its exciting Zero-G cricket but cursed by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.525241, 0.553379, 0.752603, 1]
   radius: 95327.228394
   orbit:

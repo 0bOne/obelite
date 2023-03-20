@@ -41,7 +41,7 @@ bodies:
     description: The world Anenveza is fabled for its fabulous lethal Dilose water and the Anenvezaian tree wolf.
     inhabitants: Harmless Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.335184, 0.695643, 0.722836, 1]
   radius: 170452.828369
   orbit:

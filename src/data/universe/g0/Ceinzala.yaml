@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for vicious Inzalodi gargle blasters but scourged by unpredictable earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.444677, 0.634466, 0.780072, 1]
   radius: 101328.342285
   orbit:

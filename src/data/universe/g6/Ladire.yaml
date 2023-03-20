@@ -41,7 +41,7 @@ bodies:
     description: The planet Ladire is scourged by killer edible arts graduates.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.680726, 0.707874, 0.723825, 1]
   radius: 124538.743439
   orbit:

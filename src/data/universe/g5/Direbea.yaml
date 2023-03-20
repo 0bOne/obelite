@@ -41,7 +41,7 @@ bodies:
     description: Direbea is mildly well known for Direbeaian wolf meat and its unusual oceans.
     inhabitants: Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.786884, 0.671326, 0.381075, 1]
   radius: 134593.85788
   orbit:

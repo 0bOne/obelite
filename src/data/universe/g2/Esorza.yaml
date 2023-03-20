@@ -41,7 +41,7 @@ bodies:
     description: The world Esorza is beset by evil disease.
     inhabitants: Small Black Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.669006, 0.573322, 0.571038, 1]
   radius: 167292.191772
   orbit:

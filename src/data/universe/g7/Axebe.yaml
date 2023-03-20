@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Axebeian Itit water but beset by evil disease.
     inhabitants: Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.849042, 0.347724, 0.298718, 1]
   radius: 176660.083008
   orbit:

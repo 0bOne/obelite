@@ -41,7 +41,7 @@ bodies:
     description: The world Dienon is notable for its great volcanoes and its inhabitants’ eccentric love for poetry.
     inhabitants: Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.821078, 0.438913, 0.24046, 1]
   radius: 176391.229248
   orbit:

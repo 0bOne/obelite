@@ -41,7 +41,7 @@ bodies:
     description: The planet Geisan is most famous for its pink oceans and Zero-G hockey.
     inhabitants: Large Yellow Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.248168, 0.319122, 0.719452, 1]
   radius: 99963.874512
   orbit:

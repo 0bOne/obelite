@@ -41,7 +41,7 @@ bodies:
     description: The world Raerqu is reasonably famous for its inhabitants’ exceptional loathing of sit coms.
     inhabitants: Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.739102, 0.719006, 0.586353, 1]
   radius: 118643.777161
   orbit:

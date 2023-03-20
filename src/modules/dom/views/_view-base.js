@@ -1,5 +1,6 @@
 import DomHelper from "../utilities/dom-helper.js";
 import Menu from "./components/menu.js";
+import Rotator from "../../logic/animators/rotator.js";
 
 export default class ViewBase
 {
@@ -43,11 +44,25 @@ export default class ViewBase
         });
     }
 
+    SetDemoModel(model)
+    {
+        if (model)
+        {        
+            this.gameCtx.demoModel = model;
+            this.gameCtx.demoModel.Rotation = -3.8;
+            this.gameCtx.demoModel.isVisible = true;
+            this.gameCtx.demoModel.animator = new Rotator(this.gameCtx.demoModel, 0.5);
+            this.gameCtx.scene.models.push(this.gameCtx.demoModel);
+        }
+    }
+
     clearScene()
     {
-        //TODO: remove this workaround 
-        //make the ship load in the existing context
-        window.$game.resetGLContext(); 
+        if (this.gameCtx.demoModel)
+        {
+            this.gameCtx.scene.remove(this.gameCtx.demoModel);
+            this.gameCtx.demoModel = null;
+        }
     }
 
     AddNotes(lines)

@@ -41,7 +41,7 @@ bodies:
     description: The world Xeonar is scourged by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.719232, 0.657111, 0.453594, 1]
   radius: 88870.797729
   orbit:

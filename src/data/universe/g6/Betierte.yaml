@@ -41,7 +41,7 @@ bodies:
     description: The planet Betierte is famous for Betierteian shrew cutlet but plagued by frequent earthquakes.
     inhabitants: Harmless Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.287562, 0.300051, 0.729343, 1]
   radius: 81229.404144
   orbit:

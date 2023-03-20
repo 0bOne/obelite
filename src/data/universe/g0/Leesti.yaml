@@ -41,7 +41,7 @@ bodies:
     description: The planet Leesti is reasonably fabled for Zero-G cricket and Leestiian evil juice.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.84183, 0.707257, 0.670673, 1]
   radius: 97136.828613
   orbit:

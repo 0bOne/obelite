@@ -41,7 +41,7 @@ bodies:
     description: The world Aanteso is beset by dreadful earthquakes.
     inhabitants: Blue Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.588992, 0.646785, 0.66265, 1]
   radius: 139916.526642
   orbit:

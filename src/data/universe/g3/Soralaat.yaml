@@ -41,7 +41,7 @@ bodies:
     description: Soralaat is reasonably notable for its unusual oceans but plagued by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.797354, 0.737243, 0.710001, 1]
   radius: 114422.952118
   orbit:

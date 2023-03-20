@@ -41,7 +41,7 @@ bodies:
     description: The planet Oresri is cursed by dreadful civil war.
     inhabitants: Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.809204, 0.671428, 0.21998, 1]
   radius: 133504.793701
   orbit:

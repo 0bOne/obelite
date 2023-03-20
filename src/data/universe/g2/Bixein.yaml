@@ -41,7 +41,7 @@ bodies:
     description: The planet Bixein is an unremarkable dump.
     inhabitants: Fierce Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.610449, 0.66707, 0.679425, 1]
   radius: 112940.436401
   orbit:

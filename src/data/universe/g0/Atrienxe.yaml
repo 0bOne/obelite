@@ -41,7 +41,7 @@ bodies:
     description: Atrienxe is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.447876, 0.520569, 0.690189, 1]
   radius: 96202.402344
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Quorte is well known for the Quorteian tree wolf but scourged by dreadful solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.735834, 0.603216, 0.521975, 1]
   radius: 138161.657715
   orbit:

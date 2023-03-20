@@ -41,7 +41,7 @@ bodies:
     description: The world Ededxebe is reasonably famous for its inhabitants’ ancient mating traditions.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.664416, 0.521332, 0.301297, 1]
   radius: 87983.097229
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious place.
     inhabitants: Fierce Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.309471, 0.695657, 0.726929, 1]
   radius: 102214.261475
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for its inhabitants’ ancient loathing of casinos.
     inhabitants: Large Yellow Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.787506, 0.616215, 0.575636, 1]
   radius: 67780.102081
   orbit:

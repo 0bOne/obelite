@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for its pink Bi plant plantations but plagued by lethal disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.355171, 0.592272, 0.810547, 1]
   radius: 79578.178711
   orbit:

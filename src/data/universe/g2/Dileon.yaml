@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for Dileonian lethal water and the Dileonian tree wolf.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.454815, 0.628607, 0.794412, 1]
   radius: 170330.781555
   orbit:

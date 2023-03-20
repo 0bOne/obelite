@@ -41,7 +41,7 @@ bodies:
     description: The planet Anri is very noted for its unusual casinos but beset by dreadful earthquakes.
     inhabitants: Harmless Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.656103, 0.483613, 0.226902, 1]
   radius: 159366.148376
   orbit:

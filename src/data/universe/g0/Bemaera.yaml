@@ -41,7 +41,7 @@ bodies:
     description: Bemaera is most noted for the Bemaeraian deadly Noseoid and the Bemaeraian evil Noseoid.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.645796, 0.689013, 0.735315, 1]
   radius: 101456.358948
   orbit:

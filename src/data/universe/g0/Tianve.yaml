@@ -41,7 +41,7 @@ bodies:
     description: The planet Tianve is reasonably noted for its inhabitants’ exceptional loathing of food blenders and Zero-G cricket.
     inhabitants: Blue Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.303727, 0.427148, 0.693707, 1]
   radius: 78835.820007
   orbit:

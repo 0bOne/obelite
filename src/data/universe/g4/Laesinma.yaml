@@ -41,7 +41,7 @@ bodies:
     description: The planet Laesinma is scourged by deadly edible arts graduates.
     inhabitants: Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.800934, 0.779244, 0.649265, 1]
   radius: 107220.935669
   orbit:

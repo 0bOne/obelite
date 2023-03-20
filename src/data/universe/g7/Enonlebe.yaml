@@ -41,7 +41,7 @@ bodies:
     description: The world Enonlebe is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.286696, 0.472882, 0.769849, 1]
   radius: 77230.393372
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Rileri is most noted for the Rileriian deadly Ardigenuoid and the Rileriian mountain slug.
     inhabitants: Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.765347, 0.76041, 0.38289, 1]
   radius: 115754.982605
   orbit:

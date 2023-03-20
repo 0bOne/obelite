@@ -41,7 +41,7 @@ bodies:
     description: The planet Leeson is cursed by killer mountain A’onsethoids.
     inhabitants: Large Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.703634, 0.733251, 0.787149, 1]
   radius: 89558.968353
   orbit:

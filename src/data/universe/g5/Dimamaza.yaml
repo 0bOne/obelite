@@ -41,7 +41,7 @@ bodies:
     description: The world Dimamaza is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.669919, 0.657473, 0.632352, 1]
   radius: 161940.616608
   orbit:

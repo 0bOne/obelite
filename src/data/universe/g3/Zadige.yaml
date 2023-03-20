@@ -41,7 +41,7 @@ bodies:
     description: Zadige is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.752393, 0.660083, 0.214842, 1]
   radius: 105846.977539
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for Zero-G hockey.
     inhabitants: Small Black Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.751886, 0.550429, 0.497989, 1]
   radius: 128852.028656
   orbit:

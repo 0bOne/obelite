@@ -41,7 +41,7 @@ bodies:
     description: The planet Ditiza is reasonably fabled for Ditizaian evil juice and its inhabitants’ ingrained silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.680246, 0.748586, 0.841266, 1]
   radius: 145438.839111
   orbit:

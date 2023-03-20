@@ -41,7 +41,7 @@ bodies:
     description: The world Esleusbe is beset by evil disease.
     inhabitants: Small Black Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.759531, 0.640932, 0.465919, 1]
   radius: 143742.149048
   orbit:

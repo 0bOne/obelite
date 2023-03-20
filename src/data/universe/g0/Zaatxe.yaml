@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for the Zaatxeian deadly Ouenbeoid but plagued by lethal spotted craboids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.561819, 0.593857, 0.693158, 1]
   radius: 129574.830933
   orbit:

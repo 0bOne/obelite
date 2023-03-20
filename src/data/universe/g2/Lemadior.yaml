@@ -41,7 +41,7 @@ bodies:
     description: The world Lemadior is mildly fabled for the Lemadiorian mountain Atetoid but ravaged by vicious disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.808554, 0.540952, 0.468824, 1]
   radius: 78518.671875
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Xemageat is beset by deadly earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.697086, 0.548652, 0.454777, 1]
   radius: 101397.286835
   orbit:

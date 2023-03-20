@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for the Erlabeorian deadly Stoid but ravaged by lethal vicious ants.
     inhabitants: Black Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.320423, 0.554916, 0.746136, 1]
   radius: 78145.421143
   orbit:

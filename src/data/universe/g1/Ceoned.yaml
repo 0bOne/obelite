@@ -41,7 +41,7 @@ bodies:
     description: The planet Ceoned is well known for its inhabitants’ ancient mating traditions but cursed by dreadful civil war.
     inhabitants: Fierce Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.42771, 0.653737, 0.712558, 1]
   radius: 98812.256165
   orbit:

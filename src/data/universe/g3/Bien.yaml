@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably notable for its weird tropical forests but scourged by frequent civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.752832, 0.710231, 0.544544, 1]
   radius: 57532.345581
   orbit:

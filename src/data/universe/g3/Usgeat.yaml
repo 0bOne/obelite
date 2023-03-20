@@ -41,7 +41,7 @@ bodies:
     description: Usgeat is cursed by dreadful civil war.
     inhabitants: Small Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.671054, 0.651213, 0.592799, 1]
   radius: 112432.445831
   orbit:

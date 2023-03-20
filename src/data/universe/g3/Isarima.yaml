@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for the Isarimaian mountain lobstoid but plagued by frequent solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.552102, 0.614985, 0.699988, 1]
   radius: 184642.084961
   orbit:

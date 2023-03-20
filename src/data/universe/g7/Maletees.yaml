@@ -41,7 +41,7 @@ bodies:
     description: The planet Maletees is mildly well known for its hoopy casinos.
     inhabitants: Small Yellow Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.35424, 0.697596, 0.753479, 1]
   radius: 163738.692627
   orbit:

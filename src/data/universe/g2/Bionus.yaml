@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for its inhabitants’ ingrained silliness but scourged by frequent civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.795337, 0.773382, 0.729457, 1]
   radius: 112985.844727
   orbit:

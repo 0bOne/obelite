@@ -41,7 +41,7 @@ bodies:
     description: The world Rabiarce is scourged by deadly disease.
     inhabitants: Black Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.422812, 0.621193, 0.652243, 1]
   radius: 74891.002655
   orbit:

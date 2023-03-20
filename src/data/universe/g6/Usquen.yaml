@@ -41,7 +41,7 @@ bodies:
     description: The planet Usquen is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.581104, 0.702654, 0.829831, 1]
   radius: 123992.759705
   orbit:

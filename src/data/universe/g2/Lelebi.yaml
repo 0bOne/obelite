@@ -41,7 +41,7 @@ bodies:
     description: The world Lelebi is mildly fabled for the Lelebiian edible moth but beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.735257, 0.423421, 0.357949, 1]
   radius: 61827.32193
   orbit:

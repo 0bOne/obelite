@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for its ancient mountains.
     inhabitants: Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.448607, 0.566093, 0.727792, 1]
   radius: 89739.807129
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for its exotic night life but ravaged by frequent earthquakes.
     inhabitants: Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.312415, 0.363784, 0.789078, 1]
   radius: 79738.03894
   orbit:

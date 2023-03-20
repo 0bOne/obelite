@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for its inhabitants’ ingrained silliness but beset by lethal disease.
     inhabitants: Fierce Blue Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.285711, 0.607534, 0.718393, 1]
   radius: 79595.489502
   orbit:

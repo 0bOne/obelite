@@ -41,7 +41,7 @@ bodies:
     description: The world Onenbi is beset by dreadful earthquakes.
     inhabitants: Black Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.78895, 0.769261, 0.655459, 1]
   radius: 191420.511322
   orbit:

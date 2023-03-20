@@ -41,7 +41,7 @@ bodies:
     description: The world Tegete is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.73584, 0.705013, 0.340945, 1]
   radius: 109807.169037
   orbit:

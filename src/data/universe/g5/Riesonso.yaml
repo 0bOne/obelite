@@ -41,7 +41,7 @@ bodies:
     description: The world Riesonso is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.667133, 0.782714, 0.785876, 1]
   radius: 154540.398407
   orbit:

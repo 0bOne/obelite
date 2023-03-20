@@ -41,7 +41,7 @@ bodies:
     description: The planet Leenra is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.71358, 0.685716, 0.663447, 1]
   radius: 110042.364502
   orbit:

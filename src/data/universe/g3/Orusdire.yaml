@@ -41,7 +41,7 @@ bodies:
     description: The planet Orusdire is most famous for its vast oceans.
     inhabitants: Yellow Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.714386, 0.595454, 0.364017, 1]
   radius: 152229.70047
   orbit:

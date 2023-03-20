@@ -41,7 +41,7 @@ bodies:
     description: Beatle is famous for its exotic fish meat but scourged by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.667398, 0.597206, 0.503507, 1]
   radius: 92596.044922
   orbit:

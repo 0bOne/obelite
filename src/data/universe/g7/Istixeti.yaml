@@ -41,7 +41,7 @@ bodies:
     description: The planet Istixeti is reasonably noted for its fabulous goat soup and mud tennis.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.849442, 0.758925, 0.457779, 1]
   radius: 133926.2117
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Xerasoian edible moth.
     inhabitants: Large Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.356224, 0.57042, 0.694537, 1]
   radius: 66724.11377
   orbit:

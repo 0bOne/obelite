@@ -41,7 +41,7 @@ bodies:
     description: Sogebe is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.481672, 0.513204, 0.712442, 1]
   radius: 147452.682037
   orbit:

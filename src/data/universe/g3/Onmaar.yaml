@@ -41,7 +41,7 @@ bodies:
     description: The world Onmaar is reasonably famous for the Onmaarian evil talking treeoid.
     inhabitants: Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.689481, 0.558874, 0.180837, 1]
   radius: 215831.557465
   orbit:

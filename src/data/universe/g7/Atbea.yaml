@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its exciting Zero-G cricket.
     inhabitants: Yellow Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.686517, 0.498887, 0.393994, 1]
   radius: 63301.535339
   orbit:

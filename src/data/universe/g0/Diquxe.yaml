@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for its ancient mountains but plagued by frequent earthquakes.
     inhabitants: Harmless Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.76303, 0.819003, 0.827512, 1]
   radius: 132850.629272
   orbit:

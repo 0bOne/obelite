@@ -41,7 +41,7 @@ bodies:
     description: Edle is famous for its inhabitants’ exceptional love for food blenders but scourged by frequent civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.524658, 0.723422, 0.827856, 1]
   radius: 126392.206421
   orbit:

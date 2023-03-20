@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by deadly earthquakes.
     inhabitants: Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.840155, 0.677879, 0.421324, 1]
   radius: 91099.815674
   orbit:

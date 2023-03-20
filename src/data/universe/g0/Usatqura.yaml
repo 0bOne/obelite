@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for its inhabitants’ exceptional loathing of sit coms.
     inhabitants: Small Yellow Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.702396, 0.701123, 0.698819, 1]
   radius: 112206.895142
   orbit:

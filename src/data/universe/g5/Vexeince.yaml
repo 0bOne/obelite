@@ -41,7 +41,7 @@ bodies:
     description: The world Vexeince is reasonably fabled for its exciting sit coms and its inhabitants’ ancient loathing of casinos.
     inhabitants: Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.729285, 0.583617, 0.542384, 1]
   radius: 140576.044922
   orbit:

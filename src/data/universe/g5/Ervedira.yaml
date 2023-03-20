@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its vast oceans but ravaged by vicious killer cats.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.677481, 0.688171, 0.738611, 1]
   radius: 70489.242554
   orbit:

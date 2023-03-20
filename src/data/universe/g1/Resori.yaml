@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for Zero-G cricket.
     inhabitants: Yellow Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.326349, 0.578088, 0.767462, 1]
   radius: 187192.451019
   orbit:

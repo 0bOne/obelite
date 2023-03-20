@@ -41,7 +41,7 @@ bodies:
     description: The planet Isreesve is cursed by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.400987, 0.608193, 0.771518, 1]
   radius: 117588.802338
   orbit:

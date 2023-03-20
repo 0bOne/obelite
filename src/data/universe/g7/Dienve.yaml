@@ -41,7 +41,7 @@ bodies:
     description: Dienve is mildly famous for its hoopy casinos and its vast oceans.
     inhabitants: Green Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.498015, 0.519393, 0.697858, 1]
   radius: 194690.584412
   orbit:

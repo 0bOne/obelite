@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its fabulous Lole juice.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.69256, 0.74413, 0.771649, 1]
   radius: 120782.932434
   orbit:

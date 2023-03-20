@@ -41,7 +41,7 @@ bodies:
     description: The world Maisesen is reasonably fabled for Zero-G cricket and its fabulous vicious Th brew.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.273279, 0.559363, 0.786484, 1]
   radius: 172051.162415
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Sobean is cursed by vicious killer cats.
     inhabitants: Fierce Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.776651, 0.755459, 0.705378, 1]
   radius: 149826.591797
   orbit:

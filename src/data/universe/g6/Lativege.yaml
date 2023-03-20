@@ -41,7 +41,7 @@ bodies:
     description: This planet is a dull place.
     inhabitants: Yellow Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.564356, 0.665147, 0.679208, 1]
   radius: 126811.748352
   orbit:

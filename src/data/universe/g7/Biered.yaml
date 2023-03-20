@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for Bieredian A’il water but scourged by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.770908, 0.482175, 0.403995, 1]
   radius: 87340.694427
   orbit:

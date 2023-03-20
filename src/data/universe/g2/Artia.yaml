@@ -41,7 +41,7 @@ bodies:
     description: The world Artia is mildly fabled for the Artiaian mountain lobstoid but plagued by occasional civil war.
     inhabitants: Small Red Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.721191, 0.69654, 0.404171, 1]
   radius: 101144.596405
   orbit:

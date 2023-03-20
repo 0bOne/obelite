@@ -41,7 +41,7 @@ bodies:
     description: The planet Orusge is famous for Orusgeian shrew steak but ravaged by unpredictable solar activity.
     inhabitants: Harmless Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.699689, 0.65218, 0.578114, 1]
   radius: 98617.381592
   orbit:

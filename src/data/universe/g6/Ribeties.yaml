@@ -41,7 +41,7 @@ bodies:
     description: Ribeties is very notable for the Ribetiesian tree ant.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.726804, 0.721122, 0.555045, 1]
   radius: 185945.998993
   orbit:

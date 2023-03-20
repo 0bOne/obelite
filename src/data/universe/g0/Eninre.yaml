@@ -41,7 +41,7 @@ bodies:
     description: The planet Eninre is cursed by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.737448, 0.714211, 0.485649, 1]
   radius: 72440.757751
   orbit:

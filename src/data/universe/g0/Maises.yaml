@@ -41,7 +41,7 @@ bodies:
     description: Maises is reasonably notable for its fabulous Maisesian lethal water but beset by lethal disease.
     inhabitants: Small Blue Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.56592, 0.636868, 0.798209, 1]
   radius: 151754.334717
   orbit:

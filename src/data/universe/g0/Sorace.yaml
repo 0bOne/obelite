@@ -41,7 +41,7 @@ bodies:
     description: Sorace is cursed by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.667926, 0.656914, 0.65416, 1]
   radius: 139942.048035
   orbit:

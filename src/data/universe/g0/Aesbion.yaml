@@ -41,7 +41,7 @@ bodies:
     description: The planet Aesbion is cursed by dreadful civil war.
     inhabitants: Green Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.409563, 0.616359, 0.714316, 1]
   radius: 153464.720001
   orbit:

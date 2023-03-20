@@ -41,7 +41,7 @@ bodies:
     description: The planet Zabixedi is an unremarkable planet.
     inhabitants: Fierce Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.785532, 0.778106, 0.775958, 1]
   radius: 98742.423248
   orbit:

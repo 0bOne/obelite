@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Zero-G hockey but cursed by occasional earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.760834, 0.344317, 0.230139, 1]
   radius: 106392.869568
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for the Teabiian tree wolf and its pink oceans.
     inhabitants: Green Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.680051, 0.636646, 0.287265, 1]
   radius: 162409.173889
   orbit:

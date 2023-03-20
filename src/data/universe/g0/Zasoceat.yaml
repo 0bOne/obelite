@@ -41,7 +41,7 @@ bodies:
     description: Zasoceat is a revolting dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.479926, 0.61908, 0.776743, 1]
   radius: 93033.060608
   orbit:

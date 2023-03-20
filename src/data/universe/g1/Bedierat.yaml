@@ -41,7 +41,7 @@ bodies:
     description: Bedierat is well known for the Bedieratian spotted leopard but ravaged by frequent earthquakes.
     inhabitants: Black Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.782715, 0.749601, 0.647251, 1]
   radius: 98646.415253
   orbit:

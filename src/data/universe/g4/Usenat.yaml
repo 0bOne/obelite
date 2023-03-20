@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for its fabulous cuisine but beset by occasional civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.256044, 0.331128, 0.745923, 1]
   radius: 169908.751831
   orbit:

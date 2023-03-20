@@ -41,7 +41,7 @@ bodies:
     description: The world Inisbi is a boring planet.
     inhabitants: Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.606277, 0.668358, 0.841064, 1]
   radius: 158276.703491
   orbit:

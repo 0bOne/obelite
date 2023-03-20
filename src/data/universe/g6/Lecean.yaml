@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for the Leceanian tree ant and its inhabitants’ ancient loathing of sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.672922, 0.582953, 0.306925, 1]
   radius: 57383.892212
   orbit:

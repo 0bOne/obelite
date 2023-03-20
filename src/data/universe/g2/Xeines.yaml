@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Xeinesian tree snake and its exotic goat soup.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.65408, 0.50956, 0.386015, 1]
   radius: 85524.580994
   orbit:

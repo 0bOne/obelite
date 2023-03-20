@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for the Gedienzaian edible poet.
     inhabitants: Large Harmless Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.20086, 0.639212, 0.705151, 1]
   radius: 85103.615417
   orbit:

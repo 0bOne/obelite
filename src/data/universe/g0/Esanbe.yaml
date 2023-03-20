@@ -41,7 +41,7 @@ bodies:
     description: Esanbe is famous for its inhabitants’ ancient loathing of casinos but plagued by deadly earthquakes.
     inhabitants: Small Blue Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.757297, 0.554051, 0.546465, 1]
   radius: 158979.797211
   orbit:

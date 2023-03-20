@@ -41,7 +41,7 @@ bodies:
     description: The world Erlaza is mildly noted for its ancient mountains but plagued by lethal disease.
     inhabitants: Blue Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.600186, 0.663362, 0.692532, 1]
   radius: 74510.343628
   orbit:

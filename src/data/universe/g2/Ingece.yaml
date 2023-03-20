@@ -41,7 +41,7 @@ bodies:
     description: The world Ingece is beset by dreadful earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.223857, 0.662681, 0.835138, 1]
   radius: 188288.964996
   orbit:

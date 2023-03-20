@@ -41,7 +41,7 @@ bodies:
     description: The planet Cearso is very famous for its unusual casinos but beset by lethal disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.65123, 0.623594, 0.593002, 1]
   radius: 128306.708221
   orbit:

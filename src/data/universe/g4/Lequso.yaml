@@ -41,7 +41,7 @@ bodies:
     description: Lequso is most famous for its vast dense forests and its exotic night life.
     inhabitants: Large Red Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.817657, 0.780019, 0.71613, 1]
   radius: 66035.45517
   orbit:

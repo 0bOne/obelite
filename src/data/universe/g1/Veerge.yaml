@@ -41,7 +41,7 @@ bodies:
     description: The world Veerge is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.336742, 0.555165, 0.76416, 1]
   radius: 141219.093323
   orbit:

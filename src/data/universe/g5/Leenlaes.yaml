@@ -41,7 +41,7 @@ bodies:
     description: Leenlaes is most noted for its inhabitants’ exceptional love for tourists and its unusual tropical forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.776572, 0.474975, 0.469636, 1]
   radius: 59154.296417
   orbit:

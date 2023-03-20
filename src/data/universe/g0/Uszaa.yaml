@@ -41,7 +41,7 @@ bodies:
     description: The planet Uszaa is reasonably noted for its inhabitants’ eccentric love for tourists and the Uszaaian tree grub.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.257044, 0.752965, 0.777399, 1]
   radius: 115243.692017
   orbit:

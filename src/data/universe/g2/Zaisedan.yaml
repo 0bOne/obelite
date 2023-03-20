@@ -41,7 +41,7 @@ bodies:
     description: The planet Zaisedan is an unremarkable dump.
     inhabitants: Fierce Harmless Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.653955, 0.266078, 0.249501, 1]
   radius: 83588.722229
   orbit:

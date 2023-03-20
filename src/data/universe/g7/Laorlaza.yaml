@@ -41,7 +41,7 @@ bodies:
     description: The planet Laorlaza is reasonably noted for its inhabitants’ exceptional love for tourists and the Laorlazaian edible arts graduate.
     inhabitants: Blue Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.314455, 0.522777, 0.671585, 1]
   radius: 134733.354492
   orbit:

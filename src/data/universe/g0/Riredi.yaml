@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for the Rirediian mountain slug.
     inhabitants: Harmless Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.764722, 0.418108, 0.271353, 1]
   radius: 155367.033691
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Esenena is a revolting little planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.665646, 0.501607, 0.345291, 1]
   radius: 102210.094604
   orbit:

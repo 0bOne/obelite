@@ -41,7 +41,7 @@ bodies:
     description: This world is plagued by frequent earthquakes.
     inhabitants: Large Yellow Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.683093, 0.435533, 0.286822, 1]
   radius: 75872.004852
   orbit:

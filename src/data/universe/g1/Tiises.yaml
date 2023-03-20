@@ -41,7 +41,7 @@ bodies:
     description: Tiises is most famous for its vast rain forests and the Tiisesian tree grub.
     inhabitants: Green Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.66701, 0.552734, 0.528496, 1]
   radius: 151953.345947
   orbit:

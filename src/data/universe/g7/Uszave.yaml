@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for Uszaveian wolf cutlet and the Uszaveian edible arts graduate.
     inhabitants: Small Yellow Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.415879, 0.546844, 0.835321, 1]
   radius: 122412.935944
   orbit:

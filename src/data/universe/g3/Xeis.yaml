@@ -41,7 +41,7 @@ bodies:
     description: The planet Xeis is famous for Xeisian wolf meat but beset by frequent civil war.
     inhabitants: Large Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.711514, 0.279633, 0.256455, 1]
   radius: 89238.006592
   orbit:

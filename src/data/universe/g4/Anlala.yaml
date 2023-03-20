@@ -41,7 +41,7 @@ bodies:
     description: This planet is very well known for vicious Lolees brew and its exotic goat meat.
     inhabitants: Green Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.757214, 0.742675, 0.477626, 1]
   radius: 147786.824799
   orbit:

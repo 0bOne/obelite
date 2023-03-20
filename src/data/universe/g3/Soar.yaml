@@ -41,7 +41,7 @@ bodies:
     description: The world Soar is mildly noted for the Soarian mountain lobstoid but beset by dreadful earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.724211, 0.788365, 0.793558, 1]
   radius: 116157.542725
   orbit:

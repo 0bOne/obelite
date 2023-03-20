@@ -41,7 +41,7 @@ bodies:
     description: The planet Ceenza is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.218566, 0.246895, 0.667145, 1]
   radius: 123609.121857
   orbit:

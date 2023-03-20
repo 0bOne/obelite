@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for Cequququian shrew steak and Cequququian wolf meat.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.813766, 0.763861, 0.678684, 1]
   radius: 104075.236816
   orbit:

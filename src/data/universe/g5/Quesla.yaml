@@ -41,7 +41,7 @@ bodies:
     description: Quesla is reasonably well known for the Queslaian tree grub but plagued by frequent earthquakes.
     inhabitants: Harmless Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.571834, 0.590886, 0.792328, 1]
   radius: 173691.304169
   orbit:

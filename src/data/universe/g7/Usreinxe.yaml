@@ -41,7 +41,7 @@ bodies:
     description: The planet Usreinxe is most noted for its inhabitants’ exceptional love for tourists and its great volcanoes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.669598, 0.636926, 0.313793, 1]
   radius: 109817.089844
   orbit:

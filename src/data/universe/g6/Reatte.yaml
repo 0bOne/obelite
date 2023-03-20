@@ -41,7 +41,7 @@ bodies:
     description: The planet Reatte is mildly notable for Reatteian lethal brandy.
     inhabitants: Black Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.842151, 0.360242, 0.225139, 1]
   radius: 147547.151642
   orbit:

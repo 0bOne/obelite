@@ -41,7 +41,7 @@ bodies:
     description: The world Gerege is reasonably famous for the Geregeian spotted wolf.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.696667, 0.529587, 0.356591, 1]
   radius: 107939.921722
   orbit:

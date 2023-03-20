@@ -41,7 +41,7 @@ bodies:
     description: This world is fabled for its unusual tropical forests.
     inhabitants: Small Blue Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.713913, 0.655421, 0.624303, 1]
   radius: 154980.087891
   orbit:

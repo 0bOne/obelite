@@ -41,7 +41,7 @@ bodies:
     description: The world Cesousla is notable for its weird tropical forests and Cesouslaian evil juice.
     inhabitants: Fierce Harmless Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.789077, 0.796793, 0.812643, 1]
   radius: 96130.264893
   orbit:

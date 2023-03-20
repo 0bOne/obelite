@@ -41,7 +41,7 @@ bodies:
     description: The planet Isanla is reasonably fabled for Zero-G cricket and Isanlaian lethal brandy.
     inhabitants: Yellow Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.592979, 0.671135, 0.726892, 1]
   radius: 204930.432129
   orbit:

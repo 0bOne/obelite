@@ -41,7 +41,7 @@ bodies:
     description: The planet Biteen is reasonably noted for mud tennis and its unusual sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.308248, 0.652153, 0.697073, 1]
   radius: 103568.741455
   orbit:

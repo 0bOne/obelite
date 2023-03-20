@@ -41,7 +41,7 @@ bodies:
     description: Telace is an unremarkable dump.
     inhabitants: Blue Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.799072, 0.788866, 0.779338, 1]
   radius: 105254.155273
   orbit:

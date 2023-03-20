@@ -41,7 +41,7 @@ bodies:
     description: The planet Qugeza is most well known for its exotic cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.285348, 0.622827, 0.820731, 1]
   radius: 128346.482544
   orbit:

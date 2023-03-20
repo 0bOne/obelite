@@ -41,7 +41,7 @@ bodies:
     description: Edcea is reasonably notable for its fabulous cuisine but plagued by evil tree wolfs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.739719, 0.569691, 0.493976, 1]
   radius: 147264.72229
   orbit:

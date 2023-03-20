@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Sogeveian tree snake and its hoopy casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.301728, 0.646571, 0.833075, 1]
   radius: 105101.850891
   orbit:

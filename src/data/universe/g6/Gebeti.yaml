@@ -41,7 +41,7 @@ bodies:
     description: Gebeti is very fabled for its ancient Gebetiian Et banana plantations.
     inhabitants: Large Green Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.373661, 0.508822, 0.700464, 1]
   radius: 94845.625
   orbit:

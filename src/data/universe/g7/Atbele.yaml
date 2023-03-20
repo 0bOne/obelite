@@ -41,7 +41,7 @@ bodies:
     description: This world is plagued by deadly earthquakes.
     inhabitants: Red Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.266914, 0.356131, 0.839319, 1]
   radius: 77184.368439
   orbit:

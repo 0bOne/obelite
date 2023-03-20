@@ -41,7 +41,7 @@ bodies:
     description: The world Veanso is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained silliness.
     inhabitants: Black Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.66473, 0.668451, 0.742572, 1]
   radius: 116940.661011
   orbit:

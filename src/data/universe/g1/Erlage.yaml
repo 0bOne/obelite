@@ -41,7 +41,7 @@ bodies:
     description: Erlage is cursed by vicious mountain bisons.
     inhabitants: Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.638871, 0.811388, 0.823343, 1]
   radius: 75684.054565
   orbit:

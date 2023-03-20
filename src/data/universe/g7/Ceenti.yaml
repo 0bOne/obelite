@@ -41,7 +41,7 @@ bodies:
     description: The world Ceenti is reasonably noted for its inhabitants’ exceptional loathing of food blenders.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.791782, 0.515488, 0.343006, 1]
   radius: 127276.713867
   orbit:

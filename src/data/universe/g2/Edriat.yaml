@@ -41,7 +41,7 @@ bodies:
     description: Edriat is mildly well known for its hoopy casinos.
     inhabitants: Red Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.787036, 0.787625, 0.732948, 1]
   radius: 103188.309326
   orbit:

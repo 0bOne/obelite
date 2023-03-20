@@ -41,7 +41,7 @@ bodies:
     description: Orbira is ravaged by dreadful civil war.
     inhabitants: Black Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.737549, 0.767015, 0.771811, 1]
   radius: 117965.795288
   orbit:

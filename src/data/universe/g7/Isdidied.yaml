@@ -41,7 +41,7 @@ bodies:
     description: The planet Isdidied is a boring planet.
     inhabitants: Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.784056, 0.78439, 0.785449, 1]
   radius: 156371.331787
   orbit:

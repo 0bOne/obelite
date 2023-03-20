@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its pink Reusleedian Th Thweed plantations and its unusual casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.544344, 0.617485, 0.758749, 1]
   radius: 149054.469299
   orbit:

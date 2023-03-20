@@ -41,7 +41,7 @@ bodies:
     description: Orbeat is famous for its inhabitants’ ancient loathing of discos but plagued by occasional civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.556679, 0.626088, 0.651468, 1]
   radius: 129460.257568
   orbit:

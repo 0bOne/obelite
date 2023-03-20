@@ -41,7 +41,7 @@ bodies:
     description: Estebiin is a revolting dump.
     inhabitants: Small Red Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.388261, 0.417273, 0.668753, 1]
   radius: 130992.202148
   orbit:

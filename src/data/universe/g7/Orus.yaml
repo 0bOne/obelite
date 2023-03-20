@@ -41,7 +41,7 @@ bodies:
     description: The world Orus is notable for its unusual tropical forests and its exciting sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.395172, 0.72878, 0.836066, 1]
   radius: 129954.544983
   orbit:

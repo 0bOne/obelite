@@ -41,7 +41,7 @@ bodies:
     description: The world Teenvece is beset by dreadful earthquakes.
     inhabitants: Blue Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.762137, 0.445974, 0.198785, 1]
   radius: 156341.271973
   orbit:

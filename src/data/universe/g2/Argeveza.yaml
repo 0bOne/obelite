@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for its fabulous cuisine but beset by occasional civil war.
     inhabitants: Small Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.404507, 0.502548, 0.82225, 1]
   radius: 118730.163574
   orbit:

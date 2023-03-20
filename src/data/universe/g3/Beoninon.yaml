@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for vicious Enoube brew and Beoninonian shrew steak.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.628351, 0.789164, 0.813095, 1]
   radius: 92480.732727
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting little planet.
     inhabitants: Fierce Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.200388, 0.394391, 0.68201, 1]
   radius: 101614.177094
   orbit:

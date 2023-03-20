@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Erarriorian edible grub and the Erarriorian tree grub.
     inhabitants: Blue Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.632002, 0.650181, 0.734491, 1]
   radius: 71189.231873
   orbit:

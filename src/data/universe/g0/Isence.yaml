@@ -41,7 +41,7 @@ bodies:
     description: The world Isence is very famous for its unusual casinos but beset by evil disease.
     inhabitants: Red Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.811569, 0.717584, 0.237637, 1]
   radius: 125990.501709
   orbit:

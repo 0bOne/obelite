@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for the Inusian tree wolf but scourged by unpredictable earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.280055, 0.590106, 0.731754, 1]
   radius: 155028.274536
   orbit:

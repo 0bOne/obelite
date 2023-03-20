@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for its hoopy night life and Erreenenian Enleno brandy.
     inhabitants: Blue Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.585279, 0.625036, 0.659067, 1]
   radius: 66019.952087
   orbit:

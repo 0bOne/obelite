@@ -41,7 +41,7 @@ bodies:
     description: Geonbi is mildly famous for its hoopy casinos and its great parking meters.
     inhabitants: Large Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.543427, 0.688569, 0.704788, 1]
   radius: 93669.965973
   orbit:

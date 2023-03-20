@@ -41,7 +41,7 @@ bodies:
     description: The planet Inzaan is cursed by vicious killer beasts.
     inhabitants: Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.731506, 0.573076, 0.478179, 1]
   radius: 118367.726898
   orbit:

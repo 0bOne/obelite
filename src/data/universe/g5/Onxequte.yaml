@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably noted for its fabulous monkey steak.
     inhabitants: Yellow Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.309061, 0.333044, 0.670322, 1]
   radius: 164164.782715
   orbit:

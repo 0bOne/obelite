@@ -41,7 +41,7 @@ bodies:
     description: The world Uslain is reasonably famous for the Uslainian spotted wolf.
     inhabitants: Small Red Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.458369, 0.537177, 0.682294, 1]
   radius: 105487.264709
   orbit:

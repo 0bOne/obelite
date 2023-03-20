@@ -41,7 +41,7 @@ bodies:
     description: The world Inleus is most famous for the Inleusian spotted wolf.
     inhabitants: Harmless Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.278227, 0.651899, 0.664398, 1]
   radius: 174161.31012
   orbit:

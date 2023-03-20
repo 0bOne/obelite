@@ -41,7 +41,7 @@ bodies:
     description: The world Zarevees is most famous for the Zareveesian spotted cat.
     inhabitants: Fierce Harmless Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.820367, 0.801652, 0.705585, 1]
   radius: 107343.942261
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Arzace is scourged by evil disease.
     inhabitants: Small Red Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.331583, 0.600012, 0.813461, 1]
   radius: 94931.287231
   orbit:

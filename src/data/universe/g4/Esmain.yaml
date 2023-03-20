@@ -41,7 +41,7 @@ bodies:
     description: The planet Esmain is scourged by killer edible arts graduates.
     inhabitants: Small Yellow Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.327044, 0.450661, 0.702093, 1]
   radius: 134737.716522
   orbit:

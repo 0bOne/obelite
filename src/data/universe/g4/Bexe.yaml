@@ -41,7 +41,7 @@ bodies:
     description: The planet Bexe is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ eccentric shyness.
     inhabitants: Blue Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.436737, 0.711781, 0.732385, 1]
   radius: 102756.020966
   orbit:

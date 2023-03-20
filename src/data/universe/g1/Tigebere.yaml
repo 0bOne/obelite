@@ -41,7 +41,7 @@ bodies:
     description: The planet Tigebere is most famous for its vast rain forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.364683, 0.709831, 0.727988, 1]
   radius: 153662.684326
   orbit:

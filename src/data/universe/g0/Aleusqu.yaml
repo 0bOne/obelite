@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably notable for its great volcanoes but ravaged by vicious shrews.
     inhabitants: Green Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.287828, 0.350557, 0.802686, 1]
   radius: 196148.933105
   orbit:

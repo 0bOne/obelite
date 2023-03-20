@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by dreadful civil war.
     inhabitants: Blue Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.72565, 0.720542, 0.715344, 1]
   radius: 71868.817749
   orbit:

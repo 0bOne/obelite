@@ -41,7 +41,7 @@ bodies:
     description: Biqule is very fabled for the Biquleian mountain poet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.34285, 0.508223, 0.814951, 1]
   radius: 92551.739502
   orbit:

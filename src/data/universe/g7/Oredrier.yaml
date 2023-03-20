@@ -41,7 +41,7 @@ bodies:
     description: The planet Oredrier is most famous for its pink Oredrierian Ce Ceweed plantations and its exciting sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.615259, 0.738266, 0.795447, 1]
   radius: 150189.073029
   orbit:

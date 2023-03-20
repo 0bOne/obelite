@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for the Ramaanian edible moth but beset by evil tree wolfs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.60665, 0.65022, 0.757562, 1]
   radius: 77732.495728
   orbit:

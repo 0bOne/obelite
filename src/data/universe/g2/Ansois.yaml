@@ -41,7 +41,7 @@ bodies:
     description: The planet Ansois is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.74028, 0.60644, 0.329252, 1]
   radius: 125961.0849
   orbit:

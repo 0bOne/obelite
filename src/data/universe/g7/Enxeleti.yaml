@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for its inhabitants’ ingrained shyness and its fabulous vicious Noenthnu gargle blasters.
     inhabitants: Red Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.798935, 0.308028, 0.228589, 1]
   radius: 80770.067139
   orbit:

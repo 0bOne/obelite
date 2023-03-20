@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Arveisriian Norest brandy but scourged by deadly civil war.
     inhabitants: Small Red Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.67644, 0.669181, 0.58651, 1]
   radius: 153244.793549
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Isxevela is mildly notable for its inhabitants’ weird shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.651852, 0.615562, 0.207476, 1]
   radius: 153146.539917
   orbit:

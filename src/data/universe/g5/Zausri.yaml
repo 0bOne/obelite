@@ -41,7 +41,7 @@ bodies:
     description: The world Zausri is very famous for its unusual casinos but plagued by frequent solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.766562, 0.630554, 0.600347, 1]
   radius: 99468.753052
   orbit:

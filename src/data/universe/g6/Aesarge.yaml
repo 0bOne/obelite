@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for its exotic fish meat.
     inhabitants: Blue Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.833173, 0.811037, 0.796006, 1]
   radius: 199035.561523
   orbit:

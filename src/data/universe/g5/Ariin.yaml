@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Ariinian edible arts graduate and its weird volcanoes.
     inhabitants: Green Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.505916, 0.741924, 0.836642, 1]
   radius: 156296.889954
   orbit:

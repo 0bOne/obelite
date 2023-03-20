@@ -41,7 +41,7 @@ bodies:
     description: The world Edceon is mildly noted for its ancient mountains but ravaged by occasional solar activity.
     inhabitants: Red Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.79119, 0.654592, 0.489224, 1]
   radius: 125369.111633
   orbit:

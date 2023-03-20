@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Oredarisian edible grub and the Oredarisian tree snake.
     inhabitants: Green Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.591049, 0.632963, 0.698529, 1]
   radius: 141070.405273
   orbit:

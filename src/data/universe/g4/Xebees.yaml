@@ -41,7 +41,7 @@ bodies:
     description: The planet Xebees is an unremarkable planet.
     inhabitants: Large Black Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.7397, 0.547457, 0.288192, 1]
   radius: 109994.758301
   orbit:

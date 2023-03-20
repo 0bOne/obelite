@@ -41,7 +41,7 @@ bodies:
     description: Atinarus is mildly well known for killer Enesso juice.
     inhabitants: Green Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.362781, 0.562934, 0.651956, 1]
   radius: 82153.569946
   orbit:

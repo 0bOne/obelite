@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by unpredictable civil war.
     inhabitants: Blue Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.753384, 0.752409, 0.659941, 1]
   radius: 116191.098633
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Errara is fabled for its fabulous cuisine and its ancient mountains.
     inhabitants: Harmless Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.273731, 0.454663, 0.830194, 1]
   radius: 61157.445068
   orbit:

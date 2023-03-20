@@ -41,7 +41,7 @@ bodies:
     description: The world Reraxe is reasonably fabled for Zero-G cricket and its exotic cuisine.
     inhabitants: Black Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.661362, 0.620206, 0.549898, 1]
   radius: 197058.908386
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious place.
     inhabitants: Harmless Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.790384, 0.695398, 0.627434, 1]
   radius: 179041.918945
   orbit:

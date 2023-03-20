@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Anteedian tree grub and its inhabitants’ ancient mating traditions.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.654312, 0.510605, 0.433461, 1]
   radius: 164382.96875
   orbit:

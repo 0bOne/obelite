@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious place.
     inhabitants: Red Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.641004, 0.652836, 0.671585, 1]
   radius: 130867.28363
   orbit:

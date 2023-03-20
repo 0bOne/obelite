@@ -41,7 +41,7 @@ bodies:
     description: The planet Diusar is very noted for its unusual sit coms but plagued by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.583054, 0.814348, 0.816052, 1]
   radius: 168223.282471
   orbit:

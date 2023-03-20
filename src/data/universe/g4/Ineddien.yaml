@@ -41,7 +41,7 @@ bodies:
     description: The world Ineddien is most famous for the Ineddienian spotted cat.
     inhabitants: Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.758536, 0.351554, 0.297848, 1]
   radius: 110442.344971
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its exciting vacuum cricket.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.657651, 0.247968, 0.21115, 1]
   radius: 185572.346954
   orbit:

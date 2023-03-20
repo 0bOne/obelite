@@ -41,7 +41,7 @@ bodies:
     description: Leoned is reasonably well known for the Leonedian tree snake but scourged by unpredictable earthquakes.
     inhabitants: Large Black Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.703262, 0.596361, 0.532488, 1]
   radius: 85575.036774
   orbit:

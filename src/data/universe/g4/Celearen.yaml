@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for Celearenian wolf meat and its ancient Celearenian Beitse banana plantations.
     inhabitants: Fierce Black Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.659036, 0.448699, 0.363938, 1]
   radius: 131625.678253
   orbit:

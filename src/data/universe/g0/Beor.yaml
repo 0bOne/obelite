@@ -41,7 +41,7 @@ bodies:
     description: Beor is an unremarkable dump.
     inhabitants: Large Blue Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.663995, 0.628942, 0.481122, 1]
   radius: 93505.247803
   orbit:

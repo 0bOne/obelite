@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for Atanonian shrew steak and vicious Stlogein brew.
     inhabitants: Blue Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.498307, 0.569167, 0.664203, 1]
   radius: 57070.508423
   orbit:

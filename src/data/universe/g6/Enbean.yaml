@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for its unusual dense forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.487708, 0.518442, 0.656586, 1]
   radius: 75610.253906
   orbit:

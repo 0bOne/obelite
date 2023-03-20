@@ -41,7 +41,7 @@ bodies:
     description: Anquen is a revolting little planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.703088, 0.637552, 0.620663, 1]
   radius: 138045.611572
   orbit:

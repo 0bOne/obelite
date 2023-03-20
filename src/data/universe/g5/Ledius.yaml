@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its unusual sit coms and the Lediusian spotted shrew.
     inhabitants: Large Harmless Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.304877, 0.386035, 0.758594, 1]
   radius: 96153.054199
   orbit:

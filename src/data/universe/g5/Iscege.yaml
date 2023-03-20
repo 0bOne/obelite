@@ -41,7 +41,7 @@ bodies:
     description: The world Iscege is a dull world.
     inhabitants: Green Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.67695, 0.618376, 0.517376, 1]
   radius: 196537.038574
   orbit:

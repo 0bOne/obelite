@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for vicious Za brew but ravaged by vicious shrews.
     inhabitants: Small Green Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.241348, 0.340815, 0.694199, 1]
   radius: 137139.639587
   orbit:

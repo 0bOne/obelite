@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ ingrained shyness.
     inhabitants: Small Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.712549, 0.496085, 0.4944, 1]
   radius: 129390.239105
   orbit:

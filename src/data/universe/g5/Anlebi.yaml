@@ -41,7 +41,7 @@ bodies:
     description: The planet Anlebi is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.711571, 0.780371, 0.806738, 1]
   radius: 116343.868713
   orbit:

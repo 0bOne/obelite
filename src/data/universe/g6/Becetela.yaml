@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting little planet.
     inhabitants: Green Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.528039, 0.681108, 0.838202, 1]
   radius: 80746.49292
   orbit:

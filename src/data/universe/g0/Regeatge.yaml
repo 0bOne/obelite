@@ -41,7 +41,7 @@ bodies:
     description: Regeatge is reasonably well known for its great dense forests but scourged by frequent civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.839526, 0.686746, 0.520957, 1]
   radius: 184032.513275
   orbit:

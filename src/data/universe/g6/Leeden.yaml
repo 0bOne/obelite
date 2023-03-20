@@ -41,7 +41,7 @@ bodies:
     description: The planet Leeden is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.361721, 0.472869, 0.696368, 1]
   radius: 94916.942596
   orbit:

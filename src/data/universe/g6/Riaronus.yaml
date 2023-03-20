@@ -41,7 +41,7 @@ bodies:
     description: Riaronus is mildly well known for vicious Iliton brew.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.721542, 0.714758, 0.60006, 1]
   radius: 111162.708893
   orbit:

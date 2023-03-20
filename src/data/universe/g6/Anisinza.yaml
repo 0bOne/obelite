@@ -41,7 +41,7 @@ bodies:
     description: The world Anisinza is scourged by deadly disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.465019, 0.505773, 0.791263, 1]
   radius: 127649.343567
   orbit:

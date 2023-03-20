@@ -41,7 +41,7 @@ bodies:
     description: The planet Biatzate is scourged by killer edible poets.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.722845, 0.664874, 0.49812, 1]
   radius: 88644.438477
   orbit:

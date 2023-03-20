@@ -41,7 +41,7 @@ bodies:
     description: The planet Xetila is famous for Xetilaian wolf cutlet but plagued by lethal disease.
     inhabitants: Large Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.653705, 0.522221, 0.290978, 1]
   radius: 95431.434631
   orbit:

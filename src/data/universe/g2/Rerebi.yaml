@@ -41,7 +41,7 @@ bodies:
     description: Rerebi is very fabled for the Rerebiian mountain Renuiloid.
     inhabitants: Red Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.777295, 0.33815, 0.243427, 1]
   radius: 168255.089264
   orbit:

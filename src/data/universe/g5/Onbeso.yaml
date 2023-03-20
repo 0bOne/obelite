@@ -41,7 +41,7 @@ bodies:
     description: The planet Onbeso is reasonably noted for its inhabitants’ exceptional love for tourists and its unusual dense forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.657758, 0.734091, 0.748788, 1]
   radius: 227076.919556
   orbit:

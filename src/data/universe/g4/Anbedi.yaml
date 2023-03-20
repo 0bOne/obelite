@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for the Anbediian mountain poet but scourged by deadly civil war.
     inhabitants: Blue Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.667888, 0.696425, 0.697577, 1]
   radius: 150490.380707
   orbit:

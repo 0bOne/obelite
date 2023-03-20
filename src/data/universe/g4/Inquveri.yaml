@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by occasional solar activity.
     inhabitants: Black Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.737302, 0.353528, 0.279529, 1]
   radius: 140600.647125
   orbit:

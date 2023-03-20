@@ -41,7 +41,7 @@ bodies:
     description: Inteveon is a revolting dump.
     inhabitants: Yellow Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.736771, 0.473668, 0.441367, 1]
   radius: 125500.628662
   orbit:

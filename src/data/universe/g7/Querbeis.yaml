@@ -41,7 +41,7 @@ bodies:
     description: The planet Querbeis is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.794128, 0.49255, 0.451035, 1]
   radius: 109751.341553
   orbit:

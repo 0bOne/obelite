@@ -41,7 +41,7 @@ bodies:
     description: Dierbeer is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.685764, 0.36459, 0.359289, 1]
   radius: 168458.446198
   orbit:

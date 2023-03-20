@@ -41,7 +41,7 @@ bodies:
     description: The planet Becedibi is most famous for the Becedibiian deadly lobstoid and its pink Inet plant plantations.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.721967, 0.567052, 0.486749, 1]
   radius: 123148.9505
   orbit:

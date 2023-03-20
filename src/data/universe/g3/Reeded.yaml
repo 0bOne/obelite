@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting little planet.
     inhabitants: Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.81619, 0.425906, 0.266984, 1]
   radius: 105463.966827
   orbit:

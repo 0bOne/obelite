@@ -41,7 +41,7 @@ bodies:
     description: The world Ladigeso is a dull place.
     inhabitants: Red Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.713892, 0.712978, 0.69555, 1]
   radius: 81664.555664
   orbit:

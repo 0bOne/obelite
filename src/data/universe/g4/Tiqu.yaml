@@ -41,7 +41,7 @@ bodies:
     description: This planet is a tedious place.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.783459, 0.620417, 0.486237, 1]
   radius: 94034.866333
   orbit:

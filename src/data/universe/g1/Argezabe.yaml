@@ -41,7 +41,7 @@ bodies:
     description: The world Argezabe is mildly noted for its ancient mountains but ravaged by frequent earthquakes.
     inhabitants: Small Yellow Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.804501, 0.801256, 0.799106, 1]
   radius: 125892.713928
   orbit:

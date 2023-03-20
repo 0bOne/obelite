@@ -41,7 +41,7 @@ bodies:
     description: This planet is a dull world.
     inhabitants: Black Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.68712, 0.761303, 0.841043, 1]
   radius: 99867.852631
   orbit:

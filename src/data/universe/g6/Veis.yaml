@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for its pink Arit tulip plantations but plagued by vicious disease.
     inhabitants: Black Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.66759, 0.513887, 0.195563, 1]
   radius: 95536.7453
   orbit:

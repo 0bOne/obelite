@@ -41,7 +41,7 @@ bodies:
     description: The world Erisso is very noted for its ancient A’ tulip plantations but ravaged by unpredictable solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.705267, 0.588016, 0.395295, 1]
   radius: 68669.277954
   orbit:

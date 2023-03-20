@@ -41,7 +41,7 @@ bodies:
     description: The world Onrira is mildly noted for the Onriraian deadly Esonatoid but plagued by lethal spotted yaks.
     inhabitants: Blue Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.548853, 0.729793, 0.754706, 1]
   radius: 156695.984802
   orbit:

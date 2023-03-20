@@ -41,7 +41,7 @@ bodies:
     description: The planet Gequadi is mildly well known for its exotic night life.
     inhabitants: Large Yellow Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.718085, 0.565131, 0.547121, 1]
   radius: 101465.572357
   orbit:

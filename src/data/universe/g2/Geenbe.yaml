@@ -41,7 +41,7 @@ bodies:
     description: Geenbe is famous for its inhabitants’ ancient mating traditions but cursed by vicious killer cats.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.530654, 0.647455, 0.663809, 1]
   radius: 88475.426331
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Inbiorian evil juice but cursed by dreadful solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.204908, 0.358695, 0.680072, 1]
   radius: 132308.99353
   orbit:

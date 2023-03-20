@@ -41,7 +41,7 @@ bodies:
     description: The planet Mateus is very famous for Mateusian wolf meat but scourged by frequent civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.67995, 0.667105, 0.62576, 1]
   radius: 185379.016113
   orbit:

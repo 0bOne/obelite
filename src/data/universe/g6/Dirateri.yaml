@@ -41,7 +41,7 @@ bodies:
     description: Dirateri is a revolting dump.
     inhabitants: Red Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.198762, 0.464353, 0.733655, 1]
   radius: 189610.626526
   orbit:

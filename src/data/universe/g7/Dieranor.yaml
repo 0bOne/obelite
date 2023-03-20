@@ -41,7 +41,7 @@ bodies:
     description: Dieranor is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.298197, 0.561937, 0.676093, 1]
   radius: 164596.435852
   orbit:

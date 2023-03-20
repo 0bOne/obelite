@@ -41,7 +41,7 @@ bodies:
     description: The world Mabiat is scourged by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.829895, 0.829547, 0.827274, 1]
   radius: 156636.357422
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Isenes is reasonably well known for the Isenesian tree wolf but scourged by dreadful earthquakes.
     inhabitants: Blue Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.546018, 0.675205, 0.681146, 1]
   radius: 180558.170776
   orbit:

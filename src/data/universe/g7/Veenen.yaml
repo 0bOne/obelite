@@ -41,7 +41,7 @@ bodies:
     description: The planet Veenen is most well known for its hoopy casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.675269, 0.555601, 0.436254, 1]
   radius: 102604.206848
   orbit:

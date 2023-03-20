@@ -41,7 +41,7 @@ bodies:
     description: Xetiis is mildly well known for its exotic cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.82731, 0.678218, 0.420393, 1]
   radius: 78002.204285
   orbit:

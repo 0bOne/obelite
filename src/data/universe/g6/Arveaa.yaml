@@ -41,7 +41,7 @@ bodies:
     description: The world Arveaa is reasonably fabled for its exciting sit coms and its inhabitants’ ancient loathing of discos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.735233, 0.547883, 0.467968, 1]
   radius: 179126.359558
   orbit:

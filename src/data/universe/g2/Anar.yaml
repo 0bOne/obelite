@@ -41,7 +41,7 @@ bodies:
     description: Anar is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.724551, 0.586223, 0.347829, 1]
   radius: 93063.360596
   orbit:

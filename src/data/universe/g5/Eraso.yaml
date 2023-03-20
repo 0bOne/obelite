@@ -41,7 +41,7 @@ bodies:
     description: The planet Eraso is very noted for its exciting sit coms but ravaged by vicious killer cats.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.715891, 0.577194, 0.387911, 1]
   radius: 55376.00708
   orbit:

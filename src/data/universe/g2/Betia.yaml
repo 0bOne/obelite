@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its unusual dense forests and its exotic cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.598135, 0.602382, 0.7974, 1]
   radius: 90673.892822
   orbit:

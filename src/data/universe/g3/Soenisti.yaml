@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for its inhabitants’ exceptional loathing of food blenders.
     inhabitants: Fierce Yellow Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.559214, 0.594979, 0.728757, 1]
   radius: 79596.536407
   orbit:

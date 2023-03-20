@@ -41,7 +41,7 @@ bodies:
     description: The world Artiat is most well known for its great dense forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.703392, 0.833081, 0.848831, 1]
   radius: 138913.977814
   orbit:

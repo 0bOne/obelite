@@ -41,7 +41,7 @@ bodies:
     description: Anlere is reasonably well known for the Anlereian spotted shrew but plagued by evil tree leopards.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.734149, 0.344827, 0.276241, 1]
   radius: 110500.943756
   orbit:

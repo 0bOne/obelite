@@ -41,7 +41,7 @@ bodies:
     description: Tibionis is most noted for the Tibionisian deadly goat and its vast rain forests.
     inhabitants: Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.694278, 0.640932, 0.630945, 1]
   radius: 119260.755615
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Onanorra is famous for its fabulous monkey burgers but plagued by unpredictable civil war.
     inhabitants: Harmless Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.78204, 0.591379, 0.528145, 1]
   radius: 173267.893066
   orbit:

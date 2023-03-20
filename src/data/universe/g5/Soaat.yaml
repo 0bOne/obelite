@@ -41,7 +41,7 @@ bodies:
     description: Soaat is a revolting dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.805197, 0.579498, 0.250589, 1]
   radius: 133009.741211
   orbit:

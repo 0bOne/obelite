@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for Onentiian Cea’allo water but beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.79733, 0.364488, 0.297898, 1]
   radius: 218202.582397
   orbit:

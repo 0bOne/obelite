@@ -41,7 +41,7 @@ bodies:
     description: The world Onerzara is reasonably famous for the Onerzaraian spotted shrew.
     inhabitants: Green Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.225754, 0.403356, 0.837747, 1]
   radius: 175090.754395
   orbit:

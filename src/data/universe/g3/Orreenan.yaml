@@ -41,7 +41,7 @@ bodies:
     description: The planet Orreenan is an unremarkable dump.
     inhabitants: Harmless Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.533275, 0.568622, 0.652936, 1]
   radius: 132525.89386
   orbit:

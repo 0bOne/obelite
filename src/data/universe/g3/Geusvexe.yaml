@@ -41,7 +41,7 @@ bodies:
     description: The planet Geusvexe is cursed by vicious mountain monkeys.
     inhabitants: Large Red Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.408332, 0.603294, 0.81123, 1]
   radius: 79424.648285
   orbit:

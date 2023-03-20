@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for the Sogeesian evil Stoid.
     inhabitants: Fierce Yellow Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.469122, 0.696842, 0.836047, 1]
   radius: 110701.047974
   orbit:

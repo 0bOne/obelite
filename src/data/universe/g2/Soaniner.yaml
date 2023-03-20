@@ -41,7 +41,7 @@ bodies:
     description: The world Soaniner is reasonably fabled for its fabulous cuisine and its ancient Soaninerian Sestloxe banana plantations.
     inhabitants: Fierce Black Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.84407, 0.336631, 0.249308, 1]
   radius: 75782.305908
   orbit:

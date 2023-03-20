@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for the Mararereian edible grub and the Mararereian tree wolf.
     inhabitants: Small Red Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.419106, 0.749797, 0.759378, 1]
   radius: 124389.101562
   orbit:

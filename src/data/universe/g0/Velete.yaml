@@ -41,7 +41,7 @@ bodies:
     description: Velete is a revolting dump.
     inhabitants: Yellow Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.222977, 0.496567, 0.803522, 1]
   radius: 110291.947632
   orbit:

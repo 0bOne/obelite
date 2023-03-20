@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for the Atxeteerian edible poet but scourged by frequent civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.736539, 0.631054, 0.573985, 1]
   radius: 79352.577972
   orbit:

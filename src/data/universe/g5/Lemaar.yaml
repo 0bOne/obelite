@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.494422, 0.672447, 0.721289, 1]
   radius: 80321.661682
   orbit:

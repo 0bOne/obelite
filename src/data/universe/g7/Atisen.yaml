@@ -41,7 +41,7 @@ bodies:
     description: The planet Atisen is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.810779, 0.645482, 0.460631, 1]
   radius: 81596.933289
   orbit:

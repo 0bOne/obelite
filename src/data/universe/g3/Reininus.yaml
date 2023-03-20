@@ -41,7 +41,7 @@ bodies:
     description: Reininus is most famous for its pink Ceerle tulip plantations and the Reininusian edible arts graduate.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.729431, 0.675593, 0.658993, 1]
   radius: 187901.321564
   orbit:

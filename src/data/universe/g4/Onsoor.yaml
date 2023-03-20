@@ -41,7 +41,7 @@ bodies:
     description: Onsoor is most noted for the Onsoorian evil arts graduate and its fabulous Zaleen juice.
     inhabitants: Harmless Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.653311, 0.188914, 0.186378, 1]
   radius: 128277.59491
   orbit:

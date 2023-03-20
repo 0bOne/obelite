@@ -41,7 +41,7 @@ bodies:
     description: This world is noted for its exciting sit coms.
     inhabitants: Harmless Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.709283, 0.685172, 0.647975, 1]
   radius: 140689.994965
   orbit:

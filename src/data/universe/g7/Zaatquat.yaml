@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by unpredictable civil war.
     inhabitants: Fierce Yellow Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.738001, 0.707044, 0.684015, 1]
   radius: 88372.58606
   orbit:

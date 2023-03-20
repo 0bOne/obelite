@@ -41,7 +41,7 @@ bodies:
     description: The world Isquinza is reasonably noted for Zero-G hockey and its inhabitants’ eccentric shyness.
     inhabitants: Black Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.66937, 0.666278, 0.477126, 1]
   radius: 162544.691162
   orbit:

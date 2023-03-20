@@ -41,7 +41,7 @@ bodies:
     description: Begeabi is very notable for its inhabitants’ weird silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.660519, 0.391961, 0.386731, 1]
   radius: 61865.506592
   orbit:

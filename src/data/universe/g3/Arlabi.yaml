@@ -41,7 +41,7 @@ bodies:
     description: The planet Arlabi is cursed by killer mountain monkeys.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.661418, 0.671209, 0.688721, 1]
   radius: 155743.372192
   orbit:

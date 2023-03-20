@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Atmalaian Re brandy but scourged by killer edible Reoids.
     inhabitants: Red Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.269142, 0.56925, 0.75235, 1]
   radius: 82080.276489
   orbit:

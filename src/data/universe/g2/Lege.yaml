@@ -41,7 +41,7 @@ bodies:
     description: The planet Lege is mildly well known for its exotic cuisine.
     inhabitants: Large Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.6965, 0.619483, 0.44903, 1]
   radius: 65295.85434
   orbit:

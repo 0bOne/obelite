@@ -41,7 +41,7 @@ bodies:
     description: Diis is mildly well known for killer Ar juice.
     inhabitants: Large Yellow Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.781461, 0.744662, 0.715684, 1]
   radius: 75155.069733
   orbit:

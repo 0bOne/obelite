@@ -41,7 +41,7 @@ bodies:
     description: Anedin is a revolting little planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.381159, 0.536898, 0.686353, 1]
   radius: 114853.263702
   orbit:

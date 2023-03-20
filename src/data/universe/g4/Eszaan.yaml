@@ -41,7 +41,7 @@ bodies:
     description: The world Eszaan is reasonably noted for Zero-G hockey and its inhabitants’ ingrained shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.745844, 0.698345, 0.687384, 1]
   radius: 143069.561005
   orbit:

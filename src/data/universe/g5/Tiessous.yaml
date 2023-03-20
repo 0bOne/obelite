@@ -41,7 +41,7 @@ bodies:
     description: The planet Tiessous is very famous for Tiessousian wolf cutlet but plagued by lethal disease.
     inhabitants: Green Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.798398, 0.556329, 0.396528, 1]
   radius: 122029.763947
   orbit:

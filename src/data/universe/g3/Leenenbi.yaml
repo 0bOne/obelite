@@ -41,7 +41,7 @@ bodies:
     description: Leenenbi is mildly notable for its inhabitants’ unusual mating traditions.
     inhabitants: Large Red Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.779877, 0.684914, 0.23, 1]
   radius: 85127.248535
   orbit:

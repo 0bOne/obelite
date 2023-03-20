@@ -41,7 +41,7 @@ bodies:
     description: The planet Ribigeus is a boring world.
     inhabitants: Blue Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.415733, 0.56057, 0.783316, 1]
   radius: 192802.95105
   orbit:

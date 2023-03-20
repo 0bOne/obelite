@@ -41,7 +41,7 @@ bodies:
     description: The planet Zateteis is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.843579, 0.749366, 0.706463, 1]
   radius: 61290.478516
   orbit:

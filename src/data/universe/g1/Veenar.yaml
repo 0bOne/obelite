@@ -41,7 +41,7 @@ bodies:
     description: The planet Veenar is most famous for the Veenarian evil arts graduate and its fabulous Be juice.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.729706, 0.631292, 0.59155, 1]
   radius: 114104.436798
   orbit:

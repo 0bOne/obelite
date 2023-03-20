@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for its exciting its exotic fish cutlet but plagued by frequent earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.776205, 0.533216, 0.262841, 1]
   radius: 199009.572144
   orbit:

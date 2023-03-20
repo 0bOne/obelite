@@ -41,7 +41,7 @@ bodies:
     description: The world Beesve is most well known for its exotic night life.
     inhabitants: Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.27288, 0.356707, 0.760223, 1]
   radius: 118553.696289
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Tionis is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.534308, 0.752967, 0.771707, 1]
   radius: 114018.334045
   orbit:

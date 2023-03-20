@@ -41,7 +41,7 @@ bodies:
     description: Atage is an unremarkable planet.
     inhabitants: Red Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.675238, 0.512491, 0.491053, 1]
   radius: 70946.051025
   orbit:

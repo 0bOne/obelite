@@ -41,7 +41,7 @@ bodies:
     description: The planet Orbeen is cursed by killer mountain lobstoids.
     inhabitants: Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.628952, 0.640624, 0.702515, 1]
   radius: 108146.658783
   orbit:

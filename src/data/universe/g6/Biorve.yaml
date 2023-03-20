@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Biorveian edible poet and its exciting sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.271017, 0.529888, 0.777133, 1]
   radius: 97426.06842
   orbit:

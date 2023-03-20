@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for the Enquraleian mountain poet but scourged by dreadful solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.341089, 0.599458, 0.738614, 1]
   radius: 103686.303711
   orbit:

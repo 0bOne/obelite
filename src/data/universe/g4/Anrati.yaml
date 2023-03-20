@@ -41,7 +41,7 @@ bodies:
     description: The world Anrati is mildly fabled for its inhabitants’ eccentric love for tourists but plagued by deadly earthquakes.
     inhabitants: Red Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.696145, 0.703787, 0.711343, 1]
   radius: 150059.665375
   orbit:

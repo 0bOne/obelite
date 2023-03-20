@@ -41,7 +41,7 @@ bodies:
     description: The world Alaza is scourged by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.709387, 0.493362, 0.1964, 1]
   radius: 152582.67746
   orbit:

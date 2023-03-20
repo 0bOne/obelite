@@ -41,7 +41,7 @@ bodies:
     description: This planet is a dull place.
     inhabitants: Fierce Blue Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.769626, 0.764832, 0.763998, 1]
   radius: 119732.107544
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its unusual tropical forests and its exciting Larivearian evil brandy.
     inhabitants: Red Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.84559, 0.734799, 0.681526, 1]
   radius: 110323.774414
   orbit:

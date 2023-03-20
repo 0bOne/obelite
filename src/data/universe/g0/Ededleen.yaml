@@ -41,7 +41,7 @@ bodies:
     description: The planet Ededleen is mildly well known for its exotic cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.222962, 0.737635, 0.820383, 1]
   radius: 129288.989105
   orbit:

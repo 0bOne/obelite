@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting dump.
     inhabitants: Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.661261, 0.325876, 0.225621, 1]
   radius: 153106.789703
   orbit:

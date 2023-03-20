@@ -41,7 +41,7 @@ bodies:
     description: Tetied is reasonably well known for the Tetiedian spotted leopard but plagued by vicious disease.
     inhabitants: Red Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.754275, 0.755305, 0.766922, 1]
   radius: 141496.446533
   orbit:

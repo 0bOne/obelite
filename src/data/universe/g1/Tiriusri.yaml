@@ -41,7 +41,7 @@ bodies:
     description: Tiriusri is reasonably notable for its fabulous cuisine but plagued by lethal disease.
     inhabitants: Blue Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.671042, 0.485675, 0.420254, 1]
   radius: 126714.817505
   orbit:

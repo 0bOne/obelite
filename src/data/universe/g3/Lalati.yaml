@@ -41,7 +41,7 @@ bodies:
     description: Lalati is a revolting little planet.
     inhabitants: Blue Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.827875, 0.752401, 0.615462, 1]
   radius: 114165.81955
   orbit:

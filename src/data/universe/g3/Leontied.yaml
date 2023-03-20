@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for its weird volcanoes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.699533, 0.224582, 0.17582, 1]
   radius: 61961.865997
   orbit:

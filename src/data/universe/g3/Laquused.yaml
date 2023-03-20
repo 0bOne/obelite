@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Laquusedian edible moth.
     inhabitants: Harmless Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.832498, 0.644745, 0.363894, 1]
   radius: 109500.637207
   orbit:

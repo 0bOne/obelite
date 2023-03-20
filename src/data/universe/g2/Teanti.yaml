@@ -41,7 +41,7 @@ bodies:
     description: The planet Teanti is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.563093, 0.706211, 0.733954, 1]
   radius: 158881.816406
   orbit:

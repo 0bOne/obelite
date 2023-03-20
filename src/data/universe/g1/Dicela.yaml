@@ -41,7 +41,7 @@ bodies:
     description: Dicela is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.287366, 0.50113, 0.816403, 1]
   radius: 153720.790863
   orbit:

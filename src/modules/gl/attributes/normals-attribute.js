@@ -6,12 +6,23 @@ export default class NormalsAttribute
     glBuffer;
     dimensions;
 
+    dimensions;
+    normalize;
+    stride;
+    offset;
+
     constructor(gl, elements)
     {
+        this.dimensions = 3;
+        this.normalize = false;
+        this.stride = 0;
+        this.offset = 0;
+
         this.gl = gl;
         this.glBuffer = gl.createBuffer();
         gl.bindBuffer(gl.ARRAY_BUFFER, this.glBuffer);
         gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(elements), gl.STATIC_DRAW);    
+        gl.bindBuffer(gl.ARRAY_BUFFER, null);
 
         this.count = elements.length;
     }
@@ -24,20 +35,15 @@ export default class NormalsAttribute
             return;
         }
     
-        const numComponents = 3;
-        const type = this.gl.FLOAT;
-        const normalize = false;
-        const stride = 0;
-        const offset = 0;
         this.gl.bindBuffer(this.gl.ARRAY_BUFFER, this.glBuffer);
         //console.log("setting normals");
         this.gl.vertexAttribPointer(
             shader.locations.aVertexNormal,
-            numComponents,
-            type,
-            normalize,
-            stride,
-            offset
+            this.dimensions,
+            this.gl.FLOAT,
+            this.normalize,
+            this.stride,
+            this.offset
         );
         this.gl.enableVertexAttribArray(shader.locations.aVertexNormal);
        

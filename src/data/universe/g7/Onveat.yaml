@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its weird exuberant forests and its inhabitants’ eccentric shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.784305, 0.365256, 0.336868, 1]
   radius: 164407.507172
   orbit:

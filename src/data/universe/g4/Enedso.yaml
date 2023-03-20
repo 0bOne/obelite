@@ -41,7 +41,7 @@ bodies:
     description: This world is plagued by frequent earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.583475, 0.666215, 0.694235, 1]
   radius: 102356.777954
   orbit:

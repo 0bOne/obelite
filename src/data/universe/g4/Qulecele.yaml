@@ -41,7 +41,7 @@ bodies:
     description: The planet Qulecele is reasonably fabled for Zero-G hockey and its inhabitants’ ingrained silliness.
     inhabitants: Blue Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.403215, 0.593056, 0.747464, 1]
   radius: 154224.391632
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is a tedious little planet.
     inhabitants: Blue Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.595194, 0.682568, 0.686981, 1]
   radius: 131806.594391
   orbit:

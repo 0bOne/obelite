@@ -41,7 +41,7 @@ bodies:
     description: This world is plagued by frequent earthquakes.
     inhabitants: Red Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.477465, 0.619429, 0.803104, 1]
   radius: 187033.763123
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Quzadi is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.706787, 0.474861, 0.450073, 1]
   radius: 120791.752625
   orbit:

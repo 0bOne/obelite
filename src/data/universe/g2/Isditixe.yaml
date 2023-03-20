@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting dump.
     inhabitants: Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.221845, 0.662631, 0.674634, 1]
   radius: 156702.024536
   orbit:

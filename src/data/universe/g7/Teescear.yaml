@@ -41,7 +41,7 @@ bodies:
     description: The planet Teescear is reasonably fabled for Teescearian evil juice and Teescearian evil brandy.
     inhabitants: Yellow Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.72966, 0.725918, 0.688986, 1]
   radius: 134913.350372
   orbit:

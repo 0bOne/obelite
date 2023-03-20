@@ -41,7 +41,7 @@ bodies:
     description: The world Orteed is reasonably noted for mud tennis and the Orteedian mountain Seoid.
     inhabitants: Harmless Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.849887, 0.813243, 0.802735, 1]
   radius: 90839.685516
   orbit:

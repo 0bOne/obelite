@@ -41,7 +41,7 @@ bodies:
     description: The planet Aingeon is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.667276, 0.667659, 0.67515, 1]
   radius: 161730.790253
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by deadly earthquakes.
     inhabitants: Fierce Green Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.440718, 0.468034, 0.671274, 1]
   radius: 113627.183075
   orbit:

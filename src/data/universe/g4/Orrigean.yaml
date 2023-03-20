@@ -41,7 +41,7 @@ bodies:
     description: The world Orrigean is most famous for the Orrigeanian spotted shrew.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.284902, 0.661503, 0.688312, 1]
   radius: 160060.958862
   orbit:

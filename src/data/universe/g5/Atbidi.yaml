@@ -41,7 +41,7 @@ bodies:
     description: The planet Atbidi is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.666522, 0.63124, 0.605721, 1]
   radius: 88375.404968
   orbit:

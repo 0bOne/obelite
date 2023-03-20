@@ -41,7 +41,7 @@ bodies:
     description: The planet Atrare is cursed by vicious mountain monkeys.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.775281, 0.774427, 0.773977, 1]
   radius: 75609.32373
   orbit:

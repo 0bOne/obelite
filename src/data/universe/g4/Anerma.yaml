@@ -41,7 +41,7 @@ bodies:
     description: This world is plagued by frequent solar activity.
     inhabitants: Red Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.7546, 0.757364, 0.777429, 1]
   radius: 111195.046692
   orbit:

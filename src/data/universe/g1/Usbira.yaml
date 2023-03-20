@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious little planet.
     inhabitants: Small Harmless Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.706467, 0.665051, 0.663754, 1]
   radius: 104650.289612
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Atenrile is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.756741, 0.477593, 0.310757, 1]
   radius: 74314.987488
   orbit:

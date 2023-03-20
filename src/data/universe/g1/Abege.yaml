@@ -41,7 +41,7 @@ bodies:
     description: The world Abege is most well known for its vast dense forests.
     inhabitants: Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.341103, 0.60661, 0.67796, 1]
   radius: 153249.755859
   orbit:

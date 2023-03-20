@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by lethal disease.
     inhabitants: Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.741324, 0.577662, 0.274784, 1]
   radius: 122840.4953
   orbit:

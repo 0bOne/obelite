@@ -41,7 +41,7 @@ bodies:
     description: The world Uscela is a boring world.
     inhabitants: Small Yellow Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.331434, 0.507403, 0.70946, 1]
   radius: 125575.479736
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for its hoopy night life and vicious Mare brew.
     inhabitants: Black Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.524901, 0.570287, 0.685883, 1]
   radius: 149694.277039
   orbit:

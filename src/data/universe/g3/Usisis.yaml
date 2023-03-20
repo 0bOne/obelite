@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for the Usisisian edible poet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.821756, 0.746318, 0.566863, 1]
   radius: 158676.869202
   orbit:

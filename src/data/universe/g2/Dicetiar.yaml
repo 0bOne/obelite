@@ -41,7 +41,7 @@ bodies:
     description: Dicetiar is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.241935, 0.261446, 0.689532, 1]
   radius: 181803.652954
   orbit:

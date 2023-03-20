@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for its inhabitants’ eccentric love for tourists but plagued by deadly earthquakes.
     inhabitants: Black Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.84859, 0.799722, 0.52698, 1]
   radius: 174174.730377
   orbit:

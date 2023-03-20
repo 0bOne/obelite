@@ -41,7 +41,7 @@ bodies:
     description: Geen is mildly notable for Geenian lethal brandy.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.664401, 0.357922, 0.210185, 1]
   radius: 60009.876404
   orbit:

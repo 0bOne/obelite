@@ -41,7 +41,7 @@ bodies:
     description: The planet Letean is most famous for its pink Noge plant plantations and its unusual oceans.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.681451, 0.422745, 0.31682, 1]
   radius: 77758.201599
   orbit:

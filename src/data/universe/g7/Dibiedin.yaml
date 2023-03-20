@@ -41,7 +41,7 @@ bodies:
     description: The world Dibiedin is a dull place.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.557668, 0.603204, 0.662537, 1]
   radius: 169191.858521
   orbit:

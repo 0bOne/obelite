@@ -41,7 +41,7 @@ bodies:
     description: The planet Artelaan is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.230836, 0.332789, 0.716461, 1]
   radius: 148915.541077
   orbit:

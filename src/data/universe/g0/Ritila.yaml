@@ -41,7 +41,7 @@ bodies:
     description: The world Ritila is very famous for its hoopy casinos but beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.629609, 0.736403, 0.769635, 1]
   radius: 160150.283203
   orbit:

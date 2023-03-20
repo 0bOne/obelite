@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by unpredictable civil war.
     inhabitants: Red Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.327884, 0.515054, 0.81817, 1]
   radius: 160399.172363
   orbit:

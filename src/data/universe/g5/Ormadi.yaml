@@ -41,7 +41,7 @@ bodies:
     description: The planet Ormadi is very famous for its exotic goat meat but scourged by dreadful solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.668803, 0.676768, 0.684164, 1]
   radius: 95486.826324
   orbit:

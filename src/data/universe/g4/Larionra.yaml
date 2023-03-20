@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting little planet.
     inhabitants: Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.455732, 0.58639, 0.703064, 1]
   radius: 77379.750366
   orbit:

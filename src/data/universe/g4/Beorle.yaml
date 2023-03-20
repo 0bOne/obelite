@@ -41,7 +41,7 @@ bodies:
     description: The world Beorle is a boring world.
     inhabitants: Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.710477, 0.636367, 0.281579, 1]
   radius: 109739.11377
   orbit:

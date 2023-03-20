@@ -41,7 +41,7 @@ bodies:
     description: The world Laceteed is a dull place.
     inhabitants: Red Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.740848, 0.676691, 0.497189, 1]
   radius: 94151.132812
   orbit:

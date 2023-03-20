@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for Isxelaveian shrew cutlet and the Isxelaveian edible moth.
     inhabitants: Black Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.841183, 0.793481, 0.660416, 1]
   radius: 160342.383118
   orbit:

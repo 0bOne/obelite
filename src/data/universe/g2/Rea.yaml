@@ -41,7 +41,7 @@ bodies:
     description: The world Rea is reasonably famous for its inhabitants’ exceptional loathing of casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.750931, 0.691018, 0.627302, 1]
   radius: 156556.982422
   orbit:

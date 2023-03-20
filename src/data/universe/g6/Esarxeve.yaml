@@ -41,7 +41,7 @@ bodies:
     description: The planet Esarxeve is reasonably fabled for mud tennis and its ancient mountains.
     inhabitants: Small Green Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.671502, 0.680488, 0.751743, 1]
   radius: 154431.419373
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for Vetiticeian lethal brandy and its great parking meters.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.736761, 0.556634, 0.286195, 1]
   radius: 152066.833496
   orbit:

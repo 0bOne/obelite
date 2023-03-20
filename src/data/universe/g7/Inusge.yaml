@@ -41,7 +41,7 @@ bodies:
     description: Inusge is mildly well known for killer Soza gargle blasters.
     inhabitants: Green Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.754324, 0.498952, 0.491938, 1]
   radius: 170496.618652
   orbit:

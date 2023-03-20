@@ -41,7 +41,7 @@ bodies:
     description: The planet Rionxe is well known for its inhabitants’ ancient mating traditions but ravaged by unpredictable civil war.
     inhabitants: Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.652188, 0.611418, 0.53671, 1]
   radius: 204253.010712
   orbit:

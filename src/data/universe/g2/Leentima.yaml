@@ -41,7 +41,7 @@ bodies:
     description: The world Leentima is mildly fabled for its inhabitants’ eccentric love for poetry but plagued by frequent earthquakes.
     inhabitants: Large Yellow Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.65538, 0.569384, 0.383144, 1]
   radius: 90267.803802
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by deadly earthquakes.
     inhabitants: Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.264706, 0.335673, 0.753204, 1]
   radius: 94843.733826
   orbit:

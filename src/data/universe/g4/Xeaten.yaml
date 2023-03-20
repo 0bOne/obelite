@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by deadly earthquakes.
     inhabitants: Large Green Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.38724, 0.621754, 0.705502, 1]
   radius: 81521.769714
   orbit:

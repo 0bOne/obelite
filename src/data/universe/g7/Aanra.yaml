@@ -41,7 +41,7 @@ bodies:
     description: The world Aanra is reasonably fabled for Zero-G cricket and Aanraian evil brandy.
     inhabitants: Harmless Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.69827, 0.646717, 0.644306, 1]
   radius: 197947.536163
   orbit:

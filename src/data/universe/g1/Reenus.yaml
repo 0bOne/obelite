@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for Reenusian Thitle brandy but scourged by deadly edible moths.
     inhabitants: Harmless Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.547277, 0.70171, 0.772574, 1]
   radius: 125706.677399
   orbit:

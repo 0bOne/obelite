@@ -41,7 +41,7 @@ bodies:
     description: The world Anatma is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.623795, 0.647983, 0.725677, 1]
   radius: 161987.69165
   orbit:

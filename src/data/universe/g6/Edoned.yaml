@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for its unusual oceans.
     inhabitants: Black Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.312848, 0.378332, 0.747623, 1]
   radius: 152324.150085
   orbit:

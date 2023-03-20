@@ -41,7 +41,7 @@ bodies:
     description: The planet Ereddive is reasonably fabled for Zero-G cricket and vicious Soa’xenu gargle blasters.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.281983, 0.66572, 0.781967, 1]
   radius: 78951.480103
   orbit:

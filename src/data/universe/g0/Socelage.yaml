@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably noted for its exotic goat meat.
     inhabitants: Fierce Yellow Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.695975, 0.700391, 0.786505, 1]
   radius: 130006.363525
   orbit:

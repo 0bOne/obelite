@@ -41,7 +41,7 @@ bodies:
     description: The world Aisqu is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.265069, 0.474954, 0.826941, 1]
   radius: 160407.217407
   orbit:

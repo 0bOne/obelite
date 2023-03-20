@@ -41,7 +41,7 @@ bodies:
     description: Tiescebi is famous for its inhabitants’ ancient mating traditions but ravaged by dreadful civil war.
     inhabitants: Blue Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.847937, 0.79493, 0.283084, 1]
   radius: 129451.859131
   orbit:

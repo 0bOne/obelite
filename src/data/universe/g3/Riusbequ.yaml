@@ -41,7 +41,7 @@ bodies:
     description: This planet is a tedious place.
     inhabitants: Harmless Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.213545, 0.499991, 0.787125, 1]
   radius: 134460.199127
   orbit:

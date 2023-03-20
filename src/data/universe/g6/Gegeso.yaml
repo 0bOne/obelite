@@ -41,7 +41,7 @@ bodies:
     description: The world Gegeso is reasonably noted for its fabulous goat burgers and the Gegesoian evil poet.
     inhabitants: Large Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.799746, 0.814618, 0.816443, 1]
   radius: 75988.459778
   orbit:

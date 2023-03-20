@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably notable for its exotic night life but ravaged by frequent earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.569347, 0.649775, 0.764996, 1]
   radius: 157417.094421
   orbit:

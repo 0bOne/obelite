@@ -41,7 +41,7 @@ bodies:
     description: Rigeti is a revolting dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.405271, 0.48122, 0.726791, 1]
   radius: 146372.765198
   orbit:

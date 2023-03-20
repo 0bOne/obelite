@@ -41,7 +41,7 @@ bodies:
     description: Birera is most noted for its inhabitants’ eccentric love for tourists and the Bireraian tree grub.
     inhabitants: Fierce Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.680727, 0.745318, 0.776535, 1]
   radius: 110738.111115
   orbit:

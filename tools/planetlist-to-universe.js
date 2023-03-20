@@ -187,7 +187,7 @@ for (let key in jsonData)
         appendLine(systemFile, "    inhabitants: " + value.inhabitants);
 
         appendLine(systemFile, "- type: star");
-        appendLine(systemFile, "  type: primary");
+        appendLine(systemFile, "  name: primary");
         const starColor = toNumberArray(value.sun_color);
         appendLine(systemFile, "  color: " + arrayToYaml(starColor));
         appendLine(systemFile, "  radius: " + value.sun_radius);

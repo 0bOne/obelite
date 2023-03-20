@@ -41,7 +41,7 @@ bodies:
     description: The world Xezaor is most well known for its hoopy casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.181204, 0.472203, 0.658063, 1]
   radius: 94804.535522
   orbit:

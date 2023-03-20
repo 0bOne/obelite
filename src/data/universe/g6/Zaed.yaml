@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for its inhabitants’ eccentric love for tourists but beset by lethal disease.
     inhabitants: Fierce Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.245806, 0.344184, 0.697653, 1]
   radius: 84593.619995
   orbit:

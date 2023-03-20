@@ -41,7 +41,7 @@ bodies:
     description: Qutegequ is a revolting dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.658333, 0.672586, 0.675598, 1]
   radius: 142865.544434
   orbit:

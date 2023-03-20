@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its great volcanoes but ravaged by vicious disease.
     inhabitants: Fierce Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.817087, 0.703585, 0.690393, 1]
   radius: 138911.740723
   orbit:

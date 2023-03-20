@@ -41,7 +41,7 @@ bodies:
     description: The planet Ongequ is a boring planet.
     inhabitants: Harmless Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.702408, 0.620634, 0.484309, 1]
   radius: 134042.973633
   orbit:

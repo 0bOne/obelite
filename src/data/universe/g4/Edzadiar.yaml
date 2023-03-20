@@ -41,7 +41,7 @@ bodies:
     description: Edzadiar is very notable for the Edzadiarian tree grub.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.495526, 0.618685, 0.731732, 1]
   radius: 140887.512207
   orbit:

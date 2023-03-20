@@ -41,7 +41,7 @@ bodies:
     description: The planet Teceinre is reasonably noted for its inhabitants’ eccentric love for poetry and the Teceinreian tree wolf.
     inhabitants: Red Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.796054, 0.791129, 0.779118, 1]
   radius: 186657.804565
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for Leenaian shrew cutlet and the Leenaian tree wolf.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.367294, 0.844325, 0.849619, 1]
   radius: 95008.543396
   orbit:

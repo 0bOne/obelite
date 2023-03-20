@@ -41,7 +41,7 @@ bodies:
     description: Inrieran is mildly notable for Inrieranian lethal water.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.390346, 0.464631, 0.652811, 1]
   radius: 159724.674225
   orbit:

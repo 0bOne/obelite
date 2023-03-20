@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Enanarian edible moth and its great dense forests.
     inhabitants: Green Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.239445, 0.303538, 0.786185, 1]
   radius: 98214.500122
   orbit:

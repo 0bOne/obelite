@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its exciting Zero-G cricket.
     inhabitants: Red Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.328698, 0.468579, 0.663138, 1]
   radius: 86129.978027
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Labiar is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.836615, 0.748146, 0.70223, 1]
   radius: 111977.544098
   orbit:

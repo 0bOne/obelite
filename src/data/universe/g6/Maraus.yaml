@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for Marausian shrew cutlet and the Marausian edible grub.
     inhabitants: Small Yellow Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.830817, 0.724814, 0.648863, 1]
   radius: 162724.859619
   orbit:

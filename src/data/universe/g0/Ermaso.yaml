@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for the Ermasoian edible grub and the Ermasoian tree ant.
     inhabitants: Red Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.733499, 0.729809, 0.674798, 1]
   radius: 72118.304443
   orbit:

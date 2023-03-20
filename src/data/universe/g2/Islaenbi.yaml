@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by lethal disease.
     inhabitants: Harmless Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.546661, 0.591986, 0.65643, 1]
   radius: 198941.547241
   orbit:

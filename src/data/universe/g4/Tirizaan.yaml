@@ -41,7 +41,7 @@ bodies:
     description: Tirizaan is cursed by dreadful civil war.
     inhabitants: Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.818436, 0.367828, 0.361681, 1]
   radius: 100899.584656
   orbit:

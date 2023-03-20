@@ -41,7 +41,7 @@ bodies:
     description: The world Ceesxe is most well known for its vast rain forests.
     inhabitants: Fierce Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.169981, 0.378625, 0.678095, 1]
   radius: 135502.007446
   orbit:

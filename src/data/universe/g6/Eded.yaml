@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by deadly earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.835568, 0.823247, 0.81171, 1]
   radius: 80824.934845
   orbit:

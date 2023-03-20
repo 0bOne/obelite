@@ -41,7 +41,7 @@ bodies:
     description: The planet Edmaor is most well known for its vast dense forests.
     inhabitants: Blue Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.368213, 0.527551, 0.747623, 1]
   radius: 137518.093567
   orbit:

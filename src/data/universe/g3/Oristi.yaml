@@ -41,7 +41,7 @@ bodies:
     description: The planet Oristi is cursed by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.753555, 0.352677, 0.329732, 1]
   radius: 117743.466797
   orbit:

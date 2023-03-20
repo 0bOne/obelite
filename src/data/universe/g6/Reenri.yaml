@@ -41,7 +41,7 @@ bodies:
     description: The world Reenri is mildly fabled for its inhabitants’ eccentric shyness but cursed by occasional earthquakes.
     inhabitants: Yellow Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.841922, 0.491579, 0.343656, 1]
   radius: 199294.679413
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for Ergerexeian lethal water and the Ergerexeian tree snake.
     inhabitants: Black Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.681696, 0.655809, 0.486965, 1]
   radius: 71835.983276
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Orxerema is most famous for its pink Us tulip plantations and its inhabitants’ ingrained silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.671259, 0.430059, 0.358665, 1]
   radius: 100488.707886
   orbit:

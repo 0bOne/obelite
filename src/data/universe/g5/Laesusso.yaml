@@ -41,7 +41,7 @@ bodies:
     description: The planet Laesusso is cursed by dreadful civil war.
     inhabitants: Green Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.31244, 0.63973, 0.807202, 1]
   radius: 75075.288391
   orbit:

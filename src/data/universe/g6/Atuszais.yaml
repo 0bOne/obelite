@@ -41,7 +41,7 @@ bodies:
     description: The world Atuszais is mildly fabled for the Atuszaisian mountain slug but ravaged by vicious disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.361727, 0.668405, 0.726102, 1]
   radius: 70949.654236
   orbit:

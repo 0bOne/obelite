@@ -41,7 +41,7 @@ bodies:
     description: The planet Leistean is well known for its inhabitants’ ancient loathing of sit coms but ravaged by vicious wolfs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.682196, 0.472051, 0.412663, 1]
   radius: 61608.272705
   orbit:

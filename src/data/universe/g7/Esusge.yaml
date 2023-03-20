@@ -41,7 +41,7 @@ bodies:
     description: The world Esusge is beset by lethal disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.762848, 0.601737, 0.483668, 1]
   radius: 122395.671997
   orbit:

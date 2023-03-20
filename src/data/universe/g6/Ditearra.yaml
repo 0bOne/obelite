@@ -41,7 +41,7 @@ bodies:
     description: The world Ditearra is reasonably noted for its inhabitants’ exceptional loathing of casinos.
     inhabitants: Harmless Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.754282, 0.601074, 0.402102, 1]
   radius: 158111.708374
   orbit:

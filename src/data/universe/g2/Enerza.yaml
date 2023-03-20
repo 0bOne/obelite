@@ -41,7 +41,7 @@ bodies:
     description: This world is noted for Zero-G hockey.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.823547, 0.754123, 0.499166, 1]
   radius: 73372.139587
   orbit:

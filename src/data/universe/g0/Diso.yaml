@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for its ancient Ouza tulip plantations but ravaged by frequent earthquakes.
     inhabitants: Black Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.815241, 0.516776, 0.463287, 1]
   radius: 161528.365326
   orbit:

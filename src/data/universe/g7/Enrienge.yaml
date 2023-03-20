@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by occasional solar activity.
     inhabitants: Blue Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.621198, 0.652981, 0.796759, 1]
   radius: 92365.136261
   orbit:

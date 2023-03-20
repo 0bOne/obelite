@@ -41,7 +41,7 @@ bodies:
     description: This planet is a dull world.
     inhabitants: Large Black Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.710281, 0.710238, 0.709477, 1]
   radius: 87352.232056
   orbit:

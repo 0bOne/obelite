@@ -41,7 +41,7 @@ bodies:
     description: The planet Isti is reasonably noted for its inhabitants’ eccentric shyness and Zero-G hockey.
     inhabitants: Red Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.793711, 0.801656, 0.817975, 1]
   radius: 128574.695435
   orbit:

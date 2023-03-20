@@ -41,7 +41,7 @@ bodies:
     description: Istiesri is mildly notable for its inhabitants’ unusual mating traditions.
     inhabitants: Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.382532, 0.470366, 0.838919, 1]
   radius: 133014.710693
   orbit:

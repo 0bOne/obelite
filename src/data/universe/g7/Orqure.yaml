@@ -41,7 +41,7 @@ bodies:
     description: The planet Orqure is an unremarkable dump.
     inhabitants: Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.614913, 0.710124, 0.813931, 1]
   radius: 147811.986084
   orbit:

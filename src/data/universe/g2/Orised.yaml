@@ -41,7 +41,7 @@ bodies:
     description: The planet Orised is mildly well known for killer Geceouso juice.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.723077, 0.723747, 0.723889, 1]
   radius: 142528.139648
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Arberi is scourged by evil disease.
     inhabitants: Large Yellow Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.794907, 0.581199, 0.534696, 1]
   radius: 61988.221436
   orbit:

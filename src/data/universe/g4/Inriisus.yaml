@@ -41,7 +41,7 @@ bodies:
     description: The planet Inriisus is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.75777, 0.632452, 0.576343, 1]
   radius: 111975.178833
   orbit:

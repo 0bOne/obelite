@@ -41,7 +41,7 @@ bodies:
     description: Abilama is reasonably well known for its great dense forests but scourged by frequent civil war.
     inhabitants: Blue Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.706204, 0.692827, 0.515787, 1]
   radius: 174583.420563
   orbit:

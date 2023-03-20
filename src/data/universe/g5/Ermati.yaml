@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for its fabulous goat soup.
     inhabitants: Black Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.380093, 0.580479, 0.701788, 1]
   radius: 89690.647125
   orbit:

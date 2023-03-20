@@ -41,7 +41,7 @@ bodies:
     description: Ceteri is mildly famous for its pink oceans and its exciting sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.687863, 0.630389, 0.443879, 1]
   radius: 98437.426758
   orbit:

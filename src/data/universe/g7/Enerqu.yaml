@@ -41,7 +41,7 @@ bodies:
     description: The planet Enerqu is well known for its inhabitants’ unusual mating traditions but scourged by deadly tree grubs.
     inhabitants: Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.684741, 0.49684, 0.197123, 1]
   radius: 111620.100403
   orbit:

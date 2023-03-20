@@ -41,7 +41,7 @@ bodies:
     description: Sobite is most noted for the Sobiteian mountain lobstoid and the Sobiteian evil poet.
     inhabitants: Fierce Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.655476, 0.691059, 0.691223, 1]
   radius: 105116.098022
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Quzaarar is scourged by killer mountain Iloids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.70856, 0.441227, 0.271348, 1]
   radius: 164078.438873
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Betidi is famous for its inhabitants’ exceptional love for food blenders but scourged by dreadful solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.635592, 0.667271, 0.699991, 1]
   radius: 89330.722046
   orbit:

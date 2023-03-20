@@ -41,7 +41,7 @@ bodies:
     description: The planet Bizaar is most famous for the Bizaarian spotted shrew.
     inhabitants: Fierce Harmless Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.549397, 0.63543, 0.743427, 1]
   radius: 99788.503418
   orbit:

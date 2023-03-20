@@ -41,7 +41,7 @@ bodies:
     description: The world Usraar is a dull world.
     inhabitants: Small Yellow Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.833215, 0.81646, 0.664487, 1]
   radius: 126079.449463
   orbit:

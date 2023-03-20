@@ -41,7 +41,7 @@ bodies:
     description: The planet Xeraqu is mildly notable for Xeraquian lethal water.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.22468, 0.321037, 0.654181, 1]
   radius: 65018.918457
   orbit:

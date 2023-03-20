@@ -41,7 +41,7 @@ bodies:
     description: The planet Riladi is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.304653, 0.761946, 0.814413, 1]
   radius: 150738.869934
   orbit:

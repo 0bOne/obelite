@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably noted for its exotic goat soup.
     inhabitants: Green Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.660074, 0.566461, 0.454546, 1]
   radius: 106315.81543
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Tigearian tree grub and its inhabitants’ ancient mating traditions.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.719141, 0.707445, 0.636331, 1]
   radius: 108556.788483
   orbit:

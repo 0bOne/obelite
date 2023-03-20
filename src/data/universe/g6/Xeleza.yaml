@@ -41,7 +41,7 @@ bodies:
     description: The planet Xeleza is mildly notable for killer Nustza juice.
     inhabitants: Large Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.781876, 0.611376, 0.603357, 1]
   radius: 74124.821625
   orbit:

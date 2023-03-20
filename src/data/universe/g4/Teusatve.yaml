@@ -41,7 +41,7 @@ bodies:
     description: The world Teusatve is notable for its weird exuberant forests and its inhabitants’ eccentric shyness.
     inhabitants: Harmless Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.718137, 0.670313, 0.65635, 1]
   radius: 158037.277832
   orbit:

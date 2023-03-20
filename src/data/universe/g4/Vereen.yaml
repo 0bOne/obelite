@@ -41,7 +41,7 @@ bodies:
     description: Vereen is a revolting little planet.
     inhabitants: Red Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.717783, 0.734847, 0.746985, 1]
   radius: 124133.330841
   orbit:

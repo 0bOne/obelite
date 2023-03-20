@@ -41,7 +41,7 @@ bodies:
     description: The planet Bigexein is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.679343, 0.608909, 0.236782, 1]
   radius: 123687.978058
   orbit:

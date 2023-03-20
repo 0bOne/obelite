@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by lethal disease.
     inhabitants: Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.201767, 0.505201, 0.782669, 1]
   radius: 142949.265137
   orbit:

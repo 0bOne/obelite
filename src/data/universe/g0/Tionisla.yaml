@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ ingrained shyness.
     inhabitants: Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.790427, 0.712919, 0.605487, 1]
   radius: 96122.915649
   orbit:

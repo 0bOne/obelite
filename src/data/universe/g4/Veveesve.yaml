@@ -41,7 +41,7 @@ bodies:
     description: The world Veveesve is a dull world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.714908, 0.611955, 0.600285, 1]
   radius: 86612.262726
   orbit:

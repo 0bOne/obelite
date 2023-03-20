@@ -41,7 +41,7 @@ bodies:
     description: Orleso is reasonably well known for its great tropical forests but scourged by deadly civil war.
     inhabitants: Yellow Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.40605, 0.73816, 0.783035, 1]
   radius: 123166.422729
   orbit:

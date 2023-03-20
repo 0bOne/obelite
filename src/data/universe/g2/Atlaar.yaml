@@ -41,7 +41,7 @@ bodies:
     description: The world Atlaar is very noted for its pink oceans but scourged by dreadful solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.768613, 0.691705, 0.197677, 1]
   radius: 87713.267212
   orbit:

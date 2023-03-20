@@ -41,7 +41,7 @@ bodies:
     description: The world Arxeza is beset by dreadful earthquakes.
     inhabitants: Small Blue Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.439587, 0.659483, 0.791776, 1]
   radius: 135985.352478
   orbit:

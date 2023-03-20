@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its vast dense forests and its unusual dense forests.
     inhabitants: Large Harmless Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.386659, 0.747953, 0.833926, 1]
   radius: 90354.191589
   orbit:

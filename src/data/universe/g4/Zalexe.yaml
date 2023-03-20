@@ -41,7 +41,7 @@ bodies:
     description: The planet Zalexe is reasonably noted for its inhabitants’ exceptional love for tourists and its unusual oceans.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.741919, 0.737579, 0.737003, 1]
   radius: 71741.069794
   orbit:

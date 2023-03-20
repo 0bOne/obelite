@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious place.
     inhabitants: Small Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.284462, 0.617059, 0.683978, 1]
   radius: 126647.128296
   orbit:

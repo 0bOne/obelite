@@ -41,7 +41,7 @@ bodies:
     description: The planet Diora is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.578636, 0.627863, 0.70488, 1]
   radius: 188303.619385
   orbit:

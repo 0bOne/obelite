@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Tevebebiian tree grub and its inhabitants’ ancient loathing of discos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.293574, 0.413932, 0.693426, 1]
   radius: 128819.775848
   orbit:

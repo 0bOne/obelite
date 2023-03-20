@@ -41,7 +41,7 @@ bodies:
     description: The world Qutiri is mildly noted for its ancient mountains but plagued by deadly earthquakes.
     inhabitants: Yellow Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.612425, 0.628298, 0.743295, 1]
   radius: 136381.610107
   orbit:

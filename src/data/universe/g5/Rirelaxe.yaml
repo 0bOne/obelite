@@ -41,7 +41,7 @@ bodies:
     description: The planet Rirelaxe is famous for its inhabitants’ exceptional loathing of sit coms but cursed by deadly disease.
     inhabitants: Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.375407, 0.576698, 0.766199, 1]
   radius: 211573.739624
   orbit:

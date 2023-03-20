@@ -41,7 +41,7 @@ bodies:
     description: The planet Dicelaso is scourged by deadly disease.
     inhabitants: Green Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.820926, 0.663729, 0.642567, 1]
   radius: 153575.642395
   orbit:

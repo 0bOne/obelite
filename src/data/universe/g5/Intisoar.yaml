@@ -41,7 +41,7 @@ bodies:
     description: Intisoar is cursed by killer edible talking treeoids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.410561, 0.653237, 0.71044, 1]
   radius: 142479.92981
   orbit:

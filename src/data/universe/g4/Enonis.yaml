@@ -41,7 +41,7 @@ bodies:
     description: Enonis is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.838641, 0.658928, 0.638524, 1]
   radius: 75099.193115
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Soxeorza is notable for the Soxeorzaian tree wolf and its exciting sit coms.
     inhabitants: Fierce Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.690721, 0.757748, 0.769669, 1]
   radius: 150574.54834
   orbit:

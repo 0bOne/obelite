@@ -41,7 +41,7 @@ bodies:
     description: The world Leedre is beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.800714, 0.629558, 0.52933, 1]
   radius: 90982.474365
   orbit:

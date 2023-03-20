@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious little planet.
     inhabitants: Fierce Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.260403, 0.473681, 0.651327, 1]
   radius: 108052.367859
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by deadly earthquakes.
     inhabitants: Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.770346, 0.678565, 0.488034, 1]
   radius: 88027.944946
   orbit:

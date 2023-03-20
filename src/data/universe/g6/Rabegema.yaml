@@ -41,7 +41,7 @@ bodies:
     description: The world Rabegema is reasonably famous for its inhabitants’ ancient loathing of casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.70246, 0.545499, 0.313082, 1]
   radius: 67737.713623
   orbit:

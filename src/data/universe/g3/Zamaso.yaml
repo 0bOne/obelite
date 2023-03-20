@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for its inhabitants’ weird shyness and its inhabitants’ ingrained shyness.
     inhabitants: Fierce Red Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.849997, 0.849037, 0.358294, 1]
   radius: 112105.592041
   orbit:

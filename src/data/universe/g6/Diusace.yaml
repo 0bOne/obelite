@@ -41,7 +41,7 @@ bodies:
     description: The planet Diusace is mildly notable for its inhabitants’ unusual silliness.
     inhabitants: Black Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.485248, 0.577932, 0.717184, 1]
   radius: 112236.030731
   orbit:

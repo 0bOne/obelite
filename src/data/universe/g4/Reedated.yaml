@@ -41,7 +41,7 @@ bodies:
     description: The planet Reedated is reasonably fabled for its exciting Reedatedian evil brandy and its fabulous lethal Ildi brew.
     inhabitants: Yellow Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.704868, 0.589346, 0.428378, 1]
   radius: 205270.429993
   orbit:

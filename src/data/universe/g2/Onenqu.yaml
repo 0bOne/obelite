@@ -41,7 +41,7 @@ bodies:
     description: The world Onenqu is most famous for the Onenquian spotted shrew.
     inhabitants: Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.667911, 0.643514, 0.595036, 1]
   radius: 170251.860352
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for mud hockey.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.51209, 0.710464, 0.721573, 1]
   radius: 95344.541016
   orbit:

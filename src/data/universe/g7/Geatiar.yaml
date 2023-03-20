@@ -41,7 +41,7 @@ bodies:
     description: The planet Geatiar is mildly notable for Geatiarian lethal water.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.827725, 0.828955, 0.729962, 1]
   radius: 91603.384399
   orbit:

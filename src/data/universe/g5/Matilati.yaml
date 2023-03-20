@@ -41,7 +41,7 @@ bodies:
     description: The planet Matilati is most famous for the Matilatiian deadly lobstoid.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.705014, 0.45941, 0.420382, 1]
   radius: 156936.893616
   orbit:

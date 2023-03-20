@@ -41,7 +41,7 @@ bodies:
     description: The planet Cequaa is mildly well known for its exotic night life.
     inhabitants: Fierce Yellow Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.823184, 0.770128, 0.646341, 1]
   radius: 125319.838715
   orbit:

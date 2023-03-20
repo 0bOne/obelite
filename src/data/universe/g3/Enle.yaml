@@ -41,7 +41,7 @@ bodies:
     description: The planet Enle is famous for its inhabitants’ ancient loathing of casinos but ravaged by unpredictable civil war.
     inhabitants: Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.831659, 0.469475, 0.212274, 1]
   radius: 88782.824707
   orbit:

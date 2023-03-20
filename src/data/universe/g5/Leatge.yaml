@@ -41,7 +41,7 @@ bodies:
     description: Leatge is ravaged by dreadful civil war.
     inhabitants: Large Harmless Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.317447, 0.366024, 0.810812, 1]
   radius: 85456.186981
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Oreseren is a revolting little planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.848883, 0.798123, 0.722067, 1]
   radius: 132411.271057
   orbit:

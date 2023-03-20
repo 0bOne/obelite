@@ -41,7 +41,7 @@ bodies:
     description: The world Lequatdi is scourged by deadly edible arts graduates.
     inhabitants: Large Black Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.328721, 0.637098, 0.682245, 1]
   radius: 77050.302277
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Tierus is a boring world.
     inhabitants: Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.718265, 0.477484, 0.261198, 1]
   radius: 95441.594238
   orbit:

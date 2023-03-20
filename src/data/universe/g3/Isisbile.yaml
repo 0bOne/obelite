@@ -41,7 +41,7 @@ bodies:
     description: The world Isisbile is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.55423, 0.610372, 0.754382, 1]
   radius: 192065.847778
   orbit:

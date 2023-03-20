@@ -41,7 +41,7 @@ bodies:
     description: Edmainer is very notable for the Edmainerian tree grub.
     inhabitants: Red Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.766791, 0.698432, 0.538293, 1]
   radius: 140865.489502
   orbit:

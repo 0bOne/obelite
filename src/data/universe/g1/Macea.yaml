@@ -41,7 +41,7 @@ bodies:
     description: The world Macea is beset by dreadful earthquakes.
     inhabitants: Small Black Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.460826, 0.542223, 0.661139, 1]
   radius: 131809.899902
   orbit:

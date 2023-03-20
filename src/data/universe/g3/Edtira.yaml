@@ -41,7 +41,7 @@ bodies:
     description: The planet Edtira is reasonably noted for its inhabitants’ exceptional love for tourists and its weird volcanoes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.786948, 0.617858, 0.236345, 1]
   radius: 140704.416504
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Veale is most well known for its vast dense forests.
     inhabitants: Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.835385, 0.816269, 0.812565, 1]
   radius: 139321.839752
   orbit:

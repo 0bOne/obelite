@@ -41,7 +41,7 @@ bodies:
     description: Inedala is mildly notable for its inhabitants’ unusual silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.680579, 0.562832, 0.394651, 1]
   radius: 183048.951416
   orbit:

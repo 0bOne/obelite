@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for its great volcanoes and its inhabitants’ eccentric shyness.
     inhabitants: Small Green Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.693045, 0.647307, 0.284894, 1]
   radius: 104381.460876
   orbit:

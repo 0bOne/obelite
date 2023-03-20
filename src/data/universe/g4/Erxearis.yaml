@@ -41,7 +41,7 @@ bodies:
     description: The planet Erxearis is most famous for the Erxearisian deadly lobstoid and the Erxearisian spotted shrew.
     inhabitants: Yellow Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.342125, 0.642548, 0.657339, 1]
   radius: 74843.369293
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for its inhabitants’ ingrained silliness but beset by deadly tree grubs.
     inhabitants: Small Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.726672, 0.480331, 0.377487, 1]
   radius: 140748.687744
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is noted for its exciting sit coms.
     inhabitants: Small Black Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.676218, 0.578106, 0.234911, 1]
   radius: 155502.706146
   orbit:

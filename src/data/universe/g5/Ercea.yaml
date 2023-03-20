@@ -41,7 +41,7 @@ bodies:
     description: The world Ercea is very famous for its fabulous monkey burgers but plagued by frequent solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.843851, 0.774101, 0.450333, 1]
   radius: 67020.738678
   orbit:

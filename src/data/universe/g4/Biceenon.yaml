@@ -41,7 +41,7 @@ bodies:
     description: The world Biceenon is a dull place.
     inhabitants: Fierce Red Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.589048, 0.622097, 0.842111, 1]
   radius: 99614.210205
   orbit:

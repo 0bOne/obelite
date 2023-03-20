@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for its unusual oceans.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.6944, 0.339239, 0.323222, 1]
   radius: 115967.724609
   orbit:

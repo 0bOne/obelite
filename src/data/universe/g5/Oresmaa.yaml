@@ -41,7 +41,7 @@ bodies:
     description: The planet Oresmaa is scourged by deadly disease.
     inhabitants: Red Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.406135, 0.460658, 0.775702, 1]
   radius: 132626.037903
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Atmabe is mildly well known for its exotic cuisine and its inhabitants’ ingrained shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.711945, 0.297254, 0.286797, 1]
   radius: 76261.120605
   orbit:

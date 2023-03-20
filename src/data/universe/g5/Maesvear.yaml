@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Maesvearian edible moth and its great dense forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.705737, 0.573907, 0.468425, 1]
   radius: 120279.708252
   orbit:

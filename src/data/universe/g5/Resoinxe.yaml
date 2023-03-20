@@ -41,7 +41,7 @@ bodies:
     description: The world Resoinxe is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.715622, 0.650204, 0.47949, 1]
   radius: 201912.032318
   orbit:

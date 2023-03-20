@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for its inhabitants’ ingrained silliness but scourged by deadly civil war.
     inhabitants: Fierce Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.756821, 0.507581, 0.451178, 1]
   radius: 85436.942139
   orbit:

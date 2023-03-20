@@ -41,7 +41,7 @@ bodies:
     description: The planet Bianmadi is reasonably fabled for mud hockey and the Bianmadiian edible moth.
     inhabitants: Fierce Yellow Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.842859, 0.835262, 0.708378, 1]
   radius: 78611.257172
   orbit:

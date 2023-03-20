@@ -41,7 +41,7 @@ bodies:
     description: The world Dizaen is a boring world.
     inhabitants: Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.362918, 0.439525, 0.713495, 1]
   radius: 101207.011719
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Mabelala is a revolting little planet.
     inhabitants: Small Red Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.763513, 0.611755, 0.255826, 1]
   radius: 107028.292542
   orbit:

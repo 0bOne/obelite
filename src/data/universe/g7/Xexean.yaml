@@ -41,7 +41,7 @@ bodies:
     description: The world Xexean is beset by deadly earthquakes.
     inhabitants: Large Harmless Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.669782, 0.653247, 0.652734, 1]
   radius: 63423.557434
   orbit:

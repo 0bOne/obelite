@@ -41,7 +41,7 @@ bodies:
     description: The planet Belebi is very noted for its unusual sit coms but ravaged by dreadful civil war.
     inhabitants: Green Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.420806, 0.515643, 0.741666, 1]
   radius: 92697.052765
   orbit:

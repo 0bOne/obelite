@@ -41,7 +41,7 @@ bodies:
     description: The world Quonso is very noted for its exciting sit coms but ravaged by vicious mountain beasts.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.724384, 0.724643, 0.370529, 1]
   radius: 125488.227539
   orbit:

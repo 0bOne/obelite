@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by evil disease.
     inhabitants: Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.631176, 0.804256, 0.821973, 1]
   radius: 158246.673584
   orbit:

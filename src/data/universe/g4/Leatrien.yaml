@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting dump.
     inhabitants: Large Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.215055, 0.525549, 0.652124, 1]
   radius: 67450.033569
   orbit:

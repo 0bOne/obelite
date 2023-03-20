@@ -41,7 +41,7 @@ bodies:
     description: The planet Anener is famous for Anenerian wolf meat but scourged by dreadful solar activity.
     inhabitants: Green Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.201431, 0.410096, 0.665045, 1]
   radius: 145001.585083
   orbit:

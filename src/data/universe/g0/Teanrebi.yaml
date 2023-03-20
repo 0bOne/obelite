@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by frequent earthquakes.
     inhabitants: Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.749193, 0.788018, 0.800446, 1]
   radius: 169899.024353
   orbit:

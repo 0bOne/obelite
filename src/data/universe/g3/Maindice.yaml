@@ -41,7 +41,7 @@ bodies:
     description: Maindice is a revolting dump.
     inhabitants: Small Green Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.333594, 0.45997, 0.707361, 1]
   radius: 140727.498322
   orbit:

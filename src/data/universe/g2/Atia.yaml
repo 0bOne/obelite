@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Atiaian edible poet and Atiaian In brandy.
     inhabitants: Red Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.709016, 0.740828, 0.75152, 1]
   radius: 144522.766113
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Leusar is ravaged by unpredictable solar activity.
     inhabitants: Large Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.524867, 0.709619, 0.738528, 1]
   radius: 91945.13916
   orbit:

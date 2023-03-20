@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its vast oceans and its inhabitants’ exceptional love for tourists.
     inhabitants: Black Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.69996, 0.236248, 0.211974, 1]
   radius: 71979.710083
   orbit:

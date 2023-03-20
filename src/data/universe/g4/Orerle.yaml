@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious little planet.
     inhabitants: Harmless Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.250303, 0.538528, 0.830353, 1]
   radius: 97580.779724
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for its great tropical forests and Zero-G hockey.
     inhabitants: Fierce Red Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.309716, 0.648903, 0.67916, 1]
   radius: 84742.068787
   orbit:

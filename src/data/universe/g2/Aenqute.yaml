@@ -41,7 +41,7 @@ bodies:
     description: The world Aenqute is reasonably fabled for its fabulous cuisine and the Aenquteian mountain slug.
     inhabitants: Blue Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.754509, 0.75599, 0.772427, 1]
   radius: 153931.514893
   orbit:

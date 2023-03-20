@@ -41,7 +41,7 @@ bodies:
     description: The planet Laeden is reasonably fabled for its exciting sit coms and its inhabitants’ exceptional love for food blenders.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.215152, 0.399614, 0.79516, 1]
   radius: 85806.838989
   orbit:

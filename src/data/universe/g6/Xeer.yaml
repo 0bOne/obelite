@@ -41,7 +41,7 @@ bodies:
     description: Xeer is a revolting little planet.
     inhabitants: Large Yellow Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.273937, 0.564163, 0.743054, 1]
   radius: 96423.324585
   orbit:

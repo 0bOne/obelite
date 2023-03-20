@@ -41,7 +41,7 @@ bodies:
     description: Israa is mildly well known for its hoopy night life and Israaian lethal brandy.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.564669, 0.696744, 0.737207, 1]
   radius: 162592.276154
   orbit:

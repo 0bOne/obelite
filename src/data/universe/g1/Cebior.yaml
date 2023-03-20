@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its vast oceans but ravaged by vicious wolfs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.345321, 0.60321, 0.658786, 1]
   radius: 131824.89624
   orbit:

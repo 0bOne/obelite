@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for its unusual oceans.
     inhabitants: Harmless Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.382749, 0.44936, 0.821539, 1]
   radius: 95083.384399
   orbit:

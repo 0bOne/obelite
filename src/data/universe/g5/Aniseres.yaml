@@ -41,7 +41,7 @@ bodies:
     description: The planet Aniseres is cursed by deadly civil war.
     inhabitants: Red Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.771606, 0.75709, 0.749751, 1]
   radius: 141446.619415
   orbit:

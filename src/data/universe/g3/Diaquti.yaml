@@ -41,7 +41,7 @@ bodies:
     description: Diaquti is a revolting dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.262542, 0.713337, 0.741995, 1]
   radius: 127914.481201
   orbit:

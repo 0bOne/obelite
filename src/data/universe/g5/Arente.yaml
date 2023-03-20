@@ -41,7 +41,7 @@ bodies:
     description: The world Arente is a dull world.
     inhabitants: Small Red Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.242716, 0.680017, 0.71196, 1]
   radius: 148741.142883
   orbit:

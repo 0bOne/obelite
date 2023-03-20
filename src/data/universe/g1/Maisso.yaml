@@ -41,7 +41,7 @@ bodies:
     description: The planet Maisso is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.760681, 0.64367, 0.637188, 1]
   radius: 173471.094513
   orbit:

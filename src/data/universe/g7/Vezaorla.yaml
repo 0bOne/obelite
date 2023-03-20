@@ -41,7 +41,7 @@ bodies:
     description: Vezaorla is a revolting little planet.
     inhabitants: Yellow Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.719124, 0.778667, 0.824167, 1]
   radius: 134391.525879
   orbit:

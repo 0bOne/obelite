@@ -41,7 +41,7 @@ bodies:
     description: Rareat is an unremarkable planet.
     inhabitants: Yellow Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.662485, 0.381114, 0.248328, 1]
   radius: 107360.136414
   orbit:

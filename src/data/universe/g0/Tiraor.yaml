@@ -41,7 +41,7 @@ bodies:
     description: Tiraor is a revolting little planet.
     inhabitants: Blue Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.740216, 0.655512, 0.529065, 1]
   radius: 143111.169434
   orbit:

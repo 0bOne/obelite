@@ -41,7 +41,7 @@ bodies:
     description: The planet Erlein is very noted for its unusual sit coms but plagued by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.192283, 0.396942, 0.707739, 1]
   radius: 77550.226593
   orbit:

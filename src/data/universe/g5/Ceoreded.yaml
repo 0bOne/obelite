@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its vast oceans but ravaged by lethal spotted yaks.
     inhabitants: Fierce Yellow Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.394009, 0.549723, 0.820337, 1]
   radius: 89052.063904
   orbit:

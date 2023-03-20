@@ -41,7 +41,7 @@ bodies:
     description: The planet Edesla is cursed by killer mountain Leoids.
     inhabitants: Green Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.433696, 0.733704, 0.79433, 1]
   radius: 117232.979584
   orbit:

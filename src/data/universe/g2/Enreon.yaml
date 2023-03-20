@@ -41,7 +41,7 @@ bodies:
     description: The planet Enreon is an unremarkable dump.
     inhabitants: Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.700333, 0.69517, 0.581275, 1]
   radius: 85778.690186
   orbit:

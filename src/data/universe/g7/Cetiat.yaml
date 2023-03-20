@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for its weird volcanoes.
     inhabitants: Fierce Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.265696, 0.639713, 0.73345, 1]
   radius: 99029.945068
   orbit:

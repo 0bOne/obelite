@@ -41,7 +41,7 @@ bodies:
     description: The planet Ininlequ is most noted for the Ininlequian evil arts graduate and its fabulous cuisine.
     inhabitants: Blue Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.734128, 0.679217, 0.596101, 1]
   radius: 140312.359924
   orbit:

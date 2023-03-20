@@ -41,7 +41,7 @@ bodies:
     description: The planet Edxeri is reasonably noted for its fabulous goat soup and Zero-G cricket.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.26746, 0.624838, 0.746432, 1]
   radius: 105103.195038
   orbit:

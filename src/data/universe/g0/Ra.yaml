@@ -41,7 +41,7 @@ bodies:
     description: The world Ra is beset by deadly earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.814172, 0.683129, 0.652207, 1]
   radius: 81106.932983
   orbit:

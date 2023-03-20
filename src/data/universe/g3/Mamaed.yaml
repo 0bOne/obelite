@@ -41,7 +41,7 @@ bodies:
     description: Mamaed is most famous for the Mamaedian deadly lobstoid and the Mamaedian spotted shrew.
     inhabitants: Small Green Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.547943, 0.616172, 0.82439, 1]
   radius: 136022.756195
   orbit:

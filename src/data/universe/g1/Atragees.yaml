@@ -41,7 +41,7 @@ bodies:
     description: Atragees is reasonably notable for its great tropical forests but cursed by dreadful solar activity.
     inhabitants: Blue Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.739807, 0.694485, 0.691438, 1]
   radius: 108169.720459
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Isvetima is mildly well known for vicious Erma brew.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.656491, 0.653805, 0.59937, 1]
   radius: 176112.825623
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Esesbi is a boring planet.
     inhabitants: Small Red Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.672232, 0.53562, 0.34373, 1]
   radius: 122571.711273
   orbit:

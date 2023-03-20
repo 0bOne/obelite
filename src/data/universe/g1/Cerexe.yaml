@@ -41,7 +41,7 @@ bodies:
     description: The planet Cerexe is well known for its inhabitants’ ancient loathing of casinos but plagued by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.6633, 0.658278, 0.208759, 1]
   radius: 76125.694275
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for its exotic night life but ravaged by unpredictable solar activity.
     inhabitants: Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.818109, 0.754293, 0.725945, 1]
   radius: 130316.627502
   orbit:

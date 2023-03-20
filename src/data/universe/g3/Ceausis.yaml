@@ -41,7 +41,7 @@ bodies:
     description: The planet Ceausis is cursed by killer edible talking treeoids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.72865, 0.6855, 0.549375, 1]
   radius: 81965.911865
   orbit:

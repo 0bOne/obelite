@@ -41,7 +41,7 @@ bodies:
     description: The planet Xemariin is mildly notable for vicious Enetit brew.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.802582, 0.776591, 0.549485, 1]
   radius: 118761.183167
   orbit:

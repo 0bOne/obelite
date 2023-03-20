@@ -41,7 +41,7 @@ bodies:
     description: Qureaed is most famous for its vast oceans and its fabulous monkey burgers.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.661224, 0.4044, 0.248612, 1]
   radius: 135649.052124
   orbit:

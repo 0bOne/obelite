@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by dreadful civil war.
     inhabitants: Yellow Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.65066, 0.727338, 0.729279, 1]
   radius: 101204.164124
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Ininbi is reasonably famous for its inhabitants’ exceptional loathing of casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.799335, 0.684595, 0.461347, 1]
   radius: 183346.729736
   orbit:

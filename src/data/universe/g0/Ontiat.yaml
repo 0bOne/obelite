@@ -41,7 +41,7 @@ bodies:
     description: The planet Ontiat is scourged by evil disease.
     inhabitants: Green Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.73226, 0.330132, 0.292089, 1]
   radius: 123010.890198
   orbit:

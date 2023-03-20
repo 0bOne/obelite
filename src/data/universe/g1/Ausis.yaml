@@ -41,7 +41,7 @@ bodies:
     description: The world Ausis is scourged by deadly tree ants.
     inhabitants: Blue Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.666535, 0.705181, 0.760623, 1]
   radius: 215050.643921
   orbit:

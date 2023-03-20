@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for its fabulous Cebetelaian lethal brandy but scourged by killer mountain Esbionoids.
     inhabitants: Fierce Red Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.749329, 0.637436, 0.406665, 1]
   radius: 135071.896362
   orbit:

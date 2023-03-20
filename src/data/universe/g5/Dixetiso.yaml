@@ -41,7 +41,7 @@ bodies:
     description: Dixetiso is most famous for the Dixetisoian deadly monkey and its exotic cuisine.
     inhabitants: Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.715948, 0.709415, 0.649672, 1]
   radius: 176134.130859
   orbit:

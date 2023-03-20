@@ -41,7 +41,7 @@ bodies:
     description: The world Orzaedve is reasonably noted for its inhabitants’ exceptional loathing of food blenders.
     inhabitants: Harmless Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.646197, 0.737364, 0.769849, 1]
   radius: 129039.853821
   orbit:

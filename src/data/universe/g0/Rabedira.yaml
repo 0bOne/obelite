@@ -41,7 +41,7 @@ bodies:
     description: The planet Rabedira is well known for its inhabitants’ ancient loathing of sit coms but ravaged by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.731796, 0.553063, 0.334029, 1]
   radius: 94914.451904
   orbit:

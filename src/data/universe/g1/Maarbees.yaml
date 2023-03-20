@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for the Maarbeesian mountain lobstoid but beset by deadly earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.371612, 0.837319, 0.842807, 1]
   radius: 183855.963135
   orbit:

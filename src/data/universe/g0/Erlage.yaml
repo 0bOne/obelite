@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for the Erlageian tree ant but cursed by vicious mountain goats.
     inhabitants: Green Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.344284, 0.36746, 0.68447, 1]
   radius: 79432.333374
   orbit:

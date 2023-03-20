@@ -41,7 +41,7 @@ bodies:
     description: The planet Essore is most well known for its hoopy casinos.
     inhabitants: Small Blue Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.800558, 0.68409, 0.442172, 1]
   radius: 151044.689941
   orbit:

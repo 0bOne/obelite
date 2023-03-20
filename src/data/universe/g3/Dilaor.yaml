@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Dilaorian tree snake and Dilaorian shrew steak.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.722311, 0.66, 0.405848, 1]
   radius: 139567.568054
   orbit:

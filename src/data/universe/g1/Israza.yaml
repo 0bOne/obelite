@@ -41,7 +41,7 @@ bodies:
     description: The world Israza is notable for the Israzaian edible grub and the Israzaian tree snake.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.557753, 0.653097, 0.688483, 1]
   radius: 139812.044678
   orbit:

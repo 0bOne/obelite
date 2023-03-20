@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for its exotic cuisine and its inhabitants’ ingrained silliness.
     inhabitants: Black Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.656934, 0.648791, 0.433461, 1]
   radius: 173933.435974
   orbit:

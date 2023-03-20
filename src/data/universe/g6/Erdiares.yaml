@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Erdiaresian evil juice but cursed by dreadful solar activity.
     inhabitants: Green Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.275016, 0.285178, 0.662961, 1]
   radius: 91823.925781
   orbit:

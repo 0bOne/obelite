@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for Dirienian Bein brandy but cursed by unpredictable solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.334426, 0.433262, 0.774677, 1]
   radius: 153194.964905
   orbit:

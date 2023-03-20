@@ -41,7 +41,7 @@ bodies:
     description: The planet Zarila is cursed by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.319539, 0.606942, 0.667947, 1]
   radius: 82996.802673
   orbit:

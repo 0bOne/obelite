@@ -41,7 +41,7 @@ bodies:
     description: The world Onarsoat is scourged by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.71889, 0.576606, 0.479549, 1]
   radius: 177043.125
   orbit:

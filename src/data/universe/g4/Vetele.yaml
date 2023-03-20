@@ -41,7 +41,7 @@ bodies:
     description: Vetele is a revolting little planet.
     inhabitants: Blue Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.835596, 0.74529, 0.355762, 1]
   radius: 93060.916901
   orbit:

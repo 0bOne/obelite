@@ -41,7 +41,7 @@ bodies:
     description: Esceso is a revolting dump.
     inhabitants: Small Blue Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.553734, 0.635993, 0.67153, 1]
   radius: 127405.999146
   orbit:

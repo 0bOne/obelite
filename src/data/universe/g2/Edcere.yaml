@@ -41,7 +41,7 @@ bodies:
     description: This planet is a tedious place.
     inhabitants: Harmless Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.784628, 0.668714, 0.454601, 1]
   radius: 126963.696289
   orbit:

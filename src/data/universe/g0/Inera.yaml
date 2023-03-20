@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for its exotic fish meat.
     inhabitants: Blue Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.633503, 0.733461, 0.779367, 1]
   radius: 132207.952881
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Rianxe is mildly well known for its hoopy night life.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.763339, 0.43614, 0.404947, 1]
   radius: 150043.765869
   orbit:

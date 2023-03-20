@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by unpredictable solar activity.
     inhabitants: Large Blue Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.437948, 0.579346, 0.806802, 1]
   radius: 97626.744995
   orbit:

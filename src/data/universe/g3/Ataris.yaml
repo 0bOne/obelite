@@ -41,7 +41,7 @@ bodies:
     description: The world Ataris is very famous for its unusual sit coms but ravaged by lethal spotted snails.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.654126, 0.471891, 0.190069, 1]
   radius: 92582.737427
   orbit:

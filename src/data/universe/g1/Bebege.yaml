@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Zero-G hockey but ravaged by occasional earthquakes.
     inhabitants: Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.699924, 0.69156, 0.579982, 1]
   radius: 94992.037354
   orbit:

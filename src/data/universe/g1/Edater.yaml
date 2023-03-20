@@ -41,7 +41,7 @@ bodies:
     description: Edater is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.840988, 0.797872, 0.542229, 1]
   radius: 128166.632996
   orbit:

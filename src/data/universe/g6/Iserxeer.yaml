@@ -41,7 +41,7 @@ bodies:
     description: The world Iserxeer is reasonably noted for Zero-G hockey and its inhabitants’ ingrained silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.680222, 0.71898, 0.820474, 1]
   radius: 196330.338135
   orbit:

@@ -6,9 +6,8 @@ import IndicesAttribute from "./attributes/indices-attribute.js";
 import NormalsAttribute from "./attributes/normals-attribute.js";
 import Texture from "./texture.js";
 import STsAttribute from "./attributes/sts-ttribute.js";
-import SpecularColor from "./uniforms/specular-color.js";
 
-export default class ModelLoader
+export default class ShipLoader
 {
     constructor(gameCtx)
     {
@@ -93,13 +92,6 @@ export default class ModelLoader
                     await texture.Load(modelData.folder + "/" + textureData.file);
                     model.textures.push(texture);
                     model.hasTextures = true;
-
-                    if (textureData.specularColor)
-                    {
-                        // debugger;
-                        // const uniform = new SpecularColor(this.gl, model, textureData.specularColor);
-                        // texture.uniforms.push(uniform);
-                    }
                 }
                 else
                 {
@@ -174,9 +166,6 @@ export default class ModelLoader
         }
         modelData.positions = newPositions;
 
-        //console.log("verts:", newPositions.join(";"));
-        //console.log("norms:", newNormals.join(";"));
-
         //TODO: expand colors
 
         //delete indices
@@ -184,8 +173,7 @@ export default class ModelLoader
         delete modelData.colors;
         delete modelData.faceNormals;
         delete modelData.faceColors;
-        
-
+    
         //console.log("after expansion: ");
         //console.log("\tvertex count: ", modelData.positions.length);
         //console.log("\tst count: ", modelData.textures[0].sts.length);

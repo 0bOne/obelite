@@ -41,7 +41,7 @@ bodies:
     description: This planet is a tedious place.
     inhabitants: Yellow Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.246738, 0.534754, 0.658966, 1]
   radius: 102775.084076
   orbit:

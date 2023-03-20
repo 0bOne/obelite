@@ -41,7 +41,7 @@ bodies:
     description: Xeusreor is well known for the Xeusreorian tree wolf but scourged by deadly solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.708194, 0.607023, 0.573584, 1]
   radius: 95529.434967
   orbit:

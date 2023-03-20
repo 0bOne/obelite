@@ -41,7 +41,7 @@ bodies:
     description: Tiusriri is a revolting little planet.
     inhabitants: Yellow Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.729954, 0.730303, 0.730573, 1]
   radius: 129194.270325
   orbit:

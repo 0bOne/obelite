@@ -41,7 +41,7 @@ bodies:
     description: The planet Rexexe is most well known for its hoopy casinos.
     inhabitants: Harmless Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.262691, 0.425397, 0.761227, 1]
   radius: 151593.346863
   orbit:

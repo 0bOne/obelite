@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably noted for its exotic goat meat.
     inhabitants: Yellow Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.415552, 0.467123, 0.652448, 1]
   radius: 174104.282837
   orbit:

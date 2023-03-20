@@ -41,7 +41,7 @@ bodies:
     description: The world Xeabiti is fabled for its weird rock formations and the Xeabitiian deadly monkey.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.750983, 0.672914, 0.583454, 1]
   radius: 101016.118774
   orbit:

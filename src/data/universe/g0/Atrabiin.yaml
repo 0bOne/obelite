@@ -41,7 +41,7 @@ bodies:
     description: Atrabiin is cursed by killer edible Nuatoids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.361829, 0.528898, 0.760806, 1]
   radius: 88328.012695
   orbit:

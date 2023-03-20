@@ -41,7 +41,7 @@ bodies:
     description: The planet Anares is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.556074, 0.722133, 0.827448, 1]
   radius: 104686.222534
   orbit:

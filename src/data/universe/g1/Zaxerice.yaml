@@ -41,7 +41,7 @@ bodies:
     description: Zaxerice is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.301416, 0.70069, 0.716034, 1]
   radius: 83780.39856
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for its ancient Eserce tulip plantations but ravaged by frequent earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.728862, 0.752316, 0.814224, 1]
   radius: 106189.254456
   orbit:

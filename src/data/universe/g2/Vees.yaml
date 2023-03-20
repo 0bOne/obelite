@@ -41,7 +41,7 @@ bodies:
     description: Vees is a revolting dump.
     inhabitants: Large Yellow Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.842334, 0.646889, 0.432221, 1]
   radius: 63527.715454
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Lebied is mildly notable for its inhabitants’ unusual mating traditions.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.49304, 0.503364, 0.682318, 1]
   radius: 56499.533234
   orbit:

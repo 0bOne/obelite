@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by lethal disease.
     inhabitants: Green Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.487383, 0.581632, 0.681091, 1]
   radius: 122394.985809
   orbit:

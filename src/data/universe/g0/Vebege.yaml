@@ -41,7 +41,7 @@ bodies:
     description: The world Vebege is mildly fabled for the Vebegeian mountain lobstoid but beset by deadly solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.589473, 0.686849, 0.74751, 1]
   radius: 105125.441589
   orbit:

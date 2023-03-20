@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for Inonriian wolf meat and its weird volcanoes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.725082, 0.510847, 0.188996, 1]
   radius: 173871.719666
   orbit:

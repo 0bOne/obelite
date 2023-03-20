@@ -41,7 +41,7 @@ bodies:
     description: The world Esange is beset by lethal disease.
     inhabitants: Small Black Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.696237, 0.334528, 0.275115, 1]
   radius: 170386.04187
   orbit:

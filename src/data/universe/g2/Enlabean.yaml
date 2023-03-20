@@ -41,7 +41,7 @@ bodies:
     description: The planet Enlabean is cursed by dreadful civil war.
     inhabitants: Green Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.435673, 0.507474, 0.75946, 1]
   radius: 107025.237885
   orbit:

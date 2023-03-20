@@ -41,7 +41,7 @@ bodies:
     description: The world Zaonbi is a boring world.
     inhabitants: Fierce Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.404703, 0.584701, 0.71503, 1]
   radius: 89085.113525
   orbit:

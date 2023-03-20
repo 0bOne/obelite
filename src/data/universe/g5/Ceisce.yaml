@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for its exciting sit coms.
     inhabitants: Fierce Red Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.755429, 0.722182, 0.698509, 1]
   radius: 118075.353088
   orbit:

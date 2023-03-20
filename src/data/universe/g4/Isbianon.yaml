@@ -41,7 +41,7 @@ bodies:
     description: The world Isbianon is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.514912, 0.679281, 0.77323, 1]
   radius: 163233.428955
   orbit:

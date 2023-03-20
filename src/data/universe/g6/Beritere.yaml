@@ -41,7 +41,7 @@ bodies:
     description: The planet Beritere is very noted for its ancient Arceon tulip plantations but ravaged by occasional earthquakes.
     inhabitants: Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.745873, 0.746738, 0.634695, 1]
   radius: 89906.025696
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Riveis is most well known for its hoopy casinos.
     inhabitants: Harmless Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.403377, 0.453364, 0.81365, 1]
   radius: 130722.602539
   orbit:

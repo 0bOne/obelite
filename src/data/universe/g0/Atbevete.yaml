@@ -41,7 +41,7 @@ bodies:
     description: The planet Atbevete is mildly well known for killer A’erin gargle blasters.
     inhabitants: Blue Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.265591, 0.667918, 0.764938, 1]
   radius: 63743.188477
   orbit:

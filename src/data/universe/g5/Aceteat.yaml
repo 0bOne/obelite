@@ -41,7 +41,7 @@ bodies:
     description: Aceteat is most noted for the Aceteatian evil poet and Aceteatian lethal brandy.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.648164, 0.655656, 0.786835, 1]
   radius: 168413.535156
   orbit:

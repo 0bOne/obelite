@@ -41,7 +41,7 @@ bodies:
     description: The world Soisonza is mildly noted for the Soisonzaian mountain lobstoid but beset by deadly earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.665775, 0.607853, 0.500042, 1]
   radius: 144265.675049
   orbit:

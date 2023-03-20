@@ -41,7 +41,7 @@ bodies:
     description: The world Georinar is scourged by evil disease.
     inhabitants: Large Blue Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.690265, 0.648291, 0.456433, 1]
   radius: 83416.336517
   orbit:

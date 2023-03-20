@@ -41,7 +41,7 @@ bodies:
     description: The planet Zarareso is cursed by dreadful civil war.
     inhabitants: Fierce Green Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.592136, 0.704324, 0.726532, 1]
   radius: 99273.400879
   orbit:

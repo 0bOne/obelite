@@ -41,7 +41,7 @@ bodies:
     description: The world Geisor is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.240448, 0.575356, 0.692728, 1]
   radius: 90041.209717
   orbit:

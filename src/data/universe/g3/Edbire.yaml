@@ -41,7 +41,7 @@ bodies:
     description: Edbire is cursed by killer edible talking treeoids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.742206, 0.647941, 0.280836, 1]
   radius: 92119.32373
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Anrara is most famous for its pink Anraraian Il Ilweed plantations.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.721509, 0.352772, 0.280097, 1]
   radius: 180275.095367
   orbit:

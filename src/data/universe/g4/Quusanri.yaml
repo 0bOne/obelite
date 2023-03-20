@@ -41,7 +41,7 @@ bodies:
     description: The planet Quusanri is cursed by killer mountain lobstoids.
     inhabitants: Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.207977, 0.726483, 0.783389, 1]
   radius: 142806.362305
   orbit:

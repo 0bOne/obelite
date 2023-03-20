@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by lethal disease.
     inhabitants: Green Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.396228, 0.530979, 0.746323, 1]
   radius: 136939.897461
   orbit:

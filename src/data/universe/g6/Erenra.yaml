@@ -41,7 +41,7 @@ bodies:
     description: This planet is very well known for its inhabitants’ unusual silliness and vicious Mare brew.
     inhabitants: Red Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.783954, 0.768932, 0.76732, 1]
   radius: 79324.763489
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Ribiinat is ravaged by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.598069, 0.648216, 0.774564, 1]
   radius: 161606.44043
   orbit:

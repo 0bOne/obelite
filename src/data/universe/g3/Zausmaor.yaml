@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for its inhabitants’ ingrained shyness and its fabulous cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.685571, 0.629233, 0.564794, 1]
   radius: 73859.761047
   orbit:

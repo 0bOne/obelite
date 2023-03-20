@@ -41,7 +41,7 @@ bodies:
     description: Anerat is ravaged by frequent solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.658502, 0.615802, 0.433441, 1]
   radius: 142912.10083
   orbit:

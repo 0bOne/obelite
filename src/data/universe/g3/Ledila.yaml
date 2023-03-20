@@ -41,7 +41,7 @@ bodies:
     description: Ledila is ravaged by occasional solar activity.
     inhabitants: Large Harmless Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.437831, 0.528189, 0.696411, 1]
   radius: 85262.270966
   orbit:

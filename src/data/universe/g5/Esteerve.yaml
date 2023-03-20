@@ -41,7 +41,7 @@ bodies:
     description: This planet is a dull place.
     inhabitants: Small Black Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.513099, 0.783729, 0.819427, 1]
   radius: 147377.242432
   orbit:

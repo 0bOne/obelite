@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably noted for its exotic fish meat.
     inhabitants: Green Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.678253, 0.679956, 0.307877, 1]
   radius: 153486.520538
   orbit:

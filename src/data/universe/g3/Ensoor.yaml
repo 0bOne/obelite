@@ -41,7 +41,7 @@ bodies:
     description: The planet Ensoor is most famous for the Ensoorian spotted leopard.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.50695, 0.539315, 0.738037, 1]
   radius: 76185.898743
   orbit:

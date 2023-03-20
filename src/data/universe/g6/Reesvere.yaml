@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for Reesvereian wolf cutlet and its unusual oceans.
     inhabitants: Black Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.55184, 0.639923, 0.774063, 1]
   radius: 157370.698547
   orbit:

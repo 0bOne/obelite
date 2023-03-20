@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for its inhabitants’ ancient loathing of casinos.
     inhabitants: Red Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.603318, 0.710927, 0.734702, 1]
   radius: 96363.091736
   orbit:

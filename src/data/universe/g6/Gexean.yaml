@@ -41,7 +41,7 @@ bodies:
     description: The planet Gexean is reasonably noted for mud tennis and its ancient mountains.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.735266, 0.706554, 0.660874, 1]
   radius: 102357.9422
   orbit:

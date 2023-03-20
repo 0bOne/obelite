@@ -41,7 +41,7 @@ bodies:
     description: Erbieder is most famous for its vast dense forests and its fabulous cuisine.
     inhabitants: Red Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.791522, 0.520582, 0.415949, 1]
   radius: 48959.215851
   orbit:

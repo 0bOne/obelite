@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious little planet.
     inhabitants: Large Green Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.704602, 0.513378, 0.361652, 1]
   radius: 91251.471863
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Laraedle is scourged by deadly disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.194659, 0.544415, 0.678638, 1]
   radius: 95861.404419
   orbit:

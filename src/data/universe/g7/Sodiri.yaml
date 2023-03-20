@@ -41,7 +41,7 @@ bodies:
     description: Sodiri is a revolting little planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.677469, 0.490252, 0.250735, 1]
   radius: 114742.08252
   orbit:

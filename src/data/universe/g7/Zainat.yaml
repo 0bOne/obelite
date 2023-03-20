@@ -41,7 +41,7 @@ bodies:
     description: Zainat is well known for its inhabitants’ unusual silliness but cursed by deadly civil war.
     inhabitants: Fierce Harmless Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.772879, 0.812232, 0.848364, 1]
   radius: 91604.047241
   orbit:

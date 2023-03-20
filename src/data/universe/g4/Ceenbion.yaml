@@ -41,7 +41,7 @@ bodies:
     description: The planet Ceenbion is mildly notable for its inhabitants’ ingrained shyness.
     inhabitants: Fierce Blue Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.799551, 0.456017, 0.261432, 1]
   radius: 133111.505127
   orbit:

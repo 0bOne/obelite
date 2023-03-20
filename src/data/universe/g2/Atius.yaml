@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Atiusian evil brandy but cursed by dreadful solar activity.
     inhabitants: Red Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.720126, 0.527781, 0.448513, 1]
   radius: 126285.427856
   orbit:

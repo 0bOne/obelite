@@ -41,7 +41,7 @@ bodies:
     description: The world Gediesqu is most famous for the Gediesquian spotted wolf.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.200769, 0.641142, 0.740408, 1]
   radius: 109962.196045
   orbit:

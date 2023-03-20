@@ -41,7 +41,7 @@ bodies:
     description: The world Xevexean is reasonably famous for the Xevexeanian evil talking treeoid.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.277971, 0.675444, 0.736328, 1]
   radius: 99625.623322
   orbit:

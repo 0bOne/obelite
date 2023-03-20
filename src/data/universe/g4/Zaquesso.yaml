@@ -41,7 +41,7 @@ bodies:
     description: This world is fabled for its exciting Zaquessoian evil juice.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.184493, 0.200809, 0.671683, 1]
   radius: 81296.603699
   orbit:

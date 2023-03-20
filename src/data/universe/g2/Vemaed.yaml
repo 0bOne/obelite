@@ -41,7 +41,7 @@ bodies:
     description: The world Vemaed is most well known for its exotic night life.
     inhabitants: Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.254993, 0.459186, 0.689633, 1]
   radius: 120797.529907
   orbit:

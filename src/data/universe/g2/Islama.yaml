@@ -41,7 +41,7 @@ bodies:
     description: The planet Islama is most famous for the Islamaian spotted shrew.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.206282, 0.619575, 0.743942, 1]
   radius: 116546.30127
   orbit:

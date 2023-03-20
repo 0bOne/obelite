@@ -41,7 +41,7 @@ bodies:
     description: The world Reriza is reasonably noted for Zero-G cricket and Rerizaian evil brandy.
     inhabitants: Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.768308, 0.789627, 0.814801, 1]
   radius: 225295.102844
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Ticea is mildly famous for its pink Ticeaian Indi Indiweed plantations and its exciting sit coms.
     inhabitants: Harmless Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.828281, 0.64257, 0.441417, 1]
   radius: 120888.299561
   orbit:

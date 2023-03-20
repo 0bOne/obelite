@@ -41,7 +41,7 @@ bodies:
     description: The world Engema is beset by evil disease.
     inhabitants: Black Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.69895, 0.669869, 0.567961, 1]
   radius: 96219.87793
   orbit:

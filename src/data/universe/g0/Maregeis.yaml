@@ -41,7 +41,7 @@ bodies:
     description: This world is fabled for its ancient Maregeisian Bidial tulip plantations.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.707233, 0.375802, 0.283911, 1]
   radius: 157469.87381
   orbit:

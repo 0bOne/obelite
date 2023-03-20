@@ -41,7 +41,7 @@ bodies:
     description: The world Isxein is a boring world.
     inhabitants: Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.420241, 0.715307, 0.758682, 1]
   radius: 117870.066528
   orbit:

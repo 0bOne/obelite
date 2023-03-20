@@ -41,7 +41,7 @@ bodies:
     description: The planet Veretite is cursed by killer mountain monkeys.
     inhabitants: Green Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.846735, 0.806203, 0.471766, 1]
   radius: 99377.487488
   orbit:

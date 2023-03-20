@@ -41,7 +41,7 @@ bodies:
     description: The planet Usbege is reasonably noted for mud tennis and its ancient A’ce tulip plantations.
     inhabitants: Small Yellow Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.774844, 0.596339, 0.591786, 1]
   radius: 161239.981079
   orbit:

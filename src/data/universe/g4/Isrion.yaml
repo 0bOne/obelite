@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its great volcanoes but ravaged by vicious disease.
     inhabitants: Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.835944, 0.502459, 0.448123, 1]
   radius: 155421.351624
   orbit:

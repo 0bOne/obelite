@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Ceanveian edible poet.
     inhabitants: Fierce Black Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.771121, 0.769926, 0.769745, 1]
   radius: 85868.078613
   orbit:

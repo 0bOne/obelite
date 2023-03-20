@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for the Ribiorian mountain slug but cursed by occasional earthquakes.
     inhabitants: Harmless Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.820258, 0.743266, 0.729193, 1]
   radius: 133824.986572
   orbit:

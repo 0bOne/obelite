@@ -41,7 +41,7 @@ bodies:
     description: The planet Qurear is reasonably noted for its inhabitants’ eccentric shyness and mud tennis.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.822412, 0.783677, 0.536022, 1]
   radius: 144992.167053
   orbit:

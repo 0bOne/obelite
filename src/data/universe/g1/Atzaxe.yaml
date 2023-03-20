@@ -41,7 +41,7 @@ bodies:
     description: The planet Atzaxe is a boring planet.
     inhabitants: Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.246635, 0.427796, 0.728815, 1]
   radius: 90667.045593
   orbit:

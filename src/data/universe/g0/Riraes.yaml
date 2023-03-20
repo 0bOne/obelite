@@ -41,7 +41,7 @@ bodies:
     description: The world Riraes is fabled for its weird rock formations and its pink oceans.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.782501, 0.727115, 0.715634, 1]
   radius: 175188.904724
   orbit:

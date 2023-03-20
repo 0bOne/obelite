@@ -41,7 +41,7 @@ bodies:
     description: Leveti is reasonably notable for its great tropical forests but cursed by dreadful solar activity.
     inhabitants: Large Harmless Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.608698, 0.786512, 0.794998, 1]
   radius: 78413.47641
   orbit:

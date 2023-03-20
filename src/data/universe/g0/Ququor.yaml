@@ -41,7 +41,7 @@ bodies:
     description: The planet Ququor is mildly well known for its exotic cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.227861, 0.44279, 0.714767, 1]
   radius: 137464.46228
   orbit:

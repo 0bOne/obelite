@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for Betigereian Es brandy but cursed by deadly civil war.
     inhabitants: Black Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.677136, 0.64507, 0.248434, 1]
   radius: 72139.449615
   orbit:

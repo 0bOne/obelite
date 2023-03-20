@@ -41,7 +41,7 @@ bodies:
     description: Inlaoran is mildly notable for Inlaoranian evil juice.
     inhabitants: Red Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.780234, 0.343881, 0.300984, 1]
   radius: 187461.245728
   orbit:

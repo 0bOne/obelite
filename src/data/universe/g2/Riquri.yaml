@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for Zero-G hockey.
     inhabitants: Green Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.77261, 0.53998, 0.465684, 1]
   radius: 172553.400879
   orbit:

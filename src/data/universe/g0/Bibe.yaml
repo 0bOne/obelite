@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Bibeian lethal brandy but beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.733316, 0.762058, 0.811441, 1]
   radius: 120073.487549
   orbit:

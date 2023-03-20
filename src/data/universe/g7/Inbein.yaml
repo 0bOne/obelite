@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably notable for its great volcanoes but plagued by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.76745, 0.764896, 0.730799, 1]
   radius: 144565.684204
   orbit:

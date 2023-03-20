@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting dump.
     inhabitants: Harmless Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.240472, 0.638719, 0.790924, 1]
   radius: 105931.94046
   orbit:

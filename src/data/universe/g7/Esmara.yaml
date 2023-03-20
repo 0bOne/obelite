@@ -41,7 +41,7 @@ bodies:
     description: Esmara is reasonably notable for its unusual oceans but plagued by occasional civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.633495, 0.750479, 0.788156, 1]
   radius: 135524.889069
   orbit:

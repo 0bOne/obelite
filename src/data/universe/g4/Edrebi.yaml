@@ -41,7 +41,7 @@ bodies:
     description: The planet Edrebi is scourged by killer edible arts graduates.
     inhabitants: Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.814099, 0.6902, 0.601326, 1]
   radius: 134884.103851
   orbit:

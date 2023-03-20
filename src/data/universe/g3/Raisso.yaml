@@ -41,7 +41,7 @@ bodies:
     description: The world Raisso is scourged by deadly disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.762393, 0.645017, 0.488117, 1]
   radius: 107866.314697
   orbit:

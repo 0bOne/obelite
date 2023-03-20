@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for its hoopy night life and Orraesian lethal water.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.833493, 0.821874, 0.781508, 1]
   radius: 179711.754456
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Beraer is reasonably well known for its great dense forests but beset by deadly tree grubs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.799823, 0.292191, 0.278967, 1]
   radius: 103293.292999
   orbit:

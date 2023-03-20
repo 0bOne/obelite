@@ -41,7 +41,7 @@ bodies:
     description: The world Esbeus is mildly noted for its ancient mountains but plagued by frequent earthquakes.
     inhabitants: Small Red Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.711682, 0.643868, 0.407654, 1]
   radius: 119393.206024
   orbit:

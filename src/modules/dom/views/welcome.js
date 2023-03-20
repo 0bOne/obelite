@@ -1,5 +1,4 @@
-import ModelLoader from "../../gl/model-loader.js";
-import Rotator from "../../logic/animators/rotator.js";
+import ShipLoader from "../../gl/ship-loader.js";
 import ViewBase from "./_view-base.js";
 
 const INFO_MESSAGES = [
@@ -31,15 +30,9 @@ export default class WelcomeView extends ViewBase
 
     async addCobra()
     {
-        const modelLoader = new ModelLoader(this.gameCtx);
-        this.gameCtx.demoShip = await modelLoader.Load("ships/cobra-mk3");
-        if (this.gameCtx.demoShip)
-        {
-            this.gameCtx.demoShip.Rotation = -3.8;
-            this.gameCtx.demoShip.isVisible = true;
-            this.gameCtx.demoShip.animator = new Rotator(this.gameCtx.demoShip, 0.5);
-            this.gameCtx.scene.models.push(this.gameCtx.demoShip);
-        }
+        const modelLoader = new ShipLoader(this.gameCtx);
+        const model = await modelLoader.Load("ships/cobra-mk3");
+        this.SetDemoModel(model);
     }
 }
 

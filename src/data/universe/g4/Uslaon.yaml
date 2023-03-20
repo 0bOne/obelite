@@ -41,7 +41,7 @@ bodies:
     description: Uslaon is cursed by vicious mountain beasts.
     inhabitants: Small Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.388715, 0.420189, 0.809085, 1]
   radius: 102898.964233
   orbit:

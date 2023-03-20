@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.776956, 0.728925, 0.692406, 1]
   radius: 142873.939209
   orbit:

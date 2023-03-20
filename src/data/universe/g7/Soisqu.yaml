@@ -41,7 +41,7 @@ bodies:
     description: The planet Soisqu is mildly notable for Soisquian vicious brew.
     inhabitants: Fierce Blue Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.565166, 0.63334, 0.701736, 1]
   radius: 146253.527069
   orbit:

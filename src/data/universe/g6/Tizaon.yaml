@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for its pink oceans but scourged by dreadful earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.805456, 0.808282, 0.654417, 1]
   radius: 118439.011688
   orbit:

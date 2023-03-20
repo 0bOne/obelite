@@ -41,7 +41,7 @@ bodies:
     description: The planet Essoza is reasonably noted for mud tennis and the Essozaian mountain lobstoid.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.433782, 0.604795, 0.738974, 1]
   radius: 110717.439423
   orbit:

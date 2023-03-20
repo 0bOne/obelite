@@ -41,7 +41,7 @@ bodies:
     description: Bisoge is well known for the Bisogeian spotted shrew but plagued by evil tree leopards.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.651694, 0.606855, 0.600942, 1]
   radius: 96940.419617
   orbit:

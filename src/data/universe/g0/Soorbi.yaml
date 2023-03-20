@@ -41,7 +41,7 @@ bodies:
     description: The planet Soorbi is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.43584, 0.460039, 0.718594, 1]
   radius: 104771.746216
   orbit:

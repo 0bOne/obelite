@@ -41,7 +41,7 @@ bodies:
     description: The world Esvesoso is a dull place.
     inhabitants: Small Red Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.811322, 0.684658, 0.365845, 1]
   radius: 133412.200928
   orbit:

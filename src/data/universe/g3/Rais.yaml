@@ -41,7 +41,7 @@ bodies:
     description: The planet Rais is scourged by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.781531, 0.771369, 0.605631, 1]
   radius: 91879.20929
   orbit:

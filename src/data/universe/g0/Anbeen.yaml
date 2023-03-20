@@ -41,7 +41,7 @@ bodies:
     description: Anbeen is reasonably notable for its great tropical forests but cursed by dreadful solar activity.
     inhabitants: Black Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.839914, 0.443504, 0.37172, 1]
   radius: 119322.17865
   orbit:

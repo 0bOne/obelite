@@ -41,7 +41,7 @@ bodies:
     description: The planet Edre is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.847885, 0.83137, 0.826431, 1]
   radius: 115504.452057
   orbit:

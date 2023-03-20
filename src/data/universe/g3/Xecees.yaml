@@ -41,7 +41,7 @@ bodies:
     description: The world Xecees is very noted for its unusual sit coms but ravaged by dreadful civil war.
     inhabitants: Large Blue Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.266484, 0.337626, 0.657468, 1]
   radius: 63858.764648
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Intiso is most famous for the Intisoian spotted shrew and the Intisoian edible poet.
     inhabitants: Blue Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.282424, 0.353239, 0.650851, 1]
   radius: 206732.086182
   orbit:

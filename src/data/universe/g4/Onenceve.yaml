@@ -41,7 +41,7 @@ bodies:
     description: Onenceve is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.720575, 0.644181, 0.489134, 1]
   radius: 188995.00885
   orbit:

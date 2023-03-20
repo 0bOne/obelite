@@ -41,7 +41,7 @@ bodies:
     description: The planet Anrige is a boring world.
     inhabitants: Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.834274, 0.505907, 0.239474, 1]
   radius: 168793.60199
   orbit:

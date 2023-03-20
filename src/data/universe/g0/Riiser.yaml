@@ -41,7 +41,7 @@ bodies:
     description: Riiser is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.657028, 0.404879, 0.300781, 1]
   radius: 192662.138672
   orbit:

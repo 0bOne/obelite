@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ unusual silliness and its fabulous Noal brandy.
     inhabitants: Harmless Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.598021, 0.721579, 0.764798, 1]
   radius: 134156.660156
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Leritean is mildly well known for its exotic cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.699844, 0.520491, 0.235109, 1]
   radius: 80594.486694
   orbit:

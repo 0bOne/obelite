@@ -41,7 +41,7 @@ bodies:
     description: The world Ordiesat is mildly noted for its ancient mountains but ravaged by occasional solar activity.
     inhabitants: Red Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.665012, 0.434439, 0.391454, 1]
   radius: 120287.883606
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Beveinve is fabled for its exciting sit coms and its fabulous monkey steak.
     inhabitants: Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.725577, 0.697156, 0.213313, 1]
   radius: 76786.826782
   orbit:

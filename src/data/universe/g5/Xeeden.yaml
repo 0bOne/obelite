@@ -41,7 +41,7 @@ bodies:
     description: The world Xeeden is scourged by deadly tree grubs.
     inhabitants: Large Black Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.714645, 0.727336, 0.740729, 1]
   radius: 92040.32135
   orbit:

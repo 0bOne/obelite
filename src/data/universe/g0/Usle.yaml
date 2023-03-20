@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Usleian tree ant and its inhabitants’ exceptional loathing of sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.512532, 0.552487, 0.775519, 1]
   radius: 130152.900391
   orbit:

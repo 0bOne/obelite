@@ -41,7 +41,7 @@ bodies:
     description: This planet is very well known for vicious Zast brew and its exotic goat soup.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.235006, 0.46402, 0.729611, 1]
   radius: 134605.65918
   orbit:

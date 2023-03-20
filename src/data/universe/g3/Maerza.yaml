@@ -41,7 +41,7 @@ bodies:
     description: Maerza is a revolting little planet.
     inhabitants: Small Yellow Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.552846, 0.700646, 0.775064, 1]
   radius: 178596.6185
   orbit:

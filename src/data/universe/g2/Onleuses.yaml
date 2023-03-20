@@ -41,7 +41,7 @@ bodies:
     description: Onleuses is ravaged by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.710455, 0.340184, 0.180419, 1]
   radius: 158691.493378
   orbit:

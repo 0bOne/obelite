@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its vast rain forests and the Xeveraian tree wolf.
     inhabitants: Large Harmless Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.745322, 0.640157, 0.456708, 1]
   radius: 82688.089294
   orbit:

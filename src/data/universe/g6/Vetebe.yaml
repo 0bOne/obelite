@@ -41,7 +41,7 @@ bodies:
     description: Vetebe is a revolting little planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.666, 0.707162, 0.841367, 1]
   radius: 154899.615173
   orbit:

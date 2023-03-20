@@ -41,7 +41,7 @@ bodies:
     description: Esveor is mildly famous for its pink oceans and Zero-G hockey.
     inhabitants: Small Harmless Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.654282, 0.63851, 0.469306, 1]
   radius: 127453.59375
   orbit:

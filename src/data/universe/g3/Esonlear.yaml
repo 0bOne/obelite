@@ -41,7 +41,7 @@ bodies:
     description: Esonlear is a revolting dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.560843, 0.575536, 0.654999, 1]
   radius: 108390.128326
   orbit:

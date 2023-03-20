@@ -41,7 +41,7 @@ bodies:
     description: The world Lasoan is a dull world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.585626, 0.707982, 0.801248, 1]
   radius: 125753.867798
   orbit:

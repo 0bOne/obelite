@@ -41,7 +41,7 @@ bodies:
     description: Divera is mildly well known for Diveraian shrew cutlet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.285667, 0.479404, 0.677002, 1]
   radius: 156443.847656
   orbit:

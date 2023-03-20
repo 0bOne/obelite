@@ -41,7 +41,7 @@ bodies:
     description: Beveri is an unremarkable planet.
     inhabitants: Yellow Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.779102, 0.758542, 0.757961, 1]
   radius: 111296.083374
   orbit:

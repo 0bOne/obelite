@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably notable for its great volcanoes but plagued by unpredictable civil war.
     inhabitants: Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.675702, 0.429124, 0.263065, 1]
   radius: 71339.203644
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Tezaxe is mildly noted for the Tezaxeian mountain lobstoid but beset by dreadful earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.842847, 0.794198, 0.694073, 1]
   radius: 156431.630859
   orbit:

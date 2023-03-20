@@ -41,7 +41,7 @@ bodies:
     description: The world Arceores is notable for the Arceoresian edible arts graduate and its great volcanoes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.775922, 0.649651, 0.208889, 1]
   radius: 136006.602631
   orbit:

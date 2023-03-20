@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by lethal disease.
     inhabitants: Fierce Red Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.768814, 0.767355, 0.386349, 1]
   radius: 109306.777344
   orbit:

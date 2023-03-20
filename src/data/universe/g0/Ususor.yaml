@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for its inhabitants’ weird shyness and the Ususorian edible poet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.391074, 0.638344, 0.728015, 1]
   radius: 114785.5896
   orbit:

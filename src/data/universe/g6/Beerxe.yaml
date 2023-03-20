@@ -41,7 +41,7 @@ bodies:
     description: This world is noted for its unusual sit coms.
     inhabitants: Black Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.68292, 0.684015, 0.714883, 1]
   radius: 87809.205627
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Atonbeza is reasonably fabled for Zero-G hockey and its inhabitants’ ingrained shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.688306, 0.55964, 0.259228, 1]
   radius: 65189.380646
   orbit:

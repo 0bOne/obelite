@@ -41,7 +41,7 @@ bodies:
     description: The planet Biedtive is scourged by evil disease.
     inhabitants: Fierce Red Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.70343, 0.649079, 0.393154, 1]
   radius: 96122.711334
   orbit:

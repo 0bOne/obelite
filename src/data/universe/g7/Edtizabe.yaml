@@ -41,7 +41,7 @@ bodies:
     description: The world Edtizabe is beset by lethal disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.74577, 0.632621, 0.574958, 1]
   radius: 160971.835938
   orbit:

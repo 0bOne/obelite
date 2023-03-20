@@ -41,7 +41,7 @@ bodies:
     description: Learvexe is mildly notable for its inhabitants’ unusual mating traditions.
     inhabitants: Large Yellow Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.828058, 0.451135, 0.209393, 1]
   radius: 86318.400879
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Usraremaian edible poet.
     inhabitants: Small Black Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.745374, 0.629452, 0.522481, 1]
   radius: 144841.355896
   orbit:

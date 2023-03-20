@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably notable for its fabulous cuisine but plagued by evil spotted cats.
     inhabitants: Yellow Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.730051, 0.51687, 0.205889, 1]
   radius: 94627.589264
   orbit:

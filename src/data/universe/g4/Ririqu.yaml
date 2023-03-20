@@ -41,7 +41,7 @@ bodies:
     description: This world is fabled for its ancient Za plant plantations.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.341344, 0.454306, 0.683054, 1]
   radius: 170787.252045
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for the Soteorisian mountain Stoid but plagued by lethal spotted craboids.
     inhabitants: Fierce Black Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.681853, 0.682424, 0.695114, 1]
   radius: 144898.996582
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for its ancient Anteian Enxeleer tulip plantations but cursed by dreadful civil war.
     inhabitants: Black Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.385023, 0.445898, 0.781409, 1]
   radius: 176201.229095
   orbit:

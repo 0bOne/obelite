@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for its inhabitants’ weird shyness and its inhabitants’ eccentric love for poetry.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.706964, 0.539867, 0.284346, 1]
   radius: 71986.750946
   orbit:

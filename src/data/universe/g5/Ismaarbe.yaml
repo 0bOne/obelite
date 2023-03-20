@@ -41,7 +41,7 @@ bodies:
     description: Ismaarbe is famous for its inhabitants’ ancient loathing of casinos but plagued by frequent earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.510017, 0.572479, 0.833954, 1]
   radius: 150201.460876
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for its unusual oceans and its inhabitants’ exceptional loathing of food blenders.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.787585, 0.807382, 0.835001, 1]
   radius: 124801.920319
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by evil disease.
     inhabitants: Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.372186, 0.518352, 0.69628, 1]
   radius: 72723.697357
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for Orriaian wolf cutlet and its unusual oceans.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.766997, 0.769209, 0.780157, 1]
   radius: 84770.271454
   orbit:

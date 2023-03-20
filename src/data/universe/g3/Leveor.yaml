@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for Leveorian A’erin brandy but scourged by killer edible A’erinoids.
     inhabitants: Large Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.232639, 0.576977, 0.837888, 1]
   radius: 80365.605469
   orbit:

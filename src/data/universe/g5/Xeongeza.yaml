@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious little planet.
     inhabitants: Large Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.835248, 0.299617, 0.278179, 1]
   radius: 66651.623077
   orbit:

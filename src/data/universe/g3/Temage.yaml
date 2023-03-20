@@ -41,7 +41,7 @@ bodies:
     description: The world Temage is mildly fabled for the Temageian mountain slug but ravaged by vicious disease.
     inhabitants: Blue Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.505718, 0.655313, 0.754379, 1]
   radius: 166926.18103
   orbit:

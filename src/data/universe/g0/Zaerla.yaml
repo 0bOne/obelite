@@ -41,7 +41,7 @@ bodies:
     description: The planet Zaerla is mildly well known for its exotic cuisine.
     inhabitants: Large Black Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.824673, 0.820479, 0.561382, 1]
   radius: 62212.056122
   orbit:

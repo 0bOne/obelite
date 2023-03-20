@@ -41,7 +41,7 @@ bodies:
     description: The planet Inmaarxe is scourged by killer mountain Abzazaaboids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.377093, 0.682037, 0.80293, 1]
   radius: 155773.509979
   orbit:

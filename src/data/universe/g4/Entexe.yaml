@@ -41,7 +41,7 @@ bodies:
     description: The world Entexe is scourged by deadly edible grubs.
     inhabitants: Yellow Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.738017, 0.745749, 0.746985, 1]
   radius: 82838.964996
   orbit:

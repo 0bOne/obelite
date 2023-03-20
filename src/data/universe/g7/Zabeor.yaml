@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by deadly earthquakes.
     inhabitants: Fierce Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.724149, 0.665167, 0.224611, 1]
   radius: 74830.586243
   orbit:

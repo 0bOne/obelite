@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably notable for its weird tropical forests but scourged by deadly civil war.
     inhabitants: Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.670436, 0.730931, 0.749301, 1]
   radius: 92284.21936
   orbit:

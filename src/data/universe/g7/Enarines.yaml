@@ -41,7 +41,7 @@ bodies:
     description: Enarines is ravaged by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.441033, 0.632845, 0.783942, 1]
   radius: 90806.718597
   orbit:

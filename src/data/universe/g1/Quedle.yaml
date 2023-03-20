@@ -41,7 +41,7 @@ bodies:
     description: Quedle is cursed by killer edible talking treeoids.
     inhabitants: Harmless Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.735037, 0.723587, 0.692263, 1]
   radius: 151635.129395
   orbit:

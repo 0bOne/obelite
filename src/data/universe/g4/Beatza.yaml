@@ -41,7 +41,7 @@ bodies:
     description: Beatza is reasonably well known for the Beatzaian tree grub but ravaged by unpredictable civil war.
     inhabitants: Blue Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.615815, 0.630328, 0.716479, 1]
   radius: 102492.749634
   orbit:

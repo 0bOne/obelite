@@ -41,7 +41,7 @@ bodies:
     description: Mageesti is most famous for its vast oceans and its inhabitants’ exceptional love for tourists.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.826141, 0.76425, 0.489478, 1]
   radius: 128219.27948
   orbit:

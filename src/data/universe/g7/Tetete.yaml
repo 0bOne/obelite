@@ -41,7 +41,7 @@ bodies:
     description: The planet Tetete is reasonably fabled for its fabulous vicious Enetil gargle blasters and its exotic fish meat.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.2441, 0.353452, 0.690924, 1]
   radius: 145126.64032
   orbit:

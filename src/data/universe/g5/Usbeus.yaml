@@ -41,7 +41,7 @@ bodies:
     description: The world Usbeus is a boring world.
     inhabitants: Small Green Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.767014, 0.588188, 0.57902, 1]
   radius: 136008.50769
   orbit:

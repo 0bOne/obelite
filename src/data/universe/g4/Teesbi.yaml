@@ -41,7 +41,7 @@ bodies:
     description: The planet Teesbi is reasonably noted for its inhabitants’ eccentric shyness and Teesbiian evil juice.
     inhabitants: Green Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.816202, 0.770467, 0.743307, 1]
   radius: 190933.007812
   orbit:

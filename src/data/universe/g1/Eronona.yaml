@@ -41,7 +41,7 @@ bodies:
     description: The planet Eronona is scourged by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.704875, 0.758894, 0.817941, 1]
   radius: 69764.218903
   orbit:

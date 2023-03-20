@@ -41,7 +41,7 @@ bodies:
     description: Veatma is ravaged by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.218195, 0.252158, 0.660635, 1]
   radius: 101044.286499
   orbit:

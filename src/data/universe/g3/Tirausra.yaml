@@ -41,7 +41,7 @@ bodies:
     description: The planet Tirausra is mildly well known for its exotic cuisine.
     inhabitants: Black Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.403796, 0.51173, 0.65155, 1]
   radius: 111634.920654
   orbit:

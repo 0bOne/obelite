@@ -41,7 +41,7 @@ bodies:
     description: The planet Cemaer is mildly notable for Cemaerian Arusno water.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.708044, 0.679274, 0.407515, 1]
   radius: 127040.898438
   orbit:

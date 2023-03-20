@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious little planet.
     inhabitants: Harmless Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.821121, 0.690751, 0.596872, 1]
   radius: 61900.317993
   orbit:

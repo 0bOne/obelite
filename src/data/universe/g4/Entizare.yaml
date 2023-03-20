@@ -41,7 +41,7 @@ bodies:
     description: Entizare is very fabled for its unusual oceans.
     inhabitants: Green Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.749039, 0.620885, 0.44341, 1]
   radius: 105787.837219
   orbit:

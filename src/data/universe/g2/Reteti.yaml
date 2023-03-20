@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably noted for its exotic fish meat.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.268135, 0.284179, 0.790024, 1]
   radius: 167157.394409
   orbit:

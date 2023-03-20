@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for killer A’a’arbi gargle blasters and its ancient Ontilainian A’a’arbi banana plantations.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.782388, 0.727756, 0.633739, 1]
   radius: 218433.115234
   orbit:

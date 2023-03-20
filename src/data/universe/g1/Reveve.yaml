@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Reveveian tree grub.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.794277, 0.800043, 0.230975, 1]
   radius: 123650.163574
   orbit:

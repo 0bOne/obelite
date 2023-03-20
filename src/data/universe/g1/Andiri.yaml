@@ -41,7 +41,7 @@ bodies:
     description: Andiri is ravaged by unpredictable solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.804047, 0.634065, 0.554463, 1]
   radius: 140529.737091
   orbit:

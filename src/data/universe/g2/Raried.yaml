@@ -41,7 +41,7 @@ bodies:
     description: The planet Raried is an unremarkable dump.
     inhabitants: Black Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.713535, 0.768312, 0.787289, 1]
   radius: 120292.389679
   orbit:

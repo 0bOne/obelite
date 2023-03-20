@@ -41,7 +41,7 @@ bodies:
     description: The world Getere is notable for the Getereian tree grub and its inhabitants’ weird silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.240503, 0.497779, 0.722122, 1]
   radius: 103871.872864
   orbit:

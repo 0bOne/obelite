@@ -41,7 +41,7 @@ bodies:
     description: The world Tileer is reasonably noted for its inhabitants’ eccentric shyness.
     inhabitants: Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.360711, 0.665672, 0.703836, 1]
   radius: 138593.094482
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Asoarle is well known for its inhabitants’ weird silliness but cursed by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.291211, 0.432246, 0.755753, 1]
   radius: 181241.362152
   orbit:

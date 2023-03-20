@@ -41,7 +41,7 @@ bodies:
     description: Lezaer is cursed by vicious shrews.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.765417, 0.748005, 0.746549, 1]
   radius: 80380.778503
   orbit:

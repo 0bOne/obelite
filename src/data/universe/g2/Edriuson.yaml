@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ weird shyness and its inhabitants’ eccentric shyness.
     inhabitants: Black Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.640972, 0.706376, 0.816418, 1]
   radius: 135519.433594
   orbit:

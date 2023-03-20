@@ -41,7 +41,7 @@ bodies:
     description: The planet Sozala is most famous for the Sozalaian deadly Inonbeoid and the Sozalaian deadly monkey.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.705016, 0.811901, 0.81842, 1]
   radius: 159365.341797
   orbit:

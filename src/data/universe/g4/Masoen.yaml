@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for mud tennis.
     inhabitants: Small Black Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.242169, 0.467201, 0.825528, 1]
   radius: 99630.347443
   orbit:

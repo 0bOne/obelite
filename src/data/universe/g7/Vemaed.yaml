@@ -41,7 +41,7 @@ bodies:
     description: The world Vemaed is notable for the Vemaedian tree grub and the Vemaedian spotted wolf.
     inhabitants: Harmless Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.657797, 0.381983, 0.301653, 1]
   radius: 116580.843201
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Xerarebiian edible arts graduate.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.769272, 0.538262, 0.375548, 1]
   radius: 101390.628815
   orbit:

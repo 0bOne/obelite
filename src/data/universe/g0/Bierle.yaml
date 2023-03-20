@@ -41,7 +41,7 @@ bodies:
     description: The planet Bierle is most famous for the Bierleian deadly Diusoid and the Bierleian evil arts graduate.
     inhabitants: Fierce Blue Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.652426, 0.554079, 0.505562, 1]
   radius: 70847.960663
   orbit:

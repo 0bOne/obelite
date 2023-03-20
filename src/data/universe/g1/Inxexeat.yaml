@@ -41,7 +41,7 @@ bodies:
     description: The world Inxexeat is reasonably noted for its inhabitants’ eccentric shyness.
     inhabitants: Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.702856, 0.514124, 0.441449, 1]
   radius: 168063.631897
   orbit:

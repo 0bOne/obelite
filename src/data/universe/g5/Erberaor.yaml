@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Erberaorian tree grub.
     inhabitants: Black Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.758038, 0.480194, 0.429869, 1]
   radius: 62360.598145
   orbit:

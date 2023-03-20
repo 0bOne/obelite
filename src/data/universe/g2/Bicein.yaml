@@ -41,7 +41,7 @@ bodies:
     description: Bicein is ravaged by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.816156, 0.760033, 0.461062, 1]
   radius: 124898.046875
   orbit:

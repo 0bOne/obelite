@@ -41,7 +41,7 @@ bodies:
     description: The planet Rerebeer is reasonably noted for its fabulous goat soup and mud tennis.
     inhabitants: Red Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.244544, 0.475801, 0.658218, 1]
   radius: 144976.140442
   orbit:

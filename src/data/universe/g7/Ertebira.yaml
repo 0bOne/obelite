@@ -41,7 +41,7 @@ bodies:
     description: The world Ertebira is mildly fabled for the Ertebiraian edible poet but scourged by deadly civil war.
     inhabitants: Yellow Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.691864, 0.617551, 0.328202, 1]
   radius: 63280.761719
   orbit:

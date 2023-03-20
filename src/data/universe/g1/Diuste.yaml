@@ -41,7 +41,7 @@ bodies:
     description: The world Diuste is reasonably famous for its inhabitants’ exceptional loathing of sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.819571, 0.602678, 0.435463, 1]
   radius: 143267.646179
   orbit:

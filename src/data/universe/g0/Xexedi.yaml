@@ -41,7 +41,7 @@ bodies:
     description: The planet Xexedi is scourged by deadly disease.
     inhabitants: Large Green Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.70643, 0.755372, 0.767682, 1]
   radius: 71205.460968
   orbit:

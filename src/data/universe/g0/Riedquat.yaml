@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for its fabulous cuisine but beset by occasional civil war.
     inhabitants: Harmless Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.742908, 0.701483, 0.59767, 1]
   radius: 154051.670074
   orbit:

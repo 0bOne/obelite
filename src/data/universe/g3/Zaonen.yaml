@@ -41,7 +41,7 @@ bodies:
     description: Zaonen is most noted for its inhabitants’ eccentric shyness and its inhabitants’ eccentric shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.79473, 0.72469, 0.685727, 1]
   radius: 76245.910034
   orbit:

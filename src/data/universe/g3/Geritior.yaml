@@ -41,7 +41,7 @@ bodies:
     description: The world Geritior is reasonably famous for the Geritiorian deadly Nuthoid.
     inhabitants: Large Red Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.753195, 0.716563, 0.526197, 1]
   radius: 97843.041534
   orbit:

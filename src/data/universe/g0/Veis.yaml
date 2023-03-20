@@ -41,7 +41,7 @@ bodies:
     description: The planet Veis is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.250376, 0.820519, 0.84953, 1]
   radius: 122403.161621
   orbit:

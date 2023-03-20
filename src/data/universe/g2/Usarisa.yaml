@@ -41,7 +41,7 @@ bodies:
     description: Usarisa is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.438193, 0.646185, 0.822937, 1]
   radius: 116269.2453
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Ceraxete is beset by evil disease.
     inhabitants: Fierce Harmless Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.388952, 0.617405, 0.784753, 1]
   radius: 122055.389557
   orbit:

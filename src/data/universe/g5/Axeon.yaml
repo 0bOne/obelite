@@ -41,7 +41,7 @@ bodies:
     description: The planet Axeon is scourged by deadly disease.
     inhabitants: Red Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.684058, 0.789885, 0.831726, 1]
   radius: 188282.104492
   orbit:

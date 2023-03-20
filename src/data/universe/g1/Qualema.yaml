@@ -41,7 +41,7 @@ bodies:
     description: This world is fabled for its unusual tropical forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.792944, 0.645779, 0.536589, 1]
   radius: 144096.992188
   orbit:

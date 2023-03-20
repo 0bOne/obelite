@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for the Envebeian spotted shrew but plagued by evil tree wolfs.
     inhabitants: Red Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.793466, 0.411702, 0.410087, 1]
   radius: 62645.973206
   orbit:

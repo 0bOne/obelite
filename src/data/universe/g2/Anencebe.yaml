@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by unpredictable civil war.
     inhabitants: Yellow Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.353137, 0.411576, 0.753464, 1]
   radius: 191125.079193
   orbit:

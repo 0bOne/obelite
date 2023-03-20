@@ -41,7 +41,7 @@ bodies:
     description: The planet Qulaaon is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.771085, 0.522819, 0.338179, 1]
   radius: 153953.166962
   orbit:

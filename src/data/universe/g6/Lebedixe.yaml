@@ -41,7 +41,7 @@ bodies:
     description: The world Lebedixe is reasonably noted for its inhabitants’ eccentric love for tourists.
     inhabitants: Large Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.733505, 0.733492, 0.730559, 1]
   radius: 77893.400879
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Teesdi is famous for Teesdiian shrew cutlet but ravaged by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.657384, 0.679139, 0.712814, 1]
   radius: 108434.552307
   orbit:

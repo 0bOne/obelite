@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious little planet.
     inhabitants: Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.694244, 0.671518, 0.603735, 1]
   radius: 138541.450195
   orbit:

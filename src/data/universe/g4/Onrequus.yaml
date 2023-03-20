@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious little planet.
     inhabitants: Black Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.800635, 0.696768, 0.508515, 1]
   radius: 151651.702881
   orbit:

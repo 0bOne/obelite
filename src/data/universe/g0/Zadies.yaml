@@ -41,7 +41,7 @@ bodies:
     description: The planet Zadies is famous for its inhabitants’ exceptional love for food blenders but scourged by dreadful solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.807513, 0.779316, 0.73813, 1]
   radius: 84834.008789
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Ange is reasonably noted for its inhabitants’ eccentric love for tourists and the Angeian tree grub.
     inhabitants: Large Yellow Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.757858, 0.736351, 0.724328, 1]
   radius: 68910.129547
   orbit:

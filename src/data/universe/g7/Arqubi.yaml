@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for Arqubiian Es brandy but cursed by dreadful solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.213144, 0.284432, 0.692673, 1]
   radius: 129623.118439
   orbit:

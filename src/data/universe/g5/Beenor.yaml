@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ weird silliness and Beenorian Itusmaal brandy.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.739636, 0.526294, 0.514786, 1]
   radius: 100594.631348
   orbit:

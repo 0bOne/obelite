@@ -41,7 +41,7 @@ bodies:
     description: The world Qulete is a dull place.
     inhabitants: Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.812241, 0.400449, 0.266956, 1]
   radius: 138663.239746
   orbit:

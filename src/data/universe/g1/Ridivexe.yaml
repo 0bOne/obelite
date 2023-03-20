@@ -41,7 +41,7 @@ bodies:
     description: Ridivexe is cursed by killer mountain goats.
     inhabitants: Harmless Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.679837, 0.666646, 0.315681, 1]
   radius: 155394.086609
   orbit:

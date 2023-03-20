@@ -41,7 +41,7 @@ bodies:
     description: Biedbi is a revolting little planet.
     inhabitants: Fierce Yellow Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.658787, 0.736427, 0.764288, 1]
   radius: 115607.594147
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Anenmaqu is beset by evil disease.
     inhabitants: Harmless Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.67644, 0.457968, 0.430354, 1]
   radius: 183036.642151
   orbit:

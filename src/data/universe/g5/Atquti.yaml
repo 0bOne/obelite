@@ -41,7 +41,7 @@ bodies:
     description: Atquti is mildly well known for killer Xeones gargle blasters.
     inhabitants: Green Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.728326, 0.824182, 0.824942, 1]
   radius: 88886.517944
   orbit:

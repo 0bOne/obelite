@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for its fabulous goat soup.
     inhabitants: Blue Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.832489, 0.452089, 0.319865, 1]
   radius: 175724.291992
   orbit:

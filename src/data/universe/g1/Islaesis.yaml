@@ -41,7 +41,7 @@ bodies:
     description: Islaesis is ravaged by occasional solar activity.
     inhabitants: Harmless Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.586406, 0.608102, 0.783701, 1]
   radius: 108824.059296
   orbit:

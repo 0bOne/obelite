@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its exciting sit coms.
     inhabitants: Red Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.68165, 0.623677, 0.599374, 1]
   radius: 160654.034729
   orbit:

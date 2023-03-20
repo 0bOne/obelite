@@ -41,7 +41,7 @@ bodies:
     description: Onteer is cursed by dreadful civil war.
     inhabitants: Black Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.847333, 0.728453, 0.382092, 1]
   radius: 132984.812164
   orbit:

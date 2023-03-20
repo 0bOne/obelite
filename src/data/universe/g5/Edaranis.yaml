@@ -41,7 +41,7 @@ bodies:
     description: The world Edaranis is very famous for its unusual casinos but plagued by frequent earthquakes.
     inhabitants: Red Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.543528, 0.627331, 0.693353, 1]
   radius: 102938.928223
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Atorat is well known for its inhabitants’ ancient mating traditions but ravaged by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.618778, 0.637087, 0.685074, 1]
   radius: 103298.973236
   orbit:

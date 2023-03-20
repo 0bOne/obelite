@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its hoopy casinos and its hoopy casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.297827, 0.515369, 0.681192, 1]
   radius: 111531.35376
   orbit:

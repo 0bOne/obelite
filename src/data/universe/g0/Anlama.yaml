@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious little planet.
     inhabitants: Harmless Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.791696, 0.689899, 0.574359, 1]
   radius: 167335.365143
   orbit:

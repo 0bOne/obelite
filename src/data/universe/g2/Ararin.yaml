@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Ararinian tree snake and its fabulous monkey burgers.
     inhabitants: Small Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.760175, 0.470727, 0.254733, 1]
   radius: 128087.889862
   orbit:

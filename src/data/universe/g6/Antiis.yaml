@@ -41,7 +41,7 @@ bodies:
     description: Antiis is a revolting dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.545365, 0.708052, 0.711038, 1]
   radius: 147525.388794
   orbit:

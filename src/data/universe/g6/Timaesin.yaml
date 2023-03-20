@@ -41,7 +41,7 @@ bodies:
     description: The planet Timaesin is very famous for its exotic fish cutlet but plagued by deadly earthquakes.
     inhabitants: Harmless Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.653616, 0.641932, 0.638335, 1]
   radius: 127127.250824
   orbit:

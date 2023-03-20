@@ -41,7 +41,7 @@ bodies:
     description: The planet Orreedon is most famous for the Orreedonian deadly goat and its pink Orreedonian Re Reweed plantations.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.772614, 0.768438, 0.726141, 1]
   radius: 123788.251648
   orbit:

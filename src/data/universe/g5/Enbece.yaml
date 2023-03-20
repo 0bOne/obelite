@@ -41,7 +41,7 @@ bodies:
     description: The planet Enbece is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.258197, 0.802573, 0.842184, 1]
   radius: 112603.514099
   orbit:

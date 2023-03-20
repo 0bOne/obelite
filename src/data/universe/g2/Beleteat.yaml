@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by deadly earthquakes.
     inhabitants: Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.750391, 0.516023, 0.385644, 1]
   radius: 98358.808136
   orbit:

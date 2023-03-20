@@ -41,7 +41,7 @@ bodies:
     description: The world Lelemaa is reasonably famous for the Lelemaaian deadly goat.
     inhabitants: Large Green Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.187429, 0.541544, 0.683282, 1]
   radius: 79965.039062
   orbit:

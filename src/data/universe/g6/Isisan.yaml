@@ -41,7 +41,7 @@ bodies:
     description: The planet Isisan is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.803317, 0.787816, 0.74471, 1]
   radius: 174575.38147
   orbit:

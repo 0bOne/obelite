@@ -41,7 +41,7 @@ bodies:
     description: The world Anrebeis is fabled for its fabulous Bith juice and its unusual dense forests.
     inhabitants: Harmless Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.694826, 0.708871, 0.836243, 1]
   radius: 144647.470245
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Inenares is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.226412, 0.284694, 0.690588, 1]
   radius: 143037.147827
   orbit:

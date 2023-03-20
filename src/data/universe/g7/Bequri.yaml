@@ -41,7 +41,7 @@ bodies:
     description: This planet is very well known for its inhabitants’ unusual mating traditions and its hoopy casinos.
     inhabitants: Red Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.762305, 0.677957, 0.344352, 1]
   radius: 68682.666016
   orbit:

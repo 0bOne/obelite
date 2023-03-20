@@ -41,7 +41,7 @@ bodies:
     description: This world is fabled for its unusual tropical forests.
     inhabitants: Small Black Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.79494, 0.731594, 0.679185, 1]
   radius: 133367.691345
   orbit:

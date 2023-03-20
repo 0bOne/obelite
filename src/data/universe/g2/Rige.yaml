@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for Rigeian Ala’ water but scourged by deadly tree grubs.
     inhabitants: Large Black Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.648398, 0.656942, 0.83183, 1]
   radius: 59860.841064
   orbit:

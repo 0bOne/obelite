@@ -41,7 +41,7 @@ bodies:
     description: The world Texeare is a dull place.
     inhabitants: Green Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.651468, 0.546901, 0.362755, 1]
   radius: 172235.998688
   orbit:

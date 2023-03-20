@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for the Biargeian edible poet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.794492, 0.397627, 0.336652, 1]
   radius: 98050.341034
   orbit:

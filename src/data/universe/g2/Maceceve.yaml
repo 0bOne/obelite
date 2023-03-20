@@ -41,7 +41,7 @@ bodies:
     description: The planet Maceceve is cursed by deadly civil war.
     inhabitants: Small Green Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.582387, 0.753586, 0.782843, 1]
   radius: 164454.587402
   orbit:

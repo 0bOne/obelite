@@ -41,7 +41,7 @@ bodies:
     description: The planet Resobi is reasonably fabled for Zero-G hockey and its inhabitants’ ingrained shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.753118, 0.764401, 0.764749, 1]
   radius: 128390.70755
   orbit:

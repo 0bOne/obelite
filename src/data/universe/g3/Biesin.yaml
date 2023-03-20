@@ -41,7 +41,7 @@ bodies:
     description: This planet is a tedious little planet.
     inhabitants: Fierce Black Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.686163, 0.413495, 0.224585, 1]
   radius: 81925.494385
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Usedge is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.671967, 0.655593, 0.557177, 1]
   radius: 133040.196991
   orbit:

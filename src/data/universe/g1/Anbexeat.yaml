@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for its inhabitants’ ancient mating traditions.
     inhabitants: Yellow Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.735712, 0.558055, 0.289964, 1]
   radius: 146829.70047
   orbit:

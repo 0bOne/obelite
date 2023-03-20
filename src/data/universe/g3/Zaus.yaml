@@ -41,7 +41,7 @@ bodies:
     description: The world Zaus is mildly fabled for the Zausian edible moth but beset by lethal disease.
     inhabitants: Large Yellow Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.702069, 0.601602, 0.326559, 1]
   radius: 63897.65686
   orbit:

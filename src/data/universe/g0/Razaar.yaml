@@ -41,7 +41,7 @@ bodies:
     description: The world Razaar is a dull place.
     inhabitants: Green Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.550976, 0.561307, 0.660739, 1]
   radius: 68946.52832
   orbit:

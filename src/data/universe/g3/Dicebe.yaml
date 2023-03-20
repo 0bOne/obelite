@@ -41,7 +41,7 @@ bodies:
     description: This world is fabled for its ancient Erouat plant plantations.
     inhabitants: Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.307441, 0.37835, 0.678891, 1]
   radius: 166643.779755
   orbit:

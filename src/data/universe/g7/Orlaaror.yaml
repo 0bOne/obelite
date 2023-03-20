@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its fabulous cuisine.
     inhabitants: Red Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.744177, 0.743995, 0.741239, 1]
   radius: 149027.781982
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Esditi is an unremarkable dump.
     inhabitants: Small Black Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.79928, 0.720378, 0.337757, 1]
   radius: 109406.018829
   orbit:

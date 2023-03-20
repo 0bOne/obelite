@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its fabulous cuisine and its unusual tropical forests.
     inhabitants: Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.302701, 0.372285, 0.74809, 1]
   radius: 103814.063416
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Isaanus is reasonably fabled for its exciting Isaanusian lethal brandy and its exotic night life.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.418951, 0.599329, 0.775565, 1]
   radius: 190914.932098
   orbit:

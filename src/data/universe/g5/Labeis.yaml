@@ -41,7 +41,7 @@ bodies:
     description: The planet Labeis is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.622992, 0.833896, 0.846527, 1]
   radius: 66560.551453
   orbit:

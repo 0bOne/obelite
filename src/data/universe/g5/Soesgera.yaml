@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its great tropical forests but cursed by unpredictable solar activity.
     inhabitants: Fierce Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.478513, 0.614607, 0.793066, 1]
   radius: 131332.75589
   orbit:

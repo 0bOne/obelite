@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for Zero-G cricket.
     inhabitants: Yellow Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.659213, 0.622819, 0.273265, 1]
   radius: 104395.8815
   orbit:

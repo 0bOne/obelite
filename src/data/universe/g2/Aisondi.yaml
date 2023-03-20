@@ -41,7 +41,7 @@ bodies:
     description: Aisondi is a revolting little planet.
     inhabitants: Blue Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.621168, 0.648557, 0.702304, 1]
   radius: 217297.240601
   orbit:

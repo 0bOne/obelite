@@ -41,7 +41,7 @@ bodies:
     description: Laatre is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.228697, 0.492821, 0.765451, 1]
   radius: 115514.633179
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for the Soedian evil talking treeoid.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.761533, 0.627934, 0.593332, 1]
   radius: 83214.042969
   orbit:

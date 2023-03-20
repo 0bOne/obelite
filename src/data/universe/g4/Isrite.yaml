@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for its exciting sit coms.
     inhabitants: Yellow Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.826895, 0.790198, 0.763284, 1]
   radius: 165557.666016
   orbit:

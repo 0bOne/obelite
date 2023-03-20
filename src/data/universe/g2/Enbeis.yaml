@@ -41,7 +41,7 @@ bodies:
     description: Enbeis is ravaged by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.660093, 0.679859, 0.808664, 1]
   radius: 74454.302979
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably famous for the Ceceesian spotted cat.
     inhabitants: Fierce Yellow Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.467559, 0.686051, 0.739389, 1]
   radius: 120140.270996
   orbit:

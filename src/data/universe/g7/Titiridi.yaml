@@ -41,7 +41,7 @@ bodies:
     description: The planet Titiridi is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ eccentric love for poetry.
     inhabitants: Red Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.839044, 0.71882, 0.683375, 1]
   radius: 120515.039062
   orbit:

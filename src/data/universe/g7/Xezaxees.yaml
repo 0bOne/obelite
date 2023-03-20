@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious place.
     inhabitants: Large Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.837347, 0.714579, 0.64211, 1]
   radius: 84927.524872
   orbit:

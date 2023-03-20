@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for its inhabitants’ ancient mating traditions and Riedanenian vicious brew.
     inhabitants: Blue Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.83707, 0.678486, 0.593722, 1]
   radius: 162620.775299
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Gema is reasonably noted for mud tennis and the Gemaian evil poet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.669882, 0.657033, 0.645688, 1]
   radius: 78982.874756
   orbit:

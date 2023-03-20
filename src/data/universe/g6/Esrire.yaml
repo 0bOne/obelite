@@ -41,7 +41,7 @@ bodies:
     description: Esrire is cursed by killer edible arts graduates.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.642118, 0.676192, 0.755228, 1]
   radius: 155049.045868
   orbit:

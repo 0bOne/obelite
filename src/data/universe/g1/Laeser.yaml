@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by dreadful earthquakes.
     inhabitants: Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.671384, 0.645498, 0.565315, 1]
   radius: 97981.842041
   orbit:

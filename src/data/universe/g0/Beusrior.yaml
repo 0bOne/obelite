@@ -41,7 +41,7 @@ bodies:
     description: The world Beusrior is a dull world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.186869, 0.224503, 0.679681, 1]
   radius: 84117.195129
   orbit:

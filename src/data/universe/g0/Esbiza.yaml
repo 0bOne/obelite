@@ -41,7 +41,7 @@ bodies:
     description: The planet Esbiza is most famous for its vast rain forests.
     inhabitants: Small Yellow Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.838211, 0.70909, 0.695905, 1]
   radius: 116348.774414
   orbit:

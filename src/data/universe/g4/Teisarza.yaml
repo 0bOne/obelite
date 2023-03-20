@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its great volcanoes but ravaged by vicious disease.
     inhabitants: Green Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.660037, 0.712656, 0.724301, 1]
   radius: 152762.768555
   orbit:

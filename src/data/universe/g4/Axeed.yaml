@@ -41,7 +41,7 @@ bodies:
     description: The world Axeed is fabled for its exciting Zero-G cricket and its fabulous vicious Alab gargle blasters.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.5856, 0.593479, 0.75918, 1]
   radius: 204924.402466
   orbit:

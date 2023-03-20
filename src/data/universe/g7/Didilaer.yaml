@@ -41,7 +41,7 @@ bodies:
     description: Didilaer is very notable for its inhabitants’ ingrained silliness.
     inhabitants: Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.324606, 0.389458, 0.81152, 1]
   radius: 167126.448059
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Zaeded is reasonably notable for its great parking meters but cursed by occasional earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.719772, 0.626413, 0.537732, 1]
   radius: 112691.773071
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by frequent solar activity.
     inhabitants: Green Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.820547, 0.621697, 0.613752, 1]
   radius: 213125.543823
   orbit:

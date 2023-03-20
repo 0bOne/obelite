@@ -41,7 +41,7 @@ bodies:
     description: The world Amaxe is a dull world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.652032, 0.617324, 0.572936, 1]
   radius: 174004.259186
   orbit:

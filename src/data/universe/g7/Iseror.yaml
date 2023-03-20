@@ -41,7 +41,7 @@ bodies:
     description: The world Iseror is notable for its weird tropical forests and Iserorian Onenst brandy.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.565305, 0.650283, 0.657941, 1]
   radius: 175138.584595
   orbit:

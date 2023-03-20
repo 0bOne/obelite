@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly fabled for its inhabitants’ eccentric love for tourists but plagued by lethal disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.388173, 0.445679, 0.838184, 1]
   radius: 131019.755859
   orbit:

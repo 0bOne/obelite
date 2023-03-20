@@ -41,7 +41,7 @@ bodies:
     description: Usdive is ravaged by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.334344, 0.412067, 0.765475, 1]
   radius: 83255.269775
   orbit:

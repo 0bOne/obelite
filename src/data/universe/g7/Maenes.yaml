@@ -41,7 +41,7 @@ bodies:
     description: The world Maenes is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.619085, 0.737428, 0.847836, 1]
   radius: 177310.610962
   orbit:

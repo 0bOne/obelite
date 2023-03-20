@@ -41,7 +41,7 @@ bodies:
     description: The world Ceused is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ eccentric shyness.
     inhabitants: Fierce Harmless Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.655225, 0.466278, 0.36214, 1]
   radius: 107583.787842
   orbit:

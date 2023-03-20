@@ -41,7 +41,7 @@ bodies:
     description: Tiatisbi is very fabled for the Tiatisbiian edible grub.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.379895, 0.673523, 0.697751, 1]
   radius: 100142.089844
   orbit:

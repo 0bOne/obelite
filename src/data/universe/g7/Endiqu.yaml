@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for Zero-G cricket.
     inhabitants: Red Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.679507, 0.577592, 0.562629, 1]
   radius: 83740.979004
   orbit:

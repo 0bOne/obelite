@@ -41,7 +41,7 @@ bodies:
     description: The planet Qutecete is most famous for the Quteceteian spotted shrew and the Quteceteian edible poet.
     inhabitants: Yellow Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.297949, 0.360631, 0.694061, 1]
   radius: 89540.798645
   orbit:

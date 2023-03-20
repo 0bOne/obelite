@@ -41,7 +41,7 @@ bodies:
     description: Getius is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.74706, 0.763098, 0.832108, 1]
   radius: 99226.052704
   orbit:

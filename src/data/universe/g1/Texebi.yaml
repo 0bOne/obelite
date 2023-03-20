@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for vicious Numaoudi brew and its exotic fish cutlet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.336129, 0.370639, 0.770493, 1]
   radius: 183621.553802
   orbit:

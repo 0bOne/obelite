@@ -41,7 +41,7 @@ bodies:
     description: Berien is mildly famous for its pink oceans and its unusual casinos.
     inhabitants: Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.77319, 0.716965, 0.679989, 1]
   radius: 77266.694489
   orbit:

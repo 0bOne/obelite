@@ -41,7 +41,7 @@ bodies:
     description: The planet Ororqu is well known for its inhabitants’ ancient mating traditions but ravaged by unpredictable solar activity.
     inhabitants: Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.788443, 0.501674, 0.40529, 1]
   radius: 111636.026917
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is plagued by frequent earthquakes.
     inhabitants: Red Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.832053, 0.215295, 0.214031, 1]
   radius: 84259.147339
   orbit:

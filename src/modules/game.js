@@ -3,7 +3,6 @@ import DomHelper from "./dom/utilities/dom-helper.js";
 
 import ShaderCache from "./gl/shader-cache.js";
 import Scene from "./gl/scene.js";
-import ModelLoader from "./gl/model-loader.js";
 import Rotator from "./logic/animators/rotator.js";
 import AnimationManager from "./logic/animation-manager.js";
 
@@ -55,14 +54,14 @@ export default class Game
         document.body.addEventListener("keydown", this.onKey.bind(this));
         document.body.addEventListener("keyup", this.onKey.bind(this));
         
-        //await this.addCobra();
 
         this.gameCtx.animationManager = new AnimationManager(this.gameCtx, this.viewController);
         this.gameCtx.animationManager.start();
 
-        this.viewController.ChangeView("Welcome");
+        //this.viewController.ChangeView("Welcome");
         //this.viewController.ChangeView("ShipLibrary");
         //this.viewController.ChangeView("GalacticChart");
+        this.viewController.ChangeView("System");
     
         console.log("game initialization time: ", new Date().getTime() - window.$started, "milliseconds");
     }
@@ -78,9 +77,9 @@ export default class Game
         {
             this.viewController.onKey(event);
         }
-        if (this.gameCtx.demoShip)
+        if (this.gameCtx.demoModel)
         {
-            this.gameCtx.demoShip.animator.onKey(event);
+            this.gameCtx.demoModel.animator.onKey(event);
         }
     }
 

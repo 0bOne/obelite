@@ -41,7 +41,7 @@ bodies:
     description: Laorbila is mildly well known for Laorbilaian wolf meat.
     inhabitants: Red Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.702591, 0.683061, 0.601682, 1]
   radius: 119016.091003
   orbit:

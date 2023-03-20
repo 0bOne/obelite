@@ -41,7 +41,7 @@ bodies:
     description: The world Celace is very noted for its pink Celaceian Ondiab Ondiabweed plantations but scourged by deadly solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.636577, 0.668786, 0.719446, 1]
   radius: 81538.847351
   orbit:

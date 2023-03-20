@@ -41,7 +41,7 @@ bodies:
     description: Ceorat is a revolting dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.435058, 0.664302, 0.713107, 1]
   radius: 115851.901245
   orbit:

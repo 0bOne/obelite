@@ -41,7 +41,7 @@ bodies:
     description: The planet Esisor is most well known for its hoopy casinos.
     inhabitants: Small Yellow Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.422049, 0.506351, 0.714944, 1]
   radius: 142816.300507
   orbit:

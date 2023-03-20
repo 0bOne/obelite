@@ -41,7 +41,7 @@ bodies:
     description: Somaed is most noted for the Somaedian evil poet and Somaedian Ilrebedi brandy.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.460751, 0.61652, 0.759552, 1]
   radius: 126486.519623
   orbit:

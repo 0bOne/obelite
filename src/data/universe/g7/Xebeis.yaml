@@ -41,7 +41,7 @@ bodies:
     description: The world Xebeis is scourged by evil disease.
     inhabitants: Large Yellow Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.840945, 0.692477, 0.391521, 1]
   radius: 85410.601044
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably notable for its fabulous cuisine but beset by evil tree snakes.
     inhabitants: Yellow Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.666287, 0.661871, 0.562404, 1]
   radius: 169756.745911
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its vast rain forests and the Riinusian tree grub.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.47652, 0.684685, 0.705454, 1]
   radius: 186570.71167
   orbit:

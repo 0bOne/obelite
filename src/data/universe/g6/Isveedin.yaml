@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by lethal disease.
     inhabitants: Green Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.271882, 0.299339, 0.795166, 1]
   radius: 190871.478882
   orbit:

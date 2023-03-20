@@ -41,7 +41,7 @@ bodies:
     description: Oredveus is a revolting dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.256289, 0.393031, 0.701367, 1]
   radius: 142517.845154
   orbit:

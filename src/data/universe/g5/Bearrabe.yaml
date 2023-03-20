@@ -41,7 +41,7 @@ bodies:
     description: The world Bearrabe is reasonably noted for its inhabitants’ exceptional loathing of food blenders.
     inhabitants: Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.810665, 0.819977, 0.844672, 1]
   radius: 73732.483826
   orbit:

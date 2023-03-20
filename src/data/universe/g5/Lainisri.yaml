@@ -41,7 +41,7 @@ bodies:
     description: The planet Lainisri is most famous for its pink oceans.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.842279, 0.666335, 0.656851, 1]
   radius: 116368.57605
   orbit:

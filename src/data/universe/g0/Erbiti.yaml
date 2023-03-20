@@ -41,7 +41,7 @@ bodies:
     description: The world Erbiti is most well known for its great dense forests.
     inhabitants: Large Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.784186, 0.561302, 0.506234, 1]
   radius: 53067.160034
   orbit:

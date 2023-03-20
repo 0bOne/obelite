@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for its fabulous Soinalet brandy but ravaged by frequent earthquakes.
     inhabitants: Fierce Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.343619, 0.521365, 0.752051, 1]
   radius: 124117.958069
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Dianed is very notable for the Dianedian edible grub.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.702536, 0.654551, 0.228649, 1]
   radius: 153763.329926
   orbit:

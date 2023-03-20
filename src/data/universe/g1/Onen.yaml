@@ -41,7 +41,7 @@ bodies:
     description: The planet Onen is reasonably noted for its inhabitants’ exceptional love for tourists and its weird volcanoes.
     inhabitants: Large Blue Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.676354, 0.723613, 0.735217, 1]
   radius: 87829.776611
   orbit:

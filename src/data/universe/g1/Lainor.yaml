@@ -41,7 +41,7 @@ bodies:
     description: Lainor is most famous for its pink oceans and its exciting sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.1906, 0.539669, 0.715283, 1]
   radius: 104374.690704
   orbit:

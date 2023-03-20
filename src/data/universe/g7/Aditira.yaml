@@ -41,7 +41,7 @@ bodies:
     description: The world Aditira is mildly fabled for the Aditiraian edible moth but beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.745947, 0.746521, 0.542098, 1]
   radius: 186272.111206
   orbit:

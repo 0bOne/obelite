@@ -41,7 +41,7 @@ bodies:
     description: The planet Tilaanes is cursed by deadly civil war.
     inhabitants: Green Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.541383, 0.669795, 0.706711, 1]
   radius: 104785.508881
   orbit:

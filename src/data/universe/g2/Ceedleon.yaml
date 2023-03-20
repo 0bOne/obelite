@@ -41,7 +41,7 @@ bodies:
     description: Ceedleon is mildly notable for Ceedleonian Erzaaler water.
     inhabitants: Fierce Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.747168, 0.578952, 0.565082, 1]
   radius: 103035.470581
   orbit:

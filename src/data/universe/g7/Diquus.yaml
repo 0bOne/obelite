@@ -41,7 +41,7 @@ bodies:
     description: Diquus is mildly famous for its vast rain forests and the Diquusian tree grub.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.682056, 0.557618, 0.528162, 1]
   radius: 136626.233063
   orbit:

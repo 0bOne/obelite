@@ -41,7 +41,7 @@ bodies:
     description: The world Enonedar is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.398302, 0.566069, 0.729123, 1]
   radius: 74049.519806
   orbit:

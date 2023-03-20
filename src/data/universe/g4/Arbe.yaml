@@ -41,7 +41,7 @@ bodies:
     description: Arbe is reasonably well known for its great dense forests but scourged by deadly edible moths.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.230129, 0.49301, 0.72095, 1]
   radius: 85229.042969
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Lequteor is reasonably famous for its inhabitants’ ancient mating traditions.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.735492, 0.49113, 0.453109, 1]
   radius: 59909.570312
   orbit:

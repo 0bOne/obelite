@@ -41,7 +41,7 @@ bodies:
     description: The planet Esgeer is famous for Esgeerian shrew steak but ravaged by occasional solar activity.
     inhabitants: Small Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.813629, 0.768146, 0.759112, 1]
   radius: 105150.076447
   orbit:

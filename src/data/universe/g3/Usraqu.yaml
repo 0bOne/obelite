@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for the Usraquian tree snake and Usraquian shrew cutlet.
     inhabitants: Small Yellow Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.749924, 0.737994, 0.736063, 1]
   radius: 108454.988098
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Gebequat is famous for Gebequatian wolf cutlet but plagued by frequent earthquakes.
     inhabitants: Large Black Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.82695, 0.675508, 0.667723, 1]
   radius: 108216.507568
   orbit:

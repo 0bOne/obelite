@@ -41,7 +41,7 @@ bodies:
     description: This world is fabled for its ancient Senole plant plantations.
     inhabitants: Black Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.726398, 0.567445, 0.220762, 1]
   radius: 108677.76825
   orbit:

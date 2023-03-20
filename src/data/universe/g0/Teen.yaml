@@ -41,7 +41,7 @@ bodies:
     description: Teen is cursed by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.715146, 0.633433, 0.510549, 1]
   radius: 81503.798676
   orbit:

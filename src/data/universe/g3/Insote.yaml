@@ -41,7 +41,7 @@ bodies:
     description: The planet Insote is cursed by deadly civil war.
     inhabitants: Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.692465, 0.478197, 0.422774, 1]
   radius: 135553.259277
   orbit:

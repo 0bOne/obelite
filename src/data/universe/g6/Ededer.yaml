@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious place.
     inhabitants: Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.475259, 0.507731, 0.738547, 1]
   radius: 127315.753784
   orbit:

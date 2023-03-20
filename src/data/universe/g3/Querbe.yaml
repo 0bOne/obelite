@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for its inhabitants’ ingrained shyness but cursed by unpredictable solar activity.
     inhabitants: Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.81705, 0.761191, 0.740321, 1]
   radius: 140211.97998
   orbit:

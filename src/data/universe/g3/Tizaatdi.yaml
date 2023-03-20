@@ -41,7 +41,7 @@ bodies:
     description: The world Tizaatdi is reasonably noted for its inhabitants’ exceptional love for food blenders.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.687671, 0.683216, 0.60821, 1]
   radius: 111479.84787
   orbit:

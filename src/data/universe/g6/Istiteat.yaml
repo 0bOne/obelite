@@ -41,7 +41,7 @@ bodies:
     description: Istiteat is ravaged by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.682108, 0.26542, 0.255567, 1]
   radius: 135658.247223
   orbit:

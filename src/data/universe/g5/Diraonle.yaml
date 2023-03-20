@@ -41,7 +41,7 @@ bodies:
     description: This world is a revolting little planet.
     inhabitants: Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.819745, 0.539555, 0.233943, 1]
   radius: 149533.436279
   orbit:

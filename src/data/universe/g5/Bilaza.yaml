@@ -41,7 +41,7 @@ bodies:
     description: The world Bilaza is beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.739004, 0.661885, 0.357964, 1]
   radius: 130909.376221
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Agebi is an unremarkable dump.
     inhabitants: Harmless Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.826794, 0.798219, 0.748194, 1]
   radius: 112056.00647
   orbit:

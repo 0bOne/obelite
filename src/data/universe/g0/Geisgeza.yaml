@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for its unusual oceans and the Geisgezaian mountain slug.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.709079, 0.756319, 0.786255, 1]
   radius: 102700.623169
   orbit:

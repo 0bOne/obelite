@@ -41,7 +41,7 @@ bodies:
     description: The world Zatebiso is most famous for the Zatebisoian spotted shrew.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.8104, 0.388042, 0.244538, 1]
   radius: 125717.2966
   orbit:

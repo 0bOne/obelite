@@ -41,7 +41,7 @@ bodies:
     description: This world is plagued by frequent solar activity.
     inhabitants: Red Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.253271, 0.385455, 0.742398, 1]
   radius: 136065.878906
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Edanso is mildly well known for its hoopy night life and Edansoian It water.
     inhabitants: Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.677086, 0.703889, 0.712027, 1]
   radius: 136586.692047
   orbit:

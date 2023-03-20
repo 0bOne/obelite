@@ -41,7 +41,7 @@ bodies:
     description: Onrear is most noted for the Onrearian deadly Gestesoid and its inhabitants’ exceptional loathing of sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.471298, 0.591521, 0.794168, 1]
   radius: 159401.658325
   orbit:

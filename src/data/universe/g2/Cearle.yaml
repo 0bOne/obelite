@@ -41,7 +41,7 @@ bodies:
     description: The world Cearle is beset by dreadful earthquakes.
     inhabitants: Fierce Harmless Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.386572, 0.518849, 0.795584, 1]
   radius: 108723.45993
   orbit:

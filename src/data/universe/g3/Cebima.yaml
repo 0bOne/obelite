@@ -41,7 +41,7 @@ bodies:
     description: The world Cebima is mildly fabled for the Cebimaian mountain lobstoid but plagued by occasional civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.565823, 0.732885, 0.74165, 1]
   radius: 74708.349609
   orbit:

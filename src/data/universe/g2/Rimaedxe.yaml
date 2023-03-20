@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably noted for its exotic fish meat.
     inhabitants: Red Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.778354, 0.740426, 0.73525, 1]
   radius: 150996.716309
   orbit:

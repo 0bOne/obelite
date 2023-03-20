@@ -41,7 +41,7 @@ bodies:
     description: Onente is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.649783, 0.684171, 0.751996, 1]
   radius: 140237.771606
   orbit:

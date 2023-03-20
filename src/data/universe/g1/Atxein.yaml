@@ -41,7 +41,7 @@ bodies:
     description: The world Atxein is very famous for its unusual sit coms but ravaged by lethal spotted batoids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.804926, 0.628848, 0.387436, 1]
   radius: 98598.076172
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Belees is beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.336825, 0.483715, 0.69599, 1]
   radius: 90245.818787
   orbit:

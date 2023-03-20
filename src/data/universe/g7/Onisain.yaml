@@ -41,7 +41,7 @@ bodies:
     description: The world Onisain is mildly noted for its pink oceans but scourged by dreadful solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.378023, 0.62914, 0.769705, 1]
   radius: 123499.781799
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Anenen is well known for its inhabitants’ weird silliness but cursed by dreadful solar activity.
     inhabitants: Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.777484, 0.770083, 0.567688, 1]
   radius: 117602.384644
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for vicious Outh gargle blasters and its unusual casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.565421, 0.642696, 0.673349, 1]
   radius: 75645.3302
   orbit:

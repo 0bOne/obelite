@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its ancient Esarqureian Eninarxe tulip plantations and its inhabitants’ unusual silliness.
     inhabitants: Small Red Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.795847, 0.774093, 0.695743, 1]
   radius: 88850.450439
   orbit:

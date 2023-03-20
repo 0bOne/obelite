@@ -41,7 +41,7 @@ bodies:
     description: The world Geargeat is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.293921, 0.313069, 0.74978, 1]
   radius: 113687.138672
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Zaerma is a dull world.
     inhabitants: Fierce Green Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.721317, 0.412504, 0.378445, 1]
   radius: 107972.193604
   orbit:

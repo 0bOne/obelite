@@ -41,7 +41,7 @@ bodies:
     description: The world Tiregees is reasonably noted for its inhabitants’ exceptional love for tourists and the Tiregeesian edible arts graduate.
     inhabitants: Harmless Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.31102, 0.384144, 0.664883, 1]
   radius: 120952.267761
   orbit:

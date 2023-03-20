@@ -41,7 +41,7 @@ bodies:
     description: This world is fabled for its ancient mountains.
     inhabitants: Small Black Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.282023, 0.411423, 0.715607, 1]
   radius: 157172.052612
   orbit:

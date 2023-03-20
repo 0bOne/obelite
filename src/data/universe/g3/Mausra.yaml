@@ -41,7 +41,7 @@ bodies:
     description: Mausra is very fabled for its ancient mountains.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.758596, 0.786102, 0.826108, 1]
   radius: 203110.946655
   orbit:

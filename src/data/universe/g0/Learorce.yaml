@@ -41,7 +41,7 @@ bodies:
     description: Learorce is reasonably notable for its great dense forests but scourged by deadly edible poets.
     inhabitants: Large Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.459893, 0.483426, 0.72037, 1]
   radius: 80809.634399
   orbit:

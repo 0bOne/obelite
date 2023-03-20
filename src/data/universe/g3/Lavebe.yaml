@@ -41,7 +41,7 @@ bodies:
     description: Lavebe is famous for its inhabitants’ ancient loathing of casinos but plagued by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.18177, 0.310737, 0.705414, 1]
   radius: 82205.986176
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Soinisat is very noted for its pink oceans but scourged by deadly solar activity.
     inhabitants: Fierce Red Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.594022, 0.633628, 0.667038, 1]
   radius: 95866.589355
   orbit:

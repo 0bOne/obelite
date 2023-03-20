@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.703864, 0.643302, 0.597102, 1]
   radius: 137845.667725
   orbit:

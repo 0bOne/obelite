@@ -41,7 +41,7 @@ bodies:
     description: Inisza is most noted for its inhabitants’ exceptional love for tourists and its unusual oceans.
     inhabitants: Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.656717, 0.687666, 0.70722, 1]
   radius: 123221.4505
   orbit:

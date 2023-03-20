@@ -41,7 +41,7 @@ bodies:
     description: Xeisa is most noted for the Xeisaian deadly lobstoid and its pink Xeisaian Enst Enstweed plantations.
     inhabitants: Large Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.644904, 0.686369, 0.784, 1]
   radius: 72030.850525
   orbit:

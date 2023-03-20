@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious little planet.
     inhabitants: Fierce Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.684747, 0.71976, 0.826297, 1]
   radius: 89814.740295
   orbit:

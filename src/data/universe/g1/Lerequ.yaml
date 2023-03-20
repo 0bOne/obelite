@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for the Lerequian edible poet and Zero-G cricket.
     inhabitants: Large Blue Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.670023, 0.598664, 0.288327, 1]
   radius: 61218.912964
   orbit:

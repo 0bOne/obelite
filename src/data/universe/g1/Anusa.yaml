@@ -41,7 +41,7 @@ bodies:
     description: The world Anusa is reasonably noted for its fabulous goat soup.
     inhabitants: Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.713846, 0.703467, 0.686087, 1]
   radius: 147709.2659
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by dreadful earthquakes.
     inhabitants: Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.69463, 0.698312, 0.739014, 1]
   radius: 168768.30246
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Onesed is a dull place.
     inhabitants: Green Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.758142, 0.787093, 0.800629, 1]
   radius: 187871.716919
   orbit:

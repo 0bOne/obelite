@@ -41,7 +41,7 @@ bodies:
     description: The world Veteerza is reasonably famous for the Veteerzaian evil Usa’geoid.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.69744, 0.626273, 0.559973, 1]
   radius: 135398.235626
   orbit:

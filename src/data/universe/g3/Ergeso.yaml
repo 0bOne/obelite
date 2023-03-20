@@ -41,7 +41,7 @@ bodies:
     description: Ergeso is very fabled for the Ergesoian edible arts graduate.
     inhabitants: Horned Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.53809, 0.647092, 0.703043, 1]
   radius: 90130.505981
   orbit:

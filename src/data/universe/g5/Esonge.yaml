@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ weird silliness and its inhabitants’ unusual silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.482674, 0.623929, 0.650821, 1]
   radius: 109761.298523
   orbit:

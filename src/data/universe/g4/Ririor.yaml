@@ -41,7 +41,7 @@ bodies:
     description: The planet Ririor is most well known for its hoopy casinos.
     inhabitants: Black Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.288528, 0.393287, 0.762051, 1]
   radius: 204934.137726
   orbit:

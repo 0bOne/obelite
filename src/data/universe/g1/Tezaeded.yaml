@@ -41,7 +41,7 @@ bodies:
     description: The planet Tezaeded is famous for its exotic fish cutlet but beset by evil spotted cats.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.799625, 0.775662, 0.721759, 1]
   radius: 117700.419617
   orbit:

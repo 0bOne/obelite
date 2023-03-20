@@ -41,7 +41,7 @@ bodies:
     description: The world Belabia is reasonably fabled for Belabiaian evil juice and its inhabitants’ eccentric love for poetry.
     inhabitants: Black Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.291871, 0.450783, 0.786038, 1]
   radius: 86403.202515
   orbit:

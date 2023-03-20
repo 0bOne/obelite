@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for its hoopy night life and Beedriarian lethal brandy.
     inhabitants: Blue Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.752063, 0.66735, 0.594655, 1]
   radius: 93641.738281
   orbit:

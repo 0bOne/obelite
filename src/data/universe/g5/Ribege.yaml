@@ -41,7 +41,7 @@ bodies:
     description: The planet Ribege is an unremarkable planet.
     inhabitants: Harmless Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.483306, 0.693151, 0.708075, 1]
   radius: 125830.661011
   orbit:

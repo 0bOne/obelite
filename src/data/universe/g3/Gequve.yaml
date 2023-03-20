@@ -41,7 +41,7 @@ bodies:
     description: The planet Gequve is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.220734, 0.293797, 0.759183, 1]
   radius: 86610.48584
   orbit:

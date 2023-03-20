@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for its unusual oceans.
     inhabitants: Harmless Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.588983, 0.806236, 0.813354, 1]
   radius: 137618.818512
   orbit:

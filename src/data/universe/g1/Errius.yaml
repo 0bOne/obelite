@@ -41,7 +41,7 @@ bodies:
     description: Errius is an unremarkable dump.
     inhabitants: Blue Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.752319, 0.627398, 0.598974, 1]
   radius: 84089.355469
   orbit:

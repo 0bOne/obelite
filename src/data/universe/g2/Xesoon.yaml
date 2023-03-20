@@ -41,7 +41,7 @@ bodies:
     description: The world Xesoon is fabled for its weird exuberant forests and its inhabitants’ eccentric love for poetry.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.280937, 0.329058, 0.651135, 1]
   radius: 87693.409576
   orbit:

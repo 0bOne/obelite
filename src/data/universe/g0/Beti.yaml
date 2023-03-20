@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its weird volcanoes and the Betiian mountain lobstoid.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.744428, 0.598884, 0.409679, 1]
   radius: 106301.856689
   orbit:

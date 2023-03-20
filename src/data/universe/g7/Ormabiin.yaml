@@ -41,7 +41,7 @@ bodies:
     description: Ormabiin is reasonably notable for its great volcanoes but plagued by lethal spotted batoids.
     inhabitants: Black Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.463443, 0.683214, 0.690717, 1]
   radius: 171141.139679
   orbit:

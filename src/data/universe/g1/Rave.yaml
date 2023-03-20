@@ -41,7 +41,7 @@ bodies:
     description: Rave is most famous for the Raveian spotted shrew and the Raveian edible arts graduate.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.380303, 0.583663, 0.79628, 1]
   radius: 79047.410583
   orbit:

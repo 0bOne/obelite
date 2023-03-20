@@ -41,7 +41,7 @@ bodies:
     description: The world Erbebeti is a dull world.
     inhabitants: Green Fat Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.396952, 0.45368, 0.829608, 1]
   radius: 89439.733734
   orbit:

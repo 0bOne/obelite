@@ -41,7 +41,7 @@ bodies:
     description: The world Riordi is scourged by killer edible talking treeoids.
     inhabitants: Blue Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.795782, 0.422479, 0.342226, 1]
   radius: 166186.850739
   orbit:

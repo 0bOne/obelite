@@ -41,7 +41,7 @@ bodies:
     description: This world is noted for its exciting sit coms.
     inhabitants: Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.75276, 0.804171, 0.816354, 1]
   radius: 166890.795898
   orbit:

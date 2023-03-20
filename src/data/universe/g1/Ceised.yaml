@@ -41,7 +41,7 @@ bodies:
     description: This planet is a dull world.
     inhabitants: Fierce Blue Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.747122, 0.578429, 0.507556, 1]
   radius: 125225.906067
   orbit:

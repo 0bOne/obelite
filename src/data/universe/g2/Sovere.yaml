@@ -41,7 +41,7 @@ bodies:
     description: Sovere is mildly well known for Sovereian lethal water.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.253457, 0.500834, 0.836276, 1]
   radius: 143645.559082
   orbit:

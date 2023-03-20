@@ -41,7 +41,7 @@ bodies:
     description: This planet is a tedious place.
     inhabitants: Fierce Blue Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.343777, 0.517255, 0.825827, 1]
   radius: 94857.762451
   orbit:

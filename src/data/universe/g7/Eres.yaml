@@ -41,7 +41,7 @@ bodies:
     description: The planet Eres is very noted for its unusual sit coms but plagued by occasional solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.728116, 0.676829, 0.24699, 1]
   radius: 65088.194885
   orbit:

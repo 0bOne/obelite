@@ -41,7 +41,7 @@ bodies:
     description: The planet Maesin is an unremarkable dump.
     inhabitants: Small Harmless Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.300605, 0.346934, 0.718777, 1]
   radius: 112887.553711
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by dreadful earthquakes.
     inhabitants: Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.570624, 0.680933, 0.714545, 1]
   radius: 178251.035309
   orbit:

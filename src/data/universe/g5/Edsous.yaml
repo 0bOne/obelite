@@ -41,7 +41,7 @@ bodies:
     description: The planet Edsous is mildly notable for Edsousian Lo water.
     inhabitants: Blue Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.732285, 0.675247, 0.564871, 1]
   radius: 126706.633301
   orbit:

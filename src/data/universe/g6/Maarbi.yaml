@@ -41,7 +41,7 @@ bodies:
     description: The planet Maarbi is most noted for the Maarbiian mountain lobstoid and the Maarbiian evil talking treeoid.
     inhabitants: Small Red Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.728131, 0.560274, 0.327465, 1]
   radius: 141952.365723
   orbit:

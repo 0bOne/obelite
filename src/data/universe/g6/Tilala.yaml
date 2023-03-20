@@ -41,7 +41,7 @@ bodies:
     description: The planet Tilala is reasonably noted for its inhabitants’ eccentric shyness and Tilalaian Etonle brandy.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.702298, 0.538582, 0.352649, 1]
   radius: 115452.197266
   orbit:

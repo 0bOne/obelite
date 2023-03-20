@@ -41,7 +41,7 @@ bodies:
     description: Geison is reasonably notable for its fabulous cuisine but plagued by evil tree fishs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.734366, 0.719496, 0.584722, 1]
   radius: 68484.378357
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Enerte is most noted for its inhabitants’ eccentric love for poetry and its inhabitants’ weird shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.691074, 0.510462, 0.393208, 1]
   radius: 109166.973114
   orbit:

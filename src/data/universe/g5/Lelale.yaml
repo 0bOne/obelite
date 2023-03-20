@@ -41,7 +41,7 @@ bodies:
     description: The world Lelale is reasonably fabled for its exciting Zero-G cricket and its fabulous cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.397571, 0.517576, 0.659354, 1]
   radius: 76157.152405
   orbit:

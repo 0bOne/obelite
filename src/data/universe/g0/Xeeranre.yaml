@@ -41,7 +41,7 @@ bodies:
     description: Xeeranre is cursed by killer mountain Reetaboids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.24505, 0.551958, 0.730453, 1]
   radius: 78706.092834
   orbit:

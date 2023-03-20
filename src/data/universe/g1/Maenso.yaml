@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its great dense forests but scourged by killer mountain Ilinataroids.
     inhabitants: Small Red Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.684452, 0.724477, 0.768277, 1]
   radius: 154897.230377
   orbit:

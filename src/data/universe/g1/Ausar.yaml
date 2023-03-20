@@ -41,7 +41,7 @@ bodies:
     description: The planet Ausar is an unremarkable dump.
     inhabitants: Harmless Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.828491, 0.65205, 0.473311, 1]
   radius: 197655.101624
   orbit:

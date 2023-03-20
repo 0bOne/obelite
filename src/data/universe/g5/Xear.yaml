@@ -41,7 +41,7 @@ bodies:
     description: The world Xear is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.849487, 0.722796, 0.709963, 1]
   radius: 70366.219788
   orbit:

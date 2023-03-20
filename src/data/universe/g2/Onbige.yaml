@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Onbigeian tree grub and its inhabitants’ ancient loathing of casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.45899, 0.509665, 0.751318, 1]
   radius: 175136.257324
   orbit:

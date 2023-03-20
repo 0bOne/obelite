@@ -41,7 +41,7 @@ bodies:
     description: Edla is most famous for its pink Edlaian Thno Thnoweed plantations and Zero-G hockey.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.64035, 0.664399, 0.732742, 1]
   radius: 95590.209961
   orbit:

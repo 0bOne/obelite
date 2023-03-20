@@ -41,7 +41,7 @@ bodies:
     description: The planet Rierxe is most noted for its inhabitants’ exceptional loathing of food blenders and its exciting sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.746146, 0.621048, 0.399489, 1]
   radius: 122176.220093
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Esdi is well known for its inhabitants’ ancient mating traditions but ravaged by unpredictable solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.738037, 0.687142, 0.62295, 1]
   radius: 158289.266357
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its fabulous vicious On brew and Anraerian wolf cutlet.
     inhabitants: Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.290066, 0.703246, 0.824799, 1]
   radius: 166375.942383
   orbit:

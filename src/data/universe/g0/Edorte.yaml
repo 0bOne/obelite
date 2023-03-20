@@ -41,7 +41,7 @@ bodies:
     description: The planet Edorte is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.750623, 0.734372, 0.711726, 1]
   radius: 137458.829651
   orbit:

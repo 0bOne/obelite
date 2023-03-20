@@ -41,7 +41,7 @@ bodies:
     description: The world Orverace is very famous for its unusual casinos but beset by lethal disease.
     inhabitants: Yellow Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.602017, 0.661396, 0.701126, 1]
   radius: 116387.874603
   orbit:

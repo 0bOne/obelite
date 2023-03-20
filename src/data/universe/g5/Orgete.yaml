@@ -41,7 +41,7 @@ bodies:
     description: Orgete is a revolting little planet.
     inhabitants: Yellow Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.654724, 0.485004, 0.366779, 1]
   radius: 104521.179199
   orbit:

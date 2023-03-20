@@ -41,7 +41,7 @@ bodies:
     description: Anrasoti is well known for the Anrasotiian spotted cat but ravaged by occasional earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.802625, 0.54285, 0.417889, 1]
   radius: 156349.169769
   orbit:

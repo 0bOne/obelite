@@ -41,7 +41,7 @@ bodies:
     description: Argema is most noted for its inhabitants’ eccentric love for tourists and its great tropical forests.
     inhabitants: Small Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.676572, 0.66387, 0.616155, 1]
   radius: 113981.314087
   orbit:

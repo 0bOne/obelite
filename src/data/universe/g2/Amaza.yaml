@@ -41,7 +41,7 @@ bodies:
     description: Amaza is reasonably notable for its great parking meters but ravaged by occasional earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.51436, 0.752691, 0.794351, 1]
   radius: 148157.386475
   orbit:

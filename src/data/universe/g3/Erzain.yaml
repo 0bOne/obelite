@@ -41,7 +41,7 @@ bodies:
     description: Erzain is reasonably well known for the Erzainian spotted shrew but plagued by evil tree snakes.
     inhabitants: Yellow Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.398253, 0.6782, 0.82059, 1]
   radius: 63939.056396
   orbit:

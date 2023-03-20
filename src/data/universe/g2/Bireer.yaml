@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its hoopy night life and vicious Le brew.
     inhabitants: Fierce Blue Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.828146, 0.785713, 0.7151, 1]
   radius: 95138.134003
   orbit:

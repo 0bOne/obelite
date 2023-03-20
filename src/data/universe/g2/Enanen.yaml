@@ -41,7 +41,7 @@ bodies:
     description: The planet Enanen is well known for the Enanenian tree grub but ravaged by occasional solar activity.
     inhabitants: Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.566801, 0.649125, 0.764551, 1]
   radius: 66374.07074
   orbit:

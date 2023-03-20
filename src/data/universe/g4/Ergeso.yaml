@@ -41,7 +41,7 @@ bodies:
     description: Ergeso is a revolting dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.25268, 0.415787, 0.692596, 1]
   radius: 55736.103973
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Biceises is mildly fabled for its inhabitants’ ingrained silliness but beset by deadly tree snakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.74747, 0.49793, 0.348771, 1]
   radius: 117781.173706
   orbit:

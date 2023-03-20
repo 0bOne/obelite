@@ -41,7 +41,7 @@ bodies:
     description: Esveri is mildly well known for its hoopy night life and its exotic cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.796921, 0.441409, 0.205249, 1]
   radius: 85983.435669
   orbit:

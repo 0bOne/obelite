@@ -41,7 +41,7 @@ bodies:
     description: The planet Rateisre is an unremarkable dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.744586, 0.75904, 0.796194, 1]
   radius: 93307.363892
   orbit:

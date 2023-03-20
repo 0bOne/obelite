@@ -41,7 +41,7 @@ bodies:
     description: The planet Isveve is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ eccentric shyness.
     inhabitants: Blue Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.703989, 0.706676, 0.735327, 1]
   radius: 123501.313934
   orbit:

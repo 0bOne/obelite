@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ unusual silliness and its exotic cuisine.
     inhabitants: Large Black Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.593052, 0.707021, 0.783014, 1]
   radius: 95129.586639
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for its unusual oceans and the Quedbiquian evil poet.
     inhabitants: Green Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.761035, 0.55536, 0.524907, 1]
   radius: 136279.114838
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Isgeoror is very famous for its fabulous goat soup but ravaged by lethal spotted snails.
     inhabitants: Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.600269, 0.653889, 0.699585, 1]
   radius: 142307.286377
   orbit:

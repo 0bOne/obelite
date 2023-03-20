@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for Xeerian wolf meat and its fabulous cuisine.
     inhabitants: Large Yellow Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.513528, 0.530388, 0.810178, 1]
   radius: 87958.296814
   orbit:

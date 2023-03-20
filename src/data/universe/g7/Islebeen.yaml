@@ -41,7 +41,7 @@ bodies:
     description: Islebeen is cursed by dreadful civil war.
     inhabitants: Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.538907, 0.848521, 0.84939, 1]
   radius: 98814.93042
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Gexeala is reasonably famous for the Gexealaian evil poet.
     inhabitants: Large Green Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.723767, 0.651759, 0.503965, 1]
   radius: 78170.183868
   orbit:

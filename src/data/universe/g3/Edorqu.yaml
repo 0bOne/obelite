@@ -41,7 +41,7 @@ bodies:
     description: Edorqu is famous for Edorquian wolf cutlet but beset by evil spotted cats.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.615147, 0.70777, 0.746329, 1]
   radius: 134636.21109
   orbit:

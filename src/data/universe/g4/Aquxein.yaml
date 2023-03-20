@@ -41,7 +41,7 @@ bodies:
     description: The planet Aquxein is a boring world.
     inhabitants: Black Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.487329, 0.530973, 0.775171, 1]
   radius: 154995.140533
   orbit:

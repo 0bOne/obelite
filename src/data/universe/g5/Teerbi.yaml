@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious place.
     inhabitants: Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.789014, 0.720563, 0.215358, 1]
   radius: 143326.518555
   orbit:

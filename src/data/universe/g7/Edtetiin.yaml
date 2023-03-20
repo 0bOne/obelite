@@ -41,7 +41,7 @@ bodies:
     description: The planet Edtetiin is most famous for its pink oceans and its unusual sit coms.
     inhabitants: Red Slimy Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.23534, 0.443219, 0.659424, 1]
   radius: 131766.850281
   orbit:

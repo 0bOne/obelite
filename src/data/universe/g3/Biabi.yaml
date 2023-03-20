@@ -41,7 +41,7 @@ bodies:
     description: This world is plagued by frequent earthquakes.
     inhabitants: Fierce Black Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.484144, 0.590205, 0.697537, 1]
   radius: 142806.329803
   orbit:

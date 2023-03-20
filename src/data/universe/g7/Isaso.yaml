@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for Isasoian lethal water but plagued by frequent solar activity.
     inhabitants: Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.700473, 0.537485, 0.397105, 1]
   radius: 187316.710815
   orbit:

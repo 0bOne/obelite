@@ -41,7 +41,7 @@ bodies:
     description: Areran is cursed by killer edible poets.
     inhabitants: Small Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.606929, 0.633538, 0.815958, 1]
   radius: 147189.360657
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This planet is most fabled for its inhabitants’ eccentric shyness but cursed by occasional earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.662778, 0.690008, 0.701404, 1]
   radius: 83393.221436
   orbit:

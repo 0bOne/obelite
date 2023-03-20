@@ -41,7 +41,7 @@ bodies:
     description: This planet is notable for the Xemadiian edible poet and mud tennis.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.746274, 0.603458, 0.58726, 1]
   radius: 84232.62085
   orbit:

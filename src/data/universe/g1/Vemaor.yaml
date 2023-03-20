@@ -41,7 +41,7 @@ bodies:
     description: The world Vemaor is a boring world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.672369, 0.73442, 0.818173, 1]
   radius: 115815.083008
   orbit:

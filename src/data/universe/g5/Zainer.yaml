@@ -41,7 +41,7 @@ bodies:
     description: Zainer is very fabled for its ancient Thinsea’ tulip plantations.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.690433, 0.51062, 0.39643, 1]
   radius: 107773.600464
   orbit:

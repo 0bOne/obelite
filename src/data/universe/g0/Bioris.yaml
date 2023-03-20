@@ -41,7 +41,7 @@ bodies:
     description: Bioris is very fabled for the Biorisian edible poet.
     inhabitants: Fierce Yellow Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.380741, 0.521552, 0.759958, 1]
   radius: 134959.669189
   orbit:

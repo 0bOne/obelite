@@ -41,7 +41,7 @@ bodies:
     description: Edbeis is an unremarkable planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.845877, 0.831994, 0.791784, 1]
   radius: 116196.903992
   orbit:

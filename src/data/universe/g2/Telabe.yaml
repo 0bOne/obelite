@@ -41,7 +41,7 @@ bodies:
     description: Telabe is reasonably notable for its great tropical forests but cursed by unpredictable earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.300767, 0.512659, 0.714688, 1]
   radius: 166740.934296
   orbit:

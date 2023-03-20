@@ -41,7 +41,7 @@ bodies:
     description: Soesdiri is ravaged by unpredictable civil war.
     inhabitants: Fierce Black Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.70907, 0.689819, 0.235831, 1]
   radius: 128819.266205
   orbit:

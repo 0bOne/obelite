@@ -41,7 +41,7 @@ bodies:
     description: Dioris is an unremarkable planet.
     inhabitants: Yellow Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.600503, 0.605007, 0.752283, 1]
   radius: 121051.302338
   orbit:

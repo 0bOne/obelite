@@ -41,7 +41,7 @@ bodies:
     description: Erzainle is reasonably well known for the Erzainleian tree grub but plagued by frequent solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.756497, 0.49052, 0.305896, 1]
   radius: 87983.232422
   orbit:

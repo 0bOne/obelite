@@ -41,7 +41,7 @@ bodies:
     description: The world Attesola is most famous for the Attesolaian spotted shrew.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.734271, 0.483229, 0.3692, 1]
   radius: 92181.608276
   orbit:

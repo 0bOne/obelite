@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably noted for its fabulous goat burgers.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.550677, 0.691411, 0.81604, 1]
   radius: 133538.413086
   orbit:

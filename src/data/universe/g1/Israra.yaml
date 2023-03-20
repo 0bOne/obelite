@@ -41,7 +41,7 @@ bodies:
     description: Israra is most noted for its inhabitants’ exceptional loathing of food blenders and its exciting sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.667288, 0.607977, 0.392702, 1]
   radius: 132940.002899
   orbit:

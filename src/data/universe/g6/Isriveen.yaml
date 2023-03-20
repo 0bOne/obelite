@@ -41,7 +41,7 @@ bodies:
     description: The world Isriveen is notable for its unusual oceans and its inhabitants’ eccentric love for tourists.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.687042, 0.508412, 0.467338, 1]
   radius: 193589.666748
   orbit:

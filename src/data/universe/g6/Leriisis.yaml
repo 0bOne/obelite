@@ -41,7 +41,7 @@ bodies:
     description: The planet Leriisis is reasonably noted for its inhabitants’ exceptional love for food blenders and its fabulous cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.206915, 0.708248, 0.78692, 1]
   radius: 74455.276794
   orbit:

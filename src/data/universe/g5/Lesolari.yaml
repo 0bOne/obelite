@@ -41,7 +41,7 @@ bodies:
     description: Lesolari is reasonably well known for the Lesolariian spotted wolf but beset by frequent civil war.
     inhabitants: Large Blue Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.215284, 0.311072, 0.730148, 1]
   radius: 74681.893311
   orbit:

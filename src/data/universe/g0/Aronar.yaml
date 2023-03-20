@@ -41,7 +41,7 @@ bodies:
     description: Aronar is most famous for the Aronarian deadly goat and its hoopy casinos.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.711954, 0.758815, 0.760324, 1]
   radius: 126391.421051
   orbit:

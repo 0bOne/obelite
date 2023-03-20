@@ -41,7 +41,7 @@ bodies:
     description: Gearge is most famous for its pink oceans and its exciting sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.771445, 0.741927, 0.726137, 1]
   radius: 102343.730164
   orbit:

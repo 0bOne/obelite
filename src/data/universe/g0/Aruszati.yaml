@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for Zero-G cricket.
     inhabitants: Small Green Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.676862, 0.720401, 0.726685, 1]
   radius: 125710.264587
   orbit:

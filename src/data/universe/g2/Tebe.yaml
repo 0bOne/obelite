@@ -41,7 +41,7 @@ bodies:
     description: This planet is very notable for the Tebeian tree snake and its exotic goat meat.
     inhabitants: Large Red Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.661755, 0.537571, 0.446291, 1]
   radius: 92803.811951
   orbit:

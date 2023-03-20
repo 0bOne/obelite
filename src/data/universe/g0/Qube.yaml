@@ -41,7 +41,7 @@ bodies:
     description: Qube is reasonably well known for its great dense forests but scourged by deadly civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.789368, 0.649365, 0.607485, 1]
   radius: 133270.551758
   orbit:

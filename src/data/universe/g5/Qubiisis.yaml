@@ -41,7 +41,7 @@ bodies:
     description: The planet Qubiisis is famous for its inhabitants’ ancient loathing of sit coms but ravaged by dreadful civil war.
     inhabitants: Harmless Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.478023, 0.671351, 0.722916, 1]
   radius: 182256.317139
   orbit:

@@ -18,6 +18,13 @@ export default class SquareMatrix extends Float32Array
         return this;
     }
 
+    clone()
+    {
+        const cloned = new SquareMatrix(this.dimensions);
+        cloned.set(this);
+        return cloned;
+    }
+
     //reset to identity matrix
     setIdentity()
     {

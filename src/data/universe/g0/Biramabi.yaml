@@ -41,7 +41,7 @@ bodies:
     description: The world Biramabi is a dull world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.209416, 0.744733, 0.822418, 1]
   radius: 109145.168457
   orbit:

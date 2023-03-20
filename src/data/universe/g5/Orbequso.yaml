@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for its exotic cuisine and its inhabitants’ ingrained silliness.
     inhabitants: Blue Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.684149, 0.703541, 0.791788, 1]
   radius: 147711.111603
   orbit:

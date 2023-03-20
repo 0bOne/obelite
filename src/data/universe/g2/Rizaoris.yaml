@@ -41,7 +41,7 @@ bodies:
     description: The world Rizaoris is reasonably noted for its exotic fish meat.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.776273, 0.435944, 0.342515, 1]
   radius: 198479.911804
   orbit:

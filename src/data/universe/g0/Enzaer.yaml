@@ -41,7 +41,7 @@ bodies:
     description: Enzaer is a revolting dump.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.79382, 0.759529, 0.407954, 1]
   radius: 72044.054413
   orbit:

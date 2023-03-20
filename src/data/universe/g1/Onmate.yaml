@@ -41,7 +41,7 @@ bodies:
     description: The planet Onmate is most noted for its inhabitants’ exceptional loathing of casinos and the Onmateian spotted wolf.
     inhabitants: Yellow Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.39394, 0.552929, 0.791074, 1]
   radius: 159396.304321
   orbit:

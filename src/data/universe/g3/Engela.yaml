@@ -41,7 +41,7 @@ bodies:
     description: The planet Engela is very famous for its fabulous monkey burgers but plagued by frequent solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.492712, 0.743834, 0.838351, 1]
   radius: 94375.373383
   orbit:

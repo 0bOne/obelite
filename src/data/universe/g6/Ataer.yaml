@@ -41,7 +41,7 @@ bodies:
     description: Ataer is very fabled for its unusual oceans.
     inhabitants: Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.679218, 0.791423, 0.817627, 1]
   radius: 85660.326843
   orbit:

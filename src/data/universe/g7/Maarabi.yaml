@@ -41,7 +41,7 @@ bodies:
     description: The planet Maarabi is a boring world.
     inhabitants: Small Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.39328, 0.528749, 0.728598, 1]
   radius: 122359.246826
   orbit:

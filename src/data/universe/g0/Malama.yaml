@@ -41,7 +41,7 @@ bodies:
     description: The planet Malama is mildly well known for its exotic cuisine.
     inhabitants: Small Yellow Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.703883, 0.728465, 0.732693, 1]
   radius: 177008.447571
   orbit:

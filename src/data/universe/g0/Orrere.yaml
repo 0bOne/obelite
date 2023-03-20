@@ -41,7 +41,7 @@ bodies:
     description: Orrere is mildly well known for Orrereian vicious brew.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.712302, 0.592113, 0.542845, 1]
   radius: 106268.919373
   orbit:

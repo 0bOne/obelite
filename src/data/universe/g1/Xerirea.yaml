@@ -41,7 +41,7 @@ bodies:
     description: Xerirea is very notable for its inhabitants’ ingrained shyness.
     inhabitants: Large Green Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.734464, 0.716584, 0.561181, 1]
   radius: 86343.153076
   orbit:

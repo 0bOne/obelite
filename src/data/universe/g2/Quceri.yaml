@@ -41,7 +41,7 @@ bodies:
     description: The planet Quceri is reasonably fabled for Zero-G cricket and vicious Le brew.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.728213, 0.683211, 0.678086, 1]
   radius: 154335.3302
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly famous for its vast rain forests and the Laqusoedian tree wolf.
     inhabitants: Blue Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.355899, 0.472014, 0.828943, 1]
   radius: 108837.762451
   orbit:

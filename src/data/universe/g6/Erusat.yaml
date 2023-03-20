@@ -41,7 +41,7 @@ bodies:
     description: The world Erusat is reasonably noted for its inhabitants’ eccentric shyness and its inhabitants’ ingrained silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.344555, 0.530335, 0.829611, 1]
   radius: 51228.382568
   orbit:

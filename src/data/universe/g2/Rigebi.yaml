@@ -41,7 +41,7 @@ bodies:
     description: Rigebi is ravaged by dreadful civil war.
     inhabitants: Blue Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.279347, 0.657701, 0.782706, 1]
   radius: 180212.075195
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for the Arzageatian tree snake and Arzageatian shrew cutlet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.457311, 0.652216, 0.803333, 1]
   radius: 180658.383179
   orbit:

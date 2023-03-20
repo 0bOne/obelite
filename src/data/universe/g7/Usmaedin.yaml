@@ -41,7 +41,7 @@ bodies:
     description: This planet is a dull world.
     inhabitants: Small Black Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.848212, 0.535679, 0.511689, 1]
   radius: 106954.223633
   orbit:

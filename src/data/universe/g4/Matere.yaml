@@ -41,7 +41,7 @@ bodies:
     description: This world is most fabled for its inhabitants’ eccentric love for tourists but plagued by deadly earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.801773, 0.79661, 0.479546, 1]
   radius: 156355.787964
   orbit:

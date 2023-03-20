@@ -41,7 +41,7 @@ bodies:
     description: Teance is well known for its inhabitants’ ancient mating traditions but ravaged by dreadful civil war.
     inhabitants: Black Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.759619, 0.74275, 0.494634, 1]
   radius: 190817.988281
   orbit:

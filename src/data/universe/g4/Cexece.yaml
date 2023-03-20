@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for its ancient mountains but plagued by frequent earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.801065, 0.555995, 0.292647, 1]
   radius: 114315.605164
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Rateedar is cursed by dreadful civil war.
     inhabitants: Harmless Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.370487, 0.385256, 0.753851, 1]
   radius: 80983.751221
   orbit:

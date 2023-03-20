@@ -41,7 +41,7 @@ bodies:
     description: The planet Enuserin is an unremarkable planet.
     inhabitants: Harmless Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.673566, 0.670832, 0.657571, 1]
   radius: 90559.198608
   orbit:

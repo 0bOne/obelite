@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its ancient Aanbiatian Alinet banana plantations.
     inhabitants: Blue Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.204001, 0.575332, 0.680005, 1]
   radius: 159421.759644
   orbit:

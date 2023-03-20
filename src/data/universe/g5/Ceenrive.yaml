@@ -41,7 +41,7 @@ bodies:
     description: The planet Ceenrive is an unremarkable dump.
     inhabitants: Fierce Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.672018, 0.441011, 0.340713, 1]
   radius: 111149.807739
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Esgebi is reasonably famous for the Esgebiian evil Atthoid.
     inhabitants: Small Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.530502, 0.711513, 0.738596, 1]
   radius: 147506.756592
   orbit:

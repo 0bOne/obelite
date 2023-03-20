@@ -41,7 +41,7 @@ bodies:
     description: This planet is a tedious place.
     inhabitants: Large Harmless Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.206048, 0.249923, 0.696338, 1]
   radius: 98655.395508
   orbit:

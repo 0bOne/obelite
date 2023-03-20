@@ -41,7 +41,7 @@ bodies:
     description: The planet Esrasoce is a boring world.
     inhabitants: Small Harmless Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.461349, 0.659668, 0.733511, 1]
   radius: 116796.866913
   orbit:

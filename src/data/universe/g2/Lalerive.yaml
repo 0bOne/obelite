@@ -41,7 +41,7 @@ bodies:
     description: The planet Lalerive is mildly well known for its hoopy night life.
     inhabitants: Yellow Bony Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.745996, 0.417901, 0.19834, 1]
   radius: 136961.175842
   orbit:

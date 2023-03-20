@@ -41,7 +41,7 @@ bodies:
     description: Onrace is reasonably notable for its unusual tropical forests but scourged by frequent civil war.
     inhabitants: Blue Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.201943, 0.535356, 0.725, 1]
   radius: 163912.651062
   orbit:

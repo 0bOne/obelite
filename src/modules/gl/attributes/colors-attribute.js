@@ -4,15 +4,22 @@ export default class ColorsAttribute
     gl;
     glBuffer;
 
+    dimensions = 4;
+    normalize = false;
+    stride = 0;
+    offset = 0;
+
     constructor(gl, elements)
     {
+
         elements = this.translateColorNames(elements);     
         this.count = elements.length;
 
         this.gl = gl;
         this.glBuffer = gl.createBuffer();
         gl.bindBuffer(gl.ARRAY_BUFFER, this.glBuffer);
-        gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(elements), gl.STATIC_DRAW);    
+        gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(elements), gl.STATIC_DRAW);  
+        gl.bindBuffer(gl.ARRAY_BUFFER, null);  
 
     }
 
@@ -54,20 +61,16 @@ export default class ColorsAttribute
             return;
         }
     
-        const numComponents = 4;
-        const type = this.gl.FLOAT;
-        const normalize = false;
-        const stride = 0;
-        const offset = 0;
+
         this.gl.bindBuffer(this.gl.ARRAY_BUFFER, this.glBuffer);
         //console.log("setting colors");
         this.gl.vertexAttribPointer(
             shader.locations.aVertexColor,
-            numComponents,
-            type,
-            normalize,
-            stride,
-            offset
+            this.dimensions,
+            this.gl.FLOAT,
+            this.normalize,
+            this.stride,
+            this.offset
         );
         this.gl.enableVertexAttribArray(shader.locations.aVertexColor);
     }

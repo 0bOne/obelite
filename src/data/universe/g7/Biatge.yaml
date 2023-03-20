@@ -41,7 +41,7 @@ bodies:
     description: The world Biatge is very noted for its ancient Biatgeian Esbeusus tulip plantations but cursed by unpredictable solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.835196, 0.568021, 0.485619, 1]
   radius: 102547.496338
   orbit:

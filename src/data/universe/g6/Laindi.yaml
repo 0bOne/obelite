@@ -41,7 +41,7 @@ bodies:
     description: The world Laindi is scourged by deadly tree snakes.
     inhabitants: Black Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.717593, 0.71183, 0.626315, 1]
   radius: 121210.861816
   orbit:

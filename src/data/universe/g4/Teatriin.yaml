@@ -41,7 +41,7 @@ bodies:
     description: Teatriin is mildly well known for its exotic night life and Teatriinian Oubeab brandy.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.54525, 0.651374, 0.656821, 1]
   radius: 143562.052002
   orbit:

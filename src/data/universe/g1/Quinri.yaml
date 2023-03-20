@@ -41,7 +41,7 @@ bodies:
     description: The planet Quinri is scourged by deadly tree grubs.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.747604, 0.62521, 0.328523, 1]
   radius: 153321.996155
   orbit:

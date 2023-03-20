@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for Resoisbeian shrew cutlet and its inhabitants’ weird shyness.
     inhabitants: Yellow Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.635528, 0.64617, 0.680319, 1]
   radius: 178395.867004
   orbit:

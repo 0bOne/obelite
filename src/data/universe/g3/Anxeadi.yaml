@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for its unusual oceans.
     inhabitants: Harmless Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.705579, 0.682206, 0.672884, 1]
   radius: 149824.065704
   orbit:

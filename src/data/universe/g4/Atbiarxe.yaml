@@ -41,7 +41,7 @@ bodies:
     description: The planet Atbiarxe is cursed by deadly civil war.
     inhabitants: Green Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.650146, 0.567162, 0.31452, 1]
   radius: 58156.396484
   orbit:

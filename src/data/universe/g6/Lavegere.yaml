@@ -41,7 +41,7 @@ bodies:
     description: The planet Lavegere is most noted for its inhabitants’ exceptional loathing of sit coms and Lavegereian wolf cutlet.
     inhabitants: Yellow Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.517131, 0.712183, 0.79158, 1]
   radius: 100195.957642
   orbit:

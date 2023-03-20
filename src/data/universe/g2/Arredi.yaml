@@ -41,7 +41,7 @@ bodies:
     description: The planet Arredi is most famous for the Arrediian evil poet and Zero-G hockey.
     inhabitants: Small Black Bony Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.735419, 0.550555, 0.286473, 1]
   radius: 138716.029053
   orbit:

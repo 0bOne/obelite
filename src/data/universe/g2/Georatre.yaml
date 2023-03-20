@@ -41,7 +41,7 @@ bodies:
     description: This world is noted for its unusual sit coms.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.685867, 0.581097, 0.50511, 1]
   radius: 86421.577148
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Dixeso is mildly noted for the Dixesoian mountain lobstoid but beset by deadly solar activity.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.324916, 0.359721, 0.687393, 1]
   radius: 152828.770294
   orbit:

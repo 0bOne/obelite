@@ -41,7 +41,7 @@ bodies:
     description: Rilaan is mildly famous for its hoopy casinos and its great dense forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.639515, 0.809382, 0.819748, 1]
   radius: 177799.453583
   orbit:

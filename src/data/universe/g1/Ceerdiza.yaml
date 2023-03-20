@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for its fabulous vicious Geer brew but ravaged by unpredictable civil war.
     inhabitants: Fierce Green Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.706415, 0.236562, 0.184866, 1]
   radius: 77628.140259
   orbit:

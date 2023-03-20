@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for its exotic fish meat.
     inhabitants: Blue Slimy Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.773328, 0.674207, 0.373182, 1]
   radius: 167718.22464
   orbit:

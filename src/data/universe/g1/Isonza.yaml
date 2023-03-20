@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by deadly earthquakes.
     inhabitants: Harmless Furry Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.59582, 0.69694, 0.803259, 1]
   radius: 175230.534668
   orbit:

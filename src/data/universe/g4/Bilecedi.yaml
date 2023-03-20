@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for its unusual oceans.
     inhabitants: Fierce Harmless Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.770541, 0.700222, 0.578121, 1]
   radius: 137067.23053
   orbit:

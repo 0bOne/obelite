@@ -41,7 +41,7 @@ bodies:
     description: The world Laedat is a dull world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.710663, 0.70263, 0.500436, 1]
   radius: 92313.838959
   orbit:

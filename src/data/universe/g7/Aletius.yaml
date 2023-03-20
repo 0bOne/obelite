@@ -41,7 +41,7 @@ bodies:
     description: The planet Aletius is most noted for its inhabitants’ eccentric love for poetry and its inhabitants’ unusual silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.719055, 0.495883, 0.398497, 1]
   radius: 140522.87674
   orbit:

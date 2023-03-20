@@ -41,7 +41,7 @@ bodies:
     description: The planet Encegequ is most noted for the Encegequian evil talking treeoid and its inhabitants’ ingrained shyness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.698483, 0.527665, 0.40154, 1]
   radius: 88064.494629
   orbit:

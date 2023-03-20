@@ -41,7 +41,7 @@ bodies:
     description: The planet Esisrela is scourged by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.302135, 0.462414, 0.677914, 1]
   radius: 79752.535553
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Anquarle is reasonably notable for its weird tropical forests but scourged by frequent civil war.
     inhabitants: Blue Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.667623, 0.754612, 0.762363, 1]
   radius: 128141.442871
   orbit:

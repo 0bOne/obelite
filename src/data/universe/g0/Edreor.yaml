@@ -41,7 +41,7 @@ bodies:
     description: The world Edreor is reasonably fabled for its fabulous killer Abususlo juice and its ancient Abususlo plant plantations.
     inhabitants: Blue Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.588044, 0.603071, 0.719974, 1]
   radius: 138582.646942
   orbit:

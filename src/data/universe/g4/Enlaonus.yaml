@@ -41,7 +41,7 @@ bodies:
     description: Enlaonus is reasonably well known for the Enlaonusian tree grub but ravaged by occasional solar activity.
     inhabitants: Harmless Fat Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.711423, 0.6891, 0.68826, 1]
   radius: 88272.04422
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: Leedtier is an unremarkable planet.
     inhabitants: Large Yellow Fat Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.701169, 0.624604, 0.399185, 1]
   radius: 94479.293365
   orbit:

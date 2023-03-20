@@ -41,7 +41,7 @@ bodies:
     description: Sotidi is cursed by dreadful civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.381998, 0.704212, 0.720499, 1]
   radius: 133322.95105
   orbit:

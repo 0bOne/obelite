@@ -41,7 +41,7 @@ bodies:
     description: Isatanar is cursed by killer edible talking treeoids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.535581, 0.559453, 0.718799, 1]
   radius: 194238.392334
   orbit:

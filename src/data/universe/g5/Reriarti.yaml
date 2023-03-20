@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its vast oceans but ravaged by killer disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.256921, 0.433462, 0.843185, 1]
   radius: 119320.652161
   orbit:

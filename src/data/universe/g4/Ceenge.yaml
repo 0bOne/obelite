@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for its fabulous cuisine but beset by occasional civil war.
     inhabitants: Fierce Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.56775, 0.63618, 0.719202, 1]
   radius: 124424.390717
   orbit:

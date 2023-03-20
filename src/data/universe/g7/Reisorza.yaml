@@ -41,7 +41,7 @@ bodies:
     description: This planet is mildly noted for the Reisorzaian deadly Loarenusoid but plagued by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.333911, 0.441344, 0.67995, 1]
   radius: 126177.653809
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Edzaraat is scourged by killer edible poets.
     inhabitants: Green Bony Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.744803, 0.685161, 0.322331, 1]
   radius: 107803.376465
   orbit:

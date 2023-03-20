@@ -41,7 +41,7 @@ bodies:
     description: The world Anonrior is reasonably famous for the Anonriorian evil poet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.440151, 0.486868, 0.766669, 1]
   radius: 140170.806885
   orbit:

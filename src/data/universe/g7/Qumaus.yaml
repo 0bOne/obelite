@@ -41,7 +41,7 @@ bodies:
     description: The planet Qumaus is mildly notable for its inhabitants’ ingrained silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.229726, 0.442481, 0.830548, 1]
   radius: 160228.304901
   orbit:

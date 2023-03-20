@@ -41,7 +41,7 @@ bodies:
     description: This planet is fabled for its fabulous cuisine.
     inhabitants: Small Blue Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.685094, 0.689127, 0.705829, 1]
   radius: 122472.520294
   orbit:

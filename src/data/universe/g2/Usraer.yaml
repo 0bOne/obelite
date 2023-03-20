@@ -41,7 +41,7 @@ bodies:
     description: The world Usraer is very noted for its pink oceans but cursed by unpredictable earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.783038, 0.759845, 0.634167, 1]
   radius: 126272.361755
   orbit:

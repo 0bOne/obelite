@@ -41,7 +41,7 @@ bodies:
     description: This world is ravaged by occasional solar activity.
     inhabitants: Yellow Horned Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.807617, 0.407549, 0.364026, 1]
   radius: 163103.599548
   orbit:

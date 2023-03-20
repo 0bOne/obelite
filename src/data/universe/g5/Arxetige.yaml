@@ -41,7 +41,7 @@ bodies:
     description: The world Arxetige is fabled for its exciting lethal Es water and the Arxetigeian spotted shrew.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.578801, 0.707528, 0.810345, 1]
   radius: 136052.005005
   orbit:

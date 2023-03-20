@@ -41,7 +41,7 @@ bodies:
     description: The world Areson is a boring world.
     inhabitants: Small Green Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.663525, 0.721514, 0.747543, 1]
   radius: 149720.265808
   orbit:

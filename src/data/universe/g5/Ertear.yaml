@@ -41,7 +41,7 @@ bodies:
     description: This world is very notable for its inhabitants’ weird silliness and Ertearian Le water.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.654902, 0.678961, 0.698969, 1]
   radius: 86427.775879
   orbit:

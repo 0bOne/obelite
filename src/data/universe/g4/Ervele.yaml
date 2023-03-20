@@ -41,7 +41,7 @@ bodies:
     description: The planet Ervele is famous for its inhabitants’ ancient loathing of casinos but ravaged by unpredictable civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.546478, 0.559739, 0.771707, 1]
   radius: 73220.151215
   orbit:

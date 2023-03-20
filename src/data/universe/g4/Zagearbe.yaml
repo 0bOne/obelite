@@ -41,7 +41,7 @@ bodies:
     description: The world Zagearbe is a dull world.
     inhabitants: Fierce Red Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.650626, 0.684582, 0.685736, 1]
   radius: 95616.19751
   orbit:

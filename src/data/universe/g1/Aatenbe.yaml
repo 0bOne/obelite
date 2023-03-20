@@ -41,7 +41,7 @@ bodies:
     description: This world is most notable for its fabulous vicious Soa’ gargle blasters but scourged by unpredictable earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.203634, 0.312301, 0.747818, 1]
   radius: 215611.238861
   orbit:

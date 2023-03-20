@@ -41,7 +41,7 @@ bodies:
     description: The world Intean is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.328223, 0.604348, 0.776361, 1]
   radius: 138284.898376
   orbit:

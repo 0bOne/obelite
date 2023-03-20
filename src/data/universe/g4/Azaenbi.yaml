@@ -41,7 +41,7 @@ bodies:
     description: This planet is beset by lethal disease.
     inhabitants: Slimy Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.240853, 0.416519, 0.755981, 1]
   radius: 182072.512207
   orbit:

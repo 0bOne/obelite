@@ -41,7 +41,7 @@ bodies:
     description: The world Tiso is beset by lethal disease.
     inhabitants: Large Harmless Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.812808, 0.789995, 0.525065, 1]
   radius: 57490.087891
   orbit:

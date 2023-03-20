@@ -41,7 +41,7 @@ bodies:
     description: The world Erxebe is reasonably fabled for its exciting sit coms and its inhabitants’ exceptional loathing of food blenders.
     inhabitants: Black Furry Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.750778, 0.412129, 0.294905, 1]
   radius: 77790.906372
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The world Lainusar is reasonably fabled for Zero-G cricket and its fabulous cuisine.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.701147, 0.620692, 0.327566, 1]
   radius: 99546.009827
   orbit:

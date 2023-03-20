@@ -41,7 +41,7 @@ bodies:
     description: The world Teinxear is beset by evil disease.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.84433, 0.56009, 0.233258, 1]
   radius: 183478.836823
   orbit:

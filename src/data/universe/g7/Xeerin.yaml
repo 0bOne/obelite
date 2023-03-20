@@ -41,7 +41,7 @@ bodies:
     description: The planet Xeerin is an unremarkable dump.
     inhabitants: Large Harmless Horned Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.245934, 0.747311, 0.784729, 1]
   radius: 61344.551392
   orbit:

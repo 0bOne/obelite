@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for Onusorleian vicious brew and Onusorleian wolf cutlet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.740866, 0.280492, 0.198689, 1]
   radius: 218254.498444
   orbit:

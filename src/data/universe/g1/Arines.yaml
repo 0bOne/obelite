@@ -41,7 +41,7 @@ bodies:
     description: The world Arines is a dull world.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.566237, 0.581055, 0.666321, 1]
   radius: 115855.787659
   orbit:

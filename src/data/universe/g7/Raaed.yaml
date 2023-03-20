@@ -41,7 +41,7 @@ bodies:
     description: The planet Raaed is most famous for the Raaedian deadly goat and its vast rain forests.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.284652, 0.301963, 0.675769, 1]
   radius: 111238.772583
   orbit:

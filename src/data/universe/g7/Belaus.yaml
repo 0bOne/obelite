@@ -41,7 +41,7 @@ bodies:
     description: Belaus is reasonably well known for the Belausian tree ant but ravaged by dreadful civil war.
     inhabitants: Blue Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.741437, 0.733196, 0.727114, 1]
   radius: 107755.176392
   orbit:

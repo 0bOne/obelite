@@ -41,7 +41,7 @@ bodies:
     description: This planet is very well known for Rabeaian vicious water and the Rabeaian spotted cat.
     inhabitants: Green Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.739435, 0.541432, 0.51039, 1]
   radius: 85438.023682
   orbit:

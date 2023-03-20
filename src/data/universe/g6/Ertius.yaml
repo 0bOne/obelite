@@ -41,7 +41,7 @@ bodies:
     description: This world is reasonably well known for its great dense forests but scourged by frequent civil war.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.698047, 0.456434, 0.373186, 1]
   radius: 56943.260651
   orbit:

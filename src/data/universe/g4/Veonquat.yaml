@@ -41,7 +41,7 @@ bodies:
     description: Veonquat is reasonably notable for its great volcanoes but plagued by lethal spotted yaks.
     inhabitants: Black Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.830707, 0.291116, 0.226899, 1]
   radius: 132911.436157
   orbit:

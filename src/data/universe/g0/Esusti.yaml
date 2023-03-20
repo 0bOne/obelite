@@ -41,7 +41,7 @@ bodies:
     description: This world is very well known for its inhabitants’ ancient loathing of discos and the Esustiian spotted cat.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.693704, 0.690963, 0.471902, 1]
   radius: 159507.293701
   orbit:

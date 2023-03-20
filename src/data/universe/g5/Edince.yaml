@@ -41,7 +41,7 @@ bodies:
     description: Edince is very notable for its inhabitants’ ingrained silliness.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.776413, 0.665203, 0.635545, 1]
   radius: 146025.811005
   orbit:

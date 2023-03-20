@@ -41,7 +41,7 @@ bodies:
     description: The world Sobeteve is beset by dreadful earthquakes.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.757483, 0.656522, 0.574331, 1]
   radius: 103145.50415
   orbit:

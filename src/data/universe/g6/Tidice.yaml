@@ -41,7 +41,7 @@ bodies:
     description: The planet Tidice is very famous for its unusual casinos but beset by dreadful earthquakes.
     inhabitants: Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.701288, 0.703353, 0.708136, 1]
   radius: 97078.857422
   orbit:

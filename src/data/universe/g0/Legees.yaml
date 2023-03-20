@@ -41,7 +41,7 @@ bodies:
     description: This planet is most notable for its exotic night life but ravaged by frequent earthquakes.
     inhabitants: Large Bug-Eyed Lizards
 - type: star
-  type: primary
+  name: primary
   color: [0.733419, 0.752607, 0.779276, 1]
   radius: 69113.311768
   orbit:

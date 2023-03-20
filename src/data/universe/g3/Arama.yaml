@@ -41,7 +41,7 @@ bodies:
     description: The planet Arama is famous for its inhabitants’ ancient loathing of discos but ravaged by lethal spotted craboids.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.593595, 0.646464, 0.721634, 1]
   radius: 118004.789429
   orbit:

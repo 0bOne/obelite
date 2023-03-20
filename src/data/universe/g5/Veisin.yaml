@@ -41,7 +41,7 @@ bodies:
     description: The planet Veisin is a boring planet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.82305, 0.621392, 0.61276, 1]
   radius: 122611.256104
   orbit:

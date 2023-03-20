@@ -41,7 +41,7 @@ bodies:
     description: The world Diriledi is scourged by evil disease.
     inhabitants: Black Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.782492, 0.572226, 0.507442, 1]
   radius: 151910.921021
   orbit:

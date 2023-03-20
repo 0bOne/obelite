@@ -41,7 +41,7 @@ bodies:
     description: This planet is plagued by frequent solar activity.
     inhabitants: Furry Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.826306, 0.711908, 0.558777, 1]
   radius: 104378.128052
   orbit:

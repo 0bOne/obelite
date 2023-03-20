@@ -41,7 +41,7 @@ bodies:
     description: This planet is a dull place.
     inhabitants: Fierce Black Horned Humanoids
 - type: star
-  type: primary
+  name: primary
   color: [0.218438, 0.490897, 0.672177, 1]
   radius: 120419.567871
   orbit:

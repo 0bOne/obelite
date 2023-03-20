@@ -41,7 +41,7 @@ bodies:
     description: This world is very fabled for the Gesoedian edible poet.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.303622, 0.440307, 0.8017, 1]
   radius: 76637.263641
   orbit:

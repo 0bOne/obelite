@@ -41,7 +41,7 @@ bodies:
     description: Maatis is mildly well known for its hoopy casinos and its vast oceans.
     inhabitants: Small Red Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.636128, 0.726996, 0.751886, 1]
   radius: 166064.891357
   orbit:

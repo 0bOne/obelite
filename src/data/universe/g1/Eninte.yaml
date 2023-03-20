@@ -41,7 +41,7 @@ bodies:
     description: This world is mildly well known for its exotic cuisine and its inhabitants’ ingrained silliness.
     inhabitants: Black Bug-Eyed Lobsters
 - type: star
-  type: primary
+  name: primary
   color: [0.259167, 0.466427, 0.669272, 1]
   radius: 65981.723175
   orbit:

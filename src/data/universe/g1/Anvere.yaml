@@ -41,7 +41,7 @@ bodies:
     description: This planet is reasonably noted for its fabulous goat soup.
     inhabitants: Yellow Fat Insects
 - type: star
-  type: primary
+  name: primary
   color: [0.632743, 0.640338, 0.698914, 1]
   radius: 191512.140045
   orbit:

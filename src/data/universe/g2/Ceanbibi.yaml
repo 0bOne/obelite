@@ -41,7 +41,7 @@ bodies:
     description: The world Ceanbibi is reasonably noted for its exotic goat soup.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.386049, 0.534956, 0.698743, 1]
   radius: 98875.667572
   orbit:

@@ -41,7 +41,7 @@ bodies:
     description: The planet Rear is scourged by evil disease.
     inhabitants: Large Red Bug-Eyed Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.671713, 0.452228, 0.351667, 1]
   radius: 81380.10025
   orbit:

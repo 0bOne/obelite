@@ -41,7 +41,7 @@ bodies:
     description: This planet is noted for Zero-G hockey.
     inhabitants: Yellow Bug-Eyed Birds
 - type: star
-  type: primary
+  name: primary
   color: [0.440895, 0.606155, 0.765173, 1]
   radius: 121545.856171
   orbit:

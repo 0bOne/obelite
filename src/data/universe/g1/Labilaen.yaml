@@ -41,7 +41,7 @@ bodies:
     description: The world Labilaen is mildly noted for its ancient mountains but ravaged by unpredictable solar activity.
     inhabitants: Green Slimy Frogs
 - type: star
-  type: primary
+  name: primary
   color: [0.205599, 0.43636, 0.708719, 1]
   radius: 78166.538086
   orbit:

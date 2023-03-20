@@ -41,7 +41,7 @@ bodies:
     description: The world Atlain is a dull place.
     inhabitants: Human Colonials
 - type: star
-  type: primary
+  name: primary
   color: [0.812598, 0.557161, 0.287923, 1]
   radius: 70845.386505
   orbit:

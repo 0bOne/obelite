@@ -41,7 +41,7 @@ bodies:
     description: The planet Qumaza is scourged by deadly edible moths.
     inhabitants: Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.217066, 0.593993, 0.657104, 1]
   radius: 105808.326416
   orbit:

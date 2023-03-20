@@ -41,7 +41,7 @@ bodies:
     description: The planet Anxebiza is an unremarkable dump.
     inhabitants: Furry Rodents
 - type: star
-  type: primary
+  name: primary
   color: [0.684564, 0.409583, 0.289085, 1]
   radius: 119332.536621
   orbit:

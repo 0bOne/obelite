@@ -41,7 +41,7 @@ bodies:
     description: This world is a tedious place.
     inhabitants: Fierce Bony Felines
 - type: star
-  type: primary
+  name: primary
   color: [0.544993, 0.571867, 0.742203, 1]
   radius: 139099.649658
   orbit:
