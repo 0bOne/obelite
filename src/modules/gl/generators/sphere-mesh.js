@@ -1,6 +1,6 @@
 export default class SphereMeshGenerator
 {
-    constructor(radius=1, sectors=36, stacks=18, smooth=true)
+    constructor(radius=1, sectors=36, stacks=18, smooth = true)
     {
         this.radius = 1;
         this.sectorCount = 36;

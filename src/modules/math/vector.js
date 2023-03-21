@@ -40,6 +40,11 @@ export default class Vector extends Float32Array
         return this.divideScalar( this.length() || 1 );
     }
 
+    clone()
+    {
+        return new Vector(this);
+    }
+
     AsCSSColor()
     {
         let rgb = "#" + this.toHexColor(this[0])
@@ -55,6 +60,16 @@ export default class Vector extends Float32Array
     toHexColor(fraction)
     {
         return Math.floor(fraction * 256).toString(16).padStart(2, "0");
+    }
+
+    blend(otherColor, fraction)
+    {
+        const result = this.clone();
+        result[0] = Math.lerp(result[0], otherColor[0], fraction);
+        result[1] = Math.lerp(result[1], otherColor[1], fraction);
+        result[2] = Math.lerp(result[2], otherColor[2], fraction);
+    
+        return result;
     }
 
 }
