@@ -8,3 +8,17 @@ Math.hermite = function(q)
 {
 	return 3.0 * q * q - 2.0 * q * q * q;
 }
+
+Math.fract = function(value)
+{
+    return value - Math.floor(value);
+}
+
+Math.clamp = function(value, min, max)
+{
+    value = (value < min) ? min: value;
+    value = (value > max) ? max: value;
+    return value;
+}
+
+Math.TWO_PI = Math.PI * 2;

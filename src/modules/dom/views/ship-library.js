@@ -98,8 +98,9 @@ export default class ShipLibrary extends ViewBase
         const itemIndex = this.itemMenu.value;
         const itemData = groupData.items[itemIndex];
 
-        if (this.gameCtx.demoModel === undefined
-            || this.gameCtx.demoModel.name !== itemData.model) 
+        const existingModel = (this.gameCtx.demoModel) ? this.gameCtx.demoModel.name: "";
+
+        if (existingModel !== itemData.model) 
         {
             await this.loadNewModel(itemData.model, itemData);
         }

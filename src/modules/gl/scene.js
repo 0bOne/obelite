@@ -14,6 +14,7 @@ export default class Scene
 
     constructor(gameCtx) 
     {
+        this.frameNumber = 0;
         this.gl = gameCtx.gl;
         this.gameCtx = gameCtx;
         this.models = [];
@@ -40,10 +41,18 @@ export default class Scene
 
     Draw() 
     {
+        this.gl.clear(this.gl.COLOR_BUFFER_BIT | this.gl.DEPTH_BUFFER_BIT);
+        this.frameNumber++;
+        //const startTime = performance.now();
         //console.log("model count is " + this.models.length);
         this.models.forEach(model => {
             this.drawModel(model);
         })
+        // if (this.frameNumber < 10)
+        // {
+        //     const endTime = performance.now();
+        //     console.log('scene time', endTime - startTime);
+        // }
     }
 
     drawModel(model)
@@ -54,9 +63,11 @@ export default class Scene
         this.viewMatrix.setTranslation(model.worldPosition);
 
         //debugger;
+
         if (isFinite(model.Rotation)) 
         {
-            const axesRatio = (model.dimensions === 3) ? {x: 0.3, y: 0.7, z: 1} :{x: 0, y: 0, z: 1};
+            let axesRatio = (model.dimensions === 3) ? {x: 0.3, y: 0.7, z: 1} :{x: 0, y: 0, z: 1};
+            axesRatio = model.rotationRatio || axesRatio;
             this.viewMatrix.setRotation(model.rotation, axesRatio);
         }
 

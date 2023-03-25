@@ -3,10 +3,10 @@ const ALLOWED_NAMES = ["uniform", "attribute"];
 
 export default class Loader
 {
-    constructor(gameCtx)
+    constructor(gl, dataPath)
     {
-        this.gl = gameCtx.gl;
-        this.shadersFolder = gameCtx.dataPath + "/shaders";
+        this.gl = gl;
+        this.shadersFolder = dataPath + "/shaders";
     }
 
     async LoadSources(name, options = {vertex: true, fragment: true})

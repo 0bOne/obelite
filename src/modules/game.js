@@ -3,7 +3,6 @@ import DomHelper from "./dom/utilities/dom-helper.js";
 
 import ShaderCache from "./gl/shader-cache.js";
 import Scene from "./gl/scene.js";
-import Rotator from "./logic/animators/rotator.js";
 import AnimationManager from "./logic/animation-manager.js";
 
 
@@ -35,12 +34,14 @@ export default class Game
         }
 
         this.gameCtx.canvas = DomHelper.AppendElement(document.body, Elements.Canvas);
-        this.gameCtx.shaderCache = new ShaderCache(this.gameCtx);
 
         this.gameCtx.canvas.width = document.body.clientWidth;
         this.gameCtx.canvas.height = document.body.clientHeight;
 
         this.gameCtx.gl = this.gameCtx.canvas.getContext("webgl2");
+
+        this.gameCtx.shaderCache = new ShaderCache(this.gameCtx.gl, this.gameCtx.dataPath);
+
         this.gameCtx.gl.clearColor(0.0, 0.0, 0.0, 1.0);
         this.gameCtx.gl.clear(this.gameCtx.gl.COLOR_BUFFER_BIT);
 
@@ -58,10 +59,10 @@ export default class Game
         this.gameCtx.animationManager = new AnimationManager(this.gameCtx, this.viewController);
         this.gameCtx.animationManager.start();
 
-        //this.viewController.ChangeView("Welcome");
+        this.viewController.ChangeView("Welcome");
         //this.viewController.ChangeView("ShipLibrary");
         //this.viewController.ChangeView("GalacticChart");
-        this.viewController.ChangeView("System");
+        //this.viewController.ChangeView("SystemSummmary");
     
         console.log("game initialization time: ", new Date().getTime() - window.$started, "milliseconds");
     }
@@ -114,5 +115,6 @@ const DefaultPlayerContext = {
     galaxy: 0,
     visiting: "Lave",
     selected: "Lave",
+    selectedDistance: 0.0,
     fuel: 7.0    
 };

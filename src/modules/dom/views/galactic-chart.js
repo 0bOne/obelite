@@ -29,7 +29,7 @@ const CURSOR_MOVE_RATE = 10;  //cursor movement pixels per second (when zoomed i
 
 
 const ARROW_KEYS = ["ArrowRight", "ArrowLeft", "ArrowUp", "ArrowDown"];
-const DEFAULT_HELP = "To zoom in and out use '6' (not F6). Click or use arrows to select a different system";
+const DEFAULT_HELP = "To zoom in and out use '6' (not F6). Click or use arrows to select a different system. 'i' shows system summary";
 
 export default class GalacticChart extends ViewBase 
 {
@@ -346,6 +346,7 @@ export default class GalacticChart extends ViewBase
                 //distance = Math.round(distance * 100) / 100;
                 console.log(name, distance.toFixed(1));
             }
+            this.gameCtx.playerCtx.selectedDistance = distance;
         }
     }
 
@@ -376,6 +377,11 @@ export default class GalacticChart extends ViewBase
         {
             this.changeCursorVelocity(event);
             event.preventDefault();
+        }
+        else if (event.key === "i" && event.type === "keydown")
+        {
+            const detail = {to: "SystemSummmary"};
+            document.body.dispatchEvent(new CustomEvent("changeView", { detail: detail}));
         }
 
     }
@@ -472,6 +478,8 @@ export default class GalacticChart extends ViewBase
             distanceMessage = "Distance: " + lyDistance.toFixed(1) + " Light Years";
         }
         this.rightInfo.textContent = distanceMessage;
+        this.gameCtx.playerCtx.selected = this.selectedSystem.name;
+        this.gameCtx.playerCtx.selectedDistance = lyDistance;
     }
 };
 
@@ -542,6 +550,12 @@ const Elements = {
 }
 
 const MenuMain = [
+    {   
+        caption: "Data on System",
+        event: "changeView",
+        detail: {to: "SystemSummmary"},
+        help: "Show system summary"
+    },
     {
         caption: "Go Back",
         event: "changeView",

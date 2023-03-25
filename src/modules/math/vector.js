@@ -68,6 +68,10 @@ export default class Vector extends Float32Array
         result[0] = Math.lerp(result[0], otherColor[0], fraction);
         result[1] = Math.lerp(result[1], otherColor[1], fraction);
         result[2] = Math.lerp(result[2], otherColor[2], fraction);
+        if (result[3])
+        {
+            result[3] = Math.lerp(result[3], otherColor[3], fraction);
+        }
     
         return result;
     }

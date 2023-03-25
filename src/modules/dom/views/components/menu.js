@@ -65,7 +65,6 @@ export default class Menu
 
     onKeyPress(menuItem, event)
     {
-        event.preventDefault();
         let indexChange = 0;
 
         if (event.key === "ArrowDown")
@@ -102,6 +101,7 @@ export default class Menu
 
     onClicked(menuItem, event)
     {
+        event.preventDefault();
         document.body.dispatchEvent(new CustomEvent(menuItem.event, { detail: menuItem.detail}));
     }
 }

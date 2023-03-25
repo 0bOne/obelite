@@ -46,6 +46,7 @@ export default class ViewBase
 
     SetDemoModel(model)
     {
+        this.clearScene();
         if (model)
         {        
             this.gameCtx.demoModel = model;
@@ -86,6 +87,7 @@ export default class ViewBase
 
     Destroy()
     {
+        this.clearScene();
         DomHelper.EraseChildren(this.gameCtx.content);
     }
 }

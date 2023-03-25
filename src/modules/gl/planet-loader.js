@@ -9,17 +9,6 @@ import STsAttribute from "./attributes/sts-ttribute.js";
 import PlanetTextureGenerator from "./generators/planet-texture.js";
 import SphereMeshGenerator from "./generators/sphere-mesh.js";
 
-const DEFAULT_SPHERE = {
-    radius: 1, 
-    widthSegments: 32, 
-    heightSegments: 16, 
-    phiStart: 0, 
-    phiLength: Math.PI * 2, 
-    thetaStart: 0, 
-    thetaLength: Math.PI,
-    fatness: 1.0 
-};
-
 export default class PlanetLoader
 {
     constructor(gameCtx)
@@ -37,7 +26,7 @@ export default class PlanetLoader
         const planetInfo = this.findBody(systemData.bodies, "planet", this.gameCtx.playerCtx.selected);
         planetInfo.seed = systemData.seed;
         
-        const mesh = new SphereMeshGenerator(1.0, 36 * 2, 18 * 2, false);
+        const mesh = new SphereMeshGenerator(1.0, 36 * 2, 18 * 2, true);
         console.log("Triangle Count", mesh.getTriangleCount());
         console.log("Index Count", mesh.getIndexCount());
         console.log("Vertex Count", mesh.getVertexCount());
@@ -75,12 +64,14 @@ export default class PlanetLoader
     {
         const model = {
             name: planetInfo.name,
+            info: planetInfo,
             limits: [],
             dimensions: 3,
             shader: await this.gameCtx.shaderCache.Get("game/planetmesh"),
             attributes: [],
             textures: [],
             uniforms: [],
+            rotationRatio: {x: 0.2, y: 0.2, z: 0.2},
             hasIndices: false,
             hasSTs: false,
             worldPosition: {x: 0.0, y: 0.0, z: -3.5},
@@ -116,7 +107,7 @@ export default class PlanetLoader
         }
 
         planetInfo.width = 512;
-        const ptg = new PlanetTextureGenerator(this.gl, planetInfo);
+        const ptg = new PlanetTextureGenerator(this.gameCtx, planetInfo);
         const textureA = await ptg.Create(planetInfo);
 
         const textureB = new Texture(this.gl);

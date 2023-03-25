@@ -22,7 +22,8 @@ export default class ViewController
 
     async onViewSwitch(event)
     {
-        await this.ChangeView(event.detail.to);
+        setTimeout(this.ChangeView.bind(this, event.detail.to), 50);
+        //await this.ChangeView(event.detail.to);
     }
 
     async onKey(event)
