@@ -16,14 +16,15 @@ export default class SystemView extends ViewBase {
         //TODO: move leftside, statistic, blurb, etc, into base class to be shared ship lib view
         this.leftSide = DomHelper.AppendElement(this.area, Elements.LeftSide);
 
-        this.economy = DomHelper.AppendElement(this.leftSide, Elements.Statistic, "econ");
-        this.techLevel = DomHelper.AppendElement(this.leftSide, Elements.Statistic, "tech level");
-        this.population = DomHelper.AppendElement(this.leftSide, Elements.Statistic, "population");
-        this.productivity = DomHelper.AppendElement(this.leftSide, Elements.Statistic, "productivity");
-        this.radius = DomHelper.AppendElement(this.leftSide, Elements.Statistic, "radius");
-        this.distance = DomHelper.AppendElement(this.leftSide, Elements.Statistic, "distance");
+        this.government = DomHelper.AppendElement(this.leftSide, Elements.Statistic);
+        this.economy = DomHelper.AppendElement(this.leftSide, Elements.Statistic);
+        this.techLevel = DomHelper.AppendElement(this.leftSide, Elements.Statistic);
+        this.population = DomHelper.AppendElement(this.leftSide, Elements.Statistic);
+        this.productivity = DomHelper.AppendElement(this.leftSide, Elements.Statistic);
+        this.radius = DomHelper.AppendElement(this.leftSide, Elements.Statistic);
+        this.distance = DomHelper.AppendElement(this.leftSide, Elements.Statistic);
         
-        this.blurb = DomHelper.AppendElement(this.panel, Elements.Blurb, "blurb here");
+        this.blurb = DomHelper.AppendElement(this.panel, Elements.Blurb);
 
         this.AddMenu(MenuItems);
         this.addPlanet();
@@ -39,7 +40,8 @@ export default class SystemView extends ViewBase {
 
         this.SetDemoModel(model);
 
-        this.economy.textContent = "Economy: " + model.info.demographics.economy;
+        this.government.textContent = "Government: " + governments[model.info.demographics.government];
+        this.economy.textContent = "Economy: " + economies[model.info.demographics.economy];
         this.techLevel.textContent = "Tech Level: " + model.info.demographics.tech;
         this.population.textContent = "Population: " + (parseInt(model.info.demographics.type) / 10) 
                                         + " billion (" + model.info.demographics.inhabitants + ")";
@@ -54,6 +56,28 @@ export default class SystemView extends ViewBase {
         this.blurb.textContent = model.info.demographics.description;
     }
 }
+
+const economies = [
+    "Rich Industrial",
+    "Average Rich Industrial",
+    "Poor Rich Industrial",
+    "Mainly Rich Industrial",
+    "Mainly Agricultural",
+    "Rich Agricultural",
+    "Average Agricultural",
+    "Poor Agricultural"
+];
+
+const governments = [
+    "Anarchy",
+    "Feudal",
+    "Multi-government",
+    "Dictatorship",
+    "Communist",
+    "Confederacy",
+    "Democracy",
+    "Corporate State"
+];
 
 const MenuItems = [
     {
