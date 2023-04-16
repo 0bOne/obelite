@@ -6,8 +6,7 @@ export default class NewCommander extends ViewBase
     {
         super(gameContext, viewId);
  
-        this.AddPanel();
-        this.AddTitle("New Commander");
+        this.AddPanel("New Commander");
         this.AddInfo(["(new commander view coming soon)"]);
         this.AddMenu(MenuItems);
     }

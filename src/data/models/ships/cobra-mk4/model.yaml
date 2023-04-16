@@ -1,0 +1,35 @@
+id: ships.cobra.mk4
+description: mk 4 cobra
+material: default
+shader: basics/color-lit
+wirerame: true
+materials:
+  default: 
+    color: [1, 0, 0]
+  blue: 
+    color: [0, 0, 1]
+sections:
+- name: transom
+  scale: [1.0, 0.2]           # x and y scaling after plotting on circle
+  preview: false              # preview on face canvas. defaults to false
+  dz: 0                       # distance from previous section. defaults to 0.2 (always 0 for section 0)
+  points: 7                   # points to plot. defaults to 6
+  angles: [1]                 # point angles are scaled by this amount to offset them. defaults to [1]
+                              # each point uses next array element, wrapping to first element as needed
+  edges: ~                    # if next section has differing point count, this maps odd points by + or - index values
+                                # if not present, searest point by x,y will be used
+  materials: ~                  # an array of material IDs that is applies to each point's polygon in turn, wrapped
+                                # if not present, default material will be used
+- name: rib1
+  preview: true               # preview on face canvas. defaults to false
+  scale: [0.8, 0.1]           
+  dz: 0.2                     
+  points: 7                   
+  angles: [1]                 
+  materials: [blue]
+- name: rib2
+  scale: [0.5, 0.15]           
+  dz: 0.4                     
+  points: 7                   
+  angles: [1]                 
+  materials: [blue]

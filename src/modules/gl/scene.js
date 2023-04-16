@@ -106,19 +106,22 @@ export default class Scene
         });
 
         const offset = 0;
+        let DRAW_MODE = model.GL_DRAW_MODE || this.gl.TRIANGLES;
+
+
         if (model.hasIndices === true) 
         {
             //shape has indices (therefore faces) so draw as triangles
-            this.gl.drawElements(this.gl.TRIANGLES, model.vertices, this.gl.UNSIGNED_SHORT, offset);
+            this.gl.drawElements(DRAW_MODE, model.vertices, this.gl.UNSIGNED_SHORT, offset);
         }
         else if (model.hasSTs === true) 
         {
-            this.gl.drawArrays(this.gl.TRIANGLES, offset, model.vertices);
+            this.gl.drawArrays(DRAW_MODE, offset, model.vertices);
         }
-        else 
+        else
         {
             //no indices, so draw triangle strip
-            this.gl.drawArrays(this.gl.TRIANGLE_STRIP, offset, model.vertices);
+            this.gl.drawArrays(DRAW_MODE, offset, model.vertices);
         }
     }
 

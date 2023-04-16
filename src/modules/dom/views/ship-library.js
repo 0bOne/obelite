@@ -17,8 +17,7 @@ export default class ShipLibrary extends ViewBase
         this.statisticsFields = [];
         this.statisticsExpander = new StatisticsExpander();
 
-        this.AddPanel();
-        this.AddTitle("Ship Library");
+        this.AddPanel("Ship Library");
 
         this.area = DomHelper.AppendElement(this.panel, Elements.LibraryArea);
 

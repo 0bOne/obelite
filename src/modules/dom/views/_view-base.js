@@ -1,4 +1,3 @@
-import DomHelper from "../utilities/dom-helper.js";
 import Menu from "./components/menu.js";
 import Rotator from "../../logic/animators/rotator.js";
 
@@ -11,24 +10,19 @@ export default class ViewBase
     constructor(gameCtx, viewId)
     {
         this.gameCtx = gameCtx;
-        DomHelper.EraseChildren(this.gameCtx.content);
-        this.gameCtx.content.id = "view-" + viewId;
+        this.gameCtx.content.ClearChildren();
+        this.gameCtx.content.setAttribute("name", "view-" + viewId);
     }
 
-    AddPanel()
+    AddPanel(title)
     {
-        this.panel = DomHelper.AppendElement(this.gameCtx.content, Elements.NarrowPane);
-    }
-
-    AddTitle(titleText)
-    {
-        this.title = DomHelper.AppendElement(this.panel, Elements.Title, titleText);
-        this.AddUnderline();
+        this.panel = this.gameCtx.content.AddChild(Components.NarrowPane);
+        this.panel.namedElements.title.textContent = title;
     }
 
     AddUnderline()
     {
-        DomHelper.AppendElement(this.panel, Elements.TitleUnderline);
+        this.panel.AddChild(Elements.Underline);
     }
 
     AddMenu(menuItems, defaultHelp)
@@ -38,9 +32,10 @@ export default class ViewBase
 
     AddInfo(lines)
     {
-        const info = DomHelper.AppendElement(this.panel, Elements.Info);
+        const info = this.panel.AddChild(Elements.Info);
         lines.forEach(line => {
-            const element = DomHelper.AppendElement(info, {tag: "div"}, line);
+            const element = info.AddChild({tag: "xt-div"});
+            element.textContent = line;
         });
     }
 
@@ -68,9 +63,10 @@ export default class ViewBase
 
     AddNotes(lines)
     {
-        const notes = DomHelper.AppendElement(this.panel, Elements.Notes);
+        const notes = this.panel.AddChild(Elements.Notes);
         lines.forEach(line => {
-            const element = DomHelper.AppendElement(notes, Elements.Note, line);
+            const element = notes.AddChild(Elements.Note);
+            element.textContent = line;
         });
     }
 
@@ -88,25 +84,11 @@ export default class ViewBase
     Destroy()
     {
         this.clearScene();
-        DomHelper.EraseChildren(this.gameCtx.content);
+        this.gameCtx.content.ClearChildren();
     }
-}
+};
 
 const Styles = {
-    NarrowPane: {
-        backgroundColor: "transparent",
-        minWidth: "800px",
-        maxWidth: "800px",
-        height: "100%"
-    },
-    Title: {
-        //TODO: break colors out into variables so they can be theme-driven
-        color: "red"
-    },
-    TitleUnderLine: {
-        border: "2px solid gray",
-        width: "100%"
-    },
     Info: {
         flexGrow: 1,
         justifyContent: "space-evenly",
@@ -120,40 +102,55 @@ const Styles = {
         opacity: 0.8,
     },
     Note: {
+        display: "block",
         textAlign: "left",
         paddingLeft: "24px"
     }
 };
 
 const Elements = {
-    NarrowPane: {
-        id: "narrow-panel",
-        tag: "div",
-        styles: Styles.NarrowPane,
-        classes: "flex-down"
-    },
-    Title: {
-        tag: "div",
-        text: "",
-        classes: "bold",
-        styles: Styles.Title
-    },
-    TitleUnderline: {
-        tag: "hr",
-        styles: Styles.TitleUnderLine
+    Underline: {
+        name: "underline",
+        styles: {
+            border: "2px solid gray",
+            width: "100%"
+        }
     },
     Info: {
-        tag: "div",
-        classes: "info flex-down",
+        tag: "xt-flex", options: {across: false},
+        classes: "info noflex-down",
         styles: Styles.Info
     },
     Notes: {
-        tag: "div",
         classes: "notes",
         styles: Styles.Notes
     },
     Note: {
-        tag: "div",
         styles: Styles.Note
+    }
+}
+
+const Components = {
+    NarrowPane: {
+        name: "narrow-panel",
+        tag: "xt-flex",
+        styles: {
+            backgroundColor: "transparent",
+            minWidth: "800px",
+            maxWidth: "800px",
+            height: "100%"
+        },
+        options: {
+            across: false
+        },
+        elements: [{
+            name: "title",
+            classes: "bold",
+            aria: {role: "heading", level: 1},
+            styles : {
+                color: "--title-color"
+            }
+        },  
+        Elements.Underline]
     }
 };

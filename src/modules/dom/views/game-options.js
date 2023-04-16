@@ -6,8 +6,7 @@ export default class GameOptions extends ViewBase
     {
         super(gameContext, viewId);
  
-        this.AddPanel();
-        this.AddTitle("Game Options");
+        this.AddPanel("Game Options");
         this.AddInfo(["(game options view coming soon)"]);
         this.AddMenu(MenuItems);
     }

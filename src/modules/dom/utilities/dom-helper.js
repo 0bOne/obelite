@@ -3,6 +3,14 @@ const widthStyles = ["margin-left","margin-right", "border-left","border-right",
 
 export default class DomHelper 
 {
+	static AddCustomElement(target, definition)
+	{
+		const element = document.createElement(definition.tag);
+        target.appendChild(element);
+        element.ChangeDefinition(definition);
+		return element;
+	}
+
 	static AppendElements(target, definitions)
 	{
 		for (let d = 0; d < definitions.length; d++)

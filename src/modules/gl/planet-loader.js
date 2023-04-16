@@ -1,5 +1,4 @@
 import jsYaml from "../dom/utilities/js-yaml.js";
-import Vector from "../math/vector.js";
 import VerticesAttribute from "./attributes/vertices-attribute.js";
 import ColorsAttribute from "./attributes/colors-attribute.js";
 import IndicesAttribute from "./attributes/indices-attribute.js";
@@ -17,14 +16,19 @@ export default class PlanetLoader
         this.gl = this.gameCtx.gl;
     }
 
-    async Load(galaxy, planetName)
-    {   
-        const galaxyFolder = this.gameCtx.dataPath + "/universe/g" + this.gameCtx.playerCtx.galaxy;
-        const systemFile = galaxyFolder + "/" + this.gameCtx.playerCtx.selected + ".yaml";
+    async LoadInfo(galaxy, planetName)
+    {
+        const galaxyFolder = this.gameCtx.dataPath + "/universe/g" + galaxy;
+        const systemFile = galaxyFolder + "/" + planetName + ".yaml";
         const systemData = await jsYaml.fetch(systemFile);
-
         const planetInfo = this.findBody(systemData.bodies, "planet", this.gameCtx.playerCtx.selected);
         planetInfo.seed = systemData.seed;
+        return planetInfo;
+    }
+
+    async Load(galaxy, planetName)
+    {   
+        const planetInfo = await this.LoadInfo(galaxy, planetName);
         
         const mesh = new SphereMeshGenerator(1.0, 36 * 2, 18 * 2, true);
         console.log("Triangle Count", mesh.getTriangleCount());

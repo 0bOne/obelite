@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Space Game</title>
 		<style>
 			body {
@@ -11,12 +12,14 @@
 		<script type="text/javascript">
 			window.$started = new Date().getTime();
 		</script>
-		<script src="./config.js"></script>
+		<script type="module" src="./modules/dom/custom-elements/registrar.js"></script>
 		<script src="scripts/min/seedrandom.js"></script>
 		<script src="scripts/math-extensions.js"></script>
 		<script type="module" src="./modules/main.js"></script>		
 		<link rel="stylesheet" href="./css/main.css">
 		</link>
 	</head>
-	<body class="flex-across"></body>
+	<body>
+	</body>
+	
 </html>

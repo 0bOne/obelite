@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\tools\\elite-generator.js"
+            "program": "${workspaceFolder}\\tools\\experiments\\generator2.js"
         }
     ]
 }

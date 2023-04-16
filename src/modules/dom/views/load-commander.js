@@ -6,8 +6,7 @@ export default class LoadCommander extends ViewBase
     {
         super(gameContext, viewId);
  
-        this.AddPanel();
-        this.AddTitle("Load Commander");
+        this.AddPanel("Load Commander");
         this.AddInfo(["(load commander view coming soon)"]);
         this.AddMenu(MenuItems);
     }

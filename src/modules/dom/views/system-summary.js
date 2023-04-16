@@ -5,26 +5,15 @@ import PlanetLoader from "../../gl/planet-loader.js";
 const CANVAS_DIMENSION = 400;
 
 export default class SystemView extends ViewBase {
+
     constructor(gameCtx, viewId) {
         super(gameCtx, viewId);
 
-        this.AddPanel();
-        this.AddTitle("Data on " + this.gameCtx.playerCtx.selected);
+        this.AddPanel("Data on " + this.gameCtx.playerCtx.selected);
 
-        this.area = DomHelper.AppendElement(this.panel, Elements.LibraryArea);
-
-        //TODO: move leftside, statistic, blurb, etc, into base class to be shared ship lib view
-        this.leftSide = DomHelper.AppendElement(this.area, Elements.LeftSide);
-
-        this.government = DomHelper.AppendElement(this.leftSide, Elements.Statistic);
-        this.economy = DomHelper.AppendElement(this.leftSide, Elements.Statistic);
-        this.techLevel = DomHelper.AppendElement(this.leftSide, Elements.Statistic);
-        this.population = DomHelper.AppendElement(this.leftSide, Elements.Statistic);
-        this.productivity = DomHelper.AppendElement(this.leftSide, Elements.Statistic);
-        this.radius = DomHelper.AppendElement(this.leftSide, Elements.Statistic);
-        this.distance = DomHelper.AppendElement(this.leftSide, Elements.Statistic);
+        this.panel.AddDefinition(Composites.PanelExtra);
         
-        this.blurb = DomHelper.AppendElement(this.panel, Elements.Blurb);
+        //this.blurb = DomHelper.AppendElement(this.panel, Elements.Blurb);
 
         this.AddMenu(MenuItems);
         this.addPlanet();
@@ -40,20 +29,21 @@ export default class SystemView extends ViewBase {
 
         this.SetDemoModel(model);
 
-        this.government.textContent = "Government: " + governments[model.info.demographics.government];
-        this.economy.textContent = "Economy: " + economies[model.info.demographics.economy];
-        this.techLevel.textContent = "Tech Level: " + model.info.demographics.tech;
-        this.population.textContent = "Population: " + (parseInt(model.info.demographics.type) / 10) 
+        const stats = this.panel.namedElements.leftSide.namedElements;
+        stats.government.textContent = "Government: " + governments[model.info.demographics.government];
+        stats.economy.textContent = "Economy: " + economies[model.info.demographics.economy];
+        stats.techLevel.textContent = "Tech Level: " + model.info.demographics.tech;
+        stats.population.textContent = "Population: " + (parseInt(model.info.demographics.type) / 10) 
                                         + " billion (" + model.info.demographics.inhabitants + ")";
                                 
-        this.productivity.innerHTML = "Productivity: " + model.info.demographics.gdp + " M&cent;";
+        stats.productivity.innerHTML = "Productivity: " + model.info.demographics.gdp + " M&cent;";
 
-        this.radius.textContent = "Average Radius: " + model.info.radius + " km";
+        stats.radius.textContent = "Average Radius: " + model.info.radius + " km";
 
         const ly = (this.gameCtx.playerCtx.selectedDistance || 0.0).toFixed(1);
-        this.distance.textContent = "Distance: " +  + ly + " ly";
+        stats.distance.textContent = "Distance: " +  + ly + " ly";
 
-        this.blurb.textContent = model.info.demographics.description;
+        this.panel.namedElements.blurb.textContent = model.info.demographics.description;
     }
 }
 
@@ -88,67 +78,66 @@ const MenuItems = [
     }
 ];
 
-const Styles = {
-    PlanetCanvas: {
-        backgroundColor: "black",
-        cursor: "none",
-        border: "1px solid white"
-    },
-    LibraryArea: {
-        flexGrow: 1,
-        alignSelf: "stretch",
-        alignItems: "flex-start"
-    },
-    LeftSide: {
-        flexGrow: 1,
-        alignSelf: "stretch",
-        alignItems: "flex-start"
-    },
-    Info: {
-        minWidth: "220px",
-        backgroundColor: "transparent",
-        margin: "5px",
-        textAlign: "left"
-    },
-    Yellow: {
-        color: "yellow"
-    },
-    Green: {
-        color: "green"
-    },
-    Blurb: {
-        backgroundColor: "transparent",
-        fontStyle: "italic",
-        margin: "5px",
-        marginBottom: "32px",
-        lineHeight: "1.6rem",
-        textAlign: "left",
+const Elements = {
+    Statistic: {
+        classes: "bold",
+        styles: {
+            minWidth: "220px",
+            backgroundColor: "transparent",
+            margin: "5px",
+            textAlign: "left",
+            color: "--first-text-color",
+        }
+    }
+}
+
+const Composites = {
+    PanelExtra: {
+        elements: [ {
+            tag: "xt-flex",
+            options: {across: false},
+            name: "leftSide",
+            styles: {
+                flexGrow: 1,
+                color: "blue",
+                alignSelf: "stretch",
+                alignItems: "start"
+            },
+            elements: [ {
+                name: "government",
+                extends: Elements.Statistic
+            }, {
+                name: "economy",
+                extends: Elements.Statistic
+            }, {
+                name: "techLevel",
+                extends: Elements.Statistic
+            }, {
+                name: "population",
+                extends: Elements.Statistic
+            }, {
+                name: "productivity",
+                extends: Elements.Statistic
+            }, {
+                name: "radius",
+                extends: Elements.Statistic
+            }, {
+                name: "distance",
+                extends: Elements.Statistic
+            }]
+        }, {
+            name: "blurb",
+            classes: "italic",
+            styles: {
+                backgroundColor: "transparent",
+                fontStyle: "italic",
+                margin: "5px",
+                marginBottom: "32px",
+                lineHeight: "1.6rem",
+                textAlign: "left",
+                color: "--second-text-color"
+            }
+        }]
     }
 };
 
-const Elements = {
-    PlanetCanvas: {
-        tag: "canvas",
-        styles: Styles.PlanetCanvas
-    },
-    LibraryArea: {
-        tag: "div",
-        classes: "flex-across",
-        styles: Styles.LibraryArea
-    },
-    LeftSide: {
-        tag: "div",
-        classes: "flex-down",
-        styles: Styles.LeftSide
-    },
-    Statistic: {
-        tag: "p",
-        classes: "bold",
-        styles: [Styles.Info, Styles.Yellow]
-    },
-    Blurb: {
-        tag: "p",
-        classes: "italic",
-        styles: [Styles.Blurb, Styles.Green]
-    }
-}

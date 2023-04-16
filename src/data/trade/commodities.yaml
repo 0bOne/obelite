@@ -1,0 +1,102 @@
+#base item: other inherit from it for compactness of data
+- rules: []  						# strategy pattern behavior logic class names
+  unit: T  	 						# T=ton, K=kilo, g=gram
+  export-bias: [7, 0]  	# how economy biases export or iport [exp, imp]   #7=poor ag, 0=rich ind
+  legality: [0, 0]   		# export, import
+  trumble-bias: 0						# included for accuracy, might not be used
+- name: food
+  rules: [consumer, farming, edible]
+  # price calculation properties
+  	# mean around which the price fluctuates
+  	# how much per planet economy point it is biased
+  	# relative amount of random fluctuation up and down
+  price: [0.5, 0.55, 0.04] #mean, economy, flux
+  # qty calculation properties
+  	# mean around which the quantity fluctuates
+  	# how much per planet economy point it is biased
+  	# relative amount of random fluctuation up and down
+  quantity: [13.5, 0.52, 0.04] #mean, economy, flux
+  trumble-bias: 1
+- name: textiles
+  rules: [consumer, wearable, farming]
+  price: [7.1, 0.18, 0.09]
+  quantity: [15, 0.23, 0.1]
+  trumble-bias: 0.25
+- name: radioactives
+  rules: ["dangerous", "mining"]
+  price: [23.1, 0.19, 0.06] 
+  quantity: [16, 0.66, 0.09] 
+  trumble-bias: 0.75
+- name: slaves
+  rules: [restricted, living, slaves, salvage]
+  price: [15.2, 0.45, 0.4] 
+  quantity: [9.75, 1.1, 1.59] 
+  trumble-bias: 0.01
+- name: liquor/wines
+  rules: [consumer, edible, farming]
+  price: [2.91, 0.24, 0.05] 
+  quantity: [20, 0.88, 0.38] 
+  trumble-bias: 0.95
+- name: luxuries
+  rules: [consumer, luxury]
+  export-bias: [0, 7]
+  price: [90.2, 0.12, 0.01] 
+  quantity: [27.5, 1.02, 0.05] 
+  trumble-bias: 1.25
+- name: narcotics
+  rules: [consumer, dangerous, restricted, medical]
+  export-bias: [0, 0]
+  price: [51.2, 0, 1.0] 
+  quantity: [32, 0, 1.0] 
+  legality: [2,0]
+  trumble-bias: 1.05 
+- name: computers
+  rules: [business, shipyard, technology]
+  export-bias: [0, 7]
+  price: [81.8, 0.24, 0.01]
+  quantity: [8.5, 5.77, 0.17] 
+- name: machinery
+  rules: [business, technology, machinery]
+  export-bias: [0, 7]
+  price: [56.0, 0.14, 0.03] 
+  quantity: [22.5, 0.93, 0.16] 
+- name: alloys 
+  rules: [business, shipyard, metals, salvage]
+  export-bias: [0, 7]
+  price: [38.8, 0.03, 0.16] 
+  quantity: [29, 0.12, 0.53] 
+- name: firearms
+  rules: [dangerous, restricted, military, weapons]
+  export-bias: [0, 7]
+  price: [69.2, 0.26, 0.02] 
+  quantity: [1, 32.5, 3.5] 
+  legality: 1-0    
+- name: furs
+  rules: [consumer, farming, wearable, animal_product]
+  price: [70.4, 0.18, 0.18]
+  quantity: [27.5, 1.15, 1.15]
+  trumble-bias: 0.15
+- name: minerals
+  rules: [mining, business, raw_material]
+  price: [12.0, 0.11, 0.05]
+  quantity: [58, 0.06, 0.03]
+- name: gold
+  rules: [mining, business, consumer, metals]
+  unit: K
+  price: [38.8, 0.04, 0.05]
+  quantity: [9, 0.39, 0.39]
+- name: platinum
+  rules: [mining, business, consumer, metals]
+  unit: K
+  price: [71.8, 0.04, 0.09]
+  quantity: [13.5, 0.52, 1.15]
+- name: gemstones
+  rules: [mining, consumer]
+  unit: g
+  price: [19.6, 0.07, 0.15]
+  quantity: [6.75, 0.26, 1.11]
+- name: alien items
+  rules: [alien, thargoid, military]
+  export-bias: [0, 7]
+  price: [43.6, 0.48, 0.03] 
+  quantity: [0, 0, 0]

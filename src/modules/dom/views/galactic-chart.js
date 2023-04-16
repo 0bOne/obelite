@@ -25,7 +25,7 @@ const CURSOR_MOVE_RATE = 10;  //cursor movement pixels per second (when zoomed i
 // //Feature: System Info View (selected system's key(name) neded to be updaed in player context first)
 // //Feature: Smooth scrolling instead of jumping when using arrows
 // //Feature: Estimated journey time (LY ^2)
-// //TODO: refactor into SOLID components
+// //TODO: refactor for single responsibility
 
 
 const ARROW_KEYS = ["ArrowRight", "ArrowLeft", "ArrowUp", "ArrowDown"];
@@ -51,8 +51,7 @@ export default class GalacticChart extends ViewBase
     {
         super(gameCtx, viewId);
 
-        this.AddPanel();
-        this.AddTitle("System Atlas");
+        this.AddPanel("System Atlas");
 
         this.visibleCanvas = DomHelper.AppendElement(this.panel, Elements.ChartCanvas);
         this.visibleCanvas.width = this.panel.clientWidth;
@@ -95,7 +94,7 @@ export default class GalacticChart extends ViewBase
         const galaxyIndex = await jsYaml.fetch(galaxyIndexPath);
         const galaxyId = galaxyIndex.galaxies[this.gameCtx.playerCtx.galaxy];
 
-        this.title.textContent = "System Chart " + (Number.parseInt(galaxyId.replace("g", "")) + 1);
+        this.panel.namedElements.title.textContent = "System Chart " + (Number.parseInt(galaxyId.replace("g", "")) + 1);
 
         const galaxyDataPath = this.gameCtx.dataPath + "/universe/" + galaxyId + ".yaml";
         this.galaxyData = await jsYaml.fetch(galaxyDataPath);
@@ -455,7 +454,6 @@ export default class GalacticChart extends ViewBase
             }
         }
 
-        //debugger;
         this.selectedSystem = nearestSystem;
 
         console.log("selected system ", this.selectedSystem.name);
@@ -554,7 +552,13 @@ const MenuMain = [
         caption: "Data on System",
         event: "changeView",
         detail: {to: "SystemSummmary"},
-        help: "Show system summary"
+        help: "Show selected system summary"
+    },
+    {   
+        caption: "Commodity Market",
+        event: "changeView",
+        detail: {to: "Commodities"},
+        help: "Commodity Trading"
     },
     {
         caption: "Go Back",
@@ -563,5 +567,4 @@ const MenuMain = [
         help: "select a classification and item from the upper menus"
     }
 ];
-
 

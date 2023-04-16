@@ -1,3 +1,18 @@
+:root {
+    --background-color: black;
+    --title-color: red;
+    --underline-color: gray;
+    --muted-text-color: gray;
+    --info-text-color: white;
+    --first-text-color: yellow;
+    --second-text-color: green;
+    --headcell-text-color: green;
+    --help-text-color: white;
+    --soup-text-color: green;
+    --button-focus-color: red;
+    --bold-font: AlmaraiBold;
+  }
+
 @font-face {
     font-family: AlmaraiLight;
     src: url(./fonts/Almarai/Almarai-Light.ttf);
@@ -32,7 +47,7 @@
 
 html {
     font-family: AlmaraiRegular;
-    background-color: darkgray;
+    background-color: var(--background-color);
 }
 
 *:not(option) {
@@ -45,12 +60,14 @@ html {
 html, body {
     margin: 0;
     height: 100%;
+    overflow: hidden;
 }
 
 body {
-    background-color: black;
+    background-color: var(--background-color);
 }
 
+/*TODO: replace all flex items with xt-flex so these can be removed*/
 .flex-across {
     display: flex;
     flex-direction: row;
@@ -69,7 +86,7 @@ body {
 
 button.menu-item:focus {
     color: black !important;
-    background-color: red !important;
+    background-color: var(--button-focus-color) !important;
     border: none;
     text-decoration: none;
     outline: none;
@@ -78,3 +95,7 @@ button.menu-item:focus {
 .invisble {
     visibility: hidden;
 }
+
+/* *:disabled {
+    background-color: purple;
+} */

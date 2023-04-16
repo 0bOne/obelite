@@ -4,9 +4,12 @@
 //TODO: once done, the planets data can be removed in favor of generators.
 //TODO: then later, if we need fixed names (eg Milky Way) in a Galaxy the "generator" can fetch them
 
-const pairs0  = "ABOUSEITILETSTONLONUTHNO";
-const pairs = "..LEXEGEZACEBISOUSESARMAINDIREA.ERATENBERALAVETIEDORQUANTEISRION";                 
+const pairs0  = "abouseitiletstonlonuthno";
+const pairs = "..lexegezacebisousesarmaindirea.eratenberalavetiedorquanteisrion";                 
 const pairs1 = pairs0 + pairs;
+
+const digrams = "abouseitiletstonlonuthnoallexegezacebisousesarmaindirea.eratenberalavetiedorquanteisrion";
+
 
 const economies = [
     "Rich Ind    ",
@@ -29,7 +32,6 @@ const governments = [
     "Democracy      ",
     "Corporate State"
 ];
-
 
 const defaultGalaxy = {
     seed: {
@@ -93,16 +95,15 @@ const defaultGalaxy = {
 
     system.radius = (256 * ((((galaxy.seed.w2) >> 8) & 15) + 11)) + system.x;
 
+    system.species = makeSpecies(galaxy.seed);
+
     system.goatSoupSeed[0] = galaxy.seed.w1 & 0xFF;
     system.goatSoupSeed[1] = galaxy.seed.w1 >> 8;
     system.goatSoupSeed[2] = galaxy.seed.w2 & 0xFF;
     system.goatSoupSeed[3] = galaxy.seed.w2 >> 8;
-
-    system.species = makeSpecies(galaxy.seed);
-
+    system.goatSoupSeed[4] = 0;
 
     let pair1 = 2 * (((galaxy.seed.w2) >> 8) & 31);
-    //console.log("pair1", pair1);
     shuffle(galaxy.seed);
     
     let pair2 = 2 * (((galaxy.seed.w2) >> 8) & 31);
@@ -127,6 +128,8 @@ const defaultGalaxy = {
         name += pairs[pair4];
         name += pairs[pair4 + 1];
     }
+
+
     system.name = name.split(".").join("");
     //console.log(system);
     return system;
@@ -287,8 +290,33 @@ const soup = {
         "polo",     //
         "tennis"]   //254
 };
-
 function soupRandom(system)
+{
+    let g = system.goatSoupSeed;
+	let	a;
+	let	x;
+	                        /*	6502 assembly:   */ 
+    a = g[0];               /*  A5 00   LDA &00  */	
+    a = (a << 1) + g[4];	/*  2A      ROL A    */	 
+    g[4] = a >> 8;	
+    a &= 0xFF;
+    x = a;                  /*  AA      TAX      */	 
+    a = a + g[2] + g[4];	/*  65 02   ADC &02  */	
+    g[4] = a >> 8;	
+    a &= 0xFF; 
+    g[0] = a;               /*  85 00   STA &00  */ 
+    g[2] = x;               /*  86 02   STX &02  */	
+    a = g[1];               /*  A5 01   LDA &01  */			 
+    x = a;                  /*  AA      TAX      */
+    a = a + g[3] + g[4];	/*  65 03   ADC &03  */
+    g[4] = a >> 8;	
+    a &= 0xFF;	 
+    g[1] = a;               /*  85 01   STA &01  */
+    g[3] = x;               /*  86 03   STX &03  */	
+    return a;               /*  60      RTS      */	 
+}
+
+function soupRandom_old(system)
 {
     //Generate a random number for goat-soup.
 
@@ -310,6 +338,8 @@ function soupRandom(system)
     return a 
 }
 
+
+
 function soupPosition(randomNumber)
 {
     let pos =  0;
@@ -325,7 +355,7 @@ function makeGoatSoup(system, phraseSequence)
 {
     const tokens = [];
     const phraseSequence2 = phraseSequence;
-    console.group("sequence", phraseSequence);
+    //console.group("sequence", phraseSequence);
     phraseSequence2.forEach(itemInSequence =>
     {
         let chosenPhrase = itemInSequence;
@@ -362,7 +392,7 @@ function makeGoatSoup(system, phraseSequence)
         } 
     });
 
-    console.groupEnd();
+    //console.groupEnd();
     return tokens;
 }
 
@@ -383,7 +413,7 @@ function getPhraseReference(system, phraseNumber)
     }
     else if (phraseNumber === 0xB2)
     {
-        chosenPhrase = randomSoupName(system);
+        chosenPhrase = randomPlanetName(system);
     }
     else //look it up in the soup table
     {
@@ -392,8 +422,8 @@ function getPhraseReference(system, phraseNumber)
 
     let returnType = Array.isArray(chosenPhrase) ? "array" : typeof chosenPhrase;
 
-    console.log("phrase #", phraseNumber.toString(16), chosenPhrase);
-    if (chosenPhrase[0] === "juice") debugger;
+    //console.log("phrase #", phraseNumber.toString(16), chosenPhrase);
+    //if (chosenPhrase[0] === "juice") debugger;
 
     return chosenPhrase;
 }
@@ -411,15 +441,49 @@ function randomPhrase(system, possiblePhrases)
     return chosenPhrase;
 }
 
-function randomSoupName(system)
+function randomPlanetName(system)
+{
+    let planetName = "";
+
+    system.goatSoupSeed[4] = 0; // Clear carry bit
+    let i = (soupRandom(system) & 0x03) + 1;
+    debugger;
+    while (i-- > 0)
+    {
+        //	Don't clear carry here.
+        //	First random number for name uses carry bit
+        //	as left by the last one (for the length)
+        let j = soupRandom(system) & 0x3E;
+        system.goatSoupSeed[4] = 0; // Clear carry bit.
+        
+        let c = digrams.substring(j, j + 1);
+
+        if (c != '.')
+        {
+            planetName += c;
+        }
+        j++;
+        c = digrams.substring(j, j + 1);
+        if (c != '.')
+        {
+            planetName += c;
+        }
+    }
+    //idk: p->soup[k] &= ~32;
+
+    return planetName;
+}
+
+function randomPlanetName_old(system)
 {
     let randomName = "";
+
     let length = soupRandom(system) & 3;
     for (let i = 0; i < length + 1; i++)
     {
         let r = soupRandom(system) 
         let x = r & 0x3e;
-        console.log(pairs1[x - 1], pairs1[x]);
+        //console.log(pairs1[x - 1], pairs1[x]);
         debugger;
         randomName += (pairs1[x - 1] !== ".") ? pairs1[x - 1] : "";
         randomName += (pairs1[x] !== ".") ? pairs1[x] : "";
@@ -501,6 +565,4 @@ Notes:
 		sun_radius = 84449.095459;
 		sun_vector = "0.865 0.376 -0.334";
 		terminator_threshold_vector = "0.105 0.18 0.28"
-
 */
-

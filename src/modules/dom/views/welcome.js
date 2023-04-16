@@ -19,8 +19,7 @@ export default class WelcomeView extends ViewBase
     {
         super(gameContext, viewId);
 
-        this.AddPanel();
-        this.AddTitle("Obelite");
+        this.AddPanel("Obelite");
         this.AddInfo(INFO_MESSAGES);
         this.AddNotes(INFO_NOTES);
         this.AddMenu(MenuItems);
@@ -32,6 +31,7 @@ export default class WelcomeView extends ViewBase
     {
         const modelLoader = new ShipLoader(this.gameCtx);
         const model = await modelLoader.Load("ships/cobra-mk3");
+        //model.wireframe = true;
         this.SetDemoModel(model);
     }
 }
@@ -61,7 +61,6 @@ const MenuItems = [
         detail: {to: "LoadCommander"},
         help: "TODO: Load a previously saved commander"
     },
-
     {
         caption: "Game Options",
         event: "changeView",

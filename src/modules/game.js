@@ -6,7 +6,6 @@ import Scene from "./gl/scene.js";
 import AnimationManager from "./logic/animation-manager.js";
 
 
-
 export default class Game
 {
     viewController;
@@ -18,7 +17,7 @@ export default class Game
         this.gameCtx = {
             id: "gameContext",
             basePath:  document.location.pathname.split("index.html")[0],
-            content: DomHelper.AppendElement(document.body, Elements.Content),
+            content: DomHelper.AddCustomElement(document.body, Elements.Content),
         };
         this.gameCtx.dataPath = this.gameCtx.basePath + "data";
         this.gameCtx.playerCtx = DefaultPlayerContext
@@ -55,14 +54,15 @@ export default class Game
         document.body.addEventListener("keydown", this.onKey.bind(this));
         document.body.addEventListener("keyup", this.onKey.bind(this));
         
-
         this.gameCtx.animationManager = new AnimationManager(this.gameCtx, this.viewController);
         this.gameCtx.animationManager.start();
 
-        this.viewController.ChangeView("Welcome");
+        //this.viewController.ChangeView("Welcome");
         //this.viewController.ChangeView("ShipLibrary");
         //this.viewController.ChangeView("GalacticChart");
         //this.viewController.ChangeView("SystemSummmary");
+        this.viewController.ChangeView("Commodities");
+        //this.viewController.ChangeView("ShipFactory");
     
         console.log("game initialization time: ", new Date().getTime() - window.$started, "milliseconds");
     }
@@ -100,9 +100,10 @@ const Styles = {
 
 const Elements = {
     Content: {
-        id: "content",
-        tag: "div",
-        styles: {position: "absolute", height: "100%"}
+        name: "content",
+        role: "main",
+        tag: "xt-flex",
+        styles: {position: "absolute", width: "100%", height: "100%"},
     },
     Canvas: {
         id: "wglCanvas",
@@ -116,5 +117,10 @@ const DefaultPlayerContext = {
     visiting: "Lave",
     selected: "Lave",
     selectedDistance: 0.0,
-    fuel: 7.0    
+    fuel: 7.0,
+    credits: 150.0,
+    commodities: {
+        food: 4.0,
+        textiles: 1.0
+    }
 };
