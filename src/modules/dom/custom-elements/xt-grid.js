@@ -35,32 +35,35 @@ export default class ExtensibleGridElement extends ExtensibleElement
 
 	AddColumns(columnDefinitions = [])
 	{
+		const columns = [];
 		columnDefinitions.forEach(columnDefinition => {
-			this.AddColumn(columnDefinition);
+			const column = this.AddColumn(columnDefinition);
+			columns.push(column);
 		});
+		return columns;
 	}
 
 	AddColumn(columnDefinition = {})
 	{
+		columnDefinition.styles = columnDefinition.styles || {};
+
 		const width = columnDefinition.width || "auto";
 		this.style.gridTemplateColumns += " " + width;
 
-		const element = this.AddChild(Elements.HeaderCell);
-		element.AddStyles([AlignmentStyles[columnDefinition.align], 
-							this.options.headerStyles, 
-							columnDefinition.styles]);
+		const element = this.AddChild({});
 
+
+		element.AddStyles([this.options.styles.header, columnDefinition.styles.header]);
 		element.textContent = columnDefinition.text;
 		this.columnDefinitions.push(columnDefinition);
 		this.headerCells.push(element);
+		return element;
 	}
 
 	AddBodyCell(columnDefinition)
 	{
-		const element = this.AddChild(Composites.BodyCellWithUnits);
-		element.AddStyles([AlignmentStyles[columnDefinition.align], 
-			this.options.bodyStyles, 
-			columnDefinition.bodyStyles]); //bodyStyles can exist on the options or on the column def
+		const element = this.AddChild({});
+		element.AddStyles([this.options.styles.body, columnDefinition.styles.body]);
 		return element;
 	}
 
@@ -78,23 +81,6 @@ export default class ExtensibleGridElement extends ExtensibleElement
 
 		return namedElements;
 	}
-
-	SetCell(cell, text, units)
-	{
-		if (cell.namedElements.value)
-		{
-			cell.namedElements.value.textContent = text;
-		}
-		else
-		{
-			cell.textContent = text;
-		}
-
-		if (cell.namedElements.units)
-		{
-			cell.namedElements.units.textContent = units;
-		}
-	}
 }
 
 const Styles = {
@@ -102,45 +88,5 @@ const Styles = {
         display: "grid",
         minWidth: "100%",
         justifyItems: "start"
-	},
-	AlignLeft: {
-		justifySelf: "start"
-	},
-	AlignRight: {
-		justifySelf: "end"
-	},
-	Spacer: {
-		visiblity: "hidden"
-	}
-}
-
-const AlignmentStyles = {
-	left: Styles.AlignLeft,
-	right: Styles.AlignLeft,
-	spacer: Styles.spacer
-};
-
-const Elements = {
-	HeaderCell: {},
-	BodyCell: {
-		 name: "value",
-	},
-	Units: {
-		name: "units",
-		styles: {
-			marginLeft: "1em"
-		}
 	}
 };
-
-const Composites = {
-	BodyCellWithUnits: {
-		elements: [
-			Elements.BodyCell,
-			Elements.Units
-		]
-	}
-}
-
-
-

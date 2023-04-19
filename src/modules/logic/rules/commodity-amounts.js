@@ -1,37 +1,39 @@
 export default class CommodityAmounts {
-    static Calculate(commodities, planetInfo, playerCommodities)
+
+    static nextSeed = 12345;
+    static nextRandom()
     {
-        const rng = new Math.seedrandom(planetInfo.seed);
+        this.nextSeed = (214013 * this.nextSeed + 2531011);
+        return (this.nextSeed >> 16) & 0x7FFF;
+    }
+
+    static Calculate(commodities, planetInfo)
+    {
+        const r = this.nextRandom();
+        const fluct = r & 0xFF; 
 
         commodities.forEach(commodity => {
-            const exportBias = this.setBias(commodity["export-bias"], planetInfo.demographics.economy);
-            commodity.quantity = this.calculate(commodity.quantity, exportBias, rng);
-            commodity.price = this.calculate(commodity.price, -exportBias, rng);
-            commodity.quantity = Math.floor(commodity.quantity);
-            commodity.price = Math.floor(commodity.price * 10) / 10;
-            commodity.held = playerCommodities[commodity.name] || 0;
+            const product = planetInfo.demographics.economy * commodity.gradient;
+            const changing = fluct & commodity.mask;
+
+            let quantity = commodity.basequant + changing - product;
+            quantity = quantity & 0xFF;
+            if (quantity & 0x80 > 0) quantity = 0;   //#Clip to positive 8-bit
+
+            commodity.available = quantity & 0x3F; 
+                      
+            //price   
+            let p =  commodity.baseprice + changing + product;
+            p = p & 0xFF;
+            commodity.cost = (p * 4) / 10.0;
+            commodity.cost = Math.floor(commodity.cost * 10) / 10;
+
+            if (commodity.name === "alien items")
+            {
+                commodity.available = 0;
+            }       
         });
     }
-
-    static setBias(biasRange, planetEconomy)
-    {
-        const peakExport = biasRange[0];
-        const peakImport = biasRange[1];
-        const range = Math.abs(peakImport - peakExport);
-        let offset = peakImport - planetEconomy;  
-        return offset / range;
-    }
-
-    static calculate(rules, bias, rng)
-    {
-        const meanValue = rules[0];
-        const ecomomyDelta = rules[1];
-        const fluxDelta = rules[2];
-
-        const baseValue = meanValue * bias;
-        const economyValue = baseValue * ecomomyDelta * bias;
-        const fluctuation = fluxDelta * (rng() - rng());
-        let result = Math.max(0, baseValue + economyValue + fluctuation);
-        return result;
-    }
 }
+
+

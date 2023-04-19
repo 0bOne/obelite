@@ -1,9 +1,9 @@
 import CommodityLoader from "../../data/commodity-loader.js";
 import PlanetLoader from "../../gl/planet-loader.js";
 import CommodityAmounts from "../../logic/rules/commodity-amounts.js";
-import DomHelper from "../utilities/dom-helper.js";
 import ViewBase from "./_view-base.js";
 import {BUY, SELL} from "./icons/svg-icons.js";
+import jsYaml from "../utilities/js-yaml.js";
 
 export default class CommodityView extends ViewBase {
 
@@ -38,28 +38,29 @@ export default class CommodityView extends ViewBase {
 
     async loadCommodities()
     {
-        const url = this.gameCtx.dataPath + "/trade/commodities.yaml";
-        this.commodities = await CommodityLoader.LoadCommodities(url);
+        const url = this.gameCtx.dataPath + "/trade/commodities2.yaml";
+        this.commodities = await jsYaml.fetch(url);
         const planetLoader = new PlanetLoader(this.gameCtx);
         const planetInfo = await planetLoader.LoadInfo(this.currentGalaxy, this.currentPlanet);
-        CommodityAmounts.Calculate(this.commodities, planetInfo, this.itemsHeld);
+        CommodityAmounts.Calculate(this.commodities, planetInfo);
     }
 
     populateGrid()
     {
         this.commodities.forEach(commodity => {
             const units = UnitLabels[commodity.unit] || "??";
-            //debugger;
-            const available = commodity.quantity || "-";
+            const available = commodity.available || "-";
             const held = this.itemsHeld[commodity.name] || "-";
-            const legality = (commodity.legality[0] === 0 && commodity.legality[1] === 0) ? "-": "lm";
+            const legality = (commodity.legal === "no") ? "lm": "-";
             
             const row = this.grid.NewRow();
-            this.grid.SetCell(row.name, commodity.name);
-            this.grid.SetCell(row.price, commodity.price);
-            this.grid.SetCell(row.available, available, units);
-            this.grid.SetCell(row.held, held, units);
-            this.grid.SetCell(row.legal, legality);
+            row.name.textContent = commodity.name;
+            row.price.textContent =  commodity.cost.toFixed(1);
+            row.available.textContent =  available;
+            row.availUnits.textContent = units;
+            row.held.textContent =  held, units;
+            row.heldUnits.textContent = units;
+            row.legal.textContent =  legality;
 
             commodity.row = row;
             commodity.buyButton = row.buttons.AddChild(Elements.BuyButton);
@@ -73,28 +74,28 @@ export default class CommodityView extends ViewBase {
 
     onBuyClicked(commodity, evt)
     {
-        const available = commodity.quantity || 0;
+        const available = commodity.available || 0;
         const held = this.itemsHeld[commodity.name] || 0;
         if (available > 0)
         {
-            this.performTransaction(commodity, available - 1, held + 1, -commodity.price);
+            this.performTransaction(commodity, available - 1, held + 1, -commodity.cost);
         }    
     }
 
     onSellClicked(commodity, evt)
     {
-        const available = commodity.quantity || 0;
+        const available = commodity.available || 0;
         const held = this.itemsHeld[commodity.name] || 0;
         if (held > 0)
         {
-            this.performTransaction(commodity, available + 1, held - 1, commodity.price);
+            this.performTransaction(commodity, available + 1, held - 1, commodity.cost);
         }
     }
 
     performTransaction(commodity, available, held, moneyChange)
     {
         this.itemsHeld[commodity.name] = held;
-        commodity.quantity = available;
+        commodity.available = available;
         this.gameCtx.playerCtx.credits += moneyChange;
         this.updateButtons(commodity);
         this.updateCredits();
@@ -103,19 +104,18 @@ export default class CommodityView extends ViewBase {
 
     updateButtons(commodity)
     {
-        const available = commodity.quantity || 0;
+        const available = commodity.available || 0;
         const held = this.itemsHeld[commodity.name] || 0;
-        commodity.buyButton.disabled = (available === 0)
+        const cantAfford = (this.gameCtx.playerCtx.credits < commodity.cost);
+        commodity.buyButton.disabled = (available === 0 || cantAfford)
         commodity.sellButton.disabled = (held === 0);
 
-        const units = UnitLabels[commodity.unit] || "??";
-        this.grid.SetCell(commodity.row.available, available, units);
-        this.grid.SetCell(commodity.row.held, held, units);
+        commodity.row.available.textContent = available;
+        commodity.row.held.textContent = held;
 }
 
     updateCredits()
     {
-        //debugger; TODO: update credit display
         this.credits.textContent = "Credits Available: " + this.gameCtx.playerCtx.credits;
     }
 }
@@ -136,10 +136,6 @@ const MenuItems = [
 ];
 
 const Styles = {
-    CommodityName: {
-        textTransform: "capitalize",
-        fontFamily: "--bold-font",
-    },
     IconButton: {
         border: 0,
         display: "inline-block",
@@ -151,8 +147,7 @@ const Styles = {
         },
         $disabled: {
           color: "linen",
-          opacity: 0.6,
-          cursor: "not-allowed"
+          opacity: 0.6
         }
     },
     IconStyle: {
@@ -191,38 +186,75 @@ const Elements = {
     },
 };
 
+
+const GridStyles = {
+    Grid: {
+        marginTop: "1rem",
+        marginBottom: "1rem",
+        lineHeight: "1.2rem"
+    },
+    Header: {
+        textTransform: "capitalize",
+        color: "--headcell-text-color",
+        fontFamily: "--bold-font",
+        fontSize: "1rem"
+    },
+    UnitsHeader: {
+        //offset to right-align with units
+        textTransform: "capitalize",
+        color: "--headcell-text-color",
+        fontFamily: "--bold-font",
+        fontSize: "1rem",
+        justifySelf: "end",
+        whiteSpace: "nowrap",
+        position: "relative",
+        left: "1.5rem",
+        overflow: "visible"
+    },
+    Body: {
+        color: "--first-text-color",
+        fontFamily: "--bold-font"
+    },
+    UnitsCell: {
+        color: "--first-text-color",
+        paddingLeft: "0.5rem"
+    },
+    NameCell: {
+        color: "--first-text-color",
+        textTransform: "capitalize",
+        fontFamily: "--bold-font",
+        justifySelf: "start"
+    },
+    TextCell: {
+		justifySelf: "start"
+    },
+    NumberCell: {
+        justifySelf: "end"
+    }
+}
+
 const Composites = {
     CommodityGrid: {
         tag: "xt-grid",
-        styles: {
-            marginTop: "1em",
-            marginBottom: "1em",
-            lineHeight: "1.2em"
-        },
+        styles: GridStyles.grid,
         options: {
-            headerStyles: {
-                textTransform: "capitalize",
-                color: "--headcell-text-color",
-                fontFamily: "--bold-font",
-                fontSize: "1em"
-            },
-            bodyStyles: {
-                color: "--first-text-color",
-                fontFamily: "--bold-font"
-            },
-            unitsStyles: {
-                paddingLeft: "1em"
+            styles: {
+                header: GridStyles.Header,
+                body: GridStyles.Body
             },
             columns: [
-                {name: "name", align: "left", width: "13fr", text: "commodity", bodyStyles: Styles.CommodityName},
-                {name: "price", align: "right", width: "4fr", text: "price"},
-                {align: "spacer", width: "7fr"},
-                {name: "available", align: "right", width: "4fr", text: "for sale"},
-                {name: "buttons", align: "left", width: "3fr"},
-                {align: "spacer", width: "3fr"},
-                {name: "held", align: "right", width: "4fr", text: "in hold"},
-                {align: "spacer", width: "7fr"},
-                {name: "legal", align: "left", width: "auto", text: "legal"}              
+                {name: "name",       width: "10fr", text: "commodity", styles: {body: GridStyles.NameCell}},
+                {name: "price",      width: "4fr", text: "price",      styles: {header: GridStyles.NumberCell, body: GridStyles.NumberCell}},
+                {name: "spacer1",    width: "6fr"},
+                {name: "available",  width: "4fr", text: "for sale",   styles: {header: GridStyles.UnitsHeader, body: GridStyles.NumberCell}},
+                {name: "availUnits", width: "1fr",                     styles: {body: GridStyles.UnitsCell}},
+                {name: "spacer2",    width: "4fr"},
+                {name: "buttons",    width: "3fr"},
+                {name: "spacer3",    width: "1fr"},
+                {name: "held",       width: "4fr", text: "in hold",    styles: {header: GridStyles.UnitsHeader, body: GridStyles.NumberCell}},
+                {name: "heldUnits",  width: "1fr",                     styles: {body: GridStyles.UnitsCell}},
+                {name: "spacer4",    width: "7fr"},
+                {name: "legal",      width: "auto", text: "legal",     styles: {body: GridStyles.TextCell}},             
             ]
         }
     }

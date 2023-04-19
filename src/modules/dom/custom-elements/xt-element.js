@@ -21,7 +21,7 @@ export default class ExtensibleElement extends HTMLElement
     }
 
     // connectedCallback() {
-    //   console.log(this.tagName + ' element added to page.');
+	// 	this.tabIndex = 0;
     // }
   
     // disconnectedCallback() {

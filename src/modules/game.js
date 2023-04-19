@@ -57,11 +57,11 @@ export default class Game
         this.gameCtx.animationManager = new AnimationManager(this.gameCtx, this.viewController);
         this.gameCtx.animationManager.start();
 
-        //this.viewController.ChangeView("Welcome");
+        this.viewController.ChangeView("Welcome");
         //this.viewController.ChangeView("ShipLibrary");
         //this.viewController.ChangeView("GalacticChart");
         //this.viewController.ChangeView("SystemSummmary");
-        this.viewController.ChangeView("Commodities");
+        //this.viewController.ChangeView("Commodities");
         //this.viewController.ChangeView("ShipFactory");
     
         console.log("game initialization time: ", new Date().getTime() - window.$started, "milliseconds");
@@ -118,7 +118,7 @@ const DefaultPlayerContext = {
     selected: "Lave",
     selectedDistance: 0.0,
     fuel: 7.0,
-    credits: 150.0,
+    credits: 5.0,
     commodities: {
         food: 4.0,
         textiles: 1.0

@@ -19,8 +19,14 @@ export default class ExtensibleControlElement extends ExtensibleElement
     {
         super();
         this.internals = this.attachInternals();
-      	//this.shadow = this.attachShadow({mode: 'open'});
+        //this.shadow = this.attachShadow({mode: 'open'});
     }
+
+    
+    connectedCallback() {
+		this.tabIndex = 0;
+    }
+
 
     get disabled()
      {
