@@ -1,5 +1,5 @@
 import Menu from "./components/menu.js";
-import Rotator from "../../logic/animators/rotator.js";
+import ShipShowroom from "../../logic/animators/ship-showroom.js";
 
 export default class ViewBase
 {
@@ -45,9 +45,8 @@ export default class ViewBase
         if (model)
         {        
             this.gameCtx.demoModel = model;
-            this.gameCtx.demoModel.Rotation = -3.8;
             this.gameCtx.demoModel.isVisible = true;
-            this.gameCtx.demoModel.animator = new Rotator(this.gameCtx.demoModel, 0.5);
+            model.animator = model.animator || new ShipShowroom(model);
             this.gameCtx.scene.models.push(this.gameCtx.demoModel);
         }
     }

@@ -51,8 +51,8 @@ export default class ShipLoader
             uniforms: [],
             hasIndices: false,
             hasSTs: false,
-            worldPosition: {x: 0.0, y: 0.0, z: -3.0},
-            rotation: 0
+            worldPosition: {x: 0.0, y: 0.0, z: 0.0},
+            rotation: {x: 0.0, y: 0.0, z: 0.0}
         };
 
         if (modelData.positions)
@@ -124,6 +124,16 @@ export default class ShipLoader
         {
             const attribute = new NormalsAttribute(this.gl, modelData.normals);
             model.attributes.push(attribute);
+        }
+
+        if (modelData.subentities)
+        {
+            model.subentities = [];
+            for (let subEntityName in modelData.subentities )
+            {
+                const subEntity = await this.Load(modelData.name + "/" + subEntityName);
+                model.subentities.push(subEntity);
+            }
         }
 
         return model;

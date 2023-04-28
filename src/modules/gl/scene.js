@@ -43,16 +43,15 @@ export default class Scene
     {
         this.gl.clear(this.gl.COLOR_BUFFER_BIT | this.gl.DEPTH_BUFFER_BIT);
         this.frameNumber++;
-        //const startTime = performance.now();
-        //console.log("model count is " + this.models.length);
         this.models.forEach(model => {
             this.drawModel(model);
+            if (model.subentities)
+            {
+                model.subentities.forEach(subModel => {
+                    this.drawModel(subModel);
+                });
+            }
         })
-        // if (this.frameNumber < 10)
-        // {
-        //     const endTime = performance.now();
-        //     console.log('scene time', endTime - startTime);
-        // }
     }
 
     drawModel(model)
@@ -62,15 +61,9 @@ export default class Scene
    
         this.viewMatrix.setTranslation(model.worldPosition);
 
-        //debugger;
-
-        if (isFinite(model.Rotation)) 
-        {
-            let axesRatio = (model.dimensions === 3) ? {x: 0.3, y: 0.7, z: 1} :{x: 0, y: 0, z: 1};
-            axesRatio = model.rotationRatio || axesRatio;
-            this.viewMatrix.setRotation(model.rotation, axesRatio);
-        }
-
+        this.viewMatrix.setRotation(model.rotation.x, {x: 1, y: 0, z: 0});
+        this.viewMatrix.setRotation(model.rotation.y, {x: 0, y: 1, z: 0});
+        this.viewMatrix.setRotation(model.rotation.z, {x: 0, y: 0, z: 1});
 
         ///////////////////////////////////
         this.gl.useProgram(model.shader.program);
@@ -127,9 +120,6 @@ export default class Scene
 
     remove(model)
     {
-        //TODO: thiese disposal related functions were an attempt to 
-        //load multiple ships into the same context without corruption
-        //failed miserably, incidating a need to understanding how to manage multiple models in WebGL
         const i = this.models.indexOf(model);
         if (i > -1)
         {
@@ -147,8 +137,6 @@ export default class Scene
             });
 
         }
-
-    
     }
 
     // setUniforms(locations, projectionMatrix, modelViewMatrix) 

@@ -1,5 +1,7 @@
 //TODO: inherit from animator base class
-export default class Rotator 
+
+
+export default class PlanetShowroom 
 {
     isRotating;
     model;
@@ -9,6 +11,8 @@ export default class Rotator
     {
         this.isRotating = true;
         this.model = model;
+        this.model.rotation = {x: 0.7, y: 0.7, z: 0.7};
+        this.model.worldPosition.z = -5;
         this.rate = rate;
     }
 
@@ -16,7 +20,8 @@ export default class Rotator
     {
         if (this.isRotating === true)
         {
-            this.model.rotation -= gameCtx.t.delta * 0.5;
+            //TODO: figure out how to get it to rotate around its poles
+            this.model.rotation.y -= gameCtx.t.delta * 0.2;
         }
     }
 

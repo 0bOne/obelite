@@ -217,6 +217,11 @@ sts:
         0.01182, 0.9884, 0.01703, 1, 0.98745, 0.9884,           # #48
         0.98745, 0.01277, 0.01182, 0.9884, 0.98745, 0.9884      # #49
     ]
+subentities:
+  dock: ~
+  faceplate: 
+   position: [0, 0, 1.001]
+  trigs: ~
 library:
   use: Orbital Station
   blurb: The Coriolis Station is the standard Cooperative orbital station seen in almost all systems. A kilometre across, with room for over a hundred ships and tens of thousands of inhabitants, these stations are key trading hubs for their systems, as well as housing several police Viper patrols.

@@ -79,7 +79,7 @@ export default class PlanetLoader
             hasIndices: false,
             hasSTs: false,
             worldPosition: {x: 0.0, y: 0.0, z: -3.5},
-            rotation: 0
+            rotation: {x: 0.0, y: 0.0, z: -3.5}
         };
         
         if (modelData.positions)

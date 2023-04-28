@@ -1,6 +1,7 @@
 import DomHelper from "../utilities/dom-helper.js";
 import ViewBase from "./_view-base.js";
 import PlanetLoader from "../../gl/planet-loader.js";
+import PlanetShowroom from "../../logic/animators/planet-showroom.js";
 
 const CANVAS_DIMENSION = 400;
 
@@ -27,6 +28,7 @@ export default class SystemView extends ViewBase {
         const model = await loader.Load(galaxyNumber, planetName);
         model.worldPosition = {x: 1.0, y: 0.2, z: -4.5},
 
+        model.animator = new PlanetShowroom(model);
         this.SetDemoModel(model);
 
         const stats = this.panel.namedElements.leftSide.namedElements;

@@ -45,7 +45,7 @@ export default class AnimationManager
         this.gameCtx.scene.models.forEach(model => {
             if (model.animator)
             {
-                model.animator.animate(this.gameCtx);   
+                model.animator.animate(this.gameCtx); 
             }         
         });
 
