@@ -4,20 +4,10 @@ const path = require("path");
 let scaleFactor = 1;
 
 let source = path.resolve(__dirname, process.argv[2]);
-let target = path.resolve(__dirname, "..", "src", "data", "models", "ships");
+let target = path.resolve(__dirname, "..", "src", "data", "models", "_converted");
 let modelName = path.basename(source, ".dat.txt");
 let description = modelName;
-if (modelName.startsWith("oolite"))
-{
-    modelName = modelName.replace("oolite_", "");
-    //put them all in 'ships' move them to the other folders (misc, weapons, etc) manually
-    target = path.join(target, "ships", modelName);
-}
-else if (modelName.endsWith("redux"))
-{
-    modelName = modelName.replace("_redux", "");
-    target = path.join(target, "redux", modelName);
-}
+modelName = modelName.replace("oolite_", "");
 
 if (fs.existsSync(target) === false)
 {
@@ -343,10 +333,13 @@ function normalizePositions(positions)
         largest = Math.max(largest, Math.abs(position));
     });
 
+    //rock hermit only. otherwise comment out
+    largest = 500;
+
     let normalizedPositions = positions;
     if (largest > 1)
     {
-        console.log("shrkinking vertex positions by ", largest);
+        console.log("shrinking vertex positions by ", largest);
         normalizedPositions = [];
         positions.forEach(position =>{
             normalizedPositions.push(position / largest);
