@@ -1,7 +1,7 @@
 import ViewController from "./dom/view-controller.js";
 import DomHelper from "./dom/utilities/dom-helper.js";
-
-import ShaderCache from "./gl/shader-cache.js";
+    
+import ShaderCache from "./gl/loaders/shader-cache.js";
 import Scene from "./gl/scene.js";
 import AnimationManager from "./logic/animation-manager.js";
 

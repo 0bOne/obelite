@@ -1,5 +1,4 @@
-import CommodityLoader from "../../data/commodity-loader.js";
-import PlanetLoader from "../../gl/planet-loader.js";
+import PlanetLoader from "../../gl/loaders/planet-loader.js";
 import CommodityAmounts from "../../logic/rules/commodity-amounts.js";
 import ViewBase from "./_view-base.js";
 import {BUY, SELL} from "./icons/svg-icons.js";

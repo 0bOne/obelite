@@ -1,11 +1,11 @@
 
-import jsYaml from "../dom/utilities/js-yaml.js";
-import VerticesAttribute from "./attributes/vertices-attribute.js";
-import ColorsAttribute from "./attributes/colors-attribute.js";
-import IndicesAttribute from "./attributes/indices-attribute.js";
-import NormalsAttribute from "./attributes/normals-attribute.js";
-import Texture from "./texture.js";
-import STsAttribute from "./attributes/sts-ttribute.js";
+import jsYaml from "../../dom/utilities/js-yaml.js";
+import VerticesAttribute from "../attributes/vertices-attribute.js";
+import ColorsAttribute from "../attributes/colors-attribute.js";
+import IndicesAttribute from "../attributes/indices-attribute.js";
+import NormalsAttribute from "../attributes/normals-attribute.js";
+import Texture from "../texture.js";
+import STsAttribute from "../attributes/sts-ttribute.js";
 
 export default class ShipLoader
 {
@@ -15,9 +15,11 @@ export default class ShipLoader
         this.gl = this.gameCtx.gl;
     }
 
-    async Load(name)
+    async Load(name, vertexOffset = null)
     {   
-        const modelData = await this.LoadData(name);
+        const modelData = await this.LoadData(name, vertexOffset);
+
+        this.offsetVertices(modelData, vertexOffset);
         const model = await this.HydrateModel(modelData);
         return model;
     }
@@ -37,6 +39,18 @@ export default class ShipLoader
             this.expandIndices(modelData);
         }
         return modelData;
+    }
+
+    offsetVertices(modelData, offset)
+    {
+        if (offset)
+        {
+            for (let v = 0; v < modelData.positions.length; v++)
+            {
+                let axis = v % 3;
+                modelData.positions[v] += offset[axis];
+            }
+        }
     }
 
     async HydrateModel(modelData)
@@ -129,9 +143,10 @@ export default class ShipLoader
         if (modelData.subentities)
         {
             model.subentities = [];
-            for (let subEntityName in modelData.subentities )
+            for (let subEntityName in modelData.subentities)
             {
-                const subEntity = await this.Load(modelData.name + "/" + subEntityName);
+                const vertexOffset = (modelData.subentities[subEntityName]) ? modelData.subentities[subEntityName].offset : null;
+                const subEntity = await this.Load(modelData.name + "/" + subEntityName, vertexOffset);
                 model.subentities.push(subEntity);
             }
         }

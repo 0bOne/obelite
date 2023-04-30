@@ -1,12 +1,12 @@
 
-import jsYaml from "../dom/utilities/js-yaml.js";
-import VerticesAttribute from "./attributes/vertices-attribute.js";
-import ColorsAttribute from "./attributes/colors-attribute.js";
-import IndicesAttribute from "./attributes/indices-attribute.js";
-import NormalsAttribute from "./attributes/normals-attribute.js";
-import Texture from "./texture.js";
-import STsAttribute from "./attributes/sts-ttribute.js";
-import DomHelper from "../dom/utilities/dom-helper.js";
+import jsYaml from "../../dom/utilities/js-yaml.js";
+import VerticesAttribute from "../attributes/vertices-attribute.js";
+import ColorsAttribute from "../attributes/colors-attribute.js";
+import IndicesAttribute from "../attributes/indices-attribute.js";
+import NormalsAttribute from "../attributes/normals-attribute.js";
+import Texture from "../texture.js";
+import STsAttribute from "../attributes/sts-ttribute.js";
+import DomHelper from "../../dom/utilities/dom-helper.js";
 
 const CANVAS_SIZE = 256;
 const CANVAS_HALF = CANVAS_SIZE * 0.5;

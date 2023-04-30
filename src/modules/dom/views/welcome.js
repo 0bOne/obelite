@@ -1,4 +1,4 @@
-import ShipLoader from "../../gl/ship-loader.js";
+import ShipLoader from "../../gl/loaders/ship-loader.js";
 import ShipShowroom from "../../logic/animators/ship-showroom.js";
 import ViewBase from "./_view-base.js";
 
@@ -32,8 +32,6 @@ export default class WelcomeView extends ViewBase
     {
         const modelLoader = new ShipLoader(this.gameCtx);
         const model = await modelLoader.Load("ships/cobra-mk3");
-        //const model = await modelLoader.Load("stations/icosahedron");
-        //model.animator = new ShipShowroom(model, -5.0, -5.0);
         //model.wireframe = true;
         this.SetDemoModel(model);
     }

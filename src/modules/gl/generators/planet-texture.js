@@ -1,7 +1,7 @@
 import DomHelper from "../../dom/utilities/dom-helper.js";
 import Vector from "../../math/vector.js";
 import Texture from "../texture.js";
-import ShaderCache from "../../gl/shader-cache.js";
+import ShaderCache from "../loaders/shader-cache.js";
 
 export default class PlanetTextureGenerator {
 

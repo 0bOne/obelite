@@ -1,12 +1,12 @@
-import jsYaml from "../dom/utilities/js-yaml.js";
-import VerticesAttribute from "./attributes/vertices-attribute.js";
-import ColorsAttribute from "./attributes/colors-attribute.js";
-import IndicesAttribute from "./attributes/indices-attribute.js";
-import NormalsAttribute from "./attributes/normals-attribute.js";
-import Texture from "./texture.js";
-import STsAttribute from "./attributes/sts-ttribute.js";
-import PlanetTextureGenerator from "./generators/planet-texture.js";
-import SphereMeshGenerator from "./generators/sphere-mesh.js";
+import jsYaml from "../../dom/utilities/js-yaml.js";
+import Texture from "../texture.js";
+import VerticesAttribute from "../attributes/vertices-attribute.js";
+import ColorsAttribute from "../attributes/colors-attribute.js";
+import IndicesAttribute from "../attributes/indices-attribute.js";
+import NormalsAttribute from "../attributes/normals-attribute.js";
+import STsAttribute from "../attributes/sts-ttribute.js";
+import PlanetTextureGenerator from "../generators/planet-texture.js";
+import SphereMeshGenerator from "../generators/sphere-mesh.js";
 
 export default class PlanetLoader
 {

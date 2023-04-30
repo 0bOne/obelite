@@ -15506,7 +15506,8 @@ sts:
         0.00041, 0.08303, 0.00041, 0.0992, 0.23086, 0.08303       # #3515
     ]
 subentities: 
-  dock: ~
+  dock:
+    offset: [0, 0, 1.2857762]
   hull: ~
 library:
   use: Orbital Station

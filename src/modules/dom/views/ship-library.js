@@ -1,7 +1,8 @@
-import ShipLoader from "../../gl/ship-loader.js";
+import ShipLoader from "../../gl/loaders/ship-loader.js";
 import StatisticsExpander from "../../logic/library/statistics-expander.js";
 import DomHelper from "../utilities/dom-helper.js";
 import ViewBase from "./_view-base.js";
+import StationShowroom from "../../logic/animators/station-showroom.js";
 
 export default class ShipLibrary extends ViewBase 
 {
@@ -101,16 +102,16 @@ export default class ShipLibrary extends ViewBase
 
         if (existingModel !== itemData.model) 
         {
-            await this.loadNewModel(itemData.model, itemData);
+            await this.loadNewModel(itemData);
         }
     }
 
-    async loadNewModel(shipName) 
+    async loadNewModel(itemData) 
     {    
         this.clearScene();
         this.clearShipInfo();
         const modelLoader = new ShipLoader(this.gameCtx);
-        const modelData = await modelLoader.LoadData(shipName);
+        const modelData = await modelLoader.LoadData(itemData.model);
 
         if (modelData.limits && modelData.library)
         {
@@ -127,6 +128,11 @@ export default class ShipLibrary extends ViewBase
             newShip.worldPosition.z += modelData.library.offset[2] || 0;
         }
 
+        if (itemData.animator)
+        {
+            debugger;
+            newShip.animator = new itemData.animator(newShip);
+        }
         this.SetDemoModel(newShip);
 
     }
@@ -286,10 +292,10 @@ const Library = [{
     { title: "Quirium Cascade Mine", model: "weapons/qbomb" }]
 }, {
     name: "Installations",
-    items: [{ title: "Coriolis Station", model: "stations/coriolis" },
-    { title: "Dodecahedron Station", model: "stations/dodecahedron" },
-    { title: "Icosahedron Station", model: "stations/icosahedron" },
-    { title: "Rock Hermit", model: "stations/rock-hermit" }]
+    items: [{ title: "Coriolis Station", model: "stations/coriolis", animator: StationShowroom},
+    { title: "Dodecahedron Station", model: "stations/dodecahedron", animator: StationShowroom },
+    { title: "Icosahedron Station", model: "stations/icosahedron", animator: StationShowroom },
+    { title: "Rock Hermit", model: "stations/rock-hermit", animator: StationShowroom }]
 }, {
     name: "Miscellaneous",
     items: [{ title: "Asteroid", model: "misc/asteroid" },

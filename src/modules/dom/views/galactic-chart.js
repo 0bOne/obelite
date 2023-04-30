@@ -35,13 +35,10 @@ export default class GalacticChart extends ViewBase
 {
     zoomScale; //1 = zoomed out, 0.25 - zoomed in
 
-    visibleCanvas; //canvas visible on screen, zoomed in or out
     visibleCtx;
 
-    unlabelledCanvas; //canvas holding the full unlabelled galaxy map
     unlabelledCtx;
 
-    labelledCanvas; //canvas holding a laballed galaxy map
     labelledCtx;
 
     currentSystem;    //player is in this system/
@@ -53,19 +50,21 @@ export default class GalacticChart extends ViewBase
 
         this.AddPanel("System Atlas");
 
-        this.visibleCanvas = DomHelper.AppendElement(this.panel, Elements.ChartCanvas);
-        this.visibleCanvas.width = this.panel.clientWidth;
-        this.visibleCanvas.height = this.visibleCanvas.width / CHART_ASPECT_RATIO;
+        const visibleCanvas = DomHelper.AppendElement(this.panel, Elements.ChartCanvas);
+        visibleCanvas.width = this.panel.clientWidth;
+        visibleCanvas.height = visibleCanvas.width / CHART_ASPECT_RATIO;
 
-        this.visibleCtx = this.visibleCanvas.getContext("2d");
+        this.visibleCtx = visibleCanvas.getContext("2d");
 
-        this.unlabelledCanvas = new OffscreenCanvas(this.visibleCanvas.width * ZOOM_RATIO, this.visibleCanvas.height * ZOOM_RATIO);
-        this.unlabelledCtx = this.unlabelledCanvas.getContext("2d");
+        //ordinarily passing arg3=parent to OffScreenCanvas does nothing, 
+        //except for the firefox polyfill, which uses it to make sure the canvas gets destroyed when the parent is destroyed
+        const unlabelledCanvas = new OffscreenCanvas(visibleCanvas.width * ZOOM_RATIO, visibleCanvas.height * ZOOM_RATIO, this.panel);
+        this.unlabelledCtx = unlabelledCanvas.getContext("2d");
 
-        this.labelledCanvas = new OffscreenCanvas(this.unlabelledCanvas.width, this.unlabelledCanvas.height);
-        this.labelledCtx = this.labelledCanvas.getContext("2d");
+        const labelledCanvas = new OffscreenCanvas(this.unlabelledCtx.canvas.width, this.unlabelledCtx.canvas.height, this.panel);
+        this.labelledCtx = labelledCanvas.getContext("2d");
 
-        this.chartScaleX = 256 / this.unlabelledCanvas.width;
+        this.chartScaleX = 256 / this.unlabelledCtx.canvas.width;
         this.chartScaleY = this.chartScaleX * CHART_ASPECT_RATIO;
 
         //amount of zoom per second for animation duration
@@ -109,7 +108,7 @@ export default class GalacticChart extends ViewBase
         this.initUnlabelledChart();
         this.initLabelledChart();
 
-        this.visibleCanvas.addEventListener("click", this.onCanvasClicked.bind(this));
+        this.visibleCtx.canvas.addEventListener("click", this.onCanvasClicked.bind(this));
         this.interpolateOffset();
         this.drawFrame(this.visibleCtx);
 
@@ -127,7 +126,7 @@ export default class GalacticChart extends ViewBase
     initLabelledChart()
     {
         //blit to the labelled canvas
-        this.labelledCtx.drawImage(this.unlabelledCanvas, 0, 0);
+        this.labelledCtx.drawImage(this.unlabelledCtx.canvas, 0, 0);
         this.renderLabels(this.labelledCtx);
     }
 
@@ -159,18 +158,18 @@ export default class GalacticChart extends ViewBase
         {
             system.zoomInOffset.X = minX;
         }
-        else if (maxX > this.visibleCanvas.width)
+        else if (maxX > this.visibleCtx.canvas.width)
         {
-            system.zoomInOffset.X = this.visibleCanvas.width - maxX;
+            system.zoomInOffset.X = this.visibleCtx.canvas.width - maxX;
         }
 
         if (minY < 0)
         {
             system.zoomInOffset.Y = minY; 
         }
-        else if (maxY > this.visibleCanvas.height)
+        else if (maxY > this.visibleCtx.canvas.height)
         {
-            system.zoomInOffset.Y = this.visibleCanvas.height - maxY;
+            system.zoomInOffset.Y = this.visibleCtx.canvas.height - maxY;
         }
     }
 
@@ -323,13 +322,13 @@ export default class GalacticChart extends ViewBase
 
     drawFrame(targetCtx)
     {
-        let sourceCanvas = (this.zoomScale <= LABEL_DISAPPEARANCE_ZOOM) ? this.unlabelledCanvas : this.labelledCanvas;
+        let sourceCtx = (this.zoomScale <= LABEL_DISAPPEARANCE_ZOOM) ? this.unlabelledCtx : this.labelledCtx;
 
-        targetCtx.clearRect(0, 0, this.visibleCanvas.width, this.visibleCanvas.height);
+        targetCtx.clearRect(0, 0, this.visibleCtx.canvas.width, this.visibleCtx.canvas.height);
         targetCtx.save();
 
         targetCtx.setTransform(this.zoomScale, SKEW_NONE, SKEW_NONE, this.zoomScale, this.offset.X, this.offset.Y);
-        targetCtx.drawImage(sourceCanvas, 0, 0);
+        targetCtx.drawImage(sourceCtx.canvas, 0, 0);
         this.drawCursor(targetCtx);
 
         targetCtx.restore();
@@ -432,9 +431,9 @@ export default class GalacticChart extends ViewBase
 
         //TODO: cursor can go off canvas when zoomed out: get min and max star location and constrain to those instead
         this.cursor.X = (this.cursor.X < 0) ? 0: this.cursor.X;
-        this.cursor.X = (this.cursor.X > this.unlabelledCanvas.width) ? this.unlabelledCanvas.width: this.cursor.X;
+        this.cursor.X = (this.cursor.X > this.unlabelledCtx.canvas.width) ? this.unlabelledCtx.canvas.width: this.cursor.X;
         this.cursor.Y = (this.cursor.Y < 0) ? 0: this.cursor.Y;
-        this.cursor.Y = (this.cursor.Y > this.unlabelledCanvas.height) ? this.unlabelledCanvas.height: this.cursor.Y;
+        this.cursor.Y = (this.cursor.Y > this.unlabelledCtx.canvas.height) ? this.unlabelledCtx.canvas.height: this.cursor.Y;
     }
 
     selectNearestSystem()

@@ -14,6 +14,8 @@ export default class Scene
 
     constructor(gameCtx) 
     {
+        this.sceneHeight = 0;
+        this.sceneWidth = 0;
         this.frameNumber = 0;
         this.gl = gameCtx.gl;
         this.gameCtx = gameCtx;
@@ -24,23 +26,29 @@ export default class Scene
         this.gl.depthFunc(this.gl.LEQUAL); // Near things obscure far things
         this.gl.clear(this.gl.COLOR_BUFFER_BIT | this.gl.DEPTH_BUFFER_BIT);
 
-        this.createCameraMatrix();
     }
 
-    createCameraMatrix()
+    checkCameraMatrix()
     {
-        const fieldOfView = (45 * Math.PI) / 180; // in radians
-        const aspect = this.gl.canvas.clientWidth / this.gl.canvas.clientHeight;
-        const zNear = 0.1;
-        const zFar = 100.0;
+        if (this.sceneWidth !== this.gl.canvas.clientWidth || this.sceneHeight !== this.gl.canvas.clientHeight)
+        {
+            this.gl.viewport(0, 0, this.gl.canvas.width, this.gl.canvas.height);
+            this.sceneWidth = this.gl.canvas.clientWidth;
+            this.sceneHeight = this.gl.canvas.clientHeight;
+            const fieldOfView = (45 * Math.PI) / 180; // in radians
+            const aspect = this.sceneWidth / this.sceneHeight;
+            const zNear = 0.1;
+            const zFar = 100.0;
 
-        this.projectionMatrix = new SquareMatrix(4);
-        this.projectionMatrix.setPerspective(fieldOfView, aspect, zNear, zFar);
-        this.viewMatrix = new SquareMatrix(4);
+            this.projectionMatrix = new SquareMatrix(4);
+            this.projectionMatrix.setPerspective(fieldOfView, aspect, zNear, zFar);
+            this.viewMatrix = new SquareMatrix(4);
+        }
     }
 
     Draw() 
     {
+        this.checkCameraMatrix();
         this.gl.clear(this.gl.COLOR_BUFFER_BIT | this.gl.DEPTH_BUFFER_BIT);
         this.frameNumber++;
         this.models.forEach(model => {
@@ -48,6 +56,7 @@ export default class Scene
             if (model.subentities)
             {
                 model.subentities.forEach(subModel => {
+                    subModel.wireframe = model.wireframe;
                     this.drawModel(subModel);
                 });
             }
@@ -100,6 +109,7 @@ export default class Scene
 
         const offset = 0;
         let DRAW_MODE = model.GL_DRAW_MODE || this.gl.TRIANGLES;
+        DRAW_MODE = (model.wireframe === true) ? this.gl.LINES: DRAW_MODE;
 
 
         if (model.hasIndices === true) 

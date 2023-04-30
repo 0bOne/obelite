@@ -218,9 +218,9 @@ sts:
         0.98745, 0.01277, 0.01182, 0.9884, 0.98745, 0.9884      # #49
     ]
 subentities:
-  dock: ~
-  faceplate: 
-   position: [0, 0, 1.001]
+  dock: 
+   offset: [0, 0, 1.0005122]
+  faceplate: ~
   trigs: ~
 library:
   use: Orbital Station

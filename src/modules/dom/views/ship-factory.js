@@ -1,4 +1,4 @@
-import ShipLoader from "../../gl/ship-expander.js";
+import ShipLoader from "../../gl/loaders/ship-expander.js";
 import ViewBase from "./_view-base.js";
 
 export default class ShipFactory extends ViewBase

@@ -1,6 +1,6 @@
 import DomHelper from "../utilities/dom-helper.js";
 import ViewBase from "./_view-base.js";
-import PlanetLoader from "../../gl/planet-loader.js";
+import PlanetLoader from "../../gl/loaders/planet-loader.js";
 import PlanetShowroom from "../../logic/animators/planet-showroom.js";
 
 const CANVAS_DIMENSION = 400;
