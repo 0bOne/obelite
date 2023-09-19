@@ -7,11 +7,13 @@ const INFO_MESSAGES = [
 ]
 
 const INFO_NOTES = [
-    "Guide to implementation state:",
+    "When you take off the training wheels and slough off the security blankets:",
     " ",
-    "POCQ: Working to POC quality, but some features rough or unfinished",
-    "TODO:  Feature not yet implemented",
-    "DONE: Feature fully working"
+    "The universe is the limit",
+    "No Typescript training pants",
+    "No React sleep-aids",
+    "No gimmicks, clutter, comfort toys or noise",
+    "Just plain, clean JS, with a mild sprinkle of GLSL"
 ]
 
 export default class WelcomeView extends ViewBase
