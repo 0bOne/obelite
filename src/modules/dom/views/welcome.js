@@ -12,6 +12,7 @@ const INFO_NOTES = [
     "The universe is the limit",
     "No Typescript training pants",
     "No React sleep-aids",
+    "No Unity uncertainty",
     "No gimmicks, clutter, comfort toys or noise",
     "Just plain, clean JS, with a mild sprinkle of GLSL"
 ]
