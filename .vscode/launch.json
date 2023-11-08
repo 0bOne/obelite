@@ -11,7 +11,10 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\tools\\experiments\\generator2.js"
+            "program": "${workspaceFolder}/services/proxy/main.js",
+            "env": {
+                "ENV": "local"
+            }
         }
     ]
 }

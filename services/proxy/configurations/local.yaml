@@ -1,0 +1,20 @@
+port: 90
+defaultHost: www.localhost
+hosts:
+- name: www.localhost
+  defaultPath: /v0
+  paths:
+  - path: /v0
+    name: content service
+    protocol: "http:"
+    port: 91
+    entryPoint: ../content/main.js
+- name: api.localhost
+  defaultPath: /v0
+  paths:
+  - path: /v0
+    name: api service
+    protocol: "http:"
+    port: 92
+    entryPoint: ../api/main.js 
+# define other hosts here:

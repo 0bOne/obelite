@@ -1,0 +1,7 @@
+- src: legacy webGL client. Deprecated.
+- services: back-end services
+- data: environment, seed + back-end data
+- docs: documentation
+- clients: micro client code
+- tests: test pyramid tests
+- deploy: deployment code, if needed

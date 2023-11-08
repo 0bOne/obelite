@@ -1,0 +1,3 @@
+- proxy: An inbound proxy that starts other services and routes http requests to them. Used in local and self-hosted environments.
+- content: An HTTP content server supporting compression, cacheing, and on-the-fly yaml-to-json expansion
+- api: A backend api server in which enpoints are defined as metadata-driven pipelines
