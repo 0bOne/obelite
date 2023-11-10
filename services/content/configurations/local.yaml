@@ -1,0 +1,10 @@
+docRoot: ../../../clients
+cache: true
+compression: true
+responseHeaders:
+  Content-Security-Policy: 
+    - img-src *
+    - default-src 'self'
+    - connect-src 'self' http://localhost:91
+    - font-src 'self' fonts.gstatic.com
+    - style-src 'self' fonts.googleapis.com 'unsafe-inline'

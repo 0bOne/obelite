@@ -1,0 +1,10 @@
+# yaml representation of html. converted by content server
+extends: _common.yaml
+head:
+  - title: Hello Obelite
+  - script:
+      type: module
+      src: ./modules/index.js     
+body:
+  - div: {classNames: [a b c], text: hello universe}
+  - img: {src: ./small-star.webp, width: 48, height: 48}

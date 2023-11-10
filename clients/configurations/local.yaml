@@ -1,0 +1,3 @@
+#client-side configuration file for the 'local' environment
+apiRoot: http://api.localhost/v0
+

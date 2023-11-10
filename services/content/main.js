@@ -1,21 +1,50 @@
-const http = require('http');
+const fs = require("node:fs");
+const path = require("node:path");
+const yaml = require("yaml");
+const ContentServer = require("./content-server");
 
-const port = process.env.port;
-if (!isFinite(port)) throw "please set env variable 'port'";
+const RouteHandler = require("./handlers/route-handler");
+const ContentExpander = require("./handlers/content-expander");
+const CacheReader = require("./handlers/cache-reader");
+const CacheWriter = require("./handlers/cache-writer");
+const CompressionRouter = require("./handlers/compression-router");
+const CompressionStreamer = require("./handlers/compression-streamer");
 
 
-// Create a server object
-const server = http.createServer((req, res) => {
-  // Set the response HTTP header with HTTP status and Content type
-  res.writeHead(200, {'Content-Type': 'text/plain'});
+const env = process.env.ENV;
+if (!env) throw "missing environment variable ENV";
 
-  // Send the response body "Hello, World!"
-  res.end('Hello, Content World!\n');
-});
+const configPath = path.join(__dirname, "configurations", env + ".yaml");
+if (!fs.existsSync(configPath)) throw "missing enviroment config file " + configPath;
+const configYaml = "" + fs.readFileSync(configPath);
+const config = yaml.parse(configYaml);
 
-// The server listens on port 3000
-server.listen(port, () => {
-  console.log(`content server running at http://localhost:${port}/`);
-});
+if (!isFinite(process.env.port)) throw "please set env variable 'port'";
+config.port = process.env.port;
+config.env = env;
+
+const fileTypePath = path.join(__dirname, "configurations", "file-types.yaml");
+const fileTypeYaml = "" + fs.readFileSync(fileTypePath);
+config.fileTypes = yaml.parse(fileTypeYaml);
+
+const dependencies = {
+	config: config,
+	handlers: [
+		//always first as it figures out default documents, underlying yaml, and file stats
+		new RouteHandler(config),  
+		//additional routing when the browser supports compression. appends .br extension if browser header present
+		new CompressionRouter(config),  
+		//EARLY RETURN ON CACHE HIT
+		new CacheReader(config),
+		//converts yaml to html and json as needed, or creates a read stream for other files
+		new ContentExpander(config),
+		//creates a compression stream if browser header present
+		new CompressionStreamer(config),
+		//writes to the cache AND returns to the client if enabled
+		new CacheWriter(config)
+	]
+};
+
+const server = new ContentServer(dependencies);
 
 

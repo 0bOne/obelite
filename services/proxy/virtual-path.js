@@ -77,7 +77,8 @@ module.exports = class VirtuaPath{
     }
 
     onClose(code) {
-        console.log(`[${name}] child process exited with code ${code}`);
+        console.log(`[${this.name}] child process exited with code ${code}`);
+        throw "unexpected child process shutdown";
     }
 
     shutdown() {

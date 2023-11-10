@@ -10,11 +10,7 @@ module.exports = class VirtualHost {
         console.log("initializing virtual host handler", this.name);
         config.paths.forEach(pathConfig => {
             this.pathHandlers[pathConfig.path] = new VirtualPath(pathConfig);
-            if (pathConfig.path === config.defaultPath) {
-                this.defaultHandler = this.pathHandlers[pathConfig.path];
-            }
         });
-        if (!this.defaultHandler) throw " default path not set or recognized in config for host "  + this.name;
         this.pathKeys = Object.keys(this.pathHandlers);
     }
 
@@ -34,8 +30,13 @@ module.exports = class VirtualHost {
                 pathHandler = this.pathHandlers[this.pathKeys[k]];
                 break;
             }
-        }        
-        pathHandler.handleRequest(clientReq, clientRes);
+        }
+        if (pathHandler) {        
+            pathHandler.handleRequest(clientReq, clientRes);
+        } else {
+            clientRes.writeHead(404);
+            clientRes.end();
+        }
     }
 
     shutdown() {

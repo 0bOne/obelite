@@ -1,0 +1,46 @@
+#narrow set of supported ffile types
+png:
+  mime: image/png
+  compressible: false
+  encoding: ~
+jpg: 
+  mime: image/jpeg
+  compressible: false
+  encoding: ~
+gif: 
+  mime: image/gif
+  compressible: false
+  encoding: ~
+webp: 
+  mime: image/webp
+  compressible: true
+  encoding: ~
+ico: 
+  mime: image/x-icon
+  compressible: false
+  encoding: ~
+js:
+  mime: application/javascript
+  compressible: true
+  encoding: utf-8
+html: 
+  mime: text/html
+  compressible: true
+  encoding: utf-8
+svg: 
+  mime: image/svg+xml
+  compressible: true
+  encoding: utf-8
+css: 
+  mime: text/css
+  compressible: true
+  encoding: utf-8
+json: 
+  mime: application/json
+  compressible: true
+  encoding: utf-8
+#allow wgsl to be embedded in headers by making it js
+wgsl: 
+  mime: application/js
+  compressible: true
+  encoding: utf-8

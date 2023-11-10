@@ -23,12 +23,7 @@ module.exports = class ProxyServer {
 
         this.config.hosts.forEach(hostConfig => {
             this.hosts[hostConfig.name] = new VirtualHost(VirtualPath, hostConfig);
-            if (hostConfig.name === this.config.defaultHost) {
-                this.defaultHost = this.hosts[hostConfig.name];
-            }
         });
-
-        if (!this.defaultHost) throw "default host not configured or not recognized in " + configPath;
 
 
         process.on('SIGINT', this.handleShutdown.bind(this));
@@ -45,8 +40,13 @@ module.exports = class ProxyServer {
 
     handleRequest(clientReq, clientRes) {
         const hostname = clientReq.headers.host.split(':')[0];
-        const host = this.hosts[hostname] || this.defaultHost;
-        host.handleRequest(clientReq, clientRes);
+        const host = this.hosts[hostname];
+        if (host) {
+            host.handleRequest(clientReq, clientRes);
+        } else {
+            clientRes.writeHead(404);
+            clientRes.end();
+        }
     }
 
     handleShutdown() {
