@@ -1,5 +1,5 @@
 docRoot: ../../../clients
-cache: true
+cache: false
 compression: true
 responseHeaders:
   Content-Security-Policy: 

@@ -45,7 +45,7 @@ module.exports = class RouteHandler {
         context.source = path.format(parsed).split("\\").join("/");
 
         await this.loadfileStats(context);
-        if (!context.stats.size === -1) {
+        if (context.stats.size === -1) {
             context.code = 404;
             context.stats.size = 0;
             return;

@@ -1,0 +1,14 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path 
+    fill = "currentColor"
+    stroke = "currentColor"
+      transform="translate(-3, -3)"
+    d = "M 33.696 11.88 L 25.465 36.774 L 41.224 36.875 L 34.298 58.877 L 37.811 58.877 L 46.545 32.96 L 30.484 33.161 L 38.012 12.281 Z" />
+  <circle 
+    fill = "none"
+    stroke = "currentColor"
+    stroke-width ="4"
+    cx="32" 
+    cy="32" 
+    r="24" />
+</svg>

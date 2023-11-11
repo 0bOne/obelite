@@ -1,11 +1,24 @@
+import LessEl from "./lessel/less-el.js";
 
 export default class IndexPage {
-    constructor() {
+    constructor() {}
 
+    async Begin() {
+        //alert ("this is the index page at" + new Date());
+        const L = LessEl;
+        await LessEl.Create(document.body, iconElement);
     }
+}
 
-    Begin() {
-        alert ("this is the index page at" + new Date());
+const iconElement = {
+    styles: {
+        width: "64px",
+        height: "64px",
+        color: "white",
+        backgroundColor: "black",
+    },
+    svg: {
+        src: "./icons/gear-wheat-3.svg"
     }
 }
 

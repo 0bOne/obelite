@@ -1,0 +1,8 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <path 
+    fill = "currentColor"
+    stroke = "currentColor"
+    stroke-linejoin = "round"
+    stroke-linecap = "round"
+    d = "M 32.097 6.227 L 38.026 23.788 L 56.081 24.166 L 41.69 35.398 L 46.92 53.193 L 32.097 42.574 L 17.274 53.193 L 22.504 35.398 L 8.113 24.166 L 26.168 23.788 Z" 
+</svg>

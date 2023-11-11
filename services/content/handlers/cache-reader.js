@@ -18,11 +18,14 @@ module.exports = class CacheReader {
         }
         const cacheEntry = this.cache[context.url];
         if (cacheEntry) {
+            cacheEntry.headers["x-cache-hit"] = "1";
             context.buffer = cacheEntry.buffer;
             context.responseHeaders = cacheEntry.headers;  
             context.stats = cacheEntry.stats;  
             context.fileType = cacheEntry.fileType;
             context.code = 200;
         }
+
+
     }
 }

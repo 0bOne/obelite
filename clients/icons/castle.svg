@@ -1,0 +1,11 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+<g stroke-width="4" fill="transparent" stroke="currentColor">
+  <path id="outer" 
+    d="M 11.82 56.253 L 11.82 7.555 L 19.612 7.669 L 19.656 16.243 L 27.658 16.234 L 27.744 7.783 L 35.423 7.783 L 35.5 16.199 L 43.655 16.024 L 43.69 7.783 L 51.572 7.669 L 51.572 55.682 L 11.82 56.253 Z"/>
+  <path id="door" 
+    stroke-linejoin="round" stroke-linecap="round"
+    d="M 23.341 55.535 L 23.265 43.608 L 25.164 38.29 L 31.85 36.391 L 37.32 37.986 L 39.751 43.912 L 39.903 55.156 L 23.341 55.535 Z"/>
+  <path id="divider" 
+    d="M 31.622 36.752 L 31.622 54.301" />
+</g>
+</svg>

@@ -38,14 +38,10 @@ module.exports = class ContentServer {
             }
         }
 
-
-        //TODO: additional headers
-        if (context.buffer) {
-            context.code = context.code || 200;
-            res.writeHead(context.code, context.responseHeaders);
-            res.end(context.buffer);
-        } else {
-            debugger; //unexpected
-        }
+        //TODO: security headers
+        context.code = context.code || 200;
+        res.writeHead(context.code, context.responseHeaders);
+    
+        res.end(context.buffer);
     }
 }

@@ -1,0 +1,27 @@
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" >
+    <g id="gear1" transform="rotate(10, 32, 19) translate(-8, 4)">
+        <circle fill="transparent" stroke="currentColor" cx="32" cy="19" r="10" stroke-width="4" />
+        <g id="teeth " fill="currentColor" stroke="currentColor">
+            <path id="tooth1" d="M 29 10 L 35 10 L 33 4 L 31 4 Z" />
+            <use href="#tooth1" transform="rotate(36, 32, 19)" />
+            <use href="#tooth1" transform="rotate(72, 32, 19)" />
+            <use href="#tooth1" transform="rotate(108, 32, 19)" />
+            <use href="#tooth1" transform="rotate(144, 32, 19)" />
+            <use href="#tooth1" transform="rotate(180, 32, 19)" />
+            <use href="#tooth1" transform="rotate(216, 32, 19)" />
+            <use href="#tooth1" transform="rotate(252, 32, 19)" />
+            <use href="#tooth1" transform="rotate(288, 32, 19)" />
+            <use href="#tooth1" transform="rotate(324, 32, 19)" />
+            <circle id="hub1" 
+                fill="currentColor" 
+                stroke="currentColor" 
+                cx="32"
+                cy="19"
+                r="2"
+            />
+        </g>
+    </g>
+    <use href="#gear1" transform="translate(14, 29.5) scale(0.8)" />
+    <use href="#gear1" transform="translate(34, 16) scale(0.6)" />
+
+</svg>

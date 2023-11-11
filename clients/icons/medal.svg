@@ -1,0 +1,28 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path id="topArm" 
+    fill="currentColor" 
+    stroke="currentColor" 
+    stroke-linejoin="round" 
+    stroke-linecap="round"
+      d="M 32.323 4.258 L 35.656 14.179 L 33.97 17.279 L 32.556 14.722 L 31.262 17.217 C 30.023 15.464 29.043 14.154 29.068 14.179 L 32.323 4.258 Z" id="arm&quot; style=&quot;fill: rgb(255, 0, 0 ); stroke: rgb(255, 0, 0); stroke-linejoin: round; stroke-linecap: round;" 
+    />
+    <use href="#topArm" transform="rotate(72, 32.5, 19.5)" />
+    <use href="#topArm" transform="rotate(144, 32.5, 19.5)" />
+    <use href="#topArm" transform="rotate(216, 32.5, 19.5)" />
+    <use href="#topArm" transform="rotate(288, 32.5, 19.5)" />
+
+    <rect id="ribbon-bar"
+      fill="currentColor"
+      stroke="currentColor"
+      stroke-linejoin="round" 
+      stroke-linecap="round"
+      x="16" y="35" width="32" height="2.5" 
+    />
+  <g id='ribbon' fill="currentColor", stroke="currentColor"   
+  stroke-linejoin="round"     stroke-linecap="round">
+    <path id="middle" d="M 28 39 L 37 39 L 32 58 Z"/>
+    <path id="left"   d="M 25 39 L 20 39 L 30 58 Z" />
+    <path id="right"  d="M 40 39 L 45 39 L 34 58 Z" />
+</g>
+<!--32, 18/19-->
+</svg>

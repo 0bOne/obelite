@@ -1,0 +1,10 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <path 
+    fill = "transparent"
+    stroke = "currentColor"
+    no-stroke-linejoin = "round"
+    stroke-linecap = "round"
+    stroke-width = "2px"
+    d="M 31.097 9.595 L 36.257 24.877 L 51.97 25.207 L 39.446 34.982 L 43.997 50.468 L 31.097 41.227 L 18.197 50.468 L 22.748 34.982 L 10.224 25.207 L 25.937 24.877 Z" 
+  />
+</svg>

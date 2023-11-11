@@ -1,0 +1,21 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <polygon 
+    id="letter_c"
+    fill = "currentColor"
+    stroke = "currentColor"
+    stroke-lineca = "round"
+    stroke-linejoin = "round"
+    points = "44.671 27.691 44.406 19.39 19.944 19.567 20.033 44.293 44.582 44.028 44.494 36.434 50.146 38.465 50.146 45.618 47.938 47.649 16.235 47.561 14.911 45.265 14.557 18.419 16.412 16.123 47.143 15.77 49.969 17.712 50.058 25.572"/>
+  <path 
+  id="downstroke1" 
+    fill = "currentColor"
+    stroke = "currentColor"
+    stroke-width = "4"
+    d = "M 26.303 6.281 L 28.245 57.854" />
+  <path 
+    id="downstroke2"
+    fill = "currentColor"
+    stroke = "currentColor"
+    stroke-width = "4"
+    d = "M 36.546 57.854 L 38.313 6.281"  />
+</svg>
