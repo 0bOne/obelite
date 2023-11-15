@@ -1,10 +1,6 @@
 # yaml representation of html. converted by content server
-extends: _common.yaml
-head:
-  - title: Hello Obelite
-  - script:
-      type: module
-      src: ./modules/index.js     
-body:
-  - div: {classNames: [a b c], text: hello universe}
-  - img: {src: ./small-star.webp, width: 48, height: 48}
+extends: _common.yaml             # inherits from. inheritance can be chained
+title: Hellow Obelite             # gets converted into a title element in the head array
+module: ./modules/pages/index.js  # gets converted into a script element in the head array
+# could have 'head' - array of elements. if so, adds to those in 'extends' yaml
+# same for 'body'

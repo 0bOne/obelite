@@ -47,6 +47,13 @@ module.exports = class ContentExpander {
 
     async serveYamlAsHtml(context) {
         let page = await this.loadInheritedYaml(context.source);
+        if (page.title) {
+            page.head.push({title: {text: page.title}});
+        }
+        if (page.module) {
+            page.head.push({script: {type: "module", src: page.module}});
+        }
+
         const body = this.toHTMLPage(page);
         context.buffer = Buffer.from(body, context.fileType.encoding);
         context.stats.size = body.length;
@@ -148,10 +155,10 @@ module.exports = class ContentExpander {
 
             //head and body are arrays of elements, so they must be inherited differently from the main document
             //TODO: build an object deep clone to simplify + SRP this
-            const inheritingHead = result.head;
-            const inheritingBody = result.body;
-            const inheritedHead = inheritedResult.head;
-            const inheritedBody = inheritedResult.body;
+            const inheritingHead = result.head || [];
+            const inheritingBody = result.body || [];
+            const inheritedHead = inheritedResult.head || [];
+            const inheritedBody = inheritedResult.body || [];
             delete result.head;
             delete result.body;
             delete inheritedResult.head;
@@ -159,6 +166,8 @@ module.exports = class ContentExpander {
             result = Object.assign({}, inheritedResult, result);
             result.head = [...inheritedHead, ...inheritingHead];
             result.body = [...inheritedBody, ...inheritingBody];
+            result.title = result.title || inheritedResult.title;
+            result.module = result.module || inheritedResult.module;
         }
         delete result.extends;
         return result;

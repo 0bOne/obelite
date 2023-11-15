@@ -7,20 +7,5 @@ head:
       name: viewport
       context: "width=device-width"
       initial-scale: 1
-    #include a google font as an example
-  - link: 
-      rel: preconnect
-      href: https://fonts.gstatic.com
-      crossorigin: ~
-  - link:
-      rel: stylesheet
-      href: https://fonts.googleapis.com/css2?family=Mulish:wght@700;800&display=swap 
-  - style:
-      "*": 
-        font-family: Mulish,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans
-      "html, body":
-        padding: 10px
-        margin: 10px
-        height: 100%
 body:
   - noscript: please enable javascript to continue

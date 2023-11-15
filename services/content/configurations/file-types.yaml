@@ -1,4 +1,8 @@
 #narrow set of supported ffile types
+woff2:
+  mime: font/woff2 
+  compressible: false,
+  encoding: ~
 png:
   mime: image/png
   compressible: false

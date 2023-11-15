@@ -1,5 +1,4 @@
 const http = require('http');
-const { connected } = require('process');
 
 module.exports = class ContentServer {
     constructor(dependencies) {
@@ -16,7 +15,7 @@ module.exports = class ContentServer {
 
     async handleRequest(req, res) {
 
-
+        const startTime = new Date().getTime();
         const urlParts = req.url.split("?");
 
         const context = {
@@ -24,6 +23,7 @@ module.exports = class ContentServer {
             query: urlParts[1],
             requestHeaders: req.headers,
             code: 0,
+            stats: {},
             responseStream: null,
             responseHeaders: {}
         };
@@ -37,6 +37,9 @@ module.exports = class ContentServer {
                 break;
             }
         }
+
+        const endTime = new Date().getTime();
+        context.responseHeaders["x-svr-exec-ms"] = endTime - startTime;
 
         //TODO: security headers
         context.code = context.code || 200;

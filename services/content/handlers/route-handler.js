@@ -33,7 +33,6 @@ module.exports = class RouteHandler {
         context.fileType = this.fileTypes[ext];
         if (!context.fileType) {
             context.code = 415
-            context.stats.size = 0;
             return;
         }
         context.fileType.ext = ext;
