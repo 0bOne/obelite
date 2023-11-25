@@ -48,3 +48,6 @@ wgsl:
   mime: application/js
   compressible: true
   encoding: utf-8
+mgs: 
+  mime: text/mgscript
+  

@@ -1,0 +1,51 @@
+metadata:
+  name: cube
+  pipeline: red-square
+  description: cube mesh definition
+  anything else: here
+mesh:
+  includes: ~ # TODO:
+  transform:     x * 2 y ** 0.8
+  origin: ~   # defaults to 0,0,0
+  normals: clockwise  #clockwise is default.  alt: "anticlockwise", or "projected" (from "origin") 
+templates:  #TODO: an object that contains non-rendering reusable faces
+#any other keyword is a face id
+materials:
+  _:       #default
+    color: FF80A0
+    # TODO: metalness, specularity, roughness, gloss (emissivity?, refractiveIndex?)
+back:
+  # p0 is  origin for rotations + reflections and shared triangle vertex
+  p0: x=-.5 y= .5 z=.75  #BL
+  p1: x= .5 y= .5 z=.75  #BR
+  p2: x= .5 y=-.5 z=.75  #TR
+  p3: x=-.5 y=-.5 z=.75  #TL
+front:
+  p0-3: back/p3-0/z-0.5  #TL, #TR, #BR, #BL
+left:
+  p0: x=-.5 y= .5 z= .75
+  p1: x=-.5 y=-.5 z= .75
+  p2: x=-.5 y=-.5 z= .25
+  p3: x=-.5 y= .5 z= .25    
+right:
+  p0-3: left/p3-0/x+1
+top:
+  p0: x=-.5 y=-.5 z=.25
+  p1: x=-.5 y=-.5 z=.75
+  p2: x= .5 y=-.5 z=.75 
+  p3: x =.5 y=-.5 z=.25
+bottom:
+  p0-3: top/p3-0/y+1
+
+# TODO:
+# need to be able to import subtrees from other files or templates
+# need to be able to subtract which changes triangles of both faces
+#  if point clone has more targets than sources, should round robin. vice-versa, truncate
+# a complex face can replace a face at a lower level of detail with the 'replaces' keyword
+# reflect transform operator x|{index}  reflects across point number's x value. point defaults to zero.
+# split operator pN < inserts a new point at N, incrementing all higher indexes. both have same value
+# merge operator pN > removes N+1. decrements all higher indexes.
+
+
+
+

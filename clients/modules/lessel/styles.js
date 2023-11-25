@@ -21,10 +21,9 @@ export default class Styles {
         }
         
         for (let [key, value] of Object.entries(definition)){
-            //if (value.startsWith("-")) {
             if (key === "extends") {
                 continue;
-            } else if (value.toString().startsWith("-")) {
+            } else if (typeof value === "string" && value.startsWith("-")) {
                 value = "var(--" + value.substring(1) + ")";
             }
             target[key] = value;

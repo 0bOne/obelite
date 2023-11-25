@@ -1,0 +1,159 @@
+import NanoYaml from "./nano-yaml.js";
+
+export default class MgScript {
+
+    constructor() {
+    }
+
+    async FromUrl(url) {
+        const meshDefinition = await NanoYaml.FromUrl(url);
+        let
+        if (meshDefinition.length > 0) {
+
+        } 
+        debugger;
+    } 
+
+    toMergeOrSplitExpression(expression) {
+        result = expression;
+    }
+
+    toInteger(expression) {
+        if (expression === "~") {
+            return null;
+        }
+        if (expression.indexOf(".") > -1) {
+            throw `decimal point found in expected value '${expression}' at line ${this.currentLine}`;
+        }
+        const result = parseInt(expression);
+        if (isFinite(result) === false) {
+            throw `'${expression}' is not an integer at line ${this.currentLine}`;
+        }
+        return result;
+    }
+
+    toNormalRule(expression) {
+        if (NORMAL_RULES.includes(expression) === false) {
+            throw `unrecognized normal rule '${expression} at line ${this.currentLine}`;
+        }
+        return expression;
+    }
+
+    toTransformation(expression) {
+        //expand transformation syntax
+        const expanded = expression.replace("**", ",m:*") //multiply(scale) any defined axes
+                                .replace("++", ",m:+")    //add (translate) any defined axes
+                                .replace("--", ",m:-")    //subtract (translate) any defined axes
+                                .replace("x", ",x:")
+                                .replace("y", ",y:")
+                                .replace("z", ",z:")
+                                .split(" ").join("");
+
+        const result = this.parseTransformExpression(expanded);
+        return result;
+    }
+
+   
+
+
+
+    toUrl(expression) {
+        try {
+            return new URL(expression);
+        } catch (e) {
+            throw "invalid url at line " + this.currentLine;
+        }
+    }
+
+    expressionFormat(specifier) {
+        const result = 
+            (typeof specifier === "object") ? this.currentBlock.syntax.pN: null
+            || this.currentBlock.syntax["*"]
+            || this.currentBlock.syntax[specifier]
+            || "invalid";
+        return result;
+    }
+
+    isSpecifierLegal(specifier) {
+        const result = this.currentBlock.syntax["*"]
+            || this.currentBlock.syntax[specifier] 
+            || (this.currentBlock.syntax.pN && typeof specifier === "object");
+        return result;
+    }
+
+    toPointSpecifier(specifier) {
+        //convert these forms into a point array: p0,  p0-3, p0,1,4
+        let results = specifier;
+        if (specifier.startsWith("p")) {
+            results = {};
+            specifier = specifier.substring(1).split(" ").join("");
+            const commaParts = specifier.split(",");    
+            commaParts.forEach(range => {
+                const rangeParts = range.split("-");
+                const first = parseInt(rangeParts.shift());
+                const last = parseInt(rangeParts.pop() || first);
+                const increment = (last >= first) ? 1 : -1;  //iteration backwards sometimes needed
+                for (let i = first; i <= last; i += increment) {
+                    results[i] = true;
+                }
+            });
+        }
+
+        return results;
+    }
+
+    toColorArray(expression) {
+        if (expression.length !== 6 && expression.length !== 8) {
+            throw "color expression must be 6 or 8 characters at line " + this.currentLine;
+        }
+        const r = this.toColorComponent("red", expression, 0);
+        const g = this.toColorComponent("green", expression, 2);
+        const b = this.toColorComponent("blue", expression, 4);
+
+        const result = [r, g, b];
+        if (expression.length === 8) {
+            const a = this.toColorComponent("alpha", expression, 6);
+            result.push(a);
+        }
+        return result;
+    }
+
+    toColorComponent(name, expression, position) {
+        const value = expression.substring(position, position + 2);
+        const result = parseInt(value, 16);
+        if (isNaN(result) || result < 0 || result > 255) {
+            throw `invalid ${name} color component (${value}) at line ${this.currentLine}. Must be 00-FF`;
+        }
+        return result;
+    }
+}
+
+
+
+const BLOCK_SYNTAX = {
+    metadata: {
+        "*": "string",
+        help: "any metadata about the script. can have any property or none"
+    },
+    mesh: {
+        extends: "url",
+        origin: "transformation",
+        transform: "transformation",
+        normals: "normalrule",
+        help: "mesh-wide options"
+    },
+    material: {
+        id: "string",
+        color: "color",
+        //TODO: metalness, specularity, roughness, gloss (emissivity?, refractiveIndex?)
+    },
+    face: {
+        id: "string",
+        material: "string",
+        lod: "int",
+        pN: "pointExpression"
+    }
+};
+
+
+

@@ -28,7 +28,6 @@ export default class StyleSheet {
     }
 
     AddStyleRules(rules, selector = "") {
-
         selector = selector.trim();
         let relationship = rules.$rel || " "; //relationship with parent. defaults to ' ' (any descendant of)
         let suffix = rules.$suffix || "";  //indicates this selector attributes, properties, pseodo style suffixes

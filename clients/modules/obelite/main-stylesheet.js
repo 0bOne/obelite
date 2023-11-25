@@ -35,7 +35,10 @@ const MainStyleSheet = {
         _fontBold: {
             fontFamily: 'AlmaraiBold'
         },
-        HTML: noPaddingMarginBorder,
+        HTML: {
+            extends: noPaddingMarginBorder,
+            height: "100%"
+        },
         BODY: {
             extends: noPaddingMarginBorder,
             fontFamily: 'AlmaraiRegular',
@@ -54,7 +57,24 @@ const MainStyleSheet = {
             fontSize: "1rem",
             color: "-titleColor"
         },
-        P: noPaddingMarginBorder
+        P: noPaddingMarginBorder,
+        _MenuButton: {
+            fontFamily: 'AlmaraiBold',
+            color: '-firstTextColor',
+            border: 'none',
+            padding: '0px',
+            margin: '0px',
+            width: "100%",
+            fontSize: 'inherit',
+            backgroundColor: 'transparent'
+        },
+        "_MenuButton:focus": {
+            color: 'black',
+            backgroundColor: 'var(--buttonFocusColor)',
+            border: 'none',
+            textDecoration: 'none',
+            outline: 'none'
+        }
     }
 };
 

@@ -15,10 +15,15 @@ export default class LessEl {
             wrapper = wrapped.$$;
             console.warn("element already wrapped. ignoring definition");
         } else {
-            wrapper = new El(wrapped);
+            const wrapperClass = definition.wrapper;
+            delete definition.wrapper;
+
+            const wrapperClass2 = wrapperClass || El;
+            wrapper = new wrapperClass2(wrapped);
+
             await wrapper.Set(definition);
+            definition.wrapper = wrapperClass;
         }   
         return wrapper;
     }
-
 }

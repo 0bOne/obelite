@@ -1,24 +1,17 @@
 const Language = {
-    Game: {
-        Obelite: "Obelite",
+    Home: {
+        Menu: "Home",
+        MenuInfo: "Title page",
+        Title: "Obelite",
         ByOb1Inspired: "By 0b1, Inspired by Oolite and using some of its assets under the GPL",
     },
-    ScreenButtons: {
-        ViewShipLibrary: "View ship library",
-        ViewGalacticChart: "View galactic chart",
-        StartNewCommander: "Start new commander",
-        LoadCommander: "Load commander",
-        GameOptions: "Game options",
-        GoBack: "Go Back",
-    },
-    ScreenButtonInfo : {
-        ViewAllShipsAndObjects: "View all ships and objects in the game library",
-        ViewGalacticChart: "View the galactic chart",
-        StartGameAsNew: "Start the game as a new commander",
-        LoadAPreviouslySaved: "Load a previously saved commander",
-        SetCameraKEyboardAnd: "Set Camera, Keyboard and other options",
+    BackView: {
+        Menu: "Go Back",
+        MenuInfo: "Return to previous"
     },
     ShipLibraryView: {
+        Menu: "View ship library",
+        MenuInfo: "View all ships and objects in the game library",
         Title: "Ship library",
         Ships: "Ships",
         ThargoidShips: "Thargoid Ships",
@@ -35,13 +28,15 @@ const Language = {
         Generator: "Generator"
     },
     GalacticChartView: {
+        Menu: "View galactic chart",
+        MenuInfo: "View the galactic chart",
         Title: "System chart %n%",
         DataOnsystem: "Data on system",
         CommodityMarket: "Commodity Market",
         ZoomHelp: "zoom in and out use '6' (not F6). Click or use arrows to select a different system. 'i' shows system summary"
     },
     SystemDataView: {
-        Title: "Daata on %s%",
+        Title: "Data on %s%",
         Government: "Government",
         Economy: "Economy",
         TechLevel: "Tech Level",
@@ -60,16 +55,22 @@ const Language = {
         CreditsAvailable: "Credits Available"
     },
     NewCommanderView: {
+        Menu: "Start new commander",
+        MenuInfo: "Start the game as a new commander",
         Title: "New commander",
         ComingSoon: "(new commander view coming soon)",
     },
-    LoadCommandView: {
+    LoadCommanderView: {
+        Menu: "Load commander",
+        MenuInfo: "Load a previously saved commander",
         Title: "Load commander",
         ComingSoon: "(load commander view coming soon)"
     },
     GameOptionsView: {
+        Menu: "Game options",
+        MenuInfo: "Set Camera, Keyboard and other options",
         title: "Game options",
-        ComingSoon: "(game options view coming soon)"
+        ComingSoon: "(game options view coming soon)",
     }
 }
 
