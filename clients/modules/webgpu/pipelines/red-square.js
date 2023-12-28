@@ -1,18 +1,18 @@
 import BasePipeline from "./base-pipeline.js";
 
-const shaderFileName = "red-square";
-const dimensions = 2;
+const SHADER_FILE_NAME = "red-square";
+const DIMENSIONS = 2;
 
-const  vertexBufferLayout = {
-    arrayStride: dimensions * 4,
+const  VERTEX_BUFFER_LAYOUT = {
+    arrayStride: DIMENSIONS * 4,
     attributes: [{
-      format: "float32x" + dimensions,
+      format: "float32x" + DIMENSIONS,
       offset: 0,
       shaderLocation: 0, // Position in vertex shader
     }]
 };
 
-const vertices = new Float32Array([
+const VERTICES = new Float32Array([
     //   X,    Y,
       -0.8, -0.8, // Triangle 1 (Blue)
        0.8, -0.8,
@@ -25,44 +25,42 @@ const vertices = new Float32Array([
 
 export default class RedSquare extends BasePipeline {
     constructor(device, canvasFormat) {
-        super(device, dimensions, canvasFormat);
+        super(device, DIMENSIONS, canvasFormat);
     }
 
-    async Initialize(canvasFormat) {
-        const shaderModule = await this.LoadShaderModule(shaderFileName);
+    async Initialize() {
+        const shaderModule = await this.LoadShaderModule(SHADER_FILE_NAME);
         this.pipe = this.device.createRenderPipeline({
-            label: shaderFileName,
+            label: SHADER_FILE_NAME,
             layout: "auto",
             vertex: {
                 module: shaderModule,
                 entryPoint: "vertexMain",
-                buffers: [vertexBufferLayout]
+                buffers: [VERTEX_BUFFER_LAYOUT]
             },
             fragment: {
                 module: shaderModule,
                 entryPoint: "fragmentMain",
                 targets: [{
-                    format: canvasFormat
+                    format: this.canvasFormat
                 }]
             }
         });
     }
 
     CreateBuffers(arrays) {
-
         this.bufferOffset = 0;
-        this.vertexCount = vertices.length / this.dimensions;
+        this.vertexCount = VERTICES.length / this.dimensionality;
 
         this.vertexBuffer = this.device.createBuffer({
             label: arrays.metadata.name + " vertex buffer",
-            size: vertices.byteLength,
+            size: VERTICES.byteLength,
             usage: GPUBufferUsage.VERTEX | GPUBufferUsage.COPY_DST,
         });
-
     }
 
     WriteBuffers(arrays) {
-        this.device.queue.writeBuffer(this.vertexBuffer, this.bufferOffset, vertices);
+        this.device.queue.writeBuffer(this.vertexBuffer, this.bufferOffset, VERTICES);
     }
 
     EncodePass(encoder, viewTexture) {
@@ -70,7 +68,7 @@ export default class RedSquare extends BasePipeline {
             colorAttachments: [{
                view: viewTexture,
                loadOp: "clear",
-               clearValue: { r: 0.1, g: 0.1, b: 0.1, a: 1 },
+               clearValue: {r: 0.1, g: 0.1, b: 0.1, a: 1},
                storeOp: "store",
             }]
         });

@@ -3,28 +3,35 @@ const shaderModules = {};
 
 export default class BasePipeline {
     
-    device;
-    dimensions;
-    canvasFormat
+    gpuContext;
     pipe;
 
-    constructor(device, dimensions, canvasFormat) {
-        this.device = device;
-        this.dimensions = dimensions;
-        this.canvasFormat = canvasFormat;
+    constructor(gpuContext) {
+        this.gpuContext = gpuContext;
     }
 
     async LoadShaderModule(shaderFileName) {
         if (!shaderModules[shaderFileName]) {
             const shaderResponse = await fetch(import.meta.url + "/../shaders/" + shaderFileName + ".wgsl");
             const shaderText = await shaderResponse.text();
-            shaderModules[shaderFileName] = this.device.createShaderModule({code: shaderText, label: shaderFileName});
+            shaderModules[shaderFileName] = this.gpuContext.device.createShaderModule({code: shaderText, label: shaderFileName});
         }
         return shaderModules[shaderFileName];
     }
 
     async Initialize(canvasFormat) {
-        throw "not implemented";
+        throw "abstract method - no override";
     }
+
+    createBuffer(data, usageFlag = GPUBufferUsage.VERTEX | GPUBufferUsage.COPY_DST) {
+        const buffer = this.gpuContext.device.createBuffer({
+            size: data.byteLength,
+            usage: usageFlag,
+            mappedAtCreation: true
+        });
+        new Float32Array(buffer.getMappedRange()).set(data);
+        buffer.unmap();
+        return buffer;
+    };
     
 }

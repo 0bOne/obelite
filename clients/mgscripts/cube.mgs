@@ -1,6 +1,6 @@
 metadata:
   name: cube
-  pipeline: red-square
+  pipeline: colored-cube #red-square
   description: cube mesh definition
   anything else: here
 mesh:

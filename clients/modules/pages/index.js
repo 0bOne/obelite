@@ -5,11 +5,14 @@ import Language from '../obelite/language-en.js';
 import LayoutStyles from '../obelite/layout-styles.js';
 import Menu from '../components/menu.js';
 import WebGPUCanvas from '../webgpu/webgpu-canvas.js';
-import MgScript from '../mgscript/mgscript.js';
+import SceneGraph from '../3d/scene-graph.js';
+//import MgScript from '../mgscript/mgscript.js';
 
 export default class IndexPage {
 
-    gpu;
+    
+    sceneGraph;
+    gpuContext;
 
     constructor() {
         this.styleSheet = new StyleSheet(document.head);
@@ -18,41 +21,37 @@ export default class IndexPage {
 
     async Begin() {
 
-        const gpuContext = {
+        this.gpuContext = {
             adapter: await navigator.gpu?.requestAdapter(),
-            features: []
+            features: [],
+            pipelines: {}
         };
-        gpuContext.adapter.features.forEach(feature => {
-            gpuContext.features.push(feature);
+        this.gpuContext.adapter.features.forEach(feature => {
+            this.gpuContext.features.push(feature);
         });
-        gpuContext.device = await gpuContext.adapter?.requestDevice();
+        this.gpuContext.device = await this.gpuContext.adapter?.requestDevice();
 
-        if (!gpuContext.device) {
+        if (!this.gpuContext.device) {
             //TODO: navigate to no-gpu.html
             throw new Error("WebGPU not supported on this browser.");
         }
-        gpuContext.limits = gpuContext.device.limits;
-        console.log("gpuContext", gpuContext);
-        window.gpuContext = gpuContext;
+        
+        this.gpuContext.canvasFormat = navigator.gpu.getPreferredCanvasFormat();
+        //console.log("gpuContext", this.gpuContext);
 
         const page = await LessEl.Create(document.body, mainPageDef);
         document.body.addEventListener("GameEvent", this.onGameEvent.bind(this));
 
+        await page.named.WebGPU.Configure(this.gpuContext);
+        this.sceneGraph = new SceneGraph(this.gpuContext);
+
         const start = performance.now();
-        const scriptUrl =  "./mgscripts/cube.mgs";
-        const script = new MgScript();
-        await script.FromUrl(scriptUrl);
-        const triangles = await script.ComputeTriangles();
-        const meshArrays = await script.CollectArrays(triangles);
+        await this.sceneGraph.AddNode('../meshes/cobra-mesh.js');
         const end = performance.now();
-        console.log("mesh time", end - start, "ms");
+        console.log("mesh load time", end - start, "ms");
+        this.sceneGraph.Draw();
 
-        await page.named.WebGPU.Prepare(meshArrays, 3);
-        const encoder = gpuContext.device.createCommandEncoder();
-            await page.named.WebGPU.Draw(encoder);
-        const commandBuffer = encoder.finish();
-        gpuContext.device.queue.submit([commandBuffer]);
-
+        document.body.addEventListener("keyup", this.onKeyUp.bind(this));
     }
 
     onGameEvent(event) {
@@ -63,6 +62,17 @@ export default class IndexPage {
             default:
                 throw "action not recognized " + event.detail.action;
         }
+    }
+
+    onKeyUp(event) {
+        const changed = this.sceneGraph.onKeyUp(event);
+        if (changed) {
+            requestAnimationFrame(this.animationFrame.bind(this));
+        }
+    }
+
+    animationFrame(a, b, c) {
+        this.sceneGraph.Draw();
     }
 }
 
@@ -119,7 +129,7 @@ const mainPageDef = {
             width: '400px',
             gap: '6px',
         },
-        wrapper: Menu,
+        //wrapper: Menu,
         itemDefinition: {
             tag: 'button',
             classes: 'MenuButton'
@@ -154,7 +164,6 @@ const mainPageDef = {
         }]
     }]
 }
-
 
 const p = new IndexPage();
 p.Begin();

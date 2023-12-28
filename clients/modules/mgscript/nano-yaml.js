@@ -200,7 +200,6 @@ function Schema(definition) {
     return this.extend(definition);
 }
   
-
 Schema.prototype.extend = function extend(definition) {
     var implicit = [];
     var explicit = [];
@@ -737,16 +736,13 @@ function resolveYamlPairs(data) {
 function constructYamlPairs(data) {
     if (data === null) return [];
   
-    var index, length, pair, keys, result,
-      object = data;
+    var index, length, pair, keys, result, object = data;
   
     result = new Array(object.length);
   
     for (index = 0, length = object.length; index < length; index += 1) {
       pair = object[index];
-  
       keys = Object.keys(pair);
-  
       result[index] = [keys[0], pair[keys[0]]];
     }
   
@@ -801,7 +797,6 @@ function _class(obj) {
     return Object.prototype.toString.call(obj); 
 }
 
-  
 function fromHexCode(c) {
     var lc;
   
